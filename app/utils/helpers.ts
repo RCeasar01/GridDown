@@ -1,4 +1,4 @@
-import { Guide, Category } from '../db/contentLoader';
+﻿import { Guide } from '../db/contentLoader';
 
 export function priorityColor(priority: string): string {
   switch (priority) {
@@ -20,18 +20,18 @@ export function priorityLabel(priority: string): string {
 
 export function categoryIcon(category: string): string {
   const icons: Record<string, string> = {
-    water: '💧',
-    fire: '🔥',
-    shelter: '🏕️',
-    food: '🌿',
-    medical: '🩹',
-    navigation: '🧭',
-    comms: '📡',
-    security: '🛡️',
-    tools: '🔧',
-    disaster: '⚠️',
+    water: 'ðŸ’§',
+    fire: 'ðŸ”¥',
+    shelter: 'ðŸ•ï¸',
+    food: 'ðŸŒ¿',
+    medical: 'ðŸ©¹',
+    navigation: 'ðŸ§­',
+    comms: 'ðŸ“¡',
+    security: 'ðŸ›¡ï¸',
+    tools: 'ðŸ”§',
+    disaster: 'âš ï¸',
   };
-  return icons[category] ?? '📋';
+  return icons[category] ?? 'ðŸ“‹';
 }
 
 export function categoryDescription(category: string): string {

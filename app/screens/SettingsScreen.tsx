@@ -10,7 +10,7 @@ import { SUPPORTED_LANGUAGES, downloadLanguageModel, type SupportedLanguage, typ
 const PRIVACY_URL = process.env.EXPO_PUBLIC_PRIVACY_URL ?? 'https://rceasar01.github.io/GridDown/privacy';
 const TERMS_URL = process.env.EXPO_PUBLIC_TERMS_URL ?? 'https://rceasar01.github.io/GridDown/terms';
 const APP_VERSION = '1.0.0';
-const DISCORD_URL = process.env.EXPO_PUBLIC_DISCORD_URL ?? 'https://discord.gg/griddown';
+const _DISCORD_URL = process.env.EXPO_PUBLIC_DISCORD_URL ?? 'https://discord.gg/griddown';
 
 export function SettingsScreen() {
   const { t } = useTranslation();

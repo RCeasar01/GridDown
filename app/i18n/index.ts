@@ -1,4 +1,4 @@
-import i18n from 'i18next';
+﻿import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import * as Localization from 'expo-localization';
 
@@ -40,7 +40,7 @@ void i18n
     lng: detectLanguage(),
     fallbackLng: 'en',
     interpolation: { escapeValue: false },
-    compatibilityJSON: 'v3',
+    compatibilityJSON: 'v4',
   });
 
 export default i18n;

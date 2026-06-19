@@ -1,24 +1,17 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, StyleSheet, ActivityIndicator } from 'react-native';
+import { useRoute, RouteProp } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
 import { useAppStore } from '../store/useAppStore';
 import { isModelDownloaded, translateText, type SupportedLanguage } from '../utils/translation';
 import { getCachedTranslation, cacheTranslation } from '../db/contentLoader';
+import { getGuideById } from '../utils/guideRegistry';
 
 export interface GuideStep { step: number; title: string; body: string; }
 export interface GuideData {
-  id: string;
-  category: string;
-  title: string;
-  priority: string;
-  tags: string[];
-  summary: string;
-  steps: GuideStep[];
-  warnings: string[];
-  proTips: string[];
-  relatedGuides: string[];
-  /** Set true on any guide requiring the medical disclaimer, regardless of category. */
-  requiresMedicalDisclaimer?: boolean;
+  id: string; category: string; title: string;
+  priority: string; tags: string[]; summary: string;
+  steps: GuideStep[]; warnings: string[]; proTips: string[]; relatedGuides: string[];
 }
 
 interface TranslatedGuideContent {
@@ -27,7 +20,7 @@ interface TranslatedGuideContent {
   proTips: string[];
 }
 
-interface Props { guide: GuideData; }
+type GuideRoute = RouteProp<{ Guide: { guideId: string } }, 'Guide'>;
 
 async function translateAndCache(
   text: string, lang: SupportedLanguage, guideId: string, field: string,
@@ -39,7 +32,9 @@ async function translateAndCache(
   return result;
 }
 
-export function GuideScreen({ guide }: Props) {
+export function GuideScreen() {
+  const route = useRoute<GuideRoute>();
+  const guide = getGuideById(route.params.guideId);
   const { t } = useTranslation();
   const { selectedLanguage, translateContentEnabled } = useAppStore();
 
@@ -48,9 +43,11 @@ export function GuideScreen({ guide }: Props) {
   const [translated, setTranslated] = useState<TranslatedGuideContent | null>(null);
   const [modelAvailable, setModelAvailable] = useState(false);
 
+  if (!guide) {
+    return <View style={{ flex: 1, backgroundColor: '#0D0D0D' }} />;
+  }
+
   const canTranslate = selectedLanguage !== 'en' && translateContentEnabled;
-  const showMedicalDisclaimer =
-    guide.category === 'medical' || guide.requiresMedicalDisclaimer === true;
 
   const checkModel = useCallback(async () => {
     if (!canTranslate) return;
@@ -105,22 +102,10 @@ export function GuideScreen({ guide }: Props) {
       <Text style={styles.title}>{guide.title}</Text>
       <Text style={styles.summary}>{guide.summary}</Text>
 
-      {/*
-        Apple App Store Guideline 5.1.1 — Medical Content
-        Disclaimer must appear BEFORE the first step, inline, and non-dismissable.
-        This renders for all guides with category 'medical' OR requiresMedicalDisclaimer === true.
-      */}
-      {showMedicalDisclaimer && (
-        <View style={styles.medicalDisclaimer} accessibilityRole="text" accessibilityLabel="Medical disclaimer">
-          <View style={styles.medicalDisclaimerHeader}>
-            <Text style={styles.medicalDisclaimerIcon}>⚕</Text>
-            <Text style={styles.medicalDisclaimerTitle}>MEDICAL INFORMATION — EMERGENCY REFERENCE ONLY</Text>
-          </View>
-          <Text style={styles.medicalDisclaimerBody}>
-            This guide is intended for emergency use when professional medical care is unavailable.
-            It is NOT a substitute for professional medical advice, diagnosis, or treatment.
-            Always seek qualified medical care whenever possible.
-          </Text>
+      {/* Medical Disclaimer */}
+      {guide.category === 'medical' && (
+        <View style={styles.disclaimer}>
+          <Text style={styles.disclaimerText}>{t('guide.medicalDisclaimer')}</Text>
         </View>
       )}
 
@@ -141,8 +126,6 @@ export function GuideScreen({ guide }: Props) {
                 if (showingOriginal && !translated) { void loadTranslations(); }
                 else { setShowingOriginal((prev) => !prev); }
               }}
-              accessibilityLabel={showingOriginal ? 'View translated guide' : 'View original guide'}
-              accessibilityRole="button"
             >
               <Text style={styles.translateBtnText}>
                 {showingOriginal ? t('guide.viewTranslated') : t('guide.viewOriginal')}
@@ -207,34 +190,8 @@ const styles = StyleSheet.create({
   priorityText: { color: '#fff', fontSize: 11, fontWeight: '800', letterSpacing: 1 },
   title: { fontSize: 22, fontWeight: '800', color: '#F0F0F0', marginBottom: 8 },
   summary: { fontSize: 14, color: '#AAA', lineHeight: 20, marginBottom: 16 },
-  // Medical disclaimer: non-dismissable inline banner, BEFORE first step (Apple 5.1.1)
-  medicalDisclaimer: {
-    backgroundColor: '#1A0D08',
-    borderWidth: 1,
-    borderColor: '#E8642A',
-    borderRadius: 8,
-    padding: 14,
-    marginBottom: 16,
-  },
-  medicalDisclaimerHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    marginBottom: 8,
-  },
-  medicalDisclaimerIcon: { fontSize: 16 },
-  medicalDisclaimerTitle: {
-    color: '#E8642A',
-    fontSize: 11,
-    fontWeight: '800',
-    letterSpacing: 0.5,
-    flex: 1,
-  },
-  medicalDisclaimerBody: {
-    color: '#CCC',
-    fontSize: 13,
-    lineHeight: 19,
-  },
+  disclaimer: { backgroundColor: '#1A0E0A', borderLeftWidth: 3, borderLeftColor: '#E8642A', padding: 12, borderRadius: 6, marginBottom: 16 },
+  disclaimerText: { color: '#CCC', fontSize: 12, lineHeight: 18 },
   translateBar: { backgroundColor: '#1A1A1A', borderRadius: 8, padding: 12, marginBottom: 16, borderWidth: 1, borderColor: '#2A2A2A' },
   translateRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   translatingText: { color: '#888', fontSize: 13 },

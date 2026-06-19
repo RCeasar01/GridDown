@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+﻿import React, { useEffect, useState } from 'react';
 import {
-  View, Text, StyleSheet, SafeAreaView, TouchableOpacity,
+  View, Text, StyleSheet, SafeAreaView,
 } from 'react-native';
 import * as Location from 'expo-location';
 import { Ionicons } from '@expo/vector-icons';
@@ -54,16 +54,16 @@ export function MapScreen() {
             <View style={styles.coordRow}>
               <View style={styles.coordItem}>
                 <Text style={styles.coordLabel}>LATITUDE</Text>
-                <Text style={styles.coordValue}>{location.lat.toFixed(6)}°</Text>
+                <Text style={styles.coordValue}>{location.lat.toFixed(6)}Â°</Text>
               </View>
               <View style={styles.coordDivider} />
               <View style={styles.coordItem}>
                 <Text style={styles.coordLabel}>LONGITUDE</Text>
-                <Text style={styles.coordValue}>{location.lon.toFixed(6)}°</Text>
+                <Text style={styles.coordValue}>{location.lon.toFixed(6)}Â°</Text>
               </View>
             </View>
           ) : (
-            <Text style={styles.locationPending}>Acquiring location…</Text>
+            <Text style={styles.locationPending}>Acquiring locationâ€¦</Text>
           )}
         </View>
 
@@ -72,7 +72,7 @@ export function MapScreen() {
           <Text style={styles.featureListTitle}>PLANNED MAP FEATURES</Text>
           {[
             'Downloadable topo and satellite tile packs',
-            'Regional coverage — CONUS, Alaska, Hawaii',
+            'Regional coverage â€” CONUS, Alaska, Hawaii',
             'Mark waypoints and routes offline',
             'Grid coordinate display (MGRS / UTM)',
             'Compass overlay and bearing tracker',

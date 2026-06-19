@@ -1,11 +1,11 @@
-import React from 'react';
+﻿import React from 'react';
 import {
   View, Text, StyleSheet, SafeAreaView, ScrollView,
   TouchableOpacity, Alert,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
-import { useAppStore, ContentPack, UserTier } from '../store/useAppStore';
+import { useAppStore, ContentPack } from '../store/useAppStore';
 import { useNavigation } from '@react-navigation/native';
 
 function formatBytes(bytes: number): string {
@@ -25,7 +25,7 @@ const TIER_LABEL: Record<string, string> = {
 };
 
 export function ContentPacksScreen() {
-  const { contentPacks, userTier, hasAccess, setContentPacks } = useAppStore();
+  const { contentPacks, hasAccess, setContentPacks } = useAppStore();
   const navigation = useNavigation<any>();
 
   const installed = contentPacks.filter((p) => p.installed);
@@ -45,7 +45,7 @@ export function ContentPacksScreen() {
       return;
     }
     // Scaffold: simulate install
-    Alert.alert('Download Started', `${pack.name} is downloading… (${formatBytes(pack.sizeBytes)})\n\nNote: This is a scaffold. Real download will pull from CDN.`);
+    Alert.alert('Download Started', `${pack.name} is downloadingâ€¦ (${formatBytes(pack.sizeBytes)})\n\nNote: This is a scaffold. Real download will pull from CDN.`);
     setContentPacks(contentPacks.map((p) => (p.id === pack.id ? { ...p, installed: true } : p)));
   };
 
@@ -77,7 +77,7 @@ export function ContentPacksScreen() {
         </View>
 
         {/* Installed */}
-        <Text style={styles.sectionTitle}>✅ INSTALLED ({installed.length})</Text>
+        <Text style={styles.sectionTitle}>âœ… INSTALLED ({installed.length})</Text>
         {installed.map((pack) => (
           <PackCard key={pack.id} pack={pack} installed onAction={() => handleRemove(pack)} />
         ))}
@@ -85,7 +85,7 @@ export function ContentPacksScreen() {
         {/* Available */}
         {available.length > 0 && (
           <>
-            <Text style={styles.sectionTitle}>📥 AVAILABLE TO DOWNLOAD</Text>
+            <Text style={styles.sectionTitle}>ðŸ“¥ AVAILABLE TO DOWNLOAD</Text>
             {available.map((pack) => (
               <PackCard
                 key={pack.id}
@@ -133,7 +133,7 @@ function PackCard({ pack, installed, locked, requiredTierLabel, onAction }: Pack
           )}
         </View>
         <Text style={styles.packDesc}>{pack.description}</Text>
-        <Text style={styles.packSize}>{formatBytes(pack.sizeBytes)} · v{pack.version}</Text>
+        <Text style={styles.packSize}>{formatBytes(pack.sizeBytes)} Â· v{pack.version}</Text>
       </View>
       <TouchableOpacity
         style={[

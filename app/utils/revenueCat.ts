@@ -1,4 +1,4 @@
-/**
+﻿/**
  * RevenueCat Integration Scaffold
  * 
  * Replace placeholder keys with your actual RevenueCat API keys from:
@@ -6,7 +6,7 @@
  * 
  * Required package: react-native-purchases@^7.27.0
  * Install: npx expo install react-native-purchases
- * Note: RevenueCat requires a bare/development build — not Expo Go
+ * Note: RevenueCat requires a bare/development build â€” not Expo Go
  */
 
 import { Platform } from 'react-native';
@@ -16,7 +16,7 @@ import type { UserTier } from '../store/useAppStore';
 const REVENUECAT_IOS_KEY = process.env.EXPO_PUBLIC_REVENUECAT_IOS_KEY || 'appl_PLACEHOLDER';
 const REVENUECAT_ANDROID_KEY = process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_KEY || 'goog_PLACEHOLDER';
 
-// Entitlement identifiers — must match RevenueCat dashboard exactly
+// Entitlement identifiers â€” must match RevenueCat dashboard exactly
 export const ENTITLEMENTS = {
   DISCORD: 'griddown_discord',
   MONTHLY: 'griddown_monthly',
@@ -27,7 +27,7 @@ export const ENTITLEMENTS = {
   EXTREME_LIFETIME: 'griddown_extreme_lifetime',
 } as const;
 
-// Product identifiers — must match App Store Connect / Google Play Console
+// Product identifiers â€” must match App Store Connect / Google Play Console
 export const PRODUCT_IDS = {
   DISCORD_MONTHLY: 'griddown_discord_monthly_199',
   MONTHLY: 'griddown_monthly_399',
@@ -63,7 +63,7 @@ export async function configureRevenueCat(userId?: string): Promise<void> {
     }
 
     isConfigured = true;
-    console.log('[RevenueCat] Configured successfully');
+    console.warn('[RevenueCat] Configured successfully');
   } catch (error) {
     console.error('[RevenueCat] Configuration failed:', error);
   }

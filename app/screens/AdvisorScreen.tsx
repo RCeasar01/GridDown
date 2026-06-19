@@ -50,6 +50,7 @@ export function AdvisorScreen() {
 }
 
 function LockedAdvisor() {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
   const navigation = require('@react-navigation/native').useNavigation();
   return (
     <SafeAreaView style={styles.safe}>
@@ -684,3 +685,4 @@ const styles = StyleSheet.create({
   },
   sendBtnDisabled: { opacity: 0.4 },
 });
+
