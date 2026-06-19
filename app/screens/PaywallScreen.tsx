@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import {
   View, Text, StyleSheet, SafeAreaView, ScrollView,
-  TouchableOpacity,
+  TouchableOpacity, Linking,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
 import { useAppStore } from '../store/useAppStore';
 import { useRoute } from '@react-navigation/native';
+
+const PRIVACY_URL = 'https://rceasar01.github.io/GridDown/privacy';
+const TERMS_URL   = 'https://rceasar01.github.io/GridDown/terms';
 
 const PLANS = [
   {
@@ -14,6 +17,7 @@ const PLANS = [
     name: 'Free',
     price: '$0',
     period: 'forever',
+    autoRenews: false,
     features: [
       '3 categories (water, fire, shelter)',
       'No offline maps',
@@ -30,6 +34,7 @@ const PLANS = [
     name: 'Discord Only',
     price: '$1.99',
     period: '/month',
+    autoRenews: true,
     features: [
       'Full Discord community access',
       'Discord role: Civilian',
@@ -45,6 +50,7 @@ const PLANS = [
     name: 'Monthly',
     price: '$3.99',
     period: '/month',
+    autoRenews: true,
     features: [
       'Full 10-category library',
       'Lite content packs',
@@ -62,6 +68,7 @@ const PLANS = [
     name: 'Yearly',
     price: '$29.99',
     period: '/year',
+    autoRenews: true,
     badge: 'MOST POPULAR' as string | null,
     features: [
       'Everything in Monthly',
@@ -79,6 +86,7 @@ const PLANS = [
     name: 'Lifetime Standard',
     price: '$79.99',
     period: 'one-time',
+    autoRenews: false,
     badge: null as string | null,
     features: [
       'Everything in Yearly — forever',
@@ -95,6 +103,7 @@ const PLANS = [
     name: 'Extreme Monthly',
     price: '$9.99',
     period: '/month',
+    autoRenews: true,
     badge: null as string | null,
     features: [
       'Full library + AI Advisor',
@@ -111,6 +120,7 @@ const PLANS = [
     name: 'Extreme Yearly',
     price: '$69.99',
     period: '/year',
+    autoRenews: true,
     badge: 'BEST VALUE' as string | null,
     features: [
       'Everything in Extreme Monthly',
@@ -126,6 +136,7 @@ const PLANS = [
     name: 'Extreme Lifetime',
     price: '$149.99',
     period: 'one-time',
+    autoRenews: false,
     badge: 'ULTIMATE' as string | null,
     features: [
       'Everything — forever',
@@ -150,6 +161,7 @@ export function PaywallScreen() {
     if (plan.tier === 'free' || plan.tier === userTier) return;
     setPurchasing(plan.id);
     // RevenueCat integration — replace with purchasePackage(plan.id)
+    // Also set: Purchases.setAutomaticAppleSearchAdsAttributionCollection(false)
     await new Promise((r) => setTimeout(r, 1200));
     setUserTier(plan.tier);
     setPurchasing(null);
@@ -178,9 +190,29 @@ export function PaywallScreen() {
           All content is stored on your device. No internet required after setup.
         </Text>
 
+        {/* Apple IAP compliance: payment notice above purchase buttons */}
+        <View style={styles.paymentNotice}>
+          <Ionicons name="lock-closed-outline" size={12} color={Colors.textMuted} />
+          <Text style={styles.paymentNoticeText}>
+            Payment will be charged to your Apple ID account at confirmation of purchase.
+          </Text>
+        </View>
+
+        {/* Restore Purchases — visible without scrolling per App Store guideline */}
+        <TouchableOpacity
+          style={styles.restoreBtn}
+          onPress={handleRestore}
+          disabled={purchasing !== null}
+          accessibilityLabel="Restore Purchases"
+          accessibilityRole="button"
+        >
+          <Text style={styles.restoreBtnText}>
+            {purchasing === 'restore' ? 'Restoring…' : 'Restore Purchases'}
+          </Text>
+        </TouchableOpacity>
+
         {PLANS.map((plan) => {
           const isCurrent = plan.tier === userTier;
-          const isExtreme = plan.id.startsWith('extreme');
           const isMostPopular = plan.badge === 'MOST POPULAR';
           return (
             <View
@@ -250,29 +282,51 @@ export function PaywallScreen() {
                 ]}
                 onPress={() => handlePurchase(plan)}
                 disabled={isCurrent || plan.tier === 'free' || purchasing !== null}
+                accessibilityLabel={
+                  isCurrent
+                    ? `${plan.name}: Current Plan`
+                    : `${plan.name} ${plan.price}${plan.period}: ${plan.cta}`
+                }
+                accessibilityRole="button"
               >
                 <Text style={[styles.ctaText, isCurrent && styles.ctaTextCurrent]}>
                   {purchasing === plan.id ? 'Processing…' : isCurrent ? '✓ Current Plan' : plan.cta}
                 </Text>
               </TouchableOpacity>
+
+              {/* Apple IAP compliance: auto-renewal disclosure below each subscription CTA */}
+              {plan.autoRenews && !isCurrent && (
+                <Text style={styles.autoRenewText}>
+                  Subscription auto-renews. Cancel anytime in Settings {'>'} [Your Name] {'>'} Subscriptions.
+                </Text>
+              )}
             </View>
           );
         })}
-
-        <TouchableOpacity
-          style={styles.restoreBtn}
-          onPress={handleRestore}
-          disabled={purchasing !== null}
-        >
-          <Text style={styles.restoreBtnText}>
-            {purchasing === 'restore' ? 'Restoring…' : 'Restore Purchases'}
-          </Text>
-        </TouchableOpacity>
 
         <Text style={styles.legal}>
           Purchases are processed via the App Store / Google Play. Subscriptions auto-renew unless
           cancelled at least 24 hours before the end of the current period. Prices in USD.
         </Text>
+
+        {/* Apple IAP compliance: ToS and Privacy Policy links */}
+        <View style={styles.legalLinks}>
+          <TouchableOpacity
+            onPress={() => Linking.openURL(PRIVACY_URL)}
+            accessibilityLabel="Open Privacy Policy"
+            accessibilityRole="link"
+          >
+            <Text style={styles.legalLink}>Privacy Policy</Text>
+          </TouchableOpacity>
+          <Text style={styles.legalSep}>·</Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL(TERMS_URL)}
+            accessibilityLabel="Open Terms of Service"
+            accessibilityRole="link"
+          >
+            <Text style={styles.legalLink}>Terms of Service</Text>
+          </TouchableOpacity>
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
@@ -294,6 +348,14 @@ const styles = StyleSheet.create({
   featureBannerText: { color: Colors.danger, fontSize: 13, flex: 1, fontWeight: '600' },
   title: { color: Colors.textPrimary, fontSize: 24, fontWeight: '800', textAlign: 'center' },
   subtitle: { color: Colors.textSecondary, fontSize: 13, textAlign: 'center', lineHeight: 18 },
+  paymentNotice: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 5,
+    marginTop: -4,
+  },
+  paymentNoticeText: { color: Colors.textMuted, fontSize: 11, textAlign: 'center', flex: 1, lineHeight: 15 },
   planCard: {
     backgroundColor: Colors.surface,
     borderRadius: 14,
@@ -334,9 +396,17 @@ const styles = StyleSheet.create({
   ctaBtnLoading: { opacity: 0.6 },
   ctaText: { color: '#fff', fontSize: 15, fontWeight: '700' },
   ctaTextCurrent: { color: Colors.textMuted },
+  autoRenewText: {
+    color: Colors.textMuted,
+    fontSize: 11,
+    lineHeight: 15,
+    textAlign: 'center',
+    marginTop: -2,
+  },
   restoreBtn: {
-    paddingVertical: 14,
+    paddingVertical: 10,
     alignItems: 'center',
+    marginTop: -4,
   },
   restoreBtnText: {
     color: Colors.textSecondary,
@@ -345,4 +415,17 @@ const styles = StyleSheet.create({
     textDecorationLine: 'underline',
   },
   legal: { color: Colors.textMuted, fontSize: 11, textAlign: 'center', lineHeight: 16 },
+  legalLinks: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 6,
+    marginTop: -4,
+  },
+  legalLink: {
+    color: Colors.textMuted,
+    fontSize: 11,
+    textDecorationLine: 'underline',
+  },
+  legalSep: { color: Colors.textMuted, fontSize: 11 },
 });

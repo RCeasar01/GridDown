@@ -7,9 +7,18 @@ import { getCachedTranslation, cacheTranslation } from '../db/contentLoader';
 
 export interface GuideStep { step: number; title: string; body: string; }
 export interface GuideData {
-  id: string; category: string; title: string;
-  priority: string; tags: string[]; summary: string;
-  steps: GuideStep[]; warnings: string[]; proTips: string[]; relatedGuides: string[];
+  id: string;
+  category: string;
+  title: string;
+  priority: string;
+  tags: string[];
+  summary: string;
+  steps: GuideStep[];
+  warnings: string[];
+  proTips: string[];
+  relatedGuides: string[];
+  /** Set true on any guide requiring the medical disclaimer, regardless of category. */
+  requiresMedicalDisclaimer?: boolean;
 }
 
 interface TranslatedGuideContent {
@@ -40,6 +49,8 @@ export function GuideScreen({ guide }: Props) {
   const [modelAvailable, setModelAvailable] = useState(false);
 
   const canTranslate = selectedLanguage !== 'en' && translateContentEnabled;
+  const showMedicalDisclaimer =
+    guide.category === 'medical' || guide.requiresMedicalDisclaimer === true;
 
   const checkModel = useCallback(async () => {
     if (!canTranslate) return;
@@ -94,10 +105,22 @@ export function GuideScreen({ guide }: Props) {
       <Text style={styles.title}>{guide.title}</Text>
       <Text style={styles.summary}>{guide.summary}</Text>
 
-      {/* Medical Disclaimer */}
-      {guide.category === 'medical' && (
-        <View style={styles.disclaimer}>
-          <Text style={styles.disclaimerText}>{t('guide.medicalDisclaimer')}</Text>
+      {/*
+        Apple App Store Guideline 5.1.1 — Medical Content
+        Disclaimer must appear BEFORE the first step, inline, and non-dismissable.
+        This renders for all guides with category 'medical' OR requiresMedicalDisclaimer === true.
+      */}
+      {showMedicalDisclaimer && (
+        <View style={styles.medicalDisclaimer} accessibilityRole="text" accessibilityLabel="Medical disclaimer">
+          <View style={styles.medicalDisclaimerHeader}>
+            <Text style={styles.medicalDisclaimerIcon}>⚕</Text>
+            <Text style={styles.medicalDisclaimerTitle}>MEDICAL INFORMATION — EMERGENCY REFERENCE ONLY</Text>
+          </View>
+          <Text style={styles.medicalDisclaimerBody}>
+            This guide is intended for emergency use when professional medical care is unavailable.
+            It is NOT a substitute for professional medical advice, diagnosis, or treatment.
+            Always seek qualified medical care whenever possible.
+          </Text>
         </View>
       )}
 
@@ -118,6 +141,8 @@ export function GuideScreen({ guide }: Props) {
                 if (showingOriginal && !translated) { void loadTranslations(); }
                 else { setShowingOriginal((prev) => !prev); }
               }}
+              accessibilityLabel={showingOriginal ? 'View translated guide' : 'View original guide'}
+              accessibilityRole="button"
             >
               <Text style={styles.translateBtnText}>
                 {showingOriginal ? t('guide.viewTranslated') : t('guide.viewOriginal')}
@@ -182,8 +207,34 @@ const styles = StyleSheet.create({
   priorityText: { color: '#fff', fontSize: 11, fontWeight: '800', letterSpacing: 1 },
   title: { fontSize: 22, fontWeight: '800', color: '#F0F0F0', marginBottom: 8 },
   summary: { fontSize: 14, color: '#AAA', lineHeight: 20, marginBottom: 16 },
-  disclaimer: { backgroundColor: '#1A0E0A', borderLeftWidth: 3, borderLeftColor: '#E8642A', padding: 12, borderRadius: 6, marginBottom: 16 },
-  disclaimerText: { color: '#CCC', fontSize: 12, lineHeight: 18 },
+  // Medical disclaimer: non-dismissable inline banner, BEFORE first step (Apple 5.1.1)
+  medicalDisclaimer: {
+    backgroundColor: '#1A0D08',
+    borderWidth: 1,
+    borderColor: '#E8642A',
+    borderRadius: 8,
+    padding: 14,
+    marginBottom: 16,
+  },
+  medicalDisclaimerHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    marginBottom: 8,
+  },
+  medicalDisclaimerIcon: { fontSize: 16 },
+  medicalDisclaimerTitle: {
+    color: '#E8642A',
+    fontSize: 11,
+    fontWeight: '800',
+    letterSpacing: 0.5,
+    flex: 1,
+  },
+  medicalDisclaimerBody: {
+    color: '#CCC',
+    fontSize: 13,
+    lineHeight: 19,
+  },
   translateBar: { backgroundColor: '#1A1A1A', borderRadius: 8, padding: 12, marginBottom: 16, borderWidth: 1, borderColor: '#2A2A2A' },
   translateRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   translatingText: { color: '#888', fontSize: 13 },

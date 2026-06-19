@@ -18,11 +18,21 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     supportsTablet: true,
     bundleIdentifier: 'com.bannedproduct.griddown',
     buildNumber: '1',
+    // Apple requires iOS 16.0 minimum as of 2025 submission requirements.
+    deploymentTarget: '16.0',
     infoPlist: {
       NSLocationWhenInUseUsageDescription:
-        'GridDown uses your location to show your coordinates for offline navigation.',
+        'GridDown uses your location to display your current coordinates on the map screen. Your location is never stored or transmitted.',
       NSLocationAlwaysAndWhenInUseUsageDescription:
-        'GridDown uses your location for offline maps and navigation.',
+        'GridDown uses your location for offline maps and navigation. Your location is never stored or transmitted.',
+      // Microphone / Camera / Photos: declared because bundled SDKs reference these
+      // entitlements. GridDown itself does not use them.
+      NSMicrophoneUsageDescription:
+        'GridDown does not use your microphone. This key is required by an included SDK.',
+      NSCameraUsageDescription:
+        'GridDown does not use your camera.',
+      NSPhotoLibraryUsageDescription:
+        'GridDown does not access your photo library.',
     },
   },
   android: {
@@ -38,11 +48,30 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   plugins: [
     'expo-sqlite',
     'expo-file-system',
-    ['expo-location', {
-      locationAlwaysAndWhenInUsePermission:
-        'Allow GridDown to use your location for offline maps and coordinate display.',
-    }],
+    [
+      'expo-location',
+      {
+        locationAlwaysAndWhenInUsePermission:
+          'Allow GridDown to use your location for offline maps and coordinate display. Your location is never stored or transmitted.',
+      },
+    ],
     '@react-native-ml-kit/translate',
+    // Apple 2025: minimum iOS 16.0 / Google Play: targetSdkVersion 35
+    [
+      'expo-build-properties',
+      {
+        ios: {
+          deploymentTarget: '16.0',
+        },
+        android: {
+          compileSdkVersion: 35,
+          targetSdkVersion: 35,
+          minSdkVersion: 26,
+        },
+      },
+    ],
+    // Apple 2025: Privacy Manifest (PrivacyInfo.xcprivacy)
+    './plugins/withPrivacyManifest',
   ],
   extra: {
     eas: { projectId: process.env.EAS_PROJECT_ID ?? 'YOUR_EAS_PROJECT_ID' },
