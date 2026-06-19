@@ -1,0 +1,36 @@
+[
+  {
+    "id": "quiz-fire-001",
+    "category": "fire",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You've been attempting to produce a coal with a bow drill for 25 minutes. Both your spindle (willow) and fireboard (willow) are locally sourced but it's been raining for 2 days. You're seeing smoke from the notch but no sustained coal. What is the single most likely cause?",
+    "options": [
+      { "id": "a", "text": "Insufficient downward pressure on the handhold" },
+      { "id": "b", "text": "Wood moisture content is too high — both spindle and board are saturated" },
+      { "id": "c", "text": "The notch angle is incorrect — it should be 1/8 of the depression" },
+      { "id": "d", "text": "The bow speed is too slow for the wood species combination" }
+    ],
+    "correct": "b",
+    "explanation": "Surface moisture on bow drill components is the #1 cause of failure in field conditions. Wood above ~15% moisture content will not sustain friction ignition — the steam produced as moisture evaporates cools the dust pile and prevents it from reaching 800°F+ ignition temperature. Solutions: split the wood to expose dry interior heartwood, keep components inside your clothing/sleeping bag overnight, or use a friction fire starter only after exposure to body heat for several hours. Willow is a good wood pairing — the issue here is moisture, not species selection. Notch should be 1/8 of the fire circle, and pressure/speed are secondary to dry wood.",
+    "relatedGuide": "fire-001",
+    "tags": ["fire", "intermediate", "bow-drill"]
+  },
+  {
+    "id": "quiz-fire-002",
+    "category": "fire",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "You've collected dry tinder (cattail fluff), finger-size kindling (dry twigs), and wrist-size fuel wood (dead branches). You've selected a site. Place these steps in correct order for a safe, reliable fire build.",
+    "items": [
+      { "id": "1", "text": "Clear a 3-foot radius of dead leaves, pine needles, and dry debris around the fire site" },
+      { "id": "2", "text": "Build a tinder bundle and place it at center of cleared area" },
+      { "id": "3", "text": "Build a small teepee of finger-sized kindling above and around the tinder — leave a 'door' opening on the windward side" },
+      { "id": "4", "text": "Add 3-4 pieces of wrist-sized fuel in a loose teepee or log cabin around the kindling structure" },
+      { "id": "5", "text": "Light the tinder bundle through the windward door opening using a match or spark at the base" }
+    ],
+    "correct_order": ["1", "2", "3", "4", "5"],
+    "explanation": "Always clear the debris radius FIRST — most wildfires start from embers landing in surrounding material, not from the fire itself. Build from smallest (tinder) to largest — adding fuel before kindling catches is the most common beginner failure. The windward opening allows oxygen to feed the flame and gives your ignition source access to the base of the tinder. Light at the BASE — heat rises. Never light from the top. Once the kindling catches, add fuel gradually. Never leave a fire unattended, even for 30 seconds in dry conditions.",
+    "relatedGuide": "fire-001",
+    "tags": ["fire", "beginner", "fire-lay"]
+  },

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "quiz-water-001",
+    "category": "water",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You approach a clear, still pond in a forest clearing. The water is transparent, no obvious smell. You have no filter or purification tablets. What is the most accurate statement about drinking this water?",
+    "options": [
+      { "id": "a", "text": "Clear water is safe — clarity indicates no biological contamination" },
+      { "id": "b", "text": "The water may contain Giardia, Cryptosporidium, or chemical runoff — appearance cannot confirm safety" },
+      { "id": "c", "text": "Still water is always more dangerous than moving water" },
+      { "id": "d", "text": "Water is safe if animals have drunk from it recently" }
+    ],
+    "correct": "b",
+    "explanation": "Clarity has nothing to do with microbiological safety. Giardia cysts and Cryptosporidium oocysts are invisible to the naked eye and survive in crystal-clear mountain streams. Chemical runoff from agriculture or mining is also colorless. The 'animals drink it, so it's safe' logic fails because animals carry and pass many of these pathogens. ALWAYS purify before drinking regardless of appearance.",
+    "relatedGuide": "water-001",
+    "tags": ["water", "beginner"]
+  },
+  {
+    "id": "quiz-water-002",
+    "category": "water",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "After 2 days post-disaster with limited water access, your partner is showing symptoms. Which combination of signs indicates SEVERE dehydration requiring immediate oral rehydration treatment?",
+    "options": [
+      { "id": "a", "text": "Feeling thirsty and slightly tired" },
+      { "id": "b", "text": "Sunken eyes, dry mouth, rapid weak pulse, and confusion or irritability" },
+      { "id": "c", "text": "Mild headache and infrequent urination" },
+      { "id": "d", "text": "Dark yellow urine and occasional dizziness when standing" }
+    ],
+    "correct": "b",
+    "explanation": "Thirst indicates mild dehydration (~1-2% body weight loss). Dark urine/dizziness = moderate (3-5%). Sunken eyes + rapid weak pulse + confusion = severe (6-8%+). At this stage, the person cannot regulate blood pressure adequately. Start ORS immediately: WHO formula is 6 level teaspoons of sugar + 0.5 teaspoon of salt dissolved in 1 liter of clean water. Give 200-400mL every 30 minutes. If unconscious or vomiting, cannot use oral route — position on side to prevent aspiration.",
+    "relatedGuide": "water-001",
+    "tags": ["water", "beginner", "dehydration"]
+  },
+  {
+    "id": "quiz-water-003",
+    "category": "water",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "You've found a murky, sediment-heavy pond. You have: a cloth bandana, a water bottle, and iodine tablets. No fire. Place these 5 steps in the correct order to produce the safest drinking water.",
+    "items": [
+      { "id": "1", "text": "Add iodine tablet and replace cap loosely — wait 30 min (or 60 min if cold/turbid)" },
+      { "id": "2", "text": "Collect water from 6 inches below surface, away from the bank" },
+      { "id": "3", "text": "Strain water through doubled-over cloth into bottle to remove sediment" },
+      { "id": "4", "text": "Shake bottle and loosen cap briefly to disinfect threads and cap" },
+      { "id": "5", "text": "After wait time, drink — do not mix with food for 4 hours (iodine affects nutrient absorption)" }
+    ],
+    "correct_order": ["2", "3", "1", "4", "5"],
+    "explanation": "Collect away from bank (less stir-up, less surface contamination). Strain first — sediment physically blocks chemical penetration of microbes and is the top cause of tablet failure. Add tablet AFTER straining — clear water allows iodine to contact pathogens directly. Loosen cap to treat the threads — a common contamination point. Wait the full time. Cold or turbid water requires double the contact time. Iodine is effective against bacteria, viruses, and Giardia, but NOT Cryptosporidium — use filter or boiling if crypto risk is high.",
+    "relatedGuide": "water-001",
+    "tags": ["water", "intermediate", "purification"]
+  },

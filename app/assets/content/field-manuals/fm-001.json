@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fm-001",
+    "category": "security",
+    "title": "FM 21-76 Urban Survival — Key Principles",
+    "priority": "critical",
+    "source": "US Army Field Manual (Public Domain)",
+    "tags": ["field-manual", "survival", "urban", "military", "FM21-76"],
+    "summary": "Core principles from the Army Survival Manual adapted for urban grid-down scenarios: signaling, water, shelter, and maintaining will to survive.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "The Will to Survive",
+        "body": "Psychological toughness is the #1 survival factor per FM 21-76. Use the SURVIVAL acronym as a mental checklist: S — Size up the situation (surroundings, physical condition, equipment); U — Undue haste makes waste (slow down and think before acting); R — Remember where you are (stay oriented to terrain and objective); V — Vanquish fear and panic (acknowledge fear, then control it through action); I — Improvise (adapt military tools and techniques to what you have); V — Value living (your life and your group's lives are worth fighting for); A — Act like the natives (blend into your environment, avoid standing out); L — Live by your wits (use knowledge and training, not just gear). Survivors in extreme scenarios consistently report that the decision to live — made consciously — was the turning point."
+      },
+      {
+        "step": 2,
+        "title": "Urban Water Sources",
+        "body": "Urban structures contain significant water reserves often overlooked: (1) Fire suppression standpipes — buildings with sprinkler systems have pressurized lines containing treated water; access via hose bib connections. (2) Water heater tanks — residential units hold 40–80 gallons of treated water; drain via the bottom spigot. (3) Toilet tanks (NOT bowls) — the tank behind the toilet holds 1–3 gallons of potable water untouched by bowl contents. (4) Closed-loop HVAC systems in commercial buildings may contain large water volumes. Important: all recovered urban water should still be treated before consumption — contamination from pipe damage, chemical spill, or system breach is possible. Avoid floodwater entirely; it combines sewage, chemical, and biological hazards."
+      },
+      {
+        "step": 3,
+        "title": "Urban Shelter Priorities",
+        "body": "In urban grid-down environments, security takes precedence over comfort — unlike wilderness survival where warmth and dryness come first. Key principles: (1) Upper floors provide observation advantage and make forced entry more difficult; (2) Ground floor access points must be reinforced or blocked — door frame reinforcement, window barricades, early warning systems (cans on wire, broken glass on sills); (3) Avoid open fires indoors if possible — heat signature and smoke column identify your position to opportunistic threats; use rocket stoves vented through existing chimneys or cook only during hours when ambient smoke is common (morning, evening); (4) Thermal signature management: body heat through windows is visible to thermal optics — use interior rooms; (5) Single entry/exit is a trap — always identify secondary egress before settling a location."
+      },
+      {
+        "step": 4,
+        "title": "Signaling for Rescue in Urban Areas",
+        "body": "When rescue or evacuation is the goal, active and passive signaling increases your chances significantly. Methods: (1) VS-17 signal panel — international orange/pink panel visible from aircraft at altitude; display on rooftops or open areas. (2) Mirror flash — improvised signal mirror (CD, chrome surface, makeup mirror) aimed at aircraft; effective range exceeds 10 miles. (3) Whistle pattern — three blasts repeated = universal distress; pause and repeat; carry a Fox 40 or similar pealess whistle. (4) Ground-to-air signals (stomp or arrange in open area, minimum 10 feet across): X = need medical assistance; arrow pointing = direction of travel; triangle (Δ) = safe to land here; N = negative/no. (5) Fire and smoke: black rubber smoke (burn tires cautiously) is visible in daytime sky; white smoke from green vegetation is used at night when fire itself is the signal."
+      },
+      {
+        "step": 5,
+        "title": "Urban Navigation Without GPS",
+        "body": "GPS-denied urban navigation relies on map literacy and environmental awareness: (1) Grid reference to street intersection — convert military grid to street address using pre-downloaded offline maps (Maps.me, CalTopo saved tiles); (2) Dead reckoning by block count — average city block is 260–900 feet depending on city; calibrate to your specific city beforehand; (3) Sun/shadow navigation — sun rises E, sets W; at noon, shadows point north in northern hemisphere; (4) Building numbering systems — in US cities, numbers typically increase away from a central baseline; even/odd sides are consistent within a city grid; (5) Utility infrastructure orientation — water mains follow streets and flow toward treatment plants (typically downhill or toward rivers); power transmission lines lead to substations on the grid periphery; these can orient you when street signs are missing or misleading."
+      }
+    ],
+    "warnings": [
+      "FM 21-76 is a military document — civilian application requires judgment about context. Tactics appropriate for combat zones may be illegal or counterproductive in a domestic disaster environment.",
+      "Urban survival priorities differ significantly from wilderness — security and concealment matter more in populated grid-down environments where resource competition is higher."
+    ],
+    "proTips": [
+      "Carry a VS-17 signal panel — it folds to fit in a cargo pocket and is visible from search aircraft at high altitude. Costs under $20 and weighs almost nothing.",
+      "Survival is 90% mental — the will to survive has kept people alive in conditions where it should have been statistically impossible. Maintain purpose, routine, and group cohesion."
+    ],
+    "relatedGuides": ["fm-002", "fm-004", "water-purification-101", "urban-shelter"]
+  }
+]

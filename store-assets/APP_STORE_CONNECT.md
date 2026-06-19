@@ -58,6 +58,24 @@ EVERY FEATURE WORKS WITHOUT INTERNET
 GridDown caches everything on your device. No cloud. No subscription required to access the app. No data sent home. Ever.
 
 ———
+NEW IN v1.1 — 12 CATEGORIES, 500+ GUIDES
+---
+- Offline Translator: 10 languages (Spanish, French, Portuguese, German, Arabic,
+  Chinese, Japanese, Korean, Russian, Hindi) — fully on-device, no internet needed.
+  Emergency phrases pre-loaded for instant large-font display.
+- HAM Radio Repeater Database: 200+ US repeater entries across all 50 states.
+  Search by state, city, or frequency. Filter by OPEN/ARES/RACES/SKYWARN.
+- Morse Code Tool: encode/decode in real time, visual flash playback, SOS shortcut,
+  full international Morse table.
+- US Army Field Manuals: condensed from public-domain FM 21-76 (Urban Survival),
+  Map & Compass Navigation, Field Sanitation, Immediate Action Drills, and
+  Combat Lifesaver Extended Care.
+- Vehicle & Mechanical: tire change without jack, battery/jump-start, engine
+  overheating, fuel siphoning, generator maintenance.
+- Homesteading & Food Production: raising chickens, high-yield emergency gardening,
+  food preservation without electricity, rainwater collection, livestock butchering.
+---
+
 WHAT’S INSIDE
 ———
 🩹 MEDICAL GUIDES
@@ -116,7 +134,7 @@ Terms of Service: https://rceasar01.github.io/GridDown/terms
 
 #### Promotional Text (170 chars max — can be updated without a new build)
 ```
-New: On-device AI Field Intelligence Advisor — runs fully offline on Extreme plan. Zero data collection. Veteran-built.
+v1.1: Offline translator (10 languages), HAM radio repeater database, Morse code tool, field manuals, vehicle & homestead guides.
 ```
 
 #### Keywords (100 chars max, comma-separated)

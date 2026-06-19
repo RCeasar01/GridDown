@@ -1,0 +1,268 @@
+[
+  {
+    "id": "vehicle-001",
+    "category": "vehicle",
+    "title": "Emergency Tire Change Without a Jack",
+    "priority": "critical",
+    "tags": ["vehicle", "tire", "emergency", "field", "mechanical"],
+    "summary": "How to change a flat tire when you have no jack, using military techniques and improvised methods.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Immediate Safety — Stop and Secure the Vehicle",
+        "body": "Pull completely off the road onto the firmest, flattest surface available — gravel shoulder, dirt pullout, or paved lot. Activate hazard lights immediately. Turn your wheels away from traffic. Set rocks, logs, or any solid debris behind and in front of the tires you are NOT changing — these are your wheel chocks. If on a slope, chock uphill and downhill. Do not skip chocking: without a jack, vehicle movement during the swap is your primary danger. If you have road flares or reflective triangles, place them 200 feet back. Notify someone of your location before starting work."
+      },
+      {
+        "step": 2,
+        "title": "Break Lug Nut Torque Before Lifting",
+        "body": "This step is critical and must happen BEFORE you lift the vehicle by any method. With the flat tire still bearing full vehicle weight on the ground, place the lug wrench on each nut and break it loose with a firm counterclockwise push. The weight of the vehicle prevents the wheel from spinning. Lug nuts on modern vehicles are torqued to 80–120 ft-lbs — if the tire were elevated first, spinning would defeat every improvised lifting method. Do not fully remove nuts yet, just crack them loose one full turn each. If the wrench slips, try a piece of rubber (like a floor mat) over the nut for grip. Mark cross-pattern order mentally: top, bottom, left, right."
+      },
+      {
+        "step": 3,
+        "title": "Rock or Curb Method — Drive the Flat Onto an Elevated Surface",
+        "body": "Find a solid rock, concrete curb, raised tree root, or stacked logs 6–8 inches tall and roughly 8–12 inches wide. Drive the flat tire slowly onto the rock so the flat tire sits on top of the elevated object — this lifts the wheel off the ground by the height of the object, creating enough clearance to remove and swap the tire. The vehicle frame remains on the ground; only the flat wheel is elevated. This is the fastest and most stable improvised lift method. On a curb, pull the flat tire up onto the curb edge at an angle. Test stability: push the vehicle side-to-side before getting under the wheel area. Position your spare ready to hand."
+      },
+      {
+        "step": 4,
+        "title": "Dig-Under Method — Excavate Clearance in Soft Ground",
+        "body": "If no elevated surface exists but the ground is soft (dirt, sand, gravel), use a shovel, large stick, rock, or your hands to dig a bowl-shaped depression under the flat tire — not a channel. The goal is to lower the flat tire into the hole, which effectively raises the hub and axle. Dig a circle roughly 18 inches in diameter and 4–6 inches deep centered under the tire contact patch. Clear loose material completely. The bowl shape prevents collapse better than a trench. Once the hole is dug, roll or push the vehicle so the flat tire sits in the bowl. Test stability. This method works best on dry dirt or compact gravel — loose sand may collapse and is unsafe."
+      },
+      {
+        "step": 5,
+        "title": "Log Lever Method — Build a Fulcrum Lift",
+        "body": "Use a long, strong hardwood branch (minimum 2 inches diameter, 6–8 feet long) or a salvaged 2x4/4x4 as a lever. Find or stack rocks into a fulcrum 6–10 inches tall, positioned about 2 feet from the vehicle's frame jack point (check owner's manual or look for the reinforced metal notch behind the front wheels and ahead of the rear wheels on the frame rail). Slide the lever under the frame jack point with the fulcrum between you and the vehicle. Assign 2–3 people to push the long end down while one person works the wheel. This method requires coordination and is slower — use only if rock and dig methods are unavailable. Never place any body part under the vehicle while it is being levered."
+      },
+      {
+        "step": 6,
+        "title": "Tire Swap — Remove, Mount, and Torque",
+        "body": "Once clearance is achieved, fully remove lug nuts in the same cross-pattern order you cracked them. Keep nuts in your pocket or cupped in a hand — losing one in a ditch is a serious problem. Remove the flat and immediately mount the spare, aligning the wheel holes to the studs. Thread lug nuts by hand first — cross-pattern — until all are snug. Apply final tightening with the wrench using your body weight plus foot leverage on the wrench arm. Without a torque wrench, snug and tight is the goal: firm, even pressure on each nut. After lowering and removing improvised lift, re-torque all nuts once the full vehicle weight is on the spare. Drive under 50 mph to the nearest shop to torque to spec (typically 90–100 ft-lbs) and check spare pressure."
+      }
+    ],
+    "warnings": [
+      "Never place any part of your body under a vehicle supported only by improvised methods — keep all limbs clear at all times",
+      "Identify the proper jacking points on the frame rail before applying any lift force — lifting on rocker panels, plastic body panels, or the differential will cause serious damage",
+      "In soft or loose ground, the dig-under method risks sudden collapse — test stability aggressively before working near the wheel",
+      "A spare tire that has been stored flat or underinflated will fail quickly — check spare pressure monthly",
+      "Lug nuts that are cross-threaded can cause wheel separation at speed — always thread by hand first and confirm smooth rotation before applying wrench force"
+    ],
+    "proTips": [
+      "Military vehicle crews practice the rock/curb method during field training — it is the fastest single-person improvised lift when a suitable surface exists",
+      "Carry a small hydraulic bottle jack (2-ton, fits under a seat) — it weighs 6 lbs and eliminates this entire problem",
+      "To prevent cross-threading, hold the lug nut between thumb and forefinger, align to the stud, and rotate counterclockwise slowly until you feel it drop into thread alignment, then reverse clockwise",
+      "Keep a can of Fix-a-Flat as a backup — it buys you 50–100 miles at low speed on a puncture (not a blowout) and eliminates the need for a lift entirely"
+    ],
+    "relatedGuides": ["vehicle-002", "vehicle-003"]
+  },
+  {
+    "id": "vehicle-002",
+    "category": "vehicle",
+    "title": "Jump Starting and Battery Troubleshooting",
+    "priority": "critical",
+    "tags": ["vehicle", "battery", "jump-start", "electrical", "emergency"],
+    "summary": "Correct jump-start cable procedure, battery vs. alternator diagnosis, push-starting manuals, and when jumping is dangerous.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Diagnose: Battery vs. Alternator vs. Starter",
+        "body": "Before grabbing cables, determine what actually failed. Turn on interior dome light and observe brightness, then attempt to start. If the dome light is bright but the engine cranks slowly and dies: weak or discharged battery — jumpable. If dome light is dim or off with no crank: very dead battery or major drain — jumpable but investigate the drain first. If lights are bright, the starter clicks once loudly, but engine does not crank: starter solenoid or bad connection — clean terminals before jumping. If the engine starts fine but dies shortly after or the battery warning light is on while running: the alternator is not charging — jumping will not fix this; driving will kill the new charge in 20–40 minutes. Voltage test with a multimeter: 12.6V+ is good, 12.0V is weak, below 11.8V is dead."
+      },
+      {
+        "step": 2,
+        "title": "Inspect the Battery Before Connecting Cables",
+        "body": "Never jump a battery that shows a cracked or bulging case — electrolyte leaks are corrosive and hydrogen gas can ignite from a spark. Never jump a frozen battery — ice in the electrolyte causes explosive pressure. Feel the battery case: it should be room temperature or cool. Check for the rotten-egg smell of sulfur, which indicates a venting or failed battery. Check terminal posts: green or white corrosion buildup (lead sulfate or copper sulfate) dramatically increases resistance and may prevent a successful jump. Scrub posts with a wire brush, old toothbrush, or even pour a small amount of cola over them — the carbonic acid dissolves corrosion. Reconnect terminal clamps firmly. A clean connection is often the difference between a successful jump and a failed one."
+      },
+      {
+        "step": 3,
+        "title": "Connect Jumper Cables in the Correct Order",
+        "body": "The order of connections matters — incorrect sequence can cause sparks near the battery or damage electronics. CORRECT ORDER: (1) Red clamp to dead battery POSITIVE terminal. (2) Red clamp other end to donor vehicle POSITIVE terminal. (3) Black clamp to donor vehicle NEGATIVE terminal. (4) Black clamp other end to an unpainted metal ground point on the dead vehicle — a bolt on the engine block, the alternator bracket, or the chassis rail. Do NOT connect the final black clamp to the dead battery negative terminal; connecting to a chassis ground keeps any hydrogen gas spark away from the battery. Start the donor vehicle and let it run at fast idle (1500–2000 RPM) for 2–3 minutes before attempting to start the dead vehicle. DISCONNECT in reverse order after the dead vehicle starts."
+      },
+      {
+        "step": 4,
+        "title": "Push-Starting a Manual Transmission Vehicle",
+        "body": "If no donor vehicle is available and the transmission is manual, push-starting (also called bump-starting) bypasses the starter motor entirely. You need a downhill slope or at least 3–4 people to push on flat ground. Procedure: (1) Turn the ignition to ON (not start). (2) Depress the clutch pedal fully. (3) Shift into second gear (first gear causes a harsh lurch and often stalls immediately). (4) Have pushers build speed to at least 5–8 mph. (5) Release the clutch pedal quickly and firmly — the drivetrain compression will spin the engine. (6) If the engine fires, depress the clutch immediately to prevent stalling, then rev slightly to keep it running. This method only works if the engine itself is healthy and the battery failure is the sole problem. Do not attempt in automatic transmission vehicles — it will not work and can damage the transmission."
+      },
+      {
+        "step": 5,
+        "title": "Identify a Sulfated or Failed Battery",
+        "body": "A battery that takes a jump charge but dies again within hours is likely sulfated — lead sulfate crystals have built up on the plates, permanently reducing capacity. Signs: battery is several years old (typical life is 3–5 years), takes a full charge on a charger but drops to 12.0V or below overnight, or voltage collapses under load (lights dim severely when you crank). A sulfated battery cannot be reliably recovered in the field. Slow-charging at 2 amps over 24–48 hours can sometimes break down light sulfation, but heavy sulfation is permanent. Test under load: connect a multimeter and crank the engine — if voltage drops below 9.6V during cranking, the battery has insufficient capacity and needs replacement regardless of resting voltage."
+      },
+      {
+        "step": 6,
+        "title": "Common Mistakes and Reverse Polarity Consequences",
+        "body": "Reverse polarity — connecting cables backward (positive to negative) — is a serious electrical fault. In older vehicles it immediately destroys the alternator diodes and may blow fusible links. In modern vehicles with electronic control units, it can destroy the ECU, ABS module, and other modules in milliseconds. The consequences are expensive and not field-repairable. Prevention: red to red (positive), black to engine ground (not negative terminal). If you reverse the cables and see sparks or smoke, disconnect immediately and check all fuses before any further attempts. Other common mistakes: clips touching each other while connected to a live battery (causes arcing — keep clamps separated), running the donor vehicle in an enclosed space (carbon monoxide risk), and leaving cables connected too long after a successful start (heat buildup in cables)."
+      }
+    ],
+    "warnings": [
+      "Never jump a cracked, bulging, leaking, or frozen battery — hydrogen gas and electrolyte can cause burns and explosion",
+      "Reverse polarity connection can permanently destroy the ECU and alternator in modern vehicles — always double-check red to positive, black to chassis ground",
+      "Carbon monoxide accumulates rapidly in enclosed garages — always ensure ventilation when running donor vehicles",
+      "A jump-start does not fix an alternator problem — if the battery light remains on after starting, the vehicle will die again; drive directly to a shop or you will be stranded again"
+    ],
+    "proTips": [
+      "A portable lithium jump starter (400–1000 peak amps, fits in a glove box) eliminates the need for a donor vehicle entirely and is one of the highest-value vehicle emergency tools available",
+      "The dome light brightness test is faster than a multimeter for a quick field assessment — a fully charged battery holds lights at near-full brightness even while cranking",
+      "If the battery terminals are corroded and no wire brush is available, a pen knife blade scraped firmly around the post works reasonably well to expose bare lead",
+      "Modern vehicles may require a 5–10 minute drive at highway speed after a jump to sufficiently recharge the battery — idling in a parking lot is much less effective"
+    ],
+    "relatedGuides": ["vehicle-001", "vehicle-003"]
+  },
+  {
+    "id": "vehicle-003",
+    "category": "vehicle",
+    "title": "Engine Overheating — Field Diagnosis and Response",
+    "priority": "critical",
+    "tags": ["vehicle", "engine", "overheating", "coolant", "field-repair"],
+    "summary": "Immediate actions when the temperature gauge spikes, field diagnosis of the cause, and improvised remedies to get you moving again.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Immediate Actions — Pull Over Without Causing More Damage",
+        "body": "The moment the temperature gauge enters the red zone or the overheat warning light activates, take action within the next 30–60 seconds. Turn off the air conditioner immediately — it adds load to the engine. If on the highway and unable to pull over instantly, turn the cabin heater to full heat and full fan — this dumps engine heat into the cabin and can buy 1–2 minutes. Find a safe pullout and stop the engine. Do NOT open the radiator cap or overflow reservoir cap while hot — the cooling system is pressurized to 13–16 PSI when hot. Opening the cap releases pressure explosively, spraying 200°F+ coolant. Leave the hood up to vent heat. Wait a minimum of 30 minutes or until the engine is cool enough to comfortably place your hand on the radiator hose."
+      },
+      {
+        "step": 2,
+        "title": "Visual Diagnosis — Find the Cause Before Adding Fluid",
+        "body": "Once cool, open the hood and systematically check for the most common causes. Check the coolant overflow reservoir first — is it empty? Look for coolant puddles under the vehicle; trace the wetness upstream to find the leak source. Inspect all radiator hoses (upper and lower) by squeezing them — they should feel firm but flexible; cracked, soft, or collapsed hoses restrict flow. Check the radiator fins for clogging from debris, mud, or insect nests — blocked fins prevent airflow. Check the drive belt (serpentine belt) routing — if it is cracked or broken, the water pump is not spinning. Look for a failed radiator hose clamp or split seam where the hose meets the radiator neck. Most overheats in the field are caused by coolant loss, a blown hose, or a snapped drive belt — all visible without tools."
+      },
+      {
+        "step": 3,
+        "title": "Improvised Coolant — What You Can and Cannot Use",
+        "body": "In an emergency, clean water is an acceptable substitute for coolant/antifreeze to get you to safety. Water alone lacks the freeze protection, boiling-point elevation, and corrosion inhibitors of proper coolant, but it will not damage the engine in a one-time emergency use. Use only clean water — avoid water with sediment, salt water, or heavily mineralized well water, which can leave deposits on cooling passages over time. Do not use motor oil, brake fluid, or any petroleum product in the cooling system — these will damage seals and hoses. If the overflow reservoir is accessible and cool, fill it to the MAX line. If coolant is critically low and the engine is completely cool, carefully remove the radiator cap (cloth over cap, turn to first stop, let pressure release, then fully remove) and add water directly to the radiator until full. Expect the temperature gauge to read higher than normal with water only — monitor closely."
+      },
+      {
+        "step": 4,
+        "title": "Radiator and Hose Field Pressure Test",
+        "body": "Once the engine is cool and the system is refilled, perform a quick field pressure test before driving. Squeeze the upper and lower radiator hoses firmly — a healthy hose resists compression and springs back. A hose that collapses under light pressure or feels mushy has internal delamination and will fail. Look for wetness or coolant residue (dried coolant appears as whitish-green crystalline deposits) around hose clamps, the water pump shaft, the thermostat housing, and radiator seams. Start the engine cold and watch the temperature gauge as it warms. A healthy thermostat opens at 185–195°F and the temp gauge stabilizes in the normal range within 5 minutes. If the temperature climbs steadily without stabilizing, the thermostat is stuck closed — this is the second most common overheat cause after coolant loss. A stuck-closed thermostat must be removed or bypassed to limp to safety."
+      },
+      {
+        "step": 5,
+        "title": "Head Gasket Check — Identify a Catastrophic Failure",
+        "body": "A blown head gasket is the most serious overheat-related failure. It allows combustion gases into the cooling system and coolant into the combustion chamber. Identify it by these signs: white sweet-smelling smoke from the exhaust (steam from coolant burning), a mayonnaise-like brown froth under the oil filler cap or on the dipstick (coolant mixed with oil), rapid and repeated coolant loss with no visible external leak, and bubbling in the radiator or overflow tank with the engine running. A combustion leak tester (block tester, blue chemical) is the definitive field test — the chemical turns yellow in the presence of combustion gases. Without a tester, repeated coolant disappearance with white exhaust and mayo on the dipstick is near-conclusive."
+      },
+      {
+        "step": 6,
+        "title": "Driving with a Compromised Engine — How Far and How",
+        "body": "With a confirmed or suspected blown head gasket, continuing to drive risks permanent engine destruction — warped cylinder head, spun rod bearings from oil dilution, or hydrolocked cylinders. However, in a survival scenario where getting to safety is the priority: monitor the temperature gauge constantly, pull over and let cool every 5–10 minutes of driving, keep speed low (under 45 mph reduces heat load), check and refill coolant before every restart, and stop immediately if the gauge hits red. Change the oil as soon as possible — coolant in the oil destroys bearing surfaces rapidly. A vehicle with a minor head gasket seep can sometimes travel 50–200 miles this way. A major failure — rapid coolant loss, severe white smoke, oil that looks milky — may give you only 1–5 miles before seizure. The decision to drive on is a calculated risk; stopping and calling for help is almost always the better option if available."
+      }
+    ],
+    "warnings": [
+      "Never open a hot radiator cap — the cooling system is pressurized; sudden cap removal releases boiling coolant explosively and causes severe burns",
+      "Coolant (ethylene glycol) is toxic to animals and has a sweet taste that attracts pets — contain all spills and do not leave puddles on the ground",
+      "Driving with coolant in the oil (blown head gasket) can destroy engine bearings in minutes — do not continue driving without assessing the risk carefully",
+      "A thermostat bypass (removing the thermostat to allow free coolant flow) is a valid emergency measure but will cause heater failure and potential overcooling in cold weather"
+    ],
+    "proTips": [
+      "Carry two quarts of pre-mixed 50/50 coolant and a roll of duct tape in your vehicle at all times — most field coolant leaks can be temporarily slowed with duct tape over a split hose",
+      "Radiator hose repair tape (self-fusing silicone tape) is far superior to duct tape for cooling system repairs and can hold 50+ PSI when properly applied",
+      "Bars Leaks or similar radiator stop-leak tablets can seal minor leaks in the field and are worth carrying — they will not fix major failures but can get you home from a small pinhole seep",
+      "If you must bypass a stuck thermostat in the field, locate the thermostat housing (where the upper radiator hose meets the engine), remove it, extract the thermostat, and reinstall the housing without it — coolant will now flow unrestricted"
+    ],
+    "relatedGuides": ["vehicle-001", "vehicle-002", "vehicle-004"]
+  },
+  {
+    "id": "vehicle-004",
+    "category": "vehicle",
+    "title": "Fuel System Basics and Siphoning",
+    "priority": "advanced",
+    "tags": ["vehicle", "fuel", "siphoning", "storage", "field"],
+    "summary": "Safe fuel siphoning techniques, identifying contaminated fuel, proper storage, and calculating remaining range.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Safe Siphoning — Gravity Method With a Clear Hose",
+        "body": "The safest method to siphon fuel uses gravity and a clear hose — no mouth contact with fuel at any point. You need a clear flexible hose 6–8 feet long (clear vinyl tubing, 3/8\" to 1/2\" ID works well) and a container lower than the fuel tank. Insert one end of the hose into the donor tank as deep as possible. Prime the siphon by submerging the entire hose in the tank, capping your thumb over the exit end to hold the fuel, then quickly lowering the exit end into your container below the tank level. Release your thumb — fuel flows by gravity as long as the exit end remains lower than the liquid surface in the donor tank. Most modern vehicles have anti-siphon screens in the fuel filler neck that block a hose — you may need to access the fuel line directly at the fuel pump or fuel rail instead. Never use oral suction to start a siphon — inhaling fuel vapor causes chemical pneumonitis, and swallowing fuel causes severe poisoning."
+      },
+      {
+        "step": 2,
+        "title": "Identifying Contaminated Fuel by Sight and Smell",
+        "body": "Fresh unleaded gasoline is light yellow and has a sharp, hydrocarbon solvent smell. Fresh diesel is slightly amber and has an oily, heavier smell. Fuel that has gone bad or is contaminated shows these warning signs: gasoline stored over 3–6 months begins to oxidize — it darkens to orange or brown and smells sour or varnish-like; phase-separated ethanol-blend fuel (common E10) shows a distinct cloudy layer at the bottom of a clear container — the water-ethanol mixture separates from gasoline and will not combust. Water contamination causes cloudiness or a visible water layer at the bottom. Diesel contaminated with microbial growth (diesel bug) appears dark with visible black or brown particulate and smells musty or rotten. Never use phase-separated or heavily degraded fuel in a fuel-injected engine — the varnish deposits clog injectors and the water causes misfires and internal corrosion."
+      },
+      {
+        "step": 3,
+        "title": "Fuel Storage Safety — Containers and Location",
+        "body": "Use only UL-listed red plastic jerry cans or metal fuel cans with a proper venting spout for gasoline storage. Never store gasoline in clear plastic water bottles, milk jugs, or non-approved containers — the plastic degrades, the containers lack proper venting (pressure buildup causes bloating and can split seams), and there is no label differentiation from water containers, which is a serious safety hazard. Store fuel in a detached structure, never inside a living space or an attached garage with ignition sources. Keep containers out of direct sunlight — UV and heat accelerate oxidation and increase vapor pressure. Ground metal cans before pouring to discharge static — touch the can to a metal part of the vehicle before opening the spout. Maximum recommended home storage: 25 gallons in most jurisdictions (check local fire codes). Never store near water heaters, furnaces, or any pilot light."
+      },
+      {
+        "step": 4,
+        "title": "Draining a Carburetor Float Bowl",
+        "body": "Carbureted engines (older vehicles, most small engines, generators) have a float bowl at the bottom of the carburetor that holds a small reservoir of fuel. When stored with fuel in the bowl, this fuel evaporates and leaves behind varnish deposits that clog the main jet and idle circuit — the primary cause of small engine no-start after storage. To drain: locate the carburetor (follow the air filter housing), find the brass drain screw or drain plug on the bottom of the float bowl, and turn it out 1–2 turns over a rag or small container. Let the bowl drain completely. On carburetors without a drain screw, close the fuel petcock valve on the fuel tank (if equipped), then start and run the engine until it starves and dies — this empties the bowl naturally. Always drain carburetors before storing any small engine for more than 30 days."
+      },
+      {
+        "step": 5,
+        "title": "Fuel Line Bleeding and Priming After Running Dry",
+        "body": "Running a fuel-injected engine completely dry can introduce air into the fuel lines and high-pressure fuel rail, causing hard or no-start conditions even after refueling. The fuel pump must reprime the system. Procedure: add at least 2 gallons of fuel. Turn the ignition key to the ON position (not crank) for 3–5 seconds — you will hear the fuel pump run; it primes the system. Turn back to OFF. Repeat this ON-OFF cycle 3–5 times before cranking. Each cycle builds fuel pressure in the rail. Then crank normally — the engine may take longer than usual to fire on the first start. Diesel engines that have run dry require bleeding air from the fuel filter housing and injection lines — a more involved procedure; consult the vehicle service manual for the specific bleed screw location and sequence."
+      },
+      {
+        "step": 6,
+        "title": "Fuel Range Calculation and Long-Term Storage",
+        "body": "Estimate your remaining range with this formula: (gallons in tank) x (realistic MPG for current conditions) = range in miles. For conservative field planning, use 80% of your rated highway MPG to account for load, terrain, and lower-quality fuel. Example: 8 gallons x 24 MPG x 0.8 = 153 miles. Track actual consumption: reset your trip odometer at each fill, note the gallons added, and divide miles driven by gallons — this gives your real-world MPG over time. For long-term fuel storage (90 days+), add a petroleum-based fuel stabilizer (PRI-G, Sta-Bil, or equivalent) at the manufacturer-specified ratio, typically 1 oz per 2.5 gallons. Stabilizer prevents oxidation and varnish formation. It does not rejuvenate already-degraded fuel — add it to fresh fuel immediately. Rotate stored fuel every 6–12 months by using it in your vehicle and refilling with fresh fuel and new stabilizer."
+      }
+    ],
+    "warnings": [
+      "Never use oral suction to start a siphon — fuel vapor inhalation causes chemical pneumonia and fuel ingestion causes poisoning; always use the gravity or hand-pump method",
+      "Gasoline vapors are heavier than air and accumulate at floor level — a single spark from a light switch 30 feet away in the same room can ignite them; store only in well-ventilated detached structures",
+      "Never use non-approved containers for fuel storage — standard plastic water bottles and milk jugs are not rated for fuel and will fail, creating spill and ignition hazards",
+      "Phase-separated ethanol fuel (cloudy, layered appearance) will damage fuel injectors and rubber fuel system components — do not use it in any modern engine"
+    ],
+    "proTips": [
+      "A dedicated hand-operated siphon pump (available for under $10) is more reliable than gravity siphoning and requires no improvisation — it belongs in every emergency vehicle kit",
+      "PRI-G fuel stabilizer is rated to keep gasoline stable for up to 2 years and can rejuvenate mildly degraded fuel — it is significantly more effective than Sta-Bil for long-term storage",
+      "Mark all fuel storage containers with the date filled and the fuel type using a paint pen — unlabeled containers are a serious safety and engine-compatibility hazard",
+      "To quickly test if stored gasoline is still usable: pour a small amount on white concrete — good fuel evaporates leaving almost no residue; bad fuel leaves an oily or dark stain"
+    ],
+    "relatedGuides": ["vehicle-003", "vehicle-005"]
+  },
+  {
+    "id": "vehicle-005",
+    "category": "vehicle",
+    "title": "Basic Generator Maintenance and Troubleshooting",
+    "priority": "beginner",
+    "tags": ["vehicle", "generator", "maintenance", "power", "fuel"],
+    "summary": "Essential maintenance schedule for portable generators, troubleshooting common no-start and running problems, and calculating your power load.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Oil — The Most Critical Maintenance Item",
+        "body": "Most portable generators use a small air-cooled engine similar to a lawn mower. These engines hold only 0.6–1.0 quarts of oil and have no oil filter — oil degrades quickly and metallic particles accumulate with no filtration. Check the oil level before EVERY use using the dipstick or sight glass; never run a generator without confirming oil level. Change the oil after the first 5–8 hours on a new engine (break-in period), then every 50–100 hours of operation or once per season (annually), whichever comes first. Use SAE 10W-30 for most conditions; switch to SAE 30 in summer heat above 85°F. Drain when warm for complete drainage — remove the drain plug under the engine, let drain fully, reinstall plug firmly, then refill to the full mark on the dipstick. Low oil is the single most common cause of generator seizure and permanent engine failure."
+      },
+      {
+        "step": 2,
+        "title": "Air Filter — Clean or Replace Annually",
+        "body": "The air filter prevents dust, debris, and insects from entering the carburetor and cylinder. A clogged air filter causes rich running (too much fuel, not enough air), black sooty exhaust, loss of power, hard starting, and excessive fuel consumption. Locate the air filter cover on the side of the engine (usually a plastic cover held by one screw or clip). Remove the foam or paper element. Foam filters: wash in warm soapy water, rinse completely, let dry fully, then lightly coat with clean engine oil and squeeze out excess before reinstalling. Paper filters: tap gently against a hard surface to dislodge dust — never wash a paper filter. Inspect for holes or tears; replace if damaged. A visibly gray or black clogged filter should be replaced, not cleaned. Air filter elements cost $3–8 and should be replaced at least once per year in regular use."
+      },
+      {
+        "step": 3,
+        "title": "Spark Plug — Inspection, Gap, and Replacement",
+        "body": "The spark plug is both a diagnostic tool and a wear item. Remove the plug with a spark plug socket (usually 5/8\" or 13/16\") and examine the electrode. A healthy plug has a light tan or gray deposit on the tip — this indicates correct combustion. A black, sooty plug indicates rich running (too much fuel) — clean or replace the plug and check the air filter. A white or blistered electrode indicates lean running or overheating — check coolant (air-cooled: check air passages for blockage) and load. An oily plug indicates oil entering the combustion chamber — worn rings or valve seals. Check the electrode gap with a feeler gauge: most small engines spec 0.028\"–0.031\" (0.7–0.8mm). Adjust by carefully bending the side electrode. Replace the plug every 100 hours or annually. Plugs cost $2–5 and are the cheapest insurance against starting problems."
+      },
+      {
+        "step": 4,
+        "title": "Carburetor Cleaning — The Stale Fuel Problem",
+        "body": "The single most common cause of generator no-start after storage is a varnish-clogged carburetor from stale fuel. Ethanol-blend gasoline begins degrading in as little as 30 days. The varnish deposits coat the main jet (a precisely drilled 0.025\"–0.045\" orifice), the idle jet, and the needle valve seat, preventing fuel delivery. Remove the air filter and carburetor bowl (one or two screws on the bottom). Inspect the bowl for brown varnish coating and sediment at the bottom. Remove the main jet (brass hex piece inside) and look through it at light — you should see a perfect circle of light. If obstructed, soak in carburetor cleaner for 15–30 minutes and clear with compressed air or a piece of wire. Soak the bowl and all brass parts in carb cleaner. Do not use wire in the main jet bore — it enlarges the orifice and ruins it. After reassembly, the engine should start with fresh fuel."
+      },
+      {
+        "step": 5,
+        "title": "Starting a Flooded Engine",
+        "body": "A flooded engine has too much fuel in the cylinder, preventing ignition. It happens from repeated failed starting attempts or leaving the choke closed too long. Signs: strong gasoline smell from the exhaust, engine spins freely but will not fire, spark plug is wet with fuel. Procedure: (1) Move the generator outdoors or to a well-ventilated area. (2) Remove the spark plug with a spark plug socket. (3) Set the choke to OPEN (run position, not choke). (4) Set the throttle to full open. (5) Crank the engine 5–10 times with the plug removed to blow fuel vapor out of the cylinder. (6) Dry the plug electrode with a cloth or wait 5 minutes. (7) Reinstall the plug. (8) Attempt to start normally with choke open. If the plug is thoroughly soaked, use a replacement plug — a wet plug often fails to produce a hot enough spark. After the engine starts, run it at half load for 5 minutes to clear remaining fuel vapor."
+      },
+      {
+        "step": 6,
+        "title": "Load Calculation and Runtime Efficiency",
+        "body": "Never exceed your generator\'s rated wattage — this causes overheating, trips the circuit breaker, and shortens engine life. Calculate your load by summing the wattage of everything you intend to run simultaneously. For motor-driven appliances (refrigerators, well pumps, AC units), use the starting wattage (typically 2–3x running wattage) for sizing — a refrigerator that runs at 150W may require 600–800W to start the compressor. Label all critical appliances with their running and starting watts. A 3500W generator can typically handle: a refrigerator (800W starting), two LED light strings (50W total), a phone/radio charger (20W), and a window fan (75W) — totaling about 945W running with 800W surge capacity reserved. Fuel consumption varies dramatically with load: a 3500W generator uses roughly 0.5 gallons/hour at 25% load, and nearly 1.0 gallon/hour at full load. Run at 50–75% capacity for the best efficiency and longest runtime."
+      }
+    ],
+    "warnings": [
+      "Never run a generator indoors, in a garage, or near open windows — gasoline engines produce lethal carbon monoxide that is odorless and accumulates rapidly in enclosed spaces",
+      "Never refuel a running or hot generator — fuel on a hot exhaust or engine block ignites instantly; shut down and allow to cool for 2 minutes minimum before adding fuel",
+      "Low oil will cause engine seizure within minutes — always check oil level before starting; most modern generators have a low-oil shutoff but do not rely on it as your only protection",
+      "Do not backfeed a generator into house wiring without a proper transfer switch — backfeed electrocutes utility workers and is illegal; use extension cords or a licensed transfer switch installation"
+    ],
+    "proTips": [
+      "Run your generator under load for 30 minutes every 90 days — this keeps the carburetor clear, exercises the engine, and confirms it will work when needed; note the date on a piece of tape on the generator",
+      "Use ethanol-free gasoline (available at marinas and some gas stations, labeled E0) in generators and other small engines — it dramatically extends fuel stability and prevents carburetor varnishing",
+      "A Champion, Honda EU2200i, or Yamaha EF2200iS inverter generator produces clean sine-wave power safe for sensitive electronics — standard open-frame generators produce dirty power that can damage laptop power supplies and medical equipment",
+      "Keep a spare spark plug, air filter, and oil on the shelf next to the generator — these three items cost under $20 total and cover 90% of all maintenance needs for a full season"
+    ],
+    "relatedGuides": ["vehicle-004"]
+  }
+]

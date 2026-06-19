@@ -1,0 +1,37 @@
+[
+  {
+    "id": "quiz-medical-001",
+    "category": "medical",
+    "type": "priority_order",
+    "difficulty": "advanced",
+    "scenario": "You have a conscious casualty with a gunshot wound to the upper thigh, heavy bleeding, no incoming fire. Put these actions in the correct order.",
+    "items": [
+      { "id": "1", "text": "Apply tourniquet 2–3 inches above the wound" },
+      { "id": "2", "text": "Establish the casualty's airway" },
+      { "id": "3", "text": "Note the time of tourniquet application" },
+      { "id": "4", "text": "Move the casualty to cover" },
+      { "id": "5", "text": "Pack the wound if tourniquet is ineffective" }
+    ],
+    "correct_order": ["4", "1", "3", "5", "2"],
+    "explanation": "Under fire: move to cover first. Then hemorrhage control is the priority — tourniquet high and tight. Always mark the time. Pack if the tourniquet alone doesn't control bleeding. Airway comes after hemorrhage when not in immediate danger.",
+    "relatedGuide": "medical-002",
+    "tags": ["medical", "TCCC", "tourniquet", "advanced"]
+  },
+  {
+    "id": "quiz-medical-002",
+    "category": "medical",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "You have a severe laceration to your right forearm near the elbow with arterial bleeding (spurting). You have a CAT tourniquet. You must apply it one-handed to your own arm. Put these steps in correct order.",
+    "items": [
+      { "id": "1", "text": "Thread the strap through the buckle and pull tight, routing proximal to the wound" },
+      { "id": "2", "text": "Position the tourniquet 2-3 inches proximal (toward the heart) from the wound" },
+      { "id": "3", "text": "Twist the windlass rod until bleeding completely stops" },
+      { "id": "4", "text": "Secure the windlass with the locking clip or hook-and-loop" },
+      { "id": "5", "text": "Write the time of application on the white TQ label or on your skin with a marker" }
+    ],
+    "correct_order": ["2", "1", "3", "4", "5"],
+    "explanation": "Position before tightening — 2-3 inches proximal to the wound, never over a joint. Tighten the strap as much as possible before touching the windlass — the strap does most of the compression work. Twist the windlass until bleeding stops completely — partial application that slows but doesn't stop bleeding is dangerous (it blocks venous return without stopping arterial flow, accelerating blood loss). Secure the windlass — an unsecured windlass can unwind, causing rebleed. Always mark the time — tourniquet time determines the evacuation priority and guides the receiving physician on nerve/vascular damage windows. Never remove the tourniquet in the field once applied.",
+    "relatedGuide": "medical-002",
+    "tags": ["medical", "tourniquet", "self-aid", "intermediate"]
+  },

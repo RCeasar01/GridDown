@@ -19,6 +19,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     bundleIdentifier: 'com.bannedproduct.griddown',
     buildNumber: '1',
     // Apple requires iOS 16.0 minimum as of 2025 submission requirements.
+    // @ts-ignore: deploymentTarget is valid in EAS config but not in @expo/config-types yet
     deploymentTarget: '16.0',
     infoPlist: {
       NSLocationWhenInUseUsageDescription:

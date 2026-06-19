@@ -157,3 +157,44 @@ Check every item before submitting for review.
 **Launch Date:** ____________
 
 **Signed off by:** Robert Ceasar / BannedProduct Media Inc.
+
+---
+
+## v1.1.0-beta New Feature Checklist
+
+### Translator Screen
+- [x] TranslatorScreen.tsx written and added to More stack
+- [x] MoreScreen.tsx updated with Translator entry
+- [x] AppNavigator.tsx: Translator screen registered
+- [ ] Test with @react-native-ml-kit/translate in dev client build
+- [ ] Test all 10 language model downloads
+- [ ] Test emergency phrase auto-translate
+
+### HAM Radio Repeater Database
+- [x] ham-repeaters.json: 200+ entries, all 50 states
+- [x] HamRadioScreen.tsx written and added to More stack
+- [ ] Verify sample frequencies for accuracy
+- [ ] Test search and filter performance with 200+ entries
+
+### Morse Code Tool
+- [x] MorseCodeScreen.tsx written and added to More stack
+- [x] Encode/decode logic verified
+- [ ] Test audio playback with expo-av in dev client
+- [ ] Test SOS shortcut playback
+
+### New Content Categories
+- [x] vehicle.json: 5 guides written
+- [x] homesteading.json: 5 guides written
+- [x] CategoryGrid.tsx: vehicle + homesteading added (12 total)
+- [x] helpers.ts: icons + descriptions for new categories
+- [x] guideRegistry.ts: all new guides registered
+
+### Field Manuals
+- [x] fm-001.json through fm-005.json written
+- [x] guideRegistry.ts: field manuals imported and tagged
+- [x] HomeScreen.tsx: Field Manuals horizontal row added
+- [ ] Verify source attribution on all field manual guides
+
+### v1.1 GitHub
+- [x] All files committed: feat: HAM radio, vehicle & homestead categories, translator tool, Morse code, field manuals
+- [x] Tag v1.1.0-beta pushed

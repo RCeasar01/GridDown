@@ -1,4 +1,4 @@
-﻿import { Guide } from '../db/contentLoader';
+import { Guide } from '../db/contentLoader';
 
 export function priorityColor(priority: string): string {
   switch (priority) {
@@ -20,18 +20,20 @@ export function priorityLabel(priority: string): string {
 
 export function categoryIcon(category: string): string {
   const icons: Record<string, string> = {
-    water: 'ðŸ’§',
-    fire: 'ðŸ”¥',
-    shelter: 'ðŸ•ï¸',
-    food: 'ðŸŒ¿',
-    medical: 'ðŸ©¹',
-    navigation: 'ðŸ§­',
-    comms: 'ðŸ“¡',
-    security: 'ðŸ›¡ï¸',
-    tools: 'ðŸ”§',
-    disaster: 'âš ï¸',
+    water: '💧',
+    fire: '🔥',
+    shelter: '🏕️',
+    food: '🌿',
+    medical: '🩹',
+    navigation: '🧭',
+    comms: '📡',
+    security: '🛡️',
+    tools: '🔧',
+    disaster: '⚠️',
+    vehicle: '🚗',
+    homesteading: '🌾',
   };
-  return icons[category] ?? 'ðŸ“‹';
+  return icons[category] ?? '📋';
 }
 
 export function categoryDescription(category: string): string {
@@ -46,6 +48,8 @@ export function categoryDescription(category: string): string {
     security: 'Threat assessment, perimeter, and bug-out planning.',
     tools: 'Essential gear, improvised tools, and maintenance.',
     disaster: 'Specific response protocols for natural and man-made disasters.',
+    vehicle: 'Field repairs, fuel, generators, and mechanical troubleshooting.',
+    homesteading: 'Chickens, crops, food preservation, and water collection.',
   };
   return desc[category] ?? 'Survival knowledge for grid-down scenarios.';
 }
