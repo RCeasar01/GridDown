@@ -248,3 +248,49 @@ Create the following under **In-App Purchases** in App Store Connect:
 4. `04_checklist.png` — “72-Hour Kit. Are You Ready?”
 5. `05_search.png` — “Find It Fast. Under Pressure.”
 6. `07_ai_advisor.png` — “On-Device AI. No Internet. No Cloud.”
+
+
+---
+
+## v1.2.0-beta — Quiz System & Daily Drill
+
+### New Features
+
+**Scenario-Based Quiz System**
+- 53 survival quizzes across 12 categories: Water, Fire, Shelter, Food & Foraging, Medical, Navigation, Comms & Signaling, Security, Vehicle & Mechanical, Homesteading, Field Manuals, Disaster Specific
+- Three interactive formats:
+  - Multiple Choice — immediate feedback with detailed tactical explanations
+  - Priority Ordering — tap items in correct survival sequence
+  - Decision Tree — branching scenarios with 3–5 decision nodes and outcome analysis
+- All content written to real survival, TCCC, and field-manual standards
+- Medical quizzes include TCCC depth: tourniquet application, tension pneumothorax, START triage, hemorrhagic shock classification
+
+**Daily Drill**
+- One quiz delivered daily, deterministically selected by date (all users get the same quiz)
+- "TODAY'S DRILL" card on Home screen with category, difficulty, and format badges
+- Completion tracking with score saved to SQLite
+- Optional push notification reminder at user-selected time (default 8:00 AM)
+
+**Readiness Score**
+- Per-category readiness percentage tracked in SQLite (correct answers / total attempts)
+- Overall readiness score aggregated across all categories
+- Visual readiness bars on each category card in the Quiz menu
+
+**Tier Gating**
+- Free: Water, Fire, Shelter quizzes (15 quizzes)
+- Monthly/Yearly/Lifetime: All 12 categories (53 quizzes)
+- Extreme: Daily Drill AI variant (scaffold — placeholder for Field Intelligence integration)
+
+### App Store Description Update
+
+Add to "What's New" section:
+> Test your survival readiness with 53 scenario-based quizzes across 12 categories. Three formats: multiple choice, priority ordering, and branching decision trees. Track your readiness score per category. Complete a new Daily Drill every day — same quiz for all users, so you can compare notes.
+
+### Keywords to Add
+quiz, survival quiz, readiness test, TCCC, tactical medicine, scenario training, emergency preparedness quiz
+
+### Screenshots Needed
+- QuizMenuScreen showing category grid and Daily Drill card
+- QuizScreen in Multiple Choice format with explanation visible
+- QuizScreen in Decision Tree format showing branching scenario
+- QuizResultScreen showing score and category readiness
