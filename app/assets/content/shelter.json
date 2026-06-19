@@ -1,0 +1,99 @@
+[
+  {
+    "id": "shelter-001",
+    "category": "shelter",
+    "title": "Debris Hut Construction",
+    "priority": "critical",
+    "tags": ["shelter", "debris hut", "wilderness", "insulation"],
+    "summary": "Build an insulating debris hut that retains body heat even in near-freezing temperatures without fire.",
+    "steps": [
+      { "step": 1, "title": "Select a site", "body": "Choose a site on high, dry ground away from drainage paths. Avoid flood plains, ridge tops exposed to wind, and areas under dead standing trees (widowmakers). An ideal site has natural windbreak (a hillside, dense brush), is close to abundant dead leaf debris, and is not a natural wildlife trail." },
+      { "step": 2, "title": "Build the ridgepole", "body": "Find a straight branch or sapling 9–10 feet long (1.5x your height). Support one end in a Y-shaped branch or rock at about hip height. The other end rests on the ground. This is the spine of your shelter. The opening faces downhill to drain any ground moisture away from you." },
+      { "step": 3, "title": "Add ribbing", "body": "Lean branches along both sides of the ridgepole at 45-degree angles, creating a framework like a fish skeleton. Space ribs every 8–10 inches. Pack smaller sticks and brush across the ribs to create a lattice that holds your insulating debris. The interior width should be just wider than your shoulders — tighter is warmer." },
+      { "step": 4, "title": "Pile debris", "body": "Add dead leaves, pine needles, dry grass, bark — any dry organic matter — to the outside of the framework. The debris layer must be 2–3 feet thick on all sides (arm-length). Thicker is warmer. Use a rough calculation: if you can't see the framework through the debris from outside, you have enough." },
+      { "step": 5, "title": "Fill the interior", "body": "Pack the interior floor with 2–3 feet of dry debris. This is your insulation from ground cold, which steals heat faster than air. Crawl in feet-first, dragging more debris to plug the entrance behind you. Your body heat will warm the small interior rapidly." }
+    ],
+    "warnings": [
+      "A debris hut is wet-weather and cold-weather shelter, not fire shelter. Never build or maintain fire inside — it will ignite.",
+      "A debris hut that is too large will not retain body heat. Size it precisely to your body — extra space means extra volume your body must heat."
+    ],
+    "proTips": [
+      "A dry debris hut in near-freezing conditions can maintain 70°F inside with no fire — based on body heat alone. The insulation principle is identical to a down sleeping bag.",
+      "Build it right before dark. Gathering debris takes 2–4 hours. In a survival scenario, shelter is your priority 1 in cold weather — hypothermia kills in hours.",
+      "Mark the entrance with a stick arrangement so you can locate it in the dark if you need to exit at night."
+    ],
+    "relatedGuides": ["shelter-002", "shelter-003"]
+  },
+  {
+    "id": "shelter-002",
+    "category": "shelter",
+    "title": "Lean-To Construction",
+    "priority": "beginner",
+    "tags": ["shelter", "lean-to", "rain", "beginner"],
+    "summary": "Build a quick lean-to for rain and wind protection using natural materials or a tarp.",
+    "steps": [
+      { "step": 1, "title": "Select two anchor trees or poles", "body": "Find two trees, posts, or large rocks 7–9 feet apart. Tie your ridgeline (paracord, rope, or lashed sapling) between them at chest height. This is the horizontal support your shelter leans against." },
+      { "step": 2, "title": "Lay the roofing material", "body": "Lean long straight branches or saplings from the ridgeline to the ground at a 45-degree angle — steeper angles shed rain better. Space them every 12 inches. Weave smaller branches horizontally across these ribs. The roof must be dense enough to shed water, not just block it." },
+      { "step": 3, "title": "Thatch the roof", "body": "Starting from the bottom (ground end) and working upward, lay courses of bark, large leaves, pine boughs, or dense grass like roof shingles — each course overlapping the one below. Water must run from the top and shed off the bottom edge, not soak through." },
+      { "step": 4, "title": "Add side walls if needed", "body": "For cold conditions, close the sides with additional brush and debris piled against staked branch frames. Leave one open side facing your fire (if you have one) — the lean-to and fire create a sandwich that reflects heat toward you efficiently." },
+      { "step": 5, "title": "Insulate the floor", "body": "Pile 4–6 inches of dry leaves or pine boughs under your sleeping position. Cold ground will pull heat out of your body continuously — floor insulation is critical in any cold weather scenario." }
+    ],
+    "warnings": [
+      "A lean-to is not an insulating shelter — it blocks wind and rain but does not retain body heat the way a debris hut does. In near-freezing conditions without fire, a debris hut is required.",
+      "Do not build a lean-to on a ridgeline or exposed hillside — wind amplification can destroy it and drop your effective temperature."
+    ],
+    "proTips": [
+      "A tarp lean-to can be built in under 5 minutes with practiced technique. Learn to pitch your tarp in multiple configurations before you need it.",
+      "A 45-degree pitch sheds rain but increases wind catch. In heavy wind, pitch steeper (60+ degrees) and anchor the bottom edge."
+    ],
+    "relatedGuides": ["shelter-001", "shelter-003", "fire-004"]
+  },
+  {
+    "id": "shelter-003",
+    "category": "shelter",
+    "title": "Snow Shelter Construction",
+    "priority": "advanced",
+    "tags": ["shelter", "snow", "winter", "quinzhee"],
+    "summary": "Build a snow shelter (quinzhee) — interior stays near 32°F regardless of outside temperature.",
+    "steps": [
+      { "step": 1, "title": "Understand the principle", "body": "Snow is an excellent insulator. Interior of a snow shelter will stabilize at approximately 32°F even when outside temperatures drop to -40°F. Wind chill has no effect inside. A small candle or body heat alone is sufficient to raise interior temperature to 40–50°F." },
+      { "step": 2, "title": "Pile and wait (Quinzhee method)", "body": "Pile snow into a mound 8 feet wide and 5–6 feet tall. Pack it loosely — you want sintering (crystals bonding together) but not compression. Insert 12-inch long sticks throughout the mound as depth guides. Wait 2–4 hours for the snow to sinter and harden before hollowing." },
+      { "step": 3, "title": "Hollow the interior", "body": "Dig a tunnel entrance from one side, angled upward into the center. Cold air pools at the lowest point — the raised interior sleeping platform stays warmer than the entrance. Hollow out the interior to just above your reference sticks. A 1-inch ceiling is plenty; thicker is not significantly stronger and reduces interior space." },
+      { "step": 4, "title": "Create a ventilation hole", "body": "Poke a ventilation hole through the ceiling with a ski pole, stick, or your arm. This is not optional — it prevents CO2 buildup and condensation drip. Keep your pole or a stick inside to re-open the vent if snow blocks it." },
+      { "step": 5, "title": "Insulate the floor", "body": "Place branches, a tarp, or a sleeping pad on the interior floor. Sitting or sleeping directly on snow wicks heat rapidly. Even 2 inches of insulation makes a significant difference. Block the entrance with a pack or snow block to retain heat." }
+    ],
+    "warnings": [
+      "Mark the entrance with skis, poles, or a bright flag — a buried quinzhee is impossible to locate after new snowfall.",
+      "Do not sleep in a quinzhee with a fire inside — CO and CO2 buildup will kill you before you wake. A single candle is the maximum safe heat source."
+    ],
+    "proTips": [
+      "A properly built quinzhee is structurally sound enough to support an adult standing on top — this is the test. If it collapses under body weight, add more time for sintering or increase wall thickness.",
+      "In an emergency with no tools, dig into a natural snow bank or create a snow trench — any configuration that gets you out of wind and off bare ground is survival-grade shelter."
+    ],
+    "relatedGuides": ["shelter-001", "shelter-002"]
+  },
+  {
+    "id": "shelter-004",
+    "category": "shelter",
+    "title": "Urban Grid-Down Shelter",
+    "priority": "critical",
+    "tags": ["shelter", "urban", "grid-down", "critical"],
+    "summary": "Assess, secure, and establish shelter in an urban environment during grid failure.",
+    "steps": [
+      { "step": 1, "title": "Structural assessment", "body": "Before entering any building: look for foundation cracks, leaning walls, visible structural damage, collapsed sections. Check the ground floor for flooding signs or compromised floors. Smell for gas — if you detect gas, do not enter and do not use any flame or electrical switch nearby. Tag assessed buildings with chalk markers so others know the status." },
+      { "step": 2, "title": "Select for defensibility and concealment", "body": "In a grid-down urban scenario, shelter selection must balance safety with security. Prefer buildings set back from main roads, with multiple exit routes, above ground floor (avoids flooding and easier breach), and without large visible windows on the ground level. Upper floors of multi-story buildings offer observation and concealment advantages." },
+      { "step": 3, "title": "Establish access control", "body": "Secure entry points — not to stop a determined attacker, but to create noise and delay. Broken glass on sills, stacked cans that fall, fishing line at ankle height, bells on string. If you must leave, note what position you left items in to detect entry during absence." },
+      { "step": 4, "title": "Thermal management", "body": "In winter grid-down, select the smallest room for habitation — easier to heat. South-facing rooms with windows capture passive solar heat. Seal drafts with cloth, tape, foam, or paper. Interior rooms with no exterior walls are the warmest in cold and coolest in heat. Mylar emergency blankets on windows reduce heat loss significantly." },
+      { "step": 5, "title": "Water and sanitation setup", "body": "Identify all water storage in the structure (water heaters hold 40–80 gallons; toilet tanks hold 1–2 gallons of potable water if not chemically treated). Establish a toilet and waste disposal protocol immediately — improper waste in enclosed spaces creates rapid disease threat." }
+    ],
+    "warnings": [
+      "Post-earthquake structures that appear intact may have compromised load-bearing elements that fail hours later. Do not shelter in a building that has experienced ground shaking without assessment.",
+      "Open flames in enclosed urban structures for heat carry significant CO poisoning risk. Ensure constant airflow."
+    ],
+    "proTips": [
+      "A hotel or apartment building has advantages over a house in a grid-down scenario: multiple water sources (each unit has a tank), more defensive depth, and often better structural integrity than older housing stock.",
+      "The water heater is your first water source in an urban grid-down — turn off the inlet valve to prevent further contamination from outside the structure and use the drain valve to access the stored water."
+    ],
+    "relatedGuides": ["water-001", "security-001", "disaster-005"]
+  }
+]

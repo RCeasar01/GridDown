@@ -1,0 +1,351 @@
+[
+  {
+    "id": "dis-001",
+    "category": "disaster",
+    "title": "Hurricane — Preparation and Survival",
+    "priority": "critical",
+    "tags": [
+      "disaster",
+      "hurricane",
+      "storm",
+      "flood",
+      "evacuation"
+    ],
+    "summary": "Survive a major hurricane through pre-storm preparation, sheltering, and post-storm actions.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Before the storm — D-72 to D-48",
+        "body": "At 72 hours out: know your evacuation zone (NHC/local emergency management publishes zone maps). If in Zone A, B, or C and a Category 3+ is forecast, evacuate. If sheltering in place: fill vehicles with fuel now — gas stations will be sold out or closed within 24 hours. Fill bathtubs with water (WaterBob bladder is better than open tub — holds 100 gallons). Withdraw cash. Charge all devices. Secure outdoor items."
+      },
+      {
+        "step": 2,
+        "title": "Before the storm — D-24",
+        "body": "Final shelter-in-place preparation: cover windows with pre-cut plywood (5/8-inch minimum) or hurricane shutters. Do not use tape on glass — it is ineffective and dangerous. Locate your interior safe room — the smallest interior room on the lowest floor that is not a garage or below flood level. Gather emergency supplies to this room. Confirm evacuation is no longer viable or order to stay has been given."
+      },
+      {
+        "step": 3,
+        "title": "During the storm — surge and wind",
+        "body": "Storm surge is the primary killer in hurricanes, not wind. If storm surge flooding begins, move to the highest floor. Do not attempt to drive through flood water — 6 inches of moving water can knock a person down; 12 inches can carry away a vehicle. In the home during the storm: stay in your safe room. Stay away from windows. If the roof begins to fail, move to an interior bathroom and get in the tub with a mattress over you."
+      },
+      {
+        "step": 4,
+        "title": "The eye — do not go outside",
+        "body": "The eye of a hurricane can last 20–40 minutes and may appear to be clear and calm. It is not the end of the storm. The eyewall — the most violent part of the hurricane — will arrive from the opposite direction minutes after the eye passes. People who go outside during the eye are sometimes killed by the returning eyewall. Stay in your safe location until official all-clear."
+      },
+      {
+        "step": 5,
+        "title": "After the storm — the hazard phase",
+        "body": "The storm's departure begins the hazard phase: downed power lines (assume any downed line is live), flooded roads, gas leaks, structural damage (do not enter damaged structures without inspection), wildlife driven into populated areas (snakes, fire ants). Do not run generators, camp stoves, or grills indoors or in enclosed spaces — CO poisoning kills more people after hurricanes than the storm itself."
+      }
+    ],
+    "warnings": [
+      "Carbon monoxide poisoning from generators used indoors or too close to windows is the leading cause of hurricane-related deaths after the storm passes. Place generators 20+ feet from any window or opening.",
+      "Do not attempt to ride out a Category 4 or 5 storm in a mobile home. Mobile homes are not structurally rated for hurricane winds — evacuate regardless of evacuation zone if you live in a mobile or manufactured home."
+    ],
+    "proTips": [
+      "The WaterBob (100-gallon tub bladder, ~$30) stores significantly more water than an open tub with less contamination risk. It can provide 2 weeks of water for a family of four.",
+      "Post-hurricane: document all damage with photos before any cleanup or repairs — required for insurance claims. Do not sign contracts with repair companies that appear unsolicited — disaster fraud is extremely common after major storms."
+    ],
+    "relatedGuides": [
+      "dis-002",
+      "water-001"
+    ]
+  },
+  {
+    "id": "dis-002",
+    "category": "disaster",
+    "title": "Tornado — Recognition and Response",
+    "priority": "critical",
+    "tags": [
+      "disaster",
+      "tornado",
+      "shelter",
+      "warning"
+    ],
+    "summary": "React correctly in the seconds available when a tornado threatens your location.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Warning vs Watch",
+        "body": "Tornado Watch: conditions are favorable for tornado development in the watch area. Be aware and prepared to act. Tornado Warning: a tornado has been confirmed by radar or spotters and is in or approaching the warned area. This is action time — move to shelter immediately. Do not wait to see the tornado — by the time a tornado is visible, you may have seconds. Move on the warning, not on visual confirmation."
+      },
+      {
+        "step": 2,
+        "title": "Best shelter in a house",
+        "body": "Best: an underground storm shelter or FEMA-rated safe room. Second best: the lowest floor, most interior room, away from windows — a bathroom with interior walls provides some structural protection (plumbing pipes add rigidity) and the bathtub offers some protection from falling debris. Cover yourself with heavy blankets, a mattress, or a bicycle helmet. Get under something sturdy."
+      },
+      {
+        "step": 3,
+        "title": "No safe shelter available — outdoors",
+        "body": "If in a vehicle: do not shelter under a highway overpass — the overpass funnels and accelerates wind, killing people who shelter there. If the tornado is at a distance and you have time: drive at 90 degrees to the tornado's path. If the tornado is imminent: abandon the vehicle and lie flat in a ditch or depression lower than the road with hands over your head. A vehicle will be rolled, flipped, and destroyed in an EF3+ tornado — there is no safe shelter in a vehicle from a major tornado."
+      },
+      {
+        "step": 4,
+        "title": "After the tornado",
+        "body": "Structural assessment: do not enter buildings that have obvious damage to load-bearing walls or roof without inspection. Smell for gas leaks before entering. Check for downed power lines. In the tornado's path, roadways may be impassable — call for help before attempting to travel. Account for all household members. First responders will be overwhelmed — minor injuries should be self-treated if possible."
+      }
+    ],
+    "warnings": [
+      "The 'go to southwest corner of basement' advice is outdated and incorrect. The safest basement location is under the stairs or a heavy workbench, or in an interior room with the most walls between you and the exterior — not a specific compass direction.",
+      "Mobile homes offer essentially no protection from tornadoes. If a tornado warning is issued and you are in a mobile home, you must evacuate to a substantial structure immediately."
+    ],
+    "proTips": [
+      "A NOAA weather radio with Specific Area Message Encoding (SAME) will wake you if a tornado warning is issued for your county while you sleep. This is life-saving technology that costs $25–40. Every residence in tornado-prone areas should have one.",
+      "Tornadoes in the Southeast US frequently occur at night, in winter, and in conjunction with tropical systems — all conditions that reduce visibility and public awareness. In the Southeast, NOAA radio is especially critical."
+    ],
+    "relatedGuides": [
+      "dis-001",
+      "dis-003"
+    ]
+  },
+  {
+    "id": "dis-003",
+    "category": "disaster",
+    "title": "Earthquake — During and After",
+    "priority": "critical",
+    "tags": [
+      "disaster",
+      "earthquake",
+      "drop cover hold"
+    ],
+    "summary": "Survive the shaking and navigate the aftermath of a significant earthquake.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "During the shaking",
+        "body": "DROP-COVER-HOLD ON: Drop to hands and knees (this protects you from being knocked down and allows you to move if necessary). Cover your head and neck with one arm while getting under a sturdy table or desk if immediately available, or position yourself against an interior wall away from windows. Hold on until the shaking stops — it can last 20–120 seconds and will feel much longer. Do not run outside during shaking — most earthquake injuries are from falling and falling objects, not structural collapse."
+      },
+      {
+        "step": 2,
+        "title": "What not to do during shaking",
+        "body": "Do not run outside — the exterior of buildings is the most dangerous area during an earthquake (falling facade, glass, structural members). Do not stand in doorways — this is a persistent myth. A doorframe in a modern building offers no more protection than any other location and puts you in a high-traffic area. Do not use elevators. Do not use matches or lighters — gas line damage may be producing flammable gas."
+      },
+      {
+        "step": 3,
+        "title": "Immediate post-shaking actions",
+        "body": "Expect aftershocks — often strong enough to cause additional damage. Check yourself and others for injuries. If gas smell is present: do not use any electrical switches or open flame. Evacuate the building and leave the door open. Call the utility company. Shut off gas at the meter only if you smell gas and know how to do it (wrench on the meter valve — 90° from inline to perpendicular). Assess structural damage before fully occupying the space."
+      },
+      {
+        "step": 4,
+        "title": "The first 72 hours",
+        "body": "After a major earthquake, expect: disrupted utilities (power, water, gas, telecommunications) for days to weeks. Roads and bridges may be impassable. Emergency services will be overwhelmed and response times will be measured in hours. Self-sufficiency for minimum 72 hours (preferred: 14 days) is essential in earthquake-prone areas. The most critical resources: water (municipal supply may fail), medications, communications."
+      }
+    ],
+    "warnings": [
+      "Tsunami warning: if you are in a coastal area and feel a major earthquake, move to high ground immediately without waiting for an official warning. The shaking IS the warning. Tsunamis can arrive within minutes of the quake.",
+      "Search and rescue after collapse: if trapped under debris, cover your mouth with cloth to reduce dust inhalation. Make noise by tapping on pipes or walls — sound travels through structure better than shouting."
+    ],
+    "proTips": [
+      "In the US Pacific Northwest (Cascadia Subduction Zone), a M9.0 earthquake is not a question of if but when. The expected event will generate tsunamis reaching 100+ feet in some coastal locations. If you live or work in the inundation zone, know your vertical evacuation routes.",
+      "Store water before you need it: 5-gallon water containers ($8–15 each) filled from the tap and stored in a cool dark location last 6–12 months. Rotate annually."
+    ],
+    "relatedGuides": [
+      "dis-004",
+      "water-001"
+    ]
+  },
+  {
+    "id": "dis-004",
+    "category": "disaster",
+    "title": "Flood — Flash Flood and Long-Duration Flood",
+    "priority": "critical",
+    "tags": [
+      "disaster",
+      "flood",
+      "flash flood",
+      "evacuation"
+    ],
+    "summary": "Survive flash floods through early recognition and correct response to both flash and river flooding.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Flash flood recognition",
+        "body": "Flash floods can move faster than a person can run and carry vehicles, trees, and boulders. Conditions producing flash floods: heavy rain upstream (the flood arrives without rain at your location), dam or levee failure, ice jam release. Warning signs: rapid rise in water level; roaring sound from upstream; change in stream color (brown, muddy water where it was clear); debris in water. Flash floods give minutes of warning — recognize the signs and move immediately."
+      },
+      {
+        "step": 2,
+        "title": "Correct response to flash flood",
+        "body": "Move to high ground immediately — do not stop to gather belongings. Move perpendicular to the water flow, not downstream. Six inches of moving water can knock down an adult; two feet of moving water can carry away a vehicle. If caught in moving water: do not fight the current. Float on your back with feet downstream (feet absorb impact with obstacles, face is above water). Work toward shore at an angle."
+      },
+      {
+        "step": 3,
+        "title": "Never drive into flood water",
+        "body": "TURN AROUND, DON'T DROWN. Most flood deaths in the US occur in vehicles driven into flood water. 12 inches of water can float most passenger vehicles; 24 inches can carry away most vehicles including pickups and SUVs. You cannot judge the depth of flood water from a vehicle — the road beneath may have washed away entirely. If your vehicle is swept away and begins to sink: do not try to open the door against water pressure. As water rises inside the vehicle, wait for the interior to fill (equalizing pressure), then open the door and swim out."
+      },
+      {
+        "step": 4,
+        "title": "Post-flood safety",
+        "body": "Flood water is contaminated: with sewage, agricultural chemicals, fuel, industrial materials, and biological hazards. Do not walk through flood water if avoidable. If you must: waterproof boots minimum, clean wounds that contact flood water immediately. Do not consume food that has contacted flood water (canned goods with intact seals can be disinfected; all other food is suspect). Flood-damaged structures require mold assessment within 24–48 hours of water infiltration."
+      }
+    ],
+    "warnings": [
+      "Flooded basements: do not enter a flooded basement if the water may be in contact with electrical systems. The electrocution risk is severe.",
+      "Gas and propane tanks may become buoyant in flood water and can rupture, creating fire and explosion hazard. Do not approach free-floating gas cylinders."
+    ],
+    "proTips": [
+      "FEMA flood maps (msc.fema.gov) show historical flood zones. If your property is in a Zone A or AE, you are statistically likely to flood within your 30-year mortgage period. Know your zone before you need to know it.",
+      "Flood insurance is separate from homeowners insurance and must be purchased before a flooding event — it has a 30-day waiting period. In flood zones, it is not optional."
+    ],
+    "relatedGuides": [
+      "dis-001",
+      "dis-003"
+    ]
+  },
+  {
+    "id": "dis-005",
+    "category": "disaster",
+    "title": "EMP — Electromagnetic Pulse Response",
+    "priority": "advanced",
+    "tags": [
+      "disaster",
+      "EMP",
+      "grid down",
+      "electronics"
+    ],
+    "summary": "Understand the real-world effects of an EMP event and the practical immediate response.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "What is an EMP",
+        "body": "An electromagnetic pulse (EMP) is a burst of electromagnetic energy that can damage or destroy electronics over a wide area. Sources: nuclear EMP (HEMP — High-altitude EMP), conducted from a nuclear detonation in near space; solar EMP (Coronal Mass Ejection — CME), a large solar storm that can produce geomagnetically induced currents; non-nuclear EMP devices (NNEMP), limited range. A large HEMP or CME event could damage power grid infrastructure, vehicles with electronic control units, communications infrastructure, and consumer electronics across a continent-sized area."
+      },
+      {
+        "step": 2,
+        "title": "What fails and what survives",
+        "body": "Most vulnerable: connected infrastructure (power grid transformers are the primary vulnerability — they take years to manufacture and replace), vehicles with electronic ignition and ECU systems, modern aircraft avionics. More survivable: older mechanical systems, diesel engines without electronic injection, simple electronics not connected to long conductors during the event, electronics stored in Faraday cage protection. Some modern vehicles may survive depending on position, shielding, and pulse characteristics — research is ongoing and outcomes are not uniform."
+      },
+      {
+        "step": 3,
+        "title": "Immediate response — the first 72 hours",
+        "body": "If electronics fail without obvious cause and the event is widespread: assume an EMP or CME event may have occurred. Check neighbors — is the failure localized or widespread? Check vehicles. Listen to any battery-operated radio that survived. Your immediate priorities shift to the same as any grid-down scenario: water, food, shelter, medical, security. The difference from a normal power outage: restoration timelines may be measured in months to years, not hours."
+      },
+      {
+        "step": 4,
+        "title": "Faraday cage protection",
+        "body": "Electronics can be protected from EMP by storing them in a Faraday cage — a conductive enclosure that attenuates electromagnetic fields. A properly sealed metal trash can with a tight-fitting lid functions as a basic Faraday cage. Line the interior with cardboard or foam to prevent direct contact of electronics with the metal. Items worth protecting: backup NOAA/HAM radio, battery power banks, solar charge controller, medical devices. Multi-layered protection (electronics in static bags inside a metal can) provides more certainty."
+      }
+    ],
+    "warnings": [
+      "EMP threat assessment: genuine EMP risk is real (solar CME events have occurred historically — the 1989 Quebec event knocked out grid power to 6 million people) but is frequently over-stated in preparedness discussions. Calibrate your preparation to realistic risk assessment.",
+      "Hardened electronics: there is significant misinformation about which specific consumer devices survive EMP. Testing under realistic conditions is limited. Do not assume any modern device will survive a major HEMP event."
+    ],
+    "proTips": [
+      "The Carrington Event (1859) was a massive CME that would destroy virtually all modern electrical infrastructure if it occurred today. A 2012 CME of comparable magnitude missed Earth by 9 days. The threat is real and is within the normal range of solar activity.",
+      "A basic Faraday cage for communications gear costs under $30 (metal trash can with lid, foam liner, static bags). There is no reason not to have one if your preparedness planning includes any grid-down scenarios."
+    ],
+    "relatedGuides": [
+      "dis-006",
+      "comms-002"
+    ]
+  },
+  {
+    "id": "dis-006",
+    "category": "disaster",
+    "title": "Nuclear Incident — Blast, Fallout, and Shelter-in-Place",
+    "priority": "advanced",
+    "tags": [
+      "disaster",
+      "nuclear",
+      "fallout",
+      "shelter",
+      "radiation"
+    ],
+    "summary": "Understand the actionable steps that improve survival probability following a nuclear detonation.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "The survivable zone — most people are not at ground zero",
+        "body": "The majority of nuclear scenarios that produce civilian casualties are detonations in or near population centers, not direct individual targeting. If you are alive after a detonation, you are in the survivable zone — the question is whether you take the correct actions. The two primary hazards for survivors at distance are initial blast (handled by cover and distance) and fallout (radioactive particles that descend from the fireball over hours). Correct response to fallout can reduce radiation dose by 90%+ compared to remaining outside."
+      },
+      {
+        "step": 2,
+        "title": "Initial detonation — flash and blast",
+        "body": "If you see a flash: DROP immediately, face down. Cover your face and exposed skin. Stay down until the blast wave passes (approximately 30 seconds for a blast traveling from a distant detonation). The flash travels at the speed of light — the blast wave follows at the speed of sound. Distance = survival advantage. After the blast: do not approach or look at the mushroom cloud."
+      },
+      {
+        "step": 3,
+        "title": "Fallout timing — the 15-minute window",
+        "body": "After a detonation, you have approximately 10–15 minutes before significant fallout begins to descend at ground level from a detonation within 10 miles (times vary with yield and atmospheric conditions). This window must be used to reach the best available shelter. The DHS and FEMA guidance is: GET INSIDE. GET INSIDE. STAY INSIDE."
+      },
+      {
+        "step": 4,
+        "title": "Shelter — what protects and what does not",
+        "body": "Radiation shielding by mass: concrete and earth are the most effective. A large, multi-story concrete building provides significant shielding — particularly the center of middle floors (away from exterior walls and roof). Protection factors by location: outside in the open = 1 (baseline). In a vehicle = 2. In a wood frame house = 10. In a basement = 40+. In the center of a large concrete building on middle floors = 200–300. You are trying to put as much mass as possible between yourself and the fallout particles outside."
+      },
+      {
+        "step": 5,
+        "title": "Shelter-in-place — 24 to 48 hours",
+        "body": "Fallout radiation levels decrease by approximately 90% every 7 hours (the 7:10 rule — for every 7-fold increase in time, radiation decreases by a factor of 10). At 24 hours, radiation levels are approximately 1/50 of peak levels. At 48 hours, 1/500. FEMA recommends sheltering in place in your best available shelter for minimum 24–48 hours, then following official guidance. During shelter: seal windows and doors with plastic sheeting and tape. Turn off HVAC and ventilation. Store water in sealed containers. Move to the most interior, lower-floor rooms."
+      }
+    ],
+    "warnings": [
+      "Potassium iodide (KI): KI protects only the thyroid from radioactive iodine (I-131). It does not provide general radiation protection. It is recommended for fallout scenarios — follow official dosing guidance. Do not take iodine antiseptic as a substitute.",
+      "Leaving shelter prematurely is the major survivable error in nuclear incident response. The pressure to check on family or property causes people to exit protective shelter too early and absorb the highest-rate fallout radiation. Resist this pressure for a minimum of 24 hours."
+    ],
+    "proTips": [
+      "The Ready.gov and FEMA nuclear incident guidance is based on decades of research and is the legitimate authoritative source. The short version: Get Inside, Stay Inside, Stay Tuned. Following this guidance will save lives in virtually any nuclear scenario short of direct ground zero impact.",
+      "The greatest predictor of civilian survival in a nuclear scenario is distance from the detonation and speed of sheltering. If you do not live near a likely target (major military installations, port facilities, large cities), your odds of surviving the immediate effects and having time to implement fallout protection are substantially higher."
+    ],
+    "relatedGuides": [
+      "dis-005",
+      "shelter-004"
+    ]
+  },
+  {
+    "id": "disaster-007",
+    "category": "disaster",
+    "title": "Civil Unrest and Grid-Down Social Breakdown",
+    "priority": "advanced",
+    "tags": [
+      "civil unrest",
+      "social breakdown",
+      "security",
+      "grid-down",
+      "looting",
+      "riots"
+    ],
+    "summary": "Recognize the stages of social breakdown in a grid-down event and adapt your security posture, movement, and resource management accordingly.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Recognize the breakdown timeline",
+        "body": "Civil unrest follows a predictable arc after infrastructure collapse. Hours 0–24: most people comply, wait, assume government restoration. Stores sell out. Hours 24–72: frustration rises, opportunistic crime begins, shelves bare. Panic buying turns to conflict. Day 3–7: organized looting, breakdown of civil authority in dense urban areas, hospital and emergency services overwhelmed. Week 2+: resource scarcity drives territorial behavior; group dynamics become survival-critical. Understanding this timeline lets you act proactively — not reactively — at each stage. Decisions made in hour 6 are far less costly than decisions made in day 4."
+      },
+      {
+        "step": 2,
+        "title": "Low profile and information security",
+        "body": "During social breakdown, visible wealth and resources become targets. Actions: Do not display food, weapons, generators, or fuel. Cover windows with opaque materials if lights must be used at night — visible light signals habitation and resources. Do not discuss your supplies with neighbors beyond your trusted group. Move at dawn or dusk to avoid peak-activity periods. Use plain, worn clothing; avoid tactical or military gear that marks you as a high-value target or draws law-enforcement attention. Reduce vehicle movement — fuel exhaustion during an unrest scenario can strand you in a dangerous location."
+      },
+      {
+        "step": 3,
+        "title": "Group dynamics and threat identification",
+        "body": "A lone individual is a target. A cohesive group with clear roles is significantly safer. Establish a watch rotation — no single person can maintain alertness for more than 4–6 hours. Define group roles: communications, security, medical, logistics. Identify who makes decisions in an emergency. Establish a code word for 'threat imminent — execute plan' that can be spoken calmly without alerting outsiders. Threat identification: most people during breakdown are desperate, not predatory. Distinguish between someone begging for food (manageable, address with minimal resource exposure) and organized groups conducting systematic looting (avoid, do not engage)."
+      },
+      {
+        "step": 4,
+        "title": "Shelter-in-place vs. evacuation decision matrix",
+        "body": "The decision to stay or go is the most consequential you will make. Default to shelter-in-place if: your home is defensible, you have 14+ days of supplies, the threat is generalized urban unrest at a distance. Move if: direct threat to your location is imminent, authorities have issued evacuation orders for your specific area, your supply chain is compromised and resupply is impossible. If you move: move before the mass of people do — roads become impassable and dangerous at peak exodus. Have three routes planned to your destination. Carry only what you can move quickly. Leave no indication of your destination."
+      },
+      {
+        "step": 5,
+        "title": "Communication and intelligence gathering",
+        "body": "In a grid-down civil unrest scenario, information asymmetry is a force multiplier. Maintain radio monitoring (NOAA weather radio, local emergency services if scanners are available, shortwave for regional and national updates). Establish a neighborhood intelligence network — agree with two or three trusted neighbors to share information on a scheduled basis. Use a runner (person on foot) for short-distance communication when radio silence is preferred. Do not spread unverified information — panic is contagious and false threat reports drive poor decisions. Treat information as a resource: collect it deliberately, verify when possible, distribute selectively."
+      }
+    ],
+    "warnings": [
+      "Engaging in armed conflict against looters carries serious legal risk even during a declared emergency. Know your jurisdiction's laws regarding use of force in property defense. In most states, lethal force is not legal to defend property — only to defend life.",
+      "Hoarding a visible resource surplus while neighbors starve creates enemies. Managing community perception of your preparedness level is a security strategy, not deception."
+    ],
+    "proTips": [
+      "The \"gray man\" concept from security professionals: dress, behave, and present yourself in a way that draws zero attention. Be forgettable. Average clothing, average pace, no tactical gear in public.",
+      "Historical case studies from Sarajevo 1992–95 and New Orleans 2005 post-Katrina show that neighborhood-level mutual aid networks dramatically outperformed isolated individual preppers in medium-to-long duration breakdown scenarios."
+    ],
+    "relatedGuides": [
+      "sec-001",
+      "sec-002",
+      "sec-003",
+      "dis-005"
+    ]
+  }
+]

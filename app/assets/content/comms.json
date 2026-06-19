@@ -1,0 +1,192 @@
+[
+  {
+    "id": "comms-001",
+    "category": "comms",
+    "title": "Signal Mirror",
+    "priority": "critical",
+    "tags": [
+      "comms",
+      "signal",
+      "mirror",
+      "rescue"
+    ],
+    "summary": "Use a signal mirror to attract aircraft and search parties from up to 10+ miles away.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Why signal mirrors work",
+        "body": "A mirror flash is one of the most visible rescue signals available to a survivor. Under good conditions, a mirror flash can be seen by an observer 10–15 miles away and by aircraft at much greater distances. The reflected sunlight produces a flash of approximately 1 million candlepower — far brighter than a flare at equivalent distances and with no consumable fuel."
+      },
+      {
+        "step": 2,
+        "title": "Aim the mirror — with a purpose-built signal mirror",
+        "body": "A military signal mirror has a reflective grid/hole in the center. Hold the mirror close to your eye with the reflective side facing the sun. Look through the aiming hole at your target (aircraft, ship, person). A bright spot of reflected light will appear on surfaces near your target. Tilt and adjust the mirror until the bright spot from the hole is aimed at your target. When aligned, you are signaling the target."
+      },
+      {
+        "step": 3,
+        "title": "Aim the mirror — improvised",
+        "body": "Any reflective surface can work: phone screen, CD, metal pot lid, polished tin. Hold the reflective surface angled toward the sun. Extend your other hand at arm's length in front of you with two fingers forming a V (or create a small target area with your fingers). Position your hand so the target (aircraft, observer) appears between your fingers. Tilt the mirror until sunlight reflected from the mirror passes through your finger-V toward the target."
+      },
+      {
+        "step": 4,
+        "title": "Signal pattern",
+        "body": "Three flashes: the international distress signal (three of anything — three shots, three whistle blasts, three flashes). Alternate between signaling in the target direction and resting. If you can see an aircraft but cannot get the signal on it, continue attempting — aircraft often alter course to investigate unexplained flashes. Signal toward aircraft regardless of whether they appear to be searching for you."
+      }
+    ],
+    "warnings": [
+      "Do not use a signal mirror toward vehicles on the road at night — a mirror flash can temporarily blind a driver. On roads, signal upward toward the sky.",
+      "Signal mirrors are most effective with direct sunlight. Overcast skies significantly reduce range, though high overcast still allows limited signaling."
+    ],
+    "proTips": [
+      "A glass signal mirror is more reflective and effective than polished metal. The military issue glass signal mirror (MIL-S-18281) costs under $10 and should be in every survival kit.",
+      "Signal from the highest available terrain — elevation dramatically increases how far your signal can be seen and removes terrain obstructions."
+    ],
+    "relatedGuides": [
+      "comms-002",
+      "comms-003",
+      "comms-004"
+    ]
+  },
+  {
+    "id": "comms-002",
+    "category": "comms",
+    "title": "Emergency Radio — NOAA and HAM Basics",
+    "priority": "critical",
+    "tags": [
+      "comms",
+      "radio",
+      "NOAA",
+      "HAM",
+      "emergency"
+    ],
+    "summary": "Use emergency radios to receive weather alerts and broadcast distress in a grid-down scenario.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "NOAA Weather Radio",
+        "body": "NOAA Weather Radio All Hazards (NWR) broadcasts 24/7 on seven frequencies between 162.400 MHz and 162.550 MHz. These broadcasts include weather forecasts, warnings, watches, and emergency alerts for all hazard types. A dedicated NOAA weather radio receiver is the most reliable way to receive official emergency information. Many solar/crank emergency radios include NOAA band. During a grid-down scenario, NOAA broadcasts continue as long as transmitter infrastructure is intact."
+      },
+      {
+        "step": 2,
+        "title": "FRS/GMRS radios",
+        "body": "Family Radio Service (FRS) handhelds are the standard consumer walkie-talkie. Channels 1–7 (shared FRS/GMRS), maximum 2 watts, line-of-sight range typically 0.5–2 miles in real-world terrain. Channel 1 (462.5625 MHz) is the most commonly monitored emergency channel in the US among general public. For group communication within a retreat or neighborhood, FRS provides simple, license-free communication. Channel 22A is reserved for emergency use."
+      },
+      {
+        "step": 3,
+        "title": "HAM radio — the long-range option",
+        "body": "Amateur (HAM) radio operators can communicate globally when all other infrastructure fails. In an emergency scenario, HAM operators often form nets (organized groups monitoring specific frequencies). Key frequencies: 146.520 MHz (national simplex calling frequency for 2m band — nationwide). 52.525 MHz (6m simplex calling). 7.200–7.300 MHz (40m voice, day/regional) and 14.225 MHz (20m voice, day/national). Receiving HAM broadcasts requires only a radio receiver — no license. Transmitting legally requires a license, though in a genuine life-threatening emergency, the FCC permits unlicensed transmission on any frequency."
+      },
+      {
+        "step": 4,
+        "title": "Emergency broadcast protocol",
+        "body": "To broadcast distress on any radio: press and hold the push-to-talk button. State: MAYDAY MAYDAY MAYDAY (or PAN PAN for urgent non-life-threatening). Your name. Your position (GPS coordinates if available, described position if not). Nature of emergency. Number of people. Any special needs (medical, mobility). Release the button and listen. Repeat every few minutes. Channel 16 on marine VHF is the international distress channel, monitored by the Coast Guard."
+      }
+    ],
+    "warnings": [
+      "Battery management is critical for emergency radios. At transmission, most radios draw 10–30× more power than in receive mode. Receive mode first, transmit mode only when necessary.",
+      "HAM radio requires a license to transmit under normal circumstances. Obtain a Technician class license (easiest — 35-question multiple choice) before you need the capability."
+    ],
+    "proTips": [
+      "The Baofeng UV-5R is a sub-$30 dual-band HAM radio popular in preparedness communities. It can also receive NOAA, FRS/GMRS frequencies. Get one before you need one — and get your HAM license.",
+      "Keep a list of pre-programmed frequencies: local repeaters, NOAA, FEMA/RACES frequencies for your county. Most radios require manual programming or a cable/software connection to pre-program."
+    ],
+    "relatedGuides": [
+      "comms-001",
+      "comms-003"
+    ]
+  },
+  {
+    "id": "comms-003",
+    "category": "comms",
+    "title": "Signal Fire Construction",
+    "priority": "critical",
+    "tags": [
+      "comms",
+      "signal",
+      "fire",
+      "rescue"
+    ],
+    "summary": "Build signal fires that produce maximum visible smoke for aerial rescue in daylight.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Site selection",
+        "body": "Choose the highest available ground — ridgelines, hill summits, cliff edges visible from the air. Clear the area of flammable material around your signal fire site. Clear land is visible from aircraft; smoke rising from forested areas often cannot be distinguished from ground level. If in forest, choose the largest clearing, lake shore, or open meadow available."
+      },
+      {
+        "step": 2,
+        "title": "Build a three-fire triangle",
+        "body": "Three fires in a triangle pattern (equilateral, each fire 25–50 meters apart) is the international distress signal visible from aircraft. Prepare all three fires simultaneously so you can light all three quickly when an aircraft is heard. Each fire should be large enough to generate significant smoke independently."
+      },
+      {
+        "step": 3,
+        "title": "Smoke color",
+        "body": "Daytime visibility: colored smoke — white, black, or colored — is more visible than clear fire. White smoke: add green leaves, grass, or moss to a well-established fire. Works well in dark terrain (forests, dark rock). Black smoke: rubber, petroleum products (tire, oil), plastics. Works well in snow, desert, or light terrain. Prioritize the color that contrasts with the background terrain."
+      },
+      {
+        "step": 4,
+        "title": "Maintenance",
+        "body": "A signal fire is only effective when burning. Prepare fuel in advance so the fire can be maintained indefinitely. Assign a person to the signal fire if possible — an unmanaged fire dies within 30–60 minutes. Pre-position smoke-producing materials (green leaves, rubber) so they can be added quickly when an aircraft approaches."
+      }
+    ],
+    "warnings": [
+      "A signal fire that spreads and becomes a wildfire will prevent rescue and endanger your group. Maintain a cleared firebreak of 10+ feet around the signal area.",
+      "Signal fires communicate distress — lighting one without genuine need consumes emergency resources and may be illegal. Reserve for actual emergencies."
+    ],
+    "proTips": [
+      "Automotive tires produce massive volumes of dense black smoke visible for dozens of miles. If you have access to a disabled vehicle in an emergency, a burning tire is one of the most effective aerial signals available.",
+      "Pre-build your signal fire and pre-stage smoke materials but do not light until an aircraft is present. A fire that burns for hours unobserved depletes fuel and alerts no one."
+    ],
+    "relatedGuides": [
+      "comms-001",
+      "comms-004"
+    ]
+  },
+  {
+    "id": "comms-004",
+    "category": "comms",
+    "title": "Whistle Codes and Ground-to-Air Signals",
+    "priority": "advanced",
+    "tags": [
+      "comms",
+      "whistle",
+      "signals",
+      "rescue"
+    ],
+    "summary": "Use auditory signals and ground markers to communicate with rescuers.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Whistle distress signal",
+        "body": "Three whistle blasts: the international distress signal. Blow three times, pause, listen. Repeat every 5 minutes. A quality emergency whistle (Fox 40, Acme Thunderer, military pealess) carries to 1 mile or more. It requires no fuel, works when wet, and can be heard when a person is too weak to shout. Every survival kit should include a pealess whistle — pea whistles fail when the pea freezes or gets wet."
+      },
+      {
+        "step": 2,
+        "title": "Ground-to-air signal symbols",
+        "body": "Lay large symbols on the ground visible from aircraft. Use rocks, logs, clothing, or any high-contrast material. Minimum size: 3 meters long, letters/symbols spaced 3+ meters apart. Standard symbols: X = need medical assistance; V = need help; → = traveling in this direction; F = need food and water; LL = all is well; N = no; Y = yes. Make symbols as large as possible and use maximum contrast with the background."
+      },
+      {
+        "step": 3,
+        "title": "Attract attention — any means",
+        "body": "Aircraft respond to anything unusual on the ground. Tramped-out patterns in snow or sand, bright colors spread on the ground, movement (waving clothing), or repeated flashes. If you see an aircraft, use all available signals simultaneously — whistle, mirror, wave. An aircraft that does not alter course has likely not seen you. Continue signaling."
+      },
+      {
+        "step": 4,
+        "title": "Mirror signaling and pyrotechnics",
+        "body": "A signal mirror can be seen for 10+ miles on a clear day — far beyond any whistle. Aim reflected sunlight at an aircraft by looking through the sighting hole (military mirror) or holding the mirror at eye level and tilting toward the sun until you see the flash. Practice this skill before you need it.\n\nPyrotechnics: if you have flares, use them only when you see or hear a rescue asset — a flare burns for 15–60 seconds and should not be wasted. Day/night flares differ: smoke is more visible by day, flame by night. Orange smoke is the universal aircraft-to-ground distress color.\n\nCell phone screens flashed in a pattern can also attract night searches. Three short, three long, three short (SOS in light) is visible hundreds of yards away in darkness."
+      }
+    ],
+    "warnings": [
+      "Do not fire weapons as a signal if there is any possibility that rescuers might misinterpret shots. In some scenarios, gunfire may cause rescuers to avoid an area.",
+      "A pea whistle is inadequate for emergency use. Test any whistle you rely on — blow it when wet and in cold temperatures. Pealess whistles function reliably in all conditions."
+    ],
+    "proTips": [
+      "The Fox 40 Classic pealess whistle produces 115 decibels and is used by lifeguards and military worldwide. At $5, there is no reason not to carry one.",
+      "In snow: stamping out a large X takes 5–10 minutes and can be seen by aircraft from thousands of feet. Fill the X with dark material (pine boughs, clothing) for maximum contrast with snow."
+    ],
+    "relatedGuides": [
+      "comms-001",
+      "comms-003"
+    ]
+  }
+]

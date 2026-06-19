@@ -1,0 +1,100 @@
+[
+  {
+    "id": "fire-001",
+    "category": "fire",
+    "title": "Bow Drill Fire Starting",
+    "priority": "advanced",
+    "tags": ["fire", "primitive", "friction", "bow drill"],
+    "summary": "Start fire using a friction-based bow drill — requires proper wood selection and technique.",
+    "steps": [
+      { "step": 1, "title": "Select wood species", "body": "Both the spindle (drill) and fireboard must be dry, the same hardness, and low resin content. Good combinations: willow/willow, cedar/cedar, cottonwood/cottonwood, mullein spindle on basswood board. The moisture test: the wood should snap cleanly, not bend. If it bends, it's too wet." },
+      { "step": 2, "title": "Build the bow", "body": "Select a stiff, slightly curved branch 24–30 inches long for the bow. Tie cordage (paracord, shoelace, or twisted plant fiber) tightly from tip to tip with about 20% sag — enough to wrap once around the spindle. Too tight and it won't spin; too loose and it slips." },
+      { "step": 3, "title": "Prepare the fireboard", "body": "Cut a shallow depression into the fireboard about half an inch from the edge. Carve a V-shaped notch from the depression to the edge, with the point of the V reaching just past the center of the depression. Place a piece of bark or dry leaf under the notch to catch the coal." },
+      { "step": 4, "title": "Assemble and drill", "body": "Trap the spindle in the bow string with one wrap. Place the spindle tip in the fireboard depression. Hold the spindle vertical with the handhold (a smooth rock or notched wood piece with a small lubricated depression). Apply firm downward pressure while drawing the bow horizontally — long, even strokes the full length of the bow." },
+      { "step": 5, "title": "Build speed and pressure", "body": "Start at moderate pace to build heat. Increase speed and downward pressure as smoke begins. When thick smoke pours from the notch, give 10–15 fast powerful strokes then remove the bow. The coal is in the catch piece under the notch." },
+      { "step": 6, "title": "Transfer coal to tinder", "body": "Carefully tap the notch to ensure the coal falls onto the catch. It will be black and glowing orange — fragile. Transfer the entire catch piece to your tinder bundle without disturbing the coal. Fold the tinder bundle loosely around the coal and blow gently with steady, deep breaths until the bundle bursts into flame. Drop it into your prepared fire lay immediately." }
+    ],
+    "warnings": [
+      "Wood selection is the most common failure point. Wet or mismatched wood species will not produce a coal regardless of technique.",
+      "Blisters on the handhold hand are inevitable until technique improves. Lubricate the handhold depression with forehead skin oil, ear wax, or lip balm — NOT the fireboard socket."
+    ],
+    "proTips": [
+      "The spindle should fit the bow string snugly — hold the bow horizontal, the spindle should not fall out. Wrap the string around the spindle once, not twice.",
+      "If you're getting smoke but no coal, carve the notch slightly larger — the V point may not reach the center of the friction depression.",
+      "Practice this skill extensively before you need it. A first-time bow drill user in a stress scenario will fail. Proficiency requires dozens of practice sessions."
+    ],
+    "relatedGuides": ["fire-002", "fire-003"]
+  },
+  {
+    "id": "fire-002",
+    "category": "fire",
+    "title": "Flint and Steel Fire",
+    "priority": "advanced",
+    "tags": ["fire", "flint", "steel", "striker"],
+    "summary": "Create fire by striking a high-carbon steel striker against flint or chert to produce sparks.",
+    "steps": [
+      { "step": 1, "title": "Identify suitable stone", "body": "True flint, chert, quartzite, obsidian, and agate all work. The stone should have a glassy, conchoidal fracture and produce a sharp edge when struck. River cobbles of the right composition work well. Test by striking with the steel striker — if sparks fly, you have the right material." },
+      { "step": 2, "title": "Prepare char cloth", "body": "Char cloth is the best catching material. Pack 100% cotton cloth into a metal tin with a small hole. Place in fire until smoke stops coming out of the hole, then plug the hole immediately. The result is blackened, carbonized cloth that catches a spark at any temperature. Store dry." },
+      { "step": 3, "title": "Striking technique", "body": "Hold the stone with the sharp edge facing up and outward. Place char cloth on the top flat surface of the stone, pressed against the striking edge. Strike downward at a 45-degree angle with the steel striker, hitting the sharp stone edge a glancing blow. The goal is to peel hot metal particles onto the char cloth." },
+      { "step": 4, "title": "Catch and develop the spark", "body": "A caught spark on char cloth appears as a small orange glow. Gently blow on it — the glow will spread. Once the char cloth is fully glowing, transfer to a tinder bundle. Fold the bundle loosely around the glowing char and blow with steady breath until it ignites." }
+    ],
+    "warnings": [
+      "Modern high-carbon steel strikers (ferro rods) produce abundant sparks and are far more reliable than traditional steel in wet conditions — carry one in your kit.",
+      "Always have tinder prepared BEFORE striking — the spark window is brief."
+    ],
+    "proTips": [
+      "Dried fungus (amadou from horse hoof fungus), cattail down, dried grass, and dried tree bark dust all catch sparks well as alternatives to char cloth.",
+      "A ferro rod (ferrocerium striker) requires no special stone — any rough surface works and it functions wet. This is your primary fire-starting tool; bow drill and flint/steel are backups."
+    ],
+    "relatedGuides": ["fire-001", "fire-003", "fire-004"]
+  },
+  {
+    "id": "fire-003",
+    "category": "fire",
+    "title": "Starting Fire in Rain",
+    "priority": "advanced",
+    "tags": ["fire", "rain", "wet conditions"],
+    "summary": "Techniques to start and sustain fire when everything is wet.",
+    "steps": [
+      { "step": 1, "title": "Source dry material first", "body": "Wet is only on the surface. The inside of standing dead wood is usually dry. Split logs open with a knife, rock, or by batoning — the dry inner wood is your starting material. Look under overhangs, inside hollow trees, and beneath dense evergreen canopy where ground material stays relatively dry." },
+      { "step": 2, "title": "Build a base platform", "body": "Wet ground will soak heat away from your fire and extinguish a struggling fire before it establishes. Build a platform of dry wood — use split logs or thick bark, stacked parallel. Your fire starts on this elevated surface, not on wet ground." },
+      { "step": 3, "title": "Shield from wind and rain", "body": "Cup hands, use your body, an improvised windbreak of packed bark, rocks, or your pack. Even a small windscreen dramatically increases success rates. Wind both cools the early fire and blows rain directly into tinder." },
+      { "step": 4, "title": "Build small and dense", "body": "In wet conditions, a large fire lay is the enemy. Build a very small, concentrated tinder bundle — finger-sized kindling tightly packed over your tinder. Small fires concentrate heat in wet conditions better than large spreads. Establish the small fire before scaling up." },
+      { "step": 5, "title": "Feed aggressively once lit", "body": "The moment you have flame, feed it continuously with the best available fuel — do not let it breathe to the point of dying. Any pause at this stage risks losing it. Have abundant progressively-sized fuel ready before striking your first spark." }
+    ],
+    "warnings": [
+      "River rocks and wet rocks from creek beds can explode when rapidly heated — use dry rocks or metal for fire rings in wet conditions.",
+      "Never use accelerants on a struggling fire — control of the flare-up is impossible."
+    ],
+    "proTips": [
+      "Birch bark contains natural oils and will light even when soaking wet. It is one of the best wet-weather fire starters in any temperate climate.",
+      "Fatwood (resin-saturated dead pine heartwood) burns even when soaking wet. Learn to identify it by smell and the orange-amber color of the heartwood. It's found in old pine stumps and roots.",
+      "Commercial fire starters (WetFire, Tinder-Quik, Fatwood shavings) are critical kit items. They bridge the gap between a spark and a sustained fire in any condition."
+    ],
+    "relatedGuides": ["fire-001", "fire-004"]
+  },
+  {
+    "id": "fire-004",
+    "category": "fire",
+    "title": "Fire Positioning and Safety",
+    "priority": "beginner",
+    "tags": ["fire", "safety", "positioning", "beginner"],
+    "summary": "How to site, build, and maintain a fire safely in any environment.",
+    "steps": [
+      { "step": 1, "title": "Site selection", "body": "Clear a 10-foot radius of flammable material. Ground fires should be built in a depression or on mineral soil (sand, gravel, bare rock), never on forest duff, peat, or humus — these can smolder underground for days and start a wildfire after you leave. Avoid building under low-hanging branches or near standing dead trees." },
+      { "step": 2, "title": "Build the fire ring", "body": "A ring of rocks contains the fire and reflects heat. Use dry, non-porous rocks — not river rocks, which can contain moisture that turns to steam and explodes. Arrange rocks in a circle 1–2 feet wider than your intended fire. Rocks must not be fully enclosed — leave gaps for airflow." },
+      { "step": 3, "title": "Construct the fire lay", "body": "Start with a tinder bundle (dry grass, bark shreds, leaves). Add pencil-sized kindling in a loose teepee or log cabin pattern. Then add finger-sized fuel, then wrist-sized fuel ready to add once established. Never pack fuel tightly — fire needs oxygen to burn." },
+      { "step": 4, "title": "Control the fire size", "body": "A fire the size of a dinner plate produces adequate cooking heat and significant warmth. Larger fires are fuel-inefficient, create more smoke, are visible at greater distance, and are harder to extinguish. Match fire size to your actual needs." },
+      { "step": 5, "title": "Extinguish completely", "body": "Drown with water until all hissing stops. Stir the ash and add more water. The ground should be cold to the touch before you leave or sleep. Buried embers can reignite hours later. 'If it's too hot to touch, it's too hot to leave.'" }
+    ],
+    "warnings": [
+      "Fire is visible from aircraft and distances of several miles at night — in a security scenario, use Dakota Hole fires (two connected holes, fire in one, airflow through the other) to reduce visible flame and smoke.",
+      "Carbon monoxide kills silently. Never build fire in an enclosed space — always ensure significant ventilation."
+    ],
+    "proTips": [
+      "A Dakota Hole fire is the most fuel-efficient, low-visibility, weather-resistant fire design. Dig two 12-inch diameter holes about 12 inches deep, connected at the bottom by a diagonal tunnel. Light the fire in one hole — the tunnel creates a natural draft that feeds oxygen and keeps flame below surface level.",
+      "Reflected fire heat: build your fire between yourself and a natural or improvised reflector (large rock, log, bark panel). This directs 40–50% more heat toward you and reduces fuel consumption."
+    ],
+    "relatedGuides": ["fire-001", "fire-002", "fire-003"]
+  }
+]

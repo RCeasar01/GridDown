@@ -1,0 +1,24 @@
+{
+  "id": "checklist-emp",
+  "title": "EMP / CME",
+  "disasterType": "emp",
+  "description": "Prepare for extended grid-down caused by solar or high-altitude EMP event.",
+  "items": [
+    { "id": "emp-001", "text": "Minimum 90-day water supply or reliable long-term purification system in place", "critical": true },
+    { "id": "emp-002", "text": "Minimum 90-day food supply of non-perishables requiring no refrigeration", "critical": true },
+    { "id": "emp-003", "text": "Faraday cage built for critical electronics (metal trash can, foam-lined, tight lid)", "critical": false },
+    { "id": "emp-004", "text": "Backup NOAA/HAM radio stored in Faraday cage — test before sealing", "critical": true },
+    { "id": "emp-005", "text": "Solar charger and power bank stored in Faraday cage", "critical": true },
+    { "id": "emp-006", "text": "Flashlights with spare batteries in Faraday cage", "critical": false },
+    { "id": "emp-007", "text": "Medications — as long a supply as possible (no restocking in extended grid-down)", "critical": true },
+    { "id": "emp-008", "text": "Cash on hand — banking infrastructure may be unavailable for weeks to months", "critical": true },
+    { "id": "emp-009", "text": "Older vehicle with minimal electronics identified or owned as backup transportation", "critical": false },
+    { "id": "emp-010", "text": "Manual tools for food production and home maintenance (non-electric hand tools)", "critical": false },
+    { "id": "emp-011", "text": "Heirloom seed supply for food production — stored properly in cool, dark location", "critical": false },
+    { "id": "emp-012", "text": "Community network established — neighbors and local contacts who can share resources", "critical": true },
+    { "id": "emp-013", "text": "Security plan for extended period — community watch, safe room, group protocols", "critical": true },
+    { "id": "emp-014", "text": "Medical supplies for self-care — hospitals and pharmacies will be overwhelmed indefinitely", "critical": true },
+    { "id": "emp-015", "text": "All important account numbers, contacts, and records documented on paper", "critical": false },
+    { "id": "emp-016", "text": "Non-electric heat source (wood stove, propane) for cold climate survival", "critical": true }
+  ]
+}

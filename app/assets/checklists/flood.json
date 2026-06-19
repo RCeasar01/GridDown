@@ -1,0 +1,23 @@
+{
+  "id": "checklist-flood",
+  "title": "Flood",
+  "disasterType": "flood",
+  "description": "Flash floods give minutes; river floods give hours — act on first warning.",
+  "items": [
+    { "id": "fl-001", "text": "Know your FEMA flood zone — look up your address at msc.fema.gov", "critical": true },
+    { "id": "fl-002", "text": "Know your elevation relative to nearby flood-prone waterways", "critical": true },
+    { "id": "fl-003", "text": "NEVER drive through standing or moving flood water — TURN AROUND DON'T DROWN", "critical": true },
+    { "id": "fl-004", "text": "Identify evacuation routes that avoid flood-prone bridges and low areas", "critical": true },
+    { "id": "fl-005", "text": "Important documents in waterproof, portable container ready to grab immediately", "critical": true },
+    { "id": "fl-006", "text": "Water stored in elevated location or second story (flood water contaminates open containers)", "critical": false },
+    { "id": "fl-007", "text": "Electrical panel, water heater, and furnace elevated if in flood zone", "critical": false },
+    { "id": "fl-008", "text": "Flood insurance policy reviewed — standard homeowner's does NOT cover flood damage", "critical": false },
+    { "id": "fl-009", "text": "Sandbags available for doorways and utility entries if in high-risk zone", "critical": false },
+    { "id": "fl-010", "text": "72-hour bag packed and ready — flood evacuation can be immediate", "critical": true },
+    { "id": "fl-011", "text": "Vehicle parked on high ground if significant flooding is forecast", "critical": true },
+    { "id": "fl-012", "text": "Monitor NOAA forecasts — know Flash Flood Watch vs. Warning distinction", "critical": true },
+    { "id": "fl-013", "text": "Waterproof boots for post-flood cleanup — flood water is sewage-contaminated", "critical": false },
+    { "id": "fl-014", "text": "Document home contents with photos/video for insurance claims before flood season", "critical": false },
+    { "id": "fl-015", "text": "Out-of-area emergency contact designated and written on paper", "critical": false }
+  ]
+}

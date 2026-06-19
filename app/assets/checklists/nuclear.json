@@ -1,0 +1,23 @@
+{
+  "id": "checklist-nuclear",
+  "title": "Nuclear Incident",
+  "disasterType": "nuclear",
+  "description": "GET INSIDE. STAY INSIDE. STAY TUNED. Three actions that dramatically improve survival.",
+  "items": [
+    { "id": "nuc-001", "text": "Know highest-risk targets in your region (military bases, major ports, large cities)", "critical": true },
+    { "id": "nuc-002", "text": "Know your best available shelter — center of large concrete building > basement > vehicle", "critical": true },
+    { "id": "nuc-003", "text": "NOAA weather radio to receive emergency broadcasts after event when internet is down", "critical": true },
+    { "id": "nuc-004", "text": "Potassium Iodide (KI) tablets stored and not expired — follow official dosing guidance", "critical": false },
+    { "id": "nuc-005", "text": "Plastic sheeting and duct tape to seal windows and doors in shelter-in-place", "critical": true },
+    { "id": "nuc-006", "text": "14-day food supply in sealed containers (fallout cannot penetrate sealed food)", "critical": true },
+    { "id": "nuc-007", "text": "14-day water supply in sealed containers stored BEFORE any event", "critical": true },
+    { "id": "nuc-008", "text": "N95 masks for each person — reduce fallout particle inhalation if caught outside", "critical": true },
+    { "id": "nuc-009", "text": "Full-coverage clothing (long sleeves, gloves, hat) for any required outdoor exposure", "critical": false },
+    { "id": "nuc-010", "text": "Battery radio to monitor official guidance — minimum 24–48 hour shelter-in-place", "critical": true },
+    { "id": "nuc-011", "text": "Understand the 7:10 rule: radiation drops 90% every 7-fold time increase after detonation", "critical": true },
+    { "id": "nuc-012", "text": "Decontamination plan: remove and bag outer clothing before entering shelter, shower if able", "critical": true },
+    { "id": "nuc-013", "text": "Do NOT look at or approach the fireball or mushroom cloud — thermal flash blinds instantly", "critical": true },
+    { "id": "nuc-014", "text": "Do not use outdoor water, open containers, or unverified municipal supply until declared safe", "critical": true },
+    { "id": "nuc-015", "text": "Out-of-area emergency contact and meeting point documented on paper — cell infrastructure may fail", "critical": false }
+  ]
+}

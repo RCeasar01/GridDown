@@ -1,0 +1,189 @@
+[
+  {
+    "id": "sec-001",
+    "category": "security",
+    "title": "Situational Awareness Fundamentals",
+    "priority": "critical",
+    "tags": [
+      "security",
+      "situational awareness",
+      "safety"
+    ],
+    "summary": "Develop and maintain the environmental awareness that prevents threats before they materialize.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Cooper's Color Codes",
+        "body": "Condition White: unaware and unprepared — the condition of sleep, distraction, and complacency. Do not operate in White in any environment with risk. Condition Yellow: relaxed alertness — general awareness, no specific threat identified. This is the sustainable baseline for daily operation. Condition Orange: specific alert — something specific has triggered concern. Attention is focused, plan is forming. Condition Red: action — the threat is real and you are responding. Pre-determined responses execute without hesitation."
+      },
+      {
+        "step": 2,
+        "title": "Baseline and anomaly detection",
+        "body": "Every environment has a baseline — the normal pattern of behavior, sound, activity, and people for that time and place. Threats appear as anomalies: something that does not fit the baseline. Practice: when you enter any space, establish the baseline in the first 30 seconds. Identify exits. Identify cover positions. Note any persons whose behavior does not fit. This is not paranoia — it is preparation."
+      },
+      {
+        "step": 3,
+        "title": "Scanning technique",
+        "body": "The eye naturally focuses on movement and contrast. Train peripheral awareness — consciously expand your field of view rather than tunnel-focusing on a central point. Scan in arcs, near to far. In a crowd, look for behavioral indicators: nervous energy, incongruent clothing for the environment, hands (what are they holding), eyes (where is attention directed), posture (weight shifted ready to move). Clusters of people avoid areas for a reason — note where people are not."
+      },
+      {
+        "step": 4,
+        "title": "Pre-event indicators",
+        "body": "Before violence, there are almost always pre-event indicators. Target glancing: a person repeatedly looks at the same person or location. Target interviewing: the threat approaches victims to assess vulnerability, asking innocuous questions to determine if you are alert, armed, or compliant. Pre-attack posturing: blading the body (turning sideways), target glance, hand movement toward concealment area, weight shift. Recognizing these indicators allows response before the attack initiates."
+      }
+    ],
+    "warnings": [
+      "Situational awareness is not paranoia. Operating in Yellow is sustainable and not psychologically damaging. Healthy awareness and pathological hypervigilance are different — hypervigilance sees threats everywhere; awareness identifies actual anomalies.",
+      "Cell phone use drops most people to Condition White instantly. In any elevated-risk environment, phone use must be deliberate and brief."
+    ],
+    "proTips": [
+      "The 'What if' habit: in any environment, briefly ask 'What would I do if X happened right now?' Establish basic response plans before you need them. This is mental pre-loading, not paranoia.",
+      "Position: whenever possible, sit or stand with your back to a wall, facing the primary entrance. This position provides maximum visual coverage, eliminates the threat approaching from behind, and gives you maximum reaction time."
+    ],
+    "relatedGuides": [
+      "sec-002",
+      "sec-003"
+    ]
+  },
+  {
+    "id": "sec-002",
+    "category": "security",
+    "title": "Perimeter Security Basics",
+    "priority": "advanced",
+    "tags": [
+      "security",
+      "perimeter",
+      "camp security"
+    ],
+    "summary": "Establish basic early-warning perimeter systems for a camp or retreat location.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Layered perimeter concept",
+        "body": "Effective perimeter security uses layers: Outer layer — detection at maximum range. Middle layer — channelization (force movement into areas you control) and delay. Inner layer — defense and immediate response. Threat is detected at the outer layer, slowed at the middle, and confronted at the inner. No single layer is sufficient — layers provide time for response and prevent a direct breach reaching your position."
+      },
+      {
+        "step": 2,
+        "title": "Detection systems — trip wire and sound",
+        "body": "A simple perimeter alert: suspend fishing line or monofilament at ankle height between trees around your perimeter. Attach cans with rocks or pebbles inside to the line. Movement against the line rattles the cans. This is a noise-only early warning system — it tells you something crossed the line, not what or where. It requires a person awake and listening. Space alerts 10–15 meters apart at key approach routes."
+      },
+      {
+        "step": 3,
+        "title": "Light discipline",
+        "body": "Light visible from outside your position reveals: that your position is occupied; approximately how many people are present; where sleeping/cooking areas are. In any security situation, maintain light discipline after dark. Use minimal light sources; use blue or red light if possible (less visible at distance); shield light sources from outside view with tarps, natural terrain features, or structure. A fire should be positioned to be visible inside the perimeter but not outside it."
+      },
+      {
+        "step": 4,
+        "title": "Watch rotation",
+        "body": "Continuous manning of a perimeter is required at night and in elevated-threat conditions. Establish a watch rotation that allows minimum 4-hour sleep blocks. Two-person watches are preferable — one person watching, one resting at the post. Wake-up and handoff protocol: the incoming watch must be fully awake before the outgoing watch leaves the post. A single moment of no watch coverage is a vulnerability."
+      }
+    ],
+    "warnings": [
+      "Any security system that relies on a single point of detection or a single alert method is insufficient. Redundancy in detection is fundamental.",
+      "Dogs are among the most effective early-warning systems available — they detect approach far earlier than human senses and reliably alert. In a grid-down scenario, a trained dog with guarding instinct is a significant security asset."
+    ],
+    "proTips": [
+      "Natural barriers (thorny vegetation, water obstacles, steep terrain) are the best perimeter elements — they require no maintenance, no watches, and no supplies. Site your position to take advantage of natural defensive terrain.",
+      "Establish rally points — pre-determined positions where members of your group assemble if separated from the camp. Every person in the group must know the primary and alternate rally points and the signal to move to them."
+    ],
+    "relatedGuides": [
+      "sec-001",
+      "sec-003"
+    ]
+  },
+  {
+    "id": "sec-003",
+    "category": "security",
+    "title": "Bug-Out Planning",
+    "priority": "critical",
+    "tags": [
+      "security",
+      "bug out",
+      "evacuation",
+      "SHTF"
+    ],
+    "summary": "Develop a multi-scenario bug-out plan that enables rapid departure before conditions deteriorate.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Bug-in vs bug-out decision",
+        "body": "Bug-in (shelter in place) is almost always preferable to bugging out unless: your location will become dangerous to remain (wildfire, flood, civil unrest reaching your area); resources will run out faster than the crisis will resolve; forced evacuation is ordered. Bugging out is high risk — you become a refugee with limited resources, exposed to weather, road conditions, and other mobile populations. Bug-out only when staying will result in worse outcomes than leaving."
+      },
+      {
+        "step": 2,
+        "title": "Destination first",
+        "body": "A bug-out plan requires a destination — a specific location where you intend to shelter and resupply. This should be: pre-scouted and known to you personally; accessible by multiple routes; capable of supporting your group's needs; stocked or stockable. A destination that is 'general direction of family' or 'somewhere safer' is not a plan. Establish primary and alternate destinations."
+      },
+      {
+        "step": 3,
+        "title": "Multiple routes",
+        "body": "Map at least three routes to your destination — primary (fastest under normal conditions), alternate A (avoids highways, uses secondary roads), alternate B (foot-capable, usable if vehicles are impossible). For each route: know the chokepoints (bridges, passes, tunnels that could be blocked or dangerous). Know the water sources along the route. Know the distances and realistic travel times on foot."
+      },
+      {
+        "step": 4,
+        "title": "72-hour bag minimum standard",
+        "body": "Your bug-out bag should sustain you for 72 hours minimum without resupply: water (1 liter plus filtration capability), food (3 days of calorie-dense foods — 2,000+ cal/day), shelter (emergency bivy or light tent, sleeping bag appropriate for the season), fire (3 methods), navigation (map and compass for your region), medical (IFAK level, not just bandaids), communications (battery radio), power (charged battery bank, solar panel)."
+      }
+    ],
+    "warnings": [
+      "A bug-out under panic, without a plan, with an over-loaded bag, by people who have not trained is one of the highest-risk scenarios a family can be in. The bag is meaningless without the plan. The plan is meaningless without the training.",
+      "Inform at least one trusted person outside your household of your bug-out destination and expected timeline. If you do not arrive, someone needs to know where to look."
+    ],
+    "proTips": [
+      "The biggest bug-out mistake is waiting too long. The window for safe evacuation often closes well before the emergency is obvious. Have a trigger list: specific, observable conditions that activate your bug-out plan. Do not negotiate with your trigger list in the moment.",
+      "A vehicle bug-out vs. foot bug-out have radically different gear requirements. Plan for both, and know at what point vehicle use becomes impossible (road gridlock, fuel unavailability, impassable terrain)."
+    ],
+    "relatedGuides": [
+      "sec-001",
+      "tools-002"
+    ]
+  },
+  {
+    "id": "security-004",
+    "category": "security",
+    "title": "Rally Points and Lost Person Protocol",
+    "priority": "critical",
+    "tags": [
+      "security",
+      "rally point",
+      "lost person",
+      "communication",
+      "group"
+    ],
+    "summary": "Pre-establish rally points and lost-person protocols before any operation so that separation does not become catastrophe.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Designate rally points before departure",
+        "body": "A rally point (RP) is a pre-designated location where group members regroup if separated. Establish at least two before any movement: an Immediate Rally Point (IRP) — a prominent landmark within sight of the route, usable if separation happens within the first mile; and a Distant Rally Point (DRP) — a well-known, unambiguous location (your campsite, a road intersection, a bridge) to be used if the IRP is compromised or you cannot reach it. Everyone in the group must know both locations, their grid coordinates or compass bearing, and the time window for waiting: typically 30 minutes at the IRP, 4–6 hours at the DRP."
+      },
+      {
+        "step": 2,
+        "title": "Establish lost-person communication plan",
+        "body": "Before separating from a group, agree on: (1) Radio channel and check-in schedule — e.g., channel 3, check-in every hour on the hour. (2) A code word signaling genuine distress versus routine position updates. (3) What to do if radio contact is not re-established within two check-in periods — go to IRP, then DRP, then signal. (4) Who holds the map and compass for the group, and who has the backup. Write the plan on paper. Do not rely on memory under stress."
+      },
+      {
+        "step": 3,
+        "title": "Immediate action on separation",
+        "body": "If you realize you are separated: STOP. Stop moving. Think. Observe. Plan. Panic drives people to walk in circles. Your instinct to keep moving is usually wrong — stay put and signal. Call out verbally. Use your whistle (3 blasts). If you have a radio, call on the agreed channel. Make yourself visible at a clearing or high ground. Do not attempt to retrace your route unless you can clearly identify your back-trail — a wrong guess compounds the problem. Wait at the IRP for the agreed time, then move to the DRP."
+      },
+      {
+        "step": 4,
+        "title": "Searching for a separated group member",
+        "body": "If someone is missing: Do not immediately scatter to search — that creates more missing persons. Designate one person as search coordinator. Send at least two people together in each search direction; no one searches alone. Establish a 'hasty search' — cover the most likely routes quickly before conducting a systematic grid search. Use sound: shout, whistle, use vehicle horns. At night, use flashlights and wait for return signals before moving toward them. Contact SAR (search and rescue) early — the first six hours are the highest-probability window for a positive outcome."
+      }
+    ],
+    "warnings": [
+      "A rally point is useless if not everyone knows it. Brief all group members — including children — before departure, not after separation occurs.",
+      "Searching for a lost person at night without a plan creates multiple casualties. Secure your own group before committing to a hasty search in darkness."
+    ],
+    "proTips": [
+      "Use a distinctive landmark for your IRP, not just \"the big tree\" — in a forest, there are thousands. Use a creek bend, a rock formation, or a junction visible on a map.",
+      "The STOP acronym (Stop, Think, Observe, Plan) was developed by the US Forest Service for lost-hiker protocols. It is the single most effective behavior change to prevent a bad situation from becoming fatal."
+    ],
+    "relatedGuides": [
+      "sec-001",
+      "sec-003"
+    ]
+  }
+]

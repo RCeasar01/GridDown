@@ -1,0 +1,28 @@
+{
+  "id": "checklist-hurricane",
+  "title": "Hurricane",
+  "disasterType": "hurricane",
+  "description": "Complete 72 hours before a hurricane makes landfall in your area.",
+  "items": [
+    { "id": "h-001", "text": "Know your evacuation zone — look up zone letter on local EM website", "critical": true },
+    { "id": "h-002", "text": "Fill all vehicle gas tanks now — stations sell out 36–48 hours out", "critical": true },
+    { "id": "h-003", "text": "Withdraw $300+ cash — ATMs and card readers fail without power", "critical": true },
+    { "id": "h-004", "text": "Store 1 gallon of water per person per day for minimum 14 days", "critical": true },
+    { "id": "h-005", "text": "Fill bathtubs using WaterBob or standard fill (backup water source)", "critical": true },
+    { "id": "h-006", "text": "Stock 2 weeks of non-perishable food that requires no cooking", "critical": true },
+    { "id": "h-007", "text": "Purchase or install hurricane shutters or pre-cut plywood for all windows", "critical": true },
+    { "id": "h-008", "text": "Charge all devices, battery banks, and backup batteries", "critical": false },
+    { "id": "h-009", "text": "Program NOAA weather radio with your county SAME code", "critical": true },
+    { "id": "h-010", "text": "Secure or bring inside all outdoor furniture, grills, and loose items", "critical": true },
+    { "id": "h-011", "text": "Identify your interior safe room (lowest floor, most interior room)", "critical": true },
+    { "id": "h-012", "text": "Gather medications — minimum 30-day supply before storm season", "critical": true },
+    { "id": "h-013", "text": "Generator placed outside, minimum 20 feet from any window or door", "critical": true },
+    { "id": "h-014", "text": "Stock generator fuel — use fuel stabilizer for storage", "critical": false },
+    { "id": "h-015", "text": "Document all valuables with photos for insurance", "critical": false },
+    { "id": "h-016", "text": "Know the location of gas, water, and electric shutoffs in your home", "critical": false },
+    { "id": "h-017", "text": "First aid kit checked and restocked", "critical": false },
+    { "id": "h-018", "text": "Emergency contacts written on paper (do not rely on phone)", "critical": false },
+    { "id": "h-019", "text": "Pet food, crate, and medications packed if evacuating", "critical": false },
+    { "id": "h-020", "text": "Important documents in waterproof bag: ID, insurance, medical records", "critical": true }
+  ]
+}

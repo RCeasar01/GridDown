@@ -1,0 +1,23 @@
+{
+  "id": "checklist-tornado",
+  "title": "Tornado",
+  "disasterType": "tornado",
+  "description": "Prepare in advance — tornadoes give minutes of warning, not hours.",
+  "items": [
+    { "id": "t-001", "text": "Identify the lowest interior room in your home — bathroom, closet, or hallway", "critical": true },
+    { "id": "t-002", "text": "NOAA weather radio with Specific Area Message Encoding (SAME) set to your county", "critical": true },
+    { "id": "t-003", "text": "Download your county's emergency alert app (Wireless Emergency Alerts enabled on phone)", "critical": false },
+    { "id": "t-004", "text": "Know the difference between Tornado Watch (conditions favorable) and Warning (tornado confirmed)", "critical": true },
+    { "id": "t-005", "text": "Identify a heavy table or furniture in your safe room to shelter under", "critical": false },
+    { "id": "t-006", "text": "Bicycle helmet stored in safe room for head protection", "critical": false },
+    { "id": "t-007", "text": "Heavy blankets or sleeping bag stored in safe room to cover head and neck", "critical": false },
+    { "id": "t-008", "text": "Flashlight and extra batteries in safe room", "critical": true },
+    { "id": "t-009", "text": "Battery-powered or hand-crank radio in safe room", "critical": true },
+    { "id": "t-010", "text": "Water (at least 3 days) and non-perishable food in safe room", "critical": false },
+    { "id": "t-011", "text": "First aid kit accessible in safe room", "critical": false },
+    { "id": "t-012", "text": "Know your mobile home's nearest permanent structure — evacuate immediately on Warning", "critical": true },
+    { "id": "t-013", "text": "Phone charged and nearby during tornado season and at night", "critical": true },
+    { "id": "t-014", "text": "Family meeting point established if separated after storm", "critical": false },
+    { "id": "t-015", "text": "Out-of-area emergency contact designated (local lines overwhelmed after event)", "critical": false }
+  ]
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "nav-001",
+    "category": "navigation",
+    "title": "Terrain Reading and Topo Map Basics",
+    "priority": "critical",
+    "tags": ["navigation", "map", "terrain", "topo"],
+    "summary": "Read a topographic map to understand terrain before you move through it.",
+    "steps": [
+      { "step": 1, "title": "Understanding contour lines", "body": "Contour lines connect points of equal elevation. Every contour line represents a specific elevation change (the contour interval — printed in the map legend). When lines are close together, terrain is steep. When lines are far apart, terrain is gentle. Concentric circles indicate a hill or peak. When contour lines form a V shape, the V points uphill for ridges and downhill (toward lower numbers) for valleys and drainages. Learning to see the 3D terrain from the 2D contour pattern is the foundational map skill." },
+      { "step": 2, "title": "Identify terrain features", "body": "Ridge: an elongated high ground — contour lines form an elongated oval. Valley/Draw: low terrain between ridges — contour lines point uphill when tracing the valley. Saddle: a low point between two hills — look for an hourglass contour pattern. Cliff: contour lines touching or crossing (impassable terrain). Depression: a low area surrounded by higher ground — marked with hachure tick marks inside the contour. Spur: a short ridge extending from a main ridge." },
+      { "step": 3, "title": "Map orientation", "body": "Orient the map by placing a compass on it and rotating the map (not the compass) until the magnetic north arrow on the compass aligns with north on the map. Account for declination (the difference between magnetic north and true north) — your map legend shows the local declination. Once oriented, the map is a 1:1 representation of the terrain around you: what is to your left on the ground is to the left on the map." },
+      { "step": 4, "title": "Locate yourself on the map", "body": "Triangulation: sight two or three recognizable terrain features (hilltop, bend in river, road junction). For each feature, take a compass bearing. Draw a line back on your map from each feature on the bearing you measured. Your position is at the intersection of the lines. Resection with two features gives a line of position; three features give a point." }
+    ],
+    "warnings": [
+      "Magnetic declination varies significantly by location (up to 20°+ in some areas). Not accounting for declination when navigating long distances causes significant positional error.",
+      "Topo maps have a publication date — major changes (new roads, structures, significant erosion, logged areas) may not appear on older maps."
+    ],
+    "proTips": [
+      "The 'map to ground, ground to map' habit: look at your map, visualize what you expect to see, look up and verify. Constantly correlate what you see with what the map shows.",
+      "US topo maps are available free from the USGS National Map (apps.nationalmap.gov). Download and print or cache them in a mapping app before you need them."
+    ],
+    "relatedGuides": ["nav-002", "nav-003", "nav-004"]
+  },
+  {
+    "id": "nav-002",
+    "category": "navigation",
+    "title": "Celestial Navigation — Stars and Sun",
+    "priority": "advanced",
+    "tags": ["navigation", "stars", "sun", "celestial"],
+    "summary": "Use the sun during the day and Polaris at night to determine cardinal directions without a compass.",
+    "steps": [
+      { "step": 1, "title": "Polaris (North Star) — Northern Hemisphere", "body": "Polaris sits within 1° of true north and does not appear to move as Earth rotates. Find it: locate the Big Dipper (Ursa Major). Follow a line through the two stars forming the front edge of the dipper's cup (Dubhe and Merak) — extend this line approximately 5 times the distance between those two stars. You will reach Polaris. Alternatively: find Cassiopeia (the W/M shaped constellation). Polaris is on the opposite side of Cassiopeia from the Big Dipper, roughly centered between the two when they are on opposite sides of the North Star." },
+      { "step": 2, "title": "Shadow stick method — daytime", "body": "Find level ground. Plant a straight stick 3 feet tall vertically. Mark the tip of the shadow with a stone. Wait 15–20 minutes. Mark the new shadow tip with another stone. Draw a line between the two marks. This line runs approximately east-west (first mark is west, second is east in the Northern Hemisphere). Draw a perpendicular line from the east-west line — this is north-south." },
+      { "step": 3, "title": "Watch method — analog watch", "body": "In the Northern Hemisphere with an analog watch: hold the watch horizontal. Point the hour hand at the sun. Bisect the angle between the hour hand and 12 o'clock — this bisection points approximately south. In the Southern Hemisphere: point 12 o'clock at the sun. Bisect the angle between the hour hand and 12 — this bisection points approximately north." },
+      { "step": 4, "title": "Southern Cross — Southern Hemisphere", "body": "The Southern Cross (Crux) is a compact cross-shaped constellation near the Milky Way. Extend the long axis of the cross (from Gacrux to Acrux) 4–5 times beyond the foot of the cross. This imaginary point is approximately due south. Drop a line perpendicular to the horizon from this imaginary point — that is south." }
+    ],
+    "warnings": [
+      "The watch method has error of up to 15–20 degrees — it gives general direction, not precision navigation.",
+      "Light pollution, cloud cover, and horizon obstructions (trees, terrain) can make celestial navigation difficult or impossible. Have backup methods."
+    ],
+    "proTips": [
+      "Orion's Belt rises due east and sets due west almost exactly everywhere on Earth — a reliable east-west reference that works in both hemispheres.",
+      "At night, your eyes need 20–30 minutes to fully dark-adapt. Avoid white light sources during navigation — use red light, which does not interfere with night vision."
+    ],
+    "relatedGuides": ["nav-001", "nav-003"]
+  },
+  {
+    "id": "nav-003",
+    "category": "navigation",
+    "title": "Dead Reckoning",
+    "priority": "advanced",
+    "tags": ["navigation", "dead reckoning", "pace count"],
+    "summary": "Track your position by calculating distance traveled and direction moved when landmarks are unavailable.",
+    "steps": [
+      { "step": 1, "title": "The concept", "body": "Dead reckoning: starting from a known position, track your direction of travel and distance covered to calculate your current position. Formula: new position = last known position + (direction × distance). The technique's accuracy degrades over time as small errors accumulate — it works best over short distances and in combination with occasional landmark verification." },
+      { "step": 2, "title": "Establish your pace count", "body": "A pace count is your personal calibration for distance: count paces (every time your left foot hits the ground) over a known 100-meter distance. Most people require 65–75 paces per 100 meters on flat terrain. Uphill, steep terrain, and heavy loads increase pace count. Water and thick vegetation also affect pace count. Calibrate your own personal count on known terrain before relying on it." },
+      { "step": 3, "title": "Track direction", "body": "Use a compass to take and hold a bearing. Identify a distant landmark in your direction of travel. Move to that landmark. Take another bearing. Identify another landmark. This technique (terrain association) is more accurate than staring at the compass while walking. Rotate between taking bearings and moving — do not walk and compass simultaneously." },
+      { "step": 4, "title": "Log your movement", "body": "For serious navigation: maintain a navigation log. Starting position (grid coordinates or described position). Direction (compass bearing). Distance (pace count). Repeat for each leg. After multiple legs, plot your dead reckoning position on the map. Compare to any visible landmarks to correct accumulated error." }
+    ],
+    "warnings": [
+      "Dead reckoning errors compound — a 5° bearing error over 1 kilometer produces an 87-meter positional error. Over 5 kilometers, that becomes a 436-meter error. Verify against terrain features frequently.",
+      "In featureless terrain (dense forest, desert, open plains), dead reckoning with no landmarks is the only option — accept that positional confidence degrades with distance."
+    ],
+    "proTips": [
+      "A ranger bead (pace count bead) tool makes tracking paces simple — move one bead per 100 meters, one large bead per kilometer. Make one from paracord and 13 beads.",
+      "When moving in a team, designate one person as the navigator (focused on direction and pace count). Do not split attention between navigation and environment scanning."
+    ],
+    "relatedGuides": ["nav-001", "nav-004"]
+  },
+  {
+    "id": "nav-004",
+    "category": "navigation",
+    "title": "Land Navigation With Compass Only",
+    "priority": "critical",
+    "tags": ["navigation", "compass", "bearing", "land navigation"],
+    "summary": "Navigate confidently to a destination using only a compass when GPS and maps are unavailable.",
+    "steps": [
+      { "step": 1, "title": "Parts of a compass", "body": "Needle: always points to magnetic north (red end). Bezel/Rotating dial: graduated 0–360 degrees. Direction of travel arrow: points in the direction you are moving. Orienting lines (the box): align with the needle. Baseplate: straight edges for map work. To set a bearing: rotate the bezel to your desired degree. To follow a bearing: rotate your body until the north needle sits inside the orienting box ('put red in the shed'). Walk in the direction the travel arrow points." },
+      { "step": 2, "title": "Taking a bearing to a landmark", "body": "Point the direction of travel arrow at your target. Without moving the compass, rotate the bezel until the orienting lines align with magnetic north (needle inside the orienting box). Read the bearing at the index line. This bearing describes the direction to your target. Write it down — if you lose sight of the target, you can navigate to it by following this bearing." },
+      { "step": 3, "title": "Back bearing", "body": "A back bearing is the opposite direction from your bearing. Calculate: if your bearing is 180° or more, subtract 180. If your bearing is less than 180°, add 180. Use: you have traveled a known bearing and need to return to your start. Set the back bearing and follow it. Also used for triangulation: take a bearing to two landmarks, calculate the back bearing, draw back-bearing lines on your map — your position is at the intersection." },
+      { "step": 4, "title": "Box around an obstacle", "body": "When an obstacle blocks your path: turn 90° from your bearing (either direction). Count your paces. Turn back to your original bearing. Move past the obstacle. Turn 90° in the opposite direction of your first turn. Count the same number of paces. Resume your original bearing. You have now navigated around the obstacle without losing your line of travel." }
+    ],
+    "warnings": [
+      "Metal objects (firearms, vehicles, cell phones) affect compass accuracy. Hold the compass 12+ inches away from metal when taking a reading.",
+      "Power lines and underground utilities can create localized magnetic anomalies. Be aware of erratic compass behavior in these areas."
+    ],
+    "proTips": [
+      "The best navigators are rarely looking at their compass — they take bearings, pick distant aiming points in their direction of travel, and walk to those points. This is faster, more accurate, and leaves your eyes free to read terrain.",
+      "A military lensatic compass is far more durable and accurate than a typical baseplate compass. It also allows taking bearings while moving. Worth the investment for a serious kit."
+    ],
+    "relatedGuides": ["nav-001", "nav-003"]
+  }
+]

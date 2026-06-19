@@ -1,0 +1,71 @@
+[
+  {
+    "id": "tools-001",
+    "category": "tools",
+    "title": "The Essential EDC and Survival Kit",
+    "priority": "critical",
+    "tags": ["tools", "EDC", "kit", "gear"],
+    "summary": "What to carry every day and what to have in a 72-hour kit — ranked by survival impact.",
+    "steps": [
+      { "step": 1, "title": "EDC tier — on your person always", "body": "The items you carry when you have nothing else: a folding knife (minimum 3-inch blade, locking mechanism — the Benchmade Griptilian, Spyderco Paramilitary 2, or Ka-Bar Dozier are proven platforms). A lighter (Bic wins on reliability-to-cost ratio; carry two). A small flashlight (Streamlight Microstream or Fenix E12 — runs on a single AA battery). A quality whistle (Fox 40 pealess). These four items fit in any pocket and address the most common everyday emergencies." },
+      { "step": 2, "title": "Trauma supplement — IFAK", "body": "Individual First Aid Kit for carry: tourniquet (CAT or SOFTT-W), wound packing gauze (QuikClot or Celox), pressure bandage (Israeli bandage or OLAES), chest seal pair (vented — Halo or SAM), nasopharyngeal airway (28 French with lube). This combination addresses the 'Preventable Death' injuries identified by military trauma data. Commercial IFAKs from North American Rescue or Chinook Medical are pre-assembled. Learn to use everything in your kit — the kit without training is only potential value." },
+      { "step": 3, "title": "72-hour kit fundamentals", "body": "WATER: 1L stored plus Sawyer Squeeze filter or SteriPen UV purifier and collapsible container. FIRE: Bic lighter, ferro rod (Bayite 4-inch), waterproof matches. SHELTER: emergency bivy sack (SOL Escape Bivy — 0°C rated, weighs 10 oz) or Mylar emergency blanket minimum. FOOD: 3 days of calorie-dense food: mountain house freeze-dried meals, protein bars, nuts, hard candy. NAVIGATION: waterproof paper topo map of your region, Suunto A-10 compass. COMMS: Baofeng UV-5R programmed with local repeaters, NOAA frequencies. MEDICAL: IFAK plus any personal medications (90-day supply if possible). POWER: USB battery bank (20,000+ mAh), solar panel." },
+      { "step": 4, "title": "What not to carry", "body": "The failure mode of most survival kits is weight. Prioritize tools that serve multiple functions. What to evaluate skeptically: 'survival kits' with 100+ pieces of low-quality items; credit card multi-tools (too small to be useful); wire saw (effective but heavy — a folding saw does more work); survival straws (use a full Sawyer filter instead); paracord bracelets (too little cord to matter — carry a 50-foot hank instead). Every item in your kit must earn its weight with specific, high-priority capability." }
+    ],
+    "warnings": [
+      "A knife is a cutting tool, not a weapon. The defensive value of a knife is vastly overestimated; its utility value for survival tasks is vastly underestimated. Carry it, use it constantly for tasks, and develop the skills to use it effectively.",
+      "Lithium batteries perform significantly better than alkaline in extreme cold. For any device used in cold weather, use Energizer Ultimate Lithium or equivalent lithium cells."
+    ],
+    "proTips": [
+      "The Bic lighter is the survival community's most endorsed fire-making tool because it has been tested in extreme conditions worldwide and outperforms matches, ferro rods, and piezoelectric lighters in ease of use for most people. Carry two — one in pocket, one in kit.",
+      "Skill beats gear. A person who can start a fire with a bow drill and read a topo map will survive in conditions that defeat a person with a $5,000 kit and no skills. Invest in training commensurate with your investment in gear."
+    ],
+    "relatedGuides": ["tools-002", "tools-003", "fire-001"]
+  },
+  {
+    "id": "tools-002",
+    "category": "tools",
+    "title": "Fixed-Blade Knife — Skills and Maintenance",
+    "priority": "advanced",
+    "tags": ["tools", "knife", "blade", "maintenance"],
+    "summary": "Choose, use, and maintain a fixed-blade knife — the most important field tool.",
+    "steps": [
+      { "step": 1, "title": "Choosing a fixed blade", "body": "A survival fixed blade: 4–6 inch blade (long enough for batoning wood, short enough for fine work), full tang construction (blade steel extends the full length of the handle — partial tang blades can fail under stress), high-carbon or quality stainless steel (1095 carbon steel, 440C, 154CM — all proven options). Handle material that maintains grip when wet (G-10, Micarta, textured rubber). Kydex sheath with positive retention. Proven platforms: ESEE-4, KA-BAR BECKER BK2, Morakniv Companion (value option at ~$15 — legitimate survival knife)." },
+      { "step": 2, "title": "Field sharpening", "body": "A dull knife is dangerous — it requires more force, which increases slipping risk. Field sharpening: use a whetstone (medium grit to re-establish edge, fine grit to finish), ceramic rod, or diamond sharpener. Maintain a consistent angle — 15–20 degrees per side for most knives (lay the blade flat on the stone, then raise the spine approximately the width of your thumbnail to set the angle). Use light, consistent pressure. Work from the base of the blade to the tip in sweeping strokes. Test sharpness: the knife should shave arm hair cleanly and catch on the edge of a thumbnail with minimal pressure." },
+      { "step": 3, "title": "Core tasks", "body": "Batoning (splitting wood): place the knife blade across the wood, strike the blade spine with a heavy stick to split the wood. Use only a full-tang blade. Feathering tinder: hold the wood with one hand, draw the blade edge toward you at a steep angle to create fine wood shavings for fire starting. Carving: more control with a short grip near the blade, power strokes with a full grip. Cutting cordage: straight cuts with the belly of the blade; sawing motion for rope." },
+      { "step": 4, "title": "Maintenance", "body": "After field use: clean the blade of sap, blood, and debris immediately. Carbon steel will rust rapidly if left wet or dirty — apply a thin coat of oil (mineral oil, olive oil in the field) after cleaning. Store in a dry environment. Do not store a carbon steel blade in a leather sheath for extended periods — leather retains moisture and accelerates rust. Kydex is the preferred sheath material for field storage." }
+    ],
+    "warnings": [
+      "Always cut away from your body and away from others. The most common knife injury is a cutting tool slipping toward the operator. Proper technique eliminates most knife injuries.",
+      "Never use your knife as a pry bar or lever — this will snap or damage the tip and potentially the blade. A pry bar is a different tool."
+    ],
+    "proTips": [
+      "The strop is the most underutilized sharpening tool. After sharpening on a stone, 10–15 light strokes per side on a leather strop (or even cardboard) removes the micro-burr from the edge and produces a razor finish without more stone work.",
+      "Learn to sharpen freehand without a jig. A sharpening jig is a crutch that requires equipment — freehand sharpening skill with any available abrasive is the real survival skill."
+    ],
+    "relatedGuides": ["tools-001", "tools-003"]
+  },
+  {
+    "id": "tools-003",
+    "category": "tools",
+    "title": "Improvised Tools and Repairs",
+    "priority": "advanced",
+    "tags": ["tools", "improvised", "repair", "field craft"],
+    "summary": "Fabricate and repair essential tools from available materials when purpose-built tools are unavailable.",
+    "steps": [
+      { "step": 1, "title": "Paracord applications", "body": "550 paracord (7-strand, 550 lb tensile minimum) is the most versatile field cordage. Applications: shelters (ridgeline, tarp tie-outs), snares and traps, tourniquet improvisation (3-strand flat braid minimum — still far inferior to commercial), gear lashing, equipment repair, fishing line (inner strands), fire-starting (inner strands for bow-drill cord). Carry a minimum 50-foot hank in your kit. Learn basic knots: bowline (non-slip loop), clove hitch (post attachment), taut-line hitch (adjustable tension), sheet bend (joining two ropes)." },
+      { "step": 2, "title": "Stone knapping — improvised blades", "body": "Knapping produces sharp edges from flint, obsidian, chert, or any silicate rock with conchoidal fracture. It is a genuine skill that requires practice. Basic flake production: identify a suitable rock with sharp edges where previous flakes have broken off naturally. Strike with a hammerstone at the edge, angling down toward the face you want to remove. A proper flake strike produces a sharp-edged flake that can cut effectively. Do not attempt fine knapping without practice — begin with producing functional flakes for cutting, not finished tools." },
+      { "step": 3, "title": "Gear repair — field stitching", "body": "A needle and heavy thread in your kit weighs nothing and repairs critical equipment. Field stitching for fabric gear (packs, tent poles, clothing): running stitch for basic seams, lock stitch for load-bearing seams. Waxed thread or dental floss is more durable than standard thread in field conditions. Duct tape is a rapid temporary patch for almost any surface — carry at least 10 feet wound around a water bottle or tool handle to reduce bulk." },
+      { "step": 4, "title": "Container improvisation", "body": "Fluid containers can be improvised from: large-leaf plants formed into a cup (temporary), clay that can be fired (long-term), birch bark folded and pinned with thorns, sections of large bamboo (natural segments form waterproof chambers). Even a large plastic bag is a functional water container. For cooking: rocks heated in fire and transferred to a water-filled container (rock boiling) allow cooking without a fire-proof pot." }
+    ],
+    "warnings": [
+      "Stone knapping produces sharp microfragments that can embed in eyes and skin. Work with eye protection and brush off clothing after knapping. Never knap toward other people.",
+      "Field-improvised tools are inherently less reliable than purpose-built equipment. Increased inspection, care, and testing before reliance is required."
+    ],
+    "proTips": [
+      "The most useful skill is knowing which material properties to look for, not knowing which specific materials to use. A rope is a rope — grass, bark strips, roots, vines, and commercial paracord all serve when braided into a multi-strand cord. Recognize the principle, apply available materials.",
+      "Duct tape and paracord are the two most frequently useful field improvisation materials. Both are light, compact, and solve a disproportionate number of field problems. Never leave either out of your kit."
+    ],
+    "relatedGuides": ["tools-001", "tools-002", "shelter-001"]
+  }
+]

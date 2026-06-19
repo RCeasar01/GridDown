@@ -1,0 +1,25 @@
+{
+  "id": "checklist-earthquake",
+  "title": "Earthquake",
+  "disasterType": "earthquake",
+  "description": "No warning before an earthquake — prepare before, not during.",
+  "items": [
+    { "id": "eq-001", "text": "Secure water heater to wall studs with strapping — fall hazard and fire risk", "critical": true },
+    { "id": "eq-002", "text": "Secure bookcases, cabinets, and tall furniture to wall studs with L-brackets", "critical": true },
+    { "id": "eq-003", "text": "Store minimum 14-day water supply (1 gal/person/day) in a low, stable location", "critical": true },
+    { "id": "eq-004", "text": "Store 14-day supply of non-perishable food requiring no cooking", "critical": true },
+    { "id": "eq-005", "text": "Learn to shut off gas at the meter — know the location and have a wrench", "critical": true },
+    { "id": "eq-006", "text": "Keep a crescent wrench attached to your gas meter for emergency shutoff", "critical": false },
+    { "id": "eq-007", "text": "Flashlight in every bedroom — power will fail, debris will be in the dark", "critical": true },
+    { "id": "eq-008", "text": "Shoes stored under every bed — broken glass causes serious post-quake injuries", "critical": false },
+    { "id": "eq-009", "text": "Drop-Cover-Hold On practiced with all household members", "critical": true },
+    { "id": "eq-010", "text": "Know your tsunami evacuation zone if in a coastal area — shaking IS the warning", "critical": true },
+    { "id": "eq-011", "text": "Emergency go-bag packed and accessible from outside building", "critical": true },
+    { "id": "eq-012", "text": "Fire extinguisher in kitchen and garage — earthquake fires are common from gas leaks", "critical": true },
+    { "id": "eq-013", "text": "Home insurance reviewed — standard policies often exclude earthquake damage", "critical": false },
+    { "id": "eq-014", "text": "Prescription medications — 90-day supply if on ongoing medications", "critical": true },
+    { "id": "eq-015", "text": "Battery banks and solar panel for device charging", "critical": false },
+    { "id": "eq-016", "text": "Out-of-area emergency contact designated and written on paper", "critical": false },
+    { "id": "eq-017", "text": "Important documents in waterproof container ready to take immediately", "critical": false }
+  ]
+}

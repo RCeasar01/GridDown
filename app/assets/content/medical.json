@@ -1,0 +1,745 @@
+[
+  {
+    "id": "medical-001",
+    "category": "medical",
+    "title": "Tactical Combat Casualty Care (TCCC) Overview",
+    "priority": "critical",
+    "tags": [
+      "medical",
+      "TCCC",
+      "trauma",
+      "critical",
+      "military"
+    ],
+    "summary": "The three-phase framework for managing trauma casualties when evacuation is delayed or unavailable.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Phase 1 — Care Under Fire",
+        "body": "You are taking fire. The casualty is taking fire. The threat is immediate and active. Actions: Return fire. Take cover. Suppress the threat. Direct the casualty to return fire if able, or move to cover. Apply a tourniquet for life-threatening extremity bleeding — self-applied if able. Do NOT expose yourself to assess wounds. Do NOT move the casualty into the open. Threat elimination is the primary life-saving action at this phase."
+      },
+      {
+        "step": 2,
+        "title": "Phase 2 — Tactical Field Care",
+        "body": "The immediate threat has been neutralized or you are in a covered position with adequate time. Now you assess and treat. Use the MARCH protocol: M — Massive hemorrhage (tourniquets, wound packing). A — Airway (position, open airway, nasopharyngeal airway if available). R — Respiration (check for tension pneumothorax, seal open chest wounds). C — Circulation (treat shock, establish IV/IO access if trained). H — Hypothermia prevention (get the casualty off the ground, cover). This phase is where most life-saving interventions occur."
+      },
+      {
+        "step": 3,
+        "title": "Phase 3 — TACEVAC",
+        "body": "Tactical evacuation — the process of moving the casualty from the point of injury to a higher level of care. Actions: Reassess all interventions applied during Phases 1 and 2. Document what was done and when (time of tourniquet application is critical). Communicate casualty status to the evacuation team using the 9-Line MEDEVAC format or simplified status (immediate, delayed, minimal, expectant). Continue monitoring during transport — airway and bleeding status can change."
+      },
+      {
+        "step": 4,
+        "title": "MARCH Rapid Reference — Field Card",
+        "body": "Commit this to memory or laminate a wallet card.\n\nM — Massive hemorrhage: tourniquet, wound packing, junctional pressure.\nA — Airway: chin lift, jaw thrust, NPA if available, recovery position.\nR — Respiration: chest seal (both sides) for penetrating chest trauma; needle decompression for tension pneumo.\nC — Circulation: establish IV/IO if trained; administer TXA within 3 hours of injury if available; treat hypothermia.\nH — Hypothermia/head trauma: get casualty off cold ground; use space blanket; monitor neurological status.\n\nCritical timelines: tourniquet within 60 seconds of arterial bleed; TXA within 180 minutes of injury; TACEVAC within the 'platinum hour' for penetrating trauma."
+      }
+    ],
+    "warnings": [
+      "Uncontrolled hemorrhage is the leading cause of preventable combat death. Tourniquet application within seconds is more important than any other intervention.",
+      "TCCC is a framework — without training and repetition, execution under stress will be imperfect. Train with the tools you carry."
+    ],
+    "proTips": [
+      "MARCH replaces the old ABC (Airway, Breathing, Circulation) in tactical medicine because Massive hemorrhage kills faster than airway compromise in trauma. Address bleeding first.",
+      "The military switched to MARCH from ABC specifically because data from combat operations showed that preventable deaths were overwhelmingly hemorrhagic. M comes first for a reason."
+    ],
+    "relatedGuides": [
+      "medical-002",
+      "medical-003",
+      "medical-004"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-002",
+    "category": "medical",
+    "title": "Tourniquet Application",
+    "priority": "critical",
+    "tags": [
+      "medical",
+      "tourniquet",
+      "hemorrhage",
+      "critical"
+    ],
+    "summary": "Apply a tourniquet correctly — including one-handed self-application — for life-threatening extremity bleeding.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "When to apply",
+        "body": "Apply a tourniquet when: bleeding from an extremity cannot be controlled with direct pressure; bleeding is pulsatile (bright red, spurting — arterial); the wound is large or complex with multiple bleeding points; the casualty is losing consciousness from blood loss. If in doubt, apply the tourniquet. Tourniquet complications (nerve damage, tissue death) are extremely rare at treatment durations under 2 hours and are always preferable to hemorrhagic death."
+      },
+      {
+        "step": 2,
+        "title": "Placement",
+        "body": "Apply 2–3 inches above the wound, NOT over a joint. For a wound below the knee or elbow, apply at mid-thigh or mid-upper arm ('high and tight' is the military standard for severe wounds — apply as high as possible on the limb). Place over clothing if necessary — do not waste time removing clothing in an emergency."
+      },
+      {
+        "step": 3,
+        "title": "Application with a CAT or SOFTT-W",
+        "body": "Slide the limb through the loop. Pull the free end of the strap tight — as tight as you can manually before engaging the windlass. Twist the windlass rod until bleeding stops completely — not just reduces. Lock the rod in the retention strap or clip. The casualty will experience significant pain — this is expected and indicates proper application. Note the time on the tourniquet or the casualty's forehead."
+      },
+      {
+        "step": 4,
+        "title": "One-handed self-application — arm",
+        "body": "Lay the tourniquet on a flat surface or your leg. Insert the injured arm through the loop. Use your other hand and your teeth to pull the strap tight. Use your good hand to operate the windlass. Bite and hold the windlass if needed while locking."
+      },
+      {
+        "step": 5,
+        "title": "One-handed self-application — leg",
+        "body": "Loop tourniquet around the thigh. Pull the strap through the buckle with your good hand as tight as possible. Use your knee, a surface, or a tree to help lever the strap tight. Operate the windlass with your good hand. Twist until bleeding stops. Note the time."
+      },
+      {
+        "step": 6,
+        "title": "Improvised tourniquet",
+        "body": "If no commercial tourniquet: use a cloth strip 2+ inches wide (narrower cuts into tissue and is less effective). Form a loop and tie around the limb. Insert a rigid rod (stick, pen, screwdriver) through the loop and twist until bleeding stops. Lock the rod against the limb with another wrap of cloth. Improvised tourniquets have higher failure rates than commercial devices — use as last resort only."
+      }
+    ],
+    "warnings": [
+      "Never remove a tourniquet in the field once applied — re-application or conversion can be performed at a higher level of care with resuscitation capability.",
+      "A tourniquet that does not stop bleeding is either improperly applied (not tight enough) or requires a second tourniquet applied proximal to (above) the first.",
+      "Do not pad under a tourniquet — it reduces effectiveness."
+    ],
+    "proTips": [
+      "The rule of thumb: when you stop twisting the windlass, check if you can see pulsatile bleeding. If yes, keep twisting. If the bleeding has stopped, you're done. Do not 'just a little more' — that's the right tension.",
+      "Carry at minimum two tourniquets. Junctional hemorrhage (groin, armpit, neck) cannot be controlled with a limb tourniquet — have additional pressure dressings for these wounds."
+    ],
+    "relatedGuides": [
+      "medical-001",
+      "medical-003",
+      "medical-004"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-003",
+    "category": "medical",
+    "title": "Wound Packing",
+    "priority": "critical",
+    "tags": [
+      "medical",
+      "wound packing",
+      "hemorrhage",
+      "critical"
+    ],
+    "summary": "Pack wounds with gauze or improvised materials to control hemorrhage that cannot be tourniqueted.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "When to pack",
+        "body": "Pack wounds that: cannot receive a tourniquet (junctional wounds — neck, groin, axilla/armpit); are in the torso; are large complex wounds with multiple bleeding points. Wound packing is the primary intervention for junctional hemorrhage, which is the leading cause of preventable deaths that reach higher care."
+      },
+      {
+        "step": 2,
+        "title": "Prepare the wound",
+        "body": "If bleeding is visible, use your fingers to identify the source — often deep in the wound cavity, not at the surface. Controlling surface bleeding while deep bleeding continues is a critical failure. Pack to the source, not the surface. Do not remove impaled objects — pack around them."
+      },
+      {
+        "step": 3,
+        "title": "Pack with hemostatic gauze",
+        "body": "If you have combat gauze (QuikClot, Celox, HemCon): begin packing directly into the deepest point of the wound, against the bleeding source. Pack in a systematic figure-eight or accordion fold — do not bunch it randomly. Fill the wound cavity completely."
+      },
+      {
+        "step": 4,
+        "title": "Pack with improvised material",
+        "body": "If no hemostatic gauze: use the cleanest cloth available — improvised dressing from a t-shirt, bandana, or any absorbent material. Tear into strips if needed. Pack into the wound the same way — to the deepest point, filling the cavity. The packing material is less important than the application technique."
+      },
+      {
+        "step": 5,
+        "title": "Apply pressure",
+        "body": "Once the wound is packed full, apply firm, continuous direct pressure with both hands using bodyweight for 3 minutes with commercial hemostatic gauze, 10 minutes with improvised packing. This is not gentle pressure — it is maximum sustained pressure. Do not lift your hands to check during this time."
+      },
+      {
+        "step": 6,
+        "title": "Secure the packing",
+        "body": "After direct pressure, apply a pressure bandage over the wound to maintain pressure. Improvise with cloth strips tied firmly. The goal is to maintain the pressure you just applied. Check every few minutes — bleeding through a saturated dressing means add more dressing on top and continue pressure. Do not remove the original packing."
+      }
+    ],
+    "warnings": [
+      "Wound packing is painful. A conscious casualty will resist. Communicate what you are doing and why. If the casualty is unconscious, ensure airway is maintained as you work.",
+      "Never pack an open chest wound (penetrating chest wound that makes sucking noise) — see medical-005 for chest wound management. Packing a tension pneumothorax can be fatal."
+    ],
+    "proTips": [
+      "Junctional hemorrhage (neck, groin, armpit) is the leading cause of deaths that reach care but die before surgery. These wounds bleed out in minutes from major vessels. Pack aggressively and immediately.",
+      "QuikClot Z-fold combat gauze is the TCCC-recommended hemostatic agent. Carry it. The civilian equivalent (QuikClot Advanced Clotting Gauze) is available without prescription and should be in every kit."
+    ],
+    "relatedGuides": [
+      "medical-002",
+      "medical-004",
+      "medical-005"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-004",
+    "category": "medical",
+    "title": "Junctional Hemorrhage Control",
+    "priority": "critical",
+    "tags": [
+      "medical",
+      "junctional",
+      "hemorrhage",
+      "neck",
+      "groin"
+    ],
+    "summary": "Control life-threatening bleeding at the neck, groin, and armpit where tourniquets cannot be applied.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Recognize junctional hemorrhage",
+        "body": "Junctional zones are where limbs attach to the body: the inguinal fold (groin), the axilla (armpit), and the neck. Major vascular structures in these zones — femoral artery (groin), axillary artery (armpit), carotid/jugular (neck) — can produce fatal hemorrhage in under 3 minutes. A tourniquet cannot be applied high enough to control these wounds."
+      },
+      {
+        "step": 2,
+        "title": "Groin hemorrhage",
+        "body": "Apply firm bimanual pressure directly over the inguinal fold (where the leg meets the body). If trained and junctional tourniquet device (JETT, iTClamp, AAJT) is available, apply per training. Otherwise, pack the wound deeply with hemostatic gauze and apply maximum sustained direct pressure with bodyweight. Position: stand or kneel over the casualty, press both hands into the wound, lock your elbows and transfer your weight."
+      },
+      {
+        "step": 3,
+        "title": "Axillary hemorrhage (armpit)",
+        "body": "Pack the axilla deeply with hemostatic gauze. Have an assistant or improvised pressure device maintain sustained pressure. Arm compression: fold the arm across the chest and apply a pressure wrap from axilla over shoulder and under the opposite axilla — this compresses the wound. Elevate the arm if possible."
+      },
+      {
+        "step": 4,
+        "title": "Neck hemorrhage",
+        "body": "Penetrating neck wounds with arterial involvement are extremely time-critical. Pack the wound firmly with hemostatic gauze. Apply sustained manual pressure UNILATERALLY — do not apply circumferential pressure around the neck (occludes both carotids and the airway). Pressure on one side only. Maintain airway — blood in the airway can cause rapid death from asphyxiation independently of blood loss."
+      }
+    ],
+    "warnings": [
+      "Neck wounds with arterial bleeding are surgical emergencies. Field management buys minutes, not hours. Aggressive evacuation is essential.",
+      "Do not remove your hands from a packing site to 'check progress' — you will lose the clot forming beneath."
+    ],
+    "proTips": [
+      "The iTClamp is a bridge device for neck hemorrhage — it clamps skin around the wound and creates an enclosed hematoma that tamponades the bleeding. It is a legitimate field device and EMTs and combat medics carry it. For civilian kits, it is available and worth considering.",
+      "Bilateral femoral artery wounds (both groin areas) are almost universally fatal without surgical capability. Understand the limits of field medicine."
+    ],
+    "relatedGuides": [
+      "medical-002",
+      "medical-003",
+      "medical-005"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-005",
+    "category": "medical",
+    "title": "Tension Pneumothorax Recognition and Treatment",
+    "priority": "critical",
+    "tags": [
+      "medical",
+      "chest",
+      "pneumothorax",
+      "needle decompression"
+    ],
+    "summary": "Recognize and treat a tension pneumothorax — a rapidly fatal chest condition with a simple field intervention.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand the mechanism",
+        "body": "A tension pneumothorax occurs when air accumulates in the pleural space (around the lung) without a means to escape. Each breath forces more air in, progressively collapsing the lung and eventually compressing the heart, causing obstructive shock and death. This can occur from penetrating chest trauma, blunt trauma, or occasionally from an improperly sealed chest wound."
+      },
+      {
+        "step": 2,
+        "title": "Recognize the signs",
+        "body": "Signs of tension pneumothorax: penetrating or blunt chest trauma mechanism; increasing respiratory distress and tachycardia; absent or diminished breath sounds on the affected side (difficult to assess in field); trachea deviated away from the affected side (late sign); hypotension that does not respond to fluids; distended neck veins (JVD) — late sign. The casualty in tension PTX deteriorates rapidly — shock, unconsciousness, death follow in minutes without treatment."
+      },
+      {
+        "step": 3,
+        "title": "Seal open chest wounds first",
+        "body": "Open (sucking) chest wounds — penetrating chest wounds that make a sucking or bubbling sound with breathing — must be sealed. Apply a vented chest seal (Halo, Russell) or improvise with a square of plastic secured on three sides (the fourth side acts as a flutter valve, allowing air out but not in). If the casualty deteriorates after sealing, consider that the seal has created a tension PTX — burp the seal by lifting one edge."
+      },
+      {
+        "step": 4,
+        "title": "Needle decompression — indication",
+        "body": "Perform needle decompression when: the casualty has penetrating or severe blunt chest trauma AND is in respiratory distress and shock AND breath sounds are absent on one side. In a grid-down scenario without advanced assessment tools, treat the side of the wound (or the side of absent/diminished breath sounds). A tension PTX is fatal without decompression — the intervention is life-saving."
+      },
+      {
+        "step": 5,
+        "title": "Needle decompression — procedure",
+        "body": "Site: Second intercostal space (ICS), midclavicular line (MCL) on the affected side. Find the clavicle — go 2 finger-widths below the clavicle, directly over the nipple line. Alternative site (used in TCCC): 4th or 5th ICS, anterior axillary line (on the side of the chest, above and forward of the armpit). Insert a 14-gauge needle/catheter (3.25 inches or longer — standard IV needles are often too short to penetrate the chest wall). Insert perpendicular to the chest wall, over the top of the rib (going under the rib risks the neurovascular bundle). A rush of air confirms decompression. Leave the catheter in place or remove the needle over the catheter."
+      }
+    ],
+    "warnings": [
+      "Needle decompression is an invasive procedure. Performing it on a patient without tension PTX will cause a simple pneumothorax — an injury, but survivable. Not performing it on a patient with tension PTX is fatal. When the indication is met, err on the side of action.",
+      "Standard 14g 3.25-inch needles may not reach the pleural space in heavy-set individuals. Use the longest available needle."
+    ],
+    "proTips": [
+      "The anterior axillary line (4th/5th ICS) site is increasingly preferred in TCCC because it is more reliably effective for penetrating the chest wall and less likely to fail due to body habitus.",
+      "Carry a purpose-built chest decompression needle (Tactical Medical Solutions, North American Rescue) — they are pre-attached to a large-bore catheter at the appropriate length."
+    ],
+    "relatedGuides": [
+      "medical-001",
+      "medical-003",
+      "medical-006"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-006",
+    "category": "medical",
+    "title": "Shock — Recognition and Management",
+    "priority": "critical",
+    "tags": [
+      "medical",
+      "shock",
+      "hemorrhage",
+      "critical"
+    ],
+    "summary": "Recognize shock early and apply the field interventions that improve survival.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Types of shock",
+        "body": "Hemorrhagic shock (most common in trauma): caused by blood loss. Treat by controlling bleeding. Neurogenic shock: spinal cord injury causes vessel dilation. Septic shock: systemic infection. Obstructive shock: tension PTX, cardiac tamponade. Anaphylactic shock: severe allergic reaction — treat with epinephrine. In a trauma scenario, assume hemorrhagic shock until proven otherwise."
+      },
+      {
+        "step": 2,
+        "title": "Early signs",
+        "body": "Heart rate >100 bpm; respiratory rate >20; skin pale, cool, clammy; anxiety, restlessness, confusion (brain is poorly perfused); pulse is rapid and weak at wrist (radial); capillary refill >2 seconds. These signs appear when approximately 15–30% of blood volume is lost. The body compensates well initially — do not be reassured by a casualty who appears 'okay' after significant blood loss."
+      },
+      {
+        "step": 3,
+        "title": "Late signs — decompensated shock",
+        "body": "Blood pressure drops (systolic <90 mmHg); pulse is absent at wrist, present at carotid only; skin mottled and pale; decreased consciousness or unconsciousness; shallow, irregular breathing. Decompensated shock means compensatory mechanisms have failed. Death follows rapidly without intervention. Loss of radial pulse = approximately 50% blood volume lost."
+      },
+      {
+        "step": 4,
+        "title": "Field treatment",
+        "body": "Stop the bleeding (tourniquets, wound packing, pressure). Position: lay flat, elevate the legs 12 inches if no suspected spinal injury — this shifts blood volume toward the core and brain. Keep warm — hypothermia worsens coagulopathy (the blood's ability to clot). If IV access is available and you are trained, administer IV fluids — permissive hypotension (systolic 80–90) is acceptable in hemorrhagic shock; aggressive fluid resuscitation worsens outcomes."
+      }
+    ],
+    "warnings": [
+      "Oral fluids are contraindicated in a patient with altered mental status (aspiration risk) and may be contraindicated before surgical intervention depending on the wound type.",
+      "Hypothermia is a major complication of shock — the 'lethal triad' of trauma is hypothermia, acidosis, and coagulopathy. All three worsen each other. Keep the patient warm."
+    ],
+    "proTips": [
+      "The radial pulse check is your rapid field shock assessment tool: if you can feel a pulse at the wrist, systolic BP is approximately >80. If the radial pulse is absent but the carotid is present, systolic is approximately 60–80. No carotid: <60.",
+      "Jelly belly sign: in a supine patient, the abdomen becomes visibly distended and board-hard in internal hemorrhage. This indicates intra-abdominal bleeding requiring surgery — no field intervention stops this. Rapid evacuation is the only intervention."
+    ],
+    "relatedGuides": [
+      "medical-001",
+      "medical-002",
+      "medical-007"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-007",
+    "category": "medical",
+    "title": "Airway Management Without Equipment",
+    "priority": "critical",
+    "tags": [
+      "medical",
+      "airway",
+      "unconscious",
+      "critical"
+    ],
+    "summary": "Maintain a patent airway in an unconscious casualty using position and manual techniques.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Assessment",
+        "body": "Look: is the chest rising? Listen: air movement at the mouth and nose? Feel: airflow on your cheek? If no airflow, the airway is obstructed. Common causes: tongue (most common in unconscious patient), blood/vomit, foreign object, swelling, or jaw trauma."
+      },
+      {
+        "step": 2,
+        "title": "Head-tilt chin-lift",
+        "body": "Place one hand on the forehead and push backward while lifting the chin with two fingers of the other hand. This extends the neck, lifting the tongue off the posterior pharynx and opening the airway. Do NOT use this technique if cervical spine injury is suspected — use jaw thrust instead."
+      },
+      {
+        "step": 3,
+        "title": "Jaw thrust (spine precaution)",
+        "body": "Position behind the casualty's head. Place fingers behind the angles of the jaw on both sides. Push the jaw forward and upward without moving the neck. This opens the airway while maintaining cervical spine neutrality."
+      },
+      {
+        "step": 4,
+        "title": "Recovery position",
+        "body": "In an unconscious breathing casualty with no suspected spinal injury, the recovery position (lateral recumbent) is the safest maintenance position. Roll the casualty onto their side, top knee bent forward, top arm supporting the head. This prevents aspiration of blood, vomit, and secretions and prevents the tongue from obstructing the airway without requiring ongoing manual support."
+      },
+      {
+        "step": 5,
+        "title": "Finger sweep",
+        "body": "If you can visualize an obstruction in the mouth (blood, vomit, dislodged teeth, food), remove it with a gloved finger sweep. Do not perform blind finger sweeps — pushing an obstruction deeper is the risk. Only remove what you can see."
+      },
+      {
+        "step": 6,
+        "title": "Nasopharyngeal airway (NPA)",
+        "body": "If an NPA is available: measure from the nostril to the earlobe for sizing. Lubricate with whatever is available (petroleum jelly, lip balm, saliva). Insert into the right nostril (the one with the bevel facing the septum), advancing gently along the floor of the nasal cavity. The NPA maintains airway without the need for the patient's cooperation and works in patients with clenched jaws or dental damage."
+      }
+    ],
+    "warnings": [
+      "Airway compromise and hemorrhage must be managed simultaneously in trauma. Do not complete all airway steps before controlling an arterial bleed — MARCH applies.",
+      "If the airway is maintained with a maneuver and the patient vomits, roll them immediately to the recovery position to clear the airway."
+    ],
+    "proTips": [
+      "A comatose trauma patient should be maintained in the recovery position for transport whenever possible — this single position change prevents more aspiration deaths than any other airway intervention.",
+      "Carry a NPA in your medical kit. A size 28 French NPA fits the majority of adults. They cost a few dollars, weigh almost nothing, and have saved lives in scenarios where a surgical airway would otherwise be required."
+    ],
+    "relatedGuides": [
+      "medical-001",
+      "medical-006"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-008",
+    "category": "medical",
+    "title": "Oral Rehydration Therapy",
+    "priority": "critical",
+    "tags": [
+      "medical",
+      "dehydration",
+      "diarrhea",
+      "ORT",
+      "critical"
+    ],
+    "summary": "Treat severe dehydration and diarrheal illness with Oral Rehydration Salts — more effective than plain water.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "When ORT is required",
+        "body": "Signs of severe dehydration: sunken eyes, extremely dry mouth and mucous membranes, decreased or absent urination, skin 'tenting' (pinch skin on back of hand — slow return to normal takes >2 seconds), confusion, weakness, inability to stand. In cholera and severe gastroenteritis, plain water replacement is insufficient — electrolytes are lost faster than water and plain water can paradoxically worsen cellular dehydration."
+      },
+      {
+        "step": 2,
+        "title": "WHO ORS formula",
+        "body": "In 1 liter of clean (purified) water, dissolve: 6 level teaspoons of sugar (glucose or sucrose) AND 1/2 teaspoon of salt (sodium chloride). Stir completely until dissolved. This is the WHO standard ORS formulation. It should taste mildly salty and sweet — not strongly either. Too much salt is dangerous; measure carefully."
+      },
+      {
+        "step": 3,
+        "title": "Administration",
+        "body": "Give small, frequent sips — not large volumes rapidly. In an adult: 200–400mL per hour for the first 4 hours, then as much as tolerated. In a child under 2: 50–100mL after each loose stool. The patient should show improvement (increased urination, improved skin turgor, improved alertness) within 4–6 hours of ORT."
+      },
+      {
+        "step": 4,
+        "title": "Continue feeding",
+        "body": "Do not fast a patient with diarrhea. The gut can still absorb nutrients even during diarrheal illness. Bland, easily digestible foods (rice, plain crackers, bananas, boiled potato) are appropriate. Avoid dairy, fats, and high-fiber foods during acute illness. BRAT diet (bananas, rice, applesauce, toast) if available."
+      }
+    ],
+    "warnings": [
+      "If vomiting prevents ORT administration, small sips every 5 minutes often succeed where larger volumes fail. Wait 10 minutes after a vomiting episode before resuming.",
+      "Bloody diarrhea (dysentery) with fever indicates a bacterial infection and requires antibiotics if available. ORT is still required but is not sufficient treatment alone.",
+      "ORT does not treat the cause of diarrhea — it prevents death from dehydration while the illness runs its course."
+    ],
+    "proTips": [
+      "Pre-packaged ORS packets (Pedialyte sachets, DripDrop, oral rehydration sachets) are compact, lightweight, shelf-stable, and far more reliable than field-mixed solutions. Stock them in your medical kit.",
+      "Coconut water contains natural electrolytes and serves as a reasonable ORS substitute in regions where coconuts are available."
+    ],
+    "relatedGuides": [
+      "medical-009",
+      "medical-010"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-009",
+    "category": "medical",
+    "title": "Field Sanitation and Latrine Construction",
+    "priority": "critical",
+    "tags": [
+      "medical",
+      "sanitation",
+      "latrine",
+      "disease prevention",
+      "critical"
+    ],
+    "summary": "Establish field sanitation systems that prevent the diseases that kill more people in disaster than trauma.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Why sanitation is survival-critical",
+        "body": "In a grid-down or disaster scenario, improper waste disposal is the primary driver of cholera, typhoid, hepatitis A, and dysentery outbreaks. These diseases killed more soldiers in every 20th century conflict than enemy fire until modern field sanitation was mandated. In a population without sanitation, waterborne disease outbreaks can kill 10–30% of an affected group within weeks."
+      },
+      {
+        "step": 2,
+        "title": "Cat hole latrines (individual, short-term)",
+        "body": "For individuals or small groups over 1–3 days: dig holes 6–8 inches deep, at least 200 feet from water sources, camps, and trails. Defecate in the hole, cover with the excavated soil, and pack down. This puts waste in the biologically active layer of soil where decomposition occurs fastest. Mark used holes with a stick."
+      },
+      {
+        "step": 3,
+        "title": "Pit latrine (group, extended operations)",
+        "body": "For groups or extended operations: dig a trench 2–4 feet deep, 1 foot wide, as long as necessary. Site it downhill and downwind from the camp, at least 200 feet from any water source. Build a straddle-trench design — users straddle the trench. Cover the opening with soil after each use. When the trench is 3/4 full, fill completely, mark the site, and relocate."
+      },
+      {
+        "step": 4,
+        "title": "Hand hygiene enforcement",
+        "body": "Establish a hand-washing station at the latrine exit — water container with a hole or valve, soap or ash (ash is an effective soap substitute), and a drying towel. Make hand-washing mandatory, not optional, within the group. The single most effective disease-prevention measure in any field environment is hand hygiene after defecation and before food preparation."
+      },
+      {
+        "step": 5,
+        "title": "Waste water and gray water",
+        "body": "Gray water (cooking, washing) must also be disposed of properly. Dig a sump pit — 1-2 feet deep, filled with gravel or rocks — at least 200 feet from water sources. Pour gray water into the sump pit, which filters it through the soil. Do not dispose of gray water in running water sources."
+      }
+    ],
+    "warnings": [
+      "Burning waste is preferable to open defecation but produces toxic fumes — never burn waste in enclosed spaces.",
+      "Do not site a latrine uphill from any water source. Groundwater flows downhill. Contamination of a water source from a poorly sited latrine can affect everyone downstream."
+    ],
+    "proTips": [
+      "Lime (calcium hydroxide) is the traditional field sanitation agent. Dusted over latrine contents, it deactivates pathogens, reduces odor, and accelerates decomposition. Pool shock (calcium hypochlorite) can substitute.",
+      "The F-diagram: Flies, Fingers, Fields, Fluids, Fomites, Food — the six fecal-oral transmission routes. Interrupting any route breaks the chain of disease transmission."
+    ],
+    "relatedGuides": [
+      "medical-010",
+      "medical-008"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-010",
+    "category": "medical",
+    "title": "Vector Control — Mosquitoes, Ticks, and Rodents",
+    "priority": "advanced",
+    "tags": [
+      "medical",
+      "vector control",
+      "insects",
+      "rodents",
+      "disease prevention"
+    ],
+    "summary": "Reduce vector-borne disease transmission through site selection, barriers, and environmental control.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Mosquito control",
+        "body": "Site camps away from standing water — mosquitoes breed in any standing water, including puddles, containers, and tire tracks. Drain, cover, or treat all water containers not intended for drinking. Sleep under a bed net (impregnated with permethrin is best). Apply DEET or permethrin to exposed skin and clothing. In high-malaria areas, chemoprophylaxis (doxycycline, mefloquine) is the only reliable prevention — field measures reduce but do not eliminate risk."
+      },
+      {
+        "step": 2,
+        "title": "Tick prevention",
+        "body": "Wear long sleeves and pants tucked into boots in tick habitat (tall grass, brush, wooded areas). Treat clothing with permethrin. Conduct full body tick checks every evening — key areas: scalp, behind ears, back of neck, armpits, groin, behind knees. A tick must be attached for 24–36 hours to transmit Lyme disease — early removal is highly protective."
+      },
+      {
+        "step": 3,
+        "title": "Tick removal",
+        "body": "Use fine-tipped tweezers or a tick removal tool. Grasp the tick as close to the skin surface as possible. Pull upward with steady, even pressure — do not twist or jerk. Do not use petroleum jelly, nail polish, heat, or other methods — these increase disease transmission by agitating the tick. Clean the bite site with alcohol or soap and water after removal."
+      },
+      {
+        "step": 4,
+        "title": "Rodent control",
+        "body": "Rodents carry hantavirus, plague, typhus, leptospirosis, and numerous other serious pathogens. Do not leave food accessible to rodents — store in sealed containers off the ground. Do not sleep near rodent burrows or nesting sites. Do not handle dead rodents without gloves. If sleeping in structures with rodent evidence, clean with bleach solution and ventilate before occupying."
+      }
+    ],
+    "warnings": [
+      "Hantavirus: Do not sweep or vacuum rodent droppings dry — the virus is airborne. Wet droppings with bleach solution (1:10 bleach to water) and allow to soak before wiping up with gloves.",
+      "In malaria-endemic areas, a single night without mosquito protection can result in infection. In grid-down tropical scenarios, malaria is a major threat."
+    ],
+    "proTips": [
+      "Permethrin-treated clothing remains effective through 6+ washes and provides significantly better protection than topical repellents alone. Treat your field clothing in advance of deployment.",
+      "Natural mosquito repellents (citronella, lemon eucalyptus oil — OLE specifically) have evidence-based efficacy but must be reapplied every 30–60 minutes versus 4–6 hours for DEET."
+    ],
+    "relatedGuides": [
+      "medical-009",
+      "medical-011"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-011",
+    "category": "medical",
+    "title": "Food Safety and Spoilage Identification",
+    "priority": "advanced",
+    "tags": [
+      "medical",
+      "food safety",
+      "spoilage",
+      "disease prevention"
+    ],
+    "summary": "Identify spoiled food, understand safe handling without refrigeration, and prevent food-borne illness.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "The temperature danger zone",
+        "body": "Bacteria multiply rapidly between 40°F and 140°F (4°C–60°C). Without refrigeration, all perishable foods enter this zone. Cooked food left at ambient temperature in warm weather becomes dangerous within 2–4 hours. In a grid-down scenario with no refrigeration, cook only what you will eat immediately and preserve the rest (smoke, salt, dry)."
+      },
+      {
+        "step": 2,
+        "title": "Identify spoilage — smell",
+        "body": "The most reliable field test. Any off, sour, or ammonia-like smell in meat or poultry indicates spoilage. Fish smells strongly of ammonia when spoiled (vs. mild sea smell when fresh). Dairy products smell sour and sometimes putrid. Trust your nose — the human nose evolved specifically to detect rotting protein."
+      },
+      {
+        "step": 3,
+        "title": "Identify spoilage — visual",
+        "body": "Slime on meat or fish surfaces indicates bacterial growth. Mold on bread, cheese, and grains — visible green, blue, black, or white fuzzy growth. Discoloration in meat (gray, green, or brown patches in normally red meat). Bloated canned or sealed food — gas production from bacteria or botulism. Never eat from a bloated can."
+      },
+      {
+        "step": 4,
+        "title": "Botulism risk",
+        "body": "Clostridium botulinum produces toxin in low-oxygen, low-acid, moderate-temperature environments — precisely the conditions in home-canned or improperly preserved food. Botulism toxin is one of the most lethal substances known. Signs: descending paralysis (starts with blurred vision, drooping eyelids, difficulty swallowing, then progresses to paralysis and respiratory failure). If suspected, there is no field treatment — only supportive care and antitoxin (hospital). Never take risks with canned or preserved food showing any suspect signs."
+      }
+    ],
+    "warnings": [
+      "Do not apply the rule 'if it looks okay and smells okay, it's okay' universally — Salmonella, E. coli O157:H7, and Norovirus produce no detectable smell or appearance changes.",
+      "Food-borne illness in a grid-down scenario with dehydration risk can be fatal — it is not simply 'food poisoning' that will pass. It can trigger dehydration severe enough to require ORT or IV fluids."
+    ],
+    "proTips": [
+      "High-acid foods (vinegar-preserved, citrus-pickled) are significantly more resistant to spoilage. Vinegar pickling is a viable field preservation technique for vegetables.",
+      "The nose blind phenomenon: people who are used to being around spoiled food become desensitized. In a group, have different people smell-test food if possible — fresh noses detect spoilage that habituated noses miss."
+    ],
+    "relatedGuides": [
+      "medical-009",
+      "food-004"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-012",
+    "category": "medical",
+    "title": "Combat Stress Reaction — Recognition and Management",
+    "priority": "advanced",
+    "tags": [
+      "medical",
+      "mental health",
+      "combat stress",
+      "CSR"
+    ],
+    "summary": "Recognize combat stress reaction and apply BICEPS protocol to return personnel to function.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "What is combat stress reaction",
+        "body": "Combat Stress Reaction (CSR) — also called battle fatigue or acute stress reaction — is a predictable, normal response to abnormal levels of physical and psychological stress. It is not a sign of weakness or psychiatric disorder. Under sufficient stress, any person can experience CSR. It is distinct from PTSD (which is a longer-term condition) and is typically reversible with proper immediate management."
+      },
+      {
+        "step": 2,
+        "title": "Signs of CSR",
+        "body": "Trembling, shaking, startle response to minor stimuli. Confusion, poor decision-making, difficulty following instructions. Hypervigilance or, conversely, unresponsiveness/dissociation. Weeping or inappropriate emotional responses. Physical complaints without apparent physical cause (headache, GI symptoms, fatigue). Freezing under fire or in emergency action."
+      },
+      {
+        "step": 3,
+        "title": "BICEPS protocol",
+        "body": "B — Brevity: intervention should last hours to days, not weeks. The goal is rapid return to function. I — Immediacy: address CSR immediately; delay worsens outcomes. C — Centrality: treat near the unit/group, not evacuated far away — this reinforces identity and belonging. E — Expectancy: explicitly tell the person they are normal, they will recover, and they will return to the group. P — Proximity: keep them close to their group, not isolated. S — Simplicity: basic needs — sleep, food, water, safety, and a trusted person to talk to."
+      },
+      {
+        "step": 4,
+        "title": "Practical intervention",
+        "body": "Remove from the immediate stressor if possible. Ensure the person is physically safe, warm, and hydrated. Allow them to talk if they want to — do not force a debrief. Do not permit the person to isolate. Assign a simple, low-complexity task to restore sense of purpose and competence. Maintain normalcy of routine — meals, rest schedule."
+      }
+    ],
+    "warnings": [
+      "Do not dismiss or shame CSR. Phrases like 'man up' or 'others have it worse' worsen outcomes and damage trust. Acknowledge the stress is real and the response is normal.",
+      "A person who has experienced CSR may have delayed reaction to trauma weeks later (PTSD). Be aware that initial recovery does not mean the person is fully processed."
+    ],
+    "proTips": [
+      "Sleep deprivation is the single largest contributing factor to CSR. A person who has not slept in 36+ hours has measurably impaired judgment equivalent to intoxication. Prioritize rotation schedules that allow minimum 4-hour sleep blocks.",
+      "Unit cohesion (strong interpersonal bonds within the group) is the most protective factor against CSR. Groups that trust each other, train together, and communicate openly have dramatically lower CSR rates under equivalent stress."
+    ],
+    "relatedGuides": [
+      "medical-013",
+      "medical-001"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-013",
+    "category": "medical",
+    "title": "Long-Term Patient Care Without Resupply",
+    "priority": "advanced",
+    "tags": [
+      "medical",
+      "patient care",
+      "extended operations",
+      "nursing"
+    ],
+    "summary": "Manage a sick or injured person in an extended grid-down scenario without professional medical care or resupply.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Establish a sick bay",
+        "body": "Designate a specific area for patient care — separate from food preparation and the general camp if possible. The area should be: sheltered from weather, easy to access for a caregiver, equipped with the cleanest available bedding, positioned to allow monitoring without continuous attendance. A sick person in a cold, wet, or exposed position will deteriorate rapidly regardless of other interventions."
+      },
+      {
+        "step": 2,
+        "title": "Monitoring and documentation",
+        "body": "Record vitals at least every 4 hours: heart rate (normal 60–100), respiratory rate (normal 12–20), temperature (estimate with hand to forehead if no thermometer), mental status (alert, confused, unconscious), urine output (adequate hydration = urine produced every 4–6 hours, pale yellow). Write it down — memory of trends is unreliable under stress."
+      },
+      {
+        "step": 3,
+        "title": "Fluid and nutrition management",
+        "body": "An ill person who cannot eat must still hydrate. Clear fluids (water, ORS, clear broth) every 30–60 minutes. As tolerance improves, progress to soft, easily digestible foods. A person with a fever loses significantly more fluid through sweating and respiration — increase fluid intake proportionally. Caloric deficit is survivable for weeks; dehydration is fatal in days."
+      },
+      {
+        "step": 4,
+        "title": "Wound care and infection prevention",
+        "body": "Clean wounds daily with the cleanest water available (boiled and cooled is best). Inspect for signs of infection: increasing redness, warmth, swelling, pus, red streaks extending from the wound (lymphangitis — indicates spreading infection requiring antibiotics if available). Change dressings when saturated or soiled. Keep wounds covered to prevent further contamination."
+      },
+      {
+        "step": 5,
+        "title": "Caregiver sustainability",
+        "body": "Extended patient care is exhausting. A single caregiver who does not sleep, eat, or maintain their own health will become a second patient. Establish rotation schedules. Define clear task handoff — what was given, when, what was observed. Caregiver fatigue causes medication errors, missed deterioration signs, and failure to maintain hygiene protocols."
+      }
+    ],
+    "warnings": [
+      "Antibiotic use without diagnosis and appropriate selection drives antibiotic resistance and can cause significant adverse effects. Use antibiotics from your kit only when infection signs are clear and significant.",
+      "Pain management without opioids: ibuprofen (anti-inflammatory and analgesic) and acetaminophen taken together provide additive pain relief. Both should be in your medical kit in abundance."
+    ],
+    "proTips": [
+      "Honey is a legitimate wound care agent with documented antimicrobial properties. Medical-grade Manuka honey is preferred but any raw honey can be applied to clean wounds as a topical antimicrobial in the absence of commercial dressings.",
+      "Maggot debridement is effective and has been used in field medicine for centuries — sterile fly larvae (blowfly maggots, specifically Phaenicia sericata) clean necrotic tissue from wounds more effectively than many surgical debridement methods. This is a last-resort but evidence-based technique."
+    ],
+    "relatedGuides": [
+      "medical-009",
+      "medical-008",
+      "medical-012"
+    ],
+    "requiresMedicalDisclaimer": true
+  },
+  {
+    "id": "medical-014",
+    "category": "medical",
+    "title": "Mass Casualty Triage — START Protocol",
+    "priority": "critical",
+    "tags": [
+      "medical",
+      "triage",
+      "mass casualty",
+      "START",
+      "critical"
+    ],
+    "summary": "Apply the START triage system to rapidly sort casualties and direct resources where they will save the most lives.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "The triage principle",
+        "body": "In a mass casualty incident (MCI), there are more casualties than there are resources to treat them simultaneously. Triage is the process of sorting casualties by treatment priority to achieve the greatest good for the greatest number. It is explicit rationing of care. It requires the uncomfortable decision to delay care to some casualties so that others who are more savable can receive immediate intervention."
+      },
+      {
+        "step": 2,
+        "title": "START categories",
+        "body": "START = Simple Triage and Rapid Treatment. Four categories: RED (Immediate) — life-threatening but survivable with immediate intervention. YELLOW (Delayed) — serious injury but can wait 30–60 minutes. GREEN (Minor) — walking wounded, can wait hours. BLACK (Expectant/Deceased) — unsurvivable given current resources, or dead. The system uses three assessments: respiration, perfusion, and mental status."
+      },
+      {
+        "step": 3,
+        "title": "Step 1 — Walking wounded",
+        "body": "Announce loudly: 'If you can walk, move to [designated safe area].' Everyone who walks is GREEN. Tag them and direct them out of the scene. This immediately identifies a large portion of your casualties and removes them from the scene, clearing access to those who cannot ambulate."
+      },
+      {
+        "step": 4,
+        "title": "Step 2 — Assess non-ambulatory casualties",
+        "body": "For each non-ambulatory casualty in sequence: Check respiration — if not breathing, reposition airway. If still not breathing after repositioning: BLACK. If breathing rate >30 per minute or very slow/gasping: RED. If respiratory rate is within normal: proceed to perfusion check."
+      },
+      {
+        "step": 5,
+        "title": "Step 3 — Perfusion",
+        "body": "Check for capillary refill (compress the nail bed, release, count seconds to return pink) or radial pulse. Capillary refill >2 seconds or absent radial pulse: RED (hemorrhagic shock). Apply tourniquet or direct pressure immediately, then continue. Capillary refill <2 seconds: proceed to mental status check."
+      },
+      {
+        "step": 6,
+        "title": "Step 4 — Mental status",
+        "body": "Give simple command: 'Squeeze my hand.' If the casualty cannot follow simple commands: RED. If the casualty can follow simple commands: YELLOW. Complete triage passes through the entire scene tagging each casualty. Then treatment begins, starting with all RED casualties. BLACK patients are triaged expectant — provide comfort if resources later allow, but do not delay care to RED casualties for BLACK casualties."
+      }
+    ],
+    "warnings": [
+      "Triage is dynamic — a YELLOW patient can become RED and a GREEN can become YELLOW. Reassess all casualties every 15–30 minutes.",
+      "Emotionally, tagging a living person BLACK is one of the most difficult actions in emergency medicine. The decision is based on survivability given available resources — it is not abandonment, it is the system working correctly."
+    ],
+    "proTips": [
+      "Speed is the purpose of START — the entire system should complete triage of one casualty in under 30 seconds. Individual assessment should not exceed 60 seconds per patient. The goal is to identify all RED casualties as fast as possible.",
+      "Tag casualties with color or write on skin with a marker. In dark or smoke-filled environments, verbal relay between team members is required. Never hold a triage category in memory alone."
+    ],
+    "relatedGuides": [
+      "medical-001",
+      "medical-002",
+      "medical-006"
+    ],
+    "requiresMedicalDisclaimer": true
+  }
+]

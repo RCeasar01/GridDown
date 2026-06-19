@@ -1,0 +1,96 @@
+[
+  {
+    "id": "food-001",
+    "category": "food",
+    "title": "Edible Plant Identification — North America",
+    "priority": "advanced",
+    "tags": ["food", "plants", "foraging", "identification"],
+    "summary": "Identify high-confidence edible plants using the universal edibility test and key North American species.",
+    "steps": [
+      { "step": 1, "title": "Understand the risk baseline", "body": "Misidentification of edible plants kills people every year. The safest approach is to know 5–10 plants in your region with absolute certainty rather than attempting to identify hundreds from memory. Focus on high-confidence, widely-distributed, high-calorie species with no dangerous look-alikes." },
+      { "step": 2, "title": "High-confidence species", "body": "Prioritize these for North American scenarios: Cattail (Typha) — roots, pollen, and young shoots are edible. Found near any standing water. Dandelion — entire plant edible, roots, leaves, flower. Acorns — all oaks produce edible acorns after leaching tannins in water for 24+ hours. Pine — inner bark (cambium layer) is edible, needles for tea. Wild garlic/onion — if it smells like onion, it is safe. Death camas looks similar but has no onion smell." },
+      { "step": 3, "title": "Universal edibility test", "body": "When unsure: 1) Separate plant into parts (root, leaf, stem, seed). 2) Smell — avoid strong unpleasant chemical or almond odors. 3) Skin test — rub a small amount on inner wrist, wait 15 minutes for reaction. 4) Lip test — touch to lip for 3 minutes, wait 15 minutes. 5) Tongue test — place on tongue for 15 minutes. 6) Eat a teaspoon and wait 8 hours. Test only one part of one plant at a time. This takes time — start before you're critically hungry." },
+      { "step": 4, "title": "Processing and preparation", "body": "Many edible plants are far safer cooked. Boiling eliminates many toxins and improves digestibility. Never eat raw elderberries (cook first). Leach bitter-tasting plants in multiple changes of boiling water to remove tannins and other irritants. Cooking also improves caloric availability." }
+    ],
+    "warnings": [
+      "Never eat wild mushrooms unless you have formal training and certainty of identification — Amanita phalloides (death cap) is fatal in small quantities with no antidote.",
+      "Avoid plants with milky white sap, umbrella-shaped flower clusters (Apiaceae family contains deadly hemlock), and shiny three-leafed plants.",
+      "The three-day starvation threshold: the energy cost of foraging over a wide area may exceed caloric return in some environments. Prioritize water, shelter, and rest over aggressive foraging."
+    ],
+    "proTips": [
+      "Cattail is called the 'supermarket of the swamp' for good reason. A single cattail rhizome (root) can be dried and ground into starch flour. The pollen in bloom is nutritious and tastes slightly sweet.",
+      "Acorn flour (after tannin leaching) is a reliable, storable, high-calorie food source. Cold-water leaching takes 2–3 days; hot-water leaching takes several hours with multiple water changes."
+    ],
+    "relatedGuides": ["food-002", "food-003", "food-004"]
+  },
+  {
+    "id": "food-002",
+    "category": "food",
+    "title": "Trapping and Snaring",
+    "priority": "advanced",
+    "tags": ["food", "trapping", "snaring", "protein"],
+    "summary": "Set effective small game traps and snares for continuous passive calorie collection.",
+    "steps": [
+      { "step": 1, "title": "Think in trap lines, not single traps", "body": "Set 10–20 snares simultaneously rather than 1–2. Most snares fail. Trap lines give you statistical coverage. Check every trap every 4–6 hours — dead animals spoil quickly in warm weather, and live-caught animals damage snares." },
+      { "step": 2, "title": "Simple loop snare", "body": "Use paracord, wire (preferred — holds shape), or cordage. Form a fixed loop 4–5 inches in diameter for rabbits, 2–3 inches for squirrels. Tie the other end to a fixed anchor (root, stake). Hang the loop at head height of the target animal — for rabbit, fist height off the ground. The loop must be on a game trail, near burrows, or on a natural pinch point (narrow gap between logs, brush, etc.)." },
+      { "step": 3, "title": "Twitch-up snare (live capture / quick kill)", "body": "A spring snare attached to a bent sapling or counterweight triggers when an animal steps through the loop, jerking the animal upward off the ground. This kills or immobilizes quickly and keeps the catch off the ground and away from other scavengers. The trigger is a notched stick under tension — animal pulls the snare loop, trigger releases, sapling fires." },
+      { "step": 4, "title": "Site selection", "body": "Look for: runs (paths animals use repeatedly — compressed grass, worn trail), droppings, fur on bark or wire, burrow entrances, and feeding signs (chewed vegetation, acorn shells). Animals are most active at dawn and dusk. Snares on active runs consistently outperform snares placed in likely-looking but inactive areas." },
+      { "step": 5, "title": "Scent control", "body": "Human scent on traps and snares is a significant deterrent. Boil snares in pine bark or walnut hulls to neutralize scent. Handle traps with gloves or after rubbing hands with dirt and pine needles. Do not urinate near trap lines." }
+    ],
+    "warnings": [
+      "Check local regulations if applicable — in most true emergency scenarios, survival trapping supersedes normal regulatory constraints, but be aware of the distinction.",
+      "Snares do not discriminate — you may catch non-target animals. Know how to humanely dispatch any animal you catch."
+    ],
+    "proTips": [
+      "Fishing by trap (improvised fish weir, bottle trap, or hook and line) is far more calorie-efficient per hour of labor than land trapping in most environments with water access.",
+      "Insects are a high-protein, readily available food source that requires no trap skill. Beetles, grubs, grasshoppers, and caterpillars are all edible cooked. Avoid brightly colored insects, hairy caterpillars, and insects that sting."
+    ],
+    "relatedGuides": ["food-001", "food-003", "food-004"]
+  },
+  {
+    "id": "food-003",
+    "category": "food",
+    "title": "Fishing Without Gear",
+    "priority": "advanced",
+    "tags": ["food", "fishing", "improvised"],
+    "summary": "Catch fish using improvised hooks, weirs, and hand-fishing techniques.",
+    "steps": [
+      { "step": 1, "title": "Improvised hook and line", "body": "Hooks can be improvised from safety pins, thorns, bent nails, carved bone or hardwood, and metal can tab openings. Line can be paracord inner strands, thread, plant fiber cordage, or stripped electrical wire. Bait with worms (dig near river banks), insects, small fish pieces, or dough balls from found grain." },
+      { "step": 2, "title": "Gorge hook technique", "body": "A gorge hook is a straight, pointed, double-ended piece of bone, hardwood, or metal (a toothpick-sized piece of wire bent at both ends). Tie line to the center. Bait it and let the fish swallow it whole. When the fish swallows and the line is pulled, the gorge turns sideways inside the throat and lodges — no bend required. Used globally as a primitive fishing method." },
+      { "step": 3, "title": "Fish weir", "body": "A fish weir is a V-shaped wall of rocks built across a stream, with the point of the V facing downstream. Fish swimming upstream funnel into the point and cannot reverse out. Build the walls above the water line so fish do not simply swim over. This is a passive trap that works 24 hours with no attendance." },
+      { "step": 4, "title": "Hand fishing (noodling/tickling)", "body": "In slow or still water, submerge your arm slowly under rock overhangs and logs where fish hide. Move extremely slowly. When you feel a fish, grab firmly behind the gills or around the body and remove quickly. Catfish, bass, and carp respond to this technique. Wear mental armor — you will also encounter crawdads, snakes, and snapping turtles." }
+    ],
+    "warnings": [
+      "Wash hands thoroughly after handling fish and raw protein — any cuts provide entry for infection.",
+      "Cook all freshwater fish thoroughly — raw freshwater fish can carry parasites including tapeworms. Saltwater fish are relatively safer raw but cooking is always preferable."
+    ],
+    "proTips": [
+      "Fish are most active at dawn and dusk in low-light conditions. Mid-day fishing is often unproductive in warm weather — fish move to deep, cool water.",
+      "Edible freshwater fish in North America include bass, trout, catfish, perch, crappie, carp, and bluegill. All are safe to eat cooked. Identify them by body shape rather than color — colors vary by region."
+    ],
+    "relatedGuides": ["food-002", "food-004"]
+  },
+  {
+    "id": "food-004",
+    "category": "food",
+    "title": "Food Preservation Without Refrigeration",
+    "priority": "advanced",
+    "tags": ["food", "preservation", "drying", "smoking"],
+    "summary": "Preserve meat, fish, and plant foods for days to weeks using primitive methods.",
+    "steps": [
+      { "step": 1, "title": "Smoking", "body": "Cut meat into strips 1/4 inch thick, removing as much fat as possible (fat goes rancid rapidly). Hang strips on a wooden rack over a smoky fire — hardwood smoke (oak, hickory, apple, cherry) is best. Avoid softwoods (pine, fir) which contain resins. Smoke at low heat (150–200°F) for 6–12 hours until the meat is dark, hard, and dry with no moisture. Properly smoked meat can last 1–2 weeks without refrigeration." },
+      { "step": 2, "title": "Solar drying", "body": "In low-humidity, sunny conditions, thin strips of meat or fish can be dried without smoking. Spread pieces on clean rocks or improvised racks in direct sunlight and wind. Cover loosely with cloth or screen to keep insects off. Turn every few hours. Full sun drying takes 2–3 days depending on temperature, humidity, and thickness. The product should be rigid and hard with no soft spots." },
+      { "step": 3, "title": "Salt curing", "body": "Salt draws moisture out of meat through osmosis and inhibits bacterial growth. Pack meat pieces completely in salt — do not allow any surface to remain unsalted. Leave for 24–48 hours. Rinse, dry, and optionally smoke. Requires significant salt — roughly 1 pound of salt per 5 pounds of meat. Salt is a critical grid-down resource." },
+      { "step": 4, "title": "Root cellaring concept", "body": "Many root vegetables (potatoes, turnips, carrots, beets) and squash remain edible for weeks to months in cool, dark, humid conditions. Dig a pit 2–3 feet below the frost line, line with straw, and store root vegetables. Temperature stabilizes at 35–45°F below ground — natural refrigeration." }
+    ],
+    "warnings": [
+      "Improperly dried or smoked meat causes botulism and other food-borne illnesses. If meat smells off, is slimy, or shows mold, discard it. Food poisoning in a grid-down scenario with no medical care can be fatal.",
+      "Do not attempt to dry or smoke meat in high humidity — the surface dries before the interior, creating a case-hardened exterior that traps moisture and allows bacteria to grow inside."
+    ],
+    "proTips": [
+      "Pemmican — rendered fat mixed with dried meat powder and dried berries — was the original long-distance trail food used by indigenous peoples and fur traders. It lasts for months without refrigeration and is calorie-dense (400–500 cal/100g).",
+      "Fish preserves much faster than mammal meat when smoked because fish is leaner and the tissue is less dense. A full-size salmon can be smoked to preservation in 8–10 hours."
+    ],
+    "relatedGuides": ["food-001", "food-002"]
+  }
+]

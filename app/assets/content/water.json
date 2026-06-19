@@ -1,0 +1,121 @@
+[
+  {
+    "id": "water-001",
+    "category": "water",
+    "title": "Finding Water in the Wild",
+    "priority": "critical",
+    "tags": ["water", "sourcing", "beginner", "critical"],
+    "summary": "Locate reliable water sources using terrain, vegetation, and animal behavior cues.",
+    "steps": [
+      { "step": 1, "title": "Read the terrain", "body": "Water flows downhill and collects in valleys, ravines, and low-lying areas. Follow natural drainages — dry creek beds, gullies, and canyon floors. After rain, these fill quickly. Even in drought, dig 1–3 feet in the outer bend of a dry streambed — moisture collects there." },
+      { "step": 2, "title": "Watch for vegetation signals", "body": "Cattails, willows, cottonwoods, and bright green vegetation in an otherwise dry landscape almost always indicate a water table near the surface. Dig at the base of these plants. In desert terrain, look for lines of green cutting across hillsides — these follow underground water seeps." },
+      { "step": 3, "title": "Track animal movement", "body": "Animal trails converge at water sources, especially at dawn and dusk. Follow worn trails leading downhill. Birds, especially doves and pigeons, fly to water at dawn and dusk in straight flight lines. Bees and wasps always nest within a mile of water. Follow flying insects toward water." },
+      { "step": 4, "title": "Locate rock seeps and springs", "body": "Water seeps out of cliff faces, rock overhangs, and areas where geological layers change. Look for dark staining, moss, or algae growth on rock surfaces. Concave rock formations collect dew and rainwater. Dig at the base of cliff faces in rocky terrain." },
+      { "step": 5, "title": "Collect before purifying", "body": "Collect all found water regardless of apparent clarity. Clear water can still carry pathogens. Turbid water may be safer after filtration and purification than clear water that appears clean. Collect as much as possible and purify what you intend to drink." }
+    ],
+    "warnings": [
+      "Never drink unpurified water regardless of how clear it appears — Giardia, Cryptosporidium, and bacterial contamination are invisible.",
+      "Water near animal carcasses, heavy vegetation die-off, or industrial areas may contain toxins that cannot be removed by field purification methods.",
+      "Saltwater and urine will accelerate dehydration — never drink either."
+    ],
+    "proTips": [
+      "At night, tie absorbent cloth (cotton shirt) around your shins and walk through heavy dew-covered vegetation. Wring out into a container — can yield significant water before sunrise.",
+      "Rock pools (tinaja) in canyon country hold water for days after rain. Memorize their locations from maps before entering desert terrain.",
+      "In cold climates, snow is water but eating it drops core temperature rapidly — always melt it first."
+    ],
+    "relatedGuides": ["water-002", "water-003", "water-004"]
+  },
+  {
+    "id": "water-002",
+    "category": "water",
+    "title": "Purification by Boiling",
+    "priority": "critical",
+    "tags": ["water", "purification", "boiling", "critical"],
+    "summary": "Boiling is the most reliable field method to eliminate biological water hazards.",
+    "steps": [
+      { "step": 1, "title": "Pre-filter sediment", "body": "Pour water through cloth, a bandana, or improvised filter (sand over charcoal over grass in a tube) to remove sediment, debris, and particulate matter. This improves taste and reduces the amount of fuel needed to boil." },
+      { "step": 2, "title": "Bring to a rolling boil", "body": "A rolling boil — not a simmer — is required. Place container over fire. A rolling boil is when the entire surface is bubbling vigorously, not just a few bubbles at the bottom. At altitudes below 6,500 feet, maintain a rolling boil for 1 minute. Above 6,500 feet, boil for 3 minutes (lower atmospheric pressure drops water's boiling point)." },
+      { "step": 3, "title": "Cool before drinking", "body": "Remove from heat. Allow to cool to a safe drinking temperature before consuming. Drinking scalding water is a real hazard when dehydrated. Pour between containers to speed cooling. A piece of clean metal submerged in the water also speeds cooling." },
+      { "step": 4, "title": "Improve taste", "body": "Boiled water tastes flat because dissolved oxygen is driven out. Transfer water back and forth between containers several times to re-oxygenate. Adding a small pinch of salt also improves palatability." }
+    ],
+    "warnings": [
+      "Boiling eliminates biological threats (bacteria, viruses, parasites) but does NOT remove chemical contamination, heavy metals, or radiological hazards.",
+      "Fuel is finite in a grid-down scenario — ration fire resources and consider combining boiling with solar disinfection (SODIS) for large quantities."
+    ],
+    "proTips": [
+      "A metal container is not required — a plastic bag, bark trough, or even a large leaf bowl can boil water using hot rocks. Heat rocks in fire (avoid river rocks — they can explode when heated), then drop them into the water-filled container.",
+      "In a pinch, a clear plastic bottle filled with clear water and left in direct sunlight for 6+ hours (SODIS method) will kill most biological pathogens through UV radiation."
+    ],
+    "relatedGuides": ["water-001", "water-003", "water-005"]
+  },
+  {
+    "id": "water-003",
+    "category": "water",
+    "title": "Improvised Water Filtration",
+    "priority": "advanced",
+    "tags": ["water", "filtration", "improvised"],
+    "summary": "Build a multi-stage sediment and biological filter from available materials.",
+    "steps": [
+      { "step": 1, "title": "Gather materials", "body": "You need a container with a hole at the bottom (plastic bottle, bamboo tube, hollowed log), layers of filtration media in order: coarse grass or leaves, fine sand, charcoal (from your fire — crush to small pieces), more fine sand, and a final grass layer. The flow is top to bottom." },
+      { "step": 2, "title": "Layer the filter", "body": "Bottom layer (exits first): coarse grass plug to prevent media from washing out. Next: 2–3 inches of fine sand. Next: 2–3 inches of crushed charcoal (wood charcoal, not briquettes — briquettes contain additives). Next: 2–3 inches of fine sand. Top: coarse grass or cloth to pre-filter large debris." },
+      { "step": 3, "title": "Run and prime", "body": "Pour water slowly through the top. The first several cups of output will be dark from the charcoal — discard this. Once output runs clear, the filter is primed. Never rush the filtration — pouring too fast bypasses the filter layers." },
+      { "step": 4, "title": "Collect and purify output", "body": "Filtered water is significantly cleaner but still requires purification. Filtration removes sediment, improves taste, and reduces some biological load, but does not eliminate all pathogens. Always boil or chemically treat filtered water before drinking." }
+    ],
+    "warnings": [
+      "Field filtration is NOT a standalone solution — it must always be followed by boiling or chemical treatment.",
+      "Filters become breeding grounds for bacteria after 24–48 hours. Rebuild or sterilize the filter media regularly."
+    ],
+    "proTips": [
+      "Activated charcoal from your fire is far superior to unactivated — make it by burning hardwood in a low-oxygen environment (a closed metal can with a small hole works well).",
+      "In a pinch, a life straw-style filter can be improvised from a hollow reed or thin bamboo tube packed tightly with charcoal and moss."
+    ],
+    "relatedGuides": ["water-002", "water-004"]
+  },
+  {
+    "id": "water-004",
+    "category": "water",
+    "title": "Solar Still Construction",
+    "priority": "advanced",
+    "tags": ["water", "solar still", "desert", "advanced"],
+    "summary": "Extract water from soil and vegetation using solar evaporation — a last-resort desert technique.",
+    "steps": [
+      { "step": 1, "title": "Select a site", "body": "Choose a low-lying area with moist soil or where you can bury vegetation. South-facing slopes and dry creek beds retain subsurface moisture. The hole must be where you can actually dig — avoid rock and caliche." },
+      { "step": 2, "title": "Dig the hole", "body": "Dig a bowl-shaped hole approximately 3 feet wide and 2 feet deep. Place your collection container in the deepest center point. If you have a drinking tube, run it from the container up over the rim so you can drink without disturbing the still." },
+      { "step": 3, "title": "Add vegetation", "body": "Pack the hole around the container with as much vegetation as possible — green leaves, cacti (chopped), fresh plant material. The more moisture-containing vegetation, the better the output. Do not cover the container opening." },
+      { "step": 4, "title": "Cover and seal", "body": "Stretch clear plastic sheeting tightly over the hole. Weight the edges with soil or rocks to seal completely. Place a small rock in the center of the plastic directly over the container to create a depression — condensed water will drip off this low point into the container." },
+      { "step": 5, "title": "Wait for output", "body": "In full sun, a well-built still produces 0.5–1 liter per day. Leave undisturbed during peak sun hours (10am–4pm). Check at the end of the day. Replace vegetation every 24–48 hours as it dries out." }
+    ],
+    "warnings": [
+      "A solar still requires more water to build (sweat from labor) than it often produces in arid conditions — it's a supplement, not a primary source. Prioritize finding natural water first.",
+      "Clear plastic only — black or colored plastic will not work. The greenhouse effect requires transparency to UV."
+    ],
+    "proTips": [
+      "Adding urine to the surrounding soil (not the container) significantly increases daily output — the still distills the water content and leaves contaminants behind.",
+      "A transpiration bag — a clear plastic bag tied over a leafy tree branch in sunlight — produces 200–400mL per day with almost no labor. Build several at once."
+    ],
+    "relatedGuides": ["water-001", "water-002", "water-005"]
+  },
+  {
+    "id": "water-005",
+    "category": "water",
+    "title": "Rainwater Collection",
+    "priority": "beginner",
+    "tags": ["water", "rain", "collection", "beginner"],
+    "summary": "Maximize water capture during rain events using available materials.",
+    "steps": [
+      { "step": 1, "title": "Set up catch surfaces", "body": "Any clean, non-toxic surface can catch rain. Tarps, ponchos, large leaves (banana, taro, tropical varieties), plastic sheeting, or a rain fly create effective catch areas. Angle the surface to funnel water to a collection point. A 10x10 foot tarp in a 1-inch rain event catches over 60 gallons." },
+      { "step": 2, "title": "Create funnels and channels", "body": "Tie corners of a tarp or poncho down, leaving the center hanging low as a collection basin. Or angle all four sides toward a center hole and run a tube or rope into a container. Bamboo or bark gutters can channel water from large catch surfaces over long distances." },
+      { "step": 3, "title": "Discard first flush", "body": "The first few minutes of rainfall wash pollutants, debris, bird feces, and contaminants off collection surfaces. Let the rain run for 2–3 minutes before directing flow into your clean storage containers. This is especially important if collecting off metal roofs or vegetation." },
+      { "step": 4, "title": "Store properly", "body": "Transfer collected water to closed containers immediately to prevent contamination, evaporation, and mosquito breeding. If containers are limited, prioritize filling the largest vessels. Even partially covered containers will breed mosquito larvae in 48–72 hours in warm weather." }
+    ],
+    "warnings": [
+      "In areas with industrial fallout, volcanic ash, or nuclear events, rainwater may be contaminated — filter and purify everything regardless of how clean it appears.",
+      "Moss and organic matter on collection surfaces can introduce biological contamination — clean surfaces before use when possible."
+    ],
+    "proTips": [
+      "Large tropical leaves (and even pine needles in quantity) can be layered into funnel shapes using natural Y-shaped branches as supports, creating effective collection structures with zero equipment.",
+      "Pre-position containers before forecasted rain — you may sleep through a valuable rain event."
+    ],
+    "relatedGuides": ["water-002", "water-003"]
+  }
+]
