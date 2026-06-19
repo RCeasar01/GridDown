@@ -5,6 +5,7 @@ import {
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { Ionicons } from '@expo/vector-icons';
 import { HomeStackParamList } from '../navigation/AppNavigator';
 import { Colors } from '../theme/colors';
 import { EmergencyBanner } from '../components/EmergencyBanner';
@@ -13,7 +14,7 @@ import { CategoryGrid } from '../components/CategoryGrid';
 import { GuideCard } from '../components/GuideCard';
 import { useAppStore } from '../store/useAppStore';
 import { Guide } from '../db/contentLoader';
-import { getAllGuides } from '../utils/guideRegistry';
+import { getAllGuides, getFieldManuals } from '../utils/guideRegistry';
 
 type Nav = NativeStackNavigationProp<HomeStackParamList, 'HomeMain'>;
 
@@ -27,6 +28,7 @@ export function HomeScreen() {
   }, []);
 
   const allGuides = getAllGuides();
+  const fieldManuals = getFieldManuals();
   const criticalGuides = allGuides.filter((g) => g.priority === 'critical').slice(0, 8);
   const recentGuides = recentlyViewed
     .map((id) => allGuides.find((g) => g.id === id))
@@ -72,6 +74,36 @@ export function HomeScreen() {
             )}
           />
         </View>
+
+        {/* Field Manuals Row */}
+        {fieldManuals.length > 0 && (
+          <View style={styles.section}>
+            <View style={styles.sectionHeader}>
+              <Ionicons name="shield-half" size={14} color={Colors.textSecondary} style={{ marginRight: 4 }} />
+              <Text style={styles.sectionTitle}>FIELD MANUALS</Text>
+            </View>
+            <FlatList
+              data={fieldManuals}
+              horizontal
+              showsHorizontalScrollIndicator={false}
+              keyExtractor={(g) => g.id}
+              contentContainerStyle={{ paddingRight: 16 }}
+              renderItem={({ item }) => (
+                <TouchableOpacity
+                  style={styles.fmCard}
+                  onPress={() => navigation.navigate('Guide', { guideId: item.id })}
+                  activeOpacity={0.75}
+                >
+                  <View style={styles.fmBadge}>
+                    <Text style={styles.fmBadgeText}>US ARMY</Text>
+                  </View>
+                  <Text style={styles.fmTitle} numberOfLines={2}>{item.title}</Text>
+                  <Text style={styles.fmCategory}>{item.category.toUpperCase()}</Text>
+                </TouchableOpacity>
+              )}
+            />
+          </View>
+        )}
 
         {/* Category grid */}
         <View style={styles.section}>
@@ -140,11 +172,55 @@ const styles = StyleSheet.create({
     letterSpacing: 1,
   },
   section: { marginTop: 24, gap: 12 },
+  sectionHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
   sectionTitle: {
     color: Colors.textSecondary,
     fontSize: 11,
     fontWeight: '700',
     letterSpacing: 1.5,
+  },
+  // Field Manual cards
+  fmCard: {
+    width: 180,
+    backgroundColor: Colors.surface,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: Colors.cardBorder,
+    padding: 12,
+    marginRight: 10,
+    gap: 8,
+    minHeight: 110,
+  },
+  fmBadge: {
+    alignSelf: 'flex-start',
+    backgroundColor: Colors.secondaryDim,
+    borderRadius: 4,
+    paddingHorizontal: 6,
+    paddingVertical: 2,
+    borderWidth: 1,
+    borderColor: Colors.secondary,
+  },
+  fmBadgeText: {
+    color: Colors.secondary,
+    fontSize: 9,
+    fontWeight: '800',
+    letterSpacing: 1,
+  },
+  fmTitle: {
+    color: Colors.textPrimary,
+    fontSize: 13,
+    fontWeight: '700',
+    lineHeight: 18,
+    flex: 1,
+  },
+  fmCategory: {
+    color: Colors.textMuted,
+    fontSize: 10,
+    fontWeight: '600',
+    letterSpacing: 1,
   },
   founderBtn: {
     marginTop: 32,

@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import {
   Text,
   TouchableOpacity,
@@ -12,7 +12,7 @@ import { categoryDescription } from '../utils/helpers';
 export const CATEGORIES = [
   'water', 'fire', 'shelter', 'food',
   'medical', 'navigation', 'comms', 'security',
-  'tools', 'disaster',
+  'tools', 'disaster', 'vehicle', 'homesteading',
 ];
 
 export const CATEGORY_LABELS: Record<string, string> = {
@@ -26,6 +26,8 @@ export const CATEGORY_LABELS: Record<string, string> = {
   security: 'Security',
   tools: 'Tools',
   disaster: 'Disaster',
+  vehicle: 'Vehicle',
+  homesteading: 'Homestead',
 };
 
 type IoniconsName = React.ComponentProps<typeof Ionicons>['name'];
@@ -41,6 +43,8 @@ const CATEGORY_ICONS: Record<string, IoniconsName> = {
   security: 'shield',
   tools: 'construct',
   disaster: 'warning',
+  vehicle: 'car',
+  homesteading: 'nutrition',
 };
 
 interface CategoryGridProps {

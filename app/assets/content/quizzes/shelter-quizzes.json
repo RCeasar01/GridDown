@@ -1,0 +1,75 @@
+[
+  {
+    "id": "quiz-shelter-dt-001",
+    "category": "shelter",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Night Shelter — No Gear",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "It's 45°F, light rain, no shelter, no fire-starting gear. You have 90 minutes of daylight. What do you do first?",
+        "options": [
+          { "text": "Build a debris hut immediately", "next": "debris_hut" },
+          { "text": "Search for natural shelter (cave, rock overhang)", "next": "natural_search" },
+          { "text": "Gather dry tinder and look for ways to make fire", "next": "fire_first" }
+        ]
+      },
+      "debris_hut": {
+        "id": "debris_hut",
+        "scenario": "Good. You start building. You find enough dry leaves and branches. But the ground is wet. Do you:",
+        "options": [
+          { "text": "Build a raised debris platform to sleep on", "next": "good_outcome" },
+          { "text": "Sleep directly on the leaf pile", "next": "bad_outcome_cold" }
+        ]
+      },
+      "natural_search": {
+        "id": "natural_search",
+        "scenario": "You spend 30 minutes searching and find a shallow rock overhang. Not deep enough to fully block wind. Do you:",
+        "options": [
+          { "text": "Use it as a windbreak and pile debris around yourself", "next": "good_outcome" },
+          { "text": "Keep searching for something better", "next": "bad_outcome_dark" }
+        ]
+      },
+      "fire_first": {
+        "id": "fire_first",
+        "scenario": "Without fire-starting gear this is risky. 45 minutes pass with no fire. Daylight is almost gone. You now have no shelter and no fire. This was the wrong priority.",
+        "outcome": "poor",
+        "explanation": "In wet, cold conditions without fire gear, shelter is always the first priority. Hypothermia kills faster than hunger or thirst. Fire is secondary when you have no reliable way to start one."
+      },
+      "good_outcome": {
+        "id": "good_outcome",
+        "outcome": "success",
+        "explanation": "Correct. Ground insulation is critical — cold ground pulls heat from your body faster than cold air. A raised platform or thick debris layer between you and the ground is essential. You survive the night."
+      },
+      "bad_outcome_cold": {
+        "id": "bad_outcome_cold",
+        "outcome": "poor",
+        "explanation": "Ground conduction would pull heat from your body all night. Even with debris above you, sleeping directly on wet ground leads to hypothermia. Always insulate from below first."
+      },
+      "bad_outcome_dark": {
+        "id": "bad_outcome_dark",
+        "outcome": "poor",
+        "explanation": "The overhang was adequate. Continuing to search costs time and energy — you run out of daylight with no shelter at all. The first viable option is almost always the right option."
+      }
+    },
+    "relatedGuide": "shelter-001",
+    "tags": ["shelter", "hypothermia", "advanced"]
+  },
+  {
+    "id": "quiz-shelter-002",
+    "category": "shelter",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You're building a debris hut for a 40°F night. Which single layer of your debris hut is most critical for preventing hypothermia?",
+    "options": [
+      { "id": "a", "text": "A thick roof layer to block rain (minimum 2 feet of debris)" },
+      { "id": "b", "text": "The debris packed on the floor beneath you — minimum 6 inches of dry material" },
+      { "id": "c", "text": "A leaf-stuffed door plug to block wind at the entrance" },
+      { "id": "d", "text": "Leaves piled on the outside walls to a thickness of 18 inches" }
+    ],
+    "correct": "b",
+    "explanation": "Ground conduction is the #1 heat thief in shelter scenarios — the earth will pull body heat away 25x faster than cold air of the same temperature. Six inches minimum of dry debris BELOW you is non-negotiable. Roof thickness matters for insulation and rain but is secondary to floor insulation. The door plug prevents wind intrusion but convective loss is less severe than conductive. A good rule: build your floor first, thick enough that you cannot feel the ground through it, then build the roof. If you can only do one, do the floor.",
+    "relatedGuide": "shelter-001",
+    "tags": ["shelter", "beginner", "debris-hut"]
+  },

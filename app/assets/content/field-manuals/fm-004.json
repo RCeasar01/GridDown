@@ -1,0 +1,48 @@
+[
+  {
+    "id": "fm-004",
+    "category": "security",
+    "title": "Immediate Action Drills — Contact and Escape",
+    "priority": "advanced",
+    "source": "US Army Field Manual (Public Domain)",
+    "tags": ["field-manual", "security", "immediate-action", "escape", "awareness"],
+    "summary": "Simplified civilian adaptation of military immediate action drills — focused on situational awareness, threat recognition, and rapid escape. NOT combat doctrine. The goal is always to avoid, evade, and escape — not to engage.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Color Code Awareness System",
+        "body": "The Cooper Color Code provides a mental framework for calibrating alertness to environment. White — unaware, relaxed; this is unsafe in any grid-down public environment where baseline social controls have broken down; only appropriate when sleeping in a secured location with trusted watch posted. Yellow — relaxed alertness: you are aware of your surroundings, scanning for anomalies, not fixated on any one thing; this is the sustainable baseline for all grid-down movement and public interaction. Orange — specific alert: you have identified a specific person, vehicle, or situation that may present a threat; you are developing a plan ('if X happens, I will do Y'); you are ready to act but have not yet acted. Red — action mode: threat has materialized, you are executing your pre-planned response. The key insight: pre-building your 'if-then' plan in Orange means you do not have to think in Red — you simply execute. Transitions between conditions should be deliberate, not reactive."
+      },
+      {
+        "step": 2,
+        "title": "Contact Recognition",
+        "body": "Recognizing a developing threat before it materializes gives you the most critical resource: time to choose your response. Environmental indicators: (1) Mass exodus of bystanders from an area without apparent cause — people near the threat often know before you do; (2) Vehicles positioned to block egress routes — especially multiple vehicles at choke points; (3) Individuals converging from multiple directions on a single point (you); (4) Staged strangers who appear to be communicating with each other while appearing unrelated; (5) Animals (dogs, birds) reacting suddenly to a direction before humans are aware of the cause. Sound indicators: gunfire — immediately get below the level of cover, identify the rough direction of fire, move at 90 degrees away from the direction of fire (not directly away — direct retreat keeps you in the line of fire longer). Do not run toward the sound to investigate. Your first task is to put distance and cover between yourself and the threat."
+      },
+      {
+        "step": 3,
+        "title": "Immediate Action — Break Contact",
+        "body": "The civilian immediate action drill is built around one goal: break line of sight, gain distance, reach a rally point. Movement: never run in a straight line directly away from a threat; move at 90 degrees to the threat axis — this takes you out of the most likely engagement direction fastest. Cover vs. concealment: cover stops projectiles (concrete walls, engine blocks, dense earthen berms, large trees); concealment only hides you (car doors, drywall, plywood, most bushes); always prioritize cover over concealment. Move from cover to cover, not across open ground if possible. Breaking line of sight is the priority — once you are not visible, the threat's ability to track you degrades dramatically. Distance: after breaking line of sight, gain as much distance as terrain allows before slowing to reassess. Do not stop in the first concealed spot — it is the first place that will be checked."
+      },
+      {
+        "step": 4,
+        "title": "Rally Point Protocol",
+        "body": "A rally point is a pre-designated location where group members reassemble after separation. This must be established BEFORE movement — it cannot be improvised under stress. Two rally points required for any movement: (1) Near rally point (NRP) — a location within sight or short distance of the current position; used for immediate reassembly if contact occurs; must be a defensible or concealed position; group waits here for 30 minutes before moving to far rally point if not all members have arrived; (2) Far rally point (FRP) — a pre-planned location away from the area of operations, known to all group members; used after escape when immediate reassembly is not possible or the near rally point is compromised; provides a rendezvous option hours later. Rally point requirements: unambiguous (everyone pictures the same location), defensible or concealed, known to all members, has a time limit (how long to wait before assuming lost members are not coming). Conduct a verbal briefing on both rally points before any movement outside a secure area."
+      },
+      {
+        "step": 5,
+        "title": "Bounding Overwatch for Civilian Movement",
+        "body": "Bounding overwatch is a movement technique that ensures at least one person is always in a position to observe and respond while the other moves. Applicable to any high-uncertainty movement: clearing a building, crossing open ground, moving through unknown urban terrain. Basic procedure for pairs: (1) Person A (overwatcher) takes a covered or concealed position with clear view of the route ahead; (2) Person B (mover) moves to the next covered position on the planned route — approximately 25–50 meters in open terrain, shorter in urban environments; (3) Person B signals 'set' (hand signal or verbal in low-noise environments) when in position; (4) Person A moves to the next position, passing Person B or leapfrogging forward; (5) Repeat until objective is reached. Key rule: never have both people moving simultaneously — this is when a threat can engage without anyone in an observation position. In groups larger than two, the principle scales: half the group moves while half observes and is prepared to respond."
+      }
+    ],
+    "warnings": [
+      "This guide covers situational awareness and escape doctrine for civilians — it is NOT combat training. Attempting to execute military contact drills without extensive training is dangerous.",
+      "The goal is always ESCAPE and AVOID. Physical confrontation is a last resort when all avoidance and escape options have been exhausted.",
+      "Use these skills only in genuine self-defense scenarios. Domestic law governs use of force — know your jurisdiction's laws before any scenario unfolds."
+    ],
+    "proTips": [
+      "Establish near and far rally points with your group before every movement outside your secure area — even short trips. It takes 60 seconds and eliminates chaos if you get separated.",
+      "Practice the color code system daily in normal life. Spending time in Yellow in grocery stores, parking lots, and public spaces builds the habit before you need it under stress."
+    ],
+    "relatedGuides": ["fm-001", "fm-002", "home-security", "group-movement"]
+  }
+]

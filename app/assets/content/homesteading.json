@@ -1,0 +1,267 @@
+[
+  {
+    "id": "homestead-001",
+    "category": "homesteading",
+    "title": "Raising Chickens for Grid-Down Food Security",
+    "priority": "beginner",
+    "tags": ["homesteading", "chickens", "food", "livestock", "eggs"],
+    "summary": "Setting up a minimum-viable chicken operation for year-round eggs and meat during grid-down scenarios.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Breed Selection — Dual-Purpose Birds for Eggs and Meat",
+        "body": "Choose dual-purpose heritage breeds that provide both reliable egg production and adequate meat when cockerels (young males) are culled. Top choices for grid-down resilience: Rhode Island Red — 250–300 brown eggs/year, excellent foragers, cold-hardy, calm temperament. Barred Plymouth Rock — 250–280 eggs/year, heavy body for meat, very cold-hardy, docile. Sussex (Speckled or Light) — 250 eggs/year, outstanding foragers that reduce feed dependency, good meat bird. Black Australorp — holds the world record for egg production (364 eggs in 365 days), very calm, heat-tolerant. Avoid hybrid commercial layers (Leghorns, ISA Browns) — they burn out in 18 months, are poor foragers, rarely go broody, and cannot be bred true. Heritage breeds can hatch and raise their own replacements — critical in a long-term grid-down scenario. Start with 6–10 hens and 1 rooster minimum for a self-sustaining flock."
+      },
+      {
+        "step": 2,
+        "title": "Minimum Coop Requirements — Space, Ventilation, Nesting",
+        "body": "Overcrowding is the primary cause of disease, pecking, and egg-eating in small flocks. Provide a minimum of 4 square feet per bird inside the coop (roosting area) and 10 square feet per bird in the outdoor run. A flock of 10 birds needs a 40 sq ft interior (roughly 5x8 feet) and a 100 sq ft run. Roosting bars should be 2–4 inches wide (flat or rounded, not round dowels) — chickens sleep with flat feet, not gripping. Place roosting bars 18–24 inches above the floor and space them 12–18 inches apart. Provide one nesting box per 4–5 hens; boxes should be 12\"x12\"x12\" filled with straw or pine shavings and positioned lower than roosting bars to discourage sleeping in boxes (fouling eggs). Ventilation is non-negotiable: chicken manure produces ammonia that causes respiratory disease. Install vents at the ridge or upper walls — 1 square foot of ventilation per 10 square feet of floor space minimum."
+      },
+      {
+        "step": 3,
+        "title": "Predator-Proofing — Hardware Cloth Is Non-Negotiable",
+        "body": "Chicken wire (hexagonal wire mesh) is inadequate for predator exclusion — raccoons, foxes, and dogs pull through it, and weasels and minks squeeze through the openings. Use 1/2\" or 1/4\" galvanized hardware cloth for all openings, windows, and run covering. Bury or lay a 12-inch apron skirt of hardware cloth horizontally outward from the base of the run fence — predators dig straight down at the fence line; the apron redirects them outward where they cannot dig effectively. Anchor the apron with landscape staples or rocks. Cover the top of the run — aerial predators (hawks, owls) are highly effective in open runs. Use a predator-proof latch on coop doors — simple hook-and-eye latches are opened by raccoons. Use a double-latch or spring-loaded carabiner. Close the coop door every night before dark — a single night of a coop door left open will result in total flock loss to a predator."
+      },
+      {
+        "step": 4,
+        "title": "Feeding Without Commercial Feed — Whole Grains, Foraging, and Calcium",
+        "body": "Commercial chicken feed is convenient but creates a dependency on supply chains. Build a resilient feeding system: whole grains — wheat, corn, barley, oats, and black oil sunflower seeds can replace commercial pellets when mixed appropriately. A basic ration is 50% cracked corn, 30% wheat berries, 10% barley, 10% BOSS (black oil sunflower seeds). This is lower in protein than commercial feed (16–18%) so supplement heavily with protein sources. Kitchen scraps — meat scraps, cooked eggs, vegetable trimmings, bread — are important free protein. Fermented grains (soak grain in water 48–72 hours until bubbling) increase nutrient bioavailability and stretch feed 20–30%. Foraging — a free-range or large run flock derives 20–30% of nutrition from grass, insects, and worms. Calcium for eggshell formation is critical — without it, hens lay soft-shell eggs and pull calcium from their own bones. Provide crushed oyster shell in a separate free-choice feeder, or dry, crush, and re-feed eggshells back to the flock."
+      },
+      {
+        "step": 5,
+        "title": "Water Management and Winter Watering",
+        "body": "Chickens require 0.5–1.0 cup of water per bird per day under normal conditions, and up to double that in heat. Without sufficient water, egg production drops within 24 hours and ceases entirely within 48–72 hours. Use a waterer that prevents contamination — nipple-style waterers stay clean the longest but require pressure; gravity-fed bell waterers work without electricity. In freezing temperatures, water freezes solid and birds can go without water for dangerous lengths of time. Solutions without electricity: use a deep, wide-diameter water container (a 5-gallon bucket) — larger water mass freezes more slowly. Check and break ice at least twice daily — morning and again in early afternoon. Place the waterer in a sunny south-facing location. A black rubber livestock pan absorbs solar heat and freezes slower than metal or white containers. Consider heating with a fire-safe black rubber pan set on a heated base (solar or low-wattage), or float a ball in the water — the thermal movement slows freezing."
+      },
+      {
+        "step": 6,
+        "title": "Egg Storage Without Refrigeration and Cockerel Butchering",
+        "body": "Fresh, unwashed eggs have an intact natural coating called the bloom (cuticle) that seals the shell against bacteria. Unwashed eggs at room temperature remain safe to eat for 2–3 weeks. The refrigerator habit is an American artifact of commercial egg washing (which removes the bloom), which requires refrigeration afterward. Do not wash eggs you plan to store at room temperature — wipe dry if needed. For longer storage, use the water glass method: dissolve pickling lime (calcium hydroxide, sold as Mrs. Wages Pickling Lime) in clean water at a ratio of 1 oz lime per 1 quart water. Submerge clean, unwashed, fresh eggs fully and store in a cool location. Eggs stored this way remain edible for 12–18 months. Test-float eggs before eating: a fresh egg sinks flat; an older but still good egg stands on end; a bad egg floats — discard it. Cockerels (young males) not needed for breeding should be butchered at 16–20 weeks — they are lean but edible; beyond 20 weeks they fight other birds and consume feed without productive return."
+      }
+    ],
+    "warnings": [
+      "Chicken wire (hexagonal mesh) does not stop raccoons, foxes, minks, or determined dogs — use only 1/2\" galvanized hardware cloth for all predator-exposed surfaces",
+      "Medicated chick starter contains amprolium (a coccidiostat) and should not be fed to laying hens or ducks — it affects waterfowl seriously and accumulates in eggs",
+      "Botulism can develop in wet, rotting feed or carcasses in the run — remove any dead birds immediately and do not leave wet feed to ferment in the feeder",
+      "Lime (calcium hydroxide) used in water glassing is caustic — wear gloves when handling and keep out of eyes; it is safe once dissolved in the storage solution but handle dry powder carefully"
+    ],
+    "proTips": [
+      "A broody hen is worth 10 incubators in a grid-down scenario — breeds like Silkies, Cochins, Sussex, and Australorps go broody reliably; let them hatch and raise your replacement flock instead of using an electric incubator",
+      "Plant comfrey (Symphytum officinale) near the chicken run — it is a prolific, perennial, high-protein green that chickens eat readily and it grows back aggressively after cutting; it supplements feed costs significantly",
+      "The deep litter method (add fresh bedding on top of soiled litter monthly; clean only once or twice a year) produces lower ammonia levels than frequent cleaning due to beneficial bacterial decomposition, and the composted result is excellent garden fertilizer",
+      "Ducks are a worthwhile addition to a chicken setup — they are hardy, lay larger eggs consistently through winter when chickens slow down, and are more resistant to many common poultry diseases"
+    ],
+    "relatedGuides": ["homestead-002", "homestead-003", "homestead-005"]
+  },
+  {
+    "id": "homestead-002",
+    "category": "homesteading",
+    "title": "Emergency Gardening — High-Yield Crops for Survival",
+    "priority": "beginner",
+    "tags": ["homesteading", "gardening", "food", "crops", "seeds"],
+    "summary": "Calorie-dense and fast-producing crops, no-till planting methods, and seed saving for a sustainable grid-down food supply.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Caloric Density Rankings — Grow What Feeds You",
+        "body": "In a food security scenario, calories per square foot are more important than variety. Rank your planting choices by caloric yield: Potatoes are the undisputed king of caloric gardening — a 10x10 plot yields 50–100 lbs (roughly 35,000–70,000 calories) in 70–120 days. They grow in almost any soil, require minimal inputs, and store for months. Field corn (dent corn, not sweet corn) stores dry and provides 1,500+ calories per pound. Winter squash (Hubbard, Butternut, Acorn) yields 20–40 lbs per plant, stores 3–6 months without refrigeration at 50–55°F, and provides meaningful calories and vitamin A. Dry beans (Pinto, Black, Navy, Kidney) fix their own nitrogen and provide protein and complex carbohydrates — 500 calories per cup dry. The Three Sisters method (corn, beans, squash planted together) uses space and nutrients maximally: the corn provides a trellis for beans; the beans fix nitrogen that feeds the corn; the squash shades the ground preventing weeds and moisture loss."
+      },
+      {
+        "step": 2,
+        "title": "Fastest Crops to Harvest — Food While Waiting for Calories",
+        "body": "While your caloric crops mature over months, fast-maturing crops provide fresh nutrition within weeks. Radishes: 22–30 days from seed to harvest; plant densely between slower crops. Leaf lettuce: 30–35 days to first harvest, cut-and-come-again for weeks. Spinach: 25–40 days, highly nutritious (iron, vitamin C, folate), bolts in heat so plant in spring and fall. Arugula: 21–30 days, extremely fast, self-seeds prolifically. Turnips: 45–60 days — both greens (edible at 25 days) and the root are edible; very cold-hardy. Bush beans: 50–60 days, high yield for space. Kale and collards: 55–70 days but leaves can be harvested continuously for months; extremely nutritious and frost-tolerant. Plant fast crops intensively in any available space — even containers — for immediate food production while your main crops develop. Succession plant radishes and lettuce every 2 weeks for continuous harvest."
+      },
+      {
+        "step": 3,
+        "title": "No-Till Sheet Mulch Method — Garden Without Digging",
+        "body": "Tilling is labor-intensive and degrades soil structure over time by destroying fungal networks and worm habitat. The sheet mulch method (also called lasagna gardening) creates productive growing beds with no digging. Procedure: (1) Mow or knock down existing vegetation as short as possible. (2) Lay overlapping cardboard directly over the grass or weeds, at least 4 sheets thick, overlapping edges by 6 inches — this smothers existing plants and breaks down into carbon over 6–8 weeks. (3) Soak the cardboard thoroughly with water. (4) Apply 4 inches of compost, aged manure, or a mix of both directly on top of the wet cardboard. (5) Apply 2–3 inches of straw or wood chip mulch over the compost layer. (6) Plant immediately by pushing transplants through the mulch into the compost layer. Seeds can be sown directly into the compost layer. The cardboard decomposes, worms colonize the bed from below, and by the following season the soil structure under the bed is noticeably improved."
+      },
+      {
+        "step": 4,
+        "title": "Seed Saving — Open-Pollinated vs. Hybrid and Storage Method",
+        "body": "Commercial hybrid seeds (marked F1 on the packet) do not breed true — second-generation plants revert to unpredictable parent traits and are often sterile or reduced-yield. For a self-sustaining food supply you must grow open-pollinated (OP) or heirloom varieties exclusively. Reliable OP seed sources: Baker Creek Heirloom Seeds, Seed Savers Exchange, Southern Exposure Seed Exchange. To save seeds: allow the best specimens to fully mature and begin to dry on the plant before harvesting. Tomatoes — ferment seeds in water for 2–3 days to remove germination-inhibiting gel, rinse, and dry thoroughly. Beans and corn — allow pods/ears to dry completely on the plant, then shell. Squash — scoop seeds, rinse, and dry for 2–4 weeks on screens. All seeds must be fully dry before storage — any residual moisture causes mold and germination failure. Store in sealed glass jars with a silica gel desiccant packet added, labeled with species and year. Store in a cool, dark location. Most vegetable seeds remain viable 3–5 years; onions and parsnips decline rapidly (1–2 years)."
+      },
+      {
+        "step": 5,
+        "title": "Spacing and Intensive Planting for Maximum Yield",
+        "body": "Traditional row gardening wastes significant space to paths that serve machinery. For hand-tended gardens, use the biointensive method: create raised or mounded beds 3–4 feet wide (reachable from either side without stepping on the growing area, which compacts soil), and space plants in a hexagonal offset pattern at the closest recommended distance. Hexagonal spacing fits 15–20% more plants per square foot than grid spacing. Recommended intensive spacings: lettuce 6 inches, spinach 4 inches, radish 2 inches, kale 12 inches, beans 4 inches, carrots 2 inches, potatoes 10–12 inches, tomatoes 18 inches (with support). Eliminate all paths within beds — walk only on permanent pathways between beds. A well-managed 20x20 foot biointensive bed can produce as much food as a conventional 40x40 plot using the same seed investment."
+      },
+      {
+        "step": 6,
+        "title": "Companion Planting for Natural Pest Management",
+        "body": "Companion planting reduces pest pressure through aromatic confusion, predator attraction, and physical barriers — replacing chemical pesticides with plant relationships. Proven combinations: Tomatoes + Basil — basil repels aphids, thrips, and whitefly; the volatile oils confuse pest navigation. Tomatoes + Marigold (French, Tagetes patula) — marigold roots produce alpha-terthienyl, a compound toxic to root-knot nematodes; plant densely as border. Brassicas (cabbage, broccoli, kale) + Dill or Fennel — attracts parasitic wasps that prey on cabbage worms and aphids. Squash + Nasturtium — nasturtium acts as a trap crop for aphids, drawing them away from squash. Carrots + Onions — alternating rows confuse carrot fly and onion fly, both of which navigate by scent. Plant pest-repelling alliums (garlic, onions, chives) as borders around any high-value bed. Diversity itself is protective — monoculture amplifies pest populations; mixed planting disrupts them."
+      }
+    ],
+    "warnings": [
+      "Hybrid (F1) seeds will not produce reliable offspring — always source and store open-pollinated or heirloom varieties for any long-term food security plan",
+      "Seed viability drops rapidly with heat and moisture — never store seeds in a shed, attic, or any space with temperature swings; a cool basement or refrigerator with desiccant is ideal",
+      "Potatoes exposed to sunlight turn green and produce solanine, a toxic alkaloid — always hill soil up over developing tubers and store in complete darkness",
+      "Raw dry beans (especially red kidney beans) contain phytohaemagglutinin (PHA), which causes severe nausea and vomiting if undercooked — always boil dried beans for at least 10 minutes before any slow-cooking method"
+    ],
+    "proTips": [
+      "One 5-gallon bucket of Yukon Gold potato seed pieces (eyes) planted in early spring will produce 40–60 lbs of potatoes in 90 days — no other vegetable matches this return on investment for caloric production",
+      "Inoculate bean and pea seeds with rhizobium nitrogen-fixing bacteria (available as dry powder at garden stores) before planting — this dramatically increases nitrogen fixation and is especially important in new or depleted soil",
+      "Save cardboard from any source throughout the year — it is one of the most useful homesteading materials for weed suppression, sheet mulch, and composting; flatten and stack in a dry location",
+      "A cold frame (bottomless wooden box with an old window or clear plastic as a lid) extends the growing season 4–6 weeks on both ends — allowing spring and fall crops in climates where frosts end the season early"
+    ],
+    "relatedGuides": ["homestead-001", "homestead-003", "homestead-004"]
+  },
+  {
+    "id": "homestead-003",
+    "category": "homesteading",
+    "title": "Preserving Food Without Electricity",
+    "priority": "advanced",
+    "tags": ["homesteading", "food-preservation", "canning", "fermentation", "salt-curing"],
+    "summary": "Proven off-grid food preservation methods including salt curing, smoking, lacto-fermentation, root cellaring, and drying — with safety-critical details on botulism prevention.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Salt Curing Meat — Ratios, Pink Salt, and Timing",
+        "body": "Salt curing preserves meat by reducing water activity (aw) to levels that prevent microbial growth. A cure ratio of a minimum 2.5% salt by weight of fresh meat is required for preservation — below this level, pathogen suppression is unreliable. To calculate: 1,000g of meat requires at least 25g of salt. Dry curing method: weigh meat, calculate salt needed, add pink curing salt (sodium nitrite, sold as Prague Powder #1 or Instacure #1) at the manufacturer-specified rate — typically 1 tsp per 5 lbs of meat. Pink salt prevents Clostridium botulinum growth in anaerobic (low-oxygen) environments like the interior of thick cuts. Mix curing salt with kosher salt, rub thoroughly over entire meat surface, place in a non-reactive container (glass, ceramic, food-grade plastic), and refrigerate or store in a cool space (35–40°F). Allow 7 days per inch of thickness at the thickest point. Turn the meat every 2 days and drain brine that forms. Pink salt is not optional for thick cuts cured without heat — it is the primary botulism barrier."
+      },
+      {
+        "step": 2,
+        "title": "Smoking — Cold Smoke for Preservation vs. Hot Smoke for Cooking",
+        "body": "Smoking alone does not fully preserve meat — it must be combined with curing or drying to achieve shelf-stable preservation. Cold smoking (smoke temperature below 90°F, ideally 60–80°F) adds antimicrobial phenolic compounds from wood smoke to the surface of cured meat without cooking it — it is a preservation enhancement, not a cooking method. Cold smoked products (bacon, salmon, salami) must be pre-cured before cold smoking. Hot smoking (smoke temperature 165–225°F) cooks meat to a food-safe internal temperature and adds smoke flavor — but without salt curing or drying, hot-smoked meat has the same shelf life as cooked meat (3–4 days unrefrigerated). For true shelf-stable smoked products: cure with salt and pink salt first, cold smoke 8–24 hours, then dry at 130°F until the meat reaches 35–40% weight loss. Hardwoods only for smoking: hickory, oak, apple, cherry, maple, alder. Never use pine, cedar, or any resinous softwood — the resin produces toxic compounds."
+      },
+      {
+        "step": 3,
+        "title": "Lacto-Fermentation — Salt Brine, Temperature, and Timing",
+        "body": "Lacto-fermentation uses salt to selectively suppress pathogens while allowing beneficial Lactobacillus bacteria (naturally present on vegetables) to produce lactic acid, which preserves the food and creates the characteristic sour flavor of sauerkraut, kimchi, and pickles. This is one of the safest preservation methods — the lactic acid environment is hostile to nearly all food pathogens including Clostridium botulinum (which requires neutral pH). Salt brine: 2% salt by weight of the total brine solution — dissolve 20g of non-iodized salt per 1,000g (1 liter) of clean water. Iodized salt inhibits fermentation bacteria; use kosher, sea, or pickling salt. Pack vegetables tightly into clean glass jars, pour brine over to fully submerge. Vegetables must remain submerged — exposure to air causes mold, not safe fermentation. Use a zip-lock bag filled with brine as a weight, or a small jar filled with water. Ferment at room temperature 60–75°F for 3–7 days. Taste daily — the product is ready when pleasantly sour. Move to cold storage (40°F) to slow further fermentation; lacto-fermented vegetables keep for 6–12 months when kept cold."
+      },
+      {
+        "step": 4,
+        "title": "Root Cellaring — Temperature, Humidity, and Crop Compatibility",
+        "body": "A root cellar exploits the natural thermal mass of the earth to maintain 40–55°F and 85–95% humidity — ideal conditions for long-term vegetable storage without energy. If you lack a purpose-built root cellar, a buried trash can, a corner of an uninsulated basement, or even a well-insulated outdoor pit can approximate these conditions. Suitable crops for root cellar storage: carrots (sand-packed in boxes, 32–40°F, 90–95% humidity — last 4–6 months), potatoes (40–50°F, 85–90% humidity, complete darkness — last 4–6 months), beets (sand-packed, 32–40°F — 3–5 months), cabbages and kohlrabi (32–40°F, 90–95% humidity — 3–6 months), winter squash (50–55°F, 50–70% humidity, cured 10 days at 80°F before storage — 3–6 months). Critical incompatibility: never store apples with any other produce. Apples emit ethylene gas that accelerates ripening and spoilage in every adjacent vegetable — they require an isolated section or separate storage."
+      },
+      {
+        "step": 5,
+        "title": "Drying and Dehydration — Meat Jerky and Vegetables",
+        "body": "Drying removes moisture to below 20% water activity, at which point mold, yeast, and bacteria cannot grow. For meat jerky: use lean cuts only — fat does not dry and turns rancid quickly, shortening shelf life. Slice meat 1/4\" thick against the grain for tenderness, with the grain for chewier texture. Pre-treat with salt cure or soy sauce brine (high sodium) for both flavor and microbial safety. Dry at 130–160°F for 6–8 hours in a dehydrator or low oven with the door cracked for airflow. The USDA recommends heating jerky to 160°F internal temperature — either heat the dried jerky in an oven at 275°F for 10 minutes after drying, or pre-heat wet meat strips in marinade on the stovetop to 165°F before drying. Sun drying works in hot, dry climates: lay slices on mesh screens elevated above a dark surface (absorbs heat), cover with cheesecloth to exclude insects, and bring inside at night. Full sun drying takes 2–4 days. Finished jerky should bend and crack, not snap brittlely or feel moist."
+      },
+      {
+        "step": 6,
+        "title": "Botulism — Understanding and Preventing the Deadliest Preservation Risk",
+        "body": "Clostridium botulinum is an anaerobic bacterium that produces the most toxic substance known — botulinum toxin. It thrives in low-oxygen, low-acid, moist environments at temperatures from 40–120°F: exactly the conditions inside improperly canned, cured, or sealed foods. Signs of botulism contamination in preserved foods: bulging lids, off odors, unusual appearance, or visible gas when opened — discard any such food without tasting it. Botulism toxin is destroyed by boiling (212°F) for 10 minutes — heating suspect canned foods before eating is a safety measure, but do not rely on it. Prevention by method: for canning, use a pressure canner (240°F) for all low-acid foods (meats, vegetables, beans) — water bath canning at 212°F is insufficient for low-acid foods. For curing, use pink salt (sodium nitrite) — it directly inhibits C. botulinum. For fermentation, maintain sufficient salt concentration (2%+) and ensure vegetables stay submerged — the lactic acid pH drop kills botulinum spores. Never taste-test any low-acid preserved food before heating it if you are uncertain of the method used."
+      }
+    ],
+    "warnings": [
+      "Pink curing salt (Prague Powder, Instacure) contains sodium nitrite, which is toxic in large amounts — do not substitute regular salt and do not exceed recommended ratios; measure by weight, not volume",
+      "Water bath canning is NOT safe for low-acid foods (meats, vegetables, beans, soups) — these require pressure canning at 240°F to destroy botulinum spores; improperly canned low-acid foods have caused multiple fatal botulism outbreaks",
+      "Cold-smoked foods that are not pre-cured are NOT shelf stable — cold smoke alone does not prevent spoilage in the interior of thick cuts",
+      "Lacto-fermentation produces CO2 gas — do not seal jars airtight during active fermentation or jars will build pressure and may crack; use an airlock lid or loosen the jar ring to allow gas to escape"
+    ],
+    "proTips": [
+      "A vacuum sealer combined with oxygen absorbers dramatically extends the storage life of dried foods — dried beans sealed with oxygen absorbers in Mylar bags inside 5-gallon buckets remain viable for 25+ years",
+      "The Weston Price Foundation and the Ball Blue Book of Canning are the two most reliable references for home preservation safety — consult USDA-tested recipes for canning; do not use old family recipes that predate modern safety testing",
+      "Fermented hot sauce is one of the easiest and most rewarding lacto-ferments — blend peppers with 2% salt, ferment in a jar with an airlock for 5–7 days, blend smooth; the result is a probiotic condiment that lasts months under refrigeration",
+      "Render animal fat (lard from pork, tallow from beef) and confit meat in the rendered fat — meat submerged and sealed under a layer of solid fat is a traditional preservation method that keeps unrefrigerated for weeks to months in a cool space; this is how cassoulet and duck confit were preserved for centuries"
+    ],
+    "relatedGuides": ["homestead-001", "homestead-004", "homestead-005"]
+  },
+  {
+    "id": "homestead-004",
+    "category": "homesteading",
+    "title": "Water Collection and Storage for a Homestead",
+    "priority": "critical",
+    "tags": ["homesteading", "water", "rainwater", "storage", "filtration"],
+    "summary": "Rainwater harvesting setup, cistern sizing, gravity-fed distribution, treatment and storage, and calculating household water needs.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Rain Barrel Setup — Diverters, First-Flush, and Screening",
+        "body": "A basic rain barrel connects to a downspout to capture roof runoff. The collection rate is significant: 1 inch of rain on 1,000 square feet of roof yields approximately 600 gallons of runoff. Install a downspout diverter at the appropriate height — a Y-fitting that sends water into your barrel while allowing overflow to bypass to the original downspout when the barrel is full. More important than the diverter is a first-flush diverter: the first 1/10 inch of rain per 100 square feet of roof washes accumulated bird droppings, dust, decomposed organic material, and roofing chemicals off the surface — this water is significantly more contaminated than subsequent flow. A first-flush diverter is a standpipe (typically 4\" diameter PVC) that fills with the first dirty flush, then diverts subsequent cleaner water to storage. Screen all inlets with fine mesh (window screen minimum, 20-mesh ideally) to exclude insects — open water containers breed mosquitoes in 4–5 days. Cover all storage containers completely."
+      },
+      {
+        "step": 2,
+        "title": "Cistern Sizing — 55-Gallon Barrels to 1,000-Gallon IBC Totes",
+        "body": "Calculate your storage needs based on your household daily usage and average dry-spell duration in your region. At the survival minimum of 1 gallon per person per day, a family of 4 needs 120 gallons for a 30-day dry spell. For basic living (drinking, cooking, minimal hygiene) at 3 gallons/person/day: 360 gallons for 30 days. For comfortable homestead operation with garden irrigation, livestock watering, and hygiene: 5–15 gallons/person/day is realistic, requiring 600–1,800+ gallons of storage. Storage options by scale: 55-gallon food-grade drums (widely available, stackable, manageable) — multiple drums daisy-chained with overflow fittings scale well. 275–330 gallon IBC totes (Intermediate Bulk Containers) — food-grade versions are excellent cisterns; avoid totes that held chemicals. 500–1,000 gallon poly tanks — purpose-built water storage, UV-stabilized, with fittings. Underground cisterns (1,000–10,000 gallons) — the gold standard, maintains cool temperature that inhibits algae and bacterial growth."
+      },
+      {
+        "step": 3,
+        "title": "Gravity-Fed Distribution — Head Pressure Calculations",
+        "body": "Municipal water pressure is 40–80 PSI, provided by pumps or elevated water towers. A gravity-fed system generates pressure purely from elevation: every 1 foot of vertical height between the water surface in the storage tank and the outlet generates 0.433 PSI (commonly rounded to 0.43 PSI). To calculate: (tank height in feet) x 0.43 = PSI available at the outlet. A standard shower requires 8–12 PSI minimum for acceptable flow. To generate 10 PSI, your tank water surface must be at least 23 feet above the showerhead (10 / 0.43 = 23.2 feet). For garden irrigation via drip lines, 5–10 PSI is usually sufficient — achievable with a tank 12–25 feet high. For toilet flushing, 5 PSI is adequate (10–12 feet of head). Build your cistern on the highest available point — hilltop, elevated platform, or upper floor of a structure. Every additional foot of elevation is significant. A 500-gallon IBC tote on a 15-foot elevated platform provides 6.5 PSI — sufficient for drip irrigation and toilet flushing, marginal for showers."
+      },
+      {
+        "step": 4,
+        "title": "Water Treatment Before Storage — Chemical Disinfection",
+        "body": "Collected rainwater is not potable without treatment, even from a clean roof — it can contain bird feces (Salmonella, Campylobacter, Cryptosporidium), atmospheric contaminants, and roof material leachate. Treat with unscented sodium hypochlorite bleach (plain household bleach, 6–8.25% concentration): add 8 drops (0.4 mL) per gallon of clear water, or 16 drops per gallon of turbid water. Double these amounts if bleach is 3–6% concentration (check the label). Stir and let stand 30 minutes before use. After 30 minutes, treated water should have a faint chlorine smell — if it does not, repeat the dose and wait another 15 minutes. If it still has no chlorine smell after two doses, discard the water and start fresh. Bleach loses potency over time — use bleach manufactured within the last 6 months for reliable disinfection. For stored water, add bleach at the time of filling; rechlorinate every 6 months. Alternative: calcium hypochlorite (pool shock, 68–78% concentration) is more stable than liquid bleach and stores for years; use 1/8 tsp per 5 gallons."
+      },
+      {
+        "step": 5,
+        "title": "Contamination Prevention and Annual Container Maintenance",
+        "body": "Long-term stored water develops contamination from algae (if light reaches the water), biofilm on container walls, and recontamination from improperly sealed lids. Prevention: use only food-grade containers — HDPE #2 plastic, polypropylene, or food-grade fiberglass. Never use galvanized metal containers (zinc leaches into water), non-food-grade plastics, or any container that held petroleum products. All containers must be opaque or kept in complete darkness — algae requires light for photosynthesis. A green IBC tote placed in sunlight develops algae within weeks; wrap in dark tarp or paint with outdoor spray paint. Annual maintenance: drain the container completely, scrub interior walls with a soft brush and dilute bleach solution (1 tablespoon bleach per gallon of water), rinse thoroughly twice with clean water, refill with fresh treated water. Inspect all gaskets, fittings, and screens for cracks or gaps. Record the cleaning date on the container."
+      },
+      {
+        "step": 6,
+        "title": "Legal Considerations and Household Water Needs Calculation",
+        "body": "Many U.S. states historically restricted or prohibited rainwater collection, though most have since reformed these laws. As of 2025: rainwater collection is fully legal and sometimes incentivized in most states. States with remaining restrictions or permit requirements include Colorado (limited to two 110-gallon barrels per property for outdoor use only under most conditions), and several western states where water rights doctrine applies to precipitation. Always verify your local and state regulations before installing significant collection capacity. Household water needs: drinking water minimum is 0.5 gallons/person/day; FEMA recommends 1 gallon/person/day for emergencies including minimal sanitation. Realistic homestead needs: drinking and cooking 1–2 gallons, hygiene (sponge bath) 1–2 gallons, dish washing 1–2 gallons, toilet flushing (if available) 1.5 gallons/flush. Total realistic minimum: 5–8 gallons/person/day. For livestock: chickens need 0.5 cup/bird/day minimum, goats 2–4 gallons/day, dairy cows 30–50 gallons/day. Factor all uses when sizing your collection and storage system."
+      }
+    ],
+    "warnings": [
+      "Rainwater collected from roofs with asbestos shingles, lead flashing, or treated wood contains toxic leachate — never collect from these surfaces for any use without thorough testing",
+      "A full 55-gallon drum weighs 459 lbs — ensure any elevated platform is engineered to bear the load; a 1,000-gallon IBC tote weighs over 4 tons when full",
+      "Sodium hypochlorite bleach (household bleach) loses 50% of its potency within 6 months of manufacture and is largely ineffective after 1 year — do not use old bleach for water treatment and check manufacture dates",
+      "Collected rainwater is NOT a substitute for tested well or municipal water for drinking without multiple treatment steps — at minimum, filter then disinfect; ideally filter, disinfect, and UV-treat"
+    ],
+    "proTips": [
+      "A Sawyer Squeeze or Berkey gravity filter provides a final safety layer before drinking collected rainwater — chemical disinfection kills pathogens but does not remove heavy metals or chemical contaminants that filtration addresses",
+      "Calcium hypochlorite (pool shock, 68% concentration, unscented) is the most cost-effective long-term water treatment supply — a 1-lb bag treats approximately 10,000 gallons and stores reliably for 3–5 years if kept cool and dry",
+      "Install a sight glass (clear section of tubing or a float gauge) on your cistern so you can monitor water level without opening the container, which introduces contamination risk",
+      "Place a sand-and-gravel pre-filter box (filled with washed gravel, then sand, then a layer of activated charcoal) between your roof collection and your cistern — this settles particulates, improves taste, and reduces the disinfection load before chemical treatment"
+    ],
+    "relatedGuides": ["homestead-001", "homestead-002", "homestead-003"]
+  },
+  {
+    "id": "homestead-005",
+    "category": "homesteading",
+    "title": "Livestock Slaughter and Butchering Basics",
+    "priority": "advanced",
+    "tags": ["homesteading", "butchering", "livestock", "meat", "food"],
+    "summary": "Humane dispatch methods by species, proper bleed-out and evisceration procedure, cooling requirements, aging, and food safety.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Humane Dispatch Methods by Animal",
+        "body": "Humane dispatch means causing rapid unconsciousness and death with minimal distress. Method by species: Chickens and turkeys — cervical dislocation is appropriate for small birds and experienced hands: hold the bird by the legs with one hand, place your other thumb and forefinger at the base of the skull, and pull sharply while simultaneously pushing the head back — this dislocates C1/C2 vertebrae and severs the spinal cord. Alternatively, a sharp hatchet or purpose-built killing cone with a sharp knife across both carotid arteries and the jugular is effective and reliable. Rabbits — sharp blunt trauma to the back of the skull just behind the ears using a heavy dowel or the back of a hatchet. A .22 blank pistol at point-blank is an alternative. Pigs and goats — a firearm is the most reliable dispatch method: a .22 LR hollow point or a .38 caliber shot to the forehead aimed toward the opposite ear, at a downward angle. Draw an X between the eyes and ears to identify the target point. Cattle — must be stunned before bleeding due to size and danger. A penetrating captive bolt stunner (or .22 magnum to the same X-point) renders the animal unconscious; then bleed immediately. Failure to stun cattle before sticking is illegal in commercial operations and dangerous for the handler."
+      },
+      {
+        "step": 2,
+        "title": "Bleed-Out — Immediately After Dispatch",
+        "body": "Bleeding out (exsanguination) must occur immediately — within 60 seconds — after dispatch to ensure the heart is still beating, which assists blood evacuation. Retained blood causes meat discoloration (dark spotting), shortened shelf life, and off-flavor. For poultry: after cervical dislocation or stunning, cut both carotid arteries at the neck with a sharp knife — one cut from side to side just below the jaw works. Allow the bird to hang inverted in a killing cone or by the feet for 2–3 minutes until bleeding slows. For pigs, goats, cattle: after stunning, the animal will collapse. Roll it so access to the chest is available. For the chest stick method: insert a sharp, long-bladed knife (6–8 inches) at the base of the throat aimed into the chest cavity at a 45-degree angle toward the heart — sever the aorta and jugular. Blood will flow rapidly. Elevate the hindquarters to assist drainage. For smaller ruminants, a simple throat cut through both carotid arteries and the jugular vein while the animal hangs by its hind legs works well and drains fully in 3–5 minutes."
+      },
+      {
+        "step": 3,
+        "title": "Scalding and Hair or Feather Removal",
+        "body": "Scalding opens the follicles, allowing feathers or hair to pull free cleanly. Incorrect temperature is the most common scalding error. Poultry scalding: heat water to exactly 145–152°F (63–67°C). Higher temperatures begin to cook the skin and tear it during plucking; lower temperatures do not open follicles sufficiently. Submerge the bird by its legs and agitate for 30–60 seconds — test pluck a tail feather; if it pulls free easily, scalding is complete. Over-scalding is immediately apparent when skin tears with light pull. Mechanical drum pickers dramatically speed feather removal; hand plucking takes 5–10 minutes per bird. Pigs: heat water to 140–145°F (60–63°C). Submerge or pour water over sections and scrape with a bell scraper or the back of a knife — hair releases in sheets. Repeat on all areas. Target the scrotal area, ears, and head — these are most difficult. Goats and sheep: most homesteaders skin rather than scald — pull the hide free starting from the hind legs; no scalding needed."
+      },
+      {
+        "step": 4,
+        "title": "Evisceration — Sequence and Do-Not-Nick Rules",
+        "body": "Evisceration removes the visceral organs (intestines, stomach, bladder) without contaminating the meat with gut contents. Contamination with intestinal bacteria is the primary cause of field-dressed meat spoilage and foodborne illness. For all species: (1) Cut around the vent (anal opening) to free it from the body wall — this is called the bung cut. Circle the vent completely without cutting into the intestine; pull it out slightly and tie it off with a zip tie or string to prevent fecal contamination. (2) Make a midline belly incision from pubic bone to sternum, cutting only through skin and abdominal wall — use two fingers as a guide under the blade to lift the body wall away from organs. Go slowly. (3) Reach in and work organs free from the body cavity. The bladder (in pigs and cattle) should come out intact — a punctured bladder releases urine onto the meat. (4) Remove all viscera completely. (5) Inspect organs for disease signs — pale or spotted liver, fluid-filled lungs, pus-filled lymph nodes. (6) Rinse the body cavity with cold clean water, then pat dry — do not leave water pooled in the cavity."
+      },
+      {
+        "step": 5,
+        "title": "Cooling the Carcass — The 40-Degree Requirement",
+        "body": "Rapid and complete cooling is not optional — it is the single most important food safety step in butchering. The USDA requires carcasses to reach 40°F (4°C) at the deepest point within 24 hours. Above 40°F, bacterial populations double every 20 minutes. A carcass that stays in the 40–140°F danger zone for more than 2 hours begins developing unsafe bacterial loads. Methods for field cooling: hang the carcass in a cool, shaded, fly-free location — temperatures below 40°F ambient allow natural cooling, which works in late fall and winter butchering. In warm weather (above 50°F), the carcass must be refrigerated or packed with ice bags. Split large carcasses (pigs, cattle) along the spine into two halves immediately after evisceration — halves cool faster than intact carcasses. For poultry: immerse in an ice-water bath (32–34°F) for 30–45 minutes immediately after evisceration. The carcass absorbs water and cools rapidly. Dry the bird before refrigerating or freezing. Do not stack warm carcasses — stacking prevents airflow and creates heat pockets."
+      },
+      {
+        "step": 6,
+        "title": "Aging, Hanging Time, and Carcass Condemnation",
+        "body": "Aging improves tenderness and flavor in beef and lamb through enzymatic breakdown of muscle fibers (proteolysis). Poultry and pork benefit minimally from aging and should be used or frozen within days. Beef: hang at 34–38°F, 70–80% humidity for 7–14 days minimum (21–28 days for premium dry-aged flavor). The outer surface develops a dry crust (pellicle) that is trimmed away before cutting. Pork: hang at 34–38°F for 3–5 days maximum — longer aging in pork produces rancidity in fat. Lamb and goat: 3–7 days at 34–38°F. Poultry: none — use or freeze within 24–48 hours. Carcass condemnation — when to discard the whole animal: widespread abscesses (yellow pus pockets scattered through muscle); pneumonia with lung consolidation and pleuritis (fibrous tissue attaching lungs to ribs); septicemia signs — darkly discolored carcass, blood-tinged fluid in cavities, enlarged discolored lymph nodes throughout the carcass; icterus (jaundice) — yellow tinting of fat and connective tissue; severe emaciation or cachexia; any tumor involvement of multiple lymph nodes. When in doubt, do not eat it. A single localized abscess can be excised with a 2-inch margin and the rest of the carcass used, but systemic signs condemn the whole animal."
+      }
+    ],
+    "warnings": [
+      "Dispatch a large animal (pig, goat, cattle) only with a firearm — attempting to dispatch pigs or goats by knife without prior stunning is inhumane, dangerous to the handler, and results in poor meat quality from adrenaline release",
+      "Intestinal contamination of meat surfaces causes rapid spoilage and serious foodborne illness (E. coli O157:H7, Salmonella) — if you nick the intestine during evisceration, flush the contaminated area thoroughly with water and trim away any contacted meat",
+      "Do not age poultry or pork at room temperature — aging applies only to beef and lamb in refrigerated conditions; poultry aged above 40°F will cause foodborne illness",
+      "Wear cut-resistant gloves on the non-knife hand during all butchering operations — knife slips during evisceration and skinning account for the majority of butchering injuries"
+    ],
+    "proTips": [
+      "Keep butchering knives razor-sharp — a sharp knife requires less force and is significantly less likely to slip than a dull knife; sharpen before each butchering session with a whetstone and steel",
+      "A gambrel (a spreader bar that hooks into the Achilles tendons of the hind legs) hung from a sturdy beam or tree branch with a block-and-tackle makes all butchering steps easier, cleaner, and safer than working on the ground",
+      "Learn to identify the kidneys and adrenal glands during evisceration — beef kidney fat (suet) is valuable for rendering into tallow (excellent cooking fat and waterproofing agent); do not discard it",
+      "Organ meats (liver, heart, kidneys, tongue) are the most nutritionally dense parts of the animal — liver from a healthy animal provides more vitamin A, B12, iron, and folate per ounce than any other food; learn to cook and preserve them as a priority"
+    ],
+    "relatedGuides": ["homestead-001", "homestead-003"]
+  }
+]

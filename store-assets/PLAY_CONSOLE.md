@@ -53,6 +53,14 @@ Ask a large language model anything — runs 100% on your device. No internet. N
 🌍 10 LANGUAGES
 English, Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Hindi. Guide translation via on-device AI (no internet after initial model download).
 
+
+
+--- NEW IN v1.1 ---
+12 content categories now live. New: Offline Translator (10 on-device languages),
+HAM Radio Repeater Database (200+ entries, all 50 states), Morse Code Tool,
+US Army Field Manuals (public domain, 5 guides), Vehicle & Mechanical category
+(5 guides), Homesteading & Food Production category (5 guides).
+---
 ───
 ZERO DATA COLLECTION
 ───

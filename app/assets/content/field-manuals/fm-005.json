@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fm-005",
+    "category": "medical",
+    "title": "Combat Lifesaver Extended Care",
+    "priority": "advanced",
+    "source": "US Army Field Manual (Public Domain)",
+    "tags": ["field-manual", "medical", "trauma", "extended-care", "CLS"],
+    "summary": "Extended field care protocols for when evacuation is delayed 6 or more hours — reassessment cycles, pain management, wound care, hydration and nutrition, vital sign monitoring without equipment, and casualty packaging for eventual evacuation.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Reassessment Cycle",
+        "body": "Extended care begins where initial trauma care ends. Every 15 minutes, reassess in this order: (1) Airway — verify position is maintained (unconscious casualty may need repositioning if recovery position was used); suction or clear secretions if available; (2) Breathing — count respiratory rate (normal: 12–20 breaths per minute); note quality (shallow, labored, gurgling indicate deterioration); (3) Circulation — check tourniquet: if more than 2 hours have passed since application, attempt conversion to wound packing with direct pressure if bleeding has stopped and evacuation is not imminent; document tourniquet application time prominently (on forehead with marker, or on tourniquet tag); (4) Consciousness level using AVPU scale: Alert (awake, oriented), Voice (responds to voice), Pain (responds only to painful stimulus), Unresponsive; any downward change is significant; (5) Temperature — check for hypothermia continuously, not once; wet or shaded casualty loses core temperature rapidly; add insulation, remove wet clothing, use vapor barrier. Log each assessment with time."
+      },
+      {
+        "step": 2,
+        "title": "Pain Management in the Field",
+        "body": "Untreated severe pain causes physiological stress response that worsens outcomes — pain management is a medical intervention, not a comfort measure. Available analgesics ranked by preference: (1) Meloxicam 15mg orally — NSAID with anti-inflammatory properties; preferred for musculoskeletal injuries, sprains, fractures without hemorrhage; safe for most casualties; give with food if available; (2) Acetaminophen 1,000mg orally — safe for all injury types including penetrating trauma; does not affect bleeding or hide internal hemorrhage signs; maximum 4g/24 hours total; (3) Ibuprofen 800mg orally — NSAID, effective but more GI side effects than meloxicam; adequate alternative if meloxicam unavailable. Critical contraindications: do NOT administer aspirin to any trauma casualty (antiplatelet effect increases bleeding); do NOT administer opioids or NSAIDs to penetrating torso trauma (opioids mask deterioration signs indicating internal bleeding; NSAIDs impair clotting). Opioid administration requires specific training, authorization, and ongoing monitoring capability."
+      },
+      {
+        "step": 3,
+        "title": "Wound Care — Extended Protocols",
+        "body": "Initial hemostasis (stopping bleeding) must transition to infection prevention in extended care. Dressing changes: change wound dressings every 24 hours minimum, or immediately when saturated; note wound appearance at each change. Wound irrigation: clean wounds with irrigation before dressing change; improvised irrigation device: fill 20cc syringe, attach 18-gauge angiocath or improvised nozzle, irrigate at 8 PSI (arm's length from wound); clean water is acceptable when sterile saline is unavailable; irrigate until visibly clear. Wound closure decisions: primary closure (suturing or closure strips) is appropriate ONLY for clean wounds that are less than 6 hours old with no contamination and no signs of infection; contaminated wounds, bite wounds, or combat wounds should be left open; delayed primary closure (3–5 days post-injury) is preferred for contaminated wounds that are clean and uninfected at reassessment. Infection signs requiring urgent intervention: increasing redness with advancing border, localized warmth and swelling, purulent discharge, fever above 101°F, or red streaking extending from wound (lymphangitis = systemic infection, urgent)."
+      },
+      {
+        "step": 4,
+        "title": "Hydration and Nutrition in Extended Care",
+        "body": "Fluid and nutritional support become critical when evacuation extends beyond 6–12 hours. Conscious casualty oral hydration: offer small, frequent sips rather than large amounts at once; minimum 2 liters per day for a wounded adult, more in heat or with significant wound drainage; oral hydration takes priority over IV in a conscious, non-vomiting casualty with intact gut. Monitoring hydration status: urine color is the most accessible indicator — dark yellow to amber = dehydrated, pale yellow = adequate, colorless = over-hydrated (rare in field); absence of urination for 6+ hours = significant dehydration or shock. Nutrition: conscious casualties with intact gut and non-abdominal injuries can begin small amounts of food after 24 hours — high protein is preferred for wound healing; do not attempt to feed unconscious casualties. IV/IO fluid management (if trained and equipped): Lactated Ringer's is preferred over normal saline for large-volume resuscitation (lower risk of hyperchloremic acidosis); if hemorrhage is not fully controlled, limit IV fluids to 500mL–1L and target a palpable radial pulse (permissive hypotension) rather than normal blood pressure — aggressive IV fluid resuscitation before hemorrhage control 'pops the clot.'"
+      },
+      {
+        "step": 5,
+        "title": "Monitoring Vital Signs Without Equipment",
+        "body": "Manual vital sign assessment provides essential information about casualty trajectory. Heart rate: locate radial pulse (wrist, thumb side); if not palpable, check carotid pulse in neck; count beats for 30 seconds and multiply by 2; normal: 60–100 bpm; trauma patients often run 100–120; very fast (>120) plus weak, thready pulse plus pale, cool, clammy skin = shock, reassess hemorrhage control immediately. Respiratory rate: count chest rises for 30 seconds and multiply by 2; normal: 12–20; above 30 or below 8 = critical — reassess airway and breathing interventions. Temperature (without thermometer): assess forehead warmth (back of hand most sensitive); shivering and goosebumps = hypothermia developing; flushed, dry skin plus hot forehead = fever or heat illness. Mental status (AVPU + orientation): ask three questions — 'What is your name? Where are you right now? What year is it?' Confusion or inability to answer indicates hypoxia, hemorrhagic shock, head injury, hypoglycemia, or sepsis; note baseline at first assessment and track any changes; deterioration in mental status is the most sensitive early indicator of worsening condition."
+      },
+      {
+        "step": 6,
+        "title": "Casualty Packaging for Evacuation",
+        "body": "When evacuation becomes possible, proper documentation and physical preparation determine continuity of care. Documentation — the MIST report: Mechanism of injury (fall, gunshot, blunt trauma, burn); Injuries found (anatomic description — 'gunshot wound right thigh, tourniquet applied, wound packed'); Signs and symptoms at time of handoff (last vital signs, mental status); Treatment given (all interventions with times: tourniquet applied 14:35, morphine 5mg IV 15:10, 500mL LR infusing). Record medications given with dose, route, and time — the receiving provider must know. Allergy documentation must accompany the casualty. Physical packaging: wrap casualty in insulating layer (blankets, sleeping bag, poncho liner) to prevent further heat loss during transport; secure casualty to litter or improvised stretcher; spinal precautions (manual stabilization and padding, not necessarily a rigid collar) for: falls greater than 3 times the patient's height, vehicle accidents with intrusion, diving injuries, or any unconscious trauma patient with unknown mechanism. Continuously reassess airway during transport — position changes can compromise an airway that was patent at rest."
+      }
+    ],
+    "warnings": [
+      "Extended trauma care requires hands-on training — reading alone is insufficient preparation. Take a Wilderness First Responder (WFR) or Combat Lifesaver (CLS) course before a grid-down scenario.",
+      "Tourniquet conversion (removing a tourniquet after extended application) carries risk of rebleeding and reperfusion injury — only attempt when you are confident in your wound packing skills and can manage potential rebleeding."
+    ],
+    "proTips": [
+      "Write the tourniquet application time on the patient's forehead with a marker — 'TK 14:35' — so it is visible to anyone who encounters the casualty, even if your written notes are lost.",
+      "The MIST report takes 60 seconds to recite and dramatically improves continuity of care at handoff. Practice saying it aloud during training so it becomes automatic under stress."
+    ],
+    "relatedGuides": ["fm-003", "stop-the-bleed", "trauma-assessment", "hypothermia-treatment"]
+  }
+]

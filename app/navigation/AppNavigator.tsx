@@ -20,6 +20,9 @@ import { SettingsScreen } from '../screens/SettingsScreen';
 import { FounderScreen } from '../screens/FounderScreen';
 import { PaywallScreen } from '../screens/PaywallScreen';
 import { MoreScreen } from '../screens/MoreScreen';
+import { TranslatorScreen } from '../screens/TranslatorScreen';
+import { HamRadioScreen } from '../screens/HamRadioScreen';
+import { MorseCodeScreen } from '../screens/MorseCodeScreen';
 
 // ─── Stack navigators ─────────────────────────────────────────────────────────
 
@@ -39,6 +42,9 @@ export type MoreStackParamList = {
   Referral: undefined;
   Settings: undefined;
   Founder: undefined;
+  Translator: undefined;
+  HamRadio: undefined;
+  MorseCode: undefined;
 };
 
 const HomeStack = createNativeStackNavigator<HomeStackParamList>();
@@ -74,6 +80,9 @@ function MoreStackNavigator() {
       <MoreStack.Screen name="Referral" component={ReferralScreen} options={{ title: 'Referral Program' }} />
       <MoreStack.Screen name="Settings" component={SettingsScreen} options={{ title: 'Settings' }} />
       <MoreStack.Screen name="Founder" component={FounderScreen} options={{ title: 'About the Founder' }} />
+      <MoreStack.Screen name="Translator" component={TranslatorScreen} options={{ title: 'Offline Translator' }} />
+      <MoreStack.Screen name="HamRadio" component={HamRadioScreen} options={{ title: 'HAM Radio Repeaters' }} />
+      <MoreStack.Screen name="MorseCode" component={MorseCodeScreen} options={{ title: 'Morse Code' }} />
     </MoreStack.Navigator>
   );
 }

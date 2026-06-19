@@ -1,0 +1,18 @@
+[
+  {
+    "id": "quiz-food-001",
+    "category": "food",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You've found a plant you cannot identify but need food. You want to perform the Universal Edibility Test (UET) on the leaves. After separating the plant into parts (roots, stems, leaves, berries) what is the FIRST step you perform on the leaf portion?",
+    "options": [
+      { "id": "a", "text": "Boil a small piece for 15 minutes and taste it — cooking destroys most toxins" },
+      { "id": "b", "text": "Crush a piece and hold it against your inner wrist or inner elbow for 15 minutes, watching for reaction" },
+      { "id": "c", "text": "Eat a thumbnail-sized piece and wait 8 hours before eating more" },
+      { "id": "d", "text": "Smell the broken stem — bitter almond smell indicates cyanogenic compounds, stop immediately" }
+    ],
+    "correct": "b",
+    "explanation": "The UET sequence is: (1) Separate plant parts. (2) Check smell of broken part — bitter almond/peach pits = cyanide compounds, STOP. Rancid/acrid smell = STOP. (3) Skin contact test — crush and hold on inner wrist/elbow for 15 min, watching for burning/rash/blisters. (4) Lip/mouth test — touch to lips only for 3 minutes. (5) Tongue test — hold on tongue for 15 min. (6) Chew small amount without swallowing, wait 15 min. (7) Eat thumbnail amount, wait 8 hours. Each stage is a GO/NO-GO gate. Smelling first eliminates obvious cyanogenic plants before you contact them. Boiling does NOT reliably destroy all plant toxins — many alkaloids and glycosides are heat-stable.",
+    "relatedGuide": "food-001",
+    "tags": ["food", "intermediate", "foraging", "edibility-test"]
+  },

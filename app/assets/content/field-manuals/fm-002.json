@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fm-002",
+    "category": "navigation",
+    "title": "Navigation by Map and Compass — Military Method",
+    "priority": "critical",
+    "source": "US Army Field Manual (Public Domain)",
+    "tags": ["field-manual", "navigation", "compass", "map", "military"],
+    "summary": "Military land navigation techniques adapted for civilian grid-down use — map orientation, contour reading, compass bearings, pace count, resection, and dead reckoning.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Map Orientation",
+        "body": "Orienting your map to the terrain is the foundation of land navigation. Method: place compass on map with direction-of-travel arrow pointing toward the top (true north) of the map; rotate the map and compass together until the compass needle aligns with the map's north. Critical step: apply declination correction for your region. US magnetic declination varies from approximately -20° (Pacific Northwest) to +20° (Northeast) — check your specific location at ngdc.noaa.gov/geomag. Failure to apply declination creates compounding positional error over distance. Practical habits: fold map accordion-style so only your current area of operations is exposed (reduces size, protects the rest); laminate or use map case in wet conditions; identify at least two visible ground control points (terrain features visible on both map and ground) before moving."
+      },
+      {
+        "step": 2,
+        "title": "Reading Contour Lines",
+        "body": "Contour lines connect points of equal elevation and are the key to reading terrain in 3D. Rules: (1) Each line represents a fixed elevation interval — check the map legend for the contour interval (commonly 20 or 40 feet on USGS topos); (2) V-shapes pointing uphill (toward higher numbers) = valleys or stream drainages; water flows in the direction the V points; (3) V-shapes pointing downhill = ridges or spurs projecting from high ground; (4) Depression contours have small tick marks pointing inward toward the low point; (5) Closely spaced contour lines = steep terrain (cliff if touching); widely spaced = gentle slope or flat; (6) A closed circle of contours = a hilltop or knob. Practice by identifying a known summit on your topo and tracing contours outward — this builds the mental translation between flat map and 3D terrain."
+      },
+      {
+        "step": 3,
+        "title": "Taking a Compass Bearing",
+        "body": "Procedure for shooting a bearing to a destination: (1) Point the direction-of-travel arrow on your compass baseplate toward your destination; (2) Rotate the bezel (rotating housing) until the orienting arrow aligns with the magnetic needle — needle must be inside the orienting arrow, not 180° off; (3) Read the bearing at the index line on the bezel — this is your magnetic bearing. Declination adjustment: apply your region's declination to convert to a true bearing if your map uses true north. Use the memory rule 'East is Least, West is Best': in eastern US (easterly declination), subtract declination from your magnetic bearing to get true; in western US (westerly declination), add declination. Back-bearing (used to confirm you came from the right direction) = bearing ± 180°. Travel technique: shoot bearing, pick a distant landmark on that bearing, navigate to it, re-shoot. Never stare at compass while walking."
+      },
+      {
+        "step": 4,
+        "title": "Pace Count",
+        "body": "Pace count measures distance traveled on foot with no electronic aids. Calibration: walk a measured 100-meter course and count every time your LEFT foot strikes the ground; this is your pace count for 100 meters. Average adult is 62–66 paces per 100m on flat terrain. Record your personal count on compass housing with a paint pen or tape. Adjustments for terrain: add 15–20% for steep uphill; add 10% for dense brush or snow; add 5–10% for carrying heavy load; downhill pace count is generally slightly lower. Tracking method: ranger beads (9 beads on upper strand = hundreds of meters, 4 beads on lower strand = thousands of meters); slide one bead per 100m traveled. Limitations: pace count is cumulative-error-prone over long distances — verify against terrain features every 500m when possible and reset from a confirmed position."
+      },
+      {
+        "step": 5,
+        "title": "Resection — Finding Your Position",
+        "body": "Resection is the technique for determining your unknown position using known landmarks. Procedure: (1) Identify at least 3 landmarks visible both on your map and on the ground (hilltops, road intersections, tower structures); (2) Shoot a compass bearing TO each landmark; (3) Add or subtract 180° to each bearing to get the back-bearing FROM each landmark; (4) Draw a line on your map from each landmark along its back-bearing (use a straight edge through the landmark in the back-bearing direction); (5) The intersection of the 3 lines is your location. A 'triangle of error' (small triangle rather than perfect intersection) is normal — you are somewhere inside it; a small triangle indicates high accuracy. Refine by identifying which triangle corner best matches your view of surrounding terrain. Note: resection requires you to positively identify each landmark on both map and ground — misidentification produces wildly incorrect results."
+      },
+      {
+        "step": 6,
+        "title": "Dead Reckoning",
+        "body": "Dead reckoning projects your position forward from a known starting point using bearing and distance. Method: (1) Start from a confirmed known position on the map; (2) Travel on a precise compass bearing for a measured distance (pace count); (3) Plot each leg on the map — distance in pace count converted to map scale, direction per bearing; (4) Your estimated position is the end of the plotted leg. Multi-leg dead reckoning: record each leg as a vector (bearing + distance) in a navigation log; cumulative error grows with each successive leg, so confirm against terrain features whenever possible and reset the dead reckoning from the confirmed point. Error management: aim-off deliberately toward a known line feature (road, river, fence line) rather than a point target — when you hit the line feature you know which direction to turn. This eliminates the 'did I overshoot or undershoot?' problem at the destination."
+      }
+    ],
+    "warnings": [
+      "Declination must be applied or positional error will grow to hundreds of meters over a few kilometers — always verify your local declination before the mission.",
+      "A compass held near metal objects, electric wires, or vehicles will give false readings — move at least 10 meters away from vehicles and 1 meter from personal metal gear before taking a bearing."
+    ],
+    "proTips": [
+      "Write your personal pace count and local declination directly on your compass housing with a fine-tip paint pen — it is always with you when you need it.",
+      "Practice resection in familiar terrain before you need it in an emergency. The skill requires repetition to execute quickly under stress."
+    ],
+    "relatedGuides": ["fm-001", "urban-navigation", "edc-kit"]
+  }
+]

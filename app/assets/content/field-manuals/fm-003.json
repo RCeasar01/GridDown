@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fm-003",
+    "category": "medical",
+    "title": "Field Sanitation — Military Standards",
+    "priority": "advanced",
+    "source": "US Army Field Manual (Public Domain)",
+    "tags": ["field-manual", "sanitation", "hygiene", "disease-prevention", "military"],
+    "summary": "Military field sanitation standards adapted for civilian grid-down camps — latrine siting, waste disposal, hand hygiene, vector control, water discipline, and field kitchen sanitation to prevent disease outbreak.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Latrine Site Selection",
+        "body": "Proper latrine siting prevents the most common cause of group collapse in grid-down scenarios: fecal-oral disease transmission. Minimum standards: (1) Site latrines at least 100 meters (330 feet) from any water source, living area, or food preparation site; (2) Position downhill and downwind from the camp when terrain allows — prevents contaminated runoff and odor drift toward living areas; (3) Individual cat hole: dig 6–8 inches deep (this is the active aerobic decomposition zone where soil bacteria break down waste most effectively); place at least 200 feet from any water source; refill and mound when 2/3 full; (4) Group straddle trench: 1 foot wide x 2.5 feet deep x 4 feet long accommodates approximately 25 people per day; extend length as needed; (5) Mark latrines clearly, especially night-use paths — trips in the dark without clear marking lead to misuse and contamination of random areas."
+      },
+      {
+        "step": 2,
+        "title": "Waste Disposal and Fly Control",
+        "body": "Flies are the primary mechanical vector for fecal-oral disease — a single fly can carry millions of pathogens from latrine to food surface. Protocols: (1) Cover all human waste immediately after use — no exceptions; dirt, ash, or a purpose-built latrine cover; (2) Cat hole: refill and mound slightly above grade when 2/3 full (prevents rainwater infiltration and surface exposure); (3) Burn toilet paper separately from waste — paper buried in cat holes resurfaces; (4) Latrine fly screen: construct a simple screened structure over the straddle trench to prevent fly access while allowing ventilation; (5) Lime or wood ash application: sprinkle a thin layer over waste after each use — reduces odor, raises pH, and disrupts fly breeding cycle; lime is more effective but ash is widely available; (6) Sandbag or wood seat construction over straddle trench improves compliance — people avoid latrines that require awkward posturing, leading to misuse."
+      },
+      {
+        "step": 3,
+        "title": "Hand Washing Protocol",
+        "body": "Hand washing is the single highest-impact disease prevention measure available in any field environment. Minimum effective procedure when water is scarce: (1) Dampen hands with a small amount of water; (2) Apply soap — hard soap is preferred for durability; improvised substitutes include wood ash (alkaline, mild antimicrobial effect) or plant-based saponins; (3) Scrub for minimum 20 seconds, covering all surfaces: palms, backs, between fingers, under nails, wrists; (4) Rinse with the minimum water needed to remove soap; (5) Air dry or use a dedicated personal cloth — shared cloths become fomites. Waterless hand sanitizer requires minimum 60% alcohol concentration to be effective — lower concentrations do not reliably kill norovirus and many bacteria. Critical moments requiring hand washing without exception: before any food preparation, after latrine use, after treating any wound, after handling animals or animal waste."
+      },
+      {
+        "step": 4,
+        "title": "Vector Control — Mosquitoes and Rodents",
+        "body": "Arthropod and rodent vectors are responsible for malaria, dengue, hantavirus, leptospirosis, plague, and numerous other diseases that become significant threats when medical care is unavailable. Mosquito control: (1) Eliminate all standing water — even bottle caps and upturned lids hold enough water for Aedes mosquito breeding; patrol camp perimeter for containers, tarps, and hollows; (2) Mosquito activity peaks at dawn and dusk — schedule outdoor activity accordingly and maximize skin coverage during peak hours; (3) Permethrin treatment of clothing and gear is highly effective and lasts approximately 40 washes — treat before deployment, not after; (4) Bed nets over sleeping areas drastically reduce nighttime exposure. Rodent control: (1) Eliminate harborage — dense debris piles, wood stacks against structures, and abandoned equipment all shelter rodents; (2) Store all food in hard-sided sealed containers elevated minimum 18 inches off the ground; (3) Remove dead animals promptly using gloves — hantavirus is transmitted via aerosolized rodent excreta in disturbed nests."
+      },
+      {
+        "step": 5,
+        "title": "Water Discipline in the Field",
+        "body": "Waterborne disease — primarily diarrheal illness — is historically the most common cause of incapacitation in field operations. All water must be treated before consumption regardless of apparent source quality. Treatment methods in order of reliability: (1) Boil — rolling boil for 1 minute (3 minutes above 6,500 ft elevation) kills all pathogens; effective but fuel-intensive; (2) Bleach (sodium hypochlorite 6–8.25%) — 8 drops per gallon of clear water, 16 drops if cloudy, wait 30 minutes before drinking; (3) Iodine tablets — 2 tablets per liter, wait 30 minutes (double time if water is cold or turbid); less effective against Cryptosporidium; (4) Mechanical filter (0.2 micron or smaller) removes protozoa and bacteria but not viruses — must be combined with chemical treatment for complete protection. Canteen discipline: the lip of your canteen contacts your mouth — your canteen is personal, never shared without full treatment of the container. Shared water sources (pots, jugs) become disease vectors when people drink directly from them."
+      },
+      {
+        "step": 6,
+        "title": "Field Kitchen Sanitation",
+        "body": "Foodborne illness can incapacitate an entire group within hours — field kitchen sanitation is a group survival issue, not a personal preference. Standards: (1) Three-pot wash system: pot 1 = hot soapy wash water; pot 2 = clean hot rinse water; pot 3 = sanitizer solution (1 teaspoon bleach per gallon of water); all dishes, utensils, and cooking pots cycle through all three after every use; (2) Dish temperature: water at or above 160°F for final rinse kills most pathogens on contact; (3) Food temperature danger zone: bacteria multiply rapidly between 40°F and 140°F — cook food to internal temperature above 165°F; do not leave cooked food in the danger zone for more than 2 hours; (4) Sick cook protocol: any person with fever, diarrhea, vomiting, or skin infection on hands must not handle food for others — this is non-negotiable in a grid-down environment where a single outbreak can be catastrophic; (5) Insect exclusion: cover all prepared food immediately; work under screening when possible; (6) Waste disposal: food waste must go to a dedicated disposal site away from the kitchen and living areas to avoid attracting both insects and rodents."
+      }
+    ],
+    "warnings": [
+      "A single sanitation failure in a group living situation can produce a disease outbreak that incapacitates everyone within 48 hours. Field sanitation is a group survival issue, not optional personal hygiene.",
+      "Cryptosporidium is resistant to iodine and chlorine at normal doses — boiling or a certified 0.2-micron filter is required for full protection against this common waterborne parasite."
+    ],
+    "proTips": [
+      "A handwashing station at the latrine entrance — even a simple jug with a drilled hole — dramatically increases compliance by making hand washing the path of least resistance.",
+      "Pre-treat all camp clothing and gear with permethrin before a grid-down scenario; it is far easier to treat before you leave than to manage mosquito exposure in the field with limited supplies."
+    ],
+    "relatedGuides": ["fm-005", "water-purification-101", "camp-setup", "disease-prevention"]
+  }
+]

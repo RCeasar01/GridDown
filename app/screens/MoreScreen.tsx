@@ -10,6 +10,9 @@ import { Colors } from '../theme/colors';
 const MORE_ITEMS = [
   { label: 'Checklists', icon: 'checkbox-outline', screen: 'Checklists', description: 'Disaster prep checklists' },
   { label: 'Offline Map', icon: 'map-outline', screen: 'Map', description: 'Topo maps — coming soon' },
+  { label: 'Translator', icon: 'language-outline', screen: 'Translator', description: 'Offline 10-language translator' },
+  { label: 'HAM Radio Repeaters', icon: 'radio-outline', screen: 'HamRadio', description: 'US repeater database — all 50 states' },
+  { label: 'Morse Code', icon: 'code-slash-outline', screen: 'MorseCode', description: 'Encode, decode, and play Morse' },
   { label: 'Content Packs', icon: 'download-outline', screen: 'ContentPacks', description: 'Download additional guides' },
   { label: 'Referral Program', icon: 'people-outline', screen: 'Referral', description: 'Earn 20% commission' },
   { label: 'Settings', icon: 'settings-outline', screen: 'Settings', description: 'App settings and preferences' },
