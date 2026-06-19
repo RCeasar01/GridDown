@@ -1,3 +1,4 @@
+import './app/i18n'; // Initialize i18next before anything else
 import React, { useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { AppNavigator } from './app/navigation/AppNavigator';
@@ -6,27 +7,24 @@ import { initializePurchases } from './app/utils/purchases';
 import { useAppStore } from './app/store/useAppStore';
 
 export default function App() {
-  const { setOffline, setUserTier, loadBookmarks, loadRecentlyViewed } = useAppStore();
+  const { setOffline, loadBookmarks, loadRecentlyViewed, loadLanguagePrefs } = useAppStore();
 
   useEffect(() => {
     async function bootstrap() {
       try {
-        // 1. Initialize SQLite database
         await initDatabase();
-
-        // 2. Load persisted state into Zustand
-        await Promise.all([loadBookmarks(), loadRecentlyViewed()]);
-
-        // 3. Mark app as offline-first
+        await Promise.all([
+          loadBookmarks(),
+          loadRecentlyViewed(),
+          loadLanguagePrefs(),
+        ]);
         setOffline(true);
-
-        // 4. Initialize RevenueCat (non-blocking)
         initializePurchases().catch(console.warn);
       } catch (err) {
         console.error('[App] Bootstrap error:', err);
       }
     }
-    bootstrap();
+    void bootstrap();
   }, []);
 
   return (

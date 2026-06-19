@@ -1,0 +1,134 @@
+{
+  "app": { "name": "GridDown", "tagline": "When help is not coming." },
+  "nav": {
+    "home": "Home", "search": "Search", "map": "Map",
+    "advisor": "Advisor", "more": "More", "settings": "Settings",
+    "guides": "Guides", "checklists": "Checklists",
+    "community": "Community", "contentPacks": "Content Packs",
+    "founder": "The Founder", "referral": "Referral"
+  },
+  "home": {
+    "title": "GridDown", "subtitle": "Survival. Offline. Ready.",
+    "recentlyViewed": "Recently Viewed", "categories": "Categories",
+    "noRecent": "No recently viewed guides.",
+    "startBrowsing": "Start browsing guides above."
+  },
+  "search": {
+    "placeholder": "Search guides, checklists...",
+    "noResults": "No results found.",
+    "noResultsHint": "Try a different keyword or browse categories.",
+    "resultsFor": "Results for"
+  },
+  "guide": {
+    "procedure": "PROCEDURE", "warnings": "⚠️ WARNINGS",
+    "proTips": "✅ PRO TIPS", "relatedGuides": "RELATED GUIDES",
+    "notFound": "Guide not found.", "viewOriginal": "View Original",
+    "viewTranslated": "Translate", "translating": "Translating...",
+    "translationUnavailable": "Translation unavailable — model not downloaded.",
+    "medicalDisclaimer": "This content is written for emergency situations where professional medical care is unavailable. It is not a substitute for professional medical treatment when treatment is accessible.",
+    "credentialBanner": "Written by an Eagle First Responder and Military Preventive Medicine Specialist — 101st Airborne Division."
+  },
+  "checklist": {
+    "title": "Checklists", "complete": "Complete", "incomplete": "Incomplete",
+    "reset": "Reset", "resetConfirm": "Reset this checklist?",
+    "resetConfirmMsg": "All items will be unchecked.",
+    "cancel": "Cancel", "noChecklists": "No checklists available."
+  },
+  "map": {
+    "title": "Offline Map", "coordinates": "Coordinates",
+    "latitude": "Latitude", "longitude": "Longitude",
+    "accuracy": "Accuracy", "locating": "Locating...",
+    "locationError": "Unable to get location. Check permissions.",
+    "permissionDenied": "Location permission denied.",
+    "offlineNote": "Map data is cached offline. No internet required."
+  },
+  "advisor": {
+    "title": "Field Intelligence", "lockedTitle": "AI Advisor",
+    "lockedSubtitle": "Extreme plan required",
+    "lockedDescription": "The Field Intelligence Advisor runs a large language model fully on your device — no internet, no cloud, no data leaving your phone.",
+    "lockedCta": "Upgrade to Extreme", "placeholder": "Ask the advisor...",
+    "thinking": "Thinking...", "clearChat": "Clear Chat",
+    "clearChatConfirm": "Clear all messages?",
+    "modelLoading": "Loading AI model...", "modelNotReady": "AI model is not ready yet.",
+    "disclaimer": "AI responses are for educational purposes only. Always use your own judgment in emergencies."
+  },
+  "settings": {
+    "title": "Settings", "subscription": "SUBSCRIPTION",
+    "currentPlan": "Current Plan", "upgradePlan": "Upgrade Plan",
+    "language": "LANGUAGE", "currentLanguage": "Current Language",
+    "deviceDefault": "Device Default", "downloadModel": "Download Model",
+    "downloading": "Downloading...", "downloaded": "Downloaded",
+    "modelSize": "~30 MB", "translateContent": "Translate Guide Content",
+    "translateContentHint": "Translate guide steps, warnings, and tips to your selected language. Requires downloaded language model.",
+    "usbExport": "USB EXPORT", "exportStatus": "Export Status",
+    "exportReady": "Ready", "exportLocked": "Locked",
+    "prepareExport": "Prepare USB Export Package",
+    "extremeLifetimeOnly": "Extreme Lifetime only",
+    "data": "DATA", "clearRecent": "Clear Recently Viewed",
+    "clearRecentConfirm": "Remove all recently viewed guides?",
+    "about": "ABOUT", "appVersion": "App Version",
+    "aboutFounder": "About the Founder", "developer": "Developer",
+    "veteranOwned": "Veteran-Owned", "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service", "cancel": "Cancel", "clear": "Clear"
+  },
+  "paywall": {
+    "title": "GridDown Pro", "subtitle": "Unlock everything. Survive anything.",
+    "monthly": "Monthly", "yearly": "Yearly", "lifetime": "Lifetime",
+    "extreme": "Extreme", "perMonth": "/month", "perYear": "/year",
+    "oneTime": "one-time", "subscribe": "Subscribe", "purchase": "Purchase",
+    "restore": "Restore Purchases", "restoring": "Restoring...",
+    "terms": "Terms", "privacy": "Privacy",
+    "autoRenews": "Auto-renews. Cancel anytime.", "loading": "Loading plans..."
+  },
+  "community": {
+    "title": "Community", "discord": "Join Discord",
+    "discordDesc": "Connect with fellow preppers and veterans in the GridDown community.",
+    "joinNow": "Join Now", "lockedFeature": "Discord subscriber required"
+  },
+  "contentPacks": {
+    "title": "Content Packs", "installed": "Installed", "install": "Install",
+    "installing": "Installing...", "size": "Size",
+    "locked": "Upgrade Required", "core": "Core Pack", "comingSoon": "Coming Soon"
+  },
+  "more": {
+    "title": "More", "settings": "Settings", "contentPacks": "Content Packs",
+    "community": "Community", "founder": "The Founder",
+    "referral": "Refer & Earn", "checklists": "Checklists"
+  },
+  "founder": {
+    "title": "The Founder", "name": "A Combat Infantryman",
+    "credentialLine1": "101st Airborne Division",
+    "credentialLine2": "Eagle First Responder",
+    "credentialLine3": "Military Preventive Medicine Specialist",
+    "bio1": "GridDown was built by a combat veteran who has seen what happens when systems fail. This app exists to give every American the knowledge that once only belonged to soldiers.",
+    "bio2": "Every guide in GridDown is written to be actionable, offline, and accurate under pressure. No internet. No fluff. No excuses."
+  },
+  "referral": {
+    "title": "Refer & Earn", "subtitle": "Share GridDown. Earn 20% commission.",
+    "yourLink": "Your Referral Link", "copied": "Copied!", "copy": "Copy Link",
+    "share": "Share", "earnings": "Earnings",
+    "totalReferrals": "Total Referrals", "comingSoon": "Referral dashboard coming soon."
+  },
+  "common": {
+    "loading": "Loading...", "error": "Error", "retry": "Retry",
+    "cancel": "Cancel", "confirm": "Confirm", "done": "Done",
+    "save": "Save", "delete": "Delete", "ok": "OK",
+    "yes": "Yes", "no": "No", "back": "Back", "close": "Close",
+    "locked": "Locked", "free": "Free", "premium": "Premium",
+    "offline": "Offline", "online": "Online",
+    "noInternetRequired": "No internet required"
+  },
+  "tiers": {
+    "free": "Free", "discord": "Discord Only", "monthly": "Monthly",
+    "yearly": "Yearly", "lifetime_standard": "Lifetime Standard",
+    "extreme_monthly": "Extreme Monthly", "extreme_yearly": "Extreme Yearly",
+    "extreme_lifetime": "Extreme Lifetime"
+  },
+  "priority": { "critical": "CRITICAL", "high": "HIGH", "medium": "MEDIUM", "low": "LOW" },
+  "categories": {
+    "medical": "Medical", "water": "Water", "food": "Food",
+    "shelter": "Shelter", "fire": "Fire", "navigation": "Navigation",
+    "security": "Security", "comms": "Communications",
+    "power": "Power", "vehicle": "Vehicle"
+  }
+}
