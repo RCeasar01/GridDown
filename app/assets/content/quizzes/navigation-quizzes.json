@@ -1,0 +1,95 @@
+[
+  {
+    "id": "quiz-nav-001",
+    "category": "navigation",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You're in eastern Montana (magnetic declination approximately 10° East). Your map shows a true north bearing of 045° (northeast) to your destination. What compass bearing do you walk?",
+    "options": [
+      { "id": "a", "text": "045° — declination doesn't affect bearing when traveling northeast" },
+      { "id": "b", "text": "055° — add easterly declination to true bearing to get magnetic bearing" },
+      { "id": "c", "text": "035° — subtract easterly declination from true bearing to get magnetic bearing" },
+      { "id": "d", "text": "045° adjusted by GPS correction only — compasses don't require declination adjustment" }
+    ],
+    "correct": "c",
+    "explanation": "When converting TRUE bearing (map) to MAGNETIC bearing (compass): East declination → SUBTRACT. West declination → ADD. Mnemonic: 'East is least (subtract), West is best (add).' With 10°E declination: Magnetic = True − Declination = 045° − 10° = 035°. Your compass needle points to magnetic north, which is 10° EAST of true north in eastern Montana — so to walk true northeast (045°), your compass must show 035°. Failure to adjust declination causes systematic directional error — at 1 mile, 10° error = 924 feet off target.",
+    "relatedGuide": "navigation-001",
+    "tags": ["navigation", "compass", "declination", "intermediate"]
+  },
+  {
+    "id": "quiz-nav-002",
+    "category": "navigation",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "You must navigate 4 miles through dense woodland to a rally point without GPS, using dead reckoning from your known start position. Place these steps in the correct procedural order.",
+    "items": [
+      { "id": "1", "text": "Convert map bearing to magnetic bearing (adjust for declination)" },
+      { "id": "2", "text": "Identify your start position on the map and mark it" },
+      { "id": "3", "text": "Measure the straight-line distance to your destination on the map using the scale" },
+      { "id": "4", "text": "Calculate your pace count for the terrain (establish paces per 100m on similar terrain)" },
+      { "id": "5", "text": "Begin walking on the established compass bearing, counting paces to track distance" }
+    ],
+    "correct_order": ["2", "3", "1", "4", "5"],
+    "explanation": "Dead reckoning requires: WHERE ARE YOU (start point) → WHERE ARE YOU GOING (measure distance) → WHAT DIRECTION (convert bearing for declination) → HOW DO YOU MEASURE DISTANCE (pace count calibration) → EXECUTE. You must know your start position before anything else — without it, all subsequent steps are useless. Distance measurement from the map gives you the goal. Declination conversion comes before moving. Pace count calibration should be done on similar terrain before committing — woodland pace count differs from road pace count by 10-20%. Once moving, update position estimates at terrain features (ridgelines, streams) to check cumulative error.",
+    "relatedGuide": "navigation-001",
+    "tags": ["navigation", "dead-reckoning", "compass", "intermediate"]
+  },  {
+    "id": "quiz-nav-003",
+    "category": "navigation",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Disoriented in Dense Woodland",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "You've been hiking 6 hours in dense woodland. Your compass works but your map is unclear — you're not certain of your current position. Visibility is 30 feet. Last known position was a stream crossing 2 hours ago. What do you do first?",
+        "options": [
+          { "text": "Stop, sit down, and think before moving further — STOP protocol", "next": "stop_think" },
+          { "text": "Walk downhill — water is downhill, follow water to civilization", "next": "downhill_move" }
+        ]
+      },
+      "stop_think": {
+        "id": "stop_think",
+        "scenario": "Good. You STOP (Stop, Think, Observe, Plan). You observe: you can hear running water faintly to the west. Your compass shows you've been traveling generally north-northeast. The terrain is sloping upward to your right. Based on your last known position, what do you do?",
+        "options": [
+          { "text": "Move toward the sound of water — stream is a linear feature that leads out", "next": "toward_water" },
+          { "text": "Climb to higher ground for better observation and potential map resection", "next": "high_ground" }
+        ]
+      },
+      "toward_water": {
+        "id": "toward_water",
+        "outcome": "success",
+        "explanation": "Water is the best terrain feature for navigation recovery. Streams are linear features that lead to larger water (rivers) which lead to civilization. Once you reach water, follow it DOWNSTREAM unless your map shows it leads into wilderness. The STOP principle prevents panic-driven movement that compounds disorientation. You correctly oriented before moving and used an audible landmark to reestablish position."
+      },
+      "high_ground": {
+        "id": "high_ground",
+        "outcome": "success",
+        "explanation": "High ground for observation is a classic navigation recovery technique. From elevation, you can see drainage patterns, ridge lines, and distinctive terrain features for map resection. Resection: identify 2+ known terrain features, take compass bearings to each, back-plot those bearings on the map — your position is where they intersect. Both this and the water-following approach are correct — the key was STOPPING first before either."
+      },
+      "downhill_move": {
+        "id": "downhill_move",
+        "outcome": "poor",
+        "explanation": "'Go downhill to find water' is a general principle, not a navigation plan. Moving without first stopping to observe and plan violates the STOP protocol and compounds disorientation. Downhill in complex terrain often leads into drainages where navigation features are obscured and travel is difficult. Always STOP first — movement without orientation wastes energy and takes you further from where rescue teams will search (your last known position)."
+      }
+    },
+    "relatedGuide": "navigation-001",
+    "tags": ["navigation", "lost", "STOP-protocol", "advanced"]
+  },
+  {
+    "id": "quiz-nav-004",
+    "category": "navigation",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "No compass, clear night, northern hemisphere. You need to find true north. Which star and method is correct?",
+    "options": [
+      { "id": "a", "text": "Orion's Belt always points true north when it's highest in the sky" },
+      { "id": "b", "text": "Find Polaris (North Star) by locating the two 'pointer stars' on the outer edge of the Big Dipper's bowl and extending a line 5x the distance between them" },
+      { "id": "c", "text": "Cassiopeia (the W shape) is always due north and can be used directly" },
+      { "id": "d", "text": "The brightest star in the sky (Sirius) aligns with magnetic north" }
+    ],
+    "correct": "b",
+    "explanation": "Polaris sits within 1° of true celestial north and does not appear to move as Earth rotates. Locate it: find the Big Dipper, identify the two outermost stars of the bowl (Dubhe and Merak — the 'pointer stars'), extend a line through them approximately 5x the distance between them, and that line terminates at Polaris. Polaris is a moderately bright star — not the brightest in the sky (that's Sirius, in the south). Cassiopeia (W shape) is useful for finding Polaris when the Big Dipper is below the horizon — it's on the opposite side of Polaris from the Big Dipper. Neither Orion's Belt nor Sirius points north.",
+    "relatedGuide": "navigation-001",
+    "tags": ["navigation", "stars", "night-navigation", "beginner"]
+  }
+]

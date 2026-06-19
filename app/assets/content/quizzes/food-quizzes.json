@@ -16,3 +16,81 @@
     "relatedGuide": "food-001",
     "tags": ["food", "intermediate", "foraging", "edibility-test"]
   },
+  {
+    "id": "quiz-food-dt-001",
+    "category": "food",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "3 Meters of Cord — Feed Two",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "Day 4 post-grid-down. You are in a temperate woodland. You and one partner have not eaten in 48 hours. You have 3 meters of 550 paracord, a knife, and knowledge of the area. You've identified active rabbit runs — fresh tracks and scat at 3 separate game trails. What is your trapping strategy?",
+        "options": [
+          { "text": "Set multiple small snares on the rabbit runs using the paracord", "next": "multiple_snares" },
+          { "text": "Construct a deadfall trap (Paiute or figure-4) at the most active trail", "next": "single_deadfall" }
+        ]
+      },
+      "multiple_snares": {
+        "id": "multiple_snares",
+        "scenario": "Good. You split the paracord into the 7 inner strands of each section to create multiple loops. How do you set them?",
+        "options": [
+          { "text": "Set 3 snares — one at each active run — and return in 4-6 hours", "next": "three_snares" },
+          { "text": "Set 2 snares and keep 1m of paracord in reserve for other uses", "next": "two_snares_reserve" }
+        ]
+      },
+      "three_snares": {
+        "id": "three_snares",
+        "outcome": "success",
+        "explanation": "The trapping principle: more traps = more opportunities. Small game trappers say 'you need 10 traps to guarantee a meal.' With 3 traps on active runs, your odds are reasonable. Snare placement: the loop should hang 4 fingers above the trail surface, anchored to a stake or bent sapling. Loop diameter: 3-4 inches for rabbit. Paracord inner strands (gutted out) make excellent snare wire — nearly invisible and has good slip. Check every 4-6 hours — caught animals attract predators and decompose quickly in warm weather."
+      },
+      "two_snares_reserve": {
+        "id": "two_snares_reserve",
+        "outcome": "success",
+        "explanation": "Two snares is suboptimal but workable. You catch nothing the first check. Repositioning on the 2nd check yields one rabbit 24 hours later. Keeping cordage in reserve was reasonable planning but trapping success scales directly with the number of sets. The correct mentality: commit your full cordage to trap sets — if you need cord later, you can recover it from the traps. Use what you have NOW for food — caloric deficit compounds quickly on day 4+."
+      },
+      "single_deadfall": {
+        "id": "single_deadfall",
+        "outcome": "poor",
+        "explanation": "A deadfall requires precise construction and calibration. Without the right trigger wood, you lose 2+ hours building it. The rabbit avoids the unfamiliar object. No catch in 24 hours. Deadfalls work well for experienced trappers who can source precise trigger materials and set the bait correctly. For most people, snares are dramatically more reliable in real field conditions. With only 3 active runs and 3 meters of cord, multiple snares will almost always outperform a single deadfall. Additionally, rabbits often avoid newly disturbed ground — snares disturb the trail less than deadfall construction. Match your trap type to your skill level and available resources."
+      }
+    },
+    "relatedGuide": "food-002",
+    "tags": ["food", "advanced", "trapping", "snares"]
+  },
+  {
+    "id": "quiz-food-003",
+    "category": "food",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You have 4 pounds of raw venison. Power has been out for 5 days and won't return. Outside temperature is 65°F. Which preservation method gives this meat the longest shelf life without refrigeration?",
+    "options": [
+      { "id": "a", "text": "Hang it in a cool, shaded area — air circulation will slow spoilage" },
+      { "id": "b", "text": "Salt-cure and dry it (make jerky) — sliced thin, heavily salted, dried to below 10% moisture" },
+      { "id": "c", "text": "Smoke it over a hardwood fire for 4-6 hours" },
+      { "id": "d", "text": "Seal it in airtight jars using the open-kettle canning method" }
+    ],
+    "correct": "b",
+    "explanation": "Proper jerky (salt-cured and dried to below 10% moisture, or water activity below 0.85) has a shelf life of 1-4 months at room temperature. Salt draws moisture out via osmosis, inhibiting microbial growth. The drying process further reduces water activity below the threshold for most pathogens. Smoking alone does not dry sufficiently for long-term preservation — true smoke-preserved meat still requires a salt cure or must reach internal temps that would reduce shelf life anyway. Hanging meat at 65°F will spoil within 24-48 hours. Open-kettle canning is unsafe for low-acid foods (meat) — botulism risk is high without a pressure canner reaching 240°F. Slice venison 1/4 inch thick, against the grain, salt heavily (or use a salt/cure brine), and dry at 140-160°F until it snaps, not bends.",
+    "relatedGuide": "food-003",
+    "tags": ["food", "beginner", "preservation", "jerky"]
+  },
+  {
+    "id": "quiz-food-004",
+    "category": "food",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "You're selecting which wild-foraged food sources to prioritize in a long-term survival situation where caloric intake is insufficient. Rank these from HIGHEST to LOWEST caloric density (calories per 100g edible portion).",
+    "items": [
+      { "id": "1", "text": "Pine nuts / tree nuts (various)" },
+      { "id": "2", "text": "Acorns (processed, tannins leached)" },
+      { "id": "3", "text": "Cattail pollen (collected in season)" },
+      { "id": "4", "text": "Dandelion greens (leaves)" },
+      { "id": "5", "text": "Pine cambium (inner bark, raw)" }
+    ],
+    "correct_order": ["1", "2", "3", "4", "5"],
+    "explanation": "Pine nuts ~673 cal/100g (67% fat content — the highest caloric density in wild plant foods). Processed acorns ~387 cal/100g (40% carbohydrate, 24% fat — must leach tannins in cold running water 2-3 days or boil multiple times). Cattail pollen ~340 cal/100g (high starch, protein — collect by bending heads into a bag in early summer). Dandelion greens ~45 cal/100g (excellent micronutrients but almost no caloric value — not a survival food for energy). Pine cambium ~20 cal/100g (mostly water and fiber — emergency starvation food only). KEY PRINCIPLE: In survival, prioritize FATS first (nuts, fatty animal parts), then STARCHES (roots, grains, acorns), then PROTEIN (lean meat), then greens last. Greens are nutritious but calorically irrelevant in a deficiency situation.",
+    "relatedGuide": "food-001",
+    "tags": ["food", "intermediate", "foraging", "calories", "wild-plants"]
+  }
+]

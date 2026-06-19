@@ -73,3 +73,87 @@
     "relatedGuide": "shelter-001",
     "tags": ["shelter", "beginner", "debris-hut"]
   },
+  {
+    "id": "quiz-shelter-003",
+    "category": "shelter",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "You need to select a campsite for the night. Rank these site selection criteria from HIGHEST to LOWEST priority.",
+    "items": [
+      { "id": "1", "text": "No widow-makers (dead branches or standing dead trees) overhead within falling range" },
+      { "id": "2", "text": "A natural windbreak on the prevailing wind side (rock outcrop, dense conifers)" },
+      { "id": "3", "text": "Flat ground for sleeping — sloped sites cause you to slide and disrupt sleep" },
+      { "id": "4", "text": "Water source within 100 meters for morning needs" },
+      { "id": "5", "text": "Natural concealment from sightlines (depression, dense brush)" }
+    ],
+    "correct_order": ["1", "2", "3", "4", "5"],
+    "explanation": "A dead branch overhead can kill you in your sleep — this is always #1. No other criterion matters if a widow-maker falls on you. Windbreak is #2 because convective heat loss during sleep is a serious hypothermia risk, and wind-driven rain can destroy any shelter. Flat ground is a comfort and sleep quality concern — not immediately life-threatening but severely impacts performance. Water proximity is a morning logistics concern — you can haul water once. Concealment is tactical and relevant in grid-down scenarios but not a primary survival priority vs physical threats.",
+    "relatedGuide": "shelter-001",
+    "tags": ["shelter", "intermediate", "site-selection"]
+  },
+  {
+    "id": "quiz-shelter-004",
+    "category": "shelter",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You've built a quinzhee (mounded snow shelter) in winter emergency conditions and have been inside for 3 hours with 2 other people. What is the single greatest risk that could kill you overnight?",
+    "options": [
+      { "id": "a", "text": "Frostbite from contact with the snow walls as body heat melts the surface" },
+      { "id": "b", "text": "The roof collapsing from snow weight accumulation above" },
+      { "id": "c", "text": "Ventilation hole becoming blocked — CO2 buildup leading to suffocation" },
+      { "id": "d", "text": "Moisture from breath condensing and re-freezing, dropping interior temperature" }
+    ],
+    "correct": "c",
+    "explanation": "CO2 (not CO — no combustion source) buildup from breathing is the primary killer in snow shelters. Three people in a sealed quinzhee can reach dangerous CO2 levels (above 5%) in under 2 hours if the vent hole is blocked. The vent hole must be maintained — poke it clear from inside every time you check it. Mark the vent location outside with a ski pole or stick so rescuers can find it. Frostbite from walls is minor — the interior surface warms above freezing from body heat. Collapse is rare with a properly hardened quinzhee (let it sinter 90 minutes before hollowing). Moisture is an insulation/comfort issue, not a life threat.",
+    "relatedGuide": "shelter-002",
+    "tags": ["shelter", "intermediate", "snow-shelter", "winter"]
+  },
+  {
+    "id": "quiz-shelter-dt-002",
+    "category": "shelter",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Urban Winter — Grid Down Day 3",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "3 days after a full grid-down event. Mid-January, outdoor temps at night: 18°F. You are in a 6-story apartment building. Power, heat, and water are out. You have: 2 sleeping bags (rated to 20°F), a propane camp stove with 1 canister, a hand-crank radio, and food for 5 days. Where do you shelter?",
+        "options": [
+          { "text": "Stay in your 4th-floor apartment and work to retain heat", "next": "stay_4th_floor" },
+          { "text": "Move to a ground-floor unit (empty, can break in) for easier exit/entry", "next": "go_ground" },
+          { "text": "Move to the building's stairwell — it's interior and protected", "next": "stairwell" }
+        ]
+      },
+      "stay_4th_floor": {
+        "id": "stay_4th_floor",
+        "scenario": "Smart. Upper floors retain heat longer than ground-floor units due to reduced floor conduction and wind exposure. Which heat retention action do you take first?",
+        "options": [
+          { "text": "Seal the apartment door and windows with duct tape and plastic sheeting to reduce air infiltration", "next": "seal_room" },
+          { "text": "Move all sleeping gear into one interior bathroom and create a 'room within a room'", "next": "interior_room" }
+        ]
+      },
+      "seal_room": {
+        "id": "seal_room",
+        "outcome": "success",
+        "explanation": "Sealing reduces infiltration significantly. However, the most effective urban cold-weather technique is the 'room within a room' — concentrate body heat in the smallest interior space possible. The large exterior window is a major thermal bridge. That night, your 580 sq ft apartment drops to 38°F — survivable in sleeping bags, but cold. Better execution: move to interior room + use sleeping bags together."
+      },
+      "interior_room": {
+        "id": "interior_room",
+        "outcome": "success",
+        "explanation": "Excellent. The 'room within a room' principle is the most effective passive heat retention in grid-down urban scenarios. Interior rooms with no exterior walls (typically bathrooms and closets) lose heat only through interior walls, which are insulated against other units. Body heat in ~40 cubic feet combined with sleeping bags rated to 20°F creates a survivable microclimate even in severe cold. The bathroom stays 20°F warmer than the exterior apartment."
+      },
+      "go_ground": {
+        "id": "go_ground",
+        "outcome": "poor",
+        "explanation": "Ground-floor units have floor conduction from the cold earth, greater wind infiltration at door seals, and are the first-floor breach point in insecure conditions. The slab foundation conducts cold directly — ground temperatures in January may be 32-36°F, turning the floor into a massive heat sink. Upper floors with interior rooms are dramatically warmer. Stay above the second floor whenever possible."
+      },
+      "stairwell": {
+        "id": "stairwell",
+        "outcome": "poor",
+        "explanation": "Stairwells are the worst possible shelter in a cold apartment building. The chimney effect — warm air rising and escaping through roof access, drawing cold air in at the base — creates a continuous cold draft. Without walls on all sides, no heat can accumulate. The stairwell may be useful for brief movement but never for sleeping in cold conditions. Stay in enclosed units with closable doors."
+      }
+    },
+    "relatedGuide": "shelter-003",
+    "tags": ["shelter", "advanced", "urban", "grid-down", "winter"]
+  }
+]

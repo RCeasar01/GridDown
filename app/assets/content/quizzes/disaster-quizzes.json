@@ -1,0 +1,118 @@
+[
+  {
+    "id": "quiz-disaster-dt-001",
+    "category": "disaster",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "EMP Event — Hour 1 Decisions",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "Your car stopped in traffic simultaneously with all other vehicles. Traffic lights are off. Your cell phone is completely dead. Store alarms are going off citywide. Based on these indicators, you suspect an EMP event. You are 12 miles from home with your everyday carry bag. What is your first action?",
+        "options": [
+          { "text": "Begin the 12-mile walk home immediately — retrieve your family and supplies", "next": "walk_home" },
+          { "text": "Stop, observe the situation for 10-15 minutes, gather information from people around you before committing to an action", "next": "observe_first" }
+        ]
+      },
+      "observe_first": {
+        "id": "observe_first",
+        "scenario": "After 15 minutes you confirm: no vehicles work, no cell phones work, no radio from anyone nearby. A police officer on foot approaches saying he received no communications before his radio died. This confirms a broad EM event. Do you:",
+        "options": [
+          { "text": "Begin walking home — 12 miles is a 4-hour walk, daylight is available", "next": "walk_home" },
+          { "text": "Look for a pre-1985 diesel vehicle that may have survived — older vehicles have no solid-state electronics", "next": "find_old_vehicle" }
+        ]
+      },
+      "walk_home": {
+        "id": "walk_home",
+        "outcome": "success",
+        "explanation": "Walking home is correct when the distance is manageable and daylight is available. 12 miles = approximately 4 hours at a comfortable pace. Key walking-home principles: stay off main roads where possible (less exposure to panicking crowds), carry water and a snack, navigate by landmark/sun/compass rather than GPS. At home: implement 72-hour plan immediately — fill bathtubs, take cash, implement comms plan with out-of-area contact, move critical supplies to a secure location. The first 72 hours are about information gathering and security, not long-term logistics."
+      },
+      "find_old_vehicle": {
+        "id": "find_old_vehicle",
+        "outcome": "success",
+        "explanation": "Old diesel vehicles are a legitimate EMP contingency. The challenge: you must find one, the owner must be willing to help you, and fuel availability is uncertain (though mechanical diesel pumps at some stations may still work). This is a viable secondary approach but takes time — weigh the time cost of searching versus the certainty of walking. If you find a working vehicle in 30 minutes, it's worth it. If it takes 2+ hours, you've lost your daylight walking window."
+      }
+    },
+    "relatedGuide": "disaster-001",
+    "tags": ["disaster", "EMP", "grid-down", "advanced"]
+  },  {
+    "id": "quiz-disaster-002",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "You hear a nuclear detonation occurred 15 miles from your location. You are indoors in a concrete building. The wind is blowing TOWARD you from the direction of the detonation. FEMA guidance says: what is the correct action?",
+    "options": [
+      { "id": "a", "text": "Evacuate immediately — 15 miles is within the severe fallout zone and you must leave now" },
+      { "id": "b", "text": "Shelter-in-place immediately — go to the center of a middle floor, seal windows/doors, turn off HVAC, and monitor for official guidance within 24 hours" },
+      { "id": "c", "text": "Evacuate perpendicular to the wind — drive crosswind to avoid the fallout plume" },
+      { "id": "d", "text": "Go to the basement for 3-7 days — underground provides the most shielding" }
+    ],
+    "correct": "b",
+    "explanation": "The FEMA/DHS 'Get Inside, Stay Inside, Stay Tuned' guidance: at 15 miles and winds toward you, fallout arrives in approximately 15-30 minutes. You do NOT have time to safely evacuate — you will be caught in the open during peak fallout. Shelter-in-place in a substantial building (concrete, brick) dramatically reduces radiation exposure. Fallout intensity decreases by the Rule of 7: for every 7x increase in time after detonation, radiation reduces by a factor of 10 (7 hours = 90% reduction, 49 hours = 99% reduction). The center of a middle floor is optimal (most mass between you and the exterior). Basement is better than nothing but may not be available. Stay sealed for minimum 24 hours, preferably 48-72, or until official guidance. Do NOT open the building during peak fallout.",
+    "relatedGuide": "disaster-001",
+    "tags": ["disaster", "nuclear", "shelter-in-place", "advanced"]
+  },
+  {
+    "id": "quiz-disaster-003",
+    "category": "disaster",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "You are indoors in a multi-story building when a major earthquake begins. Place these actions in the correct order.",
+    "items": [
+      { "id": "1", "text": "Drop to hands and knees immediately — prevents being knocked down" },
+      { "id": "2", "text": "Cover your head and neck with your arms or under a sturdy desk/table" },
+      { "id": "3", "text": "Hold on until shaking stops — do not move to exit while the building is moving" },
+      { "id": "4", "text": "After shaking stops, check yourself and others for injuries before moving" },
+      { "id": "5", "text": "Evacuate the building using stairs (never elevator) and move to open space away from buildings" }
+    ],
+    "correct_order": ["1", "2", "3", "4", "5"],
+    "explanation": "DROP-COVER-HOLD ON is the FEMA-recommended earthquake protocol based on injury data analysis. DROP immediately — being on hands and knees prevents falls and allows movement. COVER — most earthquake injuries are from falling objects, not building collapse (in modern structures). Get under a desk or cover head/neck if no desk available. HOLD ON — shaking typically lasts 10-30 seconds. Most injuries happen from people trying to move or exit during shaking. After shaking: assess before moving (shock can mask injuries). Exit via stairs — elevators may be compromised. Move to open space away from building facades, power lines, and glass. Do NOT run into doorways — the 'doorframe' myth has been disproven. Interior rooms under structural beams are preferred cover.",
+    "relatedGuide": "disaster-001",
+    "tags": ["disaster", "earthquake", "drop-cover-hold", "beginner"]
+  },  {
+    "id": "quiz-disaster-004",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Floodwaters from a river have receded from your neighborhood. Standing water remains in your yard. Your water well was submerged. When is it safe to use water from the flooded well?",
+    "options": [
+      { "id": "a", "text": "Once the water level returns to normal — the flood removed contaminants as it receded" },
+      { "id": "b", "text": "After the well is professionally disinfected with chlorine bleach shock treatment AND tested for bacterial contamination" },
+      { "id": "c", "text": "After running the pump for 30 minutes to flush flood water out" },
+      { "id": "d", "text": "Floodwater contaminates wells permanently — a new well must be drilled" }
+    ],
+    "correct": "b",
+    "explanation": "Flooded wells are contaminated with sewage, agricultural runoff, fuel, chemicals, and biological pathogens. The correct process per CDC/EPA: (1) Wait until floodwaters fully recede. (2) Pump out all standing water from the well. (3) Shock disinfect with regular household bleach (unscented, 8.25% sodium hypochlorite): use CDC formula for your well depth (typically 1-2 cups per 100 gallons of water in the well). (4) Let sit 12-24 hours. (5) Pump until bleach odor is gone. (6) Test with a certified lab for coliform bacteria, E. coli, and nitrates. Do NOT use until test results confirm safety. Running the pump alone does not reach contamination in the well casing and gravel pack. Wells can be remediated — permanent abandonment is rarely necessary.",
+    "relatedGuide": "disaster-001",
+    "tags": ["disaster", "flood", "water-safety", "intermediate"]
+  },
+  {
+    "id": "quiz-disaster-dt-002",
+    "category": "disaster",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Category 3 — 36 Hours Out",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "A Category 3 hurricane (sustained winds 111-129 mph) is forecast to make landfall 36 hours from now, with your location in the forecast cone. Your home is a 1970s wood-frame house in a zone B evacuation area (storm surge 4-6 feet possible). Mandatory evacuation has not been ordered. Do you evacuate or stay?",
+        "options": [
+          { "text": "Evacuate now — 36 hours gives you time to beat the evacuation traffic", "next": "evacuate_now" },
+          { "text": "Wait for mandatory evacuation order — leaving prematurely wastes resources and the storm may turn", "next": "wait_mandatory" }
+        ]
+      },
+      "evacuate_now": {
+        "id": "evacuate_now",
+        "outcome": "success",
+        "explanation": "Zone B (4-6 foot surge) in a wood-frame home from the 1970s is a high-risk combination. Wood-frame homes from the pre-2000 era have inadequate hurricane strapping and can fail in sustained Cat 3 winds. A 4-6 foot storm surge will destroy most ground-floor contents and is life-threatening. Evacuating 36 hours out beats traffic congestion that typically begins at the 18-24 hour mark. Rule: if you have the time, use it. The cost of an unnecessary evacuation is inconvenience. The cost of a failed shelter-in-place is potentially your life."
+      },
+      "wait_mandatory": {
+        "id": "wait_mandatory",
+        "outcome": "poor",
+        "explanation": "Wood-frame pre-code construction + Zone B surge + Cat 3 = very high risk for shelter-in-place. The mandatory evacuation order often comes too late for those with limited resources, pets, elderly family, or who are far from highways. The decision to evacuate should be personal — made at the 36-72 hour mark, not at the 20-hour mark when traffic is gridlocked. In Zone B: if you cannot reach a hardened shelter (Category 5 rated) within your zone, evacuate for anything Cat 2 or higher. The rule of thumb: if you are in a surge zone in any structure built before 2000, evacuate for anything Cat 2 or higher."
+      }
+    },
+    "relatedGuide": "disaster-001",
+    "tags": ["disaster", "hurricane", "evacuation", "advanced"]
+  }
+]

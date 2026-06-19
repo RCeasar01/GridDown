@@ -1,0 +1,108 @@
+[
+  {
+    "id": "quiz-vehicle-001",
+    "category": "vehicle",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your vehicle has a flat tire. Your hydraulic jack failed. You have a hi-lift jack, a vehicle owner's manual, and basic tools. No nearby help. Which method is most reliable for changing the tire?",
+    "options": [
+      { "id": "a", "text": "Find a hill, drive onto rocks on the good side to tilt the vehicle and create clearance" },
+      { "id": "b", "text": "Use the hi-lift jack on the vehicle's frame or bumper receiver point as specified in your owner's manual" },
+      { "id": "c", "text": "Dig out the dirt under the flat tire until the rim clears the ground" },
+      { "id": "d", "text": "Remove the spare and place it under the axle, then deflate all remaining tires to lower the vehicle" }
+    ],
+    "correct": "b",
+    "explanation": "A Hi-Lift jack (farm jack) is the correct tool — it can lift a vehicle from frame points, receiver hitches, or bumper mounting points. Consult your owner's manual for the approved jack points — using wrong points can deform the body or cause the vehicle to slip. Hi-Lift jacks are NOT stable — always chock the remaining wheels and never put any body part under the vehicle while supported only by a Hi-Lift. If no Hi-Lift: digging under the flat tire (option c) is the backup method — dig until the rim clears, then work the tire off the rim manually if necessary. Driving up rocks is difficult to control. Deflating all tires creates an additional problem without solving the original.",
+    "relatedGuide": "vehicle-001",
+    "tags": ["vehicle", "tires", "field-repair", "intermediate"]
+  },
+  {
+    "id": "quiz-vehicle-002",
+    "category": "vehicle",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "Your vehicle battery is dead. A good Samaritan has cables. Place the jumper cable connection steps in the correct order to prevent sparking damage to electronics and risk of battery explosion.",
+    "items": [
+      { "id": "1", "text": "Connect red (positive) clamp to dead battery positive terminal" },
+      { "id": "2", "text": "Connect red (positive) clamp to good battery positive terminal" },
+      { "id": "3", "text": "Connect black (negative) clamp to good battery negative terminal" },
+      { "id": "4", "text": "Connect black (negative) clamp to unpainted metal on the DEAD car's engine block or chassis — NOT the dead battery negative terminal" },
+      { "id": "5", "text": "Start the good vehicle, allow 2 minutes, then start the dead vehicle" }
+    ],
+    "correct_order": ["2", "1", "3", "4", "5"],
+    "explanation": "The correct order prevents sparking near the battery: Red to GOOD positive first (establishes circuit reference), Red to DEAD positive (connection to dead battery), Black to GOOD negative, Black to ENGINE BLOCK on dead car (NOT the dead battery negative). Why engine block? Batteries vent hydrogen gas — a spark near the vent causes explosion. By grounding to the engine block away from the battery, any connection spark happens away from the gas. Disconnect in REVERSE order: Black from engine block → Black from good → Red from dead → Red from good. Never let the clamps touch each other while connected to a live battery.",
+    "relatedGuide": "vehicle-001",
+    "tags": ["vehicle", "battery", "jump-start", "beginner"]
+  },  {
+    "id": "quiz-vehicle-dt-001",
+    "category": "vehicle",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Temperature Light — 60 Miles Out",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "You're bugging out on a highway, 60 miles from your destination. Temperature gauge spikes to red and the warning light activates. Steam is visible from the hood edges. Traffic is minimal. What is your first action?",
+        "options": [
+          { "text": "Pull off immediately, turn off the engine, do not open the hood yet", "next": "pull_off_correct" },
+          { "text": "Turn on the heater to full blast and limp to the next exit 8 miles ahead", "next": "limp_ahead" }
+        ]
+      },
+      "pull_off_correct": {
+        "id": "pull_off_correct",
+        "scenario": "Correct. Engine off. Wait 15-20 minutes before approaching the hood. When you open the hood, the radiator cap is pressurized and hot. Do you:",
+        "options": [
+          { "text": "Open the radiator cap slowly using a thick cloth, facing away from it", "next": "cap_slow" },
+          { "text": "Open the overflow reservoir cap — check level there rather than the pressurized radiator", "next": "overflow_check" }
+        ]
+      },
+      "overflow_check": {
+        "id": "overflow_check",
+        "scenario": "Smart and safer. The overflow reservoir (usually translucent plastic) shows coolant level without pressurized burn risk. It's empty. You have 2 gallons of water in the vehicle. What do you add?",
+        "options": [
+          { "text": "Add water to the overflow reservoir only — never add cold water to a hot engine", "next": "add_overflow" },
+          { "text": "Wait until the engine is fully cool (45+ min), then add water to the radiator directly", "next": "wait_cool" }
+        ]
+      },
+      "wait_cool": {
+        "id": "wait_cool",
+        "outcome": "success",
+        "explanation": "Waiting for the engine to fully cool before adding water is the safest method. Adding cold water to a hot engine can crack the engine block from thermal shock. The recurring overheat indicates a coolant leak or thermostat failure — not just low coolant. You got 20 more miles out of the vehicle. At the next overheat, evaluate whether continuing is worth engine destruction. Carry coolant/water and repeat the coolant-add process, or stop and foot-exfil."
+      },
+      "add_overflow": {
+        "id": "add_overflow",
+        "outcome": "success",
+        "explanation": "Adding to the overflow reservoir feeds the radiator as it cools and pressure drops — it is the safer method. The recurring overheat indicates a leak. You may be able to limp to your destination with repeated coolant-add stops. Key rule: when you see the temp gauge rise, pull over BEFORE it redlines to prevent head gasket damage. A blown head gasket ends your vehicle's utility entirely."
+      },
+      "cap_slow": {
+        "id": "cap_slow",
+        "outcome": "success",
+        "explanation": "Opening the radiator cap slowly with a thick cloth while facing away reduces burn risk if residual pressure releases. This method works but carries more risk than checking the overflow reservoir first. Once open, confirm coolant level is low, then add water slowly with the engine cool. Never open a hot radiator cap quickly — pressurized steam causes severe burns."
+      },
+      "limp_ahead": {
+        "id": "limp_ahead",
+        "outcome": "poor",
+        "explanation": "Running the heater IS a legitimate short-term overheating mitigation (it pulls heat from the coolant). However, if the temperature is already at maximum, this is not enough. Driving a severely overheating engine causes head gasket failure and potential engine seizure — both permanently disable the vehicle. Pull off and stop when the temperature gauge is in the red. The 8-mile limp cost you the vehicle. Your gear is now roadside 60 miles from your destination."
+      }
+    },
+    "relatedGuide": "vehicle-001",
+    "tags": ["vehicle", "engine", "overheating", "advanced"]
+  },
+  {
+    "id": "quiz-vehicle-004",
+    "category": "vehicle",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You want to store 20 gallons of gasoline for emergency generator use. What is the single most important safety practice?",
+    "options": [
+      { "id": "a", "text": "Store all 20 gallons in a single 20-gallon steel drum in your garage for quick access" },
+      { "id": "b", "text": "Use approved fuel containers, add fuel stabilizer (e.g., Sta-Bil), store in a detached structure with ventilation away from ignition sources" },
+      { "id": "c", "text": "Gasoline has a 5-year shelf life — add date labels and rotate annually" },
+      { "id": "d", "text": "Store in plastic milk jugs — they're airtight and safe for short-term storage" }
+    ],
+    "correct": "b",
+    "explanation": "Approved red fuel containers (ANSI/ASTM-approved) have pressure-relief valves and proper sealing. Fuel stabilizer (Sta-Bil, PRI-G) extends gasoline shelf life from 30 days (untreated) to 12-24 months. Store AWAY from living spaces — gasoline vapors are heavier than air and pool at ground level, traveling to ignition sources (water heater pilot lights, electrical panels). A detached garage or outdoor shed with ventilation is ideal. Untreated gasoline degrades in 30-60 days and will varnish carburetors. Steel drums increase the risk of static discharge fires during transfer. Plastic milk jugs are NOT approved containers — they are not rated for fuel permeation or pressure.",
+    "relatedGuide": "vehicle-001",
+    "tags": ["vehicle", "fuel-storage", "generator", "beginner"]
+  }
+]

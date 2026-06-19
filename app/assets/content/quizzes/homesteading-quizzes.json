@@ -1,0 +1,78 @@
+[
+  {
+    "id": "quiz-home-001",
+    "category": "homesteading",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You're selecting chickens for a self-sufficient homestead. You need breeds that produce both quality eggs and usable meat when culled. Which breed combination best represents true dual-purpose performance?",
+    "options": [
+      { "id": "a", "text": "Leghorn and Cornish Cross — highest individual production in each category" },
+      { "id": "b", "text": "Rhode Island Red and Barred Plymouth Rock — established dual-purpose breeds with good egg production and acceptable meat yield" },
+      { "id": "c", "text": "Silkie and Polish — ornamental breeds valued for their laying consistency under stress" },
+      { "id": "d", "text": "Jersey Giant and Modern Game — large frame with high laying rate" }
+    ],
+    "correct": "b",
+    "explanation": "Rhode Island Reds: 250-300 brown eggs/year, excellent foragers, cold-hardy, heavy enough for table meat (5-6 lbs dressed). Barred Plymouth Rock: 200-250 eggs/year, calm temperament (important for homestead management), similar meat yield to RIR. Both breeds have been selected for self-sufficient homestead use for over a century. Leghorns are outstanding layers (300+ eggs/year) but are small-framed (minimal meat), flighty, and poor in cold. Cornish Cross reach butcher weight in 6-8 weeks but have no laying value and significant health issues in free-range settings. Silkies and Polish are ornamental with poor production. Jersey Giants have excellent meat but very slow growth (5-6 months to butcher weight).",
+    "relatedGuide": "homesteading-001",
+    "tags": ["homesteading", "livestock", "chickens", "beginner"]
+  },
+  {
+    "id": "quiz-home-002",
+    "category": "homesteading",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "You are setting up a long-term food storage system for your homestead. Rank these preservation methods from LONGEST to SHORTEST expected shelf life when properly executed.",
+    "items": [
+      { "id": "1", "text": "Freeze-drying (fruits, vegetables, meats — commercial or home unit)" },
+      { "id": "2", "text": "Pressure canning (meats, vegetables — properly processed in USDA-approved recipes)" },
+      { "id": "3", "text": "Salt curing and drying (jerky, salt pork — moisture reduced below 10%)" },
+      { "id": "4", "text": "Root cellaring (potatoes, carrots, beets — cool, humid, dark)" },
+      { "id": "5", "text": "Lacto-fermentation (sauerkraut, kimchi, pickles — salt brine fermentation)" }
+    ],
+    "correct_order": ["1", "2", "3", "5", "4"],
+    "explanation": "Freeze-drying removes 98%+ of moisture while preserving nutrients and structure — shelf life 25-30 years at room temperature in sealed containers. Pressure canning: high-acid vegetables 18 months, low-acid (meats, beans) 2-5 years when properly processed. Salt-cured and dried meats: 1-4 months at room temperature, longer if vacuum-sealed and refrigerated. Lacto-fermented vegetables: 3-12 months in cool storage (the lacto-fermentation process produces lactic acid which inhibits spoilage, but quality degrades over time). Root cellar vegetables: 3-6 months in optimal conditions (32-40°F, 90-95% humidity) — the shortest shelf life without processing. The key principle: reducing water activity (drying/freeze-drying) provides the longest shelf life; microbial inhibition (acid, salt) is secondary; simple cold storage is shortest.",
+    "relatedGuide": "homesteading-001",
+    "tags": ["homesteading", "food-preservation", "storage", "intermediate"]
+  },  {
+    "id": "quiz-home-dt-001",
+    "category": "homesteading",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Garden Wipeout — August",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "It's mid-August. Your main vegetable garden was destroyed by an unexpected early blight that killed your tomatoes, squash, and beans — 60% of your planned food production for the year. You have 6 weeks until first frost. You have seeds, compost, and irrigation. What is your immediate action?",
+        "options": [
+          { "text": "Immediately replant fast-maturing crops for a partial fall harvest", "next": "replant_fast" },
+          { "text": "Focus on protein and preservation — dedicate energy to hunting, fishing, and preserving what's left", "next": "protein_focus" }
+        ]
+      },
+      "replant_fast": {
+        "id": "replant_fast",
+        "scenario": "Good instinct. With 6 weeks to first frost, which crops do you prioritize?",
+        "options": [
+          { "text": "Plant fast-maturing greens and root vegetables: radishes (25 days), lettuce (30-45 days), turnips (45-60 days), and spinach (40-50 days)", "next": "correct_replant" },
+          { "text": "Replant tomatoes and squash from seed — they were your main crop and you still have seeds", "next": "wrong_replant" }
+        ]
+      },
+      "correct_replant": {
+        "id": "correct_replant",
+        "outcome": "success",
+        "explanation": "In a crop failure pivot, match seed-to-harvest time to your remaining frost-free days. Rule of thumb: maturity days on the seed packet + 2 weeks buffer for frost. Fast-maturing crops — radishes (25-30 days), arugula (30 days), spinach (40 days), turnips (45 days), lettuce (30-45 days) — are the correct pivot crops. Cold frames (simple wood frame + clear plastic) extend the season 4-6 weeks beyond first frost for cold-tolerant crops. Brassicas (kale, broccoli) can also work — they actually improve in flavor after light frost."
+      },
+      "wrong_replant": {
+        "id": "wrong_replant",
+        "outcome": "poor",
+        "explanation": "Tomatoes require 70-90 days from transplant to harvest. You are 6 weeks from frost. Even with transplants (not seeds), you will not harvest before the plants die. You've lost the labor and seed investment. Never replant a long-season crop when you don't have the frost-free days to support it. Know your average first frost date, work backward from it, and only plant crops with sufficient days-to-maturity. A common homestead mistake is emotional attachment to lost crops leading to poor recovery planting decisions."
+      },
+      "protein_focus": {
+        "id": "protein_focus",
+        "outcome": "success",
+        "explanation": "A pure protein focus is defensible — animal protein is calorically dense and preservable. However, abandoning a replant opportunity entirely leaves nutrition gaps (vitamins, carbohydrates) that stored goods may not fill. The best answer combines BOTH: plant fast-maturing crops immediately AND pursue protein — they are not mutually exclusive. This outcome highlights the importance of diversified food production and not over-relying on a single crop."
+      }
+    },
+    "relatedGuide": "homesteading-001",
+    "tags": ["homesteading", "gardening", "food-production", "advanced"]
+  }
+]

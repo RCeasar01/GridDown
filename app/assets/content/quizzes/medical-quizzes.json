@@ -35,3 +35,158 @@
     "relatedGuide": "medical-002",
     "tags": ["medical", "tourniquet", "self-aid", "intermediate"]
   },
+  {
+    "id": "quiz-medical-003",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Your casualty took blunt trauma to the left chest from a vehicle collision. He is conscious but deteriorating rapidly. He shows: decreased breath sounds on the LEFT, respiratory distress, blood pressure dropping (systolic 80), neck veins visibly distended, and trachea deviated toward the RIGHT. Which action is most appropriate?",
+    "options": [
+      { "id": "a", "text": "Position him in recovery position and monitor — this is a simple pneumothorax" },
+      { "id": "b", "text": "Needle decompression: 14-gauge needle at the 2nd intercostal space, midclavicular line on the LEFT side" },
+      { "id": "c", "text": "Needle decompression on the RIGHT (opposite of injury) — tracheal deviation indicates the right lung is compressed" },
+      { "id": "d", "text": "Apply a chest seal to the left chest and reassess" }
+    ],
+    "correct": "b",
+    "explanation": "This is a tension pneumothorax. The diagnostic triad: (1) absent/decreased breath sounds on affected side, (2) tracheal deviation AWAY from the injury (trachea pushes toward right = left tension), (3) hypotension + JVD. The trachea deviates AWAY from the tension — needle decompression goes to the SAME side as the injury (left). Landmark: 2nd ICS, midclavicular line OR 4th-5th ICS, anterior axillary line (now preferred — less risk of hitting the heart or vessels). A simple pneumothorax does not cause tracheal deviation or hemodynamic instability. An occlusive chest seal can worsen tension PTX if it seals completely — use a vented chest seal if one is present.",
+    "relatedGuide": "medical-003",
+    "tags": ["medical", "advanced", "chest-trauma", "pneumothorax"]
+  },
+  {
+    "id": "quiz-medical-dt-001",
+    "category": "medical",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "4 Casualties — Limited Supplies",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "You arrive at a vehicle accident. 4 casualties. You have: 2 tourniquets, 4 hemostatic gauze packs, 1 chest seal, limited bandages. Casualty A: not breathing, positioned on their back, mouth visibly clear. Casualty B: breathing 24/min, radial pulse strong, GCS 14, controlled bleeding from arm. Casualty C: breathing 32/min, no radial pulse (only carotid), severe thigh wound actively bleeding. Casualty D: walking, complaining of wrist pain. Who do you address FIRST?",
+        "options": [
+          { "text": "Reposition Casualty A's airway (head-tilt chin-lift) and check for breathing", "next": "reposition_A" },
+          { "text": "Go directly to Casualty C — highest visible threat (uncontrolled hemorrhage)", "next": "go_to_C" }
+        ]
+      },
+      "reposition_A": {
+        "id": "reposition_A",
+        "scenario": "You tilt A's head. No breathing resumes. In START triage, this means EXPECTANT (black tag). You move on. You now see C actively hemorrhaging. Do you:",
+        "options": [
+          { "text": "Apply tourniquet to C's thigh immediately", "next": "tourniquet_C" },
+          { "text": "Check B first since B has a higher GCS", "next": "check_B_first" }
+        ]
+      },
+      "tourniquet_C": {
+        "id": "tourniquet_C",
+        "outcome": "success",
+        "explanation": "START triage sequence: (1) Walking? → Minor (green), move aside. (2) Breathing after repositioning airway? No → Expectant (black). Yes (>30/min) → Immediate. (3) Radial pulse present? No → Immediate (red). Yes → check GCS. GCS <14 → Immediate. GCS 14+ and RR 10-30 → Delayed (yellow). Casualty A: no breathing after reposition = black. Casualty C: RR 32 + no radial pulse = Immediate (red) — tourniquet now. Casualty B: RR 24, radial pulse, GCS 14 = Delayed (yellow). Casualty D: walking = Minor (green). You triaged and treated correctly."
+      },
+      "check_B_first": {
+        "id": "check_B_first",
+        "outcome": "poor",
+        "explanation": "In START triage, uncontrolled external hemorrhage = Immediate (Red) and takes priority over Delayed (Yellow) casualties. Casualty C's no-radial-pulse + RR 32 confirms Immediate status. GCS score does not override hemorrhage control priority. When a casualty is dying NOW from a treatable cause (tourniquet-able hemorrhage), treat it NOW. B was already assessed as stable by radial pulse and RR — those findings told you B is Yellow. C lost an additional 300ml while you assessed B."
+      },
+      "go_to_C": {
+        "id": "go_to_C",
+        "outcome": "success",
+        "explanation": "Going to C first is defensible in operational triage (visible life-threatening hemorrhage), but the purist START protocol requires you to check airway on non-breathing casualties before classifying Expectant — the 3-second airway check could convert a 'black' to an 'immediate red.' C was correctly prioritized for hemorrhage control. Ensure Casualty A still receives a brief airway check, even if you expect them to remain Expectant. In mass casualty events, follow the protocol consistently so nothing is missed."
+      }
+    },
+    "relatedGuide": "medical-004",
+    "tags": ["medical", "advanced", "triage", "START", "mass-casualty"]
+  },
+  {
+    "id": "quiz-medical-005",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Your casualty has: HR 128, blood pressure 86/60, respiratory rate 28/min, skin pale and clammy, Glasgow Coma Scale 13 (confused). Based on ATLS hemorrhagic shock classification, what class of shock is this, and approximately how much blood has been lost?",
+    "options": [
+      { "id": "a", "text": "Class I — mild, <750ml blood loss, compensated fully" },
+      { "id": "b", "text": "Class II — 750-1500ml, compensated, anxiety but oriented" },
+      { "id": "c", "text": "Class III — 1500-2000ml (~30-40% volume), decompensated — BP dropping, confusion" },
+      { "id": "d", "text": "Class IV — >2000ml (>40% volume), immediately life-threatening" }
+    ],
+    "correct": "c",
+    "explanation": "ATLS Hemorrhagic Shock Classes: Class I (<750ml): HR <100, BP normal, RR normal, normal mentation. Class II (750-1500ml): HR 100-120, BP normal-low, RR 20-30, anxious. Class III (1500-2000ml): HR 120-140, BP drops significantly, RR 30-40, confused. Class IV (>2000ml): HR >140, BP severely depressed, lethargy/unconsciousness. This casualty at HR 128 (borderline III), BP 86/60 (significant drop = decompensated), RR 28, GCS 13 (confusion) = Class III, representing ~1500-2000ml blood loss (30-40% of total ~5L adult volume). Field treatment: control the source (tourniquet, wound packing), position supine or modified Trendelenburg if spine clear, prevent hypothermia, expedite evacuation. Permissive hypotension is preferred over aggressive fluid resuscitation in penetrating trauma.",
+    "relatedGuide": "medical-005",
+    "tags": ["medical", "advanced", "shock", "hemorrhage", "ATLS"]
+  },
+  {
+    "id": "quiz-medical-dt-002",
+    "category": "medical",
+    "type": "decision_tree",
+    "difficulty": "intermediate",
+    "title": "Unconscious Patient — No Equipment",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "You find an unconscious adult male, unknown cause. He was eating 5 minutes ago. He does not respond to your voice or a sternal rub. He is face-up. What is your first airway action?",
+        "options": [
+          { "text": "Perform head-tilt chin-lift to open the airway, then look-listen-feel for breathing", "next": "head_tilt" },
+          { "text": "Immediately roll him into recovery position", "next": "recovery_position" }
+        ]
+      },
+      "head_tilt": {
+        "id": "head_tilt",
+        "scenario": "You perform head-tilt chin-lift. You hear gurgling sounds and see partial movement of the chest. Do you:",
+        "options": [
+          { "text": "Perform a finger sweep of the mouth for any visible obstruction", "next": "finger_sweep" },
+          { "text": "Apply jaw thrust instead and call for help", "next": "jaw_thrust_only" }
+        ]
+      },
+      "finger_sweep": {
+        "id": "finger_sweep",
+        "outcome": "success",
+        "explanation": "Head-tilt chin-lift is the primary airway maneuver for an unconscious person with no suspected spinal injury. Gurgling indicates a partial obstruction that a finger sweep can clear. Only perform a finger sweep for VISIBLE or PALPABLE obstructions — blind finger sweeps can push objects deeper. With breathing restored, the recovery position (lateral, stable, head tilted back) prevents aspiration of vomit, which is the #1 secondary airway threat in unconscious patients."
+      },
+      "jaw_thrust_only": {
+        "id": "jaw_thrust_only",
+        "outcome": "poor",
+        "explanation": "Jaw thrust is the preferred maneuver when spinal injury is suspected — it opens the airway without neck extension. However, it does not clear a physical obstruction. If you hear gurgling after any airway maneuver, you must assess for and clear the obstruction. Look in the mouth, sweep for visible material. The jaw thrust plus airway clearance would have been correct."
+      },
+      "recovery_position": {
+        "id": "recovery_position",
+        "outcome": "poor",
+        "explanation": "The correct sequence is: check airway, open airway, look-listen-feel for breathing, address obstruction if present, THEN recovery position. Rolling without first checking the airway skips the most critical step. The gurgling (from the partial food obstruction) would have been detected immediately with a proper airway check — and cleared with a finger sweep before positioning."
+      }
+    },
+    "relatedGuide": "medical-001",
+    "tags": ["medical", "intermediate", "airway", "unconscious", "decision-tree"]
+  },
+  {
+    "id": "quiz-medical-007",
+    "category": "medical",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "A casualty has a deep stab wound to the lateral hip/groin junction — not amenable to tourniquet placement. Bright red arterial blood. You have hemostatic gauze (QuikClot or similar) and a pressure bandage. Order these steps correctly.",
+    "items": [
+      { "id": "1", "text": "Expose the wound fully — cut away clothing for clear access" },
+      { "id": "2", "text": "Pack hemostatic gauze tightly into the deepest portion of the wound cavity, pressing to the bottom" },
+      { "id": "3", "text": "Continue packing additional gauze on top, filling the cavity completely" },
+      { "id": "4", "text": "Apply firm direct pressure with your hand for a minimum of 3 minutes (5 min recommended for hemostatic gauze)" },
+      { "id": "5", "text": "Apply a pressure bandage over the packed wound to maintain compression" },
+      { "id": "6", "text": "Mark the casualty card or patient's forehead with time of treatment and hemostatic gauze used" }
+    ],
+    "correct_order": ["1", "2", "3", "4", "5", "6"],
+    "explanation": "Exposure first — you cannot treat what you cannot see. Clothing conceals wound depth and prevents proper packing. Pack to the BOTTOM of the cavity — the most common packing error is building up from the surface and leaving a dead space at the base where bleeding continues. Fill the cavity completely — hemostatic gauze works by concentrating clotting factors and applying mechanical pressure. Three to five minutes of FIRM direct pressure is mandatory — releasing early is the second most common error. Pressure bandage maintains the pack while you move to other casualties. Mark the patient — receiving providers need to know hemostatic gauze is inside (removal requires irrigation in a surgical setting).",
+    "relatedGuide": "medical-002",
+    "tags": ["medical", "intermediate", "wound-packing", "hemorrhage", "hemostatic"]
+  },
+  {
+    "id": "quiz-medical-008",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You have a dehydrated partner who is conscious and can swallow. You have clean (boiled) water, table salt, and sugar. What is the WHO-recommended oral rehydration solution formula?",
+    "options": [
+      { "id": "a", "text": "1 teaspoon salt + 8 teaspoons sugar per 1 liter water" },
+      { "id": "b", "text": "6 level teaspoons sugar + half a teaspoon salt per 1 liter water" },
+      { "id": "c", "text": "1 tablespoon salt + 1 tablespoon sugar per 1 liter water" },
+      { "id": "d", "text": "2 teaspoons baking soda + 4 teaspoons sugar per 1 liter water" }
+    ],
+    "correct": "b",
+    "explanation": "WHO ORS formula: 6 level teaspoons (30ml) glucose/sugar + 0.5 teaspoon (2.5ml) salt in 1 liter clean water. The sugar:salt ratio is critical. Too much salt causes hypernatremia (sodium poisoning) — 1 tablespoon salt is 3x the safe dose and can cause seizures in a dehydrated person. The glucose is not just for calories — it enables sodium-glucose cotransport (SGLT mechanism) in the intestinal lining, dramatically increasing water absorption. Plain water without glucose/salt does not absorb as efficiently. Give 200-400mL every 30 minutes. If vomiting occurs, give smaller sips (30-50mL) every 5 minutes. Escalate to IV fluids if: unconscious, persistent vomiting, signs of shock.",
+    "relatedGuide": "medical-001",
+    "tags": ["medical", "beginner", "dehydration", "ORS", "rehydration"]
+  }
+]

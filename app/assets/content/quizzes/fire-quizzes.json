@@ -34,3 +34,76 @@
     "relatedGuide": "fire-001",
     "tags": ["fire", "beginner", "fire-lay"]
   },
+  {
+    "id": "quiz-fire-003",
+    "category": "fire",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Wet Conditions Fire Start",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "It's been raining for 3 days. Everything looks wet. You need fire to boil water for your group. You have: 2 matches, a ferrocerium rod, and a fixed-blade knife. No commercial tinder. What's your first action?",
+        "options": [
+          { "text": "Search for dead standing wood (snags) and split it to expose dry heartwood", "next": "dead_standing" },
+          { "text": "Look for birch trees or resinous pine — both have ignition-resistant bark and pitch", "next": "resinous_sources" }
+        ]
+      },
+      "dead_standing": {
+        "id": "dead_standing",
+        "scenario": "Good. A dead standing snag of hardwood will have dry interior even after days of rain. You find a 4-inch diameter dead oak snag. Do you:",
+        "options": [
+          { "text": "Baton your knife through the center to expose heartwood, then shave fine feather sticks", "next": "feather_sticks_oak" },
+          { "text": "Try to break it into pieces and use the interior chunks directly", "next": "interior_chunks" }
+        ]
+      },
+      "feather_sticks_oak": {
+        "id": "feather_sticks_oak",
+        "outcome": "success",
+        "explanation": "Dead standing wood retains dry interior even in multi-day rain. Batoning to expose heartwood is the correct technique. Fine feather sticks from dry heartwood are excellent tinder. The ferro rod produces a hotter spark than matches — save matches for backup. This is the correct wet-weather sequence: find, split, shave, structure, ignite."
+      },
+      "interior_chunks": {
+        "id": "interior_chunks",
+        "outcome": "poor",
+        "explanation": "Tinder must be FINE — the ignition temperature threshold depends on exposed surface area. A chunk of dry wood, no matter how dry, will not catch from a spark or match. You must shave or create feather sticks to expose fine fibers with high surface area. The interior dry wood was the right material — the wrong form."
+      },
+      "resinous_sources": {
+        "id": "resinous_sources",
+        "scenario": "You find a standing dead pine. The base where dead branches were is packed with dried pitch (fatwood). Fatwood burns even when wet because the resin repels water and has a high BTU content. Do you:",
+        "options": [
+          { "text": "Collect the pitch-saturated wood at branch junctions and the base, shave tinder from it", "next": "fatwood_tinder" },
+          { "text": "Use the birch bark you find on a fallen log nearby as your primary tinder", "next": "birch_bark" }
+        ]
+      },
+      "fatwood_tinder": {
+        "id": "fatwood_tinder",
+        "outcome": "success",
+        "explanation": "Fatwood (resin-saturated pine heartwood) is the best wet-weather natural tinder. It ignites at lower temperatures due to turpentine content and burns at over 1,000°F. Always check pine snags and base junctions for yellow-orange resin-soaked wood. It smells strongly of pine resin. This is a top-tier wet fire starting skill."
+      },
+      "birch_bark": {
+        "id": "birch_bark",
+        "outcome": "success",
+        "explanation": "Birch bark contains betulin and other oils that make it highly flammable even when damp. Both birch bark and fatwood are excellent wet-condition tinders. Birch bark ignites even when slightly wet due to oil content. Note: only use fallen/dead birch — peeling live birch bark kills the tree. The outer papery layers are the tinder; the inner layers are kindling material. Use whatever resinous or oil-containing material you can find in wet conditions."
+      }
+    },
+    "relatedGuide": "fire-001",
+    "tags": ["fire", "advanced", "wet-conditions", "decision-tree"]
+  },
+  {
+    "id": "quiz-fire-004",
+    "category": "fire",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You're setting up camp in a dry pine forest. Wind is from the northwest at about 10mph. You plan to build a fire. Which action is the HIGHEST PRIORITY safety step before lighting?",
+    "options": [
+      { "id": "a", "text": "Build the fire in a depression at least 6 inches deep to contain embers" },
+      { "id": "b", "text": "Clear all combustible material (dead leaves, pine needles, dry grass) in a minimum 3-foot radius around the fire site" },
+      { "id": "c", "text": "Position the fire to the southeast of your shelter so smoke blows away from camp" },
+      { "id": "d", "text": "Limit fire diameter to 18 inches maximum" }
+    ],
+    "correct": "b",
+    "explanation": "Ember control is the #1 priority. The vast majority of wildfire ignitions from campfires happen when a single ember lands in surrounding dry material. The debris clearance radius is non-negotiable — 3 feet minimum in dry conditions, 5 feet in very dry/windy conditions. Building in a depression helps contain heat but doesn't stop airborne embers. Positioning relative to shelter matters for comfort but is not a safety priority. Limiting size is good practice but secondary to clearing the fuel bed. Scrape down to mineral soil in the fire area when possible.",
+    "relatedGuide": "fire-002",
+    "tags": ["fire", "beginner", "safety"]
+  }
+]

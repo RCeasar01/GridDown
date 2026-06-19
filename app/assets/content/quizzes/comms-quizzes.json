@@ -1,0 +1,54 @@
+[
+  {
+    "id": "quiz-comms-001",
+    "category": "communications",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You need to signal an aircraft approximately 3 miles away. You have a signal mirror (commercial type with aiming hole). Which technique is correct?",
+    "options": [
+      { "id": "a", "text": "Aim the mirror directly at the sun, then reflect sunlight toward the aircraft" },
+      { "id": "b", "text": "Hold mirror to your eye, sight the aircraft through the aiming hole, tilt until the bright reflection spot on your face aligns with the hole — then hold" },
+      { "id": "c", "text": "Flash SOS pattern (3 short-3 long-3 short) continuously at maximum rate" },
+      { "id": "d", "text": "Only use signal mirrors at noon when the sun is directly overhead — other angles are ineffective" }
+    ],
+    "correct": "b",
+    "explanation": "Signal mirror with aiming hole: (1) Hold mirror near your eye. (2) Sight the target through the aiming hole. (3) Tilt the mirror until the bright reflected 'fireball' on your face aligns with the aiming hole. (4) The reflection is now aimed at your target. (5) Sweep slowly — don't flash rapidly, sweep at 2-3 second intervals so observers can see the reflection. A signal mirror can be visible 10-20 miles in direct sunlight. WITHOUT an aiming hole: hold 2 fingers in a V at arm's length, sight the target between the fingers, tilt mirror until reflection hits your fingers and reflects to the target. Do NOT aim directly at the sun — you're reflecting FROM the sun, not at it. Signal mirrors work at any sun angle as long as the sun is visible.",
+    "relatedGuide": "comms-001",
+    "tags": ["communications", "signaling", "survival", "beginner"]
+  },
+  {
+    "id": "quiz-comms-002",
+    "category": "communications",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "You need to construct a signal fire for daytime aircraft signaling. You have dry wood, green vegetation (leaves/pine boughs), and a working lighter. Order these steps from first to last.",
+    "items": [
+      { "id": "1", "text": "Build a base fire structure using dry wood for reliable ignition (tinder, kindling, fuel)" },
+      { "id": "2", "text": "Select a site with maximum air visibility — open clearing, hilltop, or large flat rock" },
+      { "id": "3", "text": "Gather a large pile of green vegetation (leaves, grass, pine boughs) to pile on once fire is lit" },
+      { "id": "4", "text": "Light the base fire and allow it to establish for 3-5 minutes" },
+      { "id": "5", "text": "Add green vegetation on top of established fire to create dense white-grey smoke visible from aircraft" }
+    ],
+    "correct_order": ["2", "1", "3", "4", "5"],
+    "explanation": "Site selection first — a brilliant signal fire in a forest clearing is nearly invisible from the air. Open ground, ridge lines, or prominent terrain features are required. Build the ignition base before gathering green material — green vegetation is heavy to transport and irrelevant until you have fire. Gather green material in quantity while your base is building (time efficiency). Light the base and let it establish before adding green — adding green to a new fire smothers it. Dense green material produces white/grey smoke visible against terrain. At night: no smoke needed — bright flames are visible. Signal 3 fires in a triangle (international distress) if material and time permit.",
+    "relatedGuide": "comms-001",
+    "tags": ["communications", "signaling", "fire", "intermediate"]
+  },
+  {
+    "id": "quiz-comms-003",
+    "category": "communications",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You're stranded on a remote lake. A vessel is passing approximately 400 meters away. You have a whistle. What is the internationally recognized whistle distress signal?",
+    "options": [
+      { "id": "a", "text": "One long blast — used universally for distress on water" },
+      { "id": "b", "text": "Three short blasts repeated — the universal distress signal recognized by maritime, SAR, and wilderness protocols" },
+      { "id": "c", "text": "Two long blasts alternating with two short blasts — Morse code for 'SOS'" },
+      { "id": "d", "text": "Continuous blowing for 30 second intervals — the duration indicates distress" }
+    ],
+    "correct": "b",
+    "explanation": "The universal distress signal is the Rule of 3: three of anything (3 whistle blasts, 3 gunshots, 3 fires in a triangle, 3 mirror flashes). Three short blasts repeated, with a pause between sets, is internationally recognized by maritime and SAR protocols. SOS in Morse code is 3 short / 3 long / 3 short — but this is not the standard whistle protocol (most people don't recognize Morse code). One long blast on a vessel horn means you're leaving a dock — it is NOT a distress signal. In water survival: blow 3 short blasts, pause, repeat. A Fox 40 or ACME Thunderer whistle can be heard 1+ mile in calm conditions and requires no breath pressure, unlike voice.",
+    "relatedGuide": "comms-001",
+    "tags": ["communications", "signaling", "distress", "beginner"]
+  }
+]

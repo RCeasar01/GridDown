@@ -51,3 +51,76 @@
     "relatedGuide": "water-001",
     "tags": ["water", "intermediate", "purification"]
   },
+  {
+    "id": "quiz-water-004",
+    "category": "water",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Desert Water — No Canteen",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "You are in high desert terrain. 8 hours since your last water. Mild headache, urine is dark amber. 200m north you see green vegetation growing on a hillside. 400m east you see the dry bed of a seasonal wash (arroyo). You have a folding shovel. Which do you investigate first?",
+        "options": [
+          { "text": "Investigate the arroyo for sub-surface water", "next": "arroyo_choice" },
+          { "text": "Head to the vegetation on the hillside", "next": "veg_choice" }
+        ]
+      },
+      "arroyo_choice": {
+        "id": "arroyo_choice",
+        "scenario": "Good instinct. Dry washes often have water a foot or two below the surface — especially at the outside of bends where water pools during flash floods. In the arroyo, where do you dig?",
+        "options": [
+          { "text": "Dig at the outside curve of the arroyo bend, where the flow was strongest", "next": "dig_outside" },
+          { "text": "Dig in the flat center of the dry channel where it's widest", "next": "dig_center" }
+        ]
+      },
+      "dig_outside": {
+        "id": "dig_outside",
+        "outcome": "success",
+        "explanation": "The outside bend is where centrifugal force deposited water during flow — the water table is shallowest there. This is the correct technique. Strain and purify before drinking. Even desert sub-surface water can carry coliform bacteria from animal use upstream."
+      },
+      "dig_center": {
+        "id": "dig_center",
+        "outcome": "poor",
+        "explanation": "The center of a wash has the hardest-packed substrate and is often underlain by caliche — a dense calcified layer that blocks water. Always dig at the outer bend of a curve. You wasted your best energy window of the day after 45 minutes of digging with no result."
+      },
+      "veg_choice": {
+        "id": "veg_choice",
+        "scenario": "You reach the vegetation — sparse desert willow and some barrel cactus. The green is from shrubs adapted to rocky soil, not necessarily from groundwater. Do you:",
+        "options": [
+          { "text": "Dig at the base of the largest plant where roots concentrate", "next": "dig_roots" },
+          { "text": "Cut open a barrel cactus and drink the juice", "next": "cactus_juice" }
+        ]
+      },
+      "dig_roots": {
+        "id": "dig_roots",
+        "outcome": "poor",
+        "explanation": "Desert riparian vegetation doesn't always indicate a water table — many desert shrubs use capillary moisture from clay or deep taproots that go 30+ feet. You find dry clay at 2 feet. The arroyo was your better bet. Look for cottonwoods or seep willow — those typically do indicate permanent water."
+      },
+      "cactus_juice": {
+        "id": "cactus_juice",
+        "outcome": "poor",
+        "explanation": "Barrel cactus liquid is NOT drinkable. It is high in oxalic acid and magnesium sulfate — it causes nausea, vomiting, and diarrhea, worsening dehydration faster than not drinking at all. This is one of the most dangerous survival myths. Saguaro and prickly pear fruit pulp (not juice) can be eaten in small quantities, but neither provides enough liquid to matter. The arroyo was the correct primary target."
+      }
+    },
+    "relatedGuide": "water-002",
+    "tags": ["water", "advanced", "desert", "decision-tree"]
+  },
+  {
+    "id": "quiz-water-005",
+    "category": "water",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You are in a desert with no water source. You have a clear 6-mil plastic sheet (8x8 feet), a shovel, and a collection container. You construct a standard ground solar still with green vegetation added. What is the realistic daily output in IDEAL conditions?",
+    "options": [
+      { "id": "a", "text": "4-6 liters per day — enough to replace daily fluid loss" },
+      { "id": "b", "text": "0.5-1 liter per day — useful supplement but not a primary water source" },
+      { "id": "c", "text": "2-3 liters per 12 daylight hours if vegetation is added" },
+      { "id": "d", "text": "Output varies but always exceeds 1 liter — solar stills are reliable in full sun" }
+    ],
+    "correct": "b",
+    "explanation": "A well-constructed solar still with abundant green vegetation in high sun produces 0.5-1L per day in IDEAL conditions. Most produce less. This is a critical survival fact — the solar still is a supplemental technique, NOT a primary water strategy. The energy expended digging and the water lost sweating while constructing often approach the yield. Best use: as a backup while you pursue better water sources (arroyo digging, transpiration bags, dew collection). Transpiration bags on living vegetation typically out-produce solar stills with far less effort.",
+    "relatedGuide": "water-002",
+    "tags": ["water", "intermediate", "solar-still", "desert"]
+  }
+]

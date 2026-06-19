@@ -1,0 +1,95 @@
+[
+  {
+    "id": "quiz-fm-001",
+    "category": "field-manual",
+    "type": "priority_order",
+    "difficulty": "advanced",
+    "scenario": "You are in the field with a topographic map and lensatic compass but do not know your exact location. You can see two identifiable terrain features: a distinctive hill to your northeast and a water tower to your south. Perform a map resection to find your location. Order these steps correctly.",
+    "items": [
+      { "id": "1", "text": "Identify both terrain features on your topographic map" },
+      { "id": "2", "text": "Take a compass bearing to the first feature (the hill)" },
+      { "id": "3", "text": "Convert the magnetic bearing to a grid/true bearing using declination" },
+      { "id": "4", "text": "Draw the back-bearing line from the first feature on the map (add or subtract 180°)" },
+      { "id": "5", "text": "Repeat steps 2-4 for the second terrain feature — your location is where the two back-bearing lines intersect" }
+    ],
+    "correct_order": ["1", "2", "3", "4", "5"],
+    "explanation": "Resection (also called triangulation): Identify features on the map first — confirm what you're looking at before taking bearings. Take magnetic bearing to feature using lensatic compass (front sight to target). Convert to grid bearing (apply declination). Back-bearing = bearing + 180° (or − 180° if >180°) — this is the line drawn FROM the feature TOWARD you. Plot the back-bearing line from the identified feature on the map. Repeat for second feature. Intersection = your position. For accuracy: use 3 features if possible (3-point resection). Errors in terrain feature identification or bearing accuracy are the primary failure modes — verify each feature carefully.",
+    "relatedGuide": "navigation-001",
+    "tags": ["navigation", "map-reading", "resection", "advanced"]
+  },
+  {
+    "id": "quiz-fm-002",
+    "category": "field-manual",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your pace count is 62 double-paces per 100 meters on flat ground. You've been counting paces and have reached 496 double-paces on a trail with moderate incline. Approximately how far have you traveled, and what correction should you apply for the terrain?",
+    "options": [
+      { "id": "a", "text": "Exactly 800 meters — pace count is accurate regardless of terrain" },
+      { "id": "b", "text": "Approximately 800 meters on flat ground, but actual distance may be 10-20% less due to incline shortening stride length — apply a reduction factor" },
+      { "id": "c", "text": "496 meters — the pace count equals meters by standard military convention" },
+      { "id": "d", "text": "Over 1,000 meters — inclined terrain requires MORE paces per 100m due to elevation gain" }
+    ],
+    "correct": "b",
+    "explanation": "496 paces ÷ 62 paces/100m = 800 meters (flat ground calculation). However, inclined terrain shortens stride length — most practitioners add 10-25% more paces per 100m on significant slopes. If your flat-ground pace count is 62/100m, your inclined pace count may be 68-75/100m. Without terrain-specific calibration, your distance estimate is shorter than actual by 10-20%. The solution: calibrate your pace count on multiple terrain types (flat, uphill, downhill, thick vegetation) and record each. Keep a pace count bead counter on your person. At night or in vegetation, your pace count will also increase. 496 meters would only be true if your pace count were 1 pace per 1 meter — not standard.",
+    "relatedGuide": "navigation-001",
+    "tags": ["navigation", "pace-count", "dead-reckoning", "intermediate"]
+  },  {
+    "id": "quiz-fm-dt-001",
+    "category": "field-manual",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "6 Hours to Evacuation — Casualty Management",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "You have a gunshot casualty, conscious and alert, tourniquet applied to the right thigh 45 minutes ago, bleeding controlled. Evacuation is 6+ hours away. No IV access equipment. Temperature is dropping (55°F, light rain). The casualty is beginning to shiver. What is your primary concern for the next hour?",
+        "options": [
+          { "text": "Hypothermia prevention — the Lethal Triad (hypothermia, acidosis, coagulopathy) is now your primary threat", "next": "hypothermia_focus" },
+          { "text": "Tourniquet conversion — 45 minutes is approaching the window where you should consider loosening the TQ to assess wound", "next": "tq_conversion" }
+        ]
+      },
+      "hypothermia_focus": {
+        "id": "hypothermia_focus",
+        "scenario": "Correct priority. You cover the casualty with a space blanket or any insulating material. What do you do about the injured limb?",
+        "options": [
+          { "text": "Leave the tourniquet and monitor — do not touch it until reaching surgical care unless bleeding restarts", "next": "leave_tq" },
+          { "text": "Elevate the extremity above heart level to reduce swelling and pain", "next": "elevate_limb" }
+        ]
+      },
+      "leave_tq": {
+        "id": "leave_tq",
+        "outcome": "success",
+        "explanation": "The Lethal Triad of trauma: Hypothermia + Acidosis + Coagulopathy. Each worsens the others — hypothermia impairs clotting, acidosis worsens hypothermia, coagulopathy causes bleeding which causes acidosis. With hemorrhage controlled (TQ working), the next threat is hypothermia. Cover casualty from the ground up (ground insulation first). Keep the TQ in place — do not loosen or convert in the field without surgical capability or clear clinical indication. Monitor for: rebleeding (blood soaking through), tourniquet migration, and skin changes distal to TQ."
+      },
+      "elevate_limb": {
+        "id": "elevate_limb",
+        "outcome": "success",
+        "explanation": "Limb elevation with a tourniquet in place is not harmful, but it's not the priority. The hypothermia focus was correct — addressing the Lethal Triad first. Elevation can be maintained while also managing hypothermia. The key teaching point: in extended care scenarios, prioritize hypothermia prevention, pain management (if available), hydration (if no contraindication), and monitoring over interventions that provide marginal benefit."
+      },
+      "tq_conversion": {
+        "id": "tq_conversion",
+        "outcome": "poor",
+        "explanation": "Tourniquet conversion is a surgical decision, not a field decision. The 2-hour guideline is about evacuation priority (within 2 hours reduces risk of permanent nerve/vascular damage), NOT a field removal window. In extended care (6+ hours to evac), you MAINTAIN the tourniquet. The risk of uncontrolled rebleeding without surgical backup far outweighs the risk of maintained tourniquet ischemia over 6 hours. Mark the time on the TQ, document it on the casualty card, and expedite evacuation."
+      }
+    },
+    "relatedGuide": "field-manual-001",
+    "tags": ["field-manual", "trauma", "TCCC", "advanced"]
+  },
+  {
+    "id": "quiz-fm-004",
+    "category": "field-manual",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You're establishing a 5-person patrol base for 3+ days. You need to site a field latrine (straddle trench). Which placement rule is most important?",
+    "options": [
+      { "id": "a", "text": "At least 300 feet (100 meters) downhill and downwind from your water source and sleeping area" },
+      { "id": "b", "text": "As close to the sleeping area as possible — distance creates security exposure at night" },
+      { "id": "c", "text": "Uphill from your water source — gravity will drain waste away from the water" },
+      { "id": "d", "text": "In the densest vegetation available — natural decomposition is faster in shade" }
+    ],
+    "correct": "a",
+    "explanation": "The 300-foot / 100-meter rule from any water source is the foundational field sanitation standard (U.S. Army FM 4-25.12, FM 21-10). Pathogens from fecal contamination travel through soil and reach water sources — 300 feet provides adequate filtration distance for most bacterial pathogens through normal soil. Placement is DOWNHILL from water (never uphill — contamination flows downhill) and DOWNWIND from sleeping areas (odor and fly vectors). At night, security concerns must be balanced with sanitation — a well-secured route to the latrine site is preferable to compromising health for convenience. Straddle trench depth: 1-2 feet minimum. When leaving the site, fill and cover with 6+ inches of soil.",
+    "relatedGuide": "field-manual-001",
+    "tags": ["field-manual", "sanitation", "patrol-base", "beginner"]
+  }
+]

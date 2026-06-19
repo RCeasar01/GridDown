@@ -1,0 +1,132 @@
+[
+  {
+    "id": "quiz-security-dt-001",
+    "category": "security",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Leave or Stay — Grid-Down Hour 72",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "It's been 72 hours since a major infrastructure failure (suspected EMP/cyber attack). No power, no communications, no water pressure in your suburban neighborhood. You have: 30 days food, 50 gallons water stored, a vehicle with 3/4 tank of fuel, and a rural property 180 miles away. Neighbors are beginning to behave erratically. A group of 6 unknown individuals has set up at the neighborhood entrance. What do you do?",
+        "options": [
+          { "text": "Bug out immediately — load up and drive to the rural property tonight", "next": "bug_out_night" },
+          { "text": "Shelter in place — you have 30 days supplies and bugging out before the threat is confirmed is premature", "next": "shelter_in_place" }
+        ]
+      },
+      "bug_out_night": {
+        "id": "bug_out_night",
+        "scenario": "You load your vehicle in daylight and depart. The road 40 miles out is blocked by stalled vehicles — the EMP disabled older cars. You have to abandon your vehicle and continue on foot with what you can carry. Do you:",
+        "options": [
+          { "text": "Cache what you can't carry and proceed on foot to the rural property (still 140 miles)", "next": "foot_march" },
+          { "text": "Return to your neighborhood — foot march 140 miles is not survivable with current supplies", "next": "return_home" }
+        ]
+      },
+      "foot_march": {
+        "id": "foot_march",
+        "outcome": "success",
+        "explanation": "You made a defensible decision to leave before the threat escalated, but failed to account for vehicle failure contingency. The rule: if you cannot walk your bug-out route, you don't have a real plan. Before committing to a vehicle-dependent bug-out, consider: How far can you walk? What's your contingency if the road is blocked? Bug-out decisions should also weigh the threat level — at 72 hours with uncertain intel, staying put with 30 days of supplies may have been defensible."
+      },
+      "return_home": {
+        "id": "return_home",
+        "outcome": "success",
+        "explanation": "Tactical flexibility is key. Recognizing that the original plan is compromised and adjusting shows good decision-making. Returning preserves your supply cache. This also highlights the importance of having a vetted bug-out route that accounts for road blockage — a primary route plus 1-2 alternates including foot routes."
+      },
+      "shelter_in_place": {
+        "id": "shelter_in_place",
+        "scenario": "You remain. Day 4: the group at the entrance has grown to 15 and has begun stopping vehicles. Your neighborhood has formed an informal watch. Day 7: 2 houses on your street are broken into. You are approached by neighbors to join a mutual aid group. Do you:",
+        "options": [
+          { "text": "Join the mutual aid group — collective security and shared intelligence is better than solo", "next": "mutual_aid" },
+          { "text": "Maintain strict operational security — sharing your supply status invites targeting", "next": "opsec_solo" }
+        ]
+      },
+      "mutual_aid": {
+        "id": "mutual_aid",
+        "outcome": "success",
+        "explanation": "In extended grid-down scenarios, small isolated households are the most vulnerable. Collective security — distributed watch, mutual defense, shared intelligence about neighborhood threats — dramatically increases survivability. Joining a group that does NOT know your full supply status initially (contribute proportionally, don't broadcast) is the correct balance. Community formation is consistently the most important survival variable in historical grid-down events."
+      },
+      "opsec_solo": {
+        "id": "opsec_solo",
+        "outcome": "poor",
+        "explanation": "Strict solo OPSEC (operational security) is unsustainable in a neighborhood grid-down scenario. You cannot maintain 24/7 watch indefinitely alone. Selective disclosure — forming mutual aid with vetted neighbors without revealing full inventory — is the correct balance. Pure isolation in a suburban setting leaves you blind and undefended. Isolation works in truly remote locations; it fails in proximity to population centers."
+      }
+    },
+    "relatedGuide": "security-001",
+    "tags": ["security", "bug-out", "shelter-in-place", "advanced"]
+  },  {
+    "id": "quiz-security-002",
+    "category": "security",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You're at a gas station during a grid-down event. A vehicle pulls up with 4 occupants who make eye contact with you, then with your loaded truck, then whisper to each other. You're 30 feet from your truck. What OODA loop stage are you currently in, and what is your next action?",
+    "options": [
+      { "id": "a", "text": "Observe — continue watching passively and gather more information before moving" },
+      { "id": "b", "text": "Orient — you've observed the potential threat indicators, now you must contextualize: are these behaviors consistent with pre-attack indicators?" },
+      { "id": "c", "text": "Decide — you've already identified the threat, immediately retrieve your firearm from the truck" },
+      { "id": "d", "text": "Act — move immediately to put your truck between you and the threat as cover" }
+    ],
+    "correct": "b",
+    "explanation": "OODA (Observe-Orient-Decide-Act) is a decision loop, not a single-pass sequence. You've completed Observe (eye contact, glance at truck, whispered conversation). Orient is next — contextualize what you observed: Are these pre-attack indicators? Baseline behavior for a gas station is people pumping gas, not scanning assets and conferring. Moving to your truck without Orienting may alert them prematurely if they're not actually a threat. Orienting allows you to Decide: is this escalating? Do I pre-empt or maintain observation? Conscious awareness of the OODA loop prevents both under-reaction (ignoring clear indicators) and over-reaction (escalating unnecessarily).",
+    "relatedGuide": "security-001",
+    "tags": ["security", "OODA", "situational-awareness", "intermediate"]
+  },
+  {
+    "id": "quiz-security-003",
+    "category": "security",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "You've established a safe house in a rural property. You have 4 adults available and standard hardware/supplies. Rank these perimeter security actions from highest to lowest priority.",
+    "items": [
+      { "id": "1", "text": "Establish overlapping fields of view — no blind spots at approach routes to the structure" },
+      { "id": "2", "text": "Clear vegetation and debris within 50 feet of the structure to eliminate concealed approach routes" },
+      { "id": "3", "text": "Establish a communication method between watch positions (radio, signal, or rope pull)" },
+      { "id": "4", "text": "Set up noise-making early warning on likely approach paths (cans with rocks, fishing line trip alerts)" },
+      { "id": "5", "text": "Establish a written watch rotation schedule to prevent fatigue-induced security gaps" }
+    ],
+    "correct_order": ["2", "1", "4", "3", "5"],
+    "explanation": "Clear the vegetation first — concealment for an approach is more dangerous than any other gap, and clearing it is a one-time labor investment with permanent payoff. Overlapping fields of view (interlocking sectors) ensures no approach goes unobserved — if one position goes down, others still have coverage. Early warning devices (noise-makers on trip lines) give sleeping personnel time to respond — critical when watch staffing is thin. Communication between positions is essential for coordinated response — watch positions that can't signal each other can't respond to threats cooperatively. Written rotation addresses long-term sustainability — fatigue is the #1 security failure in extended scenarios.",
+    "relatedGuide": "security-001",
+    "tags": ["security", "perimeter", "safe-house", "intermediate"]
+  },  {
+    "id": "quiz-security-dt-002",
+    "category": "security",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Approaching Strangers — Day 10",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "Day 10 post-grid-down. You are at your rural property. A group of 3 adults (2 men, 1 woman) approaches your driveway on foot. They look exhausted and carry light packs. They stop at your gate. One raises his hand in a non-threatening gesture. You are armed. Your family is inside. What do you do?",
+        "options": [
+          { "text": "Challenge them from a position of cover — make verbal contact without exposing yourself or your family", "next": "challenge_covered" },
+          { "text": "Send your family inside and approach the gate alone to speak with them", "next": "approach_gate" }
+        ]
+      },
+      "challenge_covered": {
+        "id": "challenge_covered",
+        "scenario": "You call from behind cover at 30 feet. They state they walked from a city 60 miles away and are looking for water and food — they have a 10-year-old child out of sight on the road. Do you:",
+        "options": [
+          { "text": "Bring them inside — a family with a child is almost certainly not a threat, and you can spare basic aid", "next": "inside_too_fast" },
+          { "text": "Provide water at the gate without inviting them inside — assess further before granting access", "next": "gate_aid" }
+        ]
+      },
+      "gate_aid": {
+        "id": "gate_aid",
+        "outcome": "success",
+        "explanation": "The gate aid protocol: provide basic humanitarian assistance without granting property access. You remain in a defensible position (covered), gather intelligence (their account of conditions, useful situational awareness), and assess behavioral indicators of deception (evasive answers, interest in your structure, inconsistent story). A consistent, detailed story combined with non-threatening body posture is a positive indicator. You maintained security while acting humanely — both are achievable simultaneously."
+      },
+      "inside_too_fast": {
+        "id": "inside_too_fast",
+        "outcome": "poor",
+        "explanation": "Granting property access to unknown individuals in a grid-down environment is a serious security risk regardless of initial appearance. The gate aid protocol (provide aid at the perimeter) achieves humanitarian goals without compromising your defensive position. Appearance and apparent distress can be staged. This is not cynicism — it is proportionate caution when the stakes are your family's safety. Never invite strangers inside a safe house during grid-down without an extended vetting process."
+      },
+      "approach_gate": {
+        "id": "approach_gate",
+        "outcome": "poor",
+        "explanation": "Never sacrifice your defensive position by approaching unknown contacts. The conversation can happen from cover — your voice carries 30 feet. By approaching the gate, you: (1) separate from your family, (2) reveal yourself as the armed defender rather than maintaining uncertainty about your security posture, (3) lose the option to retreat to cover. Always challenge from a position of cover and use distance as a buffer until threat level is established."
+      }
+    },
+    "relatedGuide": "security-001",
+    "tags": ["security", "strangers", "grid-down", "advanced"]
+  }
+]
