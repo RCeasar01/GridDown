@@ -9,7 +9,7 @@
 
 ## 1. Acceptance of Terms
 
-By downloading, installing, or using GridDown (the “App”), you agree to be bound by these Terms of Service (“Terms”). If you do not agree, do not use the App. These Terms constitute a binding legal agreement between you and BannedProduct Media Inc. (“Company,” “we,” “us”).
+By downloading, installing, or using GridDown (the "App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the App. These Terms constitute a binding legal agreement between you and BannedProduct Media Inc. ("Company," "we," "us").
 
 ---
 
@@ -88,7 +88,7 @@ Cancellation takes effect at the end of the current paid period. You retain acce
 
 ### 7.4 Lifetime Plans
 
-Lifetime plans (Lifetime Standard, Extreme Lifetime) are valid for the life of the App. “Life of the App” means the period during which the App is actively available on the App Store or Google Play Store and receives updates. If the App is discontinued, lifetime purchasers receive at least 12 months notice.
+Lifetime plans (Lifetime Standard, Extreme Lifetime) are valid for the life of the App. "Life of the App" means the period during which the App is actively available on the App Store or Google Play Store and receives updates. If the App is discontinued, lifetime purchasers receive at least 12 months notice.
 
 ### 7.5 Refunds
 
@@ -96,7 +96,7 @@ Refund requests are governed by the Apple App Store or Google Play Store refund 
 
 ### 7.6 Free Tier
 
-The Free tier provides access to a subset of guides and features at the Company’s discretion. Free tier content and features may change at any time.
+The Free tier provides access to a subset of guides and features at the Company's discretion. Free tier content and features may change at any time.
 
 ---
 
@@ -108,7 +108,7 @@ All content, guides, checklists, code, design, and media in GridDown are the exc
 
 ## 9. Disclaimer of Warranties
 
-THE APP IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE COMPANY DOES NOT WARRANT THAT THE APP WILL BE ERROR-FREE, UNINTERRUPTED, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.
+THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE COMPANY DOES NOT WARRANT THAT THE APP WILL BE ERROR-FREE, UNINTERRUPTED, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.
 
 ---
 
@@ -146,9 +146,9 @@ We may suspend or terminate your access to the App at any time, with or without 
 
 ## 15. Governing Law and Dispute Resolution
 
-These Terms are governed by the laws of the State of Tennessee, United States, without regard to its conflict of law principles.
+These Terms are governed by the laws of the State of North Carolina, United States, without regard to its conflict of law principles.
 
-Any dispute arising from these Terms or the App shall be resolved by **binding arbitration** administered by the American Arbitration Association (AAA) under its Consumer Arbitration Rules. Arbitration shall take place in Tennessee. The arbitrator’s decision shall be final and binding.
+Any dispute arising from these Terms or the App shall be resolved by **binding arbitration** administered by the American Arbitration Association (AAA) under its Consumer Arbitration Rules. Arbitration shall take place in North Carolina. The arbitrator's decision shall be final and binding.
 
 **Class action waiver:** You agree to resolve disputes with the Company on an individual basis only and waive your right to participate in any class action lawsuit or class-wide arbitration.
 
