@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GridDown — When Help Is Not Coming</title>
+<meta name="description" content="GridDown is the definitive offline survival and emergency preparedness app. 500+ guides, 100% offline, written by a combat veteran.">
+<style>
+  :root {
+    --bg: #0D0D0D;
+    --bg2: #141414;
+    --bg3: #1A1A1A;
+    --text: #F0F0F0;
+    --muted: #888;
+    --accent: #E8642A;
+    --accent2: #FF7A3D;
+    --border: #222;
+    --green: #4CAF50;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { color: var(--accent2); }
+  
+  /* Nav */
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(13,13,13,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+  .nav-inner { max-width: 1100px; margin: 0 auto; padding: 0 24px; height: 60px; display: flex; align-items: center; justify-content: space-between; }
+  .nav-logo { font-weight: 900; font-size: 20px; color: var(--text); letter-spacing: -0.5px; }
+  .nav-logo span { color: var(--accent); }
+  .nav-links { display: flex; gap: 24px; list-style: none; }
+  .nav-links a { color: var(--muted); font-size: 14px; font-weight: 500; transition: color .2s; }
+  .nav-links a:hover { color: var(--text); }
+  
+  /* Hero */
+  .hero { padding: 140px 24px 80px; max-width: 1100px; margin: 0 auto; text-align: center; position: relative; }
+  .hero::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(232,100,42,0.06) 40px),
+                      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(232,100,42,0.06) 40px);
+    pointer-events: none;
+    z-index: -1;
+  }
+  .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--bg3); border: 1px solid var(--border); border-radius: 100px; padding: 6px 16px; font-size: 12px; color: var(--muted); margin-bottom: 28px; }
+  .hero-badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.4; } }
+  h1 { font-size: clamp(40px, 8vw, 80px); font-weight: 900; letter-spacing: -2px; line-height: 1; margin-bottom: 20px; }
+  h1 .orange { color: var(--accent); }
+  .hero-sub { font-size: clamp(16px, 2.5vw, 22px); color: var(--muted); max-width: 600px; margin: 0 auto 36px; }
+  .cta-group { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 60px; }
+  .btn-primary { background: var(--accent); color: #fff; font-weight: 700; font-size: 16px; padding: 14px 32px; border-radius: 8px; transition: background .2s; }
+  .btn-primary:hover { background: var(--accent2); color: #fff; }
+  .btn-outline { border: 1px solid var(--border); color: var(--text); font-weight: 600; font-size: 16px; padding: 14px 32px; border-radius: 8px; transition: border-color .2s; }
+  .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* Stats */
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin: 0 auto 80px; max-width: 800px; }
+  .stat { background: var(--bg2); padding: 24px 16px; text-align: center; }
+  .stat-number { font-size: 32px; font-weight: 900; color: var(--accent); }
+  .stat-label { font-size: 12px; color: var(--muted); margin-top: 4px; }
+
+  /* Sections */
+  section { max-width: 1100px; margin: 0 auto; padding: 80px 24px; }
+  .section-label { font-size: 11px; font-weight: 700; color: var(--accent); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; }
+  .section-title { font-size: clamp(28px, 4vw, 44px); font-weight: 800; margin-bottom: 16px; letter-spacing: -1px; }
+  .section-desc { font-size: 16px; color: var(--muted); max-width: 560px; }
+
+  /* Features Grid */
+  .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 48px; }
+  .feature-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; transition: border-color .2s; }
+  .feature-card:hover { border-color: rgba(232,100,42,0.4); }
+  .feature-icon { font-size: 28px; margin-bottom: 12px; }
+  .feature-title { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
+  .feature-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
+
+  /* Offline Section */
+  .offline-section { background: var(--bg2); border: 1px solid var(--border); border-radius: 16px; padding: 48px; display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center; }
+  .signal-bars { display: flex; align-items: flex-end; gap: 4px; height: 48px; }
+  .bar { width: 10px; border-radius: 3px 3px 0 0; background: var(--border); }
+  .bar.active { background: var(--accent); }
+  .bar:nth-child(1) { height: 25%; }
+  .bar:nth-child(2) { height: 50%; }
+  .bar:nth-child(3) { height: 75%; }
+  .bar.x { background: #c0392b !important; height: 100%; width: 10px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #fff; }
+  .offline-slash { font-size: 48px; margin-left: 8px; color: #c0392b; font-weight: 900; line-height: 1; }
+
+  /* Pricing */
+  .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 48px; }
+  .pricing-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 14px; padding: 28px; }
+  .pricing-card.featured { border-color: var(--accent); background: linear-gradient(135deg, rgba(232,100,42,0.08), var(--bg2)); position: relative; }
+  .featured-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--accent); color: #fff; font-size: 11px; font-weight: 700; padding: 4px 14px; border-radius: 100px; white-space: nowrap; }
+  .plan-name { font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+  .plan-price { font-size: 40px; font-weight: 900; letter-spacing: -1px; }
+  .plan-price span { font-size: 16px; font-weight: 400; color: var(--muted); }
+  .plan-desc { font-size: 13px; color: var(--muted); margin: 12px 0 20px; }
+  .plan-features { list-style: none; }
+  .plan-features li { font-size: 13px; color: var(--muted); padding: 5px 0; display: flex; gap: 8px; }
+  .plan-features li::before { content: '✓'; color: var(--green); flex-shrink: 0; }
+
+  /* Legal bar */
+  .legal-bar { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 20px 24px; display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+  .legal-tag { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+  .legal-tag strong { color: var(--text); }
+
+  /* Footer */
+  footer { border-top: 1px solid var(--border); padding: 40px 24px; max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: gap; gap: 16px; }
+  .footer-brand { font-weight: 800; font-size: 16px; }
+  .footer-links { display: flex; gap: 20px; flex-wrap: wrap; }
+  .footer-links a { font-size: 13px; color: var(--muted); }
+  .footer-copy { font-size: 12px; color: var(--muted); }
+
+  /* Store badges */
+  .store-badges { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+  .store-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 18px; font-size: 13px; font-weight: 600; color: var(--text); transition: border-color .2s; }
+  .store-badge:hover { border-color: var(--accent); color: var(--accent); }
+
+  @media (max-width: 640px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .offline-section { grid-template-columns: 1fr; }
+    .pricing-grid { grid-template-columns: 1fr; }
+    .nav-links { display: none; }
+    footer { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">Grid<span>Down</span></div>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#offline">Offline</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+      <li><a href="terms.html">Terms</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge"><div class="hero-badge-dot"></div> 100% Offline — Zero Internet Required</div>
+  <h1>When Help Is<br><span class="orange">Not Coming.</span></h1>
+  <p class="hero-sub">The definitive offline survival & emergency preparedness app. Written by combat veterans. Built for real emergencies.</p>
+  <div class="cta-group">
+    <a href="https://apps.apple.com" class="btn-primary">Download for iOS</a>
+    <a href="https://play.google.com" class="btn-outline">Get on Android</a>
+  </div>
+  
+  <div class="stats">
+    <div class="stat"><div class="stat-number">500+</div><div class="stat-label">Survival Guides</div></div>
+    <div class="stat"><div class="stat-number">100%</div><div class="stat-label">Offline</div></div>
+    <div class="stat"><div class="stat-number">10</div><div class="stat-label">Languages</div></div>
+    <div class="stat"><div class="stat-number">0</div><div class="stat-label">Data Collected</div></div>
+  </div>
+</div>
+
+<section id="features">
+  <div class="section-label">Features</div>
+  <h2 class="section-title">Everything you need.<br>Nothing you don't.</h2>
+  <p class="section-desc">GridDown is built for the worst moments. Every feature works without internet, without cloud, without your data.</p>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">🩹</div>
+      <div class="feature-title">TCCC Medical Guides</div>
+      <div class="feature-desc">Trauma care, wound treatment, field medicine, and preventive care written by Eagle First Responders. Real procedures for when no doctor is coming.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🗺️</div>
+      <div class="feature-title">Offline GPS Maps</div>
+      <div class="feature-desc">Display your exact GPS coordinates without any network connection. Works in dead zones, wilderness, and grid-down scenarios.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🤖</div>
+      <div class="feature-title">AI Field Advisor</div>
+      <div class="feature-desc">A large language model that runs entirely on your device. No internet, no servers, no data leaving your phone. Available on Extreme plan.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">☑️</div>
+      <div class="feature-title">Smart Checklists</div>
+      <div class="feature-desc">72-hour kits, bug-out bags, shelter-in-place protocols, and more. Check off items and track your preparedness — all stored locally.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌍</div>
+      <div class="feature-title">10-Language Support</div>
+      <div class="feature-desc">Fully localized UI in English, Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Russian, and Hindi. On-device translation for guide content.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔒</div>
+      <div class="feature-title">Zero Data Collection</div>
+      <div class="feature-desc">We collect nothing. No account. No analytics. No location tracking. Your data stays on your device, protected by your OS security.</div>
+    </div>
+  </div>
+</section>
+
+<section id="offline">
+  <div class="offline-section">
+    <div>
+      <div class="section-label">Built for Grid-Down</div>
+      <h2 class="section-title">No signal.<br>No problem.</h2>
+      <p style="color: var(--muted); font-size: 16px; margin-top: 12px; max-width: 480px;">GridDown caches all content on your device during first install. After that, you never need a connection again. Works in Faraday cages, wilderness, power outages, and EMP events.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+      <div class="signal-bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar x">&times;</div>
+      </div>
+      <span style="font-size:11px;color:var(--muted);letter-spacing:1px;">NO SIGNAL</span>
+      <span style="font-size:22px;color:var(--accent);font-weight:900;margin-top:8px;">STILL WORKS</span>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="section-label">Pricing</div>
+  <h2 class="section-title">Simple. No tricks.</h2>
+  <p class="section-desc">Start free. Upgrade when you're ready. Your purchase is yours forever.</p>
+
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <div class="plan-name">Free</div>
+      <div class="plan-price">$0<span></span></div>
+      <div class="plan-desc">Core guides. No expiration.</div>
+      <ul class="plan-features">
+        <li>100+ essential guides</li>
+        <li>Offline maps</li>
+        <li>Basic checklists</li>
+        <li>10-language UI</li>
+      </ul>
+    </div>
+    <div class="pricing-card featured">
+      <div class="featured-badge">Most Popular</div>
+      <div class="plan-name">Pro</div>
+      <div class="plan-price">$3.99<span>/mo</span></div>
+      <div class="plan-desc">Everything in Free, plus full library access.</div>
+      <ul class="plan-features">
+        <li>500+ guides (full library)</li>
+        <li>All checklists</li>
+        <li>Content packs</li>
+        <li>Guide translation</li>
+        <li>$29.99/year option</li>
+        <li>$79.99 lifetime option</li>
+      </ul>
+    </div>
+    <div class="pricing-card">
+      <div class="plan-name">Extreme</div>
+      <div class="plan-price">$9.99<span>/mo</span></div>
+      <div class="plan-desc">Everything, plus on-device AI advisor.</div>
+      <ul class="plan-features">
+        <li>Everything in Pro</li>
+        <li>AI Field Intelligence Advisor</li>
+        <li>USB export package</li>
+        <li>Priority Discord access</li>
+        <li>$69.99/year option</li>
+        <li>$149.99 lifetime option</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="legal-bar">
+    <div class="legal-tag">&#x1F512; <strong>Privacy:</strong> Zero data collected</div>
+    <div class="legal-tag">&#x2696;&#xFE0F; <strong>Governing law:</strong> Tennessee, USA</div>
+    <div class="legal-tag">&#x1F1FA;&#x1F1F8; <strong>Veteran-owned:</strong> 101st Airborne</div>
+    <div style="margin-left:auto;display:flex;gap:16px;">
+      <a href="privacy.html" style="font-size:13px;color:var(--muted);">Privacy Policy</a>
+      <a href="terms.html" style="font-size:13px;color:var(--muted);">Terms of Service</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>
+    <div class="footer-brand">Grid<span style="color:var(--accent)">Down</span></div>
+    <div style="font-size:12px;color:var(--muted);margin-top:4px;">BannedProduct Media Inc. — Veteran-Owned</div>
+  </div>
+  <div class="footer-links">
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="mailto:support@bannedproduct.com">Contact</a>
+  </div>
+  <div class="footer-copy">&copy; 2026 BannedProduct Media Inc. All rights reserved.</div>
+</footer>
+
+</body>
+</html>

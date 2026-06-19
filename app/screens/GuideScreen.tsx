@@ -1,244 +1,206 @@
-import React, { useEffect } from 'react';
-import {
-  View, Text, ScrollView, StyleSheet,
-  TouchableOpacity, SafeAreaView,
-} from 'react-native';
-import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { Ionicons } from '@expo/vector-icons';
-import { HomeStackParamList } from '../navigation/AppNavigator';
-import { Colors } from '../theme/colors';
+import React, { useEffect, useState, useCallback } from 'react';
+import { View, Text, ScrollView, TouchableOpacity, StyleSheet, ActivityIndicator } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import { useAppStore } from '../store/useAppStore';
-import { priorityColor, priorityLabel } from '../utils/helpers';
-import { getGuideById } from '../utils/guideRegistry';
+import { isModelDownloaded, translateText, type SupportedLanguage } from '../utils/translation';
+import { getCachedTranslation, cacheTranslation } from '../db/contentLoader';
 
-type Nav = NativeStackNavigationProp<HomeStackParamList, 'Guide'>;
-type Route = RouteProp<HomeStackParamList, 'Guide'>;
+export interface GuideStep { step: number; title: string; body: string; }
+export interface GuideData {
+  id: string; category: string; title: string;
+  priority: string; tags: string[]; summary: string;
+  steps: GuideStep[]; warnings: string[]; proTips: string[]; relatedGuides: string[];
+}
 
-export function GuideScreen() {
-  const navigation = useNavigation<Nav>();
-  const route = useRoute<Route>();
-  const { guideId } = route.params;
-  const { isBookmarked, toggleBookmark, markViewed } = useAppStore();
+interface TranslatedGuideContent {
+  steps: GuideStep[];
+  warnings: string[];
+  proTips: string[];
+}
 
-  const guide = getGuideById(guideId);
+interface Props { guide: GuideData; }
 
-  useEffect(() => {
-    if (guide) markViewed(guide.id);
-  }, [guideId]);
+async function translateAndCache(
+  text: string, lang: SupportedLanguage, guideId: string, field: string,
+): Promise<string> {
+  const cached = await getCachedTranslation(guideId, lang, field);
+  if (cached !== null) return cached;
+  const result = await translateText(text, lang);
+  if (result !== text) await cacheTranslation(guideId, lang, field, result);
+  return result;
+}
 
-  React.useLayoutEffect(() => {
-    navigation.setOptions({
-      headerRight: () => (
-        <TouchableOpacity
-          onPress={() => guide && toggleBookmark(guide.id)}
-          hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-        >
-          <Ionicons
-            name={guide && isBookmarked(guide.id) ? 'bookmark' : 'bookmark-outline'}
-            size={22}
-            color={Colors.primary}
-          />
-        </TouchableOpacity>
-      ),
-    });
-  }, [guide, guideId]);
+export function GuideScreen({ guide }: Props) {
+  const { t } = useTranslation();
+  const { selectedLanguage, translateContentEnabled } = useAppStore();
 
-  if (!guide) {
-    return (
-      <SafeAreaView style={styles.safe}>
-        <View style={styles.center}>
-          <Text style={styles.errorText}>Guide not found.</Text>
-        </View>
-      </SafeAreaView>
-    );
-  }
+  const [showingOriginal, setShowingOriginal] = useState(true);
+  const [translating, setTranslating] = useState(false);
+  const [translated, setTranslated] = useState<TranslatedGuideContent | null>(null);
+  const [modelAvailable, setModelAvailable] = useState(false);
 
-  const pColor = priorityColor(guide.priority);
+  const canTranslate = selectedLanguage !== 'en' && translateContentEnabled;
+
+  const checkModel = useCallback(async () => {
+    if (!canTranslate) return;
+    const lang = selectedLanguage as SupportedLanguage;
+    const available = await isModelDownloaded(lang);
+    setModelAvailable(available);
+  }, [canTranslate, selectedLanguage]);
+
+  const loadTranslations = useCallback(async () => {
+    if (!canTranslate || !modelAvailable) return;
+    setTranslating(true);
+    try {
+      const lang = selectedLanguage as SupportedLanguage;
+      const tSteps = await Promise.all(
+        guide.steps.map(async (step) => ({
+          step: step.step,
+          title: await translateAndCache(step.title, lang, guide.id, `step_${step.step}_title`),
+          body: await translateAndCache(step.body, lang, guide.id, `step_${step.step}_body`),
+        }))
+      );
+      const tWarnings = await Promise.all(
+        guide.warnings.map((w, i) => translateAndCache(w, lang, guide.id, `warning_${i}`))
+      );
+      const tTips = await Promise.all(
+        guide.proTips.map((tip, i) => translateAndCache(tip, lang, guide.id, `tip_${i}`))
+      );
+      setTranslated({ steps: tSteps, warnings: tWarnings, proTips: tTips });
+      setShowingOriginal(false);
+    } catch (err) {
+      console.warn('[GuideScreen] Translation error:', err);
+    } finally {
+      setTranslating(false);
+    }
+  }, [canTranslate, modelAvailable, selectedLanguage, guide]);
+
+  useEffect(() => { void checkModel(); }, [checkModel]);
+
+  const displaySteps = (!showingOriginal && translated) ? translated.steps : guide.steps;
+  const displayWarnings = (!showingOriginal && translated) ? translated.warnings : guide.warnings;
+  const displayTips = (!showingOriginal && translated) ? translated.proTips : guide.proTips;
+
+  const PRIORITY_COLORS: Record<string, string> = {
+    critical: '#E8642A', advanced: '#F5A623', beginner: '#4CAF50',
+  };
 
   return (
-    <SafeAreaView style={styles.safe}>
-      <ScrollView style={styles.scroll} contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-        {/* Guide header */}
-        <View style={styles.guideHeader}>
-          <View style={[styles.priorityBar, { backgroundColor: pColor }]}>
-            <Text style={styles.priorityBarText}>{priorityLabel(guide.priority)}</Text>
-          </View>
-          <Text style={styles.title}>{guide.title}</Text>
-          <Text style={styles.summary}>{guide.summary}</Text>
-          {guide.category === 'medical' && (
-            <View style={styles.credentialBanner}>
-              <Ionicons name="shield-checkmark" size={14} color={Colors.secondary} />
-              <Text style={styles.credentialText}>
-                Written by an Eagle First Responder and Military Preventive Medicine Specialist — 101st Airborne Division.
-              </Text>
+    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+      {/* Header */}
+      <View style={[styles.priorityBadge, { backgroundColor: PRIORITY_COLORS[guide.priority] ?? '#888' }]}>
+        <Text style={styles.priorityText}>{guide.priority.toUpperCase()}</Text>
+      </View>
+      <Text style={styles.title}>{guide.title}</Text>
+      <Text style={styles.summary}>{guide.summary}</Text>
+
+      {/* Medical Disclaimer */}
+      {guide.category === 'medical' && (
+        <View style={styles.disclaimer}>
+          <Text style={styles.disclaimerText}>{t('guide.medicalDisclaimer')}</Text>
+        </View>
+      )}
+
+      {/* Translation Bar */}
+      {canTranslate && (
+        <View style={styles.translateBar}>
+          {translating ? (
+            <View style={styles.translateRow}>
+              <ActivityIndicator size="small" color="#E8642A" />
+              <Text style={styles.translatingText}>{t('guide.translating')}</Text>
             </View>
+          ) : !modelAvailable ? (
+            <Text style={styles.unavailableText}>{t('guide.translationUnavailable')}</Text>
+          ) : (
+            <TouchableOpacity
+              style={styles.translateBtn}
+              onPress={() => {
+                if (showingOriginal && !translated) { void loadTranslations(); }
+                else { setShowingOriginal((prev) => !prev); }
+              }}
+            >
+              <Text style={styles.translateBtnText}>
+                {showingOriginal ? t('guide.viewTranslated') : t('guide.viewOriginal')}
+              </Text>
+            </TouchableOpacity>
           )}
         </View>
+      )}
 
-        {/* Medical disclaimer */}
-        {guide.category === 'medical' && (
-          <View style={styles.disclaimer}>
-            <Ionicons name="warning-outline" size={16} color={Colors.warning} />
-            <Text style={styles.disclaimerText}>
-              This content is written for emergency situations where professional medical care is unavailable. It is not a substitute for professional medical treatment when treatment is accessible.
-            </Text>
+      {/* Steps */}
+      <Text style={styles.sectionHeader}>{t('guide.procedure')}</Text>
+      {displaySteps.map((step) => (
+        <View key={step.step} style={styles.stepCard}>
+          <View style={styles.stepNumber}>
+            <Text style={styles.stepNumberText}>{step.step}</Text>
           </View>
-        )}
+          <View style={styles.stepContent}>
+            <Text style={styles.stepTitle}>{step.title}</Text>
+            <Text style={styles.stepBody}>{step.body}</Text>
+          </View>
+        </View>
+      ))}
 
-        {/* Steps */}
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>PROCEDURE</Text>
-          {guide.steps.map((step) => (
-            <View key={step.step} style={styles.stepCard}>
-              <View style={styles.stepNumber}>
-                <Text style={styles.stepNumberText}>{step.step}</Text>
-              </View>
-              <View style={styles.stepBody}>
-                <Text style={styles.stepTitle}>{step.title}</Text>
-                <Text style={styles.stepText}>{step.body}</Text>
-              </View>
+      {/* Warnings */}
+      {displayWarnings.length > 0 && (
+        <>
+          <Text style={styles.sectionHeader}>{t('guide.warnings')}</Text>
+          {displayWarnings.map((warning, i) => (
+            <View key={i} style={styles.warningCard}>
+              <Text style={styles.warningText}>{warning}</Text>
             </View>
           ))}
-        </View>
+        </>
+      )}
 
-        {/* Warnings */}
-        {guide.warnings.length > 0 && (
-          <View style={styles.section}>
-            <Text style={styles.sectionTitle}>⚠️ WARNINGS</Text>
-            {guide.warnings.map((w, i) => (
-              <View key={i} style={styles.warningCard}>
-                <Ionicons name="warning" size={16} color={Colors.danger} />
-                <Text style={styles.warningText}>{w}</Text>
-              </View>
-            ))}
-          </View>
-        )}
+      {/* Pro Tips */}
+      {displayTips.length > 0 && (
+        <>
+          <Text style={styles.sectionHeader}>{t('guide.proTips')}</Text>
+          {displayTips.map((tip, i) => (
+            <View key={i} style={styles.tipCard}>
+              <Text style={styles.tipText}>{tip}</Text>
+            </View>
+          ))}
+        </>
+      )}
 
-        {/* Pro tips */}
-        {guide.proTips.length > 0 && (
-          <View style={styles.section}>
-            <Text style={styles.sectionTitle}>✅ PRO TIPS</Text>
-            {guide.proTips.map((tip, i) => (
-              <View key={i} style={styles.tipCard}>
-                <Ionicons name="checkmark-circle" size={16} color={Colors.secondary} />
-                <Text style={styles.tipText}>{tip}</Text>
-              </View>
-            ))}
-          </View>
-        )}
+      {/* Credential Banner */}
+      <View style={styles.credBanner}>
+        <Text style={styles.credText}>{t('guide.credentialBanner')}</Text>
+      </View>
 
-        {/* Related guides */}
-        {guide.relatedGuides.length > 0 && (
-          <View style={styles.section}>
-            <Text style={styles.sectionTitle}>RELATED GUIDES</Text>
-            {guide.relatedGuides.map((relId) => {
-              const rel = getGuideById(relId);
-              if (!rel) return null;
-              return (
-                <TouchableOpacity
-                  key={relId}
-                  style={styles.relatedCard}
-                  onPress={() => navigation.replace('Guide', { guideId: relId })}
-                >
-                  <Text style={styles.relatedTitle}>{rel.title}</Text>
-                  <Ionicons name="chevron-forward" size={16} color={Colors.textMuted} />
-                </TouchableOpacity>
-              );
-            })}
-          </View>
-        )}
-      </ScrollView>
-    </SafeAreaView>
+      <View style={{ height: 40 }} />
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  safe: { flex: 1, backgroundColor: Colors.background },
-  scroll: { flex: 1 },
-  content: { padding: 16, paddingBottom: 48 },
-  center: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  errorText: { color: Colors.textSecondary, fontSize: 16 },
-  guideHeader: { gap: 10, marginBottom: 20 },
-  priorityBar: { borderRadius: 6, paddingHorizontal: 10, paddingVertical: 4, alignSelf: 'flex-start' },
-  priorityBarText: { color: '#fff', fontSize: 11, fontWeight: '700', letterSpacing: 1 },
-  title: { color: Colors.textPrimary, fontSize: 22, fontWeight: '800', lineHeight: 28 },
-  summary: { color: Colors.textSecondary, fontSize: 14, lineHeight: 20 },
-  credentialBanner: {
-    flexDirection: 'row',
-    gap: 8,
-    backgroundColor: Colors.secondaryDim,
-    borderWidth: 1,
-    borderColor: Colors.secondary,
-    borderRadius: 8,
-    padding: 10,
-    alignItems: 'flex-start',
-  },
-  credentialText: { color: Colors.secondary, fontSize: 12, fontWeight: '600', flex: 1 },
-  disclaimer: {
-    flexDirection: 'row',
-    gap: 8,
-    backgroundColor: Colors.warningBg,
-    borderWidth: 1,
-    borderColor: Colors.warning,
-    borderRadius: 8,
-    padding: 12,
-    marginBottom: 20,
-    alignItems: 'flex-start',
-  },
-  disclaimerText: { color: Colors.warning, fontSize: 12, lineHeight: 17, flex: 1 },
-  section: { marginBottom: 24, gap: 10 },
-  sectionTitle: { color: Colors.textMuted, fontSize: 11, fontWeight: '700', letterSpacing: 1.5 },
-  stepCard: {
-    flexDirection: 'row',
-    backgroundColor: Colors.surface,
-    borderRadius: 10,
-    borderWidth: 1,
-    borderColor: Colors.cardBorder,
-    overflow: 'hidden',
-  },
-  stepNumber: {
-    width: 44,
-    backgroundColor: Colors.surfaceElevated,
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    paddingTop: 14,
-  },
-  stepNumberText: { color: Colors.primary, fontSize: 16, fontWeight: '800' },
-  stepBody: { flex: 1, padding: 14, gap: 6 },
-  stepTitle: { color: Colors.textPrimary, fontSize: 14, fontWeight: '700' },
-  stepText: { color: Colors.textSecondary, fontSize: 13, lineHeight: 19 },
-  warningCard: {
-    flexDirection: 'row',
-    gap: 10,
-    backgroundColor: Colors.dangerBg,
-    borderWidth: 1,
-    borderColor: Colors.danger,
-    borderRadius: 8,
-    padding: 12,
-    alignItems: 'flex-start',
-  },
-  warningText: { color: Colors.danger, fontSize: 13, lineHeight: 18, flex: 1 },
-  tipCard: {
-    flexDirection: 'row',
-    gap: 10,
-    backgroundColor: Colors.successBg,
-    borderWidth: 1,
-    borderColor: Colors.secondary,
-    borderRadius: 8,
-    padding: 12,
-    alignItems: 'flex-start',
-  },
-  tipText: { color: Colors.secondary, fontSize: 13, lineHeight: 18, flex: 1 },
-  relatedCard: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    backgroundColor: Colors.surface,
-    borderRadius: 8,
-    borderWidth: 1,
-    borderColor: Colors.cardBorder,
-    padding: 14,
-  },
-  relatedTitle: { color: Colors.textPrimary, fontSize: 14, fontWeight: '600', flex: 1 },
+  container: { flex: 1, backgroundColor: '#0D0D0D' },
+  content: { padding: 16 },
+  priorityBadge: { alignSelf: 'flex-start', borderRadius: 4, paddingHorizontal: 8, paddingVertical: 3, marginBottom: 8 },
+  priorityText: { color: '#fff', fontSize: 11, fontWeight: '800', letterSpacing: 1 },
+  title: { fontSize: 22, fontWeight: '800', color: '#F0F0F0', marginBottom: 8 },
+  summary: { fontSize: 14, color: '#AAA', lineHeight: 20, marginBottom: 16 },
+  disclaimer: { backgroundColor: '#1A0E0A', borderLeftWidth: 3, borderLeftColor: '#E8642A', padding: 12, borderRadius: 6, marginBottom: 16 },
+  disclaimerText: { color: '#CCC', fontSize: 12, lineHeight: 18 },
+  translateBar: { backgroundColor: '#1A1A1A', borderRadius: 8, padding: 12, marginBottom: 16, borderWidth: 1, borderColor: '#2A2A2A' },
+  translateRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  translatingText: { color: '#888', fontSize: 13 },
+  unavailableText: { color: '#666', fontSize: 13, fontStyle: 'italic' },
+  translateBtn: { alignSelf: 'flex-start', backgroundColor: '#E8642A', borderRadius: 6, paddingVertical: 6, paddingHorizontal: 14 },
+  translateBtnText: { color: '#fff', fontWeight: '700', fontSize: 13 },
+  sectionHeader: { fontSize: 11, fontWeight: '700', color: '#888', letterSpacing: 1.5, marginTop: 20, marginBottom: 10, textTransform: 'uppercase' },
+  stepCard: { flexDirection: 'row', backgroundColor: '#141414', borderRadius: 10, marginBottom: 8, padding: 12, gap: 12, borderWidth: 1, borderColor: '#222' },
+  stepNumber: { width: 28, height: 28, borderRadius: 14, backgroundColor: '#E8642A', alignItems: 'center', justifyContent: 'center', flexShrink: 0 },
+  stepNumberText: { color: '#fff', fontWeight: '800', fontSize: 14 },
+  stepContent: { flex: 1 },
+  stepTitle: { fontSize: 14, fontWeight: '700', color: '#F0F0F0', marginBottom: 4 },
+  stepBody: { fontSize: 13, color: '#AAA', lineHeight: 19 },
+  warningCard: { backgroundColor: '#1A1000', borderLeftWidth: 3, borderLeftColor: '#F5A623', padding: 12, borderRadius: 6, marginBottom: 8 },
+  warningText: { color: '#E0C080', fontSize: 13, lineHeight: 18 },
+  tipCard: { backgroundColor: '#0A1A0A', borderLeftWidth: 3, borderLeftColor: '#4CAF50', padding: 12, borderRadius: 6, marginBottom: 8 },
+  tipText: { color: '#90C090', fontSize: 13, lineHeight: 18 },
+  credBanner: { backgroundColor: '#111', borderRadius: 8, padding: 12, marginTop: 20, borderWidth: 1, borderColor: '#2A2A2A' },
+  credText: { color: '#666', fontSize: 11, fontStyle: 'italic', textAlign: 'center' },
 });

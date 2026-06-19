@@ -1,179 +1,204 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
-  View, Text, StyleSheet, SafeAreaView, ScrollView,
-  TouchableOpacity, Alert,
+  View, Text, StyleSheet, ScrollView, TouchableOpacity,
+  Switch, Alert, ActivityIndicator, Linking,
 } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
-import { useNavigation } from '@react-navigation/native';
-import { Colors } from '../theme/colors';
+import { useTranslation } from 'react-i18next';
 import { useAppStore } from '../store/useAppStore';
+import { SUPPORTED_LANGUAGES, downloadLanguageModel, type SupportedLanguage, type DownloadProgress } from '../utils/translation';
 
+const PRIVACY_URL = process.env.EXPO_PUBLIC_PRIVACY_URL ?? 'https://rceasar01.github.io/GridDown/privacy';
+const TERMS_URL = process.env.EXPO_PUBLIC_TERMS_URL ?? 'https://rceasar01.github.io/GridDown/terms';
 const APP_VERSION = '1.0.0';
-const BUILD_NUMBER = '1';
+const DISCORD_URL = process.env.EXPO_PUBLIC_DISCORD_URL ?? 'https://discord.gg/griddown';
 
 export function SettingsScreen() {
-  const navigation = useNavigation<any>();
-  const { userTier, clearRecent } = useAppStore();
+  const { t } = useTranslation();
+  const {
+    userTier, selectedLanguage, translateContentEnabled,
+    setSelectedLanguage, setTranslateContentEnabled,
+    downloadedModels, markModelDownloaded,
+  } = useAppStore();
 
-  const handleClearRecent = () => {
-    Alert.alert(
-      'Clear Recently Viewed',
-      'Remove all recently viewed guides?',
-      [
-        { text: 'Cancel', style: 'cancel' },
-        { text: 'Clear', style: 'destructive', onPress: () => clearRecent() },
-      ],
-    );
+  const [downloadProgress, setDownloadProgress] = useState<Record<string, number>>({});
+  const [downloadingLang, setDownloadingLang] = useState<string | null>(null);
+
+  async function handleDownloadModel(langCode: SupportedLanguage) {
+    if (downloadingLang) return;
+    setDownloadingLang(langCode);
+    setDownloadProgress((prev) => ({ ...prev, [langCode]: 0 }));
+    try {
+      await downloadLanguageModel(langCode, (prog: DownloadProgress) => {
+        setDownloadProgress((prev) => ({ ...prev, [langCode]: prog.progress }));
+      });
+      markModelDownloaded(langCode);
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Download failed';
+      Alert.alert('Error', msg);
+    } finally {
+      setDownloadingLang(null);
+    }
+  }
+
+  function handleOpenURL(url: string) {
+    void Linking.openURL(url);
+  }
+
+  async function handleClearRecent() {
+    Alert.alert(t('settings.clearRecent'), t('settings.clearRecentConfirm'), [
+      { text: t('common.cancel'), style: 'cancel' },
+      { text: t('common.clear'), style: 'destructive', onPress: async () => { await useAppStore.getState().clearRecent(); } },
+    ]);
+  }
+
+  const tierDisplay: Record<string, string> = {
+    free: t('tiers.free'), discord: t('tiers.discord'),
+    monthly: t('tiers.monthly'), yearly: t('tiers.yearly'),
+    lifetime_standard: t('tiers.lifetime_standard'),
+    extreme_monthly: t('tiers.extreme_monthly'),
+    extreme_yearly: t('tiers.extreme_yearly'),
+    extreme_lifetime: t('tiers.extreme_lifetime'),
   };
 
-  const isExtremeLifetime = userTier === 'extreme_lifetime';
-
   return (
-    <SafeAreaView style={styles.safe}>
-      <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-        {/* Subscription */}
-        <Text style={styles.sectionTitle}>SUBSCRIPTION</Text>
-        <View style={styles.card}>
-          <View style={styles.row}>
-            <Text style={styles.rowLabel}>Current Plan</Text>
-            <Text style={styles.rowValue}>{tierDisplayName(userTier)}</Text>
-          </View>
-          <View style={styles.divider} />
-          <TouchableOpacity
-            style={styles.row}
-            onPress={() => navigation.navigate('Home', { screen: 'Paywall' })}
-          >
-            <Text style={[styles.rowLabel, { color: Colors.primary }]}>Upgrade Plan</Text>
-            <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
-          </TouchableOpacity>
+    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+      {/* Subscription */}
+      <Text style={styles.sectionHeader}>{t('settings.subscription')}</Text>
+      <View style={styles.card}>
+        <View style={styles.row}>
+          <Text style={styles.label}>{t('settings.currentPlan')}</Text>
+          <Text style={styles.value}>{tierDisplay[userTier] ?? userTier}</Text>
         </View>
+        {userTier === 'free' && (
+          <TouchableOpacity style={styles.upgradeBtn}>
+            <Text style={styles.upgradeBtnText}>{t('settings.upgradePlan')}</Text>
+          </TouchableOpacity>
+        )}
+      </View>
 
-        {/* USB Export (Extreme Lifetime only) */}
-        <Text style={styles.sectionTitle}>USB EXPORT</Text>
-        <View style={[styles.card, !isExtremeLifetime && styles.cardLocked]}>
-          {!isExtremeLifetime && (
-            <View style={styles.lockOverlayRow}>
-              <Ionicons name="lock-closed" size={14} color={Colors.textMuted} />
-              <Text style={styles.lockOverlayText}>Extreme Lifetime only</Text>
+      {/* Language */}
+      <Text style={styles.sectionHeader}>{t('settings.language')}</Text>
+      <View style={styles.card}>
+        <View style={styles.row}>
+          <Text style={styles.label}>{t('settings.translateContent')}</Text>
+          <Switch
+            value={translateContentEnabled}
+            onValueChange={setTranslateContentEnabled}
+            trackColor={{ false: '#333', true: '#E8642A' }}
+            thumbColor="#fff"
+          />
+        </View>
+        <Text style={styles.hint}>{t('settings.translateContentHint')}</Text>
+      </View>
+
+      {SUPPORTED_LANGUAGES.map((lang) => {
+        const isSelected = selectedLanguage === lang.code;
+        const isDownloaded = downloadedModels.includes(lang.code);
+        const isDownloading = downloadingLang === lang.code;
+        const progress = downloadProgress[lang.code] ?? 0;
+
+        return (
+          <View key={lang.code} style={[styles.card, styles.langCard, isSelected && styles.langCardSelected]}>
+            <TouchableOpacity style={styles.langRow} onPress={() => void setSelectedLanguage(lang.code)}>
+              <Text style={styles.flag}>{lang.flagEmoji}</Text>
+              <View style={styles.langInfo}>
+                <Text style={styles.langName}>{lang.name}</Text>
+                <Text style={styles.langNative}>{lang.nativeName}</Text>
+              </View>
+              {isSelected && <Text style={styles.selectedBadge}>✓</Text>}
+            </TouchableOpacity>
+            <View style={styles.modelRow}>
+              {isDownloaded ? (
+                <View style={styles.downloadedBadge}>
+                  <Text style={styles.downloadedText}>{t('settings.downloaded')}</Text>
+                </View>
+              ) : isDownloading ? (
+                <View style={styles.progressRow}>
+                  <ActivityIndicator size="small" color="#E8642A" />
+                  <Text style={styles.progressText}>{Math.round(progress * 100)}%</Text>
+                </View>
+              ) : (
+                <TouchableOpacity style={styles.downloadBtn} onPress={() => void handleDownloadModel(lang.code)}>
+                  <Text style={styles.downloadBtnText}>{t('settings.downloadModel')} ({t('settings.modelSize')})</Text>
+                </TouchableOpacity>
+              )}
             </View>
-          )}
-          <View style={styles.row}>
-            <Text style={[styles.rowLabel, !isExtremeLifetime && styles.rowLabelDisabled]}>Export Status</Text>
-            <Text style={styles.rowValue}>{isExtremeLifetime ? 'Ready' : 'Locked'}</Text>
           </View>
-          <View style={styles.divider} />
-          <TouchableOpacity
-            style={[styles.row, !isExtremeLifetime && styles.rowDisabled]}
-            disabled={!isExtremeLifetime}
-            onPress={() => Alert.alert('USB Export', 'Preparing export package… This will bundle all guides and content packs into a portable format for USB drive deployment.\n\nFeature scaffold — will be wired to file system export in next build.')}
-          >
-            <Text style={[styles.rowLabel, !isExtremeLifetime && styles.rowLabelDisabled]}>
-              Prepare USB Export Package
-            </Text>
-            <Ionicons name="folder-open-outline" size={16} color={isExtremeLifetime ? Colors.textPrimary : Colors.textMuted} />
-          </TouchableOpacity>
-          <View style={styles.divider} />
-          <Text style={styles.helpText}>
-            USB Export packages all guides, checklists, and content packs into a portable format that can be loaded onto a USB drive and run on any device — no internet, no app store.
-          </Text>
-        </View>
+        );
+      })}
 
-        {/* Data */}
-        <Text style={styles.sectionTitle}>DATA</Text>
-        <View style={styles.card}>
-          <TouchableOpacity style={styles.row} onPress={handleClearRecent}>
-            <Text style={[styles.rowLabel, { color: Colors.danger }]}>Clear Recently Viewed</Text>
-            <Ionicons name="trash-outline" size={16} color={Colors.danger} />
-          </TouchableOpacity>
-        </View>
+      {/* Data */}
+      <Text style={styles.sectionHeader}>{t('settings.data')}</Text>
+      <View style={styles.card}>
+        <TouchableOpacity style={styles.row} onPress={() => void handleClearRecent()}>
+          <Text style={styles.label}>{t('settings.clearRecent')}</Text>
+          <Text style={styles.chevron}>›</Text>
+        </TouchableOpacity>
+      </View>
 
-        {/* About */}
-        <Text style={styles.sectionTitle}>ABOUT</Text>
-        <View style={styles.card}>
-          <View style={styles.row}>
-            <Text style={styles.rowLabel}>App Version</Text>
-            <Text style={styles.rowValue}>v{APP_VERSION} ({BUILD_NUMBER})</Text>
-          </View>
-          <View style={styles.divider} />
-          <TouchableOpacity
-            style={styles.row}
-            onPress={() => navigation.navigate('More', { screen: 'Founder' })}
-          >
-            <Text style={styles.rowLabel}>About the Founder</Text>
-            <Ionicons name="chevron-forward" size={16} color={Colors.textMuted} />
-          </TouchableOpacity>
-          <View style={styles.divider} />
-          <View style={styles.row}>
-            <Text style={styles.rowLabel}>Developer</Text>
-            <Text style={styles.rowValue}>BannedProduct Media Inc.</Text>
-          </View>
-          <View style={styles.divider} />
-          <View style={styles.row}>
-            <Text style={styles.rowLabel}>Veteran-Owned</Text>
-            <Text style={styles.rowValue}>🎖️ 100% VSB</Text>
-          </View>
+      {/* About */}
+      <Text style={styles.sectionHeader}>{t('settings.about')}</Text>
+      <View style={styles.card}>
+        <View style={styles.row}>
+          <Text style={styles.label}>{t('settings.appVersion')}</Text>
+          <Text style={styles.value}>{APP_VERSION}</Text>
         </View>
+        <View style={styles.divider} />
+        <View style={styles.row}>
+          <Text style={styles.label}>{t('settings.developer')}</Text>
+          <Text style={styles.value}>BannedProduct Media Inc.</Text>
+        </View>
+        <View style={styles.divider} />
+        <View style={styles.row}>
+          <Text style={styles.label}>{t('settings.veteranOwned')}</Text>
+          <Text style={styles.value}>🇺🇸</Text>
+        </View>
+      </View>
 
-        <View style={{ height: 32 }} />
-      </ScrollView>
-    </SafeAreaView>
+      {/* Legal */}
+      <View style={styles.card}>
+        <TouchableOpacity style={styles.row} onPress={() => handleOpenURL(PRIVACY_URL)}>
+          <Text style={styles.label}>{t('settings.privacyPolicy')}</Text>
+          <Text style={styles.chevron}>›</Text>
+        </TouchableOpacity>
+        <View style={styles.divider} />
+        <TouchableOpacity style={styles.row} onPress={() => handleOpenURL(TERMS_URL)}>
+          <Text style={styles.label}>{t('settings.termsOfService')}</Text>
+          <Text style={styles.chevron}>›</Text>
+        </TouchableOpacity>
+      </View>
+
+      <View style={{ height: 40 }} />
+    </ScrollView>
   );
 }
 
-function tierDisplayName(tier: string): string {
-  const names: Record<string, string> = {
-    free: 'Free',
-    discord: 'Discord Only',
-    monthly: 'Monthly',
-    yearly: 'Yearly',
-    lifetime_standard: 'Lifetime Standard',
-    extreme_monthly: 'Extreme Monthly',
-    extreme_yearly: 'Extreme Yearly',
-    extreme_lifetime: 'Extreme Lifetime',
-  };
-  return names[tier] ?? tier;
-}
-
 const styles = StyleSheet.create({
-  safe: { flex: 1, backgroundColor: Colors.background },
-  content: { padding: 16, gap: 12 },
-  sectionTitle: { color: Colors.textMuted, fontSize: 11, fontWeight: '700', letterSpacing: 1.5, marginTop: 8 },
-  card: {
-    backgroundColor: Colors.surface,
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: Colors.cardBorder,
-    overflow: 'hidden',
-  },
-  cardLocked: { opacity: 0.7 },
-  lockOverlayRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-    padding: 10,
-    paddingHorizontal: 16,
-    backgroundColor: Colors.surfaceElevated,
-    borderBottomWidth: 1,
-    borderBottomColor: Colors.divider,
-  },
-  lockOverlayText: { color: Colors.textMuted, fontSize: 12, fontWeight: '600' },
-  row: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: 16,
-    minHeight: 52,
-  },
-  rowDisabled: { opacity: 0.5 },
-  rowLabel: { color: Colors.textPrimary, fontSize: 15 },
-  rowLabelDisabled: { color: Colors.textMuted },
-  rowValue: { color: Colors.textSecondary, fontSize: 14 },
-  divider: { height: 1, backgroundColor: Colors.divider, marginHorizontal: 16 },
-  helpText: {
-    color: Colors.textMuted,
-    fontSize: 12,
-    lineHeight: 17,
-    padding: 16,
-    paddingTop: 8,
-  },
+  container: { flex: 1, backgroundColor: '#0D0D0D' },
+  content: { padding: 16 },
+  sectionHeader: { fontSize: 11, fontWeight: '700', color: '#888', letterSpacing: 1, marginTop: 24, marginBottom: 8, textTransform: 'uppercase' },
+  card: { backgroundColor: '#1A1A1A', borderRadius: 10, marginBottom: 4, overflow: 'hidden', borderWidth: 1, borderColor: '#222' },
+  langCard: { marginBottom: 6 },
+  langCardSelected: { borderColor: '#E8642A' },
+  row: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: 14 },
+  langRow: { flexDirection: 'row', alignItems: 'center', padding: 14, paddingBottom: 8 },
+  modelRow: { paddingHorizontal: 14, paddingBottom: 12 },
+  langInfo: { flex: 1 },
+  flag: { fontSize: 22, marginRight: 12 },
+  langName: { fontSize: 15, color: '#F0F0F0', fontWeight: '600' },
+  langNative: { fontSize: 12, color: '#888', marginTop: 2 },
+  selectedBadge: { fontSize: 18, color: '#E8642A', fontWeight: '700' },
+  downloadBtn: { backgroundColor: '#1E1E1E', borderWidth: 1, borderColor: '#E8642A', borderRadius: 6, paddingVertical: 6, paddingHorizontal: 12, alignSelf: 'flex-start' },
+  downloadBtnText: { color: '#E8642A', fontSize: 12, fontWeight: '600' },
+  downloadedBadge: { backgroundColor: '#1A3A1A', borderRadius: 6, paddingVertical: 4, paddingHorizontal: 10, alignSelf: 'flex-start', borderWidth: 1, borderColor: '#2A5A2A' },
+  downloadedText: { color: '#4CAF50', fontSize: 12, fontWeight: '600' },
+  progressRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  progressText: { color: '#E8642A', fontSize: 12 },
+  label: { fontSize: 15, color: '#F0F0F0' },
+  value: { fontSize: 15, color: '#888' },
+  hint: { fontSize: 12, color: '#666', paddingHorizontal: 14, paddingBottom: 12 },
+  chevron: { fontSize: 20, color: '#888' },
+  divider: { height: 1, backgroundColor: '#222', marginHorizontal: 14 },
+  upgradeBtn: { margin: 14, marginTop: 4, backgroundColor: '#E8642A', borderRadius: 8, paddingVertical: 10, alignItems: 'center' },
+  upgradeBtnText: { color: '#fff', fontWeight: '700', fontSize: 15 },
 });
