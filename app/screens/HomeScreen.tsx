@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   View, Text, ScrollView, StyleSheet,
   TouchableOpacity, FlatList, SafeAreaView,
@@ -15,6 +15,8 @@ import { GuideCard } from '../components/GuideCard';
 import { useAppStore } from '../store/useAppStore';
 import { Guide } from '../db/contentLoader';
 import { getAllGuides, getFieldManuals } from '../utils/guideRegistry';
+import { getDrillInfo } from '../utils/dailyDrill';
+import { getTodayDrillState } from '../db/contentLoader';
 
 type Nav = NativeStackNavigationProp<HomeStackParamList, 'HomeMain'>;
 
@@ -22,9 +24,21 @@ export function HomeScreen() {
   const navigation = useNavigation<Nav>();
   const { loadBookmarks, loadRecentlyViewed, recentlyViewed, isBookmarked, toggleBookmark } = useAppStore();
 
+  const [drillInfo] = useState(() => getDrillInfo());
+  const [drillCompleted, setDrillCompleted] = useState(false);
+  const [drillScore, setDrillScore] = useState<number | null>(null);
+
   useEffect(() => {
     loadBookmarks();
     loadRecentlyViewed();
+    getTodayDrillState()
+      .then((state) => {
+        if (state?.completed) {
+          setDrillCompleted(true);
+          setDrillScore(state.score ?? null);
+        }
+      })
+      .catch(() => {});
   }, []);
 
   const allGuides = getAllGuides();
@@ -53,6 +67,43 @@ export function HomeScreen() {
         <TouchableOpacity onPress={() => navigation.navigate('Search' as any)}>
           <SearchBar editable={false} onPress={() => navigation.navigate('Search' as any)} />
         </TouchableOpacity>
+
+        {/* TODAY'S DRILL CARD */}
+        {drillInfo.quizId ? (
+          <TouchableOpacity
+            style={styles.drillCard}
+            onPress={() => {
+              if (!drillCompleted) {
+                navigation.navigate('More' as any, {
+                  screen: 'QuizPlay',
+                  params: { quizId: drillInfo.quizId, isDailyDrill: true },
+                });
+              }
+            }}
+            activeOpacity={drillCompleted ? 1 : 0.7}
+          >
+            <View style={styles.drillHeader}>
+              <Text style={styles.drillLabel}>🎯 TODAY'S DRILL</Text>
+              {drillCompleted && (
+                <Text style={styles.drillCompletedTag}>✓ COMPLETED</Text>
+              )}
+            </View>
+            <Text style={styles.drillMeta}>
+              {drillInfo.category.toUpperCase()} · {drillInfo.difficulty.toUpperCase()} ·{' '}
+              {drillInfo.format.replace('_', ' ').toUpperCase()}
+            </Text>
+            <Text style={styles.drillTitle} numberOfLines={2}>
+              {drillInfo.title}
+            </Text>
+            {drillCompleted && drillScore !== null ? (
+              <Text style={styles.drillScore}>Score: {drillScore}%</Text>
+            ) : (
+              <View style={styles.drillStartBtn}>
+                <Text style={styles.drillStartBtnText}>START DRILL</Text>
+              </View>
+            )}
+          </TouchableOpacity>
+        ) : null}
 
         {/* Critical Guides */}
         <View style={styles.section}>
@@ -235,5 +286,64 @@ const styles = StyleSheet.create({
     color: Colors.textSecondary,
     fontSize: 12,
     fontWeight: '600',
+  },
+  // Daily Drill card
+  drillCard: {
+    marginTop: 12,
+    backgroundColor: Colors.surface,
+    borderRadius: 12,
+    padding: 16,
+    borderWidth: 1,
+    borderColor: Colors.primaryDim,
+    borderLeftWidth: 3,
+    borderLeftColor: Colors.primary,
+  },
+  drillHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 4,
+  },
+  drillLabel: {
+    color: Colors.primary,
+    fontSize: 11,
+    fontWeight: '700',
+    letterSpacing: 1.5,
+  },
+  drillCompletedTag: {
+    color: Colors.secondary,
+    fontSize: 11,
+    fontWeight: '700',
+    letterSpacing: 1,
+  },
+  drillMeta: {
+    color: Colors.textMuted,
+    fontSize: 10,
+    letterSpacing: 0.5,
+    marginBottom: 6,
+  },
+  drillTitle: {
+    color: Colors.textPrimary,
+    fontSize: 14,
+    fontWeight: '600',
+    marginBottom: 12,
+    lineHeight: 20,
+  },
+  drillScore: {
+    color: Colors.secondary,
+    fontSize: 14,
+    fontWeight: '700',
+  },
+  drillStartBtn: {
+    backgroundColor: Colors.primary,
+    borderRadius: 8,
+    paddingVertical: 8,
+    alignItems: 'center',
+  },
+  drillStartBtnText: {
+    color: '#FFFFFF',
+    fontSize: 13,
+    fontWeight: '700',
+    letterSpacing: 1.5,
   },
 });

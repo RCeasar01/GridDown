@@ -23,6 +23,9 @@ import { MoreScreen } from '../screens/MoreScreen';
 import { TranslatorScreen } from '../screens/TranslatorScreen';
 import { HamRadioScreen } from '../screens/HamRadioScreen';
 import { MorseCodeScreen } from '../screens/MorseCodeScreen';
+import QuizMenuScreen from '../screens/QuizMenuScreen';
+import QuizScreen from '../screens/QuizScreen';
+import QuizResultScreen from '../screens/QuizResultScreen';
 
 // ─── Stack navigators ─────────────────────────────────────────────────────────
 
@@ -45,6 +48,9 @@ export type MoreStackParamList = {
   Translator: undefined;
   HamRadio: undefined;
   MorseCode: undefined;
+  QuizMenu: undefined;
+  QuizPlay: { category?: string; quizId?: string; isDailyDrill?: boolean };
+  QuizResult: { category: string; total: number; correct: number; timeTaken: number; missedQuizIds: string[] };
 };
 
 const HomeStack = createNativeStackNavigator<HomeStackParamList>();
@@ -83,6 +89,9 @@ function MoreStackNavigator() {
       <MoreStack.Screen name="Translator" component={TranslatorScreen} options={{ title: 'Offline Translator' }} />
       <MoreStack.Screen name="HamRadio" component={HamRadioScreen} options={{ title: 'HAM Radio Repeaters' }} />
       <MoreStack.Screen name="MorseCode" component={MorseCodeScreen} options={{ title: 'Morse Code' }} />
+      <MoreStack.Screen name="QuizMenu" component={QuizMenuScreen} options={{ title: 'Readiness Quizzes' }} />
+      <MoreStack.Screen name="QuizPlay" component={QuizScreen} options={{ title: '', headerShown: false }} />
+      <MoreStack.Screen name="QuizResult" component={QuizResultScreen} options={{ title: 'Drill Results' }} />
     </MoreStack.Navigator>
   );
 }

@@ -34,6 +34,20 @@ export async function initDatabase(): Promise<void> {
       cached_at INTEGER NOT NULL,
       PRIMARY KEY (guide_id, language_code, field)
     );
+    CREATE TABLE IF NOT EXISTS quiz_results (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      category TEXT NOT NULL,
+      quiz_id TEXT NOT NULL,
+      format TEXT NOT NULL,
+      correct INTEGER NOT NULL,
+      answered_at INTEGER NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS daily_drill_state (
+      date TEXT PRIMARY KEY,
+      quiz_id TEXT NOT NULL,
+      completed INTEGER DEFAULT 0,
+      score INTEGER
+    );
     INSERT OR IGNORE INTO user_tier (id, tier_name, is_lifetime) VALUES (1, 'free', 0);
   `);
 }
@@ -97,4 +111,46 @@ export async function cacheTranslation(guideId: string, languageCode: string, fi
 }
 export async function clearTranslationCache(languageCode: string): Promise<void> {
   try { await getDb().runAsync('DELETE FROM translations WHERE language_code = ?', [languageCode]); } catch { /* ignore */ }
+}
+
+export async function saveQuizResult(category: string, quizId: string, format: string, correct: boolean): Promise<void> {
+  await getDb().runAsync(
+    'INSERT INTO quiz_results (category, quiz_id, format, correct, answered_at) VALUES (?, ?, ?, ?, ?)',
+    [category, quizId, format, correct ? 1 : 0, Date.now()]
+  );
+}
+
+export async function getCategoryReadiness(category: string): Promise<number> {
+  const rows = await getDb().getAllAsync<{ correct: number }>(
+    'SELECT correct FROM quiz_results WHERE category = ?',
+    [category]
+  );
+  if (rows.length === 0) return 0;
+  const correctCount = rows.filter((r) => r.correct === 1).length;
+  return Math.round((correctCount / rows.length) * 100);
+}
+
+export async function getOverallReadiness(): Promise<number> {
+  const rows = await getDb().getAllAsync<{ correct: number }>(
+    'SELECT correct FROM quiz_results'
+  );
+  if (rows.length === 0) return 0;
+  const correctCount = rows.filter((r) => r.correct === 1).length;
+  return Math.round((correctCount / rows.length) * 100);
+}
+
+export async function getTodayDrillState(): Promise<{
+  date: string; quiz_id: string; completed: number; score: number | null;
+} | null> {
+  const today = new Date().toISOString().split('T')[0];
+  return (await getDb().getFirstAsync<{
+    date: string; quiz_id: string; completed: number; score: number | null;
+  }>('SELECT * FROM daily_drill_state WHERE date = ?', [today])) ?? null;
+}
+
+export async function markDrillComplete(date: string, quizId: string, score: number): Promise<void> {
+  await getDb().runAsync(
+    'INSERT OR REPLACE INTO daily_drill_state (date, quiz_id, completed, score) VALUES (?, ?, 1, ?)',
+    [date, quizId, score]
+  );
 }

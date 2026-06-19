@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View, Text, StyleSheet, ScrollView, TouchableOpacity,
-  Switch, Alert, ActivityIndicator, Linking,
+  Switch, Alert, ActivityIndicator, Linking, Platform,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { useAppStore } from '../store/useAppStore';
@@ -22,6 +22,48 @@ export function SettingsScreen() {
 
   const [downloadProgress, setDownloadProgress] = useState<Record<string, number>>({});
   const [downloadingLang, setDownloadingLang] = useState<string | null>(null);
+  const [drillReminderEnabled, setDrillReminderEnabled] = useState(false);
+
+  useEffect(() => {
+    void (async () => {
+      try {
+        const AsyncStorage = (await import('@react-native-async-storage/async-storage')).default;
+        const val = await AsyncStorage.getItem('griddown_drill_reminder');
+        setDrillReminderEnabled(val === 'true');
+      } catch { /* ignore */ }
+    })();
+  }, []);
+
+  const handleDrillReminderToggle = async (enabled: boolean) => {
+    setDrillReminderEnabled(enabled);
+    try {
+      const AsyncStorage = (await import('@react-native-async-storage/async-storage')).default;
+      await AsyncStorage.setItem('griddown_drill_reminder', enabled ? 'true' : 'false');
+      const Notifications = await import('expo-notifications');
+      if (enabled) {
+        const { status } = await Notifications.requestPermissionsAsync();
+        if (status !== 'granted') {
+          setDrillReminderEnabled(false);
+          await AsyncStorage.setItem('griddown_drill_reminder', 'false');
+          Alert.alert('Permission Required', 'Enable notifications in device Settings to receive drill reminders.');
+          return;
+        }
+        await Notifications.cancelAllScheduledNotificationsAsync();
+        await Notifications.scheduleNotificationAsync({
+          content: {
+            title: '🎯 Daily Drill Ready',
+            body: "Test your survival readiness. Today's drill is waiting.",
+            sound: true,
+          },
+          trigger: { hour: 8, minute: 0, repeats: true } as any,
+        });
+      } else {
+        await Notifications.cancelAllScheduledNotificationsAsync();
+      }
+    } catch (err) {
+      console.warn('Drill reminder error:', err);
+    }
+  };
 
   async function handleDownloadModel(langCode: SupportedLanguage) {
     if (downloadingLang) return;
@@ -126,6 +168,25 @@ export function SettingsScreen() {
           </View>
         );
       })}
+
+      {/* Daily Drill */}
+      <Text style={styles.sectionHeader}>Daily Drill</Text>
+      <View style={styles.card}>
+        <View style={styles.row}>
+          <View style={{ flex: 1, gap: 2 }}>
+            <Text style={styles.label}>Daily Drill Reminder</Text>
+            <Text style={[styles.hint, { paddingHorizontal: 0, paddingBottom: 0 }]}>
+              Notification at 8:00 AM daily
+            </Text>
+          </View>
+          <Switch
+            value={drillReminderEnabled}
+            onValueChange={(v) => void handleDrillReminderToggle(v)}
+            trackColor={{ false: '#333', true: '#E8642A' }}
+            thumbColor="#fff"
+          />
+        </View>
+      </View>
 
       {/* Data */}
       <Text style={styles.sectionHeader}>{t('settings.data')}</Text>

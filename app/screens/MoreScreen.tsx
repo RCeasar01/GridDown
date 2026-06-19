@@ -8,6 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 import { Colors } from '../theme/colors';
 
 const MORE_ITEMS = [
+  { label: 'Quizzes', icon: 'trophy-outline', screen: 'QuizMenu', description: 'Test your survival readiness' },
   { label: 'Checklists', icon: 'checkbox-outline', screen: 'Checklists', description: 'Disaster prep checklists' },
   { label: 'Offline Map', icon: 'map-outline', screen: 'Map', description: 'Topo maps — coming soon' },
   { label: 'Translator', icon: 'language-outline', screen: 'Translator', description: 'Offline 10-language translator' },

@@ -34,6 +34,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         'GridDown does not use your camera.',
       NSPhotoLibraryUsageDescription:
         'GridDown does not access your photo library.',
+      UIBackgroundModes: ['remote-notification'],
     },
   },
   android: {
@@ -43,7 +44,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
     package: 'com.bannedproduct.griddown',
     versionCode: 1,
-    permissions: ['ACCESS_FINE_LOCATION', 'ACCESS_COARSE_LOCATION'],
+    permissions: ['ACCESS_FINE_LOCATION', 'ACCESS_COARSE_LOCATION', 'RECEIVE_BOOT_COMPLETED'],
   },
   web: { favicon: './app/assets/images/favicon.png' },
   plugins: [
@@ -54,6 +55,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       {
         locationAlwaysAndWhenInUsePermission:
           'Allow GridDown to use your location for offline maps and coordinate display. Your location is never stored or transmitted.',
+      },
+    ],
+    [
+      'expo-notifications',
+      {
+        icon: './app/assets/images/icon.png',
+        color: '#E8642A',
+        sounds: [],
       },
     ],
     '@react-native-ml-kit/translate',
