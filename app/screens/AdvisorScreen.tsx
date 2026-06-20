@@ -5,6 +5,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { useNavigation } from '@react-navigation/native';
 import { Colors } from '../theme/colors';
 import { useAppStore } from '../store/useAppStore';
 
@@ -13,6 +14,8 @@ interface Message {
   role: 'user' | 'advisor';
   text: string;
   timestamp: number;
+  isMedical?: boolean;
+  relatedGuideId?: string;
 }
 
 const LOCKED_TIERS = ['free', 'monthly', 'yearly', 'lifetime_standard', 'discord'];
@@ -25,13 +28,89 @@ type ModelStatus =
   | 'online'
   | 'error';
 
+type AdvisorMode = 'instructor' | 'scenario' | 'gear' | 'planner';
+
 const MODEL_NAME = 'Phi-3.5 Mini Instruct (Q4, 2.2 GB)';
 const MODEL_FILE = 'phi-3.5-mini-q4.gguf';
 const MODEL_URL =
   'https://huggingface.co/microsoft/Phi-3.5-mini-instruct-gguf/resolve/main/Phi-3.5-mini-instruct-Q4_K_M.gguf';
 
-const SYSTEM_PROMPT =
-  'You are Field Intelligence, a tactical survival advisor. You have training in combat medicine, wilderness survival, urban preparedness, and emergency response. You give direct, accurate, prioritized answers. No filler. Lives may depend on your answer.';
+const SYSTEM_PROMPTS: Record<AdvisorMode, string> = {
+  instructor:
+    'You are Field Intelligence in Instructor mode. Explain survival skills, techniques, and concepts clearly and accurately. Base your answers on established survival principles, TCCC guidelines, and US Army field manual standards. Be direct and educational. If a medical question requires hands-on training beyond text guidance, note this clearly.',
+  scenario:
+    'You are Field Intelligence in Scenario Coach mode. Present the user with a survival scenario and guide them through decision-making. Present choices, respond to their decisions with consequences, and debrief at the end with what worked and what didn\'t.',
+  gear:
+    'You are Field Intelligence in Gear Advisor mode. Help the user evaluate and improve their gear based on what they have. Be specific about gear recommendations. Do not recommend specific brands — focus on specifications and capabilities.',
+  planner:
+    'You are Field Intelligence in Preparedness Planner mode. Help the user build a prioritized preparedness plan based on their readiness gaps. Be specific, actionable, and realistic about timelines and costs.',
+};
+
+const MODE_GREETINGS: Record<AdvisorMode, string> = {
+  instructor:
+    'Instructor mode active. Ask about any survival skill, technique, or concept.',
+  scenario:
+    "Scenario Coach active. I'll present you with a survival scenario. Ready? Say 'start scenario' to begin, or describe a situation you want to train for.",
+  gear:
+    "Gear Advisor active. Tell me what gear you currently have, and I'll help you identify gaps and improvements.",
+  planner:
+    "Preparedness Planner active. Share your readiness goals or weaknesses, and I'll build you a prioritized action plan.",
+};
+
+const MODE_LABELS: Record<AdvisorMode, string> = {
+  instructor: 'INSTRUCTOR',
+  scenario: 'SCENARIO',
+  gear: 'GEAR',
+  planner: 'PLANNER',
+};
+
+const MEDICAL_SYSTEM_ADDENDUM =
+  'MEDICAL SAFETY PROTOCOL: The user is asking about a medical topic. You MUST: ' +
+  '1) Paraphrase ONLY from GridDown\'s educational guide content. ' +
+  '2) NEVER say "you have", "you should take", "sounds like", "I diagnose", or "it appears you have". ' +
+  '3) Always recommend calling emergency services. ' +
+  '4) Append the mandatory disclaimer at end of response.';
+
+const MEDICAL_FOOTER =
+  '---\n' +
+  '⚠ MEDICAL GUIDE REFERENCE ONLY\n' +
+  'This information is from GridDown\'s educational guides only. Always call emergency services when available. — Field Intelligence';
+
+const MEDICAL_KEYWORDS = [
+  'blood', 'wound', 'bleeding', 'injury', 'hurt', 'pain',
+  'tourniquet', 'airway', 'breathing', 'pulse', 'shock',
+  'unconscious', 'unresponsive', 'seizure', 'stroke', 'heart',
+  'cardiac', 'chest', 'fracture', 'burn', 'poisoning', 'overdose',
+  'allergic', 'anaphylaxis', 'CPR', 'rescue', 'dying', 'dead',
+  'triage', 'medic', 'hemorrhage', 'trauma', 'surgery', 'stitch',
+  'suture', 'splint', 'infection', 'fever', 'diabetic', 'insulin',
+];
+
+const MEDICAL_KEYWORD_TO_GUIDE: Record<string, string> = {
+  tourniquet: 'medical-002',
+  bleeding:   'medical-002',
+  wound:      'medical-003',
+  airway:     'medical-001',
+  breathing:  'medical-001',
+  cpr:        'medical-006',
+  shock:      'medical-004',
+  triage:     'medical-001',
+  burn:       'medical-005',
+  fracture:   'medical-007',
+};
+
+function isMedicalQuery(text: string): boolean {
+  const lower = text.toLowerCase();
+  return MEDICAL_KEYWORDS.some((kw) => lower.includes(kw.toLowerCase()));
+}
+
+function getRelatedGuide(text: string): string | null {
+  const lower = text.toLowerCase();
+  for (const [kw, guideId] of Object.entries(MEDICAL_KEYWORD_TO_GUIDE)) {
+    if (lower.includes(kw)) return guideId;
+  }
+  return null;
+}
 
 // Apple 2024 AI Disclosure (required for apps using AI-generated content)
 const AI_DISCLOSURE =
@@ -59,18 +138,18 @@ function LockedAdvisor() {
           <Ionicons name="lock-closed" size={36} color={Colors.primary} />
         </View>
         <Text style={styles.lockBadge}>FIELD INTELLIGENCE</Text>
-        <Text style={styles.lockTitle}>EXTREME TIER REQUIRED</Text>
+        <Text style={styles.lockTitle}>PRO + AI REQUIRED</Text>
         <Text style={styles.lockSub}>
-          The AI Advisor runs fully on-device — no internet, no cloud, no logs. Your questions never
-          leave your phone. Available exclusively to Extreme tier subscribers.
+          The AI Advisor runs fully on-device — no internet, no cloud, no logs. Your data never
+          leaves your phone. Helps you reason through scenarios using your downloaded guides.
         </Text>
         <View style={styles.featureList}>
           {[
-            'Tactical Q&A — ask any survival question',
-            'Context-aware medical and field advice',
+            'Ask scenario questions about your guides',
+            'Reasons through your downloaded guides on-device',
             'Fully offline — no network required',
             'No data ever leaves your device',
-            'Powered by Phi-3.5 Mini on-device LLM',
+            'Medical topics: guide-based responses only',
           ].map((f, i) => (
             <View key={i} style={styles.featureItem}>
               <Ionicons name="radio-outline" size={14} color={Colors.secondary} />
@@ -86,25 +165,59 @@ function LockedAdvisor() {
               params: { featureName: 'Field Intelligence AI Advisor' },
             })
           }
-          accessibilityLabel="Upgrade to Extreme tier to unlock Field Intelligence"
+          accessibilityLabel="Upgrade to Pro + AI to unlock Field Intelligence"
           accessibilityRole="button"
         >
-          <Text style={styles.upgradeBtnText}>Upgrade to Extreme</Text>
+          <Text style={styles.upgradeBtnText}>Get Pro + AI</Text>
         </TouchableOpacity>
         <Text style={styles.tierNote}>
-          Requires Extreme Monthly, Extreme Yearly, or Extreme Lifetime
+          Available with Pro + AI Monthly, Yearly, or Lifetime
         </Text>
       </View>
     </SafeAreaView>
   );
 }
 
+function ModeTabBar({
+  mode,
+  onModeChange,
+}: {
+  mode: AdvisorMode;
+  onModeChange: (m: AdvisorMode) => void;
+}) {
+  const modes: AdvisorMode[] = ['instructor', 'scenario', 'gear', 'planner'];
+  return (
+    <View style={styles.modeTabBar}>
+      {modes.map((m) => {
+        const active = mode === m;
+        return (
+          <TouchableOpacity
+            key={m}
+            style={[styles.modeTab, active && styles.modeTabActive]}
+            onPress={() => onModeChange(m)}
+            accessibilityRole="tab"
+            accessibilityState={{ selected: active }}
+            accessibilityLabel={`${MODE_LABELS[m]} mode`}
+          >
+            <Text style={[styles.modeTabText, active && styles.modeTabTextActive]}>
+              {MODE_LABELS[m]}
+            </Text>
+          </TouchableOpacity>
+        );
+      })}
+    </View>
+  );
+}
+
 function AdvisorInterface() {
+  const navigation = useNavigation();
   const [modelStatus, setModelStatus] = useState<ModelStatus>('checking');
   const [downloadProgress, setDownloadProgress] = useState(0);
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
+  const [inputIsMedical, setInputIsMedical] = useState(false);
+  const [mode, setMode] = useState<AdvisorMode>('instructor');
   const listRef = useRef<FlatList>(null);
 
   useEffect(() => {
@@ -184,10 +297,30 @@ function AdvisorInterface() {
     }
   };
 
+  const handleModeChange = (newMode: AdvisorMode) => {
+    setMode(newMode);
+    setInput('');
+    setInputIsMedical(false);
+    setMessages([
+      {
+        id: String(Date.now()),
+        role: 'advisor',
+        text: MODE_GREETINGS[newMode],
+        timestamp: Date.now(),
+      },
+    ]);
+    setTimeout(() => listRef.current?.scrollToEnd({ animated: false }), 50);
+  };
+
   const sendMessage = async () => {
     if (!input.trim() || isGenerating) return;
     const userText = input.trim();
     setInput('');
+    setInputIsMedical(false);
+
+    const medical = mode === 'instructor' && isMedicalQuery(userText);
+    const relatedGuideId = medical ? getRelatedGuide(userText) : null;
+
     const userMsg: Message = {
       id: String(Date.now()),
       role: 'user',
@@ -198,6 +331,11 @@ function AdvisorInterface() {
     setIsGenerating(true);
     setTimeout(() => listRef.current?.scrollToEnd({ animated: true }), 50);
 
+    const modeSystemPrompt = SYSTEM_PROMPTS[mode];
+    const effectiveSystemPrompt = medical
+      ? `${modeSystemPrompt}\n\n${MEDICAL_SYSTEM_ADDENDUM}`
+      : modeSystemPrompt;
+
     try {
       let responseText: string;
       const { getLlamaContext } = await import('llama.rn').catch(() => ({ getLlamaContext: null }));
@@ -206,7 +344,7 @@ function AdvisorInterface() {
         if (ctx) {
           const result = await ctx.completion({
             messages: [
-              { role: 'system', content: SYSTEM_PROMPT },
+              { role: 'system', content: effectiveSystemPrompt },
               ...messages.map((m) => ({
                 role: m.role === 'user' ? 'user' : 'assistant',
                 content: m.text,
@@ -224,11 +362,17 @@ function AdvisorInterface() {
         responseText = scaffoldResponse(userText);
       }
 
+      if (medical) {
+        responseText = `${responseText}\n\n${MEDICAL_FOOTER}`;
+      }
+
       const advisorMsg: Message = {
         id: String(Date.now() + 1),
         role: 'advisor',
         text: responseText,
         timestamp: Date.now() + 100,
+        isMedical: medical,
+        relatedGuideId: relatedGuideId ?? undefined,
       };
       setMessages((prev) => [...prev, advisorMsg]);
     } catch {
@@ -368,13 +512,22 @@ function AdvisorInterface() {
       {/* Header */}
       <View style={styles.advisorHeader}>
         <View style={[styles.statusDot, { backgroundColor: statusColor[modelStatus] }]} />
-        <Text style={styles.advisorTitle}>FIELD INTELLIGENCE</Text>
+        <View style={styles.advisorHeaderText}>
+          <Text style={styles.advisorTitle}>FIELD INTELLIGENCE</Text>
+          <Text style={styles.advisorSubtitle}>
+            Field Intelligence summarizes your downloaded guides
+          </Text>
+          <Text style={styles.advisorMeta}>On-device only. No data leaves your phone.</Text>
+        </View>
         <View style={[styles.statusBadge, { borderColor: statusColor[modelStatus] }]}>
           <Text style={[styles.statusBadgeText, { color: statusColor[modelStatus] }]}>
             {statusLabel[modelStatus].replace('FIELD INTELLIGENCE // ', '')}
           </Text>
         </View>
       </View>
+
+      {/* Mode Tab Bar */}
+      <ModeTabBar mode={mode} onModeChange={handleModeChange} />
 
       {/* AI Disclosure Banner — Apple 2024 AI content requirement */}
       <View style={styles.aiDisclosureBanner} accessibilityRole="text" accessibilityLabel="AI disclosure">
@@ -390,7 +543,13 @@ function AdvisorInterface() {
         contentContainerStyle={styles.messageList}
         showsVerticalScrollIndicator={false}
         renderItem={({ item }) => (
-          <View style={[styles.bubble, item.role === 'user' ? styles.userBubble : styles.advisorBubble]}>
+          <View
+            style={[
+              styles.bubble,
+              item.role === 'user' ? styles.userBubble : styles.advisorBubble,
+              item.isMedical && styles.medicalBubble,
+            ]}
+          >
             {item.role === 'advisor' && (
               // "AI-Assisted" label per Apple 2024 AI disclosure requirement
               <Text style={styles.advisorLabel}>◈ FIELD INTELLIGENCE · AI-ASSISTED</Text>
@@ -403,6 +562,26 @@ function AdvisorInterface() {
             >
               {item.text}
             </Text>
+            {item.isMedical && (
+              <View style={styles.medicalFooterRow}>
+                <Text style={styles.medicalFlagText}>⚠ Medical reference</Text>
+                {item.relatedGuideId ? (
+                  <TouchableOpacity
+                    style={styles.viewGuideBtn}
+                    onPress={() =>
+                      (navigation as any).navigate('Home', {
+                        screen: 'Guide',
+                        params: { guideId: item.relatedGuideId },
+                      })
+                    }
+                    accessibilityLabel="View related guide"
+                    accessibilityRole="button"
+                  >
+                    <Text style={styles.viewGuideBtnText}>📋 View Guide</Text>
+                  </TouchableOpacity>
+                ) : null}
+              </View>
+            )}
           </View>
         )}
         ListFooterComponent={
@@ -420,18 +599,29 @@ function AdvisorInterface() {
 
       {/* Input */}
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+        {inputIsMedical && (
+          <View style={styles.medicalInputWarning}>
+            <Ionicons name="warning-outline" size={13} color="#E8642A" />
+            <Text style={styles.medicalInputWarningText}>
+              Medical topics: guide-based responses only.
+            </Text>
+          </View>
+        )}
         <View style={styles.inputRow}>
           <TextInput
             style={styles.input}
             value={input}
-            onChangeText={setInput}
-            placeholder="Ask the advisor..."
+            onChangeText={(text) => {
+              setInput(text);
+              setInputIsMedical(mode === 'instructor' && isMedicalQuery(text));
+            }}
+            placeholder="Ask scenario questions..."
             placeholderTextColor={Colors.textMuted}
             multiline
             maxLength={1000}
             returnKeyType="send"
             onSubmitEditing={sendMessage}
-            accessibilityLabel="Type a question for the AI advisor"
+            accessibilityLabel="Type a scenario question for the AI advisor"
           />
           <TouchableOpacity
             style={[styles.sendBtn, (!input.trim() || isGenerating) && styles.sendBtnDisabled]}
@@ -605,8 +795,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 10,
   },
+  advisorHeaderText: { flex: 1, gap: 2 },
   statusDot: { width: 8, height: 8, borderRadius: 4 },
-  advisorTitle: { color: Colors.textPrimary, fontSize: 14, fontWeight: '900', letterSpacing: 2, flex: 1 },
+  advisorTitle: { color: Colors.textPrimary, fontSize: 14, fontWeight: '900', letterSpacing: 2 },
+  advisorSubtitle: { color: Colors.textSecondary, fontSize: 11, lineHeight: 15 },
+  advisorMeta: { color: Colors.textMuted, fontSize: 10, fontStyle: 'italic' },
   statusBadge: {
     borderWidth: 1,
     borderRadius: 6,
@@ -615,6 +808,34 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.surface,
   },
   statusBadgeText: { fontSize: 10, fontWeight: '700', letterSpacing: 0.5 },
+
+  // Mode Tab Bar
+  modeTabBar: {
+    flexDirection: 'row',
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.divider,
+  },
+  modeTab: {
+    flex: 1,
+    paddingVertical: 10,
+    alignItems: 'center',
+  },
+  modeTabActive: {
+    backgroundColor: Colors.primaryDim,
+    borderBottomWidth: 2,
+    borderBottomColor: Colors.primary,
+  },
+  modeTabText: {
+    color: Colors.textMuted,
+    fontSize: 11,
+    fontWeight: '700',
+    letterSpacing: 0.5,
+    textTransform: 'uppercase',
+  },
+  modeTabTextActive: {
+    color: Colors.primary,
+  },
+
   // AI Disclosure Banner (Apple 2024 AI content requirement)
   aiDisclosureBanner: {
     flexDirection: 'row',
@@ -684,5 +905,52 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   sendBtnDisabled: { opacity: 0.4 },
-});
 
+  // Medical styling
+  medicalBubble: {
+    borderLeftWidth: 3,
+    borderLeftColor: '#E8642A',
+  },
+  medicalFooterRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 6,
+    flexWrap: 'wrap',
+    gap: 6,
+  },
+  medicalFlagText: {
+    color: '#E8642A',
+    fontSize: 11,
+    fontWeight: '700',
+  },
+  viewGuideBtn: {
+    backgroundColor: Colors.surface,
+    borderRadius: 6,
+    borderWidth: 1,
+    borderColor: '#E8642A',
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+  },
+  viewGuideBtnText: {
+    color: '#E8642A',
+    fontSize: 11,
+    fontWeight: '700',
+  },
+  medicalInputWarning: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    paddingHorizontal: 14,
+    paddingVertical: 6,
+    backgroundColor: 'rgba(232, 100, 42, 0.08)',
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(232, 100, 42, 0.2)',
+  },
+  medicalInputWarningText: {
+    color: '#E8642A',
+    fontSize: 11,
+    fontWeight: '600',
+    flex: 1,
+  },
+});
