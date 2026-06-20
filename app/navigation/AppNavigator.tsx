@@ -5,29 +5,49 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
 
-// Screens
+// Screens — Home
 import { HomeScreen } from '../screens/HomeScreen';
 import { CategoryScreen } from '../screens/CategoryScreen';
 import { GuideScreen } from '../screens/GuideScreen';
-import { SearchScreen } from '../screens/SearchScreen';
-import { AdvisorScreen } from '../screens/AdvisorScreen';
-import { CommunityScreen } from '../screens/CommunityScreen';
-import { ChecklistScreen } from '../screens/ChecklistScreen';
-import { MapScreen } from '../screens/MapScreen';
-import { ContentPacksScreen } from '../screens/ContentPacksScreen';
-import { ReferralScreen } from '../screens/ReferralScreen';
-import { SettingsScreen } from '../screens/SettingsScreen';
-import { FounderScreen } from '../screens/FounderScreen';
 import { PaywallScreen } from '../screens/PaywallScreen';
-import { MoreScreen } from '../screens/MoreScreen';
+import { FounderScreen } from '../screens/FounderScreen';
+import { EmergencyModeScreen } from '../screens/EmergencyModeScreen';
+import { MyKitScreen } from '../screens/MyKitScreen';
+import { FlowsScreen } from '../screens/FlowsScreen';
+
+// Screens — Learn
+import { LearnScreen } from '../screens/LearnScreen';
+import { SearchScreen } from '../screens/SearchScreen';
+import { ContentPacksScreen } from '../screens/ContentPacksScreen';
+
+// Screens — Tools
+import { ToolsScreen } from '../screens/ToolsScreen';
 import { TranslatorScreen } from '../screens/TranslatorScreen';
 import { HamRadioScreen } from '../screens/HamRadioScreen';
 import { MorseCodeScreen } from '../screens/MorseCodeScreen';
-import QuizMenuScreen from '../screens/QuizMenuScreen';
+import { MapScreen } from '../screens/MapScreen';
+import { AdvisorScreen } from '../screens/AdvisorScreen';
+import { SurvivalCalculatorScreen } from '../screens/SurvivalCalculatorScreen';
+import { StarMapScreen } from '../screens/StarMapScreen';
+import { ReadinessScanScreen } from '../screens/ReadinessScanScreen';
+import { GearInventoryScreen } from '../screens/GearInventoryScreen';
+import { FamilyPlannerScreen } from '../screens/FamilyPlannerScreen';
+import { CoordinateConverterScreen } from '../screens/CoordinateConverterScreen';
+import { KnotGuideScreen } from '../screens/KnotGuideScreen';
+
+// Screens — Drill
+import { DrillScreen } from '../screens/DrillScreen';
 import QuizScreen from '../screens/QuizScreen';
 import QuizResultScreen from '../screens/QuizResultScreen';
 
-// ─── Stack navigators ─────────────────────────────────────────────────────────
+// Screens — More
+import { MoreScreen } from '../screens/MoreScreen';
+import { ChecklistScreen } from '../screens/ChecklistScreen';
+import { ReferralScreen } from '../screens/ReferralScreen';
+import { SettingsScreen } from '../screens/SettingsScreen';
+import { CommunityScreen } from '../screens/CommunityScreen';
+
+// ─── Param Lists ──────────────────────────────────────────────────────────────
 
 export type HomeStackParamList = {
   HomeMain: undefined;
@@ -35,25 +55,66 @@ export type HomeStackParamList = {
   Guide: { guideId: string };
   Paywall: { featureName?: string };
   Founder: undefined;
+  EmergencyMode: undefined;
+  MyKit: undefined;
+  Flows: undefined;
+};
+
+export type LearnStackParamList = {
+  LearnMain: undefined;
+  Category: { categoryId: string };
+  Guide: { guideId: string };
+  ContentPacks: undefined;
+  Search: undefined;
+};
+
+export type ToolsStackParamList = {
+  ToolsMain: undefined;
+  Translator: undefined;
+  HamRadio: undefined;
+  MorseCode: undefined;
+  Map: undefined;
+  Guide: { guideId: string };
+  MyKit: undefined;
+  Flows: undefined;
+  Advisor: undefined;
+  SurvivalCalculator: undefined;
+  StarMap: undefined;
+  ReadinessScan: undefined;
+  GearInventory: undefined;
+  FamilyPlanner: undefined;
+  CoordinateConverter: undefined;
+  KnotGuide: undefined;
+};
+
+export type DrillStackParamList = {
+  DrillMain: undefined;
+  QuizPlay: { category?: string; quizId?: string; isDailyDrill?: boolean };
+  QuizResult: {
+    category: string;
+    total: number;
+    correct: number;
+    timeTaken: number;
+    missedQuizIds: string[];
+  };
 };
 
 export type MoreStackParamList = {
   MoreMain: undefined;
-  Checklists: undefined;
-  Map: undefined;
-  ContentPacks: undefined;
-  Referral: undefined;
   Settings: undefined;
+  Community: undefined;
   Founder: undefined;
-  Translator: undefined;
-  HamRadio: undefined;
-  MorseCode: undefined;
-  QuizMenu: undefined;
-  QuizPlay: { category?: string; quizId?: string; isDailyDrill?: boolean };
-  QuizResult: { category: string; total: number; correct: number; timeTaken: number; missedQuizIds: string[] };
+  Referral: undefined;
+  Paywall: { featureName?: string };
+  Checklists: undefined;
 };
 
+// ─── Stack Navigators ─────────────────────────────────────────────────────────
+
 const HomeStack = createNativeStackNavigator<HomeStackParamList>();
+const LearnStack = createNativeStackNavigator<LearnStackParamList>();
+const ToolsStack = createNativeStackNavigator<ToolsStackParamList>();
+const DrillStack = createNativeStackNavigator<DrillStackParamList>();
 const MoreStack = createNativeStackNavigator<MoreStackParamList>();
 const Tab = createBottomTabNavigator();
 
@@ -67,12 +128,148 @@ const stackScreenOptions = {
 function HomeStackNavigator() {
   return (
     <HomeStack.Navigator screenOptions={stackScreenOptions}>
-      <HomeStack.Screen name="HomeMain" component={HomeScreen} options={{ title: 'GridDown', headerShown: false }} />
+      <HomeStack.Screen
+        name="HomeMain"
+        component={HomeScreen}
+        options={{ title: 'GridDown', headerShown: false }}
+      />
       <HomeStack.Screen name="Category" component={CategoryScreen} options={{ title: '' }} />
       <HomeStack.Screen name="Guide" component={GuideScreen} options={{ title: '' }} />
-      <HomeStack.Screen name="Paywall" component={PaywallScreen} options={{ title: 'Upgrade', presentation: 'modal' }} />
+      <HomeStack.Screen
+        name="Paywall"
+        component={PaywallScreen}
+        options={{ title: 'Upgrade', presentation: 'modal' }}
+      />
       <HomeStack.Screen name="Founder" component={FounderScreen} options={{ title: 'About the Founder' }} />
+      <HomeStack.Screen
+        name="EmergencyMode"
+        component={EmergencyModeScreen}
+        options={{ headerShown: false, presentation: 'fullScreenModal' }}
+      />
+      <HomeStack.Screen name="MyKit" component={MyKitScreen} options={{ title: 'My Kit' }} />
+      <HomeStack.Screen name="Flows" component={FlowsScreen} options={{ title: 'Real-World Flows' }} />
     </HomeStack.Navigator>
+  );
+}
+
+function LearnStackNavigator() {
+  return (
+    <LearnStack.Navigator screenOptions={stackScreenOptions}>
+      <LearnStack.Screen
+        name="LearnMain"
+        component={LearnScreen}
+        options={{ headerShown: false }}
+      />
+      <LearnStack.Screen name="Category" component={CategoryScreen} options={{ title: '' }} />
+      <LearnStack.Screen name="Guide" component={GuideScreen} options={{ title: '' }} />
+      <LearnStack.Screen
+        name="ContentPacks"
+        component={ContentPacksScreen}
+        options={{ title: 'Content Packs' }}
+      />
+      <LearnStack.Screen
+        name="Search"
+        component={SearchScreen}
+        options={{ title: 'Search' }}
+      />
+    </LearnStack.Navigator>
+  );
+}
+
+function ToolsStackNavigator() {
+  return (
+    <ToolsStack.Navigator screenOptions={stackScreenOptions}>
+      <ToolsStack.Screen
+        name="ToolsMain"
+        component={ToolsScreen}
+        options={{ headerShown: false }}
+      />
+      <ToolsStack.Screen
+        name="Translator"
+        component={TranslatorScreen}
+        options={{ title: 'Offline Translator' }}
+      />
+      <ToolsStack.Screen
+        name="HamRadio"
+        component={HamRadioScreen}
+        options={{ title: 'HAM Radio Repeaters' }}
+      />
+      <ToolsStack.Screen
+        name="MorseCode"
+        component={MorseCodeScreen}
+        options={{ title: 'Morse Code' }}
+      />
+      <ToolsStack.Screen name="Map" component={MapScreen} options={{ title: 'Offline Map' }} />
+      <ToolsStack.Screen name="Guide" component={GuideScreen} options={{ title: '' }} />
+      <ToolsStack.Screen name="MyKit" component={MyKitScreen} options={{ title: 'My Kit' }} />
+      <ToolsStack.Screen
+        name="Flows"
+        component={FlowsScreen}
+        options={{ title: 'Real-World Flows' }}
+      />
+      <ToolsStack.Screen
+        name="Advisor"
+        component={AdvisorScreen}
+        options={{ title: 'Field Intelligence' }}
+      />
+      <ToolsStack.Screen
+        name="SurvivalCalculator"
+        component={SurvivalCalculatorScreen}
+        options={{ title: 'Survival Calculator' }}
+      />
+      <ToolsStack.Screen
+        name="StarMap"
+        component={StarMapScreen}
+        options={{ title: 'Star Map' }}
+      />
+      <ToolsStack.Screen
+        name="ReadinessScan"
+        component={ReadinessScanScreen}
+        options={{ title: 'Readiness Scan', headerShown: false }}
+      />
+      <ToolsStack.Screen
+        name="GearInventory"
+        component={GearInventoryScreen}
+        options={{ title: 'Gear Inventory' }}
+      />
+      <ToolsStack.Screen
+        name="FamilyPlanner"
+        component={FamilyPlannerScreen}
+        options={{ title: 'Family Emergency Planner' }}
+      />
+      <ToolsStack.Screen
+        name="CoordinateConverter"
+        component={CoordinateConverterScreen}
+        options={{ title: 'Coordinate Converter' }}
+      />
+      <ToolsStack.Screen
+        name="KnotGuide"
+        component={KnotGuideScreen}
+        options={{ title: 'Knot Guide' }}
+      />
+    </ToolsStack.Navigator>
+  );
+}
+
+function DrillStackNavigator() {
+  return (
+    <DrillStack.Navigator screenOptions={stackScreenOptions}>
+      <DrillStack.Screen
+        name="DrillMain"
+        component={DrillScreen}
+        options={{ headerShown: false }}
+      />
+      <DrillStack.Screen
+        name="QuizPlay"
+        component={QuizScreen}
+        options={{ title: '', headerShown: false }}
+      />
+      <DrillStack.Screen
+        name="QuizResult"
+        component={QuizResultScreen}
+        options={{ title: 'Drill Results' }}
+      />
+    </DrillStack.Navigator>
   );
 }
 
@@ -81,20 +278,28 @@ function MoreStackNavigator() {
     <MoreStack.Navigator screenOptions={stackScreenOptions}>
       <MoreStack.Screen name="MoreMain" component={MoreScreen} options={{ title: 'More' }} />
       <MoreStack.Screen name="Checklists" component={ChecklistScreen} options={{ title: 'Checklists' }} />
-      <MoreStack.Screen name="Map" component={MapScreen} options={{ title: 'Offline Map' }} />
-      <MoreStack.Screen name="ContentPacks" component={ContentPacksScreen} options={{ title: 'Content Packs' }} />
-      <MoreStack.Screen name="Referral" component={ReferralScreen} options={{ title: 'Referral Program' }} />
       <MoreStack.Screen name="Settings" component={SettingsScreen} options={{ title: 'Settings' }} />
+      <MoreStack.Screen name="Community" component={CommunityScreen} options={{ title: 'Community' }} />
       <MoreStack.Screen name="Founder" component={FounderScreen} options={{ title: 'About the Founder' }} />
-      <MoreStack.Screen name="Translator" component={TranslatorScreen} options={{ title: 'Offline Translator' }} />
-      <MoreStack.Screen name="HamRadio" component={HamRadioScreen} options={{ title: 'HAM Radio Repeaters' }} />
-      <MoreStack.Screen name="MorseCode" component={MorseCodeScreen} options={{ title: 'Morse Code' }} />
-      <MoreStack.Screen name="QuizMenu" component={QuizMenuScreen} options={{ title: 'Readiness Quizzes' }} />
-      <MoreStack.Screen name="QuizPlay" component={QuizScreen} options={{ title: '', headerShown: false }} />
-      <MoreStack.Screen name="QuizResult" component={QuizResultScreen} options={{ title: 'Drill Results' }} />
+      <MoreStack.Screen name="Referral" component={ReferralScreen} options={{ title: 'Referral Program' }} />
+      <MoreStack.Screen
+        name="Paywall"
+        component={PaywallScreen}
+        options={{ title: 'Upgrade', presentation: 'modal' }}
+      />
     </MoreStack.Navigator>
   );
 }
+
+// ─── Tab Navigator ────────────────────────────────────────────────────────────
+
+const TAB_ICONS: Record<string, { focused: string; outline: string }> = {
+  Home:  { focused: 'home',      outline: 'home-outline' },
+  Learn: { focused: 'book',      outline: 'book-outline' },
+  Tools: { focused: 'construct', outline: 'construct-outline' },
+  Drill: { focused: 'fitness',   outline: 'fitness-outline' },
+  More:  { focused: 'grid',      outline: 'grid-outline' },
+};
 
 export function AppNavigator() {
   return (
@@ -113,24 +318,17 @@ export function AppNavigator() {
           tabBarInactiveTintColor: Colors.tabInactive,
           tabBarLabelStyle: { fontSize: 11, fontWeight: '600' },
           tabBarIcon: ({ focused, color, size }) => {
-            const iconMap: Record<string, { focused: string; outline: string }> = {
-              Home: { focused: 'home', outline: 'home-outline' },
-              Search: { focused: 'search', outline: 'search-outline' },
-              Advisor: { focused: 'radio', outline: 'radio-outline' },
-              Community: { focused: 'people', outline: 'people-outline' },
-              More: { focused: 'grid', outline: 'grid-outline' },
-            };
-            const icons = iconMap[route.name] ?? { focused: 'ellipse', outline: 'ellipse-outline' };
+            const icons = TAB_ICONS[route.name] ?? { focused: 'ellipse', outline: 'ellipse-outline' };
             const iconName = focused ? icons.focused : icons.outline;
             return <Ionicons name={iconName as any} size={size} color={color} />;
           },
         })}
       >
-        <Tab.Screen name="Home" component={HomeStackNavigator} />
-        <Tab.Screen name="Search" component={SearchScreen} />
-        <Tab.Screen name="Advisor" component={AdvisorScreen} />
-        <Tab.Screen name="Community" component={CommunityScreen} />
-        <Tab.Screen name="More" component={MoreStackNavigator} />
+        <Tab.Screen name="Home"  component={HomeStackNavigator} />
+        <Tab.Screen name="Learn" component={LearnStackNavigator} />
+        <Tab.Screen name="Tools" component={ToolsStackNavigator} />
+        <Tab.Screen name="Drill" component={DrillStackNavigator} />
+        <Tab.Screen name="More"  component={MoreStackNavigator} />
       </Tab.Navigator>
     </NavigationContainer>
   );
