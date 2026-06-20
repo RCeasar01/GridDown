@@ -79,7 +79,7 @@ NEW IN v1.1 — 12 CATEGORIES, 500+ GUIDES
 WHAT’S INSIDE
 ———
 🩹 MEDICAL GUIDES
-TCCC (Tactical Combat Casualty Care) procedures, trauma care, wound treatment, tourniquet application, improvised splints, shock management, and preventive medicine. Written by an Eagle First Responder and Military Preventive Medicine Specialist — 101st Airborne Division.
+TCCC (Tactical Combat Casualty Care) procedures, trauma care, wound treatment, tourniquet application, improvised splints, shock management, and preventive medicine. Written by an Eagle First Responder — 101st Airborne Division (Air Assault), 187th Infantry Regiment (Rakkasans) | Preventive Medicine Specialist | 65th Medical Brigade.
 
 🗺️ OFFLINE GPS MAP
 Display your exact GPS coordinates without any network connection. Works in dead zones, deep wilderness, power outages, and grid-down scenarios. Coordinates displayed in decimal degrees and MGRS format.
@@ -107,7 +107,7 @@ GridDown does not collect your name, email, location, device ID, or any personal
 ———
 VETERAN-OWNED
 ———
-Built by a combat veteran of the 101st Airborne Division — Eagle First Responder and Military Preventive Medicine Specialist. Every guide is written for real emergencies, not theoretical scenarios.
+Built by a combat veteran — 101st Airborne Division (Air Assault) / Screaming Eagles, 3rd BCT / 187th Infantry Regiment (Rakkasans), 8th US Army / 65th Medical Brigade. Eagle First Responder and Preventive Medicine Specialist. Stationed at COP Chergotah, Khost Province, Afghanistan. Every guide is written for real emergencies, not theoretical scenarios.
 
 ———
 SUBSCRIPTION INFORMATION

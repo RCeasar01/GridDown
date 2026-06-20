@@ -6,11 +6,14 @@ import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
 
 const CREDENTIALS = [
-  { icon: '🪖', text: 'Combat Infantryman — United States Army' },
-  { icon: '🩺', text: 'Eagle First Responder — 101st Airborne Division\nEnhanced Combat Lifesaver course for air assault operations' },
-  { icon: '⚕️', text: 'Preventive Medicine Specialist (Second MOS)\nField sanitation, disease prevention, and force health protection' },
-  { icon: '🌍', text: 'Deployed to COP Chergotah, Khost Province, Afghanistan\nOn the Pakistani border, in Haqqani Network territory' },
-  { icon: '🦅', text: '101st Airborne Division — Screaming Eagles' },
+  { icon: '🦅', text: '101st Airborne Division (Air Assault) — Screaming Eagles' },
+  { icon: '🪖', text: '3rd Brigade Combat Team, 187th Infantry Regiment — Rakkasans' },
+  { icon: '⚕️', text: '8th US Army / 65th Medical Brigade' },
+  { icon: '🎖️', text: 'Combat Infantryman' },
+  { icon: '🩹', text: 'Combat Lifesaver' },
+  { icon: '🩺', text: 'Eagle First Responder — 101st Airborne enhanced Combat Lifesaver program' },
+  { icon: '🔬', text: 'Preventive Medicine Specialist (secondary MOS)' },
+  { icon: '🌍', text: 'COP Chergotah, Khost Province, Afghanistan' },
   { icon: '🇺🇸', text: '100% Veteran-Owned — BannedProduct Media Inc.' },
 ];
 
@@ -65,7 +68,7 @@ export function FounderScreen() {
           <View style={styles.medicalBannerText}>
             <Text style={styles.medicalBannerTitle}>Medical Content Credential</Text>
             <Text style={styles.medicalBannerSub}>
-              Written by an Eagle First Responder and Military Preventive Medicine Specialist — 101st Airborne Division, United States Army.
+              Eagle First Responder — 101st Airborne Division (Air Assault), 187th Infantry Regiment (Rakkasans) | Preventive Medicine Specialist | 65th Medical Brigade
             </Text>
           </View>
         </View>

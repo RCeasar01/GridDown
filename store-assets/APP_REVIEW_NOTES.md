@@ -15,10 +15,14 @@ GridDown includes emergency preparedness guides covering field medicine (wound c
 ### Founder Credentials
 
 Content is authored by a founder with the following verified background:
-- **Combat Infantryman** — U.S. Army, 101st Airborne Division (Air Assault)
-- **Eagle First Responder** — combat lifesaver certification, 101st Airborne
-- **Preventive Medicine Specialist** (MOS 68S) — trained in field sanitation, disease prevention, and public health in austere environments
-- **Veteran** with direct operational experience using this knowledge in the field
+- **101st Airborne Division (Air Assault)** — Screaming Eagles
+- **3rd Brigade Combat Team, 187th Infantry Regiment** — Rakkasans
+- **8th US Army / 65th Medical Brigade**
+- **Combat Infantryman**
+- **Combat Lifesaver**
+- **Eagle First Responder** — 101st Airborne enhanced Combat Lifesaver program
+- **Preventive Medicine Specialist** (secondary MOS)
+- **COP Chergotah, Khost Province, Afghanistan** — direct operational experience using this knowledge in the field
 
 ### How the Medical Disclaimer Is Implemented
 

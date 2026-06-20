@@ -62,7 +62,7 @@ The 6.7″ screenshot set scales for all other iPhone sizes automatically.
 **Filename:** `03_offline_map.png`  
 **Overlay text:** “GPS Coordinates. No Signal Needed.”  
 **Content to show:** Map screen showing a topo map with current GPS coordinates displayed, “No Internet” indicator  
-**Notes:** Coordinates should be realistic (use Tennessee area for authenticity)
+**Notes:** Coordinates should be realistic (use North Carolina area for authenticity)
 
 ---
 
