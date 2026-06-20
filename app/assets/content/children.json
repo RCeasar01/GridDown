@@ -1,0 +1,247 @@
+[
+  {
+    "id": "children-001",
+    "category": "children",
+    "title": "Teaching Kids to Call 911",
+    "priority": "critical",
+    "tags": ["children", "emergency", "911"],
+    "audience": "children",
+    "parentGuide": true,
+    "summary": "How to teach children to call 911 confidently and communicate effectively in an emergency.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Address First",
+        "body": "Teach children to memorize their full home address including street number, street name, and city. Practice by having them recite it daily for 2 weeks. Make it a game. Address is the single most critical piece of information dispatchers need."
+      },
+      {
+        "step": 2,
+        "title": "What to Say",
+        "body": "Script: 'I need help. My address is [ADDRESS]. [NAME OF PROBLEM]. My name is [NAME].' Practice this script until it's automatic. Role-play scenarios: 'Daddy is on the floor and won't wake up.' 'There's a fire in the kitchen.'"
+      },
+      {
+        "step": 3,
+        "title": "When to Call",
+        "body": "Call 911 for: someone unconscious or not breathing, a fire, someone breaking in, a serious accident. NOT for: lost toys, power outages (unless someone is hurt), non-emergency questions. The rule: 'Is someone in danger RIGHT NOW?'"
+      },
+      {
+        "step": 4,
+        "title": "Don't Hang Up",
+        "body": "Teach children to stay on the line. The dispatcher will talk them through it. 'Stay on the phone with the nice person who answered. They will help you until help arrives.'"
+      },
+      {
+        "step": 5,
+        "title": "Practice Drills",
+        "body": "Conduct quarterly 'what would you do' scenarios. Do NOT dial 911 during practice. Use a disconnected phone or simply talk through scenarios verbally. 'If mommy fell and couldn't get up, what would you do? Show me.'"
+      },
+      {
+        "step": 6,
+        "title": "Where Are Phones",
+        "body": "Identify all phones in the home and their locations. Know that cell phones can call 911 even without service. Know the neighbor's door number who can help."
+      }
+    ],
+    "warnings": [
+      "Teach children that calling 911 for non-emergencies ties up lines needed for real emergencies. Tell them they will never get in trouble for calling 911 if they genuinely thought it was an emergency."
+    ],
+    "proTips": [
+      "Write your home address on a card and tape it near every phone and to the back of each child's phone/device. Children as young as 3-4 can memorize addresses with consistent practice."
+    ],
+    "relatedGuides": []
+  },
+  {
+    "id": "children-002",
+    "category": "children",
+    "title": "What to Do If You're Lost — Child Version",
+    "priority": "critical",
+    "tags": ["children", "lost", "wilderness", "STOP"],
+    "audience": "children",
+    "parentGuide": true,
+    "summary": "Teach children the STOP method and survival basics for when they become separated from adults.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "STOP",
+        "body": "Stop the moment you realize you're lost. Do not keep walking — every step may take you further from your last known position. Panicking and running is the most dangerous response. Standing still gives searchers a smaller area to search."
+      },
+      {
+        "step": 2,
+        "title": "Think",
+        "body": "Take 3 deep breaths. Think about where you last saw your parents or group. Think about what you did to get here. Did you go uphill? Turn right? Cross a stream?"
+      },
+      {
+        "step": 3,
+        "title": "Observe",
+        "body": "Look around for familiar landmarks. Can you hear voices, water, or traffic? Can you see buildings, trails, or open sky? Note what is around you."
+      },
+      {
+        "step": 4,
+        "title": "Plan",
+        "body": "Make a simple plan: Stay in one place and signal for help. Children should NOT try to find their way out alone in wilderness. Adults will come looking for YOU. Your job is to be VISIBLE and LOUD."
+      },
+      {
+        "step": 5,
+        "title": "Hug a Tree",
+        "body": "Literally hug a tree or sit against a large visible object in a clearing. This is your waiting spot. Do not leave it. Searchers will find you faster if you stay put. If you must move, leave a trail of sticks/rocks pointing your direction."
+      },
+      {
+        "step": 6,
+        "title": "Signal",
+        "body": "Use your whistle (always carry one): 3 blasts = SOS. Repeat every few minutes. Blow as loud as you can. Shout your name clearly every few minutes. Use a mirror, shiny wrapper, or phone screen to reflect sunlight."
+      }
+    ],
+    "warnings": [
+      "The biggest danger for lost children is walking — it leads to falls, exhaustion, and makes the search area larger. Trust the rule: STOP and STAY."
+    ],
+    "proTips": [
+      "Every child should wear a bright-colored whistle around their neck in any outdoor setting. The rule 'hug a tree' was created by BC Search and Rescue and has saved hundreds of children's lives. Practice this drill in your backyard so it's automatic."
+    ],
+    "relatedGuides": []
+  },
+  {
+    "id": "children-003",
+    "category": "children",
+    "title": "Stranger Safety in Emergencies",
+    "priority": "high",
+    "tags": ["children", "strangers", "safety", "emergency"],
+    "audience": "children",
+    "parentGuide": true,
+    "summary": "Teach children updated, realistic stranger safety rules that adapt to emergency situations.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Trusted Adults",
+        "body": "Children should have a pre-established list of 5 trusted adults (besides parents): specific named family members, teachers, neighbors. Practice naming them. In an emergency, a child should seek these specific people, not 'any adult.'"
+      },
+      {
+        "step": 2,
+        "title": "Safe Words",
+        "body": "Establish a family safe word. If someone says 'your mom sent me to pick you up' and doesn't know the safe word, the child does NOT go. Period. Practice: 'What's the safe word?' Safe words should be memorable but not guessable."
+      },
+      {
+        "step": 3,
+        "title": "When the Rules Change",
+        "body": "In some emergencies (parent injured, lost), a child may need to approach a stranger for help. Teach the difference: seek a uniformed person first (police, firefighter, paramedic), then a mother with children, then a store employee (behind a counter). Approach in public, visible locations — never go somewhere private."
+      },
+      {
+        "step": 4,
+        "title": "Information Rules",
+        "body": "Children should know their parents' first and last names, one parent's phone number, and their home address. They should NOT tell strangers: their home address (unless calling for help), that they're home alone, or their full daily schedule."
+      },
+      {
+        "step": 5,
+        "title": "In Public Emergencies",
+        "body": "If separated during an emergency (earthquake, crowd event): Stay in place at first. Look for uniformed emergency personnel. If none: go to the nearest open store with employees. Do not follow crowds."
+      },
+      {
+        "step": 6,
+        "title": "Practice Scenarios",
+        "body": "Role-play monthly: 'A person says your dad is sick at the hospital and they need to take you there. What do you do?' Answer: Ask for the safe word. If they don't know it, go into the nearest building and ask for help calling your parents."
+      }
+    ],
+    "warnings": [
+      "Old 'stranger danger' rules are outdated — most child abductions are by known adults. Focus on trusted-adult lists and safe words over general stranger avoidance."
+    ],
+    "proTips": [
+      "Write your child's trusted adult list and family safe word on an index card and review quarterly. Children under 8 have difficulty implementing abstract rules — practice specific scripts rather than general principles."
+    ],
+    "relatedGuides": []
+  },
+  {
+    "id": "children-004",
+    "category": "children",
+    "title": "Kids Emergency Contact Card",
+    "priority": "high",
+    "tags": ["children", "emergency", "contact", "card"],
+    "audience": "children",
+    "parentGuide": true,
+    "summary": "Create and practice using a personal emergency contact card that every child should memorize and carry.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "What to Memorize",
+        "body": "Every child age 5+ should memorize: full home address, at least one parent's 10-digit phone number, one out-of-area family member's phone number, family safe word, and school address (for older children)."
+      },
+      {
+        "step": 2,
+        "title": "Create the Card",
+        "body": "Make a wallet-sized card (3x5 index card, laminated) with: Child's name, Parents' names and phone numbers, Out-of-area contact, Home address, Allergies, Doctor's name and phone, Family safe word (optional — some families prefer not to write it)."
+      },
+      {
+        "step": 3,
+        "title": "Where to Keep It",
+        "body": "Keep one card in: child's school backpack (inside, not visible), child's wallet or coin purse if old enough, sewn into a jacket lining for outdoor activities, and kept by the school nurse."
+      },
+      {
+        "step": 4,
+        "title": "Practice the Info",
+        "body": "Weekly or bi-weekly quiz: 'Tell me our home phone number.' Make it a game with small rewards. Practice until it's instant recall, not slow recitation. 10-second recall under stress vs 30-second recall under stress is an important difference."
+      },
+      {
+        "step": 5,
+        "title": "Update Regularly",
+        "body": "Review and update the card: whenever you move, when phone numbers change, at start of each school year. Keep a parent copy with the date last updated."
+      },
+      {
+        "step": 6,
+        "title": "Older Children",
+        "body": "Children 10+ should also know: family meeting point after school emergency, how to use a payphone or borrow a phone from a stranger (the sequence for calling mom/dad), what to do if phone calls aren't connecting (text, leave voicemail, try alternate contact)."
+      }
+    ],
+    "warnings": [
+      "Do not put child's full name visibly on the outside of backpacks — it allows strangers to call them by name and appear familiar."
+    ],
+    "proTips": [
+      "Many school emergencies result in phones being jammed with traffic. Pre-establish a family text tree: everyone texts one central family member rather than all texting each other simultaneously."
+    ],
+    "relatedGuides": []
+  },
+  {
+    "id": "children-005",
+    "category": "children",
+    "title": "Age-Appropriate Wilderness Basics for Kids",
+    "priority": "medium",
+    "tags": ["children", "wilderness", "survival", "outdoor"],
+    "audience": "children",
+    "parentGuide": true,
+    "summary": "Teach children fundamental outdoor survival awareness appropriate for their age and stage of development.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Whistle Signals",
+        "body": "Every child should carry and know how to use a Fox 40 or similar pea-less whistle: 3 blasts = I need help. 1 blast = I'm OK (responding to someone). Keep whistle accessible (around neck, not in pocket). Blow until someone hears you — don't stop because you're tired."
+      },
+      {
+        "step": 2,
+        "title": "Stay Visible",
+        "body": "In wilderness, visibility is survival. Wear bright colors. If you hear searchers or aircraft, move to the biggest open space you can find (clearing, lakeshore, ridge top). Wave your arms, lay bright items flat on the ground in an X pattern."
+      },
+      {
+        "step": 3,
+        "title": "Basic Fire Safety (ages 8+)",
+        "body": "Fire triangle: heat + fuel + oxygen = fire. Three rules for children: Never start a fire without adult supervision. If you find a fire and adults aren't there, move away from it, don't investigate it. In fire, stay low (smoke rises)."
+      },
+      {
+        "step": 4,
+        "title": "Water Safety",
+        "body": "Never drink stream, pond, or lake water without adult treatment. Signs of dehydration to tell adults: headache, dark yellow pee, feeling dizzy or very tired. Even if you're very thirsty, finding water is a job for adults."
+      },
+      {
+        "step": 5,
+        "title": "Animal Encounters",
+        "body": "Make noise when hiking (talk, sing) to avoid surprise encounters. If you see a wild animal: stop moving, back away slowly, do NOT run. Tell an adult immediately. Do not touch or feed any wild animal — ever."
+      },
+      {
+        "step": 6,
+        "title": "The Rule of Three",
+        "body": "Simplified version for children: You can survive 3 MINUTES without air. 3 HOURS without warmth (in cold and wet). 3 DAYS without water. 3 WEEKS without food. 'If it's cold and wet, staying warm is more important than finding food.'"
+      }
+    ],
+    "warnings": [
+      "Children should not be given adult responsibilities (fire-starting, navigation) until they consistently demonstrate the preceding skills. Overconfidence creates dangerous situations."
+    ],
+    "proTips": [
+      "Buy a bright orange emergency whistle for every child before any camping or hiking trip — they cost $3-8 and are literally life-saving tools. Teach children that knowing when to ask for help is a skill, not a weakness."
+    ],
+    "relatedGuides": []
+  }
+]

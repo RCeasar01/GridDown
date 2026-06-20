@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
   View, Text, StyleSheet,
-  SafeAreaView, SectionList,
+  SafeAreaView, SectionList, TouchableOpacity, ScrollView,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { Colors } from '../theme/colors';
@@ -13,10 +13,13 @@ import { CATEGORY_LABELS } from '../components/CategoryGrid';
 import { searchGroupedByCategory } from '../utils/search';
 import { Guide } from '../db/contentLoader';
 
+type SearchFilter = 'all' | 'children';
+
 export function SearchScreen() {
   const navigation = useNavigation<any>();
   const [query, setQuery] = useState('');
   const [debouncedQuery, setDebouncedQuery] = useState('');
+  const [searchFilter, setSearchFilter] = useState<SearchFilter>('all');
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const { isBookmarked, toggleBookmark } = useAppStore();
 
@@ -31,9 +34,18 @@ export function SearchScreen() {
     };
   }, [query]);
 
-  const grouped = debouncedQuery.trim()
+  const rawGrouped = debouncedQuery.trim()
     ? searchGroupedByCategory(debouncedQuery)
     : [];
+
+  const grouped = searchFilter === 'children'
+    ? rawGrouped.map(({ category, guides }) => ({
+        category,
+        guides: guides.filter(
+          (g) => g.category === 'children' || g.tags?.includes('child-safety') || g.tags?.includes('children'),
+        ),
+      })).filter(({ guides }) => guides.length > 0)
+    : rawGrouped;
 
   const sections = grouped.map(({ category, guides }) => ({
     title: category,
@@ -61,6 +73,25 @@ export function SearchScreen() {
           placeholder="Search guides, skills, topics..."
         />
       </View>
+
+      {/* Filter chips */}
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={styles.filterRow}
+      >
+        {(['all', 'children'] as SearchFilter[]).map((f) => (
+          <TouchableOpacity
+            key={f}
+            style={[styles.filterChip, searchFilter === f && styles.filterChipActive]}
+            onPress={() => setSearchFilter(f)}
+          >
+            <Text style={[styles.filterChipText, searchFilter === f && styles.filterChipTextActive]}>
+              {f === 'all' ? 'All Guides' : '👧 For Children'}
+            </Text>
+          </TouchableOpacity>
+        ))}
+      </ScrollView>
 
       {query.length === 0 ? (
         <View style={styles.promptContainer}>
@@ -136,4 +167,24 @@ const styles = StyleSheet.create({
   },
   sectionIcon: { fontSize: 18 },
   sectionTitle: { color: Colors.textMuted, fontSize: 11, fontWeight: '700', letterSpacing: 1.5 },
+  filterRow: {
+    paddingHorizontal: 16,
+    paddingBottom: 8,
+    gap: 8,
+    flexDirection: 'row',
+  },
+  filterChip: {
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: Colors.cardBorder,
+    paddingHorizontal: 14,
+    paddingVertical: 6,
+    backgroundColor: Colors.surface,
+  },
+  filterChipActive: {
+    backgroundColor: Colors.primaryDim,
+    borderColor: Colors.primary,
+  },
+  filterChipText: { color: Colors.textSecondary, fontSize: 13, fontWeight: '600' },
+  filterChipTextActive: { color: Colors.primary },
 });

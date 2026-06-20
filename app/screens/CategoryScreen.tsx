@@ -17,13 +17,14 @@ import { Guide } from '../db/contentLoader';
 type Nav = NativeStackNavigationProp<HomeStackParamList, 'Category'>;
 type Route = RouteProp<HomeStackParamList, 'Category'>;
 
-type Filter = 'all' | 'critical' | 'beginner' | 'advanced';
+type Filter = 'all' | 'critical' | 'beginner' | 'advanced' | 'children';
 
 const FILTERS: { key: Filter; label: string }[] = [
   { key: 'all', label: 'All' },
   { key: 'critical', label: 'Critical' },
   { key: 'advanced', label: 'Advanced' },
   { key: 'beginner', label: 'Beginner' },
+  { key: 'children', label: '👧 For Children' },
 ];
 
 const PRIORITY_RANK: Record<string, number> = {
@@ -48,7 +49,16 @@ export function CategoryScreen() {
   const rawGuides = getGuidesByCategory(categoryId);
 
   const filtered = useMemo(() => {
-    const subset = filter === 'all' ? rawGuides : rawGuides.filter((g) => g.priority === filter);
+    let subset: typeof rawGuides;
+    if (filter === 'all') {
+      subset = rawGuides;
+    } else if (filter === 'children') {
+      subset = rawGuides.filter(
+        (g) => g.category === 'children' || g.tags?.includes('child-safety') || g.tags?.includes('children'),
+      );
+    } else {
+      subset = rawGuides.filter((g) => g.priority === filter);
+    }
     return sortGuides(subset);
   }, [rawGuides, filter]);
 
