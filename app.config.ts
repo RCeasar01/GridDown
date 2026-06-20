@@ -48,6 +48,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   web: { favicon: './app/assets/images/favicon.png' },
   plugins: [
+    'expo-localization',
     'expo-sqlite',
     'expo-file-system',
     [
@@ -65,7 +66,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         sounds: [],
       },
     ],
-    '@react-native-ml-kit/translate',
     // Apple 2025: minimum iOS 16.0 / Google Play: targetSdkVersion 35
     [
       'expo-build-properties',
@@ -97,3 +97,4 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       'https://rceasar01.github.io/GridDown/terms',
   },
 });
+
