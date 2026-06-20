@@ -6,7 +6,7 @@ export const Colors = {
   surfaceBorder: '#2A2A2A',
 
   // Accents
-  primary: '#8B9E67',       // Light OD Green (replaces emergency orange)
+  primary: '#8B9E67',       // Light OD Green
   primaryDim: '#3D4C2E',    // Dimmed OD Green for backgrounds / overlays
   secondary: '#4A7C59',     // Survival green
   secondaryDim: '#1E3325',  // Dimmed green for backgrounds
@@ -17,9 +17,9 @@ export const Colors = {
   textMuted: '#555555',
   textOnPrimary: '#FFFFFF',
 
-  // Semantic — danger keeps orange so it reads as danger, not brand
-  danger: '#8B9E67',
-  dangerBg: '#2A1A0D',
+  // Semantic — danger/warning keep high-visibility colors for safety
+  danger: '#CC3300',
+  dangerBg: '#2A0800',
   success: '#4A7C59',
   successBg: '#0D1F14',
   warning: '#D4A017',
@@ -37,9 +37,9 @@ export const Colors = {
   cardBorder: '#2A2A2A',
 
   // Priority indicators
-  priorityCritical: '#8B9E67',  // Orange — critical keeps danger color for legibility
-  priorityAdvanced: '#D4A017',
-  priorityBeginner: '#4A7C59',
+  priorityCritical: '#CC3300',  // Red — critical danger
+  priorityAdvanced: '#D4A017',  // Amber
+  priorityBeginner: '#4A7C59', // Green
 };
 
 export type ColorKey = keyof typeof Colors;
