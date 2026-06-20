@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import {
-  View, Text, ScrollView, TouchableOpacity, SafeAreaView,
-  StyleSheet, FlatList, Alert,
+  View, Text, ScrollView, TouchableOpacity,
+  SafeAreaView, StyleSheet, FlatList, Alert,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { DrillStackParamList } from '../navigation/AppNavigator';
 import { Colors } from '../theme/colors';
 import { useAppStore } from '../store/useAppStore';
+import { DrillStackParamList } from '../navigation/AppNavigator';
 import {
   getCategoryReadiness, getOverallReadiness, getTodayDrillState,
 } from '../db/contentLoader';
@@ -31,10 +31,10 @@ const CATEGORY_INFO = [
   { id: 'disaster', label: 'Disaster', icon: 'warning-outline', count: 5 },
 ];
 
-type NavProp = NativeStackNavigationProp<DrillStackParamList>;
+type Nav = NativeStackNavigationProp<DrillStackParamList, 'DrillMain'>;
 
-export default function QuizMenuScreen() {
-  const navigation = useNavigation<NavProp>();
+export function DrillScreen() {
+  const navigation = useNavigation<Nav>();
   const { hasAccess } = useAppStore();
   const drillInfo = getDrillInfo();
 
@@ -43,7 +43,6 @@ export default function QuizMenuScreen() {
   const [drillState, setDrillState] = useState<{ completed: boolean; score: number | null }>({
     completed: false, score: null,
   });
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const load = async () => {
@@ -60,9 +59,7 @@ export default function QuizMenuScreen() {
           setDrillState({ completed: drill.completed === 1, score: drill.score });
         }
       } catch (e) {
-        console.error('QuizMenuScreen load error:', e);
-      } finally {
-        setLoading(false);
+        console.error('DrillScreen load error:', e);
       }
     };
     load();
@@ -75,8 +72,8 @@ export default function QuizMenuScreen() {
     } else {
       Alert.alert(
         'Upgrade Required',
-        'Full quiz access requires a subscription. Visit Learn → Content Packs to upgrade.',
-        [{ text: 'OK', style: 'cancel' }],
+        'Full quiz access requires a subscription.',
+        [{ text: 'Cancel', style: 'cancel' }],
       );
     }
   }, [hasAccess, navigation]);
@@ -119,7 +116,7 @@ export default function QuizMenuScreen() {
     <SafeAreaView style={styles.safe}>
       <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
         <View style={styles.headerRow}>
-          <Text style={styles.headerTitle}>READINESS QUIZ</Text>
+          <Text style={styles.headerTitle}>READINESS DRILL</Text>
           <View style={[styles.readinessBadge, { borderColor: readinessColor }]}>
             <Text style={[styles.readinessBadgeText, { color: readinessColor }]}>
               {overallReadiness}%
@@ -130,7 +127,9 @@ export default function QuizMenuScreen() {
         {/* Daily Drill Card */}
         <TouchableOpacity
           style={styles.drillCard}
-          onPress={() => navigation.navigate('QuizPlay', { quizId: drillInfo.quizId, isDailyDrill: true })}
+          onPress={() => navigation.navigate('QuizPlay', {
+            quizId: drillInfo.quizId, isDailyDrill: true,
+          })}
           activeOpacity={0.8}
         >
           <Text style={styles.drillLabel}>🎯 TODAY'S DRILL</Text>
@@ -173,9 +172,18 @@ const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: Colors.background },
   scroll: { flex: 1 },
   content: { padding: 16, paddingBottom: 32 },
-  headerRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 },
-  headerTitle: { fontSize: 18, fontWeight: '700', color: Colors.textPrimary, letterSpacing: 1 },
-  readinessBadge: { borderWidth: 1.5, borderRadius: 12, paddingHorizontal: 10, paddingVertical: 3 },
+  headerRow: {
+    flexDirection: 'row', justifyContent: 'space-between',
+    alignItems: 'center', marginBottom: 16,
+  },
+  headerTitle: {
+    fontSize: 18, fontWeight: '700',
+    color: Colors.textPrimary, letterSpacing: 1,
+  },
+  readinessBadge: {
+    borderWidth: 1.5, borderRadius: 12,
+    paddingHorizontal: 10, paddingVertical: 3,
+  },
   readinessBadgeText: { fontSize: 14, fontWeight: '700' },
   drillCard: {
     backgroundColor: Colors.surface,
@@ -183,11 +191,23 @@ const styles = StyleSheet.create({
     borderLeftWidth: 3, borderLeftColor: Colors.primary,
     borderRadius: 10, padding: 14, marginBottom: 20,
   },
-  drillLabel: { fontSize: 11, fontWeight: '700', color: Colors.primary, letterSpacing: 1, marginBottom: 4 },
-  drillTitle: { fontSize: 15, fontWeight: '600', color: Colors.textPrimary, marginBottom: 8 },
+  drillLabel: {
+    fontSize: 11, fontWeight: '700',
+    color: Colors.primary, letterSpacing: 1, marginBottom: 4,
+  },
+  drillTitle: {
+    fontSize: 15, fontWeight: '600',
+    color: Colors.textPrimary, marginBottom: 8,
+  },
   drillBadgeRow: { flexDirection: 'row', gap: 6, marginBottom: 12 },
-  badge: { backgroundColor: Colors.surfaceElevated, borderRadius: 4, paddingHorizontal: 7, paddingVertical: 2 },
-  badgeText: { fontSize: 10, color: Colors.textSecondary, textTransform: 'uppercase', letterSpacing: 0.5 },
+  badge: {
+    backgroundColor: Colors.surfaceElevated,
+    borderRadius: 4, paddingHorizontal: 7, paddingVertical: 2,
+  },
+  badgeText: {
+    fontSize: 10, color: Colors.textSecondary,
+    textTransform: 'uppercase', letterSpacing: 0.5,
+  },
   drillStartBtn: {
     backgroundColor: Colors.primary, borderRadius: 6,
     paddingVertical: 9, alignItems: 'center',
@@ -195,21 +215,30 @@ const styles = StyleSheet.create({
   drillStartText: { color: '#fff', fontSize: 13, fontWeight: '700', letterSpacing: 1 },
   drillCompletedRow: { flexDirection: 'row', alignItems: 'center', gap: 6 },
   drillCompletedText: { color: Colors.success, fontSize: 13, fontWeight: '600' },
-  sectionTitle: { fontSize: 11, fontWeight: '700', color: Colors.textMuted, letterSpacing: 1.5, marginBottom: 12 },
+  sectionTitle: {
+    fontSize: 11, fontWeight: '700',
+    color: Colors.textMuted, letterSpacing: 1.5, marginBottom: 12,
+  },
   columnWrapper: { gap: 10, marginBottom: 10 },
   categoryCard: {
     flex: 1, backgroundColor: Colors.surface,
     borderWidth: 1, borderColor: Colors.cardBorder,
     borderRadius: 10, padding: 12, minHeight: 130, overflow: 'hidden',
   },
-  categoryLabel: { fontSize: 13, fontWeight: '600', color: Colors.textPrimary, marginTop: 8, marginBottom: 2 },
+  categoryLabel: {
+    fontSize: 13, fontWeight: '600',
+    color: Colors.textPrimary, marginTop: 8, marginBottom: 2,
+  },
   categoryCount: { fontSize: 11, color: Colors.textSecondary, marginBottom: 8 },
-  readinessBarBg: { height: 3, backgroundColor: Colors.surfaceBorder, borderRadius: 2, marginBottom: 4 },
+  readinessBarBg: {
+    height: 3, backgroundColor: Colors.surfaceBorder,
+    borderRadius: 2, marginBottom: 4,
+  },
   readinessBarFill: { height: 3, backgroundColor: Colors.success, borderRadius: 2 },
   readinessPct: { fontSize: 11, color: Colors.textSecondary },
   lockOverlay: {
     position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
-    backgroundColor: 'rgba(13,13,13,0.6)', justifyContent: 'center', alignItems: 'center',
-    borderRadius: 10,
+    backgroundColor: 'rgba(13,13,13,0.6)',
+    justifyContent: 'center', alignItems: 'center', borderRadius: 10,
   },
 });

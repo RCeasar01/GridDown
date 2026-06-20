@@ -6,7 +6,7 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { MoreStackParamList } from '../navigation/AppNavigator';
+import { DrillStackParamList } from '../navigation/AppNavigator';
 import { Colors } from '../theme/colors';
 import { getQuizById, getQuizzesByCategory } from '../utils/quizRegistry';
 import { saveQuizResult, markDrillComplete } from '../db/contentLoader';
@@ -14,8 +14,8 @@ import {
   Quiz, MultipleChoiceQuiz, PriorityOrderQuiz, DecisionTreeQuiz, POItem,
 } from '../types/quiz';
 
-type NavProp = NativeStackNavigationProp<MoreStackParamList>;
-type RouteType = RouteProp<MoreStackParamList, 'QuizPlay'>;
+type NavProp = NativeStackNavigationProp<DrillStackParamList>;
+type RouteType = RouteProp<DrillStackParamList, 'QuizPlay'>;
 
 function shuffleArray<T>(arr: T[]): T[] {
   const a = [...arr];
