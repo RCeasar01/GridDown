@@ -1,4 +1,4 @@
-﻿export const Colors = {
+export const Colors = {
   // Backgrounds
   background: '#0D0D0D',
   surface: '#1A1A1A',
@@ -6,8 +6,8 @@
   surfaceBorder: '#2A2A2A',
 
   // Accents
-  primary: '#8B9E67',       // Emergency orange
-  primaryDim: '#7A3314',    // Dimmed orange for backgrounds
+  primary: '#8B9E67',       // Light OD Green (replaces emergency orange)
+  primaryDim: '#3D4C2E',    // Dimmed OD Green for backgrounds / overlays
   secondary: '#4A7C59',     // Survival green
   secondaryDim: '#1E3325',  // Dimmed green for backgrounds
 
@@ -17,7 +17,7 @@
   textMuted: '#555555',
   textOnPrimary: '#FFFFFF',
 
-  // Semantic
+  // Semantic — danger keeps orange so it reads as danger, not brand
   danger: '#8B9E67',
   dangerBg: '#2A1A0D',
   success: '#4A7C59',
@@ -30,14 +30,14 @@
   // UI elements
   tabBar: '#111111',
   tabBarBorder: '#2A2A2A',
-  tabActive: '#8B9E67',
+  tabActive: '#8B9E67',     // OD Green
   tabInactive: '#555555',
   divider: '#2A2A2A',
   overlay: 'rgba(0,0,0,0.8)',
   cardBorder: '#2A2A2A',
 
   // Priority indicators
-  priorityCritical: '#8B9E67',
+  priorityCritical: '#8B9E67',  // Orange — critical keeps danger color for legibility
   priorityAdvanced: '#D4A017',
   priorityBeginner: '#4A7C59',
 };
@@ -51,12 +51,12 @@ export const NightOpsColors = {
   textPrimary: '#C0C0C0',
   textSecondary: '#707070',
   textMuted: '#404040',
-  primary: '#B85020',      // Dimmed orange
-  primaryDim: '#4A1A08',
-  secondary: '#3A5E44',    // Dimmed green
+  primary: '#6A7E4A',      // Dimmed OD Green
+  primaryDim: '#2A3A1E',
+  secondary: '#3A5E44',    // Dimmed survival green
   tabBar: '#080808',
   tabBarBorder: '#1A1A1A',
-  tabActive: '#B85020',
+  tabActive: '#6A7E4A',
   divider: '#1A1A1A',
   cardBorder: '#1A1A1A',
 };
