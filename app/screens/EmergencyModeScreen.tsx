@@ -423,7 +423,7 @@ export function EmergencyModeScreen() {
 
 // ─── Styles ───────────────────────────────────────────────────────────────────
 
-const ACCENT = '#E8642A';
+const ACCENT = '#8B9E67';
 const EXIT_GREEN = '#4A7C59';
 const BG = '#0A0A0A';
 const SURFACE = '#151515';

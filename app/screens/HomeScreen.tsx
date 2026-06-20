@@ -198,7 +198,7 @@ export function HomeScreen() {
               ]}>
                 <Text style={[
                   styles.scoreBadgeText,
-                  { color: readinessScan.overall_score >= 71 ? '#4A7C59' : readinessScan.overall_score >= 41 ? '#D4A017' : '#E8642A' }
+                  { color: readinessScan.overall_score >= 71 ? '#4A7C59' : readinessScan.overall_score >= 41 ? '#D4A017' : '#8B9E67' }
                 ]}>{readinessScan.overall_score}</Text>
               </View>
             )}
@@ -364,7 +364,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 0,
   },
   emergencyBtn: {
-    backgroundColor: '#E8642A',
+    backgroundColor: '#8B9E67',
     height: 72,
     flexDirection: 'row',
     alignItems: 'center',

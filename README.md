@@ -22,7 +22,7 @@ GridDown is a production-grade React Native app (Expo SDK 51) delivering 60+ off
 - **Bookmark system** — SQLite-backed, instant access
 - **On-device AI advisor** — llama.rn / Phi-3.5 Mini Q4 running locally (Extreme tier)
 - **RevenueCat subscriptions** — 8 tiers from free to Extreme Lifetime
-- **Dark tactical UI** — `#0D0D0D` background, `#E8642A` accent
+- **Dark tactical UI** — `#0D0D0D` background, `#8B9E67` accent
 
 ---
 

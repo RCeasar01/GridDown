@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     --bg3: #1A1A1A;
     --text: #F0F0F0;
     --muted: #888;
-    --accent: #E8642A;
+    --accent: #8B9E67;
     --accent2: #FF7A3D;
     --border: #222;
     --green: #4CAF50;
@@ -37,8 +37,8 @@
     content: '';
     position: fixed;
     inset: 0;
-    background-image: repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(232,100,42,0.06) 40px),
-                      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(232,100,42,0.06) 40px);
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(139,158,103,0.06) 40px),
+                      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(139,158,103,0.06) 40px);
     pointer-events: none;
     z-index: -1;
   }
@@ -69,7 +69,7 @@
   /* Features Grid */
   .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 48px; }
   .feature-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; transition: border-color .2s; }
-  .feature-card:hover { border-color: rgba(232,100,42,0.4); }
+  .feature-card:hover { border-color: rgba(139,158,103,0.4); }
   .feature-icon { font-size: 28px; margin-bottom: 12px; }
   .feature-title { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
   .feature-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
@@ -88,7 +88,7 @@
   /* Pricing */
   .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 48px; }
   .pricing-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 14px; padding: 28px; }
-  .pricing-card.featured { border-color: var(--accent); background: linear-gradient(135deg, rgba(232,100,42,0.08), var(--bg2)); position: relative; }
+  .pricing-card.featured { border-color: var(--accent); background: linear-gradient(135deg, rgba(139,158,103,0.08), var(--bg2)); position: relative; }
   .featured-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--accent); color: #fff; font-size: 11px; font-weight: 700; padding: 4px 14px; border-radius: 100px; white-space: nowrap; }
   .plan-name { font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
   .plan-price { font-size: 40px; font-weight: 900; letter-spacing: -1px; }
@@ -231,7 +231,7 @@
   <p class="section-desc">15 major UX and content improvements — from a one-tap emergency crisis UI to personalized onboarding and real-world scenario flows.</p>
 
   <div class="features-grid" style="margin-top:32px;">
-    <div class="feature-card" style="border-color:rgba(232,100,42,0.5);">
+    <div class="feature-card" style="border-color:rgba(139,158,103,0.5);">
       <div class="feature-icon">🆘</div>
       <div class="feature-title">Emergency Mode</div>
       <div class="feature-desc">One tap from HomeScreen. Strips the app to crisis-only UI: medical micro cards, survival priorities, SOS signaling, disaster checklists, and live GPS coordinates. Minimum 20px fonts. Minimum 64px tap targets.</div>

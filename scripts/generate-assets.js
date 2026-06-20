@@ -23,7 +23,7 @@ async function main() {
 
   // ── SVG definitions ──────────────────────────────────────────────────────
   const BG = '#0D0D0D';
-  const ORANGE = '#E8642A';
+  const ORANGE = '#8B9E67';
   const GRAY = '#888888';
 
   // Lightning bolt shield SVG for icon

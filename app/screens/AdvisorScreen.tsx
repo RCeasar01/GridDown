@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+﻿import React, { useState, useRef, useEffect } from 'react';
 import {
   View, Text, StyleSheet, SafeAreaView, TouchableOpacity,
   TextInput, FlatList, KeyboardAvoidingView, Platform,
@@ -601,7 +601,7 @@ function AdvisorInterface() {
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
         {inputIsMedical && (
           <View style={styles.medicalInputWarning}>
-            <Ionicons name="warning-outline" size={13} color="#E8642A" />
+            <Ionicons name="warning-outline" size={13} color="#8B9E67" />
             <Text style={styles.medicalInputWarningText}>
               Medical topics: guide-based responses only.
             </Text>
@@ -909,7 +909,7 @@ const styles = StyleSheet.create({
   // Medical styling
   medicalBubble: {
     borderLeftWidth: 3,
-    borderLeftColor: '#E8642A',
+    borderLeftColor: '#8B9E67',
   },
   medicalFooterRow: {
     flexDirection: 'row',
@@ -920,7 +920,7 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   medicalFlagText: {
-    color: '#E8642A',
+    color: '#8B9E67',
     fontSize: 11,
     fontWeight: '700',
   },
@@ -928,12 +928,12 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.surface,
     borderRadius: 6,
     borderWidth: 1,
-    borderColor: '#E8642A',
+    borderColor: '#8B9E67',
     paddingHorizontal: 10,
     paddingVertical: 4,
   },
   viewGuideBtnText: {
-    color: '#E8642A',
+    color: '#8B9E67',
     fontSize: 11,
     fontWeight: '700',
   },
@@ -943,12 +943,12 @@ const styles = StyleSheet.create({
     gap: 5,
     paddingHorizontal: 14,
     paddingVertical: 6,
-    backgroundColor: 'rgba(232, 100, 42, 0.08)',
+    backgroundColor: 'rgba(139, 158, 103, 0.08)',
     borderTopWidth: 1,
-    borderTopColor: 'rgba(232, 100, 42, 0.2)',
+    borderTopColor: 'rgba(139, 158, 103, 0.2)',
   },
   medicalInputWarningText: {
-    color: '#E8642A',
+    color: '#8B9E67',
     fontSize: 11,
     fontWeight: '600',
     flex: 1,

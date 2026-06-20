@@ -144,7 +144,7 @@ The 6.7″ screenshot set scales for all other iPhone sizes automatically.
 - Font: SF Pro Display Bold (iOS) / Product Sans Bold (Android)
 - Overlay background: 80% opacity `#0D0D0D` bar at bottom 25% of frame
 - Overlay text color: `#F0F0F0`
-- Accent color: `#E8642A`
+- Accent color: `#8B9E67`
 - Max 2 lines of text per screenshot
 - Veteran badge: 🇺🇸 + “Veteran-Owned” in small caps in top-right corner
 

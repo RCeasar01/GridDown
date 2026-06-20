@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500">
   <defs>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(232,100,42,0.08)" stroke-width="1"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(139,158,103,0.08)" stroke-width="1"/>
     </pattern>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0D0D0D"/>
       <stop offset="100%" stop-color="#161616"/>
     </linearGradient>
     <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#E8642A"/>
+      <stop offset="0%" stop-color="#8B9E67"/>
       <stop offset="100%" stop-color="#FF7A3D"/>
     </linearGradient>
     <filter id="glow">
@@ -24,38 +24,38 @@
   <rect width="1024" height="500" fill="url(#grid)"/>
 
   <!-- Accent diagonal lines -->
-  <line x1="0" y1="500" x2="400" y2="0" stroke="rgba(232,100,42,0.06)" stroke-width="1.5"/>
-  <line x1="100" y1="500" x2="500" y2="0" stroke="rgba(232,100,42,0.06)" stroke-width="1.5"/>
-  <line x1="600" y1="500" x2="1024" y2="120" stroke="rgba(232,100,42,0.06)" stroke-width="1.5"/>
+  <line x1="0" y1="500" x2="400" y2="0" stroke="rgba(139,158,103,0.06)" stroke-width="1.5"/>
+  <line x1="100" y1="500" x2="500" y2="0" stroke="rgba(139,158,103,0.06)" stroke-width="1.5"/>
+  <line x1="600" y1="500" x2="1024" y2="120" stroke="rgba(139,158,103,0.06)" stroke-width="1.5"/>
 
   <!-- Crosshair / targeting reticle (left) -->
   <g transform="translate(160, 250)" opacity="0.15">
-    <circle r="80" fill="none" stroke="#E8642A" stroke-width="1"/>
-    <circle r="50" fill="none" stroke="#E8642A" stroke-width="0.5"/>
-    <circle r="8" fill="none" stroke="#E8642A" stroke-width="1"/>
-    <line x1="-100" y1="0" x2="-15" y2="0" stroke="#E8642A" stroke-width="1"/>
-    <line x1="15" y1="0" x2="100" y2="0" stroke="#E8642A" stroke-width="1"/>
-    <line x1="0" y1="-100" x2="0" y2="-15" stroke="#E8642A" stroke-width="1"/>
-    <line x1="0" y1="15" x2="0" y2="100" stroke="#E8642A" stroke-width="1"/>
+    <circle r="80" fill="none" stroke="#8B9E67" stroke-width="1"/>
+    <circle r="50" fill="none" stroke="#8B9E67" stroke-width="0.5"/>
+    <circle r="8" fill="none" stroke="#8B9E67" stroke-width="1"/>
+    <line x1="-100" y1="0" x2="-15" y2="0" stroke="#8B9E67" stroke-width="1"/>
+    <line x1="15" y1="0" x2="100" y2="0" stroke="#8B9E67" stroke-width="1"/>
+    <line x1="0" y1="-100" x2="0" y2="-15" stroke="#8B9E67" stroke-width="1"/>
+    <line x1="0" y1="15" x2="0" y2="100" stroke="#8B9E67" stroke-width="1"/>
   </g>
 
   <!-- Crosshair (right) -->
   <g transform="translate(864, 250)" opacity="0.15">
-    <circle r="80" fill="none" stroke="#E8642A" stroke-width="1"/>
-    <circle r="50" fill="none" stroke="#E8642A" stroke-width="0.5"/>
-    <circle r="8" fill="none" stroke="#E8642A" stroke-width="1"/>
-    <line x1="-100" y1="0" x2="-15" y2="0" stroke="#E8642A" stroke-width="1"/>
-    <line x1="15" y1="0" x2="100" y2="0" stroke="#E8642A" stroke-width="1"/>
-    <line x1="0" y1="-100" x2="0" y2="-15" stroke="#E8642A" stroke-width="1"/>
-    <line x1="0" y1="15" x2="0" y2="100" stroke="#E8642A" stroke-width="1"/>
+    <circle r="80" fill="none" stroke="#8B9E67" stroke-width="1"/>
+    <circle r="50" fill="none" stroke="#8B9E67" stroke-width="0.5"/>
+    <circle r="8" fill="none" stroke="#8B9E67" stroke-width="1"/>
+    <line x1="-100" y1="0" x2="-15" y2="0" stroke="#8B9E67" stroke-width="1"/>
+    <line x1="15" y1="0" x2="100" y2="0" stroke="#8B9E67" stroke-width="1"/>
+    <line x1="0" y1="-100" x2="0" y2="-15" stroke="#8B9E67" stroke-width="1"/>
+    <line x1="0" y1="15" x2="0" y2="100" stroke="#8B9E67" stroke-width="1"/>
   </g>
 
   <!-- Top accent bar -->
   <rect x="0" y="0" width="1024" height="3" fill="url(#accentGrad)"/>
 
   <!-- OFFLINE badge -->
-  <rect x="40" y="32" width="130" height="28" rx="4" fill="rgba(232,100,42,0.15)" stroke="#E8642A" stroke-width="1"/>
-  <text x="105" y="51" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#E8642A" text-anchor="middle" letter-spacing="2">100% OFFLINE</text>
+  <rect x="40" y="32" width="130" height="28" rx="4" fill="rgba(139,158,103,0.15)" stroke="#8B9E67" stroke-width="1"/>
+  <text x="105" y="51" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8B9E67" text-anchor="middle" letter-spacing="2">100% OFFLINE</text>
 
   <!-- Main GRIDDOWN logotype -->
   <text x="512" y="220" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="110" font-weight="900" fill="url(#accentGrad)" text-anchor="middle" letter-spacing="-4">GRIDDOWN</text>
@@ -64,34 +64,34 @@
   <text x="512" y="272" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="rgba(240,240,240,0.75)" text-anchor="middle" letter-spacing="4">WHEN HELP IS NOT COMING</text>
 
   <!-- Divider line -->
-  <rect x="412" y="294" width="200" height="1" fill="rgba(232,100,42,0.4)"/>
+  <rect x="412" y="294" width="200" height="1" fill="rgba(139,158,103,0.4)"/>
 
   <!-- Stats row -->
   <g transform="translate(512, 340)">
     <!-- Stat 1 -->
-    <text x="-240" y="0" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="900" fill="#E8642A" text-anchor="middle">500+</text>
+    <text x="-240" y="0" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="900" fill="#8B9E67" text-anchor="middle">500+</text>
     <text x="-240" y="20" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="rgba(240,240,240,0.5)" text-anchor="middle" letter-spacing="1">GUIDES</text>
     <!-- Divider -->
     <rect x="-155" y="-22" width="1" height="48" fill="rgba(255,255,255,0.1)"/>
     <!-- Stat 2 -->
-    <text x="-80" y="0" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="900" fill="#E8642A" text-anchor="middle">10</text>
+    <text x="-80" y="0" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="900" fill="#8B9E67" text-anchor="middle">10</text>
     <text x="-80" y="20" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="rgba(240,240,240,0.5)" text-anchor="middle" letter-spacing="1">LANGUAGES</text>
     <!-- Divider -->
     <rect x="5" y="-22" width="1" height="48" fill="rgba(255,255,255,0.1)"/>
     <!-- Stat 3 -->
-    <text x="80" y="0" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="900" fill="#E8642A" text-anchor="middle">0</text>
+    <text x="80" y="0" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="900" fill="#8B9E67" text-anchor="middle">0</text>
     <text x="80" y="20" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="rgba(240,240,240,0.5)" text-anchor="middle" letter-spacing="1">DATA COLLECTED</text>
     <!-- Divider -->
     <rect x="165" y="-22" width="1" height="48" fill="rgba(255,255,255,0.1)"/>
     <!-- Stat 4 -->
-    <text x="240" y="0" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="900" fill="#E8642A" text-anchor="middle">🇺🇸</text>
+    <text x="240" y="0" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="900" fill="#8B9E67" text-anchor="middle">🇺🇸</text>
     <text x="240" y="20" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="rgba(240,240,240,0.5)" text-anchor="middle" letter-spacing="1">VETERAN-OWNED</text>
   </g>
 
   <!-- Bottom bar -->
   <rect x="0" y="460" width="1024" height="40" fill="rgba(0,0,0,0.4)"/>
   <text x="40" y="486" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="rgba(240,240,240,0.4)" letter-spacing="1">BannedProduct Media Inc.</text>
-  <text x="984" y="486" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#E8642A" text-anchor="end" letter-spacing="2">GRIDDOWN</text>
+  <text x="984" y="486" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#8B9E67" text-anchor="end" letter-spacing="2">GRIDDOWN</text>
 
   <!-- Bottom accent bar -->
   <rect x="0" y="497" width="1024" height="3" fill="url(#accentGrad)"/>
