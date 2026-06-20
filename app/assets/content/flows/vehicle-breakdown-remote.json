@@ -1,0 +1,52 @@
+{
+  "id": "vehicle-breakdown-remote",
+  "title": "Vehicle Breakdown — Remote Location",
+  "icon": "car",
+  "color": "#D4A017",
+  "estimatedTime": "20 min",
+  "description": "Your vehicle is disabled in a remote area. Execute this sequence to maximize survival probability.",
+  "steps": [
+    {
+      "step": 1,
+      "title": "Scene Safety",
+      "summary": "Ensure you are not in immediate danger from traffic or terrain",
+      "guideId": "security-001",
+      "checklistItems": ["Off roadway if possible", "Hazard lights on", "Reflective triangles placed", "Occupants out of vehicle (if fire/cliff risk)"]
+    },
+    {
+      "step": 2,
+      "title": "Signaling",
+      "summary": "Make your location known immediately",
+      "guideId": "comms-003",
+      "checklistItems": ["Emergency flashers on", "Reflective signal placed on road", "Whistle accessible", "Signal mirror ready if daylight"]
+    },
+    {
+      "step": 3,
+      "title": "Mechanical Assessment",
+      "summary": "Determine if self-repair is possible",
+      "guideId": "vehicle-001",
+      "checklistItems": ["Tire condition checked", "Fluid levels assessed", "Battery/alternator checked", "Simple repair attempted if safe"]
+    },
+    {
+      "step": 4,
+      "title": "Shelter Consideration",
+      "summary": "Assess whether to stay with vehicle or move",
+      "guideId": "shelter-001",
+      "checklistItems": ["Weather threat assessed", "Stay-with-vehicle decision made", "Emergency shelter supplies located", "Temperature management plan"]
+    },
+    {
+      "step": 5,
+      "title": "Comms and HAM",
+      "summary": "Attempt to establish communications",
+      "guideId": "comms-001",
+      "checklistItems": ["Cell signal check (move to high ground if none)", "HAM radio on 146.520 MHz", "CB Channel 9 monitored", "Text message sent (texts send when calls won't)"]
+    },
+    {
+      "step": 6,
+      "title": "Water and Rationing",
+      "summary": "Secure hydration for the duration",
+      "guideId": "water-001",
+      "checklistItems": ["Water supply inventoried", "Ration at 0.5L minimum/day", "Vehicle coolant — do NOT drink", "Rain collection setup if overnight"]
+    }
+  ]
+}

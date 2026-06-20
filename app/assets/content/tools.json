@@ -20,7 +20,18 @@
       "The Bic lighter is the survival community's most endorsed fire-making tool because it has been tested in extreme conditions worldwide and outperforms matches, ferro rods, and piezoelectric lighters in ease of use for most people. Carry two — one in pocket, one in kit.",
       "Skill beats gear. A person who can start a fire with a bow drill and read a topo map will survive in conditions that defeat a person with a $5,000 kit and no skills. Invest in training commensurate with your investment in gear."
     ],
-    "relatedGuides": ["tools-002", "tools-003", "fire-001"]
+    "relatedGuides": ["tools-002", "tools-003", "fire-001"],
+    "source": "Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to build or audit your everyday carry and 72-hour emergency kit — gear selection determines capability in a no-resupply scenario",
+      "immediate": ["EDC minimum: locking folding knife, two Bic lighters, LED flashlight (AA battery), pealess whistle", "IFAK minimum: CAT tourniquet, QuikClot gauze, Israeli pressure bandage, vented chest seal pair", "72-hour bag: 1L water + Sawyer filter, 2000+ cal/day food, emergency bivy, 3 fire methods, compass + topo map"],
+      "then": ["Weight is your enemy: evaluate every item for multi-function use; eliminate low-value single-purpose items", "Skill beats gear — a person who can start a fire and read a topo map survives where a person with a $5,000 kit and no skills does not"]
+    }
   },
   {
     "id": "tools-002",
@@ -43,7 +54,18 @@
       "The strop is the most underutilized sharpening tool. After sharpening on a stone, 10–15 light strokes per side on a leather strop (or even cardboard) removes the micro-burr from the edge and produces a razor finish without more stone work.",
       "Learn to sharpen freehand without a jig. A sharpening jig is a crutch that requires equipment — freehand sharpening skill with any available abrasive is the real survival skill."
     ],
-    "relatedGuides": ["tools-001", "tools-003"]
+    "relatedGuides": ["tools-001", "tools-003"],
+    "source": "Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to select, use, and maintain a fixed-blade knife as your primary field tool",
+      "immediate": ["Selection: 4-6 inch blade, full tang, high-carbon or quality stainless steel, Kydex sheath", "Field sharpening: maintain 15-20 degrees per side — raise spine approximately one thumbnail width off the stone", "Core tasks: batoning (split wood by striking blade spine with heavy stick — full tang only), feathering tinder, cutting cordage"],
+      "then": ["After field use: clean blade of sap, blood, and debris; apply thin oil coat to carbon steel — it rusts rapidly if left wet", "Do not store carbon steel blade in leather sheath long-term — leather retains moisture and causes rust"]
+    }
   },
   {
     "id": "tools-003",
@@ -66,6 +88,17 @@
       "The most useful skill is knowing which material properties to look for, not knowing which specific materials to use. A rope is a rope — grass, bark strips, roots, vines, and commercial paracord all serve when braided into a multi-strand cord. Recognize the principle, apply available materials.",
       "Duct tape and paracord are the two most frequently useful field improvisation materials. Both are light, compact, and solve a disproportionate number of field problems. Never leave either out of your kit."
     ],
-    "relatedGuides": ["tools-001", "tools-002", "shelter-001"]
+    "relatedGuides": ["tools-001", "tools-002", "shelter-001"],
+    "source": "Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to fabricate or repair tools from available materials — paracord and duct tape solve a disproportionate number of field problems",
+      "immediate": ["Paracord (550 lb, 7-strand) applications: shelter ridgelines, snares, tourniquet improvisation (inferior to commercial), gear lashing, fishing line from inner strands", "Learn 4 essential knots: bowline (non-slip loop), clove hitch (post attachment), taut-line hitch (adjustable tension), sheet bend (join two ropes)", "Gear repair: waxed thread or dental floss stitching for fabric; duct tape for rapid temporary patches on any surface"],
+      "then": ["Stone knapping for improvised blades requires practice — start with producing functional flakes for cutting, not finished tools", "Containers can be improvised: birch bark folded and pinned, large tropical leaves, bamboo sections, clay fired over time"]
+    }
   }
 ]

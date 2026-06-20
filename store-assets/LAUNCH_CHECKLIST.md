@@ -198,3 +198,139 @@ Check every item before submitting for review.
 ### v1.1 GitHub
 - [x] All files committed: feat: HAM radio, vehicle & homestead categories, translator tool, Morse code, field manuals
 - [x] Tag v1.1.0-beta pushed
+
+---
+
+## v2.0.0-beta Feature Checklist
+
+### Phase 1 — Emergency Mode
+- [x] EmergencyModeScreen.tsx — full crisis UI, micro cards, 14 scenarios
+- [x] HomeScreen — EMERGENCY MODE button, pulsing orange, full-width 72px
+- [x] AppNavigator — EmergencyMode registered as fullScreenModal
+- [ ] Test Emergency Mode tap targets on physical device (≥64px)
+- [ ] Test GPS location in Emergency Mode
+- [ ] Test EXIT EMERGENCY MODE button always visible
+
+### Phase 2 — Navigation Restructure
+- [x] 5 new tabs: Home / Learn / Tools / Drill / More
+- [x] LearnScreen.tsx — categories, search, field manuals, content packs
+- [x] ToolsScreen.tsx — 9-tool grid
+- [x] DrillScreen.tsx — daily drill + quiz categories
+- [x] MyKitScreen.tsx placeholder → full feature (Phase 7)
+- [x] FlowsScreen.tsx placeholder → full feature (Phase 8)
+- [ ] Test all tab navigation on iOS and Android
+- [ ] Test cross-tab navigation (Tools → Guide, Drill → QuizResult)
+
+### Phase 3 & 4 — Guide Enrichment
+- [x] quickGlance added to all 75+ guides
+- [x] source, lastReviewed, skillLevel, gearRequired, riskLevel, prerequisites added
+- [x] whenNotTo added to all medical guides
+- [x] GuideScreen renders quickGlance, metadata chips, whenNotTo box
+- [ ] Verify quickGlance content accuracy for medical guides
+- [ ] Verify skill/gear metadata is correct across all categories
+
+### Phase 5 — Medical Disclaimers + AI Safety
+- [x] Non-dismissable red box on all medical guides in GuideScreen
+- [x] AdvisorScreen medical keyword detection (46 keywords)
+- [x] Medical AI responses get TCCC guide-only restriction
+- [x] "View Related Guide" button on medical AI responses
+- [x] Medical input warning banner (real-time detection)
+- [ ] Test medical keyword detection: "tourniquet", "bleeding", "shock"
+- [ ] Test "View Guide" navigation from AI response
+
+### Phase 6 — Onboarding
+- [x] OnboardingScreen.tsx — 4-screen flow
+- [x] 6 profile cards + 8 region options
+- [x] useAppStore — completeOnboarding, loadOnboardingState
+- [x] App.tsx — conditional render (onboarding vs main app)
+- [x] SettingsScreen — "MY PROFILE" section + "CHANGE PROFILE"
+- [ ] Test first-launch onboarding flow
+- [ ] Test skip button uses default profile
+- [ ] Test "CHANGE PROFILE" from Settings
+
+### Phase 7 — My Kit
+- [x] SQLite tables: kits, kit_guides, kit_checklists
+- [x] contentLoader.ts — 8 kit functions
+- [x] MyKitScreen.tsx — full feature with kit tabs, guide list, create modal
+- [x] GuideScreen — 🎒+/🎒✓ button + kit modal
+- [x] Default kits auto-seeded on first launch
+- [ ] Test adding guide to multiple kits
+- [ ] Test kit deletion with cascade
+
+### Phase 8 — Real-World Flows
+- [x] 6 flow JSON files in app/assets/content/flows/
+- [x] flowRegistry.ts — getAllFlows(), getFlowById()
+- [x] FlowsScreen.tsx — full feature with step navigation, checkboxes
+- [x] HomeScreen — Flows horizontal section
+- [ ] Test flow completion with all checkboxes checked
+- [ ] Test "View Full Guide" links from flow steps
+
+### Phase 9 — Night Ops Mode
+- [x] NightOpsColors added to colors.ts
+- [x] useColors hook in app/theme/useColors.ts
+- [x] useAppStore — nightOpsEnabled, toggleNightOps, loadNightOps
+- [x] SettingsScreen — Night Ops toggle
+- [x] HomeScreen — moon icon header button
+- [ ] Test Night Ops in pitch-dark environment
+- [ ] Test Night Ops preference persists after restart
+
+### Phase 10 — Map Improvements
+- [x] MapScreen.tsx rewritten — live GPS, mark points, saved points list
+- [x] SQLite table: map_points
+- [x] Haversine distance + cardinal bearing to saved points
+- [x] Copy coordinates, MGRS toggle
+- [ ] Test GPS accuracy (6 decimal places)
+- [ ] Test mark point save and display
+
+### Phase 11 — Tier Simplification
+- [x] PaywallScreen — 3 tiers (Free, Pro, Pro+AI) + Family
+- [x] Discord Only removed from UI
+- [x] Pro plan: monthly/yearly/lifetime selector chips
+- [x] REVENUECAT_SETUP.md v2.0 tier mapping added
+- [ ] Test Pro purchase flow maps to correct RC product
+- [ ] Test Pro+AI shows "PRO + AI REQUIRED" in Advisor
+
+### Phase 12 — Quiz Debriefs
+- [x] QuizResultScreen — Pin Guides to Kit section
+- [x] QuizResultScreen — Review Reminder (expo-notifications, 3 days)
+- [x] QuizResultScreen — Share Result (RN Share.share)
+- [ ] Test notification permission request
+- [ ] Test share text format
+
+### Phase 13 — Translator
+- [x] 5 new emergency phrases (Do not move me, Allergic, More injured, We need rescue, Unconscious)
+- [x] SHOW mode — full-screen 72px phrase display on tap
+- [x] 36px font for phrases
+- [x] Icons next to each phrase
+- [ ] Test SHOW mode tap-to-dismiss
+- [ ] Test new phrases in all 7 languages
+
+### Phase 14 — HAM Enhancements
+- [x] SQLite table: saved_repeaters
+- [x] contentLoader.ts — getSavedRepeaters, saveRepeater, deleteRepeater
+- [x] HamRadioScreen — My Repeaters tab, Save button, tag picker
+- [x] Sort by distance toggle (expo-location)
+- [ ] Test save repeater flow
+- [ ] Test distance sort with location permission
+
+### Phase 15 — Morse + Flashlight
+- [x] MorseCodeScreen — Flash as Morse (visual simulation)
+- [x] SOS Flash shortcut button
+- [x] HELP and OK preset buttons
+- [x] Tap-along view with 80px current symbol
+- [ ] Test SOS flash timing (... --- ...)
+- [ ] Test stop button cancels flash
+
+### v2.0 GitHub
+- [ ] Commits pushed organized by phase (15 commits)
+- [ ] Tag v2.0.0-beta pushed
+- [ ] docs/index.html updated with v2.0 features
+- [ ] LAUNCH_CHECKLIST.md updated
+
+### v2.0 Final TypeScript
+- [x] 0 TypeScript errors (`npx tsc --noEmit`)
+- [ ] 0 ESLint errors (`npx eslint app/ --ext .ts,.tsx`)
+
+**v2.0 Go/No-Go Decision:** ☐ GO &nbsp;&nbsp; ☐ NO-GO
+
+**v2.0 Launch Date:** ____________

@@ -1,0 +1,52 @@
+{
+  "id": "medical-no-ems",
+  "title": "Medical Emergency — No EMS",
+  "icon": "medkit",
+  "color": "#CC3333",
+  "estimatedTime": "Ongoing",
+  "description": "EMS is unavailable or hours away. This sequence maximizes survival for a severe trauma patient.",
+  "steps": [
+    {
+      "step": 1,
+      "title": "Scene Safety",
+      "summary": "Ensure the threat that caused injury is neutralized",
+      "guideId": "security-001",
+      "checklistItems": ["Area is safe for approach", "Additional casualties checked", "Bystanders moved back", "PPE on if available (gloves)"]
+    },
+    {
+      "step": 2,
+      "title": "Triage (START)",
+      "summary": "If multiple patients: sort by severity before treating",
+      "guideId": "medical-001",
+      "checklistItems": ["Walking wounded moved aside (GREEN)", "Life-threatening bleeding identified (RED)", "Non-breathing assessed (BLACK vs RED)", "Treatment priority established"]
+    },
+    {
+      "step": 3,
+      "title": "Hemorrhage Control",
+      "summary": "Stop life-threatening bleeding — M in MARCH",
+      "guideId": "medical-002",
+      "checklistItems": ["Tourniquet applied if extremity arterial bleed", "Time of tourniquet application noted", "Wound packed if junctional or torso", "Pressure maintained"]
+    },
+    {
+      "step": 4,
+      "title": "Airway Management",
+      "summary": "Ensure patent airway — A in MARCH",
+      "guideId": "medical-001",
+      "checklistItems": ["Airway open (head tilt/chin lift)", "Recovery position if unconscious and breathing", "NPA inserted if available and trained", "Breathing confirmed"]
+    },
+    {
+      "step": 5,
+      "title": "Shock Management",
+      "summary": "Treat hemorrhagic shock — C in MARCH",
+      "guideId": "medical-004",
+      "checklistItems": ["Patient flat, legs elevated 12 inches", "Blanket or insulation placed", "Continuous vital signs monitoring", "No food/water by mouth"]
+    },
+    {
+      "step": 6,
+      "title": "Patient Monitoring",
+      "summary": "Reassess every 5 minutes until help arrives",
+      "guideId": "medical-001",
+      "checklistItems": ["Breathing checked every 5 min", "Tourniquet time tracked", "Patient consciousness level noted", "Time/treatments documented for handoff"]
+    }
+  ]
+}

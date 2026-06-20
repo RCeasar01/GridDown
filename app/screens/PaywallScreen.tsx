@@ -11,7 +11,45 @@ import { useRoute } from '@react-navigation/native';
 const PRIVACY_URL = 'https://rceasar01.github.io/GridDown/privacy';
 const TERMS_URL   = 'https://rceasar01.github.io/GridDown/terms';
 
-const PLANS = [
+type ProPriceKey = 'monthly' | 'yearly' | 'lifetime';
+
+interface PlanBase {
+  id: string;
+  name: string;
+  autoRenews: boolean;
+  features: string[];
+  cta: string;
+  highlight: boolean;
+  badge: string | null;
+  tier: 'free' | 'monthly' | 'yearly' | 'extreme_monthly' | 'extreme_yearly' | 'extreme_lifetime';
+  legacyTiers: string[];
+}
+
+interface StandardPlan extends PlanBase {
+  id: 'free' | 'family';
+  price: string;
+  period: string;
+}
+
+interface ProPlan extends PlanBase {
+  id: 'pro';
+  price: string;
+  period: string;
+  priceYearly: string;
+  priceLifetime: string;
+}
+
+interface ProAIPlan extends PlanBase {
+  id: 'pro_ai';
+  price: string;
+  period: string;
+  priceYearly: string;
+  priceLifetime: string;
+}
+
+type Plan = StandardPlan | ProPlan | ProAIPlan;
+
+const PLANS: Plan[] = [
   {
     id: 'free',
     name: 'Free',
@@ -19,149 +57,124 @@ const PLANS = [
     period: 'forever',
     autoRenews: false,
     features: [
-      '3 categories (water, fire, shelter)',
-      'No offline maps',
-      'No checklists',
-      'No AI Advisor',
+      'Water, Fire, Shelter guides',
+      'Basic quizzes',
+      'Emergency Mode',
     ],
     cta: 'Current Plan',
     highlight: false,
-    badge: null as string | null,
-    tier: 'free' as const,
+    badge: null,
+    tier: 'free',
+    legacyTiers: ['free'],
   },
   {
-    id: 'discord',
-    name: 'Discord Only',
-    price: '$1.99',
-    period: '/month',
+    id: 'pro',
+    name: 'Pro',
+    price: '$4.99',
+    period: '/mo',
+    priceYearly: '$34.99/yr',
+    priceLifetime: '$89.99',
     autoRenews: true,
     features: [
-      'Full Discord community access',
-      'Discord role: Civilian',
-      'No guide library access',
-    ],
-    cta: 'Join Community',
-    highlight: false,
-    badge: null as string | null,
-    tier: 'discord' as const,
-  },
-  {
-    id: 'monthly',
-    name: 'Monthly',
-    price: '$3.99',
-    period: '/month',
-    autoRenews: true,
-    features: [
-      'Full 10-category library',
-      'Lite content packs',
+      'Full 12-category library',
+      'All tools (HAM, Morse, Map, Translator)',
+      'All quizzes and checklists',
+      'My Kit + Gear Inventory',
+      'Real-World Flows',
+      'Family Planner',
       'Offline maps',
-      'All 6 disaster checklists',
-      'Discord: Operator',
     ],
-    cta: 'Start Monthly',
-    highlight: false,
-    badge: null as string | null,
-    tier: 'monthly' as const,
-  },
-  {
-    id: 'yearly',
-    name: 'Yearly',
-    price: '$29.99',
-    period: '/year',
-    autoRenews: true,
-    badge: 'MOST POPULAR' as string | null,
-    features: [
-      'Everything in Monthly',
-      'Auto new content releases',
-      'Priority support',
-      'Discord: Specialist',
-      'Save 37% vs monthly',
-    ],
-    cta: 'Start Yearly',
-    highlight: false,
-    tier: 'yearly' as const,
-  },
-  {
-    id: 'lifetime_standard',
-    name: 'Lifetime Standard',
-    price: '$79.99',
-    period: 'one-time',
-    autoRenews: false,
-    badge: null as string | null,
-    features: [
-      'Everything in Yearly — forever',
-      'No subscription fees',
-      'Discord: Veteran',
-      'No AI Advisor',
-    ],
-    cta: 'Buy Lifetime',
-    highlight: false,
-    tier: 'lifetime_standard' as const,
-  },
-  {
-    id: 'extreme_monthly',
-    name: 'Extreme Monthly',
-    price: '$9.99',
-    period: '/month',
-    autoRenews: true,
-    badge: null as string | null,
-    features: [
-      'Full library + AI Advisor',
-      'Field Intelligence on-device AI',
-      'USB export ready',
-      'Discord: Extreme',
-    ],
-    cta: 'Go Extreme',
+    cta: 'Go Pro',
     highlight: true,
-    tier: 'extreme_monthly' as const,
+    badge: 'MOST POPULAR',
+    tier: 'yearly',
+    legacyTiers: ['monthly', 'yearly', 'lifetime_standard', 'discord'],
   },
   {
-    id: 'extreme_yearly',
-    name: 'Extreme Yearly',
-    price: '$69.99',
-    period: '/year',
+    id: 'pro_ai',
+    name: 'Pro + AI',
+    price: '$10.99',
+    period: '/mo',
+    priceYearly: '$74.99/yr',
+    priceLifetime: '$159.99',
     autoRenews: true,
-    badge: 'BEST VALUE' as string | null,
     features: [
-      'Everything in Extreme Monthly',
-      'Lowest per-month cost ($5.83/mo)',
-      'Discord: Extreme',
+      'Everything in Pro',
+      'Field Intelligence AI Advisor',
+      'Helps you reason through scenarios using your downloaded guides',
+      'On-device, fully offline AI',
+      'USB export',
     ],
-    cta: 'Best Value Extreme',
-    highlight: true,
-    tier: 'extreme_yearly' as const,
+    cta: 'Get Pro + AI',
+    highlight: false,
+    badge: 'COMPLETE',
+    tier: 'extreme_yearly',
+    legacyTiers: ['extreme_monthly', 'extreme_yearly', 'extreme_lifetime'],
   },
   {
-    id: 'extreme_lifetime',
-    name: 'Extreme Lifetime',
-    price: '$149.99',
-    period: 'one-time',
-    autoRenews: false,
-    badge: 'ULTIMATE' as string | null,
+    id: 'family',
+    name: 'Family Plan',
+    price: '$54.99',
+    period: '/yr',
+    autoRenews: true,
     features: [
-      'Everything — forever',
-      'AI Advisor lifetime access',
-      'USB export package',
-      'Discord: Ghost',
-      'Highest tier priority',
+      '5 devices, shared plans',
+      'Everything in Pro',
+      'Shared family prep checklists',
     ],
-    cta: 'Go All-In',
-    highlight: true,
-    tier: 'extreme_lifetime' as const,
+    cta: 'Get Family Plan',
+    highlight: false,
+    badge: '5 DEVICES',
+    tier: 'yearly',
+    legacyTiers: [],
   },
 ];
+
+// RC product IDs for each plan+billing combination
+const RC_PRODUCT_MAP: Record<string, Record<ProPriceKey, string>> = {
+  pro: {
+    monthly: 'griddown_monthly_399',
+    yearly: 'griddown_yearly_2999',
+    lifetime: 'griddown_lifetime_standard_7999',
+  },
+  pro_ai: {
+    monthly: 'griddown_extreme_monthly_999',
+    yearly: 'griddown_extreme_yearly_6999',
+    lifetime: 'griddown_extreme_lifetime_14999',
+  },
+};
 
 export function PaywallScreen() {
   const { userTier, setUserTier } = useAppStore();
   const route = useRoute<any>();
   const featureName = route.params?.featureName as string | undefined;
   const [purchasing, setPurchasing] = useState<string | null>(null);
+  const [proPriceKey, setProPriceKey] = useState<ProPriceKey>('yearly');
+  const [proAIPriceKey, setProAIPriceKey] = useState<ProPriceKey>('yearly');
 
-  const handlePurchase = async (plan: typeof PLANS[0]) => {
-    if (plan.tier === 'free' || plan.tier === userTier) return;
+  function getPriceDisplay(plan: Plan, monthlyKey: ProPriceKey): { price: string; period: string } {
+    if (plan.id === 'pro' || plan.id === 'pro_ai') {
+      const p = plan as ProPlan | ProAIPlan;
+      if (monthlyKey === 'yearly') return { price: p.priceYearly.split('/')[0], period: '/yr' };
+      if (monthlyKey === 'lifetime') return { price: p.priceLifetime, period: 'one-time' };
+      return { price: p.price, period: p.period };
+    }
+    return { price: (plan as StandardPlan).price, period: (plan as StandardPlan).period };
+  }
+
+  const isLegacyCurrent = (plan: Plan): boolean => {
+    return plan.legacyTiers.includes(userTier) || plan.tier === userTier;
+  };
+
+  const handlePurchase = async (plan: Plan) => {
+    if (plan.id === 'free') return;
+    if (isLegacyCurrent(plan)) return;
     setPurchasing(plan.id);
-    // RevenueCat integration — replace with purchasePackage(plan.id)
-    // Also set: Purchases.setAutomaticAppleSearchAdsAttributionCollection(false)
+    // RevenueCat integration: map plan + billing cycle → product ID
+    // const priceKey = plan.id === 'pro' ? proPriceKey : plan.id === 'pro_ai' ? proAIPriceKey : 'yearly';
+    // const productId = RC_PRODUCT_MAP[plan.id]?.[priceKey] ?? '';
+    // const pkg = await findPackageByProductId(productId);
+    // if (pkg) await purchasePackage(pkg);
     await new Promise((r) => setTimeout(r, 1200));
     setUserTier(plan.tier);
     setPurchasing(null);
@@ -190,6 +203,14 @@ export function PaywallScreen() {
           All content is stored on your device. No internet required after setup.
         </Text>
 
+        {/* All plans note */}
+        <View style={styles.emergencyNote}>
+          <Ionicons name="flash-outline" size={14} color={Colors.secondary} />
+          <Text style={styles.emergencyNoteText}>
+            All plans include Emergency Mode (free)
+          </Text>
+        </View>
+
         {/* Apple IAP compliance: payment notice above purchase buttons */}
         <View style={styles.paymentNotice}>
           <Ionicons name="lock-closed-outline" size={12} color={Colors.textMuted} />
@@ -212,8 +233,11 @@ export function PaywallScreen() {
         </TouchableOpacity>
 
         {PLANS.map((plan) => {
-          const isCurrent = plan.tier === userTier;
+          const isCurrent = isLegacyCurrent(plan);
           const isMostPopular = plan.badge === 'MOST POPULAR';
+          const priceKey = plan.id === 'pro' ? proPriceKey : plan.id === 'pro_ai' ? proAIPriceKey : null;
+          const { price, period } = getPriceDisplay(plan, priceKey ?? 'monthly');
+
           return (
             <View
               key={plan.id}
@@ -221,44 +245,73 @@ export function PaywallScreen() {
                 styles.planCard,
                 plan.highlight && styles.planCardHighlight,
                 isMostPopular && styles.planCardPopular,
+                plan.badge === 'COMPLETE' && styles.planCardComplete,
               ]}
             >
               <View style={styles.planHeader}>
-                <View>
-                  <View style={styles.planNameRow}>
-                    <Text style={styles.planName}>{plan.name}</Text>
-                    {plan.badge && (
-                      <View
+                <View style={styles.planNameRow}>
+                  <Text style={styles.planName}>{plan.name}</Text>
+                  {plan.badge && (
+                    <View
+                      style={[
+                        styles.badge,
+                        isMostPopular && styles.badgePopular,
+                        plan.badge === 'COMPLETE' && styles.badgeComplete,
+                        plan.badge === '5 DEVICES' && styles.badgeFamily,
+                      ]}
+                    >
+                      <Text
                         style={[
-                          styles.badge,
-                          isMostPopular && styles.badgePopular,
-                          plan.badge === 'BEST VALUE' && styles.badgeBestValue,
-                          plan.badge === 'ULTIMATE' && styles.badgeExtreme,
+                          styles.badgeText,
+                          isMostPopular && styles.badgeTextPopular,
                         ]}
                       >
-                        <Text
-                          style={[
-                            styles.badgeText,
-                            isMostPopular && styles.badgeTextPopular,
-                          ]}
-                        >
-                          {plan.badge}
-                        </Text>
-                      </View>
-                    )}
-                    {isCurrent && (
-                      <View style={styles.currentBadge}>
-                        <Text style={styles.currentBadgeText}>CURRENT</Text>
-                      </View>
-                    )}
-                  </View>
-                  <View style={styles.priceRow}>
-                    <Text style={[styles.price, plan.highlight && styles.priceHighlight]}>
-                      {plan.price}
-                    </Text>
-                    <Text style={styles.period}>{plan.period}</Text>
-                  </View>
+                        {plan.badge}
+                      </Text>
+                    </View>
+                  )}
+                  {isCurrent && (
+                    <View style={styles.currentBadge}>
+                      <Text style={styles.currentBadgeText}>CURRENT</Text>
+                    </View>
+                  )}
                 </View>
+
+                {/* Price + billing chips for Pro and Pro+AI */}
+                {(plan.id === 'pro' || plan.id === 'pro_ai') ? (
+                  <View style={styles.priceSection}>
+                    <View style={styles.priceRow}>
+                      <Text style={[styles.price, plan.highlight && styles.priceHighlight]}>
+                        {price}
+                      </Text>
+                      <Text style={styles.period}>{period}</Text>
+                    </View>
+                    <View style={styles.billingChips}>
+                      {(['monthly', 'yearly', 'lifetime'] as ProPriceKey[]).map((key) => {
+                        const active = priceKey === key;
+                        const setter = plan.id === 'pro' ? setProPriceKey : setProAIPriceKey;
+                        return (
+                          <TouchableOpacity
+                            key={key}
+                            style={[styles.chip, active && styles.chipActive]}
+                            onPress={() => setter(key)}
+                            accessibilityLabel={`Select ${key} billing`}
+                            accessibilityRole="button"
+                          >
+                            <Text style={[styles.chipText, active && styles.chipTextActive]}>
+                              {key === 'monthly' ? 'Monthly' : key === 'yearly' ? 'Yearly' : 'Lifetime'}
+                            </Text>
+                          </TouchableOpacity>
+                        );
+                      })}
+                    </View>
+                  </View>
+                ) : (
+                  <View style={styles.priceRow}>
+                    <Text style={styles.price}>{price}</Text>
+                    <Text style={styles.period}>{period}</Text>
+                  </View>
+                )}
               </View>
 
               {plan.features.map((f, i) => (
@@ -276,16 +329,16 @@ export function PaywallScreen() {
                 style={[
                   styles.ctaBtn,
                   isCurrent && styles.ctaBtnCurrent,
-                  plan.highlight && !isCurrent && styles.ctaBtnExtreme,
-                  isMostPopular && !isCurrent && styles.ctaBtnPopular,
+                  plan.highlight && !isCurrent && styles.ctaBtnPopular,
+                  plan.badge === 'COMPLETE' && !isCurrent && styles.ctaBtnExtreme,
                   purchasing === plan.id && styles.ctaBtnLoading,
                 ]}
                 onPress={() => handlePurchase(plan)}
-                disabled={isCurrent || plan.tier === 'free' || purchasing !== null}
+                disabled={isCurrent || plan.id === 'free' || purchasing !== null}
                 accessibilityLabel={
                   isCurrent
                     ? `${plan.name}: Current Plan`
-                    : `${plan.name} ${plan.price}${plan.period}: ${plan.cta}`
+                    : `${plan.name} ${price}${period}: ${plan.cta}`
                 }
                 accessibilityRole="button"
               >
@@ -348,6 +401,17 @@ const styles = StyleSheet.create({
   featureBannerText: { color: Colors.danger, fontSize: 13, flex: 1, fontWeight: '600' },
   title: { color: Colors.textPrimary, fontSize: 24, fontWeight: '800', textAlign: 'center' },
   subtitle: { color: Colors.textSecondary, fontSize: 13, textAlign: 'center', lineHeight: 18 },
+  emergencyNote: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 6,
+    backgroundColor: Colors.secondaryDim,
+    borderRadius: 8,
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+  },
+  emergencyNoteText: { color: Colors.secondary, fontSize: 13, fontWeight: '600' },
   paymentNotice: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -364,23 +428,37 @@ const styles = StyleSheet.create({
     padding: 16,
     gap: 10,
   },
-  planCardHighlight: { borderColor: Colors.primary, backgroundColor: '#1A1008' },
+  planCardHighlight: { borderColor: Colors.secondary, backgroundColor: '#0D1A12' },
   planCardPopular: { borderColor: Colors.secondary, backgroundColor: '#0D1A12' },
-  planHeader: { gap: 4 },
+  planCardComplete: { borderColor: Colors.primary, backgroundColor: '#1A1008' },
+  planHeader: { gap: 8 },
   planNameRow: { flexDirection: 'row', alignItems: 'center', gap: 8, flexWrap: 'wrap' },
   planName: { color: Colors.textPrimary, fontSize: 17, fontWeight: '700' },
   badge: { borderRadius: 4, paddingHorizontal: 6, paddingVertical: 2 },
   badgePopular: { backgroundColor: Colors.secondaryDim, borderWidth: 1, borderColor: Colors.secondary },
-  badgeBestValue: { backgroundColor: Colors.primaryDim, borderWidth: 1, borderColor: Colors.primary },
-  badgeExtreme: { backgroundColor: Colors.primaryDim },
+  badgeComplete: { backgroundColor: Colors.primaryDim, borderWidth: 1, borderColor: Colors.primary },
+  badgeFamily: { backgroundColor: '#1A1835', borderWidth: 1, borderColor: '#5A5ABB' },
   badgeText: { color: Colors.primary, fontSize: 10, fontWeight: '700', letterSpacing: 0.5 },
   badgeTextPopular: { color: Colors.secondary },
   currentBadge: { backgroundColor: Colors.secondaryDim, borderRadius: 4, paddingHorizontal: 6, paddingVertical: 2 },
   currentBadgeText: { color: Colors.secondary, fontSize: 10, fontWeight: '700' },
+  priceSection: { gap: 8 },
   priceRow: { flexDirection: 'row', alignItems: 'baseline', gap: 4, marginTop: 4 },
   price: { color: Colors.textPrimary, fontSize: 26, fontWeight: '800' },
-  priceHighlight: { color: Colors.primary },
+  priceHighlight: { color: Colors.secondary },
   period: { color: Colors.textSecondary, fontSize: 14 },
+  billingChips: { flexDirection: 'row', gap: 8 },
+  chip: {
+    flex: 1,
+    borderWidth: 1,
+    borderColor: Colors.cardBorder,
+    borderRadius: 6,
+    paddingVertical: 5,
+    alignItems: 'center',
+  },
+  chipActive: { borderColor: Colors.primary, backgroundColor: Colors.primaryDim },
+  chipText: { color: Colors.textMuted, fontSize: 12, fontWeight: '600' },
+  chipTextActive: { color: Colors.primary },
   featureRow: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },
   featureText: { color: Colors.textSecondary, fontSize: 13, lineHeight: 18, flex: 1 },
   ctaBtn: {

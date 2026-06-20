@@ -43,6 +43,16 @@
       "Establish near and far rally points with your group before every movement outside your secure area — even short trips. It takes 60 seconds and eliminates chaos if you get separated.",
       "Practice the color code system daily in normal life. Spending time in Yellow in grocery stores, parking lots, and public spaces builds the habit before you need it under stress."
     ],
-    "relatedGuides": ["fm-001", "fm-002", "home-security", "group-movement"]
+    "relatedGuides": ["fm-001", "fm-002", "home-security", "group-movement"],
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You are moving through an uncertain or hostile environment and need a framework for threat recognition and escape — the goal is always to avoid, evade, and escape",
+      "immediate": ["Operate in Condition Yellow baseline — relaxed alertness scanning for anomalies in the behavioral baseline", "On contact recognition: move at 90 degrees to threat axis — not directly away, which keeps you in the line of fire longer", "Break line of sight immediately — prioritize cover (stops projectiles) over concealment (only hides you)"],
+      "then": ["Move to pre-established Near Rally Point (NRP) — wait 30 minutes, then Far Rally Point (FRP) if not reunited", "Use bounding overwatch for pairs: one person covers from a fixed position while the other moves to the next covered position"]
+    }
   }
 ]

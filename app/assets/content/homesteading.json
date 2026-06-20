@@ -50,7 +50,18 @@
       "The deep litter method (add fresh bedding on top of soiled litter monthly; clean only once or twice a year) produces lower ammonia levels than frequent cleaning due to beneficial bacterial decomposition, and the composted result is excellent garden fertilizer",
       "Ducks are a worthwhile addition to a chicken setup — they are hardy, lay larger eggs consistently through winter when chickens slow down, and are more resistant to many common poultry diseases"
     ],
-    "relatedGuides": ["homestead-002", "homestead-003", "homestead-005"]
+    "relatedGuides": ["homestead-002", "homestead-003", "homestead-005"],
+    "source": "Wilderness survival best practices / Traditional homesteading knowledge",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to establish a sustainable protein source that does not depend on supply chains — a self-sustaining chicken flock provides year-round eggs and meat",
+      "immediate": ["Select heritage dual-purpose breeds: Rhode Island Red, Barred Rock, or Black Australorp — they forage, go broody, and breed true", "Provide 4 sq ft per bird inside, 10 sq ft per bird in run; one nesting box per 4-5 hens", "Use 1/2-inch hardware cloth for ALL predator-exposed surfaces — chicken wire fails against raccoons and weasels"],
+      "then": ["Establish a feed system independent of commercial pellets: whole grains (corn/wheat/barley/BOSS) plus kitchen scraps plus foraging", "Close the coop door every night before dark — a single night open will result in total flock loss to a predator"]
+    }
   },
   {
     "id": "homestead-002",
@@ -103,7 +114,18 @@
       "Save cardboard from any source throughout the year — it is one of the most useful homesteading materials for weed suppression, sheet mulch, and composting; flatten and stack in a dry location",
       "A cold frame (bottomless wooden box with an old window or clear plastic as a lid) extends the growing season 4–6 weeks on both ends — allowing spring and fall crops in climates where frosts end the season early"
     ],
-    "relatedGuides": ["homestead-001", "homestead-003", "homestead-004"]
+    "relatedGuides": ["homestead-001", "homestead-003", "homestead-004"],
+    "source": "Wilderness survival best practices / Traditional homesteading knowledge",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to establish a food-producing garden prioritized for calories per square foot, not variety",
+      "immediate": ["Plant potatoes first: a 10x10 plot yields 50-100 lbs (35,000-70,000 calories) in 70-120 days", "Plant fast crops for immediate nutrition while caloric crops mature: radishes 22 days, leaf lettuce 30 days, spinach 25 days", "Use only open-pollinated (OP) or heirloom seeds — hybrid F1 seeds do not breed true for second generation"],
+      "then": ["Use sheet mulch method to create beds without digging: cardboard + compost + straw mulch", "Save seeds from best specimens allowed to fully dry on the plant — store in sealed glass jars with silica gel"]
+    }
   },
   {
     "id": "homestead-003",
@@ -156,7 +178,18 @@
       "Fermented hot sauce is one of the easiest and most rewarding lacto-ferments — blend peppers with 2% salt, ferment in a jar with an airlock for 5–7 days, blend smooth; the result is a probiotic condiment that lasts months under refrigeration",
       "Render animal fat (lard from pork, tallow from beef) and confit meat in the rendered fat — meat submerged and sealed under a layer of solid fat is a traditional preservation method that keeps unrefrigerated for weeks to months in a cool space; this is how cassoulet and duck confit were preserved for centuries"
     ],
-    "relatedGuides": ["homestead-001", "homestead-004", "homestead-005"]
+    "relatedGuides": ["homestead-001", "homestead-004", "homestead-005"],
+    "source": "Wilderness survival best practices / Traditional homesteading knowledge",
+    "lastReviewed": "2025-01",
+    "skillLevel": "advanced",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You have more food than you can consume and need to preserve it — off-grid preservation prevents waste of irreplaceable calories",
+      "immediate": ["Salt curing: minimum 2.5% salt by weight of meat — pack completely with no exposed surface; add pink curing salt (Prague Powder) for thick cuts to prevent botulism", "Lacto-fermentation: 2% salt brine (20g per liter water), pack vegetables tightly, keep fully submerged — never let them contact air", "Smoking: only hot smoke fully cured meat; cold smoke requires pre-curing first or product is not shelf-stable"],
+      "then": ["Root cellaring: potatoes, carrots, beets, and winter squash at 40-55°F with 85-95% humidity last 3-6 months", "Never taste-test low-acid preserved food before heating if uncertain of method — botulism has no odor or taste"]
+    }
   },
   {
     "id": "homestead-004",
@@ -209,7 +242,18 @@
       "Install a sight glass (clear section of tubing or a float gauge) on your cistern so you can monitor water level without opening the container, which introduces contamination risk",
       "Place a sand-and-gravel pre-filter box (filled with washed gravel, then sand, then a layer of activated charcoal) between your roof collection and your cistern — this settles particulates, improves taste, and reduces the disinfection load before chemical treatment"
     ],
-    "relatedGuides": ["homestead-001", "homestead-002", "homestead-003"]
+    "relatedGuides": ["homestead-001", "homestead-002", "homestead-003"],
+    "source": "Wilderness survival best practices / Traditional homesteading knowledge",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to establish a rainwater collection and storage system for your homestead — 1 inch of rain on 1,000 sq ft of roof yields 600 gallons",
+      "immediate": ["Install first-flush diverter — first 1/10 inch of rain per 100 sq ft washes off concentrated contaminants", "Screen all inlets with fine mesh to exclude insects — open water breeds mosquitoes in 4-5 days", "Calculate storage need: 5-8 gallons per person per day for basic homestead operation"],
+      "then": ["Treat with unscented bleach at 8 drops per gallon clear water; stir and let stand 30 minutes before use", "Use only food-grade opaque containers — keep in complete darkness to prevent algae growth"]
+    }
   },
   {
     "id": "homestead-005",
@@ -262,6 +306,17 @@
       "Learn to identify the kidneys and adrenal glands during evisceration — beef kidney fat (suet) is valuable for rendering into tallow (excellent cooking fat and waterproofing agent); do not discard it",
       "Organ meats (liver, heart, kidneys, tongue) are the most nutritionally dense parts of the animal — liver from a healthy animal provides more vitamin A, B12, iron, and folate per ounce than any other food; learn to cook and preserve them as a priority"
     ],
-    "relatedGuides": ["homestead-001", "homestead-003"]
+    "relatedGuides": ["homestead-001", "homestead-003"],
+    "source": "Wilderness survival best practices / Traditional homesteading knowledge",
+    "lastReviewed": "2025-01",
+    "skillLevel": "advanced",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to dispatch and process an animal for food — humane dispatch and rapid cooling are the two critical safety factors",
+      "immediate": ["Dispatch humanely by species: poultry via cervical dislocation or sharp knife across both carotids; pigs/goats via firearm to the X-point between eyes and ears", "Bleed out within 60 seconds of dispatch while heart still beats — hang inverted or elevate hindquarters", "Eviscerate without puncturing intestines or bladder — circle the vent, make belly incision using fingers as guide"],
+      "then": ["Cool carcass to 40°F within 24 hours — bacteria double every 20 minutes above 40°F", "Beef and lamb benefit from aging 7-14 days at 34-38°F; poultry should be used or frozen within 24-48 hours"]
+    }
   }
 ]

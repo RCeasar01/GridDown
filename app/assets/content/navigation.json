@@ -20,7 +20,18 @@
       "The 'map to ground, ground to map' habit: look at your map, visualize what you expect to see, look up and verify. Constantly correlate what you see with what the map shows.",
       "US topo maps are available free from the USGS National Map (apps.nationalmap.gov). Download and print or cache them in a mapping app before you need them."
     ],
-    "relatedGuides": ["nav-002", "nav-003", "nav-004"]
+    "relatedGuides": ["nav-002", "nav-003", "nav-004"],
+    "source": "US Army FM 3-25.26 (Map Reading) / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You have a topographic map and need to understand terrain before moving through it — map literacy is the foundation of all land navigation",
+      "immediate": ["Orient map to terrain using compass: rotate map until magnetic north arrow aligns with compass needle", "Identify your current location by triangulating visible terrain features to map features", "Read contour lines: V-shapes pointing uphill = valleys; V-shapes pointing downhill = ridges"],
+      "then": ["Verify your position with the 'map to ground' habit: look at map, predict what you will see, look up and confirm", "Account for magnetic declination — failure to do so causes compounding error over distance"]
+    }
   },
   {
     "id": "nav-002",
@@ -43,7 +54,18 @@
       "Orion's Belt rises due east and sets due west almost exactly everywhere on Earth — a reliable east-west reference that works in both hemispheres.",
       "At night, your eyes need 20–30 minutes to fully dark-adapt. Avoid white light sources during navigation — use red light, which does not interfere with night vision."
     ],
-    "relatedGuides": ["nav-001", "nav-003"]
+    "relatedGuides": ["nav-001", "nav-003"],
+    "source": "US Army FM 3-25.26 (Map Reading) / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": ["nav-001"],
+    "quickGlance": {
+      "situation": "You have no compass and need to determine cardinal directions using the sun or stars",
+      "immediate": ["At night: find the Big Dipper, follow the front cup edge stars 5x their distance — that is Polaris (true north)", "During the day: plant a vertical stick, mark shadow tip, wait 15-20 minutes, mark again — line runs east-west", "Analog watch method: point hour hand at sun, bisect angle to 12 o'clock — that line points south"],
+      "then": ["Orion's Belt rises due east and sets due west — reliable east-west reference in both hemispheres", "Allow 20-30 minutes for eyes to fully dark-adapt before celestial navigation at night"]
+    }
   },
   {
     "id": "nav-003",
@@ -66,7 +88,18 @@
       "A ranger bead (pace count bead) tool makes tracking paces simple — move one bead per 100 meters, one large bead per kilometer. Make one from paracord and 13 beads.",
       "When moving in a team, designate one person as the navigator (focused on direction and pace count). Do not split attention between navigation and environment scanning."
     ],
-    "relatedGuides": ["nav-001", "nav-004"]
+    "relatedGuides": ["nav-001", "nav-004"],
+    "source": "US Army FM 3-25.26 (Map Reading) / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": ["nav-001"],
+    "quickGlance": {
+      "situation": "You need to navigate to a destination in terrain with limited visible landmarks — dead reckoning tracks your position by direction and distance from a known start",
+      "immediate": ["Establish your personal pace count: count left-foot strikes over 100 measured meters (typically 65-75 paces)", "Take a compass bearing to your destination; identify a distant landmark on that bearing to walk toward", "Log each leg: starting position + bearing + pace count distance before moving"],
+      "then": ["Verify against visible terrain features every 500 meters — dead reckoning errors compound over distance", "Aim for a line feature (road, river) rather than a point — eliminates overshoot/undershoot ambiguity"]
+    }
   },
   {
     "id": "nav-004",
@@ -89,6 +122,17 @@
       "The best navigators are rarely looking at their compass — they take bearings, pick distant aiming points in their direction of travel, and walk to those points. This is faster, more accurate, and leaves your eyes free to read terrain.",
       "A military lensatic compass is far more durable and accurate than a typical baseplate compass. It also allows taking bearings while moving. Worth the investment for a serious kit."
     ],
-    "relatedGuides": ["nav-001", "nav-003"]
+    "relatedGuides": ["nav-001", "nav-003"],
+    "source": "US Army FM 3-25.26 (Map Reading) / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": ["nav-001"],
+    "quickGlance": {
+      "situation": "You need to navigate to a specific destination using only a compass — GPS is unavailable",
+      "immediate": ["Set bearing on compass: rotate bezel to desired degree", "Rotate your body until the north needle sits inside the orienting box ('red in the shed')", "Pick a distant landmark in the direction-of-travel arrow direction — walk to it, then re-shoot"],
+      "then": ["To box around an obstacle: turn 90 degrees, count paces, turn back to original bearing, pass obstacle, turn 90 degrees opposite, count same paces", "Hold compass 12+ inches from metal objects when taking a reading"]
+    }
   }
 ]

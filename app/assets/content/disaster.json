@@ -50,7 +50,18 @@
     "relatedGuides": [
       "dis-002",
       "water-001"
-    ]
+    ],
+    "source": "FEMA IS-100 / FEMA Ready.gov Guidelines",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "A hurricane is forecast to make landfall in your area within 72 hours — preparation decisions made now will determine outcomes",
+      "immediate": ["Check evacuation zone — if Zone A/B/C with Cat 3+ forecast: evacuate NOW", "Fill vehicle with fuel, fill bathtubs with water, withdraw cash, charge all devices", "Secure all outdoor items; board windows with 5/8-inch plywood — tape on glass is useless"],
+      "then": ["Identify interior safe room: smallest interior room on lowest non-flood floor", "Do NOT go outside during the eye — the eyewall returns from the opposite direction within minutes"]
+    }
   },
   {
     "id": "dis-002",
@@ -97,7 +108,18 @@
     "relatedGuides": [
       "dis-001",
       "dis-003"
-    ]
+    ],
+    "source": "FEMA IS-100 / FEMA Ready.gov Guidelines",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "A tornado WARNING has been issued for your area — a warning means a tornado is confirmed, not just possible. Act immediately.",
+      "immediate": ["Move to shelter IMMEDIATELY on warning — do not wait for visual confirmation", "Best shelter: underground storm shelter or FEMA safe room. Second: lowest floor, most interior room, away from windows", "Cover yourself with heavy blankets, mattress, or bicycle helmet to protect from debris"],
+      "then": ["Do NOT shelter under a highway overpass — it funnels and accelerates wind velocity", "After tornado: check for gas leaks before entering damaged structures — smell for gas before switching anything"]
+    }
   },
   {
     "id": "dis-003",
@@ -143,7 +165,18 @@
     "relatedGuides": [
       "dis-004",
       "water-001"
-    ]
+    ],
+    "source": "FEMA IS-100 / FEMA Ready.gov Guidelines",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "Shaking has started — the next 20-120 seconds will determine your immediate safety outcome",
+      "immediate": ["DROP to hands and knees — prevents being knocked down and allows movement", "COVER head and neck with one arm — get under a sturdy table or desk if immediately reachable", "HOLD ON until shaking stops — do NOT run outside during shaking"],
+      "then": ["If in coastal area: move to high ground IMMEDIATELY after shaking stops — tsunami can arrive within minutes", "Expect aftershocks — check yourself and others for injury, check for gas smell before using anything electrical"]
+    }
   },
   {
     "id": "dis-004",
@@ -190,7 +223,18 @@
     "relatedGuides": [
       "dis-001",
       "dis-003"
-    ]
+    ],
+    "source": "FEMA IS-100 / FEMA Ready.gov Guidelines",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "Water is rising rapidly or a flash flood warning has been issued — flash floods kill faster than almost any other natural disaster",
+      "immediate": ["Move to high ground IMMEDIATELY — perpendicular to water flow, not downstream", "Do NOT drive into flood water — 12 inches can float your car; 24 inches carries away SUVs", "If caught in moving water: float on back with feet downstream — absorbs impact, keeps face above water"],
+      "then": ["TURN AROUND DON'T DROWN — most US flood deaths occur in vehicles that drove into water", "Flood water is contaminated with sewage and chemicals — avoid contact; clean wounds immediately if contact occurs"]
+    }
   },
   {
     "id": "dis-005",
@@ -237,7 +281,18 @@
     "relatedGuides": [
       "dis-006",
       "comms-002"
-    ]
+    ],
+    "source": "FEMA IS-100 / FEMA Ready.gov Guidelines",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "Electronics have failed without obvious cause and the failure appears widespread — an EMP or solar CME event may have occurred",
+      "immediate": ["Check scope of failure: is it localized to your home, or are neighbors also without power?", "Listen to any surviving battery-operated radio for information", "Assume extended outage — shift immediately to water, food, shelter, medical, and security priorities"],
+      "then": ["Retrieve any electronics stored in Faraday cage protection: backup radio, power banks, solar controller", "Restoration timelines for a major EMP may be months to years — plan accordingly"]
+    }
   },
   {
     "id": "dis-006",
@@ -290,7 +345,18 @@
     "relatedGuides": [
       "dis-005",
       "shelter-004"
-    ]
+    ],
+    "source": "FEMA IS-100 / FEMA Ready.gov Guidelines",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "A nuclear detonation has occurred within your region — if you are alive after the flash, you are in the survivable zone. Your next actions determine radiation dose.",
+      "immediate": ["If you see a flash: DROP face-down immediately, cover exposed skin, stay down 30 seconds for blast wave", "You have 10-15 minutes before significant fallout begins — GET INSIDE a substantial building NOW", "Move to the center of middle floors of the largest concrete building available — mass between you and fallout"],
+      "then": ["Seal windows and doors with plastic sheeting and tape; turn off HVAC; store water in sealed containers", "Shelter in place minimum 24-48 hours — radiation decreases 90% every 7 hours (the 7:10 rule)"]
+    }
   },
   {
     "id": "disaster-007",
@@ -346,6 +412,17 @@
       "sec-002",
       "sec-003",
       "dis-005"
-    ]
+    ],
+    "source": "FEMA IS-100 / FEMA Ready.gov Guidelines",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "Civil order is breaking down following a grid-down event — opportunistic crime is increasing and resource competition is escalating",
+      "immediate": ["Reduce your profile immediately: cover windows, eliminate visible light, do not display food or supplies", "Establish watch rotation — no single person can stay alert more than 4-6 hours", "Move at dawn/dusk to avoid peak-activity periods; wear plain clothing that draws zero attention"],
+      "then": ["Default to shelter-in-place if you have 14+ days of supplies and are not in immediate threat", "Distinguish desperate individuals (begging for food) from organized threat groups — responses differ significantly"]
+    }
   }
 ]

@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import {
   View, Text, StyleSheet, ScrollView, TouchableOpacity,
   Switch, Alert, ActivityIndicator, Linking, Platform,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
+import { Ionicons } from '@expo/vector-icons';
 import { useAppStore } from '../store/useAppStore';
 import { SUPPORTED_LANGUAGES, downloadLanguageModel, type SupportedLanguage, type DownloadProgress } from '../utils/translation';
 
@@ -12,12 +13,34 @@ const TERMS_URL = process.env.EXPO_PUBLIC_TERMS_URL ?? 'https://rceasar01.github
 const APP_VERSION = '1.0.0';
 const _DISCORD_URL = process.env.EXPO_PUBLIC_DISCORD_URL ?? 'https://discord.gg/griddown';
 
+const PROFILE_DISPLAY: Record<string, string> = {
+  urban: 'Urban / Civil Unrest',
+  rural: 'Rural Homestead',
+  vehicle: 'Vehicle / Travel',
+  medic: 'Medic-Minded / TCCC',
+  comms: 'HAM & Comms',
+  disaster: 'Natural Disaster',
+};
+
+const REGION_DISPLAY: Record<string, string> = {
+  northeast: 'Northeast US',
+  southeast: 'Southeast US',
+  midwest: 'Midwest US',
+  southwest: 'Southwest US',
+  northwest: 'Northwest US',
+  alaska: 'Alaska',
+  hawaii: 'Hawaii',
+  international: 'International / Other',
+};
+
 export function SettingsScreen() {
   const { t } = useTranslation();
   const {
     userTier, selectedLanguage, translateContentEnabled,
     setSelectedLanguage, setTranslateContentEnabled,
     downloadedModels, markModelDownloaded,
+    nightOpsEnabled, toggleNightOps,
+    userProfile, userRegion, resetOnboarding,
   } = useAppStore();
 
   const [downloadProgress, setDownloadProgress] = useState<Record<string, number>>({});
@@ -104,6 +127,70 @@ export function SettingsScreen() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+      {/* My Profile */}
+      <Text style={styles.sectionHeader}>MY PROFILE</Text>
+      <View style={styles.card}>
+        <View style={styles.row}>
+          <Text style={styles.label}>Profile</Text>
+          <Text style={styles.value}>
+            {userProfile ? (PROFILE_DISPLAY[userProfile] ?? userProfile) : 'Not set'}
+          </Text>
+        </View>
+        <View style={styles.divider} />
+        <View style={styles.row}>
+          <Text style={styles.label}>Region</Text>
+          <Text style={styles.value}>
+            {userRegion ? (REGION_DISPLAY[userRegion] ?? userRegion) : 'Not set'}
+          </Text>
+        </View>
+        <View style={styles.divider} />
+        <TouchableOpacity
+          style={[styles.row, { justifyContent: 'center' }]}
+          onPress={() => {
+            Alert.alert(
+              'Change Profile',
+              'This will restart the onboarding setup.',
+              [
+                { text: 'Cancel', style: 'cancel' },
+                {
+                  text: 'Continue',
+                  onPress: () => void resetOnboarding(),
+                },
+              ],
+            );
+          }}
+        >
+          <Text style={{ color: '#8B9E67', fontWeight: '700', fontSize: 14 }}>
+            CHANGE PROFILE
+          </Text>
+        </TouchableOpacity>
+      </View>
+
+      {/* Night Ops Mode */}
+      <Text style={styles.sectionHeader}>DISPLAY</Text>
+      <View style={[styles.card, nightOpsEnabled && styles.nightOpsCardActive]}>
+        <View style={styles.row}>
+          <View style={styles.nightOpsLabelRow}>
+            <Ionicons
+              name={nightOpsEnabled ? 'moon' : 'moon-outline'}
+              size={20}
+              color={nightOpsEnabled ? '#B85020' : '#888'}
+              style={{ marginRight: 10 }}
+            />
+            <View style={{ flex: 1 }}>
+              <Text style={[styles.label, nightOpsEnabled && styles.nightOpsLabel]}>NIGHT OPS MODE</Text>
+              <Text style={styles.nightOpsHint}>Ultra-dark theme for low-light operations</Text>
+            </View>
+          </View>
+          <Switch
+            value={nightOpsEnabled}
+            onValueChange={() => void toggleNightOps()}
+            trackColor={{ false: '#333', true: '#B85020' }}
+            thumbColor="#fff"
+          />
+        </View>
+      </View>
+
       {/* Subscription */}
       <Text style={styles.sectionHeader}>{t('settings.subscription')}</Text>
       <View style={styles.card}>
@@ -126,7 +213,7 @@ export function SettingsScreen() {
           <Switch
             value={translateContentEnabled}
             onValueChange={setTranslateContentEnabled}
-            trackColor={{ false: '#333', true: '#E8642A' }}
+            trackColor={{ false: '#333', true: '#8B9E67' }}
             thumbColor="#fff"
           />
         </View>
@@ -156,7 +243,7 @@ export function SettingsScreen() {
                 </View>
               ) : isDownloading ? (
                 <View style={styles.progressRow}>
-                  <ActivityIndicator size="small" color="#E8642A" />
+                  <ActivityIndicator size="small" color="#8B9E67" />
                   <Text style={styles.progressText}>{Math.round(progress * 100)}%</Text>
                 </View>
               ) : (
@@ -182,7 +269,7 @@ export function SettingsScreen() {
           <Switch
             value={drillReminderEnabled}
             onValueChange={(v) => void handleDrillReminderToggle(v)}
-            trackColor={{ false: '#333', true: '#E8642A' }}
+            trackColor={{ false: '#333', true: '#8B9E67' }}
             thumbColor="#fff"
           />
         </View>
@@ -240,7 +327,7 @@ const styles = StyleSheet.create({
   sectionHeader: { fontSize: 11, fontWeight: '700', color: '#888', letterSpacing: 1, marginTop: 24, marginBottom: 8, textTransform: 'uppercase' },
   card: { backgroundColor: '#1A1A1A', borderRadius: 10, marginBottom: 4, overflow: 'hidden', borderWidth: 1, borderColor: '#222' },
   langCard: { marginBottom: 6 },
-  langCardSelected: { borderColor: '#E8642A' },
+  langCardSelected: { borderColor: '#8B9E67' },
   row: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: 14 },
   langRow: { flexDirection: 'row', alignItems: 'center', padding: 14, paddingBottom: 8 },
   modelRow: { paddingHorizontal: 14, paddingBottom: 12 },
@@ -248,18 +335,22 @@ const styles = StyleSheet.create({
   flag: { fontSize: 22, marginRight: 12 },
   langName: { fontSize: 15, color: '#F0F0F0', fontWeight: '600' },
   langNative: { fontSize: 12, color: '#888', marginTop: 2 },
-  selectedBadge: { fontSize: 18, color: '#E8642A', fontWeight: '700' },
-  downloadBtn: { backgroundColor: '#1E1E1E', borderWidth: 1, borderColor: '#E8642A', borderRadius: 6, paddingVertical: 6, paddingHorizontal: 12, alignSelf: 'flex-start' },
-  downloadBtnText: { color: '#E8642A', fontSize: 12, fontWeight: '600' },
+  selectedBadge: { fontSize: 18, color: '#8B9E67', fontWeight: '700' },
+  downloadBtn: { backgroundColor: '#1E1E1E', borderWidth: 1, borderColor: '#8B9E67', borderRadius: 6, paddingVertical: 6, paddingHorizontal: 12, alignSelf: 'flex-start' },
+  downloadBtnText: { color: '#8B9E67', fontSize: 12, fontWeight: '600' },
   downloadedBadge: { backgroundColor: '#1A3A1A', borderRadius: 6, paddingVertical: 4, paddingHorizontal: 10, alignSelf: 'flex-start', borderWidth: 1, borderColor: '#2A5A2A' },
   downloadedText: { color: '#4CAF50', fontSize: 12, fontWeight: '600' },
   progressRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
-  progressText: { color: '#E8642A', fontSize: 12 },
+  progressText: { color: '#8B9E67', fontSize: 12 },
   label: { fontSize: 15, color: '#F0F0F0' },
   value: { fontSize: 15, color: '#888' },
   hint: { fontSize: 12, color: '#666', paddingHorizontal: 14, paddingBottom: 12 },
   chevron: { fontSize: 20, color: '#888' },
   divider: { height: 1, backgroundColor: '#222', marginHorizontal: 14 },
-  upgradeBtn: { margin: 14, marginTop: 4, backgroundColor: '#E8642A', borderRadius: 8, paddingVertical: 10, alignItems: 'center' },
+  upgradeBtn: { margin: 14, marginTop: 4, backgroundColor: '#8B9E67', borderRadius: 8, paddingVertical: 10, alignItems: 'center' },
   upgradeBtnText: { color: '#fff', fontWeight: '700', fontSize: 15 },
+  nightOpsCardActive: { borderColor: '#B85020' },
+  nightOpsLabelRow: { flexDirection: 'row', alignItems: 'center', flex: 1 },
+  nightOpsLabel: { color: '#B85020' },
+  nightOpsHint: { fontSize: 11, color: '#666', marginTop: 2 },
 });

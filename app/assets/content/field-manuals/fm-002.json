@@ -47,6 +47,16 @@
       "Write your personal pace count and local declination directly on your compass housing with a fine-tip paint pen — it is always with you when you need it.",
       "Practice resection in familiar terrain before you need it in an emergency. The skill requires repetition to execute quickly under stress."
     ],
-    "relatedGuides": ["fm-001", "urban-navigation", "edc-kit"]
+    "relatedGuides": ["fm-001", "urban-navigation", "edc-kit"],
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to navigate using a topographic map and compass — GPS is unavailable and you must move to a specific destination",
+      "immediate": ["Orient map: place compass on map, rotate both together until magnetic needle aligns with map north — apply local declination correction", "Shoot bearing to destination: point travel arrow at target, rotate bezel until orienting arrow aligns with needle, read bearing at index line", "Establish pace count on a known 100-meter stretch: count left-foot strikes — most adults average 62-66 paces per 100m"],
+      "then": ["Resection to find your position: shoot bearings to 3 known landmarks, take back-bearings, draw lines on map — intersection is your location", "Use aim-off technique: target a line feature (road, river) to the left or right of your destination so you know which way to turn when you hit it"]
+    }
   }
 ]

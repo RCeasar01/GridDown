@@ -21,7 +21,18 @@
       "Cattail is called the 'supermarket of the swamp' for good reason. A single cattail rhizome (root) can be dried and ground into starch flour. The pollen in bloom is nutritious and tastes slightly sweet.",
       "Acorn flour (after tannin leaching) is a reliable, storable, high-calorie food source. Cold-water leaching takes 2–3 days; hot-water leaching takes several hours with multiple water changes."
     ],
-    "relatedGuides": ["food-002", "food-003", "food-004"]
+    "relatedGuides": ["food-002", "food-003", "food-004"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You are in a survival situation and need to supplement calories through foraging — focus on 5-10 high-confidence species, not a broad survey",
+      "immediate": ["Identify high-confidence species first: cattail near water, dandelion in fields, acorns from any oak", "Apply the edibility test for unknowns: smell, skin test, lip test, tongue test — one plant part at a time", "Avoid anything with milky sap, umbrella flower clusters, or shiny three-leafed plants"],
+      "then": ["Cook all foraged plants when possible — boiling eliminates many toxins", "Leach bitter-tasting plants in multiple water changes to remove tannins"]
+    }
   },
   {
     "id": "food-002",
@@ -45,7 +56,18 @@
       "Fishing by trap (improvised fish weir, bottle trap, or hook and line) is far more calorie-efficient per hour of labor than land trapping in most environments with water access.",
       "Insects are a high-protein, readily available food source that requires no trap skill. Beetles, grubs, grasshoppers, and caterpillars are all edible cooked. Avoid brightly colored insects, hairy caterpillars, and insects that sting."
     ],
-    "relatedGuides": ["food-001", "food-003", "food-004"]
+    "relatedGuides": ["food-001", "food-003", "food-004"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You are in a survival situation that will extend beyond 3 days and need passive protein collection — set trap lines to collect food while you do other tasks",
+      "immediate": ["Set 10-20 snares simultaneously on active game runs — statistical coverage is the key", "For rabbits: loop 4-5 inches diameter, fist height off ground, on worn game trail or near burrow", "Boil or rub snares with pine needles and dirt before placing to neutralize human scent"],
+      "then": ["Check traps every 4-6 hours — dead animals spoil quickly in warm weather", "Prioritize fishing over land trapping when water is available — it is more calorie-efficient per hour"]
+    }
   },
   {
     "id": "food-003",
@@ -68,7 +90,18 @@
       "Fish are most active at dawn and dusk in low-light conditions. Mid-day fishing is often unproductive in warm weather — fish move to deep, cool water.",
       "Edible freshwater fish in North America include bass, trout, catfish, perch, crappie, carp, and bluegill. All are safe to eat cooked. Identify them by body shape rather than color — colors vary by region."
     ],
-    "relatedGuides": ["food-002", "food-004"]
+    "relatedGuides": ["food-002", "food-004"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You have access to a stream, lake, or river and need protein — improvised fishing is more calorie-efficient per hour than land trapping",
+      "immediate": ["Improvise hook from safety pin, bent nail, or carved bone; use paracord inner strands as line", "Build a fish weir: V-shaped rock wall across stream with point downstream — fish funnel in and cannot reverse", "Use bait from riverbank: worms, insects, or small pieces of existing protein"],
+      "then": ["Fish at dawn and dusk when fish are most active in shallow water", "Cook all freshwater fish thoroughly — raw freshwater fish can carry tapeworms and parasites"]
+    }
   },
   {
     "id": "food-004",
@@ -91,6 +124,17 @@
       "Pemmican — rendered fat mixed with dried meat powder and dried berries — was the original long-distance trail food used by indigenous peoples and fur traders. It lasts for months without refrigeration and is calorie-dense (400–500 cal/100g).",
       "Fish preserves much faster than mammal meat when smoked because fish is leaner and the tissue is less dense. A full-size salmon can be smoked to preservation in 8–10 hours."
     ],
-    "relatedGuides": ["food-001", "food-002"]
+    "relatedGuides": ["food-001", "food-002"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You have more food than can be consumed today and need to preserve it — spoilage in a grid-down scenario wastes irreplaceable calories",
+      "immediate": ["Cut meat into 1/4-inch strips removing all fat — hang over smoky hardwood fire", "Smoke at low heat 150-200°F for 6-12 hours until meat is dark, hard, and dry throughout", "For solar drying: spread thin strips on rocks in direct sun, cover with cloth to keep insects off"],
+      "then": ["Store smoked or dried meat in dry, sealed container — properly dried meat lasts 1-2 weeks", "Salt curing requires 2.5% salt by weight of meat — pack completely with no exposed surface"]
+    }
   }
 ]

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import {
   View, Text, StyleSheet, SafeAreaView, ScrollView,
   TextInput, TouchableOpacity, Alert, ActivityIndicator,
-  FlatList,
+  FlatList, Modal,
 } from 'react-native';
 import { Clipboard } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
@@ -32,7 +32,26 @@ const EMERGENCY_PHRASES = [
   'Stay here / Go there',
   'Are you okay?',
   'We need to evacuate',
+  'Do not move me',
+  'I am allergic to...',
+  'There are more injured people',
+  'We need rescue',
+  'This person is unconscious',
 ];
+
+const PHRASE_ICONS: Record<number, string> = {
+  0: '🔥',
+  1: '💧',
+  2: '🩺',
+  3: '🍎',
+  4: '📍',
+  5: '⚠️',
+  10: '🚫',
+  11: '⚕️',
+  12: '🚑',
+  13: '🛟',
+  14: '😴',
+};
 
 export function TranslatorScreen() {
   const [inputText, setInputText] = useState('');
@@ -44,6 +63,7 @@ export function TranslatorScreen() {
   const [translationHistory, setTranslationHistory] = useState<HistoryEntry[]>([]);
   const [showHistory, setShowHistory] = useState(false);
   const [selectedPhrase, setSelectedPhrase] = useState('');
+  const [showPhraseIndex, setShowPhraseIndex] = useState<number | null>(null);
 
   const debounceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -113,9 +133,10 @@ export function TranslatorScreen() {
     }, 500);
   };
 
-  const handlePhrasePress = (phrase: string) => {
+  const handlePhrasePress = (phrase: string, index: number) => {
     setSelectedPhrase(phrase);
     setInputText(phrase);
+    setShowPhraseIndex(index);
     handleTranslate(phrase);
   };
 
@@ -123,6 +144,11 @@ export function TranslatorScreen() {
     setTargetLang(lang);
     setOutputText('');
     checkModel(lang);
+  };
+
+  const getTranslatedPhrase = (phraseIndex: number, _lang: SupportedLanguage): string => {
+    if (selectedPhrase === EMERGENCY_PHRASES[phraseIndex]) return outputText;
+    return EMERGENCY_PHRASES[phraseIndex];
   };
 
   return (
@@ -224,12 +250,13 @@ export function TranslatorScreen() {
           <Text style={styles.sectionHeader}>⚡ EMERGENCY PHRASES</Text>
           <Text style={styles.sectionSubtitle}>Tap a phrase to instantly translate</Text>
           <View style={styles.phraseGrid}>
-            {EMERGENCY_PHRASES.map((phrase) => (
+            {EMERGENCY_PHRASES.map((phrase, index) => (
               <TouchableOpacity
                 key={phrase}
                 style={[styles.phraseBtn, selectedPhrase === phrase && styles.phraseBtnActive]}
-                onPress={() => handlePhrasePress(phrase)}
+                onPress={() => handlePhrasePress(phrase, index)}
               >
+                <Text style={styles.phraseBtnIcon}>{PHRASE_ICONS[index] ?? '📢'}</Text>
                 <Text style={styles.phraseBtnText}>{phrase}</Text>
               </TouchableOpacity>
             ))}
@@ -268,6 +295,24 @@ export function TranslatorScreen() {
 
         <View style={{ height: 40 }} />
       </ScrollView>
+
+      {showPhraseIndex !== null && (
+        <Modal visible transparent animationType="fade">
+          <TouchableOpacity
+            style={styles.phraseFullScreen}
+            onPress={() => setShowPhraseIndex(null)}
+            activeOpacity={1}
+          >
+            <Text style={styles.phraseFullScreenIcon}>
+              {PHRASE_ICONS[showPhraseIndex] ?? '📢'}
+            </Text>
+            <Text style={styles.phraseFullScreenText}>
+              {getTranslatedPhrase(showPhraseIndex, targetLang)}
+            </Text>
+            <Text style={styles.phraseFullScreenDismiss}>TAP TO DISMISS</Text>
+          </TouchableOpacity>
+        </Modal>
+      )}
     </SafeAreaView>
   );
 }
@@ -394,6 +439,7 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   phraseBtnActive: { borderColor: Colors.primary, backgroundColor: Colors.primaryDim },
+  phraseBtnIcon: { fontSize: 18, marginBottom: 2 },
   phraseBtnText: { color: Colors.textPrimary, fontSize: 13, textAlign: 'center', fontWeight: '600' },
 
   emergencyOutput: {
@@ -405,7 +451,7 @@ const styles = StyleSheet.create({
     padding: 18,
   },
   emergencyOutputLabel: { color: Colors.primary, fontSize: 12, fontWeight: '800', letterSpacing: 2, marginBottom: 8 },
-  emergencyOutputText: { color: '#FFFFFF', fontSize: 32, fontWeight: '700', lineHeight: 42 },
+  emergencyOutputText: { color: '#FFFFFF', fontSize: 36, fontWeight: '700', lineHeight: 42 },
   historyToggle: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -427,4 +473,8 @@ const styles = StyleSheet.create({
   historyLang: { color: Colors.primary, fontSize: 11, fontWeight: '800', letterSpacing: 2, marginBottom: 4 },
   historyInput: { color: Colors.textSecondary, fontSize: 13, marginBottom: 4 },
   historyOutput: { color: Colors.textPrimary, fontSize: 15, lineHeight: 22 },
+  phraseFullScreen: { flex: 1, backgroundColor: '#000', alignItems: 'center', justifyContent: 'center', padding: 32 },
+  phraseFullScreenIcon: { fontSize: 64 },
+  phraseFullScreenText: { fontSize: 72, fontWeight: '900', color: '#FFFFFF', textAlign: 'center', lineHeight: 80 },
+  phraseFullScreenDismiss: { fontSize: 14, color: '#555', marginTop: 32, letterSpacing: 2 },
 });

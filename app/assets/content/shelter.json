@@ -22,7 +22,18 @@
       "Build it right before dark. Gathering debris takes 2–4 hours. In a survival scenario, shelter is your priority 1 in cold weather — hypothermia kills in hours.",
       "Mark the entrance with a stick arrangement so you can locate it in the dark if you need to exit at night."
     ],
-    "relatedGuides": ["shelter-002", "shelter-003"]
+    "relatedGuides": ["shelter-002", "shelter-003"],
+    "source": "US Army FM 21-76 / USAF SERE curriculum",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You are facing cold weather survival with no tent or sleeping bag — hypothermia is the primary threat and you must build insulating shelter before dark",
+      "immediate": ["Select dry high ground away from drainages, ridgetops, and dead standing trees", "Cut or find a 9-10 foot ridgepole and prop one end on a Y-branch at hip height", "Lean branches along both sides at 45 degrees and weave lattice across them"],
+      "then": ["Pile dead leaves and debris 2-3 feet thick over the entire structure", "Pack interior floor with 2-3 feet of dry debris — ground cold steals heat faster than air"]
+    }
   },
   {
     "id": "shelter-002",
@@ -46,7 +57,18 @@
       "A tarp lean-to can be built in under 5 minutes with practiced technique. Learn to pitch your tarp in multiple configurations before you need it.",
       "A 45-degree pitch sheds rain but increases wind catch. In heavy wind, pitch steeper (60+ degrees) and anchor the bottom edge."
     ],
-    "relatedGuides": ["shelter-001", "shelter-003", "fire-004"]
+    "relatedGuides": ["shelter-001", "shelter-003", "fire-004"],
+    "source": "US Army FM 21-76 / USAF SERE curriculum",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need quick rain and wind protection and have paracord or natural cordage available — a lean-to can be built in under 30 minutes",
+      "immediate": ["Tie ridgeline between two trees at chest height", "Lean long branches at 45 degrees from ridgeline to ground, spaced every 12 inches", "Thatch from bottom up with bark, leaves, or pine boughs — each layer overlapping the one below"],
+      "then": ["Insulate the floor with 4-6 inches of dry leaves or pine boughs", "Position fire in front of the open side to reflect heat into the shelter"]
+    }
   },
   {
     "id": "shelter-003",
@@ -70,7 +92,18 @@
       "A properly built quinzhee is structurally sound enough to support an adult standing on top — this is the test. If it collapses under body weight, add more time for sintering or increase wall thickness.",
       "In an emergency with no tools, dig into a natural snow bank or create a snow trench — any configuration that gets you out of wind and off bare ground is survival-grade shelter."
     ],
-    "relatedGuides": ["shelter-001", "shelter-002"]
+    "relatedGuides": ["shelter-001", "shelter-002"],
+    "source": "US Army FM 21-76 / USAF SERE curriculum",
+    "lastReviewed": "2025-01",
+    "skillLevel": "advanced",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You are in a winter survival scenario with heavy snowfall — a snow shelter maintains near 32°F interior regardless of outside temperature",
+      "immediate": ["Pile snow into a mound 8 feet wide and 5-6 feet tall — insert 12-inch reference sticks throughout", "Wait 2-4 hours for snow to sinter and harden before excavating", "Hollow from one side angling upward — cold air pools at entrance, sleeping platform stays warmer"],
+      "then": ["Poke a ventilation hole through the ceiling with a ski pole or stick — this is not optional", "Block the entrance with your pack to retain heat and insulate the floor from snow contact"]
+    }
   },
   {
     "id": "shelter-004",
@@ -94,6 +127,17 @@
       "A hotel or apartment building has advantages over a house in a grid-down scenario: multiple water sources (each unit has a tank), more defensive depth, and often better structural integrity than older housing stock.",
       "The water heater is your first water source in an urban grid-down — turn off the inlet valve to prevent further contamination from outside the structure and use the drain valve to access the stored water."
     ],
-    "relatedGuides": ["water-001", "security-001", "disaster-005"]
+    "relatedGuides": ["water-001", "security-001", "disaster-005"],
+    "source": "US Army FM 21-76 / USAF SERE curriculum",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "The power grid has failed and you need to assess, secure, and establish a defensible urban shelter position",
+      "immediate": ["Check for gas smell before entering any building — do not enter if detected", "Assess structural integrity: look for foundation cracks, leaning walls, collapsed sections", "Select upper floor with multiple exit routes and minimal ground-floor window exposure"],
+      "then": ["Identify water sources in the structure: water heater (40-80 gal), toilet tanks (1-2 gal)", "Establish access control with noise-making trip lines and sealed entry points"]
+    }
   }
 ]

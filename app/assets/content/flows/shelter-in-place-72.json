@@ -1,0 +1,52 @@
+{
+  "id": "shelter-in-place-72",
+  "title": "Shelter-in-Place 72 Hours",
+  "icon": "home",
+  "color": "#4A7C59",
+  "estimatedTime": "Setup: 30 min",
+  "description": "Prepare your home to sustain life for 72 hours without outside assistance.",
+  "steps": [
+    {
+      "step": 1,
+      "title": "Water Supply Assessment",
+      "summary": "Secure drinking water for 72 hours minimum",
+      "guideId": "water-001",
+      "checklistItems": ["1 gallon per person per day calculated", "Water stored or filling now", "Water treatment supplies ready", "Bathtubs filled if grid loss expected"]
+    },
+    {
+      "step": 2,
+      "title": "Food Inventory",
+      "summary": "Account for 3 days of non-perishable food",
+      "guideId": "food-001",
+      "checklistItems": ["72-hour food supply confirmed", "Manual can opener located", "Cooking method without power identified", "Special dietary needs met"]
+    },
+    {
+      "step": 3,
+      "title": "Security Perimeter",
+      "summary": "Secure your immediate environment",
+      "guideId": "security-001",
+      "checklistItems": ["All doors locked and reinforced", "Windows checked", "Threat assessment complete", "Plan for civil unrest scenario"]
+    },
+    {
+      "step": 4,
+      "title": "Sanitation Setup",
+      "summary": "Plan for waste management without running water",
+      "guideId": null,
+      "checklistItems": ["Toilet flushing plan", "Hand sanitizer stocked", "Waste disposal bags", "Sanitation supplies located"]
+    },
+    {
+      "step": 5,
+      "title": "Comms Monitoring",
+      "summary": "Stay informed via emergency broadcasts",
+      "guideId": "comms-001",
+      "checklistItems": ["NOAA weather radio on (162.400-162.550 MHz)", "Battery-powered radio available", "Phone charged", "Emergency alert system set up"]
+    },
+    {
+      "step": 6,
+      "title": "Power and Battery Status",
+      "summary": "Account for critical power needs",
+      "guideId": null,
+      "checklistItems": ["Flashlights tested and in place", "Backup batteries stocked", "Phone chargers and power banks", "Medical devices — battery status checked"]
+    }
+  ]
+}

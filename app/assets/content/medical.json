@@ -47,6 +47,28 @@
       "medical-003",
       "medical-004"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "advanced",
+    "gearRequired": "basic_edc",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not attempt advanced interventions without prior TCCC training",
+      "Do not delay evacuation to perform procedures beyond your skill level"
+    ],
+    "quickGlance": {
+      "situation": "You or someone with you has sustained a traumatic injury and professional medical evacuation is not immediately available",
+      "immediate": [
+        "Eliminate or suppress active threat — move casualty to cover",
+        "Apply tourniquet to any life-threatening extremity bleeding immediately",
+        "Use MARCH protocol: Massive hemorrhage → Airway → Respiration → Circulation → Hypothermia"
+      ],
+      "then": [
+        "Document all interventions with time applied",
+        "Package casualty for TACEVAC — note tourniquet application time on forehead"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -107,6 +129,29 @@
       "medical-003",
       "medical-004"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "advanced",
+    "gearRequired": "advanced_kit",
+    "prerequisites": ["medical-001"],
+    "whenNotTo": [
+      "Do not apply tourniquet for venous (slow, dark) bleeding that can be controlled with direct pressure",
+      "Do not apply over a joint — position 2-3 inches above wound",
+      "Do not remove tourniquet in the field if applied for arterial bleed — removal must be done by trained medical personnel"
+    ],
+    "quickGlance": {
+      "situation": "You or someone with you has life-threatening arterial bleeding from an extremity — bright red blood pumping or spurting",
+      "immediate": [
+        "Position tourniquet 2-3 inches above the wound on the limb, not over clothing if avoidable",
+        "Tighten windlass until bleeding stops completely — not just slows",
+        "Note and mark the time of tourniquet application — write on patient's forehead if needed"
+      ],
+      "then": [
+        "Monitor for renewed bleeding around or below tourniquet",
+        "Do not remove — await trained medical personnel for conversion"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -166,6 +211,28 @@
       "medical-004",
       "medical-005"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "advanced",
+    "gearRequired": "advanced_kit",
+    "prerequisites": ["medical-002"],
+    "whenNotTo": [
+      "Do not pack wounds to the chest, neck, or abdomen — pack only for extremity and junctional wounds",
+      "Do not remove packing material once applied — re-packing without proper training can restart hemorrhage"
+    ],
+    "quickGlance": {
+      "situation": "You have a severe wound with uncontrolled hemorrhage that cannot be controlled with a tourniquet (junctional wound, neck, groin)",
+      "immediate": [
+        "Apply hemostatic gauze (QuikClot/Celox) — pack it deep into the wound cavity, not just on the surface",
+        "Apply firm direct pressure to the packed wound with full body weight for minimum 3 minutes",
+        "Secure with a pressure bandage to maintain compression"
+      ],
+      "then": [
+        "Monitor for bleeding through the dressing — if soaking through, add more pressure on top",
+        "Do not remove the packing in the field"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -216,6 +283,28 @@
       "medical-003",
       "medical-005"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "advanced",
+    "gearRequired": "advanced_kit",
+    "prerequisites": ["medical-001"],
+    "whenNotTo": [
+      "Do not attempt to control junctional hemorrhage without hemostatic gauze — improvised packing is a last resort only",
+      "Do not apply circumferential pressure around the neck — compress one side only to avoid airway occlusion"
+    ],
+    "quickGlance": {
+      "situation": "Life-threatening bleeding at the neck, groin, or armpit where a tourniquet cannot be applied",
+      "immediate": [
+        "Pack the wound deeply with hemostatic gauze — do not just apply to the surface",
+        "Apply maximum sustained direct pressure with both hands using bodyweight for minimum 3 minutes",
+        "For groin: stand or kneel over the casualty, lock elbows, and lean in"
+      ],
+      "then": [
+        "Maintain pressure continuously — do not lift hands to check until 3 minutes have elapsed",
+        "Secure packing and maintain pressure during evacuation"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -270,6 +359,28 @@
       "medical-003",
       "medical-006"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "advanced",
+    "gearRequired": "advanced_kit",
+    "prerequisites": ["medical-001"],
+    "whenNotTo": [
+      "Do not perform needle decompression without a confirmed or strongly suspected tension pneumothorax — the procedure creates a pneumothorax if one is not present",
+      "Do not seal an open chest wound completely (no flutter valve) — a fully sealed chest wound can cause or worsen tension pneumothorax"
+    ],
+    "quickGlance": {
+      "situation": "Patient has penetrating or severe blunt chest trauma with respiratory distress, shock, and absent breath sounds on one side",
+      "immediate": [
+        "Seal any open (sucking) chest wound with a vented chest seal or three-sided improvised seal",
+        "If patient deteriorates after sealing, burp the seal to release trapped air",
+        "If tension PTX confirmed: needle decompression at 2nd ICS midclavicular line or 4th/5th ICS anterior axillary line"
+      ],
+      "then": [
+        "Monitor respiratory status continuously after decompression",
+        "Reassess for recurrence — a second decompression may be required"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -319,6 +430,28 @@
       "medical-002",
       "medical-007"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "prerequisites": ["medical-001"],
+    "whenNotTo": [
+      "Do not administer medications if the person has known allergies or you are uncertain",
+      "Do not move a trauma patient with suspected spinal injury unless immediate danger requires it"
+    ],
+    "quickGlance": {
+      "situation": "A person is showing signs of hemorrhagic shock: pale/grey skin, rapid weak pulse, confusion, excessive thirst, cold clammy extremities",
+      "immediate": [
+        "Control any identified bleeding source immediately — tourniquet or wound pack",
+        "Lay the casualty flat and elevate legs 6-12 inches if no spinal injury suspected",
+        "Prevent heat loss — cover with blankets or anything available"
+      ],
+      "then": [
+        "Monitor pulse and mental status every 5 minutes",
+        "Keep casualty warm — hypothermia accelerates shock progression"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -377,6 +510,28 @@
       "medical-001",
       "medical-006"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "advanced",
+    "gearRequired": "advanced_kit",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not attempt nasopharyngeal airway on a patient with facial fractures or suspected basilar skull fracture",
+      "Do not use a finger sweep on an unconscious patient without directly visualizing the obstruction"
+    ],
+    "quickGlance": {
+      "situation": "A person is unconscious or has compromised airway — gurgling, stridor, inability to speak, or apnea",
+      "immediate": [
+        "Tilt head back and lift chin to open the airway",
+        "Look, listen, and feel for breathing — assess for 10 seconds",
+        "If no breathing and trained: start rescue breaths; if not trained: position in recovery position"
+      ],
+      "then": [
+        "Insert nasopharyngeal airway if available and patient is unconscious without facial trauma",
+        "Monitor airway continuously — position changes can compromise it"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -427,6 +582,28 @@
       "medical-009",
       "medical-010"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not give ORT rapidly in large volumes — small sips only to avoid triggering vomiting",
+      "Do not substitute plain water alone for ORS in severe diarrheal illness — electrolyte replacement is essential"
+    ],
+    "quickGlance": {
+      "situation": "A person shows signs of severe dehydration: sunken eyes, dry mouth, decreased urination, confusion, or weakness",
+      "immediate": [
+        "Mix WHO ORS: 1 liter clean water + 6 teaspoons sugar + 1/2 teaspoon salt",
+        "Give small sips continuously — 200-400mL per hour for adults",
+        "Monitor for improvement: increased urination, improved alertness within 4-6 hours"
+      ],
+      "then": [
+        "Continue ORT until dehydration signs resolve",
+        "Introduce bland foods as tolerated — do not fast the patient"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -481,6 +658,28 @@
       "medical-010",
       "medical-008"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not site latrines within 200 feet of any water source — groundwater contamination can affect the entire group",
+      "Do not burn waste in enclosed spaces — toxic fumes pose serious respiratory risk"
+    ],
+    "quickGlance": {
+      "situation": "Your group needs to establish sanitation in a field or grid-down environment for more than 24 hours",
+      "immediate": [
+        "Designate a latrine site at least 200 feet downhill and downwind from camp and water sources",
+        "Dig cat holes (6-8 inches deep) for short-term or pit trench (2-4 feet deep) for group use",
+        "Set up a hand-washing station at the latrine exit with water and soap or ash"
+      ],
+      "then": [
+        "Enforce mandatory hand-washing after every use",
+        "Relocate latrine when trench is 3/4 full — mark used sites clearly"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -530,6 +729,28 @@
       "medical-009",
       "medical-011"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not handle dead rodents without gloves — hantavirus and plague are transmitted through contact and aerosolized droppings",
+      "Do not sweep or vacuum dry rodent droppings — wet with bleach solution first to prevent aerosolization"
+    ],
+    "quickGlance": {
+      "situation": "Operating in an environment with mosquitoes, ticks, or rodent presence that poses disease transmission risk",
+      "immediate": [
+        "Apply DEET to exposed skin and permethrin to clothing",
+        "Tuck pants into boots and wear long sleeves in tick habitat",
+        "Eliminate or avoid standing water near camp to reduce mosquito breeding"
+      ],
+      "then": [
+        "Conduct full-body tick check every evening — especially scalp, armpits, groin, and behind knees",
+        "Store all food in sealed containers off the ground to deter rodents"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -578,6 +799,28 @@
       "medical-009",
       "food-004"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not eat from a bloated or swollen can — this is a sign of botulism toxin production and is potentially lethal",
+      "Do not rely solely on smell or appearance to determine food safety — many pathogens (Salmonella, E. coli, Norovirus) are odorless and invisible"
+    ],
+    "quickGlance": {
+      "situation": "You need to assess whether food is safe to eat without refrigeration or when uncertain about storage conditions",
+      "immediate": [
+        "Inspect for bloating, slime, unusual color, or mold — discard any food showing these signs",
+        "Smell test: off, sour, or ammonia odor in meat or fish indicates spoilage",
+        "Never eat from a bloated can — discard it without opening"
+      ],
+      "then": [
+        "Cook only what will be consumed immediately — do not store cooked food without refrigeration in warm weather",
+        "Prioritize high-acid or properly preserved foods (vinegar-pickled, dried, smoked) over fresh perishables"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -626,6 +869,28 @@
       "medical-013",
       "medical-001"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not dismiss or shame combat stress reaction — phrases like 'man up' worsen outcomes and damage unit trust",
+      "Do not isolate a person experiencing CSR — proximity to the group is a core part of treatment"
+    ],
+    "quickGlance": {
+      "situation": "A person in your group is showing signs of combat stress reaction: trembling, confusion, freezing, unresponsiveness, or inappropriate emotional response under stress",
+      "immediate": [
+        "Remove the person from the immediate stressor if tactically possible",
+        "Ensure they are physically safe, warm, fed, and hydrated",
+        "Tell them explicitly: their response is normal, they will recover, and they are not alone"
+      ],
+      "then": [
+        "Keep them near the group — do not evacuate or isolate unless medically necessary",
+        "Assign a simple, low-stakes task to restore sense of competence and purpose"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -680,6 +945,28 @@
       "medical-008",
       "medical-012"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use antibiotics without clear signs of infection — inappropriate use drives resistance and can cause adverse effects",
+      "Do not allow a single caregiver to provide continuous care without rotation — caregiver fatigue causes errors and the caregiver becomes a second patient"
+    ],
+    "quickGlance": {
+      "situation": "You are managing a sick or injured person in a grid-down scenario without access to professional medical care or resupply",
+      "immediate": [
+        "Designate a sheltered, clean area for the patient — separate from food prep and the general camp",
+        "Establish a monitoring schedule: record heart rate, respiratory rate, temperature, and mental status every 4 hours",
+        "Ensure continuous hydration — clear fluids every 30-60 minutes even if the patient cannot eat"
+      ],
+      "then": [
+        "Clean wounds daily with boiled and cooled water — watch for redness, swelling, pus, or red streaks",
+        "Set up caregiver rotation to prevent fatigue — document all interventions at handoff"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   },
   {
@@ -740,6 +1027,28 @@
       "medical-002",
       "medical-006"
     ],
+    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "lastReviewed": "2025-01",
+    "riskLevel": "high",
+    "skillLevel": "advanced",
+    "gearRequired": "basic_edc",
+    "prerequisites": ["medical-001"],
+    "whenNotTo": [
+      "Do not spend more than 60 seconds assessing any single casualty during initial START triage — speed is the system's purpose",
+      "Do not tag a casualty BLACK and move on if the airway has not been repositioned — one repositioning attempt is required before BLACK assignment"
+    ],
+    "quickGlance": {
+      "situation": "You are responding to a mass casualty incident with more casualties than you can treat simultaneously",
+      "immediate": [
+        "Direct all walking wounded to a safe area — everyone who walks is GREEN",
+        "Move through remaining casualties: assess respiration, perfusion (capillary refill or radial pulse), and mental status",
+        "Tag each casualty RED, YELLOW, GREEN, or BLACK — apply tourniquets to RED casualties and continue"
+      ],
+      "then": [
+        "Begin treatment starting with all RED casualties",
+        "Reassess all casualties every 15-30 minutes — triage categories change as conditions evolve"
+      ]
+    },
     "requiresMedicalDisclaimer": true
   }
 ]

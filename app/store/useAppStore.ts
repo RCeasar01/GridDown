@@ -19,6 +19,32 @@ export interface ContentPack {
 
 const LANGUAGE_PREF_KEY = 'griddown_language_pref';
 const TRANSLATE_CONTENT_KEY = 'griddown_translate_content';
+const NIGHT_OPS_KEY = 'nightOps';
+const ONBOARDING_COMPLETED_KEY = 'onboardingCompleted';
+const USER_PROFILE_KEY = 'userProfile';
+const USER_REGION_KEY = 'userRegion';
+
+export type UserProfile = 'urban' | 'rural' | 'vehicle' | 'medic' | 'comms' | 'disaster';
+
+const PROFILE_CATEGORY_ORDER: Record<UserProfile, string[]> = {
+  urban: ['security', 'medical', 'comms', 'water', 'food', 'shelter', 'disaster', 'fire', 'navigation', 'homesteading', 'vehicle', 'tools'],
+  rural: ['water', 'food', 'homesteading', 'shelter', 'fire', 'medical', 'navigation', 'security', 'comms', 'vehicle', 'disaster', 'tools'],
+  vehicle: ['vehicle', 'navigation', 'water', 'medical', 'shelter', 'fire', 'comms', 'security', 'food', 'disaster', 'homesteading', 'tools'],
+  medic: ['medical', 'water', 'shelter', 'security', 'comms', 'navigation', 'fire', 'food', 'vehicle', 'disaster', 'homesteading', 'tools'],
+  comms: ['comms', 'security', 'medical', 'navigation', 'disaster', 'water', 'shelter', 'fire', 'food', 'vehicle', 'homesteading', 'tools'],
+  disaster: ['disaster', 'water', 'medical', 'shelter', 'security', 'comms', 'food', 'fire', 'navigation', 'vehicle', 'homesteading', 'tools'],
+};
+
+const REGION_CHECKLISTS: Record<string, string[]> = {
+  northeast: ['winter-storm', 'shelter-in-place'],
+  southeast: ['hurricane', 'flood'],
+  midwest: ['tornado', 'winter-storm'],
+  southwest: ['wildfire', 'earthquake', 'heat'],
+  northwest: ['earthquake', 'tsunami', 'wildfire'],
+  alaska: ['winter-storm', 'wildfire', 'earthquake'],
+  hawaii: ['hurricane', 'tsunami', 'earthquake'],
+  international: ['shelter-in-place', 'bug-out'],
+};
 
 interface AppState {
   currentCategory: string | null;
@@ -47,6 +73,18 @@ interface AppState {
   loadLanguagePrefs: () => Promise<void>;
   downloadedModels: SupportedLanguage[];
   markModelDownloaded: (lang: SupportedLanguage) => void;
+  nightOpsEnabled: boolean;
+  toggleNightOps: () => Promise<void>;
+  loadNightOps: () => Promise<void>;
+  // Onboarding
+  onboardingCompleted: boolean;
+  userProfile: UserProfile | null;
+  userRegion: string | null;
+  categoryOrder: string[];
+  pinnedChecklists: string[];
+  completeOnboarding: (profile: string, region: string) => Promise<void>;
+  loadOnboardingState: () => Promise<void>;
+  resetOnboarding: () => Promise<void>;
 }
 
 const TIER_RANK: Record<UserTier, number> = {
@@ -119,5 +157,63 @@ export const useAppStore = create<AppState>((set, get) => ({
   markModelDownloaded: (lang) => {
     const current = get().downloadedModels;
     if (!current.includes(lang)) set({ downloadedModels: [...current, lang] });
+  },
+  nightOpsEnabled: false,
+  toggleNightOps: async () => {
+    const next = !get().nightOpsEnabled;
+    set({ nightOpsEnabled: next });
+    try { await AsyncStorage.setItem(NIGHT_OPS_KEY, next ? 'true' : 'false'); } catch { /* ignore */ }
+  },
+  loadNightOps: async () => {
+    try {
+      const val = await AsyncStorage.getItem(NIGHT_OPS_KEY);
+      set({ nightOpsEnabled: val === 'true' });
+    } catch { /* ignore */ }
+  },
+  // Onboarding
+  onboardingCompleted: false,
+  userProfile: null,
+  userRegion: null,
+  categoryOrder: [],
+  pinnedChecklists: [],
+  completeOnboarding: async (profile, region) => {
+    const profileKey = profile as UserProfile;
+    const categoryOrder = PROFILE_CATEGORY_ORDER[profileKey] ?? [];
+    const pinnedChecklists = REGION_CHECKLISTS[region] ?? [];
+    set({
+      onboardingCompleted: true,
+      userProfile: profileKey,
+      userRegion: region,
+      categoryOrder,
+      pinnedChecklists,
+    });
+    try {
+      await AsyncStorage.multiSet([
+        [ONBOARDING_COMPLETED_KEY, 'true'],
+        [USER_PROFILE_KEY, profile],
+        [USER_REGION_KEY, region],
+      ]);
+    } catch { /* ignore */ }
+  },
+  loadOnboardingState: async () => {
+    try {
+      const results = await AsyncStorage.multiGet([
+        ONBOARDING_COMPLETED_KEY,
+        USER_PROFILE_KEY,
+        USER_REGION_KEY,
+      ]);
+      const completed = results[0][1] === 'true';
+      const profile = (results[1][1] as UserProfile | null) ?? null;
+      const region = results[2][1] ?? null;
+      const categoryOrder = profile ? (PROFILE_CATEGORY_ORDER[profile] ?? []) : [];
+      const pinnedChecklists = region ? (REGION_CHECKLISTS[region] ?? []) : [];
+      set({ onboardingCompleted: completed, userProfile: profile, userRegion: region, categoryOrder, pinnedChecklists });
+    } catch { /* ignore */ }
+  },
+  resetOnboarding: async () => {
+    set({ onboardingCompleted: false });
+    try {
+      await AsyncStorage.multiRemove([ONBOARDING_COMPLETED_KEY, USER_PROFILE_KEY, USER_REGION_KEY]);
+    } catch { /* ignore */ }
   },
 }));

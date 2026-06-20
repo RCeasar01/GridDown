@@ -1,8 +1,8 @@
-import { Guide } from '../db/contentLoader';
+﻿import { Guide } from '../db/contentLoader';
 
 export function priorityColor(priority: string): string {
   switch (priority) {
-    case 'critical': return '#E8642A';
+    case 'critical': return '#8B9E67';
     case 'advanced': return '#D4A017';
     case 'beginner': return '#4A7C59';
     default: return '#888888';

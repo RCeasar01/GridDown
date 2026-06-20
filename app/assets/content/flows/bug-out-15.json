@@ -1,0 +1,52 @@
+﻿{
+  "id": "bug-out-15",
+  "title": "Bug-Out in 15 Minutes",
+  "icon": "car-sport",
+  "color": "#8B9E67",
+  "estimatedTime": "15 min",
+  "description": "A time-critical sequence for evacuating your home under threat. Complete each step before moving to the next.",
+  "steps": [
+    {
+      "step": 1,
+      "title": "Security Assessment",
+      "summary": "Identify immediate threats before any other action",
+      "guideId": "security-001",
+      "checklistItems": ["Immediate threats identified", "Exit routes assessed", "Safe direction of travel confirmed"]
+    },
+    {
+      "step": 2,
+      "title": "Grab Your Bag",
+      "summary": "72-hour bag ready to go — know where it is",
+      "guideId": null,
+      "checklistItems": ["72-hour bag grabbed", "Documents/IDs secured", "Medications packed", "Phone and portable charger"]
+    },
+    {
+      "step": 3,
+      "title": "Vehicle Check",
+      "summary": "Your vehicle must be ready to move immediately",
+      "guideId": "vehicle-001",
+      "checklistItems": ["Fuel level acceptable (>1/2 tank)", "No flat tires", "Keys in hand", "Vehicle clear of obstructions"]
+    },
+    {
+      "step": 4,
+      "title": "Route Planning",
+      "summary": "Know your primary and alternate routes",
+      "guideId": "navigation-001",
+      "checklistItems": ["Primary route identified", "Alternate route known", "Destination confirmed", "Offline map downloaded"]
+    },
+    {
+      "step": 5,
+      "title": "Comms Check",
+      "summary": "Establish communication with family/team",
+      "guideId": "comms-001",
+      "checklistItems": ["Family/team contacted", "Rally point confirmed", "HAM/radio on and monitoring", "Emergency contacts notified"]
+    },
+    {
+      "step": 6,
+      "title": "Depart",
+      "summary": "Execute the plan — movement is survival",
+      "guideId": null,
+      "checklistItems": ["Home secured (doors locked)", "Utilities off if safe to do", "Left on schedule", "Following planned route"]
+    }
+  ]
+}

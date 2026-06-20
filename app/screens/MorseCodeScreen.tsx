@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useRef } from 'react';
+﻿import React, { useState, useCallback, useRef } from 'react';
 import {
   View, Text, StyleSheet, SafeAreaView, ScrollView,
   TextInput, TouchableOpacity, Alert,
@@ -66,7 +66,13 @@ export function MorseCodeScreen() {
   const [flashSymbol, setFlashSymbol] = useState('');
   const [showTable, setShowTable] = useState(false);
 
+  // Phase 15: Morse flash state
+  const [isFlashingMorse, setIsFlashingMorse] = useState(false);
+  const [currentSymbol, setCurrentSymbol] = useState('');
+
   const timeoutRefs = useRef<ReturnType<typeof setTimeout>[]>([]);
+  const flashCancelRef = useRef(false);
+  const morseTimeoutRefs = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   const handleInputChange = (text: string) => {
     setInputText(text);
@@ -82,6 +88,7 @@ export function MorseCodeScreen() {
     setInputText('');
     setResultText('');
     stopPlayback();
+    stopMorseFlash();
   };
 
   const stopPlayback = useCallback(() => {
@@ -90,6 +97,14 @@ export function MorseCodeScreen() {
     setIsPlaying(false);
     setIsFlashing(false);
     setFlashSymbol('');
+  }, []);
+
+  const stopMorseFlash = useCallback(() => {
+    flashCancelRef.current = true;
+    morseTimeoutRefs.current.forEach(t => clearTimeout(t));
+    morseTimeoutRefs.current = [];
+    setIsFlashingMorse(false);
+    setCurrentSymbol('');
   }, []);
 
   const playMorse = useCallback((morseString: string) => {
@@ -128,6 +143,59 @@ export function MorseCodeScreen() {
     }, delay + 100);
     timeoutRefs.current.push(endT);
   }, [stopPlayback]);
+
+  // Phase 15: Schedule visual flash via timeouts (LED requires expo-camera, not installed)
+  const flashMorsePattern = useCallback((morseText: string) => {
+    stopMorseFlash();
+    flashCancelRef.current = false;
+    setIsFlashingMorse(true);
+
+    let delay = 0;
+    const chars = morseText.split('');
+
+    for (let i = 0; i < chars.length; i++) {
+      const char = chars[i];
+      if (char === '.') {
+        const onT = setTimeout(() => { setCurrentSymbol('•'); }, delay);
+        morseTimeoutRefs.current.push(onT);
+        delay += 200;
+        const offT = setTimeout(() => { setCurrentSymbol(''); }, delay);
+        morseTimeoutRefs.current.push(offT);
+        delay += 100;
+      } else if (char === '-') {
+        const onT = setTimeout(() => { setCurrentSymbol('—'); }, delay);
+        morseTimeoutRefs.current.push(onT);
+        delay += 600;
+        const offT = setTimeout(() => { setCurrentSymbol(''); }, delay);
+        morseTimeoutRefs.current.push(offT);
+        delay += 100;
+      } else if (char === ' ') {
+        delay += 300;
+      } else if (char === '/') {
+        delay += 700;
+      }
+    }
+
+    const endT = setTimeout(() => {
+      setIsFlashingMorse(false);
+      setCurrentSymbol('');
+    }, delay + 100);
+    morseTimeoutRefs.current.push(endT);
+  }, [stopMorseFlash]);
+
+  const flashSOS = useCallback(() => {
+    flashMorsePattern('... --- ...');
+  }, [flashMorsePattern]);
+
+  const flashHELP = useCallback(() => {
+    // H=.... E=. L=.-.. P=.--. (spaces between letters, / between words not needed for single word)
+    flashMorsePattern('.... . .-.. .--.');
+  }, [flashMorsePattern]);
+
+  const flashOK = useCallback(() => {
+    // O=--- K=-.-
+    flashMorsePattern('--- -.-');
+  }, [flashMorsePattern]);
 
   const handleSOS = () => {
     setActiveTab('ENCODE');
@@ -231,10 +299,65 @@ export function MorseCodeScreen() {
           </View>
         </View>
 
+        {/* Phase 15: Flash current encoded result as Morse */}
+        {resultText && activeTab === 'ENCODE' ? (
+          <TouchableOpacity
+            style={[styles.flashMorseBtn, isFlashingMorse && styles.flashMorseBtnActive]}
+            onPress={() => isFlashingMorse ? stopMorseFlash() : flashMorsePattern(resultText)}
+          >
+            <Text style={styles.flashMorseBtnText}>
+              {isFlashingMorse ? '⬛ STOP FLASH' : '⚡ FLASH AS MORSE'}
+            </Text>
+          </TouchableOpacity>
+        ) : null}
+
         {/* SOS Shortcut */}
         <TouchableOpacity style={styles.sosBtn} onPress={handleSOS}>
           <Text style={styles.sosBtnText}>⚠ SOS — Tap to encode &amp; flash</Text>
         </TouchableOpacity>
+
+        {/* Phase 15: SOS Flash button */}
+        <TouchableOpacity
+          style={[styles.sosMorseBtn, isFlashingMorse && styles.sosMorseBtnActive]}
+          onPress={isFlashingMorse ? stopMorseFlash : flashSOS}
+        >
+          <Text style={styles.sosMorseBtnText}>{isFlashingMorse ? '⬛ STOP' : '🆘 SOS FLASH'}</Text>
+        </TouchableOpacity>
+
+        {/* Phase 15: HELP and OK preset flash buttons */}
+        <View style={styles.presetRow}>
+          <TouchableOpacity
+            style={styles.presetBtn}
+            onPress={() => isFlashingMorse ? stopMorseFlash() : flashHELP()}
+          >
+            <Text style={styles.presetBtnText}>⚡ HELP</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.presetBtn}
+            onPress={() => isFlashingMorse ? stopMorseFlash() : flashOK()}
+          >
+            <Text style={styles.presetBtnText}>⚡ OK</Text>
+          </TouchableOpacity>
+        </View>
+
+        {/* Phase 15: Visual tap-along view during flash */}
+        {isFlashingMorse && (
+          <View style={styles.tapAlongView}>
+            <Text style={styles.tapAlongSymbol}>{currentSymbol || ' '}</Text>
+            <Text style={styles.tapAlongLabel}>
+              {currentSymbol === '•' ? 'DOT' : currentSymbol === '—' ? 'DASH' : 'GAP'}
+            </Text>
+            <Text style={styles.tapAlongHint}>Tap along on whistle</Text>
+          </View>
+        )}
+
+        {/* Phase 15: LED note */}
+        <View style={styles.ledNote}>
+          <Ionicons name="information-circle-outline" size={14} color={Colors.textMuted} />
+          <Text style={styles.ledNoteText}>
+            Visual flash only — LED control requires expo-camera (not installed)
+          </Text>
+        </View>
 
         {/* Common Emergency Codes */}
         <View style={styles.section}>
@@ -309,7 +432,6 @@ const styles = StyleSheet.create({
   },
   resultText: { fontSize: 28, color: Colors.textPrimary, lineHeight: 38 },
   morseFont: { fontFamily: 'monospace', letterSpacing: 3, fontSize: 26 },
-
   copyBtn: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -365,16 +487,81 @@ const styles = StyleSheet.create({
   flashDotActive: { backgroundColor: Colors.primary, borderColor: Colors.primary },
   flashSymbol: { color: Colors.textPrimary, fontSize: 20, fontWeight: '900' },
 
+  // Phase 15: Flash Morse button (flashes encoded result)
+  flashMorseBtn: {
+    backgroundColor: '#1A2A1A',
+    borderWidth: 2,
+    borderColor: '#22C55E',
+    borderRadius: 8,
+    paddingVertical: 14,
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  flashMorseBtnActive: {
+    backgroundColor: '#22C55E22',
+  },
+  flashMorseBtnText: { color: '#22C55E', fontSize: 15, fontWeight: '900', letterSpacing: 1 },
+
+  // Existing SOS shortcut button (encode + audio flash)
   sosBtn: {
     borderWidth: 2,
     borderColor: Colors.primary,
     borderRadius: 8,
     paddingVertical: 16,
     alignItems: 'center',
-    marginBottom: 20,
+    marginBottom: 12,
     backgroundColor: Colors.primaryDim,
   },
   sosBtnText: { color: Colors.primary, fontSize: 16, fontWeight: '900', letterSpacing: 1 },
+
+  // Phase 15: SOS visual flash button
+  sosMorseBtn: {
+    borderWidth: 2,
+    borderColor: '#FF4444',
+    borderRadius: 8,
+    paddingVertical: 16,
+    alignItems: 'center',
+    marginBottom: 12,
+    backgroundColor: '#2A1A1A',
+  },
+  sosMorseBtnActive: { backgroundColor: '#FF444422' },
+  sosMorseBtnText: { color: '#FF4444', fontSize: 16, fontWeight: '900', letterSpacing: 1 },
+
+  // Phase 15: Preset row (HELP, OK)
+  presetRow: { flexDirection: 'row', gap: 10, marginBottom: 20 },
+  presetBtn: {
+    flex: 1,
+    backgroundColor: Colors.surface,
+    borderWidth: 1,
+    borderColor: Colors.primary,
+    borderRadius: 8,
+    paddingVertical: 14,
+    alignItems: 'center',
+  },
+  presetBtnText: { color: Colors.primary, fontSize: 14, fontWeight: '800' },
+
+  // Phase 15: Visual tap-along display
+  tapAlongView: {
+    backgroundColor: '#111',
+    borderRadius: 12,
+    padding: 24,
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  tapAlongSymbol: { fontSize: 80, fontWeight: '900', color: '#8B9E67', textAlign: 'center' },
+  tapAlongLabel: { fontSize: 16, color: '#888', textAlign: 'center', marginTop: 8 },
+  tapAlongHint: { fontSize: 12, color: '#555', textAlign: 'center', marginTop: 8 },
+
+  // Phase 15: LED note
+  ledNote: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginBottom: 20,
+    paddingHorizontal: 4,
+  },
+  ledNoteText: { fontSize: 11, color: Colors.textMuted, flex: 1 },
+
   emergencyRow: { flexDirection: 'row', gap: 10 },
   emergencyBtn: {
     flex: 1,

@@ -23,7 +23,18 @@
       "Rock pools (tinaja) in canyon country hold water for days after rain. Memorize their locations from maps before entering desert terrain.",
       "In cold climates, snow is water but eating it drops core temperature rapidly — always melt it first."
     ],
-    "relatedGuides": ["water-002", "water-003", "water-004"]
+    "relatedGuides": ["water-002", "water-003", "water-004"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You are in a survival situation and need to locate water — dehydration becomes life-threatening within 24-72 hours without it",
+      "immediate": ["Move downhill and follow drainages — water flows to low ground and collects in valleys", "Watch for bright green vegetation, willows, or cattails in dry terrain — these signal water nearby", "Track animal trails converging toward a single direction at dawn/dusk — they lead to water"],
+      "then": ["Dig 1-3 feet into the outer bend of a dry streambed if no surface water found", "Collect all water found regardless of clarity — purify before drinking"]
+    }
   },
   {
     "id": "water-002",
@@ -46,7 +57,18 @@
       "A metal container is not required — a plastic bag, bark trough, or even a large leaf bowl can boil water using hot rocks. Heat rocks in fire (avoid river rocks — they can explode when heated), then drop them into the water-filled container.",
       "In a pinch, a clear plastic bottle filled with clear water and left in direct sunlight for 6+ hours (SODIS method) will kill most biological pathogens through UV radiation."
     ],
-    "relatedGuides": ["water-001", "water-003", "water-005"]
+    "relatedGuides": ["water-001", "water-003", "water-005"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You have found water and need to make it safe to drink — biological contamination kills through diarrhea and dehydration",
+      "immediate": ["Pre-filter water through cloth or bandana to remove sediment", "Bring to a ROLLING boil — vigorous bubbles throughout, not just at bottom", "Maintain rolling boil for 1 minute (3 minutes above 6,500 ft elevation)"],
+      "then": ["Allow to cool before drinking — scalding water is a real hazard when dehydrated", "Transfer between containers several times to re-oxygenate flat-tasting boiled water"]
+    }
   },
   {
     "id": "water-003",
@@ -69,7 +91,18 @@
       "Activated charcoal from your fire is far superior to unactivated — make it by burning hardwood in a low-oxygen environment (a closed metal can with a small hole works well).",
       "In a pinch, a life straw-style filter can be improvised from a hollow reed or thin bamboo tube packed tightly with charcoal and moss."
     ],
-    "relatedGuides": ["water-002", "water-004"]
+    "relatedGuides": ["water-002", "water-004"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You have turbid or sediment-laden water that needs pre-treatment before chemical purification or boiling",
+      "immediate": ["Gather container with hole at bottom, coarse grass, fine sand, and crushed charcoal from fire", "Layer bottom to top: grass plug, sand, charcoal, sand, coarse grass/cloth on top", "Pour water slowly — discard first several cups until output runs clear"],
+      "then": ["Always boil or chemically treat filtered water — filtration alone does not eliminate all pathogens", "Rebuild filter after 24-48 hours as it becomes a bacterial breeding ground"]
+    }
   },
   {
     "id": "water-004",
@@ -93,7 +126,18 @@
       "Adding urine to the surrounding soil (not the container) significantly increases daily output — the still distills the water content and leaves contaminants behind.",
       "A transpiration bag — a clear plastic bag tied over a leafy tree branch in sunlight — produces 200–400mL per day with almost no labor. Build several at once."
     ],
-    "relatedGuides": ["water-001", "water-002", "water-005"]
+    "relatedGuides": ["water-001", "water-002", "water-005"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You are in a desert or arid environment with no surface water — a solar still extracts moisture from the ground as a last resort",
+      "immediate": ["Select a low-lying area with moist soil on a south-facing slope", "Dig a 3-foot wide by 2-foot deep bowl-shaped hole with collection container at center", "Pack the hole with as much green vegetation or cacti as available around the container"],
+      "then": ["Cover with clear plastic sheet sealed at edges with soil — place a rock over the center above the container", "Expect 0.5-1 liter per day in full sun — collect at end of peak sun hours (10am-4pm)"]
+    }
   },
   {
     "id": "water-005",
@@ -116,6 +160,17 @@
       "Large tropical leaves (and even pine needles in quantity) can be layered into funnel shapes using natural Y-shaped branches as supports, creating effective collection structures with zero equipment.",
       "Pre-position containers before forecasted rain — you may sleep through a valuable rain event."
     ],
-    "relatedGuides": ["water-002", "water-003"]
+    "relatedGuides": ["water-002", "water-003"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "Rain is falling or forecasted — maximize water capture now to build a reserve before dry conditions return",
+      "immediate": ["Deploy any clean catch surface — tarp, poncho, large leaves — angled to funnel to a collection point", "Discard the first 2-3 minutes of rainfall — it washes contaminants off surfaces", "Fill all available containers once the first flush has run off"],
+      "then": ["Transfer collected water to closed containers immediately to prevent mosquito breeding", "Purify all collected water before drinking — even rainwater can contain contaminants"]
+    }
   }
 ]

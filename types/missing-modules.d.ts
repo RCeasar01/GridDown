@@ -42,3 +42,30 @@ declare module '@react-native-async-storage/async-storage' {
   };
   export default AsyncStorage;
 }
+
+declare module 'react-native-svg' {
+  import React from 'react';
+  interface SvgProps {
+    width?: number | string;
+    height?: number | string;
+    viewBox?: string;
+    fill?: string;
+    stroke?: string;
+    [key: string]: any;
+  }
+  const Svg: React.FC<SvgProps>;
+  export default Svg;
+  export const Path: React.FC<{ [key: string]: any }>;
+  export const Circle: React.FC<{ [key: string]: any }>;
+  export const Line: React.FC<{ [key: string]: any }>;
+  export const Rect: React.FC<{ [key: string]: any }>;
+  export const Ellipse: React.FC<{ [key: string]: any }>;
+  export const G: React.FC<{ [key: string]: any }>;
+  export const Text: React.FC<{ [key: string]: any }>;
+  export const Polygon: React.FC<{ [key: string]: any }>;
+  export const Polyline: React.FC<{ [key: string]: any }>;
+  export const Defs: React.FC<{ [key: string]: any }>;
+  export const ClipPath: React.FC<{ [key: string]: any }>;
+  export const LinearGradient: React.FC<{ [key: string]: any }>;
+  export const Stop: React.FC<{ [key: string]: any }>;
+}

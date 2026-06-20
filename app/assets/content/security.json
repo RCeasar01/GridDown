@@ -43,7 +43,18 @@
     "relatedGuides": [
       "sec-002",
       "sec-003"
-    ]
+    ],
+    "source": "US Army FM 3-21.75 / Civilian preparedness best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You are in an environment with elevated threat potential — situational awareness is the primary tool that allows you to avoid, detect, and respond to threats",
+      "immediate": ["Enter Condition Yellow — relaxed alertness — as your baseline in any non-secure environment", "Establish the baseline within 30 seconds of entering any space: exits, cover positions, behavioral anomalies", "Identify pre-event indicators: target glancing, target interviewing, bladed body posture, hand movement to concealment"],
+      "then": ["Position with your back to a wall facing the primary entrance whenever possible", "Apply the 'What if' habit: pre-load responses to likely events before they happen"]
+    }
   },
   {
     "id": "sec-002",
@@ -89,7 +100,18 @@
     "relatedGuides": [
       "sec-001",
       "sec-003"
-    ]
+    ],
+    "source": "US Army FM 3-21.75 / Civilian preparedness best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You have established a camp or retreat location and need early warning of approach — perimeter security buys you reaction time",
+      "immediate": ["Establish layered perimeter: outer detection, middle channelization, inner defense", "Suspend fishing line at ankle height around key approach routes with cans containing pebbles", "Implement light discipline — extinguish or shield all light visible from outside the perimeter"],
+      "then": ["Establish watch rotation: minimum 4-hour sleep blocks, two-person watches preferred", "Designate primary and alternate rally points known to every group member before dark"]
+    }
   },
   {
     "id": "sec-003",
@@ -136,7 +158,18 @@
     "relatedGuides": [
       "sec-001",
       "tools-002"
-    ]
+    ],
+    "source": "US Army FM 3-21.75 / Civilian preparedness best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "Conditions at your current location are becoming untenable — you need to execute a planned evacuation before the window closes",
+      "immediate": ["Activate your trigger list — do not negotiate with your predetermined departure criteria", "Grab your 72-hour bag and confirm it has: water+filter, food 2000+ cal/day, shelter, 3 fire methods, navigation, medical, comms", "Move via your primary route — have alternate A and alternate B routes pre-planned for different scenarios"],
+      "then": ["Do not announce your destination to more people than necessary", "Inform one trusted person outside your household of your destination and expected timeline"]
+    }
   },
   {
     "id": "security-004",
@@ -184,6 +217,17 @@
     "relatedGuides": [
       "sec-001",
       "sec-003"
-    ]
+    ],
+    "source": "US Army FM 3-21.75 / Civilian preparedness best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "Your group has separated during a movement — separation without a pre-established protocol can turn a temporary problem into a fatal one",
+      "immediate": ["If separated: STOP — Stop, Think, Observe, Plan — do not keep walking", "Signal with 3 whistle blasts and listen; call out verbally; radio on agreed channel", "Move to the Immediate Rally Point (IRP) and wait for the agreed time window (30 minutes)"],
+      "then": ["If not reunited at IRP after 30 minutes: move to the Distant Rally Point (DRP)", "Searching parties: never send solo searchers — search in pairs minimum, designate a search coordinator"]
+    }
   }
 ]

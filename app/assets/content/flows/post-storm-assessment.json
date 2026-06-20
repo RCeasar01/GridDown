@@ -1,0 +1,52 @@
+{
+  "id": "post-storm-assessment",
+  "title": "Post-Storm Neighborhood Assessment",
+  "icon": "cloudy",
+  "color": "#3A8FC4",
+  "estimatedTime": "1 hour",
+  "description": "After a severe weather event, systematically assess damage and establish mutual aid.",
+  "steps": [
+    {
+      "step": 1,
+      "title": "Personal Safety Check",
+      "summary": "Confirm your household is safe before leaving home",
+      "guideId": "medical-001",
+      "checklistItems": ["Injuries assessed and treated", "Structure integrity checked", "No gas smell", "No visible electrical damage"]
+    },
+    {
+      "step": 2,
+      "title": "Gas Leak Indicators",
+      "summary": "Identify gas leak signs before entering any structure",
+      "guideId": "disaster-003",
+      "checklistItems": ["Rotten egg smell absent", "Hissing sounds absent", "Dead vegetation in yard checked", "Gas shut off at meter if suspected"]
+    },
+    {
+      "step": 3,
+      "title": "Downed Power Lines",
+      "summary": "Identify and avoid electrical hazards",
+      "guideId": "disaster-003",
+      "checklistItems": ["Downed lines mapped", "Safety perimeter established (50 ft min)", "Neighbors warned", "Utility company notified"]
+    },
+    {
+      "step": 4,
+      "title": "Structural Damage",
+      "summary": "Assess building integrity",
+      "guideId": "disaster-003",
+      "checklistItems": ["Foundations checked for cracking", "Load-bearing walls intact", "Roof damage visible?", "Condemned structures marked"]
+    },
+    {
+      "step": 5,
+      "title": "Mutual Aid",
+      "summary": "Establish neighborhood coordination",
+      "guideId": "comms-001",
+      "checklistItems": ["Neighbors checked on", "Vulnerable residents (elderly/disabled) confirmed safe", "Resource sharing list started", "Community meeting point designated"]
+    },
+    {
+      "step": 6,
+      "title": "Comms and Documentation",
+      "summary": "Report damage and establish ongoing communication",
+      "guideId": "comms-001",
+      "checklistItems": ["Damage photographed for insurance", "Local emergency management contacted", "NOAA radio monitoring", "Social media blackout enforced (OPSEC)"]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "nuclear-emp-first-hour",
+  "title": "Nuclear/EMP Event — First Hour",
+  "icon": "warning",
+  "color": "#CC8800",
+  "estimatedTime": "First 60 minutes",
+  "description": "The first hour after a nuclear detonation or EMP event is the most critical. Execute in order.",
+  "steps": [
+    {
+      "step": 1,
+      "title": "Immediate Shelter",
+      "summary": "Get inside the most substantial structure available",
+      "guideId": "disaster-004",
+      "checklistItems": ["Inside solid structure (brick/concrete preferred)", "HVAC turned off", "Doors and windows closed", "Basement or interior room chosen"]
+    },
+    {
+      "step": 2,
+      "title": "Contamination Control",
+      "summary": "If you were outside at time of event: decontaminate",
+      "guideId": "disaster-004",
+      "checklistItems": ["Outer clothing removed and bagged outside", "Shower with soap immediately", "Eyes flushed with clean water", "Clothing bag left outside structure"]
+    },
+    {
+      "step": 3,
+      "title": "Electronics Assessment (EMP)",
+      "summary": "Determine what electronics survived",
+      "guideId": "comms-001",
+      "checklistItems": ["Vehicle started (older vehicles more likely to survive)", "Portable radio tested", "Phone tested", "Faraday-caged items retrieved"]
+    },
+    {
+      "step": 4,
+      "title": "Water Security",
+      "summary": "Protect water supply from contamination",
+      "guideId": "water-001",
+      "checklistItems": ["Running tap water OFF (may be contaminated)", "Pre-stored water retrieved", "Sealed containers confirmed intact", "Radiation-contaminated water sources identified (do not use)"]
+    },
+    {
+      "step": 5,
+      "title": "Radiation Monitoring Basics",
+      "summary": "Monitor radiation levels if equipment available",
+      "guideId": "disaster-004",
+      "checklistItems": ["Radiation monitor checked if available", "Stay inside minimum 24 hours (radiation decays rapidly)", "Record fallout arrival time", "Monitor NOAA emergency broadcast if radio works"]
+    },
+    {
+      "step": 6,
+      "title": "Rationing and Planning",
+      "summary": "Begin systematic resource management",
+      "guideId": "food-001",
+      "checklistItems": ["Food inventory completed", "72-hour ration plan started", "Water ration calculated (1L/day minimum)", "Exit plan for after 24-hour shelter period"]
+    }
+  ]
+}

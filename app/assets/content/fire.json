@@ -23,7 +23,18 @@
       "If you're getting smoke but no coal, carve the notch slightly larger — the V point may not reach the center of the friction depression.",
       "Practice this skill extensively before you need it. A first-time bow drill user in a stress scenario will fail. Proficiency requires dozens of practice sessions."
     ],
-    "relatedGuides": ["fire-002", "fire-003"]
+    "relatedGuides": ["fire-002", "fire-003"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "advanced",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need fire and have no modern ignition source — friction-based fire starting with a bow drill is a viable primitive method that requires significant practice",
+      "immediate": ["Select matched wood species — both spindle and fireboard must be dry, same hardness, low resin (willow, cedar, cottonwood)", "Build bow 24-30 inches with cordage at 20% sag; prepare V-notch in fireboard with catch piece below", "Drill with firm downward pressure and full-length even strokes until thick smoke pours from the notch"],
+      "then": ["Give 10-15 fast powerful strokes then stop — carefully check for glowing coal in catch piece", "Transfer coal to tinder bundle and blow steadily until bundle ignites, then add to fire lay"]
+    }
   },
   {
     "id": "fire-002",
@@ -46,7 +57,18 @@
       "Dried fungus (amadou from horse hoof fungus), cattail down, dried grass, and dried tree bark dust all catch sparks well as alternatives to char cloth.",
       "A ferro rod (ferrocerium striker) requires no special stone — any rough surface works and it functions wet. This is your primary fire-starting tool; bow drill and flint/steel are backups."
     ],
-    "relatedGuides": ["fire-001", "fire-003", "fire-004"]
+    "relatedGuides": ["fire-001", "fire-003", "fire-004"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need fire and have a ferrocerium rod or high-carbon steel striker available — this is your primary ignition method",
+      "immediate": ["Prepare tinder bundle BEFORE striking — caught spark burns within seconds", "Hold sharp stone with char cloth on top surface; strike steel downward at 45-degree angle against the edge", "Once spark catches on char cloth, gently blow until entire cloth glows orange"],
+      "then": ["Transfer glowing char cloth to tinder bundle — fold loosely around coal", "Blow steadily with deep breaths until tinder bursts into flame, then add to prepared fire lay"]
+    }
   },
   {
     "id": "fire-003",
@@ -71,7 +93,18 @@
       "Fatwood (resin-saturated dead pine heartwood) burns even when soaking wet. Learn to identify it by smell and the orange-amber color of the heartwood. It's found in old pine stumps and roots.",
       "Commercial fire starters (WetFire, Tinder-Quik, Fatwood shavings) are critical kit items. They bridge the gap between a spark and a sustained fire in any condition."
     ],
-    "relatedGuides": ["fire-001", "fire-004"]
+    "relatedGuides": ["fire-001", "fire-004"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "advanced",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need fire in wet or rainy conditions — surface moisture is the challenge, but dry fuel exists inside standing dead wood",
+      "immediate": ["Split standing dead wood open by batoning — dry inner wood is your starting material regardless of surface wetness", "Build a base platform of dry split logs to elevate your fire off wet ground", "Shield your tinder from wind and rain with your body or an improvised windscreen"],
+      "then": ["Build small and concentrated — a compact fire lay establishes faster than a large one in wet conditions", "Feed aggressively once flame appears — any pause at this stage risks losing the fire"]
+    }
   },
   {
     "id": "fire-004",
@@ -95,6 +128,17 @@
       "A Dakota Hole fire is the most fuel-efficient, low-visibility, weather-resistant fire design. Dig two 12-inch diameter holes about 12 inches deep, connected at the bottom by a diagonal tunnel. Light the fire in one hole — the tunnel creates a natural draft that feeds oxygen and keeps flame below surface level.",
       "Reflected fire heat: build your fire between yourself and a natural or improvised reflector (large rock, log, bark panel). This directs 40–50% more heat toward you and reduces fuel consumption."
     ],
-    "relatedGuides": ["fire-001", "fire-002", "fire-003"]
+    "relatedGuides": ["fire-001", "fire-002", "fire-003"],
+    "source": "US Army FM 21-76 / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to establish a fire safely — improper site selection and extinguishing are the primary hazards",
+      "immediate": ["Clear a 10-foot radius of flammable material around the site", "Build on mineral soil, sand, or rock — never on forest duff or peat which can smolder underground", "Build a fire ring of dry non-porous rocks (not river rocks) — leave gaps for airflow"],
+      "then": ["Size the fire to actual need — a dinner-plate-sized fire produces adequate cooking heat", "Extinguish completely: drown with water, stir ash, add more water until ground is cold to touch"]
+    }
   }
 ]

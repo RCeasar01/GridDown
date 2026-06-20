@@ -51,7 +51,18 @@
       "To prevent cross-threading, hold the lug nut between thumb and forefinger, align to the stud, and rotate counterclockwise slowly until you feel it drop into thread alignment, then reverse clockwise",
       "Keep a can of Fix-a-Flat as a backup — it buys you 50–100 miles at low speed on a puncture (not a blowout) and eliminates the need for a lift entirely"
     ],
-    "relatedGuides": ["vehicle-002", "vehicle-003"]
+    "relatedGuides": ["vehicle-002", "vehicle-003"],
+    "source": "USAF SERE curriculum / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You have a flat tire and no jack — you need to improvise vehicle lift to swap the tire and get moving",
+      "immediate": ["BEFORE any lifting: break lug nut torque while tire is still on the ground bearing full weight — this prevents wheel spinning", "Rock/curb method: drive flat tire onto a solid 6-8 inch rock or curb to create clearance — fastest and most stable improvised lift", "Dig-under method: excavate a bowl 18 inches diameter and 4-6 inches deep under the flat tire to lower it and lift the hub"],
+      "then": ["Thread all lug nuts by hand first in cross-pattern before applying wrench force", "After tire swap: drive under 50 mph to nearest shop for proper torque spec (90-100 ft-lbs)"]
+    }
   },
   {
     "id": "vehicle-002",
@@ -104,7 +115,18 @@
       "If the battery terminals are corroded and no wire brush is available, a pen knife blade scraped firmly around the post works reasonably well to expose bare lead",
       "Modern vehicles may require a 5–10 minute drive at highway speed after a jump to sufficiently recharge the battery — idling in a parking lot is much less effective"
     ],
-    "relatedGuides": ["vehicle-001", "vehicle-003"]
+    "relatedGuides": ["vehicle-001", "vehicle-003"],
+    "source": "USAF SERE curriculum / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "Your vehicle will not start due to a battery issue — correct cable order prevents expensive electrical damage",
+      "immediate": ["CORRECT ORDER: Red to dead positive → Red to donor positive → Black to donor negative → Black to chassis ground on dead vehicle (NOT battery negative)", "Inspect battery before connecting: cracked case, bulging, frozen, or rotten-egg smell = do not jump", "Run donor at fast idle (1500-2000 RPM) for 2-3 minutes before attempting to start the dead vehicle"],
+      "then": ["If battery light stays on after starting: alternator is not charging — drive directly to a shop", "Push-starting a manual: clutch in, second gear, 5-8 mph minimum, release clutch quickly — does not work on automatics"]
+    }
   },
   {
     "id": "vehicle-003",
@@ -157,7 +179,18 @@
       "Bars Leaks or similar radiator stop-leak tablets can seal minor leaks in the field and are worth carrying — they will not fix major failures but can get you home from a small pinhole seep",
       "If you must bypass a stuck thermostat in the field, locate the thermostat housing (where the upper radiator hose meets the engine), remove it, extract the thermostat, and reinstall the housing without it — coolant will now flow unrestricted"
     ],
-    "relatedGuides": ["vehicle-001", "vehicle-002", "vehicle-004"]
+    "relatedGuides": ["vehicle-001", "vehicle-002", "vehicle-004"],
+    "source": "USAF SERE curriculum / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "Your temperature gauge is in the red zone — you have 30-60 seconds to respond before potential engine damage",
+      "immediate": ["Turn off AC immediately; if on highway: turn heater to full heat to dump engine heat — buys 1-2 minutes", "Find safe pullout and stop the engine — do NOT open radiator cap while hot (200°F+ pressurized coolant)", "Wait minimum 30 minutes or until you can comfortably touch the radiator hose before inspecting"],
+      "then": ["Check for coolant puddles, cracked or collapsed hoses, broken serpentine belt, clogged radiator fins", "Emergency coolant: clean water is acceptable one-time substitute to get you to safety — never use petroleum products in cooling system"]
+    }
   },
   {
     "id": "vehicle-004",
@@ -210,7 +243,18 @@
       "Mark all fuel storage containers with the date filled and the fuel type using a paint pen — unlabeled containers are a serious safety and engine-compatibility hazard",
       "To quickly test if stored gasoline is still usable: pour a small amount on white concrete — good fuel evaporates leaving almost no residue; bad fuel leaves an oily or dark stain"
     ],
-    "relatedGuides": ["vehicle-003", "vehicle-005"]
+    "relatedGuides": ["vehicle-003", "vehicle-005"],
+    "source": "USAF SERE curriculum / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to siphon fuel from another vehicle, assess stored fuel quality, or safely store fuel for extended periods",
+      "immediate": ["Gravity siphon: submerge full hose in donor tank, cap exit with thumb, lower exit end into container below tank level — release thumb", "NEVER use mouth suction — fuel vapor causes chemical pneumonitis; swallowing fuel causes serious poisoning", "Assess fuel quality: good gasoline is pale yellow with sharp smell; degraded fuel is orange-brown with sour/varnish smell"],
+      "then": ["Store fuel only in UL-listed red jerry cans — never in water bottles or non-approved containers", "Add fuel stabilizer to fresh fuel immediately for storage beyond 30 days — it does not rescue already-degraded fuel"]
+    }
   },
   {
     "id": "vehicle-005",
@@ -248,7 +292,7 @@
       {
         "step": 6,
         "title": "Load Calculation and Runtime Efficiency",
-        "body": "Never exceed your generator\'s rated wattage — this causes overheating, trips the circuit breaker, and shortens engine life. Calculate your load by summing the wattage of everything you intend to run simultaneously. For motor-driven appliances (refrigerators, well pumps, AC units), use the starting wattage (typically 2–3x running wattage) for sizing — a refrigerator that runs at 150W may require 600–800W to start the compressor. Label all critical appliances with their running and starting watts. A 3500W generator can typically handle: a refrigerator (800W starting), two LED light strings (50W total), a phone/radio charger (20W), and a window fan (75W) — totaling about 945W running with 800W surge capacity reserved. Fuel consumption varies dramatically with load: a 3500W generator uses roughly 0.5 gallons/hour at 25% load, and nearly 1.0 gallon/hour at full load. Run at 50–75% capacity for the best efficiency and longest runtime."
+        "body": "Never exceed your generator's rated wattage — this causes overheating, trips the circuit breaker, and shortens engine life. Calculate your load by summing the wattage of everything you intend to run simultaneously. For motor-driven appliances (refrigerators, well pumps, AC units), use the starting wattage (typically 2–3x running wattage) for sizing — a refrigerator that runs at 150W may require 600–800W to start the compressor. Label all critical appliances with their running and starting watts. A 3500W generator can typically handle: a refrigerator (800W starting), two LED light strings (50W total), a phone/radio charger (20W), and a window fan (75W) — totaling about 945W running with 800W surge capacity reserved. Fuel consumption varies dramatically with load: a 3500W generator uses roughly 0.5 gallons/hour at 25% load, and nearly 1.0 gallon/hour at full load. Run at 50–75% capacity for the best efficiency and longest runtime."
       }
     ],
     "warnings": [
@@ -263,6 +307,17 @@
       "A Champion, Honda EU2200i, or Yamaha EF2200iS inverter generator produces clean sine-wave power safe for sensitive electronics — standard open-frame generators produce dirty power that can damage laptop power supplies and medical equipment",
       "Keep a spare spark plug, air filter, and oil on the shelf next to the generator — these three items cost under $20 total and cover 90% of all maintenance needs for a full season"
     ],
-    "relatedGuides": ["vehicle-004"]
+    "relatedGuides": ["vehicle-004"],
+    "source": "USAF SERE curriculum / Wilderness survival best practices",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "Your generator will not start or is running poorly — most generator failures are caused by oil level or stale fuel in the carburetor",
+      "immediate": ["Check oil level first — low oil is the most common cause of permanent generator seizure", "Check for flooded engine: strong gas smell from exhaust, engine spins but won't fire — remove plug, crank 5-10 times plug-out, reinstall and retry", "Clean carburetor main jet if engine starts but dies or runs rough after storage — varnish from stale ethanol fuel is the most common cause"],
+      "then": ["Never run generator indoors or near open windows — CO kills silently and accumulates rapidly", "Run your generator under load for 30 minutes every 90 days to keep carburetor clear and confirm readiness"]
+    }
   }
 ]

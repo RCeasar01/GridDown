@@ -238,3 +238,56 @@ For future server-side functionality, set up a RevenueCat webhook:
 3. Events: subscribe to `INITIAL_PURCHASE`, `RENEWAL`, `CANCELLATION`, `EXPIRATION`
 
 Not required for the current offline-only architecture.
+
+---
+
+## v2.0 Tier Mapping
+
+As of v2.0 the PaywallScreen presents 3 primary tiers + 1 family option instead of 8 separate plans.
+The RevenueCat products and entitlements on the backend are **unchanged** — only the UI grouping changed.
+
+### UI Tier → Legacy RC Tiers
+
+| New UI Plan | Displayed Prices | Maps to RC Products | Legacy Internal Tiers Covered |
+|------------|-----------------|---------------------|-------------------------------|
+| **Free** | $0 forever | (none) | `free` |
+| **Pro (monthly)** | $4.99/mo | `griddown_monthly_399` | `monthly` |
+| **Pro (yearly)** | $34.99/yr | `griddown_yearly_2999` | `yearly` |
+| **Pro (lifetime)** | $89.99 one-time | `griddown_lifetime_standard_7999` | `lifetime_standard` |
+| **Pro + AI (monthly)** | $10.99/mo | `griddown_extreme_monthly_999` | `extreme_monthly` |
+| **Pro + AI (yearly)** | $74.99/yr | `griddown_extreme_yearly_6999` | `extreme_yearly` |
+| **Pro + AI (lifetime)** | $159.99 one-time | `griddown_extreme_lifetime_14999` | `extreme_lifetime` |
+| **Family Plan** | $54.99/yr | `griddown_yearly_2999` (shared) | (new — maps to yearly) |
+
+### What was removed from UI
+
+- **Discord Only** ($1.99/mo) — removed from the paywall UI entirely. The RC product and entitlement
+  (`griddown_discord` / `discord`) still exist so existing subscribers retain access. The `discord`
+  tier still resolves in `purchases.ts` but is no longer presented as a purchase option.
+
+### Entitlement checks in-app
+
+Existing entitlement check logic in `purchases.ts` is **unchanged**. The `userTier` value stored in
+the app's Zustand store and SQLite `user_tier` table still uses the legacy tier names
+(`monthly`, `yearly`, `extreme_monthly`, etc.). The new UI plan cards use `legacyTiers` arrays to
+determine "isCurrent" state so a `yearly` subscriber correctly sees "CURRENT" on the Pro card.
+
+### Billing chip → RC product mapping
+
+When a user selects a billing chip on the Pro or Pro + AI card, `RC_PRODUCT_MAP` in
+`PaywallScreen.tsx` provides the correct product identifier to pass to `purchasePackage()`:
+
+```typescript
+const RC_PRODUCT_MAP = {
+  pro: {
+    monthly:  'griddown_monthly_399',
+    yearly:   'griddown_yearly_2999',
+    lifetime: 'griddown_lifetime_standard_7999',
+  },
+  pro_ai: {
+    monthly:  'griddown_extreme_monthly_999',
+    yearly:   'griddown_extreme_yearly_6999',
+    lifetime: 'griddown_extreme_lifetime_14999',
+  },
+};
+```

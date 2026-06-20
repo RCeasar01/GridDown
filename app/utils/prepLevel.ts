@@ -1,4 +1,4 @@
-import { getLatestReadinessScan } from '../db/readinessScan';
+﻿import { getLatestReadinessScan } from '../db/readinessScan';
 // Note: use try/catch imports for anything that might not exist yet
 
 export type PrepLevelId = 1 | 2 | 3 | 4 | 5 | 6;
@@ -50,7 +50,7 @@ export const PREP_LEVELS: PrepLevel[] = [
     name: 'Responder',
     description: 'High proficiency across all critical domains',
     icon: 'medal-outline',
-    color: '#E8642A',
+    color: '#8B9E67',
     requirements: ['90%+ overall readiness score', 'All advanced quizzes passed'],
   },
   {
@@ -58,7 +58,7 @@ export const PREP_LEVELS: PrepLevel[] = [
     name: 'Survival Expert',
     description: 'Maximum readiness — 100% across all systems',
     icon: 'trophy',
-    color: '#E8642A',
+    color: '#8B9E67',
     requirements: ['100% readiness scan', 'All quizzes passed', 'Gear Inventory complete'],
   },
 ];

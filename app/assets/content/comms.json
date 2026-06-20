@@ -45,7 +45,18 @@
       "comms-002",
       "comms-003",
       "comms-004"
-    ]
+    ],
+    "source": "FCC Emergency Communications Guidelines / ARRL Emergency Manual",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to signal rescuers at long range — a mirror flash is visible 10-15 miles on a clear day and far brighter than a flare",
+      "immediate": ["Get to the highest available terrain — elevation dramatically increases signal range", "Aim mirror toward aircraft: hold reflective surface toward sun, use finger-V at arm's length to frame target, tilt mirror until flash passes through your fingers toward target", "Flash three times (international distress signal), pause, repeat every few minutes"],
+      "then": ["Signal toward any aircraft regardless of whether it appears to be searching for you", "Any reflective surface works if no purpose-built mirror: phone screen, CD, polished tin, pot lid"]
+    }
   },
   {
     "id": "comms-002",
@@ -93,7 +104,18 @@
     "relatedGuides": [
       "comms-001",
       "comms-003"
-    ]
+    ],
+    "source": "FCC Emergency Communications Guidelines / ARRL Emergency Manual",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "The power grid is down and you need to receive emergency information and maintain communication capability",
+      "immediate": ["Tune to NOAA Weather Radio: 162.400-162.550 MHz for 24/7 official emergency broadcasts", "Monitor FRS Channel 1 (462.5625 MHz) and Channel 22A for local emergency communications", "Set HAM radio to 146.520 MHz — the national simplex calling frequency monitored by HAM operators nationwide"],
+      "then": ["Conserve battery: receive mode draws far less power than transmit — listen first, transmit only when necessary", "If transmitting distress: MAYDAY x3, your name, position, nature of emergency, number of people, any special needs"]
+    }
   },
   {
     "id": "comms-003",
@@ -140,7 +162,18 @@
     "relatedGuides": [
       "comms-001",
       "comms-004"
-    ]
+    ],
+    "source": "FCC Emergency Communications Guidelines / ARRL Emergency Manual",
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need aerial rescue and have resources to build signal fires — a three-fire triangle is the international distress signal visible from aircraft",
+      "immediate": ["Select highest available ground — ridgeline, summit, or large clearing visible from the air", "Build three fires in an equilateral triangle pattern, 25-50 meters apart — prepare all three simultaneously", "For maximum smoke visibility: add green leaves/grass for white smoke on dark terrain; rubber/petroleum for black smoke on light terrain"],
+      "then": ["Pre-build fires and stage smoke materials but do not light until an aircraft is seen or heard", "Assign a person to maintain signal fire — unmanaged fire dies within 30-60 minutes"]
+    }
   },
   {
     "id": "comms-004",
@@ -187,6 +220,17 @@
     "relatedGuides": [
       "comms-001",
       "comms-003"
-    ]
+    ],
+    "source": "FCC Emergency Communications Guidelines / ARRL Emergency Manual",
+    "lastReviewed": "2025-01",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You need to signal rescuers using sound or ground markers — you may be too weak to do more, or rescuers may be at short range",
+      "immediate": ["Three whistle blasts = international distress. Pause. Repeat every 5 minutes", "Lay ground-to-air symbols at least 3 meters long in high-contrast material: X = medical needed, V = need help, arrow = direction of travel", "Use all available signals simultaneously when you see or hear aircraft: whistle + mirror + wave clothing"],
+      "then": ["A pealess whistle carries 1 mile+ and works when wet — Fox 40 or equivalent", "In snow: stomp out a large X and fill with dark material (pine boughs) for maximum aerial contrast"]
+    }
   }
 ]

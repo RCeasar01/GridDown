@@ -47,6 +47,16 @@
       "A handwashing station at the latrine entrance — even a simple jug with a drilled hole — dramatically increases compliance by making hand washing the path of least resistance.",
       "Pre-treat all camp clothing and gear with permethrin before a grid-down scenario; it is far easier to treat before you leave than to manage mosquito exposure in the field with limited supplies."
     ],
-    "relatedGuides": ["fm-005", "water-purification-101", "camp-setup", "disease-prevention"]
+    "relatedGuides": ["fm-005", "water-purification-101", "camp-setup", "disease-prevention"],
+    "lastReviewed": "2025-01",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "quickGlance": {
+      "situation": "You are establishing or managing a multi-person camp and need to implement sanitation practices that prevent disease outbreak — a single sanitation failure can incapacitate everyone within 48 hours",
+      "immediate": ["Site latrines minimum 100 meters from any water source, living area, or food preparation — downhill and downwind from camp", "Establish hand washing station at the latrine entrance: dampen, soap, scrub 20 seconds covering all surfaces, rinse, air dry", "Eliminate all standing water around camp — even bottle caps breed mosquitoes in 4-5 days"],
+      "then": ["Use three-pot wash system for all cooking equipment: hot soapy wash, hot rinse, bleach sanitizer solution", "Any person with fever, diarrhea, vomiting, or hand skin infection must not handle food for others — non-negotiable"]
+    }
   }
 ]
