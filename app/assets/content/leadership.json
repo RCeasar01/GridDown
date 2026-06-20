@@ -1,0 +1,250 @@
+[
+  {
+    "id": "psych-001",
+    "category": "leadership",
+    "title": "Managing Panic — Yours and Others'",
+    "priority": "critical",
+    "tags": ["leadership", "psychology", "panic", "stress-management"],
+    "summary": "Understand the physiological panic response and apply proven techniques to regain control for yourself and calm others.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "The Physiology of Panic",
+        "body": "Panic is not a character flaw — it is a predictable physiological response to perceived life threat. The amygdala (the brain's threat-detection center) triggers an adrenaline surge that causes: heart rate spike to 100–180 BPM, peripheral vision narrowing (tunnel vision), fine motor skill degradation (hands shake, fine coordination fails), and downregulation of the prefrontal cortex — the rational, planning portion of your brain. This is your survival system activating. It is optimized for immediate physical threat response — run or fight — not for complex problem-solving. The core challenge in a crisis is that the very brain systems you need for good decision-making are the first to be degraded by the threat response. Recognition of this process as it happens is the first intervention: 'This is the adrenaline response. My brain is narrowing. I need to intervene.'"
+      },
+      {
+        "step": 2,
+        "title": "Tactical Breathing (Box Breathing)",
+        "body": "Box breathing is the fastest evidence-based intervention for physiologically downregulating the panic response. Mechanism: controlled breathing activates the vagus nerve, triggering the parasympathetic nervous system (rest-and-digest), which directly counteracts the sympathetic (fight-or-flight) activation. Protocol: Inhale slowly through the nose for 4 counts. Hold breath for 4 counts. Exhale slowly through the mouth for 4 counts. Hold (empty) for 4 counts. Repeat for 4 cycles. Effect: measurable reduction in heart rate within 60–90 seconds, partial restoration of prefrontal cortex function within 2–3 cycles. Adopted by Navy SEALs (where it is called tactical breathing), emergency room surgeons, and combat veterans because it works under genuine life-threat conditions — not just exercise-induced stress. Learn it now, before you need it — technique learned under calm conditions transfers to high-stress conditions."
+      },
+      {
+        "step": 3,
+        "title": "Grounding Technique (5-4-3-2-1)",
+        "body": "The 5-4-3-2-1 grounding technique is used for acute panic or dissociation — states where the individual is losing contact with present reality and spiraling into catastrophic thinking. Protocol: force sensory engagement with the current physical environment by sequentially naming: 5 things you can currently see (describe them specifically — 'the red exit sign, the cracked ceiling tile, the water on the floor'). 4 things you can physically touch right now (press your hands against them). 3 things you can currently hear. 2 things you can smell. 1 thing you can taste. The mechanism: the exercise forces sensory processing through multiple channels simultaneously, which cannot co-occur with abstract fearful rumination. It anchors the person in the present moment, interrupts the catastrophic thought spiral, and restores enough executive function to take the next small action."
+      },
+      {
+        "step": 4,
+        "title": "Calming Others",
+        "body": "Panic is contagious — but calm is equally contagious. Before attempting to calm another person, verify that you have first stabilized your own state with tactical breathing. Attempting to calm someone else from a place of personal panic produces the opposite effect. With the other person: lower your own voice before speaking — a calm, measured tone at moderate volume is more effective than raised volume. Make appropriate physical contact if the person is receptive: a firm hand on the shoulder or arm creates a physical connection that grounds the panicking person. Use short, direct sentences rather than complex explanations: 'Look at me. Good. Breathe with me.' Never say 'calm down' — it is not actionable and can increase frustration. Instead, give a task: 'Hold this flashlight here and keep it pointed at that door.' Tasks engage the cognitive system and interrupt the emotional loop."
+      },
+      {
+        "step": 5,
+        "title": "Managing Group Panic",
+        "body": "A single panicking individual in a group can cascade — panic activates threat-detection in observers who then panic themselves, amplifying the original response. Group panic management: first priority is to prevent cascade, not to resolve the individual. Move the panicking person away from the group if possible — create physical separation before the emotional state spreads. In a fixed space where separation is not possible, the leader's most effective tool is rapid, authoritative action: say something specific, direct, and calm. 'Everyone stop. Listen to me. Here is what we are doing right now.' The specificity ('here is what we're doing') gives people cognitive traction — something to think about other than the threat. Then give each person a task immediately. People with assigned tasks stop feeding the panic loop and start executing. Track for secondary panic responses in the group for the next 10–15 minutes — initial calming is not permanent resolution."
+      },
+      {
+        "step": 6,
+        "title": "After-Action — Processing the Response",
+        "body": "Panic suppression without acknowledgment creates a delayed response problem — the unprocessed event resurfaces as intrusive thoughts, irritability, or excessive fear response to subsequent stressors. After the immediate threat has passed: acknowledge that the panic response occurred without shame (it happened, it is a normal physiological event, it does not indicate unfitness). Privately or in a small trusted group, work through: what was the trigger? What early physical signs appeared before full panic (elevated heart rate, tunnel vision, urge to run)? What worked — breathing, grounding, task assignment? What would I do differently? Build this into your mental model. Each analyzed event improves your recognition speed and intervention effectiveness in subsequent events. This is how emergency professionals develop stress inoculation — not by being fearless, but by having detailed experience of their own response patterns."
+      }
+    ],
+    "warnings": [
+      "Suppressing panic without acknowledging it creates a delayed cascade — the unprocessed state emerges later at a worse moment.",
+      "Telling someone 'everything is fine' when it is clearly not destroys trust and creates a larger panic response when reality contradicts the false reassurance.",
+      "Do not attempt to physically restrain a panicking individual unless they are actively harming themselves or others — physical restraint often intensifies the panic response."
+    ],
+    "proTips": [
+      "Practice box breathing daily for 5 minutes until it is a completely automatic sequence — it only transfers to genuine high-stress conditions through repetition, not just knowledge.",
+      "As a group leader, your emotional affect is transmitted to your group at approximately 3× your own perceived intensity — control your face and voice before you open your mouth in any crisis situation.",
+      "The most useful pre-crisis activity is having an honest conversation about panic with your group before an emergency: 'If someone panics, here's what we'll do.' Named protocols reduce the stigma and response time."
+    ],
+    "relatedGuides": ["psych-002", "psych-003"]
+  },  {
+    "id": "psych-002",
+    "category": "leadership",
+    "title": "Decision Making Under Stress",
+    "priority": "advanced",
+    "tags": ["leadership", "psychology", "decision-making", "OODA"],
+    "summary": "Apply proven frameworks for making better decisions when stress degrades cognitive function.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "How Stress Degrades Decisions",
+        "body": "Under high stress, your brain defaults to System 1 thinking — fast, automatic, intuitive, pattern-matching cognition that evolved for rapid response to familiar threats. System 1 is effective when the current situation closely matches situations you have encountered before. It is dangerous when the situation is novel, complex, or requires nuanced trade-offs — exactly what most emergencies present. System 2 thinking — slow, deliberate, analytical, capable of considering novel problems — is the first casualty of stress-induced cortisol and adrenaline release. The prefrontal cortex that handles System 2 thinking is literally downregulated by the stress hormones designed to activate System 1. Solution: do not try to think better under stress. Instead, install deliberate decision frameworks into memory through practice, so that when stress forces you into automatic mode, those frameworks are the automatic patterns that activate."
+      },
+      {
+        "step": 2,
+        "title": "The OODA Loop",
+        "body": "The OODA Loop was developed by US Air Force Colonel John Boyd through analysis of fighter pilot combat performance in the Korean War. OODA stands for: Observe — gather raw sensory data from the environment without filtering or interpretation. What is actually, literally happening right now? Orient — apply context to raw data. What does this mean? What have I seen like this before? What is likely true? What is certainly true? Decide — select a course of action from the available options. Act — execute the decision. Then immediately return to Observe with new data. Boyd's insight was that in any competitive or rapidly evolving scenario, the winner is almost always the person or system that cycles through OODA fastest — not necessarily the one with the best individual decisions. Applied to emergency response: move through the loop quickly, be willing to make small decisions rapidly and update them, and avoid getting stuck in Orient or Decide phases waiting for certainty."
+      },
+      {
+        "step": 3,
+        "title": "Prioritization Framework",
+        "body": "When a crisis presents multiple simultaneous problems, the instinct to address the most visible or most emotionally salient problem first is often wrong. A structured prioritization framework prevents this: Step 1 — Life safety. Immediate threats to human life are addressed first, regardless of resource cost or complexity. Nothing else happens until life threats are addressed. Step 2 — Prevent escalation. What is currently stable but will become worse if not addressed? A containable fire, a person approaching a dangerous state of mind, a resource that will be lost if not secured. Address these second. Step 3 — Stabilize. Establish baseline capability — food, water, shelter, communication. Step 4 — Optimize. Now improve your position. The sequence exists because people regularly skip Step 1 and 2 to jump to Step 4 — because optimizing feels productive. Optimization while a fire spreads is a mistake."
+      },
+      {
+        "step": 4,
+        "title": "The Good Enough Decision",
+        "body": "Perfectionism kills decision-making under time pressure. The cognitive bias toward seeking a complete solution before acting is adaptive in stable environments and catastrophic in dynamic emergencies. The military standard for decision-making under time pressure is the '70% solution' principle: a decision made on 70% of the information you'd ideally want, executed now, produces better outcomes than the optimal decision executed 30 minutes from now. Why: emergencies are dynamic. By the time you've gathered the remaining 30% of information and decided, the situation has changed and your decision may no longer apply to reality. The objective is to move from no-action to action, accepting that your decision will be imperfect and you will adjust as you observe results. 'Don't let perfect be the enemy of good enough' is not a resignation to mediocrity — it is an operationally sound approach to time-critical decision-making."
+      },
+      {
+        "step": 5,
+        "title": "Decision Fatigue",
+        "body": "Each decision you make depletes a measurable, finite cognitive resource. Research consistently shows that decision quality degrades as the number of decisions made increases, regardless of the individual decision's complexity. This is decision fatigue. In a crisis that requires many decisions over hours or days, fatigue-induced poor decisions accumulate and compound. Mitigations: pre-plan decisions before the crisis. SOPs (standard operating procedures) for predictable events transform a decision into an execution — no cognitive cost. 'If the building loses power, I do X, Y, Z' requires no decision under stress. Delegate routine decisions to capable group members immediately — free your cognitive bandwidth for strategic choices. Reduce optionality: fewer choices per decision means less depletion per decision. Preserve significant decisions for your highest-functioning periods (after rest, after eating, early in the day before fatigue accumulates)."
+      },
+      {
+        "step": 6,
+        "title": "When to Delegate",
+        "body": "A leader who tries to make every decision in a crisis fails through cognitive overload and creates a dependent group that stops thinking. The test for any decision: Does this require my unique knowledge, authority, or perspective? If the answer is no, it should be delegated to the most capable available person. Effective delegation: assign the task to a named individual (not 'someone'), state the desired outcome rather than prescribing exactly how to achieve it (allows the delegate to apply their own competence), establish a reporting expectation ('Tell me what you find in 15 minutes'), and trust the result unless there is evidence of a problem. Delegation benefits compound: the delegating leader reclaims bandwidth, the delegated-to individual develops competence and confidence, and the group develops capacity for distributed decision-making — which is more resilient than single-point leadership."
+      }
+    ],
+    "warnings": [
+      "Confirmation bias — the tendency to seek information that confirms your existing belief — is dramatically amplified under stress. Actively seek disconfirming evidence and assign someone to argue against your chosen course of action before committing.",
+      "Analysis paralysis — cycling through options without deciding — is as dangerous as a poor decision in time-critical situations. Set a decision deadline and honor it."
+    ],
+    "proTips": [
+      "Run a pre-mortem before committing to a major decision: ask 'If this plan fails, what are the most likely reasons?' Pre-identified failure modes are far easier to prevent than post-identified ones.",
+      "Red-teaming — assigning someone to actively argue against your decision — is the most reliable way to catch the blind spots that stress-induced tunnel vision creates.",
+      "Write decisions down when possible, even one sentence on paper. The act of writing forces precision and creates a reference that prevents the stress-induced memory distortion that makes people later misremember what they actually decided."
+    ],
+    "relatedGuides": ["psych-001", "psych-003"]
+  },  {
+    "id": "psych-003",
+    "category": "leadership",
+    "title": "Group Leadership in a Crisis",
+    "priority": "advanced",
+    "tags": ["leadership", "group", "crisis", "authority"],
+    "summary": "Establish effective leadership in an improvised group during emergencies, manage conflict, and keep people moving forward.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Establishing Authority",
+        "body": "In a crisis, authority is not conferred by title, age, or seniority — it is earned in real time through demonstrated competence and composure. The person who acts first with visible confidence and specific, correct action draws others. The corollary: the person who hesitates, asks questions without answers, or visibly panics loses the room, regardless of their formal title. In the first minutes of a crisis, people are looking for someone who knows what is happening. Establish authority through action sequence: assess the situation quickly (even 30 seconds of visible, methodical looking around communicates competence). State what you know and what you don't (honesty about uncertainty builds trust; false certainty destroys it when reality diverges). Take one specific visible action that addresses the highest-priority problem. This sequence — assess, state, act — done within the first 2 minutes, establishes you as the decision point for the group."
+      },
+      {
+        "step": 2,
+        "title": "The Initial Address",
+        "body": "When you have established yourself as the acting leader, your first formal address to the group should occur within the first 2 minutes and follow a specific structure. Acknowledge the situation honestly: 'Here is what has happened: [brief factual statement]. This is serious and we are dealing with it.' State what you know and explicitly state what you don't: 'What I know: [facts]. What I don't know yet: [gaps]. I am finding out.' Give one specific, immediate task to every available person: 'Sarah — check on everyone in rooms 1 through 5 and report back to me in 10 minutes. Marcus — find every water source in this building and bring me an inventory. Jenna — you're with me.' Project control through specificity — named tasks, specific deliverables, specific timeframes. This communication structure provides cognitive traction for everyone in the group and transforms passive frightened observers into active contributors within 60 seconds."
+      },
+      {
+        "step": 3,
+        "title": "Task Delegation",
+        "body": "Effective delegation in an improvised crisis group requires assessing competence in real time with limited information. Prioritize: ask directly for relevant experience ('Does anyone here have medical training? Does anyone have a vehicle? Who has been in this building before?'). Self-reported expertise is the fastest initial signal — and it comes with accountability when the person volunteers it. Match task to claimed competence. Critical: close the delegation loop with accountability. A delegated task without accountability is often incomplete. 'Marcus, you have 10 minutes to inventory the water sources — come back to me with what you found whether it's complete or not.' At the checkpoint, acknowledge results (positive or negative) and re-assign as needed. Track all delegated tasks either mentally or on paper — multiple simultaneous delegations without tracking leads to tasks falling between the gaps."
+      },
+      {
+        "step": 4,
+        "title": "Managing Conflict",
+        "body": "Conflict within a crisis group is not a leadership failure — it is predictable, and handling it is part of the job. Conflict arises from: resource scarcity (who gets what, how much), direction disagreement (where should we go, what should we do), and authority contests (why should you decide, not me). Address conflict directly and immediately — unresolved conflict consumes group energy, disrupts coordination, and erodes trust. Protocol for conflict in a crisis: acknowledge the disagreement publicly and briefly ('There's a real disagreement here'). Give both positions a single brief hearing (no extended debate — one exchange each). Make a decision: 'Here's what we're doing and why.' Execute and move. Post-decision, the expectation is compliance even from those who disagreed — disagreement is allowed, defiance is not. Revisit the decision only if new information significantly changes the situation — not because the dissenting party continues to lobby."
+      },
+      {
+        "step": 5,
+        "title": "Consensus vs Command",
+        "body": "Two leadership styles exist on a spectrum: command (one person decides, others execute) and consensus (all parties deliberate, group decides). Neither is universally correct — the context determines which is appropriate. Command is appropriate when: decisions are time-critical, life safety is at stake, the leader has clearly superior information or expertise, or the group is in a state of cognitive overload and needs a decision injected. Consensus is appropriate when: time is available, the decision significantly impacts all group members over the long term, the decision is reversible, or buy-in is more important than speed. Critical errors: using command for low-stakes decisions creates resentment and removes group initiative. Using consensus for time-critical decisions causes dangerous delay. Apply the test: 'What is the cost of the wrong decision here, and how much time do I have?' High cost + low time = command. Lower cost + more time = consensus."
+      },
+      {
+        "step": 6,
+        "title": "After-Action and Leadership Transition",
+        "body": "Once the immediate crisis phase passes, the leadership structure needs to evolve. Single-leader command is appropriate for emergency response but unsustainable and counterproductive in an extended scenario — it causes leader burnout, creates dangerous single-point dependency, and generates resentment. Transition to a council or distributed model when the immediate crisis stabilizes: establish a formal group decision-making process with rotating chair, formalize resource distribution rules, and explicitly distribute authority over different domains (one person owns food inventory, one owns medical, one owns security). Conduct a brief after-action review of the crisis response: what worked, what failed, what was our decision quality, what do we do differently next time. Keep it under 30 minutes — long enough to generate insight, short enough to not exhaust the group. Document decisions and insights where possible."
+      }
+    ],
+    "warnings": [
+      "Authoritarian command leadership produces compliance but eliminates initiative — people stop observing, thinking, and reporting problems on their own, which is catastrophic in a dynamic emergency where the leader cannot perceive everything.",
+      "Losing your composure in front of the group — raised voice, visible panic, emotional outburst — can permanently damage your authority in the group, which then reduces your effectiveness when it matters most."
+    ],
+    "proTips": [
+      "Name people explicitly when assigning tasks — 'John, I need you to…' not 'Someone should…'. Named individuals accept accountability; unnamed groups diffuse it and the task frequently goes undone.",
+      "The first 10 minutes of crisis leadership sets the psychological tone for the entire event that follows — invest disproportionately in composure, clarity, and decisive action in that window.",
+      "Having a pre-established agreement within your household or team about who leads in different scenarios (fire, medical, security) prevents authority contests from consuming time during the emergency itself."
+    ],
+    "relatedGuides": ["psych-001", "psych-002", "psych-004"]
+  },  {
+    "id": "psych-004",
+    "category": "leadership",
+    "title": "Morale and Psychological Endurance",
+    "priority": "advanced",
+    "tags": ["leadership", "psychology", "morale", "endurance"],
+    "summary": "Sustain psychological strength and group morale through extended crisis scenarios.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "The 72-Hour Psychological Wall",
+        "body": "Most people can sustain high-performance, high-alertness functioning for 24–72 hours on the physiological cocktail of adrenaline, cortisol, and urgency that an acute crisis produces. This window also compresses time perception — 48 hours of crisis often feels like 12. After 72 hours, the hormonal response fades, the reality of the situation's duration becomes tangible, exhaustion accumulates, and the grief or loss that was suppressed during the acute phase surfaces. This is the 72-hour psychological wall — the period where the greatest risk of morale collapse, conflict escalation, and dangerous despair occurs. Leaders who understand this wall plan for it: deliberately schedule a group conversation at the 48-72 hour mark to acknowledge the transition from acute crisis to sustained response, reset expectations, and surface and address the emotional weight the group is carrying."
+      },
+      {
+        "step": 2,
+        "title": "Managing Hope",
+        "body": "Hope in a survival context is not optimistic wishful thinking — it is a specific cognitive state comprising two components: a belief that the situation can improve, and an understanding of what actions are available to improve it. Hope without a path forward is fragile and collapses when external rescue fails to arrive. Path-connected hope is resilient. As a leader, you manufacture hope not through reassurance but through action: 'Here is the problem. Here is what we are doing about it. Here is what improvement looks like.' False hope — stating rescue timelines you cannot verify, minimizing genuine dangers — destroys trust when reality contradicts it, and the collapse of false hope is far more demoralizing than the original difficulty. Preferred language: 'I don't know when this ends. Here's what I do know: we have [X days of water], we have [functioning communication], and here's what we're doing today to improve our position.'"
+      },
+      {
+        "step": 3,
+        "title": "Realistic Optimism",
+        "body": "The psychological disposition most predictive of sustained performance under adversity is neither optimism nor pessimism but realistic optimism: an accurate, honest assessment of the difficulty of the current situation combined with a genuine belief in the group's capability to manage it. Distinguish it from: toxic positivity ('Everything will be fine!' — minimizes legitimate concern and erodes credibility); pessimism ('We probably won't make it' — self-fulfilling, destroys initiative); and denial ('This isn't that bad' — prevents accurate assessment and preparation). Realistic optimism sounds like: 'This is genuinely hard. We are missing [X]. We're going to lose [Y] if we can't solve [Z]. Here is what we have going for us: [list genuine assets]. And here is the next thing we're going to do.' The combination of honest difficulty + enumerated capability + specific forward action is the most effective morale formula known in leadership psychology."
+      },
+      {
+        "step": 4,
+        "title": "Small Wins",
+        "body": "Large problems — weeks without power, uncertain rescue timeline, depleted supplies — are psychologically paralyzing because the gap between the current state and the desired state is enormous and the path is unclear. Break large problems into visible daily wins that can be achieved, completed, and celebrated. Examples: 'Today's goal: secure a 3-day water supply.' 'Today's goal: establish contact with the neighbors in units 4 and 5.' 'Today's goal: complete a full inventory of food.' When a small win is achieved, name it explicitly to the group: 'We found 3 gallons of water today. That extends our water supply by 1.5 days. Good work.' The psychology: small wins create evidence that progress is possible, which maintains the belief that larger progress is possible. Track and display wins visibly when you can — a physical tally, a list on paper, a verbal inventory recited at morning and evening check-in."
+      },
+      {
+        "step": 5,
+        "title": "Routine and Predictability",
+        "body": "Anxiety is amplified by unpredictability — the psychological stress of not knowing what happens next compounds the stress of the actual situation. Creating routine and predictable daily structure reduces ambient anxiety by giving the brain a framework of expected events to navigate rather than a constant stream of uncertainty. Structure elements: fixed wake and sleep times, even if the hours are unusual. A morning briefing (5–10 minutes: status update, today's priorities, task assignments). Defined mealtimes, even if meals are small or simple. Regular group check-ins at consistent intervals. Rest periods that are genuinely observed, not just scheduled. Task rotations that give everyone a defined role each day. Children are especially sensitive to routine disruption — giving children age-appropriate tasks within the group structure (not pretend tasks but genuinely useful ones) maintains their sense of capability and reduces their anxiety transmission to adults."
+      },
+      {
+        "step": 6,
+        "title": "Grief and Loss",
+        "body": "In extended crisis scenarios, group members may have experienced or be experiencing loss — of property, of normalcy, of contact with loved ones, potentially of people. Unacknowledged grief does not disappear; it manifests as behavioral problems: aggression, withdrawal, risk-taking, paralysis, conflict with other group members. Acknowledge grief explicitly and create structured space for it. This does not require professional counseling — it requires: naming the loss ('We know Marcus lost contact with his family two days ago and we don't know yet if they're okay. That's real and it's hard'), providing a brief period for expression (end of day, 5–10 minutes where people can speak or not as they choose), and then returning to forward motion ('We're going to keep going because that's what we can do'). The structure — acknowledgment + expression + forward movement — honors the emotion without allowing it to consume the group's capacity to act."
+      }
+    ],
+    "warnings": [
+      "Morale collapse in a survival group is as operationally dangerous as any physical threat — it leads to inaction, poor decisions, conflict, and group separation. Treat it as a priority threat, not a soft concern.",
+      "Never mock or minimize another person's emotional response during a sustained crisis — what looks like overreaction is often the accumulation of multiple unprocessed stressors expressing themselves at once."
+    ],
+    "proTips": [
+      "Stories of human survival under worse conditions — polar expeditions, shipwrecks, prolonged captivity — expand the psychological boundary of what people believe is survivable. Keep a few such stories in your knowledge base and deploy them when the group needs expanded perspective.",
+      "Appropriate humor is one of the most effective morale tools available — it signals that the situation, while serious, has not destroyed the group's ability to find humanity in it. Earn it with real work, then use it.",
+      "A predictable small pleasure at a regular interval — a cup of coffee, a piece of hard candy, a song played on a radio, a few minutes of non-crisis conversation — has a morale impact disproportionate to its cost. Build it into the daily structure deliberately."
+    ],
+    "relatedGuides": ["psych-003", "psych-005"]
+  },  {
+    "id": "psych-005",
+    "category": "leadership",
+    "title": "Sleep Deprivation Management",
+    "priority": "advanced",
+    "tags": ["leadership", "psychology", "sleep", "performance"],
+    "summary": "Manage sleep deprivation in yourself and your group without compromising safety or decision quality.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Performance Degradation Timeline",
+        "body": "Sleep deprivation degrades cognitive performance along a well-documented timeline. 18 hours without sleep: cognitive impairment equivalent to 0.05% blood alcohol content (BAC) — legally impaired for driving in most US states. 24 hours: equivalent to 0.10% BAC, above the legal limit in all US states. Performance on complex tasks degrades by 25–40%. 36 hours: emotional dysregulation begins — irritability, disproportionate emotional responses, impaired empathy. Early perceptual distortions (misidentifying sounds or shadows) begin. 48 hours: significant memory consolidation failure, severe executive function impairment. Visual hallucinations can begin. 72+ hours: psychosis-like symptoms, profound judgment failure, life-threatening decision errors become likely. The critical and counterintuitive finding: severely sleep-deprived individuals dramatically underestimate their own impairment. A person at 36 hours often believes they are functioning normally. Do not rely on self-assessment for sleep-deprived individuals."
+      },
+      {
+        "step": 2,
+        "title": "Sleep Rotation in Groups",
+        "body": "The cardinal rule in any extended crisis scenario: never allow all group members to sleep simultaneously. Establish a watch rotation as a mandatory structure, not a suggestion. Minimum rotation for a group of 4: 2-hour watches (each person sleeps 6 hours in a 8-hour cycle if all 4 participate). For groups of 3: consider 90-minute watches for a 6-hour cycle. Watch rotation rules: the on-watch person has one job — active alertness. Routine tasks, phone scrolling, or repetitive tasks that allow mental drift are not watch activities. Active watch means: periodic perimeter or building checks at irregular intervals, listening monitoring, note-taking of anything unusual, maintaining the ability to immediately wake the sleeping group. The person coming off watch should verbally brief the incoming watch person on anything observed before sleeping. This hand-off prevents critical information from being lost between rotations."
+      },
+      {
+        "step": 3,
+        "title": "Strategic Sleep Prioritization",
+        "body": "When sleep is limited and must be allocated, it should not be distributed randomly. Prioritize sleep for: the primary decision-maker first — impaired judgment at the leadership level cascades to the entire group. Medical personnel second — fatigue errors in medical care are particularly consequential. Then rotate based on physical task requirements for the next cycle. If total sleep available is 4 hours, splitting into two 2-hour blocks (with a brief activity period between) is more restorative than a single 4-hour block for some people — it reduces sleep inertia (the grogginess from deep-sleep stage interruption) if the 4-hour block coincides with deep sleep. In practice: sleep in the longest uninterrupted blocks possible within watch rotation constraints. Even 90 minutes of sleep — which contains one full sleep cycle — provides meaningful cognitive recovery compared to zero."
+      },
+      {
+        "step": 4,
+        "title": "Micro-Sleep Recognition",
+        "body": "Micro-sleep events — involuntary sleep episodes lasting 2–30 seconds — begin occurring when an individual is severely sleep-deprived. They happen without warning and without the individual's awareness. Micro-sleeps during critical tasks cause life-threatening lapses: a person driving, on watch, or managing a fire for cooking can micro-sleep mid-task without any subjective awareness of the gap. Precursor signs to watch for in yourself and others: eyes blinking more slowly than normal, eyes losing focus and going glassy, head nodding or dropping and correcting, blank staring rather than active looking, slow verbal response or trailing off mid-sentence, forgetting what was just said. If you are experiencing these precursors, you must stop critical activities immediately. If you observe these in another person, relieve them immediately — do not leave them in a safety-sensitive position."
+      },
+      {
+        "step": 5,
+        "title": "Caffeine Management",
+        "body": "Caffeine is a cognitive performance aid, not a substitute for sleep. It delays the subjective feeling of sleepiness by blocking adenosine receptors, but does not restore the cognitive functions that sleep deprivation degrades. Critically: caffeine masks the subjective experience of impairment while the impairment continues. A caffeine-sustained person can feel alert while performing at 70% capacity. Used correctly, caffeine extends functional performance. Used incorrectly, it creates overconfident impaired people. Strategic caffeine use: 200mg (approximately 1–2 cups of coffee or 1 strong energy drink) taken at the natural low points of the circadian rhythm (0200–0600 and 1300–1500) provides maximum impact. Reserve caffeine for critical decision and action windows rather than continuous use. Caffeine tolerance builds rapidly with sustained use — if possible, cycle off for 3–5 days before a predicted high-demand period to restore sensitivity."
+      },
+      {
+        "step": 6,
+        "title": "Recovery",
+        "body": "After extended sleep deprivation, recovery is not instantaneous even with unlimited sleep opportunity. A single 8-hour recovery sleep restores much (not all) of physical performance and basic cognitive function. Two full-night recovery periods restore near-complete cognitive function for most people. Emotional regulation and social judgment are the slowest to recover — expect irritability, poor social calibration, and overreaction to minor stressors to persist for 24–48 hours after physical performance has largely recovered. In a group context: lower the threshold for conflict during post-deprivation recovery. Provide extra space for irritability, slow processing, and emotional responses that seem disproportionate. Avoid irreversible major decisions in the first 24 hours of recovery — cognitive biases are significantly elevated. Schedule significant decisions for 48+ hours post-deprivation whenever the situation allows."
+      }
+    ],
+    "warnings": [
+      "The most dangerous sleep-deprived person is the one who insists they are fine and is confident in their own judgment — impaired self-assessment is a core symptom of sleep deprivation.",
+      "Do not allow severely sleep-deprived individuals (36+ hours awake) to perform safety-sensitive tasks alone: driving, fire management, medical care, armed watch, or primary decision-making.",
+      "Micro-sleeps cannot be prevented through willpower — if precursor signs are present, the only reliable intervention is actual sleep or immediate removal from safety-critical activities."
+    ],
+    "proTips": [
+      "A strategic 20-minute nap (set an alarm before entering deep sleep — typically around 20–25 minutes after lying down) provides significant cognitive restoration without causing sleep inertia from a deep-sleep stage interruption.",
+      "A consistent pre-sleep ritual sequence — same 3–5 actions every time before sleeping — trains the brain to initiate sleep onset faster, which is valuable when sleep windows are short and every minute of sleep counts.",
+      "Brief exposure to bright light (daylight or a bright LED) at the start of a watch period suppresses melatonin and extends alertness for 2–3 hours — a natural, zero-cost performance aid for night watch assignments."
+    ],
+    "relatedGuides": ["psych-004", "psych-002"]
+  }
+]

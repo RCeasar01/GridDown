@@ -32,6 +32,10 @@ export function categoryIcon(category: string): string {
     disaster: '⚠️',
     vehicle: '🚗',
     homesteading: '🌾',
+    power: '⚡',
+    urban: '🏙️',
+    leadership: '🎖️',
+    children: '👧',
   };
   return icons[category] ?? '📋';
 }
@@ -50,6 +54,10 @@ export function categoryDescription(category: string): string {
     disaster: 'Specific response protocols for natural and man-made disasters.',
     vehicle: 'Field repairs, fuel, generators, and mechanical troubleshooting.',
     homesteading: 'Chickens, crops, food preservation, and water collection.',
+    power: 'Solar, batteries, generators, and off-grid power distribution.',
+    urban: 'Surviving in cities when infrastructure and services collapse.',
+    leadership: 'Crisis leadership, psychology, and group decision-making.',
+    children: 'Age-appropriate safety skills for kids and parents.',
   };
   return desc[category] ?? 'Survival knowledge for grid-down scenarios.';
 }

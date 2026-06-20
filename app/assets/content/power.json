@@ -1,0 +1,305 @@
+[
+  {
+    "id": "power-001",
+    "category": "power",
+    "title": "Solar Power Basics for Grid-Down",
+    "priority": "advanced",
+    "tags": ["power", "solar", "energy", "grid-down"],
+    "summary": "Size, wire, and operate a basic solar power system to survive extended grid outages.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understanding Solar Basics",
+        "body": "Solar panels generate DC (direct current) electricity from sunlight. That raw DC power must pass through a charge controller before reaching your battery bank, and then through an inverter to produce usable AC power for standard appliances. Rule of thumb: a 100W solar panel generates approximately 30–40 amp-hours (Ah) per day in full sun. This figure drops sharply on cloudy days or when panels are shaded or poorly angled. Understanding the flow — panel → charge controller → battery → inverter → load — is the foundation of every solar system."
+      },
+      {
+        "step": 2,
+        "title": "Sizing Your System",
+        "body": "Calculate your daily watt-hour (Wh) consumption by listing each device, its wattage, and hours of daily use. Examples: LED lights (5W × 6 hrs = 30Wh), phone charger (15W × 2 hrs = 30Wh), laptop (45W × 4 hrs = 180Wh). Add all Wh values, then multiply the total by 1.25 as a safety factor for inefficiency and weather variation. This gives your minimum daily solar production target. Divide by average peak sun hours in your region (typically 4–6 hours in the continental US) to determine the total panel wattage required."
+      },
+      {
+        "step": 3,
+        "title": "Charge Controllers — PWM vs MPPT",
+        "body": "The charge controller sits between your solar panels and battery bank, preventing overcharge and managing current flow. Two main types: PWM (Pulse Width Modulation) — simple, cheap, but only 70–75% efficient; best for small 12V systems where panel voltage closely matches battery voltage. MPPT (Maximum Power Point Tracking) — more complex, 93–97% efficient, extracts 25–30% more energy from the same panels, required for larger systems and whenever panel voltage significantly exceeds battery voltage. For any system above 200W or using 24V architecture, MPPT is the correct choice. Size your controller by total panel amperage: a 400W 12V panel array produces ~33A, requiring a 40A controller minimum."
+      },
+      {
+        "step": 4,
+        "title": "Battery Banks — Types and Sizing",
+        "body": "Battery capacity is measured in amp-hours (Ah). Total stored energy in watt-hours = Ah × voltage. Common chemistries: Flooded lead-acid (cheapest, requires venting and monthly maintenance, ~300–500 cycles to 50% depth of discharge). AGM (sealed, maintenance-free, handles vibration well, moderate cost, similar cycle life to flooded). Lithium LiFePO4 (most expensive upfront, lightest, 2000–3000+ cycles, can discharge to 80% without damage, no maintenance). To size your bank: take your daily Wh consumption, divide by battery voltage, and multiply by 2 (for lead-acid, to stay above 50% depth of discharge) or by 1.25 (for lithium). A 200Wh daily need on a 12V system requires at minimum a 100Ah lead-acid bank or 50Ah lithium bank."
+      },
+      {
+        "step": 5,
+        "title": "Inverters and Load Distribution",
+        "body": "An inverter converts DC battery power to 120V AC. Two types: Modified sine wave — cheaper, produces a stepped waveform approximation of AC. Damages or degrades variable-speed motors, medical equipment (CPAP), sensitive audio gear, and some LED dimmers. Pure sine wave — output is identical to utility power; safe for all devices. Always choose pure sine for medical equipment and electronics. Size your inverter to the largest single load or combined load you'll run, plus 20% margin. Distribute loads deliberately: prioritize refrigerator, lighting, and communication. Use a power strip with surge protector between inverter and sensitive electronics."
+      },
+      {
+        "step": 6,
+        "title": "Wiring and Safety",
+        "body": "Proper wiring is the difference between a functional system and a fire. Key rules: install an appropriately-rated fuse within 12 inches of the battery on every positive cable run. Use the correct AWG wire gauge — undersized wire causes voltage drop and heat. Quick reference: 12V system, 20A load = 10 AWG minimum for runs under 10 feet; 30A load = 8 AWG; 50A load = 6 AWG. Use ring terminal crimps (not tape-wrapped bare wire) on all battery connections. Keep your battery bank in a ventilated area — lead-acid batteries off-gas hydrogen during charging. Label all conductors with polarity and circuit. All connections should be snug, corrosion-free, and periodically inspected."
+      }
+    ],
+    "warnings": [
+      "Never connect solar panels directly to a battery without a charge controller — unregulated charging destroys batteries and can cause fire.",
+      "Lead-acid batteries emit hydrogen gas during charging — never operate near open flame, sparks, or in sealed spaces.",
+      "MC4 connectors on solar panels carry live voltage any time panels are exposed to light — never make or break bare wire connections in daylight."
+    ],
+    "proTips": [
+      "A single 100W panel + 100Ah AGM battery + 400W pure sine inverter is a viable baseline survival power system buildable for $300–$400.",
+      "A 45W foldable panel can charge a battery bank through a vehicle cigarette lighter/USB charging port while you drive or shelter.",
+      "South-facing panels tilted at an angle equal to your geographic latitude capture maximum annual solar energy year-round."
+    ],
+    "relatedGuides": ["power-002", "power-005", "power-006"]
+  },  {
+    "id": "power-002",
+    "category": "power",
+    "title": "Deep-Cycle Battery Banks — Setup and Maintenance",
+    "priority": "advanced",
+    "tags": ["power", "batteries", "energy-storage"],
+    "summary": "Select, configure, and maintain deep-cycle battery banks for multi-day off-grid power.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Battery Chemistry Comparison",
+        "body": "Three main chemistries dominate off-grid storage. Flooded lead-acid: lowest upfront cost ($80–$150 per 100Ah), requires monthly electrolyte checks, venting to prevent hydrogen buildup, 300–500 cycles at 50% depth of discharge (DoD). AGM (absorbed glass mat): sealed, no maintenance, handles vibration well, moderate cost ($150–$250 per 100Ah), similar cycle life to flooded but no venting required. Lithium LiFePO4: most expensive ($400–$800 per 100Ah), lightest weight (1/3 the weight of lead-acid equivalent), 2000–3000+ cycles, can safely discharge to 80% DoD versus 50% for lead-acid, no maintenance, built-in BMS. For serious grid-down use, lithium pays for itself over time; for budget-constrained situations, flooded lead-acid and AGM remain practical."
+      },
+      {
+        "step": 2,
+        "title": "12V vs 24V System Architecture",
+        "body": "12V systems are simpler to integrate with vehicles, standard RV equipment, and consumer devices. They work well for systems up to about 1,000W. 24V systems are more efficient for larger loads because power (watts) equals voltage × current — at 24V, you carry the same power at half the current, which means smaller wire gauge requirements, less resistive loss, and smaller breakers. For systems above 1,000W or with long wire runs, 24V is the preferred architecture. A 24V system requires batteries connected in series (two 12V batteries in series = 24V). Most MPPT charge controllers and inverters are available in both 12V and 24V configurations — choose your system voltage before purchasing any component."
+      },
+      {
+        "step": 3,
+        "title": "Series vs Parallel Wiring",
+        "body": "Series wiring connects positive terminal of one battery to negative terminal of the next, which adds voltage while keeping capacity the same. Two 12V 100Ah batteries in series = 24V 100Ah (2,400Wh total). Parallel wiring connects all positive terminals together and all negative terminals together, which doubles capacity while keeping voltage the same. Two 12V 100Ah batteries in parallel = 12V 200Ah (2,400Wh total — same energy, different configuration). Series-parallel combines both: four 12V 100Ah batteries wired as two parallel pairs connected in series = 24V 200Ah (4,800Wh). Critical rule: all batteries in a bank must be identical chemistry, identical brand and model, and ideally from the same production batch. Mixing old and new batteries forces new batteries to compensate for old ones, degrading the whole bank."
+      },
+      {
+        "step": 4,
+        "title": "State of Charge Monitoring",
+        "body": "Knowing your battery's state of charge (SoC) is essential for preventing over-discharge damage. For lead-acid, voltage is a reasonable proxy after a 30-minute rest period (no charging or discharging): 12.7V = ~100% SoC; 12.5V = ~90%; 12.4V = ~75%; 12.2V = ~50% (stop here for flooded/AGM); 12.0V = ~25% (critically low, potential damage); 11.8V or below = severely discharged. A basic digital multimeter can measure this. For lithium, a battery management system (BMS) with a voltage/SoC display or a Bluetooth-enabled battery monitor (Victron BMV-712 or SmartShunt) gives accurate real-time tracking including amp-hours consumed and remaining capacity — far superior to voltage-only estimation."
+      },
+      {
+        "step": 5,
+        "title": "Lead-Acid Maintenance",
+        "body": "Flooded lead-acid batteries require routine maintenance that AGM and lithium do not. Monthly: inspect electrolyte level in each cell (cells are visible under removable caps). Level should be just above the plates — top off with distilled water only (never tap water — mineral content damages cells). Every 3 months: perform an equalization charge — a controlled overcharge at slightly elevated voltage (15.5V for 12V bank) that stirs the electrolyte and dissolves sulfation. Terminals: clean any white/blue corrosion with a paste of baking soda and water (neutralizes acid), rinse, dry, and apply terminal grease. Inspect cables for cracking or corrosion. Record each maintenance event with date."
+      },
+      {
+        "step": 6,
+        "title": "Maximizing Battery Lifespan",
+        "body": "Depth of discharge (DoD) is the primary determinant of battery cycle life. A 100Ah flooded lead-acid battery cycled to 80% DoD (down to 20% SoC) may yield only 200 cycles. The same battery cycled to 50% DoD yields 500+ cycles. At 30% DoD, it may yield 1,200+ cycles. Every 10% reduction in average DoD roughly doubles cycle life. In practice: monitor SoC constantly, recharge before reaching your DoD limit, and size your bank large enough that typical daily use doesn't require deep cycling. Temperature also matters: batteries lose capacity in cold and degrade faster in heat. Ideal operating temperature for all chemistries is 50–77°F."
+      }
+    ],
+    "warnings": [
+      "Never mix old and new batteries in the same bank — weak cells force strong cells to overwork, degrading the entire bank rapidly.",
+      "Never mix different battery chemistries (e.g., AGM and flooded lead-acid) in the same bank.",
+      "Lithium LiFePO4 batteries without a BMS can experience thermal runaway if overcharged or over-discharged — a BMS is non-optional.",
+      "Sulfated batteries (white crystalline crust on terminals or inside cells) may partially recover with slow equalization charging but are often permanently damaged."
+    ],
+    "proTips": [
+      "Four 6V golf cart batteries (L16 or T-105 type) wired in series-parallel provide 12V at 220Ah for roughly $300–$400 — one of the best cost-per-Wh values in lead-acid storage.",
+      "Batteries stored in cold (below 32°F) self-discharge more slowly — ideal storage temperature is 50–60°F.",
+      "A dedicated battery monitor (Victron BMV-712 or similar) that tracks amp-hours consumed is worth every dollar — it prevents over-discharge damage that destroys batteries in weeks."
+    ],
+    "relatedGuides": ["power-001", "power-005"]
+  },  {
+    "id": "power-003",
+    "category": "power",
+    "title": "Generator Selection and Safe Operation",
+    "priority": "critical",
+    "tags": ["power", "generator", "safety", "fuel"],
+    "summary": "Select the right generator size, operate it safely, and avoid the most common deadly mistake.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Sizing Your Generator",
+        "body": "Calculate the running watts required for all devices you need simultaneously, then add surge capacity for motor-driven appliances — motors require 2–3× their running wattage to start. Common loads: standard refrigerator (700W running, 2,100W surge), well pump (1,000W running, 3,000W surge), window AC unit (1,200W running, 3,600W surge), sump pump (800W running, 1,500W surge), 60W equivalent LED (10W running, minimal surge). For a household running essentials — fridge, lights, phone charging, and a window AC — a 3,500–5,000W generator covers typical needs. Match the generator's surge/peak wattage to your highest single-device surge, not just running total."
+      },
+      {
+        "step": 2,
+        "title": "Generator Types",
+        "body": "Conventional portable generators: least expensive ($400–$800 for 3,500–5,500W), loud (70–85 dB), fuel-hungry even at partial load, produce less-clean power. Inverter generators: more expensive ($800–$2,000 for 2,000–4,500W), significantly quieter (50–65 dB), use 20–40% less fuel through automatic throttling, produce cleaner power (lower THD) that is safe for sensitive electronics and medical equipment. Dual-fuel generators run on gasoline or propane — valuable for fuel flexibility. Standby generators (whole-home): permanently installed, run on natural gas or propane, start automatically via transfer switch, most expensive ($3,000–$15,000 installed), but zero setup time when the grid fails. For grid-down preparedness, an inverter generator is the best all-around choice for most households."
+      },
+      {
+        "step": 3,
+        "title": "Carbon Monoxide Safety — The Deadly Mistake",
+        "body": "Carbon monoxide (CO) is the most lethal generator hazard. CO is colorless, odorless, and tasteless — you will not detect it before it incapacitates you. At 400 ppm, CO causes headaches and dizziness within 2–3 hours. At 1,600 ppm, incapacitation within 2 hours and death within 3 hours. Generators produce CO at levels exceeding 10,000 ppm in engine exhaust. Absolute rules: generators must be run OUTDOORS ONLY, at least 20 feet from any door, window, or vent opening, with exhaust directed away from the structure. NEVER run in a garage — even with the door fully open, CO accumulates to lethal concentrations within minutes. Install CO detectors on every level of your home before you need a generator."
+      },
+      {
+        "step": 4,
+        "title": "Fuel Management",
+        "body": "Fuel consumption depends on generator size and load level. A 3,500W generator at 50% load consumes approximately 0.5–0.7 gallons per hour. At 75% load, 0.7–1.0 gallons per hour. A 5-gallon tank at 75% load = 4–6 hours of runtime. Calculate your fuel reserve by multiplying daily runtime hours by fuel consumption rate, then multiplying by your target outage duration. For a 7-day outage running 8 hours/day at 0.75 GPH = 42 gallons minimum reserve. Gasoline must be stored with fuel stabilizer (STA-BIL or equivalent). Only refuel when the engine is completely COOL — gasoline contacting a hot engine or exhaust can ignite instantly. Always turn off the generator and wait 10–15 minutes before refueling."
+      },
+      {
+        "step": 5,
+        "title": "Load Shedding and Power Distribution",
+        "body": "Running a generator continuously at full rated capacity causes accelerated wear and elevated fuel consumption. Best practice: shed non-critical loads and run the generator at 50–75% capacity. Rotate high-draw appliances: run the AC for 2 hours to cool the house, then switch to refrigerator, well pump, etc. Use a surge-protected power strip between the generator's outlets and sensitive electronics. Avoid extension cord daisy-chaining — each cord adds resistance and voltage drop. Prefer 12 AWG extension cords (rated 20A) over the ubiquitous 16 AWG household cords (rated 13A) for any load above 1,000W."
+      },
+      {
+        "step": 6,
+        "title": "Maintenance Schedule",
+        "body": "A generator that won't start is useless in an emergency. Monthly: run the engine under load for 30 minutes (connects fresh fuel through the carburetor, charges starter battery, identifies problems before you need it). First 8 hours of use: change engine oil (break-in period). Every 50 hours of operation: change oil, check air filter, inspect spark plug. Annually: replace spark plug, clean/replace air filter, inspect fuel lines for cracking, test battery if electric start. Before any extended storage (over 30 days): run engine until fuel-starved (drains carburetor to prevent gum/varnish buildup) OR add fuel stabilizer to full tank and run for 10 minutes to distribute through system. Log all maintenance with dates and hours."
+      }
+    ],
+    "warnings": [
+      "CO KILLS. Running a generator indoors — including in garages with open doors — causes hundreds of deaths annually in the US. This rule has no exceptions.",
+      "Backfeeding a generator to the utility grid through an improper hookup is illegal, potentially fatal to utility linemen, and can destroy your generator. Use a proper transfer switch.",
+      "Never refuel a running or recently-run hot generator — gasoline contacts hot exhaust components and can ignite immediately.",
+      "Generators at night or at idle attract attention during civil disturbances — consider acoustic shielding or operation timing to reduce your profile."
+    ],
+    "proTips": [
+      "A transfer switch ($200–$500 installed by an electrician) is the only safe way to connect a generator to your home electrical panel — it physically disconnects from the grid before connecting to generator power.",
+      "Propane-fueled generators store fuel indefinitely versus gasoline (1–2 year shelf life with stabilizer) — a significant advantage for long-term preparedness.",
+      "The Honda EU2200i and Yamaha EF2000iS are the benchmark inverter generators for quiet, fuel-efficient, reliable emergency power — used extensively by emergency management professionals."
+    ],
+    "relatedGuides": ["power-004", "power-005"]
+  },  {
+    "id": "power-004",
+    "category": "power",
+    "title": "Fuel Storage — Safety and Shelf Life",
+    "priority": "advanced",
+    "tags": ["power", "fuel", "storage", "safety"],
+    "summary": "Store fuel types safely and legally for extended grid-down scenarios.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Gasoline Shelf Life",
+        "body": "Untreated automotive gasoline begins degrading within 3–6 months. The primary culprits are oxidation and ethanol content. Modern pump gasoline in the US is typically E10 (10% ethanol blend), which is hygroscopic — it absorbs atmospheric moisture, accelerating phase separation and corrosion of fuel system components. Ethanol-free gasoline (available at many marinas, small airports, and some dedicated fueling stations) stores significantly longer — 12–18 months untreated. Fuel stabilizer (STA-BIL 360, PRI-G) added at the correct ratio extends E10 gasoline to 12–24 months. Store fuel in opaque containers away from temperature swings, which accelerate degradation. Label every container with the fill date."
+      },
+      {
+        "step": 2,
+        "title": "Safe Gasoline Storage",
+        "body": "Use only approved containers: red plastic gasoline cans (polyethylene, CARB/EPA compliant) or metal jerry cans (NATO-style steel fuel cans). Never use water jugs, milk jugs, or any container not designed for fuel — they off-gas through the container walls, are structurally weak, and lack proper venting. Maximum capacity per container: 5 gallons plastic, 20L (5.3 gallons) for NATO metal cans. Store in a detached shed, garage, or dedicated outdoor fuel locker — not in your home or basement. Keep away from water heaters, furnaces, electrical panels, and any ignition source. Typical residential legal storage limit is 25 gallons — check local fire codes. Store on a cool, ventilated surface. Never stack fuel cans."
+      },
+      {
+        "step": 3,
+        "title": "Diesel Fuel Storage",
+        "body": "Diesel is substantially more stable than gasoline. Untreated diesel stores 6–12 months without significant degradation. With a quality diesel stabilizer (PRI-D, Sta-Bil Diesel), shelf life extends to 24+ months. Diesel has a flash point of 125–180°F versus gasoline's −45°F, making it significantly safer to store and handle. No explosion risk from vapor at room temperature. Primary long-term storage threat for diesel is microbial growth — bacteria and fungi thrive at the water/diesel interface in storage tanks. A diesel biocide (Biobor JF) added at fill prevents this. Diesel is the preferred fuel for serious long-term storage and for anyone running diesel generators, tractors, or vehicles."
+      },
+      {
+        "step": 4,
+        "title": "Propane Storage",
+        "body": "Propane is the safest fuel to store for longevity — it has an indefinite shelf life with no degradation. It is stored as a pressurized liquid in steel cylinders. Store all propane cylinders upright, outdoors or in a detached ventilated structure. Critical point: propane vapor is 1.5× heavier than air and settles at floor level — a leaking propane cylinder in a garage or basement creates an explosive layer at ground level that can be ignited by a furnace pilot light, water heater, or even a light switch. Always store propane outdoors. 20 lb cylinders (standard BBQ size) hold approximately 4.6 gallons of propane. Inspect cylinders annually for rust, valve damage, and OPD (overfill protection device) functionality."
+      },
+      {
+        "step": 5,
+        "title": "Rotation Schedule",
+        "body": "All fuel storage requires a FIFO (first in, first out) rotation schedule to prevent degradation buildup. Establish a rotation calendar: for gasoline, rotate every 6–12 months (transfer stored fuel to your vehicle, refill containers with fresh stabilized gas). For diesel, rotate every 12–24 months. Keep a written fuel log attached to or stored with your containers listing: fuel type, fill date, stabilizer added (type and amount), and rotation/disposal date. The simplest system: date labels on every container in large permanent marker. Rotate one container at a time rather than all at once to ensure continuity of supply. Dispose of degraded fuel at a local hazardous waste collection site — never pour it down drains or on the ground."
+      },
+      {
+        "step": 6,
+        "title": "Fire Safety and Code Compliance",
+        "body": "Keep a minimum 5 lb ABC dry chemical or CO2 fire extinguisher mounted within reach of your fuel storage area. Never store fuel near the home's main electrical panel, water heater, furnace, dryer, or any appliance with a pilot light. Ground fuel containers when transferring fuel to prevent static discharge ignition — metal-to-metal contact between container and receiving vessel before opening either container. Check with your local fire marshal or fire code for legal storage limits — most jurisdictions allow 25 gallons of flammable liquid (gasoline) and 60 gallons of combustible liquid (diesel) in residential settings with some allowing more in approved storage cabinets."
+      }
+    ],
+    "warnings": [
+      "Gasoline vapors are heavier than air and pool at floor level — explosive concentrations form invisibly in enclosed spaces with even small leaks.",
+      "Never store fuel in non-approved containers such as water jugs or milk jugs — they are not designed for fuel, off-gas through walls, and are a fire hazard.",
+      "If you smell propane, evacuate immediately and call emergency services — do not use any switches, lighters, or electronics inside the structure."
+    ],
+    "proTips": [
+      "NATO-spec German-design jerry cans (Wavian brand) seal significantly better and resist vapor permeation better than standard US plastic fuel cans — the premium cost is justified for serious storage.",
+      "100LL aviation gasoline (avgas), available at small airports, is ethanol-free and stores longer than automotive gasoline, though it costs more and is not labeled for automotive use.",
+      "A 50-gallon diesel drum with a hand-pump bung is the most cost-effective high-volume fuel storage solution for serious preparedness — stores more, requires fewer containers to manage."
+    ],
+    "relatedGuides": ["power-003", "power-001"]
+  },  {
+    "id": "power-005",
+    "category": "power",
+    "title": "Inverters and Off-Grid Power Distribution",
+    "priority": "advanced",
+    "tags": ["power", "inverter", "distribution"],
+    "summary": "Select the right inverter type, size it properly, and distribute off-grid power safely.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pure Sine vs Modified Sine Wave",
+        "body": "Pure sine wave inverters produce output that is electrically identical to utility grid power — a smooth sinusoidal waveform. Modified sine wave (MSW) inverters produce a stepped square wave approximation that carries the right average voltage but has significantly more harmonic distortion. Devices that are damaged or degraded by modified sine wave output: variable-speed motor drives (HVAC, some appliances), medical equipment including CPAP and oxygen concentrators, uninterruptible power supplies (UPS devices), sensitive audio equipment, and some modern LED driver circuits. Devices generally safe on modified sine: incandescent and basic LED bulbs, simple resistive heating elements, basic phone chargers, and laptop power bricks (though some run hotter). When in doubt and budget allows, use pure sine — it is compatible with all loads and eliminates the risk of silent equipment damage."
+      },
+      {
+        "step": 2,
+        "title": "Sizing Your Inverter",
+        "body": "Inverter continuous wattage rating must exceed your peak combined AC load with margin. Add all appliances you may run simultaneously, then add 20% safety margin. Account for inverter efficiency: inverters are 85–95% efficient, meaning a 1,000W output load actually draws 1,050–1,175W from the battery bank. Inverters also have a surge/peak rating (typically 2× continuous rating) for motor startup loads — ensure this exceeds your highest single-device surge requirement. Common sizing: for a home office setup (laptop, lights, router, phone charging) a 600–1,000W inverter suffices. For a refrigerator + lights + fan, a 1,500–2,000W inverter. For whole-room AC or power tools, 3,000W+. Undersized inverters overload, overheat, and trip their thermal protection — select one size up from your calculated need."
+      },
+      {
+        "step": 3,
+        "title": "Battery-to-Inverter Wiring",
+        "body": "High-current DC wiring between the battery bank and inverter is where most installation errors occur. The wire must be appropriately gauged for the current load. On a 12V system: 1,000W load draws ~83A; 1,500W load draws ~125A; 2,000W load draws ~167A. At 125A, a minimum of 2/0 AWG wire is required for runs under 4 feet — 3/0 AWG for runs up to 8 feet. Keep battery-to-inverter cables as short as possible (under 6 feet ideally) to minimize resistive losses. Install an ANL or MIDI fuse within 18 inches of the battery positive terminal — this is the critical safety fuse that prevents cable fires in a short circuit event. All connections must be crimped ring terminals, properly torqued, and coated with anti-oxidant compound."
+      },
+      {
+        "step": 4,
+        "title": "Load Prioritization",
+        "body": "In a grid-down scenario, treat your inverter output as a limited resource. Categorize all loads before connecting anything: Critical loads (medical equipment, communication devices, emergency lighting) — always powered. Important loads (refrigerator/freezer for food preservation, phone charging, fans in heat emergencies) — powered during available capacity. Non-essential loads (television, entertainment, non-emergency appliances) — powered only when battery bank is full and solar/generator is actively charging. Create a physical load list taped near your inverter showing what's connected to each outlet, wattage, and priority. During low-battery periods, disconnect non-essential loads first, important loads second, and never sacrifice critical loads."
+      },
+      {
+        "step": 5,
+        "title": "Extension Cord Safety",
+        "body": "Extension cords are a frequent source of voltage drop and fire risk in improvised power setups. Two fundamental rules: never daisy-chain extension cords (cord-to-cord connections increase resistance and reduce the fire rating), and match cord gauge to load. A 16 AWG extension cord (common household type) is rated for 13A / approximately 1,500W at 120V. Running a 1,200W load through 50 feet of 16 AWG wire causes significant voltage drop and heat. For loads above 1,000W or cord runs over 25 feet, use 12 AWG (20A rated) cords. Label your cords: yellow = 12 AWG heavy duty, white/brown = 16 AWG light duty. Inspect all cords before use — cracked insulation on an inverter-powered cord in a survival scenario is a fire waiting to happen."
+      },
+      {
+        "step": 6,
+        "title": "Distribution Panel",
+        "body": "A small sub-panel with circuit breakers allows organized, safe distribution of inverter power to multiple loads. For a permanent or semi-permanent setup, a 6-space AC sub-panel ($30–$60) with individual breakers for each circuit provides overload protection at the load level, not just at the inverter. Pre-wiring critical circuits to a transfer switch allows instant switchover without running extension cords during an emergency. For a portable setup, a power distribution unit (PDU) with individual breakers per outlet serves the same function. The goal is that each circuit can be individually tripped and reset, rather than having a single inverter overload trip that kills all power simultaneously."
+      }
+    ],
+    "warnings": [
+      "On a 12V system, a 1,500W inverter draws 125+ amps — any undersized wire, loose connection, or missing fuse in that circuit is a serious fire hazard.",
+      "Modified sine wave inverters can silently damage sensitive equipment over weeks or months rather than causing immediate failure — the damage accumulates undetected.",
+      "Never mount an inverter in a sealed or enclosed space — inverters produce significant heat under load and require airflow for cooling."
+    ],
+    "proTips": [
+      "A quality UPS (uninterruptible power supply) that accepts external battery pack connections provides instant automatic switchover with zero setup time during a power outage.",
+      "24V or 48V battery systems are dramatically more efficient for large inverters — at 48V, a 2,400W load draws only 50A versus 200A at 12V, allowing much smaller and cheaper wiring.",
+      "A Victron SmartShunt or similar Bluetooth battery monitor lets you track real-time energy flow and remaining capacity from your phone — essential for managing a solar + battery system intelligently."
+    ],
+    "relatedGuides": ["power-001", "power-002", "power-003"]
+  },  {
+    "id": "power-006",
+    "category": "power",
+    "title": "Hand-Crank and Portable Emergency Power",
+    "priority": "beginner",
+    "tags": ["power", "emergency", "portable", "low-tech"],
+    "summary": "Practical guide to hand-crank radios, solar chargers, and power banks for emergency use.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Hand-Crank NOAA Weather Radios",
+        "body": "The hand-crank NOAA weather radio is the minimum viable emergency power and communication device — every household should own one. Key features to look for: NOAA weather alert reception (automatically triggers alarm for severe weather alerts in your area), AM/FM radio bands, USB phone charging output port, built-in LED flashlight, and a solar panel for supplemental charging. Reputable options include the Midland ER310, Kaito KA500, and RunningSnail Emergency Radio. Realistic expectations: the typical hand-crank generator produces 0.5–1W of power. One minute of vigorous cranking yields approximately 20–40 minutes of radio playback. This is not a primary power source — it is a backup to the backup, sufficient to receive emergency broadcasts and make a few phone calls when all other power is exhausted."
+      },
+      {
+        "step": 2,
+        "title": "Power Banks — Selection and Capacity",
+        "body": "Power banks are rated in milliamp-hours (mAh). To translate to phone charges: a modern smartphone has a 3,000–5,000 mAh battery. A 10,000 mAh power bank provides approximately 2–3 full phone charges accounting for conversion losses (~80% efficiency). A 20,000 mAh bank provides 4–6 charges. For 72-hour emergency use for two people, a 20,000 mAh bank minimum. Features to prioritize: USB-C Power Delivery (PD) port for fast charging compatibility with modern devices; USB-A Quick Charge 3.0 for older devices; pass-through charging capability (charge the bank while simultaneously charging a device); solar input port for field recharging. Reputable brands: Anker, UGREEN, Nitecore, Goal Zero. Avoid unbranded units — actual capacity is often 20–30% of the labeled value."
+      },
+      {
+        "step": 3,
+        "title": "Portable Solar Chargers",
+        "body": "Foldable portable solar panels in the 15–25W range connect to power banks or directly to devices via USB. They are a supplemental charging source, not a primary one. Performance in ideal conditions: a 15W panel in direct, unobstructed summer sun charges a 10,000 mAh power bank in 8–12 hours. Cloud cover reduces output by 50–80% — a fully overcast day may produce so little power that self-discharge of the power bank exceeds input. Practical approach: maximize panel exposure by angling toward the sun throughout the day, keep panels clean (dust and water spots reduce output significantly), and use them to top off banks during daylight rather than expecting rapid charging. Quality matters: look for panels specifying actual cell efficiency (20%+ is good) not just wattage claims."
+      },
+      {
+        "step": 4,
+        "title": "Setting Correct Expectations",
+        "body": "Hand-crank, small solar, and power banks are communication and lighting tools — not survival power systems. They will maintain: phone communication (calls, texts, basic apps), radio reception for emergency broadcasts, LED lighting for orientation and safety, and the ability to charge a secondary device (radio, headlamp). They will not power: refrigerators, microwaves, power tools, fans, CPAP machines, or any significant AC appliance. Understanding this hierarchy prevents the most common emergency power mistake: draining your power bank running a device that kills your ability to communicate. Protect communication devices first, lighting second, everything else is secondary."
+      },
+      {
+        "step": 5,
+        "title": "Cold Weather Performance",
+        "body": "Lithium-ion batteries — used in virtually all power banks — lose significant capacity in cold temperatures. Performance degradation: below 32°F (0°C), expect 20–30% capacity loss. Below 14°F (−10°C), expect 40–50% loss. Below −4°F (−20°C), batteries may fail to discharge entirely. Additionally, charging lithium batteries below 32°F causes permanent internal damage (lithium plating). In cold weather operations: keep power banks in an inner jacket pocket against your body heat, do not charge power banks in freezing temperatures, and warm them to above 40°F before use. Cold-temperature-rated lithium batteries (LiFePO4 chemistry) handle cold significantly better than standard lithium-ion."
+      },
+      {
+        "step": 6,
+        "title": "Maintenance and Testing",
+        "body": "Portable emergency power devices have a short shelf life if neglected. Power banks: discharge and fully recharge every 3–6 months to prevent cell imbalance and capacity degradation. Most batteries lose capacity faster when stored at 100% charge — for long-term storage, keep at 50–60% charge. Solar panels: clean the panel surface with a damp cloth periodically and inspect connecting cables for UV cracking. NOAA radios: test the crank mechanism and all charging modes quarterly. Verify NOAA alert reception by initiating a test (most radios have a test alert button). Replace internal batteries in any device that uses rechargeable NiMH cells every 2–3 years regardless of use. Document your test dates and results. Equipment that hasn't been tested in 12 months should be considered unreliable."
+      }
+    ],
+    "warnings": [
+      "Cheap solar panels sold at discount stores and online marketplaces rarely deliver their rated wattage — test before you trust them in an emergency.",
+      "Counterfeit power banks from unknown brands commonly contain cells with 20–30% of the advertised capacity — buy from recognized brands with verified reviews.",
+      "Never charge lithium power banks in freezing temperatures — it causes irreversible internal damage that permanently reduces capacity."
+    ],
+    "proTips": [
+      "A Goal Zero Yeti 200X or Jackery Explorer 240 bridges the gap between a power bank and a generator — 187–240Wh capacity, AC output for small appliances, solar input, and a display. The sweet spot for portable emergency power.",
+      "Keep a dedicated communications kit (hand-crank radio, 20,000 mAh power bank, foldable 15W solar panel, and all required charging cables) pre-packed in your 72-hour bag and tested quarterly.",
+      "USB-C Power Delivery (PD) is the universal standard to target — charges modern laptops, tablets, and phones significantly faster than USB-A and uses a single cable type for all your devices."
+    ],
+    "relatedGuides": ["power-001", "power-003"]
+  }
+]

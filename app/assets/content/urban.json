@@ -1,0 +1,250 @@
+[
+  {
+    "id": "urban-001",
+    "category": "urban",
+    "title": "Apartment and High-Rise Emergency Preparedness",
+    "priority": "critical",
+    "tags": ["urban", "apartment", "high-rise", "shelter"],
+    "summary": "Specific preparedness strategies for urban vertical living when elevators, utilities, and exits fail.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know Your Building",
+        "body": "Spend 30 minutes on a deliberate building survey before any emergency. Locate and count every stairwell in your building and the number of flights to ground level from your floor. Walk to every exit door — know which ones are alarmed versus freely accessible. Note fire hose cabinet locations, fire extinguisher locations, and the designated exterior fire assembly point. Locate the building's emergency contact board (typically in the lobby or management office) with the superintendent and emergency contact numbers. Ask management about backup generator coverage — what does it power? (Typically emergency lighting, elevators, possibly fire suppression systems.) Write a one-page building reference sheet with floor plan sketch, exit locations, and emergency contacts. Keep it in your go-bag."
+      },
+      {
+        "step": 2,
+        "title": "Stairwell Navigation",
+        "body": "Elevators will be unavailable during power outages, fires, and many other emergency scenarios. If you live above the ground floor, stairwells are your primary egress route — know them in darkness. Practice: walk your stairwell descent carrying your go-bag with a phone flashlight as your only illumination — once. Count the number of doors from your floor to the ground. In smoke conditions, visibility may be near-zero; physical door counting is reliable, visual identification is not. Practical aids: place a strip of reflective tape or a ChemLight/glow stick at stairwell entry door at your floor level (accessible from inside the stairwell) as a floor marker. In the stairwell door, memorize a distinctive tactile marker — a specific bolt position, a texture difference — that identifies your floor by feel."
+      },
+      {
+        "step": 3,
+        "title": "Shelter-in-Place vs Evacuate",
+        "body": "The default response to most urban emergencies is shelter-in-place — staying in your apartment is usually safer than moving into the street. Reasons: your apartment is a known, secured space; you have your supplies; street-level during civil disturbance, active air quality events, or chaos is more dangerous than a secured apartment. Evaluate against these criteria: Is the threat inside your building? (Fire, gas leak → evacuate immediately.) Is the threat immediate to your floor? (Structural damage, flood encroachment → move.) Is the threat street-level? (Civil disturbance, traffic emergency → shelter in place above it.) Is there a mandatory evacuation order from authorities? (Follow it.) Default to shelter-in-place unless one of these conditions is met. Revisit the decision every 30–60 minutes as information develops."
+      },
+      {
+        "step": 4,
+        "title": "Vertical Evacuation Scenarios",
+        "body": "Different emergencies require moving in different directions. Flood: always move up — water fills from the bottom. Move to the highest accessible floor or roof. Roof access doors should be tested in advance — some require a key held by building management. Fire: move down via stairwell. If your floor or a lower floor is on fire, move upward, close fire doors behind you, and proceed to roof for helicopter rescue visibility. Do not use elevators in any fire scenario. Medical emergency (personal): your phone works in most stairwells — call 911 and move toward building entrance to meet responders. Roof as rescue platform: in a genuine emergency where the building is compromised, the roof is a viable helicopter rescue platform. Signal with a mirror, brightly colored clothing, waving both arms, or a ChemLight."
+      },
+      {
+        "step": 5,
+        "title": "Water Pressure and High-Floor Residences",
+        "body": "Municipal water systems maintain street-level pressure through a combination of water towers, pumps, and gravity. High-rise buildings above approximately 6–8 stories typically rely on electric booster pumps to maintain water pressure on upper floors. When building power fails (either utility or building generator not covering pumps), water pressure fails at your floor within 30–60 minutes as the building's reserve pressure equalizes. Solution: fill all available water containers immediately when a power outage occurs or is forecast — before pressure drops. Fill bathtubs, pots, Tupperware, large Ziplock bags. A WaterBOB bathtub liner ($30) adds 100 gallons of clean storage in one bathtub in under 20 minutes. Know that your hot water heater (if gas-powered) holds 30–80 gallons of potable reserve water accessible via its drain valve at the bottom."
+      },
+      {
+        "step": 6,
+        "title": "Light Discipline and Security",
+        "body": "In a widespread grid-down scenario, a lit apartment on an otherwise dark building communicates that you have power and resources — drawing unwanted attention. Light discipline means managing what's visible from outside. Primary rule: no light visible through windows after dark. Hang blankets, heavy curtains, or pre-cut blackout fabric (cardboard + black construction paper) over windows before using any light inside. This applies to candles, lanterns, and phone screens in direct line of sight of windows. Sound discipline applies equally: voices carry through thin apartment walls and empty corridors; cooking sounds, movement, and activity are audible from outside your door. Keep voices low, minimize appliance use that creates distinctive sounds. Know your immediate floor neighbors — a pre-established mutual aid relationship with even one neighbor dramatically changes your options in a prolonged emergency."
+      }
+    ],
+    "warnings": [
+      "Never use an elevator during a fire or when any fire alarm is active — elevator shafts become chimneys that concentrate heat and smoke.",
+      "Never prop stairwell fire doors open — they are self-closing for a reason, and open fire doors allow fire and smoke to spread through the stairwell shaft.",
+      "The roof is a last resort, not a primary exit — use it only when all stairwell paths are blocked."
+    ],
+    "proTips": [
+      "A rated emergency rope escape ladder (X-It or Kidde brand, rated for your floor height) is inexpensive insurance for high-rise residents if stairwells become inaccessible and rescue is delayed.",
+      "A door security bar (Master Lock 265DCCSEN or similar) costs $30–$50 and adds significant forced-entry resistance to your apartment door during civil disturbance scenarios.",
+      "Get to know your immediate floor neighbors now — one pre-arranged mutual aid agreement with a trusted neighbor multiplies your options and safety margin in any emergency."
+    ],
+    "relatedGuides": ["urban-002", "urban-003"]
+  },  {
+    "id": "urban-002",
+    "category": "urban",
+    "title": "City Water Outage — Finding and Storing Urban Water",
+    "priority": "critical",
+    "tags": ["urban", "water", "city", "outage"],
+    "summary": "Urban-specific water sourcing and storage when municipal supply fails.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Water Heater Reserve",
+        "body": "If your apartment or home has a tank-style water heater (typically 30–80 gallon capacity), it contains potable water that is already treated and safe to drink — it is part of the municipal supply that was treated before entering your building. To access: locate the drain valve at the bottom of the tank (looks like a hose bib). Attach a garden hose or use a bucket. Open the valve. Let the first quart of water run to clear sediment before collecting for drinking. This water supply is gravity-fed and does not require pump pressure to access. A 50-gallon water heater provides one person 25 days of minimum drinking water (2L/day) or a family of four approximately 6 days. This is your highest-priority hidden water supply — identify it in your home before any emergency."
+      },
+      {
+        "step": 2,
+        "title": "Toilet Tank Reserve",
+        "body": "The toilet tank — the ceramic reservoir behind the seat, not the bowl — contains clean, potable water that is part of the municipal supply. Each toilet tank holds approximately 1.5–3 gallons. Do not flush toilets once a water outage begins — each flush drains this reserve and it will not refill as pressure drops. Two toilets provides 3–6 gallons of clean water for drinking or cooking. The bowl water is NOT potable — it is contaminated with cleaning chemicals and biofilm. Access the tank water by removing the lid and scooping or pouring directly. You can also drain it through the fill valve by manually triggering the float. Treat the tank as a sealed clean water supply; replace the lid after accessing to prevent contamination."
+      },
+      {
+        "step": 3,
+        "title": "Building Pipes and Reserve Pressure",
+        "body": "When water supply fails, significant water remains in your building's pipe network under residual pressure. Open faucets at the lowest point in your unit (typically a floor-level utility faucet or the bathtub) to drain water pooled in pipes above you. Higher floors drain into lower floors through gravity as pressure equalizes — ground-floor and basement units collect the most pipe reserve. In large commercial or residential buildings, rooftop storage tanks (common in NYC-style buildings over 6 stories) may hold thousands of gallons of reserve water that continues to supply by gravity long after municipal pressure fails. Your building superintendent can tell you if such tanks exist. In hospitals, hotels, and large commercial buildings, dedicated on-site cisterns may provide days or weeks of reserve supply."
+      },
+      {
+        "step": 4,
+        "title": "Urban Water Sources",
+        "body": "When building reserves are exhausted, urban environments offer additional sources — all requiring treatment. Fire hydrant water is municipal supply and technically potable, but accessing it requires specialized wrenches and authorization; in a declared emergency, local authorities may designate distribution points. Ponds, decorative fountains, retention basins, and park lakes are NOT safe to drink without aggressive treatment — they contain high bacterial loads, algaecides from fountain treatment, heavy metals from urban runoff, and potential pharmaceutical contamination. They are viable for drinking ONLY after filtration (0.1 micron minimum) followed by chemical or UV treatment. Rainwater collected from clean surfaces (not asphalt or lead-painted roofing) is a relatively clean source after allowing first-flush runoff to clear debris."
+      },
+      {
+        "step": 5,
+        "title": "Large-Scale Storage Before Outage",
+        "body": "When a water outage is announced or forecast (storm approach, known infrastructure issue), execute immediately: Fill every bathtub with a WaterBOB liner first ($30, holds 100 gallons per bathtub, protects water from contamination). Fill all large pots, Tupperware containers, pitchers, and Ziplock bags. Run your washing machine to the fill point and stop it — the drum holds 15–20 gallons. Fill every available vessel before pressure drops. Calculate: 1 gallon per person per day for drinking and minimal sanitation; 3 gallons per person per day for comfortable living. For 72-hour planning with 2 people, store minimum 6 gallons, target 18 gallons. A 72-hour forecast gives enough time to fill a 55-gallon drum from a garden hose on a balcony or patio."
+      },
+      {
+        "step": 6,
+        "title": "Purification in Urban Context",
+        "body": "Municipal water infrastructure failure scenarios range in contamination risk. Pressure loss only (pump failure, broken main): stored water in your pipes and water heater is likely safe — no new contaminants have entered the system. Boil advisory (potential biological contamination): boil water for 1 minute (3 minutes above 6,500 ft elevation). Filter then treat if drawing from open sources. Chemical contamination (industrial spill, deliberate contamination): standard field filtration and chemical treatment DO NOT remove dissolved chemicals, pharmaceuticals, or heavy metals. Only distillation or reverse osmosis removes chemical contaminants. If confirmed chemical contamination of the municipal supply is announced, do not use any municipal water from taps, pipes, or water heaters — it is contaminated throughout the system. Evacuate to access bottled or known-clean water."
+      }
+    ],
+    "warnings": [
+      "City fountains and decorative reflecting pools contain algaecides, potentially high bacteria, and chemical additives — treat aggressively before drinking even after filtration.",
+      "Never store water in containers previously used for chemicals, cleaning products, or fuel — residual contamination cannot be reliably removed.",
+      "Chemical contamination of municipal water cannot be made safe with standard survival filtration — if this is confirmed, evacuate rather than attempting to treat it in the field."
+    ],
+    "proTips": [
+      "A 55-gallon HDPE water storage barrel ($50–$80) on a balcony or patio filled from rain collection provides a substantial building reserve that is completely independent of municipal supply.",
+      "A WaterBOB bathtub liner ($30) stored flat in a closet takes 30 seconds to deploy and 20 minutes to fill — it should be in every urban dweller's emergency kit.",
+      "In multi-day urban outages, YMCA facilities, community centers, Red Cross shelters, and major hotels often maintain independent water systems — know the locations of 3 near your home in advance."
+    ],
+    "relatedGuides": ["urban-001", "urban-003"]
+  },  {
+    "id": "urban-003",
+    "category": "urban",
+    "title": "Civil Disturbance — Shelter in Place Protocol",
+    "priority": "critical",
+    "tags": ["urban", "security", "shelter", "civil-unrest"],
+    "summary": "Protocols for sheltering safely during civil disturbances without drawing attention or providing access.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Decision Point — Shelter vs Leave",
+        "body": "The first and most important decision in any civil disturbance is whether to stay or move. Civil disturbances are almost always geographically localized — a specific street, area, or district. Before deciding anything, determine where the disturbance is relative to your location. Sources: local news (TV/radio/streaming), official city Twitter or emergency management feeds, NextDoor or neighborhood apps for real-time neighborhood-specific reports. If the disturbance is not in your immediate block or neighborhood, staying home keeps you out of the zone entirely. Leaving during an active disturbance means moving through or toward the problem. Default: shelter in place and monitor. Reassess every 30–60 minutes as information updates."
+      },
+      {
+        "step": 2,
+        "title": "Light Discipline",
+        "body": "A lit interior visible through windows signals occupation, resources, and potential target value. At night, your lit apartment in a darkened neighborhood is highly visible from the street. Light discipline during civil disturbance at night: close all blinds, curtains, and shades immediately. If you need interior lighting, use the minimum intensity needed and position the light source away from windows rather than directly beside them. An LED headlamp on dim red-light setting preserves your night vision for situational awareness through windows and produces minimal light bleed. Avoid moving past windows holding a light source — silhouettes are clearly visible from the street. Black paper, construction-grade garbage bags, or blankets hung over windows provide fast, effective blackout coverage."
+      },
+      {
+        "step": 3,
+        "title": "Sound Discipline",
+        "body": "Sound travels through apartment walls and windows with surprising clarity — especially in urban environments that have become quiet during a disturbance. Normal household sounds become conspicuous: television, conversation at normal volume, running appliances, cabinet doors, and movement are audible from hallways and adjacent units. Sound discipline: keep all conversation to a low murmur, turn off the television in favor of a phone with earbuds for news monitoring, silence all phone ringers and notification sounds, and avoid cooking appliances that generate significant noise (blenders, food processors). Move deliberately rather than quickly — running or heavy movement is audible. Sound discipline is particularly important for building hallways — sounds through your front door communicate your presence and activity level."
+      },
+      {
+        "step": 4,
+        "title": "Entry Hardening",
+        "body": "Standard apartment door locks are weak — most can be bypassed with forced entry in seconds. Supplemental hardening requires no modification to the door itself. Primary door: a door security bar (Master Lock 265DCCSEN, Buddybar) costs $30–$50 and provides significant resistance by bracing against the floor — it resists kick-in force rather than relying on the lock mechanism. Rubber door stop wedges (3–4 of them stacked) provide basic resistance at minimal cost. Sliding glass doors (patio/balcony): cut a wooden dowel or 1×2 board to fit the track — this prevents the door from being lifted or slid open. Pin secondary security in the upper track with a cut-down steel bar. Windows: standard latches are weak; a secondary window lock bar or pin prevents opening beyond a ventilation gap. Security films on glass windows prevent glass shattering from projectile impact."
+      },
+      {
+        "step": 5,
+        "title": "When to Leave",
+        "body": "Certain conditions override the shelter-in-place default and require immediate evacuation. Leave immediately if: fire threatens your position (smoke entering unit, fire on your floor or above — don't wait for confirmation). You receive a mandatory evacuation order from law enforcement or emergency management — these are not suggestions. A utility failure creates immediate life-safety risk: gas leak (smell gas → leave immediately, do not use any switches), structural compromise of your building (obvious damage, building authority declaration). The disturbance physically enters your building — lobby breach, active confrontation in your corridor. If leaving: your pre-packed go-bag should be ready. Use stairwells — not elevators. Know your alternate exit from your floor. Pre-identify your destination: a friend's home outside the area, a hotel, or a designated shelter."
+      },
+      {
+        "step": 6,
+        "title": "Communication During a Disturbance",
+        "body": "Stay informed through multiple channels simultaneously — single-source information is vulnerable to delay and gaps. Priority stack: battery/crank NOAA radio for official emergency broadcasts (works when cellular networks are overloaded). Local AM radio stations carry continuous coverage of civil emergencies. Your phone for official emergency management social media feeds and neighborhood apps. Text messaging works when voice calls fail on overloaded networks — SMS traffic uses different bandwidth. Pre-establish a communication protocol with an out-of-area contact: a person outside the affected region who family members check in with, who then relays status between parties. This prevents overloading local networks with unnecessary calls. Conserve phone battery — avoid streaming video for news monitoring; prefer radio or text-based updates."
+      }
+    ],
+    "warnings": [
+      "Property defense has serious legal implications — know your state's specific laws regarding defense of property and use of force before any confrontation.",
+      "Do not confront or engage individuals outside your unit — situations that would have passed by often escalate irreversibly through direct confrontation."
+    ],
+    "proTips": [
+      "Make keeping curtains and blinds closed a daily habit — during an incident, you'll have nothing to change and no time wasted.",
+      "A simple 3-step civil disturbance decision rule: Hear it → stay home and tune to radio. See it → move away from windows. Feel it (inside your building) → execute your exit plan immediately.",
+      "Keep $40–$80 in small bills ($5s and $10s) in your go-bag — card readers and ATMs will likely be offline during extended disturbances."
+    ],
+    "relatedGuides": ["urban-001", "urban-004"]
+  },  {
+    "id": "urban-004",
+    "category": "urban",
+    "title": "Urban Navigation Without Power",
+    "priority": "advanced",
+    "tags": ["urban", "navigation", "power-out", "movement"],
+    "summary": "Navigate a dark, traffic-light-free city using street grids, landmarks, and low-tech techniques.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "The Grid Principle",
+        "body": "Most US cities were built on grid systems — streets laid out in parallel and perpendicular patterns with systematic numbering. Understanding your city's grid logic allows dead-reckoning navigation without street signs or maps. Common patterns: in Manhattan, street numbers increase going north (downtown to uptown) and addresses on cross streets increase going west to east. In Chicago, address numbers increase outward from the city center on a consistent grid. In Phoenix, the grid uses numbered avenues (west) and streets (east) from Central Avenue as the zero point. Before an emergency: walk your neighborhood and map these patterns mentally. A city grid allows you to say 'I need to go 8 blocks north and 3 blocks east' and execute it in total darkness without a map."
+      },
+      {
+        "step": 2,
+        "title": "Physical Map Preparedness",
+        "body": "Digital maps require power. Physical maps require nothing. Every urban preparedness kit needs a paper street map of your city at a scale detailed enough to show individual streets (1:20,000 or larger). AAA road maps work for regional navigation; local transit authority maps (available free at transit stations) show street grids at usable detail. Laminate your most important map to protect it from rain and folding damage. Download offline maps to your phone using apps that do not require data connection (Google Maps offline areas, Maps.me, OsmAnd) — these work with GPS only, no cell signal needed. GPS functionality is separate from cell service — your phone's GPS chip works independently as long as you have battery power."
+      },
+      {
+        "step": 3,
+        "title": "Dead Reckoning in the City",
+        "body": "Dead reckoning is the practice of tracking your position by starting from a known point, tracking direction and distance traveled, and calculating your current position without external reference. Urban dead reckoning: establish your starting point (your building address). Note your initial compass direction. Count blocks as you travel — one city block in most US cities is approximately 250–400 feet (50–80 meters). Track turns with their direction and block count. At each turn, update your mental position. City buildings are the most reliable landmarks — each intersection has a specific building or corner store that is consistent reference. If your mental track diverges from landmarks you recognize, stop and reconcile before continuing."
+      },
+      {
+        "step": 4,
+        "title": "Subway and Underground Networks",
+        "body": "Most major US transit systems maintain emergency lighting in subway stations and tunnels — dim battery-backed lighting at platforms, exit signs, and evacuation routes. Station exits are marked with illuminated or reflective signs in most systems and physically marked with painted text on tile. Know multiple stations near your home and workplace, and know which surface exits they use (many stations have 4+ street exits). NYC: study the subway system's local vs express track differences — wrong platform can add 30+ blocks. Chicago: know which CTA lines run above vs below grade for different terrain navigation. Critical warning: never use underground tunnels or culverts in any scenario involving flooding or heavy rain — underground spaces fill rapidly and without warning."
+      },
+      {
+        "step": 5,
+        "title": "Crowd and Bottleneck Avoidance",
+        "body": "During a mass evacuation or emergency movement event, crowds naturally flow toward the widest, most recognizable routes: main boulevards, bridges, and transit terminals. These routes bottleneck rapidly and become impassable. Parallel routing: for every major route, identify the parallel side street one block over — it carries a fraction of the traffic and moves faster. Know your city's secondary bridge and river crossings — most major bridges have pedestrian paths, and many cities have ferry terminals that are used rarely in normal operations. For cross-borough or cross-river movement: identify at least 3 crossing points, not just the most prominent one. Move earlier than the crowd whenever possible — the first hour of an evacuation is significantly faster than hour 3."
+      },
+      {
+        "step": 6,
+        "title": "Night Movement",
+        "body": "Moving in a city without power at night presents specific challenges: vehicle traffic continues without traffic signals, creating chaotic intersections; other pedestrians are largely invisible; street features that are obvious by day disappear in darkness. Human night vision: the eye dark-adapts fully in 30–40 minutes, providing meaningful low-light vision in moonlit or starlit conditions. White flashlight use destroys dark adaptation in seconds and marks your position visibly for blocks. Technique: allow your eyes to fully adapt before moving if possible. Navigate with white light only at moments of immediate necessity. Move along building walls rather than open sidewalks — walls provide tactile guidance and reduce your exposure profile. Red light (red LED) preserves night adaptation better than white and is less visible at distance."
+      }
+    ],
+    "warnings": [
+      "In a city power outage, all traffic signals fail — every intersection becomes an uncontrolled 4-way, and vehicle traffic continues. Cross intersections with extreme caution.",
+      "Pedestrians on dark streets at night wearing dark clothing are essentially invisible to drivers — white or reflective material on your clothing or bag is a safety essential."
+    ],
+    "proTips": [
+      "Know 3 identifiable landmarks in each cardinal direction from your home address — buildings, bridges, or distinctive towers that are visible at distance and serve as navigation anchors without any map.",
+      "Pre-identify all bridges, tunnels, and river crossings on a physical map and mark them before you need them — these are the critical chokepoints in any urban evacuation.",
+      "A laminated wallet card with your home address coordinates in decimal degrees (from Google Maps → right click → 'What's here') and 2–3 pre-selected rally points takes 5 minutes to make and works when your phone is dead."
+    ],
+    "relatedGuides": ["urban-005", "urban-003"]
+  },  {
+    "id": "urban-005",
+    "category": "urban",
+    "title": "Public Transportation Failure — Getting Home on Foot",
+    "priority": "advanced",
+    "tags": ["urban", "navigation", "walking", "bugout"],
+    "summary": "When all transportation fails, execute a planned on-foot return home from anywhere in your city.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Distance Assessment",
+        "body": "Know the walking distance from your key daily locations to your home before any emergency. Using Google Maps, measure the walking distance and time from: your workplace, your children's schools, your most frequent secondary locations (gym, regular errands, family member's home). Most urban workers are within 5–15 miles of home. Walking performance on flat urban terrain: a fit adult walks 3–4 mph; a mixed-fitness adult maintains 2.5–3 mph; encumbered with a bag, add 30 minutes per 5 miles. Planning estimate: budget 4–6 hours for 12–15 miles including rest stops. If you have children, budget 1–2 mph slower and plan for more rest stops. This time estimate needs to exist in your head before the event — calculating it under stress is harder than it sounds."
+      },
+      {
+        "step": 2,
+        "title": "Get-Home Bag",
+        "body": "A get-home bag (GHB) is distinct from a bug-out bag — it is lighter, workplace-appropriate, and optimized for one task: returning to your home from your daily environment. Contents for a GHB kept at your workplace: a pair of broken-in, flat-soled walking shoes (not dress shoes or heels), 1 liter of water plus a filter straw (Sawyer Squeeze or LifeStraw), 2–3 protein bars or dense calorie items, a phone charging battery pack (10,000 mAh minimum), $40–$80 cash in small bills, a laminated physical map showing your home-to-work route, a compact rain layer (packable jacket), basic first aid (moleskin, ibuprofen, bandages), and a small LED flashlight. Total weight: under 10 lbs. Keep this in a desk drawer, locker, or inconspicuous bag that travels with you regularly."
+      },
+      {
+        "step": 3,
+        "title": "Route Planning",
+        "body": "Pre-plan two complete routes home from your workplace: a primary route and an alternate that diverges significantly. For each route, identify and mark on your physical map: every bridge, tunnel, and elevated crossing (bridges are chokepoints — know alternatives if primary is blocked or crowded). Rest locations at approximately 3-mile intervals: hospital lobbies (water, warmth, often operational on backup power), fire stations (ask for water during emergencies — they will typically assist), public libraries, large grocery stores with generators, churches. Mark police precinct locations. Mark areas you assess as potentially problematic (areas you prefer to route around in a high-tension scenario). Study both routes in normal conditions by walking at least part of each one so the territory is familiar."
+      },
+      {
+        "step": 4,
+        "title": "The First 30 Minutes",
+        "body": "Resist the impulse to immediately join the flow of people moving. The first 30 minutes after a transit failure are chaotic — people are making immediate, poorly-informed decisions. Spend this time: gather information from multiple sources (news, official social media, conversations with people from different locations). Assess the nature of the event: is this local (stay) or citywide (go home)? Is it temporary (20-minute delay) or extended (days)? Communicate your status and intentions to your household contact and out-of-area contact. Identify your group: are you moving with coworkers? Establish roles and pace agreements before departing. A 30-minute information-gathering delay frequently saves hours of wrong-direction movement — people who leave immediately often make poor initial decisions and have to backtrack."
+      },
+      {
+        "step": 5,
+        "title": "Group Movement",
+        "body": "Moving with a group of 3–5 people is statistically safer than solo travel in a city emergency, provides load distribution, and creates mutual accountability. Establishing group protocols before departing: set the pace to the slowest sustainable pace (not the fastest person's pace — exhausting the slowest member strands everyone). Assign roles: navigator (holds the map, makes route decisions), rear (maintains situational awareness behind the group), medic (carries and is trained in first aid). Distribute loads — the person in best physical condition can carry more to equalize the group's speed. Agree on decision-making: who has final say when the group disagrees on route? This disagreement will happen, and settling it now prevents a street argument at a critical moment. Establish regular status checks: every 30 minutes, group stops, checks headcount, status, and route position."
+      },
+      {
+        "step": 6,
+        "title": "Foot Care",
+        "body": "Blisters and foot injuries are mission-ending at mile 8–10 — they slow pace, distract attention, and can become infected. The most common cause: wrong footwear. This is why broken-in walking shoes in your GHB are non-negotiable. Dress shoes, heels, and new shoes that aren't broken in create pressure points that form blisters within 3–5 miles on pavement. Prevention: wear moisture-wicking socks (not cotton, which holds sweat and causes friction). At the first sign of a hot spot — a warm, tender area that precedes blister formation — stop immediately and address it. Apply moleskin, athletic tape, or in a pinch, duct tape over the affected area. Carry an extra pair of dry socks; wet socks from rain or puddles accelerate blistering dramatically. Take a 10-minute foot-airing rest every 2 hours of walking — remove shoes and socks, inspect, retape if needed."
+      }
+    ],
+    "warnings": [
+      "Do not take shortcuts through unknown alleys, underpasses, or terrain you have not assessed — in a widespread emergency, isolated routes carry elevated risk from opportunistic threats.",
+      "Never wade through flood water at street level in a city — storm drains and manhole covers are invisible under water and the current in flooded streets can knock adults off their feet."
+    ],
+    "proTips": [
+      "A folding bicycle kept at your workplace transforms a 5-hour walking evacuation into a 1-hour ride on bike lanes and paths that are typically less crowded than pedestrian routes.",
+      "On days with elevated risk (major public events, severe weather forecast, high-tension situations), wear your walking shoes to work and have your GHB with you — preparation cost is zero if nothing happens.",
+      "If you know a potential transit failure is coming (storm, major event), drive halfway to work and park at a known garage or street location, shortcutting your potential walking distance in half."
+    ],
+    "relatedGuides": ["urban-004", "urban-001"]
+  }
+]

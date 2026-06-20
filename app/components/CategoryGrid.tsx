@@ -13,6 +13,7 @@ export const CATEGORIES = [
   'water', 'fire', 'shelter', 'food',
   'medical', 'navigation', 'comms', 'security',
   'tools', 'disaster', 'vehicle', 'homesteading',
+  'power', 'urban', 'leadership', 'children',
 ];
 
 export const CATEGORY_LABELS: Record<string, string> = {
@@ -28,6 +29,10 @@ export const CATEGORY_LABELS: Record<string, string> = {
   disaster: 'Disaster',
   vehicle: 'Vehicle',
   homesteading: 'Homestead',
+  power: 'Power & Energy',
+  urban: 'Urban Survival',
+  leadership: 'Leadership',
+  children: 'For Children',
 };
 
 type IoniconsName = React.ComponentProps<typeof Ionicons>['name'];
@@ -45,6 +50,10 @@ const CATEGORY_ICONS: Record<string, IoniconsName> = {
   disaster: 'warning',
   vehicle: 'car',
   homesteading: 'nutrition',
+  power: 'battery-charging-outline',
+  urban: 'business-outline',
+  leadership: 'people-outline',
+  children: 'happy-outline',
 };
 
 interface CategoryGridProps {

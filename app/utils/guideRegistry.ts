@@ -16,6 +16,12 @@ import disasterGuides from '../assets/content/disaster.json';
 import vehicleGuides from '../assets/content/vehicle.json';
 import homesteadingGuides from '../assets/content/homesteading.json';
 
+// New categories (v2.1)
+import powerGuides from '../assets/content/power.json';
+import urbanGuides from '../assets/content/urban.json';
+import leadershipGuides from '../assets/content/leadership.json';
+import childrenGuides from '../assets/content/children.json';
+
 // Field Manuals (public domain US Army)
 import fm001 from '../assets/content/field-manuals/fm-001.json';
 import fm002 from '../assets/content/field-manuals/fm-002.json';
@@ -36,6 +42,10 @@ const ALL_GUIDES: Guide[] = [
   ...(disasterGuides as Guide[]),
   ...(vehicleGuides as Guide[]),
   ...(homesteadingGuides as Guide[]),
+  ...(powerGuides as Guide[]),
+  ...(urbanGuides as Guide[]),
+  ...(leadershipGuides as Guide[]),
+  ...(childrenGuides as Guide[]),
   ...(fm001 as Guide[]),
   ...(fm002 as Guide[]),
   ...(fm003 as Guide[]),
