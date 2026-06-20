@@ -14,7 +14,8 @@
     "submit:ios": "eas submit --platform ios",
     "lint": "eslint . --ext .ts,.tsx",
     "type-check": "tsc --noEmit",
-    "audit:accessibility": "node scripts/audit-accessibility.js"
+    "audit:accessibility": "node scripts/audit-accessibility.js",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
@@ -29,7 +30,7 @@
     "expo-location": "~17.0.1",
     "expo-notifications": "~0.28.19",
     "expo-splash-screen": "~0.27.5",
-    "expo-sqlite": "~14.0.3",
+    "expo-sqlite": "~14.0.6",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
     "react-native": "0.74.1",
@@ -47,6 +48,7 @@
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "eslint": "^8.57.0",
+    "patch-package": "^8.0.1",
     "sharp": "^0.35.1",
     "typescript": "^5.9.3"
   },

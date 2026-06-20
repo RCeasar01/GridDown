@@ -1,17 +1,22 @@
 /**
  * GridDown Offline Translation Utility
  *
- * Uses @react-native-ml-kit/translate for fully on-device translation.
- * Requires a dev/production build (not Expo Go).
- * Models are ~30 MB each and stored on device permanently after download.
- *
- * NOTE: @react-native-ml-kit/translate must be installed separately with:
- *   npx expo install @react-native-ml-kit/translate
- * and requires a custom dev client build (not compatible with Expo Go).
+ * NOTE: @react-native-ml-kit/translate does not exist on npm (as of 2025).
+ * The translate calls below are stubbed out — text is returned unchanged.
+ * Wire up a real translation package (e.g. react-native-mlkit-translate or
+ * a cloud translation API) when ready, and replace the STUB section below.
  */
 
 import * as Localization from 'expo-localization';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+
+// ---------------------------------------------------------------------------
+// STUB: no-op translation backend
+// Replace with real implementation when a working package is chosen.
+// ---------------------------------------------------------------------------
+const _mlKitTranslate = {
+  translate: async (text: string, _from: string, _to: string): Promise<string> => text,
+};
 
 // ---------------------------------------------------------------------------
 // Types
@@ -31,7 +36,7 @@ export interface LanguageInfo {
 
 export type DownloadProgress = {
   languageCode: SupportedLanguage;
-  progress: number; // 0–1
+  progress: number; // 0-1
   status: 'downloading' | 'complete' | 'error';
   error?: string;
 };
@@ -80,9 +85,7 @@ async function saveDownloadedModels(models: SupportedLanguage[]): Promise<void> 
 
 export async function isModelDownloaded(languageCode: SupportedLanguage): Promise<boolean> {
   try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const { translate } = require('@react-native-ml-kit/translate');
-    await translate('test', SOURCE_LANGUAGE, languageCode);
+    await _mlKitTranslate.translate('test', SOURCE_LANGUAGE, languageCode);
     return true;
   } catch {
     const models = await getDownloadedModels();
@@ -97,10 +100,8 @@ export async function downloadLanguageModel(
   onProgress?.({ languageCode, progress: 0.05, status: 'downloading' });
 
   try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const { translate } = require('@react-native-ml-kit/translate');
     onProgress?.({ languageCode, progress: 0.1, status: 'downloading' });
-    await translate('hello world', SOURCE_LANGUAGE, languageCode);
+    await _mlKitTranslate.translate('hello world', SOURCE_LANGUAGE, languageCode);
     onProgress?.({ languageCode, progress: 1.0, status: 'complete' });
     const existing = await getDownloadedModels();
     if (!existing.includes(languageCode)) {
@@ -119,9 +120,7 @@ export async function translateText(
 ): Promise<string> {
   if (!text.trim()) return text;
   try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const { translate } = require('@react-native-ml-kit/translate');
-    const result: string = await translate(text, SOURCE_LANGUAGE, targetLang);
+    const result: string = await _mlKitTranslate.translate(text, SOURCE_LANGUAGE, targetLang);
     return result ?? text;
   } catch {
     return text;

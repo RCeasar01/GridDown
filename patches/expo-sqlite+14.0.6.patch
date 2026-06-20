@@ -1,0 +1,16 @@
+diff --git a/node_modules/expo-sqlite/build/index.cjs b/node_modules/expo-sqlite/build/index.cjs
+new file mode 100644
+index 0000000..6a461b6
+--- /dev/null
++++ b/node_modules/expo-sqlite/build/index.cjs
+@@ -0,0 +1,10 @@
++// CJS compatibility shim for Node.js v22+ (Expo SDK 51)
++// expo-sqlite has no JS config plugin (only native modules declared in expo-module.config.json).
++// When expo's config-plugin system require()s this package on Node.js v22+, it expects a
++// function. This no-op plugin satisfies that contract without altering the app config.
++// Metro bundler uses its own resolver and loads the real ESM build (index.js) for the app.
++function withExpoSQLite(config) {
++  return config;
++}
++module.exports = withExpoSQLite;
++module.exports.default = withExpoSQLite;
