@@ -14,3 +14,12 @@ index 0000000..6a461b6
 +}
 +module.exports = withExpoSQLite;
 +module.exports.default = withExpoSQLite;
+diff --git a/node_modules/expo-sqlite/build/legacy/index.cjs b/node_modules/expo-sqlite/build/legacy/index.cjs
+new file mode 100644
+index 0000000..19835df
+--- /dev/null
++++ b/node_modules/expo-sqlite/build/legacy/index.cjs
+@@ -0,0 +1,3 @@
++// CJS compatibility shim for Node.js v24 (Expo SDK 51)
++// Satisfies require('expo-sqlite/legacy') from config-plugin loaders.
++module.exports = {};
