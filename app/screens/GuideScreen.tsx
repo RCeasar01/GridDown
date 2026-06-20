@@ -53,7 +53,7 @@ async function translateAndCache(
 const SKILL_COLORS: Record<string, string> = {
   beginner: '#4CAF50',
   intermediate: '#F5A623',
-  advanced: '#E8642A',
+  advanced: '#8B9E67',
 };
 
 const SKILL_LABELS: Record<string, string> = {
@@ -176,7 +176,7 @@ export function GuideScreen() {
   const displayTips = (!showingOriginal && translated) ? translated.proTips : guide.proTips;
 
   const PRIORITY_COLORS: Record<string, string> = {
-    critical: '#E8642A', advanced: '#F5A623', beginner: '#4CAF50',
+    critical: '#8B9E67', advanced: '#F5A623', beginner: '#4CAF50',
   };
 
 
@@ -324,7 +324,7 @@ export function GuideScreen() {
         <View style={styles.translateBar}>
           {translating ? (
             <View style={styles.translateRow}>
-              <ActivityIndicator size="small" color="#E8642A" />
+              <ActivityIndicator size="small" color="#8B9E67" />
               <Text style={styles.translatingText}>{t('guide.translating')}</Text>
             </View>
           ) : !modelAvailable ? (
@@ -424,9 +424,9 @@ const styles = StyleSheet.create({
     paddingVertical: 14, borderBottomWidth: 1, borderBottomColor: '#2A2A2A',
   },
   kitModalRowLabel: { flex: 1, fontSize: 15, color: '#F0F0F0', fontWeight: '600' },
-  kitModalRowCheck: { fontSize: 18, color: '#E8642A', fontWeight: '700' },
+  kitModalRowCheck: { fontSize: 18, color: '#8B9E67', fontWeight: '700' },
   kitModalDoneBtn: {
-    marginTop: 20, backgroundColor: '#E8642A', borderRadius: 10,
+    marginTop: 20, backgroundColor: '#8B9E67', borderRadius: 10,
     paddingVertical: 14, alignItems: 'center',
   },
   kitModalDoneBtnText: { color: '#fff', fontWeight: '800', fontSize: 15, letterSpacing: 0.5 },
@@ -458,12 +458,12 @@ const styles = StyleSheet.create({
   whenNotToBox: {
     backgroundColor: '#1A0D00',
     borderWidth: 1,
-    borderColor: '#E8642A',
+    borderColor: '#8B9E67',
     borderRadius: 8,
     padding: 12,
     marginBottom: 16,
   },
-  whenNotToTitle: { color: '#E8642A', fontSize: 14, fontWeight: '800', marginBottom: 8, letterSpacing: 0.5 },
+  whenNotToTitle: { color: '#8B9E67', fontSize: 14, fontWeight: '800', marginBottom: 8, letterSpacing: 0.5 },
   whenNotToItem: { flexDirection: 'row', gap: 8, marginBottom: 4 },
   whenNotToBullet: { color: '#CC3300', fontSize: 14, fontWeight: '700', flexShrink: 0 },
   whenNotToText: { color: '#E0A080', fontSize: 13, lineHeight: 18, flex: 1 },
@@ -480,7 +480,7 @@ const styles = StyleSheet.create({
   quickGlanceLabel: { fontSize: 11, fontWeight: '700', color: '#888', letterSpacing: 1.5, textTransform: 'uppercase', marginTop: 10, marginBottom: 6 },
   quickGlanceSituation: { fontSize: 14, fontStyle: 'italic', color: '#888888', lineHeight: 20, marginBottom: 4 },
   immediateRow: { flexDirection: 'row', alignItems: 'flex-start', gap: 10, marginBottom: 6 },
-  immediateNumber: { fontSize: 18, fontWeight: '800', color: '#E8642A', width: 24, flexShrink: 0 },
+  immediateNumber: { fontSize: 18, fontWeight: '800', color: '#8B9E67', width: 24, flexShrink: 0 },
   immediateText: { fontSize: 14, color: '#F0F0F0', lineHeight: 20, flex: 1 },
   thenText: { fontSize: 14, color: '#F0F0F0', lineHeight: 20, marginBottom: 4 },
 
@@ -489,13 +489,13 @@ const styles = StyleSheet.create({
   translateRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   translatingText: { color: '#888', fontSize: 13 },
   unavailableText: { color: '#666', fontSize: 13, fontStyle: 'italic' },
-  translateBtn: { alignSelf: 'flex-start', backgroundColor: '#E8642A', borderRadius: 6, paddingVertical: 6, paddingHorizontal: 14 },
+  translateBtn: { alignSelf: 'flex-start', backgroundColor: '#8B9E67', borderRadius: 6, paddingVertical: 6, paddingHorizontal: 14 },
   translateBtnText: { color: '#fff', fontWeight: '700', fontSize: 13 },
 
   // Steps
   sectionHeader: { fontSize: 11, fontWeight: '700', color: '#888', letterSpacing: 1.5, marginTop: 20, marginBottom: 10, textTransform: 'uppercase' },
   stepCard: { flexDirection: 'row', backgroundColor: '#141414', borderRadius: 10, marginBottom: 8, padding: 12, gap: 12, borderWidth: 1, borderColor: '#222' },
-  stepNumber: { width: 28, height: 28, borderRadius: 14, backgroundColor: '#E8642A', alignItems: 'center', justifyContent: 'center', flexShrink: 0 },
+  stepNumber: { width: 28, height: 28, borderRadius: 14, backgroundColor: '#8B9E67', alignItems: 'center', justifyContent: 'center', flexShrink: 0 },
   stepNumberText: { color: '#fff', fontWeight: '800', fontSize: 14 },
   stepContent: { flex: 1 },
   stepTitle: { fontSize: 14, fontWeight: '700', color: '#F0F0F0', marginBottom: 4 },
