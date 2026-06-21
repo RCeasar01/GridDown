@@ -25,6 +25,14 @@
     },
     "production": {
       "autoIncrement": true,
+      "android": {
+        "buildType": "aab",
+        "gradleCommand": ":app:bundleRelease"
+      },
+      "ios": {
+        "resourceClass": "m-medium",
+        "distribution": "store"
+      },
       "env": {
         "EXPO_PUBLIC_AI_ADVISOR_ENABLED": "true",
         "EXPO_PUBLIC_USB_EXPORT_ENABLED": "true"
