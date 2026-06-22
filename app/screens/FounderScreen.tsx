@@ -9,7 +9,7 @@ const CREDENTIALS = [
   { icon: '🦅', text: '101st Airborne Division (Air Assault) — Screaming Eagles' },
   { icon: '🪖', text: '3rd Brigade Combat Team, 187th Infantry Regiment — Rakkasans' },
   { icon: '⚕️', text: '8th US Army / 65th Medical Brigade' },
-  { icon: '🎖️', text: 'Combat Infantryman Badge (CIB)' },
+  { icon: '🎖️', text: 'Combat Infantryman' },
   { icon: '🩹', text: 'Combat Lifesaver' },
   { icon: '🩺', text: 'Eagle First Responder — 101st Airborne enhanced Combat Lifesaver program' },
   { icon: '🔬', text: 'Preventive Medicine Specialist (secondary MOS)' },
@@ -68,7 +68,7 @@ export function FounderScreen() {
           <View style={styles.medicalBannerText}>
             <Text style={styles.medicalBannerTitle}>Medical Content Credential</Text>
             <Text style={styles.medicalBannerSub}>
-              Combat Infantryman Badge (CIB) | Eagle First Responder — 101st Airborne Division (Air Assault), 187th Infantry Regiment (Rakkasans) | Preventive Medicine Specialist | 65th Medical Brigade
+              Combat Infantryman | Eagle First Responder — 101st Airborne Division (Air Assault), 187th Infantry Regiment (Rakkasans) | Preventive Medicine Specialist | 65th Medical Brigade
             </Text>
           </View>
         </View>
