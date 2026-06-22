@@ -1,0 +1,89 @@
+{
+  "weather": [
+    { "name": "WX1", "freq": "162.550", "desc": "NOAA Weather Radio — primary nationwide" },
+    { "name": "WX2", "freq": "162.400", "desc": "NOAA Weather Radio" },
+    { "name": "WX3", "freq": "162.475", "desc": "NOAA Weather Radio" },
+    { "name": "WX4", "freq": "162.425", "desc": "NOAA Weather Radio" },
+    { "name": "WX5", "freq": "162.450", "desc": "NOAA Weather Radio" },
+    { "name": "WX6", "freq": "162.500", "desc": "NOAA Weather Radio" },
+    { "name": "WX7", "freq": "162.525", "desc": "NOAA Weather Radio" }
+  ],
+  "frs": [
+    { "ch": 1,  "freq": "462.5625", "power": "0.5W", "note": "Shared with GMRS" },
+    { "ch": 2,  "freq": "462.5875", "power": "0.5W", "note": "Shared with GMRS" },
+    { "ch": 3,  "freq": "462.6125", "power": "0.5W", "note": "Shared with GMRS" },
+    { "ch": 4,  "freq": "462.6375", "power": "0.5W", "note": "Shared with GMRS" },
+    { "ch": 5,  "freq": "462.6625", "power": "0.5W", "note": "Shared with GMRS" },
+    { "ch": 6,  "freq": "462.6875", "power": "0.5W", "note": "Shared with GMRS" },
+    { "ch": 7,  "freq": "462.7125", "power": "0.5W", "note": "Shared with GMRS" },
+    { "ch": 8,  "freq": "467.5625", "power": "0.5W", "note": "FRS only" },
+    { "ch": 9,  "freq": "467.5875", "power": "0.5W", "note": "FRS only" },
+    { "ch": 10, "freq": "467.6125", "power": "0.5W", "note": "FRS only" },
+    { "ch": 11, "freq": "467.6375", "power": "0.5W", "note": "FRS only" },
+    { "ch": 12, "freq": "467.6625", "power": "0.5W", "note": "FRS only" },
+    { "ch": 13, "freq": "467.6875", "power": "0.5W", "note": "FRS only" },
+    { "ch": 14, "freq": "467.7125", "power": "0.5W", "note": "FRS only" },
+    { "ch": 15, "freq": "462.5500", "power": "2W",   "note": "Shared with GMRS" },
+    { "ch": 16, "freq": "462.5750", "power": "2W",   "note": "Shared with GMRS" },
+    { "ch": 17, "freq": "462.6000", "power": "2W",   "note": "Shared with GMRS" },
+    { "ch": 18, "freq": "462.6250", "power": "2W",   "note": "Shared with GMRS" },
+    { "ch": 19, "freq": "462.6500", "power": "2W",   "note": "Shared with GMRS" },
+    { "ch": 20, "freq": "462.6750", "power": "2W",   "note": "Shared with GMRS" },
+    { "ch": 21, "freq": "462.7000", "power": "2W",   "note": "Shared with GMRS" },
+    { "ch": 22, "freq": "462.7250", "power": "2W",   "note": "Shared with GMRS" }
+  ],
+  "gmrs": [
+    { "ch": 1,  "freq": "462.5625", "power": "5W",  "note": "Simplex; shared with FRS" },
+    { "ch": 2,  "freq": "462.5875", "power": "5W",  "note": "Simplex; shared with FRS" },
+    { "ch": 3,  "freq": "462.6125", "power": "5W",  "note": "Simplex; shared with FRS" },
+    { "ch": 4,  "freq": "462.6375", "power": "5W",  "note": "Simplex; shared with FRS" },
+    { "ch": 5,  "freq": "462.6625", "power": "5W",  "note": "Simplex; shared with FRS" },
+    { "ch": 6,  "freq": "462.6875", "power": "5W",  "note": "Simplex; shared with FRS" },
+    { "ch": 7,  "freq": "462.7125", "power": "5W",  "note": "Simplex; shared with FRS" },
+    { "ch": 15, "freq": "462.5500", "power": "50W", "note": "Repeater input/output — license required" },
+    { "ch": 16, "freq": "462.5750", "power": "50W", "note": "Repeater input/output — license required" },
+    { "ch": 17, "freq": "462.6000", "power": "50W", "note": "Repeater input/output — license required" },
+    { "ch": 18, "freq": "462.6250", "power": "50W", "note": "Repeater input/output — license required" },
+    { "ch": 19, "freq": "462.6500", "power": "50W", "note": "Repeater input/output — license required" },
+    { "ch": 20, "freq": "462.6750", "power": "50W", "note": "Repeater input/output — license required" },
+    { "ch": 21, "freq": "462.7000", "power": "50W", "note": "Repeater input/output — license required" },
+    { "ch": 22, "freq": "462.7250", "power": "50W", "note": "Repeater input/output — license required" }
+  ],
+  "murs": [
+    { "ch": 1, "freq": "151.820", "power": "2W", "note": "No license required; narrow band" },
+    { "ch": 2, "freq": "151.880", "power": "2W", "note": "No license required; narrow band" },
+    { "ch": 3, "freq": "151.940", "power": "2W", "note": "No license required; narrow band" },
+    { "ch": 4, "freq": "154.570", "power": "2W", "note": "No license required; wide band" },
+    { "ch": 5, "freq": "154.600", "power": "2W", "note": "No license required; wide band" }
+  ],
+  "ham": [
+    { "name": "2m Calling",   "freq": "146.520", "band": "2m VHF",   "mode": "FM",   "note": "National simplex calling — monitor before transmitting" },
+    { "name": "70cm Calling", "freq": "446.000", "band": "70cm UHF", "mode": "FM",   "note": "National UHF simplex calling" },
+    { "name": "40m HF Day",   "freq": "7.285",   "band": "40m HF",   "mode": "SSB",  "note": "Regional day comms; good daytime skip propagation" },
+    { "name": "20m HF Day",   "freq": "14.325",  "band": "20m HF",   "mode": "SSB",  "note": "Long-distance day comms — covers 1000+ miles" },
+    { "name": "40m HF Night", "freq": "7.060",   "band": "40m HF",   "mode": "SSB",  "note": "Continental night skip" },
+    { "name": "80m HF Night", "freq": "3.985",   "band": "80m HF",   "mode": "SSB",  "note": "Regional night — 500–1500 mile range" },
+    { "name": "FT8 40m",      "freq": "7.074",   "band": "40m HF",   "mode": "FT8",  "note": "Digital — emergency traffic passed here" }
+  ],
+  "emergency": [
+    { "name": "Natl Interop",         "freq": "155.340",  "note": "Fed/state interoperability — law enforcement/fire mutual aid" },
+    { "name": "VHF Tactical (VTAC)", "freq": "166.0250", "note": "VHF tactical mutual aid channel" },
+    { "name": "FEMA Ops Primary",     "freq": "163.1000", "note": "FEMA national operations" },
+    { "name": "FEMA Ops Secondary",   "freq": "163.4375", "note": "FEMA national operations backup" },
+    { "name": "Red Cross Disaster",   "freq": "47.420",   "note": "American Red Cross national disaster ops" },
+    { "name": "SAR Primary",          "freq": "155.160",  "note": "Search and rescue primary" },
+    { "name": "Aviation GUARD",       "freq": "121.500",  "note": "International distress — all aircraft monitor" }
+  ],
+  "cb": [
+    { "ch": 9,  "freq": "27.065", "note": "Emergency/motorist assistance — mandated monitoring in some states" },
+    { "ch": 17, "freq": "27.170", "note": "Regional truckers — alternate to Ch 19" },
+    { "ch": 19, "freq": "27.185", "note": "Interstate truckers — road conditions, traffic" }
+  ],
+  "aviation": [
+    { "name": "Guard (Distress)",   "freq": "121.500", "note": "International distress — monitored by all aircraft/ATC. ELTs broadcast here." },
+    { "name": "UNICOM",             "freq": "122.800", "note": "Air-to-air/ground; non-towered airports" },
+    { "name": "MULTICOM",           "freq": "122.900", "note": "Traffic advisory — uncontrolled airspace" },
+    { "name": "Pilot-to-Pilot",     "freq": "123.450", "note": "Air-to-air direct; general aviation" },
+    { "name": "Military GUARD UHF", "freq": "243.000", "note": "Military distress — UHF equivalent of 121.5 MHz" }
+  ]
+}

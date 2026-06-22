@@ -31,6 +31,13 @@ const TOOLS: ToolCard[] = [
   { emoji: '👨‍👩‍👧', title: 'Family Planner', screen: 'FamilyPlanner' },
   { emoji: '📍', title: 'Coordinate Converter', screen: 'CoordinateConverter' },
   { emoji: '🪢', title: 'Knot Guide', screen: 'KnotGuide' },
+  { emoji: '📻', title: 'Radio Frequencies', screen: 'Radio' },
+  { emoji: '💧', title: 'Water Purification', screen: 'Water' },
+  { emoji: '🚗', title: 'Vehicle Emergency Kit', screen: 'VehicleKit' },
+  { emoji: '📣', title: 'Signaling & Comms', screen: 'Signaling' },
+  { emoji: '🧭', title: 'Natural Navigation', screen: 'NaturalNavigation' },
+  { emoji: '🌾', title: 'Food Storage Calc', screen: 'FoodStorage' },
+  { emoji: '🩺', title: 'Medical Reference', screen: 'MedicalReference' },
 ];
 
 export function ToolsScreen() {

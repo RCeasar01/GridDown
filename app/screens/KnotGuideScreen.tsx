@@ -418,6 +418,13 @@ const KnotCard: React.FC<KnotCardProps> = ({ knot }) => {
             <Text style={styles.mistakeLabel}>⚠ Common Mistake</Text>
             <Text style={styles.mistakeText}>{knot.mistake}</Text>
           </View>
+          <View style={styles.animatedKnotBox}>
+            <Text style={styles.animatedKnotText}>
+              🎯 For animated visual guides, search{' '}
+              <Text style={styles.animatedKnotLink}>"animated knot {knot.name}"</Text>
+              {' '}on animatedknots.com — free, step-by-step animations.
+            </Text>
+          </View>
         </View>
       )}
     </View>
@@ -529,6 +536,12 @@ const styles = StyleSheet.create({
   },
   mistakeLabel: { fontSize: 11, color: Colors.danger, fontWeight: '700', letterSpacing: 0.5, marginBottom: 4 },
   mistakeText: { fontSize: 13, color: Colors.textPrimary, lineHeight: 18 },
+  animatedKnotBox: {
+    backgroundColor: Colors.primaryDim, borderRadius: 6, padding: 10,
+    marginTop: 10, borderWidth: 1, borderColor: Colors.primary,
+  },
+  animatedKnotText: { fontSize: 12, color: Colors.textSecondary, lineHeight: 17 },
+  animatedKnotLink: { color: Colors.primary, fontWeight: '700' },
 });
 
 export default KnotGuideScreen;

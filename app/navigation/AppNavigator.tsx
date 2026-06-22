@@ -34,6 +34,17 @@ import { GearInventoryScreen } from '../screens/GearInventoryScreen';
 import { FamilyPlannerScreen } from '../screens/FamilyPlannerScreen';
 import { CoordinateConverterScreen } from '../screens/CoordinateConverterScreen';
 import { KnotGuideScreen } from '../screens/KnotGuideScreen';
+import { RadioScreen } from '../screens/RadioScreen';
+import { WaterScreen } from '../screens/WaterScreen';
+import { VehicleKitScreen } from '../screens/VehicleKitScreen';
+import { AlertsScreen } from '../screens/AlertsScreen';
+import { SignalingScreen } from '../screens/SignalingScreen';
+import { NavigationScreen } from '../screens/NavigationScreen';
+import { FoodScreen } from '../screens/FoodScreen';
+import { MedicalReferenceScreen } from '../screens/MedicalReferenceScreen';
+import { SignInScreen } from '../screens/auth/SignInScreen';
+import { SignUpScreen } from '../screens/auth/SignUpScreen';
+import { ForgotPasswordScreen } from '../screens/auth/ForgotPasswordScreen';
 
 // Screens — Drill
 import { DrillScreen } from '../screens/DrillScreen';
@@ -85,6 +96,13 @@ export type ToolsStackParamList = {
   FamilyPlanner: undefined;
   CoordinateConverter: undefined;
   KnotGuide: undefined;
+  Radio: undefined;
+  Water: undefined;
+  VehicleKit: undefined;
+  Signaling: undefined;
+  NaturalNavigation: undefined;
+  FoodStorage: undefined;
+  MedicalReference: undefined;
 };
 
 export type DrillStackParamList = {
@@ -103,10 +121,14 @@ export type MoreStackParamList = {
   MoreMain: undefined;
   Settings: undefined;
   Community: undefined;
+  Alerts: undefined;
   Founder: undefined;
   Referral: undefined;
   Paywall: { featureName?: string };
   Checklists: undefined;
+  SignIn: undefined;
+  SignUp: undefined;
+  ForgotPassword: undefined;
 };
 
 // ─── Stack Navigators ─────────────────────────────────────────────────────────
@@ -247,6 +269,41 @@ function ToolsStackNavigator() {
         component={KnotGuideScreen}
         options={{ title: 'Knot Guide' }}
       />
+      <ToolsStack.Screen
+        name="Radio"
+        component={RadioScreen}
+        options={{ title: 'Radio Frequencies' }}
+      />
+      <ToolsStack.Screen
+        name="Water"
+        component={WaterScreen}
+        options={{ title: 'Water Purification' }}
+      />
+      <ToolsStack.Screen
+        name="VehicleKit"
+        component={VehicleKitScreen}
+        options={{ title: 'Vehicle Emergency Kit' }}
+      />
+      <ToolsStack.Screen
+        name="Signaling"
+        component={SignalingScreen}
+        options={{ title: 'Signaling & Communication' }}
+      />
+      <ToolsStack.Screen
+        name="NaturalNavigation"
+        component={NavigationScreen}
+        options={{ title: 'Natural Navigation' }}
+      />
+      <ToolsStack.Screen
+        name="FoodStorage"
+        component={FoodScreen}
+        options={{ title: 'Food Storage Calculator' }}
+      />
+      <ToolsStack.Screen
+        name="MedicalReference"
+        component={MedicalReferenceScreen}
+        options={{ title: 'Medical Reference' }}
+      />
     </ToolsStack.Navigator>
   );
 }
@@ -280,7 +337,11 @@ function MoreStackNavigator() {
       <MoreStack.Screen name="Checklists" component={ChecklistScreen} options={{ title: 'Checklists' }} />
       <MoreStack.Screen name="Settings" component={SettingsScreen} options={{ title: 'Settings' }} />
       <MoreStack.Screen name="Community" component={CommunityScreen} options={{ title: 'Community' }} />
+      <MoreStack.Screen name="Alerts" component={AlertsScreen} options={{ title: 'Community Alerts' }} />
       <MoreStack.Screen name="Founder" component={FounderScreen} options={{ title: 'About the Founder' }} />
+      <MoreStack.Screen name="SignIn" component={SignInScreen} options={{ title: 'Sign In', presentation: 'modal' }} />
+      <MoreStack.Screen name="SignUp" component={SignUpScreen} options={{ title: 'Create Account', presentation: 'modal' }} />
+      <MoreStack.Screen name="ForgotPassword" component={ForgotPasswordScreen} options={{ title: 'Reset Password' }} />
       <MoreStack.Screen name="Referral" component={ReferralScreen} options={{ title: 'Referral Program' }} />
       <MoreStack.Screen
         name="Paywall"
