@@ -39,7 +39,7 @@ WHAT’S INSIDE
 Medical, water purification, fire starting, shelter building, navigation, communications, power generation, vehicle repair, food sourcing, and security. New content added regularly.
 
 🩹 TCCC MEDICAL PROCEDURES
-Tactical Combat Casualty Care, trauma treatment, tourniquet application, wound packing, shock management, and preventive medicine. Written by an Eagle First Responder — 101st Airborne Division (Air Assault), 187th Infantry Regiment (Rakkasans) | Preventive Medicine Specialist | 65th Medical Brigade.
+Tactical Combat Casualty Care, trauma treatment, tourniquet application, wound packing, shock management, and preventive medicine. Written by a Combat Infantryman, Eagle First Responder — 101st Airborne Division (Air Assault), 187th Infantry Regiment (Rakkasans) | Preventive Medicine Specialist | 65th Medical Brigade.
 
 🗺️ OFFLINE GPS MAP
 Display your exact GPS coordinates with no network connection. Works in dead zones, wilderness, and grid-down scenarios.

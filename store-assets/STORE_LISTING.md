@@ -90,7 +90,7 @@ Convert between military grid, UTM, and decimal degrees. Display live coordinate
 Crisis-optimized UI for high-stress situations. High-contrast display, simplified navigation, and instant access to critical guides.
 
 VETERAN-DESIGNED
-Built by a combat veteran: 101st Airborne Division (Air Assault) / Screaming Eagles · 187th Infantry Regiment (Rakkasans) · Eagle First Responder · Preventive Medicine Specialist. Every protocol written for real emergencies — not theoretical scenarios.
+Built by a combat veteran: 101st Airborne Division (Air Assault) / Screaming Eagles · 187th Infantry Regiment (Rakkasans) · Combat Infantryman Badge (CIB) · Eagle First Responder · Preventive Medicine Specialist. Every protocol written for real emergencies — not theoretical scenarios.
 
 PRIVACY
 Zero data collection. No analytics. No advertising. No account required for free content. Location is never stored or transmitted. The AI runs entirely on-device. See our privacy policy for full details.
@@ -230,7 +230,7 @@ FEATURES
 VETERAN-DESIGNED
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Built by a combat veteran — 101st Airborne Division (Air Assault) / Screaming Eagles · 187th Infantry Regiment (Rakkasans) · Eagle First Responder · Preventive Medicine Specialist. Every guide written for real emergencies.
+Built by a combat veteran — 101st Airborne Division (Air Assault) / Screaming Eagles · 187th Infantry Regiment (Rakkasans) · Combat Infantryman Badge (CIB) · Eagle First Responder · Preventive Medicine Specialist. Every guide written for real emergencies.
 
 BannedProduct Media Inc. — 100% Veteran-Owned
 

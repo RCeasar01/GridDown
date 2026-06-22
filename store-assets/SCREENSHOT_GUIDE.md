@@ -1,4 +1,4 @@
-# GridDown Screenshot Guide
+﻿# GridDown Screenshot Guide
 
 This document defines the exact screenshots required for App Store Connect (iOS) and Google Play Console (Android), including dimensions, content flow, and copy overlays.
 
@@ -110,7 +110,7 @@ The 6.7″ screenshot set scales for all other iPhone sizes automatically.
 **Filename:** `09_categories.png`  
 **Overlay text:** “Written by Combat Veterans.”  
 **Content to show:** Medical category list with 6–8 guide cards visible, CRITICAL/ADVANCED priority badges prominent  
-**Notes:** Include the “Eagle First Responder” credential badge
+**Notes:** Include the “Combat Infantryman Badge (CIB)” and “Eagle First Responder” credential badges
 
 ---
 

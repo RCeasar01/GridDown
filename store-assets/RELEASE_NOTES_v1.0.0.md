@@ -53,7 +53,7 @@ PRIVACY
 Zero data collection. No analytics. No advertising. No account required for free content. On-device AI stays on your device.
 
 VETERAN-DESIGNED
-101st Airborne Division (Air Assault) · 187th Infantry Regiment (Rakkasans) · Eagle First Responder · Preventive Medicine Specialist
+101st Airborne Division (Air Assault) · 187th Infantry Regiment (Rakkasans) · Combat Infantryman Badge (CIB) · Eagle First Responder · Preventive Medicine Specialist
 
 BannedProduct Media Inc. — 100% Veteran-Owned
 

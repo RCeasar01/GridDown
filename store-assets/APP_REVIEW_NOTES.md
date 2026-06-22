@@ -18,7 +18,7 @@ Content is authored by a founder with the following verified background:
 - **101st Airborne Division (Air Assault)** — Screaming Eagles
 - **3rd Brigade Combat Team, 187th Infantry Regiment** — Rakkasans
 - **8th US Army / 65th Medical Brigade**
-- **Combat Infantryman**
+- **Combat Infantryman Badge (CIB)**
 - **Combat Lifesaver**
 - **Eagle First Responder** — 101st Airborne enhanced Combat Lifesaver program
 - **Preventive Medicine Specialist** (secondary MOS)
