@@ -50,6 +50,7 @@ import { ForgotPasswordScreen } from '../screens/auth/ForgotPasswordScreen';
 import { DrillScreen } from '../screens/DrillScreen';
 import QuizScreen from '../screens/QuizScreen';
 import QuizResultScreen from '../screens/QuizResultScreen';
+import QuizMenuScreen from '../screens/QuizMenuScreen';
 
 // Screens — More
 import { MoreScreen } from '../screens/MoreScreen';
@@ -103,10 +104,12 @@ export type ToolsStackParamList = {
   NaturalNavigation: undefined;
   FoodStorage: undefined;
   MedicalReference: undefined;
+  Paywall: { featureName?: string };
 };
 
 export type DrillStackParamList = {
   DrillMain: undefined;
+  QuizMenu: undefined;
   QuizPlay: { category?: string; quizId?: string; isDailyDrill?: boolean };
   QuizResult: {
     category: string;
@@ -304,6 +307,11 @@ function ToolsStackNavigator() {
         component={MedicalReferenceScreen}
         options={{ title: 'Medical Reference' }}
       />
+      <ToolsStack.Screen
+        name="Paywall"
+        component={PaywallScreen}
+        options={{ title: 'Upgrade', presentation: 'modal' }}
+      />
     </ToolsStack.Navigator>
   );
 }
@@ -315,6 +323,11 @@ function DrillStackNavigator() {
         name="DrillMain"
         component={DrillScreen}
         options={{ headerShown: false }}
+      />
+      <DrillStack.Screen
+        name="QuizMenu"
+        component={QuizMenuScreen}
+        options={{ title: 'Readiness Quiz' }}
       />
       <DrillStack.Screen
         name="QuizPlay"

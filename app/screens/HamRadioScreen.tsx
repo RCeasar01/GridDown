@@ -1,4 +1,3 @@
-// TODO: Lock to Monthly+ tier via useAppStore
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import {
   View,
@@ -9,11 +8,15 @@ import {
   TextInput,
   TouchableOpacity,
   Alert,
-  Clipboard,
   Modal,
 } from 'react-native';
+import * as Clipboard from 'expo-clipboard';
 import { Ionicons } from '@expo/vector-icons';
 import * as Location from 'expo-location';
+import { useNavigation } from '@react-navigation/native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import type { ToolsStackParamList } from '../navigation/AppNavigator';
+import { useAppStore } from '../store/useAppStore';
 import { Colors } from '../theme/colors';
 import repeaterData from '../assets/content/ham-repeaters.json';
 import {
@@ -73,6 +76,8 @@ function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number): nu
 }
 
 export function HamRadioScreen() {
+  const navigation = useNavigation<NativeStackNavigationProp<ToolsStackParamList, 'HamRadio'>>();
+  const { hasAccess } = useAppStore();
   const [searchText, setSearchText] = useState('');
   const [activeFilter, setActiveFilter] = useState<UseFilter>('ALL');
   const [activeTab, setActiveTab] = useState<'search' | 'saved'>('search');
@@ -138,7 +143,7 @@ export function HamRadioScreen() {
 
   const handleCopyFreq = (repeater: Repeater) => {
     const freqStr = `${repeater.frequency_output.toFixed(3)} MHz`;
-    Clipboard.setString(freqStr);
+    void Clipboard.setStringAsync(freqStr);
     Alert.alert('Copied', `${freqStr} copied to clipboard`);
   };
 
@@ -242,6 +247,30 @@ export function HamRadioScreen() {
       </Text>
     </View>
   );
+
+  // Tier gate: HAM Radio Repeaters requires Pro (Monthly+)
+  if (!hasAccess('monthly')) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <View style={styles.lockedContainer}>
+          <Ionicons name="lock-closed" size={48} color={Colors.textMuted} />
+          <Text style={styles.lockedTitle}>Pro Feature</Text>
+          <Text style={styles.lockedText}>
+            HAM Radio Repeaters requires a Pro plan. Upgrade to search 2,000+
+            repeaters, save favorites, and access offline frequency data.
+          </Text>
+          <TouchableOpacity
+            style={styles.lockedBtn}
+            onPress={() => navigation.navigate('Paywall', { featureName: 'HAM Radio Repeaters' })}
+            accessibilityRole="button"
+            accessibilityLabel="Upgrade to Pro"
+          >
+            <Text style={styles.lockedBtnText}>Upgrade to Pro</Text>
+          </TouchableOpacity>
+        </View>
+      </SafeAreaView>
+    );
+  }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -776,6 +805,37 @@ const styles = StyleSheet.create({
   },
   modalSaveText: {
     color: '#fff',
+    fontWeight: '700',
+  },
+  // Locked (tier gate) view
+  lockedContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 32,
+    gap: 12,
+  },
+  lockedTitle: {
+    color: Colors.textPrimary,
+    fontSize: 20,
+    fontWeight: '800',
+  },
+  lockedText: {
+    color: Colors.textSecondary,
+    fontSize: 14,
+    lineHeight: 20,
+    textAlign: 'center',
+  },
+  lockedBtn: {
+    marginTop: 8,
+    backgroundColor: Colors.primary,
+    borderRadius: 10,
+    paddingVertical: 12,
+    paddingHorizontal: 32,
+  },
+  lockedBtnText: {
+    color: '#fff',
+    fontSize: 15,
     fontWeight: '700',
   },
 });

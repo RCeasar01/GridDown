@@ -1,4 +1,4 @@
-﻿import { Guide } from '../db/contentLoader';
+import { Guide } from '../db/contentLoader';
 
 export function priorityColor(priority: string): string {
   switch (priority) {

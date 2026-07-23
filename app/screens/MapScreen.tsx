@@ -1,13 +1,14 @@
-﻿import React, { useEffect, useState, useCallback, useRef } from 'react';
+import React, { useEffect, useState, useCallback, useRef } from 'react';
 import {
   View, Text, StyleSheet, SafeAreaView, ScrollView,
   TouchableOpacity, Modal, TextInput, FlatList,
   Alert, Share,
 } from 'react-native';
 import * as Location from 'expo-location';
-import * as SQLite from 'expo-sqlite';
+import type * as SQLite from 'expo-sqlite';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
+import { getSharedDb } from '../db/contentLoader';
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
@@ -35,25 +36,11 @@ const TYPE_COLORS: Record<PointType, string> = {
 };
 
 // ── Database ───────────────────────────────────────────────────────────────
-
-let mapDb: SQLite.SQLiteDatabase | null = null;
+// Uses the shared connection from contentLoader; the map_points table is
+// created in initDatabase() at app startup.
 
 async function getMapDb(): Promise<SQLite.SQLiteDatabase> {
-  if (!mapDb) {
-    mapDb = await SQLite.openDatabaseAsync('griddown.db');
-    await mapDb.execAsync(`
-      CREATE TABLE IF NOT EXISTS map_points (
-        id TEXT PRIMARY KEY,
-        label TEXT NOT NULL,
-        type TEXT NOT NULL,
-        lat REAL NOT NULL,
-        lon REAL NOT NULL,
-        notes TEXT,
-        created_at INTEGER
-      );
-    `);
-  }
-  return mapDb;
+  return getSharedDb();
 }
 
 async function loadMapPoints(): Promise<MapPoint[]> {

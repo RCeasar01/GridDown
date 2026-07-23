@@ -1,10 +1,8 @@
-import * as SQLite from 'expo-sqlite';
+import type * as SQLite from 'expo-sqlite';
+import { getSharedDb } from './contentLoader';
 
-let db: SQLite.SQLiteDatabase | null = null;
-
-async function getDb() {
-  if (!db) db = await SQLite.openDatabaseAsync('griddown.db');
-  return db;
+async function getDb(): Promise<SQLite.SQLiteDatabase> {
+  return getSharedDb();
 }
 
 export type GearItem = {
@@ -113,12 +111,18 @@ export async function addGearItem(
   );
 }
 
+// Whitelist of updatable columns — prevents SQL injection via object keys.
+const GEAR_ITEM_COLUMNS = new Set([
+  'name', 'category', 'quantity', 'expiration_date', 'replacement_interval_days',
+  'last_replaced', 'weight_grams', 'notes', 'kit_assignment',
+]);
+
 export async function updateGearItem(
   id: string,
   updates: Partial<GearItem>
 ): Promise<void> {
   const database = await getDb();
-  const fields = Object.keys(updates).filter(k => k !== 'id' && k !== 'created_at');
+  const fields = Object.keys(updates).filter(k => GEAR_ITEM_COLUMNS.has(k));
   if (fields.length === 0) return;
   const setClause = fields.map(f => `${f} = ?`).join(', ');
   const values = fields.map(f => (updates as Record<string, unknown>)[f] ?? null) as import('expo-sqlite').SQLiteBindValue[];

@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import {
   View, Text, StyleSheet, SafeAreaView, ScrollView,
-  TouchableOpacity, Linking,
+  TouchableOpacity, Linking, Alert,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
 import { useAppStore } from '../store/useAppStore';
-import { useRoute } from '@react-navigation/native';
+import { useRoute, RouteProp } from '@react-navigation/native';
+import { getOfferings, purchasePackage, restorePurchases } from '../utils/purchases';
+import type { HomeStackParamList } from '../navigation/AppNavigator';
 
 const PRIVACY_URL = 'https://rceasar01.github.io/GridDown/privacy';
 const TERMS_URL   = 'https://rceasar01.github.io/GridDown/terms';
@@ -146,8 +148,8 @@ const RC_PRODUCT_MAP: Record<string, Record<ProPriceKey, string>> = {
 
 export function PaywallScreen() {
   const { userTier, setUserTier } = useAppStore();
-  const route = useRoute<any>();
-  const featureName = route.params?.featureName as string | undefined;
+  const route = useRoute<RouteProp<HomeStackParamList, 'Paywall'>>();
+  const featureName = route.params?.featureName;
   const [purchasing, setPurchasing] = useState<string | null>(null);
   const [proPriceKey, setProPriceKey] = useState<ProPriceKey>('yearly');
   const [proAIPriceKey, setProAIPriceKey] = useState<ProPriceKey>('yearly');
@@ -169,21 +171,67 @@ export function PaywallScreen() {
   const handlePurchase = async (plan: Plan) => {
     if (plan.id === 'free') return;
     if (isLegacyCurrent(plan)) return;
+
+    // Map plan + billing cycle → RevenueCat product ID
+    const priceKey: ProPriceKey =
+      plan.id === 'pro' ? proPriceKey : plan.id === 'pro_ai' ? proAIPriceKey : 'yearly';
+    const productId = RC_PRODUCT_MAP[plan.id]?.[priceKey];
+    if (!productId) {
+      Alert.alert('Not Available', 'This plan is not yet available for purchase.');
+      return;
+    }
+
     setPurchasing(plan.id);
-    // RevenueCat integration: map plan + billing cycle → product ID
-    // const priceKey = plan.id === 'pro' ? proPriceKey : plan.id === 'pro_ai' ? proAIPriceKey : 'yearly';
-    // const productId = RC_PRODUCT_MAP[plan.id]?.[priceKey] ?? '';
-    // const pkg = await findPackageByProductId(productId);
-    // if (pkg) await purchasePackage(pkg);
-    await new Promise((r) => setTimeout(r, 1200));
-    setUserTier(plan.tier);
-    setPurchasing(null);
+    try {
+      const offerings = await getOfferings();
+      let pkg = offerings?.current?.availablePackages.find(
+        (p) => p.product.identifier === productId
+      );
+      if (!pkg && offerings) {
+        for (const offering of Object.values(offerings.all)) {
+          pkg = offering.availablePackages.find(
+            (p) => p.product.identifier === productId
+          );
+          if (pkg) break;
+        }
+      }
+      if (!pkg) {
+        Alert.alert(
+          'Store Unavailable',
+          'Could not load products from the store. Check your connection and try again.'
+        );
+        return;
+      }
+      const { success, tier } = await purchasePackage(pkg);
+      if (success && tier) {
+        setUserTier(tier);
+        Alert.alert('Purchase Complete', 'Thank you! Your plan is now active.');
+      }
+    } catch {
+      Alert.alert('Purchase Failed', 'Something went wrong. You have not been charged.');
+    } finally {
+      setPurchasing(null);
+    }
   };
 
   const handleRestore = async () => {
     setPurchasing('restore');
-    await new Promise((r) => setTimeout(r, 1000));
-    setPurchasing(null);
+    try {
+      const { success, tier } = await restorePurchases();
+      if (success) {
+        setUserTier(tier);
+        Alert.alert(
+          'Restore Complete',
+          tier === 'free'
+            ? 'No previous purchases were found for this account.'
+            : 'Your purchases have been restored.'
+        );
+      } else {
+        Alert.alert('Restore Failed', 'Could not restore purchases. Please try again.');
+      }
+    } finally {
+      setPurchasing(null);
+    }
   };
 
   return (

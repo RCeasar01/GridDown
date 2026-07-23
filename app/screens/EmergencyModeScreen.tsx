@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import {
   View, Text, ScrollView, StyleSheet,
-  TouchableOpacity, Clipboard,
+  TouchableOpacity,
   SafeAreaView, StatusBar,
 } from 'react-native';
+import * as Clipboard from 'expo-clipboard';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import * as Location from 'expo-location';
@@ -280,7 +281,7 @@ function LocationSection({ expanded, onToggle }: LocationSectionProps) {
 
   const handleCopy = () => {
     if (coords) {
-      Clipboard.setString(coordText);
+      void Clipboard.setStringAsync(coordText);
     }
   };
 

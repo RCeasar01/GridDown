@@ -1,10 +1,34 @@
-import * as SQLite from 'expo-sqlite';
-
-let db: SQLite.SQLiteDatabase | null = null;
+import type * as SQLite from 'expo-sqlite';
+import { getSharedDb } from './contentLoader';
 
 async function getDb(): Promise<SQLite.SQLiteDatabase> {
-  if (!db) db = await SQLite.openDatabaseAsync('griddown.db');
-  return db;
+  return getSharedDb();
+}
+
+// Whitelists of updatable columns — prevent SQL injection via object keys.
+const FAMILY_MEMBER_COLUMNS = new Set([
+  'name', 'relationship', 'phone', 'blood_type', 'allergies',
+  'medications', 'medical_conditions', 'is_child', 'photo_uri',
+]);
+const EMERGENCY_CONTACT_COLUMNS = new Set([
+  'name', 'phone', 'relationship', 'is_out_of_area', 'notes',
+]);
+const RALLY_POINT_COLUMNS = new Set([
+  'name', 'address', 'lat', 'lon', 'notes', 'type',
+]);
+const PET_COLUMNS = new Set([
+  'name', 'species', 'breed', 'medications', 'vet_name', 'vet_phone', 'notes',
+]);
+
+function buildUpdate(
+  data: Record<string, unknown>,
+  allowed: Set<string>
+): { setClause: string; values: SQLite.SQLiteBindValue[] } | null {
+  const keys = Object.keys(data).filter((k) => allowed.has(k));
+  if (keys.length === 0) return null;
+  const setClause = keys.map((k) => `${k} = ?`).join(', ');
+  const values = keys.map((k) => (data[k] ?? null) as SQLite.SQLiteBindValue);
+  return { setClause, values };
 }
 
 // ─── Interfaces ─────────────────────────────────────────────────────────────
@@ -129,9 +153,9 @@ export async function addFamilyMember(data: Omit<FamilyMember, 'id' | 'created_a
 
 export async function updateFamilyMember(id: string, data: Partial<Omit<FamilyMember, 'id' | 'created_at'>>): Promise<void> {
   const database = await getDb();
-  const fields = Object.keys(data).map(k => `${k} = ?`).join(', ');
-  const values = [...Object.values(data), id];
-  await database.runAsync(`UPDATE family_members SET ${fields} WHERE id = ?`, values);
+  const upd = buildUpdate(data, FAMILY_MEMBER_COLUMNS);
+  if (!upd) return;
+  await database.runAsync(`UPDATE family_members SET ${upd.setClause} WHERE id = ?`, [...upd.values, id]);
 }
 
 export async function deleteFamilyMember(id: string): Promise<void> {
@@ -160,9 +184,9 @@ export async function addEmergencyContact(data: Omit<EmergencyContact, 'id'>): P
 
 export async function updateEmergencyContact(id: string, data: Partial<Omit<EmergencyContact, 'id'>>): Promise<void> {
   const database = await getDb();
-  const fields = Object.keys(data).map(k => `${k} = ?`).join(', ');
-  const values = [...Object.values(data), id];
-  await database.runAsync(`UPDATE emergency_contacts SET ${fields} WHERE id = ?`, values);
+  const upd = buildUpdate(data, EMERGENCY_CONTACT_COLUMNS);
+  if (!upd) return;
+  await database.runAsync(`UPDATE emergency_contacts SET ${upd.setClause} WHERE id = ?`, [...upd.values, id]);
 }
 
 export async function deleteEmergencyContact(id: string): Promise<void> {
@@ -191,9 +215,9 @@ export async function addRallyPoint(data: Omit<RallyPoint, 'id'>): Promise<void>
 
 export async function updateRallyPoint(id: string, data: Partial<Omit<RallyPoint, 'id'>>): Promise<void> {
   const database = await getDb();
-  const fields = Object.keys(data).map(k => `${k} = ?`).join(', ');
-  const values = [...Object.values(data), id];
-  await database.runAsync(`UPDATE rally_points SET ${fields} WHERE id = ?`, values);
+  const upd = buildUpdate(data, RALLY_POINT_COLUMNS);
+  if (!upd) return;
+  await database.runAsync(`UPDATE rally_points SET ${upd.setClause} WHERE id = ?`, [...upd.values, id]);
 }
 
 export async function deleteRallyPoint(id: string): Promise<void> {
@@ -222,9 +246,9 @@ export async function addPet(data: Omit<Pet, 'id'>): Promise<void> {
 
 export async function updatePet(id: string, data: Partial<Omit<Pet, 'id'>>): Promise<void> {
   const database = await getDb();
-  const fields = Object.keys(data).map(k => `${k} = ?`).join(', ');
-  const values = [...Object.values(data), id];
-  await database.runAsync(`UPDATE pets SET ${fields} WHERE id = ?`, values);
+  const upd = buildUpdate(data, PET_COLUMNS);
+  if (!upd) return;
+  await database.runAsync(`UPDATE pets SET ${upd.setClause} WHERE id = ?`, [...upd.values, id]);
 }
 
 export async function deletePet(id: string): Promise<void> {

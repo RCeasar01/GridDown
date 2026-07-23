@@ -289,7 +289,7 @@ export function FamilyPlannerScreen() {
         onClose={() => setMemberModal(false)}
         onSave={async (data) => {
           if (editMember) await updateFamilyMember(editMember.id, data);
-          else await addFamilyMember(data as any);
+          else await addFamilyMember(data);
           setMemberModal(false);
           await refreshAll();
         }}
@@ -300,7 +300,7 @@ export function FamilyPlannerScreen() {
         onClose={() => setContactModal(false)}
         onSave={async (data) => {
           if (editContact) await updateEmergencyContact(editContact.id, data);
-          else await addEmergencyContact(data as any);
+          else await addEmergencyContact(data);
           setContactModal(false);
           await refreshAll();
         }}
@@ -312,7 +312,7 @@ export function FamilyPlannerScreen() {
         onClose={() => setRallyModal(false)}
         onSave={async (data) => {
           if (editRally) await updateRallyPoint(editRally.id, data);
-          else await addRallyPoint(data as any);
+          else await addRallyPoint(data);
           setRallyModal(false);
           await refreshAll();
         }}
@@ -323,7 +323,7 @@ export function FamilyPlannerScreen() {
         onClose={() => setPetModal(false)}
         onSave={async (data) => {
           if (editPet) await updatePet(editPet.id, data);
-          else await addPet(data as any);
+          else await addPet(data);
           setPetModal(false);
           await refreshAll();
         }}
@@ -623,7 +623,7 @@ interface MemberModalProps {
   visible: boolean;
   initial: FamilyMember | null;
   onClose: () => void;
-  onSave: (data: Partial<FamilyMember>) => Promise<void>;
+  onSave: (data: Omit<FamilyMember, 'id' | 'created_at'>) => Promise<void>;
 }
 function MemberModal({ visible, initial, onClose, onSave }: MemberModalProps) {
   const blank = { name: '', relationship: '', phone: '', blood_type: '', allergies: '', medications: '', medical_conditions: '', is_child: 0, photo_uri: '' };
@@ -677,7 +677,7 @@ interface ContactModalProps {
   visible: boolean;
   initial: EmergencyContact | null;
   onClose: () => void;
-  onSave: (data: Partial<EmergencyContact>) => Promise<void>;
+  onSave: (data: Omit<EmergencyContact, 'id'>) => Promise<void>;
 }
 function ContactModal({ visible, initial, onClose, onSave }: ContactModalProps) {
   const blank = { name: '', phone: '', relationship: '', is_out_of_area: 0, notes: '' };
@@ -729,7 +729,7 @@ interface RallyModalProps {
   initial: RallyPoint | null;
   count: number;
   onClose: () => void;
-  onSave: (data: Partial<RallyPoint>) => Promise<void>;
+  onSave: (data: Omit<RallyPoint, 'id'>) => Promise<void>;
 }
 function RallyModal({ visible, initial, count, onClose, onSave }: RallyModalProps) {
   const defaultType = RALLY_TYPES[Math.min(count, 2)];
@@ -785,7 +785,7 @@ interface PetModalProps {
   visible: boolean;
   initial: Pet | null;
   onClose: () => void;
-  onSave: (data: Partial<Pet>) => Promise<void>;
+  onSave: (data: Omit<Pet, 'id'>) => Promise<void>;
 }
 function PetModal({ visible, initial, onClose, onSave }: PetModalProps) {
   const blank = { name: '', species: '', breed: '', medications: '', vet_name: '', vet_phone: '', notes: '' };

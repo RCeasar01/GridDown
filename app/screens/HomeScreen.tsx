@@ -216,6 +216,9 @@ export function HomeScreen() {
             style={styles.quickActionCard}
             onPress={() => navigation.navigate('Tools' as any, { screen: 'FamilyPlanner' })}
             activeOpacity={0.8}
+            accessibilityRole="button"
+            accessibilityLabel="Family Plan"
+            accessibilityHint="Opens the Family Emergency Planner"
           >
             <Text style={styles.quickActionEmoji}>👨‍👩‍👧</Text>
             <Text style={styles.quickActionLabel}>Family Plan</Text>
@@ -224,6 +227,9 @@ export function HomeScreen() {
             style={styles.quickActionCard}
             onPress={() => navigation.navigate('Tools' as any, { screen: 'GearInventory' })}
             activeOpacity={0.8}
+            accessibilityRole="button"
+            accessibilityLabel="Gear Inventory"
+            accessibilityHint="Opens your gear inventory"
           >
             <Text style={styles.quickActionEmoji}>🎽</Text>
             <Text style={styles.quickActionLabel}>Gear Inventory</Text>
@@ -232,6 +238,9 @@ export function HomeScreen() {
             style={styles.quickActionCard}
             onPress={() => navigation.navigate('Tools' as any, { screen: 'KnotGuide' })}
             activeOpacity={0.8}
+            accessibilityRole="button"
+            accessibilityLabel="Knot Guide"
+            accessibilityHint="Opens the knot tying guide"
           >
             <Text style={styles.quickActionEmoji}>🪢</Text>
             <Text style={styles.quickActionLabel}>Knot Guide</Text>
@@ -255,6 +264,7 @@ export function HomeScreen() {
             showsHorizontalScrollIndicator={false}
             keyExtractor={(f) => f.id}
             contentContainerStyle={{ paddingRight: 16 }}
+            getItemLayout={(_, index) => ({ length: 140, offset: 140 * index, index })}
             renderItem={({ item }: { item: Flow }) => (
               <TouchableOpacity
                 style={styles.flowChip}
@@ -309,6 +319,7 @@ export function HomeScreen() {
               showsHorizontalScrollIndicator={false}
               keyExtractor={(g) => g.id}
               contentContainerStyle={{ paddingRight: 16 }}
+              getItemLayout={(_, index) => ({ length: 190, offset: 190 * index, index })}
               renderItem={({ item }) => (
                 <TouchableOpacity
                   style={styles.fmCard}

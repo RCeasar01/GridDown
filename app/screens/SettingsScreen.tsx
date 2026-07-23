@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View, Text, StyleSheet, ScrollView, TouchableOpacity,
   Switch, Alert, ActivityIndicator, Linking, Platform,
@@ -78,7 +78,7 @@ export function SettingsScreen() {
             body: "Test your survival readiness. Today's drill is waiting.",
             sound: true,
           },
-          trigger: { hour: 8, minute: 0, repeats: true } as any,
+          trigger: { hour: 8, minute: 0, repeats: true } satisfies import('expo-notifications').DailyTriggerInput,
         });
       } else {
         await Notifications.cancelAllScheduledNotificationsAsync();

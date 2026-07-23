@@ -1,4 +1,4 @@
-import * as SQLite from 'expo-sqlite';
+import { getSharedDb } from './contentLoader';
 
 export interface ReadinessScanResult {
   id?: number;
@@ -14,17 +14,8 @@ export interface ReadinessScanResult {
   answers: string;
 }
 
-let _db: SQLite.SQLiteDatabase | null = null;
-
-function getDb(): SQLite.SQLiteDatabase {
-  if (!_db) {
-    _db = SQLite.openDatabaseSync('griddown.db');
-  }
-  return _db;
-}
-
 export async function initReadinessScanTable(): Promise<void> {
-  const db = getDb();
+  const db = await getSharedDb();
   await db.execAsync(`
     CREATE TABLE IF NOT EXISTS readiness_scan (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -43,7 +34,7 @@ export async function initReadinessScanTable(): Promise<void> {
 }
 
 export async function saveReadinessScan(data: ReadinessScanResult): Promise<void> {
-  const db = getDb();
+  const db = await getSharedDb();
   await db.runAsync(
     `INSERT INTO readiness_scan
       (completed_at, water_score, shelter_score, medical_score, comms_score,
@@ -65,7 +56,7 @@ export async function saveReadinessScan(data: ReadinessScanResult): Promise<void
 }
 
 export async function getLatestReadinessScan(): Promise<ReadinessScanResult | null> {
-  const db = getDb();
+  const db = await getSharedDb();
   const row = await db.getFirstAsync<ReadinessScanResult>(
     `SELECT * FROM readiness_scan ORDER BY completed_at DESC LIMIT 1`
   );

@@ -4,7 +4,7 @@ import {
   TextInput, TouchableOpacity, Alert, ActivityIndicator,
   FlatList, Modal,
 } from 'react-native';
-import { Clipboard } from 'react-native';
+import * as Clipboard from 'expo-clipboard';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
 import {
@@ -121,7 +121,7 @@ export function TranslatorScreen() {
 
   const handleCopy = () => {
     if (!outputText) return;
-    Clipboard.setString(outputText);
+    void Clipboard.setStringAsync(outputText);
     Alert.alert('Copied', 'Translation copied to clipboard.');
   };
 

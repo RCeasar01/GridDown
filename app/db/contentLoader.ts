@@ -149,6 +149,15 @@ export async function initDatabase(): Promise<void> {
       lon REAL,
       saved_at INTEGER
     );
+    CREATE TABLE IF NOT EXISTS map_points (
+      id TEXT PRIMARY KEY,
+      label TEXT NOT NULL,
+      type TEXT NOT NULL,
+      lat REAL NOT NULL,
+      lon REAL NOT NULL,
+      notes TEXT,
+      created_at INTEGER
+    );
   `);
   try {
     const { seedGearItems } = await import('./gearInventory');
@@ -158,6 +167,15 @@ export async function initDatabase(): Promise<void> {
 
 function getDb(): SQLite.SQLiteDatabase {
   if (!db) throw new Error('Database not initialized. Call initDatabase() first.');
+  return db;
+}
+
+/**
+ * Shared database connection for all modules.
+ * Prevents multiple connection handles to griddown.db (write races / SQLITE_BUSY).
+ */
+export async function getSharedDb(): Promise<SQLite.SQLiteDatabase> {
+  if (!db) db = await SQLite.openDatabaseAsync('griddown.db');
   return db;
 }
 

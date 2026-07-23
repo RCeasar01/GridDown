@@ -1,9 +1,9 @@
-﻿import React, { useState, useCallback, useRef } from 'react';
+import React, { useState, useCallback, useRef } from 'react';
 import {
   View, Text, StyleSheet, SafeAreaView, ScrollView,
   TextInput, TouchableOpacity, Alert,
 } from 'react-native';
-import { Clipboard } from 'react-native';
+import * as Clipboard from 'expo-clipboard';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
 
@@ -216,7 +216,7 @@ export function MorseCodeScreen() {
 
   const handleCopy = () => {
     if (!resultText) return;
-    Clipboard.setString(resultText);
+    void Clipboard.setStringAsync(resultText);
     Alert.alert('Copied', 'Result copied to clipboard.');
   };
 

@@ -84,7 +84,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     './plugins/withPrivacyManifest',
   ],
   extra: {
-    eas: { projectId: process.env.EAS_PROJECT_ID ?? 'YOUR_EAS_PROJECT_ID' },
+    // EAS_PROJECT_ID must be set as an EAS secret / env var for production builds.
+    // An empty fallback fails fast instead of registering to a bogus project.
+    eas: { projectId: process.env.EAS_PROJECT_ID ?? '' },
     revenueCatApiKeyIos:
       process.env.EXPO_PUBLIC_REVENUECAT_IOS_KEY ?? '',
     revenueCatApiKeyAndroid:
