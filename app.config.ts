@@ -8,19 +8,15 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   orientation: 'portrait',
   icon: './app/assets/images/icon.png',
   userInterfaceStyle: 'dark',
-  splash: {
-    image: './app/assets/images/splash.png',
-    resizeMode: 'contain',
-    backgroundColor: '#0D0D0D',
-  },
+  // Splash config moved to the expo-splash-screen plugin (see plugins below) in SDK 57.
   assetBundlePatterns: ['**/*'],
   ios: {
     supportsTablet: true,
     bundleIdentifier: 'com.bannedproduct.griddown',
     buildNumber: '1',
-    // Apple requires iOS 16.0 minimum as of 2025 submission requirements.
+    // SDK 57 requires iOS 16.4 minimum deployment target.
     // @ts-ignore: deploymentTarget is valid in EAS config but not in @expo/config-types yet
-    deploymentTarget: '16.0',
+    deploymentTarget: '16.4',
     infoPlist: {
       NSLocationWhenInUseUsageDescription:
         'GridDown uses your location to display your current coordinates on the map screen. Your location is never stored or transmitted.',
@@ -48,6 +44,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   web: { favicon: './app/assets/images/favicon.png' },
   plugins: [
+    [
+      'expo-splash-screen',
+      {
+        image: './app/assets/images/splash.png',
+        resizeMode: 'contain',
+        backgroundColor: '#0D0D0D',
+      },
+    ],
     'expo-localization',
     'expo-sqlite',
     'expo-file-system',
@@ -66,16 +70,15 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         sounds: [],
       },
     ],
-    // Apple 2025: minimum iOS 16.0 / Google Play: targetSdkVersion 35
+    // iOS 16.4 minimum required by SDK 57. Android compile/target SDK use the
+    // Expo SDK defaults (which track Google Play requirements).
     [
       'expo-build-properties',
       {
         ios: {
-          deploymentTarget: '16.0',
+          deploymentTarget: '16.4',
         },
         android: {
-          compileSdkVersion: 35,
-          targetSdkVersion: 35,
           minSdkVersion: 26,
         },
       },

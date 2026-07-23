@@ -116,7 +116,10 @@ export default function QuizResultScreen() {
           title: 'GridDown Daily Drill',
           body: `Review your ${category} quiz — keep your skills sharp!`,
         },
-        trigger: { seconds: 3 * 24 * 60 * 60 },
+        trigger: {
+          type: Notifications.SchedulableTriggerInputTypes.TIME_INTERVAL,
+          seconds: 3 * 24 * 60 * 60,
+        },
       });
       setReminderScheduled(true);
     } catch {

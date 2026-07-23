@@ -78,7 +78,11 @@ export function SettingsScreen() {
             body: "Test your survival readiness. Today's drill is waiting.",
             sound: true,
           },
-          trigger: { hour: 8, minute: 0, repeats: true } satisfies import('expo-notifications').DailyTriggerInput,
+          trigger: {
+            type: Notifications.SchedulableTriggerInputTypes.DAILY,
+            hour: 8,
+            minute: 0,
+          } satisfies import('expo-notifications').DailyTriggerInput,
         });
       } else {
         await Notifications.cancelAllScheduledNotificationsAsync();

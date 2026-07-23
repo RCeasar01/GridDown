@@ -107,7 +107,8 @@ export default function App() {
 
   return (
     <ErrorBoundary>
-      <StatusBar style="light" backgroundColor="#0D0D0D" />
+      {/* backgroundColor removed: Android edge-to-edge (SDK 54+) ignores it */}
+      <StatusBar style="light" />
       {onboardingCompleted ? <AppNavigator /> : <OnboardingScreen />}
     </ErrorBoundary>
   );

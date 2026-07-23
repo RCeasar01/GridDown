@@ -226,7 +226,7 @@ function AdvisorInterface() {
 
   const checkModelStatus = async () => {
     try {
-      const FileSystem = await import('expo-file-system');
+      const FileSystem = await import('expo-file-system/legacy');
       const modelPath = `${FileSystem.documentDirectory}${MODEL_FILE}`;
       const info = await FileSystem.getInfoAsync(modelPath);
       if (info.exists) {
@@ -275,7 +275,7 @@ function AdvisorInterface() {
     try {
       setModelStatus('downloading');
       setDownloadProgress(0);
-      const FileSystem = await import('expo-file-system');
+      const FileSystem = await import('expo-file-system/legacy');
       const modelPath = `${FileSystem.documentDirectory}${MODEL_FILE}`;
       const downloadResumable = FileSystem.createDownloadResumable(
         MODEL_URL,
