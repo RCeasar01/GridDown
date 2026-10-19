@@ -32,6 +32,19 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         'GridDown does not access your photo library.',
       UIBackgroundModes: ['remote-notification'],
     },
+    // Apple Privacy Manifest (required since May 2024). Expo writes PrivacyInfo.xcprivacy
+    // into the app target and registers it in the Xcode project.
+    privacyManifests: {
+      NSPrivacyTracking: false,
+      NSPrivacyTrackingDomains: [],
+      NSPrivacyCollectedDataTypes: [],
+      NSPrivacyAccessedAPITypes: [
+        { NSPrivacyAccessedAPIType: 'NSPrivacyAccessedAPICategoryUserDefaults', NSPrivacyAccessedAPITypeReasons: ['CA92.1'] },
+        { NSPrivacyAccessedAPIType: 'NSPrivacyAccessedAPICategoryFileTimestamp', NSPrivacyAccessedAPITypeReasons: ['C617.1'] },
+        { NSPrivacyAccessedAPIType: 'NSPrivacyAccessedAPICategoryDiskSpace', NSPrivacyAccessedAPITypeReasons: ['E174.1'] },
+        { NSPrivacyAccessedAPIType: 'NSPrivacyAccessedAPICategorySystemBootTime', NSPrivacyAccessedAPITypeReasons: ['35F9.1'] },
+      ],
+    },
   },
   android: {
     adaptiveIcon: {
@@ -87,8 +100,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     // On-device LLM runtime (Field Intelligence). Adds iOS increased-memory
     // entitlements for production builds and C++20 flags for the native pods.
     ['llama.rn', { entitlementsProfile: 'production' }],
-    // Apple 2025: Privacy Manifest (PrivacyInfo.xcprivacy)
-    './plugins/withPrivacyManifest',
     // Android release signing from credentials/keystore.properties (gitignored).
     './plugins/withReleaseSigning',
   ],

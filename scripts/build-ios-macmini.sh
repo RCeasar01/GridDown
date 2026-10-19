@@ -20,7 +20,10 @@ export LANG=en_US.UTF-8
 echo ">> git pull"; git pull --ff-only || true
 echo ">> npm ci"; npm ci --no-audit --no-fund
 
-echo ">> npx expo prebuild --platform ios --clean"
+# NODE_ENV=production makes the llama.rn plugin add the iOS increased-memory
+# entitlements (needed to map the 2.4 GB model). Sim/device debug builds stay dev.
+if [ "$MODE" = "archive" ]; then export NODE_ENV=production; fi
+echo ">> npx expo prebuild --platform ios --clean  (NODE_ENV=${NODE_ENV:-development})"
 npx expo prebuild --platform ios --clean --no-install
 echo ">> pod install"; (cd ios && pod install --repo-update)
 
