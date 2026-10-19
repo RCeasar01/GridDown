@@ -1,11 +1,10 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
   StyleSheet,
   ScrollView,
   TouchableOpacity,
-  Dimensions,
   Platform,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
@@ -14,6 +13,7 @@ import { Colors } from '../theme/colors';
 // ─── Graceful sensor import ───────────────────────────────────────────────────
 let Magnetometer: any = null;
 try {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
   const sensors = require('expo-sensors');
   Magnetometer = sensors.Magnetometer;
 } catch (_) {
@@ -254,7 +254,7 @@ export const StarMapScreen: React.FC = () => {
     } catch (_) {
       setCompassOk(false);
     }
-    return () => { try { sub?.remove(); } catch (_) {} };
+    return () => { try { sub?.remove(); } catch (_) { /* already removed */ } };
   }, []);
 
   // ── Location ──────────────────────────────────────────────────────────────

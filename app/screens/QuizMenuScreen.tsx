@@ -43,7 +43,7 @@ export default function QuizMenuScreen() {
   const [drillState, setDrillState] = useState<{ completed: boolean; score: number | null }>({
     completed: false, score: null,
   });
-  const [loading, setLoading] = useState(true);
+  const [, setLoading] = useState(true);
 
   useEffect(() => {
     const load = async () => {

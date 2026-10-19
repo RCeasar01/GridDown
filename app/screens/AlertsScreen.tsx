@@ -222,7 +222,7 @@ export function AlertsScreen() {
   const fetchAlerts = useCallback(async () => {
     if (!configured) { setLoading(false); return; }
     setLoading(true);
-    let query = supabase
+    const query = supabase
       .from('gd_alerts')
       .select('*')
       .or(`expires_at.is.null,expires_at.gt.${new Date().toISOString()}`)

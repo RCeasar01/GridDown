@@ -26,7 +26,6 @@ const REVERSE_MORSE: Record<string, string> = Object.fromEntries(
 const DOT_MS = 80;
 const DASH_MS = 240;
 const SYMBOL_GAP = 80;
-const LETTER_GAP = 240;
 const WORD_GAP = 560;
 
 function encodeText(text: string): string {

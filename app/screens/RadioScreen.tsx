@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import {
   View, Text, ScrollView, TouchableOpacity, TextInput,
-  SafeAreaView, StyleSheet, FlatList, Alert,
+  SafeAreaView, StyleSheet, FlatList,
 } from 'react-native';
 import * as SQLite from 'expo-sqlite';
 import { Colors } from '../theme/colors';

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
 import {
   View, Text, ScrollView, TouchableOpacity, TextInput,
-  SafeAreaView, StyleSheet, Animated, Easing,
+  SafeAreaView, StyleSheet,
 } from 'react-native';
 import { Colors } from '../theme/colors';
 

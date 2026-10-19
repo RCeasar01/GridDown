@@ -1,7 +1,7 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 import {
   View, Text, ScrollView, TouchableOpacity, TextInput,
-  SafeAreaView, StyleSheet, FlatList,
+  SafeAreaView, StyleSheet,
 } from 'react-native';
 import { Colors } from '../theme/colors';
 import FOOD_DATA from '../assets/content/food-storage.json';
@@ -42,7 +42,7 @@ interface SupplyRow {
   totalCals: number;
 }
 
-function calcSupply(people: number, target: number): SupplyRow[] {
+function calcSupply(people: number, _target: number): SupplyRow[] {
   return ITEMS
     .filter((item) => item.lbsPerPerson30Day > 0)
     .map((item) => {

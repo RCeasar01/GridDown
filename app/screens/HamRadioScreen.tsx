@@ -109,7 +109,7 @@ export function HamRadioScreen() {
     const allRepeaters = repeaterData as Repeater[];
     const query = searchText.trim().toLowerCase();
 
-    let results = allRepeaters.filter((r) => {
+    const results = allRepeaters.filter((r) => {
       const matchesSearch =
         query === '' ||
         r.state.toLowerCase().includes(query) ||

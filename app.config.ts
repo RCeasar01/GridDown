@@ -55,6 +55,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     'expo-localization',
     'expo-sqlite',
     'expo-file-system',
+    'expo-sharing',
     [
       'expo-location',
       {

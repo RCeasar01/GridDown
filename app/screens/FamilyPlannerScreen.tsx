@@ -20,8 +20,8 @@ import {
 // ─── Optional imports with graceful fallback ─────────────────────────────────
 let Print: any = null;
 let Sharing: any = null;
-try { Print = require('expo-print'); } catch (_) {}
-try { Sharing = require('expo-sharing'); } catch (_) {}
+try { Print = require('expo-print'); } catch (_) { /* optional module */ }
+try { Sharing = require('expo-sharing'); } catch (_) { /* optional module */ }
 
 // ─── Constants ───────────────────────────────────────────────────────────────
 const TABS = ['FAMILY', 'CONTACTS', 'RALLY', 'PETS', 'DOCS', 'CARD'] as const;

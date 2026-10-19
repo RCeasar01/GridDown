@@ -79,8 +79,6 @@ export async function calculatePrepLevel(): Promise<PrepLevelStatus> {
     // Try to get readiness scan
     let overallScore = 0;
     let allCategoriesAbove50 = false;
-    let allCategoriesAbove75 = false;
-    let allCategoriesAbove90 = false;
     let scanComplete = false;
 
     try {
@@ -93,8 +91,6 @@ export async function calculatePrepLevel(): Promise<PrepLevelStatus> {
           scan.comms_score, scan.power_score, scan.navigation_score, scan.planning_score
         ];
         allCategoriesAbove50 = domainScores.every(s => s >= 50);
-        allCategoriesAbove75 = domainScores.every(s => s >= 75);
-        allCategoriesAbove90 = domainScores.every(s => s >= 90);
       }
     } catch { /* scan not available */ }
 
