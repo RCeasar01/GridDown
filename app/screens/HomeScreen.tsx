@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 import {
-  View, Text, ScrollView, StyleSheet,
-  TouchableOpacity, FlatList, SafeAreaView, Animated,
+  View, Text, ScrollView, StyleSheet, TouchableOpacity, FlatList, Animated,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { getLatestReadinessScan } from '../db/readinessScan';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';

@@ -1,9 +1,8 @@
 import React, { useEffect, useState, useCallback, useRef } from 'react';
 import {
-  View, Text, StyleSheet, SafeAreaView, ScrollView,
-  TouchableOpacity, Modal, TextInput, FlatList,
-  Alert, Share,
+  View, Text, StyleSheet, ScrollView, TouchableOpacity, Modal, TextInput, FlatList, Alert, Share,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Location from 'expo-location';
 import type * as SQLite from 'expo-sqlite';
 import { Ionicons } from '@expo/vector-icons';

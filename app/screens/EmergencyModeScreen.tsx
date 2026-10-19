@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import {
-  View, Text, ScrollView, StyleSheet,
-  TouchableOpacity,
-  SafeAreaView, StatusBar,
+  View, Text, ScrollView, StyleSheet, TouchableOpacity, StatusBar,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Clipboard from 'expo-clipboard';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';

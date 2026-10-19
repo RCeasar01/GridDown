@@ -2,6 +2,7 @@ import './app/i18n'; // Initialize i18next before anything else
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { AppNavigator } from './app/navigation/AppNavigator';
 import { OnboardingScreen } from './app/screens/OnboardingScreen';
 import { initDatabase } from './app/db/contentLoader';
@@ -106,10 +107,12 @@ export default function App() {
   }
 
   return (
-    <ErrorBoundary>
-      {/* backgroundColor removed: Android edge-to-edge (SDK 54+) ignores it */}
-      <StatusBar style="light" />
-      {onboardingCompleted ? <AppNavigator /> : <OnboardingScreen />}
-    </ErrorBoundary>
+    <SafeAreaProvider>
+      <ErrorBoundary>
+        {/* backgroundColor removed: Android edge-to-edge (SDK 54+) ignores it */}
+        <StatusBar style="light" />
+        {onboardingCompleted ? <AppNavigator /> : <OnboardingScreen />}
+      </ErrorBoundary>
+    </SafeAreaProvider>
   );
 }

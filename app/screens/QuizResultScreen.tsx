@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import {
-  View, Text, ScrollView, TouchableOpacity, SafeAreaView,
-  StyleSheet, Alert, Share, Modal, FlatList,
+  View, Text, ScrollView, TouchableOpacity, StyleSheet, Alert, Share, Modal, FlatList,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import * as Notifications from 'expo-notifications';

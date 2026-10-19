@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import {
-  View, Text, ScrollView, TouchableOpacity, TextInput,
-  SafeAreaView, StyleSheet, FlatList,
+  View, Text, ScrollView, TouchableOpacity, TextInput, StyleSheet, FlatList,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import * as SQLite from 'expo-sqlite';
 import { Colors } from '../theme/colors';
 import RADIO_DATA from '../assets/content/radio-frequencies.json';

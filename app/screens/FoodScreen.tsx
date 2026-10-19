@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {
-  View, Text, ScrollView, TouchableOpacity, TextInput,
-  SafeAreaView, StyleSheet,
+  View, Text, ScrollView, TouchableOpacity, TextInput, StyleSheet,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Colors } from '../theme/colors';
 import FOOD_DATA from '../assets/content/food-storage.json';
 

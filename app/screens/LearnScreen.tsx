@@ -1,8 +1,8 @@
 import React from 'react';
 import {
-  View, Text, ScrollView, TouchableOpacity,
-  SafeAreaView, StyleSheet,
+  View, Text, ScrollView, TouchableOpacity, StyleSheet,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';

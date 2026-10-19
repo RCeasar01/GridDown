@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {
-  View, Text, StyleSheet, SafeAreaView, ScrollView,
-  TouchableOpacity, Linking, Alert,
+  View, Text, StyleSheet, ScrollView, TouchableOpacity, Linking, Alert,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
 import { useAppStore } from '../store/useAppStore';

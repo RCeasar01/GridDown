@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
-  View, Text, StyleSheet,
-  SafeAreaView, SectionList, TouchableOpacity, ScrollView,
+  View, Text, StyleSheet, SectionList, TouchableOpacity, ScrollView,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 import { Colors } from '../theme/colors';
 import { SearchBar } from '../components/SearchBar';

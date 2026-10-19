@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {
-  View, Text, StyleSheet, TouchableOpacity, ScrollView,
-  SafeAreaView, Platform, StatusBar as RNStatusBar,
+  View, Text, StyleSheet, TouchableOpacity, ScrollView, Platform, StatusBar as RNStatusBar,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAppStore } from '../store/useAppStore';
 
 // ─── Data ──────────────────────────────────────────────────────────────────────

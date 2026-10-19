@@ -1,15 +1,8 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
-  SafeAreaView,
-  FlatList,
-  TextInput,
-  TouchableOpacity,
-  Alert,
-  Modal,
+  View, Text, StyleSheet, FlatList, TextInput, TouchableOpacity, Alert, Modal,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Clipboard from 'expo-clipboard';
 import { Ionicons } from '@expo/vector-icons';
 import * as Location from 'expo-location';

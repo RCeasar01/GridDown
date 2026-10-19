@@ -1,8 +1,8 @@
 import React, { useState, useCallback, useRef } from 'react';
 import {
-  View, Text, StyleSheet, SafeAreaView, ScrollView,
-  TextInput, TouchableOpacity, Alert,
+  View, Text, StyleSheet, ScrollView, TextInput, TouchableOpacity, Alert,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Clipboard from 'expo-clipboard';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
