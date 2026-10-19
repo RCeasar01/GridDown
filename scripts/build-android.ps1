@@ -29,6 +29,8 @@ $env:JAVA_HOME        = 'E:\Tools\jdk-21'
 $env:ANDROID_HOME     = 'E:\Android\Sdk'
 $env:ANDROID_SDK_ROOT = 'E:\Android\Sdk'
 $env:Path             = "E:\Tools\jdk-21\bin;E:\Android\Sdk\platform-tools;E:\Android\Sdk\cmdline-tools\latest\bin;$env:Path"
+# Gradle dependency/wrapper cache on E:\ (default is C:\Users\<you>\.gradle)
+$env:GRADLE_USER_HOME = 'E:\Android\.gradle'
 
 if ($Install) {
   $apk = Get-ChildItem "$root\android\app\build\outputs\apk" -Recurse -Filter '*.apk' | Sort-Object LastWriteTime -Descending | Select-Object -First 1

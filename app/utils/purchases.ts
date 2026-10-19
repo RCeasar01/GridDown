@@ -42,10 +42,18 @@ function getHighestTier(tiers: UserTier[]): UserTier {
 export async function initializePurchases(userId?: string): Promise<void> {
   try {
     const Purchases = await import('react-native-purchases');
-    const apiKey =
+    const apiKey = (
       Platform.OS === 'ios'
-        ? (process.env.EXPO_PUBLIC_REVENUECAT_IOS_KEY ?? 'PLACEHOLDER_IOS_KEY')
-        : (process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_KEY ?? 'PLACEHOLDER_ANDROID_KEY');
+        ? process.env.EXPO_PUBLIC_REVENUECAT_IOS_KEY
+        : process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_KEY
+    )?.trim();
+
+    if (!apiKey) {
+      // No RevenueCat key for this build: leave purchases unconfigured. The app
+      // stays on the free tier and the paywall reports purchases as unavailable.
+      if (__DEV__) console.warn('[purchases] EXPO_PUBLIC_REVENUECAT_*_KEY not set — IAP disabled in this build.');
+      return;
+    }
 
     await Purchases.default.configure({ apiKey });
 
