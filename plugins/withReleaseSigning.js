@@ -53,8 +53,9 @@ module.exports = function withReleaseSigning(config) {
     );
 
     // 3) Make the release buildType use it (template points release at debug by default).
+    // Anchor on buildTypes so the signingConfigs.release block added above is not matched.
     gradle = gradle.replace(
-      /(release\s*\{[\s\S]*?signingConfig\s+)signingConfigs\.debug/,
+      /(buildTypes\s*\{[\s\S]*?\n\s*release\s*\{[\s\S]*?signingConfig\s+)signingConfigs\.debug/,
       '$1signingConfigs.release',
     );
 
