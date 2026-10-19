@@ -214,16 +214,27 @@ Check every item before submitting for review.
 - [x] Upload keystore generated → `credentials/` (gitignored); `plugins/withReleaseSigning.js` wires it
 - [x] Local build scripts: `scripts/build-android.ps1`, `scripts/build-ios-macmini.sh`; `android/` + `ios/` gitignored (CNG)
 - [x] NDK 27.1.12297006 + cmake 3.22.1 + JDK 21 installed (all free)
+- [x] **Signed release AAB + APK built locally** → `_exports/GridDown-1.0.0-release-2026-10-19.{aab,apk}`;
+      `apksigner` verifies the BannedProduct upload cert (SHA-256 `89:74:3B:7B…`)
+- [x] **Emulator smoke test (Android 16, x86_64)**: cold start → onboarding → Home / Tools / More / Translator /
+      Advisor gate / Content Packs — no crashes; RevenueCat skips cleanly with no key
+- [x] **ML Kit translation verified end-to-end in the release build** (Spanish pack download + real translation)
+- [x] Fixed from screenshots: status-bar overlap (37 screens → safe-area-context + `SafeAreaProvider`), tab bar
+      under the gesture bar, Content Packs no longer fakes downloads (packs shown as "Coming soon")
+- [x] iOS: `ios.privacyManifests` replaces the plugin that wrote `PrivacyInfo.xcprivacy` outside the app target;
+      llama.rn increased-memory entitlements confirmed under `NODE_ENV=production` prebuild (validated on Linux)
 
 ### Open — needs Robert
 - [ ] **Back up `credentials/`** to `E:\Backups\GridDown-credentials\` and the F: drive (see `credentials/README.md`)
 - [ ] Mac mini: enable Remote Login, then run `scripts/build-ios-macmini.sh sim` to verify iOS compiles with llama.rn
 - [ ] Install the debug APK on a real Android phone; test Advisor download (2.4 GB over Wi-Fi) + a real answer
-- [ ] Test Translator language-pack download + translation on device
+- [ ] Test Translator on a real phone (verified on emulator)
 - [ ] Google Play Console account ($25 one-time) → create app, enroll Play App Signing, upload AAB to Internal testing
 - [ ] Apple Developer Program ($99/yr) → App Store Connect record, TestFlight
 - [ ] RevenueCat project + keys (free under $2.5k MTR) — `EXPO_PUBLIC_REVENUECAT_*` env before release builds
 - [ ] Community Alerts backend (Supabase free tier) — optional for v1.0; feature is hidden-safe without it
+- [ ] GitHub repo RCeasar01/GridDown is PUBLIC (needed for GitHub Pages legal hosting). To make it private, move docs/ to Cloudflare Pages on gdsurvival.com (free) and update the privacy/terms URLs
+
 ## v2.0.0-beta Feature Checklist
 
 ### Phase 1 — Emergency Mode
