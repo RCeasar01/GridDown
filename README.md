@@ -36,7 +36,7 @@ GridDown is a production-grade React Native app (Expo SDK 51) delivering 60+ off
 | State | Zustand |
 | Database | expo-sqlite (WAL mode) |
 | Subscriptions | RevenueCat (react-native-purchases ^7.27.0) |
-| On-device AI | llama.rn + Phi-3.5 Mini Q4_K_M (2.2 GB) |
+| On-device AI | llama.rn + Phi-3.5 Mini Q4_K_M (2.4 GB) |
 | File system | expo-file-system |
 | Location | expo-location |
 | Icons | @expo/vector-icons (Ionicons) |
@@ -163,44 +163,62 @@ GridDown/
 
 ## Development Setup
 
-### Prerequisites
-- Node.js 20+
-- npm 10+
-- Expo CLI: `npm install -g expo-cli`
-- EAS CLI: `npm install -g eas-cli`
+### Prerequisites (all free)
+- Node.js 24 (`C:\Program Files\nodejs`)
+- **Android:** JDK 21 (`E:\Tools\jdk-21`), Android SDK at `E:\Android\Sdk` with platforms 34/36,
+  build-tools 36, **NDK 27.1.12297006** and **cmake 3.22.1** (required by React Native 0.86 + llama.rn)
+- **iOS:** a Mac with Xcode 16+, CocoaPods, and an Apple Developer account ($99/yr â€” the only paid item)
+- No EAS account is required. Everything below builds locally at zero cost.
 
 ### Install
-```bash
-git clone https://github.com/RCeasar01/GridDown.git
-cd GridDown
-npm install --legacy-peer-deps
+```powershell
+git clone https://github.com/RCeasar01/GridDown.git E:\Projects\GridDown
+cd E:\Projects\GridDown
+npm ci
 ```
 
-### Run (development)
-```bash
+### Run (JS-only dev loop)
+```powershell
 npx expo start
 ```
+> `llama.rn` and ML Kit translation are native modules, so the **Advisor** and **Translator**
+> only run in a dev-client or store build â€” not in Expo Go. In Expo Go the Advisor shows a
+> labelled DEV demo mode and the Translator falls back to the pre-translated phrase cards.
+
+### Build â€” Android (Windows, local)
+```powershell
+.\scripts\build-android.ps1 -Target debug              # dev APK
+.\scripts\build-android.ps1 -Install                   # adb install to a connected phone
+.\scripts\build-android.ps1 -Target release            # Play Store AAB (signed)
+.\scripts\build-android.ps1 -Target release -Apk       # signed APK for sideload testing
+.\scripts\build-android.ps1 -Target debug -Prebuild    # regenerate android/ after app.config.ts changes
+```
+Outputs land in `android/app/build/outputs/`. The `android/` folder is generated
+(`npx expo prebuild`) and gitignored; `plugins/withReleaseSigning.js` re-applies the release
+signing config from `credentials/keystore.properties` on every prebuild.
+
+### Build â€” iOS (Mac mini, local)
+```bash
+bash scripts/build-ios-macmini.sh sim        # Simulator build, no signing
+bash scripts/build-ios-macmini.sh device     # Debug to a plugged-in iPhone
+bash scripts/build-ios-macmini.sh archive    # App Store .ipa
+```
+One-time Mac setup is documented at the top of that script.
+
+### Release signing
+`credentials/` (gitignored) holds the Android upload keystore. **Back it up** â€” see
+`credentials/README.md`. Enroll in Play App Signing when creating the Play listing.
 
 ### Generate Assets
-```bash
-npm install -g sharp
-NODE_PATH=$(npm root -g) node scripts/generate-assets.js
+```powershell
+node scripts/generate-assets.js
 ```
 
-### Build (EAS)
-```bash
-# Development build
-eas build --profile development --platform android
-
-# Production AAB (Android)
-eas build --profile production --platform android
-
-# Production iOS
-eas build --profile production --platform ios
-```
+### Build (EAS â€” optional, not used)
+`eas.json` is kept for reference. EAS Build's free tier is capped per month and bills beyond it;
+the local scripts above replace it.
 
 ---
-
 ## CI/CD
 
 GitHub Actions runs on every push to `main` and every PR:
@@ -232,16 +250,21 @@ Entitlement IDs (configure in RevenueCat dashboard):
 
 ---
 
-## On-Device AI (Extreme Tier)
+## On-Device AI (Pro+AI / Extreme Tier) â€” "Field Intelligence"
 
-Model: **Phi-3.5 Mini Instruct Q4_K_M** (2.2 GB)  
-Download: HuggingFace — `bartowski/Phi-3.5-mini-instruct-GGUF`  
-Engine: **llama.rn** (dynamic import, graceful fallback to scaffold mode)
+| | |
+|---|---|
+| Model | **Phi-3.5 Mini Instruct Q4_K_M** â€” 2.4 GB, MIT license |
+| Source | HuggingFace `bartowski/Phi-3.5-mini-instruct-GGUF` (downloaded once over Wi-Fi) |
+| Runtime | **llama.rn** 0.12.x (llama.cpp). Metal on iOS, CPU on Android |
+| Code | `app/utils/advisorEngine.ts` (owns the context) â†’ `app/screens/AdvisorScreen.tsx` |
+| Context | 2048 tokens, last 8 turns replayed, streaming tokens to the UI |
 
-The model is downloaded on first use to the app's document directory. All inference runs locally — no data leaves the device.
+All inference runs on the device. No prompt or answer ever leaves the phone; there is no API key
+and no per-user cost. The `llama.rn` config plugin adds the iOS increased-memory entitlements
+needed to map a 2.4 GB model. The Advisor checks free storage (3 GB headroom) before downloading.
 
 ---
-
 ## Medical Disclaimer
 
 Guides covering medical procedures (tagged `requiresMedicalDisclaimer: true`) are intended for use in austere environments where trained medical care is unavailable. They do not replace professional medical training or advice.

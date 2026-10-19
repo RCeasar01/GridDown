@@ -89,6 +89,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     ['llama.rn', { entitlementsProfile: 'production' }],
     // Apple 2025: Privacy Manifest (PrivacyInfo.xcprivacy)
     './plugins/withPrivacyManifest',
+    // Android release signing from credentials/keystore.properties (gitignored).
+    './plugins/withReleaseSigning',
   ],
   extra: {
     // EAS_PROJECT_ID must be set as an EAS secret / env var for production builds.

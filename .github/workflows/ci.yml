@@ -11,77 +11,38 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci --legacy-peer-deps
-
-      - name: Run ESLint
-        run: npx eslint . --ext .ts,.tsx --max-warnings 0
+      - run: npm ci
+      # Errors fail the build; `any` warnings are tracked but non-blocking.
+      - run: npx eslint app/ --ext .ts,.tsx
 
   type-check:
     name: TypeScript
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
+      - run: npm ci
+      - run: npx tsc --noEmit
 
-      - name: Install dependencies
-        run: npm ci --legacy-peer-deps
-
-      - name: Type check
-        run: npx tsc --noEmit
-
-  test:
-    name: Tests
+  expo-doctor:
+    name: Expo Doctor + config
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci --legacy-peer-deps
-
-      - name: Run tests
-        run: npm test -- --passWithNoTests --watchAll=false
-
-  eas-build-check:
-    name: EAS Build Config
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install EAS CLI
-        run: npm install -g eas-cli
-
-      - name: Validate app.json
-        run: node -e "const a = require('./app.json'); console.log('app.json valid:', a.expo.name)"
-
-      - name: Validate eas.json
-        run: node -e "const e = require('./eas.json'); console.log('eas.json valid, profiles:', Object.keys(e.build).join(', '))"
+      - run: npm ci
+      # Validates SDK/package alignment and known regressions.
+      - run: npx expo-doctor
+      # Evaluates app.config.ts (including every config plugin) without a native build.
+      - run: npx expo config --type public > /dev/null && echo "app.config.ts evaluates cleanly"

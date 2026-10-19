@@ -42,7 +42,7 @@ The banner is:
 
 ### What It Is
 
-"Field Intelligence" is an on-device AI advisor powered by **Phi-3.5 Mini Instruct (Q4_K_M quantization, ~2.2 GB)** via the `llama.rn` library.
+"Field Intelligence" is an on-device AI advisor powered by **Phi-3.5 Mini Instruct (Q4_K_M quantization, ~2.4 GB)** via the `llama.rn` library.
 
 ### Privacy & Data
 

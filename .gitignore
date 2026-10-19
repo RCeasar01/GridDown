@@ -32,3 +32,17 @@ web-build/
 
 # EAS
 eas-update/
+
+# Generated native projects (Continuous Native Generation — regenerate with `npx expo prebuild`)
+/android/
+/ios/
+
+# Release signing — NEVER commit. Backed up separately (see credentials/README.md)
+/credentials/
+*.keystore
+keystore.properties
+google-services-account.json
+
+# Local build logs / exports
+/android/*.log
+/_exports/
