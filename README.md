@@ -167,7 +167,7 @@ GridDown/
 - Node.js 24 (`C:\Program Files\nodejs`)
 - **Android:** JDK 21 (`E:\Tools\jdk-21`), Android SDK at `E:\Android\Sdk` with platforms 34/36,
   build-tools 36, **NDK 27.1.12297006** and **cmake 3.22.1** (required by React Native 0.86 + llama.rn)
-- **iOS:** a Mac with Xcode 16+, CocoaPods, and an Apple Developer account ($99/yr â€” the only paid item)
+- **iOS:** a Mac with Xcode 16+, CocoaPods, and an Apple Developer account ($99/yr — the only paid item)
 - No EAS account is required. Everything below builds locally at zero cost.
 
 ### Install
@@ -182,10 +182,10 @@ npm ci
 npx expo start
 ```
 > `llama.rn` and ML Kit translation are native modules, so the **Advisor** and **Translator**
-> only run in a dev-client or store build â€” not in Expo Go. In Expo Go the Advisor shows a
+> only run in a dev-client or store build — not in Expo Go. In Expo Go the Advisor shows a
 > labelled DEV demo mode and the Translator falls back to the pre-translated phrase cards.
 
-### Build â€” Android (Windows, local)
+### Build — Android (Windows, local)
 ```powershell
 .\scripts\build-android.ps1 -Target debug              # dev APK
 .\scripts\build-android.ps1 -Install                   # adb install to a connected phone
@@ -197,7 +197,7 @@ Outputs land in `android/app/build/outputs/`. The `android/` folder is generated
 (`npx expo prebuild`) and gitignored; `plugins/withReleaseSigning.js` re-applies the release
 signing config from `credentials/keystore.properties` on every prebuild.
 
-### Build â€” iOS (Mac mini, local)
+### Build — iOS (Mac mini, local)
 ```bash
 bash scripts/build-ios-macmini.sh sim        # Simulator build, no signing
 bash scripts/build-ios-macmini.sh device     # Debug to a plugged-in iPhone
@@ -206,7 +206,7 @@ bash scripts/build-ios-macmini.sh archive    # App Store .ipa
 One-time Mac setup is documented at the top of that script.
 
 ### Release signing
-`credentials/` (gitignored) holds the Android upload keystore. **Back it up** â€” see
+`credentials/` (gitignored) holds the Android upload keystore. **Back it up** — see
 `credentials/README.md`. Enroll in Play App Signing when creating the Play listing.
 
 ### Generate Assets
@@ -214,7 +214,7 @@ One-time Mac setup is documented at the top of that script.
 node scripts/generate-assets.js
 ```
 
-### Build (EAS â€” optional, not used)
+### Build (EAS — optional, not used)
 `eas.json` is kept for reference. EAS Build's free tier is capped per month and bills beyond it;
 the local scripts above replace it.
 
@@ -250,14 +250,14 @@ Entitlement IDs (configure in RevenueCat dashboard):
 
 ---
 
-## On-Device AI (Pro+AI / Extreme Tier) â€” "Field Intelligence"
+## On-Device AI (Pro+AI / Extreme Tier) — "Field Intelligence"
 
 | | |
 |---|---|
-| Model | **Phi-3.5 Mini Instruct Q4_K_M** â€” 2.4 GB, MIT license |
+| Model | **Phi-3.5 Mini Instruct Q4_K_M** — 2.4 GB, MIT license |
 | Source | HuggingFace `bartowski/Phi-3.5-mini-instruct-GGUF` (downloaded once over Wi-Fi) |
 | Runtime | **llama.rn** 0.12.x (llama.cpp). Metal on iOS, CPU on Android |
-| Code | `app/utils/advisorEngine.ts` (owns the context) â†’ `app/screens/AdvisorScreen.tsx` |
+| Code | `app/utils/advisorEngine.ts` (owns the context) → `app/screens/AdvisorScreen.tsx` |
 | Context | 2048 tokens, last 8 turns replayed, streaming tokens to the UI |
 
 All inference runs on the device. No prompt or answer ever leaves the phone; there is no API key

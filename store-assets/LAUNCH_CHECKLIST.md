@@ -13,7 +13,7 @@ Check every item before submitting for review.
 - [ ] No TODO or FIXME comments in production code
 - [ ] No placeholder text or lorem ipsum anywhere in the app
 - [x] `app.config.ts` has correct bundle ID (`com.bannedproduct.griddown`)
-- [x] `eas.json` `appVersionSource` is set to `remote` *(EAS optional â€” local builds are primary)*
+- [x] `eas.json` `appVersionSource` is set to `remote` *(EAS optional — local builds are primary)*
 - [ ] Local release build succeeds: `.\scripts\build-android.ps1 -Target release` (Android) and `scripts/build-ios-macmini.sh archive` (iOS)
 - [ ] Version code/build number incremented from any prior submission
 - [ ] `fast-mlkit-translate-text` + `llama.rn` native modules confirmed working in a dev-client build (not Expo Go)
@@ -204,26 +204,26 @@ Check every item before submitting for review.
 ## 2026-10-19 Deployment-Readiness Pass (post Expo SDK 57 upgrade)
 
 ### Done
-- [x] `expo-doctor` 21/21 green â€” fixed Hermes V1 memory-regression (expo 57.0.8 â†’ 57.0.30, RN 0.86.3)
+- [x] `expo-doctor` 21/21 green — fixed Hermes V1 memory-regression (expo 57.0.8 → 57.0.30, RN 0.86.3)
 - [x] All 23 ESLint errors cleared; tsc 0 errors with the stale `.d.ts` stubs removed
 - [x] **Advisor is real**: `llama.rn` 0.12.9 installed + config plugin; `advisorEngine.ts` owns the context;
       streaming tokens; history window; free-space guard; model URL fixed (old URL returned HTTP 401)
-- [x] **Crash fix**: `supabase.ts` no longer calls `createClient('')` at import â€” Community Alerts
+- [x] **Crash fix**: `supabase.ts` no longer calls `createClient('')` at import — Community Alerts
       screen opens safely with no backend and shows store-safe "coming soon" copy
 - [x] **Translator is real**: `fast-mlkit-translate-text` (Google ML Kit on-device, free) replaces the no-op stub
-- [x] Upload keystore generated â†’ `credentials/` (gitignored); `plugins/withReleaseSigning.js` wires it
+- [x] Upload keystore generated → `credentials/` (gitignored); `plugins/withReleaseSigning.js` wires it
 - [x] Local build scripts: `scripts/build-android.ps1`, `scripts/build-ios-macmini.sh`; `android/` + `ios/` gitignored (CNG)
 - [x] NDK 27.1.12297006 + cmake 3.22.1 + JDK 21 installed (all free)
 
-### Open â€” needs Robert
+### Open — needs Robert
 - [ ] **Back up `credentials/`** to `E:\Backups\GridDown-credentials\` and the F: drive (see `credentials/README.md`)
 - [ ] Mac mini: enable Remote Login, then run `scripts/build-ios-macmini.sh sim` to verify iOS compiles with llama.rn
 - [ ] Install the debug APK on a real Android phone; test Advisor download (2.4 GB over Wi-Fi) + a real answer
 - [ ] Test Translator language-pack download + translation on device
-- [ ] Google Play Console account ($25 one-time) â†’ create app, enroll Play App Signing, upload AAB to Internal testing
-- [ ] Apple Developer Program ($99/yr) â†’ App Store Connect record, TestFlight
-- [ ] RevenueCat project + keys (free under $2.5k MTR) â€” `EXPO_PUBLIC_REVENUECAT_*` env before release builds
-- [ ] Community Alerts backend (Supabase free tier) â€” optional for v1.0; feature is hidden-safe without it
+- [ ] Google Play Console account ($25 one-time) → create app, enroll Play App Signing, upload AAB to Internal testing
+- [ ] Apple Developer Program ($99/yr) → App Store Connect record, TestFlight
+- [ ] RevenueCat project + keys (free under $2.5k MTR) — `EXPO_PUBLIC_REVENUECAT_*` env before release builds
+- [ ] Community Alerts backend (Supabase free tier) — optional for v1.0; feature is hidden-safe without it
 ## v2.0.0-beta Feature Checklist
 
 ### Phase 1 — Emergency Mode

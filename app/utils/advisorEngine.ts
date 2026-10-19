@@ -1,5 +1,5 @@
 ﻿/**
- * advisorEngine.ts â€” Field Intelligence on-device LLM runtime.
+ * advisorEngine.ts — Field Intelligence on-device LLM runtime.
  *
  * Thin wrapper around llama.rn (llama.cpp for React Native). Owns the single
  * loaded LlamaContext so screens never hold native handles directly.
@@ -69,7 +69,7 @@ export function isModelLoaded(): boolean {
 
 /**
  * Load a GGUF model from an absolute file path. Idempotent for the same path.
- * @param onProgress 0â€“100 while llama.cpp maps the weights.
+ * @param onProgress 0–100 while llama.cpp maps the weights.
  */
 export async function loadModel(
   modelPath: string,

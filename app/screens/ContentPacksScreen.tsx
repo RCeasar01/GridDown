@@ -6,47 +6,27 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
 import { useAppStore, ContentPack } from '../store/useAppStore';
-import { useNavigation } from '@react-navigation/native';
 
 function formatBytes(bytes: number): string {
   if (bytes < 1_000_000) return `${(bytes / 1000).toFixed(0)} KB`;
   return `${(bytes / 1_000_000).toFixed(1)} MB`;
 }
 
-const TIER_LABEL: Record<string, string> = {
-  free: 'Free',
-  discord: 'Discord',
-  monthly: 'Monthly',
-  yearly: 'Yearly',
-  lifetime_standard: 'Lifetime',
-  extreme_monthly: 'Extreme',
-  extreme_yearly: 'Extreme',
-  extreme_lifetime: 'Extreme Lifetime',
-};
-
 export function ContentPacksScreen() {
-  const { contentPacks, hasAccess, setContentPacks } = useAppStore();
-  const navigation = useNavigation<any>();
+  const { contentPacks, setContentPacks } = useAppStore();
 
   const installed = contentPacks.filter((p) => p.installed);
   const available = contentPacks.filter((p) => !p.installed);
   const totalInstalled = installed.reduce((sum, p) => sum + p.sizeBytes, 0);
 
+  // v1.0 ships every guide inside the app. Downloadable expansion packs are a
+  // future feature, so this never pretends to download anything.
   const handleDownload = (pack: ContentPack) => {
-    if (!hasAccess(pack.requiredTier)) {
-      Alert.alert(
-        'Upgrade Required',
-        `${pack.name} requires ${TIER_LABEL[pack.requiredTier]} tier or higher.`,
-        [
-          { text: 'Cancel', style: 'cancel' },
-          { text: 'Upgrade', onPress: () => navigation.navigate('Home', { screen: 'Paywall' }) },
-        ],
-      );
-      return;
-    }
-    // Scaffold: simulate install
-    Alert.alert('Download Started', `${pack.name} is downloadingâ€¦ (${formatBytes(pack.sizeBytes)})\n\nNote: This is a scaffold. Real download will pull from CDN.`);
-    setContentPacks(contentPacks.map((p) => (p.id === pack.id ? { ...p, installed: true } : p)));
+    Alert.alert(
+      'Coming Soon',
+      `${pack.name} will be available as a downloadable expansion in a future update. ` +
+        'Every guide in this version is already on your device and works offline.',
+    );
   };
 
   const handleRemove = (pack: ContentPack) => {
@@ -77,7 +57,7 @@ export function ContentPacksScreen() {
         </View>
 
         {/* Installed */}
-        <Text style={styles.sectionTitle}>âœ… INSTALLED ({installed.length})</Text>
+        <Text style={styles.sectionTitle}>INCLUDED IN THIS VERSION ({installed.length})</Text>
         {installed.map((pack) => (
           <PackCard key={pack.id} pack={pack} installed onAction={() => handleRemove(pack)} />
         ))}
@@ -85,14 +65,14 @@ export function ContentPacksScreen() {
         {/* Available */}
         {available.length > 0 && (
           <>
-            <Text style={styles.sectionTitle}>ðŸ“¥ AVAILABLE TO DOWNLOAD</Text>
+            <Text style={styles.sectionTitle}>COMING SOON</Text>
             {available.map((pack) => (
               <PackCard
                 key={pack.id}
                 pack={pack}
                 installed={false}
-                locked={!hasAccess(pack.requiredTier)}
-                requiredTierLabel={TIER_LABEL[pack.requiredTier]}
+                locked={false}
+                comingSoon
                 onAction={() => handleDownload(pack)}
               />
             ))}
@@ -116,10 +96,11 @@ interface PackCardProps {
   installed: boolean;
   locked?: boolean;
   requiredTierLabel?: string;
+  comingSoon?: boolean;
   onAction: () => void;
 }
 
-function PackCard({ pack, installed, locked, requiredTierLabel, onAction }: PackCardProps) {
+function PackCard({ pack, installed, locked, requiredTierLabel, comingSoon, onAction }: PackCardProps) {
   return (
     <View style={styles.packCard}>
       <View style={styles.packInfo}>
@@ -133,7 +114,7 @@ function PackCard({ pack, installed, locked, requiredTierLabel, onAction }: Pack
           )}
         </View>
         <Text style={styles.packDesc}>{pack.description}</Text>
-        <Text style={styles.packSize}>{formatBytes(pack.sizeBytes)} Â· v{pack.version}</Text>
+        <Text style={styles.packSize}>{formatBytes(pack.sizeBytes)} · v{pack.version}</Text>
       </View>
       <TouchableOpacity
         style={[
@@ -143,9 +124,18 @@ function PackCard({ pack, installed, locked, requiredTierLabel, onAction }: Pack
         onPress={onAction}
       >
         <Ionicons
-          name={installed ? 'trash-outline' : locked ? 'lock-closed-outline' : 'download-outline'}
+          name={
+            installed ? (pack.id === 'core' ? 'checkmark-circle-outline' : 'trash-outline')
+              : comingSoon ? 'time-outline'
+              : locked ? 'lock-closed-outline'
+              : 'download-outline'
+          }
           size={16}
-          color={installed ? Colors.danger : locked ? Colors.textMuted : Colors.secondary}
+          color={
+            installed ? (pack.id === 'core' ? Colors.secondary : Colors.danger)
+              : locked || comingSoon ? Colors.textMuted
+              : Colors.secondary
+          }
         />
       </TouchableOpacity>
     </View>
