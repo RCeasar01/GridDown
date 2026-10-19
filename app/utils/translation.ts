@@ -1,23 +1,50 @@
 /**
  * GridDown Offline Translation Utility
  *
- * NOTE: @react-native-ml-kit/translate does not exist on npm (as of 2025).
- * The translate calls below are stubbed out — text is returned unchanged.
- * Wire up a real translation package (e.g. react-native-mlkit-translate or
- * a cloud translation API) when ready, and replace the STUB section below.
+ * Backend: fast-mlkit-translate-text (Google ML Kit on-device translation).
+ * - Language packs (~30 MB each) download once over the network, then
+ *   translation runs fully offline with no API keys and no per-use cost.
+ * - The native module is only present in dev-client / store builds. In
+ *   Expo Go the calls below reject and the UI falls back to the
+ *   pre-translated emergency phrase cards.
  */
 
 import * as Localization from 'expo-localization';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // ---------------------------------------------------------------------------
-// STUB: no-op translation backend
-// Replace with real implementation when a working package is chosen.
+// Backend: ML Kit (lazy-loaded so a missing native module never crashes)
 // ---------------------------------------------------------------------------
-const _mlKitTranslate = {
-  translate: async (text: string, _from: string, _to: string): Promise<string> => text,
-};
+type MlKitLanguage =
+  | 'English' | 'Spanish' | 'French' | 'Portuguese' | 'German' | 'Arabic'
+  | 'Chinese' | 'Japanese' | 'Korean' | 'Russian' | 'Hindi';
 
+interface MlKitBackend {
+  prepare(options: { source: MlKitLanguage; target: MlKitLanguage; downloadIfNeeded?: boolean }): Promise<unknown>;
+  translate(text: string): Promise<string>;
+  downloadLanguageModel(lang: MlKitLanguage): Promise<boolean>;
+  deleteLanguageModel(lang: MlKitLanguage): Promise<boolean>;
+  isLanguageDownloaded(lang: MlKitLanguage): Promise<boolean>;
+}
+
+let backend: MlKitBackend | null | undefined;
+
+async function getBackend(): Promise<MlKitBackend | null> {
+  if (backend !== undefined) return backend;
+  try {
+    const mod = await import('fast-mlkit-translate-text');
+    const candidate = (mod.default ?? mod) as unknown as MlKitBackend;
+    backend = typeof candidate.translate === 'function' ? candidate : null;
+  } catch {
+    backend = null;
+  }
+  return backend;
+}
+
+/** True when on-device translation is available in this build. */
+export async function isTranslationAvailable(): Promise<boolean> {
+  return (await getBackend()) !== null;
+}
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
@@ -59,7 +86,7 @@ export const SUPPORTED_LANGUAGES: LanguageInfo[] = [
 ];
 
 const DOWNLOADED_MODELS_KEY = 'griddown_downloaded_translation_models';
-const SOURCE_LANGUAGE = 'en';
+const SOURCE_LANGUAGE = 'en' as const;
 
 // ---------------------------------------------------------------------------
 // Model download tracking (persisted)
@@ -83,14 +110,29 @@ async function saveDownloadedModels(models: SupportedLanguage[]): Promise<void> 
   }
 }
 
+const ML_KIT_NAME: Record<SupportedLanguage | 'en', MlKitLanguage> = {
+  en: 'English', es: 'Spanish', fr: 'French', pt: 'Portuguese', de: 'German',
+  ar: 'Arabic', zh: 'Chinese', ja: 'Japanese', ko: 'Korean', ru: 'Russian', hi: 'Hindi',
+};
+
 export async function isModelDownloaded(languageCode: SupportedLanguage): Promise<boolean> {
-  try {
-    await _mlKitTranslate.translate('test', SOURCE_LANGUAGE, languageCode);
-    return true;
-  } catch {
-    const models = await getDownloadedModels();
-    return models.includes(languageCode);
+  const mlkit = await getBackend();
+  if (mlkit) {
+    try {
+      return await mlkit.isLanguageDownloaded(ML_KIT_NAME[languageCode]);
+    } catch { /* fall through to cached list */ }
   }
+  const models = await getDownloadedModels();
+  return models.includes(languageCode);
+}
+
+export async function deleteLanguageModel(languageCode: SupportedLanguage): Promise<void> {
+  const mlkit = await getBackend();
+  if (mlkit) {
+    try { await mlkit.deleteLanguageModel(ML_KIT_NAME[languageCode]); } catch { /* ignore */ }
+  }
+  const existing = await getDownloadedModels();
+  await saveDownloadedModels(existing.filter((c) => c !== languageCode));
 }
 
 export async function downloadLanguageModel(
@@ -100,8 +142,14 @@ export async function downloadLanguageModel(
   onProgress?.({ languageCode, progress: 0.05, status: 'downloading' });
 
   try {
+    const mlkit = await getBackend();
+    if (!mlkit) throw new Error('On-device translation is not available in this build.');
     onProgress?.({ languageCode, progress: 0.1, status: 'downloading' });
-    await _mlKitTranslate.translate('hello world', SOURCE_LANGUAGE, languageCode);
+    // ML Kit needs both the source (English) and target packs.
+    const ok = await mlkit.downloadLanguageModel(ML_KIT_NAME[languageCode]);
+    if (!ok) throw new Error('Language pack download was rejected by the device.');
+    onProgress?.({ languageCode, progress: 0.9, status: 'downloading' });
+    await mlkit.prepare({ source: ML_KIT_NAME[SOURCE_LANGUAGE], target: ML_KIT_NAME[languageCode], downloadIfNeeded: true });
     onProgress?.({ languageCode, progress: 1.0, status: 'complete' });
     const existing = await getDownloadedModels();
     if (!existing.includes(languageCode)) {
@@ -119,9 +167,12 @@ export async function translateText(
   targetLang: SupportedLanguage,
 ): Promise<string> {
   if (!text.trim()) return text;
+  const mlkit = await getBackend();
+  if (!mlkit) return text;
   try {
-    const result: string = await _mlKitTranslate.translate(text, SOURCE_LANGUAGE, targetLang);
-    return result ?? text;
+    await mlkit.prepare({ source: ML_KIT_NAME[SOURCE_LANGUAGE], target: ML_KIT_NAME[targetLang], downloadIfNeeded: false });
+    const result = await mlkit.translate(text);
+    return typeof result === 'string' && result.length > 0 ? result : text;
   } catch {
     return text;
   }

@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { Colors } from '../../theme/colors';
-import { supabase } from '../../db/supabase';
+import { getSupabase } from '../../db/supabase';
 
 export function ForgotPasswordScreen() {
   const navigation = useNavigation();
@@ -16,6 +16,8 @@ export function ForgotPasswordScreen() {
   const handleReset = async () => {
     if (!email.trim()) { Alert.alert('Error', 'Enter your email address.'); return; }
     setLoading(true);
+    const supabase = getSupabase();
+    if (!supabase) { setLoading(false); Alert.alert('Unavailable', 'Account features are not available in this version.'); return; }
     const { error } = await supabase.auth.resetPasswordForEmail(email.trim());
     setLoading(false);
     if (error) { Alert.alert('Error', error.message); return; }

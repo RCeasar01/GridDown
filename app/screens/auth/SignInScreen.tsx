@@ -6,7 +6,7 @@ import {
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Colors } from '../../theme/colors';
-import { supabase } from '../../db/supabase';
+import { getSupabase } from '../../db/supabase';
 import type { MoreStackParamList } from '../../navigation/AppNavigator';
 
 type Nav = NativeStackNavigationProp<MoreStackParamList, 'SignIn'>;
@@ -20,6 +20,8 @@ export function SignInScreen() {
   const handleSignIn = async () => {
     if (!email.trim() || !password) { Alert.alert('Error', 'Enter email and password.'); return; }
     setLoading(true);
+    const supabase = getSupabase();
+    if (!supabase) { setLoading(false); Alert.alert('Unavailable', 'Account features are not available in this version.'); return; }
     const { error } = await supabase.auth.signInWithPassword({ email: email.trim(), password });
     setLoading(false);
     if (error) { Alert.alert('Sign In Failed', error.message); return; }

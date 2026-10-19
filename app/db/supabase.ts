@@ -1,4 +1,4 @@
-import { createClient } from '@supabase/supabase-js';
+import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 
 // Credentials come from environment variables (set in .env.local or EAS secrets).
 // Falls back to empty strings so TypeScript is satisfied — app gracefully
@@ -6,17 +6,31 @@ import { createClient } from '@supabase/supabase-js';
 const SUPABASE_URL = (process.env.EXPO_PUBLIC_SUPABASE_URL ?? '').trim();
 const SUPABASE_ANON_KEY = (process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY ?? '').trim();
 
-export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-  auth: {
-    persistSession: true,
-    autoRefreshToken: true,
-    detectSessionInUrl: false,
-  },
-  realtime: { params: { eventsPerSecond: 10 } },
-});
-
 export function isSupabaseConfigured(): boolean {
   return SUPABASE_URL.length > 0 && SUPABASE_ANON_KEY.length > 0;
+}
+
+let client: SupabaseClient | null = null;
+
+/**
+ * Lazily created client. Returns null when the backend is not configured —
+ * createClient() throws on an empty URL, which would crash the app at import
+ * time in any build without Supabase keys (i.e. every store build until the
+ * Community Alerts backend is provisioned).
+ */
+export function getSupabase(): SupabaseClient | null {
+  if (!isSupabaseConfigured()) return null;
+  if (!client) {
+    client = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+      auth: {
+        persistSession: true,
+        autoRefreshToken: true,
+        detectSessionInUrl: false,
+      },
+      realtime: { params: { eventsPerSecond: 10 } },
+    });
+  }
+  return client;
 }
 
 export type AlertType =

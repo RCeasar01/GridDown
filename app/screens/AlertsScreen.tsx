@@ -7,7 +7,7 @@ import {
 import * as Location from 'expo-location';
 import * as Notifications from 'expo-notifications';
 import { Colors } from '../theme/colors';
-import { supabase, isSupabaseConfigured, GdAlert, AlertType, AlertSeverity } from '../db/supabase';
+import { getSupabase, isSupabaseConfigured, GdAlert, AlertType, AlertSeverity } from '../db/supabase';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -79,6 +79,8 @@ function PostAlertModal({ visible, userLocation, onClose, onPosted }: PostAlertM
 
   const handlePost = async () => {
     if (!canPost) return;
+    const supabase = getSupabase();
+    if (!supabase) return;
     setPosting(true);
     const { data: { user } } = await supabase.auth.getUser();
     const expiresAt = expiryHours > 0
@@ -206,7 +208,7 @@ export function AlertsScreen() {
   const [location, setLocation] = useState<{ lat: number; lon: number } | null>(null);
   const [showPost, setShowPost] = useState(false);
   const configured = isSupabaseConfigured();
-  const subRef = useRef<ReturnType<typeof supabase.channel> | null>(null);
+  const subRef = useRef<{ unsubscribe: () => unknown } | null>(null);
 
   // Request location
   useEffect(() => {
@@ -220,7 +222,8 @@ export function AlertsScreen() {
   }, []);
 
   const fetchAlerts = useCallback(async () => {
-    if (!configured) { setLoading(false); return; }
+    const supabase = getSupabase();
+    if (!configured || !supabase) { setLoading(false); return; }
     setLoading(true);
     const query = supabase
       .from('gd_alerts')
@@ -247,7 +250,8 @@ export function AlertsScreen() {
 
   // Realtime subscription
   useEffect(() => {
-    if (!configured) return;
+    const supabase = getSupabase();
+    if (!configured || !supabase) return;
     subRef.current = supabase
       .channel('gd_alerts_realtime')
       .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'gd_alerts' }, async (payload) => {
@@ -279,9 +283,10 @@ export function AlertsScreen() {
           <Text style={al.unconfiguredIcon}>📡</Text>
           <Text style={al.unconfiguredTitle}>Community Alerts</Text>
           <Text style={al.unconfiguredText}>
-            Community alerts require a Supabase backend. Add{'\n'}
-            EXPO_PUBLIC_SUPABASE_URL and{'\n'}
-            EXPO_PUBLIC_SUPABASE_ANON_KEY to your .env.local file.
+            Community Alerts lets nearby GridDown users share real-time local
+            hazard reports. This feature is coming in a future update and is not
+            yet active in this version.
+            {__DEV__ ? '\n\n[DEV] Set EXPO_PUBLIC_SUPABASE_URL and EXPO_PUBLIC_SUPABASE_ANON_KEY to enable.' : ''}
           </Text>
         </View>
       </SafeAreaView>

@@ -8,6 +8,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { Colors } from '../theme/colors';
 import { useAppStore } from '../store/useAppStore';
+import * as engine from '../utils/advisorEngine';
+import { ADVISOR_MODEL, HISTORY_TURNS } from '../utils/advisorEngine';
 
 interface Message {
   id: string;
@@ -30,10 +32,9 @@ type ModelStatus =
 
 type AdvisorMode = 'instructor' | 'scenario' | 'gear' | 'planner';
 
-const MODEL_NAME = 'Phi-3.5 Mini Instruct (Q4, 2.2 GB)';
-const MODEL_FILE = 'phi-3.5-mini-q4.gguf';
-const MODEL_URL =
-  'https://huggingface.co/microsoft/Phi-3.5-mini-instruct-gguf/resolve/main/Phi-3.5-mini-instruct-Q4_K_M.gguf';
+const MODEL_NAME = `${ADVISOR_MODEL.name} · ${ADVISOR_MODEL.sizeLabel}`;
+const MODEL_FILE = ADVISOR_MODEL.file;
+const MODEL_URL = ADVISOR_MODEL.url;
 
 const SYSTEM_PROMPTS: Record<AdvisorMode, string> = {
   instructor:
@@ -219,9 +220,16 @@ function AdvisorInterface() {
   const [inputIsMedical, setInputIsMedical] = useState(false);
   const [mode, setMode] = useState<AdvisorMode>('instructor');
   const listRef = useRef<FlatList>(null);
+  const [errorDetail, setErrorDetail] = useState<string | null>(null);
+  const [loadProgress, setLoadProgress] = useState(0);
 
   useEffect(() => {
     checkModelStatus();
+    // Free native memory when the user leaves the Advisor.
+    return () => {
+      engine.stopGeneration();
+      engine.releaseModel();
+    };
   }, []);
 
   const checkModelStatus = async () => {
@@ -243,9 +251,10 @@ function AdvisorInterface() {
   const initModel = async (modelPath: string) => {
     try {
       setModelStatus('loading');
-      const { initLlama } = await import('llama.rn').catch(() => ({ initLlama: null }));
-      if (initLlama) {
-        await initLlama({ model: modelPath, n_ctx: 2048, n_batch: 512 });
+      setLoadProgress(0);
+      const runtimeOk = await engine.isRuntimeAvailable();
+      if (runtimeOk) {
+        await engine.loadModel(modelPath, (pct) => setLoadProgress(pct));
         setModelStatus('online');
         setMessages([
           {
@@ -255,28 +264,49 @@ function AdvisorInterface() {
             timestamp: Date.now(),
           },
         ]);
-      } else {
+      } else if (__DEV__) {
+        // Expo Go / web preview: native runtime is not linked. Demo mode only.
         setModelStatus('online');
         setMessages([
           {
             id: '0',
             role: 'advisor',
-            text: 'Field Intelligence initialized in scaffold mode. Model runtime will be active in production build. Ask your question for a demonstration response.',
+            text: 'Field Intelligence running in DEV demo mode (native AI runtime not linked in this build). Responses are canned. Use a dev-client or store build for the real model.',
             timestamp: Date.now(),
           },
         ]);
+      } else {
+        setErrorDetail('The on-device AI runtime is not available in this build. Please update GridDown from the store.');
+        setModelStatus('error');
       }
-    } catch {
+    } catch (err) {
+      setErrorDetail(err instanceof Error ? err.message : 'The model failed to initialize.');
       setModelStatus('error');
     }
   };
 
   const handleDownload = async () => {
     try {
-      setModelStatus('downloading');
-      setDownloadProgress(0);
+      setErrorDetail(null);
       const FileSystem = await import('expo-file-system/legacy');
       const modelPath = `${FileSystem.documentDirectory}${MODEL_FILE}`;
+
+      // Guard: enough free storage for the model plus headroom.
+      try {
+        const free = await FileSystem.getFreeDiskStorageAsync();
+        if (free < ADVISOR_MODEL.minFreeBytes) {
+          const needGb = (ADVISOR_MODEL.minFreeBytes / 1e9).toFixed(1);
+          const haveGb = (free / 1e9).toFixed(1);
+          setErrorDetail(`Not enough free storage. The model needs about ${needGb} GB free; this device has ${haveGb} GB.`);
+          setModelStatus('error');
+          return;
+        }
+      } catch {
+        /* storage check unsupported on this platform — proceed */
+      }
+
+      setModelStatus('downloading');
+      setDownloadProgress(0);
       const downloadResumable = FileSystem.createDownloadResumable(
         MODEL_URL,
         modelPath,
@@ -289,11 +319,20 @@ function AdvisorInterface() {
           setDownloadProgress(pct);
         },
       );
-      await downloadResumable.downloadAsync();
+      const result = await downloadResumable.downloadAsync();
+      if (!result || (result.status && result.status >= 400)) {
+        throw new Error(`Download failed (HTTP ${result?.status ?? 'unknown'}).`);
+      }
       setModelStatus('loading');
       await initModel(modelPath);
     } catch (err) {
-      setModelStatus('not_downloaded');
+      // Remove any partial file so the next attempt starts clean.
+      try {
+        const FileSystem = await import('expo-file-system/legacy');
+        await FileSystem.deleteAsync(`${FileSystem.documentDirectory}${MODEL_FILE}`, { idempotent: true });
+      } catch { /* nothing to clean */ }
+      setErrorDetail(err instanceof Error ? err.message : 'Download failed. Check your connection and try again.');
+      setModelStatus('error');
     }
   };
 
@@ -336,53 +375,64 @@ function AdvisorInterface() {
       ? `${modeSystemPrompt}\n\n${MEDICAL_SYSTEM_ADDENDUM}`
       : modeSystemPrompt;
 
+    const advisorId = String(Date.now() + 1);
     try {
       let responseText: string;
-      const { getLlamaContext } = await import('llama.rn').catch(() => ({ getLlamaContext: null }));
-      if (getLlamaContext) {
-        const ctx = getLlamaContext();
-        if (ctx) {
-          const result = await ctx.completion({
-            messages: [
-              { role: 'system', content: effectiveSystemPrompt },
-              ...messages.map((m) => ({
-                role: m.role === 'user' ? 'user' : 'assistant',
-                content: m.text,
-              })),
-              { role: 'user', content: userText },
-            ],
-            n_predict: 512,
+      if (engine.isModelLoaded()) {
+        // Replay only the last N turns so we stay inside the model's context window.
+        // The first message is the mode greeting, which we skip.
+        const history = messages
+          .filter((m, idx) => idx > 0 && !m.text.startsWith('['))
+          .slice(-HISTORY_TURNS * 2)
+          .map<engine.ChatMessage>((m) => ({
+            role: m.role === 'user' ? 'user' : 'assistant',
+            content: m.text.replace(MEDICAL_FOOTER, '').trim(),
+          }));
+
+        // Streaming: push an empty advisor bubble, then fill it token by token.
+        setMessages((prev) => [
+          ...prev,
+          { id: advisorId, role: 'advisor', text: '', timestamp: Date.now() + 100, isMedical: medical, relatedGuideId: relatedGuideId ?? undefined },
+        ]);
+        let streamed = '';
+        responseText = await engine.generate(
+          [
+            { role: 'system', content: effectiveSystemPrompt },
+            ...history,
+            { role: 'user', content: userText },
+          ],
+          {
+            maxTokens: 512,
             temperature: 0.7,
-          });
-          responseText = result.text;
-        } else {
-          responseText = scaffoldResponse(userText);
-        }
+            onToken: (token) => {
+              streamed += token;
+              const snapshot = streamed;
+              setMessages((prev) => prev.map((m) => (m.id === advisorId ? { ...m, text: snapshot } : m)));
+            },
+          },
+        );
+        if (!responseText) responseText = streamed.trim();
       } else {
         responseText = scaffoldResponse(userText);
+        setMessages((prev) => [
+          ...prev,
+          { id: advisorId, role: 'advisor', text: '', timestamp: Date.now() + 100, isMedical: medical, relatedGuideId: relatedGuideId ?? undefined },
+        ]);
       }
 
       if (medical) {
         responseText = `${responseText}\n\n${MEDICAL_FOOTER}`;
       }
 
-      const advisorMsg: Message = {
-        id: String(Date.now() + 1),
-        role: 'advisor',
-        text: responseText,
-        timestamp: Date.now() + 100,
-        isMedical: medical,
-        relatedGuideId: relatedGuideId ?? undefined,
-      };
-      setMessages((prev) => [...prev, advisorMsg]);
+      const finalText = responseText;
+      setMessages((prev) => prev.map((m) => (m.id === advisorId ? { ...m, text: finalText } : m)));
     } catch {
-      const errMsg: Message = {
-        id: String(Date.now() + 1),
-        role: 'advisor',
-        text: '[Error during inference. Model may need to be re-downloaded.]',
-        timestamp: Date.now() + 100,
-      };
-      setMessages((prev) => [...prev, errMsg]);
+      const errText = '[Error during inference. Model may need to be re-downloaded.]';
+      setMessages((prev) =>
+        prev.some((m) => m.id === advisorId)
+          ? prev.map((m) => (m.id === advisorId ? { ...m, text: errText } : m))
+          : [...prev, { id: advisorId, role: 'advisor', text: errText, timestamp: Date.now() + 100 }],
+      );
     } finally {
       setIsGenerating(false);
       setTimeout(() => listRef.current?.scrollToEnd({ animated: true }), 100);
@@ -436,12 +486,12 @@ function AdvisorInterface() {
           <View style={styles.modelInfoCard}>
             <Text style={styles.modelLabel}>MODEL</Text>
             <Text style={styles.modelName}>{MODEL_NAME}</Text>
-            <Text style={styles.modelSize}>Download size: ~2.2 GB · Wi-Fi recommended</Text>
+            <Text style={styles.modelSize}>Download size: {ADVISOR_MODEL.sizeLabel} · Wi-Fi recommended</Text>
           </View>
           <TouchableOpacity
             style={styles.downloadBtn}
             onPress={handleDownload}
-            accessibilityLabel="Download the Field Intelligence AI model (2.2 GB)"
+            accessibilityLabel={`Download the Field Intelligence AI model (${ADVISOR_MODEL.sizeLabel})`}
             accessibilityRole="button"
           >
             <Ionicons name="download-outline" size={20} color="#fff" />
@@ -478,6 +528,11 @@ function AdvisorInterface() {
         <View style={styles.centered}>
           <ActivityIndicator size="large" color={Colors.secondary} />
           <Text style={styles.loadingText}>Loading model into memory…</Text>
+          {loadProgress > 0 && (
+            <View style={styles.progressBarContainer}>
+              <View style={[styles.progressBarFill, { width: `${Math.min(100, loadProgress)}%` }]} />
+            </View>
+          )}
           <Text style={styles.loadingSubText}>This takes 10–30 seconds on first load.</Text>
         </View>
       </SafeAreaView>
@@ -491,11 +546,11 @@ function AdvisorInterface() {
           <Ionicons name="warning-outline" size={48} color={Colors.danger} />
           <Text style={styles.downloadTitle}>MODEL ERROR</Text>
           <Text style={styles.downloadDesc}>
-            The model failed to initialize. Try re-downloading.
+            {errorDetail ?? 'The model failed to initialize. Try re-downloading.'}
           </Text>
           <TouchableOpacity
             style={[styles.downloadBtn, { backgroundColor: Colors.danger }]}
-            onPress={() => setModelStatus('not_downloaded')}
+            onPress={() => { setErrorDetail(null); setModelStatus('not_downloaded'); }}
             accessibilityLabel="Re-download the AI model"
             accessibilityRole="button"
           >

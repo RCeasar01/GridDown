@@ -84,6 +84,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         },
       },
     ],
+    // On-device LLM runtime (Field Intelligence). Adds iOS increased-memory
+    // entitlements for production builds and C++20 flags for the native pods.
+    ['llama.rn', { entitlementsProfile: 'production' }],
     // Apple 2025: Privacy Manifest (PrivacyInfo.xcprivacy)
     './plugins/withPrivacyManifest',
   ],

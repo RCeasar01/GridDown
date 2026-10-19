@@ -6,7 +6,7 @@ import {
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Colors } from '../../theme/colors';
-import { supabase } from '../../db/supabase';
+import { getSupabase } from '../../db/supabase';
 import type { MoreStackParamList } from '../../navigation/AppNavigator';
 
 type Nav = NativeStackNavigationProp<MoreStackParamList, 'SignUp'>;
@@ -23,6 +23,8 @@ export function SignUpScreen() {
     if (password !== confirm) { Alert.alert('Error', 'Passwords do not match.'); return; }
     if (password.length < 6) { Alert.alert('Error', 'Password must be at least 6 characters.'); return; }
     setLoading(true);
+    const supabase = getSupabase();
+    if (!supabase) { setLoading(false); Alert.alert('Unavailable', 'Account features are not available in this version.'); return; }
     const { error } = await supabase.auth.signUp({ email: email.trim(), password });
     setLoading(false);
     if (error) { Alert.alert('Sign Up Failed', error.message); return; }
