@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Ionicons } from '@expo/vector-icons';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Colors } from '../theme/colors';
 
 // Screens — Home
@@ -376,6 +377,9 @@ const TAB_ICONS: Record<string, { focused: string; outline: string }> = {
 };
 
 export function AppNavigator() {
+  // Edge-to-edge (Android 15+ / iOS home indicator): grow the bar by the bottom inset
+  // so labels never sit under the gesture area. A fixed height would ignore it.
+  const insets = useSafeAreaInsets();
   return (
     <NavigationContainer>
       <Tab.Navigator
@@ -385,8 +389,8 @@ export function AppNavigator() {
             backgroundColor: Colors.tabBar,
             borderTopColor: Colors.tabBarBorder,
             borderTopWidth: 1,
-            height: 60,
-            paddingBottom: 8,
+            height: 60 + insets.bottom,
+            paddingBottom: 8 + insets.bottom,
           },
           tabBarActiveTintColor: Colors.tabActive,
           tabBarInactiveTintColor: Colors.tabInactive,
