@@ -14,6 +14,7 @@ import { ADVISOR_MODELS, DOWNLOAD_HEADROOM_BYTES, type AdvisorModel, type Adviso
 import { retrieveGuides } from '../utils/guideRetrieval';
 import { routeEmergency } from '../triage/router';
 import { saveReport, buildReportMailto, REPORT_REASONS, type ReportReason } from '../utils/advisorReports';
+import { isMedicalQuery, getRelatedGuide } from '../utils/medicalQuery';
 import { getAvailableTrees } from '../triage/registry';
 
 interface Message {
@@ -83,42 +84,6 @@ const MEDICAL_FOOTER =
   '---\n' +
   '⚠ MEDICAL GUIDE REFERENCE ONLY\n' +
   'This information is from GridDown\'s educational guides only. Always call emergency services when available. — Field Intelligence';
-
-const MEDICAL_KEYWORDS = [
-  'blood', 'wound', 'bleeding', 'injury', 'hurt', 'pain',
-  'tourniquet', 'airway', 'breathing', 'pulse', 'shock',
-  'unconscious', 'unresponsive', 'seizure', 'stroke', 'heart',
-  'cardiac', 'chest', 'fracture', 'burn', 'poisoning', 'overdose',
-  'allergic', 'anaphylaxis', 'CPR', 'rescue', 'dying', 'dead',
-  'triage', 'medic', 'hemorrhage', 'trauma', 'surgery', 'stitch',
-  'suture', 'splint', 'infection', 'fever', 'diabetic', 'insulin',
-];
-
-const MEDICAL_KEYWORD_TO_GUIDE: Record<string, string> = {
-  tourniquet: 'medical-002',
-  bleeding:   'medical-002',
-  wound:      'medical-003',
-  airway:     'medical-001',
-  breathing:  'medical-001',
-  cpr:        'medical-006',
-  shock:      'medical-004',
-  triage:     'medical-001',
-  burn:       'medical-005',
-  fracture:   'medical-007',
-};
-
-function isMedicalQuery(text: string): boolean {
-  const lower = text.toLowerCase();
-  return MEDICAL_KEYWORDS.some((kw) => lower.includes(kw.toLowerCase()));
-}
-
-function getRelatedGuide(text: string): string | null {
-  const lower = text.toLowerCase();
-  for (const [kw, guideId] of Object.entries(MEDICAL_KEYWORD_TO_GUIDE)) {
-    if (lower.includes(kw)) return guideId;
-  }
-  return null;
-}
 
 // Apple 2024 AI Disclosure (required for apps using AI-generated content)
 const AI_DISCLOSURE =
