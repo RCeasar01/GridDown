@@ -1,0 +1,258 @@
+{
+  "id": "severe-bleeding",
+  "title": "Severe Bleeding",
+  "summary": "Stop life-threatening bleeding: tourniquet, wound packing, or direct pressure.",
+  "icon": "water",
+  "schemaVersion": 1,
+  "version": "0.1.0",
+  "sources": [
+    "Stop the Bleed (American College of Surgeons)",
+    "TCCC Guidelines (Committee on Tactical Combat Casualty Care)"
+  ],
+  "reviewStatus": "draft",
+  "firstLine": "Make sure the scene is safe. If you can reach 911 or anyone with medical training, send someone to call now. Put on gloves if you have them.",
+  "startNode": "q-life-threat",
+  "nodes": [
+    {
+      "type": "question",
+      "id": "q-life-threat",
+      "prompt": "Is the bleeding life-threatening?",
+      "help": "Yes if blood is spurting, pooling on the ground, soaking through clothing or bandages, a limb is partly or fully amputated, or the person is pale, confused, or fading.",
+      "options": [
+        { "label": "Yes", "next": "q-location" },
+        { "label": "No / not sure it is that bad", "next": "a-minor" }
+      ]
+    },
+    {
+      "type": "question",
+      "id": "q-location",
+      "prompt": "Where is the bleeding coming from?",
+      "options": [
+        { "label": "Arm or leg", "next": "q-tourniquet" },
+        { "label": "Neck, armpit, or groin", "next": "a-pack" },
+        { "label": "Chest, belly, or back", "next": "a-torso" }
+      ]
+    },
+    {
+      "type": "question",
+      "id": "q-tourniquet",
+      "prompt": "Do you have a tourniquet?",
+      "help": "A commercial tourniquet (CAT, SOF-T, SWAT-T) or a strap at least 1.5 inches wide plus a stick or rod to twist it tight.",
+      "options": [
+        { "label": "Yes", "next": "a-tourniquet" },
+        { "label": "No", "next": "a-pressure-limb" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-tourniquet",
+      "title": "Apply the tourniquet",
+      "steps": [
+        "Place it 2 to 3 inches above the wound, between the wound and the heart. Never on a joint. If you can't find the wound quickly, put it as high on the limb as you can.",
+        "Pull the strap as tight as possible, then twist the rod until the bleeding stops.",
+        "Lock the rod in place.",
+        "Write the time on the tourniquet or the person's forehead.",
+        "If bleeding continues after it is tight, add a second tourniquet just above the first."
+      ],
+      "doNot": [
+        "Do not loosen or remove the tourniquet once it is on. Leave that to medical care.",
+        "Do not use a thin cord, wire, or zip tie. It cuts tissue and does not stop arterial bleeding.",
+        "Do not cover the tourniquet. People need to see it."
+      ],
+      "guideId": "medical-002",
+      "continueLabel": "Bleeding stopped - next",
+      "next": "q-controlled"
+    },
+    {
+      "type": "action",
+      "id": "a-pressure-limb",
+      "title": "Hard direct pressure",
+      "steps": [
+        "Put cloth or gauze on the wound and press straight down with both hands, as hard as you can.",
+        "Lock your arms and use your body weight. Kneel on it if you must.",
+        "If the wound is deep, pack it with cloth first (push it into the wound until full), then press.",
+        "Keep pressing without peeking. Hold at least 10 minutes.",
+        "Meanwhile have someone improvise a tourniquet: a belt or wide strap plus a sturdy stick, twisted tight above the wound."
+      ],
+      "doNot": [
+        "Do not lift your hands to check the wound. Releasing pressure restarts the bleeding.",
+        "Do not remove soaked cloth. Add more on top and keep pressing."
+      ],
+      "guideId": "medical-003",
+      "timerSeconds": 600,
+      "next": "q-controlled"
+    },
+    {
+      "type": "action",
+      "id": "a-pack",
+      "title": "Pack the wound and press",
+      "steps": [
+        "Find where the blood is coming from. Open clothing if needed.",
+        "Push gauze or clean cloth deep into the wound with your fingers, right onto the bleeding spot. Keep feeding it in until the wound is packed full.",
+        "Press down on the packed wound with both hands, hard.",
+        "Hold pressure for at least 3 minutes with hemostatic gauze, or 10 minutes with plain gauze or cloth.",
+        "Then wrap it tightly with a bandage to keep pressure on."
+      ],
+      "doNot": [
+        "Do not put a tourniquet around the neck.",
+        "Do not remove packing once it is in. Add more on top if it soaks through."
+      ],
+      "guideId": "medical-004",
+      "timerSeconds": 600,
+      "next": "q-controlled"
+    },
+    {
+      "type": "action",
+      "id": "a-torso",
+      "title": "Chest, belly, or back wound",
+      "steps": [
+        "Press firmly on the wound with cloth or gauze.",
+        "Chest wound with bubbling or sucking sounds: cover it with plastic or a chest seal, taped on all sides (or three sides if that is all you can do).",
+        "Belly wound with organs showing: do not push them back in. Cover with a clean, moist cloth.",
+        "Let a conscious person with a chest wound sit up if that helps them breathe.",
+        "Get them to a surgeon as fast as possible. Torso bleeding cannot be fully controlled in the field."
+      ],
+      "doNot": [
+        "Do not pack deep into the chest or belly.",
+        "Do not remove an object stuck in the body. Pad around it to keep it still."
+      ],
+      "next": "e-torso"
+    },
+    {
+      "type": "question",
+      "id": "q-controlled",
+      "prompt": "Has the bleeding stopped?",
+      "options": [
+        { "label": "Yes", "next": "a-shock" },
+        { "label": "No, still bleeding", "next": "q-still-limb" }
+      ]
+    },
+    {
+      "type": "question",
+      "id": "q-still-limb",
+      "prompt": "Is it an arm or leg wound?",
+      "options": [
+        { "label": "Yes", "next": "a-escalate-limb" },
+        { "label": "No", "next": "a-escalate-other" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-escalate-limb",
+      "title": "Escalate",
+      "steps": [
+        "If a tourniquet is on: tighten it more, then add a second one right above it.",
+        "If no tourniquet: pack the wound and keep hard pressure. Keep trying to make a tourniquet.",
+        "Swap in a fresh person to hold pressure if your arms are giving out."
+      ],
+      "next": "q-controlled-2"
+    },
+    {
+      "type": "action",
+      "id": "a-escalate-other",
+      "title": "Repack and press harder",
+      "steps": [
+        "Add more packing on top of what is already in the wound. Do not pull it out.",
+        "Press harder, with straight arms and your body weight.",
+        "Hold for another 10 minutes.",
+        "Swap in a fresh person to hold pressure if your arms are giving out."
+      ],
+      "timerSeconds": 600,
+      "next": "q-controlled-2"
+    },
+    {
+      "type": "question",
+      "id": "q-controlled-2",
+      "prompt": "Has the bleeding stopped now?",
+      "options": [
+        { "label": "Yes", "next": "a-shock" },
+        { "label": "No", "next": "e-uncontrolled" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-shock",
+      "title": "Prevent shock",
+      "steps": [
+        "Lay the person flat. Let them sit up only if they have a chest wound and breathe easier that way.",
+        "Keep them warm. Put insulation under them and cover them, even in mild weather. Cold makes bleeding worse.",
+        "Keep talking to them. Watch for confusion, pale or clammy skin, or fast breathing, which are signs of shock.",
+        "Check the wound and any tourniquet every few minutes for new bleeding."
+      ],
+      "doNot": [
+        "Do not give food or drink if they may need surgery or are not fully alert."
+      ],
+      "guideId": "medical-006",
+      "next": "e-controlled"
+    },
+    {
+      "type": "action",
+      "id": "a-minor",
+      "title": "Control the bleeding",
+      "steps": [
+        "Press firmly on the wound with clean cloth or gauze for 10 minutes without lifting.",
+        "Once it stops, rinse the wound with clean water.",
+        "Cover with a clean bandage.",
+        "If bleeding soaks through or starts spurting, treat it as life-threatening."
+      ],
+      "timerSeconds": 600,
+      "next": "q-minor-ok"
+    },
+    {
+      "type": "question",
+      "id": "q-minor-ok",
+      "prompt": "Did the bleeding stop?",
+      "options": [
+        { "label": "Yes", "next": "e-minor" },
+        { "label": "No, it is getting worse", "next": "q-location" }
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-controlled",
+      "title": "Bleeding controlled - get them to care",
+      "outcome": "evacuate",
+      "steps": [
+        "Get the person to a hospital or medic. Anyone who needed a tourniquet needs surgical care.",
+        "Keep them warm and lying down.",
+        "Recheck the wound and tourniquet every 5 minutes.",
+        "Tell the medic the tourniquet time and what you did. Use the handoff log below."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-torso",
+      "title": "Get to a surgeon now",
+      "outcome": "critical",
+      "steps": [
+        "Evacuate immediately by the fastest means available.",
+        "Keep pressure on the wound during transport.",
+        "Keep them warm. Watch their breathing.",
+        "If they stop breathing normally, start CPR."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-uncontrolled",
+      "title": "Bleeding not controlled",
+      "outcome": "critical",
+      "steps": [
+        "Keep hard pressure on the wound without stopping. Rotate people holding pressure.",
+        "Evacuate immediately by the fastest means available.",
+        "Keep them warm and lying flat.",
+        "If they stop breathing normally, start CPR."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-minor",
+      "title": "Bleeding stopped",
+      "outcome": "stable",
+      "steps": [
+        "Keep the wound clean and covered. Change the bandage daily or when wet.",
+        "Watch for infection over the next days: spreading redness, swelling, warmth, pus, red streaks, or fever.",
+        "Deep or gaping wounds, bites, and dirty wounds need medical care when it is available."
+      ]
+    }
+  ]
+}

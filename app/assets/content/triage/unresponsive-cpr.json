@@ -1,0 +1,203 @@
+{
+  "id": "unresponsive-cpr",
+  "title": "Unresponsive / CPR",
+  "summary": "Someone collapsed or won't wake up: check breathing, start CPR, use an AED.",
+  "icon": "heart",
+  "schemaVersion": 1,
+  "version": "0.1.0",
+  "sources": [
+    "American Heart Association Guidelines for CPR and Emergency Cardiovascular Care",
+    "Wilderness Medical Society Clinical Practice Guidelines"
+  ],
+  "reviewStatus": "draft",
+  "firstLine": "Make sure the scene is safe for you. Shout for help. If anyone can reach 911, have them call now and bring an AED if one exists.",
+  "startNode": "q-responsive",
+  "nodes": [
+    {
+      "type": "question",
+      "id": "q-responsive",
+      "prompt": "Tap their shoulder hard and shout. Do they respond?",
+      "options": [
+        { "label": "Yes, they respond", "next": "e-responsive" },
+        { "label": "No response", "next": "q-breathing" }
+      ]
+    },
+    {
+      "type": "question",
+      "id": "q-breathing",
+      "prompt": "Are they breathing normally?",
+      "help": "Look at the chest for 5 to 10 seconds. Occasional gasps are NOT normal breathing. If cold and possibly hypothermic, look for up to 1 minute.",
+      "options": [
+        { "label": "Yes, breathing normally", "next": "a-recovery" },
+        { "label": "No, or only gasping", "next": "q-age" }
+      ]
+    },
+    {
+      "type": "question",
+      "id": "q-age",
+      "prompt": "Who is it?",
+      "options": [
+        { "label": "Adult or teen", "next": "a-cpr-adult" },
+        { "label": "Child (1 year to puberty)", "next": "a-cpr-child" },
+        { "label": "Infant (under 1 year)", "next": "a-cpr-infant" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-cpr-adult",
+      "title": "Start CPR - adult",
+      "steps": [
+        "Lay them on their back on a firm surface.",
+        "Put the heel of one hand on the center of the chest, other hand on top.",
+        "Push hard and fast: at least 2 inches deep, 100 to 120 pushes per minute (the beat of \"Stayin' Alive\").",
+        "Let the chest come all the way back up between pushes.",
+        "If trained and willing: after every 30 pushes, tilt the head back, lift the chin, and give 2 breaths that make the chest rise. If not, do continuous pushes only.",
+        "For drowning, give breaths if you can. Oxygen is the main problem."
+      ],
+      "doNot": [
+        "Do not stop pushes for more than 10 seconds.",
+        "Do not be afraid of hurting them. Broken ribs are common and survivable; no CPR is fatal."
+      ],
+      "next": "q-aed"
+    },
+    {
+      "type": "action",
+      "id": "a-cpr-child",
+      "title": "Start CPR - child",
+      "steps": [
+        "Lay them on their back on a firm surface.",
+        "Use one or two hands on the center of the chest.",
+        "Push about 2 inches deep (one third of the chest depth), 100 to 120 pushes per minute.",
+        "Let the chest come all the way back up between pushes.",
+        "If trained: give 2 breaths after every 30 pushes (15 if two rescuers). Breaths matter more for children."
+      ],
+      "doNot": ["Do not stop pushes for more than 10 seconds."],
+      "next": "q-aed"
+    },
+    {
+      "type": "action",
+      "id": "a-cpr-infant",
+      "title": "Start CPR - infant",
+      "steps": [
+        "Lay the baby on their back on a firm surface.",
+        "Circle the chest with both hands and push with both thumbs (or use the heel of one hand), on the breastbone just below the nipple line.",
+        "Push about 1.5 inches deep (one third of the chest depth), 100 to 120 per minute.",
+        "Give 2 gentle breaths after every 30 pushes: cover the baby's mouth and nose with your mouth and puff just enough to make the chest rise."
+      ],
+      "doNot": [
+        "Do not tilt the head far back. A neutral, sniffing position opens an infant's airway.",
+        "Do not shake the baby."
+      ],
+      "next": "q-aed"
+    },
+    {
+      "type": "question",
+      "id": "q-aed",
+      "prompt": "Is an AED (defibrillator) available?",
+      "options": [
+        { "label": "Yes", "next": "a-aed" },
+        { "label": "No", "next": "a-continue" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-aed",
+      "title": "Use the AED",
+      "steps": [
+        "Turn it on and follow its voice prompts.",
+        "Bare and dry the chest. Stick the pads where the pictures show.",
+        "Make sure nobody is touching the person when it analyzes or shocks.",
+        "Restart chest pushes right after each shock or \"no shock advised.\""
+      ],
+      "next": "a-continue"
+    },
+    {
+      "type": "action",
+      "id": "a-continue",
+      "title": "Keep going",
+      "steps": [
+        "Keep doing CPR. Switch rescuers every 2 minutes to stay strong.",
+        "Stop only if they start breathing normally or move, a trained responder takes over, the scene becomes unsafe, or you are physically unable to continue."
+      ],
+      "continueLabel": "Something changed",
+      "next": "q-outcome"
+    },
+    {
+      "type": "question",
+      "id": "q-outcome",
+      "prompt": "What changed?",
+      "options": [
+        { "label": "They are breathing normally now", "next": "a-recovery" },
+        { "label": "Help took over", "next": "e-handoff" },
+        { "label": "Long time, no signs of life, no help coming", "next": "e-prolonged" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-recovery",
+      "title": "Recovery position",
+      "steps": [
+        "Roll them onto their side, top knee bent, head tilted back slightly so fluid can drain from the mouth.",
+        "If an injury to the neck or back is likely, keep them on their back and hold the head still unless they vomit.",
+        "Keep them warm.",
+        "Check their breathing every minute or two."
+      ],
+      "continueLabel": "Next",
+      "next": "q-still-breathing"
+    },
+    {
+      "type": "question",
+      "id": "q-still-breathing",
+      "prompt": "Are they still breathing normally?",
+      "options": [
+        { "label": "Yes", "next": "e-breathing" },
+        { "label": "No - stopped or only gasping", "next": "q-age" }
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-responsive",
+      "title": "They are responsive",
+      "outcome": "monitor",
+      "steps": [
+        "Ask what happened and what hurts. Look for bleeding and injuries.",
+        "Keep them still and warm. Do not let them get up if they collapsed.",
+        "Chest pain, trouble breathing, one-sided weakness, slurred speech, or confusion means they need a hospital urgently.",
+        "If they become unresponsive, start this protocol again."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-breathing",
+      "title": "Unresponsive but breathing",
+      "outcome": "evacuate",
+      "steps": [
+        "Keep them in the recovery position and warm.",
+        "Never leave them alone. Check breathing every minute or two.",
+        "Get them to medical care as soon as you can.",
+        "If breathing stops, start CPR immediately."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-handoff",
+      "title": "Handed off",
+      "outcome": "evacuate",
+      "steps": [
+        "Tell the responder when they collapsed, when CPR started, and how many AED shocks were given.",
+        "Share the handoff log below."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-prolonged",
+      "title": "Prolonged CPR without help",
+      "outcome": "critical",
+      "steps": [
+        "Without advanced care, survival after about 30 minutes of CPR with no signs of life is extremely unlikely.",
+        "Exceptions: cold-water drowning, severe hypothermia, or lightning strike. Keep going longer if it is safe to do so.",
+        "Stopping is a judgment call when you are exhausted or your group is put at risk. You are not to blame. You gave them their only chance."
+      ]
+    }
+  ]
+}

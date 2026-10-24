@@ -1,0 +1,126 @@
+{
+  "id": "hypothermia",
+  "title": "Hypothermia",
+  "summary": "Too cold: shivering, confused, or soaked in the cold. Stop heat loss and rewarm safely.",
+  "icon": "snow",
+  "schemaVersion": 1,
+  "version": "0.1.0",
+  "sources": [
+    "Wilderness Medical Society Clinical Practice Guidelines for Out-of-Hospital Evaluation and Treatment of Accidental Hypothermia",
+    "U.S. Army FM 21-76 / ATP 3-50.21 Survival (cold-weather injuries)"
+  ],
+  "reviewStatus": "draft",
+  "firstLine": "Get the person out of wind, water, and wet ground now. Handle them gently. Send someone to call for help if you can.",
+  "startNode": "q-responsive",
+  "nodes": [
+    {
+      "type": "question",
+      "id": "q-responsive",
+      "prompt": "Are they awake and responding?",
+      "options": [
+        { "label": "Yes", "next": "q-shivering" },
+        { "label": "No", "next": "q-breathing" }
+      ]
+    },
+    {
+      "type": "question",
+      "id": "q-breathing",
+      "prompt": "Are they breathing?",
+      "help": "Cold slows breathing a lot. Watch and listen carefully for up to 1 full minute before deciding.",
+      "options": [
+        { "label": "Yes, breathing", "next": "a-severe" },
+        { "label": "No breathing after 1 minute", "next": "e-cpr" }
+      ]
+    },
+    {
+      "type": "question",
+      "id": "q-shivering",
+      "prompt": "Which fits best?",
+      "options": [
+        { "label": "Shivering hard, but thinking and talking clearly", "next": "a-mild" },
+        { "label": "Confused, clumsy, slurring, very drowsy, or shivering has stopped", "next": "a-severe" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-mild",
+      "title": "Mild hypothermia - rewarm",
+      "steps": [
+        "Get them into shelter, out of the wind.",
+        "Replace wet clothing with dry layers. If you can't, wrap a plastic or foil layer over the wet clothes to stop evaporation.",
+        "Insulate from the ground with pads, packs, or branches. The ground steals more heat than the air.",
+        "Give warm, sugary drinks and high-calorie food if they can swallow safely. Shivering burns fuel.",
+        "Light activity is OK once they are dry and fed, if they are steady on their feet.",
+        "Share body heat in a sleeping bag if needed."
+      ],
+      "doNot": [
+        "Do not give alcohol.",
+        "Do not keep pushing on in wet clothes hoping to warm up by moving."
+      ],
+      "next": "q-mild-better"
+    },
+    {
+      "type": "question",
+      "id": "q-mild-better",
+      "prompt": "After 30 minutes, are they improving?",
+      "options": [
+        { "label": "Yes, warming up and shivering less", "next": "e-mild" },
+        { "label": "No, or getting confused or drowsy", "next": "a-severe" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-severe",
+      "title": "Moderate or severe hypothermia",
+      "steps": [
+        "Handle them very gently. Rough movement can trigger a fatal heart rhythm.",
+        "Keep them lying flat. Do not let them walk or stand.",
+        "Cut off wet clothing rather than pulling it off, if you can do it without exposing them for long.",
+        "Make a hypothermia wrap: insulation underneath, a sleeping bag or blankets around, and a plastic or foil layer outside, covering the head and leaving the face open.",
+        "Place warm water bottles or heat packs wrapped in cloth on the chest, armpits, and back. Not directly on skin.",
+        "Only give sugary drinks if they are alert enough to swallow safely."
+      ],
+      "doNot": [
+        "Do not rub or massage arms and legs.",
+        "Do not put them in a hot bath or shower.",
+        "Do not give food or drink if they are drowsy or confused."
+      ],
+      "next": "e-severe"
+    },
+    {
+      "type": "end",
+      "id": "e-mild",
+      "title": "Recovering from mild hypothermia",
+      "outcome": "monitor",
+      "steps": [
+        "Keep them dry, fed, and insulated. Keep them in shelter until fully rewarmed.",
+        "Fix what caused it (wet clothes, no shelter, not enough food) before moving on.",
+        "Watch the rest of the group. If one person is hypothermic, others may be close."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-severe",
+      "title": "Evacuate - severe hypothermia",
+      "outcome": "critical",
+      "steps": [
+        "This person needs a hospital. Evacuate lying flat, wrapped, and handled gently.",
+        "Check breathing every few minutes, watching up to a full minute each time.",
+        "If breathing stops, start CPR. Someone severely hypothermic can survive long CPR.",
+        "If they become alert and start shivering, that is a good sign. Keep them wrapped."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-cpr",
+      "title": "Not breathing - start CPR",
+      "outcome": "critical",
+      "steps": [
+        "Start CPR now and use an AED if available.",
+        "Hypothermic patients can survive prolonged CPR. Do not give up early if it is safe to continue.",
+        "Keep them insulated from the ground and wrapped as much as CPR allows."
+      ],
+      "switchToTree": "unresponsive-cpr"
+    }
+  ]
+}

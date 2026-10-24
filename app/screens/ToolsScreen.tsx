@@ -7,6 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Colors } from '../theme/colors';
 import { ToolsStackParamList } from '../navigation/AppNavigator';
+import { getAvailableTrees } from '../triage/registry';
 
 type Nav = NativeStackNavigationProp<ToolsStackParamList, 'ToolsMain'>;
 
@@ -16,7 +17,14 @@ type ToolCard = {
   screen: keyof ToolsStackParamList;
 };
 
+// Emergency protocols lead the list, and only appear once at least one tree is
+// available in this build (drafts are dev-only until clinically reviewed).
+const PROTOCOL_TOOL: ToolCard[] = getAvailableTrees().length > 0
+  ? [{ emoji: '🚑', title: 'Emergency Protocols', screen: 'Triage' }]
+  : [];
+
 const TOOLS: ToolCard[] = [
+  ...PROTOCOL_TOOL,
   { emoji: '📡', title: 'HAM Radio Repeaters', screen: 'HamRadio' },
   { emoji: '🔤', title: 'Morse Code', screen: 'MorseCode' },
   { emoji: '🗺️', title: 'Offline Map', screen: 'Map' },
