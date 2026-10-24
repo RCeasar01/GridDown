@@ -55,7 +55,16 @@ jobs:
           node-version: '24'
           cache: 'npm'
       - run: npm ci
-      # Validates SDK/package alignment and known regressions.
+      # Validates config, lockfile, peer deps, native-module support, known regressions.
+      # The *patch-version* check is advisory (next step): expo-doctor compares against
+      # Expo's LIVE SDK 57 list, so every upstream patch release turned CI red for days.
       - run: npx expo-doctor
+        env:
+          EXPO_DOCTOR_SKIP_DEPENDENCY_VERSION_CHECK: '1'
+      # Surfaces drift in the log without blocking. Fix with `npx expo install --check`
+      # (or bump what it names) before cutting a release build.
+      - name: Dependency drift (advisory)
+        run: npx expo install --check
+        continue-on-error: true
       # Evaluates app.config.ts (including every config plugin) without a native build.
       - run: npx expo config --type public > /dev/null && echo "app.config.ts evaluates cleanly"
