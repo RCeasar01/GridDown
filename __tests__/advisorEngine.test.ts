@@ -45,3 +45,13 @@ describe('model catalog', () => {
     }
   });
 });
+
+describe('trimToSentence', () => {
+  const { trimToSentence } = require('../app/utils/advisorEngine');
+  test('cuts a length-capped reply back to the last full sentence', () => {
+    expect(trimToSentence('Boil the water for one minute. Let it cool. Remember,')).toBe('Boil the water for one minute. Let it cool.');
+  });
+  test('leaves text alone when no sentence boundary is late enough', () => {
+    expect(trimToSentence('Boil. a very long unfinished clause that keeps going and going')).toBe('Boil. a very long unfinished clause that keeps going and going');
+  });
+});

@@ -87,7 +87,7 @@ const SELECTED_MODEL_KEY = 'griddown_advisor_model';
 /** Rough chars-per-token for English prose with these tokenizers. */
 const CHARS_PER_TOKEN = 3.6;
 /** Tokens reserved for the model's reply. */
-export const REPLY_TOKENS = 384;
+export const REPLY_TOKENS = 512;
 
 let ctx: LlamaContext | null = null;
 let loadedPath: string | null = null;
@@ -233,7 +233,17 @@ export async function generate(messages: ChatMessage[], opts: GenerateOptions = 
     },
     opts.onToken ? (data) => opts.onToken?.(data.token) : undefined,
   );
-  return result.text.trim();
+  const text = result.text.trim();
+  // Hit the length cap mid-sentence → cut back to the last full sentence so the
+  // user never sees "Remember," hanging. (stopped_limit is non-zero on a length stop.)
+  return result.stopped_limit ? trimToSentence(text) : text;
+}
+
+/** Keep everything up to the last sentence/line terminator, if that keeps most of the text. */
+export function trimToSentence(text: string): string {
+  const cut = Math.max(text.lastIndexOf('. '), text.lastIndexOf('.\n'), text.lastIndexOf('!'), text.lastIndexOf('?'), text.lastIndexOf('\n'));
+  if (cut > text.length * 0.5) return text.slice(0, cut + 1).trimEnd();
+  return text;
 }
 
 /** Interrupt an in-flight completion (safe to call when idle). */
