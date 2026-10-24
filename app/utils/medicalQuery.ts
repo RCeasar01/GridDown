@@ -16,23 +16,27 @@ export const MEDICAL_KEYWORDS = [
   'hypothermia', 'heatstroke', 'heat stroke', 'frostbite', 'snakebite', 'snake bite', 'choking', 'concussion',
 ] as const;
 
-/** Keyword → the guide that best answers it. First match wins (listed by specificity). */
+/**
+ * Keyword → the guide that actually covers it (verified against titles in tests).
+ * Keywords with no dedicated guide yet (burn, fracture, CPR, hypothermia, snakebite…)
+ * are deliberately absent: the answer then links the top retrieval hit instead of a
+ * wrong guide. Those gaps are listed in the launch checklist as 1.1 content work.
+ */
 export const MEDICAL_KEYWORD_TO_GUIDE: Record<string, string> = {
-  tourniquet: 'medical-002',
+  tourniquet: 'medical-002',   // Tourniquet Application
   bleeding: 'medical-002',
   bleed: 'medical-002',
   hemorrhage: 'medical-002',
-  wound: 'medical-003',
-  airway: 'medical-001',
-  breathing: 'medical-001',
-  cpr: 'medical-006',
-  shock: 'medical-004',
-  triage: 'medical-001',
-  burn: 'medical-005',
-  fracture: 'medical-007',
-  fractured: 'medical-007',
-  'broken bone': 'medical-007',
-  splint: 'medical-007',
+  haemorrhage: 'medical-002',
+  wound: 'medical-003',        // Wound Packing
+  airway: 'medical-007',       // Airway Management Without Equipment
+  breathing: 'medical-007',
+  choking: 'medical-007',
+  shock: 'medical-006',        // Shock — Recognition and Management
+  triage: 'medical-014',       // Mass Casualty Triage — START Protocol
+  'oral rehydration': 'medical-008',
+  dehydration: 'medical-008',
+  dehydrated: 'medical-008',
 };
 
 const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');

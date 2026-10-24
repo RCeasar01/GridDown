@@ -582,7 +582,7 @@
       "medical-009",
       "medical-010"
     ],
-    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "source": "WHO / UNICEF Oral Rehydration Salts guidance; CDC Rehydration Project",
     "lastReviewed": "2025-01",
     "riskLevel": "high",
     "skillLevel": "intermediate",
@@ -658,7 +658,7 @@
       "medical-010",
       "medical-008"
     ],
-    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "source": "US Army TB MED 593 (Field Sanitation) / FM 4-25.12; WHO sanitation guidance",
     "lastReviewed": "2025-01",
     "riskLevel": "high",
     "skillLevel": "intermediate",
@@ -729,7 +729,7 @@
       "medical-009",
       "medical-011"
     ],
-    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "source": "CDC vector-borne disease guidance (mosquitoes, ticks, rodents / hantavirus); US Army TB MED 593",
     "lastReviewed": "2025-01",
     "riskLevel": "high",
     "skillLevel": "intermediate",
@@ -799,7 +799,7 @@
       "medical-009",
       "food-004"
     ],
-    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "source": "USDA FSIS food-safety guidance; CDC Food Safety; FEMA food-after-disaster guidance",
     "lastReviewed": "2025-01",
     "riskLevel": "high",
     "skillLevel": "intermediate",
@@ -869,7 +869,7 @@
       "medical-013",
       "medical-001"
     ],
-    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "source": "US Army FM 4-02.51 Combat and Operational Stress Control; FM 6-22.5",
     "lastReviewed": "2025-01",
     "riskLevel": "high",
     "skillLevel": "intermediate",
@@ -945,7 +945,7 @@
       "medical-008",
       "medical-012"
     ],
-    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "source": "WHO / MSF clinical guidelines for field settings; Hesperian \"Where There Is No Doctor\"",
     "lastReviewed": "2025-01",
     "riskLevel": "high",
     "skillLevel": "intermediate",
@@ -1027,7 +1027,7 @@
       "medical-002",
       "medical-006"
     ],
-    "source": "TCCC Guidelines 2023 / CoTCCC / Stop the Bleed",
+    "source": "START triage (Newport Beach Fire Dept / Hoag Hospital); FEMA & CDC mass-casualty guidance",
     "lastReviewed": "2025-01",
     "riskLevel": "high",
     "skillLevel": "advanced",

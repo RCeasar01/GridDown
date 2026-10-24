@@ -280,6 +280,25 @@ Check every item before submitting for review.
       66 % safe zone; splash is a transparent mark at `imageWidth: 200`; notifications get a white silhouette
       (the full-colour icon would have rendered as a blob in the status bar)
 
+- [x] **Release-build QA sweep (2026-10-24, emulator, all Tools cards + Learn/Drill/More/Quiz/Readiness):**
+      no crashes, no JS errors. Fixed what it found: Location Accuracy dialog loop on the Map (asked every 5 s);
+      "Map requires build / Expo Go" dev copy in the release UI → tool renamed *Position & Waypoints*; Gear
+      Inventory scoring a fresh install 100 %; "rescue helicopter" flagged as medical (substring classifier);
+      "View Guide" opening the wrong guide (burn → tension pneumothorax, CPR → shock); seven non-trauma medical
+      guides citing TCCC / Stop the Bleed as their source
+- [x] **APK/AAB size audit:** 213 MB universal APK = 196 MB native libs (arm64 109 · x86_64 61 · armeabi-v7a 25).
+      Per-device Play download is one ABI (~60–70 MB compressed); llama.rn ships 6 arm64 CPU variants (~65 MB)
+      and ML Kit translate is 15.6 MB. Nothing worth cutting for 1.0; dropping armeabi-v7a would save 25 MB of
+      AAB but lock out 32-bit phones
+
+### Content gaps found during QA (1.1 candidates)
+- No guide for **burns**, **fractures/splinting**, **CPR**, **hypothermia**, **heat illness**, **snakebite** or
+  **choking** in the guide library — the triage trees cover five of these once reviewed; burns and fractures have
+  nothing. The Advisor's "View Guide" button deliberately stays hidden for those keywords rather than link a
+  wrong guide
+- Retrieval sometimes surfaces an off-topic third chip (e.g. *Apartment & High-Rise* for helicopter signalling);
+  harmless, but a per-guide `tags` pass would tighten it
+
 ### Working layout (two sessions, one repo)
 - `E:\Projects\GridDown` — checkout on `feature/triage-phase1` (the other session). Not touched by the release work.
 - `E:\Projects\GridDown-main` — `git worktree` on `main`; release builds run from here. `node_modules` is its own
