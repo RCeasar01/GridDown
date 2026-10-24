@@ -45,6 +45,12 @@ if ($Prebuild -or -not (Test-Path "$root\android\gradlew.bat")) {
   npx expo prebuild --platform android --clean --no-install
   if ($LASTEXITCODE -ne 0) { throw 'prebuild failed' }
   Set-Content "$root\android\local.properties" 'sdk.dir=E:\\Android\\Sdk'
+  # Gradle needs more heap for the C++ (llama.rn) build; drop the 32-bit x86 emulator ABI nobody ships.
+  $gp = "$root\android\gradle.properties"
+  $g = [IO.File]::ReadAllText($gp)
+  $g = $g.Replace('org.gradle.jvmargs=-Xmx2048m -XX:MaxMetaspaceSize=512m', 'org.gradle.jvmargs=-Xmx6g -XX:MaxMetaspaceSize=1g')
+  $g = $g.Replace('reactNativeArchitectures=armeabi-v7a,arm64-v8a,x86,x86_64', 'reactNativeArchitectures=armeabi-v7a,arm64-v8a,x86_64')
+  [IO.File]::WriteAllText($gp, $g)
 }
 
 if ($Target -eq 'release' -and -not (Test-Path "$root\credentials\keystore.properties")) {
