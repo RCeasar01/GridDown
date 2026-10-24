@@ -256,7 +256,16 @@ Check every item before submitting for review.
 - [x] `mapping.txt` produced by R8 → upload with each AAB so Play de-obfuscates crash reports
 - [x] **Advisor no longer parrots the reference block** (seen on the emulator: the 1.5B model copied the guide
       excerpts verbatim). Excerpts now ride in the user turn with a paraphrase instruction; echoed
-      `Guide:`/`Situation:` headers are stripped; verified on the R8 release build
+      `Guide:`/`Situation:` headers are stripped; verified on the R8 release build (4 GB emulator): paraphrased
+      answer + Tornado / Apartment & High-Rise / Hurricane source chips
+- [x] **Found and contained a low-RAM stall (2026-10-24).** On the 3 GB store emulator the same build loads the
+      model and processes the prompt (CPU confirms it), then *nothing* reaches JS — no tokens, no result, no
+      native error, and the UI spun forever. Identical APK on the 4 GB emulator is fine. Root cause is inside
+      llama.rn's native→JS hand-off under memory pressure (not reproducible from JS). Mitigations shipped:
+      (1) `generate()` watchdog — 90 s of silence (reset per token) → unload the model, show a clear message,
+      reload in place, send re-enabled; (2) Lite's floor raised to **4 GB RAM** with honest picker copy
+      (3 GB phones still may try, with a warning); (3) 3 tests drive the real path with a fake runtime.
+      Follow-up when on a real 3–4 GB phone: reproduce, then file against llama.rn with the thread dump
 - [x] **CI was red since the first 10-23 push** — `expo-doctor` compares against Expo's *live* SDK 57 package
       list, and three packages had shipped new patches since the 19th (`expo-location` 57.0.22,
       `expo-notifications` 57.0.24, `expo-sharing` 57.0.24). Bumped + lockfile; `npm run lint` also fixed

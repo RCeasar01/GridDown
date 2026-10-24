@@ -255,11 +255,12 @@ Entitlement IDs (configure in RevenueCat dashboard):
 | | |
 |---|---|
 | Models | **Standard:** Phi-3.5 Mini Instruct Q4_K_M — 2.4 GB, MIT · **Lite:** Qwen2.5-1.5B Instruct Q4_K_M — 1.1 GB, Apache-2.0 |
-| Choice | `expo-device` reports total RAM; phones under ~5.5 GB are steered to Lite. User can override; choice persists |
+| Choice | `expo-device` reports total RAM; phones under ~5.5 GB are steered to Lite, and Lite itself needs 4 GB (a 3 GB device stalled mid-answer in testing). User can override; choice persists |
 | Source | HuggingFace (`bartowski/Phi-3.5-mini-instruct-GGUF`, `Qwen/Qwen2.5-1.5B-Instruct-GGUF`), downloaded once over Wi-Fi |
 | Runtime | **llama.rn** 0.12.x (llama.cpp). Metal on iOS, CPU on Android |
-| Grounding | `app/utils/guideRetrieval.ts` — BM25 over the 89 shipped guides; top-3 excerpts go into the system prompt, answers show "From your guides" chips |
-| Context | 2048 tokens; `buildPrompt()` trims history so prompt + 384-token reply always fit |
+| Grounding | `app/utils/guideRetrieval.ts` — BM25 over the 89 shipped guides; top-3 excerpts ride in the user turn with a paraphrase instruction (small models copy system-prompt text verbatim); answers show "From your guides" chips |
+| Context | 2048 tokens; `buildPrompt()` trims history so prompt + 512-token reply always fit |
+| Watchdog | `generate()` rejects with `GenerationTimeoutError` after 90 s of silence (timer resets per token), unloads the model, and the screen reloads it in place — the UI can never spin forever |
 | Code | `app/utils/advisorEngine.ts` (model catalog, runtime, prompt budget) → `app/screens/AdvisorScreen.tsx` |
 
 All inference runs on the device. The only network request the feature makes is the one-time model

@@ -503,13 +503,30 @@ function AdvisorInterface() {
 
       const finalText = responseText;
       setMessages((prev) => prev.map((m) => (m.id === advisorId ? { ...m, text: finalText } : m)));
-    } catch {
-      const errText = '[Error during inference. Model may need to be re-downloaded.]';
-      setMessages((prev) =>
-        prev.some((m) => m.id === advisorId)
-          ? prev.map((m) => (m.id === advisorId ? { ...m, text: errText } : m))
-          : [...prev, { id: advisorId, role: 'advisor', text: errText, timestamp: Date.now() + 100 }],
-      );
+    } catch (err) {
+      const timedOut = err instanceof engine.GenerationTimeoutError;
+      const errText = timedOut
+        ? '[Field Intelligence stopped responding. This can happen on phones with less than 4 GB of RAM. Reloading the model — then try a shorter question.]'
+        : '[Error during inference. Model may need to be re-downloaded.]';
+      const setBubble = (text: string) =>
+        setMessages((prev) =>
+          prev.some((m) => m.id === advisorId)
+            ? prev.map((m) => (m.id === advisorId ? { ...m, text } : m))
+            : [...prev, { id: advisorId, role: 'advisor', text, timestamp: Date.now() + 100 }],
+        );
+      setBubble(errText);
+      if (timedOut) {
+        // generate() released the context. Reload in place so the chat survives;
+        // isGenerating stays true (send disabled) until the model is back.
+        try {
+          const FileSystem = await import('expo-file-system/legacy');
+          await engine.loadModel(selectedModel, modelPathFor(selectedModel, FileSystem.documentDirectory));
+          setBubble(errText.replace('Reloading the model — then try', 'Model reloaded — try'));
+        } catch {
+          setErrorDetail('The model stopped responding and could not be reloaded. Restart GridDown to try again.');
+          setModelStatus('error');
+        }
+      }
     } finally {
       setIsGenerating(false);
       setTimeout(() => listRef.current?.scrollToEnd({ animated: true }), 100);
@@ -587,7 +604,7 @@ function AdvisorInterface() {
                 </Text>
                 {!fits && (
                   <Text style={styles.modelWarn}>
-                    This phone reports {deviceFit?.totalRamBytes ? (deviceFit.totalRamBytes / 1e9).toFixed(0) : '?'} GB RAM — this model may fail to load.
+                    This phone reports {deviceFit?.totalRamBytes ? (deviceFit.totalRamBytes / 1e9).toFixed(0) : '?'} GB RAM; this model needs {(m.minDeviceRamBytes / 1e9).toFixed(0)} GB or more. It may fail to load or stop mid-answer here.
                   </Text>
                 )}
               </TouchableOpacity>

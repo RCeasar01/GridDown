@@ -13,5 +13,12 @@ module.exports = function (api) {
         },
       ],
     ],
+    env: {
+      // Jest runs on plain Node: turn `await import('llama.rn')` etc. into
+      // require() so the engine's lazy native-module loads can be mocked.
+      test: {
+        plugins: ['@babel/plugin-transform-dynamic-import'],
+      },
+    },
   };
 };

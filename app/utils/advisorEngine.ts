@@ -65,14 +65,16 @@ export const ADVISOR_MODELS: Record<AdvisorModelId, AdvisorModel> = {
   lite: {
     id: 'lite',
     name: 'Qwen2.5 1.5B Instruct',
-    tagline: 'Fast and light. Works on nearly every phone.',
+    tagline: 'Fast and light. Works on most phones (4 GB RAM or more).',
     file: 'qwen2.5-1.5b-instruct-q4_k_m.gguf',
     url: 'https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf',
     sizeBytes: 1_117_320_736,
     sizeLabel: '1.1 GB',
     ramNeededBytes: 1.6 * GB,
     ramLabel: '~1.6 GB',
-    minDeviceRamBytes: 3 * GB,
+    // Verified 2026-10-24: on a 3 GB Android device the runtime silently stalls
+    // mid-answer (tokens never reach JS); the same build is fine with 4 GB.
+    minDeviceRamBytes: 4 * GB,
     license: 'Apache-2.0 (Alibaba Qwen)',
     contextTokens: 2048,
     stop: ['<|im_end|>', '<|im_start|>', '<|endoftext|>'],
@@ -88,6 +90,21 @@ const SELECTED_MODEL_KEY = 'griddown_advisor_model';
 const CHARS_PER_TOKEN = 3.6;
 /** Tokens reserved for the model's reply. */
 export const REPLY_TOKENS = 512;
+/**
+ * Generation watchdog. The timer restarts on every streamed token, so it only
+ * fires when the runtime goes silent: no first token after prompt processing,
+ * or a stall mid-answer. Prompt processing for a ~600-token grounded prompt is
+ * 5–30 s on real phones; 90 s leaves generous headroom for slow devices.
+ */
+export const GENERATION_WATCHDOG_MS = 90_000;
+
+/** Thrown by generate() when the watchdog fires. The model is unloaded first. */
+export class GenerationTimeoutError extends Error {
+  constructor() {
+    super('The on-device model stopped responding.');
+    this.name = 'GenerationTimeoutError';
+  }
+}
 
 let ctx: LlamaContext | null = null;
 let loadedPath: string | null = null;
@@ -217,26 +234,74 @@ export interface GenerateOptions {
   temperature?: number;
   /** Called with each new token as it is produced. */
   onToken?: (token: string) => void;
+  /** Override the watchdog (tests). */
+  watchdogMs?: number;
 }
 
-/** Run a chat completion against the loaded model. Resolves with the full reply. */
+/**
+ * Run a chat completion against the loaded model. Resolves with the full reply.
+ *
+ * Rejects with GenerationTimeoutError if the runtime goes silent for
+ * GENERATION_WATCHDOG_MS. Seen on a 3 GB device: llama.cpp finishes the work
+ * but neither tokens nor the final result ever reach JS, which would leave the
+ * UI spinning forever. On timeout the context is released so the next attempt
+ * starts from a clean load.
+ */
 export async function generate(messages: ChatMessage[], opts: GenerateOptions = {}): Promise<string> {
   if (!ctx || !loadedModel) throw new Error('Model not loaded.');
-  const result = await ctx.completion(
+  const model = loadedModel;
+  const watchdogMs = opts.watchdogMs ?? GENERATION_WATCHDOG_MS;
+
+  let timer: ReturnType<typeof setTimeout> | null = null;
+  let timedOut = false;
+  let rearm: () => void = () => {};
+  const watchdog = new Promise<never>((_, reject) => {
+    // Re-armed on every token so a long but healthy answer is never cut off.
+    rearm = () => {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(() => {
+        timedOut = true;
+        reject(new GenerationTimeoutError());
+      }, watchdogMs);
+    };
+    rearm();
+  });
+
+  const completion = ctx.completion(
     {
       messages,
       n_predict: opts.maxTokens ?? REPLY_TOKENS,
       temperature: opts.temperature ?? 0.6,
       top_p: 0.9,
       penalty_repeat: 1.1,
-      stop: loadedModel.stop,
+      stop: model.stop,
     },
-    opts.onToken ? (data) => opts.onToken?.(data.token) : undefined,
+    (data) => {
+      if (timedOut) return;
+      rearm();
+      opts.onToken?.(data.token);
+    },
   );
-  const text = stripEchoedReference(result.text);
-  // Hit the length cap mid-sentence → cut back to the last full sentence so the
-  // user never sees "Remember," hanging. (stopped_limit is non-zero on a length stop.)
-  return result.stopped_limit ? trimToSentence(text) : text;
+
+  try {
+    const result = await Promise.race([completion, watchdog]);
+    const text = stripEchoedReference(result.text);
+    // Hit the length cap mid-sentence → cut back to the last full sentence so the
+    // user never sees "Remember," hanging. (stopped_limit is non-zero on a length stop.)
+    return result.stopped_limit ? trimToSentence(text) : text;
+  } catch (err) {
+    if (err instanceof GenerationTimeoutError) {
+      // Best effort: interrupt whatever the runtime thinks it is doing, then
+      // drop the context so the screen reloads the model on the next send.
+      await stopGeneration();
+      await releaseModel();
+      // Swallow the orphaned completion if it ever settles.
+      completion.catch(() => {});
+    }
+    throw err;
+  } finally {
+    if (timer) clearTimeout(timer);
+  }
 }
 
 /** Keep everything up to the last sentence/line terminator, if that keeps most of the text. */
