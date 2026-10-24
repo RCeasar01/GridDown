@@ -224,10 +224,28 @@ Check every item before submitting for review.
 - [x] iOS: `ios.privacyManifests` replaces the plugin that wrote `PrivacyInfo.xcprivacy` outside the app target;
       llama.rn increased-memory entitlements confirmed under `NODE_ENV=production` prebuild (validated on Linux)
 
+### 2026-10-23 — second pass (all local, all free)
+- [x] **Advisor grounded in the guides**: BM25 retrieval over the shipped library → top-3 excerpts in the
+      prompt, "From your guides" source chips on every answer. The UI had claimed this; the code never did it.
+- [x] **Lite / Standard model picker** by device RAM (expo-device): Qwen2.5-1.5B 1.1 GB for phones under
+      ~5.5 GB, Phi-3.5 Mini 2.4 GB otherwise; user override; per-model free-space check; both URLs verified on HF
+- [x] **Privacy accuracy**: policy + privacy.html + Data Safety now disclose the one-time HuggingFace download and
+      the ML Kit installation ID sent to Google; store copy no longer says "no internet ever" / "zero data collected"
+- [x] `ios.supportsTablet = false` for v1.0 (no iPad layout/screenshots yet)
+- [x] **Data export/import** (Settings): one JSON file via share sheet; merge/replace restore with validation
+- [x] Native in-app review prompt after ≥3 passed quizzes (≤1/90 days, ≤3 total)
+- [x] Home-screen quick action → Emergency Mode (expo-quick-actions)
+- [x] R8 minify + resource shrinking in release, keep rules for llama.rn / ML Kit / quick-actions
+- [x] **Tests (125, in CI)** — found and fixed: 3 invalid guide priorities, 14 dead `relatedGuides` links,
+      fm-003 missing medical disclaimer; coordinate converter verified against independent libraries (< 2 m)
+- [x] Feature graphic: "500+ guides" → "80+" (the app ships 89), "0 data collected" → "0 servers · no account",
+      broken flag glyph removed, orange gradient → OD green; same count fix across store copy and docs/index.html
+- [x] `scripts/deploy-legal-pages.ps1` — Cloudflare Pages path to host privacy/terms so the repo can go private
+
 ### Open — needs Robert
 - [ ] **Back up `credentials/`** to `E:\Backups\GridDown-credentials\` and the F: drive (see `credentials/README.md`)
 - [ ] Mac mini: enable Remote Login, then run `scripts/build-ios-macmini.sh sim` to verify iOS compiles with llama.rn
-- [ ] Install the debug APK on a real Android phone; test Advisor download (2.4 GB over Wi-Fi) + a real answer
+- [ ] Install the release APK on a real Android phone; test Advisor (Lite model, 1.1 GB) download + a real grounded answer
 - [ ] Test Translator on a real phone (verified on emulator)
 - [ ] Google Play Console account ($25 one-time) → create app, enroll Play App Signing, upload AAB to Internal testing
 - [ ] Apple Developer Program ($99/yr) → App Store Connect record, TestFlight

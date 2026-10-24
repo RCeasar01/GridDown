@@ -18,7 +18,7 @@ GridDown - Offline Survival
 
 ### Short Description (80 chars max)
 ```
-500+ survival guides. 100% offline. Zero data collected. Veteran-built.
+80+ survival guides. 100% offline. No account, no servers. Veteran-built.
 ```
 
 ### Full Description (4000 chars max)
@@ -35,7 +35,7 @@ GridDown caches everything on your device at install. No cloud. No subscription 
 ───
 WHAT’S INSIDE
 ───
-➕ 500+ SURVIVAL GUIDES
+➕ 80+ SURVIVAL GUIDES ACROSS 16 CATEGORIES
 Medical, water purification, fire starting, shelter building, navigation, communications, power generation, vehicle repair, food sourcing, and security. New content added regularly.
 
 🩹 TCCC MEDICAL PROCEDURES
@@ -69,7 +69,7 @@ GridDown collects no personal information. No account. No analytics. No advertis
 ───
 SUBSCRIPTION INFORMATION
 ───
-Free: 100+ guides, offline maps, basic checklists
+Free: core guides, GPS tools, basic checklists
 Pro Monthly: $3.99/month | Pro Yearly: $29.99/year | Pro Lifetime: $79.99
 Extreme Monthly: $9.99/month | Extreme Yearly: $69.99/year | Extreme Lifetime: $149.99
 

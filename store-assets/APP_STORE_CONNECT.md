@@ -58,7 +58,7 @@ EVERY FEATURE WORKS WITHOUT INTERNET
 GridDown caches everything on your device. No cloud. No subscription required to access the app. No data sent home. Ever.
 
 ———
-NEW IN v1.1 — 12 CATEGORIES, 500+ GUIDES
+16 CATEGORIES, 80+ FIELD-TESTED GUIDES
 ---
 - Offline Translator: 10 languages (Spanish, French, Portuguese, German, Arabic,
   Chinese, Japanese, Korean, Russian, Hindi) — on-device after a one-time ~30 MB pack download.
@@ -242,7 +242,7 @@ Create the following under **In-App Purchases** in App Store Connect:
 
 ## App Store Screenshots Order
 
-1. `01_home.png` — “500+ Survival Guides. Offline.”
+1. `01_home.png` — “80+ Survival Guides. 100% Offline.”
 2. `02_guide_detail.png` — “Step-by-Step. When Seconds Count.”
 3. `03_offline_map.png` — “GPS Coordinates. No Signal Needed.”
 4. `04_checklist.png` — “72-Hour Kit. Are You Ready?”

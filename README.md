@@ -36,7 +36,7 @@ GridDown is a production-grade React Native app (Expo SDK 51) delivering 60+ off
 | State | Zustand |
 | Database | expo-sqlite (WAL mode) |
 | Subscriptions | RevenueCat (react-native-purchases ^7.27.0) |
-| On-device AI | llama.rn + Phi-3.5 Mini Q4_K_M (2.4 GB) |
+| On-device AI | llama.rn + Phi-3.5 Mini (2.4 GB) or Qwen2.5-1.5B (1.1 GB), guide-grounded (BM25) |
 | File system | expo-file-system |
 | Location | expo-location |
 | Icons | @expo/vector-icons (Ionicons) |
@@ -250,21 +250,51 @@ Entitlement IDs (configure in RevenueCat dashboard):
 
 ---
 
-## On-Device AI (Pro+AI / Extreme Tier) — "Field Intelligence"
+## On-Device AI (Pro + AI tier) — "Field Intelligence"
 
 | | |
 |---|---|
-| Model | **Phi-3.5 Mini Instruct Q4_K_M** — 2.4 GB, MIT license |
-| Source | HuggingFace `bartowski/Phi-3.5-mini-instruct-GGUF` (downloaded once over Wi-Fi) |
+| Models | **Standard:** Phi-3.5 Mini Instruct Q4_K_M — 2.4 GB, MIT · **Lite:** Qwen2.5-1.5B Instruct Q4_K_M — 1.1 GB, Apache-2.0 |
+| Choice | `expo-device` reports total RAM; phones under ~5.5 GB are steered to Lite. User can override; choice persists |
+| Source | HuggingFace (`bartowski/Phi-3.5-mini-instruct-GGUF`, `Qwen/Qwen2.5-1.5B-Instruct-GGUF`), downloaded once over Wi-Fi |
 | Runtime | **llama.rn** 0.12.x (llama.cpp). Metal on iOS, CPU on Android |
-| Code | `app/utils/advisorEngine.ts` (owns the context) → `app/screens/AdvisorScreen.tsx` |
-| Context | 2048 tokens, last 8 turns replayed, streaming tokens to the UI |
+| Grounding | `app/utils/guideRetrieval.ts` — BM25 over the 89 shipped guides; top-3 excerpts go into the system prompt, answers show "From your guides" chips |
+| Context | 2048 tokens; `buildPrompt()` trims history so prompt + 384-token reply always fit |
+| Code | `app/utils/advisorEngine.ts` (model catalog, runtime, prompt budget) → `app/screens/AdvisorScreen.tsx` |
 
-All inference runs on the device. No prompt or answer ever leaves the phone; there is no API key
-and no per-user cost. The `llama.rn` config plugin adds the iOS increased-memory entitlements
-needed to map a 2.4 GB model. The Advisor checks free storage (3 GB headroom) before downloading.
+All inference runs on the device. The only network request the feature makes is the one-time model
+download; no prompt, answer, or guide text ever leaves the phone. The `llama.rn` config plugin adds the
+iOS increased-memory entitlements needed to map the Standard model.
 
 ---
+
+## Testing
+
+```powershell
+npm test            # jest-expo: 125 tests
+```
+
+| Suite | Covers |
+|---|---|
+| `content.test.ts` | every shipped guide: unique ids, required fields, no placeholder text, valid `relatedGuides`, medical disclaimer flags |
+| `coords.test.ts` | WGS84 → UTM/MGRS against independent `utm`/`mgrs` library values at 4 points (< 2 m) |
+| `retrieval.test.ts` | Advisor retrieval ranking, off-topic → empty |
+| `advisorEngine.test.ts` | prompt budgeting inside the context window, model catalog sanity |
+| `morse.test.ts`, `backup.test.ts`, `reviewPrompt.test.ts` | codec round-trip, backup validation, rating-prompt rules |
+
+CI runs lint, `tsc`, the test suite, and `expo-doctor` on every push.
+
+---
+
+## User data: export & import
+
+Settings → **Export my data** writes one JSON file (kits, checklists, gear, family plan, map points,
+saved repeaters, quiz history, readiness scans, preferences) to the share sheet — USB drive, cloud
+folder, email, the user's choice. **Import a backup** restores it (merge or replace) with full
+validation. GridDown never uploads this file. Implementation: `app/utils/backup.ts`.
+
+---
+
 ## Medical Disclaimer
 
 Guides covering medical procedures (tagged `requiresMedicalDisclaimer: true`) are intended for use in austere environments where trained medical care is unavailable. They do not replace professional medical training or advice.
