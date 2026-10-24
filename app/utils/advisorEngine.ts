@@ -233,7 +233,7 @@ export async function generate(messages: ChatMessage[], opts: GenerateOptions = 
     },
     opts.onToken ? (data) => opts.onToken?.(data.token) : undefined,
   );
-  const text = result.text.trim();
+  const text = stripEchoedReference(result.text);
   // Hit the length cap mid-sentence → cut back to the last full sentence so the
   // user never sees "Remember," hanging. (stopped_limit is non-zero on a length stop.)
   return result.stopped_limit ? trimToSentence(text) : text;
@@ -289,10 +289,14 @@ export function buildPrompt(params: {
 }): ChatMessage[] {
   const contextTokens = params.contextTokens ?? loadedModel?.contextTokens ?? 2048;
   const budget = contextTokens - REPLY_TOKENS - 48; // template overhead
-  const system = params.reference
-    ? `${params.systemPrompt}\n\n${params.reference}`
-    : params.systemPrompt;
-  let used = estimateTokens(system) + estimateTokens(params.userText);
+  // Small instruct models copy whatever sits in the system prompt, so the
+  // reference material rides in the *user* turn, right before the question,
+  // with an explicit instruction to paraphrase.
+  const system = params.systemPrompt;
+  const finalUser = params.reference
+    ? `${params.reference}\n\nQuestion: ${params.userText}\n\nAnswer the question in your own words using the guides above. Do not copy their text or headings.`
+    : params.userText;
+  let used = estimateTokens(system) + estimateTokens(finalUser);
   const kept: ChatMessage[] = [];
   for (let i = params.history.length - 1; i >= 0; i--) {
     const m = params.history[i];
@@ -303,14 +307,22 @@ export function buildPrompt(params: {
   }
   // Never start history with an assistant turn (confuses chat templates).
   while (kept.length && kept[0].role === 'assistant') kept.shift();
-  return [{ role: 'system', content: system }, ...kept, { role: 'user', content: params.userText }];
+  return [{ role: 'system', content: system }, ...kept, { role: 'user', content: finalUser }];
+}
+
+/** Drop lines where the model echoed the reference scaffolding instead of answering. */
+export function stripEchoedReference(text: string): string {
+  const lines = text.split('\n');
+  const cleaned = lines.filter((l) => !/^\s*(\[\d+\]\s*)?(GUIDE|Guide):|^\s*REFERENCE\b|^\s*Situation:|^\s*Do immediately:|^\s*Question:/.test(l));
+  const out = cleaned.join('\n').trim();
+  return out.length > 20 ? out : text.trim();
 }
 
 /** Format retrieved guide excerpts as a reference block for the system prompt. */
 export function formatReference(excerpts: string[]): string {
   if (excerpts.length === 0) return '';
   return (
-    'REFERENCE — GridDown guides on this device. Answer primarily from these; if they do not cover the question, say so, then give your best general guidance.\n\n' +
-    excerpts.map((e, i) => `[${i + 1}] ${e}`).join('\n\n')
+    'Relevant GridDown guides (your source material):\n\n' +
+    excerpts.map((e) => e.replace(/^GUIDE: /, 'Guide: ')).join('\n\n')
   );
 }

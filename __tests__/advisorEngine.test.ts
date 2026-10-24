@@ -1,4 +1,4 @@
-import { buildPrompt, estimateTokens, formatReference, REPLY_TOKENS, ADVISOR_MODELS } from '../app/utils/advisorEngine';
+import { buildPrompt, estimateTokens, formatReference, trimToSentence, stripEchoedReference, REPLY_TOKENS, ADVISOR_MODELS } from '../app/utils/advisorEngine';
 
 describe('buildPrompt', () => {
   const sys = 'You are Field Intelligence.';
@@ -26,11 +26,14 @@ describe('buildPrompt', () => {
     expect(out[1].role).toBe('user');
   });
 
-  test('puts reference material into the system message', () => {
+  test('puts reference material into the final user turn, not the system prompt', () => {
     const ref = formatReference(['GUIDE: A', 'GUIDE: B']);
     const out = buildPrompt({ systemPrompt: sys, reference: ref, history: [], userText: 'q' });
-    expect(out[0].content).toContain('[1] GUIDE: A');
-    expect(out[0].content).toContain('[2] GUIDE: B');
+    expect(out[0].content).toBe(sys);
+    const last = out[out.length - 1].content;
+    expect(last).toContain('Guide: A');
+    expect(last).toContain('Question: q');
+    expect(last).toContain('in your own words');
   });
 });
 
@@ -47,11 +50,20 @@ describe('model catalog', () => {
 });
 
 describe('trimToSentence', () => {
-  const { trimToSentence } = require('../app/utils/advisorEngine');
   test('cuts a length-capped reply back to the last full sentence', () => {
     expect(trimToSentence('Boil the water for one minute. Let it cool. Remember,')).toBe('Boil the water for one minute. Let it cool.');
   });
   test('leaves text alone when no sentence boundary is late enough', () => {
     expect(trimToSentence('Boil. a very long unfinished clause that keeps going and going')).toBe('Boil. a very long unfinished clause that keeps going and going');
+  });
+});
+
+describe('stripEchoedReference', () => {
+  test('removes echoed reference scaffolding lines', () => {
+    const raw = '[1] Guide: Tornado (disaster)\nSituation: a tornado\nGet to the lowest floor now.\nStay away from windows.';
+    expect(stripEchoedReference(raw)).toBe('Get to the lowest floor now.\nStay away from windows.');
+  });
+  test('keeps the text when stripping would leave nothing useful', () => {
+    expect(stripEchoedReference('Guide: X')).toBe('Guide: X');
   });
 });
