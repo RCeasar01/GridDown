@@ -330,6 +330,10 @@ Check every item before submitting for review.
       the same posture as the 14 medical guides that already shipped. `npm run build:release` in the library would
       drop them entirely (177 guides, no medical/health/environment at all). As guides are reviewed, set
       `reviewStatus: "reviewed"` + `reviewedBy` in the library and re-sync
+- [ ] **Concept-fit review (yours):** every guide title annotated in `docs/LIBRARY_REVIEW.md` — 7 recommended for
+      retirement (the five `fm-*` military digests, `medical-001` TCCC, `medical-012` Combat Stress), 3 to edit,
+      5 to merge, 2 flagged for awareness (`sec-011` firearm storage, `urban-009` scavenging title). Act on it in the
+      library, never by deleting ids; then rebuild + re-sync + rebuild the app
 
 ### Working layout (two sessions, one repo)
 - `E:\Projects\GridDown` — checkout on `feature/triage-phase1` (the other session). Not touched by the release work.
