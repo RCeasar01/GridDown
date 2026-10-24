@@ -32,7 +32,7 @@ Train like it matters. Because it does.`;
 
 export function FounderScreen() {
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         {/* Header */}
         <View style={styles.header}>

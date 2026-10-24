@@ -353,7 +353,7 @@ export function EmergencyModeScreen() {
   };
 
   return (
-    <SafeAreaView style={screenStyles.safe}>
+    <SafeAreaView edges={['top']} style={screenStyles.safe}>
       <StatusBar barStyle="light-content" backgroundColor="#0A0A0A" />
 
       {/* Top bar */}

@@ -212,7 +212,7 @@ export function FoodScreen() {
   const [tab, setTab] = useState<FoodTab>('Calculator');
 
   return (
-    <SafeAreaView style={fc.safe}>
+    <SafeAreaView edges={['left', 'right']} style={fc.safe}>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={fc.tabBar} contentContainerStyle={fc.tabBarContent}>
         {TABS.map((t) => (
           <TouchableOpacity

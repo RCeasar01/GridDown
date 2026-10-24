@@ -116,7 +116,7 @@ export default function QuizMenuScreen() {
     overallReadiness >= 50 ? Colors.primary : Colors.danger;
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
         <View style={styles.headerRow}>
           <Text style={styles.headerTitle}>READINESS QUIZ</Text>

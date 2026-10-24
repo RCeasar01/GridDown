@@ -432,7 +432,7 @@ export function ReadinessScanScreen() {
   }, [navigation]);
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['top']} style={styles.safe}>
       <StatusBar barStyle="light-content" backgroundColor={Colors.background} />
 
       {/* Top bar */}

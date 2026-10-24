@@ -179,7 +179,7 @@ export function VehicleKitScreen() {
   const pct = Math.round((checkedCount / totalCount) * 100);
 
   return (
-    <SafeAreaView style={v.safe}>
+    <SafeAreaView edges={['left', 'right']} style={v.safe}>
       {/* Header progress */}
       <View style={v.header}>
         <View>

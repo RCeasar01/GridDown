@@ -156,7 +156,7 @@ export default function QuizScreen() {
 
   if (!currentQuiz) {
     return (
-      <SafeAreaView style={styles.safe}>
+      <SafeAreaView edges={['top']} style={styles.safe}>
         <View style={styles.emptyState}>
           <Text style={styles.emptyText}>No quizzes found.</Text>
         </View>
@@ -325,7 +325,7 @@ export default function QuizScreen() {
   };
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['top']} style={styles.safe}>
       <View style={styles.progressHeader}>
         <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backBtn}>
           <Ionicons name="arrow-back" size={22} color={Colors.textPrimary} />

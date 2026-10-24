@@ -244,7 +244,7 @@ export function HamRadioScreen() {
   // Tier gate: HAM Radio Repeaters requires Pro (Monthly+)
   if (!hasAccess('monthly')) {
     return (
-      <SafeAreaView style={styles.container}>
+      <SafeAreaView edges={['left', 'right']} style={styles.container}>
         <View style={styles.lockedContainer}>
           <Ionicons name="lock-closed" size={48} color={Colors.textMuted} />
           <Text style={styles.lockedTitle}>Pro Feature</Text>
@@ -266,7 +266,7 @@ export function HamRadioScreen() {
   }
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView edges={['left', 'right']} style={styles.container}>
       {/* Disclaimer Banner */}
       <View style={styles.disclaimer}>
         <Ionicons name="warning-outline" size={14} color={Colors.warning} />

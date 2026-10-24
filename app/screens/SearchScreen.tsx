@@ -59,7 +59,7 @@ export function SearchScreen() {
   };
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       <View style={styles.searchContainer}>
         <SearchBar
           value={query}

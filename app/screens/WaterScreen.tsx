@@ -180,7 +180,7 @@ export function WaterScreen() {
   const toggle = (name: string) => setExpanded(expanded === name ? null : name);
 
   return (
-    <SafeAreaView style={s.safe}>
+    <SafeAreaView edges={['left', 'right']} style={s.safe}>
       {/* Section tabs */}
       <View style={s.tabRow}>
         {(['methods', 'finding', 'storage'] as Section[]).map((sec) => (

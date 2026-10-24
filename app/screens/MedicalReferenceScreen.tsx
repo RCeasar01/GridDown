@@ -273,7 +273,7 @@ export function MedicalReferenceScreen() {
   const filtered = filter === 'all' ? CONDITIONS : CONDITIONS.filter((c) => c.severity === filter);
 
   return (
-    <SafeAreaView style={md.safe}>
+    <SafeAreaView edges={['left', 'right']} style={md.safe}>
       {/* Disclaimer */}
       <View style={md.disclaimer}>
         <Text style={md.disclaimerText}>⚕️ This reference is for civilian emergencies when professional medical care is unavailable. It does not replace training or professional care. Learn CPR and take a first aid course.</Text>

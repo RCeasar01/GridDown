@@ -77,7 +77,7 @@ export function HomeScreen() {
   const flows = getAllFlows();
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['top']} style={styles.safe}>
       <EmergencyBanner />
 
       {/* ── EMERGENCY MODE BUTTON ── */}

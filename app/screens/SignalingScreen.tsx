@@ -213,7 +213,7 @@ export function SignalingScreen() {
   const toggle = (key: string) => setExpanded(expanded === key ? null : key);
 
   return (
-    <SafeAreaView style={sg.safe}>
+    <SafeAreaView edges={['left', 'right']} style={sg.safe}>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={sg.tabBar} contentContainerStyle={sg.tabBarContent}>
         {TABS.map((t) => (
           <TouchableOpacity

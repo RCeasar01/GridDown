@@ -286,7 +286,7 @@ export function MapScreen() {
   // ── Main render ──────────────────────────────────────────────────────────
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
 
         {/* Coordinate Card */}

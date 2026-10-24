@@ -48,7 +48,7 @@ export function ToolsScreen() {
   };
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['top']} style={styles.safe}>
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         <Text style={styles.header}>Tools</Text>
         <Text style={styles.subtitle}>Offline survival tools & resources</Text>

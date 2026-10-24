@@ -164,7 +164,7 @@ export function RadioScreen() {
   };
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       {/* Search */}
       <View style={styles.searchContainer}>
         <TextInput

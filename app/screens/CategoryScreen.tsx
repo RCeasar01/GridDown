@@ -69,7 +69,7 @@ export function CategoryScreen() {
   }, [categoryId]);
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       {/* Category header */}
       <View style={styles.header}>
         <Text style={styles.icon}>{categoryIcon(categoryId)}</Text>

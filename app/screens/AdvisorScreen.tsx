@@ -137,7 +137,7 @@ function LockedAdvisor() {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
   const navigation = require('@react-navigation/native').useNavigation();
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       <View style={styles.lockedContainer}>
         <View style={styles.lockIconContainer}>
           <Ionicons name="lock-closed" size={36} color={Colors.primary} />
@@ -517,7 +517,7 @@ function AdvisorInterface() {
 
   if (modelStatus === 'checking') {
     return (
-      <SafeAreaView style={styles.safe}>
+      <SafeAreaView edges={['left', 'right']} style={styles.safe}>
         <View style={styles.centered}>
           <ActivityIndicator size="large" color={Colors.primary} />
           <Text style={styles.loadingText}>Checking model status…</Text>
@@ -528,7 +528,7 @@ function AdvisorInterface() {
 
   if (modelStatus === 'not_downloaded') {
     return (
-      <SafeAreaView style={styles.safe}>
+      <SafeAreaView edges={['left', 'right']} style={styles.safe}>
         <View style={styles.downloadContainer}>
           <Ionicons name="hardware-chip-outline" size={48} color={Colors.primary} />
           <Text style={styles.downloadTitle}>FIELD INTELLIGENCE</Text>
@@ -602,7 +602,7 @@ function AdvisorInterface() {
 
   if (modelStatus === 'downloading') {
     return (
-      <SafeAreaView style={styles.safe}>
+      <SafeAreaView edges={['left', 'right']} style={styles.safe}>
         <View style={styles.centered}>
           <Ionicons name="cloud-download-outline" size={48} color={Colors.primary} />
           <Text style={styles.downloadTitle}>DOWNLOADING MODEL</Text>
@@ -619,7 +619,7 @@ function AdvisorInterface() {
 
   if (modelStatus === 'loading') {
     return (
-      <SafeAreaView style={styles.safe}>
+      <SafeAreaView edges={['left', 'right']} style={styles.safe}>
         <View style={styles.centered}>
           <ActivityIndicator size="large" color={Colors.secondary} />
           <Text style={styles.loadingText}>Loading model into memory…</Text>
@@ -636,7 +636,7 @@ function AdvisorInterface() {
 
   if (modelStatus === 'error') {
     return (
-      <SafeAreaView style={styles.safe}>
+      <SafeAreaView edges={['left', 'right']} style={styles.safe}>
         <View style={styles.centered}>
           <Ionicons name="warning-outline" size={48} color={Colors.danger} />
           <Text style={styles.downloadTitle}>MODEL ERROR</Text>
@@ -658,7 +658,7 @@ function AdvisorInterface() {
 
   // modelStatus === 'online'
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       {/* Header */}
       <View style={styles.advisorHeader}>
         <View style={[styles.statusDot, { backgroundColor: statusColor[modelStatus] }]} />

@@ -187,7 +187,7 @@ export function MorseCodeScreen() {
   const TABLE_ENTRIES = [...ALPHA_KEYS, ...NUM_KEYS];
 
   return (
-    <SafeAreaView style={styles.safeArea}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safeArea}>
       <ScrollView style={styles.container} contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
         {/* Header */}
         <View style={styles.header}>

@@ -235,7 +235,7 @@ export function PaywallScreen() {
   };
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         {featureName && (
           <View style={styles.featureBanner}>

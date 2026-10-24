@@ -265,7 +265,7 @@ export function FlowsScreen() {
 
   if (activeFlow) {
     return (
-      <SafeAreaView style={styles.safe}>
+      <SafeAreaView edges={['left', 'right']} style={styles.safe}>
         <FlowDetailView
           flow={activeFlow}
           navigation={navigation}
@@ -276,7 +276,7 @@ export function FlowsScreen() {
   }
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       <ScrollView
         style={styles.scroll}
         contentContainerStyle={styles.listContent}

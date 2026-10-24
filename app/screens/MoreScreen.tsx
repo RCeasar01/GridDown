@@ -47,7 +47,7 @@ export function MoreScreen() {
   const navigation = useNavigation<Nav>();
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         <Text style={styles.header}>More</Text>
 

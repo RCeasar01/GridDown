@@ -149,7 +149,7 @@ export function MyKitScreen() {
 
   if (loading) {
     return (
-      <SafeAreaView style={styles.safe}>
+      <SafeAreaView edges={['left', 'right']} style={styles.safe}>
         <View style={styles.centered}>
           <Text style={styles.loadingText}>Loading kits…</Text>
         </View>
@@ -158,7 +158,7 @@ export function MyKitScreen() {
   }
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
 
         {/* ── Kit selector tabs ── */}

@@ -108,7 +108,7 @@ function PostAlertModal({ visible, userLocation, onClose, onPosted }: PostAlertM
 
   return (
     <Modal visible={visible} animationType="slide" presentationStyle="pageSheet">
-      <SafeAreaView style={m.container}>
+      <SafeAreaView edges={['left', 'right']} style={m.container}>
         <View style={m.header}>
           <Text style={m.headerTitle}>Post Alert</Text>
           <TouchableOpacity onPress={onClose}><Text style={m.closeBtn}>✕</Text></TouchableOpacity>
@@ -277,7 +277,7 @@ export function AlertsScreen() {
 
   if (!configured) {
     return (
-      <SafeAreaView style={al.safe}>
+      <SafeAreaView edges={['left', 'right']} style={al.safe}>
         <View style={al.unconfigured}>
           <Text style={al.unconfiguredIcon}>📡</Text>
           <Text style={al.unconfiguredTitle}>Community Alerts</Text>
@@ -314,7 +314,7 @@ export function AlertsScreen() {
   );
 
   return (
-    <SafeAreaView style={al.safe}>
+    <SafeAreaView edges={['left', 'right']} style={al.safe}>
       <View style={al.header}>
         <View>
           <Text style={al.headerTitle}>Community Alerts</Text>

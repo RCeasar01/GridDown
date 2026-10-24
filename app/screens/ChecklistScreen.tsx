@@ -49,7 +49,7 @@ export function ChecklistScreen() {
   const totalCount = active?.items.length ?? 0;
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       {/* Checklist selector */}
       <ScrollView
         horizontal

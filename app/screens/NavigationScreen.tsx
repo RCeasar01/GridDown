@@ -158,7 +158,7 @@ export function NavigationScreen() {
   const toggle = (k: string) => setExpanded(expanded === k ? null : k);
 
   return (
-    <SafeAreaView style={n.safe}>
+    <SafeAreaView edges={['left', 'right']} style={n.safe}>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={n.tabBar} contentContainerStyle={n.tabBarContent}>
         {TABS.map((t) => (
           <TouchableOpacity

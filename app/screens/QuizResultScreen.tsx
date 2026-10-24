@@ -180,7 +180,7 @@ export default function QuizResultScreen() {
   );
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView edges={['left', 'right']} style={styles.safe}>
       <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
 
         {/* Score Header */}
