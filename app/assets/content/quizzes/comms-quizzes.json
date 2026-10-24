@@ -1,7 +1,7 @@
 [
   {
     "id": "quiz-comms-001",
-    "category": "communications",
+    "category": "comms",
     "type": "multiple_choice",
     "difficulty": "beginner",
     "scenario": "You need to signal an aircraft about 3 miles away on a sunny afternoon. You have a glass signal mirror with a sighting hole in the center. Which technique is correct?",
@@ -35,7 +35,7 @@
   },
   {
     "id": "quiz-comms-002",
-    "category": "communications",
+    "category": "comms",
     "type": "priority_order",
     "difficulty": "intermediate",
     "scenario": "You need a signal fire for daytime aircraft. You have dry wood, green vegetation (leaves and pine boughs), and a working lighter. Put these steps in order from first to last.",
@@ -79,7 +79,7 @@
   },
   {
     "id": "quiz-comms-003",
-    "category": "communications",
+    "category": "comms",
     "type": "multiple_choice",
     "difficulty": "beginner",
     "scenario": "You are stranded on the shore of a remote lake. People in a boat are passing about 400 yards away. You have a pealess whistle. Which whistle signal is most likely to be understood as a call for help?",

@@ -74,7 +74,7 @@ export const CATEGORY_LIST: CategoryDef[] = [
     "icon": "radio",
     "description": "Signaling, radios, mesh networks, and family communication plans.",
     "guideCount": 16,
-    "quizCount": 11
+    "quizCount": 14
   },
   {
     "id": "security",
