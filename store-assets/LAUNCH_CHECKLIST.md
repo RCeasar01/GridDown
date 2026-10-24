@@ -252,7 +252,27 @@ Check every item before submitting for review.
 - [x] R8-minified release verified: boot, Home/Tools/More/Settings/Founder, Translator, Export (6.4 KB JSON via share
       sheet), quick-action shortcut registered with Android, Advisor — no crashes, no JS errors
 - [x] Play screenshots captured at 1080×1920 (9:16) with demo status bar → `store-assets/screenshots/android/`
+      (01 Home · 02 Learn · 03 Tools · 04 Drill · 05 Emergency Mode · 06 Advisor)
 - [x] `mapping.txt` produced by R8 → upload with each AAB so Play de-obfuscates crash reports
+- [x] **Advisor no longer parrots the reference block** (seen on the emulator: the 1.5B model copied the guide
+      excerpts verbatim). Excerpts now ride in the user turn with a paraphrase instruction; echoed
+      `Guide:`/`Situation:` headers are stripped; verified on the R8 release build
+- [x] **CI was red since the first 10-23 push** — `expo-doctor` compares against Expo's *live* SDK 57 package
+      list, and three packages had shipped new patches since the 19th (`expo-location` 57.0.22,
+      `expo-notifications` 57.0.24, `expo-sharing` 57.0.24). Bumped + lockfile; `npm run lint` also fixed
+      (a dead `@ts-ignore` in `app.config.ts` — `deploymentTarget` is typed now). Expect this drift again
+      whenever Expo patches SDK 57: run `npx expo-doctor` before each release and bump what it names
+- [x] **Parallel branch `feature/triage-phase1`** (local only in `E:\Projects\GridDown`, 5cf825b — deterministic
+      emergency protocols + Advisor router, 5 triage JSONs, `TriageScreen`, 44 tests) trial-merged against
+      `main` in a scratch clone: **auto-merge is clean** (`AdvisorScreen.tsx` both sides), tsc 0 errors,
+      173 tests green, lint 0 errors. Safe to `git merge main` on that branch when it's ready
+
+### Working layout (two sessions, one repo)
+- `E:\Projects\GridDown` — checkout on `feature/triage-phase1` (the other session). Not touched by the release work.
+- `E:\Projects\GridDown-main` — `git worktree` on `main`; release builds run from here. `node_modules` is its own
+  install (was a junction to the main checkout; replaced so dependency bumps can't disturb the other branch).
+  Remove with `git worktree remove E:\Projects\GridDown-main` once the branch is merged; `credentials/` is a copy.
+- Release artifacts land in `E:\Projects\GridDown\_exports\` either way.
 
 ### Open — needs Robert
 - [ ] **App icon is still the orange placeholder bolt.** The GDS brand kit (June) was delivered as a zip and isn't on E:\ anywhere I can find — point me at it and I'll wire icon/adaptive-icon/splash/favicon
@@ -264,6 +284,8 @@ Check every item before submitting for review.
 - [ ] Apple Developer Program ($99/yr) → App Store Connect record, TestFlight
 - [ ] RevenueCat project + keys (free under $2.5k MTR) — `EXPO_PUBLIC_REVENUECAT_*` env before release builds
 - [ ] Community Alerts backend (Supabase free tier) — optional for v1.0; feature is hidden-safe without it
+- [ ] Decide whether `feature/triage-phase1` ships in 1.0 — if yes: `git merge main` on that branch (clean, see
+      above), push, then rebuild the release from the merged tree and re-shoot the Tools screenshot (new Triage row)
 - [ ] GitHub repo RCeasar01/GridDown is PUBLIC (needed for GitHub Pages legal hosting). To make it private, move docs/ to Cloudflare Pages on gdsurvival.com (free) and update the privacy/terms URLs
 
 ## v2.0.0-beta Feature Checklist
