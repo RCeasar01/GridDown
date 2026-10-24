@@ -89,8 +89,10 @@ async function render(name, svg, { flatten } = {}) {
   fs.mkdirSync(OUT, { recursive: true });
   // iOS requires opaque, no rounded corners (the OS masks it). Mark fills ~72% of the tile.
   await render('icon.png', markSvg({ size: 1024, scale: 0.72, background: true, mono: false }), { flatten: true });
-  // Android adaptive foreground: keep the mark inside the 66% safe circle (scale 0.56 → corners inside).
-  await render('adaptive-icon.png', markSvg({ size: 1024, scale: 0.56, background: false, mono: false }));
+  // Android adaptive foreground: the mark's farthest points are the grid-line ends at
+  // distance 0.527·g from centre; the 66 % safe circle has radius 338 px on a 1024 canvas,
+  // so g ≤ 641 px → scale 0.62 is the largest that survives every launcher mask.
+  await render('adaptive-icon.png', markSvg({ size: 1024, scale: 0.62, background: false, mono: false }));
   // Splash image: transparent mark, shown at imageWidth 200 on the dark background.
   await render('splash.png', markSvg({ size: 1024, scale: 0.9, background: false, mono: false }));
   await render('favicon.png', markSvg({ size: 192, scale: 0.78, background: true, mono: false }), { flatten: true });
