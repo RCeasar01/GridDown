@@ -214,6 +214,25 @@ function ModeTabBar({
   );
 }
 
+/**
+ * Minimal markdown → RN text. Small on-device models emit **bold**, `code` and
+ * "### headings"; render bold properly and drop the rest of the syntax.
+ */
+function renderInlineMarkdown(text: string): React.ReactNode {
+  const cleaned = text
+    .replace(/^#{1,6}\s+/gm, '')
+    .replace(/`([^`]+)`/g, '$1');
+  const parts = cleaned.split(/(\*\*[^*]+\*\*)/g);
+  if (parts.length === 1) return cleaned;
+  return parts.map((part, i) =>
+    part.startsWith('**') && part.endsWith('**') ? (
+      <Text key={i} style={styles.bubbleBold}>{part.slice(2, -2)}</Text>
+    ) : (
+      part
+    ),
+  );
+}
+
 function AdvisorInterface() {
   const navigation = useNavigation();
   const [modelStatus, setModelStatus] = useState<ModelStatus>('checking');
@@ -709,14 +728,21 @@ function AdvisorInterface() {
               // "AI-Assisted" label per Apple 2024 AI disclosure requirement
               <Text style={styles.advisorLabel}>◈ FIELD INTELLIGENCE · AI-ASSISTED</Text>
             )}
-            <Text
-              style={[
-                styles.bubbleText,
-                item.role === 'user' ? styles.userBubbleText : styles.advisorBubbleText,
-              ]}
-            >
-              {item.text}
-            </Text>
+            {item.role === 'advisor' && item.text === '' && isGenerating ? (
+              <View style={styles.typingIndicator}>
+                <ActivityIndicator size="small" color={Colors.secondary} />
+                <Text style={styles.typingText}>Reading your guides…</Text>
+              </View>
+            ) : (
+              <Text
+                style={[
+                  styles.bubbleText,
+                  item.role === 'user' ? styles.userBubbleText : styles.advisorBubbleText,
+                ]}
+              >
+                {item.role === 'advisor' ? renderInlineMarkdown(item.text) : item.text}
+              </Text>
+            )}
             {item.role === 'advisor' && item.sources && item.sources.length > 0 && item.text.length > 0 && (
               <View style={styles.sourcesRow}>
                 <Text style={styles.sourcesLabel}>From your guides:</Text>
@@ -758,7 +784,7 @@ function AdvisorInterface() {
           </View>
         )}
         ListFooterComponent={
-          isGenerating ? (
+          isGenerating && !(messages.length > 0 && messages[messages.length - 1].role === 'advisor' && messages[messages.length - 1].text === '') ? (
             <View style={[styles.bubble, styles.advisorBubble]}>
               <Text style={styles.advisorLabel}>◈ FIELD INTELLIGENCE · AI-ASSISTED</Text>
               <View style={styles.typingIndicator}>
@@ -1059,6 +1085,7 @@ const styles = StyleSheet.create({
   },
   advisorLabel: { color: Colors.textMuted, fontSize: 10, fontWeight: '700', letterSpacing: 0.8 },
   bubbleText: { fontSize: 14, lineHeight: 21 },
+  bubbleBold: { fontWeight: '700', color: Colors.textPrimary },
   userBubbleText: { color: Colors.textPrimary },
   advisorBubbleText: { color: Colors.textSecondary },
   typingIndicator: { flexDirection: 'row', alignItems: 'center', gap: 8 },
