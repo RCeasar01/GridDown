@@ -10,6 +10,8 @@ import { useAppStore } from '../store/useAppStore';
 import * as engine from '../utils/advisorEngine';
 import { ADVISOR_MODELS, DOWNLOAD_HEADROOM_BYTES, type AdvisorModel, type AdvisorModelId, type DeviceFit } from '../utils/advisorEngine';
 import { retrieveGuides } from '../utils/guideRetrieval';
+import { routeEmergency } from '../triage/router';
+import { getAvailableTrees } from '../triage/registry';
 
 interface Message {
   id: string;
@@ -20,6 +22,8 @@ interface Message {
   relatedGuideId?: string;
   /** Guides the answer was grounded in (retrieved from the on-device library). */
   sources?: Array<{ id: string; title: string }>;
+  /** Deterministic emergency protocols matched to the user's question (shown above the answer). */
+  protocols?: Array<{ id: string; title: string }>;
 }
 
 const LOCKED_TIERS = ['free', 'monthly', 'yearly', 'lifetime_standard', 'discord'];
@@ -452,6 +456,13 @@ function AdvisorInterface() {
     const sources = retrieved.map((r) => ({ id: r.guide.id, title: r.guide.title }));
     const primaryGuideId = relatedGuideId ?? sources[0]?.id ?? null;
 
+    // Life-threatening situations get a step-by-step protocol card first. This is
+    // pattern matching, not AI, so it works even when no model is downloaded.
+    const trees = getAvailableTrees();
+    const protocols = routeEmergency(userText, trees.map((t) => t.id))
+      .slice(0, 2)
+      .map((m) => ({ id: m.treeId, title: trees.find((t) => t.id === m.treeId)?.title ?? m.treeId }));
+
     const advisorId = String(Date.now() + 1);
     try {
       let responseText: string;
@@ -468,7 +479,7 @@ function AdvisorInterface() {
         // Streaming: push an empty advisor bubble, then fill it token by token.
         setMessages((prev) => [
           ...prev,
-          { id: advisorId, role: 'advisor', text: '', timestamp: Date.now() + 100, isMedical: medical, relatedGuideId: primaryGuideId ?? undefined, sources },
+          { id: advisorId, role: 'advisor', text: '', timestamp: Date.now() + 100, isMedical: medical, relatedGuideId: primaryGuideId ?? undefined, sources, protocols },
         ]);
         let streamed = '';
         responseText = await engine.generate(
@@ -493,7 +504,7 @@ function AdvisorInterface() {
         responseText = scaffoldResponse(userText);
         setMessages((prev) => [
           ...prev,
-          { id: advisorId, role: 'advisor', text: '', timestamp: Date.now() + 100, isMedical: medical, relatedGuideId: primaryGuideId ?? undefined, sources },
+          { id: advisorId, role: 'advisor', text: '', timestamp: Date.now() + 100, isMedical: medical, relatedGuideId: primaryGuideId ?? undefined, sources, protocols },
         ]);
       }
 
@@ -745,6 +756,26 @@ function AdvisorInterface() {
               // "AI-Assisted" label per Apple 2024 AI disclosure requirement
               <Text style={styles.advisorLabel}>◈ FIELD INTELLIGENCE · AI-ASSISTED</Text>
             )}
+            {item.role === 'advisor' && item.protocols && item.protocols.length > 0 && (
+              <View style={styles.protocolBox}>
+                {item.protocols.map((p) => (
+                  <TouchableOpacity
+                    key={p.id}
+                    style={styles.protocolCard}
+                    onPress={() => (navigation as any).navigate('Triage', { treeId: p.id })}
+                    accessibilityRole="button"
+                    accessibilityLabel={`Open ${p.title} emergency protocol`}
+                  >
+                    <Ionicons name="medkit" size={20} color={Colors.textOnPrimary} />
+                    <View style={styles.protocolBody}>
+                      <Text style={styles.protocolLabel}>EMERGENCY PROTOCOL</Text>
+                      <Text style={styles.protocolTitle}>{p.title} - step by step</Text>
+                    </View>
+                    <Ionicons name="chevron-forward" size={20} color={Colors.textOnPrimary} />
+                  </TouchableOpacity>
+                ))}
+              </View>
+            )}
             {item.role === 'advisor' && item.text === '' && isGenerating ? (
               <View style={styles.typingIndicator}>
                 <ActivityIndicator size="small" color={Colors.secondary} />
@@ -943,6 +974,20 @@ const styles = StyleSheet.create({
   modelWarn: { color: Colors.warning, fontSize: 12, marginTop: 4 },
   sourcesRow: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: 6, marginTop: 10 },
   sourcesLabel: { color: Colors.textMuted, fontSize: 11, fontWeight: '600' },
+  protocolBox: { gap: 8, marginBottom: 10 },
+  protocolCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    backgroundColor: Colors.danger,
+    borderRadius: 10,
+    paddingVertical: 12,
+    paddingHorizontal: 12,
+    minHeight: 56,
+  },
+  protocolBody: { flex: 1 },
+  protocolLabel: { color: Colors.textOnPrimary, fontSize: 11, fontWeight: '800', opacity: 0.85 },
+  protocolTitle: { color: Colors.textOnPrimary, fontSize: 16, fontWeight: '800' },
   sourceChip: {
     borderWidth: 1, borderColor: Colors.secondary, borderRadius: 12,
     paddingHorizontal: 8, paddingVertical: 3, maxWidth: 220, minHeight: 28, justifyContent: 'center',

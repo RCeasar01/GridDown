@@ -15,6 +15,7 @@ import { FounderScreen } from '../screens/FounderScreen';
 import { EmergencyModeScreen } from '../screens/EmergencyModeScreen';
 import { MyKitScreen } from '../screens/MyKitScreen';
 import { FlowsScreen } from '../screens/FlowsScreen';
+import { TriageScreen } from '../screens/TriageScreen';
 
 // Screens — Learn
 import { LearnScreen } from '../screens/LearnScreen';
@@ -71,6 +72,7 @@ export type HomeStackParamList = {
   EmergencyMode: undefined;
   MyKit: undefined;
   Flows: undefined;
+  Triage: { treeId?: string } | undefined;
 };
 
 export type LearnStackParamList = {
@@ -90,6 +92,7 @@ export type ToolsStackParamList = {
   Guide: { guideId: string };
   MyKit: undefined;
   Flows: undefined;
+  Triage: { treeId?: string } | undefined;
   Advisor: undefined;
   SurvivalCalculator: undefined;
   StarMap: undefined;
@@ -174,6 +177,7 @@ function HomeStackNavigator() {
       />
       <HomeStack.Screen name="MyKit" component={MyKitScreen} options={{ title: 'My Kit' }} />
       <HomeStack.Screen name="Flows" component={FlowsScreen} options={{ title: 'Real-World Flows' }} />
+      <HomeStack.Screen name="Triage" component={TriageScreen} options={{ title: 'Emergency Protocols' }} />
     </HomeStack.Navigator>
   );
 }
@@ -232,6 +236,11 @@ function ToolsStackNavigator() {
         name="Flows"
         component={FlowsScreen}
         options={{ title: 'Real-World Flows' }}
+      />
+      <ToolsStack.Screen
+        name="Triage"
+        component={TriageScreen}
+        options={{ title: 'Emergency Protocols' }}
       />
       <ToolsStack.Screen
         name="Advisor"

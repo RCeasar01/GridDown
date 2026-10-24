@@ -1,0 +1,132 @@
+{
+  "id": "heat-illness",
+  "title": "Heat Illness",
+  "summary": "Overheated: heat exhaustion or heat stroke. Cool first, then get help.",
+  "icon": "sunny",
+  "schemaVersion": 1,
+  "version": "0.1.0",
+  "sources": [
+    "Wilderness Medical Society Clinical Practice Guidelines for the Prevention and Treatment of Heat Illness",
+    "CDC / NIOSH Heat-Related Illness guidance"
+  ],
+  "reviewStatus": "draft",
+  "firstLine": "Get the person out of the sun and stop all activity now. Send someone to call for help if you can.",
+  "startNode": "q-mental",
+  "nodes": [
+    {
+      "type": "question",
+      "id": "q-mental",
+      "prompt": "Are they confused, acting strangely, slurring, having a seizure, or not responding?",
+      "help": "Any change in how they think or act, in a hot person, is heat stroke until proven otherwise. Skin may be wet or dry.",
+      "options": [
+        { "label": "Yes", "next": "a-stroke" },
+        { "label": "No, they are thinking clearly", "next": "a-exhaustion" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-stroke",
+      "title": "Heat stroke - cool them NOW",
+      "steps": [
+        "Cool first, transport second. Every minute counts.",
+        "Best: put them in cold water up to the neck (stream, tub, tarp filled with water), holding their head above water.",
+        "If no immersion: strip excess clothing, soak them with water continuously, and fan hard. Wet sheets plus wind works well.",
+        "Put ice or cold packs on the neck, armpits, and groin as well, if you have them.",
+        "Keep cooling until their thinking clears or they start shivering. With a thermometer, stop at about 102 F (39 C)."
+      ],
+      "doNot": [
+        "Do not give fever medicine (acetaminophen, aspirin, ibuprofen). It does not help heat stroke and can cause harm.",
+        "Do not give anything to drink if they are confused or not fully awake.",
+        "Do not delay cooling to wait for transport."
+      ],
+      "next": "q-stroke-better"
+    },
+    {
+      "type": "question",
+      "id": "q-stroke-better",
+      "prompt": "Are they responding and breathing?",
+      "options": [
+        { "label": "Responding and thinking more clearly", "next": "e-stroke" },
+        { "label": "Still confused or unresponsive, but breathing", "next": "e-stroke" },
+        { "label": "Not breathing normally", "next": "e-cpr" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-exhaustion",
+      "title": "Heat exhaustion - rest and cool",
+      "steps": [
+        "Move them to shade or the coolest spot available. Have them lie down with legs slightly raised if they feel faint.",
+        "Loosen or remove extra clothing and gear.",
+        "Wet their skin and fan them.",
+        "Give cool water in sips. Add electrolytes or a pinch of salt and some sugar if available.",
+        "Rest for at least 30 minutes."
+      ],
+      "doNot": [
+        "Do not let them go back to work or keep hiking until fully recovered."
+      ],
+      "timerSeconds": 1800,
+      "next": "q-exhaustion-better"
+    },
+    {
+      "type": "question",
+      "id": "q-exhaustion-better",
+      "prompt": "After 30 minutes, how are they?",
+      "options": [
+        { "label": "Clearly better", "next": "e-exhaustion" },
+        { "label": "Not improving, vomiting, or getting worse", "next": "q-worse" }
+      ]
+    },
+    {
+      "type": "question",
+      "id": "q-worse",
+      "prompt": "Are they confused or acting strangely now?",
+      "options": [
+        { "label": "Yes", "next": "a-stroke" },
+        { "label": "No, but not improving", "next": "e-not-improving" }
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-stroke",
+      "title": "Heat stroke - evacuate",
+      "outcome": "critical",
+      "steps": [
+        "Get them to a hospital after cooling is under way. Continue cooling during transport if you can.",
+        "Watch their breathing. Put them on their side if they vomit or are unresponsive.",
+        "Temperature can rise again. Recheck often and recool if they get confused again.",
+        "Even if they seem fine, heat stroke damages organs. They need medical evaluation."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-cpr",
+      "title": "Not breathing - start CPR",
+      "outcome": "critical",
+      "steps": ["Start CPR immediately and use an AED if available."],
+      "switchToTree": "unresponsive-cpr"
+    },
+    {
+      "type": "end",
+      "id": "e-exhaustion",
+      "title": "Recovering from heat exhaustion",
+      "outcome": "monitor",
+      "steps": [
+        "Keep them resting in the shade and drinking for the rest of the day.",
+        "Avoid hard work in the heat until tomorrow. Work in the cooler early morning or evening.",
+        "If confusion, vomiting, or fainting starts, treat as heat stroke."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-not-improving",
+      "title": "Not improving - get help",
+      "outcome": "evacuate",
+      "steps": [
+        "Keep cooling and resting. Keep giving sips of fluid if they can keep it down.",
+        "Get them to medical care. Vomiting stops them from rehydrating by mouth.",
+        "Check their thinking every few minutes. Confusion means heat stroke: start aggressive cooling."
+      ]
+    }
+  ]
+}

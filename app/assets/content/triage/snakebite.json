@@ -1,0 +1,121 @@
+{
+  "id": "snakebite",
+  "title": "Snakebite",
+  "summary": "Bitten by a snake (North America): stay calm, keep still, get to antivenom. No cutting, sucking, or tourniquets.",
+  "icon": "warning",
+  "schemaVersion": 1,
+  "version": "0.1.0",
+  "sources": [
+    "Wilderness Medical Society Practice Guidelines for the Treatment of Pitviper Envenomations in the United States and Canada",
+    "CDC / NIOSH Venomous Snakes guidance"
+  ],
+  "reviewStatus": "draft",
+  "firstLine": "Move away from the snake. Do not try to catch or kill it. A photo from a safe distance is enough. Call 911 or Poison Control (1-800-222-1222 in the US) if you can.",
+  "startNode": "q-danger-signs",
+  "nodes": [
+    {
+      "type": "question",
+      "id": "q-danger-signs",
+      "prompt": "Any of these: trouble breathing, swelling of face or throat, fainting, or not responding?",
+      "options": [
+        { "label": "Yes", "next": "q-breathing" },
+        { "label": "No", "next": "a-first-aid" }
+      ]
+    },
+    {
+      "type": "question",
+      "id": "q-breathing",
+      "prompt": "Are they breathing normally?",
+      "options": [
+        { "label": "Yes, but struggling or faint", "next": "a-severe" },
+        { "label": "No, or only gasping", "next": "e-cpr" }
+      ]
+    },
+    {
+      "type": "action",
+      "id": "a-severe",
+      "title": "Severe reaction",
+      "steps": [
+        "If they carry an epinephrine auto-injector (EpiPen) and have face or throat swelling or hives, use it in the outer thigh.",
+        "Lay them down. If breathing is easier sitting up, let them sit.",
+        "Keep the bitten limb still.",
+        "Evacuate immediately by the fastest means available."
+      ],
+      "next": "e-severe"
+    },
+    {
+      "type": "action",
+      "id": "a-first-aid",
+      "title": "Snakebite first aid",
+      "steps": [
+        "Keep the person calm and still. Walking or panicking spreads venom faster.",
+        "Remove rings, watches, bracelets, and tight clothing near the bite before swelling starts.",
+        "Keep the bitten limb still and roughly at heart level. A loose splint helps.",
+        "Mark the edge of any swelling with a pen and write the time. Update it every 15 minutes so medics can see how fast it spreads.",
+        "Wash the bite gently with water and cover it with a clean, loose dressing.",
+        "Note the time of the bite and what the snake looked like."
+      ],
+      "doNot": [
+        "Do not cut the wound or try to suck out venom.",
+        "Do not use a tourniquet or tight bandage.",
+        "Do not put ice on it or soak it in water.",
+        "Do not give alcohol or pain medicines like aspirin or ibuprofen (they can worsen bleeding).",
+        "Do not use electric shock or snakebite \"venom extractor\" kits."
+      ],
+      "next": "q-evac"
+    },
+    {
+      "type": "question",
+      "id": "q-evac",
+      "prompt": "Can you reach a hospital?",
+      "help": "Antivenom is the only real treatment for a venomous bite, and it is only available in hospitals.",
+      "options": [
+        { "label": "Yes, by vehicle or rescue", "next": "e-hospital" },
+        { "label": "Not anytime soon", "next": "e-no-hospital" }
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-hospital",
+      "title": "Get to a hospital",
+      "outcome": "evacuate",
+      "steps": [
+        "Go now, even if they feel fine. Symptoms can be delayed for hours, especially with coral snake bites.",
+        "Carry or drive them if possible. If they must walk, go slowly and rest often.",
+        "Call ahead if you can so the hospital can get antivenom ready.",
+        "Bring the swelling time marks and your snake description or photo."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-no-hospital",
+      "title": "No hospital nearby",
+      "outcome": "critical",
+      "steps": [
+        "Keep working toward help. Signal for rescue (radio, phone, PLB, signal mirror) as soon as possible.",
+        "Keep them resting, calm, limb still, and hydrated if they can swallow.",
+        "Keep marking swelling every 15 minutes.",
+        "Watch for spreading swelling, bleeding from gums or nose, vomiting, numbness, drooping eyelids, trouble swallowing or breathing. Any of these means they need antivenom urgently.",
+        "Many bites are \"dry\" (no venom). If there is no pain, swelling, or other symptoms after 8 to 12 hours, serious envenomation is unlikely, but get them checked when you can."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-severe",
+      "title": "Severe reaction - evacuate now",
+      "outcome": "critical",
+      "steps": [
+        "This is life-threatening. Get them to a hospital by the fastest means available.",
+        "Watch breathing constantly. If it stops, start CPR."
+      ]
+    },
+    {
+      "type": "end",
+      "id": "e-cpr",
+      "title": "Not breathing - start CPR",
+      "outcome": "critical",
+      "steps": ["Start CPR immediately and use an AED if available."],
+      "switchToTree": "unresponsive-cpr"
+    }
+  ]
+}
