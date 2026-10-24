@@ -197,13 +197,41 @@
     }
   ],
   "seeds": [
-    { "name": "Heirloom Tomato",     "type": "Vegetable", "note": "Open-pollinated; save seeds from harvest each year. Grows in most climates." },
-    { "name": "Heirloom Squash",     "type": "Vegetable", "note": "Extremely high yield. Stores well whole for months at room temperature." },
-    { "name": "Heirloom Beans",      "type": "Vegetable", "note": "Dual-purpose: eat fresh or dry for storage. High protein." },
-    { "name": "Kale / Chard",        "type": "Vegetable", "note": "Cold tolerant; grows in poor soil. High nutrient density per plant." },
-    { "name": "Heirloom Corn",       "type": "Grain",     "note": "Open-pollinated non-GMO. Can be dried and ground. Nixtamalization improves nutrition." },
-    { "name": "Sunflower",           "type": "Oil Crop",  "note": "High calorie seeds and extractable oil. Birds may compete — net if needed." },
-    { "name": "Radish",              "type": "Vegetable", "note": "Fast-growing (25 days to harvest). Excellent morale crop." }
+    {
+      "name": "Heirloom Tomato",
+      "type": "Vegetable",
+      "note": "Open-pollinated; save seeds from harvest each year. Grows in most climates."
+    },
+    {
+      "name": "Heirloom Squash",
+      "type": "Vegetable",
+      "note": "Extremely high yield. Stores well whole for months at room temperature."
+    },
+    {
+      "name": "Heirloom Beans",
+      "type": "Vegetable",
+      "note": "Dual-purpose: eat fresh or dry for storage. High protein."
+    },
+    {
+      "name": "Kale / Chard",
+      "type": "Vegetable",
+      "note": "Cold tolerant; grows in poor soil. High nutrient density per plant."
+    },
+    {
+      "name": "Heirloom Corn",
+      "type": "Grain",
+      "note": "Open-pollinated non-GMO. Can be dried and ground. Nixtamalization improves nutrition."
+    },
+    {
+      "name": "Sunflower",
+      "type": "Oil Crop",
+      "note": "High calorie seeds and extractable oil. Birds may compete — net if needed."
+    },
+    {
+      "name": "Radish",
+      "type": "Vegetable",
+      "note": "Fast-growing (25 days to harvest). Excellent morale crop."
+    }
   ],
   "calorieTarget": 2000,
   "calorieTargetNote": "2,000 cal/day is a moderate activity baseline. Increase to 2,500–3,000 for heavy physical labor (bugging out, manual work)."

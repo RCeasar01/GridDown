@@ -2,22 +2,119 @@
   "id": "checklist-nuclear",
   "title": "Nuclear Incident",
   "disasterType": "nuclear",
-  "description": "GET INSIDE. STAY INSIDE. STAY TUNED. Three actions that dramatically improve survival.",
+  "description": "Use this list to prepare for a nuclear detonation or fallout emergency - the core actions are Get Inside, Stay Inside, Stay Tuned.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "What to Do: Get Inside",
+      "publisher": "CDC",
+      "url": "https://cdc.gov/radiation-emergencies/response/get-inside.html",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Nuclear Blasts: Frequently Asked Questions",
+      "publisher": "CDC",
+      "url": "https://www.cdc.gov/radiation-emergencies/about/nuclear-blast-faq.html",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Frequently Asked Questions on Potassium Iodide (KI)",
+      "publisher": "U.S. FDA",
+      "url": "https://www.fda.gov/drugs/bioterrorism-and-drug-preparedness/frequently-asked-questions-potassium-iodide-ki",
+      "accessed": "2026-10"
+    }
+  ],
   "items": [
-    { "id": "nuc-001", "text": "Know highest-risk targets in your region (military bases, major ports, large cities)", "critical": true },
-    { "id": "nuc-002", "text": "Know your best available shelter — center of large concrete building > basement > vehicle", "critical": true },
-    { "id": "nuc-003", "text": "NOAA weather radio to receive emergency broadcasts after event when internet is down", "critical": true },
-    { "id": "nuc-004", "text": "Potassium Iodide (KI) tablets stored and not expired — follow official dosing guidance", "critical": false },
-    { "id": "nuc-005", "text": "Plastic sheeting and duct tape to seal windows and doors in shelter-in-place", "critical": true },
-    { "id": "nuc-006", "text": "14-day food supply in sealed containers (fallout cannot penetrate sealed food)", "critical": true },
-    { "id": "nuc-007", "text": "14-day water supply in sealed containers stored BEFORE any event", "critical": true },
-    { "id": "nuc-008", "text": "N95 masks for each person — reduce fallout particle inhalation if caught outside", "critical": true },
-    { "id": "nuc-009", "text": "Full-coverage clothing (long sleeves, gloves, hat) for any required outdoor exposure", "critical": false },
-    { "id": "nuc-010", "text": "Battery radio to monitor official guidance — minimum 24–48 hour shelter-in-place", "critical": true },
-    { "id": "nuc-011", "text": "Understand the 7:10 rule: radiation drops 90% every 7-fold time increase after detonation", "critical": true },
-    { "id": "nuc-012", "text": "Decontamination plan: remove and bag outer clothing before entering shelter, shower if able", "critical": true },
-    { "id": "nuc-013", "text": "Do NOT look at or approach the fireball or mushroom cloud — thermal flash blinds instantly", "critical": true },
-    { "id": "nuc-014", "text": "Do not use outdoor water, open containers, or unverified municipal supply until declared safe", "critical": true },
-    { "id": "nuc-015", "text": "Out-of-area emergency contact and meeting point documented on paper — cell infrastructure may fail", "critical": false }
+    {
+      "id": "nuc-013",
+      "text": "If you see a bright flash, look away, drop face down behind something solid, and cover your head - stay down until the shock waves pass",
+      "critical": true
+    },
+    {
+      "id": "nuc-002",
+      "text": "Know the best shelter near home and work: the basement or center of a brick or concrete building, away from outside walls and roof - a car is poor shelter",
+      "critical": true
+    },
+    {
+      "id": "nuc-010",
+      "text": "Plan to stay inside at least 24 hours unless officials say otherwise - leaving early is the most common deadly mistake",
+      "critical": true
+    },
+    {
+      "id": "nuc-016",
+      "text": "Agree as a family not to go out to pick up children or others - schools have their own shelter plans",
+      "critical": true
+    },
+    {
+      "id": "nuc-003",
+      "text": "Keep a battery or hand-crank radio with spare batteries (stored in a closed metal container) to hear official instructions",
+      "critical": true
+    },
+    {
+      "id": "nuc-012",
+      "text": "Decontamination plan: remove your outer clothing layer and bag it, then wash skin and hair with soap and water - do not scrub hard",
+      "critical": true
+    },
+    {
+      "id": "nuc-007",
+      "text": "Store at least 2 weeks of water in sealed containers before any event",
+      "critical": true
+    },
+    {
+      "id": "nuc-006",
+      "text": "Store at least 2 weeks of food in sealed cans or packages - wipe containers off before opening",
+      "critical": true
+    },
+    {
+      "id": "nuc-014",
+      "text": "Do not eat garden produce or drink from open outdoor sources until officials say they are safe",
+      "critical": true
+    },
+    {
+      "id": "nuc-008",
+      "text": "Keep N95 masks for each person to cover nose and mouth while moving to shelter",
+      "critical": false
+    },
+    {
+      "id": "nuc-005",
+      "text": "Know how to shut off fans, air conditioning, and forced-air heat and close fireplace dampers so outside air is not pulled in",
+      "critical": true
+    },
+    {
+      "id": "nuc-011",
+      "text": "Understand that fallout radiation drops fast in the first hours and days (the 7-10 rule of thumb: about 90% less for every 7-fold increase in time) - time inside is protection",
+      "critical": false
+    },
+    {
+      "id": "nuc-004",
+      "text": "Potassium iodide (KI) only protects the thyroid - take it only when officials tell you to, follow the package label, and never use iodine antiseptic or iodized salt instead",
+      "critical": false
+    },
+    {
+      "id": "nuc-009",
+      "text": "Keep long sleeves, gloves, and a hat to cover skin if you must go outside",
+      "critical": false
+    },
+    {
+      "id": "nuc-017",
+      "text": "Keep soap, shampoo, damp wipes, and plastic bags with ties in your shelter area for decontamination",
+      "critical": false
+    },
+    {
+      "id": "nuc-018",
+      "text": "Plan to bring pets inside and wash them with soap and water if they were outside",
+      "critical": false
+    },
+    {
+      "id": "nuc-001",
+      "text": "Learn your local emergency plan and how your area sends alerts (WEA, sirens, radio)",
+      "critical": false
+    },
+    {
+      "id": "nuc-015",
+      "text": "Write your out-of-area contact and meeting point on paper - text instead of calling to keep networks open",
+      "critical": false
+    }
   ]
 }

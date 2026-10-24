@@ -1,0 +1,209 @@
+[
+  {
+    "id": "quiz-tools-001",
+    "category": "tools",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your tarp ridgeline is too short. You have a thick piece of rope and a thinner piece of paracord to join together. Which knot should you use?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Square knot - it is the standard knot for joining two ropes"
+      },
+      {
+        "id": "b",
+        "text": "Sheet bend - make a bight in the thick rope and wrap the thin cord around it"
+      },
+      {
+        "id": "c",
+        "text": "Clove hitch - wrap one rope around the other twice"
+      },
+      {
+        "id": "d",
+        "text": "Bowline - tie a loop in each rope and hook them together with a knot"
+      }
+    ],
+    "correct": "b",
+    "explanation": "The sheet bend is made to join ropes of different sizes or materials. Form the bight in the thicker rope and use the thinner one as the working end. A square knot is only for ends of the same size under light load, like bandages - with mismatched ropes under tension it can slip or roll apart. A clove hitch ties a rope to a post, not to another rope. Two interlocked bowlines can work in a pinch but take longer and use more rope than one sheet bend.",
+    "relatedGuide": "tools-004",
+    "tags": [
+      "tools",
+      "knots",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-tools-002",
+    "category": "tools",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "After a storm you are splitting firewood with an axe. The rounds are short, and it feels easier to set them on the grass and swing down hard. Your axe is a little dull. What is the safest change to make?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Swing harder so the dull axe still goes through the wood"
+      },
+      {
+        "id": "b",
+        "text": "Stand the round on a wide chopping block, sharpen the axe, and aim for accuracy over power"
+      },
+      {
+        "id": "c",
+        "text": "Hold the round steady with your free hand so it does not tip"
+      },
+      {
+        "id": "d",
+        "text": "Wear gloves and keep splitting on the grass - the ground will stop the axe"
+      }
+    ],
+    "correct": "b",
+    "explanation": "A dull axe glances off wood instead of biting, and a miss on the ground carries the blade toward your feet and shins. A chopping block catches misses, keeps the edge out of dirt, and puts the round at a better height. The Forest Service stresses keeping the axe sharp and putting accuracy before power. Swinging harder makes glancing blows more violent. Never hold wood where the blade will land. Gloves do not stop an axe.",
+    "relatedGuide": "tools-007",
+    "tags": [
+      "tools",
+      "axe",
+      "safety",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-tools-003",
+    "category": "tools",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You are stocking a headlamp and spare batteries for the emergency kit in your car. Winters get well below 0 F, summers are hot, and you may not open the kit for years. Which AA batteries are the best choice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Standard alkaline - they are cheap and last forever on the shelf"
+      },
+      {
+        "id": "b",
+        "text": "Lithium primary (1.5 V lithium) - long shelf life, leak resistant, and rated to -40 F"
+      },
+      {
+        "id": "c",
+        "text": "NiMH rechargeables - fully charge them once and leave them in the car"
+      },
+      {
+        "id": "d",
+        "text": "Whatever batteries came with the headlamp, left installed in the light"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Lithium AA cells keep most of their charge for well over a decade, resist leaking, and are rated by the maker to work down to -40 F (-40 C). Alkaline cells lose much of their power in hard cold and can leak and ruin a light if left in for years. NiMH rechargeables are great for daily use, but they slowly lose charge and must be topped up. Leaving any batteries installed for years risks leaks and accidental switch-on - store spares in their packaging beside the light.",
+    "relatedGuide": "tools-011",
+    "tags": [
+      "tools",
+      "batteries",
+      "lighting",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-tools-004",
+    "category": "tools",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "A wildfire evacuation alert on your phone changes to Go Now - leave immediately. Your family's go-bags are packed by the front door. Put these actions in the right order.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Get everyone, including pets, out to the car"
+      },
+      {
+        "id": "b",
+        "text": "Grab the packed go-bags and medicines from the grab list"
+      },
+      {
+        "id": "c",
+        "text": "Drive out by your planned route, following official directions"
+      },
+      {
+        "id": "d",
+        "text": "Text your out-of-area contact that you are on the way and where you are headed"
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "At Go Now, people and pets come first - leave without gathering belongings. Because the go-bags are already packed by the door, grabbing them adds only seconds on the way out, along with any medicines on your grab list. Then leave by your planned route and follow official directions. Send a text to your contact once you are moving safely or stopped; texts often get through when calls do not. Never go back inside for more items.",
+    "relatedGuide": "tools-009",
+    "tags": [
+      "tools",
+      "go-bag",
+      "evacuation",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-tools-005",
+    "category": "tools",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "You processed dogbane fibers and are making two-ply cord with the reverse wrap. Every time you let go, the cord untwists and falls apart. What is the most likely mistake?",
+    "options": [
+      {
+        "id": "a",
+        "text": "You are twisting each strand and wrapping it in the same direction"
+      },
+      {
+        "id": "b",
+        "text": "The fibers were too dry - plant fibers must be green to hold a twist"
+      },
+      {
+        "id": "c",
+        "text": "You need to soak the finished cord in water to set it"
+      },
+      {
+        "id": "d",
+        "text": "Dogbane cannot make cordage; only paracord inner strands work"
+      }
+    ],
+    "correct": "a",
+    "explanation": "The reverse wrap only locks when each strand is twisted one way and then wrapped over the other strand the opposite way. If you twist and wrap in the same direction, the cord unwinds as soon as you let go. Dry dogbane stalks that snap crisply are actually ideal, and dogbane is one of the best North American cordage plants. Soaking does not fix a cord built wrong.",
+    "relatedGuide": "tools-005",
+    "tags": [
+      "tools",
+      "cordage",
+      "advanced"
+    ]
+  },
+  {
+    "id": "quiz-tools-006",
+    "category": "tools",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You are driving out of a flood zone and notice a drip under your car. A rubber fuel line near the engine is weeping fuel. You have duct tape, zip ties, wire, and a multi-tool. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wrap the line tightly with duct tape and keep driving to your destination"
+      },
+      {
+        "id": "b",
+        "text": "Hold the line closed with zip ties and keep driving"
+      },
+      {
+        "id": "c",
+        "text": "Stop in a safe spot, shut off the engine, keep away from flames and sparks, and get help or a proper repair"
+      },
+      {
+        "id": "d",
+        "text": "Wrap it with wire so the engine heat cannot melt the repair"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Fuel leaks can start fires, and fuel and oil break down duct tape adhesive quickly, so a taped fuel line is not a safe fix. Zip ties and wire cannot seal a leak. Improvised repair kits are for straps, handles, tarps, and loose parts - never for fuel lines, brakes, or steering. Stop somewhere safe away from traffic and floodwater, turn the engine off, do not smoke, and get the line properly replaced.",
+    "relatedGuide": "tools-012",
+    "tags": [
+      "tools",
+      "repair",
+      "vehicle",
+      "intermediate"
+    ]
+  }
+]

@@ -4,35 +4,76 @@
     "category": "fire",
     "type": "multiple_choice",
     "difficulty": "intermediate",
-    "scenario": "You've been attempting to produce a coal with a bow drill for 25 minutes. Both your spindle (willow) and fireboard (willow) are locally sourced but it's been raining for 2 days. You're seeing smoke from the notch but no sustained coal. What is the single most likely cause?",
+    "scenario": "You've been working a bow drill for 25 minutes. Your willow spindle and willow fireboard came from branches lying on the ground after two days of rain. You get some smoke from the notch but the dust never holds as a coal. What is the most likely cause?",
     "options": [
-      { "id": "a", "text": "Insufficient downward pressure on the handhold" },
-      { "id": "b", "text": "Wood moisture content is too high — both spindle and board are saturated" },
-      { "id": "c", "text": "The notch angle is incorrect — it should be 1/8 of the depression" },
-      { "id": "d", "text": "The bow speed is too slow for the wood species combination" }
+      {
+        "id": "a",
+        "text": "Not enough downward pressure on the handhold"
+      },
+      {
+        "id": "b",
+        "text": "The wood is too damp - ground-lying wood after days of rain holds moisture"
+      },
+      {
+        "id": "c",
+        "text": "Willow is the wrong species for a bow drill"
+      },
+      {
+        "id": "d",
+        "text": "The bow is too long for the spindle"
+      }
     ],
     "correct": "b",
-    "explanation": "Surface moisture on bow drill components is the #1 cause of failure in field conditions. Wood above ~15% moisture content will not sustain friction ignition — the steam produced as moisture evaporates cools the dust pile and prevents it from reaching 800°F+ ignition temperature. Solutions: split the wood to expose dry interior heartwood, keep components inside your clothing/sleeping bag overnight, or use a friction fire starter only after exposure to body heat for several hours. Willow is a good wood pairing — the issue here is moisture, not species selection. Notch should be 1/8 of the fire circle, and pressure/speed are secondary to dry wood.",
+    "explanation": "Damp wood is the most common reason a bow drill fails in the field. Moisture in the spindle and board soaks up the heat, so the dust never gets hot enough to form a coal. Wood lying on wet ground is the worst choice; dead wood still standing or hanging off the ground is drier, and splitting it exposes the drier core. Willow is a good bow drill wood, so species is not the problem. Pressure and notch shape matter, but even perfect technique will not overcome wet wood. Keeping the pieces inside your jacket for a while helps dry the surface.",
     "relatedGuide": "fire-001",
-    "tags": ["fire", "intermediate", "bow-drill"]
+    "tags": [
+      "fire",
+      "intermediate",
+      "bow-drill"
+    ]
   },
   {
     "id": "quiz-fire-002",
     "category": "fire",
     "type": "priority_order",
     "difficulty": "beginner",
-    "scenario": "You've collected dry tinder (cattail fluff), finger-size kindling (dry twigs), and wrist-size fuel wood (dead branches). You've selected a site. Place these steps in correct order for a safe, reliable fire build.",
+    "scenario": "Fires are allowed where you are camped. You have dry tinder (cattail fluff), sorted kindling, wrist-size dead wood, and a full bucket of water. Put these steps in the right order for a safe, reliable fire.",
     "items": [
-      { "id": "1", "text": "Clear a 3-foot radius of dead leaves, pine needles, and dry debris around the fire site" },
-      { "id": "2", "text": "Build a tinder bundle and place it at center of cleared area" },
-      { "id": "3", "text": "Build a small teepee of finger-sized kindling above and around the tinder — leave a 'door' opening on the windward side" },
-      { "id": "4", "text": "Add 3-4 pieces of wrist-sized fuel in a loose teepee or log cabin around the kindling structure" },
-      { "id": "5", "text": "Light the tinder bundle through the windward door opening using a match or spark at the base" }
+      {
+        "id": "1",
+        "text": "Clear a circle at least 10 feet across down to bare soil, away from tents, brush, and low branches"
+      },
+      {
+        "id": "2",
+        "text": "Place the tinder bundle in the center of the fire ring"
+      },
+      {
+        "id": "3",
+        "text": "Build a small teepee of the thinnest kindling over the tinder, leaving a door on the upwind side"
+      },
+      {
+        "id": "4",
+        "text": "Light the tinder at its base through the upwind door"
+      },
+      {
+        "id": "5",
+        "text": "Add thicker kindling, then wrist-size wood, one size at a time as each catches"
+      }
     ],
-    "correct_order": ["1", "2", "3", "4", "5"],
-    "explanation": "Always clear the debris radius FIRST — most wildfires start from embers landing in surrounding material, not from the fire itself. Build from smallest (tinder) to largest — adding fuel before kindling catches is the most common beginner failure. The windward opening allows oxygen to feed the flame and gives your ignition source access to the base of the tinder. Light at the BASE — heat rises. Never light from the top. Once the kindling catches, add fuel gradually. Never leave a fire unattended, even for 30 seconds in dry conditions.",
-    "relatedGuide": "fire-001",
-    "tags": ["fire", "beginner", "fire-lay"]
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Clear the site first - the Forest Service recommends a cleared circle about 10 feet across and keeping fires at least 15 feet from tents and vegetation, because stray embers landing in dry debris start many wildfires. Build from smallest to largest: tinder, then fine kindling. Light at the base on the upwind side so the breeze pushes flame into the fuel. Only after the fine kindling is burning do you add bigger pieces. Adding large wood too early smothers the fire and is the most common beginner mistake. Never leave the fire unattended.",
+    "relatedGuide": "fire-008",
+    "tags": [
+      "fire",
+      "beginner",
+      "fire-lay"
+    ]
   },
   {
     "id": "quiz-fire-003",
@@ -43,67 +84,310 @@
     "nodes": {
       "start": {
         "id": "start",
-        "scenario": "It's been raining for 3 days. Everything looks wet. You need fire to boil water for your group. You have: 2 matches, a ferrocerium rod, and a fixed-blade knife. No commercial tinder. What's your first action?",
+        "scenario": "It has rained for 3 days. Everything looks wet. You need fire to boil water for your group. You have 2 matches, a ferrocerium rod, and a fixed-blade knife, but no kit tinder. What's your first move?",
         "options": [
-          { "text": "Search for dead standing wood (snags) and split it to expose dry heartwood", "next": "dead_standing" },
-          { "text": "Look for birch trees or resinous pine — both have ignition-resistant bark and pitch", "next": "resinous_sources" }
+          {
+            "text": "Find standing dead wood and split it to reach the dry core",
+            "next": "dead_standing"
+          },
+          {
+            "text": "Look for natural tinder that resists water, like fatwood or birch bark",
+            "next": "resinous_sources"
+          }
         ]
       },
       "dead_standing": {
         "id": "dead_standing",
-        "scenario": "Good. A dead standing snag of hardwood will have dry interior even after days of rain. You find a 4-inch diameter dead oak snag. Do you:",
+        "scenario": "Good. Standing dead wood stays drier inside than wood on the ground. You find a dead branch about 4 inches thick still attached to a tree and break off a section. Now what?",
         "options": [
-          { "text": "Baton your knife through the center to expose heartwood, then shave fine feather sticks", "next": "feather_sticks_oak" },
-          { "text": "Try to break it into pieces and use the interior chunks directly", "next": "interior_chunks" }
+          {
+            "text": "Split it with your knife to expose the dry inner wood, then carve thin feather sticks",
+            "next": "feather_sticks"
+          },
+          {
+            "text": "Break the dry inner wood into chunks and try to light the chunks directly",
+            "next": "interior_chunks"
+          }
         ]
       },
-      "feather_sticks_oak": {
-        "id": "feather_sticks_oak",
+      "feather_sticks": {
+        "id": "feather_sticks",
         "outcome": "success",
-        "explanation": "Dead standing wood retains dry interior even in multi-day rain. Batoning to expose heartwood is the correct technique. Fine feather sticks from dry heartwood are excellent tinder. The ferro rod produces a hotter spark than matches — save matches for backup. This is the correct wet-weather sequence: find, split, shave, structure, ignite."
+        "explanation": "Splitting dead wood to reach the dry core and carving fine feather sticks is the right wet-weather sequence. Thin curls have lots of surface area and light from a match or ferro rod. Use the ferro rod first and save the matches as backup. Build on a dry platform of split sticks, feed small pieces steadily, and dry the next fuel beside the fire."
       },
       "interior_chunks": {
         "id": "interior_chunks",
         "outcome": "poor",
-        "explanation": "Tinder must be FINE — the ignition temperature threshold depends on exposed surface area. A chunk of dry wood, no matter how dry, will not catch from a spark or match. You must shave or create feather sticks to expose fine fibers with high surface area. The interior dry wood was the right material — the wrong form."
+        "explanation": "The dry inner wood was the right material in the wrong form. A chunk, no matter how dry, will not catch from a spark or match. Tinder must be fine - thin shavings, curls, or scrapings - so it heats up fast. Carve feather sticks or scrape fine shavings from the dry wood, then light them."
       },
       "resinous_sources": {
         "id": "resinous_sources",
-        "scenario": "You find a standing dead pine. The base where dead branches were is packed with dried pitch (fatwood). Fatwood burns even when wet because the resin repels water and has a high BTU content. Do you:",
+        "scenario": "You find an old pine stump. The wood near the base is heavy, amber colored, sticky, and smells strongly of pine - fatwood. A fallen birch lies nearby with loose bark curls. What do you use?",
         "options": [
-          { "text": "Collect the pitch-saturated wood at branch junctions and the base, shave tinder from it", "next": "fatwood_tinder" },
-          { "text": "Use the birch bark you find on a fallen log nearby as your primary tinder", "next": "birch_bark" }
+          {
+            "text": "Scrape fatwood into fine dust and thin shavings for tinder",
+            "next": "fatwood_tinder"
+          },
+          {
+            "text": "Peel the loose outer bark curls from the fallen birch for tinder",
+            "next": "birch_bark"
+          }
         ]
       },
       "fatwood_tinder": {
         "id": "fatwood_tinder",
         "outcome": "success",
-        "explanation": "Fatwood (resin-saturated pine heartwood) is the best wet-weather natural tinder. It ignites at lower temperatures due to turpentine content and burns at over 1,000°F. Always check pine snags and base junctions for yellow-orange resin-soaked wood. It smells strongly of pine resin. This is a top-tier wet fire starting skill."
+        "explanation": "Fatwood is pine heartwood soaked with resin. The resin repels water and burns hot and steady, so it works well in wet weather. Scraped dust catches a ferro rod spark, and thin shavings light from a match. Look for it in old stumps, roots, and where dead branches join the trunk. Never cut live trees to get it."
       },
       "birch_bark": {
         "id": "birch_bark",
         "outcome": "success",
-        "explanation": "Birch bark contains betulin and other oils that make it highly flammable even when damp. Both birch bark and fatwood are excellent wet-condition tinders. Birch bark ignites even when slightly wet due to oil content. Note: only use fallen/dead birch — peeling live birch bark kills the tree. The outer papery layers are the tinder; the inner layers are kindling material. Use whatever resinous or oil-containing material you can find in wet conditions."
+        "explanation": "Birch bark contains natural oils and burns well even when damp. Take the thin papery outer layers from dead or fallen birch, or loose curls already shedding - stripping bark from living trees damages them and can kill them. Tear it thin or scrape it into fuzz for a ferro rod. Both birch bark and fatwood are excellent wet-weather tinders."
       }
     },
-    "relatedGuide": "fire-001",
-    "tags": ["fire", "advanced", "wet-conditions", "decision-tree"]
+    "relatedGuide": "fire-003",
+    "tags": [
+      "fire",
+      "advanced",
+      "wet-conditions",
+      "decision-tree"
+    ]
   },
   {
     "id": "quiz-fire-004",
     "category": "fire",
     "type": "multiple_choice",
     "difficulty": "beginner",
-    "scenario": "You're setting up camp in a dry pine forest. Wind is from the northwest at about 10mph. You plan to build a fire. Which action is the HIGHEST PRIORITY safety step before lighting?",
+    "scenario": "You're setting up camp in a dry pine forest with no posted fire restrictions. There is no existing fire ring. Wind is light. Before you light a fire, which step matters most for preventing an escaped fire?",
     "options": [
-      { "id": "a", "text": "Build the fire in a depression at least 6 inches deep to contain embers" },
-      { "id": "b", "text": "Clear all combustible material (dead leaves, pine needles, dry grass) in a minimum 3-foot radius around the fire site" },
-      { "id": "c", "text": "Position the fire to the southeast of your shelter so smoke blows away from camp" },
-      { "id": "d", "text": "Limit fire diameter to 18 inches maximum" }
+      {
+        "id": "a",
+        "text": "Dig the fire pit at least 2 feet deep to hide the flames"
+      },
+      {
+        "id": "b",
+        "text": "Pick bare ground at least 15 feet from tents and brush, clear a 10-foot-wide circle to mineral soil, and have water and a shovel ready"
+      },
+      {
+        "id": "c",
+        "text": "Place the fire downwind of your tent so smoke blows away from camp"
+      },
+      {
+        "id": "d",
+        "text": "Ring the fire with rocks from the nearby creek"
+      }
     ],
     "correct": "b",
-    "explanation": "Ember control is the #1 priority. The vast majority of wildfire ignitions from campfires happen when a single ember lands in surrounding dry material. The debris clearance radius is non-negotiable — 3 feet minimum in dry conditions, 5 feet in very dry/windy conditions. Building in a depression helps contain heat but doesn't stop airborne embers. Positioning relative to shelter matters for comfort but is not a safety priority. Limiting size is good practice but secondary to clearing the fuel bed. Scrape down to mineral soil in the fire area when possible.",
-    "relatedGuide": "fire-002",
-    "tags": ["fire", "beginner", "safety"]
+    "explanation": "Most escaped campfires start when embers land in dry needles, grass, or duff around the fire. Current Forest Service (Smokey Bear) guidance is to keep the fire at least 15 feet from tents, vegetation, and low branches, clear a 10-foot-diameter area, and have water and a shovel ready before lighting. A very deep pit is unnecessary - about 1 foot is the guideline - and does not stop flying embers. Wind direction matters for comfort but does not prevent spread. Creek rocks can hold water and crack or burst when heated. In a dry pine forest, also consider whether you need a fire at all.",
+    "relatedGuide": "fire-004",
+    "tags": [
+      "fire",
+      "beginner",
+      "safety"
+    ]
+  },
+  {
+    "id": "quiz-fire-005",
+    "category": "fire",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You're using a new ferro rod for the first time. You scrape it with the included striker over a pile of small twigs and leaves. You get only a few weak sparks, and nothing catches. What's the best fix?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Strike faster and lighter so the sparks fly farther"
+      },
+      {
+        "id": "b",
+        "text": "Scrape off the rod's black coating, press harder with slow strokes, and use fine fluffy tinder like petroleum-jelly cotton or fatwood dust"
+      },
+      {
+        "id": "c",
+        "text": "Switch to striking with the sharp cutting edge of your knife"
+      },
+      {
+        "id": "d",
+        "text": "Soak the twigs in hand sanitizer before striking"
+      }
+    ],
+    "correct": "b",
+    "explanation": "New ferro rods usually have a protective coating that must be scraped off before they spark well. Firm, slow strokes shed more hot metal than fast light flicks. Most importantly, twigs and leaves do not catch sparks - you need fine, fluffy tinder such as fluffed petroleum-jelly cotton, fatwood dust, birch bark fuzz, or plant down. The knife's cutting edge dulls the blade and is unsafe; use the striker or a square knife spine. Adding liquid fuels or sanitizer is risky and unnecessary.",
+    "relatedGuide": "fire-005",
+    "tags": [
+      "fire",
+      "beginner",
+      "ferro-rod"
+    ]
+  },
+  {
+    "id": "quiz-fire-006",
+    "category": "fire",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "It is 10 degrees F (-12 degrees C). Your disposable butane lighter has been in your outer jacket pocket all day. When you try to light your fire, it sparks but gives no flame, even though you can see fuel inside. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Throw it away - it is broken"
+      },
+      {
+        "id": "b",
+        "text": "Warm the lighter in your hand or an inside pocket for a few minutes, then try again, and use your ferro rod or stormproof matches meanwhile"
+      },
+      {
+        "id": "c",
+        "text": "Hold the lighter near the tinder and click it faster"
+      },
+      {
+        "id": "d",
+        "text": "Heat the lighter over another flame to build pressure"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Butane does not turn to gas well below about freezing, so a cold lighter may spark but make no flame. Warming it close to your body usually fixes the problem. Carry it in an inside pocket in cold weather. A ferro rod and stormproof matches are not affected by cold the same way, which is why you carry more than one ignition source. Never heat a lighter over a flame - it can burst.",
+    "relatedGuide": "fire-006",
+    "tags": [
+      "fire",
+      "intermediate",
+      "lighter",
+      "cold-weather"
+    ]
+  },
+  {
+    "id": "quiz-fire-007",
+    "category": "fire",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You are done with your campfire for the night. You have a shovel and plenty of water. A friend says to just cover the coals with dirt so they go out. What is the right way to put it out?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cover it with a thick layer of dirt and go to bed"
+      },
+      {
+        "id": "b",
+        "text": "Let it burn out on its own - it is small"
+      },
+      {
+        "id": "c",
+        "text": "Drown it with water until the hissing stops, stir the ashes and embers, drown it again, then feel with the back of your hand for heat"
+      },
+      {
+        "id": "d",
+        "text": "Pour one bucket of water over it and leave once the flames are gone"
+      }
+    ],
+    "correct": "c",
+    "explanation": "The Forest Service method is Drown, Stir, Drown, Feel. Dirt alone does not reliably put out embers - it can insulate coals so they stay hot and reignite hours later. One bucket often leaves hidden embers under logs and ash, which is why you stir and drown again. Never leave a fire to burn out on its own. Finish by feeling just above the ashes with the back of your hand: if it is too hot to touch, it is too hot to leave.",
+    "relatedGuide": "fire-014",
+    "tags": [
+      "fire",
+      "beginner",
+      "extinguish",
+      "wildfire-prevention"
+    ]
+  },
+  {
+    "id": "quiz-fire-008",
+    "category": "fire",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "A winter storm knocks out power for three days. Your house is getting cold. You have a portable generator, a charcoal grill, a camp stove, and a wood stove that was inspected this fall. Which is the safest way to stay warm?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Run the generator in the attached garage with the big door open and power a space heater"
+      },
+      {
+        "id": "b",
+        "text": "Bring the charcoal grill inside after the coals stop flaming"
+      },
+      {
+        "id": "c",
+        "text": "Burn seasoned wood in the inspected wood stove, keep combustibles 3 feet away, and make sure battery-powered CO and smoke alarms are working"
+      },
+      {
+        "id": "d",
+        "text": "Run the camp stove in the kitchen with a window cracked"
+      }
+    ],
+    "correct": "c",
+    "explanation": "A properly vented, inspected wood stove is designed for indoor heat. Keep anything that can burn at least 3 feet away and have working battery-powered CO and smoke alarms on every level and outside sleeping areas. CDC says never to use generators, grills, or camp stoves inside a home, basement, or garage, even with doors or windows open - carbon monoxide builds up fast and has no smell. Generators belong outdoors at least 20 feet from doors, windows, and vents. Charcoal gives off CO even after the flames are gone.",
+    "relatedGuide": "fire-013",
+    "tags": [
+      "fire",
+      "intermediate",
+      "carbon-monoxide",
+      "home-heating",
+      "power-outage"
+    ]
+  },
+  {
+    "id": "quiz-fire-009",
+    "category": "fire",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "You are stranded in 2 feet (60 cm) of snow in a forest and need a fire to warm up and melt water. Where and how should you build it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Right on the snow under a big spruce with heavy snow on its branches, for shelter from wind"
+      },
+      {
+        "id": "b",
+        "text": "Inside your small tent, so the heat stays in"
+      },
+      {
+        "id": "c",
+        "text": "On a platform of thick logs laid side by side on the snow, in a spot sheltered from wind but with no snow-loaded branches overhead"
+      },
+      {
+        "id": "d",
+        "text": "In a deep hole dug in the snow so the fire is out of the wind"
+      }
+    ],
+    "correct": "c",
+    "explanation": "A fire built on snow melts down and drowns itself, so in deep snow you build a platform of thick logs to keep it up. Shelter from wind helps, but snow-loaded branches overhead will melt and dump snow on the fire - or on you. A fire in a snow hole sinks into meltwater. Never build a fire or run a stove inside a tent or closed shelter: carbon monoxide builds up fast, and the tent can catch fire. In shallow snow, dig down to bare ground instead.",
+    "relatedGuide": "fire-010",
+    "tags": [
+      "fire",
+      "advanced",
+      "snow",
+      "cold-weather"
+    ]
+  },
+  {
+    "id": "quiz-fire-010",
+    "category": "fire",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You bought a cord of firewood in October to heat your home this winter. The seller says it was cut last month. You split a piece and the fresh face feels cool and damp. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Burn it - all firewood is the same once it is in a hot stove"
+      },
+      {
+        "id": "b",
+        "text": "Burn it on low air settings so it lasts longer"
+      },
+      {
+        "id": "c",
+        "text": "Split it all, stack it off the ground with the top covered and sides open, and buy or use already-seasoned wood (20% moisture or less) for this winter"
+      },
+      {
+        "id": "d",
+        "text": "Store it in a closed shed so it stays out of the rain"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Freshly cut wood can be 50% water or more. Burning it wastes heat, makes heavy smoke, and builds creosote in the chimney, which can lead to a chimney fire - especially on low, smoldering burns. EPA Burn Wise guidance is to burn wood at 20% moisture or less and season hardwood at least 12 months and softwood at least 6 months. Split wood dries faster, and it needs air flow: stack it off the ground with only the top covered. A closed shed with no air movement slows drying.",
+    "relatedGuide": "fire-015",
+    "tags": [
+      "fire",
+      "intermediate",
+      "firewood",
+      "home-heating"
+    ]
   }
 ]

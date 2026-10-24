@@ -4,36 +4,127 @@
     "category": "water",
     "title": "Finding Water in the Wild",
     "priority": "critical",
-    "tags": ["water", "sourcing", "beginner", "critical"],
-    "summary": "Locate reliable water sources using terrain, vegetation, and animal behavior cues.",
+    "tags": [
+      "water",
+      "sourcing",
+      "wilderness",
+      "springs",
+      "terrain"
+    ],
+    "summary": "Use terrain, plants, animals, and rock features to find water when you are cut off from a tap, then pick the cleanest source and treat it before drinking.",
     "steps": [
-      { "step": 1, "title": "Read the terrain", "body": "Water flows downhill and collects in valleys, ravines, and low-lying areas. Follow natural drainages — dry creek beds, gullies, and canyon floors. After rain, these fill quickly. Even in drought, dig 1–3 feet in the outer bend of a dry streambed — moisture collects there." },
-      { "step": 2, "title": "Watch for vegetation signals", "body": "Cattails, willows, cottonwoods, and bright green vegetation in an otherwise dry landscape almost always indicate a water table near the surface. Dig at the base of these plants. In desert terrain, look for lines of green cutting across hillsides — these follow underground water seeps." },
-      { "step": 3, "title": "Track animal movement", "body": "Animal trails converge at water sources, especially at dawn and dusk. Follow worn trails leading downhill. Birds, especially doves and pigeons, fly to water at dawn and dusk in straight flight lines. Bees and wasps always nest within a mile of water. Follow flying insects toward water." },
-      { "step": 4, "title": "Locate rock seeps and springs", "body": "Water seeps out of cliff faces, rock overhangs, and areas where geological layers change. Look for dark staining, moss, or algae growth on rock surfaces. Concave rock formations collect dew and rainwater. Dig at the base of cliff faces in rocky terrain." },
-      { "step": 5, "title": "Collect before purifying", "body": "Collect all found water regardless of apparent clarity. Clear water can still carry pathogens. Turbid water may be safer after filtration and purification than clear water that appears clean. Collect as much as possible and purify what you intend to drink." }
+      {
+        "step": 1,
+        "title": "Slow down and save the water inside you",
+        "body": "Before you search, cut your losses. Rest in shade during the hottest hours, keep clothing on to slow sweat evaporation, and do not eat large amounts if you have no water, because digestion uses water. U.S. Army survival doctrine says to ration sweat, not water: drink what you have when you need it and limit hard work instead. An adult at rest in mild weather (about 68 F / 20 C) loses about 2 to 3 quarts (2 to 3 liters) a day, and far more in heat. Plan your search for early morning or evening, and tell someone or leave a note about which way you went."
+      },
+      {
+        "step": 2,
+        "title": "Go downhill and follow drainages",
+        "body": "Water collects in low ground. Look at the land or your map and head for valley floors, ravines, canyon bottoms, and the base of slopes. Follow any drainage - even a dry one - downhill, because flow and moisture build as small gullies join. Where two drainages meet is often wetter than either one alone. In hilly country, the foot of a cliff or the base of a steep slope can hold water that seeped down through the rock. Mark your route as you go so you can get back to camp or your vehicle."
+      },
+      {
+        "step": 3,
+        "title": "Look for water-loving plants",
+        "body": "A line or patch of greener plants in dry country often traces water near the surface. Cattails, rushes, sedges, willows, cottonwoods, and sycamores usually grow where roots can reach water year-round. Be careful with plants that are simply drought-hardy: many desert shrubs stay green with very deep roots, so a green bush alone does not promise water. A strip of trees that follows a canyon bottom is a much better sign than a single green plant on a slope."
+      },
+      {
+        "step": 4,
+        "title": "Read animal and insect signs with care",
+        "body": "Game trails that join and head downhill often lead to water, especially when they are well worn. Many birds that eat seeds, such as doves and quail, fly to water around dawn and dusk. Swarms of flies, mosquitoes, or bees can also mean water is near. Treat these as hints, not proof. Some animals get most of their water from food, and insects can travel far. Combine animal clues with terrain and plant clues before spending energy on a long hike."
+      },
+      {
+        "step": 5,
+        "title": "Check rock seeps, springs, and potholes",
+        "body": "Dark wet streaks, moss, ferns, or white mineral crust on a cliff can mark a seep where groundwater leaks out. Springs are steadier sources where water reaches the surface. In canyon country, look for tinajas - natural rock basins in shady spots below pour-offs that hold rain for days or weeks. These sources can be small, seasonal, and shared with wildlife, so take only what you need and do not foul them with soap or waste. Never count on a mapped spring being wet: rangers warn that many backcountry sources go dry."
+      },
+      {
+        "step": 6,
+        "title": "Dig where water last stood",
+        "body": "In a dry streambed, dig at the lowest point, usually on the outside of a bend where the current cut deepest, or just below rock bars and boulders. Dig a hole 1 to 3 feet (30 to 90 cm) deep. If the sand turns damp, stop and wait - water may slowly seep in over 30 minutes or more. Scoop the clearest water off the top. If you hit dry sand or hard clay at 2 feet, move on rather than burning more energy and sweat."
+      },
+      {
+        "step": 7,
+        "title": "Pick the cleanest source and treat it",
+        "body": "Choose flowing water over stagnant water when you can, and collect upstream of animal tracks, campsites, and trails. Avoid water with floating scum, oil sheen, dead animals nearby, a chemical smell, or green paint-like streaks that suggest a toxic algae bloom. Let muddy water settle, strain it through cloth, then boil, chemically treat, or filter and disinfect it. Clear water is not safe water: Giardia, Cryptosporidium, bacteria, and viruses are invisible."
+      }
     ],
     "warnings": [
-      "Never drink unpurified water regardless of how clear it appears — Giardia, Cryptosporidium, and bacterial contamination are invisible.",
-      "Water near animal carcasses, heavy vegetation die-off, or industrial areas may contain toxins that cannot be removed by field purification methods.",
-      "Saltwater and urine will accelerate dehydration — never drink either."
+      "Never drink untreated water from any natural source, however clear or cold it looks.",
+      "No field method removes fuel, chemicals, or algae toxins. Skip water near mines, farms, roads with spills, or with a scummy bloom; boiling can even concentrate algae toxins.",
+      "Never drink seawater, urine, blood, or alcohol to stretch water - they speed dehydration.",
+      "Do not climb wet rock or enter narrow canyons when storms are possible; flash floods can come from rain miles away."
     ],
     "proTips": [
-      "At night, tie absorbent cloth (cotton shirt) around your shins and walk through heavy dew-covered vegetation. Wring out into a container — can yield significant water before sunrise.",
-      "Rock pools (tinaja) in canyon country hold water for days after rain. Memorize their locations from maps before entering desert terrain.",
-      "In cold climates, snow is water but eating it drops core temperature rapidly — always melt it first."
+      "Before any trip, mark springs, tanks, and streams on your map and ask rangers which ones are flowing this season.",
+      "Dew can be wiped off grass or a vehicle at dawn with a clean cloth and wrung into a container - small amounts, but almost no effort.",
+      "In snow country, melt snow or ice first; eating it cold drains body heat (see the snow and ice guide).",
+      "Carry a lightweight filter or tablets in every kit so a found source becomes drinkable fast."
     ],
-    "relatedGuides": ["water-002", "water-003", "water-004"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "water-002",
+      "water-007",
+      "water-012",
+      "water-013",
+      "water-015"
+    ],
+    "source": "U.S. Army FM 3-05.70 / NPS / CDC",
+    "sources": [
+      {
+        "title": "FM 3-05.70 Survival (Requirements for Maintenance of Health)",
+        "publisher": "U.S. Army",
+        "url": "https://biotech.law.lsu.edu/blaw/DOD/fm3-05-70.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Water Sources in the Backcountry (Chisos Mountains)",
+        "publisher": "National Park Service, Big Bend National Park",
+        "url": "https://www.nps.gov/bibe/planyourvisit/water-in-the-chisos-mountains.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Springs, Seeps, and Tinajas",
+        "publisher": "National Park Service, Sonoran Desert Network",
+        "url": "https://www.nps.gov/im/sodn/springs.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Disinfection of Drinking Water",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Preventing Illnesses Caused by Harmful Algal Blooms",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/harmful-algal-blooms/prevention/index.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not leave a known shelter, vehicle, or stored water to search in midday heat - wait for cooler hours.",
+      "Do not use natural sources in a known chemical, fuel, or radiation release area; use sealed or stored water instead."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You are in a survival situation and need to locate water — dehydration becomes life-threatening within 24-72 hours without it",
-      "immediate": ["Move downhill and follow drainages — water flows to low ground and collects in valleys", "Watch for bright green vegetation, willows, or cattails in dry terrain — these signal water nearby", "Track animal trails converging toward a single direction at dawn/dusk — they lead to water"],
-      "then": ["Dig 1-3 feet into the outer bend of a dry streambed if no surface water found", "Collect all water found regardless of clarity — purify before drinking"]
+      "situation": "You are outdoors without a reliable water supply and need to find more before dehydration sets in.",
+      "immediate": [
+        "Rest in shade during the heat and limit sweat - drink what you have when you need it",
+        "Head downhill and follow drainages toward valley floors and canyon bottoms",
+        "Look for lines of willows, cottonwoods, cattails, or wet streaks on rock"
+      ],
+      "then": [
+        "Dig 1-3 feet at the outside bend of a dry streambed and wait for seepage",
+        "Treat every found source by boiling, chemicals, or filter plus disinfectant"
+      ]
     }
   },
   {
@@ -41,33 +132,116 @@
     "category": "water",
     "title": "Purification by Boiling",
     "priority": "critical",
-    "tags": ["water", "purification", "boiling", "critical"],
-    "summary": "Boiling is the most reliable field method to eliminate biological water hazards.",
+    "tags": [
+      "water",
+      "purification",
+      "boiling",
+      "disinfection",
+      "altitude"
+    ],
+    "summary": "Boiling is the most reliable way to kill bacteria, viruses, and parasites in water. Use it whenever you have fuel and the water is not chemically contaminated.",
     "steps": [
-      { "step": 1, "title": "Pre-filter sediment", "body": "Pour water through cloth, a bandana, or improvised filter (sand over charcoal over grass in a tube) to remove sediment, debris, and particulate matter. This improves taste and reduces the amount of fuel needed to boil." },
-      { "step": 2, "title": "Bring to a rolling boil", "body": "A rolling boil — not a simmer — is required. Place container over fire. A rolling boil is when the entire surface is bubbling vigorously, not just a few bubbles at the bottom. At altitudes below 6,500 feet, maintain a rolling boil for 1 minute. Above 6,500 feet, boil for 3 minutes (lower atmospheric pressure drops water's boiling point)." },
-      { "step": 3, "title": "Cool before drinking", "body": "Remove from heat. Allow to cool to a safe drinking temperature before consuming. Drinking scalding water is a real hazard when dehydrated. Pour between containers to speed cooling. A piece of clean metal submerged in the water also speeds cooling." },
-      { "step": 4, "title": "Improve taste", "body": "Boiled water tastes flat because dissolved oxygen is driven out. Transfer water back and forth between containers several times to re-oxygenate. Adding a small pinch of salt also improves palatability." }
+      {
+        "step": 1,
+        "title": "Decide if boiling is the right tool",
+        "body": "Boiling kills disease germs, including Giardia and Cryptosporidium, which chlorine and iodine handle poorly. It does not remove fuel, solvents, pesticides, heavy metals, salt, algae toxins, or radioactive material. If the water smells of gasoline or chemicals, came from a flooded industrial area, or has a toxic algae bloom, do not boil it and drink it - find another source. Boiling is the best choice for clear or cloudy water from rivers, lakes, wells, rain, or a broken city system."
+      },
+      {
+        "step": 2,
+        "title": "Settle and strain cloudy water first",
+        "body": "If the water is cloudy, let it sit in a container until the dirt sinks, then pour the clear water off the top. Strain it through a clean cloth, paper towel, or coffee filter. This removes grit, improves taste, and keeps sediment from scorching in the pot. Straining does not make the water safe on its own; it only prepares it for boiling."
+      },
+      {
+        "step": 3,
+        "title": "Bring water to a rolling boil",
+        "body": "Use a metal pot or kettle over a stove or fire. A rolling boil means big bubbles rising across the whole surface that keep going even when you stir. Small bubbles on the bottom are not enough. Keep a lid on to save fuel and reach a boil faster. Never boil water indoors on a grill, camp stove, or generator-powered device unless it is rated for indoor use - carbon monoxide kills."
+      },
+      {
+        "step": 4,
+        "title": "Hold the boil for the right time",
+        "body": "Keep the rolling boil for at least 1 minute. At high elevation, water boils at a lower temperature, so boil for 3 minutes. EPA says to use 3 minutes above 5,000 feet (1,000 meters); CDC uses 6,500 feet. If you are anywhere near those elevations, use 3 minutes to be safe. Longer boiling, such as the old 10-minute rule, adds no real safety and wastes fuel. If you are very short on fuel, CDC travel guidance notes that water brought just to a boil and then kept covered for 30 minutes as it cools is still treated by the heat."
+      },
+      {
+        "step": 5,
+        "title": "Cool it safely",
+        "body": "Let the water cool naturally with the lid on so nothing falls in. Do not add untreated water or ice to speed cooling - that undoes your work. Burns are a real risk, especially with children nearby and when you are tired, so set the pot on stable ground and use a pot grabber or gloves. To cool faster, set the covered pot in a cold stream or snow without letting outside water get in."
+      },
+      {
+        "step": 6,
+        "title": "Store it clean and fix the taste",
+        "body": "Pour cooled water into clean, sanitized containers with tight lids, and label them. Use a clean scoop or pour from the container; do not dip hands or cups into stored water. Boiled water can taste flat. Improve it by pouring it back and forth between two clean containers several times, letting it stand for a few hours, or adding a pinch of salt per quart or liter. Boiled water has no leftover disinfectant, so keep it covered and use it within a day or two if storage is questionable."
+      }
     ],
     "warnings": [
-      "Boiling eliminates biological threats (bacteria, viruses, parasites) but does NOT remove chemical contamination, heavy metals, or radiological hazards.",
-      "Fuel is finite in a grid-down scenario — ration fire resources and consider combining boiling with solar disinfection (SODIS) for large quantities."
+      "Boiling does not remove chemicals, fuel, salt, heavy metals, algae toxins, or radioactive material - it can even concentrate them.",
+      "Never run stoves, grills, or generators indoors or in a closed garage; carbon monoxide poisoning is a leading cause of death after disasters.",
+      "Scald burns are common in emergencies. Keep children away from the boiling area.",
+      "Boiled water can be recontaminated by dirty containers, hands, or added untreated water."
     ],
     "proTips": [
-      "A metal container is not required — a plastic bag, bark trough, or even a large leaf bowl can boil water using hot rocks. Heat rocks in fire (avoid river rocks — they can explode when heated), then drop them into the water-filled container.",
-      "In a pinch, a clear plastic bottle filled with clear water and left in direct sunlight for 6+ hours (SODIS method) will kill most biological pathogens through UV radiation."
+      "Fuel is limited in a long outage. Boil large batches at once and insulate the pot (towel, sleeping bag) to save heat.",
+      "Boil water for baby formula even when the tap is working if a boil-water advisory is in effect.",
+      "Mark containers 'BOILED' with the date so nobody mixes treated and untreated water.",
+      "If fuel runs out, switch to bleach, tablets, or a filter plus disinfectant rather than skipping treatment."
     ],
-    "relatedGuides": ["water-001", "water-003", "water-005"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "water-006",
+      "water-007",
+      "water-010",
+      "water-014"
+    ],
+    "source": "U.S. EPA / CDC",
+    "sources": [
+      {
+        "title": "Emergency Disinfection of Drinking Water",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Make Water Safe in an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Water Disinfection for Travelers (CDC Yellow Book)",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Boil Water (Technical Brief)",
+        "publisher": "World Health Organization",
+        "url": "https://www.who.int/publications/i/item/WHO-FWC-WSH-15.02",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "Water that smells or looks like fuel or chemicals, or comes from a chemical spill or industrial flood zone.",
+      "Water with a visible toxic algae bloom (scum, paint-like streaks, foam).",
+      "When the only way to heat it is a fuel-burning appliance used indoors."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You have found water and need to make it safe to drink — biological contamination kills through diarrhea and dehydration",
-      "immediate": ["Pre-filter water through cloth or bandana to remove sediment", "Bring to a ROLLING boil — vigorous bubbles throughout, not just at bottom", "Maintain rolling boil for 1 minute (3 minutes above 6,500 ft elevation)"],
-      "then": ["Allow to cool before drinking — scalding water is a real hazard when dehydrated", "Transfer between containers several times to re-oxygenate flat-tasting boiled water"]
+      "situation": "You have water of unknown safety and fuel to heat it, and no reason to suspect chemical contamination.",
+      "immediate": [
+        "Let cloudy water settle and strain it through cloth or a coffee filter",
+        "Bring it to a rolling boil and hold for 1 minute",
+        "Boil 3 minutes if you are above about 5,000 feet (1,000 m)"
+      ],
+      "then": [
+        "Cool with the lid on and store in clean, covered containers",
+        "Pour between containers or add a pinch of salt to fix flat taste"
+      ]
     }
   },
   {
@@ -75,68 +249,230 @@
     "category": "water",
     "title": "Improvised Water Filtration",
     "priority": "advanced",
-    "tags": ["water", "filtration", "improvised"],
-    "summary": "Build a multi-stage sediment and biological filter from available materials.",
+    "tags": [
+      "water",
+      "filtration",
+      "improvised",
+      "sediment",
+      "pre-treatment"
+    ],
+    "summary": "Build a simple settle-and-strain or sand-and-charcoal filter to clear muddy water so that boiling, chemicals, or UV can work. An improvised filter does not make water safe by itself.",
     "steps": [
-      { "step": 1, "title": "Gather materials", "body": "You need a container with a hole at the bottom (plastic bottle, bamboo tube, hollowed log), layers of filtration media in order: coarse grass or leaves, fine sand, charcoal (from your fire — crush to small pieces), more fine sand, and a final grass layer. The flow is top to bottom." },
-      { "step": 2, "title": "Layer the filter", "body": "Bottom layer (exits first): coarse grass plug to prevent media from washing out. Next: 2–3 inches of fine sand. Next: 2–3 inches of crushed charcoal (wood charcoal, not briquettes — briquettes contain additives). Next: 2–3 inches of fine sand. Top: coarse grass or cloth to pre-filter large debris." },
-      { "step": 3, "title": "Run and prime", "body": "Pour water slowly through the top. The first several cups of output will be dark from the charcoal — discard this. Once output runs clear, the filter is primed. Never rush the filtration — pouring too fast bypasses the filter layers." },
-      { "step": 4, "title": "Collect and purify output", "body": "Filtered water is significantly cleaner but still requires purification. Filtration removes sediment, improves taste, and reduces some biological load, but does not eliminate all pathogens. Always boil or chemically treat filtered water before drinking." }
+      {
+        "step": 1,
+        "title": "Know what a homemade filter can and cannot do",
+        "body": "A cloth, sand, or charcoal filter removes dirt, grit, and some color and taste. It does not reliably remove bacteria, viruses, or parasites, and it cannot remove dissolved chemicals or salt. Its real job is to clear cloudy water, because CDC and EPA both note that dirt shields germs from bleach and UV light. Always plan to disinfect the water after it goes through your filter."
+      },
+      {
+        "step": 2,
+        "title": "Let gravity do the first round",
+        "body": "The easiest clearing method needs no build at all. Fill a bucket or bottle with the dirty water and let it sit undisturbed for 30 minutes to several hours, until most of the mud has dropped to the bottom. Carefully pour or siphon the clearer water off the top into a second container, leaving the sludge behind. Two rounds of settling often beat a rushed filter. If you have time, settle overnight."
+      },
+      {
+        "step": 3,
+        "title": "Strain through cloth",
+        "body": "Pour the settled water through a clean cloth, bandana, T-shirt folded several times, paper towel, or coffee filter stretched over a container. Tightly woven cotton folded four to eight times catches more fine silt. Rinse the cloth between batches. This step alone is what CDC recommends before boiling or adding bleach to cloudy water, so for most people it is enough pre-treatment."
+      },
+      {
+        "step": 4,
+        "title": "Build a layered filter for very muddy water",
+        "body": "For water that stays cloudy, cut the bottom off a plastic bottle and turn it upside down with the cap loosened or pierced. From the neck up, add a plug of clean cloth or grass, 2 to 3 inches (5 to 8 cm) of fine sand, 2 to 3 inches of crushed charcoal from a wood fire, another 2 to 3 inches of fine sand, then a layer of gravel and a cloth on top to spread the pour. Rinse sand and gravel first if you can. Do not use charcoal briquettes - they contain additives."
+      },
+      {
+        "step": 5,
+        "title": "Run it slowly and discard the first batch",
+        "body": "Pour water gently onto the top cloth and let it trickle through. Pouring fast pushes dirt straight through the layers. The first few cups will usually come out dark with charcoal dust or fine sand - throw them out. Keep running water until it comes out clearer, then collect it in a clean container. If the output is still cloudy, run it through a second time or settle it again."
+      },
+      {
+        "step": 6,
+        "title": "Disinfect everything that comes out",
+        "body": "Treat the filtered water by boiling (1 minute, or 3 minutes at high elevation), with household bleach at the EPA dose, with chlorine dioxide tablets, or with a UV device or SODIS now that the water is clear. If the water was still a bit cloudy after filtering, use the doubled bleach dose. Store the treated water in a clean, covered container that never touched the dirty side of the filter."
+      },
+      {
+        "step": 7,
+        "title": "Keep the filter clean or rebuild it",
+        "body": "Germs and dirt build up in the layers. Keep the filter covered between uses, scrape off and replace the top layer of sand when flow slows, and rebuild with fresh materials after a few days of use or whenever it starts to smell. Never let the outlet touch your clean container or treated water."
+      }
     ],
     "warnings": [
-      "Field filtration is NOT a standalone solution — it must always be followed by boiling or chemical treatment.",
-      "Filters become breeding grounds for bacteria after 24–48 hours. Rebuild or sterilize the filter media regularly."
+      "An improvised sand-and-charcoal filter does not make water safe to drink - always disinfect afterward.",
+      "Campfire charcoal is not the same as activated carbon in commercial filters; it removes only a little taste and odor and cannot remove chemicals.",
+      "No improvised filter removes fuel, pesticides, heavy metals, salt, or algae toxins. Do not use water you suspect has these.",
+      "Old filter media can breed germs. Do not drink straight from a homemade filter."
     ],
     "proTips": [
-      "Activated charcoal from your fire is far superior to unactivated — make it by burning hardwood in a low-oxygen environment (a closed metal can with a small hole works well).",
-      "In a pinch, a life straw-style filter can be improvised from a hollow reed or thin bamboo tube packed tightly with charcoal and moss."
+      "Settling plus a coffee filter is fast, uses no fuel, and is enough for boiling or bleach in most cases.",
+      "Two buckets work well: one 'dirty' for settling, one 'clean' that only ever holds treated water. Label them.",
+      "A commercial filter with a 1-micron or smaller rating lasts much longer if you pre-settle muddy water first.",
+      "Clear water lets you use UV pens and SODIS, which fail in cloudy water."
     ],
-    "relatedGuides": ["water-002", "water-004"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "water-002",
+      "water-006",
+      "water-008",
+      "water-009"
+    ],
+    "source": "U.S. CDC / EPA",
+    "sources": [
+      {
+        "title": "How to Make Water Safe in an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Disinfection of Drinking Water",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Water Disinfection for Travelers (CDC Yellow Book)",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not rely on an improvised filter as your only treatment for drinking water.",
+      "Do not bother filtering water you suspect has fuel or chemicals - find another source."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You have turbid or sediment-laden water that needs pre-treatment before chemical purification or boiling",
-      "immediate": ["Gather container with hole at bottom, coarse grass, fine sand, and crushed charcoal from fire", "Layer bottom to top: grass plug, sand, charcoal, sand, coarse grass/cloth on top", "Pour water slowly — discard first several cups until output runs clear"],
-      "then": ["Always boil or chemically treat filtered water — filtration alone does not eliminate all pathogens", "Rebuild filter after 24-48 hours as it becomes a bacterial breeding ground"]
+      "situation": "Your only water is muddy or cloudy and you need to clear it before you can disinfect it.",
+      "immediate": [
+        "Let the water settle, then pour the clear top layer into a clean container",
+        "Strain through folded cloth, paper towel, or a coffee filter",
+        "For very muddy water, use a slow bottle filter of sand, wood charcoal, and sand"
+      ],
+      "then": [
+        "Always disinfect the filtered water - boil, bleach, tablets, or UV",
+        "Keep dirty and clean containers separate and rebuild the filter often"
+      ]
     }
   },
   {
     "id": "water-004",
     "category": "water",
-    "title": "Solar Still Construction",
+    "title": "Solar Stills and Transpiration Bags",
     "priority": "advanced",
-    "tags": ["water", "solar still", "desert", "advanced"],
-    "summary": "Extract water from soil and vegetation using solar evaporation — a last-resort desert technique.",
+    "tags": [
+      "water",
+      "solar still",
+      "transpiration bag",
+      "desert",
+      "last resort"
+    ],
+    "summary": "A solar still pulls a small amount of water from damp ground and plants, but yields are usually under a pint a day. Learn when it is worth building, how to build it, and why a transpiration bag often does better for less work.",
     "steps": [
-      { "step": 1, "title": "Select a site", "body": "Choose a low-lying area with moist soil or where you can bury vegetation. South-facing slopes and dry creek beds retain subsurface moisture. The hole must be where you can actually dig — avoid rock and caliche." },
-      { "step": 2, "title": "Dig the hole", "body": "Dig a bowl-shaped hole approximately 3 feet wide and 2 feet deep. Place your collection container in the deepest center point. If you have a drinking tube, run it from the container up over the rim so you can drink without disturbing the still." },
-      { "step": 3, "title": "Add vegetation", "body": "Pack the hole around the container with as much vegetation as possible — green leaves, cacti (chopped), fresh plant material. The more moisture-containing vegetation, the better the output. Do not cover the container opening." },
-      { "step": 4, "title": "Cover and seal", "body": "Stretch clear plastic sheeting tightly over the hole. Weight the edges with soil or rocks to seal completely. Place a small rock in the center of the plastic directly over the container to create a depression — condensed water will drip off this low point into the container." },
-      { "step": 5, "title": "Wait for output", "body": "In full sun, a well-built still produces 0.5–1 liter per day. Leave undisturbed during peak sun hours (10am–4pm). Check at the end of the day. Replace vegetation every 24–48 hours as it dries out." }
+      {
+        "step": 1,
+        "title": "Know the real numbers first",
+        "body": "A 2025 review of improvised water methods found that a ground solar still yields only about 0.3 to 0.6 liters (10 to 20 ounces) a day even in good sun, and that digging one can burn 375 to 500 calories and a lot of sweat. A transpiration bag on a leafy branch yielded about 0.3 to 1 liter a day for almost no effort. Rain catchment and treating any surface water beat both by far. Build a still only when you are stuck in one place, in hot sun, with clear plastic and no better option."
+      },
+      {
+        "step": 2,
+        "title": "Try transpiration bags first",
+        "body": "Pick a healthy, leafy, non-poisonous shrub or tree branch in full sun. Slip a large clear plastic bag over the leaves, add a small rock in one corner so that corner hangs lowest, and tie the open end tightly around the branch. Water from the leaves condenses inside and runs to the low corner. Check it in late afternoon, and drain the water by untying the bag briefly or through a small tube. Move the bag to a fresh branch each day. Several bags at once multiply the yield."
+      },
+      {
+        "step": 3,
+        "title": "Pick a still site",
+        "body": "If you must build a ground still, choose a spot that gets sun all day and has the dampest soil you can find, such as the low point of a dry wash or the base of a slope. Avoid rock and hard-packed ground that will cost huge effort. Do the digging in the cool of the morning or evening, not at midday, to limit sweat loss."
+      },
+      {
+        "step": 4,
+        "title": "Dig the pit and set the container",
+        "body": "Dig a bowl-shaped hole about 3 feet (90 cm) across and 2 feet (60 cm) deep. Dig a small sump in the center and set a clean cup, can, or pot in it. If you have tubing, run one end into the container and lay the other end over the rim so you can drink without opening the still."
+      },
+      {
+        "step": 5,
+        "title": "Add moisture",
+        "body": "Place chopped green, non-poisonous plants around the container, not in it. You can also pour salty water, dirty water, or urine onto the soil around the container (never into it); the still evaporates the water and leaves the salts and most contaminants behind. Do not use water with fuel or chemicals - some can evaporate and condense into your cup."
+      },
+      {
+        "step": 6,
+        "title": "Cover and seal the plastic",
+        "body": "Stretch clear plastic sheeting over the hole and weigh down the edges with soil and rocks all the way around so no moist air escapes. Put a fist-sized rock in the center of the sheet, directly over the container, so the plastic forms a cone about 1 to 1.5 feet (30 to 45 cm) deep that does not touch the soil. Drops form under the plastic, run to the low point, and fall into the container."
+      },
+      {
+        "step": 7,
+        "title": "Leave it alone and collect at day's end",
+        "body": "Every time you lift the plastic, the moist air escapes and it takes time to rebuild. Drink through the tube if you have one, or open it once in late afternoon. Replace dried-out plants every day or two. Water that condenses on clean plastic is fairly clean, but if plants or soil touched the container, treat the water before drinking."
+      }
     ],
     "warnings": [
-      "A solar still requires more water to build (sweat from labor) than it often produces in arid conditions — it's a supplement, not a primary source. Prioritize finding natural water first.",
-      "Clear plastic only — black or colored plastic will not work. The greenhouse effect requires transparency to UV."
+      "A solar still can cost more water in sweat to build than it returns. Never let it replace searching for real water or staying put for rescue.",
+      "Do not use poisonous plants (milky sap, unknown species) in a still or transpiration bag if you are unsure; some plant compounds can carry into the water.",
+      "Never put fuel-contaminated or chemical water in a still - volatile chemicals can distill into your drinking water.",
+      "Clear plastic only. Colored or black plastic blocks the sunlight the still depends on."
     ],
     "proTips": [
-      "Adding urine to the surrounding soil (not the container) significantly increases daily output — the still distills the water content and leaves contaminants behind.",
-      "A transpiration bag — a clear plastic bag tied over a leafy tree branch in sunlight — produces 200–400mL per day with almost no labor. Build several at once."
+      "Transpiration bags take minutes to set up; put out several the moment you decide to stay in one place.",
+      "A still works best in damp ground. Dry desert sand gives almost nothing unless you add plants or salty or dirty water.",
+      "Carry a large clear plastic bag or a small roll of clear sheeting in your desert kit - it doubles as rain catchment.",
+      "Use the same plastic to catch rain or dew; a rain event can give far more water than a week of still output."
     ],
-    "relatedGuides": ["water-001", "water-002", "water-005"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "water-001",
+      "water-005",
+      "water-012",
+      "water-015"
+    ],
+    "source": "U.S. Army FM 3-05.70 / medRxiv 2025 review",
+    "sources": [
+      {
+        "title": "Improvised Water Procurement in Wilderness Medicine: A Comparative Review of Yield, Energy Cost, and Field Suitability",
+        "publisher": "medRxiv (preprint, 2025)",
+        "url": "https://www.medrxiv.org/content/10.1101/2025.07.10.25331307.full.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 3-05.70 Survival",
+        "publisher": "U.S. Army",
+        "url": "https://biotech.law.lsu.edu/blaw/DOD/fm3-05-70.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Make Water Safe in an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "When you can reach any surface water, rain, or stored water - treat that instead.",
+      "When you are already badly dehydrated and digging would cost more water than the still returns.",
+      "When moving toward help or rescue is the better plan."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You are in a desert or arid environment with no surface water — a solar still extracts moisture from the ground as a last resort",
-      "immediate": ["Select a low-lying area with moist soil on a south-facing slope", "Dig a 3-foot wide by 2-foot deep bowl-shaped hole with collection container at center", "Pack the hole with as much green vegetation or cacti as available around the container"],
-      "then": ["Cover with clear plastic sheet sealed at edges with soil — place a rock over the center above the container", "Expect 0.5-1 liter per day in full sun — collect at end of peak sun hours (10am-4pm)"]
+      "situation": "You are stuck in hot, dry country with clear plastic, no surface water, and no rain in sight.",
+      "immediate": [
+        "Tie clear plastic bags over sunny, leafy branches with a rock in the low corner",
+        "Rest in shade and save sweat - do not dig in midday heat",
+        "Keep looking for real water sources and signal for rescue"
+      ],
+      "then": [
+        "If staying put, dig a 3 ft wide, 2 ft deep still with a cup and plants, sealed with clear plastic",
+        "Expect under a pint a day - treat it as a supplement only"
+      ]
     }
   },
   {
@@ -144,33 +480,1533 @@
     "category": "water",
     "title": "Rainwater Collection",
     "priority": "beginner",
-    "tags": ["water", "rain", "collection", "beginner"],
-    "summary": "Maximize water capture during rain events using available materials.",
+    "tags": [
+      "water",
+      "rain",
+      "collection",
+      "catchment",
+      "storage"
+    ],
+    "summary": "Rain is often the best yield for the least effort. Set up clean catch surfaces, divert the dirty first flush, store it covered, and treat it before drinking.",
     "steps": [
-      { "step": 1, "title": "Set up catch surfaces", "body": "Any clean, non-toxic surface can catch rain. Tarps, ponchos, large leaves (banana, taro, tropical varieties), plastic sheeting, or a rain fly create effective catch areas. Angle the surface to funnel water to a collection point. A 10x10 foot tarp in a 1-inch rain event catches over 60 gallons." },
-      { "step": 2, "title": "Create funnels and channels", "body": "Tie corners of a tarp or poncho down, leaving the center hanging low as a collection basin. Or angle all four sides toward a center hole and run a tube or rope into a container. Bamboo or bark gutters can channel water from large catch surfaces over long distances." },
-      { "step": 3, "title": "Discard first flush", "body": "The first few minutes of rainfall wash pollutants, debris, bird feces, and contaminants off collection surfaces. Let the rain run for 2–3 minutes before directing flow into your clean storage containers. This is especially important if collecting off metal roofs or vegetation." },
-      { "step": 4, "title": "Store properly", "body": "Transfer collected water to closed containers immediately to prevent contamination, evaporation, and mosquito breeding. If containers are limited, prioritize filling the largest vessels. Even partially covered containers will breed mosquito larvae in 48–72 hours in warm weather." }
+      {
+        "step": 1,
+        "title": "Know how much rain you can catch",
+        "body": "Every inch of rain on 100 square feet of surface gives about 62 gallons (235 liters). A 10 by 10 foot tarp in a 1-inch storm can fill a dozen 5-gallon buckets. A typical house roof can produce hundreds of gallons in one storm. That is why rain catchment is one of the best effort-to-yield water sources in a long outage. Watch the forecast and have containers ready before the rain starts - you may sleep through a storm."
+      },
+      {
+        "step": 2,
+        "title": "Choose clean catch surfaces",
+        "body": "Use tarps, ponchos, clean plastic sheeting, rain flies, or a roof gutter downspout. CDC warns that roofs and gutters can add germs from bird and animal droppings and chemicals such as lead, copper, or asbestos from roofing, flashing, and pipes. Painted, treated-wood, tar, and old asbestos roofs are poor choices for drinking water. If you must use them, use that water for flushing and washing only. Wipe or rinse tarps before the storm."
+      },
+      {
+        "step": 3,
+        "title": "Shape the surface to funnel water",
+        "body": "Tie a tarp at the corners with one corner or the center lower than the rest so water runs to a single point. Put a container under that point, or run a hose or a cut-down bottle funnel into the container. On a house, pull the downspout off the bottom elbow or cut it to fit into a clean trash can or barrel. Put a rock in the low spot of a tarp to make a drip point. Check that wind will not blow the tarp away mid-storm."
+      },
+      {
+        "step": 4,
+        "title": "Divert the first flush",
+        "body": "The first rain off any surface carries the most dust, smoke residue, droppings, and leaves, especially after several dry days. Let the first part of the storm run off before you start collecting. A simple rule is to let it rinse for a few minutes on a tarp; on a roof, a first-flush diverter or a separate bucket for the first few gallons does the same job. Bigger roofs need more diverted."
+      },
+      {
+        "step": 5,
+        "title": "Store it covered",
+        "body": "Move water into clean, food-safe containers with tight lids as soon as you can. Open water collects debris and lets mosquitoes breed. CDC advises screening barrel inlets or emptying barrels at least every 10 days to stop mosquito breeding. Keep rain barrels separate from your house plumbing so rainwater can never flow back into the drinking water lines."
+      },
+      {
+        "step": 6,
+        "title": "Treat before drinking",
+        "body": "Rainwater can look clean and still carry germs from the roof or air. Before drinking, cooking, or brushing teeth, boil it, treat it with household bleach at the EPA dose, use chlorine dioxide tablets, or filter and then disinfect it. Let any grit settle first. Use untreated rainwater for flushing toilets, washing, or the garden."
+      }
     ],
     "warnings": [
-      "In areas with industrial fallout, volcanic ash, or nuclear events, rainwater may be contaminated — filter and purify everything regardless of how clean it appears.",
-      "Moss and organic matter on collection surfaces can introduce biological contamination — clean surfaces before use when possible."
+      "After a nuclear event, wildfire smoke, volcanic ash, or chemical release, do not drink collected rain until officials say it is safe; treatment does not remove these contaminants.",
+      "Do not collect drinking water from roofs with lead flashing, asbestos, treated wood, tar, or chemical treatments.",
+      "Open containers become mosquito nurseries; cover or screen everything.",
+      "Never connect a rain barrel to household plumbing without a proper backflow device."
     ],
     "proTips": [
-      "Large tropical leaves (and even pine needles in quantity) can be layered into funnel shapes using natural Y-shaped branches as supports, creating effective collection structures with zero equipment.",
-      "Pre-position containers before forecasted rain — you may sleep through a valuable rain event."
+      "Pre-position clean trash cans under downspouts before a storm and flip them after so they stay clean.",
+      "A painted mark inside a barrel at known gallon levels helps you track what you have.",
+      "Rain caught in a tarp during a long outage is also great for flushing toilets, saving your stored drinking water.",
+      "Check local rules before installing permanent rain barrels - most states allow them, some limit size or use."
     ],
-    "relatedGuides": ["water-002", "water-003"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "water-002",
+      "water-006",
+      "water-010",
+      "homestead-004"
+    ],
+    "source": "U.S. CDC / EPA",
+    "sources": [
+      {
+        "title": "Collecting Rainwater and Your Health: An Overview",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/drinking-water/about/collecting-rainwater-and-your-health-an-overview.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Disinfection of Drinking Water",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Improvised Water Procurement in Wilderness Medicine: A Comparative Review",
+        "publisher": "medRxiv (preprint, 2025)",
+        "url": "https://www.medrxiv.org/content/10.1101/2025.07.10.25331307.full.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "low",
     "prerequisites": [],
+    "whenNotTo": [
+      "Right after a nuclear, chemical, or major smoke event in your area - wait for official guidance.",
+      "From roofs with lead, asbestos, tar, or treated-wood materials for drinking use."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "Rain is falling or forecasted — maximize water capture now to build a reserve before dry conditions return",
-      "immediate": ["Deploy any clean catch surface — tarp, poncho, large leaves — angled to funnel to a collection point", "Discard the first 2-3 minutes of rainfall — it washes contaminants off surfaces", "Fill all available containers once the first flush has run off"],
-      "then": ["Transfer collected water to closed containers immediately to prevent mosquito breeding", "Purify all collected water before drinking — even rainwater can contain contaminants"]
+      "situation": "Rain is falling or forecast and you need to build up your water supply.",
+      "immediate": [
+        "Set out tarps, ponchos, or downspouts angled to a single drip point",
+        "Let the first few minutes of rain rinse the surface before collecting",
+        "Fill every clean, food-safe container you have"
+      ],
+      "then": [
+        "Cover or screen stored rainwater to keep out debris and mosquitoes",
+        "Boil, bleach, or filter-and-disinfect it before drinking"
+      ]
+    }
+  },
+  {
+    "id": "water-006",
+    "category": "water",
+    "title": "Disinfecting Water With Household Bleach",
+    "priority": "critical",
+    "tags": [
+      "water",
+      "purification",
+      "bleach",
+      "chlorine",
+      "disinfection"
+    ],
+    "summary": "Plain unscented bleach is the cheapest way to disinfect large amounts of water. Use the current EPA drop counts for 6% or 8.25% bleach, wait 30 minutes, and check for a light chlorine smell.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Get the right bleach",
+        "body": "Use only regular, unscented liquid chlorine bleach. Read the label: the active ingredient should be sodium hypochlorite, usually 6% or 8.25% in U.S. stores today. Older guides were written for 5.25% bleach, so their drop counts are out of date. Do not use scented, color-safe, splash-less, gel, or 'with cleaner' bleach. Bleach weakens with age and heat; EPA says to use a bottle that is fresh or has been kept at room temperature for less than a year. Pool and spa chlorine tablets are a different product - do not use them this way."
+      },
+      {
+        "step": 2,
+        "title": "Clear cloudy water first",
+        "body": "Dirt and organic matter use up chlorine and hide germs from it. If the water is cloudy, let it settle, then pour off the clear water and strain it through a clean cloth, paper towel, or coffee filter. Treat only the strained water. If it is still a little cloudy, colored, or very cold, you will double the dose in the next step."
+      },
+      {
+        "step": 3,
+        "title": "Measure the dose",
+        "body": "Use a clean medicine dropper. EPA's current table: for 1 quart or liter, add 2 drops of either 6% or 8.25% bleach. For 1 gallon, add 8 drops of 6% or 6 drops of 8.25%. For 2 gallons, 16 drops (1/4 teaspoon) of 6% or 12 drops (1/8 teaspoon) of 8.25%. For 4 gallons, 1/3 teaspoon of 6% or 1/4 teaspoon of 8.25%. For 8 gallons, 2/3 teaspoon of 6% or 1/2 teaspoon of 8.25%. If you do not know the strength but it is between 5% and 9%, CDC says 8 drops per gallon or 1/2 teaspoon per 5 gallons. Double every amount for cloudy, colored, or very cold water."
+      },
+      {
+        "step": 4,
+        "title": "Stir and wait 30 minutes",
+        "body": "Stir or shake the container well so the bleach mixes through all the water. If it has a screw cap, loosen it and tip the container so treated water rinses the threads and the inside of the cap. Let it stand covered for at least 30 minutes. Do not drink it early. Cold water needs the full time or longer."
+      },
+      {
+        "step": 5,
+        "title": "Do the smell test",
+        "body": "After 30 minutes, smell the water. It should have a slight chlorine odor. That leftover smell tells you there was enough chlorine to do the job with some to spare. If you cannot smell chlorine, add the same dose again and wait another 15 minutes. If it still has no smell after the second dose, the water may be too dirty or the bleach too weak - find a better source or fresher bleach."
+      },
+      {
+        "step": 6,
+        "title": "Fix the taste and store it",
+        "body": "If the chlorine taste is too strong, pour the water back and forth between two clean containers and let it stand open but covered with a cloth for a few hours. Store treated water in clean, sanitized containers with tight lids, label them with the date, and keep them cool and out of sunlight. Scoop with a clean cup or pour; do not dip hands into the container."
+      },
+      {
+        "step": 7,
+        "title": "Know the limits and backup options",
+        "body": "Bleach works well on bacteria and viruses but, according to CDC, does not reliably kill Giardia and does not kill Cryptosporidium. If you suspect parasites, boil the water or use a 1-micron filter first. Bleach does nothing for chemicals, fuel, or radioactive material. Without liquid bleach, EPA describes a stock solution of pool-grade calcium hypochlorite granules: 1 heaping teaspoon (about 1/4 ounce) in 2 gallons of water, then 1 part of that solution to 100 parts water. Handle granules with eye protection in a ventilated area."
+      }
+    ],
+    "warnings": [
+      "Never mix bleach with ammonia, vinegar, or other cleaners - toxic gas forms.",
+      "Never drink bleach or give it to anyone; it is only a tiny additive to water.",
+      "Bleach does not remove fuel, chemicals, heavy metals, or radioactive material, and it is weak against Cryptosporidium.",
+      "Old or overheated bleach can be too weak to work. Replace stored bleach about once a year.",
+      "Keep bleach and treated-water droppers away from children and clearly labeled."
+    ],
+    "proTips": [
+      "Tape a card with the EPA table to your bleach bottle and your water barrels.",
+      "Keep a new, labeled medicine dropper in your water kit just for bleach.",
+      "One gallon of 6% bleach can treat thousands of gallons of water - it is the most cost-effective water prep you can buy.",
+      "Write the purchase date on the bleach bottle so you know when to rotate it."
+    ],
+    "relatedGuides": [
+      "water-002",
+      "water-003",
+      "water-007",
+      "water-010",
+      "water-014"
+    ],
+    "source": "U.S. EPA / CDC",
+    "sources": [
+      {
+        "title": "Emergency Disinfection of Drinking Water",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Make Water Safe in an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "About Water Treatment Options When Hiking, Camping, or Traveling",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.1",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Water contaminated with fuel, chemicals, or radioactive material - bleach will not make it safe.",
+      "When Cryptosporidium is a known risk (sewage spill, outbreak) and you can boil or filter instead.",
+      "With scented, color-safe, or 'with cleaner' bleach, or pool chlorine tablets."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have water of unknown safety, plain unscented bleach, and no reason to suspect chemical contamination.",
+      "immediate": [
+        "Settle and strain cloudy water first",
+        "Per gallon: 8 drops of 6% bleach or 6 drops of 8.25% bleach (double if cloudy or cold)",
+        "Stir, wait 30 minutes, and check for a slight chlorine smell"
+      ],
+      "then": [
+        "No smell? Repeat the dose and wait 15 more minutes",
+        "Store in clean, labeled, covered containers"
+      ]
+    }
+  },
+  {
+    "id": "water-007",
+    "category": "water",
+    "title": "Chlorine Dioxide, Iodine, and Purification Tablets",
+    "priority": "critical",
+    "tags": [
+      "water",
+      "purification",
+      "chlorine dioxide",
+      "iodine",
+      "tablets"
+    ],
+    "summary": "Pocket-size chemical treatments make water drinkable without fuel. Know what each one kills, how long to wait, and who should avoid iodine.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the three main options",
+        "body": "Most purification tablets and drops use one of three chemicals. Chlorine dioxide (tablets such as Micropur MP1 or two-part drops) kills bacteria, viruses, and Giardia, and is the only common chemical with any real effect on Cryptosporidium - CDC rates it only somewhat effective, and only with a long contact time. Chlorine tablets (sodium dichloroisocyanurate or similar) kill bacteria and viruses well but are weak against Giardia and do not reliably kill Cryptosporidium. Iodine tablets or 2% tincture kill bacteria and viruses but, like chlorine, are poor against Cryptosporidium. CDC rates chlorine dioxide the best chemical choice."
+      },
+      {
+        "step": 2,
+        "title": "Read the label every time",
+        "body": "Each product is made for a set amount of water, so follow its package directions exactly. Strengths differ between brands and between drops and tablets. Check the expiration date; old tablets and opened bottles lose strength. Many chlorine dioxide tablets are sealed in individual foil packets that protect them from moisture - keep them sealed until use. Use only products labeled for drinking water."
+      },
+      {
+        "step": 3,
+        "title": "Prepare the water",
+        "body": "Chemicals work best in clear water. Let cloudy water settle and strain it through cloth or a coffee filter first. Cold water slows every chemical, so allow the longest time on the label when water is near freezing. If you can, warm cold water in the sun or against your body in a bottle before treating."
+      },
+      {
+        "step": 4,
+        "title": "Add the dose and treat the threads",
+        "body": "Add the tablet or drops to the correct volume of water and close the cap. After a few minutes, loosen the cap and tip the bottle so a little treated water runs over the threads and the lip, then tighten it again. The threads are a common place for germs to hide, and you will drink from them."
+      },
+      {
+        "step": 5,
+        "title": "Wait the full contact time",
+        "body": "Typical times on product labels and extension guides: chlorine dioxide tablets about 15 minutes for bacteria and viruses, 30 minutes for Giardia, and up to 4 hours for Cryptosporidium in cold or dirty water. Iodine and chlorine tablets usually need about 30 minutes, longer when cold. EPA's backup recipe for 2% tincture of iodine is 5 drops per quart or liter (10 drops if cloudy), then wait at least 30 minutes. If the water may hold Cryptosporidium - such as downstream of cattle, sewage, or a flood - wait the full 4 hours with chlorine dioxide, or boil instead."
+      },
+      {
+        "step": 6,
+        "title": "Know who should avoid iodine",
+        "body": "CDC says to avoid iodine-treated water if you are pregnant, have thyroid problems, or are sensitive or allergic to iodine. No one should drink iodine-treated water for more than a few weeks at a time. For long outages, families, and pregnant people, choose chlorine dioxide, bleach, boiling, or filtering instead. Vitamin C tablets or drink mix added after the contact time can reduce iodine taste, but adding them earlier stops the disinfection."
+      },
+      {
+        "step": 7,
+        "title": "Combine methods for the hardest water",
+        "body": "No chemical fixes everything. For the safest result from a stream or pond, filter through a 1-micron or smaller filter to remove parasites, then add chlorine dioxide or chlorine to kill viruses. Chemicals do not remove fuel, pesticides, heavy metals, or radioactive material. Treated water from chlorine dioxide tablets has little lasting protection, so store it covered and drink it within a day or so."
+      }
+    ],
+    "warnings": [
+      "Iodine is not for pregnant people, anyone with thyroid disease or iodine allergy, or use beyond a few weeks.",
+      "Chlorine and iodine do not reliably kill Cryptosporidium. Use chlorine dioxide with a long wait, a 1-micron filter, or boiling.",
+      "No tablet makes chemically contaminated, fuel-tainted, or radioactive water safe.",
+      "Keep tablets away from children and pets; they are strong oxidizers."
+    ],
+    "proTips": [
+      "Pack chlorine dioxide tablets as a backup even if you carry a filter - filters can freeze, clog, or break.",
+      "Mark the time you treated a bottle on a piece of tape so you know when it is ready.",
+      "Carry a few extra tablets for the doubled dose that cloudy water may need, if the label allows it.",
+      "Flavor packets go in only after the full contact time; some flavorings react with the chemical."
+    ],
+    "relatedGuides": [
+      "water-002",
+      "water-006",
+      "water-008",
+      "water-009",
+      "water-014"
+    ],
+    "source": "U.S. CDC / EPA",
+    "sources": [
+      {
+        "title": "About Water Treatment Options When Hiking, Camping, or Traveling",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Make Water Safe in an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Disinfection of Drinking Water",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Water Disinfection for Travelers (CDC Yellow Book)",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Guide to Treating Water in the Backcountry",
+        "publisher": "Colorado State University Extension",
+        "url": "https://extension.colostate.edu/resource/guide-to-treating-water-in-the-backcountry",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.1",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Iodine for pregnant people, people with thyroid problems or iodine allergy, or for more than a few weeks.",
+      "Any chemical treatment for water with fuel, chemicals, algae toxins, or radioactive material.",
+      "Chlorine or iodine alone when Cryptosporidium is likely - boil, filter, or use chlorine dioxide with the long wait."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need to make water safe without fuel and have tablets or drops in your kit.",
+      "immediate": [
+        "Settle and strain cloudy water, then add the dose the label gives for that volume",
+        "Loosen the cap after a few minutes so treated water rinses the threads",
+        "Wait the full time - about 30 minutes, up to 4 hours with chlorine dioxide for Cryptosporidium or cold water"
+      ],
+      "then": [
+        "Do not use iodine if pregnant, thyroid issues, or for more than a few weeks",
+        "For pond or stream water, filter first and then disinfect"
+      ]
+    }
+  },
+  {
+    "id": "water-008",
+    "category": "water",
+    "title": "Choosing and Using Portable Filters and Purifiers",
+    "priority": "critical",
+    "tags": [
+      "water",
+      "filter",
+      "purifier",
+      "backflush",
+      "gear"
+    ],
+    "summary": "Portable filters remove parasites and bacteria fast, but most do not stop viruses and can be ruined by freezing. Learn what the pore size means, when to add a disinfectant, and how to keep a filter working.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Read the pore size and claims",
+        "body": "CDC's rule of thumb: a filter with an absolute pore size of 1 micron or smaller (or certified to NSF/ANSI 53 or 58 for cyst reduction) removes parasites such as Giardia and Cryptosporidium. A filter of 0.3 micron or smaller also removes bacteria. Most hollow-fiber backpacking filters are rated around 0.1 to 0.2 micron. Viruses are far smaller - norovirus is about 0.03 micron - so ordinary portable filters do not remove them. Look for the word 'absolute', not 'nominal', and an independent test or certification."
+      },
+      {
+        "step": 2,
+        "title": "Know filter vs. purifier",
+        "body": "A product sold as a 'purifier' claims to remove or kill viruses too. It may use ultrafiltration (about 0.01 micron), a built-in chemical stage, or reverse osmosis. Reverse osmosis is the only portable option that removes salt from seawater, and hand pumps for it are slow and costly. For North American backcountry streams, a filter is often enough; for floodwater, sewage-tainted water, or water near people and camps, add a disinfectant or use a purifier."
+      },
+      {
+        "step": 3,
+        "title": "Collect and pre-clear the water",
+        "body": "Fill your dirty bag or bottle from the clearest part of the source, below the surface and away from mud. Let very muddy water settle or strain it through a bandana first. Silt clogs filters quickly - the maker of one popular hollow-fiber filter says very muddy water can require cleaning every 10 gallons, versus about every 1,000 gallons for clear water."
+      },
+      {
+        "step": 4,
+        "title": "Filter without cross-contamination",
+        "body": "Keep the dirty side and clean side apart. Do not let drips from the dirty bag, intake hose, or your wet hands touch the outlet, the clean bottle mouth, or the bite valve. Mark dirty containers with tape or a different color. If dirty water does reach the clean side, disinfect that bottle or discard the water."
+      },
+      {
+        "step": 5,
+        "title": "Add a disinfectant when viruses are possible",
+        "body": "CDC recommends adding chlorine, chlorine dioxide, or iodine after a standard filter to cover viruses. This is the right step in disasters, near towns or camps, after floods, and anywhere human sewage could reach the water. Filtering first removes parasites that chemicals handle poorly and clears the water so the chemical works better."
+      },
+      {
+        "step": 6,
+        "title": "Backflush and clean on schedule",
+        "body": "When flow slows, backflush following the maker's directions - for most hollow-fiber filters you push clean water backward through the outlet with the supplied syringe or a squeeze bottle. Always backflush with clean or treated water, never dirty water. Pump filters with ceramic elements are usually scrubbed lightly instead. Backflush before long storage and again when you take the filter out of storage. Let it dry fully before storing so it does not grow mold."
+      },
+      {
+        "step": 7,
+        "title": "Protect it from freezing",
+        "body": "Water trapped inside a wet filter can freeze, expand, and crack the fibers or ceramic with no visible sign. One major maker states there is no reliable way to tell whether a used filter has been damaged by freezing, so replace any filter you think froze. In cold weather, keep the filter in an inner pocket by day and in your sleeping bag at night. If a filter may have frozen and you have no spare, still use it, but disinfect the output with chemicals or boil it."
+      },
+      {
+        "step": 8,
+        "title": "Store and replace",
+        "body": "Store filters dry, out of sunlight, and away from heat. Follow the manufacturer's capacity rating and replace the filter or cartridge when it reaches its limit, cracks, or will not restore flow after cleaning. Carry a chemical backup for every filter in your kit."
+      }
+    ],
+    "warnings": [
+      "Most portable filters do not remove viruses - add a disinfectant in disasters, near sewage, or in developing regions.",
+      "A frozen filter may be cracked with no visible sign and let germs through. Replace it or disinfect its output.",
+      "Filters do not remove salt, fuel, or most chemicals unless specifically rated; activated carbon removes only some tastes and chemicals.",
+      "Never backflush with dirty water or let dirty water reach the clean outlet."
+    ],
+    "proTips": [
+      "Pre-filter with a bandana or coffee filter rubber-banded over the dirty bag to double filter life in silty water.",
+      "Gravity setups (dirty bag hung from a branch) let you filter many gallons while doing camp chores.",
+      "Practice backflushing at home so you can do it with cold hands in the field.",
+      "Keep a few chlorine dioxide tablets in the filter's storage bag as an automatic backup."
+    ],
+    "relatedGuides": [
+      "water-003",
+      "water-007",
+      "water-009",
+      "water-013",
+      "water-014"
+    ],
+    "source": "U.S. CDC / manufacturer guidance",
+    "sources": [
+      {
+        "title": "About Water Treatment Options When Hiking, Camping, or Traveling",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Make Water Safe in an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Water Disinfection for Travelers (CDC Yellow Book)",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Water Filtration FAQs",
+        "publisher": "Sawyer Products",
+        "url": "https://www.sawyer.com/faqs",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Backcountry Water Treatment",
+        "publisher": "Minnesota Department of Health",
+        "url": "https://www.health.state.mn.us/diseases/waterborne/prevention/backcountry.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "As the only treatment for floodwater, sewage-tainted water, or water near dense human activity - add a disinfectant.",
+      "For seawater or brackish water unless the unit is reverse osmosis.",
+      "For water contaminated with fuel or chemicals."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have a portable filter or purifier and need safe water from a stream, lake, or emergency source.",
+      "immediate": [
+        "Settle or strain muddy water before filtering",
+        "Keep dirty and clean sides apart - no drips on the outlet",
+        "Add chlorine dioxide or bleach after filtering if viruses are possible"
+      ],
+      "then": [
+        "Backflush with clean water when flow slows",
+        "Keep the filter from freezing; replace or disinfect output if it might have frozen"
+      ]
+    }
+  },
+  {
+    "id": "water-009",
+    "category": "water",
+    "title": "UV Pens and Solar Disinfection (SODIS) Done Right",
+    "priority": "advanced",
+    "tags": [
+      "water",
+      "uv",
+      "sodis",
+      "solar disinfection",
+      "purification"
+    ],
+    "summary": "Ultraviolet light kills germs in clear water - from a battery UV pen in about 90 seconds per liter, or from the sun in clear plastic bottles over 6 hours. Both fail in cloudy water and neither removes chemicals.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand how UV works",
+        "body": "UV light damages the genetic material of bacteria, viruses, and parasites so they cannot multiply and make you sick. CDC rates portable UV as effective against all three when the water is clear. The weak point is clarity: particles cast shadows that shield germs. UV also leaves no leftover disinfectant, so treated water can be recontaminated, and it does nothing for chemicals, metals, or salt."
+      },
+      {
+        "step": 2,
+        "title": "Clear the water first",
+        "body": "For both methods, the water must be clear. Let it settle and strain it through cloth or a coffee filter, or run it through a filter first. SODIS guidance sets a limit of about 30 NTU (a lab measure of cloudiness). In the field, a practical check is to look through the filled bottle at large printed text; if you cannot read it easily, settle or filter the water again before treating it."
+      },
+      {
+        "step": 3,
+        "title": "Use a UV pen correctly",
+        "body": "Use a wide-mouth bottle that matches the pen's rated volume, typically 0.5 or 1 liter. Turn on the pen, submerge the lamp fully, and stir or gently swirl the water for the whole cycle - a common pen treats 0.5 liter in under a minute and 1 liter in about 90 seconds. Do not stop early. Wait for the indicator that says the cycle succeeded. If it shows an error or the lamp did not light, treat that batch again or use another method."
+      },
+      {
+        "step": 4,
+        "title": "Treat the threads and drink from clean surfaces",
+        "body": "A UV pen treats the water, not the bottle threads or lid. After treating, wipe the rim and threads with treated water or pour into a clean cup. Do not dip the bottle mouth back into the source. Treat one batch at a time and close the bottle right away."
+      },
+      {
+        "step": 5,
+        "title": "Manage batteries and backups",
+        "body": "UV pens need charged batteries or a charged internal cell, and cold weather drains batteries faster. Carry spare batteries or a power bank and keep the pen warm in an inner pocket in cold weather. Lamps and sensors can fail without warning, and you cannot see whether the dose was delivered. Always carry chemical tablets or a way to boil as a backup."
+      },
+      {
+        "step": 6,
+        "title": "Set up SODIS bottles",
+        "body": "Use clean, clear, unscratched plastic bottles, ideally PET soda or water bottles of 1 to 2 liters. Do not use glass, colored bottles, or polycarbonate, which block UV. Peel off labels. Fill the bottles with clear water and cap them. Lay them on their sides so the water layer is thin - no more than about 4 inches (10 cm) deep - in full sun. CDC notes that a dark surface under the bottles may help."
+      },
+      {
+        "step": 7,
+        "title": "Expose long enough",
+        "body": "CDC says to leave bottles in direct sun for 6 hours on a sunny day, or for 2 days in a row if it is cloudy. Some sources give shorter times; follow the longer CDC times to be safe. Do not use SODIS in steady rain - catch the rain instead. Bring bottles in at the end of the time, let them cool, and drink straight from the bottle or pour into a clean cup."
+      },
+      {
+        "step": 8,
+        "title": "Rotate and replace bottles",
+        "body": "Because you cannot tell by looking when SODIS is done, keep a simple rotation: one set of bottles in the sun, one set cooling and ready to drink. Replace bottles that are scratched, cloudy, or deformed; SODIS guidance suggests about every 4 to 6 months of regular use."
+      }
+    ],
+    "warnings": [
+      "UV and SODIS fail in cloudy water. Settle, strain, or filter first.",
+      "Neither method removes chemicals, fuel, metals, salt, or algae toxins.",
+      "UV pens can fail silently with weak batteries or a cracked lamp; always carry a backup.",
+      "Never look directly at a lit UV lamp; follow the device instructions."
+    ],
+    "proTips": [
+      "Pair a filter with a UV pen: the filter clears the water and removes parasites, the UV handles viruses.",
+      "Write the start time on SODIS bottles with a marker so nobody drinks them early.",
+      "A sheet of corrugated metal roofing makes a good SODIS rack - it reflects light and heats the bottles.",
+      "SODIS uses no fuel and no chemicals, making it a strong choice for long sunny outages."
+    ],
+    "relatedGuides": [
+      "water-003",
+      "water-007",
+      "water-008",
+      "water-002"
+    ],
+    "source": "U.S. CDC / SODIS guidance",
+    "sources": [
+      {
+        "title": "How to Make Water Safe in an Emergency (Using Light)",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "About Water Treatment Options When Hiking, Camping, or Traveling",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Water Disinfection for Travelers (CDC Yellow Book)",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "UV treatment / Solar disinfection (SODIS)",
+        "publisher": "Akvopedia",
+        "url": "https://akvopedia.org/wiki/Sodis",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Katadyn Steripen Ultra UV Water Purifier (product specifications)",
+        "publisher": "REI",
+        "url": "https://www.rei.com/product/847549/katadyn-ultra-water-purifier",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Cloudy, colored, or muddy water that you cannot clear first.",
+      "Water with fuel, chemicals, or algae blooms.",
+      "SODIS in steady rain, at night, or when you need water within the next few hours."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have clear water and a UV pen, or clear plastic bottles and sunshine.",
+      "immediate": [
+        "Make sure the water is clear - settle, strain, or filter first",
+        "UV pen: submerge and stir for the full cycle (about 90 seconds per liter)",
+        "SODIS: clear PET bottles of 1-2 liters, on their sides in full sun"
+      ],
+      "then": [
+        "SODIS takes 6 hours of sun, or 2 days if cloudy",
+        "Carry tablets or a way to boil as a backup"
+      ]
+    }
+  },
+  {
+    "id": "water-010",
+    "category": "water",
+    "title": "Storing Water at Home Long-Term",
+    "priority": "critical",
+    "tags": [
+      "water",
+      "storage",
+      "preparedness",
+      "containers",
+      "rotation"
+    ],
+    "summary": "Store at least 1 gallon per person per day for 3 days, and aim for 2 weeks. Use food-grade containers, sanitize them, label them, keep them cool and dark, and rotate every 6 months.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Figure out how much you need",
+        "body": "CDC says to store at least 1 gallon (about 4 liters) per person per day, for at least 3 days, and a 2-week supply if you can. That gallon covers drinking, cooking, and brushing teeth - not bathing or flushing. A family of four needs 12 gallons for 3 days and 56 gallons for 2 weeks. Store more for hot climates, pregnant or nursing people, people who are sick, and pets. Write your target on your prep list and count what you actually have."
+      },
+      {
+        "step": 2,
+        "title": "Start with commercial bottled water",
+        "body": "Unopened, store-bought bottled water is the safest and simplest emergency supply. Keep it sealed and follow the date on the package. Cases of bottles and 1- to 5-gallon jugs are easy to rotate into daily use. Large sealed water-cooler jugs also work if you have room."
+      },
+      {
+        "step": 3,
+        "title": "Choose the right containers",
+        "body": "If you fill your own, use food-grade water storage containers sold for that purpose - the kind found at camping and preparedness stores, including stackable jugs and 55-gallon drums. If you are unsure whether a container is food-grade, ask the maker. Otherwise choose sturdy, unbreakable containers with tight lids and narrow openings. Do not use glass, milk jugs (they degrade and are hard to clean), or anything that ever held bleach, pesticides, fuel, or other chemicals."
+      },
+      {
+        "step": 4,
+        "title": "Clean and sanitize containers",
+        "body": "Wash the container with soap and rinse it well. Mix 1 teaspoon of unscented household bleach (5% to 9%) into 1 quart (4 cups) of water, pour it in, cap it, and shake so the solution touches every inside surface. Let it sit at least 30 seconds, pour it out, and let the container air-dry. This is CDC's current method."
+      },
+      {
+        "step": 5,
+        "title": "Fill with safe water",
+        "body": "Fill containers from a safe source such as a public water system that is not under a boil-water advisory. If your water comes from a private well or another untreated source, disinfect it with bleach at the EPA dose (8 drops of 6% or 6 drops of 8.25% bleach per gallon), or boil it, before storing. Fill to the top to limit air, then cap tightly. Do not touch the inside of the cap or container with your fingers."
+      },
+      {
+        "step": 6,
+        "title": "Label, place, and protect",
+        "body": "Label each container 'DRINKING WATER' with the date filled. Store it at about 50 to 70 F (10 to 21 C), out of direct sunlight, and away from gasoline, pesticides, paint, and other chemicals, which can pass vapors through some plastics. Spread your supply across more than one spot in the house in case one area is damaged. Large drums are heavy - a 55-gallon drum weighs over 450 pounds - so put them where they will stay and buy a hand pump."
+      },
+      {
+        "step": 7,
+        "title": "Rotate every 6 months",
+        "body": "CDC recommends replacing self-stored water every 6 months. Set a calendar reminder - many people use the daylight saving time changes. Use the old water for plants, cleaning, or flushing, then sanitize and refill. For store-bought water, rotate by its printed date. Each time, also check that you have unscented bleach on hand and that it is less than a year old."
+      },
+      {
+        "step": 8,
+        "title": "Use it cleanly in an emergency",
+        "body": "When you start using stored water, pour from the container or use a clean scoop or pump each time. Do not dip cups or hands into it. Use your stored drinking water for drinking, cooking, and brushing teeth first, and find other water (rain, toilet tank, pool) for flushing and cleaning."
+      }
+    ],
+    "warnings": [
+      "Never reuse containers that held chemicals, fuel, bleach, or pesticides for drinking water.",
+      "Do not store water next to gasoline, solvents, or pesticides - vapors can taint it.",
+      "Glass breaks in earthquakes and falls; avoid it for bulk storage.",
+      "Heavy drums can crush feet and strain backs. Fill them in place."
+    ],
+    "proTips": [
+      "Freeze some water in clean plastic bottles (leave room for expansion) - it keeps your freezer cold in an outage and becomes drinking water as it thaws.",
+      "Keep a bathtub water bladder (sold for this purpose) to fill when a storm is forecast.",
+      "Buy one or two collapsible jugs for hauling water from distribution points.",
+      "Keep a laminated card with bleach doses taped to your water storage."
+    ],
+    "relatedGuides": [
+      "water-006",
+      "water-011",
+      "water-015",
+      "urban-002",
+      "homestead-004"
+    ],
+    "source": "U.S. CDC / EPA",
+    "sources": [
+      {
+        "title": "How to Create an Emergency Water Supply",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Disinfection of Drinking Water",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Make Water Safe in an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not fill storage from tap water while a boil-water advisory is in effect unless you treat it first."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want a home water supply ready before the next outage, storm, or disaster.",
+      "immediate": [
+        "Store 1 gallon per person per day - at least 3 days, ideally 2 weeks",
+        "Use store-bought water or food-grade containers you sanitized with 1 tsp bleach per quart",
+        "Label 'DRINKING WATER' with the date; keep cool and dark, away from chemicals"
+      ],
+      "then": [
+        "Replace self-stored water every 6 months",
+        "Keep fresh unscented bleach on hand for treating more water"
+      ]
+    }
+  },
+  {
+    "id": "water-011",
+    "category": "water",
+    "title": "Emergency Water Already Inside Your Home",
+    "priority": "critical",
+    "tags": [
+      "water",
+      "water heater",
+      "pipes",
+      "toilet tank",
+      "hidden water"
+    ],
+    "summary": "Your house already holds dozens of gallons of drinkable water in the water heater, pipes, and ice. Learn how to protect it, drain it safely, and which household water you must never drink.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Close the main valve first",
+        "body": "If you hear that water or sewage lines are broken, or the city warns the supply may be contaminated, shut your home's main water valve right away. This keeps dirty water from flowing into your pipes and water heater and protects the clean water already inside. The main valve is usually where the line enters the house, near the water meter, or in a basement or crawl space. Find it and practice turning it now, before you need it."
+      },
+      {
+        "step": 2,
+        "title": "Shut off power or gas to the water heater",
+        "body": "A typical tank water heater holds about 40 gallons (150 liters) or more. Before draining it, turn off the electricity at the breaker or turn the gas control to OFF or PILOT, following the label on the heater. An electric heater that runs with an empty tank can burn out its elements, and a gas heater can be damaged. If you shut off gas at the meter, only the gas company or a qualified technician should turn it back on."
+      },
+      {
+        "step": 3,
+        "title": "Drain the water heater safely",
+        "body": "Let the water cool for several hours - water heaters store water hot enough to scald. Close the cold-water supply valve on top of the heater. Open a hot-water faucet somewhere in the house to let air in so the tank drains. Attach a short hose to the drain valve at the bottom or set a clean container under it, then open the drain. The first water may carry rust or sediment; let it settle and pour off the clear water. Refill the tank completely before restoring power or gas."
+      },
+      {
+        "step": 4,
+        "title": "Drain the pipes",
+        "body": "Household pipes can hold several gallons, more in large homes. With the main valve closed, open the faucet at the highest point in the house to let air in. Then open the lowest faucet, such as a basement sink or an outdoor spigot, and catch the water in clean containers. Do not use water from pipes if the city has already announced the supply is contaminated and you did not close the main valve before the contamination."
+      },
+      {
+        "step": 5,
+        "title": "Use ice and packaged liquids",
+        "body": "Ice cubes and bags of ice in your freezer are drinking water once melted, as long as they were made from safe water. Liquid in canned fruit and vegetables can go into cooking. Juices and sealed drinks count as fluids. Keep freezer doors closed so ice lasts longer."
+      },
+      {
+        "step": 6,
+        "title": "Use the toilet tank for flushing, not drinking",
+        "body": "The water in the toilet tank (the back part, not the bowl) is clean enough to flush with or wash with. Do not drink it if you use any tank cleaner or tablet - blue, green, or chemical-smelling water means chemicals. Even without cleaners, the tank is not sanitary, so treat it with bleach or boiling if you must drink it. Never drink from the toilet bowl."
+      },
+      {
+        "step": 7,
+        "title": "Know what you must never drink",
+        "body": "Do not drink water from home heating radiators or boilers - CDC warns it can make you sick, and it often contains rust inhibitors and antifreeze. Do not drink from waterbeds, swimming pools, hot tubs, fountains, or fish ponds; their chemicals cannot be removed by home treatment. Use pool and hot tub water only for flushing toilets and cleaning. Never drink water from a car radiator."
+      },
+      {
+        "step": 8,
+        "title": "Treat if in doubt",
+        "body": "Water drained from your heater and pipes is usually safe if you closed the main valve before any contamination. If you are not sure, treat it with bleach at the EPA dose, boil it, or use tablets. After a radiation emergency, CDC notes that water in a toilet tank or water heater is protected from radioactive fallout, which makes it more valuable."
+      }
+    ],
+    "warnings": [
+      "Water heater water can be scalding - let it cool before draining and keep children away.",
+      "Never restore power or gas to an empty water heater; refill it first.",
+      "Never drink from radiators, boilers, waterbeds, pools, hot tubs, or the toilet bowl.",
+      "Toilet tanks with cleaners or colored water are not drinkable even after boiling."
+    ],
+    "proTips": [
+      "Strap your water heater to the wall studs - it protects your water supply and prevents gas leaks in earthquakes.",
+      "Fill bathtubs, sinks, and buckets when a storm is forecast; use that water for flushing.",
+      "Keep a short garden hose and a flathead screwdriver near the water heater for draining.",
+      "Drain a little water from the heater once a year so the drain valve does not seize."
+    ],
+    "relatedGuides": [
+      "water-006",
+      "water-010",
+      "water-015",
+      "urban-002",
+      "dis-006"
+    ],
+    "source": "U.S. CDC / FEMA / state and county emergency management",
+    "sources": [
+      {
+        "title": "How to Make Water Safe in an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Guidelines for Managing Water Supplies (archived)",
+        "publisher": "FEMA",
+        "url": "https://webarchive.library.unt.edu/eot2008/20090505200911mp_/https:/www.fema.gov/plan/prepare/watermanage.shtm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Other Sources of Water",
+        "publisher": "Be Ready Utah (State of Utah)",
+        "url": "https://beready.utah.gov/family-preparedness/12-areas-of-preparedness/water/other-sources-of-water/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Hidden Water Supplies",
+        "publisher": "Public Health - Seattle and King County",
+        "url": "https://kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/hidden-water-supplies",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Food, Drinking Water, and Medicine Safety in a Radiation Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use pipe or heater water if contaminated water already entered the system before you closed the main valve - treat it or skip it.",
+      "Do not drain a water heater while it is still hot or still powered."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The tap is off or unsafe and you need water now from inside your house.",
+      "immediate": [
+        "Close the main water valve to keep contaminated water out",
+        "Turn off power or gas to the water heater and let it cool",
+        "Drain pipes: open the highest faucet, collect from the lowest"
+      ],
+      "then": [
+        "Drain the heater from the bottom valve with a hot faucet open; refill before restoring power",
+        "Use toilet tank and pool water for flushing only - never radiator or waterbed water"
+      ]
+    }
+  },
+  {
+    "id": "water-012",
+    "category": "water",
+    "title": "Finding Water in Deserts and Dry Country",
+    "priority": "critical",
+    "tags": [
+      "water",
+      "desert",
+      "arid",
+      "tinaja",
+      "heat"
+    ],
+    "summary": "In the desert, the water you carry and the sweat you save matter more than anything you can find. Here is how to stretch what you have, where desert water actually hides, and which myths can kill you.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Carry enough and plan sources before you go",
+        "body": "Desert parks tell hikers to carry at least 1 gallon (4 liters) per person per day, and more in summer heat or with hard work. Do not plan a trip that depends on a spring or tank being wet. Rangers at Big Bend warn never to stake your life on a source that might not be there. Before you leave, ask about current conditions, mark every known source on your map, and leave your route and return time with someone."
+      },
+      {
+        "step": 2,
+        "title": "Save sweat, not water",
+        "body": "U.S. Army survival guidance is blunt: ration your sweat, not your water. Drink the water you have when you need it; water saved in a bottle does nothing for you if heat illness takes you down first. Instead, stop moving in the heat of the day, sit in shade raised a little off the hot ground, keep your shirt and hat on, and keep your mouth closed and breathe through your nose. Travel at dawn, dusk, or at night by moonlight if the terrain is safe."
+      },
+      {
+        "step": 3,
+        "title": "Drink in small, steady amounts",
+        "body": "In hot, dry conditions the Army manual says sweat losses can reach 2.5 to 3.5 quarts (liters) an hour during hard work. Its guidance is to drink about 8 to 12 ounces (250 to 350 mL) every 30 minutes while working, and never more than about 1.5 quarts (1.4 liters) in an hour, because drinking too much too fast can also be dangerous. Eat salty snacks if you have them so you replace salt as well as water."
+      },
+      {
+        "step": 4,
+        "title": "Look where desert water hides",
+        "body": "Desert water is usually in shade and low places. Check canyon bottoms below dry waterfalls (pour-offs) for tinajas - rock basins that can hold rain for days or weeks. Look for springs and seeps marked by lines of cottonwoods, willows, cattails, saltgrass, or wet dark streaks on rock. After summer storms, look in potholes on slickrock. Listen for insects and watch for birds flying low and straight at dawn and dusk."
+      },
+      {
+        "step": 5,
+        "title": "Dig in the right spot",
+        "body": "In a dry wash, look for damp sand, green plants, or the outside of a tight bend where the current scoured deepest. Dig 1 to 3 feet (30 to 90 cm) in the cool hours. If the sand gets damp, wait for water to seep in. If it stays bone dry at 2 feet, quit and try elsewhere - digging in heat costs a lot of sweat."
+      },
+      {
+        "step": 6,
+        "title": "Treat everything you find",
+        "body": "Desert water is shared with cattle, wild horses, and wildlife, so it is often contaminated. Rangers note that stagnant pools may be unsafe even to filter. Let the water settle, strain it, then boil it or filter and disinfect it. Skip water with oily sheen, dead animals, a bad smell, or green scum. Take only what you need and do not wash in the source; animals depend on it."
+      },
+      {
+        "step": 7,
+        "title": "Skip the myths",
+        "body": "Do not drink cactus juice to survive. Barrel cactus pulp can cause vomiting and diarrhea that worsen dehydration, and digging into cactus costs effort and risks injury. Solar stills give well under a pint a day for a lot of digging, so use them only as a last resort. Never drink urine, seawater, blood, or alcohol. Do not skip drinking to save water for later; dehydration slows your thinking and can lead to heat stroke."
+      },
+      {
+        "step": 8,
+        "title": "Know when to stay put",
+        "body": "If your vehicle breaks down, stay with it unless you are sure help is close. A vehicle is easier to spot than a person and gives shade. Signal with a mirror, bright cloth, or the horn. Leave a note with your direction if you must walk, and walk only in the cool hours."
+      }
+    ],
+    "warnings": [
+      "Heat stroke - hot skin, confusion, collapse - is an emergency. Cool the person fast and call 911 or signal for help.",
+      "Flash floods can roar through dry washes and slot canyons from storms miles away. Never camp in a wash.",
+      "Drinking large amounts of plain water while sweating heavily without food or salt can cause dangerously low blood sodium.",
+      "Mapped springs and tanks can be dry. Always carry more water than you expect to need."
+    ],
+    "proTips": [
+      "Freeze a few bottles before a desert drive; they stay cold for hours and become drinking water.",
+      "Keep at least 1 gallon per person in your vehicle year-round when driving in the desert.",
+      "Wet your shirt or a bandana with untreated pond or wash water to cool your skin, and save your drinking water for drinking.",
+      "Mark water sources with GPS waypoints and carry a paper map as backup."
+    ],
+    "relatedGuides": [
+      "water-001",
+      "water-004",
+      "water-015",
+      "vehicle-003",
+      "comms-001"
+    ],
+    "source": "National Park Service / U.S. Army FM 3-05.70",
+    "sources": [
+      {
+        "title": "Water Sources in the Backcountry (Chisos Mountains)",
+        "publisher": "National Park Service, Big Bend National Park",
+        "url": "https://www.nps.gov/bibe/planyourvisit/water-in-the-chisos-mountains.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Safety - Guadalupe Mountains National Park",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/gumo/planyourvisit/safety.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Springs, Seeps, and Tinajas",
+        "publisher": "National Park Service, Sonoran Desert Network",
+        "url": "https://www.nps.gov/im/sodn/springs.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 3-05.70 Survival",
+        "publisher": "U.S. Army",
+        "url": "https://biotech.law.lsu.edu/blaw/DOD/fm3-05-70.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Improvised Water Procurement in Wilderness Medicine: A Comparative Review",
+        "publisher": "medRxiv (preprint, 2025)",
+        "url": "https://www.medrxiv.org/content/10.1101/2025.07.10.25331307.full.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [
+      "water-001"
+    ],
+    "whenNotTo": [
+      "Do not leave a vehicle or shelter in midday heat to look for water.",
+      "Do not search slot canyons or washes when thunderstorms are possible anywhere upstream."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You are in hot, dry country and your water is running low.",
+      "immediate": [
+        "Get into shade and stop moving in the heat - save sweat, not water",
+        "Drink when thirsty in small steady amounts; never more than about 1.5 quarts an hour",
+        "Stay with your vehicle and signal if broken down"
+      ],
+      "then": [
+        "Search at dawn or dusk: canyon pour-offs, tinajas, lines of cottonwoods or willows",
+        "Treat all found water; never drink cactus juice, urine, or seawater"
+      ]
+    }
+  },
+  {
+    "id": "water-013",
+    "category": "water",
+    "title": "Snow and Ice as Drinking Water",
+    "priority": "beginner",
+    "tags": [
+      "water",
+      "snow",
+      "ice",
+      "winter",
+      "cold weather"
+    ],
+    "summary": "Snow and ice are water, but eating them cold steals body heat and they can still carry germs. Melt them the right way, treat the meltwater, and keep it from freezing.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Do not eat snow or ice to stay hydrated",
+        "body": "Eating snow or sucking ice lowers your core temperature, which speeds hypothermia and burns calories you need for warmth. State emergency guidance says to melt snow and ice first, then treat the water. A small taste is not dangerous, but do not rely on it as your water source. People get dehydrated in winter because cold air is dry and they do not feel thirsty, so plan to drink as much as you would in mild weather."
+      },
+      {
+        "step": 2,
+        "title": "Choose ice over snow when you can",
+        "body": "Ice gives far more water than snow for the same amount of heat - one experienced mountaineering club guide says roughly twice the water for half the fuel. Old, dense, granular snow lower in a snowbank gives more than fresh powder. Large chunks melt more neatly than loose powder. Lake or stream ice can be chipped off near shore, but only where it is safe to stand; never walk onto ice you are unsure of."
+      },
+      {
+        "step": 3,
+        "title": "Collect clean snow",
+        "body": "Gather snow away from roads, parking lots, roofs, animal tracks, and anywhere people have urinated. Avoid snow that is yellow, gray, pink, or full of debris. Skim off the top layer near towns and roads, where soot and road salt settle. In camp, set aside a clean 'water snow' area uphill of the bathroom spot and mark it."
+      },
+      {
+        "step": 4,
+        "title": "Prime the pot and melt slowly",
+        "body": "Put a little liquid water in the pot first - even a cup from your bottle. A pot of dry snow over a flame can scorch, burn the pot, and leave a burnt taste, because the snow above wicks up the melt and leaves a dry gap at the bottom. Add snow a little at a time as it melts, and press it down so no hollow forms. Keep a lid on to save fuel."
+      },
+      {
+        "step": 5,
+        "title": "Treat the meltwater",
+        "body": "Snow and ice can hold germs from animals, birds, and people, and lake ice holds whatever the lake held. Since you are already heating the water, bring it to a rolling boil for 1 minute (3 minutes at high elevation). If you are short on fuel, melt it and then treat with chlorine dioxide or bleach, allowing extra contact time because cold water slows chemicals - warm the water first if you can. Snowmelt from a clean, remote field is lower risk, but treating is still the safe choice."
+      },
+      {
+        "step": 6,
+        "title": "Run the stove safely",
+        "body": "Never run a stove, heater, or grill inside a closed tent, snow shelter, vehicle, or house without ventilation. Carbon monoxide builds up fast and has no smell. Melt snow outside, in a well-ventilated vestibule, or in a space with a clear air opening. Keep the stove on a stable base, such as a piece of wood or foam, so it does not sink into the snow."
+      },
+      {
+        "step": 7,
+        "title": "Keep your water from freezing",
+        "body": "Store bottles inside your jacket by day and in your sleeping bag at night. Many winter travelers carry bottles upside down so ice forms at the bottom, not in the lid. Insulated bottle covers help. Fill a bottle with hot water at night and put it in your sleeping bag for warmth - it will be liquid in the morning. Keep filters and UV pens warm too: a frozen filter can crack, and cold drains batteries."
+      },
+      {
+        "step": 8,
+        "title": "Plan your fuel",
+        "body": "Melting snow uses much more fuel than heating liquid water. Melt in the evening for the next morning so you are not waiting in the cold. Melt in big batches, and use any open water you can safely reach instead of snow - even a little liquid water saves a lot of fuel. In a home power outage, set clean pans of snow near a safe heat source or in the sun indoors to melt slowly."
+      }
+    ],
+    "warnings": [
+      "Eating snow or ice lowers body temperature and can push you toward hypothermia.",
+      "Never use a stove or heater in a closed shelter or vehicle - carbon monoxide can kill you in your sleep.",
+      "Do not walk onto lake or river ice to collect water unless you know it is thick enough to hold you.",
+      "Snow near roads and towns can carry soot, salt, and chemicals that boiling will not remove."
+    ],
+    "proTips": [
+      "A dark tarp or trash bag spread in the sun can melt a thin layer of snow into a container with no fuel.",
+      "Pack snow into a water bottle with a little liquid water and carry it inside your jacket to melt slowly.",
+      "Aluminum pots heat faster than titanium, which saves fuel when melting large amounts.",
+      "Count fuel in winter for at least double what you would use in summer."
+    ],
+    "relatedGuides": [
+      "water-002",
+      "water-007",
+      "water-008",
+      "water-015",
+      "shelter-003"
+    ],
+    "source": "State of Utah / U.S. CDC / Caltech Alpine Club",
+    "sources": [
+      {
+        "title": "Other Sources of Water",
+        "publisher": "Be Ready Utah (State of Utah)",
+        "url": "https://beready.utah.gov/family-preparedness/12-areas-of-preparedness/water/other-sources-of-water/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Melting Snow",
+        "publisher": "Caltech Alpine Club",
+        "url": "https://alpine.caltech.edu/resources/guidesadvice/melting-snow",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Make Water Safe in an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Water Filtration FAQs (freezing)",
+        "publisher": "Sawyer Products",
+        "url": "https://www.sawyer.com/faqs",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not melt snow from roadsides, parking lots, or industrial areas for drinking.",
+      "Do not melt snow with a stove inside a closed tent, car, or room."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are in snow country and need drinking water from snow or ice.",
+      "immediate": [
+        "Do not eat snow - melt it first",
+        "Collect clean snow or, better, ice, away from roads and bathroom spots",
+        "Add a little water to the pot before adding snow so it does not scorch"
+      ],
+      "then": [
+        "Boil the meltwater 1 minute, or treat with tablets and allow extra time in cold",
+        "Keep bottles and filters inside your jacket or sleeping bag"
+      ]
+    }
+  },
+  {
+    "id": "water-014",
+    "category": "water",
+    "title": "Floodwater and Chemically Contaminated Water",
+    "priority": "critical",
+    "tags": [
+      "water",
+      "flood",
+      "chemicals",
+      "contamination",
+      "fuel"
+    ],
+    "summary": "Boiling, bleach, tablets, UV, and most filters kill germs but cannot remove fuel, chemicals, metals, algae toxins, or radioactive material. Learn to recognize water no home treatment can fix and what to drink instead.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Treat floodwater as poison, not a source",
+        "body": "CDC lists what floodwater can carry: human and livestock sewage, household and industrial chemicals, medical waste, fuel, coal ash with arsenic and mercury, sharp debris, and live power lines. Its contents are unknown, so do not drink it, cook with it, wash dishes in it, or let children play in it. Stay out of it when you can. If you must wade, wear rubber boots and gloves, and never walk or drive through moving water."
+      },
+      {
+        "step": 2,
+        "title": "Know what treatment can and cannot do",
+        "body": "Boiling and disinfectants work on germs only. CDC and EPA both state that they do not make water with fuel, toxic chemicals, or radioactive material safe, and boiling can concentrate some chemicals as water evaporates. Most portable filters also miss dissolved chemicals. Only specialized systems - such as certified activated carbon for specific chemicals, reverse osmosis, or distillation for some contaminants - remove them, and even those need the right product for the right chemical."
+      },
+      {
+        "step": 3,
+        "title": "Recognize warning signs",
+        "body": "Do not drink or treat water that has a rainbow or oily sheen, smells of gasoline, solvent, or chemicals, is dark or strangely colored, or has foam, scum, or green paint-like streaks from an algae bloom. Avoid any water near a flooded gas station, farm chemical store, factory, junkyard, mine, or wastewater plant. Dead fish or animals at the edge are a red flag. Toxins can be present even when nothing looks wrong, so location and news reports matter as much as appearance."
+      },
+      {
+        "step": 4,
+        "title": "Do not boil algae-bloom water",
+        "body": "Harmful algae blooms make toxins that boiling does not destroy - CDC warns boiling can actually concentrate them. Home filters are not proven to remove them. Keep people, pets, and livestock away, because dogs can die within hours after swimming in or drinking bloom water. Rinse anyone who touched it with clean water."
+      },
+      {
+        "step": 5,
+        "title": "Use safe water first",
+        "body": "Switch to bottled water, your stored water, sealed drinks, and water drained from your water heater and pipes - but only if you closed the main valve before contaminated water could enter. Follow your water utility's boil-water or do-not-drink notices. A 'do not drink' notice means boiling will not help; a 'boil water' notice means it will."
+      },
+      {
+        "step": 6,
+        "title": "Handle radiation emergencies differently",
+        "body": "After a nuclear or radiological incident, CDC says bottled water and sealed drinks are safe; wipe the outside of the container with a damp cloth before opening. Water in your toilet tank (not the bowl) and water heater is also protected. Boiling tap water does not remove radioactive material. Follow official announcements about when tap water is safe to drink."
+      },
+      {
+        "step": 7,
+        "title": "Protect wounds and clean up",
+        "body": "Floodwater causes wound infections, rashes, stomach illness, and tetanus. Keep cuts covered with waterproof bandages and stay out of floodwater with open wounds. Wash skin that touched floodwater with soap and clean water, or use hand sanitizer if water is short. Get medical care for punctures, wounds that show redness, swelling, or pus, or if you are not up to date on tetanus shots."
+      },
+      {
+        "step": 8,
+        "title": "Get help and report",
+        "body": "If you suspect chemical contamination of your well or neighborhood water, contact your local health department. For drums or chemical containers washed onto your property, call your state or county health department; EPA's flood fact sheet also lists its Superfund Hotline, 1-800-424-9346. The EPA Safe Drinking Water Hotline is 1-800-426-4791. Poison Control is 1-800-222-1222 if someone drank suspect water and feels sick."
+      }
+    ],
+    "warnings": [
+      "Boiling, bleach, tablets, and UV do not remove fuel, chemicals, metals, algae toxins, or radioactive material.",
+      "Never drink, cook with, or wash dishes in floodwater.",
+      "Six inches of moving water can knock you down, and a foot can float a car - turn around, do not drown.",
+      "Stay away from downed power lines and electrified floodwater.",
+      "A 'do not drink' notice cannot be fixed by boiling."
+    ],
+    "proTips": [
+      "Before flood season, store enough sealed water to ride out a week or more without any outside source.",
+      "Close the main water valve as soon as a flood or sewage break is reported to protect water in your pipes and heater.",
+      "Keep a waterproof bag with bandages, gloves, and hand sanitizer in your flood kit.",
+      "Sign up for your water utility's text alerts so you know the difference between boil and do-not-drink notices."
+    ],
+    "relatedGuides": [
+      "water-002",
+      "water-010",
+      "water-011",
+      "water-016",
+      "dis-004",
+      "dis-006"
+    ],
+    "source": "U.S. CDC / EPA",
+    "sources": [
+      {
+        "title": "How to Make Water Safe in an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Floodwater After a Disaster or Emergency (CDC fact sheet)",
+        "publisher": "U.S. CDC (copy hosted by Vermont Division of Fire Safety)",
+        "url": "https://firesafety.vermont.gov/sites/firesafety/files/documents/CDC_Floodwater%20After%20a%20Disaster%20or%20Emergency.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Preventing Illnesses Caused by Harmful Algal Blooms",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/harmful-algal-blooms/prevention/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Food, Drinking Water, and Medicine Safety in a Radiation Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Disinfection of Drinking Water",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.1",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not attempt to make chemically contaminated water drinkable with home methods - find another source."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Floodwater, a spill, or an algae bloom may have contaminated your water.",
+      "immediate": [
+        "Do not drink, boil, or treat water with fuel smell, sheen, scum, or from floodwater",
+        "Switch to bottled, stored, or sealed water and protected heater or pipe water",
+        "Close the main water valve to protect your plumbing"
+      ],
+      "then": [
+        "Follow utility notices: boil-water vs. do-not-drink",
+        "Cover wounds, wash skin, and contact the health department about contamination"
+      ]
+    }
+  },
+  {
+    "id": "water-015",
+    "category": "water",
+    "title": "How Much Water You Really Need",
+    "priority": "critical",
+    "tags": [
+      "water",
+      "hydration",
+      "dehydration",
+      "rationing",
+      "heat"
+    ],
+    "summary": "Plan on 1 gallon per person per day for storage, drink to meet real needs instead of rationing, and cut losses through rest and shade. Heat and hard work raise needs sharply, and drinking far too much is also dangerous.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the planning numbers",
+        "body": "For emergency storage, CDC uses 1 gallon (about 4 liters) per person per day, which covers drinking plus some cooking and tooth brushing. FEMA's older guidance notes the average person drinks about half a gallon a day, with many people needing more. The U.S. Army survival manual says an adult resting in mild weather (about 68 F / 20 C) loses about 2 to 3 quarts (liters) a day. Children, nursing mothers, sick people, and anyone in heat need more."
+      },
+      {
+        "step": 2,
+        "title": "Do not ration below need",
+        "body": "FEMA's long-standing advice is to drink what you need today and look for more tomorrow, rather than rationing, unless officials tell you to. It sets an absolute floor of 1 quart (4 cups) a day. Water in a jug does not help a body that is too dehydrated to think clearly, walk, or work. Ration activity, sweat, and non-drinking uses instead: no washing with drinking water, flush with grey or pool water, and use paper plates if you have them."
+      },
+      {
+        "step": 3,
+        "title": "Cut your losses",
+        "body": "Stay in shade or the coolest room, rest during the hottest hours, and do hard work in the early morning or evening. Wear loose, light-colored clothing and a hat. Keep clothing on in the sun - it slows sweat evaporation. Avoid alcohol and caffeine, which raise water needs, and skip salty, high-protein foods when water is short because digesting them uses water. Carbonated drinks do not replace water."
+      },
+      {
+        "step": 4,
+        "title": "Drink more with heat and exertion",
+        "body": "When working in heat, NIOSH advises about 1 cup (8 ounces) of water every 15 to 20 minutes, which is 24 to 32 ounces (0.7 to 1 liter) an hour, and starting before you feel thirsty. The Army manual gives a similar pattern for hot, dry climates. For hiking, Colorado State Extension suggests planning about half a liter an hour, plus more for heat, humidity, and altitude. Small, frequent drinks work better than chugging."
+      },
+      {
+        "step": 5,
+        "title": "Do not overdo it",
+        "body": "NIOSH says not to drink more than 48 ounces (1.5 quarts) in any hour, because too much water or other fluids can drop blood salt levels to a life-threatening level. During long, sweaty work, eat regular meals or salty snacks, or use a sports drink or oral rehydration solution, so you replace salt as well as water. Headache, nausea, confusion, or swelling after drinking large amounts of plain water is a medical emergency."
+      },
+      {
+        "step": 6,
+        "title": "Watch for dehydration",
+        "body": "Check urine: pale yellow is good; dark yellow, strong-smelling, or very little urine means drink more. The Army manual says keep urine output to at least about half a quart (0.5 liter) in 24 hours. Other signs include thirst, dry mouth, headache, dizziness on standing, fatigue, and irritability. Infants and young children may show sunken eyes, no tears, and few wet diapers. Severe signs - confusion, fast weak pulse, fainting, no urine - need urgent medical care."
+      },
+      {
+        "step": 7,
+        "title": "Use oral rehydration for illness",
+        "body": "Diarrhea and vomiting drain water and salts fast and are common after disasters with bad water. Use oral rehydration salts (ORS) packets mixed with safe water, following the package. Give small sips often, even if the person is vomiting. Seek medical help for infants, older adults, bloody diarrhea, high fever, or signs of severe dehydration."
+      },
+      {
+        "step": 8,
+        "title": "Make a household water budget",
+        "body": "Count people and pets, multiply by days, and compare with what you have stored. A family of four needs at least 12 gallons for 3 days and 56 gallons for 2 weeks at 1 gallon each per day. Add extra for hot weather, illness, babies on formula, and pets. Assign drinking water first, cooking second, hygiene last, and plan other sources - rain, toilet tank, pool - for flushing and cleaning."
+      }
+    ],
+    "warnings": [
+      "Do not ration drinking water below 1 quart per person per day; severe dehydration can kill.",
+      "Drinking more than about 1.5 quarts (48 ounces) an hour can cause dangerously low blood sodium.",
+      "Confusion, fainting, or no urine with heat or illness is a medical emergency - get help.",
+      "Infants, older adults, and people on some medicines dehydrate faster and may not feel thirsty."
+    ],
+    "proTips": [
+      "Keep a few ORS packets in every kit; they are light and cheap.",
+      "Mark drinking bottles with time lines (for example 9 a.m., noon, 3 p.m.) to pace your drinking in heat.",
+      "Pre-hydrate before hard work or travel so you start full, not behind.",
+      "In a long outage, track household water use on a whiteboard so everyone sees the budget."
+    ],
+    "relatedGuides": [
+      "water-010",
+      "water-011",
+      "water-012",
+      "medical-008"
+    ],
+    "source": "U.S. CDC / FEMA / NIOSH / U.S. Army FM 3-05.70",
+    "sources": [
+      {
+        "title": "How to Create an Emergency Water Supply",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Guidelines for Managing Water Supplies (archived)",
+        "publisher": "FEMA",
+        "url": "https://webarchive.library.unt.edu/eot2008/20090505200911mp_/https:/www.fema.gov/plan/prepare/watermanage.shtm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Heat Stress: Hydration",
+        "publisher": "NIOSH / U.S. CDC",
+        "url": "https://stacks.cdc.gov/view/cdc/45851",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 3-05.70 Survival",
+        "publisher": "U.S. Army",
+        "url": "https://biotech.law.lsu.edu/blaw/DOD/fm3-05-70.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Guide to Treating Water in the Backcountry",
+        "publisher": "Colorado State University Extension",
+        "url": "https://extension.colostate.edu/resource/guide-to-treating-water-in-the-backcountry",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "People with heart or kidney failure or on fluid limits should follow their doctor's fluid plan rather than general targets."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Water is limited and you need to know how much to drink and how to stretch it.",
+      "immediate": [
+        "Drink what you need today - never less than 1 quart per person per day",
+        "Rest in shade and cut sweat; skip alcohol and caffeine",
+        "In heat, sip about 1 cup every 15-20 minutes, but under 48 oz an hour"
+      ],
+      "then": [
+        "Watch urine color and amount; dark or scant means drink more",
+        "Budget 1 gallon per person per day and save drinking water for drinking"
+      ]
+    }
+  },
+  {
+    "id": "water-016",
+    "category": "water",
+    "title": "Private Wells After a Flood or Disaster",
+    "priority": "advanced",
+    "tags": [
+      "water",
+      "well",
+      "flood",
+      "shock chlorination",
+      "testing"
+    ],
+    "summary": "A flooded or damaged well should be treated as contaminated. Stay safe around wiring, shock-chlorinate the well, flush it, and get a lab test 7 to 10 days later before drinking.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stop drinking the well water",
+        "body": "If floodwater covered your wellhead, the well was damaged, or the water changed color, smell, or taste, assume it is contaminated. EPA says do not drink or wash with water from a flooded well. Use bottled or stored water, or boil well water for 1 minute (3 minutes at high elevation) until a lab test says it is safe. EPA notes that wells older than 10 years or shallower than 50 feet are likely contaminated after a flood even with no visible damage. If the water smells of fuel or chemicals, do not use it at all - disinfection will not fix that."
+      },
+      {
+        "step": 2,
+        "title": "Make the site safe first",
+        "body": "Turn off all power to the well pump before going near it. Do not turn the pump back on until a qualified electrician or pump contractor has checked the wiring - if the control box was underwater, everything must dry out first. Rubber boots and gloves do not protect you from shock. Watch for downed lines, sharp debris, open holes, and snakes. Never climb into a well pit; dangerous gases can collect there. CDC recommends having a well or pump contractor do the disinfection when possible."
+      },
+      {
+        "step": 3,
+        "title": "Gather supplies and protect yourself",
+        "body": "You need unscented liquid household bleach (5% to 9%), a clean 5-gallon bucket, a funnel, a garden hose, rubber gloves, goggles or a face shield, and old clothes. Work with good airflow. Bypass or shut the valves to any water softener or treatment system, because strong chlorine can damage them."
+      },
+      {
+        "step": 4,
+        "title": "Flush and measure",
+        "body": "Once the electrical system is safe, run the pump and drain water from the outside faucet nearest the well until it runs clear. If there is no pump, bail water out with a bucket. Figure out your well type (drilled, driven, bored, or dug), casing diameter, and the depth of water in the well. Use CDC's bleach table for your well. Examples: a 6-inch drilled well with 50 feet of water needs about 2 1/2 cups; an 8-inch well with 100 feet needs about 7 1/2 cups; a 3-foot dug well with 30 feet of water needs about 3 gallons. These doses aim for over 100 mg/L chlorine."
+      },
+      {
+        "step": 5,
+        "title": "Add bleach and circulate",
+        "body": "Mix the bleach with 3 to 5 gallons of water in the bucket. Remove the well cap or vent plug, and pour the mixture in through a funnel, keeping it off any wiring. Attach a clean hose to the nearest outside faucet and run water back into the well to mix it, rinsing the inside of the casing for 5 to 10 minutes. Then open every indoor and outdoor tap, one at a time, until each one smells strongly of chlorine, and close it."
+      },
+      {
+        "step": 6,
+        "title": "Let it sit, then flush outdoors",
+        "body": "Leave the chlorinated water in the well and pipes for at least 12 hours (EPA's quick method says 6 to 24 hours). Do not drink, cook, bathe, or wash with it during that time. Then drain the water through an outside faucet onto gravel or a driveway, away from plants, streams, ponds, and your septic system, until the chlorine smell is gone. Finally run the indoor taps until they no longer smell of chlorine. Do not flush large amounts of chlorinated water into a septic system."
+      },
+      {
+        "step": 7,
+        "title": "Test 7 to 10 days later",
+        "body": "Wait 7 to 10 days after disinfection and make sure all chlorine is flushed out. Contact your local health department or a state-certified lab for sterile bottles and follow their sampling directions exactly. Test for total coliform and E. coli (or fecal coliform). Keep boiling or using other water until results come back clean. If bacteria are found, repeat the disinfection and retest, and call the health department if the problem continues."
+      },
+      {
+        "step": 8,
+        "title": "Keep testing and check the septic system",
+        "body": "CDC advises retesting in 2 to 4 weeks and again in 3 to 4 months, then testing for bacteria at least twice a year. Contamination after a flood can last months. Do not use your septic system until floodwater recedes - drain fields will not work and lines may be broken. Ask the health department whether to also test for nitrate or chemicals, especially if farm, fuel, or industrial sites flooded nearby."
+      }
+    ],
+    "warnings": [
+      "Do not restore power to a flooded pump until a professional checks it - electrocution risk.",
+      "Never enter a well pit; toxic gases can collect there.",
+      "Strong chlorine burns eyes and skin. Wear goggles and gloves and keep children away.",
+      "Shock chlorination kills germs only. It does not remove fuel, pesticides, nitrate, or metals.",
+      "Do not drink the water until a lab test confirms no coliform bacteria."
+    ],
+    "proTips": [
+      "Write down your well depth, casing size, and water level now so you can look up the bleach dose fast after a disaster.",
+      "Store an extra gallon of unscented bleach with your well supplies and rotate it yearly.",
+      "Bored and dug wells are hard to keep clean; if they keep testing positive, consider a drilled well.",
+      "Many county health departments offer free or low-cost well testing after declared disasters - ask."
+    ],
+    "relatedGuides": [
+      "water-002",
+      "water-006",
+      "water-014",
+      "dis-004"
+    ],
+    "source": "U.S. CDC / EPA",
+    "sources": [
+      {
+        "title": "How to Disinfect Wells After an Emergency",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-disinfect-wells-after-an-emergency.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What to Do After the Flood (private wells fact sheet)",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/sites/default/files/2015-05/documents/epa816f05021.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What to Do With Your Private Well After a Flood",
+        "publisher": "U.S. EPA",
+        "url": "https://epa.gov/privatewells/what-do-your-private-well-after-flood",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Disinfection of Drinking Water",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "advanced",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [
+      "water-006"
+    ],
+    "whenNotTo": [
+      "If the water smells of fuel or chemicals or chemical drums are nearby - call the health department instead.",
+      "If wiring or the pump was flooded and has not been checked by a professional.",
+      "If you are not comfortable working with strong chlorine - hire a well or pump contractor."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your private well was flooded or damaged in a disaster.",
+      "immediate": [
+        "Stop drinking the well water - use bottled water or boil it",
+        "Shut off power to the pump and have wiring checked before restarting",
+        "Never enter the well pit"
+      ],
+      "then": [
+        "Shock-chlorinate using CDC's table, hold at least 12 hours, flush away from plants and septic",
+        "Test for total coliform and E. coli 7-10 days later; retest in 2-4 weeks"
+      ]
     }
   }
 ]

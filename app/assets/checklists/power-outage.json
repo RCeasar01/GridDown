@@ -1,0 +1,151 @@
+{
+  "id": "checklist-power-outage",
+  "title": "Power Outage",
+  "disasterType": "power-outage",
+  "description": "Use this list to prepare for outages and to work through the first hours and days when the power goes out.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Be Prepared for a Power Outage",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/sites/default/files/2024-03/ready.gov_power-outage_hazard-info-sheet.pdf",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Avoid Foodborne Illness During Temporary Power Outages",
+      "publisher": "FoodSafety.gov (HHS/USDA)",
+      "url": "https://www.foodsafety.gov/blog/avoid-foodborne-illness-during-temporary-power-outages",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "What to Do to Protect Yourself During a Power Outage",
+      "publisher": "CDC",
+      "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Winter Storms Aren't Over: CPSC Warns of Deadly Carbon Monoxide Risks and Fires During Power Outages",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "url": "https://cpsc.gov/Newsroom/News-Releases/2026/Winter-Storms-Arent-Over-CPSC-Warns-of-Deadly-Carbon-Monoxide-Risks-and-Fires-During-Power-Outages",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "po-001",
+      "text": "Install battery or battery-backup carbon monoxide alarms on every level and near bedrooms, and test them",
+      "critical": true
+    },
+    {
+      "id": "po-002",
+      "text": "Run generators, grills, and camp stoves outdoors only, at least 20 feet (6 m) from windows, doors, and vents - never in a garage or on a porch",
+      "critical": true
+    },
+    {
+      "id": "po-003",
+      "text": "Never heat the home with a gas oven or stove, and never run a car in a garage",
+      "critical": true
+    },
+    {
+      "id": "po-004",
+      "text": "Never plug a generator into house wiring without a proper transfer switch - it can kill utility workers",
+      "critical": true
+    },
+    {
+      "id": "po-005",
+      "text": "Make a backup power plan for medical devices (oxygen, CPAP, pumps) and tell your utility if someone depends on one",
+      "critical": true
+    },
+    {
+      "id": "po-006",
+      "text": "Know how long refrigerated medicines like insulin can stay at room temperature; keep a cooler and gel packs ready",
+      "critical": true
+    },
+    {
+      "id": "po-007",
+      "text": "Flashlights and lanterns with spare batteries for every person - not candles",
+      "critical": true
+    },
+    {
+      "id": "po-008",
+      "text": "Keep fridge and freezer doors closed: a closed fridge keeps food safe about 4 hours, a full freezer about 48 hours, a half-full one about 24",
+      "critical": true
+    },
+    {
+      "id": "po-009",
+      "text": "Put appliance thermometers in the fridge (40 F / 4 C or below) and freezer (0 F / -18 C or below)",
+      "critical": false
+    },
+    {
+      "id": "po-010",
+      "text": "After 4 hours without power, move meat, milk, and leftovers to a cooler with ice; when in doubt, throw it out",
+      "critical": false
+    },
+    {
+      "id": "po-011",
+      "text": "Store water: at least 1 gallon (3.8 L) per person per day, and fill extra containers if pumps may lose power",
+      "critical": true
+    },
+    {
+      "id": "po-012",
+      "text": "Non-perishable food and a manual can opener for several days",
+      "critical": false
+    },
+    {
+      "id": "po-013",
+      "text": "Battery or hand-crank radio for news and alerts",
+      "critical": true
+    },
+    {
+      "id": "po-014",
+      "text": "Charged power banks and a car charger for phones",
+      "critical": false
+    },
+    {
+      "id": "po-015",
+      "text": "Unplug appliances and electronics to protect them from surges; leave one lamp on to know when power returns",
+      "critical": false
+    },
+    {
+      "id": "po-016",
+      "text": "Report the outage to your utility and check if neighbors are out too",
+      "critical": false
+    },
+    {
+      "id": "po-017",
+      "text": "Cold weather: close off unused rooms, layer clothing, and go to a warming center if the home gets too cold",
+      "critical": true
+    },
+    {
+      "id": "po-018",
+      "text": "Hot weather: stay in the coolest room, drink water often, and go to a cooling center if needed",
+      "critical": true
+    },
+    {
+      "id": "po-019",
+      "text": "Check on older neighbors and people living alone at least twice a day",
+      "critical": false
+    },
+    {
+      "id": "po-020",
+      "text": "Keep cash in small bills - card readers and ATMs may not work",
+      "critical": false
+    },
+    {
+      "id": "po-021",
+      "text": "Know how to open your garage door manually",
+      "critical": false
+    },
+    {
+      "id": "po-022",
+      "text": "Bag-lined bucket toilet and supplies in case water pressure fails",
+      "critical": false
+    },
+    {
+      "id": "po-023",
+      "text": "When power returns, turn appliances on a few at a time and replace refrigerated medicines that got warm, as the label or pharmacist advises",
+      "critical": false
+    }
+  ]
+}

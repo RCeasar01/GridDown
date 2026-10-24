@@ -1,0 +1,134 @@
+{
+  "id": "checklist-get-home-bag",
+  "title": "Get-Home Bag",
+  "disasterType": "get-home-bag",
+  "description": "Use this list to pack a small bag for work or your car so you can get home on foot, or wait safely, for 24-48 hours.",
+  "category": "tools",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Car Safety",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://ready.gov/car",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "ghb-001",
+      "text": "Broken-in walking shoes or boots and two pairs of good socks - dress shoes stop most people walking home",
+      "critical": true
+    },
+    {
+      "id": "ghb-002",
+      "text": "At least 1 liter (1 quart) of water in a bottle that will not burst if frozen, plus a small filter or purification tablets",
+      "critical": true
+    },
+    {
+      "id": "ghb-003",
+      "text": "A few days of any daily prescription medicine and a written medicine list",
+      "critical": true
+    },
+    {
+      "id": "ghb-004",
+      "text": "Headlamp with spare batteries so your hands stay free",
+      "critical": true
+    },
+    {
+      "id": "ghb-005",
+      "text": "Small power bank and phone cable",
+      "critical": true
+    },
+    {
+      "id": "ghb-006",
+      "text": "Paper map of the area between work and home with 2-3 routes marked, avoiding bridges, tunnels, and low ground",
+      "critical": true
+    },
+    {
+      "id": "ghb-007",
+      "text": "Written phone numbers and an out-of-area contact; agree on who texts whom",
+      "critical": true
+    },
+    {
+      "id": "ghb-008",
+      "text": "Rain jacket or poncho, warm layer, hat, and gloves for your worst season",
+      "critical": true
+    },
+    {
+      "id": "ghb-009",
+      "text": "About 2,000 calories of no-cook food: energy bars, nuts, jerky",
+      "critical": false
+    },
+    {
+      "id": "ghb-010",
+      "text": "Small first aid kit with gloves and blister care (moleskin or blister bandages)",
+      "critical": false
+    },
+    {
+      "id": "ghb-011",
+      "text": "Compact emergency blanket or bivy",
+      "critical": false
+    },
+    {
+      "id": "ghb-012",
+      "text": "Whistle",
+      "critical": false
+    },
+    {
+      "id": "ghb-013",
+      "text": "N95 mask for dust or smoke",
+      "critical": false
+    },
+    {
+      "id": "ghb-014",
+      "text": "Cash in small bills and a copy of your ID",
+      "critical": false
+    },
+    {
+      "id": "ghb-015",
+      "text": "Multi-tool (if allowed at your workplace), a little duct tape, and 25-50 feet (8-15 m) of cord",
+      "critical": false
+    },
+    {
+      "id": "ghb-016",
+      "text": "Work gloves, small lighter, hand sanitizer, and a bandana",
+      "critical": false
+    },
+    {
+      "id": "ghb-017",
+      "text": "Sun protection in hot places: cap and sunscreen",
+      "critical": false
+    },
+    {
+      "id": "ghb-018",
+      "text": "Small compass, if you know how to use it",
+      "critical": false
+    },
+    {
+      "id": "ghb-019",
+      "text": "Plan with family ahead of time who picks up children from school and where you will meet",
+      "critical": true
+    },
+    {
+      "id": "ghb-020",
+      "text": "Know when to stay put: do not walk into a storm, extreme heat, smoke, or floodwater if you can shelter safely",
+      "critical": true
+    },
+    {
+      "id": "ghb-021",
+      "text": "Use a plain day pack that looks like a normal work or school bag",
+      "critical": false
+    },
+    {
+      "id": "ghb-022",
+      "text": "Swap food, water, and seasonal clothing every 6 months; use lithium batteries and keep power banks out of a hot car in summer",
+      "critical": false
+    }
+  ]
+}

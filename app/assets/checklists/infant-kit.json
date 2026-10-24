@@ -1,0 +1,145 @@
+{
+  "id": "checklist-infant-kit",
+  "title": "Infant and Toddler Kit",
+  "disasterType": "infant-kit",
+  "description": "Use this list to pack emergency supplies for babies and young children, based on CDC's infant feeding in emergencies checklist.",
+  "category": "children",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Emergency List for Families With Infants and Young Children",
+      "publisher": "CDC",
+      "url": "https://cdc.gov/infant-feeding-emergencies-toolkit/php/checklist.html",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Facts About Infant Feeding During Emergencies",
+      "publisher": "CDC",
+      "url": "https://cdc.gov/infant-feeding-emergencies-toolkit/php/facts.html",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "inf-001",
+      "text": "Formula-fed babies: ready-to-feed formula in single-serving bottles or cans - the safest choice because it needs no water or mixing",
+      "critical": true
+    },
+    {
+      "id": "inf-002",
+      "text": "Check every month that you have several days of formula at your baby's current amount, and replace any near expiration",
+      "critical": true
+    },
+    {
+      "id": "inf-003",
+      "text": "Powdered formula backup only with its kit: bottled water for mixing, liquid measuring cup, lidded mixing container, bottles, and nipples",
+      "critical": true
+    },
+    {
+      "id": "inf-004",
+      "text": "Safe drinking water such as sealed bottled water",
+      "critical": true
+    },
+    {
+      "id": "inf-005",
+      "text": "Breastfeeding: disposable nursing pads (1-2 boxes)",
+      "critical": false
+    },
+    {
+      "id": "inf-006",
+      "text": "Pumping: manual breast pump for outages, milk storage bags, and a small cooler with ice packs; spare pump parts, cords, and batteries",
+      "critical": true
+    },
+    {
+      "id": "inf-007",
+      "text": "Disposable cups, dishes, feeding spoons, and bibs - use them if you cannot wash reusable items with safe water",
+      "critical": true
+    },
+    {
+      "id": "inf-008",
+      "text": "Cleaning kit for bottles and pump parts: wash basin, scrub brush, dish soap, and drying bag in a lidded container",
+      "critical": false
+    },
+    {
+      "id": "inf-009",
+      "text": "At least one large pack of diapers and two packs of baby wipes",
+      "critical": true
+    },
+    {
+      "id": "inf-010",
+      "text": "Diaper rash cream, baby wash, and lotion",
+      "critical": false
+    },
+    {
+      "id": "inf-011",
+      "text": "Gallon-size zip bags for dirty diapers and clothes",
+      "critical": false
+    },
+    {
+      "id": "inf-012",
+      "text": "Infant thermometer and an infant pain and fever reliever with its measuring device (follow the label)",
+      "critical": true
+    },
+    {
+      "id": "inf-013",
+      "text": "Child's medical records and vaccination record",
+      "critical": true
+    },
+    {
+      "id": "inf-014",
+      "text": "Nonperishable baby food and snacks right for your child's age",
+      "critical": false
+    },
+    {
+      "id": "inf-015",
+      "text": "Baby carrier (sling, wrap, or front or back carrier) so your hands are free when evacuating",
+      "critical": false
+    },
+    {
+      "id": "inf-016",
+      "text": "Extra clothes and at least two extra blankets",
+      "critical": false
+    },
+    {
+      "id": "inf-017",
+      "text": "Portable crib or travel bed for safe sleep",
+      "critical": false
+    },
+    {
+      "id": "inf-018",
+      "text": "Burp cloths and at least two pacifiers if used",
+      "critical": false
+    },
+    {
+      "id": "inf-019",
+      "text": "Bulb syringe",
+      "critical": false
+    },
+    {
+      "id": "inf-020",
+      "text": "Tape and a marker for labeling bottles and supplies",
+      "critical": false
+    },
+    {
+      "id": "inf-021",
+      "text": "Camp stove, fuel, and pot for boiling water - used outdoors only",
+      "critical": false
+    },
+    {
+      "id": "inf-022",
+      "text": "Comfort toy and a few small activities for toddlers",
+      "critical": false
+    },
+    {
+      "id": "inf-023",
+      "text": "Never water down formula to stretch it - mix exactly as the label says with safe water, use it within 2 hours, and ask a shelter or health worker for help if supplies run low",
+      "critical": true
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+[
+  {
+    "id": "quiz-children-001",
+    "category": "children",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You're teaching your 5-year-old to call 911. She asks what to do if she presses 911 by accident while playing with your phone. What should you teach her?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hang up fast so nobody knows it was her."
+      },
+      {
+        "id": "b",
+        "text": "Stay on the line and tell the dispatcher it was a mistake and everyone is OK."
+      },
+      {
+        "id": "c",
+        "text": "Turn the phone off and hide it."
+      },
+      {
+        "id": "d",
+        "text": "Call back later to apologize."
+      }
+    ],
+    "correct": "b",
+    "explanation": "Staying on the line and saying it was a mistake lets the dispatcher close the call quickly. Hanging up or turning off the phone makes the center call back and may send an officer to check, tying up help needed for real emergencies. Teach kids they won't be in trouble for an honest mistake.",
+    "relatedGuide": "children-001",
+    "tags": [
+      "children",
+      "911",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-children-002",
+    "category": "children",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "Your 7-year-old has practiced Hug-a-Tree. Put the steps he should take, if he gets separated from the family on a forest trail, in the right order.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Stop walking as soon as he can't see or hear the family."
+      },
+      {
+        "id": "b",
+        "text": "Pick one big tree or rock close by and stay next to it."
+      },
+      {
+        "id": "c",
+        "text": "Put on extra layers and his trash bag poncho (face hole cut) to stay warm and dry."
+      },
+      {
+        "id": "d",
+        "text": "Blow three whistle blasts, rest and listen, and repeat every few minutes."
+      },
+      {
+        "id": "e",
+        "text": "Answer and wave to searchers calling his name, even if they are strangers."
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "Stopping right away keeps the search area small. Staying at one fixed spot is the core of Hug-a-Tree - children who stay put are found much faster. Staying warm and dry prevents cold injury, the biggest real danger. The whistle carries farther than a voice. Finally, kids must answer searchers; many lost children hide because they fear strangers or being in trouble.",
+    "relatedGuide": "children-002",
+    "tags": [
+      "children",
+      "lost",
+      "hug a tree",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-children-003",
+    "category": "children",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "At a crowded evacuation center, your 6-year-old loses sight of you. Based on NCMEC guidance, who should you have taught her to go to for help?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nobody - never talk to strangers, just wait and cry until you find her."
+      },
+      {
+        "id": "b",
+        "text": "Any friendly adult who offers to walk her outside to look for you."
+      },
+      {
+        "id": "c",
+        "text": "A uniformed officer or worker with a name tag, or a mom or dad with kids, staying in the open."
+      },
+      {
+        "id": "d",
+        "text": "Leave the building and walk home."
+      }
+    ],
+    "correct": "c",
+    "explanation": "NCMEC recommends teaching kids to find a safe helper - a uniformed officer, a worker with a name tag, or a parent with children - and to stay in public view. Fear-based 'never talk to strangers' can keep a lost child from getting help. Going outside or to a private place with someone, or leaving alone, puts her at greater risk.",
+    "relatedGuide": "children-003",
+    "tags": [
+      "children",
+      "safe adults",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-children-004",
+    "category": "children",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "The power has been out for 6 hours and tap water is under a boil-water notice. Your 6-week-old is formula-fed and you have only powdered formula and bottled water. What is the safest approach?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mix the powder with extra water so the can lasts longer until stores reopen."
+      },
+      {
+        "id": "b",
+        "text": "Use the opened, prepared bottle that was in the fridge before the outage."
+      },
+      {
+        "id": "c",
+        "text": "Mix powder with water heated to about 158°F (70°C), cool the bottle, feed within 2 hours, and throw out leftovers."
+      },
+      {
+        "id": "d",
+        "text": "Mix the powder with tap water since you're using formula, not drinking the water straight."
+      }
+    ],
+    "correct": "c",
+    "explanation": "For babies under 2 months, CDC advises mixing powdered formula with water still at about 158°F (70°C) to kill germs like Cronobacter, then cooling it. Use prepared formula within 2 hours and discard what's left. Never dilute formula - it can cause dangerous illness. CDC says to discard prepared formula from a refrigerator that lost power for 4 hours or more, and tap water under a boil notice is not safe for formula.",
+    "relatedGuide": "children-008",
+    "tags": [
+      "children",
+      "infants",
+      "formula",
+      "advanced"
+    ]
+  },
+  {
+    "id": "quiz-children-005",
+    "category": "children",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You get a text that your child's school is in lockdown because of a threat nearby. What should you do first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Drive to the school right away and wait outside the front doors."
+      },
+      {
+        "id": "b",
+        "text": "Call the school office over and over until someone answers."
+      },
+      {
+        "id": "c",
+        "text": "Follow official school and police updates, contact your family plan, and go to the reunification site only when told."
+      },
+      {
+        "id": "d",
+        "text": "Text your child repeatedly to make sure she answers."
+      }
+    ],
+    "correct": "c",
+    "explanation": "During a lockdown, children are usually safest with trained staff. Crowds of parents and cars can block responders, constant calls tie up staff, and a buzzing phone can draw attention to a hiding child. Wait for official directions, then bring photo ID to the reunification site when told.",
+    "relatedGuide": "children-009",
+    "tags": [
+      "children",
+      "school",
+      "reunification",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-children-006",
+    "category": "children",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Three weeks after a flood damaged your home, your 5-year-old has started wetting the bed again and won't let you leave the room. Your 9-year-old is mostly back to normal. What does CDC guidance suggest?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Punish the bed-wetting so it doesn't become a habit."
+      },
+      {
+        "id": "b",
+        "text": "These are common reactions for her age - comfort her, keep routines, limit news, and talk to her doctor if it lasts beyond 2-4 weeks or gets worse."
+      },
+      {
+        "id": "c",
+        "text": "Let her watch the flood coverage so she understands what happened."
+      },
+      {
+        "id": "d",
+        "text": "Wait at least six months before thinking about professional help."
+      }
+    ],
+    "correct": "b",
+    "explanation": "CDC lists going back to younger behaviors like bed-wetting and fear of separation as common reactions in ages 3 to 6. Comfort, routines, and limiting media help. CDC suggests consulting a pediatrician or mental health professional if problems last more than 2 to 4 weeks or get worse - she is near that mark, so a check-in is reasonable. Punishment and replaying news coverage make distress worse.",
+    "relatedGuide": "children-007",
+    "tags": [
+      "children",
+      "coping",
+      "mental health",
+      "intermediate"
+    ]
+  }
+]

@@ -4,105 +4,435 @@
     "category": "vehicle",
     "type": "multiple_choice",
     "difficulty": "intermediate",
-    "scenario": "Your vehicle has a flat tire. Your hydraulic jack failed. You have a hi-lift jack, a vehicle owner's manual, and basic tools. No nearby help. Which method is most reliable for changing the tire?",
+    "scenario": "You get a flat on a quiet rural road. Your car's factory jack is missing, you have a spare and lug wrench, and you have one bar of cell signal. What is the safest plan?",
     "options": [
-      { "id": "a", "text": "Find a hill, drive onto rocks on the good side to tilt the vehicle and create clearance" },
-      { "id": "b", "text": "Use the hi-lift jack on the vehicle's frame or bumper receiver point as specified in your owner's manual" },
-      { "id": "c", "text": "Dig out the dirt under the flat tire until the rim clears the ground" },
-      { "id": "d", "text": "Remove the spare and place it under the axle, then deflate all remaining tires to lower the vehicle" }
+      {
+        "id": "a",
+        "text": "Pile flat rocks under the frame next to the flat and lever the car up with a fence post"
+      },
+      {
+        "id": "b",
+        "text": "Call roadside assistance or flag down a driver to borrow a jack; if neither is possible, use the tire sealant/inflator kit for a small tread puncture"
+      },
+      {
+        "id": "c",
+        "text": "Lie under the car to check where the frame is strong enough to rest on a log"
+      },
+      {
+        "id": "d",
+        "text": "Drive on the flat for 20 miles to the nearest town at highway speed"
+      }
     ],
     "correct": "b",
-    "explanation": "A Hi-Lift jack (farm jack) is the correct tool — it can lift a vehicle from frame points, receiver hitches, or bumper mounting points. Consult your owner's manual for the approved jack points — using wrong points can deform the body or cause the vehicle to slip. Hi-Lift jacks are NOT stable — always chock the remaining wheels and never put any body part under the vehicle while supported only by a Hi-Lift. If no Hi-Lift: digging under the flat tire (option c) is the backup method — dig until the rim clears, then work the tire off the rim manually if necessary. Driving up rocks is difficult to control. Deflating all tires creates an additional problem without solving the original.",
+    "explanation": "A borrowed or delivered jack used at the owner's-manual jack point is the safe way to lift the car, and AAA's advice when a tool is missing is to call roadside assistance. A sealant kit and 12-volt inflator can get you moving on a small tread puncture without lifting the car at all. Improvised rock-and-lever lifts are unstable, and you should never put any part of your body under a car that is not properly supported. Driving far on a flat at speed can destroy the wheel and damage brakes and steering - roll only slowly and briefly to a safer spot.",
     "relatedGuide": "vehicle-001",
-    "tags": ["vehicle", "tires", "field-repair", "intermediate"]
+    "tags": [
+      "vehicle",
+      "tires",
+      "field-repair",
+      "intermediate"
+    ]
   },
   {
     "id": "quiz-vehicle-002",
     "category": "vehicle",
     "type": "priority_order",
     "difficulty": "beginner",
-    "scenario": "Your vehicle battery is dead. A good Samaritan has cables. Place the jumper cable connection steps in the correct order to prevent sparking damage to electronics and risk of battery explosion.",
+    "scenario": "Your battery is dead and a friend has jumper cables and a running car. Put the connection steps in the correct order to avoid sparks near the battery.",
     "items": [
-      { "id": "1", "text": "Connect red (positive) clamp to dead battery positive terminal" },
-      { "id": "2", "text": "Connect red (positive) clamp to good battery positive terminal" },
-      { "id": "3", "text": "Connect black (negative) clamp to good battery negative terminal" },
-      { "id": "4", "text": "Connect black (negative) clamp to unpainted metal on the DEAD car's engine block or chassis — NOT the dead battery negative terminal" },
-      { "id": "5", "text": "Start the good vehicle, allow 2 minutes, then start the dead vehicle" }
-    ],
-    "correct_order": ["2", "1", "3", "4", "5"],
-    "explanation": "The correct order prevents sparking near the battery: Red to GOOD positive first (establishes circuit reference), Red to DEAD positive (connection to dead battery), Black to GOOD negative, Black to ENGINE BLOCK on dead car (NOT the dead battery negative). Why engine block? Batteries vent hydrogen gas — a spark near the vent causes explosion. By grounding to the engine block away from the battery, any connection spark happens away from the gas. Disconnect in REVERSE order: Black from engine block → Black from good → Red from dead → Red from good. Never let the clamps touch each other while connected to a live battery.",
-    "relatedGuide": "vehicle-001",
-    "tags": ["vehicle", "battery", "jump-start", "beginner"]
-  },  {
-    "id": "quiz-vehicle-dt-001",
-    "category": "vehicle",
-    "type": "decision_tree",
-    "difficulty": "advanced",
-    "title": "Temperature Light — 60 Miles Out",
-    "nodes": {
-      "start": {
-        "id": "start",
-        "scenario": "You're bugging out on a highway, 60 miles from your destination. Temperature gauge spikes to red and the warning light activates. Steam is visible from the hood edges. Traffic is minimal. What is your first action?",
-        "options": [
-          { "text": "Pull off immediately, turn off the engine, do not open the hood yet", "next": "pull_off_correct" },
-          { "text": "Turn on the heater to full blast and limp to the next exit 8 miles ahead", "next": "limp_ahead" }
-        ]
+      {
+        "id": "1",
+        "text": "Connect red (positive) clamp to the dead battery's positive terminal"
       },
-      "pull_off_correct": {
-        "id": "pull_off_correct",
-        "scenario": "Correct. Engine off. Wait 15-20 minutes before approaching the hood. When you open the hood, the radiator cap is pressurized and hot. Do you:",
-        "options": [
-          { "text": "Open the radiator cap slowly using a thick cloth, facing away from it", "next": "cap_slow" },
-          { "text": "Open the overflow reservoir cap — check level there rather than the pressurized radiator", "next": "overflow_check" }
-        ]
+      {
+        "id": "2",
+        "text": "Connect the other red clamp to the good battery's positive terminal"
       },
-      "overflow_check": {
-        "id": "overflow_check",
-        "scenario": "Smart and safer. The overflow reservoir (usually translucent plastic) shows coolant level without pressurized burn risk. It's empty. You have 2 gallons of water in the vehicle. What do you add?",
-        "options": [
-          { "text": "Add water to the overflow reservoir only — never add cold water to a hot engine", "next": "add_overflow" },
-          { "text": "Wait until the engine is fully cool (45+ min), then add water to the radiator directly", "next": "wait_cool" }
-        ]
+      {
+        "id": "3",
+        "text": "Connect a black (negative) clamp to the good battery's negative terminal"
       },
-      "wait_cool": {
-        "id": "wait_cool",
-        "outcome": "success",
-        "explanation": "Waiting for the engine to fully cool before adding water is the safest method. Adding cold water to a hot engine can crack the engine block from thermal shock. The recurring overheat indicates a coolant leak or thermostat failure — not just low coolant. You got 20 more miles out of the vehicle. At the next overheat, evaluate whether continuing is worth engine destruction. Carry coolant/water and repeat the coolant-add process, or stop and foot-exfil."
+      {
+        "id": "4",
+        "text": "Connect the last black clamp to bare, unpainted metal on the dead car's engine or frame - not the dead battery"
       },
-      "add_overflow": {
-        "id": "add_overflow",
-        "outcome": "success",
-        "explanation": "Adding to the overflow reservoir feeds the radiator as it cools and pressure drops — it is the safer method. The recurring overheat indicates a leak. You may be able to limp to your destination with repeated coolant-add stops. Key rule: when you see the temp gauge rise, pull over BEFORE it redlines to prevent head gasket damage. A blown head gasket ends your vehicle's utility entirely."
-      },
-      "cap_slow": {
-        "id": "cap_slow",
-        "outcome": "success",
-        "explanation": "Opening the radiator cap slowly with a thick cloth while facing away reduces burn risk if residual pressure releases. This method works but carries more risk than checking the overflow reservoir first. Once open, confirm coolant level is low, then add water slowly with the engine cool. Never open a hot radiator cap quickly — pressurized steam causes severe burns."
-      },
-      "limp_ahead": {
-        "id": "limp_ahead",
-        "outcome": "poor",
-        "explanation": "Running the heater IS a legitimate short-term overheating mitigation (it pulls heat from the coolant). However, if the temperature is already at maximum, this is not enough. Driving a severely overheating engine causes head gasket failure and potential engine seizure — both permanently disable the vehicle. Pull off and stop when the temperature gauge is in the red. The 8-mile limp cost you the vehicle. Your gear is now roadside 60 miles from your destination."
+      {
+        "id": "5",
+        "text": "Start the good car, let it run 3-5 minutes, then start the dead car"
       }
-    },
-    "relatedGuide": "vehicle-001",
-    "tags": ["vehicle", "engine", "overheating", "advanced"]
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "AAA's order is red to the dead battery's positive, red to the good battery's positive, black to the good battery's negative, and the final black clamp to bare metal on the dead car away from the battery. That last connection often sparks, and batteries can vent hydrogen, so the spark should happen away from the battery. Let the good car run 3 to 5 minutes before trying to start the dead one. Disconnect in exact reverse order, keep the clamps from touching, and drive 20 to 30 minutes afterward to recharge.",
+    "relatedGuide": "vehicle-002",
+    "tags": [
+      "vehicle",
+      "battery",
+      "jump-start",
+      "beginner"
+    ]
   },
   {
     "id": "quiz-vehicle-004",
     "category": "vehicle",
     "type": "multiple_choice",
     "difficulty": "beginner",
-    "scenario": "You want to store 20 gallons of gasoline for emergency generator use. What is the single most important safety practice?",
+    "scenario": "You want to keep some gasoline at home for your car and generator during storm season. Which practice is safest?",
     "options": [
-      { "id": "a", "text": "Store all 20 gallons in a single 20-gallon steel drum in your garage for quick access" },
-      { "id": "b", "text": "Use approved fuel containers, add fuel stabilizer (e.g., Sta-Bil), store in a detached structure with ventilation away from ignition sources" },
-      { "id": "c", "text": "Gasoline has a 5-year shelf life — add date labels and rotate annually" },
-      { "id": "d", "text": "Store in plastic milk jugs — they're airtight and safe for short-term storage" }
+      {
+        "id": "a",
+        "text": "Store it in a single steel drum in the attached garage next to the water heater for quick access"
+      },
+      {
+        "id": "b",
+        "text": "Use approved, labeled fuel cans, add stabilizer per the label, date them, and store them outside the living space away from flames and sparks"
+      },
+      {
+        "id": "c",
+        "text": "Gasoline lasts about five years, so fill cans once and forget them"
+      },
+      {
+        "id": "d",
+        "text": "Use clean plastic milk jugs with tight caps - they are airtight"
+      }
     ],
     "correct": "b",
-    "explanation": "Approved red fuel containers (ANSI/ASTM-approved) have pressure-relief valves and proper sealing. Fuel stabilizer (Sta-Bil, PRI-G) extends gasoline shelf life from 30 days (untreated) to 12-24 months. Store AWAY from living spaces — gasoline vapors are heavier than air and pool at ground level, traveling to ignition sources (water heater pilot lights, electrical panels). A detached garage or outdoor shed with ventilation is ideal. Untreated gasoline degrades in 30-60 days and will varnish carburetors. Steel drums increase the risk of static discharge fires during transfer. Plastic milk jugs are NOT approved containers — they are not rated for fuel permeation or pressure.",
-    "relatedGuide": "vehicle-001",
-    "tags": ["vehicle", "fuel-storage", "generator", "beginner"]
+    "explanation": "Approved fuel cans are built to hold gasoline and its vapors. Stabilizer used at the label dose slows aging, and dating cans lets you rotate fuel into your car before it goes stale. Gasoline vapor is heavier than air and can travel along the floor to a pilot light, so a water heater in the same garage is a real ignition risk. Untreated gasoline goes stale far sooner than five years, especially ethanol blends. Milk jugs are not made for fuel and can soften, leak, and build up vapor.",
+    "relatedGuide": "vehicle-004",
+    "tags": [
+      "vehicle",
+      "fuel-storage",
+      "generator",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-vehicle-005",
+    "category": "vehicle",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "A blizzard has stranded you on a closed highway. Snow is drifting around the car and it is getting cold inside. What should you do before running the engine for heat?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Close every window tight so no cold air gets in, then run the engine all night"
+      },
+      {
+        "id": "b",
+        "text": "Clear snow from the tailpipe, then run the engine about 10 minutes each hour with a window slightly open"
+      },
+      {
+        "id": "c",
+        "text": "Walk to find help - the last exit was only a few miles back"
+      },
+      {
+        "id": "d",
+        "text": "Run the engine with the fan set to recirculate, which keeps CO out"
+      }
+    ],
+    "correct": "b",
+    "explanation": "The National Weather Service advises staying with the car, keeping the exhaust pipe clear, and running the engine about 10 minutes each hour with a window cracked for fresh air. A blocked tailpipe can push deadly carbon monoxide into the cabin, and recirculate mode does not protect you from it. Running the engine all night sealed up is how people die of CO while sleeping. Walking off into a blizzard can leave you lost and freezing far from shelter; the car is easier for rescuers to find.",
+    "relatedGuide": "vehicle-006",
+    "tags": [
+      "vehicle",
+      "winter",
+      "carbon-monoxide",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-vehicle-006",
+    "category": "vehicle",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "Your car slides off a bridge into a river and is floating. Your two children are buckled in the back. Put the escape actions in the correct order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Unbuckle your own seatbelt"
+      },
+      {
+        "id": "2",
+        "text": "Open the power window or break a tempered side window"
+      },
+      {
+        "id": "3",
+        "text": "Unbuckle the children, oldest first, and push them out the window"
+      },
+      {
+        "id": "4",
+        "text": "Climb out the window yourself and get onto the roof or to shore"
+      },
+      {
+        "id": "5",
+        "text": "Call 911"
+      }
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Seatbelts, Windows, Children, Out - then call. You have roughly a minute while the car floats, and the doors will not open against the water pressure. Unbuckle yourself first so you can help others, open or break a side window (not the windshield, which is laminated), send children out oldest first so they can hold onto the car while you help the younger one, then follow. AAA advises escaping before calling 911 when a vehicle is in water.",
+    "relatedGuide": "vehicle-007",
+    "tags": [
+      "vehicle",
+      "water",
+      "sinking-car",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-vehicle-007",
+    "category": "vehicle",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You are driving a lifted 4x4 pickup at night in heavy rain. Water covers the road ahead and looks only a few inches deep. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Drive through slowly - a high-clearance 4x4 can handle it"
+      },
+      {
+        "id": "b",
+        "text": "Follow the taillights of the car ahead, which just made it across"
+      },
+      {
+        "id": "c",
+        "text": "Turn around and find another route"
+      },
+      {
+        "id": "d",
+        "text": "Speed up so momentum carries you through before the engine stalls"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Turn Around, Don't Drown. NWS says about 12 inches of moving water can carry away a small car and 18 to 24 inches can sweep away most vehicles, including large SUVs and pickups. You cannot judge depth or tell whether the road under the water has washed out, especially at night. Height and 4x4 do not stop a truck from floating. More than half of U.S. flood deaths happen in vehicles.",
+    "relatedGuide": "vehicle-008",
+    "tags": [
+      "vehicle",
+      "flood",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-vehicle-008",
+    "category": "vehicle",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "A dust storm suddenly drops visibility on an Arizona interstate. You have slowed and pulled completely off the pavement. What do you do next?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leave the hazard lights flashing so other drivers can see you"
+      },
+      {
+        "id": "b",
+        "text": "Turn off all lights, set the parking brake, take your foot off the brake, and stay buckled until it passes"
+      },
+      {
+        "id": "c",
+        "text": "Get out and walk away from the car in case it is hit"
+      },
+      {
+        "id": "d",
+        "text": "Keep creeping forward on the shoulder with headlights on"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Arizona DOT's Pull Aside, Stay Alive guidance says to get fully off the road, turn off all lights including hazards, set the parking brake, release the foot brake, and stay inside with the seat belt on. Drivers behind you may follow lights they see, thinking you are still moving on the road, and rear-end you. Walking outside in a dust storm is dangerous, and creeping along the shoulder invites a crash.",
+    "relatedGuide": "vehicle-014",
+    "tags": [
+      "vehicle",
+      "dust-storm",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-vehicle-009",
+    "category": "vehicle",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Your EV sat in saltwater flooding up to the doors after a hurricane. The water has gone down and the car seems to power on. What is the right move?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Charge it overnight in the garage to dry out the battery"
+      },
+      {
+        "id": "b",
+        "text": "Use its V2L outlet to run your refrigerator since the grid is down"
+      },
+      {
+        "id": "c",
+        "text": "Do not drive, charge, or use it; keep it outside at least 50 feet from buildings and vehicles until a qualified technician inspects it"
+      },
+      {
+        "id": "d",
+        "text": "Drive it slowly to the dealer since it seems fine"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Saltwater conducts electricity and corrodes battery seals, and flooded lithium-ion packs can catch fire even after the water recedes. NHTSA advises keeping a submerged lithium-ion vehicle at least 50 feet from structures and other vehicles, and owners are told not to drive or charge it until it is inspected. Charging in a garage puts a fire risk next to your home, and using V2L draws power through a possibly damaged pack. Call 911 for smoke, popping, or hissing.",
+    "relatedGuide": "vehicle-012",
+    "tags": [
+      "vehicle",
+      "ev",
+      "flood",
+      "advanced"
+    ]
+  },
+  {
+    "id": "quiz-vehicle-010",
+    "category": "vehicle",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your car dies on a busy interstate. You coast onto the right shoulder with traffic passing at 70 mph. There is no fire or smoke. What is generally safest while you wait for help?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stand behind the car so drivers can see you waving"
+      },
+      {
+        "id": "b",
+        "text": "Stay in the car with your seat belt on and hazards flashing, and call for help with your mile marker"
+      },
+      {
+        "id": "c",
+        "text": "Start walking to the next exit along the edge of the lanes"
+      },
+      {
+        "id": "d",
+        "text": "Pop the trunk and work on the engine from the traffic side"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Agencies such as Michigan State Police advise staying in the car, buckled, with hazards on while you wait - a belted occupant is much better protected if the stopped car is struck. Get out (on the side away from traffic, then well off the road) only if the car is in a travel lane, smoking, or at high risk. Never stand behind the car or between it and traffic, and walking along a freeway is very dangerous.",
+    "relatedGuide": "vehicle-013",
+    "tags": [
+      "vehicle",
+      "breakdown",
+      "highway",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-vehicle-011",
+    "category": "vehicle",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your car is stuck in snow and the front wheels just spin. A friend offers to stand right behind the front tire and push while you floor it. What is the best approach?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Floor it while your friend pushes from behind the tire"
+      },
+      {
+        "id": "b",
+        "text": "Clear the tailpipe and dig out the tires, put litter or mats in front of the drive wheels, then use low gear and gentle rocking with the pusher at the car body, not behind a wheel"
+      },
+      {
+        "id": "c",
+        "text": "Turn the steering wheel all the way left and right while spinning the tires"
+      },
+      {
+        "id": "d",
+        "text": "Hook a chain to the bumper and have another car yank it out"
+      }
+    ],
+    "correct": "b",
+    "explanation": "AAA's advice is to avoid flooring it, clear the exhaust pipe and the snow around the tires, add traction such as cat litter or floor mats, turn off traction control, and gently rock in low gear with wheels straight. Spinning tires can throw ice and rocks hard, so no one should stand behind or beside them. Turned wheels plow into snow. Bumpers are not recovery points - broken hardware can fly back and kill.",
+    "relatedGuide": "vehicle-011",
+    "tags": [
+      "vehicle",
+      "stuck",
+      "snow",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-vehicle-dt-001",
+    "category": "vehicle",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Temperature Light - 60 Miles Out",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "You're evacuating on a highway, 60 miles from your destination. The temperature gauge spikes to red and the warning light comes on. Steam is coming from the hood edges. Traffic is light. What is your first action?",
+        "options": [
+          {
+            "text": "Pull off immediately, turn off the engine, do not open the hood yet",
+            "next": "pull_off_correct"
+          },
+          {
+            "text": "Turn on the heater to full blast and limp to the next exit 8 miles ahead",
+            "next": "limp_ahead"
+          }
+        ]
+      },
+      "pull_off_correct": {
+        "id": "pull_off_correct",
+        "scenario": "Correct. AAA advises shutting the engine off as soon as you are safely stopped. Wait at least 30 minutes before touching the cooling system - the radiator is pressurized and the coolant can be above boiling. When it has cooled, do you:",
+        "options": [
+          {
+            "text": "Open the radiator cap slowly using a thick cloth, facing away from it",
+            "next": "cap_slow"
+          },
+          {
+            "text": "Open the overflow reservoir cap - check level there rather than the pressurized radiator",
+            "next": "overflow_check"
+          }
+        ]
+      },
+      "overflow_check": {
+        "id": "overflow_check",
+        "scenario": "Smart and safer. The overflow reservoir (usually translucent plastic) shows coolant level without pressurized burn risk. It's empty. You have 2 gallons of water in the vehicle. What do you add?",
+        "options": [
+          {
+            "text": "Add water to the overflow reservoir only - never add cold water to a hot engine",
+            "next": "add_overflow"
+          },
+          {
+            "text": "Wait until the engine is fully cool (45+ min), then add water to the radiator directly",
+            "next": "wait_cool"
+          }
+        ]
+      },
+      "wait_cool": {
+        "id": "wait_cool",
+        "outcome": "success",
+        "explanation": "Waiting until the engine is fully cool before adding water to the radiator is the safest method; pouring cold liquid into a hot engine risks burns and can stress hot metal. Water is an emergency stopgap only - it lacks freeze and corrosion protection. Repeated overheating means a leak, thermostat, fan, belt, or pump problem, so AAA's safest default is a tow. If you must keep moving to reach safety, drive slowly with the A/C off and heater on, watch the gauge, and stop before it reaches red again."
+      },
+      "add_overflow": {
+        "id": "add_overflow",
+        "outcome": "success",
+        "explanation": "Adding to the overflow reservoir avoids opening the pressurized radiator cap and lets coolant be drawn in as the system cools. Recurring overheating points to a leak or failed part, so a tow is safest. If you must limp to safety, stop and let it cool every time the gauge starts to rise - before it redlines - to avoid a blown head gasket, which can end the vehicle's usefulness."
+      },
+      "cap_slow": {
+        "id": "cap_slow",
+        "outcome": "success",
+        "explanation": "Opening the radiator cap slowly with a thick cloth, turning to the first stop and letting any pressure hiss out, reduces burn risk - but only on a cooled engine. Checking the see-through overflow tank first is safer. Never open a hot radiator cap; escaping steam and coolant cause severe burns."
+      },
+      "limp_ahead": {
+        "id": "limp_ahead",
+        "outcome": "poor",
+        "explanation": "Running the heater on full is a legitimate short-term trick that pulls heat out of the coolant, but once the gauge is already pinned and steam is showing, it is not enough. Driving a severely overheating engine can warp the head or blow the head gasket, permanently disabling the vehicle. Pull off and shut down when the gauge hits red. The 8-mile limp cost you the vehicle, and you are now stranded on the roadside 60 miles from your destination."
+      }
+    },
+    "relatedGuide": "vehicle-003",
+    "tags": [
+      "vehicle",
+      "engine",
+      "overheating",
+      "advanced"
+    ]
   }
 ]

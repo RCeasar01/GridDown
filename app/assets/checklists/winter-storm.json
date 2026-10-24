@@ -1,0 +1,130 @@
+{
+  "id": "checklist-winter-storm",
+  "title": "Winter Storm",
+  "disasterType": "winter-storm",
+  "description": "Use this list before winter and when a Winter Storm Watch is issued, so you can stay warm and safe through snow, ice, and power loss.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Winter Weather Safety",
+      "publisher": "NWS Atlanta/Peachtree City",
+      "url": "https://www.weather.gov/ffc/winterweathersafety",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Winter Storms Aren't Over: CPSC Warns of Deadly Carbon Monoxide Risks and Fires During Power Outages",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "url": "https://cpsc.gov/Newsroom/News-Releases/2026/Winter-Storms-Arent-Over-CPSC-Warns-of-Deadly-Carbon-Monoxide-Risks-and-Fires-During-Power-Outages",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "ws-001",
+      "text": "Install battery or battery-backup carbon monoxide alarms on every level and outside sleeping areas, and test them",
+      "critical": true
+    },
+    {
+      "id": "ws-002",
+      "text": "Never use a generator, grill, camp stove, or charcoal indoors, in a garage, or on a porch; never heat with a gas oven",
+      "critical": true
+    },
+    {
+      "id": "ws-003",
+      "text": "Keep snow cleared from furnace, dryer, and water heater vents",
+      "critical": true
+    },
+    {
+      "id": "ws-004",
+      "text": "Extra blankets, sleeping bags, hats, and warm layers for everyone",
+      "critical": true
+    },
+    {
+      "id": "ws-005",
+      "text": "Several days of water, no-cook food, and medicines",
+      "critical": true
+    },
+    {
+      "id": "ws-006",
+      "text": "Flashlights and batteries (not candles) and a battery or hand-crank radio",
+      "critical": true
+    },
+    {
+      "id": "ws-007",
+      "text": "Plan one warm room: interior, few windows, doors closed, towels under doors",
+      "critical": true
+    },
+    {
+      "id": "ws-008",
+      "text": "Know where the nearest warming center is and go before night if the home gets too cold",
+      "critical": true
+    },
+    {
+      "id": "ws-009",
+      "text": "Space heaters: at least 3 feet (1 m) from anything that can burn, plugged straight into the wall, never left on unattended",
+      "critical": true
+    },
+    {
+      "id": "ws-010",
+      "text": "Know the alerts: Watch means a storm is possible; Warning means heavy snow or ice is expected - stay off roads",
+      "critical": false
+    },
+    {
+      "id": "ws-011",
+      "text": "Insulate exposed pipes and know where the main water shutoff is",
+      "critical": false
+    },
+    {
+      "id": "ws-012",
+      "text": "Learn signs of frostbite (numb, white or waxy skin) and hypothermia (shivering, confusion, slurred speech) - call 911 for confusion",
+      "critical": true
+    },
+    {
+      "id": "ws-013",
+      "text": "If you heat with wood, stock dry firewood and have the chimney checked",
+      "critical": false
+    },
+    {
+      "id": "ws-014",
+      "text": "Charge phones and power banks before the storm",
+      "critical": false
+    },
+    {
+      "id": "ws-015",
+      "text": "Ice melt or sand and a snow shovel; push snow instead of lifting and take breaks to protect your heart",
+      "critical": false
+    },
+    {
+      "id": "ws-016",
+      "text": "Keep the car's gas tank full and a winter car kit inside",
+      "critical": false
+    },
+    {
+      "id": "ws-017",
+      "text": "Stay out from under ice-loaded trees and treat every downed line as live",
+      "critical": true
+    },
+    {
+      "id": "ws-018",
+      "text": "Check on older neighbors and people living alone",
+      "critical": false
+    },
+    {
+      "id": "ws-019",
+      "text": "If pipes freeze, warm them with a hair dryer or warm towels - never an open flame",
+      "critical": false
+    },
+    {
+      "id": "ws-020",
+      "text": "Boots with good tread for walking on ice",
+      "critical": false
+    }
+  ]
+}

@@ -4,123 +4,497 @@
     "category": "water",
     "type": "multiple_choice",
     "difficulty": "beginner",
-    "scenario": "You approach a clear, still pond in a forest clearing. The water is transparent, no obvious smell. You have no filter or purification tablets. What is the most accurate statement about drinking this water?",
+    "scenario": "You come to a clear, still pond in a forest clearing. The water is transparent and has no obvious smell. You have no filter or tablets yet. Which statement about drinking this water is most accurate?",
     "options": [
-      { "id": "a", "text": "Clear water is safe — clarity indicates no biological contamination" },
-      { "id": "b", "text": "The water may contain Giardia, Cryptosporidium, or chemical runoff — appearance cannot confirm safety" },
-      { "id": "c", "text": "Still water is always more dangerous than moving water" },
-      { "id": "d", "text": "Water is safe if animals have drunk from it recently" }
+      {
+        "id": "a",
+        "text": "Clear water is safe - clarity means no germs"
+      },
+      {
+        "id": "b",
+        "text": "It may carry Giardia, Cryptosporidium, bacteria, viruses, or chemical runoff - looks cannot confirm safety"
+      },
+      {
+        "id": "c",
+        "text": "Still water is always more dangerous than any moving water"
+      },
+      {
+        "id": "d",
+        "text": "It is safe if animals have been drinking from it"
+      }
     ],
     "correct": "b",
-    "explanation": "Clarity has nothing to do with microbiological safety. Giardia cysts and Cryptosporidium oocysts are invisible to the naked eye and survive in crystal-clear mountain streams. Chemical runoff from agriculture or mining is also colorless. The 'animals drink it, so it's safe' logic fails because animals carry and pass many of these pathogens. ALWAYS purify before drinking regardless of appearance.",
+    "explanation": "Clarity says nothing about germs. Giardia cysts, Cryptosporidium, bacteria, and viruses are invisible and live in crystal-clear streams. Farm or road runoff can also be colorless. Animals carry and spread many of these germs, so their drinking proves nothing. Flowing water is generally a better choice than stagnant water, but both must be treated. Boil it, or filter and disinfect it, before drinking.",
     "relatedGuide": "water-001",
-    "tags": ["water", "beginner"]
+    "tags": [
+      "water",
+      "beginner"
+    ]
   },
   {
     "id": "quiz-water-002",
     "category": "water",
     "type": "multiple_choice",
     "difficulty": "beginner",
-    "scenario": "After 2 days post-disaster with limited water access, your partner is showing symptoms. Which combination of signs indicates SEVERE dehydration requiring immediate oral rehydration treatment?",
+    "scenario": "Two days after a disaster with very little water, your partner seems unwell. Which group of signs points to SEVERE dehydration that needs urgent action and medical help?",
     "options": [
-      { "id": "a", "text": "Feeling thirsty and slightly tired" },
-      { "id": "b", "text": "Sunken eyes, dry mouth, rapid weak pulse, and confusion or irritability" },
-      { "id": "c", "text": "Mild headache and infrequent urination" },
-      { "id": "d", "text": "Dark yellow urine and occasional dizziness when standing" }
+      {
+        "id": "a",
+        "text": "Feeling thirsty and a little tired"
+      },
+      {
+        "id": "b",
+        "text": "Sunken eyes, very dry mouth, fast weak pulse, little or no urine, and confusion"
+      },
+      {
+        "id": "c",
+        "text": "A mild headache and urinating less often than usual"
+      },
+      {
+        "id": "d",
+        "text": "Dark yellow urine and brief dizziness when standing up"
+      }
     ],
     "correct": "b",
-    "explanation": "Thirst indicates mild dehydration (~1-2% body weight loss). Dark urine/dizziness = moderate (3-5%). Sunken eyes + rapid weak pulse + confusion = severe (6-8%+). At this stage, the person cannot regulate blood pressure adequately. Start ORS immediately: WHO formula is 6 level teaspoons of sugar + 0.5 teaspoon of salt dissolved in 1 liter of clean water. Give 200-400mL every 30 minutes. If unconscious or vomiting, cannot use oral route — position on side to prevent aspiration.",
-    "relatedGuide": "water-001",
-    "tags": ["water", "beginner", "dehydration"]
+    "explanation": "Thirst, mild headache, dark urine, and brief dizziness are early to moderate signs - drink more and rest in shade. Sunken eyes, a fast weak pulse, little or no urine, and confusion mean the body can no longer keep up, which is an emergency. Get medical help. If the person is awake and can swallow, give small, frequent sips of oral rehydration solution made from a packet and safe water (follow the package). The WHO home recipe if no packet is available is 6 level teaspoons of sugar and 1/2 level teaspoon of salt in 1 liter of safe water. Do not give fluids by mouth to someone who is not fully awake; place them on their side and get help.",
+    "relatedGuide": "water-015",
+    "tags": [
+      "water",
+      "beginner",
+      "dehydration"
+    ]
   },
   {
     "id": "quiz-water-003",
     "category": "water",
     "type": "priority_order",
     "difficulty": "intermediate",
-    "scenario": "You've found a murky, sediment-heavy pond. You have: a cloth bandana, a water bottle, and iodine tablets. No fire. Place these 5 steps in the correct order to produce the safest drinking water.",
+    "scenario": "You've found a murky pond. You have a cloth bandana, a water bottle, and iodine tablets. No fire. You are not pregnant and have no thyroid problems. Put these 5 steps in the correct order to get the safest drinking water.",
     "items": [
-      { "id": "1", "text": "Add iodine tablet and replace cap loosely — wait 30 min (or 60 min if cold/turbid)" },
-      { "id": "2", "text": "Collect water from 6 inches below surface, away from the bank" },
-      { "id": "3", "text": "Strain water through doubled-over cloth into bottle to remove sediment" },
-      { "id": "4", "text": "Shake bottle and loosen cap briefly to disinfect threads and cap" },
-      { "id": "5", "text": "After wait time, drink — do not mix with food for 4 hours (iodine affects nutrient absorption)" }
+      {
+        "id": "1",
+        "text": "Add the iodine tablet dose the label gives for that volume and close the cap"
+      },
+      {
+        "id": "2",
+        "text": "Collect water below the surface, away from the muddy bank"
+      },
+      {
+        "id": "3",
+        "text": "Let it settle, then strain it through folded cloth into the bottle"
+      },
+      {
+        "id": "4",
+        "text": "After a few minutes, loosen the cap and tip the bottle so treated water rinses the threads"
+      },
+      {
+        "id": "5",
+        "text": "Wait the full label time (about 30 minutes, longer if the water is cold), then drink"
+      }
     ],
-    "correct_order": ["2", "3", "1", "4", "5"],
-    "explanation": "Collect away from bank (less stir-up, less surface contamination). Strain first — sediment physically blocks chemical penetration of microbes and is the top cause of tablet failure. Add tablet AFTER straining — clear water allows iodine to contact pathogens directly. Loosen cap to treat the threads — a common contamination point. Wait the full time. Cold or turbid water requires double the contact time. Iodine is effective against bacteria, viruses, and Giardia, but NOT Cryptosporidium — use filter or boiling if crypto risk is high.",
-    "relatedGuide": "water-001",
-    "tags": ["water", "intermediate", "purification"]
+    "correct_order": [
+      "2",
+      "3",
+      "1",
+      "4",
+      "5"
+    ],
+    "explanation": "Collect away from the bank to avoid stirred-up mud. Settle and strain before adding chemicals, because dirt uses up and shields germs from iodine. Then add the dose, and after a few minutes loosen the cap so treated water reaches the threads you will drink from. Wait the full contact time; cold water needs longer. Remember the limits: CDC says iodine kills bacteria and viruses but not Cryptosporidium, so boil, use a 1-micron filter, or use chlorine dioxide with a long wait when that parasite is likely. Iodine is not for pregnant people, people with thyroid problems or iodine allergy, or for use beyond a few weeks.",
+    "relatedGuide": "water-007",
+    "tags": [
+      "water",
+      "intermediate",
+      "purification"
+    ]
   },
   {
     "id": "quiz-water-004",
     "category": "water",
     "type": "decision_tree",
     "difficulty": "advanced",
-    "title": "Desert Water — No Canteen",
+    "title": "Desert Water - No Canteen",
     "nodes": {
       "start": {
         "id": "start",
-        "scenario": "You are in high desert terrain. 8 hours since your last water. Mild headache, urine is dark amber. 200m north you see green vegetation growing on a hillside. 400m east you see the dry bed of a seasonal wash (arroyo). You have a folding shovel. Which do you investigate first?",
+        "scenario": "You are in high desert terrain. It has been 8 hours since your last drink. You have a mild headache and dark amber urine. It is early morning. 200 m north you see scattered green shrubs on a rocky hillside. 400 m east you see a dry seasonal wash (arroyo) with a line of cottonwood trees along it. You have a folding shovel. Which do you check first?",
         "options": [
-          { "text": "Investigate the arroyo for sub-surface water", "next": "arroyo_choice" },
-          { "text": "Head to the vegetation on the hillside", "next": "veg_choice" }
+          {
+            "text": "Walk to the arroyo with the cottonwoods",
+            "next": "arroyo_choice"
+          },
+          {
+            "text": "Head to the green shrubs on the hillside",
+            "next": "veg_choice"
+          }
         ]
       },
       "arroyo_choice": {
         "id": "arroyo_choice",
-        "scenario": "Good instinct. Dry washes often have water a foot or two below the surface — especially at the outside of bends where water pools during flash floods. In the arroyo, where do you dig?",
+        "scenario": "Good choice. Cottonwoods need water near the surface, and dry washes often hold water a foot or more down. You reach the wash before the heat builds. Where do you dig?",
         "options": [
-          { "text": "Dig at the outside curve of the arroyo bend, where the flow was strongest", "next": "dig_outside" },
-          { "text": "Dig in the flat center of the dry channel where it's widest", "next": "dig_center" }
+          {
+            "text": "At the low point on the outside of a bend, near the cottonwoods",
+            "next": "dig_outside"
+          },
+          {
+            "text": "In the middle of the widest, flattest part of the channel",
+            "next": "dig_center"
+          }
         ]
       },
       "dig_outside": {
         "id": "dig_outside",
         "outcome": "success",
-        "explanation": "The outside bend is where centrifugal force deposited water during flow — the water table is shallowest there. This is the correct technique. Strain and purify before drinking. Even desert sub-surface water can carry coliform bacteria from animal use upstream."
+        "explanation": "The outside of a bend is where flowing water scoured deepest, so it is often the lowest point and the last place water lingers below the sand. Near water-loving trees, your odds are even better. Dig 1 to 3 feet, wait for seepage, and scoop the clearest water. Then treat it - desert water is shared with cattle and wildlife. Do the digging in the cool morning to save sweat."
       },
       "dig_center": {
         "id": "dig_center",
         "outcome": "poor",
-        "explanation": "The center of a wash has the hardest-packed substrate and is often underlain by caliche — a dense calcified layer that blocks water. Always dig at the outer bend of a curve. You wasted your best energy window of the day after 45 minutes of digging with no result."
+        "explanation": "Wide, flat stretches of a wash spread water thin and drain fast, so they are usually drier. Look for the lowest spot - often the outside of a bend, below boulders, or near green plants like cottonwoods and willows. If you hit dry sand at 2 feet, stop and move rather than burning sweat in the heat."
       },
       "veg_choice": {
         "id": "veg_choice",
-        "scenario": "You reach the vegetation — sparse desert willow and some barrel cactus. The green is from shrubs adapted to rocky soil, not necessarily from groundwater. Do you:",
+        "scenario": "You reach the hillside. The plants are drought-hardy shrubs and a barrel cactus in rocky soil - no willows, no cattails, no wet rock. What now?",
         "options": [
-          { "text": "Dig at the base of the largest plant where roots concentrate", "next": "dig_roots" },
-          { "text": "Cut open a barrel cactus and drink the juice", "next": "cactus_juice" }
+          {
+            "text": "Dig at the base of the largest shrub",
+            "next": "dig_roots"
+          },
+          {
+            "text": "Cut open the barrel cactus and drink the pulp juice",
+            "next": "cactus_juice"
+          }
         ]
       },
       "dig_roots": {
         "id": "dig_roots",
         "outcome": "poor",
-        "explanation": "Desert riparian vegetation doesn't always indicate a water table — many desert shrubs use capillary moisture from clay or deep taproots that go 30+ feet. You find dry clay at 2 feet. The arroyo was your better bet. Look for cottonwoods or seep willow — those typically do indicate permanent water."
+        "explanation": "Many desert shrubs stay green by sending roots very deep, so green alone does not mean shallow water. You find dry soil at 2 feet and lose sweat for nothing. Lines of cottonwoods, willows, or cattails, or wet streaks on rock, are far better signs. The arroyo was the better bet."
       },
       "cactus_juice": {
         "id": "cactus_juice",
         "outcome": "poor",
-        "explanation": "Barrel cactus liquid is NOT drinkable. It is high in oxalic acid and magnesium sulfate — it causes nausea, vomiting, and diarrhea, worsening dehydration faster than not drinking at all. This is one of the most dangerous survival myths. Saguaro and prickly pear fruit pulp (not juice) can be eaten in small quantities, but neither provides enough liquid to matter. The arroyo was the correct primary target."
+        "explanation": "Barrel cactus pulp is not a safe water source. It often causes nausea, vomiting, and diarrhea, which make dehydration worse, and cutting into a cactus costs effort and risks injury. This is a common and dangerous myth. Rest in shade, save sweat, and head for the arroyo with the cottonwoods in the cool hours."
       }
     },
-    "relatedGuide": "water-002",
-    "tags": ["water", "advanced", "desert", "decision-tree"]
+    "relatedGuide": "water-012",
+    "tags": [
+      "water",
+      "advanced",
+      "desert",
+      "decision-tree"
+    ]
   },
   {
     "id": "quiz-water-005",
     "category": "water",
     "type": "multiple_choice",
     "difficulty": "intermediate",
-    "scenario": "You are in a desert with no water source. You have a clear 6-mil plastic sheet (8x8 feet), a shovel, and a collection container. You construct a standard ground solar still with green vegetation added. What is the realistic daily output in IDEAL conditions?",
+    "scenario": "You are stranded in the desert with no water source. You have a clear plastic sheet, a shovel, and a cup. You build a ground solar still and pack it with green plants. What is a realistic daily output in GOOD conditions?",
     "options": [
-      { "id": "a", "text": "4-6 liters per day — enough to replace daily fluid loss" },
-      { "id": "b", "text": "0.5-1 liter per day — useful supplement but not a primary water source" },
-      { "id": "c", "text": "2-3 liters per 12 daylight hours if vegetation is added" },
-      { "id": "d", "text": "Output varies but always exceeds 1 liter — solar stills are reliable in full sun" }
+      {
+        "id": "a",
+        "text": "4-6 liters per day - enough to replace your daily losses"
+      },
+      {
+        "id": "b",
+        "text": "Well under 1 liter per day - roughly 0.3 to 0.6 liters - a small supplement at best"
+      },
+      {
+        "id": "c",
+        "text": "2-3 liters per day if you add plenty of vegetation"
+      },
+      {
+        "id": "d",
+        "text": "Always more than 1 liter in full sun - solar stills are reliable"
+      }
     ],
     "correct": "b",
-    "explanation": "A well-constructed solar still with abundant green vegetation in high sun produces 0.5-1L per day in IDEAL conditions. Most produce less. This is a critical survival fact — the solar still is a supplemental technique, NOT a primary water strategy. The energy expended digging and the water lost sweating while constructing often approach the yield. Best use: as a backup while you pursue better water sources (arroyo digging, transpiration bags, dew collection). Transpiration bags on living vegetation typically out-produce solar stills with far less effort.",
-    "relatedGuide": "water-002",
-    "tags": ["water", "intermediate", "solar-still", "desert"]
+    "explanation": "A 2025 review of improvised water methods found ground solar stills yield only about 0.3 to 0.6 liters a day even in good sun, while digging one can burn hundreds of calories and a lot of sweat. That is why a still is a last resort, not a plan. Transpiration bags on sunny, leafy branches gave similar or better output (about 0.3 to 1 liter a day) for almost no effort, and rain catchment or treating any surface water beat both by far. Rest in shade, save sweat, and keep looking for real water or rescue.",
+    "relatedGuide": "water-004",
+    "tags": [
+      "water",
+      "intermediate",
+      "solar-still",
+      "desert"
+    ]
+  },
+  {
+    "id": "quiz-water-006",
+    "category": "water",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your town's water is out. You have a gallon of clear but untreated creek water and a new bottle of plain, unscented bleach labeled 8.25% sodium hypochlorite. Using EPA's current table, how much bleach do you add to that 1 gallon?",
+    "options": [
+      {
+        "id": "a",
+        "text": "16 drops, then drink right away"
+      },
+      {
+        "id": "b",
+        "text": "6 drops, stir, and wait 30 minutes"
+      },
+      {
+        "id": "c",
+        "text": "1 teaspoon, stir, and wait 5 minutes"
+      },
+      {
+        "id": "d",
+        "text": "8 drops of any bleach, including scented or color-safe"
+      }
+    ],
+    "correct": "b",
+    "explanation": "EPA's table calls for 6 drops of 8.25% bleach per gallon (8 drops if your bleach is 6%). Stir, let it stand at least 30 minutes, and check for a slight chlorine smell; if none, repeat the dose and wait 15 more minutes. Sixteen drops is the doubled dose for cloudy or very cold water, not clear water, and you must still wait. A teaspoon is far too much. Scented, color-safe, and 'with cleaner' bleaches must never be used for drinking water.",
+    "relatedGuide": "water-006",
+    "tags": [
+      "water",
+      "beginner",
+      "bleach"
+    ]
+  },
+  {
+    "id": "quiz-water-007",
+    "category": "water",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "After a flood, a local stream runs below a cattle pasture. Your pregnant sister needs water. You have iodine tablets, chlorine dioxide tablets, and a filter rated 0.2 micron, but no fuel. What is the best plan?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Iodine tablets only, 30 minutes - iodine kills everything"
+      },
+      {
+        "id": "b",
+        "text": "Filter through the 0.2-micron filter, then add chlorine dioxide and wait the full label time"
+      },
+      {
+        "id": "c",
+        "text": "Filter only - 0.2 micron stops viruses"
+      },
+      {
+        "id": "d",
+        "text": "Chlorine dioxide only, drink after 5 minutes"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Cattle and floods raise the risk of Cryptosporidium and sewage viruses. The filter removes parasites and bacteria but, per CDC, portable filters do not remove viruses. Adding chlorine dioxide afterward covers viruses and any remaining germs; wait the full label time. Iodine is a poor choice here - CDC says pregnant people should avoid iodine-treated water, and iodine does not kill Cryptosporidium. Chlorine dioxide alone can work but may need up to 4 hours for Cryptosporidium, never 5 minutes.",
+    "relatedGuide": "water-008",
+    "tags": [
+      "water",
+      "intermediate",
+      "filter",
+      "chemical"
+    ]
+  },
+  {
+    "id": "quiz-water-008",
+    "category": "water",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Floodwater has receded from your street. The pond behind a flooded gas station has a rainbow sheen and smells of fuel. A neighbor says boiling it for 10 minutes will make it safe. What is true?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Boiling 10 minutes makes any water safe"
+      },
+      {
+        "id": "b",
+        "text": "Double-dose bleach will neutralize the fuel"
+      },
+      {
+        "id": "c",
+        "text": "No home treatment makes fuel-contaminated water safe - use bottled, stored, or protected household water instead"
+      },
+      {
+        "id": "d",
+        "text": "A UV pen breaks down the fuel"
+      }
+    ],
+    "correct": "c",
+    "explanation": "CDC and EPA both say boiling and disinfecting do not make water with fuel, toxic chemicals, or radioactive material safe - boiling can even concentrate some chemicals. Bleach and UV kill germs only. Use bottled or stored water, sealed drinks, or water from your water heater and pipes if you closed the main valve in time, and contact the health department about the contamination.",
+    "relatedGuide": "water-014",
+    "tags": [
+      "water",
+      "intermediate",
+      "flood",
+      "chemicals"
+    ]
+  },
+  {
+    "id": "quiz-water-009",
+    "category": "water",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "A water main break was just announced and the tap may soon be contaminated. Put these steps for using the water inside your house in the right order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Close the home's main water valve"
+      },
+      {
+        "id": "2",
+        "text": "Turn off power or gas to the water heater and let it cool"
+      },
+      {
+        "id": "3",
+        "text": "Open the highest faucet, then collect water from the lowest faucet"
+      },
+      {
+        "id": "4",
+        "text": "Close the heater's cold inlet, open a hot faucet, and drain the heater from the bottom valve"
+      },
+      {
+        "id": "5",
+        "text": "Refill the water heater completely before turning power or gas back on"
+      }
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Close the main valve first so contaminated water cannot enter your pipes and heater. Shut off the heater's energy so it is not damaged and let the water cool to avoid scalds. Drain the pipes by letting air in at the top and collecting at the bottom, then drain the heater with a hot faucet open to let air in. Never restore power or gas to an empty tank - refill it first. Use toilet tank and pool water for flushing only, and never drink radiator or waterbed water.",
+    "relatedGuide": "water-011",
+    "tags": [
+      "water",
+      "beginner",
+      "home"
+    ]
+  },
+  {
+    "id": "quiz-water-010",
+    "category": "water",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Your private well was under floodwater for a day. The pump wiring has been checked and the water now runs clear. You shock-chlorinated the well using CDC's table. When can your family safely drink it again?",
+    "options": [
+      {
+        "id": "a",
+        "text": "As soon as the chlorine smell is gone"
+      },
+      {
+        "id": "b",
+        "text": "Right after adding the bleach - chlorine kills everything instantly"
+      },
+      {
+        "id": "c",
+        "text": "After a lab test taken 7-10 days after disinfection shows no total coliform or E. coli; boil or use other water until then"
+      },
+      {
+        "id": "d",
+        "text": "After 24 hours, no testing needed if the water looks clear"
+      }
+    ],
+    "correct": "c",
+    "explanation": "CDC and EPA both say to keep boiling or using other water until a certified lab test, taken 7 to 10 days after disinfection with all chlorine flushed out, shows no total coliform and no E. coli. Losing the chlorine smell only means the flush is done. Clear water can still carry bacteria. If the test is positive, disinfect again and retest; CDC also advises retesting in 2 to 4 weeks and again in 3 to 4 months.",
+    "relatedGuide": "water-016",
+    "tags": [
+      "water",
+      "advanced",
+      "well",
+      "flood"
+    ]
+  },
+  {
+    "id": "quiz-water-011",
+    "category": "water",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "On a winter trip you left your hollow-fiber water filter in the car overnight at 10 F (-12 C). It had been used the day before. In the morning it looks fine and water flows through it. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep using it normally - if water flows, it is undamaged"
+      },
+      {
+        "id": "b",
+        "text": "Backflush it with stream water to test it"
+      },
+      {
+        "id": "c",
+        "text": "Assume it may be cracked: replace it, or disinfect its output with chemicals or boiling until you can"
+      },
+      {
+        "id": "d",
+        "text": "Warm it by the fire and it will reseal itself"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Water trapped in a wet filter can freeze and crack the fibers with no visible sign. One major filter maker says there is no reliable way to tell if a used filter was damaged by freezing, so replace any filter you think froze. Until you can, treat its output with chlorine dioxide or bleach, or boil it. Never backflush with untreated water. In cold weather, keep filters in an inner pocket by day and in your sleeping bag at night.",
+    "relatedGuide": "water-008",
+    "tags": [
+      "water",
+      "intermediate",
+      "filter",
+      "winter"
+    ]
+  },
+  {
+    "id": "quiz-water-012",
+    "category": "water",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You want to store a 2-week emergency water supply for your family of four in your own containers. Which plan follows current CDC guidance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "28 gallons in rinsed-out bleach jugs, replaced every 2 years"
+      },
+      {
+        "id": "b",
+        "text": "56 gallons in sanitized food-grade containers, labeled and dated, stored cool and dark, replaced every 6 months"
+      },
+      {
+        "id": "c",
+        "text": "14 gallons in glass jugs in the garage next to the gasoline"
+      },
+      {
+        "id": "d",
+        "text": "56 gallons in old pesticide sprayer tanks, cleaned with soap"
+      }
+    ],
+    "correct": "b",
+    "explanation": "CDC says store at least 1 gallon per person per day: 4 people x 14 days = 56 gallons. Use food-grade containers, sanitize them (1 teaspoon unscented bleach in 1 quart water, shake, wait 30 seconds, pour out, air-dry), label them with the date, store at about 50-70 F away from sunlight and chemicals, and replace self-stored water every 6 months. Never reuse containers that held bleach, pesticides, or fuel, and avoid glass, which breaks.",
+    "relatedGuide": "water-010",
+    "tags": [
+      "water",
+      "beginner",
+      "storage"
+    ]
+  },
+  {
+    "id": "quiz-water-013",
+    "category": "water",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your power and stove fuel are gone, but it is sunny. You have clear well water of unknown safety and a stack of empty bottles. Which SODIS setup follows CDC guidance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Green glass bottles standing upright in the shade for 2 hours"
+      },
+      {
+        "id": "b",
+        "text": "Clear plastic bottles of 2 liters or less, filled with clear water, laid on their sides in full sun for 6 hours (2 days if cloudy)"
+      },
+      {
+        "id": "c",
+        "text": "A 5-gallon bucket of muddy water left in the sun for one afternoon"
+      },
+      {
+        "id": "d",
+        "text": "Clear plastic bottles in sun for 30 minutes - UV works instantly"
+      }
+    ],
+    "correct": "b",
+    "explanation": "CDC says to fill clean, clear plastic bottles with clear water and lay them on their sides in direct sun for 6 hours, or 2 days in a row if it is cloudy; a dark surface underneath may help. SODIS guidance favors PET bottles of 1-2 liters with a thin water layer. Glass and colored bottles block much of the UV, deep buckets shade the water, and cloudy water shields germs from light. SODIS does not remove chemicals.",
+    "relatedGuide": "water-009",
+    "tags": [
+      "water",
+      "intermediate",
+      "sodis"
+    ]
   }
 ]

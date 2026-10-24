@@ -1,0 +1,154 @@
+{
+  "id": "checklist-home-72-hour",
+  "title": "Home 72-Hour Kit",
+  "disasterType": "home-72-hour",
+  "description": "Use this list to build the basic Ready.gov emergency kit that keeps your household going for the first 3 days without services.",
+  "category": "home",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Be Prepared for a Power Outage",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/sites/default/files/2024-03/ready.gov_power-outage_hazard-info-sheet.pdf",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "hk-001",
+      "text": "Water: at least 3 gallons (11 L) per person (1 gallon per person per day), more for hot weather, nursing mothers, sick people, and pets",
+      "critical": true
+    },
+    {
+      "id": "hk-002",
+      "text": "3 days of non-perishable food your family will eat that needs little or no cooking",
+      "critical": true
+    },
+    {
+      "id": "hk-003",
+      "text": "Manual can opener",
+      "critical": true
+    },
+    {
+      "id": "hk-004",
+      "text": "Prescription medicines and a written list of medicines, doses, and allergies for each person",
+      "critical": true
+    },
+    {
+      "id": "hk-005",
+      "text": "First aid kit",
+      "critical": true
+    },
+    {
+      "id": "hk-006",
+      "text": "Flashlights with extra batteries (one per person) - not candles",
+      "critical": true
+    },
+    {
+      "id": "hk-007",
+      "text": "Battery or hand-crank radio and a NOAA Weather Radio with alerts",
+      "critical": true
+    },
+    {
+      "id": "hk-008",
+      "text": "Phone chargers and a charged backup battery",
+      "critical": true
+    },
+    {
+      "id": "hk-009",
+      "text": "Battery-powered carbon monoxide alarm if you will use any fuel-burning device",
+      "critical": true
+    },
+    {
+      "id": "hk-010",
+      "text": "Whistle to signal for help",
+      "critical": false
+    },
+    {
+      "id": "hk-011",
+      "text": "Dust masks, plastic sheeting, scissors, and duct tape for sheltering in place",
+      "critical": false
+    },
+    {
+      "id": "hk-012",
+      "text": "Wet wipes, garbage bags, and plastic ties for sanitation",
+      "critical": false
+    },
+    {
+      "id": "hk-013",
+      "text": "Wrench or pliers to turn off utilities",
+      "critical": false
+    },
+    {
+      "id": "hk-014",
+      "text": "Local paper maps",
+      "critical": false
+    },
+    {
+      "id": "hk-015",
+      "text": "Glasses, contact lens supplies, hearing aid batteries, and other personal medical items",
+      "critical": true
+    },
+    {
+      "id": "hk-016",
+      "text": "Infant formula, bottles, diapers, and wipes if you have a baby",
+      "critical": true
+    },
+    {
+      "id": "hk-017",
+      "text": "Pet food, water, and supplies",
+      "critical": false
+    },
+    {
+      "id": "hk-018",
+      "text": "Over-the-counter pain, fever, and stomach medicines (follow the label)",
+      "critical": false
+    },
+    {
+      "id": "hk-019",
+      "text": "Soap, hand sanitizer, and feminine and personal hygiene items",
+      "critical": false
+    },
+    {
+      "id": "hk-020",
+      "text": "Warm blanket or sleeping bag and a change of weather-appropriate clothes and sturdy shoes for each person",
+      "critical": false
+    },
+    {
+      "id": "hk-021",
+      "text": "Fire extinguisher",
+      "critical": false
+    },
+    {
+      "id": "hk-022",
+      "text": "Matches in a waterproof container",
+      "critical": false
+    },
+    {
+      "id": "hk-023",
+      "text": "Cash in small bills and copies of key documents in a waterproof bag",
+      "critical": false
+    },
+    {
+      "id": "hk-024",
+      "text": "Paper plates, cups, utensils, paper towels, and paper and pencil",
+      "critical": false
+    },
+    {
+      "id": "hk-025",
+      "text": "Books, games, or puzzles for children",
+      "critical": false
+    },
+    {
+      "id": "hk-026",
+      "text": "Pack it in 1-2 easy-to-carry bins or duffels in a cool, dry place everyone can reach, and check it once a year",
+      "critical": false
+    }
+  ]
+}

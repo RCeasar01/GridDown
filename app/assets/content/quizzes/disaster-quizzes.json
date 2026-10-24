@@ -1,5 +1,548 @@
 [
   {
+    "id": "quiz-disaster-002",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "You hear a nuclear detonation occurred 15 miles from your location. You are indoors in a concrete building. The wind is blowing TOWARD you from the direction of the detonation. FEMA guidance says: what is the correct action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Evacuate immediately — 15 miles is within the severe fallout zone and you must leave now"
+      },
+      {
+        "id": "b",
+        "text": "Shelter-in-place immediately — go to the center of a middle floor, seal windows/doors, turn off HVAC, and monitor for official guidance within 24 hours"
+      },
+      {
+        "id": "c",
+        "text": "Evacuate perpendicular to the wind — drive crosswind to avoid the fallout plume"
+      },
+      {
+        "id": "d",
+        "text": "Go to the basement for 3-7 days — underground provides the most shielding"
+      }
+    ],
+    "correct": "b",
+    "explanation": "The FEMA/DHS 'Get Inside, Stay Inside, Stay Tuned' guidance: at 15 miles and winds toward you, fallout arrives in approximately 15-30 minutes. You do NOT have time to safely evacuate — you will be caught in the open during peak fallout. Shelter-in-place in a substantial building (concrete, brick) dramatically reduces radiation exposure. Fallout intensity decreases by the Rule of 7: for every 7x increase in time after detonation, radiation reduces by a factor of 10 (7 hours = 90% reduction, 49 hours = 99% reduction). The center of a middle floor is optimal (most mass between you and the exterior). Basement is better than nothing but may not be available. Stay sealed for minimum 24 hours, preferably 48-72, or until official guidance. Do NOT open the building during peak fallout.",
+    "relatedGuide": "dis-006",
+    "tags": [
+      "disaster",
+      "nuclear",
+      "shelter-in-place",
+      "advanced"
+    ]
+  },
+  {
+    "id": "quiz-disaster-003",
+    "category": "disaster",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "You are indoors in a multi-story office building when a strong earthquake begins. Place these actions in the correct order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Drop to your hands and knees right where you are"
+      },
+      {
+        "id": "2",
+        "text": "Cover your head and neck - crawl under a sturdy desk or table if one is close"
+      },
+      {
+        "id": "3",
+        "text": "Hold on until the shaking stops - do not try to run outside while the building is moving"
+      },
+      {
+        "id": "4",
+        "text": "After the shaking stops, check yourself for injuries, then help others"
+      },
+      {
+        "id": "5",
+        "text": "If the building is damaged, leave by the stairs (never the elevator) and move away from the building"
+      }
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Drop, Cover, and Hold On is the guidance from FEMA Ready.gov, CDC, and the Great ShakeOut. Drop first so the shaking cannot knock you down. Cover your head and neck, under a sturdy table if one is close, because falling and flying objects cause most injuries. Hold on until the shaking ends - people who try to run outside or to another room during shaking are more likely to be hurt. Once it stops, check yourself first, then others. If the building is damaged, get out using the stairs, since elevators may fail, and move away from walls, glass, and power lines. Do not stand in a doorway - in modern buildings it is no stronger than anywhere else. Expect aftershocks and Drop, Cover, Hold On again each time.",
+    "relatedGuide": "dis-003",
+    "tags": [
+      "disaster",
+      "earthquake",
+      "drop-cover-hold",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-disaster-004",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Floodwaters from a nearby river have gone down. Your private water well was underwater during the flood. When is it safe to drink water from the well again?",
+    "options": [
+      {
+        "id": "a",
+        "text": "As soon as the water looks clear - the flood washed the contaminants away as it drained"
+      },
+      {
+        "id": "b",
+        "text": "After the well has been inspected, shock-chlorinated, flushed, and a lab test shows it is free of bacteria"
+      },
+      {
+        "id": "c",
+        "text": "After running the pump for 30 minutes to flush the floodwater out"
+      },
+      {
+        "id": "d",
+        "text": "Never - a flooded well is ruined and a new one must be drilled"
+      }
+    ],
+    "correct": "b",
+    "explanation": "A flooded well can be contaminated with sewage, farm runoff, fuel, and chemicals that you cannot see or smell. Clear water is not proof it is safe, and running the pump alone does not clean the well casing or the ground around it. Health agencies advise having the well and pump checked (they may also be an electrical hazard), disinfecting it with a shock chlorination using your state or local health department's instructions, flushing it until the chlorine is gone, and then testing it at a certified lab for coliform bacteria and E. coli. Until results come back clean, use bottled or stored water, or boil water if germs are the only concern. Most flooded wells can be restored - drilling a new one is rarely needed.",
+    "relatedGuide": "dis-004",
+    "tags": [
+      "disaster",
+      "flood",
+      "water-safety",
+      "well",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-disaster-101",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You are driving home at night in heavy rain. Ahead, water is flowing across the road. It looks only a few inches deep, and a pickup just drove through it. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Drive through slowly and steadily, like the pickup did"
+      },
+      {
+        "id": "b",
+        "text": "Turn around and find another route"
+      },
+      {
+        "id": "c",
+        "text": "Get out and wade in to check the depth before driving through"
+      },
+      {
+        "id": "d",
+        "text": "Drive through fast so the car does not have time to float"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Turn Around, Don't Drown. More than half of U.S. flood deaths happen in vehicles. About 12 inches (30 cm) of water can float a small car, and 18-24 inches (45-60 cm) of moving water can carry off most vehicles, including SUVs and pickups. At night you cannot judge depth or see whether the road beneath has washed away. Another driver making it across tells you nothing about what is under the water now. Wading in is also dangerous - six inches (15 cm) of fast water can knock you down. Speed makes it worse by throwing up water that can stall the engine and cause loss of control.",
+    "relatedGuide": "dis-004",
+    "tags": [
+      "disaster",
+      "flood",
+      "driving",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-disaster-102",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "A Tornado Warning is issued while you are driving on an open highway. You see the tornado in the distance and debris is starting to blow across the road. A highway overpass is just ahead. What is the best choice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stop under the overpass and climb up under the girders for shelter"
+      },
+      {
+        "id": "b",
+        "text": "Stop in the traffic lane and stay in the car"
+      },
+      {
+        "id": "c",
+        "text": "Pull off out of traffic; stay buckled with your head below the windows and covered, or lie in a spot clearly lower than the road and cover your head"
+      },
+      {
+        "id": "d",
+        "text": "Speed up and try to outrun the tornado in whatever direction the road goes"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Ready.gov and the NWS say no option in a car is truly safe, but some are less dangerous. Once debris or strong winds reach you, pull out of traffic. Then either stay buckled, get your head below the windows, and cover it - or, if you can get noticeably lower than the roadway, leave the car and lie flat there with your head covered. Never shelter under an overpass: it gives little protection from flying debris, winds can be stronger there, and stopped cars block traffic and rescuers. Driving away only makes sense earlier, when the tornado is far off and you can move at right angles to its path - not when debris is already blowing across the road.",
+    "relatedGuide": "dis-002",
+    "tags": [
+      "disaster",
+      "tornado",
+      "vehicle",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-disaster-103",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You are at the beach when the ground shakes hard for almost a minute. When it stops, the ocean starts pulling back fast, exposing sand and rocks far out from shore. No siren has sounded and your phone shows no alert. What do you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Walk out onto the exposed sea floor to look for stranded fish and shells"
+      },
+      {
+        "id": "b",
+        "text": "Wait on the beach for an official tsunami warning before deciding"
+      },
+      {
+        "id": "c",
+        "text": "Get in your car and drive along the coast road to warn others"
+      },
+      {
+        "id": "d",
+        "text": "Leave immediately on foot for high ground or inland, following tsunami route signs"
+      }
+    ],
+    "correct": "d",
+    "explanation": "Strong, long shaking near the coast and the sea suddenly pulling back are both natural tsunami warning signs. A tsunami from a nearby quake can arrive in minutes, before any official alert can reach you, so the shaking itself is the warning. Go right away, on foot if you can, to high ground or inland - roughly 100 feet (30 m) up or 1 mile (1.6 km) inland, or out of the hazard zone. The water will return with great force, so never walk onto an exposed sea floor. Driving along the coast keeps you in the danger zone and can jam roads that others need.",
+    "relatedGuide": "dis-012",
+    "tags": [
+      "disaster",
+      "tsunami",
+      "earthquake",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-disaster-104",
+    "category": "disaster",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "A wildfire is spreading toward your neighborhood. Officials have not yet ordered your zone to evacuate, but a nearby zone is under an evacuation warning. Put these actions in the best order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Turn on alerts and local news and confirm your evacuation zone name"
+      },
+      {
+        "id": "2",
+        "text": "Put go-bags, medicines, pets, and N95s in the car, parked facing out with a full tank"
+      },
+      {
+        "id": "3",
+        "text": "Close windows, vents, and doors (leave them unlocked) and move patio cushions and doormats away from the house"
+      },
+      {
+        "id": "4",
+        "text": "Leave as soon as an order comes - or sooner if you feel unsafe - with headlights on and air on recirculate"
+      },
+      {
+        "id": "5",
+        "text": "Return only after officials give the all-clear, and clean ash with a damp method while wearing an N95"
+      }
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "This follows the Ready, Set, Go! approach. Get information first so you know which alerts apply to you. Then load the car so you can leave in minutes. Closing up the house keeps embers out, and leaving doors unlocked helps firefighters; removing burnable items near the walls cuts ember ignitions. Leave early - waiting to see flames puts you on smoky, jammed roads and pulls crews away from the fire to rescue people. Go home only on the all-clear, and do not dry-sweep ash, which throws fine particles into the air.",
+    "relatedGuide": "dis-008",
+    "tags": [
+      "disaster",
+      "wildfire",
+      "evacuation",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-disaster-105",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your soccer team is practicing on an open field. The sky overhead is still mostly blue, but you hear a distant rumble of thunder to the west. The coach wants to finish the last 20 minutes. What is the right call?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep playing until you see lightning or it starts to rain"
+      },
+      {
+        "id": "b",
+        "text": "Stop now, get everyone into a fully enclosed building or hard-topped cars, and wait 30 minutes after the last thunder"
+      },
+      {
+        "id": "c",
+        "text": "Move the team under the open-sided picnic shelter by the field"
+      },
+      {
+        "id": "d",
+        "text": "Have everyone crouch low on the field until the storm passes"
+      }
+    ],
+    "correct": "b",
+    "explanation": "When thunder roars, go indoors. If you can hear thunder, you are within striking distance - lightning can hit 10 miles (16 km) or more from the rain, often under clear sky ahead of the storm. Only a fully enclosed building with wiring and plumbing, or a hard-topped metal vehicle with the windows up, protects you. Picnic shelters, dugouts, and tents do not. Crouching outdoors only slightly lowers risk and is a last resort when no shelter is reachable. Stay sheltered until 30 minutes after the last thunder, and restart the clock each time you hear more.",
+    "relatedGuide": "dis-016",
+    "tags": [
+      "disaster",
+      "lightning",
+      "thunderstorm",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-disaster-106",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "NOAA's Space Weather Prediction Center issues a G4 (severe) geomagnetic storm watch for tomorrow night. A friend says you should unplug every device and wrap your phones and radios in foil because the storm will fry them. What is the most accurate response?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Your friend is right - a G4 storm acts like an EMP and will destroy personal electronics"
+      },
+      {
+        "id": "b",
+        "text": "Nothing at all can happen; solar storms only make pretty auroras"
+      },
+      {
+        "id": "c",
+        "text": "Personal electronics are not at risk, but a severe storm can strain the power grid and degrade GPS and HF radio, so have normal outage supplies and a non-GPS navigation backup ready"
+      },
+      {
+        "id": "d",
+        "text": "Stay indoors because the storm's radiation is dangerous to people on the ground"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Geomagnetic storms push extra currents through very long conductors like power lines, so the main risks are grid voltage problems, possible outages, degraded satellite navigation (GPS), and fading HF radio - plus satellite problems and extra radiation for high-altitude polar flights. They do not fry phones, radios, or cars the way a nuclear EMP might, so foil wrapping is not needed. Earth's atmosphere protects people on the ground from the radiation. A G4 storm is serious for grid and satellite operators, so the sensible household step is the same as for any outage: water, lights, a radio, a way to charge phones, and a paper map.",
+    "relatedGuide": "dis-017",
+    "tags": [
+      "disaster",
+      "space weather",
+      "solar storm",
+      "advanced"
+    ]
+  },
+  {
+    "id": "quiz-disaster-201",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "A severe solar storm watch is issued for tomorrow night. Your neighbor says it will 'fry every phone and car like an EMP' and plans to bury his electronics. What is the most accurate view of what a solar storm threatens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It will destroy all handheld electronics and stop most cars, just like a nuclear EMP"
+      },
+      {
+        "id": "b",
+        "text": "It mainly threatens long power lines, large grid transformers, satellites, GPS, and radio - not small unplugged devices"
+      },
+      {
+        "id": "c",
+        "text": "It is harmless to everything on the ground and needs no preparation"
+      },
+      {
+        "id": "d",
+        "text": "It mainly causes radiation sickness in people outdoors at night"
+      }
+    ],
+    "correct": "b",
+    "explanation": "A solar storm (geomagnetic disturbance) acts like the slow E3 part of a nuclear EMP: it drives currents in long conductors, which can trip or damage the grid and large transformers, and it disrupts satellites, GPS, and radio. It lacks the fast E1 spike that threatens small electronics, so phones and cars are not 'fried.' It is not harmless - the 1989 storm blacked out much of Quebec for about nine hours - so prepare for a possible outage: fill water, charge batteries, and unplug sensitive gear. It does not cause radiation sickness on the ground.",
+    "relatedGuide": "dis-005",
+    "tags": [
+      "disaster",
+      "EMP",
+      "solar storm",
+      "myths",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-disaster-202",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "News reports a nuclear detonation in a city 30 miles away. You have a box of potassium iodide (KI) tablets in your kit. Officials have not said anything about KI yet. What should you do with the KI?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Take a double dose now for extra protection before the fallout arrives"
+      },
+      {
+        "id": "b",
+        "text": "Get inside a sturdy building, and take KI only if public health officials tell you to, following the label"
+      },
+      {
+        "id": "c",
+        "text": "Skip shelter, because KI protects your whole body from radiation"
+      },
+      {
+        "id": "d",
+        "text": "Take iodine antiseptic from the first aid kit since it works the same way"
+      }
+    ],
+    "correct": "b",
+    "explanation": "FDA says KI protects only the thyroid from radioactive iodine and should be taken only when public health or emergency officials say so. More than the directed dose adds no protection and can cause serious harm. It does not protect the rest of the body, so getting inside and staying inside at least 24 hours is still the main protection. Iodine antiseptic and iodized salt are not substitutes and can be dangerous.",
+    "relatedGuide": "dis-006",
+    "tags": [
+      "disaster",
+      "nuclear",
+      "potassium iodide",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-disaster-203",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "A train carrying chlorine derails near your two-story house with a basement. Officials order residents to shelter in place. Which room is the best choice to seal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The basement, because underground rooms give the most protection"
+      },
+      {
+        "id": "b",
+        "text": "The attached garage, since you can keep the car running for heat"
+      },
+      {
+        "id": "c",
+        "text": "A large upstairs bathroom with one small window and a water source"
+      },
+      {
+        "id": "d",
+        "text": "The ground-floor living room with large windows so you can watch the cloud"
+      }
+    ],
+    "correct": "c",
+    "explanation": "CDC advises sealing a room on the highest floor possible with few windows and, ideally, a water source. Many toxic gases, including chlorine, are heavier than air and collect in basements and low spots, so the basement is the wrong choice here - even though it is the best spot for radiation. Running a car in a garage risks carbon monoxide poisoning, and big windows are hard to seal.",
+    "relatedGuide": "dis-021",
+    "tags": [
+      "disaster",
+      "chemical",
+      "hazmat",
+      "shelter in place",
+      "advanced"
+    ]
+  },
+  {
+    "id": "quiz-disaster-204",
+    "category": "disaster",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "The smoke alarm goes off at 2 a.m. and the hallway outside your bedroom smells of smoke. Put these actions in the right order.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Feel the bedroom door with the back of your hand before opening it"
+      },
+      {
+        "id": "b",
+        "text": "Yell 'Fire!' to wake everyone"
+      },
+      {
+        "id": "c",
+        "text": "Call 911 from the outside meeting place"
+      },
+      {
+        "id": "d",
+        "text": "Crawl low under the smoke to the nearest safe exit, closing doors behind you"
+      },
+      {
+        "id": "e",
+        "text": "Go to the meeting place in front of the house and count heads"
+      }
+    ],
+    "correct_order": [
+      "b",
+      "a",
+      "d",
+      "e",
+      "c"
+    ],
+    "explanation": "Alert everyone first, then check the door: if it is hot, use your second way out. Crawl low where the air is cleaner and close doors to slow the fire. Go straight to the meeting place so you can tell who is missing, then call 911 from outside. Never go back in - tell firefighters who is still inside. Calling from inside wastes the seconds you need to escape.",
+    "relatedGuide": "dis-022",
+    "tags": [
+      "disaster",
+      "house fire",
+      "escape plan",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-disaster-205",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your town issued a boil-water notice after a water main break. You live at 2,000 feet. Which plan is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Boil water for 1 minute at a rolling boil for drinking, cooking, ice, brushing teeth, and baby formula"
+      },
+      {
+        "id": "b",
+        "text": "Boil water for 10 seconds; just reaching a boil kills everything"
+      },
+      {
+        "id": "c",
+        "text": "Run tap water through a fridge filter - that makes it safe to drink"
+      },
+      {
+        "id": "d",
+        "text": "Boiling is unnecessary for brushing teeth or making ice, only for drinking"
+      }
+    ],
+    "correct": "a",
+    "explanation": "CDC and EPA say to bring water to a rolling boil for 1 minute (3 minutes at high altitude - CDC uses 6,500 feet, EPA a lower cutoff, so use 3 minutes above about 5,000 feet). At 2,000 feet, 1 minute is enough. Use safe water for anything you or a baby might swallow, including ice and toothbrushing. Most fridge and pitcher filters are not designed to remove germs, and you should replace them after the notice is lifted.",
+    "relatedGuide": "dis-026",
+    "tags": [
+      "disaster",
+      "water",
+      "boil water notice",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-disaster-206",
+    "category": "disaster",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "You return home after a flood. When you open the front door you smell rotten eggs, and the hallway is dark. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Flip on the hall light to find the source of the smell"
+      },
+      {
+        "id": "b",
+        "text": "Light a candle so you can see the gas meter"
+      },
+      {
+        "id": "c",
+        "text": "Shut off the main gas valve if you can do it safely, open windows, leave, and call the gas company from outside"
+      },
+      {
+        "id": "d",
+        "text": "Turn the gas off, wait 10 minutes, then relight the pilot lights yourself"
+      }
+    ],
+    "correct": "c",
+    "explanation": "A rotten-egg smell means a likely gas leak. CDC says to turn off the main gas valve if possible, open windows, leave right away, and report it from outside. Light switches, phones, and flames can spark an explosion. Do not go back in until the gas company or fire department says it is safe, and let the utility or a licensed professional turn gas back on and relight pilots.",
+    "relatedGuide": "dis-028",
+    "tags": [
+      "disaster",
+      "returning home",
+      "gas leak",
+      "advanced"
+    ]
+  },
+  {
     "id": "quiz-disaster-dt-001",
     "category": "disaster",
     "type": "decision_tree",
@@ -10,16 +553,28 @@
         "id": "start",
         "scenario": "Your car stopped in traffic simultaneously with all other vehicles. Traffic lights are off. Your cell phone is completely dead. Store alarms are going off citywide. Based on these indicators, you suspect an EMP event. You are 12 miles from home with your everyday carry bag. What is your first action?",
         "options": [
-          { "text": "Begin the 12-mile walk home immediately — retrieve your family and supplies", "next": "walk_home" },
-          { "text": "Stop, observe the situation for 10-15 minutes, gather information from people around you before committing to an action", "next": "observe_first" }
+          {
+            "text": "Begin the 12-mile walk home immediately — retrieve your family and supplies",
+            "next": "walk_home"
+          },
+          {
+            "text": "Stop, observe the situation for 10-15 minutes, gather information from people around you before committing to an action",
+            "next": "observe_first"
+          }
         ]
       },
       "observe_first": {
         "id": "observe_first",
         "scenario": "After 15 minutes you confirm: no vehicles work, no cell phones work, no radio from anyone nearby. A police officer on foot approaches saying he received no communications before his radio died. This confirms a broad EM event. Do you:",
         "options": [
-          { "text": "Begin walking home — 12 miles is a 4-hour walk, daylight is available", "next": "walk_home" },
-          { "text": "Look for a pre-1985 diesel vehicle that may have survived — older vehicles have no solid-state electronics", "next": "find_old_vehicle" }
+          {
+            "text": "Begin walking home — 12 miles is a 4-hour walk, daylight is available",
+            "next": "walk_home"
+          },
+          {
+            "text": "Look for a pre-1985 diesel vehicle that may have survived — older vehicles have no solid-state electronics",
+            "next": "find_old_vehicle"
+          }
         ]
       },
       "walk_home": {
@@ -33,86 +588,53 @@
         "explanation": "Old diesel vehicles are a legitimate EMP contingency. The challenge: you must find one, the owner must be willing to help you, and fuel availability is uncertain (though mechanical diesel pumps at some stations may still work). This is a viable secondary approach but takes time — weigh the time cost of searching versus the certainty of walking. If you find a working vehicle in 30 minutes, it's worth it. If it takes 2+ hours, you've lost your daylight walking window."
       }
     },
-    "relatedGuide": "disaster-001",
-    "tags": ["disaster", "EMP", "grid-down", "advanced"]
-  },  {
-    "id": "quiz-disaster-002",
-    "category": "disaster",
-    "type": "multiple_choice",
-    "difficulty": "advanced",
-    "scenario": "You hear a nuclear detonation occurred 15 miles from your location. You are indoors in a concrete building. The wind is blowing TOWARD you from the direction of the detonation. FEMA guidance says: what is the correct action?",
-    "options": [
-      { "id": "a", "text": "Evacuate immediately — 15 miles is within the severe fallout zone and you must leave now" },
-      { "id": "b", "text": "Shelter-in-place immediately — go to the center of a middle floor, seal windows/doors, turn off HVAC, and monitor for official guidance within 24 hours" },
-      { "id": "c", "text": "Evacuate perpendicular to the wind — drive crosswind to avoid the fallout plume" },
-      { "id": "d", "text": "Go to the basement for 3-7 days — underground provides the most shielding" }
-    ],
-    "correct": "b",
-    "explanation": "The FEMA/DHS 'Get Inside, Stay Inside, Stay Tuned' guidance: at 15 miles and winds toward you, fallout arrives in approximately 15-30 minutes. You do NOT have time to safely evacuate — you will be caught in the open during peak fallout. Shelter-in-place in a substantial building (concrete, brick) dramatically reduces radiation exposure. Fallout intensity decreases by the Rule of 7: for every 7x increase in time after detonation, radiation reduces by a factor of 10 (7 hours = 90% reduction, 49 hours = 99% reduction). The center of a middle floor is optimal (most mass between you and the exterior). Basement is better than nothing but may not be available. Stay sealed for minimum 24 hours, preferably 48-72, or until official guidance. Do NOT open the building during peak fallout.",
-    "relatedGuide": "disaster-001",
-    "tags": ["disaster", "nuclear", "shelter-in-place", "advanced"]
-  },
-  {
-    "id": "quiz-disaster-003",
-    "category": "disaster",
-    "type": "priority_order",
-    "difficulty": "beginner",
-    "scenario": "You are indoors in a multi-story building when a major earthquake begins. Place these actions in the correct order.",
-    "items": [
-      { "id": "1", "text": "Drop to hands and knees immediately — prevents being knocked down" },
-      { "id": "2", "text": "Cover your head and neck with your arms or under a sturdy desk/table" },
-      { "id": "3", "text": "Hold on until shaking stops — do not move to exit while the building is moving" },
-      { "id": "4", "text": "After shaking stops, check yourself and others for injuries before moving" },
-      { "id": "5", "text": "Evacuate the building using stairs (never elevator) and move to open space away from buildings" }
-    ],
-    "correct_order": ["1", "2", "3", "4", "5"],
-    "explanation": "DROP-COVER-HOLD ON is the FEMA-recommended earthquake protocol based on injury data analysis. DROP immediately — being on hands and knees prevents falls and allows movement. COVER — most earthquake injuries are from falling objects, not building collapse (in modern structures). Get under a desk or cover head/neck if no desk available. HOLD ON — shaking typically lasts 10-30 seconds. Most injuries happen from people trying to move or exit during shaking. After shaking: assess before moving (shock can mask injuries). Exit via stairs — elevators may be compromised. Move to open space away from building facades, power lines, and glass. Do NOT run into doorways — the 'doorframe' myth has been disproven. Interior rooms under structural beams are preferred cover.",
-    "relatedGuide": "disaster-001",
-    "tags": ["disaster", "earthquake", "drop-cover-hold", "beginner"]
-  },  {
-    "id": "quiz-disaster-004",
-    "category": "disaster",
-    "type": "multiple_choice",
-    "difficulty": "intermediate",
-    "scenario": "Floodwaters from a river have receded from your neighborhood. Standing water remains in your yard. Your water well was submerged. When is it safe to use water from the flooded well?",
-    "options": [
-      { "id": "a", "text": "Once the water level returns to normal — the flood removed contaminants as it receded" },
-      { "id": "b", "text": "After the well is professionally disinfected with chlorine bleach shock treatment AND tested for bacterial contamination" },
-      { "id": "c", "text": "After running the pump for 30 minutes to flush flood water out" },
-      { "id": "d", "text": "Floodwater contaminates wells permanently — a new well must be drilled" }
-    ],
-    "correct": "b",
-    "explanation": "Flooded wells are contaminated with sewage, agricultural runoff, fuel, chemicals, and biological pathogens. The correct process per CDC/EPA: (1) Wait until floodwaters fully recede. (2) Pump out all standing water from the well. (3) Shock disinfect with regular household bleach (unscented, 8.25% sodium hypochlorite): use CDC formula for your well depth (typically 1-2 cups per 100 gallons of water in the well). (4) Let sit 12-24 hours. (5) Pump until bleach odor is gone. (6) Test with a certified lab for coliform bacteria, E. coli, and nitrates. Do NOT use until test results confirm safety. Running the pump alone does not reach contamination in the well casing and gravel pack. Wells can be remediated — permanent abandonment is rarely necessary.",
-    "relatedGuide": "disaster-001",
-    "tags": ["disaster", "flood", "water-safety", "intermediate"]
+    "relatedGuide": "dis-005",
+    "tags": [
+      "disaster",
+      "EMP",
+      "grid-down",
+      "advanced"
+    ]
   },
   {
     "id": "quiz-disaster-dt-002",
     "category": "disaster",
     "type": "decision_tree",
     "difficulty": "advanced",
-    "title": "Category 3 — 36 Hours Out",
+    "title": "Category 3 - 36 Hours Out",
     "nodes": {
       "start": {
         "id": "start",
-        "scenario": "A Category 3 hurricane (sustained winds 111-129 mph) is forecast to make landfall 36 hours from now, with your location in the forecast cone. Your home is a 1970s wood-frame house in a zone B evacuation area (storm surge 4-6 feet possible). Mandatory evacuation has not been ordered. Do you evacuate or stay?",
+        "scenario": "A Category 3 hurricane (sustained winds 111-129 mph) is forecast to make landfall in about 36 hours, and your area is under a Hurricane Watch and a Storm Surge Watch. You live in an older wood-frame house in evacuation zone B, where 4-6 feet of surge is possible. No evacuation order has been issued for your zone yet. What do you do?",
         "options": [
-          { "text": "Evacuate now — 36 hours gives you time to beat the evacuation traffic", "next": "evacuate_now" },
-          { "text": "Wait for mandatory evacuation order — leaving prematurely wastes resources and the storm may turn", "next": "wait_mandatory" }
+          {
+            "text": "Leave now for a friend's home inland, outside the surge zone",
+            "next": "evacuate_now"
+          },
+          {
+            "text": "Wait for an official evacuation order - the storm may still turn",
+            "next": "wait_mandatory"
+          }
         ]
       },
       "evacuate_now": {
         "id": "evacuate_now",
         "outcome": "success",
-        "explanation": "Zone B (4-6 foot surge) in a wood-frame home from the 1970s is a high-risk combination. Wood-frame homes from the pre-2000 era have inadequate hurricane strapping and can fail in sustained Cat 3 winds. A 4-6 foot storm surge will destroy most ground-floor contents and is life-threatening. Evacuating 36 hours out beats traffic congestion that typically begins at the 18-24 hour mark. Rule: if you have the time, use it. The cost of an unnecessary evacuation is inconvenience. The cost of a failed shelter-in-place is potentially your life."
+        "explanation": "Leaving early is a sound choice. Storm surge, not wind, causes most hurricane deaths, and a home in a surge zone can flood deeply no matter how well it is built. Going 36 hours ahead lets you beat the traffic and fuel shortages that build as landfall gets closer, and you only need to go far enough inland to get out of the surge and flood zone into a sturdy building - run from the water, hide from the wind. If the storm turns, the cost is a wasted trip. Take your kit, medicines, documents, and pets, and keep following official updates."
       },
       "wait_mandatory": {
         "id": "wait_mandatory",
         "outcome": "poor",
-        "explanation": "Wood-frame pre-code construction + Zone B surge + Cat 3 = very high risk for shelter-in-place. The mandatory evacuation order often comes too late for those with limited resources, pets, elderly family, or who are far from highways. The decision to evacuate should be personal — made at the 36-72 hour mark, not at the 20-hour mark when traffic is gridlocked. In Zone B: if you cannot reach a hardened shelter (Category 5 rated) within your zone, evacuate for anything Cat 2 or higher. The rule of thumb: if you are in a surge zone in any structure built before 2000, evacuate for anything Cat 2 or higher."
+        "explanation": "Waiting can work if an order comes in time and you can leave right away, but it is risky here. Orders often arrive when roads are already jammed and gas is short, and people with medical needs, pets, children, or no car need more lead time. A Storm Surge Watch means life-threatening flooding is possible in your area. Emergency managers urge people in surge zones to have their plan ready and leave as soon as they are told - or sooner if they need extra time. At minimum, fuel the car and pack now so you can go the moment your zone is called."
       }
     },
-    "relatedGuide": "disaster-001",
-    "tags": ["disaster", "hurricane", "evacuation", "advanced"]
+    "relatedGuide": "dis-001",
+    "tags": [
+      "disaster",
+      "hurricane",
+      "evacuation",
+      "storm surge",
+      "advanced"
+    ]
   }
 ]

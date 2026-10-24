@@ -7,168 +7,1597 @@
     "tags": [
       "security",
       "situational awareness",
-      "safety"
+      "safety",
+      "avoidance",
+      "suspicious activity"
     ],
-    "summary": "Develop and maintain the environmental awareness that prevents threats before they materialize.",
+    "summary": "Learn to notice trouble early so you can step away from it long before it reaches you. Use this every day, and especially after a disaster when normal order is strained.",
     "steps": [
       {
         "step": 1,
-        "title": "Cooper's Color Codes",
-        "body": "Condition White: unaware and unprepared — the condition of sleep, distraction, and complacency. Do not operate in White in any environment with risk. Condition Yellow: relaxed alertness — general awareness, no specific threat identified. This is the sustainable baseline for daily operation. Condition Orange: specific alert — something specific has triggered concern. Attention is focused, plan is forming. Condition Red: action — the threat is real and you are responding. Pre-determined responses execute without hesitation."
+        "title": "Look up from your phone",
+        "body": "The single biggest awareness killer is a screen. When you walk through a parking lot, a crowded store, a fuel line, or a shelter, keep the phone in your pocket unless you are standing still with your back to a wall. If you need to read or text, stop, step to the side, and glance up every few seconds. Wear only one earbud, or none, in public places after a disaster. You cannot react to a car backing toward you, a fight starting, or a crowd surging if you never see it begin. Most people who say 'it came out of nowhere' were looking down."
       },
       {
         "step": 2,
-        "title": "Baseline and anomaly detection",
-        "body": "Every environment has a baseline — the normal pattern of behavior, sound, activity, and people for that time and place. Threats appear as anomalies: something that does not fit the baseline. Practice: when you enter any space, establish the baseline in the first 30 seconds. Identify exits. Identify cover positions. Note any persons whose behavior does not fit. This is not paranoia — it is preparation."
+        "title": "Use a simple alertness dial",
+        "body": "Many trainers use a color scale. White means tuned out - fine at home behind locked doors, risky anywhere else. Yellow means relaxed but aware: you notice who is around you and where the exits are. This is your normal setting in public, and you can hold it all day without stress. Orange means something specific caught your attention, so you watch it and decide what you will do if it gets worse. Red means it got worse and you are acting on your plan - leaving, getting to staff, or calling 911. The goal is to spend your time in Yellow so you reach Orange early, while leaving is still easy."
       },
       {
         "step": 3,
-        "title": "Scanning technique",
-        "body": "The eye naturally focuses on movement and contrast. Train peripheral awareness — consciously expand your field of view rather than tunnel-focusing on a central point. Scan in arcs, near to far. In a crowd, look for behavioral indicators: nervous energy, incongruent clothing for the environment, hands (what are they holding), eyes (where is attention directed), posture (weight shifted ready to move). Clusters of people avoid areas for a reason — note where people are not."
+        "title": "Learn the baseline of a place",
+        "body": "Every place has a normal rhythm. At a distribution site, people wait in line, chat, and look tired. At a gas station, people pump fuel and leave. In your first 30 seconds anywhere, take in that normal picture: how many people, how loud it is, where staff stand, where the doors are. Once you know what normal looks like, things that do not fit stand out on their own. You are not looking for bad people; you are looking for changes - a sudden hush, raised voices, people drifting away from one spot, or someone who keeps circling the parking lot instead of doing business."
       },
       {
         "step": 4,
-        "title": "Pre-event indicators",
-        "body": "Before violence, there are almost always pre-event indicators. Target glancing: a person repeatedly looks at the same person or location. Target interviewing: the threat approaches victims to assess vulnerability, asking innocuous questions to determine if you are alert, armed, or compliant. Pre-attack posturing: blading the body (turning sideways), target glance, hand movement toward concealment area, weight shift. Recognizing these indicators allows response before the attack initiates."
+        "title": "Watch behavior, not appearance",
+        "body": "Judge actions, never race, religion, clothing style, or age. DHS lists behaviors worth noticing, such as unusual interest in security, people trying to enter restricted areas or posing as staff, and asking detailed questions that go beyond normal curiosity. In daily life, useful signs include someone watching you or your vehicle rather than the scene, a person who keeps closing distance after you move away, two or more people who seem to coordinate while pretending not to know each other, and anger that keeps rising. One odd behavior means little. A cluster of them, getting stronger, means it is time to act."
+      },
+      {
+        "step": 5,
+        "title": "Know your exits and make a what-if plan",
+        "body": "When you settle anywhere - a restaurant, a shelter cot, a waiting room - note at least two ways out, including ones staff use. Sit where you can see the main entrance if you can. Then quietly ask yourself, 'If something went wrong right now, where would I go?' This takes five seconds and means you will not freeze later. With family, agree on simple words like 'we're leaving' that mean move now and ask questions later. Children can learn this as a game: point out the exits when you walk into a store."
+      },
+      {
+        "step": 6,
+        "title": "Act early and choose distance",
+        "body": "When your gut says something is wrong, trust it and leave early. Walking away from a tense line or crossing the street costs you a few minutes; waiting to be sure can cost much more. Move toward people who can help - staff, security, police, or a busy lighted area. Do not stay to watch a fight or argument, and do not record it up close. If someone follows you, go into an open business, not toward your home or car, and call 911. Leaving is not cowardice. It is the safest choice almost every time."
+      },
+      {
+        "step": 7,
+        "title": "Report what you saw",
+        "body": "If something seems wrong, tell someone with authority: local police, shelter staff, or site security. Call 911 if anyone is in danger right now. Give the basic facts - who you saw, what they did, when, where, and why it seemed off. Stick to what you observed, not guesses. Describe the person by clothing, height, direction of travel, and any vehicle and plate. Reporting is how officials connect small pieces into a bigger picture, and it lets trained people handle the situation instead of you."
       }
     ],
     "warnings": [
-      "Situational awareness is not paranoia. Operating in Yellow is sustainable and not psychologically damaging. Healthy awareness and pathological hypervigilance are different — hypervigilance sees threats everywhere; awareness identifies actual anomalies.",
-      "Cell phone use drops most people to Condition White instantly. In any elevated-risk environment, phone use must be deliberate and brief."
+      "Awareness is not suspicion of whole groups. Profiling by race, religion, or appearance is wrong and leads you to miss real warning signs.",
+      "Never follow, confront, or try to detain someone you think is suspicious. Observe from a safe distance and report.",
+      "Constant fear is exhausting and makes judgment worse. Relaxed alertness (Yellow) is the goal, not nonstop high alert.",
+      "If someone is in immediate danger, call 911 first and observe second."
     ],
     "proTips": [
-      "The 'What if' habit: in any environment, briefly ask 'What would I do if X happened right now?' Establish basic response plans before you need them. This is mental pre-loading, not paranoia.",
-      "Position: whenever possible, sit or stand with your back to a wall, facing the primary entrance. This position provides maximum visual coverage, eliminates the threat approaching from behind, and gives you maximum reaction time."
+      "Practice in normal life: in each store, name the exits and one thing that would look out of place there. It becomes automatic within a few weeks.",
+      "Park facing out and near a light when you can, so leaving is quick and you can see the area around your car.",
+      "Use reflections in windows and glass doors to check behind you without turning around.",
+      "Agree on a family code word that means 'leave now, no questions.'"
     ],
     "relatedGuides": [
-      "sec-002",
-      "sec-003"
+      "fm-004",
+      "sec-009",
+      "sec-010",
+      "sec-014",
+      "sec-007"
     ],
-    "source": "US Army FM 3-21.75 / Civilian preparedness best practices",
-    "lastReviewed": "2025-01",
+    "source": "DHS 'If You See Something, Say Something' / CISA de-escalation guidance",
+    "sources": [
+      {
+        "title": "Recognize the Signs of Suspicious Activity",
+        "publisher": "U.S. Department of Homeland Security",
+        "url": "https://www.dhs.gov/see-something-say-something/recognize-the-signs",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "De-escalation Series",
+        "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+        "url": "https://www.cisa.gov/de-escalation-series",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "De-escalation Action Guide (January 2025)",
+        "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+        "url": "https://www.cisa.gov/sites/default/files/2025-01/De-escalation-Action-Guide_v508_20250127.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "none",
-    "riskLevel": "high",
+    "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not use 'awareness' as a reason to watch, follow, or photograph a person who has done nothing wrong.",
+      "If danger is already happening (shots, fire, a fight moving toward you), skip the analysis and leave - see fm-004 and sec-010."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You are in an environment with elevated threat potential — situational awareness is the primary tool that allows you to avoid, detect, and respond to threats",
-      "immediate": ["Enter Condition Yellow — relaxed alertness — as your baseline in any non-secure environment", "Establish the baseline within 30 seconds of entering any space: exits, cover positions, behavioral anomalies", "Identify pre-event indicators: target glancing, target interviewing, bladed body posture, hand movement to concealment"],
-      "then": ["Position with your back to a wall facing the primary entrance whenever possible", "Apply the 'What if' habit: pre-load responses to likely events before they happen"]
+      "situation": "You are out in public after a disaster - lines, crowds, fuel stops, shelters - and want to spot trouble early enough to avoid it.",
+      "immediate": [
+        "Put the phone away and look around",
+        "Note two exits wherever you stop",
+        "Watch for changes in behavior, not appearance",
+        "If something feels wrong, leave early toward help"
+      ],
+      "then": [
+        "Report what you saw to police or staff - call 911 if anyone is in danger",
+        "Practice exit-spotting daily so it becomes habit"
+      ]
     }
   },
   {
     "id": "sec-002",
     "category": "security",
-    "title": "Perimeter Security Basics",
+    "title": "Home Perimeter Awareness and Early Warning",
     "priority": "advanced",
     "tags": [
       "security",
       "perimeter",
-      "camp security"
+      "early warning",
+      "home",
+      "lighting",
+      "alarms"
     ],
-    "summary": "Establish basic early-warning perimeter systems for a camp or retreat location.",
+    "summary": "Set up simple, legal layers around your home - clear sightlines, lighting, alarms, and neighbors - so you get early warning of anyone approaching and have time to lock up and call for help.",
     "steps": [
       {
         "step": 1,
-        "title": "Layered perimeter concept",
-        "body": "Effective perimeter security uses layers: Outer layer — detection at maximum range. Middle layer — channelization (force movement into areas you control) and delay. Inner layer — defense and immediate response. Threat is detected at the outer layer, slowed at the middle, and confronted at the inner. No single layer is sufficient — layers provide time for response and prevent a direct breach reaching your position."
+        "title": "Think in layers",
+        "body": "Good home security is a set of layers, each one buying a little time. The outer layer is your street and neighbors who notice strangers. The middle layer is your yard: clear sightlines, lighting, and a fence or gate that shows where private property begins. The inner layer is the house itself: solid doors, locks, and window security. The last layer is your plan: a safe room, a phone, and a way out. No single layer stops everything, but together they make your home a poor target and give you warning. The goal is never to fight anyone - it is to notice early, stay inside, and get help."
       },
       {
         "step": 2,
-        "title": "Detection systems — trip wire and sound",
-        "body": "A simple perimeter alert: suspend fishing line or monofilament at ankle height between trees around your perimeter. Attach cans with rocks or pebbles inside to the line. Movement against the line rattles the cans. This is a noise-only early warning system — it tells you something crossed the line, not what or where. It requires a person awake and listening. Space alerts 10–15 meters apart at key approach routes."
+        "title": "Walk your property like a stranger",
+        "body": "In daylight and again after dark, walk slowly around your home from the street. Ask where someone could hide, which doors and windows cannot be seen from the street or a neighbor's house, and which paths lead to the back without being noticed. Police crime-prevention programs call this natural surveillance. Write down every blind spot. Typical problems are tall shrubs under windows, a dark side yard, a gate that does not latch, ladders or tools left outside, and a garage left open. Fixing these costs little and matters more than any gadget."
       },
       {
         "step": 3,
-        "title": "Light discipline",
-        "body": "Light visible from outside your position reveals: that your position is occupied; approximately how many people are present; where sleeping/cooking areas are. In any security situation, maintain light discipline after dark. Use minimal light sources; use blue or red light if possible (less visible at distance); shield light sources from outside view with tarps, natural terrain features, or structure. A fire should be positioned to be visible inside the perimeter but not outside it."
+        "title": "Open up sightlines and add light",
+        "body": "Trim shrubs near the house to about 2 feet (0.6 m) and prune low tree branches up to about 6 feet (1.8 m) so neighbors and passersby can see your doors and windows. Light every entrance, walkway, and parking area. Motion-sensor lights on the sides and back of the house are cheap and work well; solar or battery models keep working when the grid is down. Bright white light is better than dim yellow in dark corners. Keep house numbers large and lighted so police, fire, and EMS can find you fast."
       },
       {
         "step": 4,
-        "title": "Watch rotation",
-        "body": "Continuous manning of a perimeter is required at night and in elevated-threat conditions. Establish a watch rotation that allows minimum 4-hour sleep blocks. Two-person watches are preferable — one person watching, one resting at the post. Wake-up and handoff protocol: the incoming watch must be fully awake before the outgoing watch leaves the post. A single moment of no watch coverage is a vulnerability."
+        "title": "Add simple early-warning devices",
+        "body": "Battery-powered door and window alarms, wireless driveway chimes, and a video doorbell all tell you someone is close before they reach the door. Choose devices that run on batteries or have battery backup, and keep spare batteries. A dog that barks at strangers is one of the best warnings there is. Inside, keep a flashlight and charged phone by the bed. When a device alerts, do not go outside to check. Turn on lights, lock up, look from a window, and call 911 if someone is trying to get in."
+      },
+      {
+        "step": 5,
+        "title": "Never use traps or hazards",
+        "body": "Do not set trip lines across paths, hidden pits, spikes, or anything meant to hurt a person. Booby traps are illegal in the United States even on your own land, and they injure the wrong people: children, neighbors, firefighters, EMS crews, and you. Courts have held owners responsible for injuries from traps. Any early warning you use should make light or sound only and should be placed where nobody will trip on it, such as a chime on a gate or an alarm on a door."
+      },
+      {
+        "step": 6,
+        "title": "Use your neighbors as the outer layer",
+        "body": "The best perimeter is a street where people know each other. Trade phone numbers with neighbors, agree to watch each other's homes, and tell each other when you will be away. After a disaster, neighbors who check on each other notice strangers, spot fires, and help the elderly. A formal neighborhood watch makes this stronger; see sec-012. If you need a night watch during a long outage, keep it at home, in pairs, and built around calling for help, not patrolling."
       }
     ],
     "warnings": [
-      "Any security system that relies on a single point of detection or a single alert method is insufficient. Redundancy in detection is fundamental.",
-      "Dogs are among the most effective early-warning systems available — they detect approach far earlier than human senses and reliably alert. In a grid-down scenario, a trained dog with guarding instinct is a significant security asset."
+      "Never build traps or devices that can injure. They are illegal and often hurt children or emergency responders.",
+      "Do not go outside to investigate an alarm or a noise at night. Lock up, turn on lights, and call 911.",
+      "Never run a generator or grill in a garage or near windows to keep lights on - carbon monoxide kills. Keep generators at least 20 feet from the home.",
+      "Do not block doors or windows you may need to escape a fire."
     ],
     "proTips": [
-      "Natural barriers (thorny vegetation, water obstacles, steep terrain) are the best perimeter elements — they require no maintenance, no watches, and no supplies. Site your position to take advantage of natural defensive terrain.",
-      "Establish rally points — pre-determined positions where members of your group assemble if separated from the camp. Every person in the group must know the primary and alternate rally points and the signal to move to them."
+      "Solar motion lights with a separate panel can be placed in shade and still charge, and they keep working in long outages.",
+      "Keep your yard looking cared for during a crisis. Mowed grass and picked-up trash signal that someone is home and paying attention.",
+      "Gravel paths near windows make footsteps easy to hear.",
+      "Many police departments offer free home security surveys. Ask your local crime-prevention officer."
     ],
     "relatedGuides": [
-      "sec-001",
-      "sec-003"
+      "sec-005",
+      "sec-012",
+      "sec-006",
+      "sec-001"
     ],
-    "source": "US Army FM 3-21.75 / Civilian preparedness best practices",
-    "lastReviewed": "2025-01",
+    "source": "Local police CPTED programs (Liberty MO, Menlo Park CA)",
+    "sources": [
+      {
+        "title": "Crime Prevention Through Environmental Design",
+        "publisher": "City of Liberty, Missouri",
+        "url": "https://libertymissouri.gov/2688",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Crime Prevention Through Environmental Design (CPTED)",
+        "publisher": "Menlo Park Police Department",
+        "url": "https://menlopark.gov/Government/Departments/Police/Crime-safety-and-prevention/Crime-Prevention-Through-Environmental-Design",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Start a Neighborhood Watch",
+        "publisher": "National Neighborhood Watch Institute / National Sheriffs' Association",
+        "url": "https://www.nnwi.org/start-a-neighborhood-watch/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
-    "riskLevel": "high",
-    "prerequisites": [],
+    "riskLevel": "medium",
+    "prerequisites": [
+      "sec-001"
+    ],
+    "whenNotTo": [
+      "Do not rely on perimeter measures when officials order an evacuation - leave.",
+      "Do not use alarms or lights as a reason to confront anyone outside."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You have established a camp or retreat location and need early warning of approach — perimeter security buys you reaction time",
-      "immediate": ["Establish layered perimeter: outer detection, middle channelization, inner defense", "Suspend fishing line at ankle height around key approach routes with cans containing pebbles", "Implement light discipline — extinguish or shield all light visible from outside the perimeter"],
-      "then": ["Establish watch rotation: minimum 4-hour sleep blocks, two-person watches preferred", "Designate primary and alternate rally points known to every group member before dark"]
+      "situation": "You want early warning of anyone approaching your home, especially during a long outage.",
+      "immediate": [
+        "Walk the property and list blind spots",
+        "Trim shrubs to about 2 ft and tree limbs up to about 6 ft",
+        "Add battery or solar motion lights and door alarms"
+      ],
+      "then": [
+        "Trade numbers with neighbors and watch each other's homes",
+        "If an alarm goes off at night, stay inside, lock up, and call 911"
+      ]
     }
   },
   {
     "id": "sec-003",
     "category": "security",
-    "title": "Bug-Out Planning",
+    "title": "Evacuation Planning: When and How to Leave",
     "priority": "critical",
     "tags": [
       "security",
-      "bug out",
       "evacuation",
-      "SHTF"
+      "bug out",
+      "go bag",
+      "routes",
+      "planning"
     ],
-    "summary": "Develop a multi-scenario bug-out plan that enables rapid departure before conditions deteriorate.",
+    "summary": "Build a plan to leave home quickly and safely - where you will go, how you will get there, what you will take, and the signals that tell you it is time. Make it before you need it.",
     "steps": [
       {
         "step": 1,
-        "title": "Bug-in vs bug-out decision",
-        "body": "Bug-in (shelter in place) is almost always preferable to bugging out unless: your location will become dangerous to remain (wildfire, flood, civil unrest reaching your area); resources will run out faster than the crisis will resolve; forced evacuation is ordered. Bugging out is high risk — you become a refugee with limited resources, exposed to weather, road conditions, and other mobile populations. Bug-out only when staying will result in worse outcomes than leaving."
+        "title": "Decide when you would stay and when you would go",
+        "body": "Staying home is usually safer when your home is undamaged and not in the hazard's path, because you have your supplies and shelter. Leave when officials order an evacuation, when the hazard is coming toward you (wildfire, flood, storm surge, chemical release), when your home is no longer safe, or when someone in the household needs care you cannot provide there. Write down your personal triggers ahead of time, such as 'if the fire reaches the ridge' or 'if we lose water and the road might close.' Deciding in advance keeps you from waiting too long, which is the most common mistake."
       },
       {
         "step": 2,
-        "title": "Destination first",
-        "body": "A bug-out plan requires a destination — a specific location where you intend to shelter and resupply. This should be: pre-scouted and known to you personally; accessible by multiple routes; capable of supporting your group's needs; stocked or stockable. A destination that is 'general direction of family' or 'somewhere safer' is not a plan. Establish primary and alternate destinations."
+        "title": "Learn your local alert levels",
+        "body": "Many counties use a three-step system. In Oregon's version, Level 1 'Be Ready' means stay alert and check your go bag. Level 2 'Be Set' means danger is close - leave now if you need extra time because of mobility needs, large animals, or a long drive. Level 3 'Go Now' means leave immediately without gathering belongings. Other areas use Ready-Set-Go or evacuation zones; look up yours and sign up for your county's emergency alerts and Wireless Emergency Alerts on your phone. Only go back home after an official all-clear."
       },
       {
         "step": 3,
-        "title": "Multiple routes",
-        "body": "Map at least three routes to your destination — primary (fastest under normal conditions), alternate A (avoids highways, uses secondary roads), alternate B (foot-capable, usable if vehicles are impossible). For each route: know the chokepoints (bridges, passes, tunnels that could be blocked or dangerous). Know the water sources along the route. Know the distances and realistic travel times on foot."
+        "title": "Pick destinations before you need them",
+        "body": "Choose at least two places to go: one nearby (a friend or relative across town, outside the hazard area) and one farther away (out of the region). Ask these hosts ahead of time and agree on how you will contact them. Know where public shelters typically open in your area, and remember that most shelters cannot take pets, so line up a pet-friendly option. A destination like 'somewhere safer' is not a plan. Write the addresses down on paper in your go bag in case your phone dies."
       },
       {
         "step": 4,
-        "title": "72-hour bag minimum standard",
-        "body": "Your bug-out bag should sustain you for 72 hours minimum without resupply: water (1 liter plus filtration capability), food (3 days of calorie-dense foods — 2,000+ cal/day), shelter (emergency bivy or light tent, sleeping bag appropriate for the season), fire (3 methods), navigation (map and compass for your region), medical (IFAK level, not just bandaids), communications (battery radio), power (charged battery bank, solar panel)."
+        "title": "Map more than one route",
+        "body": "For each destination, plan a main route and at least one backup that uses different roads and bridges. Download offline maps and keep a paper road map, because cell service often fails. Note choke points such as bridges, tunnels, and low roads that flood. Follow routes officials announce - they may close roads or change lanes - and never drive around barricades. Never drive into floodwater; a foot of moving water can float many vehicles. Keep your tank at least half full during the season of your local hazard."
+      },
+      {
+        "step": 5,
+        "title": "Pack a go bag for each person",
+        "body": "A practical go bag holds: water (1 gallon per person per day for at least 3 days), 3 days of non-perishable food, a 7-day supply of medicines and copies of prescriptions, copies of ID, insurance, and deed or lease, a phone charger and backup battery, a first aid kit, a flashlight and spare batteries, cash in small bills, a change of clothes, N95 masks where wildfire smoke is a risk, and pet food, carrier, and records. Add comfort items for children and older adults. Keep bags light enough that each person can carry their own."
+      },
+      {
+        "step": 6,
+        "title": "Leave early and tell someone",
+        "body": "When it is time, confirm the alert came from an official source, grab go bags, load pets, and take medications. Text your out-of-area contact that you are leaving and where you are headed - texts get through when calls do not. Lock up and leave a light on so responders can tell the home is empty if local guidance says to. Take your planned route and do not wait for traffic to clear. Leaving early beats every other tactic: roads are open, fuel is available, and you are not making decisions in panic."
+      },
+      {
+        "step": 7,
+        "title": "Practice once a year",
+        "body": "Run your evacuation once a year as a family drill. Time how long it takes to get everyone, the pets, and the bags into the car. Most families are surprised at how long it takes the first time. Update bag contents with the seasons, swap out food and water before it expires, refresh medicines, and check that children's clothes still fit. Make sure every adult knows the destinations and routes, not just one person."
       }
     ],
     "warnings": [
-      "A bug-out under panic, without a plan, with an over-loaded bag, by people who have not trained is one of the highest-risk scenarios a family can be in. The bag is meaningless without the plan. The plan is meaningless without the training.",
-      "Inform at least one trusted person outside your household of your bug-out destination and expected timeline. If you do not arrive, someone needs to know where to look."
+      "Never drive around road barricades or into floodwater. Turn around and find another route.",
+      "Do not wait until a hazard is visible to leave. By then roads may be jammed or closed.",
+      "Do not return home until officials say the area is safe.",
+      "An overloaded bag you cannot carry is worse than a light one. Pack for what you can actually move."
     ],
     "proTips": [
-      "The biggest bug-out mistake is waiting too long. The window for safe evacuation often closes well before the emergency is obvious. Have a trigger list: specific, observable conditions that activate your bug-out plan. Do not negotiate with your trigger list in the moment.",
-      "A vehicle bug-out vs. foot bug-out have radically different gear requirements. Plan for both, and know at what point vehicle use becomes impossible (road gridlock, fuel unavailability, impassable terrain)."
+      "Keep a printed list taped inside a closet door of last-minute items to grab: meds from the fridge, chargers, glasses, pet carrier.",
+      "Store a small go bag in your vehicle as a backup in case you must leave from work or school.",
+      "Photograph each room before you leave - it helps with insurance claims later.",
+      "Share your plan with your out-of-area contact so someone outside the disaster knows where to look for you."
+    ],
+    "relatedGuides": [
+      "security-004",
+      "sec-013",
+      "sec-014",
+      "sec-015",
+      "tools-002"
+    ],
+    "source": "Linn County (OR) Sheriff evacuation guidance / Ready.gov",
+    "sources": [
+      {
+        "title": "Evacuation Levels Handout",
+        "publisher": "Linn County Sheriff's Office, Oregon",
+        "url": "https://www.linnsheriff.org/wp-content/uploads/Evac-Handout.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Family Emergency Communication Plan",
+        "publisher": "Oklahoma Emergency Management (Ready.gov template), hosted by NJ OEM",
+        "url": "https://www.nj.gov/njoem/plan-prepare/pdf/FEMA_family_communication_plan.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not evacuate into the path of a hazard - for a tornado warning, take shelter where you are instead.",
+      "If officials tell you to shelter in place (for example, a chemical release), stay inside unless told otherwise."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A hazard is threatening your area and you may need to leave home quickly.",
+      "immediate": [
+        "Confirm the alert is official and know your alert level",
+        "Grab go bags, medicines, and pets",
+        "Text your out-of-area contact where you are going",
+        "Leave early by your planned route - never drive into floodwater"
+      ],
+      "then": [
+        "Check in when you arrive",
+        "Return only after the official all-clear"
+      ]
+    }
+  },
+  {
+    "id": "sec-005",
+    "category": "security",
+    "title": "Hardening Your Home: Doors, Windows, Lighting, and Visibility",
+    "priority": "beginner",
+    "tags": [
+      "security",
+      "home",
+      "doors",
+      "windows",
+      "lighting",
+      "CPTED",
+      "burglary prevention"
+    ],
+    "summary": "Make your home a harder, less attractive target with low-cost upgrades to doors, windows, lighting, and landscaping, based on police crime-prevention (CPTED) guidance. Do this before a disaster, when hardware stores are open.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand the three CPTED ideas",
+        "body": "Crime Prevention Through Environmental Design (CPTED) is the approach police departments use for home security reviews. It rests on three ideas. Natural surveillance: make your doors and windows easy for neighbors and passersby to see. Territorial reinforcement: use fences, paths, porches, and upkeep to show clearly where private property begins and that someone cares for it. Access control: guide visitors to the front door and make other ways in harder. Most burglars look for an easy, hidden, unoccupied target. Each upgrade below takes away one of those."
+      },
+      {
+        "step": 2,
+        "title": "Upgrade exterior doors",
+        "body": "Use solid-core wood or metal exterior doors; hollow doors break easily. Install a deadbolt whose bolt extends at least 1 inch (2.5 cm) into the frame. The weak point is usually the frame, not the lock: replace the short screws in the strike plate with 3 to 4 inch (7.5 to 10 cm) wood screws that reach the wall stud, or install a heavy-duty four-screw strike plate. Put at least one long screw in each hinge too. If glass is within reach of the lock, follow your local code on lock type, since double-cylinder locks can slow a fire escape. Add a deadbolt on the door between the garage and the house."
+      },
+      {
+        "step": 3,
+        "title": "Secure windows and sliding doors",
+        "body": "Lock every window, including upper floors reachable from a porch roof or fence. Add pin locks or secondary locks to windows that can be pried. For a sliding glass door, place a cut-to-fit bar or dowel in the bottom track and add an anti-lift device or screws in the upper track so the panel cannot be lifted out. Security film can make glass harder to break through quickly. Keep valuables out of view from windows. Most important: every bedroom must still have a window or door that opens quickly from inside for fire escape. If you install bars, use ones with a quick-release latch inside."
+      },
+      {
+        "step": 4,
+        "title": "Light it up",
+        "body": "Light every doorway, walkway, driveway, and parking spot. Use bright white light for dark corners and side yards, and place lights where trees will not block them. Motion-sensor lights startle people and alert you. During outages, solar motion lights and battery puck lights keep working. Inside, use timers or smart plugs on lamps when you are away so the house looks occupied. Avoid glare that blinds neighbors or creates deep shadows next to bright spots - even, steady light beats one blinding floodlight."
+      },
+      {
+        "step": 5,
+        "title": "Trim landscaping and improve sightlines",
+        "body": "Trim shrubs to about 2 feet (0.6 m) and prune tree branches up to about 6 feet (1.8 m) off the ground, especially near doors and windows. This removes hiding places and lets neighbors see your home. Thorny plants such as roses or barberry under ground-floor windows discourage anyone from standing there. Keep fences low or see-through in front so the entry is visible from the street. Store ladders, tools, and patio furniture that could be used to climb or break in."
+      },
+      {
+        "step": 6,
+        "title": "Show that someone cares for the place",
+        "body": "Well-kept homes signal that people are watching. Mow the lawn, pick up trash, fix broken windows and blinds quickly, and paint over graffiti right away. Keep house numbers large, lighted, and visible from the street so police, fire, and EMS can find you fast. When away, stop mail and deliveries or have a neighbor collect them, and keep the garage door closed. Break down boxes from expensive purchases before putting them out, so you do not advertise new electronics or generators."
+      },
+      {
+        "step": 7,
+        "title": "Get a free review and keep it up",
+        "body": "Many police departments offer free CPTED or home security reviews; call your non-emergency line and ask. Walk your property every season, after storms, and after the time change to check lights, locks, and plant growth. Write a short list of what to fix and do one item each weekend. Teach everyone in the house to lock up every time, including during the day. The best hardware does nothing if a door is left unlocked."
+      }
+    ],
+    "warnings": [
+      "Never block fire escape routes. Every sleeping room needs a way out that opens fast from inside.",
+      "Double-cylinder deadbolts and window bars can trap people in a fire. Follow local code and use quick-release bars.",
+      "Do not install devices meant to injure intruders. They are illegal and dangerous to family and responders.",
+      "If you come home and a door or window is forced, do not go in. Leave and call 911 from a safe place."
+    ],
+    "proTips": [
+      "Swapping strike-plate screws for 3-inch screws costs a few dollars and is one of the best upgrades you can make.",
+      "Solar motion lights are a cheap way to keep lighting during long outages.",
+      "Photograph or record serial numbers for valuables - it helps police and insurance.",
+      "Ask a neighbor to park in your driveway when you are away."
+    ],
+    "relatedGuides": [
+      "sec-002",
+      "sec-006",
+      "sec-012",
+      "sec-001"
+    ],
+    "source": "Seattle PD Crime Prevention / Liberty MO and Menlo Park PD CPTED",
+    "sources": [
+      {
+        "title": "Home Security: Door Security",
+        "publisher": "Seattle Police Department Crime Prevention",
+        "url": "https://www.seattle.gov/documents/Departments/Police/Prevention/Home_Security_Door_Security.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Crime Prevention Through Environmental Design",
+        "publisher": "City of Liberty, Missouri",
+        "url": "https://libertymissouri.gov/2688",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Crime Prevention Through Environmental Design (CPTED)",
+        "publisher": "Menlo Park Police Department",
+        "url": "https://menlopark.gov/Government/Departments/Police/Crime-safety-and-prevention/Crime-Prevention-Through-Environmental-Design",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not board up or bar windows in a way that traps your family during a fire.",
+      "Renters: check your lease and ask the landlord before changing locks or frames."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want to make your home less attractive to burglars and safer during long emergencies.",
+      "immediate": [
+        "Replace strike-plate screws with 3-4 inch screws into the stud",
+        "Bar sliding doors and lock every window",
+        "Light all entrances and trim shrubs to about 2 ft"
+      ],
+      "then": [
+        "Keep bedroom fire exits clear and quick to open",
+        "Ask your police department for a free home security review"
+      ]
+    }
+  },
+  {
+    "id": "sec-006",
+    "category": "security",
+    "title": "OPSEC: Keeping Your Supplies and Plans Private",
+    "priority": "beginner",
+    "tags": [
+      "security",
+      "OPSEC",
+      "privacy",
+      "social media",
+      "supplies",
+      "discretion"
+    ],
+    "summary": "Keep quiet about what you have and where you will be, so your home and family are not singled out when supplies run short. Privacy is not secrecy from everyone - it is choosing who knows what.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Decide what needs to stay private",
+        "body": "Operations security, or OPSEC, means protecting small details that add up to a target. For a family, the sensitive details are: how much food, water, fuel, and cash you have, whether you own a generator, when the house is empty, travel plans, where you will evacuate, and which family members are home alone. None of this is shameful. It just does not need to be public. Make a short list with your household so everyone, including teens, knows what not to share."
+      },
+      {
+        "step": 2,
+        "title": "Lock down social media",
+        "body": "The FBI warns that announcing where you are - and where you are not - helps criminals. Set accounts to the most private settings, limit followers to people you know in person, and turn off automatic location tags. Do not post flight details, hotel names, or evacuation routes. Wait until you are home to share trip photos. Do not post photos of your pantry, gear room, gun safe, generator, or cash, and check the background of pictures for house numbers, mail, or car plates. Scammers also use travel posts to target relatives."
+      },
+      {
+        "step": 3,
+        "title": "Watch what your trash and deliveries say",
+        "body": "A generator box or a stack of bulk-food cases at the curb tells the whole street what you just bought. Break boxes down and put them inside your recycling bin, or wait until pickup day. Bring deliveries inside quickly, and use a pickup location for large orders if you prefer. Keep the garage door closed so shelves of supplies are not on display. Store supplies in plain bins rather than labeled boxes in areas visitors might see."
+      },
+      {
+        "step": 4,
+        "title": "Talk on a need-to-know basis",
+        "body": "Share your full plans only with the people who need them: household members, your out-of-area contact, and the friends or relatives you plan to stay with. Coworkers, casual acquaintances, and strangers in line do not need to know you have a month of food. Teach children a simple line, such as 'We're doing okay, thanks,' and explain that it is a family rule, not a lie. If you are asked directly by someone you do not know well, a friendly, vague answer is fine."
+      },
+      {
+        "step": 5,
+        "title": "Keep a low profile during an outage",
+        "body": "When most of the street is dark and quiet, a brightly lit house with a loud generator stands out. Use curtains or blinds at night, keep lights to the rooms you are using, and run the generator only when needed. Follow generator safety without exception: outdoors only, at least 20 feet (6 m) from doors and windows, never in a garage. Chain it to something solid if theft is a concern. Cook smells and music carry, so keep them modest at night. A low profile is about not drawing attention, not about hiding from help."
+      },
+      {
+        "step": 6,
+        "title": "Share wisely with neighbors",
+        "body": "Complete secrecy can backfire, because neighbors are your best early warning and support. You can build strong ties without listing your inventory. Offer help with skills and time, check on older neighbors, and give modest amounts of food or water when someone is in need. Many families keep a small 'sharing' supply set aside so they can help without revealing everything. Be honest with police, fire, and emergency officials when they ask about needs or hazards such as stored fuel, since that keeps responders safe."
+      }
+    ],
+    "warnings": [
+      "Never lie to police, fire, or emergency officials. Tell them about hazards like stored fuel, propane, or oxygen tanks.",
+      "Never run a generator indoors or in a garage to keep it hidden. Carbon monoxide can kill in minutes.",
+      "Do not let privacy stop you from asking for help when you are hurt or in danger."
+    ],
+    "proTips": [
+      "Post trip photos after you get home - the FBI recommends it.",
+      "Keep a small, separate 'sharing' box of water and snacks so you can help neighbors without opening your main supply.",
+      "Turn off location services for camera apps so photos do not carry GPS data.",
+      "Do a quarterly check of your public social media profile from a logged-out browser to see what strangers see."
+    ],
+    "relatedGuides": [
+      "sec-007",
+      "sec-015",
+      "sec-005",
+      "sec-012"
+    ],
+    "source": "FBI / U.S. Air Force travel safety guidance",
+    "sources": [
+      {
+        "title": "FBI Tech Tuesday: Building a Digital Defense Against the Dangers of Using Social Media While Traveling",
+        "publisher": "Federal Bureau of Investigation, Portland Field Office",
+        "url": "https://www.fbi.gov/contact-us/field-offices/portland/news/press-releases/fbi-tech-tuesday-building-a-digital-defense-against-the-dangers-of-using-social-media-while-traveling",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Holiday a good time to travel, but stay smart",
+        "publisher": "U.S. Air Force, 501st Combat Support Wing",
+        "url": "https://www.501csw.usafe.af.mil/News/Article-Display/Article/437144/holiday-good-time-to-travel-but-stay-smart/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Crime Prevention Through Environmental Design (CPTED)",
+        "publisher": "Menlo Park Police Department",
+        "url": "https://menlopark.gov/Government/Departments/Police/Crime-safety-and-prevention/Crime-Prevention-Through-Environmental-Design",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not keep needs secret from emergency responders or medical staff.",
+      "Do not hide a family member's medical needs from shelter staff - they need to know to help."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Supplies may run short around you and you do not want your home singled out.",
+      "immediate": [
+        "Stop posting supplies, travel, and evacuation plans online",
+        "Break down boxes and keep the garage closed",
+        "Use curtains at night and run generators only outdoors, 20+ ft from the house"
+      ],
+      "then": [
+        "Share plans only with people who need them",
+        "Help neighbors from a small separate 'sharing' supply"
+      ]
+    }
+  },
+  {
+    "id": "sec-007",
+    "category": "security",
+    "title": "The Gray Man: Blending In and Avoiding Attention in a Crisis",
+    "priority": "beginner",
+    "tags": [
+      "security",
+      "gray man",
+      "low profile",
+      "blending in",
+      "travel",
+      "avoidance"
+    ],
+    "summary": "Look, dress, and act like an ordinary, calm person so you are less likely to be picked out as a target when things are tense. The goal is simply to not stand out - never to deceive police or avoid help.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know what the gray man idea really is",
+        "body": "'Gray man' is a nickname for a person nobody remembers: dressed like everyone else, carrying an ordinary bag, calm, and going about normal business. People looking for an easy target tend to notice whoever stands out - the flashy, the lost, the distracted, or the person with obviously valuable gear. Blending in will not make you invisible, but it lowers the odds that you are the one singled out. It works with good awareness (sec-001), not instead of it."
+      },
+      {
+        "step": 2,
+        "title": "Dress like the people around you",
+        "body": "Wear plain, practical clothes in common colors that fit the weather and the place. Skip camouflage, tactical-looking vests, military patches, and gear covered in brand logos for outdoor or survival companies; they suggest you have valuable equipment. Avoid expensive jewelry and watches. Good, broken-in walking shoes matter more than looks. Military travel guidance gives the same advice for service members abroad: blend in with the crowd and stay low key."
+      },
+      {
+        "step": 3,
+        "title": "Carry gear and money out of sight",
+        "body": "Use an ordinary backpack, tote, or grocery bag instead of a large tactical pack. Keep cash in more than one place and carry only what you need for the day; never flash a thick wallet in a line. Keep your ID and important papers on your body, not in a bag you might set down. Keep a phone out only while using it. If you are carrying water or supplies home after a distribution, cover them and go straight home rather than stopping in busy places."
+      },
+      {
+        "step": 4,
+        "title": "Move with calm purpose",
+        "body": "People who look lost, rushed, or frightened draw attention. Check your map before you leave or step into a shop to look at it, then walk at a normal pace with your head up as if you know where you are going. Keep your voice at a normal level and be polite in lines. Avoid arguing about politics, the disaster, or who deserves aid. If someone tries to start a conflict, do not take the bait - a quiet 'Sorry, I'm just getting water' and moving on is a strong choice."
+      },
+      {
+        "step": 5,
+        "title": "Avoid hot spots and bad timing",
+        "body": "Stay away from protests, rallies, and crowds that are getting angry, even if you agree with them; they can turn quickly. Do errands in daylight, in small groups, and at less busy times. Choose well-lit, populated routes over shortcuts. Tell someone where you are going and when you expect to be back. If an area feels wrong, leave and come back another time or use a different site."
+      },
+      {
+        "step": 6,
+        "title": "Know when to stand out",
+        "body": "Blending in is for avoiding trouble, not for avoiding help. Stand out on purpose when you need rescue (bright colors, signals, waving down responders), when you need medical care, and when you are giving information to police. Never hide from or mislead police, National Guard, or emergency workers; follow their instructions and identify yourself when asked. If a family member is lost, make yourself visible at the agreed meeting place."
+      }
+    ],
+    "warnings": [
+      "Do not use 'gray man' ideas to dodge police, checkpoints, or curfews. That can be illegal and dangerous.",
+      "Blending in is not a reason to skip a reflective vest or flashlight when walking near roads at night.",
+      "If you are being followed, go into an open business or toward police and call 911 - do not try to lose them on your own in quiet areas."
+    ],
+    "proTips": [
+      "Put a plain cover or a cheap tote bag over a technical backpack when walking in town.",
+      "Keep a small amount of 'give-up' cash separate from your main money.",
+      "Copy what calm locals do in a new place - where they wait, how they dress, which routes they take.",
+      "Practice walking a new route with a paper map before you need it so you do not look lost later."
     ],
     "relatedGuides": [
       "sec-001",
-      "tools-002"
+      "sec-006",
+      "fm-001",
+      "sec-014"
     ],
-    "source": "US Army FM 3-21.75 / Civilian preparedness best practices",
-    "lastReviewed": "2025-01",
+    "source": "U.S. Air Force travel safety / FBI",
+    "sources": [
+      {
+        "title": "Holiday a good time to travel, but stay smart",
+        "publisher": "U.S. Air Force, 501st Combat Support Wing",
+        "url": "https://www.501csw.usafe.af.mil/News/Article-Display/Article/437144/holiday-good-time-to-travel-but-stay-smart/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FBI Tech Tuesday: Building a Digital Defense Against the Dangers of Using Social Media While Traveling",
+        "publisher": "Federal Bureau of Investigation, Portland Field Office",
+        "url": "https://www.fbi.gov/contact-us/field-offices/portland/news/press-releases/fbi-tech-tuesday-building-a-digital-defense-against-the-dangers-of-using-social-media-while-traveling",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Survival, Evasion, and Recovery: Multiservice Procedures (FM 21-76-1, 1999)",
+        "publisher": "U.S. Army / USMC / USN / USAF, hosted by NC Resource Management Program",
+        "url": "https://rmp.nc.gov/LCF/Publications/AL_Resources/Survival/Multi Service Survival Manual.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [
+      "sec-001"
+    ],
+    "whenNotTo": [
+      "When you need rescue or medical help - make yourself as visible as possible.",
+      "When police or officials ask who you are - identify yourself and follow instructions."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You must go out during a tense crisis - for water, supplies, or travel - and want to avoid being singled out.",
+      "immediate": [
+        "Dress plainly; skip tactical gear and flashy items",
+        "Carry supplies in an ordinary bag and keep cash hidden",
+        "Walk calmly with purpose and avoid crowds and protests"
+      ],
+      "then": [
+        "Do errands in daylight in small groups and tell someone your plan",
+        "Stand out on purpose when you need help"
+      ]
+    }
+  },
+  {
+    "id": "sec-008",
+    "category": "security",
+    "title": "Scams and Fraud After Disasters",
+    "priority": "critical",
+    "tags": [
+      "security",
+      "scams",
+      "fraud",
+      "FEMA",
+      "contractors",
+      "charity",
+      "FTC"
+    ],
+    "summary": "Scammers move in right after disasters, posing as FEMA staff, utility workers, contractors, and charities. Learn the red flags and how to verify anyone before you pay or share personal information.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the main scams",
+        "body": "After storms, floods, and fires, the most common scams are: fake government workers who ask for money or bank details to 'speed up' aid; utility imposters who say your service will be cut off unless you pay now; door-to-door contractors who take a deposit and disappear or do poor work; fake charities that collect donations for victims; and phishing texts and emails with links to fake aid sites. They all share three signs: pressure to act right now, a request for payment or personal information, and an unusual payment method."
+      },
+      {
+        "step": 2,
+        "title": "Verify anyone who says they are from FEMA",
+        "body": "FEMA does not charge for inspections, help applying, or any assistance, and real disaster workers never ask for or accept money. FEMA staff and contractors carry a laminated photo ID badge - ask to see it. A shirt or jacket with a FEMA logo is not proof. Real inspectors contact you to set an appointment and may call from unfamiliar area codes, but they already have your application number. If you are unsure, do not share anything; call the FEMA Helpline at 800-621-3362 to confirm the call or visit. Apply only at DisasterAssistance.gov, the FEMA app, or the Helpline."
+      },
+      {
+        "step": 3,
+        "title": "Check out contractors before you sign",
+        "body": "The FTC advises hiring only licensed and insured contractors. Check the license with your state or county licensing office, ask for proof of insurance, and get several written estimates. Be wary of anyone who knocks on your door, says they have leftover materials, or offers a deal only if you decide today. Get a written contract that lists the work, price, timeline, and who pulls permits. Never sign over your insurance check or let a contractor deal with your insurer on your behalf without reading every page."
+      },
+      {
+        "step": 4,
+        "title": "Pay the safe way",
+        "body": "Do not pay in cash for repairs or debris removal. A credit card gives you more protection if the work is not done. Scammers ask for gift cards, wire transfers, payment apps, or cryptocurrency because the money is almost impossible to get back. Pay a reasonable deposit only if required by your state's rules, and pay the balance only after the work is finished and you are satisfied. Keep copies of every contract, receipt, and text message."
+      },
+      {
+        "step": 5,
+        "title": "Handle utility and phone calls carefully",
+        "body": "If someone calls or comes to the door saying they are from the power, water, or gas company and you must pay now, do not pay. Ask for identification and verify by calling the number on your bill or the utility's official website, not a number they give you. Treat texts and emails about disaster aid, refunds, or account problems the same way: do not click links. Go directly to the official site by typing the address yourself."
+      },
+      {
+        "step": 6,
+        "title": "Give to charities you can verify",
+        "body": "Give to well-known relief groups you already trust, and go to their website directly rather than through a link in a text, email, or social media post. Be cautious of new groups with names that sound like famous charities, crowdfunding pages you cannot confirm, and anyone who pushes you to give immediately or only accepts cash, gift cards, or wire transfers. Your state attorney general or charity regulator can tell you whether an organization is registered."
+      },
+      {
+        "step": 7,
+        "title": "Report scams and protect your identity",
+        "body": "Report disaster fraud to the FEMA Disaster Fraud Hotline at 866-720-5721 (24/7) or disaster@leo.gov, and to the FTC at ReportFraud.ftc.gov. Report it to local police as well, especially if someone came to your home. If you gave out your Social Security number or bank details, act fast: call your bank, place a fraud alert or credit freeze, and follow the steps in sec-015. Warn neighbors - scammers often work an entire street."
+      }
+    ],
+    "warnings": [
+      "FEMA never charges fees and real disaster workers never accept money. Anyone asking for payment is a scammer.",
+      "Never pay with gift cards, wire transfers, or cryptocurrency for disaster help or repairs.",
+      "Do not let anyone pressure you into signing a contract on the spot, especially while you are in shock.",
+      "Older adults are targeted often. Check in on elderly relatives and neighbors after a disaster."
+    ],
+    "proTips": [
+      "Write your FEMA application number on a card. Real FEMA contacts can refer to it; scammers usually cannot.",
+      "Save FEMA's Helpline (800-621-3362) and the fraud hotline (866-720-5721) in your phone and on paper before storm season.",
+      "Take photos of a contractor's license, truck plate, and ID before they start work.",
+      "The FTC has free disaster-scam handouts at ftc.gov/WeatherEmergencies you can share with neighbors."
+    ],
+    "relatedGuides": [
+      "sec-015",
+      "sec-006",
+      "sec-001",
+      "sec-014"
+    ],
+    "source": "FEMA / Federal Trade Commission",
+    "sources": [
+      {
+        "title": "Beware of Fraud and Scams (fact sheet)",
+        "publisher": "Federal Emergency Management Agency (FEMA)",
+        "url": "https://fema.gov/fr/node/626823",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Four ways to avoid scams after a weather-related disaster",
+        "publisher": "Federal Trade Commission",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/01/four-ways-avoid-scams-after-weather-related-disaster",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Plan to avoid scams this National Preparedness Month",
+        "publisher": "Federal Trade Commission",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/08/plan-avoid-scams-national-preparedness-month",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not refuse a real, scheduled FEMA inspection - verify it through the Helpline instead.",
+      "Do not delay emergency repairs that prevent more damage, such as tarping a roof; just use a verified contractor and keep receipts."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "After a disaster, someone contacts you offering aid, repairs, or a chance to donate.",
+      "immediate": [
+        "Do not pay or share personal info on the spot",
+        "Ask for a photo ID badge; call FEMA at 800-621-3362 to verify",
+        "Never pay cash, gift cards, wires, or crypto"
+      ],
+      "then": [
+        "Hire licensed, insured contractors with a written contract; pay in full only when done",
+        "Report fraud: 866-720-5721 or ReportFraud.ftc.gov"
+      ]
+    }
+  },
+  {
+    "id": "sec-009",
+    "category": "security",
+    "title": "De-escalation: Calming Tense Situations and Dealing With Strangers",
+    "priority": "critical",
+    "tags": [
+      "security",
+      "de-escalation",
+      "conflict",
+      "negotiation",
+      "strangers",
+      "communication"
+    ],
+    "summary": "Use calm words, body language, and distance to cool down an angry person or a tense exchange with strangers - and know when to stop talking and leave. Based on CISA's Recognize, Assess, De-escalate, Report approach.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Recognize the warning signs",
+        "body": "Tension usually builds in steps. Watch for a voice getting louder or faster, pacing, clenched fists, a red face, staring, swearing, getting closer and closer, and statements like 'You'll be sorry.' CISA calls this recognizing changes from a person's normal behavior. Stress after a disaster - lost homes, no sleep, hunger, worry about family - makes almost everyone shorter-tempered. Spotting rising tension early gives you the best chance to calm it or step away before it turns physical."
+      },
+      {
+        "step": 2,
+        "title": "Assess: is it safe to stay?",
+        "body": "Before you try to calm anyone, ask yourself: Is anyone threatening violence or showing a weapon? Is the person drunk or high? Am I trapped, or do I have a clear way out? Are children or others at risk? If violence looks likely or has started, do not try to talk it down - move away to safety and call 911. CISA's guidance is clear that your safety comes first and that you should know your limits and get help. De-escalation is a tool for tense moments, not for active danger."
+      },
+      {
+        "step": 3,
+        "title": "Set up your space and body language",
+        "body": "Keep at least two arm's lengths of distance and stand at a slight angle rather than squarely facing the person. Keep your hands down, open, and visible. Move slowly and do not point, touch, or block their way out. Keep your own exit open behind or beside you. Use a neutral, attentive face. If possible, move the conversation somewhere quieter, away from an audience, but never into an isolated spot. Small changes like sitting down or stepping back can lower the temperature without a word."
+      },
+      {
+        "step": 4,
+        "title": "Use your voice to lower the heat",
+        "body": "Speak calmly, a little slower and quieter than normal; people often match your tone. Use short, simple sentences. Use their name if you know it. Listen more than you talk, and show you heard them: 'You've been waiting since this morning and you're worried about your kids. That's rough.' Acknowledging feelings is not agreeing. Avoid commands, sarcasm, arguing facts, and phrases like 'calm down,' which usually backfire. Do not make promises you cannot keep."
+      },
+      {
+        "step": 5,
+        "title": "Look for what they actually need",
+        "body": "Anger after a disaster is often about a real need: water, medicine, news of family, fairness, or respect. Ask open questions: 'What do you need most right now?' Then offer realistic choices: 'I can't let you in, but I can point you to the shelter on Main Street, and I can give you a bottle of water.' Giving a person two acceptable options helps them feel in control. When dealing with strangers at your home, talk through a closed door or window, keep the door locked, and direct them to official aid sites rather than inviting them inside."
+      },
+      {
+        "step": 6,
+        "title": "Know when to disengage",
+        "body": "If the person keeps escalating, threatens you, reaches for something, or will not let you leave, stop talking and go. Say something simple and non-threatening, like 'I'm going to go now,' and leave toward people and lights. At home, close and lock the door, move to an inner room, and call 911. You do not need to win the argument or have the last word. Getting away is a success."
+      },
+      {
+        "step": 7,
+        "title": "Report what happened",
+        "body": "After the situation ends, tell someone who can act on it: shelter staff, site security, or police. Call 911 right away if there was a threat of violence. Share facts only - what the person said and did, when, where, and what they looked like - without guesses about why. CISA notes that reports should be based on behavior, not on someone's race, religion, gender, age, or disability. Your report may prevent the next person from being hurt."
+      }
+    ],
+    "warnings": [
+      "Never try to talk down someone who has a weapon or is already attacking. Leave and call 911.",
+      "Do not touch, corner, or block an agitated person; it often triggers violence.",
+      "Do not open your door or let strangers inside during a crisis. Talk through the door and point them to official aid.",
+      "Alcohol and drugs make people unpredictable. Give extra distance and leave sooner."
+    ],
+    "proTips": [
+      "Practice a few calm phrases ahead of time so they come out naturally under stress.",
+      "Lower your volume when they raise theirs; it often pulls their volume down too.",
+      "Work in pairs at aid tables or gates, so one person can talk while the other watches and gets help.",
+      "If you are wrong about something, saying 'You're right, I'm sorry' can end a conflict instantly."
+    ],
+    "relatedGuides": [
+      "sec-001",
+      "sec-014",
+      "sec-013",
+      "fm-004",
+      "psych-001"
+    ],
+    "source": "CISA De-escalation Series and Action Guide",
+    "sources": [
+      {
+        "title": "De-escalation Series",
+        "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+        "url": "https://www.cisa.gov/de-escalation-series",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "De-escalation Action Guide (January 2025)",
+        "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+        "url": "https://www.cisa.gov/sites/default/files/2025-01/De-escalation-Action-Guide_v508_20250127.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "De-escalation Products and Resources",
+        "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+        "url": "https://www.cisa.gov/de-escalation-products-and-resources",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
-    "gearRequired": "advanced_kit",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "sec-001"
+    ],
+    "whenNotTo": [
+      "Someone has a weapon, is attacking, or is threatening violence right now - leave and call 911.",
+      "You are trapped alone with the person - focus on getting out, not on talking."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Someone is getting angry or a stranger is pressing you for help or entry during a crisis.",
+      "immediate": [
+        "Check for danger - weapon or threats means leave and call 911",
+        "Keep two arm's lengths, hands open and visible, exit clear",
+        "Speak slowly and quietly; listen and acknowledge feelings"
+      ],
+      "then": [
+        "Offer realistic options and point to official aid",
+        "If it keeps escalating, disengage, lock up, and report"
+      ]
+    }
+  },
+  {
+    "id": "sec-010",
+    "category": "security",
+    "title": "Active Threat: Run, Hide, Fight",
+    "priority": "critical",
+    "tags": [
+      "security",
+      "active shooter",
+      "active threat",
+      "run hide fight",
+      "DHS",
+      "911"
+    ],
+    "summary": "The federal Run, Hide, Fight guidance for surviving an active shooter or other attacker: get out if you can, hide well if you cannot, and act against the attacker only as a last resort when your life is at risk.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Prepare before it happens",
+        "body": "Attacks often end within minutes, before police can arrive, so your first choices matter. Wherever you spend time - work, school, church, stores - learn at least two exits and notice rooms with doors that lock. Pay attention to warning signs and report concerning behavior or threats to police, staff, or a supervisor. Talk with your family about what they would do. Knowing the plan ahead of time helps you break through the freeze reaction that slows most people."
+      },
+      {
+        "step": 2,
+        "title": "RUN - get out if there is a safe path",
+        "body": "If you hear gunfire or see an attack and there is a way out, leave immediately. Leave your belongings behind. Urge others to come, but do not wait if they will not. Help others escape if you can do so safely. Once you are out, keep going and keep others from walking into the area. When you see police, keep your hands empty and visible. Running away is the best option whenever it is possible - it puts distance between you and the danger."
+      },
+      {
+        "step": 3,
+        "title": "HIDE - if you cannot get out",
+        "body": "If escape is not possible, hide where the attacker is unlikely to find you, ideally out of sight and behind something solid. Choose a room with a door that locks and lock it. Block the door with heavy furniture. Turn off lights, silence your phone completely including vibration, and stay quiet. Stay away from the door and crouch behind sturdy objects. Do not trap yourself with no options if you can avoid it. Stay hidden until police tell you it is safe."
+      },
+      {
+        "step": 4,
+        "title": "Call or text 911 when it is safe",
+        "body": "When you can do so without giving away your position, call 911 and tell the dispatcher there is an active attacker. Give your location, the number of attackers, what they look like, and what weapons you saw if you know. If you cannot speak, leave the line open so the dispatcher can listen, or text 911 if your area supports it. Do not assume someone else has already called."
+      },
+      {
+        "step": 5,
+        "title": "FIGHT - only as a last resort",
+        "body": "If your life is in immediate danger and you cannot run or hide, federal guidance says to act against the attacker with as much force as you can. This is a desperate measure, not a plan. Commit fully if you must: throw things, yell, use any object at hand, and act together with others if possible. The aim is to disrupt the attack long enough to escape or survive. If the attacker is stopped, get away and tell police exactly what happened and where any weapons are."
+      },
+      {
+        "step": 6,
+        "title": "When police arrive",
+        "body": "The first officers are there to stop the threat. They may not stop to help injured people right away, and they do not know who the attacker is. Stay calm and follow every command. Drop anything in your hands and keep your hands raised and open. Do not point, yell, grab, or run toward officers. Leave the way they direct you, and stay at the area they set up until you have been questioned, because your information may help."
+      },
+      {
+        "step": 7,
+        "title": "Care for the injured and yourself",
+        "body": "Once you are safe, help injured people if you can. Firm pressure on heavy bleeding can save a life while EMS is on the way; a Stop the Bleed class teaches this in about an hour. Check yourself too - adrenaline can hide injuries. In the days after, it is normal to feel shaky, numb, or unable to sleep. Talk to people you trust, and contact a doctor, counselor, or the 988 Suicide and Crisis Lifeline if distress does not ease."
+      }
+    ],
+    "warnings": [
+      "Never go toward gunfire to see what is happening.",
+      "Keep your hands empty and visible when police arrive. Do not run at them or grab them.",
+      "Do not leave a safe hiding place until police say it is safe - attackers sometimes pretend to be help.",
+      "Fighting is only for when your life is in immediate danger and you cannot escape or hide."
+    ],
+    "proTips": [
+      "Some agencies now say 'active assailant' or 'active threat' because attacks may use vehicles, knives, or other weapons. The same Run, Hide, Fight steps apply.",
+      "Take a free Stop the Bleed class and keep a tourniquet in your car or bag.",
+      "At events, sit near an exit and note where the side doors are.",
+      "Teach children a simple version: get out, hide and stay quiet, wait for police."
+    ],
+    "relatedGuides": [
+      "fm-004",
+      "sec-001",
+      "sec-014",
+      "security-004"
+    ],
+    "source": "DHS / CISA Run, Hide, Fight via Defense Logistics Agency",
+    "sources": [
+      {
+        "title": "What to do in an active shooter event",
+        "publisher": "Defense Logistics Agency (DLA)",
+        "url": "https://www.dla.mil/About-DLA/News/News-Article-View/Article/909169/what-to-do-in-an-active-shooter-event/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "De-escalation Action Guide (January 2025)",
+        "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+        "url": "https://www.cisa.gov/sites/default/files/2025-01/De-escalation-Action-Guide_v508_20250127.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
     "riskLevel": "high",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not run if the only path leads toward the attacker - hide instead.",
+      "Do not fight if you can still safely run or hide."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "Conditions at your current location are becoming untenable — you need to execute a planned evacuation before the window closes",
-      "immediate": ["Activate your trigger list — do not negotiate with your predetermined departure criteria", "Grab your 72-hour bag and confirm it has: water+filter, food 2000+ cal/day, shelter, 3 fire methods, navigation, medical, comms", "Move via your primary route — have alternate A and alternate B routes pre-planned for different scenarios"],
-      "then": ["Do not announce your destination to more people than necessary", "Inform one trusted person outside your household of your destination and expected timeline"]
+      "situation": "Someone is attacking people nearby with a gun or other weapon.",
+      "immediate": [
+        "RUN if there is a safe way out - leave belongings",
+        "HIDE if you cannot get out - lock, block, lights off, phone silent",
+        "Call or text 911 when safe"
+      ],
+      "then": [
+        "FIGHT only as a last resort when your life is in immediate danger",
+        "When police arrive, show empty hands and follow commands"
+      ]
+    }
+  },
+  {
+    "id": "sec-011",
+    "category": "security",
+    "title": "Firearm Safety and Safe Storage",
+    "priority": "critical",
+    "tags": [
+      "security",
+      "firearm safety",
+      "safe storage",
+      "children",
+      "gun locks",
+      "law"
+    ],
+    "summary": "If there is a firearm in your home or vehicle, these universal safety rules and storage practices help prevent accidents, theft, and tragedies involving children or people in crisis. Always follow your federal, state, and local laws.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Learn the universal safety rules",
+        "body": "Every safety course teaches the same core rules. Treat every firearm as if it is loaded, even if you think it is not. Always keep the muzzle pointed in a safe direction. Never point a firearm at any person or anything you are not willing to destroy. Keep your finger off the trigger until you are ready to fire. Know what is beyond your target. These rules apply equally to BB, pellet, airsoft, and paintball guns, which can cause serious injuries, especially to eyes."
+      },
+      {
+        "step": 2,
+        "title": "Store firearms locked and unloaded",
+        "body": "When a firearm is not under your direct control, store it unloaded and locked in a gun safe, biometric safe, or hardened lockbox. Store ammunition separately and locked as well. A cable lock or trigger lock adds another layer and is often given free by local police or safety programs. Never leave a firearm unattended once it is out, even for a minute. Hiding a gun in a closet, drawer, or under a mattress is not safe storage - children and visitors find hidden guns."
+      },
+      {
+        "step": 3,
+        "title": "Protect children",
+        "body": "Keep keys and combinations where children cannot get them; do not use birthdays or other easy-to-guess codes. Teach children of all ages a simple rule: if you see a gun, stop, do not touch, leave the area, and tell an adult. Practice it calmly. Before your child visits another home, it is reasonable to ask whether there are firearms and how they are stored. If children visit your home, let their parents know you store firearms safely. Many states have child access prevention laws that hold adults responsible if a child gets an unsecured gun."
+      },
+      {
+        "step": 4,
+        "title": "Plan for crisis and disaster",
+        "body": "Firearms in a home where someone is in a mental health crisis greatly raise the risk of suicide. If a household member is struggling, consider temporary storage outside the home with a trusted person, a gun shop, or police where local law allows; call or text 988 for support. In a disaster, your storage plan still applies: if you evacuate, either take the firearm in a locked case following transport laws or keep it in a bolted safe. Red Cross and most public shelters do not allow weapons, so plan ahead for where it will be stored."
+      },
+      {
+        "step": 5,
+        "title": "Secure firearms in vehicles and on the move",
+        "body": "Vehicles are a major source of stolen guns. Never leave a firearm in a parked car unless it is in a locked container that is secured to the vehicle, and only where legal. Keep it out of sight. Transport unloaded in a locked case when the law requires, and look up the rules for every state and city you will pass through, since they differ widely. Federal buildings, schools, airports, and many shelters prohibit firearms."
+      },
+      {
+        "step": 6,
+        "title": "Know and follow the law",
+        "body": "Laws on buying, owning, carrying, storing, and transporting firearms vary by state, county, and city, and they change. Learn the rules where you live and where you travel. Emergency declarations can also bring temporary rules, so check official announcements. Using force in self-defense is governed by strict laws; a firearm is never a tool for protecting property alone or for settling a dispute. If you have questions, ask your local police department or a qualified attorney."
+      },
+      {
+        "step": 7,
+        "title": "Train, keep records, and dispose of guns properly",
+        "body": "Take a certified firearm safety course covering safe handling, cleaning, and storage. Keep a record of each firearm's make, model, and serial number in a secure place separate from the gun, so you can report it if stolen. Store ammunition in proper containers away from heat and moisture. To get rid of an unwanted firearm or old ammunition, contact your local police department for safe, legal disposal - do not throw them in the trash."
+      }
+    ],
+    "warnings": [
+      "Unsecured firearms are a leading cause of preventable child deaths and of suicides. Lock them up every time.",
+      "Never handle a firearm while using alcohol, drugs, or medicines that cause drowsiness.",
+      "Most public shelters prohibit weapons. Plan ahead for safe storage if you evacuate.",
+      "Laws vary widely by place and change. Always follow your federal, state, and local laws."
+    ],
+    "proTips": [
+      "Many police departments and safety programs give out free cable locks - ask at your local station.",
+      "Use a quick-access biometric or keypad lockbox if you want secure storage that is still fast for you to open.",
+      "Write the 988 Suicide and Crisis Lifeline number in your family plan. Temporary off-site storage during a crisis saves lives.",
+      "Store your firearm serial number list with your important documents (see sec-015)."
+    ],
+    "relatedGuides": [
+      "sec-014",
+      "sec-013",
+      "sec-015",
+      "sec-005"
+    ],
+    "source": "Indiana Dept. of Education firearm storage best practices",
+    "sources": [
+      {
+        "title": "Best Practices in Safe Possession and Storage of Firearms",
+        "publisher": "Indiana Department of Education",
+        "url": "https://www.in.gov/doe/students/school-safety-and-wellness/best-practices-in-safe-possession-and-storage-of-firearms/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Welcome to Your Red Cross Shelter",
+        "publisher": "American Red Cross (via NC DHHS)",
+        "url": "https://www.ncdhhs.gov/media/9461/download",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "This guide is not training in shooting or defensive use. Take a certified course for hands-on instruction.",
+      "If anyone in the home is in crisis, focus on getting the firearm out of the home temporarily and getting support."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "There is a firearm in your home or vehicle, especially with children or visitors around or during a disaster.",
+      "immediate": [
+        "Treat every firearm as loaded and keep the muzzle pointed safely",
+        "Store unloaded and locked; lock ammunition separately",
+        "Teach kids: stop, don't touch, leave, tell an adult"
+      ],
+      "then": [
+        "Use temporary off-site storage if someone is in crisis; call or text 988",
+        "Check local laws for transport and shelters before you evacuate"
+      ]
+    }
+  },
+  {
+    "id": "sec-012",
+    "category": "security",
+    "title": "Neighborhood Watch and Setting Up a Night Watch Rotation",
+    "priority": "advanced",
+    "tags": [
+      "security",
+      "neighborhood watch",
+      "night watch",
+      "community",
+      "observe and report"
+    ],
+    "summary": "Organize neighbors to watch out for each other and, during long outages, set up a safe night watch rotation built around one rule: observe and report, never confront.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Start with neighbors who can see each other",
+        "body": "A neighborhood watch begins with a handful of households that can see each other's homes. Knock on doors, explain the goal - looking out for each other and reporting problems to police - and set a meeting time. The National Neighborhood Watch Institute, working with the National Sheriffs' Association, suggests reaching out about four weeks before the first meeting and inviting a local law enforcement officer at least two weeks ahead. Keep the first meeting to about 90 minutes and focused on getting started, not on every complaint."
+      },
+      {
+        "step": 2,
+        "title": "Partner with law enforcement and pick leaders",
+        "body": "Choose a block captain or watch coordinator to be the link with your police or sheriff's office. Ask the officer what kinds of activity to report, when to call 911 versus the non-emergency line, and what information helps them most. A watch is not a vigilante group and members do not take personal risks to stop crime. Members watch from their own homes and report. That rule protects your neighbors legally and physically."
+      },
+      {
+        "step": 3,
+        "title": "Build your contact tools",
+        "body": "Have each household fill out a simple data sheet: names, phone numbers, vehicles, who has medical needs or mobility limits, and who has useful skills such as nursing or electrical work. Use it to make a phone tree, a group text, and a hand-drawn block map. Print copies, because phones and internet may fail. For outages, agree on a backup: FRS/GMRS handheld radios on an agreed channel, a whistle signal, or a runner system. Keep the sheet private to members."
+      },
+      {
+        "step": 4,
+        "title": "Decide when a night watch is needed",
+        "body": "In normal times, a regular watch plus porch lights is enough. During a long power outage or after a major disaster, when streetlights are out and response times are long, some neighborhoods set up a night watch. The purpose is early warning: spotting fires, gas leaks, medical emergencies, flooding, and suspicious activity, and getting help quickly. It is not about patrolling or guarding streets. Check with local police first, and follow any curfew."
+      },
+      {
+        "step": 5,
+        "title": "Set up a safe rotation",
+        "body": "Use two-person shifts so no one watches alone and someone can always call for help. Keep shifts short, about 2 to 3 hours, so people stay alert, and rotate so the same people do not always get the worst hours. Watchers stay at a home with a good view - a porch, window, or yard - and do not wander the street. Each pair needs a charged phone or radio, a flashlight, a reflective vest, a notepad, and the contact list. The next pair should be fully awake before the handoff."
+      },
+      {
+        "step": 6,
+        "title": "Observe, write it down, and report",
+        "body": "When something seems wrong, watchers stay where they are, observe from a distance, and call 911 for emergencies or the non-emergency line for concerns. Note the time, what happened, descriptions of people by clothing and height, vehicles and plates, and direction of travel. Keep a simple log so the next shift knows what happened. Never follow, confront, block, or try to detain anyone. Warn neighbors by phone tree or radio if needed, then let trained responders handle it."
+      },
+      {
+        "step": 7,
+        "title": "Look after the people in the watch",
+        "body": "Sleep is the hardest part of a long watch. Make sure every adult gets at least one long sleep block, and excuse people with health problems, young children, or early work. Check on older neighbors and anyone living alone during each shift. Keep meetings short and friendly and share news from officials. A watch that also checks on people and shares resources holds a neighborhood together through a long emergency."
+      }
+    ],
+    "warnings": [
+      "Watch members observe and report only. Never follow, confront, or try to detain anyone.",
+      "Do not carry weapons on watch duty. Armed patrols escalate situations and create serious legal risk.",
+      "Never watch alone at night - work in pairs and keep a phone or radio at hand.",
+      "Follow curfews and police instructions; a night watch stays on members' own property."
+    ],
+    "proTips": [
+      "Reflective vests and porch lights make watchers easy for police to recognize as neighbors.",
+      "Pick one radio channel for the block and test it monthly, so it works when phones fail.",
+      "Put the watch log in a shared notebook kept at one house so every shift can read it.",
+      "Invite your local officer back once a year for a refresher."
+    ],
+    "relatedGuides": [
+      "sec-002",
+      "sec-005",
+      "sec-001",
+      "sec-009",
+      "comms-001"
+    ],
+    "source": "National Neighborhood Watch Institute / National Sheriffs' Association",
+    "sources": [
+      {
+        "title": "Start a Neighborhood Watch",
+        "publisher": "National Neighborhood Watch Institute / National Sheriffs' Association",
+        "url": "https://www.nnwi.org/start-a-neighborhood-watch/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Crime Prevention Through Environmental Design",
+        "publisher": "City of Liberty, Missouri",
+        "url": "https://libertymissouri.gov/2688",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "sec-001"
+    ],
+    "whenNotTo": [
+      "Do not start a night watch during a curfew without checking with police.",
+      "Do not use a watch to target people based on race, appearance, or being new to the area."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your street wants to look out for each other, especially during a long outage when police response is slow.",
+      "immediate": [
+        "Gather neighbors who can see each other's homes and invite a local officer",
+        "Build a contact list, phone tree, and block map on paper",
+        "Set the rule: observe and report, never confront"
+      ],
+      "then": [
+        "For long outages, run 2-person, 2-3 hour shifts from members' own porches",
+        "Log what you see and call 911 for emergencies"
+      ]
+    }
+  },
+  {
+    "id": "sec-013",
+    "category": "security",
+    "title": "Checkpoints, Curfews, and Dealing With Police or National Guard in Emergencies",
+    "priority": "beginner",
+    "tags": [
+      "security",
+      "checkpoints",
+      "curfew",
+      "police",
+      "National Guard",
+      "re-entry",
+      "rights"
+    ],
+    "summary": "Know what to carry, how to behave, and what your basic rights are when you meet police, deputies, or National Guard at checkpoints and under curfews after a disaster - so the encounter stays calm, safe, and short.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand why checkpoints and curfews happen",
+        "body": "After a disaster, officials may close roads, set up checkpoints, and order curfews to keep people out of dangerous areas, protect empty homes from looting, and keep routes clear for crews. Re-entry often happens in phases: first public safety and utility crews, then residents once areas are assessed. National Guard members may staff checkpoints alongside local police, usually under the governor's authority. Treat their instructions the same way you would treat a police officer's. Follow local news, NOAA Weather Radio, and official emergency management social media for current rules."
+      },
+      {
+        "step": 2,
+        "title": "Carry the right documents",
+        "body": "Keep a government-issued photo ID that shows your home address. If your ID shows an old address, carry proof of residence such as a utility bill, lease, deed, or property tax bill. Some counties issue re-entry passes or tags ahead of hurricane or fire season - sign up if yours does. Business owners may need a business license or letter; essential workers may need a letter on company letterhead. Keep copies in your go bag and photos on your phone (see sec-015)."
+      },
+      {
+        "step": 3,
+        "title": "Approach a checkpoint calmly",
+        "body": "Slow down early and follow signs and hand signals. Turn off music, lower your window, and at night turn on your interior light. Keep both hands on the steering wheel where officers can see them. Tell the officer before you reach for anything: 'My ID is in my wallet in my back pocket - may I get it?' Answer basic questions about where you are going. Keep passengers calm and hands visible too. If you are turned away, accept it and leave by the route they direct - arguing will not change the decision, and the supervisor at each checkpoint decides who can enter."
+      },
+      {
+        "step": 4,
+        "title": "Follow curfews and know exemptions",
+        "body": "Curfews limit when people can be outside, and they vary by place. Many allow exceptions for going to or from work, getting food or medical care, caring for a family member, and emergencies, but check the exact order where you are. If you must be out during curfew, carry proof of the reason, such as a work badge or letter. If stopped, stay polite and explain briefly. A curfew does not remove your constitutional rights, but officers do have broad power during an emergency to warn, cite, or arrest."
+      },
+      {
+        "step": 5,
+        "title": "Know your basic rights - and stay calm",
+        "body": "In general, you can decline to answer questions beyond identifying yourself where required, and you can say, 'I wish to remain silent.' You can say you do not consent to a search, but do not physically resist if officers search anyway. Ask 'Am I free to go?' if you are unsure. Never run, argue, resist, or give false information or documents. Drivers must show license, registration, and insurance when asked. Rules vary by state, so learn yours. Challenges to a stop are made later through complaints or the courts, not on the roadside."
+      },
+      {
+        "step": 6,
+        "title": "If a checkpoint seems unofficial",
+        "body": "Real checkpoints usually have marked vehicles, uniforms, lights, and signs. If something seems wrong - no markings, people in mixed clothing, demands for money or goods - stay in your locked vehicle, keep calm, and do not argue. If you can safely turn around or avoid it, do so, then call 911 and report its location. If you are already stopped, comply with demands for property rather than risk injury; property can be replaced. Report it to police as soon as you are safe."
+      },
+      {
+        "step": 7,
+        "title": "Write it down afterward",
+        "body": "After any encounter that concerned you, write down what happened while it is fresh: time, place, agency, officer names, badge and vehicle numbers, and any witnesses. If you were hurt, get medical care first and photograph injuries. You can file a complaint with the agency or a civilian review board, and civil rights groups can advise you. If the encounter went well, thank them - checkpoint crews often work long shifts in hard conditions."
+      }
+    ],
+    "warnings": [
+      "Never drive around barricades or through a checkpoint. Roads are often closed for real hazards like downed lines or washed-out bridges.",
+      "Do not run, argue, or physically resist officers, even if you think a stop is unfair. Use complaints and the courts later.",
+      "Never give false ID or false information to officers.",
+      "Rules vary by state and change during emergencies. This is general information, not legal advice."
+    ],
+    "proTips": [
+      "Ask your county emergency management office now whether they use re-entry passes, and keep yours in the car.",
+      "Keep a utility bill copy in your go bag if your license shows an old address.",
+      "Keep your registration and insurance card in one easy-to-reach envelope so you are not digging around.",
+      "Expect long waits at re-entry checkpoints - bring water, snacks, and a full tank."
+    ],
+    "relatedGuides": [
+      "sec-003",
+      "sec-015",
+      "sec-009",
+      "sec-007"
+    ],
+    "source": "Horry County SC Emergency Management / ACLU know-your-rights guidance",
+    "sources": [
+      {
+        "title": "Hurricane Re-Entry Brochure",
+        "publisher": "Horry County Emergency Management, South Carolina",
+        "url": "https://www.horrycountysc.gov/media/0uyocmjo/re-entry-brochure.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Know Your Rights: Law Enforcement Encounters",
+        "publisher": "ACLU of Utah",
+        "url": "https://www.acluutah.org/sites/default/files/Law-enforcement-KYR-180614.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What to know if you're stopped by law enforcement after curfew",
+        "publisher": "12News (KPNX), Phoenix",
+        "url": "https://12news.com/article/news/local/arizona/what-to-know-if-youre-stopped-by-law-enforcement-after-curfew/75-f7c74931-744c-4684-8642-09463b959979",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "This is not legal advice. For a specific legal problem, talk to a qualified attorney.",
+      "In a medical emergency during curfew, call 911 rather than driving through checkpoints yourself if possible."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are approaching a checkpoint, are out during a curfew, or are stopped by police or National Guard after a disaster.",
+      "immediate": [
+        "Slow down, interior light on at night, hands on the wheel",
+        "Have photo ID with your address and proof of residence ready",
+        "Say what you are reaching for before you move; stay calm and polite"
+      ],
+      "then": [
+        "If turned away, leave by the route directed",
+        "Write down details afterward; use complaints, not arguments, for problems"
+      ]
+    }
+  },
+  {
+    "id": "sec-014",
+    "category": "security",
+    "title": "Personal Safety in Shelters, Crowds, and Evacuation Centers",
+    "priority": "critical",
+    "tags": [
+      "security",
+      "shelter",
+      "crowds",
+      "evacuation center",
+      "children",
+      "theft",
+      "Red Cross"
+    ],
+    "summary": "Stay safe and protect your belongings in public shelters, evacuation centers, and crowded aid sites. Know the rules, keep children close, use the buddy system, and bring problems to staff.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the shelter rules before you arrive",
+        "body": "Red Cross shelters do not allow alcohol, illegal drugs, or weapons of any kind, including concealed weapons, inside or on the grounds. Smoking is allowed only outside in designated spots. Abusive behavior, stealing, and property damage are not tolerated. Everyone is screened and registered, and you sign in and out each time you leave or return. These rules protect you. If you carry a firearm legally, plan before you arrive where it will be stored safely and lawfully, because you will not be able to bring it in (see sec-011)."
+      },
+      {
+        "step": 2,
+        "title": "Register honestly and share your needs",
+        "body": "Fill out the family registration form and tell the worker about medical needs, disabilities, medications that need a fridge, service animals, and anything that makes you feel unsafe. Shelter staff can sometimes place families together, find a quieter area, or connect you with nurses and mental health workers. If you are fleeing domestic violence or someone in the shelter worries you, tell staff privately. You can leave unknown parts of the form blank."
+      },
+      {
+        "step": 3,
+        "title": "Protect your valuables",
+        "body": "Bring as few valuables as possible. Your belongings must fit under your cot, and the Red Cross cannot take responsibility for them. Lock valuables in your car out of sight if you have one; otherwise keep them on your body. Wear a small cross-body bag or money belt for ID, phone, cash, and medicines. Label chargers, bags, and medical equipment with your name. Keep medicines with you instead of in a bag on the floor. Do not show cash or talk about what you have."
+      },
+      {
+        "step": 4,
+        "title": "Keep children close and use the buddy system",
+        "body": "Parents are responsible for supervising their children at all times; children should never be left alone in the shelter. Use the buddy system for bathrooms, showers, and walks outside, especially at night - adults too. Teach children who the shelter workers are (usually vests or badges) and to go to them if they are scared or lost. Give each child a card with your name, cot location, and phone number. Agree on a meeting spot inside the shelter, such as the registration desk."
+      },
+      {
+        "step": 5,
+        "title": "Stay alert in crowds and lines",
+        "body": "At aid lines, fuel stations, and busy shelters, keep to the edge of the crowd, know where the exits are, and keep your bag in front of you. Be patient and polite - tempers are short when people are tired and scared. If a crowd starts pushing or surging, do not fight against it. Move diagonally toward the edges, keep your arms up in front of your chest to protect your breathing, and stay on your feet. If you fall, get up fast. Leave lines that feel unsafe and come back later."
+      },
+      {
+        "step": 6,
+        "title": "Bring problems to staff early",
+        "body": "If someone is threatening, harassing, stealing, or making you uneasy, do not handle it yourself. Tell a shelter worker or security officer right away, and call 911 if anyone is in immediate danger. Report facts: who, what, when, and where. Shelter staff can move cots, involve police, or remove people who break the rules. Use calm de-escalation if you are drawn into a tense moment, and step away instead of arguing (see sec-009)."
+      },
+      {
+        "step": 7,
+        "title": "Stay connected and leave safely",
+        "body": "Keep your out-of-area contact updated. When you leave the shelter, register at the Red Cross Safe and Well site so loved ones can find you, and sign out with staff. Only go home when officials say your area is safe. Watch for scammers who target people leaving shelters with offers of repairs, rentals, or quick aid money (see sec-008)."
+      }
+    ],
+    "warnings": [
+      "Never leave children unattended in a shelter.",
+      "Weapons, alcohol, and drugs are not allowed in Red Cross shelters. Plan ahead for lawful storage.",
+      "In a crowd surge, do not push back - move diagonally to the edge and protect your chest.",
+      "Report threats or harassment to staff right away; call 911 for immediate danger."
+    ],
+    "proTips": [
+      "Bring earplugs, an eye mask, and a small flashlight - shelters are loud and lights may stay on all night.",
+      "A cheap combination lock on a backpack zipper discourages quick theft.",
+      "Photograph your belongings and IDs before you arrive in case something goes missing.",
+      "Volunteer for a shelter task if you can; it builds friendly ties with staff and other families."
+    ],
+    "relatedGuides": [
+      "sec-009",
+      "sec-008",
+      "security-004",
+      "sec-011",
+      "sec-001"
+    ],
+    "source": "American Red Cross shelter guidance / CISA",
+    "sources": [
+      {
+        "title": "Welcome to Your Red Cross Shelter",
+        "publisher": "American Red Cross (via NC DHHS)",
+        "url": "https://www.ncdhhs.gov/media/9461/download",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "De-escalation Action Guide (January 2025)",
+        "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+        "url": "https://www.cisa.gov/sites/default/files/2025-01/De-escalation-Action-Guide_v508_20250127.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "If a shelter feels unsafe and you have a safe alternative - a friend's home or hotel outside the hazard area - it is okay to go there instead.",
+      "Do not leave a shelter during an active storm or hazard to escape a minor problem; tell staff instead."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are staying in a public shelter or waiting in crowded aid lines after a disaster.",
+      "immediate": [
+        "Keep ID, phone, cash, and medicines on your body",
+        "Never leave children alone; use the buddy system for bathrooms",
+        "Tell staff about medical needs and any safety concerns"
+      ],
+      "then": [
+        "In a crowd surge, move diagonally to the edge and protect your chest",
+        "Register on Red Cross Safe and Well and sign out when you leave"
+      ]
+    }
+  },
+  {
+    "id": "sec-015",
+    "category": "security",
+    "title": "Protecting Your Identity, Documents, and Accounts in a Crisis",
+    "priority": "beginner",
+    "tags": [
+      "security",
+      "identity theft",
+      "documents",
+      "credit freeze",
+      "fraud alert",
+      "backups",
+      "accounts"
+    ],
+    "summary": "Protect the papers and accounts you will need to prove who you are, get aid, and rebuild after a disaster - and know exactly what to do if your identity is stolen.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Gather your critical documents",
+        "body": "Collect the papers you would need to prove identity, ownership, and coverage. Identification: birth, marriage, divorce, adoption, and custody records, passports, driver's licenses, Social Security cards, green cards, military IDs, and pet records. Financial and legal: deeds or leases, vehicle titles and registration, account numbers, insurance policies, tax returns, wills, trusts, and powers of attorney. Medical: insurance cards, medication and allergy lists, advance directives, and doctor contacts. Add a household inventory with photos of valuables and a list of emergency contacts."
+      },
+      {
+        "step": 2,
+        "title": "Store paper copies safely",
+        "body": "Keep originals in a fireproof and waterproof box or safe at home, in a bank safe deposit box, or with a trusted relative outside your area. If you use a safe deposit box, check who can get into it if you die or become unable to act. Keep a set of copies in a waterproof pouch in your go bag. Store home safes and boxes above flood level, not in a basement. Do not carry your Social Security card every day; keep it locked up."
+      },
+      {
+        "step": 3,
+        "title": "Make encrypted digital backups",
+        "body": "Scan or photograph every document. Store the files on a password-protected, encrypted flash drive or external drive kept in your fireproof box, and also in a secure cloud service with a strong unique password and two-step verification turned on. That way, if your home is lost and your phone is broken, you can still reach your files from any computer. Update the backup once a year and after big changes like a new car, a move, or a new insurance policy."
+      },
+      {
+        "step": 4,
+        "title": "Lock down your accounts",
+        "body": "Use a different strong password for email, banking, and government accounts, and keep them in a password manager. Turn on two-step verification, and set up a backup method in case your phone is lost - such as backup codes printed and stored with your documents. Your email is the key to every other account, so protect it most. Write your bank and card companies' fraud phone numbers on paper. Set up account alerts for large charges and logins from new devices."
+      },
+      {
+        "step": 5,
+        "title": "Freeze your credit - it is free",
+        "body": "Since 2018, federal law makes credit freezes free at all three nationwide credit bureaus: Equifax, Experian, and TransUnion. A freeze stops new accounts from being opened in your name and stays until you lift it. You must place it with each bureau separately. Requests online or by phone take effect within one business day, and you can lift a freeze within an hour when you need credit. Parents can also freeze credit for children under 16. A freeze is one of the strongest, cheapest protections there is."
+      },
+      {
+        "step": 6,
+        "title": "Know the difference: fraud alert vs. freeze",
+        "body": "A fraud alert tells lenders to verify your identity before opening credit. It is free, lasts one year, and you only need to contact one bureau, which must tell the other two. Identity theft victims can get an extended alert that lasts seven years. Service members can place an active duty alert. A fraud alert is quicker to set up after a disaster or lost wallet; a freeze is stronger. Many people use both."
+      },
+      {
+        "step": 7,
+        "title": "If your identity is stolen",
+        "body": "Act right away. Call the fraud departments of any company where fraud happened, close or freeze those accounts, and change passwords and PINs. Place a fraud alert. Get your free credit reports at annualcreditreport.com and look for accounts you do not recognize. Report the theft at IdentityTheft.gov; it creates an official Identity Theft Report and a step-by-step recovery plan with pre-filled letters. File a police report if a company requires one or you know who did it. Keep a log of every call and copies of every letter."
+      }
+    ],
+    "warnings": [
+      "Never give your Social Security number, bank details, or passwords to someone who contacts you out of the blue, even if they claim to be FEMA or your bank. Verify first.",
+      "A safe deposit box may be hard to reach right after a disaster. Keep a copy set somewhere else too.",
+      "Do not store your only digital backup on the same phone or laptop that could be lost in the disaster.",
+      "If you use IdentityTheft.gov without an account, print or save your report and plan before leaving the page - you cannot get them back later."
+    ],
+    "proTips": [
+      "Freeze your credit now, before any disaster. You can lift it in minutes when you need a loan.",
+      "Keep printed backup codes for two-step verification in your document box.",
+      "Write your FEMA application number and insurance claim numbers on one card in your go bag.",
+      "Check your credit reports from all three bureaus a few times a year at annualcreditreport.com."
+    ],
+    "relatedGuides": [
+      "sec-008",
+      "sec-006",
+      "sec-003",
+      "sec-013"
+    ],
+    "source": "FTC / Ready.gov (America's PrepareAthon!)",
+    "sources": [
+      {
+        "title": "Free credit freezes are here",
+        "publisher": "Federal Trade Commission",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2018/09/free-credit-freezes-are-here",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Identity Theft: A Recovery Plan",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.bulkorder.ftc.gov/system/files/publications/501a_idt_a_recovery_plan_508.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Safeguard Critical Documents and Valuables",
+        "publisher": "America's PrepareAthon! / Ready.gov (via Culver City Fire Dept.)",
+        "url": "https://www.culvercityfd.org/files/sharedassets/fire/safeguarding_valuables_508.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Beware of Fraud and Scams (fact sheet)",
+        "publisher": "Federal Emergency Management Agency (FEMA)",
+        "url": "https://fema.gov/fr/node/626823",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "If you plan to apply for a loan, lease, or new phone soon, remember to temporarily lift your freeze first.",
+      "Do not email unencrypted copies of your Social Security card or passport to yourself as your only backup."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want your identity, documents, and accounts to survive a disaster - or you think your identity was stolen.",
+      "immediate": [
+        "Put originals in a fireproof, waterproof box and copies in your go bag",
+        "Make an encrypted digital backup plus a secure cloud copy",
+        "Freeze your credit free at Equifax, Experian, and TransUnion"
+      ],
+      "then": [
+        "Turn on two-step verification and print backup codes",
+        "If stolen: fraud alert, check credit reports, report at IdentityTheft.gov"
+      ]
     }
   },
   {
@@ -179,55 +1608,106 @@
     "tags": [
       "security",
       "rally point",
+      "meeting place",
       "lost person",
-      "communication",
-      "group"
+      "family plan",
+      "communication"
     ],
-    "summary": "Pre-establish rally points and lost-person protocols before any operation so that separation does not become catastrophe.",
+    "summary": "Agree on meeting places and a simple 'what to do if we get separated' plan before an emergency, so a separation in a crowd, evacuation, or outdoors stays short and safe.",
     "steps": [
       {
         "step": 1,
-        "title": "Designate rally points before departure",
-        "body": "A rally point (RP) is a pre-designated location where group members regroup if separated. Establish at least two before any movement: an Immediate Rally Point (IRP) — a prominent landmark within sight of the route, usable if separation happens within the first mile; and a Distant Rally Point (DRP) — a well-known, unambiguous location (your campsite, a road intersection, a bridge) to be used if the IRP is compromised or you cannot reach it. Everyone in the group must know both locations, their grid coordinates or compass bearing, and the time window for waiting: typically 30 minutes at the IRP, 4–6 hours at the DRP."
+        "title": "Pick your meeting places now",
+        "body": "Choose three places everyone in the household knows. A neighborhood meeting place close to home, such as a specific neighbor's porch or the corner mailbox, for sudden events like a house fire. A regional meeting place outside your neighborhood, such as a library, place of worship, or relative's home, in case you cannot get home. And an out-of-town place for a large evacuation. Pick spots that are unmistakable, so no one pictures a different 'big tree.' Agree how long to wait at each one, for example 30 minutes at the near spot before moving to the next."
       },
       {
         "step": 2,
-        "title": "Establish lost-person communication plan",
-        "body": "Before separating from a group, agree on: (1) Radio channel and check-in schedule — e.g., channel 3, check-in every hour on the hour. (2) A code word signaling genuine distress versus routine position updates. (3) What to do if radio contact is not re-established within two check-in periods — go to IRP, then DRP, then signal. (4) Who holds the map and compass for the group, and who has the backup. Write the plan on paper. Do not rely on memory under stress."
+        "title": "Choose an out-of-area contact",
+        "body": "Pick one person who lives outside your region to be the family message hub. After a disaster, local lines jam, but calls and texts to a distant number often get through. Everyone checks in with that person, and that person passes along news. Write the number on paper for every family member, including children, because few people remember numbers stored in phones. Send texts instead of calls unless someone is in danger - texts use less network capacity and keep lines open for emergency workers."
       },
       {
         "step": 3,
-        "title": "Immediate action on separation",
-        "body": "If you realize you are separated: STOP. Stop moving. Think. Observe. Plan. Panic drives people to walk in circles. Your instinct to keep moving is usually wrong — stay put and signal. Call out verbally. Use your whistle (3 blasts). If you have a radio, call on the agreed channel. Make yourself visible at a clearing or high ground. Do not attempt to retrace your route unless you can clearly identify your back-trail — a wrong guess compounds the problem. Wait at the IRP for the agreed time, then move to the DRP."
+        "title": "Brief everyone before you move",
+        "body": "Before any trip into a crowd, evacuation, or hike, take one minute to say the plan out loud: where we meet if separated, how long we wait, and who to call. Point to the meeting spot so children can see it. Give each child a card with their name, a parent's phone number, and the out-of-area contact. Teach children to look for a uniformed worker, a store employee at a register, or a parent with kids if they get lost, and never to leave with someone who approaches them first."
       },
       {
         "step": 4,
-        "title": "Searching for a separated group member",
-        "body": "If someone is missing: Do not immediately scatter to search — that creates more missing persons. Designate one person as search coordinator. Send at least two people together in each search direction; no one searches alone. Establish a 'hasty search' — cover the most likely routes quickly before conducting a systematic grid search. Use sound: shout, whistle, use vehicle horns. At night, use flashlights and wait for return signals before moving toward them. Contact SAR (search and rescue) early — the first six hours are the highest-probability window for a positive outcome."
+        "title": "If you are separated: STOP",
+        "body": "Stop moving. Think about where you last saw your group. Observe your surroundings and landmarks. Plan your next step. Outdoors, the best plan is usually to stay put in a visible spot and make noise; three whistle blasts are a widely used distress signal. Wandering usually makes you harder to find. In a city or crowd, go to the agreed meeting place by the safest route and wait the agreed time. Text your out-of-area contact your location, then save phone battery by checking every 15 to 30 minutes instead of constantly."
+      },
+      {
+        "step": 5,
+        "title": "If someone is missing: organize, do not scatter",
+        "body": "Keep the rest of the group together. One adult stays at the meeting place in case the missing person returns. Search the last known location and the most likely routes first, always in pairs - never send anyone alone. Use your voices and whistles and pause often to listen for answers. Tell nearby staff or security right away; stores, parks, and shelters have procedures for lost children. Call 911 quickly for a missing child, an older adult with dementia, or anyone lost outdoors. Searches go best when they start early, so do not wait hours hoping they will turn up."
+      },
+      {
+        "step": 6,
+        "title": "Reunite and update",
+        "body": "When you find each other, tell your out-of-area contact and anyone else searching so no one keeps looking. Talk about what went wrong and fix the plan: maybe the meeting place was hard to reach or a child did not understand. After a large disaster, you can register on the Red Cross Safe and Well site so relatives can find you. Review meeting places whenever you move, change schools or jobs, or travel somewhere new."
       }
     ],
     "warnings": [
-      "A rally point is useless if not everyone knows it. Brief all group members — including children — before departure, not after separation occurs.",
-      "Searching for a lost person at night without a plan creates multiple casualties. Secure your own group before committing to a hasty search in darkness."
+      "A meeting place no one remembers is useless. Brief children and adults before you move, not after someone is lost.",
+      "Do not send people out alone to search, especially at night. You can end up with two missing people.",
+      "Call 911 early for a missing child, a vulnerable adult, or anyone lost outdoors."
     ],
     "proTips": [
-      "Use a distinctive landmark for your IRP, not just \"the big tree\" — in a forest, there are thousands. Use a creek bend, a rock formation, or a junction visible on a map.",
-      "The STOP acronym (Stop, Think, Observe, Plan) was developed by the US Forest Service for lost-hiker protocols. It is the single most effective behavior change to prevent a bad situation from becoming fatal."
+      "Take a photo of each child on your phone at the start of a busy day so you have their current clothing if you need to describe them.",
+      "Use landmarks that will survive the event - a brick church holds up better than a parked food truck.",
+      "Write the out-of-area contact number in permanent marker inside a child's backpack or on a wristband.",
+      "Practice with kids: at the mall, ask them to lead you to the meeting spot."
     ],
     "relatedGuides": [
-      "sec-001",
-      "sec-003"
+      "sec-003",
+      "sec-014",
+      "fm-004",
+      "comms-001"
     ],
-    "source": "US Army FM 3-21.75 / Civilian preparedness best practices",
-    "lastReviewed": "2025-01",
+    "source": "Ready.gov family communication plan template / Red Cross",
+    "sources": [
+      {
+        "title": "Family Emergency Communication Plan",
+        "publisher": "Oklahoma Emergency Management (Ready.gov template), hosted by NJ OEM",
+        "url": "https://www.nj.gov/njoem/plan-prepare/pdf/FEMA_family_communication_plan.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Evacuation Levels Handout",
+        "publisher": "Linn County Sheriff's Office, Oregon",
+        "url": "https://www.linnsheriff.org/wp-content/uploads/Evac-Handout.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Welcome to Your Red Cross Shelter",
+        "publisher": "American Red Cross (via NC DHHS)",
+        "url": "https://www.ncdhhs.gov/media/9461/download",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "none",
     "riskLevel": "high",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not go to a meeting place that is now inside a hazard area - skip to the next one.",
+      "Do not delay calling 911 for a missing child to search on your own first."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "Your group has separated during a movement — separation without a pre-established protocol can turn a temporary problem into a fatal one",
-      "immediate": ["If separated: STOP — Stop, Think, Observe, Plan — do not keep walking", "Signal with 3 whistle blasts and listen; call out verbally; radio on agreed channel", "Move to the Immediate Rally Point (IRP) and wait for the agreed time window (30 minutes)"],
-      "then": ["If not reunited at IRP after 30 minutes: move to the Distant Rally Point (DRP)", "Searching parties: never send solo searchers — search in pairs minimum, designate a search coordinator"]
+      "situation": "Your group got separated, or you are about to move through a crowd, evacuation, or trail.",
+      "immediate": [
+        "If lost: STOP - stop, think, observe, plan",
+        "Go to the agreed meeting place and wait the agreed time",
+        "Text your out-of-area contact your location"
+      ],
+      "then": [
+        "Search in pairs only; keep one adult at the meeting place",
+        "Call 911 early for a missing child or vulnerable adult"
+      ]
     }
   }
 ]

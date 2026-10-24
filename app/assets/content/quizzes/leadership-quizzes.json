@@ -1,0 +1,214 @@
+[
+  {
+    "id": "quiz-psych-001",
+    "category": "leadership",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "The power has been out for hours and a storm is getting louder. Your teenage nephew starts breathing fast, says he can't stay in the house, and paces toward the door. There is no fire or other immediate danger inside. What should you do first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tell him firmly to calm down and that everything is fine"
+      },
+      {
+        "id": "b",
+        "text": "Take a few slow breaths yourself, then speak low and slow, use his name, breathe with him, and give him one simple job"
+      },
+      {
+        "id": "c",
+        "text": "Hold him by the arms so he can't leave"
+      },
+      {
+        "id": "d",
+        "text": "Leave him alone until he works it out on his own"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Calm yourself first so you don't add to the fear, then use a slow, low voice, his name, and slow breathing together. A simple real task (holding a light, counting supplies) gives his mind something to grip. 'Calm down' is not an instruction anyone can follow, and 'everything is fine' is false reassurance that destroys trust. Restraint usually makes panic worse and is only for preventing immediate harm. Leaving him alone risks him running out into the storm.",
+    "relatedGuide": "psych-001",
+    "tags": [
+      "leadership",
+      "beginner",
+      "panic"
+    ]
+  },
+  {
+    "id": "quiz-psych-002",
+    "category": "leadership",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your brother has been awake for about 24 hours running the generator and keeping watch. He says he feels fine and wants to drive to town for fuel. According to CDC NIOSH, what is the best call?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Let him go - if he says he feels fine, he probably is"
+      },
+      {
+        "id": "b",
+        "text": "Give him two energy drinks first, then let him drive"
+      },
+      {
+        "id": "c",
+        "text": "Have someone rested drive, or let him sleep first; 24 hours awake impairs performance about like a 0.10% blood alcohol level, and tired people misjudge their own impairment"
+      },
+      {
+        "id": "d",
+        "text": "Let him drive but with the windows down and the radio loud"
+      }
+    ],
+    "correct": "c",
+    "explanation": "NIOSH says 24 hours awake affects performance about as much as a 0.10% blood alcohol level - above the 0.08% U.S. driving limit. Sleep-deprived people are poor judges of their own impairment, so 'I feel fine' is not reliable. Caffeine can make a tired person feel alert while still making mistakes, and large doses from energy drinks carry heart risks. Open windows and loud music do not prevent microsleeps.",
+    "relatedGuide": "psych-005",
+    "tags": [
+      "leadership",
+      "intermediate",
+      "sleep",
+      "fatigue"
+    ]
+  },
+  {
+    "id": "quiz-psych-003",
+    "category": "leadership",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Five days into an outage, two adults in your house are arguing again over who gets the quiet back bedroom. Both are tired and it is late. One says 'I want that room, period.' What is the best way to settle it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decide right now, in front of everyone, who is right"
+      },
+      {
+        "id": "b",
+        "text": "Pause until morning after food and sleep, then meet privately, set ground rules, have each restate the other's view, and look for the need behind each demand before brainstorming options"
+      },
+      {
+        "id": "c",
+        "text": "Flip a coin and refuse to discuss it again"
+      },
+      {
+        "id": "d",
+        "text": "Ignore it - they'll work it out eventually"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Exhaustion and hunger make conflicts worse, so pause first. Interest-based negotiation, used by federal mediators, works by setting ground rules, listening until each side feels heard, and finding the interest behind the position - for example, one person needs sleep before the 2 a.m. watch. That opens options like swapping watches or rotating the room. Public rulings harden positions, coin flips ignore real needs and may repeat the fight, and ignoring conflict lets it grow.",
+    "relatedGuide": "psych-006",
+    "tags": [
+      "leadership",
+      "intermediate",
+      "conflict"
+    ]
+  },
+  {
+    "id": "quiz-psych-004",
+    "category": "leadership",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "A winter storm has knocked out power and will likely last several days. You are running your household like an incident command. Put these first actions in the best order.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Name one coordinator and a backup"
+      },
+      {
+        "id": "b",
+        "text": "Assign roles: hands-on work, information tracking, supplies, documents and cash"
+      },
+      {
+        "id": "c",
+        "text": "Hold a short briefing and set 2-4 specific goals for this period"
+      },
+      {
+        "id": "d",
+        "text": "Write tasks, owners, and due times on a task board"
+      },
+      {
+        "id": "e",
+        "text": "Do a spoken handoff when the coordinator goes to sleep"
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "ICS starts by establishing command, so everyone knows who coordinates. Roles come next so work is divided. The briefing shares the situation and sets specific objectives for the operational period. The task board records who owns each task, acting as a household Incident Action Plan. Handoffs come later, at each change of command, with a briefing so nothing is lost between shifts.",
+    "relatedGuide": "psych-008",
+    "tags": [
+      "leadership",
+      "beginner",
+      "ICS",
+      "household"
+    ]
+  },
+  {
+    "id": "quiz-psych-005",
+    "category": "leadership",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Your group of four adults and a 6-year-old has 10 gallons of drinking water left, no running water, and no resupply expected for several days. Someone proposes cutting everyone to one cup of water a day to make it last. What is the best plan?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Agree - strict water rationing stretches the supply furthest"
+      },
+      {
+        "id": "b",
+        "text": "Ration water for adults but not the child"
+      },
+      {
+        "id": "c",
+        "text": "Do not ration drinking water; drink what is needed today, cut all other water uses, rest and stay cool, and put the group's effort into finding and treating more water"
+      },
+      {
+        "id": "d",
+        "text": "Cut food and water by half for everyone equally"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Health officials say never ration drinking water: drink what you need today and look for more for tomorrow. Dehydration causes confusion and illness quickly, which makes finding more water harder. Lower needs by staying cool and reducing activity, and stop using drinking water for washing. Food, unlike water, can be rationed for healthy adults, but not for children or pregnant women - so option d is wrong on both counts.",
+    "relatedGuide": "psych-009",
+    "tags": [
+      "leadership",
+      "advanced",
+      "rationing",
+      "water"
+    ]
+  },
+  {
+    "id": "quiz-psych-006",
+    "category": "leadership",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "You are leading neighbors after a tornado. Smoke is starting to come from a damaged garage next to where people are gathered, and two neighbors want to hold a vote on whether to move. Which leadership style does CERT training say fits this moment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Directive: take quick input if any, then decide and give clear orders to move people away"
+      },
+      {
+        "id": "b",
+        "text": "Participative: gather everyone's ideas and discuss until there is agreement"
+      },
+      {
+        "id": "c",
+        "text": "Delegative: let each neighbor decide for themselves while you observe"
+      },
+      {
+        "id": "d",
+        "text": "Hold the vote - group decisions build buy-in"
+      }
+    ],
+    "correct": "a",
+    "explanation": "CERT leadership training matches style to urgency: directive when lives are in immediate danger, participative when the situation is controlled, and delegative when a plan is set and there is no immediate risk. Possible fire next to a crowd is an urgent life-safety moment, so the leader decides and moves people now. Discussion and votes are good for lower-stakes decisions with more time, but here they cost seconds that matter. Call 911 for the fire.",
+    "relatedGuide": "psych-003",
+    "tags": [
+      "leadership",
+      "advanced",
+      "CERT",
+      "command"
+    ]
+  }
+]

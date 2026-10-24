@@ -2,22 +2,123 @@
   "id": "checklist-tornado",
   "title": "Tornado",
   "disasterType": "tornado",
-  "description": "Prepare in advance — tornadoes give minutes of warning, not hours.",
+  "description": "Use this list before tornado season - warnings give minutes, not hours, so your shelter and alerts must be ready in advance.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Tornadoes",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/tornado",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Tornado Safety Rules",
+      "publisher": "NWS Birmingham",
+      "url": "https://www.weather.gov/bmx/sps_torsafetyrules",
+      "accessed": "2026-10"
+    }
+  ],
   "items": [
-    { "id": "t-001", "text": "Identify the lowest interior room in your home — bathroom, closet, or hallway", "critical": true },
-    { "id": "t-002", "text": "NOAA weather radio with Specific Area Message Encoding (SAME) set to your county", "critical": true },
-    { "id": "t-003", "text": "Download your county's emergency alert app (Wireless Emergency Alerts enabled on phone)", "critical": false },
-    { "id": "t-004", "text": "Know the difference between Tornado Watch (conditions favorable) and Warning (tornado confirmed)", "critical": true },
-    { "id": "t-005", "text": "Identify a heavy table or furniture in your safe room to shelter under", "critical": false },
-    { "id": "t-006", "text": "Bicycle helmet stored in safe room for head protection", "critical": false },
-    { "id": "t-007", "text": "Heavy blankets or sleeping bag stored in safe room to cover head and neck", "critical": false },
-    { "id": "t-008", "text": "Flashlight and extra batteries in safe room", "critical": true },
-    { "id": "t-009", "text": "Battery-powered or hand-crank radio in safe room", "critical": true },
-    { "id": "t-010", "text": "Water (at least 3 days) and non-perishable food in safe room", "critical": false },
-    { "id": "t-011", "text": "First aid kit accessible in safe room", "critical": false },
-    { "id": "t-012", "text": "Know your mobile home's nearest permanent structure — evacuate immediately on Warning", "critical": true },
-    { "id": "t-013", "text": "Phone charged and nearby during tornado season and at night", "critical": true },
-    { "id": "t-014", "text": "Family meeting point established if separated after storm", "critical": false },
-    { "id": "t-015", "text": "Out-of-area emergency contact designated (local lines overwhelmed after event)", "critical": false }
+    {
+      "id": "t-001",
+      "text": "Pick your shelter: a safe room or storm shelter, then a basement, then a small interior windowless room on the lowest floor (closet, bathroom, or hallway)",
+      "critical": true
+    },
+    {
+      "id": "t-004",
+      "text": "Know the alerts: a Tornado Watch means be ready to move; a Tornado Warning means go to shelter now - do not wait to see it",
+      "critical": true
+    },
+    {
+      "id": "t-002",
+      "text": "Keep a NOAA Weather Radio with battery backup, programmed with your county SAME code",
+      "critical": true
+    },
+    {
+      "id": "t-003",
+      "text": "Turn on Wireless Emergency Alerts on every phone and sign up for local alerts - outdoor sirens often cannot be heard indoors",
+      "critical": true
+    },
+    {
+      "id": "t-012",
+      "text": "If you live in a mobile home, go to a sturdy building or community shelter on any day a Watch is issued or severe storms are forecast",
+      "critical": true
+    },
+    {
+      "id": "t-016",
+      "text": "Practice getting everyone, including pets, to shelter in under 2 minutes",
+      "critical": true
+    },
+    {
+      "id": "t-006",
+      "text": "Keep a helmet (bike, sports, or motorcycle) for each person in the shelter - head injuries cause many tornado deaths",
+      "critical": true
+    },
+    {
+      "id": "t-017",
+      "text": "Keep sturdy shoes for each person in the shelter for walking over glass and nails afterward",
+      "critical": true
+    },
+    {
+      "id": "t-007",
+      "text": "Keep a mattress, heavy blankets, or sleeping bags at hand to cover heads and bodies",
+      "critical": false
+    },
+    {
+      "id": "t-005",
+      "text": "In a basement, plan to get under a workbench, heavy table, or the stairs - not under heavy items on the floor above",
+      "critical": false
+    },
+    {
+      "id": "t-008",
+      "text": "Keep a flashlight and extra batteries in the shelter",
+      "critical": true
+    },
+    {
+      "id": "t-009",
+      "text": "Keep a battery or hand-crank radio in the shelter",
+      "critical": true
+    },
+    {
+      "id": "t-013",
+      "text": "Keep phones charged and nearby during storm season, especially at night",
+      "critical": true
+    },
+    {
+      "id": "t-018",
+      "text": "Keep a whistle in the shelter to signal rescuers if trapped",
+      "critical": false
+    },
+    {
+      "id": "t-011",
+      "text": "Keep a first aid kit and needed medicines in or near the shelter",
+      "critical": false
+    },
+    {
+      "id": "t-010",
+      "text": "Keep water and some non-perishable food in the shelter (at least a few days' worth for a safe room)",
+      "critical": false
+    },
+    {
+      "id": "t-019",
+      "text": "Know the car rule: never shelter under an overpass or bridge",
+      "critical": true
+    },
+    {
+      "id": "t-020",
+      "text": "Keep work gloves and N95 masks for safe cleanup through debris",
+      "critical": false
+    },
+    {
+      "id": "t-014",
+      "text": "Set a family meeting point in case you are separated after the storm",
+      "critical": false
+    },
+    {
+      "id": "t-015",
+      "text": "Pick an out-of-area contact - local lines overload after a tornado, so text instead of calling",
+      "critical": false
+    }
   ]
 }

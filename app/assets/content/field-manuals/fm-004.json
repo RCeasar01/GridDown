@@ -2,74 +2,119 @@
   {
     "id": "fm-004",
     "category": "security",
-    "title": "Immediate Action Drills — Contact and Escape",
+    "title": "Recognize, Break Away, Escape: Getting Out of Danger Fast",
     "priority": "advanced",
-    "source": "US Army Field Manual (Public Domain)",
+    "source": "DHS / CISA / Defense Logistics Agency public guidance",
     "tags": [
       "field-manual",
       "security",
-      "immediate-action",
       "escape",
-      "awareness"
+      "awareness",
+      "avoidance",
+      "get help"
     ],
-    "summary": "Simplified civilian adaptation of military immediate action drills — focused on situational awareness, threat recognition, and rapid escape. NOT combat doctrine. The goal is always to avoid, evade, and escape — not to engage.",
+    "summary": "A civilian plan for the moment things turn dangerous: notice the warning signs early, break away from the threat, get out of sight and out of reach, and get to safety and help. Avoid, escape, get help - never engage.",
     "steps": [
       {
         "step": 1,
-        "title": "Color Code Awareness System",
-        "body": "The Cooper Color Code provides a mental framework for calibrating alertness to environment. White — unaware, relaxed; this is unsafe in any grid-down public environment where baseline social controls have broken down; only appropriate when sleeping in a secured location with trusted watch posted. Yellow — relaxed alertness: you are aware of your surroundings, scanning for anomalies, not fixated on any one thing; this is the sustainable baseline for all grid-down movement and public interaction. Orange — specific alert: you have identified a specific person, vehicle, or situation that may present a threat; you are developing a plan ('if X happens, I will do Y'); you are ready to act but have not yet acted. Red — action mode: threat has materialized, you are executing your pre-planned response. The key insight: pre-building your 'if-then' plan in Orange means you do not have to think in Red — you simply execute. Transitions between conditions should be deliberate, not reactive."
+        "title": "Notice the early warning signs",
+        "body": "Danger usually announces itself a few seconds to a few minutes before it arrives. Watch for people suddenly running or going quiet, a crowd pressing in one direction, shouting that keeps getting louder, someone who keeps closing in on you after you move away, vehicles blocking the way out of a lot, or sounds like breaking glass or gunshots. People closer to a problem often react first, so if those around you start moving away, pay attention. You do not need to know exactly what is happening to decide that you should leave."
       },
       {
         "step": 2,
-        "title": "Contact Recognition",
-        "body": "Recognizing a developing threat before it materializes gives you the most critical resource: time to choose your response. Environmental indicators: (1) Mass exodus of bystanders from an area without apparent cause — people near the threat often know before you do; (2) Vehicles positioned to block egress routes — especially multiple vehicles at choke points; (3) Individuals converging from multiple directions on a single point (you); (4) Staged strangers who appear to be communicating with each other while appearing unrelated; (5) Animals (dogs, birds) reacting suddenly to a direction before humans are aware of the cause. Sound indicators: gunfire — immediately get below the level of cover, identify the rough direction of fire, move at 90 degrees away from the direction of fire (not directly away — direct retreat keeps you in the line of fire longer). Do not run toward the sound to investigate. Your first task is to put distance and cover between yourself and the threat."
+        "title": "Decide fast - leaving is the default",
+        "body": "Freezing is a normal stress reaction, and it costs time. Break it with a simple rule you decide now: 'When in doubt, get out.' Tell yourself or your family one short command, like 'We're leaving - now.' Leave belongings behind; a purse or cart is not worth your life. If you are with children or someone who moves slowly, take their hand and go. Do not stop to film, watch, or investigate. The earlier you move, the easier it is to get away quietly."
       },
       {
         "step": 3,
-        "title": "Immediate Action — Break Contact",
-        "body": "The civilian immediate action drill is built around one goal: break line of sight, gain distance, reach a rally point. Movement: never run in a straight line directly away from a threat; move at 90 degrees to the threat axis — this takes you out of the most likely engagement direction fastest. Cover vs. concealment: cover stops projectiles (concrete walls, engine blocks, dense earthen berms, large trees); concealment only hides you (car doors, drywall, plywood, most bushes); always prioritize cover over concealment. Move from cover to cover, not across open ground if possible. Breaking line of sight is the priority — once you are not visible, the threat's ability to track you degrades dramatically. Distance: after breaking line of sight, gain as much distance as terrain allows before slowing to reassess. Do not stop in the first concealed spot — it is the first place that will be checked."
+        "title": "Break away and create distance",
+        "body": "Put as much distance between you and the danger as you can, moving toward exits you noted earlier, including staff exits and back doors. If someone grabs at you or blocks you, yell loudly ('Back off! Help!') to draw attention, and keep moving toward people and lights. In a crowd that is pressing or surging, do not push against it; move diagonally toward the edges, keep your arms up in front of your chest to protect your breathing, and stay on your feet. Leave the area completely - the parking lot of the same building is still too close."
       },
       {
         "step": 4,
-        "title": "Rally Point Protocol",
-        "body": "A rally point is a pre-designated location where group members reassemble after separation. This must be established BEFORE movement — it cannot be improvised under stress. Two rally points required for any movement: (1) Near rally point (NRP) — a location within sight or short distance of the current position; used for immediate reassembly if contact occurs; must be a defensible or concealed position; group waits here for 30 minutes before moving to far rally point if not all members have arrived; (2) Far rally point (FRP) — a pre-planned location away from the area of operations, known to all group members; used after escape when immediate reassembly is not possible or the near rally point is compromised; provides a rendezvous option hours later. Rally point requirements: unambiguous (everyone pictures the same location), defensible or concealed, known to all members, has a time limit (how long to wait before assuming lost members are not coming). Conduct a verbal briefing on both rally points before any movement outside a secure area."
+        "title": "Get out of sight and behind something solid",
+        "body": "If you cannot get far away right away, get out of view. Things that only hide you, such as bushes, car doors, and thin walls, are better than nothing. Things that are solid and thick, such as concrete walls, brick, large trees, and a car's engine area, offer real protection. Move from one solid object to the next toward an exit rather than across open ground. If you hide inside, lock or block the door, silence your phone, turn off lights, and stay away from the door. Do not stay in the first hiding place if you can safely keep moving away."
       },
       {
         "step": 5,
-        "title": "Bounding Overwatch for Civilian Movement",
-        "body": "Bounding overwatch is a movement technique that ensures at least one person is always in a position to observe and respond while the other moves. Applicable to any high-uncertainty movement: clearing a building, crossing open ground, moving through unknown urban terrain. Basic procedure for pairs: (1) Person A (overwatcher) takes a covered or concealed position with clear view of the route ahead; (2) Person B (mover) moves to the next covered position on the planned route — approximately 25–50 meters in open terrain, shorter in urban environments; (3) Person B signals 'set' (hand signal or verbal in low-noise environments) when in position; (4) Person A moves to the next position, passing Person B or leapfrogging forward; (5) Repeat until objective is reached. Key rule: never have both people moving simultaneously — this is when a threat can engage without anyone in an observation position. In groups larger than two, the principle scales: half the group moves while half observes and is prepared to respond."
+        "title": "Get help as soon as you are safe",
+        "body": "Once you are away, call or text 911. Say what is happening, where, how many people are involved, and which way they went. If you cannot talk, leave the line open or text 911 where available. Warn others to stay away from the area. When police arrive, keep your hands empty and visible, follow their commands, and avoid sudden moves or grabbing them; they do not yet know who is a threat. Officers may pass injured people at first because their job is to stop the danger."
+      },
+      {
+        "step": 6,
+        "title": "Regroup at your meeting place",
+        "body": "If your group was separated, go to the meeting place you agreed on before you went out (see security-004) and text your out-of-area contact. Do not go back into the danger area to look for someone - tell police who is missing and what they were wearing. Count heads, check for injuries, and get medical help for anyone hurt. Some injuries, including cuts from glass, are not noticed until the adrenaline fades."
+      },
+      {
+        "step": 7,
+        "title": "Recover and debrief",
+        "body": "After a frightening event, shaking, crying, trouble sleeping, and replaying the moment are normal. Talk with someone you trust, eat, drink water, and rest. If symptoms last more than a few weeks or get in the way of daily life, reach out to a doctor or counselor; the 988 Suicide and Crisis Lifeline also offers support by call or text. When things are calm, talk as a family about what worked and what you would do differently, and update your plan."
       }
     ],
     "warnings": [
-      "This guide covers situational awareness and escape doctrine for civilians — it is NOT combat training. Attempting to execute military contact drills without extensive training is dangerous.",
-      "The goal is always ESCAPE and AVOID. Physical confrontation is a last resort when all avoidance and escape options have been exhausted.",
-      "Use these skills only in genuine self-defense scenarios. Domestic law governs use of force — know your jurisdiction's laws before any scenario unfolds."
+      "This is not combat training. Never move toward a threat to investigate or confront it.",
+      "Leave belongings behind. Going back for a bag, phone, or vehicle has cost lives.",
+      "When police arrive, keep hands empty and visible and follow every command.",
+      "Physical resistance is a last resort only when your life is in immediate danger and you cannot escape or hide - see sec-010."
     ],
     "proTips": [
-      "Establish near and far rally points with your group before every movement outside your secure area — even short trips. It takes 60 seconds and eliminates chaos if you get separated.",
-      "Practice the color code system daily in normal life. Spending time in Yellow in grocery stores, parking lots, and public spaces builds the habit before you need it under stress."
+      "Every time you enter a building, name two exits silently. It takes seconds and makes this plan automatic.",
+      "Agree on one family command word that means drop everything and go.",
+      "Wear shoes you can run in when going into crowds, lines, or events.",
+      "Keep your phone charged and know whether your area supports text-to-911."
     ],
     "relatedGuides": [
-      "fm-001",
-      "fm-002",
-      "sec-002",
-      "security-004"
+      "sec-001",
+      "sec-010",
+      "security-004",
+      "sec-014",
+      "fm-001"
     ],
-    "lastReviewed": "2025-01",
-    "skillLevel": "intermediate",
+    "sources": [
+      {
+        "title": "What to do in an active shooter event",
+        "publisher": "Defense Logistics Agency (DLA)",
+        "url": "https://www.dla.mil/About-DLA/News/News-Article-View/Article/909169/what-to-do-in-an-active-shooter-event/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "De-escalation Action Guide (January 2025)",
+        "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+        "url": "https://www.cisa.gov/sites/default/files/2025-01/De-escalation-Action-Guide_v508_20250127.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Recognize the Signs of Suspicious Activity",
+        "publisher": "U.S. Department of Homeland Security",
+        "url": "https://www.dhs.gov/see-something-say-something/recognize-the-signs",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
     "gearRequired": "none",
     "riskLevel": "high",
-    "prerequisites": [],
+    "prerequisites": [
+      "sec-001"
+    ],
+    "whenNotTo": [
+      "During a tornado, earthquake, or chemical release, sheltering in place may be safer than running outside - follow official alerts.",
+      "Do not run into traffic or onto unsafe ground to get away; pick the safest route out."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You are moving through an uncertain or hostile environment and need a framework for threat recognition and escape — the goal is always to avoid, evade, and escape",
+      "situation": "Something around you is turning dangerous - a fight, a crowd surge, a threatening person, or gunfire.",
       "immediate": [
-        "Operate in Condition Yellow baseline — relaxed alertness scanning for anomalies in the behavioral baseline",
-        "On contact recognition: move at 90 degrees to threat axis — not directly away, which keeps you in the line of fire longer",
-        "Break line of sight immediately — prioritize cover (stops projectiles) over concealment (only hides you)"
+        "Leave now - drop belongings and take children by the hand",
+        "Move away toward exits and people; in a crowd, go diagonally to the edge",
+        "If you cannot get away, get out of sight behind something solid"
       ],
       "then": [
-        "Move to pre-established Near Rally Point (NRP) — wait 30 minutes, then Far Rally Point (FRP) if not reunited",
-        "Use bounding overwatch for pairs: one person covers from a fixed position while the other moves to the next covered position"
+        "Call or text 911 once safe; show empty hands to police",
+        "Regroup at your meeting place and check for injuries"
       ]
     }
   }

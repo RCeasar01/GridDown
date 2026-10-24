@@ -1,0 +1,130 @@
+{
+  "id": "checklist-evacuation-grab",
+  "title": "Evacuation Grab List (5 and 15 Minutes)",
+  "disasterType": "evacuation-grab",
+  "description": "Use this list when you are told to leave: grab the 5-minute items first, and add the 15-minute items only if you truly have time.",
+  "category": "security",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "All-Hazard Evacuation Steps (Ready, Set, Go and the 5 P's)",
+      "publisher": "Wyoming Office of Homeland Security",
+      "url": "https://evac.wyo.gov/ready-set-go-info",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Ready, Set, Go! Program",
+      "publisher": "International Association of Fire Chiefs",
+      "url": "https://www.iafc.org/topics-and-tools/resources/resource/ready-set-go-program",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "evg-001",
+      "text": "5 min: People - get everyone out and accounted for; at a 'Go Now' order, leave immediately with nothing else",
+      "critical": true
+    },
+    {
+      "id": "evg-002",
+      "text": "5 min: Pets in carriers or on leashes",
+      "critical": true
+    },
+    {
+      "id": "evg-003",
+      "text": "5 min: Pre-packed go-bags",
+      "critical": true
+    },
+    {
+      "id": "evg-004",
+      "text": "5 min: Prescriptions and critical medical devices (oxygen, CPAP, insulin, epinephrine) with chargers",
+      "critical": true
+    },
+    {
+      "id": "evg-005",
+      "text": "5 min: Phone, charger, wallet, keys, and cash",
+      "critical": true
+    },
+    {
+      "id": "evg-006",
+      "text": "5 min: Glasses, hearing aids, and mobility aids",
+      "critical": true
+    },
+    {
+      "id": "evg-007",
+      "text": "5 min: Document folder or encrypted drive with ID, insurance, and medical records",
+      "critical": true
+    },
+    {
+      "id": "evg-008",
+      "text": "5 min: Sturdy shoes and a jacket on everyone",
+      "critical": true
+    },
+    {
+      "id": "evg-009",
+      "text": "15 min: Extra water and food from the pantry",
+      "critical": false
+    },
+    {
+      "id": "evg-010",
+      "text": "15 min: Baby supplies (formula, diapers, wipes) and pet food and records",
+      "critical": false
+    },
+    {
+      "id": "evg-011",
+      "text": "15 min: Laptop, power banks, and cables",
+      "critical": false
+    },
+    {
+      "id": "evg-012",
+      "text": "15 min: Change of clothes and toiletries for a few days",
+      "critical": false
+    },
+    {
+      "id": "evg-013",
+      "text": "15 min: Priceless items - photos, heirlooms, and keepsakes that fit in one small bag",
+      "critical": false
+    },
+    {
+      "id": "evg-014",
+      "text": "15 min: Sleeping bags or blankets and pillows for a shelter",
+      "critical": false
+    },
+    {
+      "id": "evg-015",
+      "text": "15 min, if safe and officials advise: close windows and doors, and shut off utilities as directed",
+      "critical": false
+    },
+    {
+      "id": "evg-016",
+      "text": "15 min: Leave a note saying when you left and where you are going",
+      "critical": false
+    },
+    {
+      "id": "evg-017",
+      "text": "Take the route officials give, never drive through floodwater or smoke you cannot see through, and never go back for items",
+      "critical": true
+    },
+    {
+      "id": "evg-018",
+      "text": "Text your out-of-area contact once you are safe",
+      "critical": false
+    },
+    {
+      "id": "evg-019",
+      "text": "Before any emergency: post a copy of this list by the door with where each item is kept",
+      "critical": false
+    },
+    {
+      "id": "evg-020",
+      "text": "Before any emergency: assign each family member items to grab and practice leaving in 10 minutes",
+      "critical": false
+    }
+  ]
+}

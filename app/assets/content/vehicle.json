@@ -2,66 +2,118 @@
   {
     "id": "vehicle-001",
     "category": "vehicle",
-    "title": "Emergency Tire Change Without a Jack",
+    "title": "Changing a Flat Tire Safely - Including When the Jack Is Missing",
     "priority": "critical",
-    "tags": ["vehicle", "tire", "emergency", "field", "mechanical"],
-    "summary": "How to change a flat tire when you have no jack, using military techniques and improvised methods.",
+    "tags": [
+      "vehicle",
+      "tire",
+      "flat-tire",
+      "spare",
+      "roadside",
+      "jack"
+    ],
+    "summary": "Step-by-step flat tire change using the jack and spare that came with your car, plus safe fallbacks (sealant kits, inflators, digging out) when the jack is missing or broken.",
     "steps": [
       {
         "step": 1,
-        "title": "Immediate Safety — Stop and Secure the Vehicle",
-        "body": "Pull completely off the road onto the firmest, flattest surface available — gravel shoulder, dirt pullout, or paved lot. Activate hazard lights immediately. Turn your wheels away from traffic. Set rocks, logs, or any solid debris behind and in front of the tires you are NOT changing — these are your wheel chocks. If on a slope, chock uphill and downhill. Do not skip chocking: without a jack, vehicle movement during the swap is your primary danger. If you have road flares or reflective triangles, place them 200 feet back. Notify someone of your location before starting work."
+        "title": "Get off the road before you stop",
+        "body": "A flat shows up as pulling to one side, a shaking steering wheel, or a flapping sound. Turn on your hazard lights, ease off the gas, and brake gently - do not slam the brakes. Roll on to a parking lot, side street, or exit ramp if you can reach one at low speed; a few hundred yards on a flat may ruin the wheel, but a rim is cheaper than being struck on a narrow shoulder. If you must use the shoulder, pick firm, level, well-lit ground as far from the travel lanes as possible. Never try to change a tire on the traffic side of the car on a busy highway - call for help instead."
       },
       {
         "step": 2,
-        "title": "Break Lug Nut Torque Before Lifting",
-        "body": "This step is critical and must happen BEFORE you lift the vehicle by any method. With the flat tire still bearing full vehicle weight on the ground, place the lug wrench on each nut and break it loose with a firm counterclockwise push. The weight of the vehicle prevents the wheel from spinning. Lug nuts on modern vehicles are torqued to 80–120 ft-lbs — if the tire were elevated first, spinning would defeat every improvised lifting method. Do not fully remove nuts yet, just crack them loose one full turn each. If the wrench slips, try a piece of rubber (like a floor mat) over the nut for grip. Mark cross-pattern order mentally: top, bottom, left, right."
+        "title": "Lock the car in place",
+        "body": "Put the car in Park (or in reverse gear for a manual), turn off the engine, take the keys, set the parking brake, and leave the hazards on. Have passengers get out on the side away from traffic and wait well off the road, behind a guardrail if there is one. Put on a reflective vest if you have one. Set a warning triangle, cone, or flare about 100 feet (30 m) behind the car. Block the tire diagonally opposite the flat with a wheel wedge, a brick, or a solid rock - in front of it if you are lifting the rear, behind it if you are lifting the front."
       },
       {
         "step": 3,
-        "title": "Rock or Curb Method — Drive the Flat Onto an Elevated Surface",
-        "body": "Find a solid rock, concrete curb, raised tree root, or stacked logs 6–8 inches tall and roughly 8–12 inches wide. Drive the flat tire slowly onto the rock so the flat tire sits on top of the elevated object — this lifts the wheel off the ground by the height of the object, creating enough clearance to remove and swap the tire. The vehicle frame remains on the ground; only the flat wheel is elevated. This is the fastest and most stable improvised lift method. On a curb, pull the flat tire up onto the curb edge at an angle. Test stability: push the vehicle side-to-side before getting under the wheel area. Position your spare ready to hand."
+        "title": "Find the tools and read the manual",
+        "body": "Open the owner's manual to the tire-change page - it shows where the spare, jack, and lug wrench are stored and, most importantly, the exact jack points on the frame. Many newer cars have no spare at all; they carry a sealant bottle and a small air compressor instead (see step 7). Lay the spare flat on the ground near the work area so it cannot roll into the road. If you have a wheel lock, find the lock key, usually in the glove box or with the jack."
       },
       {
         "step": 4,
-        "title": "Dig-Under Method — Excavate Clearance in Soft Ground",
-        "body": "If no elevated surface exists but the ground is soft (dirt, sand, gravel), use a shovel, large stick, rock, or your hands to dig a bowl-shaped depression under the flat tire — not a channel. The goal is to lower the flat tire into the hole, which effectively raises the hub and axle. Dig a circle roughly 18 inches in diameter and 4–6 inches deep centered under the tire contact patch. Clear loose material completely. The bowl shape prevents collapse better than a trench. Once the hole is dug, roll or push the vehicle so the flat tire sits in the bowl. Test stability. This method works best on dry dirt or compact gravel — loose sand may collapse and is unsafe."
+        "title": "Loosen the lug nuts while the tire is still on the ground",
+        "body": "Pop off any hubcap. With the car still resting on the flat, put the wrench on each lug nut and turn it counterclockwise a quarter to a half turn - just enough to break it free. The ground keeps the wheel from spinning. If a nut is very tight, put the wrench handle level and push down with your foot, keeping your body balanced. Do not remove the nuts yet. Loosening them after the car is up can rock it off the jack."
       },
       {
         "step": 5,
-        "title": "Log Lever Method — Build a Fulcrum Lift",
-        "body": "Use a long, strong hardwood branch (minimum 2 inches diameter, 6–8 feet long) or a salvaged 2x4/4x4 as a lever. Find or stack rocks into a fulcrum 6–10 inches tall, positioned about 2 feet from the vehicle's frame jack point (check owner's manual or look for the reinforced metal notch behind the front wheels and ahead of the rear wheels on the frame rail). Slide the lever under the frame jack point with the fulcrum between you and the vehicle. Assign 2–3 people to push the long end down while one person works the wheel. This method requires coordination and is slower — use only if rock and dig methods are unavailable. Never place any body part under the vehicle while it is being levered."
+        "title": "Jack the car at the marked point only",
+        "body": "Place the jack under the metal jack point the manual shows, closest to the flat. Plastic trim, the oil pan, and suspension parts will crack or let the jack slip. Raise the car until the flat is about 6 inches (15 cm) off the ground - a spare that is fully inflated needs more clearance than the flat did. Keep every part of your body out from under the car the whole time. If the car shifts or the jack tilts, lower it right away and reposition on firmer ground. On soft dirt, put a flat board under the jack base."
       },
       {
         "step": 6,
-        "title": "Tire Swap — Remove, Mount, and Torque",
-        "body": "Once clearance is achieved, fully remove lug nuts in the same cross-pattern order you cracked them. Keep nuts in your pocket or cupped in a hand — losing one in a ditch is a serious problem. Remove the flat and immediately mount the spare, aligning the wheel holes to the studs. Thread lug nuts by hand first — cross-pattern — until all are snug. Apply final tightening with the wrench using your body weight plus foot leverage on the wrench arm. Without a torque wrench, snug and tight is the goal: firm, even pressure on each nut. After lowering and removing improvised lift, re-torque all nuts once the full vehicle weight is on the spare. Drive under 50 mph to the nearest shop to torque to spec (typically 90–100 ft-lbs) and check spare pressure."
+        "title": "Swap the wheel and tighten in a star pattern",
+        "body": "Remove the lug nuts by hand and keep them in a pocket or hubcap so none roll away. Pull the flat straight toward you with a smooth motion and lay it flat - jerking it can knock the car off the jack. Lift the spare onto the studs with the valve stem facing out. Thread every nut by hand first to avoid cross-threading, then snug them in a star (crisscross) pattern. Lower the car until the tire just touches the ground, tighten firmly in the same star pattern, then lower it fully and remove the jack. Recheck the nuts after the first few miles."
+      },
+      {
+        "step": 7,
+        "title": "No jack or no spare: use the safest fallback",
+        "body": "If the jack is missing, broken, or the ground is too soft, call roadside assistance or ask another driver to lend a jack - this is the safe answer. For a small tread puncture, a sealant kit or the car's tire repair kit plus a 12-volt inflator can seal and refill the tire enough to reach a shop; follow the kit's speed limit. Sealant will not fix a sidewall cut or a blowout. As a last resort on soft dirt or sand, you can dig a pit under the flat so the wheel hangs free while the car stays on its other three wheels - dig deep enough for the taller, inflated spare, chock the other wheels, set the parking brake, and never put any part of you under the car."
+      },
+      {
+        "step": 8,
+        "title": "Check the spare and drive to a shop",
+        "body": "Check the spare's pressure with a gauge. Compact \"donut\" spares usually need about 60 psi - the correct number is printed on the spare or the door-jamb label. Do not exceed 50 mph (80 km/h) on a compact spare and use it only for short distances. Stow the flat, tools, and triangles, release the parking brake, and go straight to a tire shop. Have the flat inspected; a tire driven flat for any distance often has hidden sidewall damage and should not be reused."
       }
     ],
     "warnings": [
-      "Never place any part of your body under a vehicle supported only by improvised methods — keep all limbs clear at all times",
-      "Identify the proper jacking points on the frame rail before applying any lift force — lifting on rocker panels, plastic body panels, or the differential will cause serious damage",
-      "In soft or loose ground, the dig-under method risks sudden collapse — test stability aggressively before working near the wheel",
-      "A spare tire that has been stored flat or underinflated will fail quickly — check spare pressure monthly",
-      "Lug nuts that are cross-threaded can cause wheel separation at speed — always thread by hand first and confirm smooth rotation before applying wrench force"
+      "Never put any part of your body under a car held up only by a jack, a pile of rocks, or a dug-out pit.",
+      "Jack only on the metal jack points shown in the owner's manual - other spots crack, bend, or let the car slip.",
+      "Do not change a tire on the traffic side of a car on a highway shoulder; get towed to a safer spot or call for help.",
+      "Tire sealant does not repair sidewall damage or blowouts, and you must tell the tire shop it is in the tire.",
+      "Compact spares are limited to about 50 mph and short distances - they are not a long-term tire."
     ],
     "proTips": [
-      "Military vehicle crews practice the rock/curb method during field training — it is the fastest single-person improvised lift when a suitable surface exists",
-      "Carry a small hydraulic bottle jack (2-ton, fits under a seat) — it weighs 6 lbs and eliminates this entire problem",
-      "To prevent cross-threading, hold the lug nut between thumb and forefinger, align to the stud, and rotate counterclockwise slowly until you feel it drop into thread alignment, then reverse clockwise",
-      "Keep a can of Fix-a-Flat as a backup — it buys you 50–100 miles at low speed on a puncture (not a blowout) and eliminates the need for a lift entirely"
+      "Check the spare's pressure every month and before long trips - NHTSA advises inspecting the spare along with the other tires.",
+      "Practice one tire change in your driveway so you know where the jack points and wheel-lock key are before you need them.",
+      "A small 12-volt tire inflator and a plug kit cover many punctures that would otherwise leave you waiting for a tow.",
+      "Keep a pair of work gloves, a flashlight, and a short board for the jack base with the tire tools."
     ],
-    "relatedGuides": ["vehicle-002", "vehicle-003"],
-    "source": "USAF SERE curriculum / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
-    "skillLevel": "intermediate",
+    "relatedGuides": [
+      "vehicle-013",
+      "vehicle-010",
+      "vehicle-011",
+      "tools-003"
+    ],
+    "source": "AAA / NHTSA / owner's manual guidance",
+    "sources": [
+      {
+        "title": "How to Change a Tire in 11 Easy Steps",
+        "publisher": "AAA",
+        "url": "https://www.aaa.com/autorepair/articles/how-to-change-a-tire-in-11-easy-steps",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NHTSA: Never too early to prepare for driving in wintry conditions",
+        "publisher": "NHTSA (via U.S. Army / army.mil)",
+        "url": "https://www.army.mil/article/282158/nhtsa_never_too_early_to_prepare_for_driving_in_wintry_conditions",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "On a narrow shoulder with traffic passing close to the flat side - get the car towed or moved first.",
+      "When the jack, ground, or car feels unstable - stop and call for help rather than forcing it.",
+      "When the tire has a sidewall tear or the wheel is bent - sealant and the spare may not be enough; plan for a tow."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You have a flat tire and no jack — you need to improvise vehicle lift to swap the tire and get moving",
-      "immediate": ["BEFORE any lifting: break lug nut torque while tire is still on the ground bearing full weight — this prevents wheel spinning", "Rock/curb method: drive flat tire onto a solid 6-8 inch rock or curb to create clearance — fastest and most stable improvised lift", "Dig-under method: excavate a bowl 18 inches diameter and 4-6 inches deep under the flat tire to lower it and lift the hub"],
-      "then": ["Thread all lug nuts by hand first in cross-pattern before applying wrench force", "After tire swap: drive under 50 mph to nearest shop for proper torque spec (90-100 ft-lbs)"]
+      "situation": "You have a flat tire and need to get rolling again without getting hurt.",
+      "immediate": [
+        "Hazards on, roll to a safe, level spot away from traffic",
+        "Park, parking brake, engine off, chock the opposite wheel",
+        "Set a triangle about 100 feet behind the car"
+      ],
+      "then": [
+        "Loosen nuts on the ground, jack at the marked point, swap, tighten in a star pattern",
+        "Keep a compact spare under 50 mph and drive to a tire shop"
+      ]
     }
   },
   {
@@ -69,255 +121,1513 @@
     "category": "vehicle",
     "title": "Jump Starting and Battery Troubleshooting",
     "priority": "critical",
-    "tags": ["vehicle", "battery", "jump-start", "electrical", "emergency"],
-    "summary": "Correct jump-start cable procedure, battery vs. alternator diagnosis, push-starting manuals, and when jumping is dangerous.",
+    "tags": [
+      "vehicle",
+      "battery",
+      "jump-start",
+      "jumper-cables",
+      "jump-starter",
+      "electrical"
+    ],
+    "summary": "How to tell whether a dead battery is the real problem, jump-start a car safely in the right cable order, and what to do when a jump does not work.",
     "steps": [
       {
         "step": 1,
-        "title": "Diagnose: Battery vs. Alternator vs. Starter",
-        "body": "Before grabbing cables, determine what actually failed. Turn on interior dome light and observe brightness, then attempt to start. If the dome light is bright but the engine cranks slowly and dies: weak or discharged battery — jumpable. If dome light is dim or off with no crank: very dead battery or major drain — jumpable but investigate the drain first. If lights are bright, the starter clicks once loudly, but engine does not crank: starter solenoid or bad connection — clean terminals before jumping. If the engine starts fine but dies shortly after or the battery warning light is on while running: the alternator is not charging — jumping will not fix this; driving will kill the new charge in 20–40 minutes. Voltage test with a multimeter: 12.6V+ is good, 12.0V is weak, below 11.8V is dead."
+        "title": "Figure out what actually failed",
+        "body": "Turn the key or press Start and watch and listen. Rapid clicking, dim dash lights, and a slow crank point to a weak battery - a jump should help. Bright lights but one loud click and no crank can be a bad starter or a loose cable. A car that cranks normally but will not start has a fuel or spark problem, and a jump will not fix it. If the battery warning light came on while you were driving and the car then died, the charging system (alternator or belt) is the likely cause; a jump will only get you a short distance."
       },
       {
         "step": 2,
-        "title": "Inspect the Battery Before Connecting Cables",
-        "body": "Never jump a battery that shows a cracked or bulging case — electrolyte leaks are corrosive and hydrogen gas can ignite from a spark. Never jump a frozen battery — ice in the electrolyte causes explosive pressure. Feel the battery case: it should be room temperature or cool. Check for the rotten-egg smell of sulfur, which indicates a venting or failed battery. Check terminal posts: green or white corrosion buildup (lead sulfate or copper sulfate) dramatically increases resistance and may prevent a successful jump. Scrub posts with a wire brush, old toothbrush, or even pour a small amount of cola over them — the carbonic acid dissolves corrosion. Reconnect terminal clamps firmly. A clean connection is often the difference between a successful jump and a failed one."
+        "title": "Inspect the battery before touching it",
+        "body": "Do not jump a battery that is cracked, bulging, leaking, or smells like rotten eggs - replace it instead. Do not jump a battery that may be frozen; let it thaw first. Check that both cars use 12-volt systems (the battery label says so). Many hybrids and EVs have a small 12-volt battery that can be jumped, but AAA warns their electronics can be damaged by jumping another car - read the owner's manual, which shows the exact jump terminals. Take off rings and watches, and wear safety glasses and gloves if you have them."
       },
       {
         "step": 3,
-        "title": "Connect Jumper Cables in the Correct Order",
-        "body": "The order of connections matters — incorrect sequence can cause sparks near the battery or damage electronics. CORRECT ORDER: (1) Red clamp to dead battery POSITIVE terminal. (2) Red clamp other end to donor vehicle POSITIVE terminal. (3) Black clamp to donor vehicle NEGATIVE terminal. (4) Black clamp other end to an unpainted metal ground point on the dead vehicle — a bolt on the engine block, the alternator bracket, or the chassis rail. Do NOT connect the final black clamp to the dead battery negative terminal; connecting to a chassis ground keeps any hydrogen gas spark away from the battery. Start the donor vehicle and let it run at fast idle (1500–2000 RPM) for 2–3 minutes before attempting to start the dead vehicle. DISCONNECT in reverse order after the dead vehicle starts."
+        "title": "Set up both cars",
+        "body": "Park the good car close enough for the cables to reach without the cars touching, out of traffic and in a spot where you can be seen. Put both in Park or Neutral, set both parking brakes, and turn both ignitions and all accessories off. Clean heavy white or green corrosion off the terminals with a wire brush or a stiff rag so the clamps bite on bare metal. Route the cables away from belts and the cooling fan."
       },
       {
         "step": 4,
-        "title": "Push-Starting a Manual Transmission Vehicle",
-        "body": "If no donor vehicle is available and the transmission is manual, push-starting (also called bump-starting) bypasses the starter motor entirely. You need a downhill slope or at least 3–4 people to push on flat ground. Procedure: (1) Turn the ignition to ON (not start). (2) Depress the clutch pedal fully. (3) Shift into second gear (first gear causes a harsh lurch and often stalls immediately). (4) Have pushers build speed to at least 5–8 mph. (5) Release the clutch pedal quickly and firmly — the drivetrain compression will spin the engine. (6) If the engine fires, depress the clutch immediately to prevent stalling, then rev slightly to keep it running. This method only works if the engine itself is healthy and the battery failure is the sole problem. Do not attempt in automatic transmission vehicles — it will not work and can damage the transmission."
+        "title": "Connect the cables in this order",
+        "body": "Follow the order AAA gives. (1) Red clamp to the positive (+) post of the dead battery. (2) Other red clamp to the positive (+) post of the good battery. (3) Black clamp to the negative (-) post of the good battery. (4) Last black clamp to bare, unpainted metal on the dead car's engine or frame, such as a thick bolt, away from the battery. That last connection often sparks, and a battery can give off hydrogen gas, so the spark should happen away from it. Never let the red and black clamps touch each other once any clamp is attached."
       },
       {
         "step": 5,
-        "title": "Identify a Sulfated or Failed Battery",
-        "body": "A battery that takes a jump charge but dies again within hours is likely sulfated — lead sulfate crystals have built up on the plates, permanently reducing capacity. Signs: battery is several years old (typical life is 3–5 years), takes a full charge on a charger but drops to 12.0V or below overnight, or voltage collapses under load (lights dim severely when you crank). A sulfated battery cannot be reliably recovered in the field. Slow-charging at 2 amps over 24–48 hours can sometimes break down light sulfation, but heavy sulfation is permanent. Test under load: connect a multimeter and crank the engine — if voltage drops below 9.6V during cranking, the battery has insufficient capacity and needs replacement regardless of resting voltage."
+        "title": "Start the cars",
+        "body": "Start the good car and let it run 3 to 5 minutes; a little extra engine speed helps. Then try the dead car. If it cranks slowly but will not catch, wait about 5 minutes and try again. If it still will not start after a third try, the battery is probably finished or something else is wrong - stop before you overheat the starter. Once the dead car runs, leave the cables on for another 3 to 5 minutes."
       },
       {
         "step": 6,
-        "title": "Common Mistakes and Reverse Polarity Consequences",
-        "body": "Reverse polarity — connecting cables backward (positive to negative) — is a serious electrical fault. In older vehicles it immediately destroys the alternator diodes and may blow fusible links. In modern vehicles with electronic control units, it can destroy the ECU, ABS module, and other modules in milliseconds. The consequences are expensive and not field-repairable. Prevention: red to red (positive), black to engine ground (not negative terminal). If you reverse the cables and see sparks or smoke, disconnect immediately and check all fuses before any further attempts. Other common mistakes: clips touching each other while connected to a live battery (causes arcing — keep clamps separated), running the donor vehicle in an enclosed space (carbon monoxide risk), and leaving cables connected too long after a successful start (heat buildup in cables)."
+        "title": "Disconnect in reverse and recharge",
+        "body": "Remove the clamps in exact reverse order: black from the engine ground, black from the good battery, red from the good battery, then red from the car you just started. Keep the clamps apart as you go. Drive the revived car for 20 to 30 minutes, with the A/C and rear defroster off if you can, so the alternator can put charge back in. Idling in a parking lot does very little. If the battery is more than about three years old or keeps dying, have it tested - a short drive will not save a worn-out battery."
+      },
+      {
+        "step": 7,
+        "title": "Using a portable jump starter",
+        "body": "A pocket lithium jump pack lets you start the car alone. Follow the pack's instructions: usually red clamp to the positive post, black clamp to the ground point or negative post, then turn the pack on and start the car within a few seconds. Most packs have reverse-polarity protection, but still double-check. Recharge the pack every few months; cold weather drains it, so keep it in the cabin during winter rather than the trunk."
       }
     ],
     "warnings": [
-      "Never jump a cracked, bulging, leaking, or frozen battery — hydrogen gas and electrolyte can cause burns and explosion",
-      "Reverse polarity connection can permanently destroy the ECU and alternator in modern vehicles — always double-check red to positive, black to chassis ground",
-      "Carbon monoxide accumulates rapidly in enclosed garages — always ensure ventilation when running donor vehicles",
-      "A jump-start does not fix an alternator problem — if the battery light remains on after starting, the vehicle will die again; drive directly to a shop or you will be stranded again"
+      "Never jump a cracked, bulging, leaking, or frozen battery - it can burst and spray acid.",
+      "Connecting cables backwards can destroy fuses and computer modules; check red-to-positive before every connection.",
+      "Keep your face away from the battery while connecting and starting.",
+      "Hybrids and EVs: follow the owner's manual exactly and do not use them to jump other cars unless the manual allows it.",
+      "Never run either car in a closed garage while jumping - exhaust can kill."
     ],
     "proTips": [
-      "A portable lithium jump starter (400–1000 peak amps, fits in a glove box) eliminates the need for a donor vehicle entirely and is one of the highest-value vehicle emergency tools available",
-      "The dome light brightness test is faster than a multimeter for a quick field assessment — a fully charged battery holds lights at near-full brightness even while cranking",
-      "If the battery terminals are corroded and no wire brush is available, a pen knife blade scraped firmly around the post works reasonably well to expose bare lead",
-      "Modern vehicles may require a 5–10 minute drive at highway speed after a jump to sufficiently recharge the battery — idling in a parking lot is much less effective"
+      "A portable jump starter is one of the most useful items in a vehicle kit, since it removes the need for a second car.",
+      "If the battery light stays on after the jump, head straight to a shop or safe place - the alternator is not charging and the car will die again.",
+      "Batteries fail most in hard cold and hard heat; have yours load-tested before winter.",
+      "Write down your radio and anti-theft codes - some cars ask for them after the battery goes fully dead."
     ],
-    "relatedGuides": ["vehicle-001", "vehicle-003"],
-    "source": "USAF SERE curriculum / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "vehicle-010",
+      "vehicle-013",
+      "vehicle-012",
+      "vehicle-001"
+    ],
+    "source": "AAA / NHTSA / owner's manual guidance",
+    "sources": [
+      {
+        "title": "How to Jump a Battery and Get Yourself Back on the Road",
+        "publisher": "AAA",
+        "url": "https://www.aaa.com/autorepair/articles/how-to-jump-a-battery-and-get-yourself-back-on-the-road",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NHTSA: Never too early to prepare for driving in wintry conditions",
+        "publisher": "NHTSA (via U.S. Army / army.mil)",
+        "url": "https://www.army.mil/article/282158/nhtsa_never_too_early_to_prepare_for_driving_in_wintry_conditions",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "When the battery is damaged, leaking, or frozen.",
+      "When the car cranks normally but will not start - the battery is not the problem.",
+      "When the only donor is a hybrid or EV whose manual says not to jump other vehicles."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "Your vehicle will not start due to a battery issue — correct cable order prevents expensive electrical damage",
-      "immediate": ["CORRECT ORDER: Red to dead positive → Red to donor positive → Black to donor negative → Black to chassis ground on dead vehicle (NOT battery negative)", "Inspect battery before connecting: cracked case, bulging, frozen, or rotten-egg smell = do not jump", "Run donor at fast idle (1500-2000 RPM) for 2-3 minutes before attempting to start the dead vehicle"],
-      "then": ["If battery light stays on after starting: alternator is not charging — drive directly to a shop", "Push-starting a manual: clutch in, second gear, 5-8 mph minimum, release clutch quickly — does not work on automatics"]
+      "situation": "Your car will not start and the battery seems dead.",
+      "immediate": [
+        "Check the battery for cracks, leaks, bulging, or a rotten-egg smell",
+        "Both cars off, in Park, brakes set",
+        "Red to dead +, red to good +, black to good -, black to bare metal on dead car"
+      ],
+      "then": [
+        "Start the good car, wait 3-5 minutes, then start the dead car",
+        "Disconnect in reverse and drive 20-30 minutes; get the battery tested"
+      ]
     }
   },
   {
     "id": "vehicle-003",
     "category": "vehicle",
-    "title": "Engine Overheating — Field Diagnosis and Response",
+    "title": "Engine Overheating - What to Do on the Road",
     "priority": "critical",
-    "tags": ["vehicle", "engine", "overheating", "coolant", "field-repair"],
-    "summary": "Immediate actions when the temperature gauge spikes, field diagnosis of the cause, and improvised remedies to get you moving again.",
+    "tags": [
+      "vehicle",
+      "engine",
+      "overheating",
+      "coolant",
+      "radiator",
+      "roadside"
+    ],
+    "summary": "What to do the moment the temperature gauge climbs, how to check coolant without getting burned, and how to decide between waiting for a tow and limping to safety.",
     "steps": [
       {
         "step": 1,
-        "title": "Immediate Actions — Pull Over Without Causing More Damage",
-        "body": "The moment the temperature gauge enters the red zone or the overheat warning light activates, take action within the next 30–60 seconds. Turn off the air conditioner immediately — it adds load to the engine. If on the highway and unable to pull over instantly, turn the cabin heater to full heat and full fan — this dumps engine heat into the cabin and can buy 1–2 minutes. Find a safe pullout and stop the engine. Do NOT open the radiator cap or overflow reservoir cap while hot — the cooling system is pressurized to 13–16 PSI when hot. Opening the cap releases pressure explosively, spraying 200°F+ coolant. Leave the hood up to vent heat. Wait a minimum of 30 minutes or until the engine is cool enough to comfortably place your hand on the radiator hose."
+        "title": "Act at the first warning",
+        "body": "Watch for the temperature needle climbing toward red, a coolant warning light, steam from under the hood, or a sweet smell. Turn off the air conditioning right away. If you cannot stop immediately, turning the heater and fan to full hot moves some engine heat into the cabin - open the windows and use it only as a short bridge to a safe place to stop. Slow down and avoid hard acceleration and steep climbs."
       },
       {
         "step": 2,
-        "title": "Visual Diagnosis — Find the Cause Before Adding Fluid",
-        "body": "Once cool, open the hood and systematically check for the most common causes. Check the coolant overflow reservoir first — is it empty? Look for coolant puddles under the vehicle; trace the wetness upstream to find the leak source. Inspect all radiator hoses (upper and lower) by squeezing them — they should feel firm but flexible; cracked, soft, or collapsed hoses restrict flow. Check the radiator fins for clogging from debris, mud, or insect nests — blocked fins prevent airflow. Check the drive belt (serpentine belt) routing — if it is cracked or broken, the water pump is not spinning. Look for a failed radiator hose clamp or split seam where the hose meets the radiator neck. Most overheats in the field are caused by coolant loss, a blown hose, or a snapped drive belt — all visible without tools."
+        "title": "Pull over and shut the engine off",
+        "body": "Turn on your hazards and get to a shoulder, side street, or parking lot. AAA advises turning the engine off as soon as you stop. Continuing to drive an engine that is overheating badly can warp the cylinder head or blow the head gasket, which can end the vehicle's usefulness. Get passengers out and away from traffic. If the hood is pouring steam or you see flames, stay back and call 911."
       },
       {
         "step": 3,
-        "title": "Improvised Coolant — What You Can and Cannot Use",
-        "body": "In an emergency, clean water is an acceptable substitute for coolant/antifreeze to get you to safety. Water alone lacks the freeze protection, boiling-point elevation, and corrosion inhibitors of proper coolant, but it will not damage the engine in a one-time emergency use. Use only clean water — avoid water with sediment, salt water, or heavily mineralized well water, which can leave deposits on cooling passages over time. Do not use motor oil, brake fluid, or any petroleum product in the cooling system — these will damage seals and hoses. If the overflow reservoir is accessible and cool, fill it to the MAX line. If coolant is critically low and the engine is completely cool, carefully remove the radiator cap (cloth over cap, turn to first stop, let pressure release, then fully remove) and add water directly to the radiator until full. Expect the temperature gauge to read higher than normal with water only — monitor closely."
+        "title": "Wait before opening anything",
+        "body": "The cooling system is under pressure and the coolant can be well above boiling. Never open the radiator cap or pressure cap on a hot engine - it can spray scalding coolant on your face and arms. Wait at least 30 minutes, and longer on a hot day, until the upper radiator hose is only warm and can be squeezed without resistance. Use this time to call roadside assistance, since AAA recommends a tow to a repair shop as the safe default."
       },
       {
         "step": 4,
-        "title": "Radiator and Hose Field Pressure Test",
-        "body": "Once the engine is cool and the system is refilled, perform a quick field pressure test before driving. Squeeze the upper and lower radiator hoses firmly — a healthy hose resists compression and springs back. A hose that collapses under light pressure or feels mushy has internal delamination and will fail. Look for wetness or coolant residue (dried coolant appears as whitish-green crystalline deposits) around hose clamps, the water pump shaft, the thermostat housing, and radiator seams. Start the engine cold and watch the temperature gauge as it warms. A healthy thermostat opens at 185–195°F and the temp gauge stabilizes in the normal range within 5 minutes. If the temperature climbs steadily without stabilizing, the thermostat is stuck closed — this is the second most common overheat cause after coolant loss. A stuck-closed thermostat must be removed or bypassed to limp to safety."
+        "title": "Look for the cause",
+        "body": "With the engine off and cool, check the see-through overflow tank for coolant level. Look under the car for green, orange, or pink puddles and trace any wet spots upward to a hose, the radiator, or the water pump. Check that the drive belt is present and tight, that the radiator fan is not broken, and that the radiator fins are not packed with leaves or bugs. Check the engine oil level too - AAA lists low oil as one cause of overheating."
       },
       {
         "step": 5,
-        "title": "Head Gasket Check — Identify a Catastrophic Failure",
-        "body": "A blown head gasket is the most serious overheat-related failure. It allows combustion gases into the cooling system and coolant into the combustion chamber. Identify it by these signs: white sweet-smelling smoke from the exhaust (steam from coolant burning), a mayonnaise-like brown froth under the oil filler cap or on the dipstick (coolant mixed with oil), rapid and repeated coolant loss with no visible external leak, and bubbling in the radiator or overflow tank with the engine running. A combustion leak tester (block tester, blue chemical) is the definitive field test — the chemical turns yellow in the presence of combustion gases. Without a tester, repeated coolant disappearance with white exhaust and mayo on the dipstick is near-conclusive."
+        "title": "Add coolant only to a cool engine",
+        "body": "If coolant is low and you have no leak you can see, add the correct pre-mixed coolant to the overflow tank up to the mark, or to the radiator once it is fully cool. In a true emergency, clean water will get you to safety, but it lacks freeze and corrosion protection, so have the system flushed and refilled soon. Do not pour cold liquid into a hot engine. Open caps slowly with a thick rag, turning to the first stop and letting any pressure hiss out before removing them."
       },
       {
         "step": 6,
-        "title": "Driving with a Compromised Engine — How Far and How",
-        "body": "With a confirmed or suspected blown head gasket, continuing to drive risks permanent engine destruction — warped cylinder head, spun rod bearings from oil dilution, or hydrolocked cylinders. However, in a survival scenario where getting to safety is the priority: monitor the temperature gauge constantly, pull over and let cool every 5–10 minutes of driving, keep speed low (under 45 mph reduces heat load), check and refill coolant before every restart, and stop immediately if the gauge hits red. Change the oil as soon as possible — coolant in the oil destroys bearing surfaces rapidly. A vehicle with a minor head gasket seep can sometimes travel 50–200 miles this way. A major failure — rapid coolant loss, severe white smoke, oil that looks milky — may give you only 1–5 miles before seizure. The decision to drive on is a calculated risk; stopping and calling for help is almost always the better option if available."
+        "title": "Decide whether to drive",
+        "body": "AAA warns that adding coolant yourself and continuing to drive is risky, and a tow is safest. If you are somewhere unsafe and must move, drive slowly with the A/C off and the heater on, watch the gauge constantly, and stop again before it reaches red. Do not drive if you see white, sweet-smelling exhaust smoke, milky oil on the dipstick, or coolant pouring out - these point to a blown head gasket or a major leak, and driving can wreck the engine in minutes."
+      },
+      {
+        "step": 7,
+        "title": "Prevent the next one",
+        "body": "Have coolant level and condition, hoses, belts, the thermostat, and the radiator cap checked before summer and winter. Replace hoses that are cracked, swollen, or soft and mushy. Carry a gallon of pre-mixed coolant or water in hot climates and on long trips. Never use coolant as a substitute for a mechanic when the gauge keeps creeping up - repeated overheating means something is failing."
       }
     ],
     "warnings": [
-      "Never open a hot radiator cap — the cooling system is pressurized; sudden cap removal releases boiling coolant explosively and causes severe burns",
-      "Coolant (ethylene glycol) is toxic to animals and has a sweet taste that attracts pets — contain all spills and do not leave puddles on the ground",
-      "Driving with coolant in the oil (blown head gasket) can destroy engine bearings in minutes — do not continue driving without assessing the risk carefully",
-      "A thermostat bypass (removing the thermostat to allow free coolant flow) is a valid emergency measure but will cause heater failure and potential overcooling in cold weather"
+      "Never open a hot radiator or coolant reservoir pressure cap - escaping coolant causes severe burns.",
+      "Coolant is poisonous and tastes sweet to children and pets; clean up spills and keep the jug sealed.",
+      "Stay clear of the radiator fan - many fans can start on their own even with the engine off.",
+      "Steam or smoke near the engine can be a fire; if you see flames, get everyone away and call 911."
     ],
     "proTips": [
-      "Carry two quarts of pre-mixed 50/50 coolant and a roll of duct tape in your vehicle at all times — most field coolant leaks can be temporarily slowed with duct tape over a split hose",
-      "Radiator hose repair tape (self-fusing silicone tape) is far superior to duct tape for cooling system repairs and can hold 50+ PSI when properly applied",
-      "Bars Leaks or similar radiator stop-leak tablets can seal minor leaks in the field and are worth carrying — they will not fix major failures but can get you home from a small pinhole seep",
-      "If you must bypass a stuck thermostat in the field, locate the thermostat housing (where the upper radiator hose meets the engine), remove it, extract the thermostat, and reinstall the housing without it — coolant will now flow unrestricted"
+      "Learn where your temperature gauge normally sits so you notice the first upward creep.",
+      "Self-fusing silicone repair tape can slow a small hose leak long enough to reach help; duct tape rarely holds on a hot, pressurized hose.",
+      "In stop-and-go traffic, shifting to neutral and lightly raising engine speed can help the fan and water pump move more coolant.",
+      "If you must use water, note it and have the coolant mix corrected before freezing weather."
     ],
-    "relatedGuides": ["vehicle-001", "vehicle-002", "vehicle-004"],
-    "source": "USAF SERE curriculum / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
-    "skillLevel": "intermediate",
+    "relatedGuides": [
+      "vehicle-013",
+      "vehicle-010",
+      "vehicle-004",
+      "vehicle-009"
+    ],
+    "source": "AAA / owner's manual guidance",
+    "sources": [
+      {
+        "title": "Car Overheating: 8 Causes and Solutions",
+        "publisher": "AAA",
+        "url": "https://www.aaa.com/autorepair/articles/car-overheating-8-causes-and-solutions",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Car Safety",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/car",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "When steam or smoke is pouring out heavily - stay away and call for help.",
+      "When you see milky oil or white sweet-smelling exhaust - do not keep driving."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "Your temperature gauge is in the red zone — you have 30-60 seconds to respond before potential engine damage",
-      "immediate": ["Turn off AC immediately; if on highway: turn heater to full heat to dump engine heat — buys 1-2 minutes", "Find safe pullout and stop the engine — do NOT open radiator cap while hot (200°F+ pressurized coolant)", "Wait minimum 30 minutes or until you can comfortably touch the radiator hose before inspecting"],
-      "then": ["Check for coolant puddles, cracked or collapsed hoses, broken serpentine belt, clogged radiator fins", "Emergency coolant: clean water is acceptable one-time substitute to get you to safety — never use petroleum products in cooling system"]
+      "situation": "The temperature gauge is climbing or steam is coming from the hood.",
+      "immediate": [
+        "A/C off, heater on full hot as a short bridge",
+        "Pull over, engine off, everyone away from traffic",
+        "Do not open the radiator cap while hot"
+      ],
+      "then": [
+        "Wait 30+ minutes, check coolant level and leaks",
+        "Call for a tow; drive only short distances to safety while watching the gauge"
+      ]
     }
   },
   {
     "id": "vehicle-004",
     "category": "vehicle",
-    "title": "Fuel System Basics and Siphoning",
-    "priority": "advanced",
-    "tags": ["vehicle", "fuel", "siphoning", "storage", "field"],
-    "summary": "Safe fuel siphoning techniques, identifying contaminated fuel, proper storage, and calculating remaining range.",
+    "title": "Fuel Safety - Running Low, Refilling From Cans, and Transferring Fuel",
+    "priority": "beginner",
+    "tags": [
+      "vehicle",
+      "fuel",
+      "gasoline",
+      "diesel",
+      "gas-can",
+      "siphon",
+      "static"
+    ],
+    "summary": "How to stretch the fuel you have, refill safely from a portable can, avoid static fires, and move fuel between containers without mouth siphoning.",
     "steps": [
       {
         "step": 1,
-        "title": "Safe Siphoning — Gravity Method With a Clear Hose",
-        "body": "The safest method to siphon fuel uses gravity and a clear hose — no mouth contact with fuel at any point. You need a clear flexible hose 6–8 feet long (clear vinyl tubing, 3/8\" to 1/2\" ID works well) and a container lower than the fuel tank. Insert one end of the hose into the donor tank as deep as possible. Prime the siphon by submerging the entire hose in the tank, capping your thumb over the exit end to hold the fuel, then quickly lowering the exit end into your container below the tank level. Release your thumb — fuel flows by gravity as long as the exit end remains lower than the liquid surface in the donor tank. Most modern vehicles have anti-siphon screens in the fuel filler neck that block a hose — you may need to access the fuel line directly at the fuel pump or fuel rail instead. Never use oral suction to start a siphon — inhaling fuel vapor causes chemical pneumonitis, and swallowing fuel causes severe poisoning."
+        "title": "Plan so you never run dry",
+        "body": "Running out of fuel strands you, and on many fuel-injected cars it can also overheat or damage the in-tank fuel pump, which relies on fuel to cool it. Treat half a tank as your refill point during storm season or any time trouble may be coming - Florida's emergency managers use exactly that rule because stations run dry and lines get long before a storm. Estimate range as gallons left times realistic miles per gallon, then knock off about 20 percent for traffic, heat or cold, hills, and a loaded car."
       },
       {
         "step": 2,
-        "title": "Identifying Contaminated Fuel by Sight and Smell",
-        "body": "Fresh unleaded gasoline is light yellow and has a sharp, hydrocarbon solvent smell. Fresh diesel is slightly amber and has an oily, heavier smell. Fuel that has gone bad or is contaminated shows these warning signs: gasoline stored over 3–6 months begins to oxidize — it darkens to orange or brown and smells sour or varnish-like; phase-separated ethanol-blend fuel (common E10) shows a distinct cloudy layer at the bottom of a clear container — the water-ethanol mixture separates from gasoline and will not combust. Water contamination causes cloudiness or a visible water layer at the bottom. Diesel contaminated with microbial growth (diesel bug) appears dark with visible black or brown particulate and smells musty or rotten. Never use phase-separated or heavily degraded fuel in a fuel-injected engine — the varnish deposits clog injectors and the water causes misfires and internal corrosion."
+        "title": "Stretch the fuel you have",
+        "body": "If the low-fuel light comes on and the next station is uncertain, slow down to a steady 45 to 55 mph (70 to 90 km/h), avoid hard acceleration and braking, turn off the A/C if it is safe to do so, and drop roof boxes or extra weight if practical. Do not shut the engine off and coast down hills - you can lose power steering and power brakes. Note the mileage when the light came on so you know how far you have gone."
       },
       {
         "step": 3,
-        "title": "Fuel Storage Safety — Containers and Location",
-        "body": "Use only UL-listed red plastic jerry cans or metal fuel cans with a proper venting spout for gasoline storage. Never store gasoline in clear plastic water bottles, milk jugs, or non-approved containers — the plastic degrades, the containers lack proper venting (pressure buildup causes bloating and can split seams), and there is no label differentiation from water containers, which is a serious safety hazard. Store fuel in a detached structure, never inside a living space or an attached garage with ignition sources. Keep containers out of direct sunlight — UV and heat accelerate oxidation and increase vapor pressure. Ground metal cans before pouring to discharge static — touch the can to a metal part of the vehicle before opening the spout. Maximum recommended home storage: 25 gallons in most jurisdictions (check local fire codes). Never store near water heaters, furnaces, or any pilot light."
+        "title": "Fill portable cans on the ground",
+        "body": "NIOSH has documented fires caused by static electricity when gas cans are filled while sitting in a truck bed or on car carpet. Always take the can out and set it on the ground a few feet from the vehicle. Touch the can with the nozzle before you open the cap, keep the nozzle in contact with the can opening the whole time you fill, and fill no more than about 95 percent full so the fuel has room to expand. Never fill a can inside a vehicle or trunk."
       },
       {
         "step": 4,
-        "title": "Draining a Carburetor Float Bowl",
-        "body": "Carbureted engines (older vehicles, most small engines, generators) have a float bowl at the bottom of the carburetor that holds a small reservoir of fuel. When stored with fuel in the bowl, this fuel evaporates and leaves behind varnish deposits that clog the main jet and idle circuit — the primary cause of small engine no-start after storage. To drain: locate the carburetor (follow the air filter housing), find the brass drain screw or drain plug on the bottom of the float bowl, and turn it out 1–2 turns over a rag or small container. Let the bowl drain completely. On carburetors without a drain screw, close the fuel petcock valve on the fuel tank (if equipped), then start and run the engine until it starves and dies — this empties the bowl naturally. Always drain carburetors before storing any small engine for more than 30 days."
+        "title": "Refuel the vehicle from a can",
+        "body": "Shut the engine off and do not smoke or use a lighter or any flame nearby. Use the can's spout or a funnel, keep the can steady on a raised surface or your knee, and pour slowly to avoid splash-back. Many newer cars have a capless filler that needs the special funnel stored with the spare tire - keep it there. Wipe up spills and let the rag dry outdoors before storing it."
       },
       {
         "step": 5,
-        "title": "Fuel Line Bleeding and Priming After Running Dry",
-        "body": "Running a fuel-injected engine completely dry can introduce air into the fuel lines and high-pressure fuel rail, causing hard or no-start conditions even after refueling. The fuel pump must reprime the system. Procedure: add at least 2 gallons of fuel. Turn the ignition key to the ON position (not crank) for 3–5 seconds — you will hear the fuel pump run; it primes the system. Turn back to OFF. Repeat this ON-OFF cycle 3–5 times before cranking. Each cycle builds fuel pressure in the rail. Then crank normally — the engine may take longer than usual to fire on the first start. Diesel engines that have run dry require bleeding air from the fuel filter housing and injection lines — a more involved procedure; consult the vehicle service manual for the specific bleed screw location and sequence."
+        "title": "Transfer fuel without mouth siphoning",
+        "body": "Never start a siphon by sucking on a hose. A mouthful of gasoline can be inhaled into the lungs and cause a serious chemical pneumonia; if anyone swallows or inhales fuel, call Poison Control at 1-800-222-1222 or 911. Use a hand-squeeze bulb siphon or a battery transfer pump, with the receiving can on the ground and lower than the source. Most modern cars have rollover and anti-siphon valves that block a hose from reaching the tank, so plan on carrying fuel in cans rather than drawing it from another car. Take fuel only from vehicles you own or have permission to use."
       },
       {
         "step": 6,
-        "title": "Fuel Range Calculation and Long-Term Storage",
-        "body": "Estimate your remaining range with this formula: (gallons in tank) x (realistic MPG for current conditions) = range in miles. For conservative field planning, use 80% of your rated highway MPG to account for load, terrain, and lower-quality fuel. Example: 8 gallons x 24 MPG x 0.8 = 153 miles. Track actual consumption: reset your trip odometer at each fill, note the gallons added, and divide miles driven by gallons — this gives your real-world MPG over time. For long-term fuel storage (90 days+), add a petroleum-based fuel stabilizer (PRI-G, Sta-Bil, or equivalent) at the manufacturer-specified ratio, typically 1 oz per 2.5 gallons. Stabilizer prevents oxidation and varnish formation. It does not rejuvenate already-degraded fuel — add it to fresh fuel immediately. Rotate stored fuel every 6–12 months by using it in your vehicle and refilling with fresh fuel and new stabilizer."
+        "title": "Store fuel in approved containers",
+        "body": "Use only cans made and labeled for fuel - red for gasoline, yellow for diesel, blue for kerosene - with tight caps. Never use milk jugs, water bottles, or glass. Store cans outside the living space, in a shed or detached garage away from water heaters, furnaces, and anything that sparks, out of direct sun and out of reach of children. Do not keep a full can in the passenger area of a car. Gasoline vapors are heavier than air and can travel along the floor to a pilot light."
+      },
+      {
+        "step": 7,
+        "title": "Keep stored fuel fresh",
+        "body": "Gasoline slowly goes stale, especially ethanol blends, which can absorb water and separate. Write the fill date on every can, add a fuel stabilizer at the dose on its label if you will keep it more than a month or so, and rotate it into your car within the time the stabilizer label states. Fuel that is dark, cloudy, layered, or smells sour should not go into an engine. See the power category guide on fuel storage for longer-term storage limits."
       }
     ],
     "warnings": [
-      "Never use oral suction to start a siphon — fuel vapor inhalation causes chemical pneumonia and fuel ingestion causes poisoning; always use the gravity or hand-pump method",
-      "Gasoline vapors are heavier than air and accumulate at floor level — a single spark from a light switch 30 feet away in the same room can ignite them; store only in well-ventilated detached structures",
-      "Never use non-approved containers for fuel storage — standard plastic water bottles and milk jugs are not rated for fuel and will fail, creating spill and ignition hazards",
-      "Phase-separated ethanol fuel (cloudy, layered appearance) will damage fuel injectors and rubber fuel system components — do not use it in any modern engine"
+      "Never start a siphon with your mouth - inhaled fuel can cause life-threatening lung injury.",
+      "Always fill portable cans on the ground, never in a truck bed, trunk, or on carpet - static sparks have caused fires.",
+      "Never carry an open or leaking can inside the passenger cabin.",
+      "Check local fire codes and your lease or HOA rules for how much fuel you may store at home."
     ],
     "proTips": [
-      "A dedicated hand-operated siphon pump (available for under $10) is more reliable than gravity siphoning and requires no improvisation — it belongs in every emergency vehicle kit",
-      "PRI-G fuel stabilizer is rated to keep gasoline stable for up to 2 years and can rejuvenate mildly degraded fuel — it is significantly more effective than Sta-Bil for long-term storage",
-      "Mark all fuel storage containers with the date filled and the fuel type using a paint pen — unlabeled containers are a serious safety and engine-compatibility hazard",
-      "To quickly test if stored gasoline is still usable: pour a small amount on white concrete — good fuel evaporates leaving almost no residue; bad fuel leaves an oily or dark stain"
+      "Keep the capless-filler funnel with your gas can, not buried in the trunk well.",
+      "A cheap battery or squeeze-bulb transfer pump is much safer and faster than any hose trick.",
+      "Label each can with fuel type and date in paint pen; never mix diesel and gasoline cans.",
+      "Diesel engines that run dry may need the fuel system bled; check the owner's manual for the priming procedure."
     ],
-    "relatedGuides": ["vehicle-003", "vehicle-005"],
-    "source": "USAF SERE curriculum / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
-    "skillLevel": "intermediate",
+    "relatedGuides": [
+      "power-004",
+      "vehicle-009",
+      "vehicle-010",
+      "vehicle-005"
+    ],
+    "source": "NIOSH / Florida Division of Emergency Management / owner's manual guidance",
+    "sources": [
+      {
+        "title": "Fire Hazard from Filling Portable Gas Cans in Pickup Trucks and Cars",
+        "publisher": "NIOSH (hosted by CPWR eLCOSH)",
+        "url": "https://elcosh.org/document/1200/d000372/fire-hazard-from-filling-portable-gas-cans-in-pickup-trucks-and-cars.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "If You're Halfway Full, You're Halfway There",
+        "publisher": "Florida Division of Emergency Management",
+        "url": "https://floridadisaster.org/HalfwayFull",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Car Safety",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/car",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "Never siphon fuel from vehicles or tanks you do not own or have permission to use.",
+      "Do not refuel near open flame, a running engine, or a hot generator."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to siphon fuel from another vehicle, assess stored fuel quality, or safely store fuel for extended periods",
-      "immediate": ["Gravity siphon: submerge full hose in donor tank, cap exit with thumb, lower exit end into container below tank level — release thumb", "NEVER use mouth suction — fuel vapor causes chemical pneumonitis; swallowing fuel causes serious poisoning", "Assess fuel quality: good gasoline is pale yellow with sharp smell; degraded fuel is orange-brown with sour/varnish smell"],
-      "then": ["Store fuel only in UL-listed red jerry cans — never in water bottles or non-approved containers", "Add fuel stabilizer to fresh fuel immediately for storage beyond 30 days — it does not rescue already-degraded fuel"]
+      "situation": "You are low on fuel or need to refill from a portable can.",
+      "immediate": [
+        "Slow to a steady speed and drop non-essential loads",
+        "Set gas cans on the ground before filling - nozzle touching the can",
+        "Engine off and no flames when pouring"
+      ],
+      "then": [
+        "Use a pump, never a mouth siphon",
+        "Store dated cans outside the living space"
+      ]
     }
   },
   {
     "id": "vehicle-005",
     "category": "vehicle",
-    "title": "Basic Generator Maintenance and Troubleshooting",
+    "title": "Generator Care and Troubleshooting - Keeping It Ready",
     "priority": "beginner",
-    "tags": ["vehicle", "generator", "maintenance", "power", "fuel"],
-    "summary": "Essential maintenance schedule for portable generators, troubleshooting common no-start and running problems, and calculating your power load.",
+    "tags": [
+      "vehicle",
+      "generator",
+      "small-engine",
+      "maintenance",
+      "carbon-monoxide",
+      "power-outage"
+    ],
+    "summary": "Simple maintenance and fixes that keep a portable generator starting when the power fails, plus the carbon monoxide rules that keep it from killing you.",
     "steps": [
       {
         "step": 1,
-        "title": "Oil — The Most Critical Maintenance Item",
-        "body": "Most portable generators use a small air-cooled engine similar to a lawn mower. These engines hold only 0.6–1.0 quarts of oil and have no oil filter — oil degrades quickly and metallic particles accumulate with no filtration. Check the oil level before EVERY use using the dipstick or sight glass; never run a generator without confirming oil level. Change the oil after the first 5–8 hours on a new engine (break-in period), then every 50–100 hours of operation or once per season (annually), whichever comes first. Use SAE 10W-30 for most conditions; switch to SAE 30 in summer heat above 85°F. Drain when warm for complete drainage — remove the drain plug under the engine, let drain fully, reinstall plug firmly, then refill to the full mark on the dipstick. Low oil is the single most common cause of generator seizure and permanent engine failure."
+        "title": "Put it outside first - CO kills fast",
+        "body": "CPSC reports that nearly 100 people die in the U.S. each year from generator carbon monoxide. Run a generator only outdoors, at least 20 feet (6 m) from the house, with the exhaust pointed away from doors, windows, and vents. Never run one in a garage, basement, shed, crawlspace, or on a porch or carport, even with doors open. Install battery-powered CO alarms on every level of the home and test them monthly. When buying, choose a model with an automatic CO shut-off feature. If a CO alarm sounds or anyone feels dizzy, sick, or confused, get everyone outside and call 911."
       },
       {
         "step": 2,
-        "title": "Air Filter — Clean or Replace Annually",
-        "body": "The air filter prevents dust, debris, and insects from entering the carburetor and cylinder. A clogged air filter causes rich running (too much fuel, not enough air), black sooty exhaust, loss of power, hard starting, and excessive fuel consumption. Locate the air filter cover on the side of the engine (usually a plastic cover held by one screw or clip). Remove the foam or paper element. Foam filters: wash in warm soapy water, rinse completely, let dry fully, then lightly coat with clean engine oil and squeeze out excess before reinstalling. Paper filters: tap gently against a hard surface to dislodge dust — never wash a paper filter. Inspect for holes or tears; replace if damaged. A visibly gray or black clogged filter should be replaced, not cleaned. Air filter elements cost $3–8 and should be replaced at least once per year in regular use."
+        "title": "Check oil before every start",
+        "body": "Small generator engines hold little oil and have no filter, so the level matters. With the unit level and off, check the dipstick or fill plug and top off with the oil grade the manual lists. Change new engines after the break-in time in the manual, then at the interval it gives - often every 50 to 100 hours of running, and sooner in dust or heat. Low-oil shutdown switches are a backup, not a substitute for checking."
       },
       {
         "step": 3,
-        "title": "Spark Plug — Inspection, Gap, and Replacement",
-        "body": "The spark plug is both a diagnostic tool and a wear item. Remove the plug with a spark plug socket (usually 5/8\" or 13/16\") and examine the electrode. A healthy plug has a light tan or gray deposit on the tip — this indicates correct combustion. A black, sooty plug indicates rich running (too much fuel) — clean or replace the plug and check the air filter. A white or blistered electrode indicates lean running or overheating — check coolant (air-cooled: check air passages for blockage) and load. An oily plug indicates oil entering the combustion chamber — worn rings or valve seals. Check the electrode gap with a feeler gauge: most small engines spec 0.028\"–0.031\" (0.7–0.8mm). Adjust by carefully bending the side electrode. Replace the plug every 100 hours or annually. Plugs cost $2–5 and are the cheapest insurance against starting problems."
+        "title": "Keep fuel fresh and the carburetor clean",
+        "body": "Stale gasoline is the most common reason a stored generator will not start. It leaves gummy varnish in the small passages of the carburetor. Add a fuel stabilizer at the label dose, use ethanol-free gas if you can get it, and either run the tank dry or close the fuel valve and run the carburetor dry before long storage, as your manual directs. If it will not start after storage, drain old fuel, refill with fresh, and try again before taking it apart."
       },
       {
         "step": 4,
-        "title": "Carburetor Cleaning — The Stale Fuel Problem",
-        "body": "The single most common cause of generator no-start after storage is a varnish-clogged carburetor from stale fuel. Ethanol-blend gasoline begins degrading in as little as 30 days. The varnish deposits coat the main jet (a precisely drilled 0.025\"–0.045\" orifice), the idle jet, and the needle valve seat, preventing fuel delivery. Remove the air filter and carburetor bowl (one or two screws on the bottom). Inspect the bowl for brown varnish coating and sediment at the bottom. Remove the main jet (brass hex piece inside) and look through it at light — you should see a perfect circle of light. If obstructed, soak in carburetor cleaner for 15–30 minutes and clear with compressed air or a piece of wire. Soak the bowl and all brass parts in carb cleaner. Do not use wire in the main jet bore — it enlarges the orifice and ruins it. After reassembly, the engine should start with fresh fuel."
+        "title": "Service the air filter and spark plug",
+        "body": "A clogged air filter causes hard starting, black smoke, and low power. Clean foam filters in soapy water, let them dry, and lightly re-oil if the manual says so; replace paper elements when dirty. Pull the spark plug once a season: a light tan tip is normal, black soot means running rich, and wet fuel means flooding. Replace a worn or fouled plug with the type in the manual and set the gap it specifies."
       },
       {
         "step": 5,
-        "title": "Starting a Flooded Engine",
-        "body": "A flooded engine has too much fuel in the cylinder, preventing ignition. It happens from repeated failed starting attempts or leaving the choke closed too long. Signs: strong gasoline smell from the exhaust, engine spins freely but will not fire, spark plug is wet with fuel. Procedure: (1) Move the generator outdoors or to a well-ventilated area. (2) Remove the spark plug with a spark plug socket. (3) Set the choke to OPEN (run position, not choke). (4) Set the throttle to full open. (5) Crank the engine 5–10 times with the plug removed to blow fuel vapor out of the cylinder. (6) Dry the plug electrode with a cloth or wait 5 minutes. (7) Reinstall the plug. (8) Attempt to start normally with choke open. If the plug is thoroughly soaked, use a replacement plug — a wet plug often fails to produce a hot enough spark. After the engine starts, run it at half load for 5 minutes to clear remaining fuel vapor."
+        "title": "Start a stubborn or flooded engine",
+        "body": "Check the basics first: fuel valve open, engine switch on, choke closed for a cold start and open for a warm one, and oil level correct. If you smell fuel and it will not catch, it is probably flooded. Turn the choke fully open, wait several minutes, and pull with the throttle open; or remove the plug, let the cylinder air out, dry the plug, and reinstall. Do not keep pulling dozens of times - you will only add more fuel."
       },
       {
         "step": 6,
-        "title": "Load Calculation and Runtime Efficiency",
-        "body": "Never exceed your generator's rated wattage — this causes overheating, trips the circuit breaker, and shortens engine life. Calculate your load by summing the wattage of everything you intend to run simultaneously. For motor-driven appliances (refrigerators, well pumps, AC units), use the starting wattage (typically 2–3x running wattage) for sizing — a refrigerator that runs at 150W may require 600–800W to start the compressor. Label all critical appliances with their running and starting watts. A 3500W generator can typically handle: a refrigerator (800W starting), two LED light strings (50W total), a phone/radio charger (20W), and a window fan (75W) — totaling about 945W running with 800W surge capacity reserved. Fuel consumption varies dramatically with load: a 3500W generator uses roughly 0.5 gallons/hour at 25% load, and nearly 1.0 gallon/hour at full load. Run at 50–75% capacity for the best efficiency and longest runtime."
+        "title": "Refuel and connect safely",
+        "body": "Shut the generator off and let it cool before refueling - gasoline spilled on a hot muffler can ignite. Keep fuel cans well away from the running unit. Plug appliances in using heavy-duty outdoor extension cords rated for the load. Never plug a generator into a wall outlet to backfeed the house; that can electrocute utility workers and neighbors. Use a transfer switch or interlock installed by a licensed electrician if you want to power home circuits. Keep the unit dry, but use only covers or tents the maker approves, never an enclosure that traps exhaust."
+      },
+      {
+        "step": 7,
+        "title": "Test it on a schedule",
+        "body": "Every one to three months, start the generator and run it under a modest load for 20 to 30 minutes. This charges any starter battery, keeps seals wet, and proves it works before an outage. Log the date, run hours, and any service on a tag tied to the handle. Keep a spare spark plug, air filter, a quart of the right oil, and a funnel with the unit."
       }
     ],
     "warnings": [
-      "Never run a generator indoors, in a garage, or near open windows — gasoline engines produce lethal carbon monoxide that is odorless and accumulates rapidly in enclosed spaces",
-      "Never refuel a running or hot generator — fuel on a hot exhaust or engine block ignites instantly; shut down and allow to cool for 2 minutes minimum before adding fuel",
-      "Low oil will cause engine seizure within minutes — always check oil level before starting; most modern generators have a low-oil shutoff but do not rely on it as your only protection",
-      "Do not backfeed a generator into house wiring without a proper transfer switch — backfeed electrocutes utility workers and is illegal; use extension cords or a licensed transfer switch installation"
+      "Never run a generator indoors, in a garage, or near open windows - opening doors does not prevent deadly CO buildup.",
+      "Never backfeed a house through a wall outlet; use a professionally installed transfer switch or interlock.",
+      "Refuel only when the engine is off and cool.",
+      "Keep children and pets away from a running unit and its hot muffler."
     ],
     "proTips": [
-      "Run your generator under load for 30 minutes every 90 days — this keeps the carburetor clear, exercises the engine, and confirms it will work when needed; note the date on a piece of tape on the generator",
-      "Use ethanol-free gasoline (available at marinas and some gas stations, labeled E0) in generators and other small engines — it dramatically extends fuel stability and prevents carburetor varnishing",
-      "A Champion, Honda EU2200i, or Yamaha EF2200iS inverter generator produces clean sine-wave power safe for sensitive electronics — standard open-frame generators produce dirty power that can damage laptop power supplies and medical equipment",
-      "Keep a spare spark plug, air filter, and oil on the shelf next to the generator — these three items cost under $20 total and cover 90% of all maintenance needs for a full season"
+      "Write your generator's running and starting watt ratings on the case so anyone in the family can avoid overloading it.",
+      "A CO shut-off generator plus working CO alarms is the strongest protection you can buy.",
+      "Ethanol-free fuel (often sold for boats and small engines) stores better and reduces carburetor varnish.",
+      "Run the test under load, not idle - a no-load test hides problems."
     ],
-    "relatedGuides": ["vehicle-004"],
-    "source": "USAF SERE curriculum / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "home-006",
+      "power-003",
+      "medical-047",
+      "vehicle-004"
+    ],
+    "source": "U.S. CPSC / manufacturer's manual guidance",
+    "sources": [
+      {
+        "title": "Winter Storm May Knock Out Power: CPSC Warns of Deadly Carbon Monoxide and Fire Risks",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://cpsc.gov/Newsroom/News-Releases/2026/Winter-Storm-May-Knock-Out-Power-CPSC-Warns-of-Deadly-Carbon-Monoxide-and-Fire-Risks",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not run it anywhere it cannot be at least 20 feet from occupied buildings with exhaust aimed away.",
+      "Do not operate it in standing water or with wet hands."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need your generator to start and run safely during an outage.",
+      "immediate": [
+        "Set it outside, 20+ feet from the house, exhaust away",
+        "Check oil and use fresh fuel",
+        "CO alarms on every level of the home"
+      ],
+      "then": [
+        "Refuel only when off and cool",
+        "Test-run under load every 1-3 months"
+      ]
+    }
+  },
+  {
+    "id": "vehicle-006",
+    "category": "vehicle",
+    "title": "Stranded in a Vehicle in Winter - Stay Warm, Stay Found, Avoid CO",
+    "priority": "critical",
+    "tags": [
+      "vehicle",
+      "winter",
+      "stranded",
+      "blizzard",
+      "carbon-monoxide",
+      "hypothermia",
+      "snow"
+    ],
+    "summary": "What to do if snow, ice, or a crash strands you in your car in the cold: why to stay with the vehicle, how to run the engine for heat without carbon monoxide poisoning, and how to help rescuers find you.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stay with the vehicle",
+        "body": "The National Weather Service and NHTSA both say to stay in your vehicle. A car is shelter from wind and snow, and it is far easier for rescuers to spot than a person on foot. People who walk off in a blizzard can become lost or freeze within a short distance of help. Leave only if you can see a building close by, you know exactly where you are, and walking clearly improves your situation. Call 911 if you have signal, give your road, direction, mile marker or last exit, and how many people are with you, then save your phone battery."
+      },
+      {
+        "step": 2,
+        "title": "Clear the exhaust pipe before you run the engine",
+        "body": "Snow packed around the tailpipe can push carbon monoxide (CO) into the cabin. You cannot see or smell CO, and it can kill sleeping people. Before every engine run, check that the tailpipe and the area under the back of the car are clear, and clear them again after drifting snow. If you cannot reach or clear the pipe, do not run the engine. Headache, dizziness, nausea, sleepiness, or confusion in anyone are signs of CO poisoning - shut the engine off, open windows, and get fresh air."
+      },
+      {
+        "step": 3,
+        "title": "Run the engine for short periods only",
+        "body": "Run the engine and heater for about 10 minutes each hour - NWS guidance - and adjust to how much fuel you have. Open a downwind window slightly while it runs for fresh air; heavy snow and ice can seal a car tight. Use the time to warm the cabin and charge your phone. Do not fall asleep with the engine running; if there are several people, take turns staying awake. Turn the engine off between runs and close the window to hold heat."
+      },
+      {
+        "step": 4,
+        "title": "Hold body heat",
+        "body": "Put on every layer you have, especially a hat and dry socks. Wool and synthetics stay warmer when damp than cotton. Huddle together under blankets, and use floor mats, maps, or seat covers as extra insulation. Keep moving your arms, legs, fingers, and toes to make heat, but do not overexert by shoveling hard - sweat chills you later and heavy shoveling strains the heart. Eat high-calorie snacks and drink water. Do not eat snow; melting it in your mouth lowers body temperature."
+      },
+      {
+        "step": 5,
+        "title": "Make the car easy to find",
+        "body": "Tie a bright cloth - red is best - to the antenna or a door handle. At night, turn on the dome light while the engine runs so rescuers can see you, but keep it off otherwise to save the battery. Once the snow stops, raise the hood to signal that you need help. If you have flares or reflective triangles and it is safe to step out, set one behind and one in front of the car. Keep a path to one door clear so you can get out."
+      },
+      {
+        "step": 6,
+        "title": "Watch everyone for cold injuries",
+        "body": "Check each other every hour for shivering that becomes uncontrolled, slurred speech, clumsiness, confusion, or very drowsy behavior - signs of hypothermia. Look for white or grayish, hard, or numb skin on fingers, toes, ears, and nose - signs of frostbite. Warm cold hands in armpits; do not rub frostbitten skin. Infants, older adults, and anyone who is wet or injured lose heat fastest, so give them the warmest spot and extra layers. See the medical guides on hypothermia and frostbite."
+      },
+      {
+        "step": 7,
+        "title": "After rescue or when the storm passes",
+        "body": "Do not drive away until the road is open and safe; ask responders. Before driving, clear all snow off the roof, windows, and lights, and make sure the tailpipe is still clear. If anyone had CO symptoms, have them checked by a medical provider even if they feel better. Restock your winter kit right away with blankets, food, water, a shovel, a scraper, sand or cat litter, and a phone charger."
+      }
+    ],
+    "warnings": [
+      "Never run the engine with a blocked tailpipe - carbon monoxide can kill everyone inside without warning.",
+      "Do not walk away from the car in a blizzard unless help is clearly in sight.",
+      "Do not sleep with the engine running.",
+      "Do not overexert shoveling; heart attacks and sweaty clothing are both real dangers in the cold.",
+      "Hybrids and plug-in hybrids may start their gas engine automatically to keep the cabin warm - keep the tailpipe clear for them too."
+    ],
+    "proTips": [
+      "Keep your tank at least half full all winter - NHTSA recommends keeping it nearly full.",
+      "A battery-powered CO alarm in the glove box is cheap insurance for long winter waits.",
+      "Share your route and arrival time before leaving so someone knows where to look.",
+      "An EV can heat its cabin without exhaust; see the EV guide for stretching battery charge while stranded."
+    ],
+    "relatedGuides": [
+      "vehicle-010",
+      "dis-009",
+      "medical-047",
+      "medical-025",
+      "medical-026",
+      "vehicle-012"
+    ],
+    "source": "NWS / NHTSA / Ready.gov",
+    "sources": [
+      {
+        "title": "Winter Weather Safety",
+        "publisher": "National Weather Service (Amarillo)",
+        "url": "https://www.weather.gov/ama/winterwxsafety",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NHTSA: Never too early to prepare for driving in wintry conditions",
+        "publisher": "NHTSA (via U.S. Army / army.mil)",
+        "url": "https://www.army.mil/article/282158/nhtsa_never_too_early_to_prepare_for_driving_in_wintry_conditions",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Stranded with your Vehicle",
+        "publisher": "Maine Emergency Management Agency",
+        "url": "https://www.maine.gov/mema/hazards/natural-hazards/severe-winter-storms/stranded-with-car",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When a heated building is clearly visible and reachable safely.",
+      "When the car is in immediate danger (fire, rising water, or a spot where it will be struck) - move to a safer place."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You are stuck in your car in snow, ice, or extreme cold.",
+      "immediate": [
+        "Stay with the vehicle and call 911 if you can",
+        "Clear the tailpipe before running the engine",
+        "Run the engine about 10 minutes per hour with a window cracked"
+      ],
+      "then": [
+        "Layer up, huddle, and keep limbs moving",
+        "Bright cloth on the antenna; raise the hood after snow stops"
+      ]
+    }
+  },
+  {
+    "id": "vehicle-007",
+    "category": "vehicle",
+    "title": "Escaping a Vehicle Sinking in Water",
+    "priority": "critical",
+    "tags": [
+      "vehicle",
+      "water",
+      "sinking-car",
+      "escape",
+      "drowning",
+      "children",
+      "flood"
+    ],
+    "summary": "The seconds-matter sequence for getting yourself and children out of a car that has gone into water: seatbelts, window, children, out - before calling 911.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know you have about one minute",
+        "body": "A car that lands in water usually floats for only a short time, roughly 30 to 60 seconds, before water reaches the windows. During that float time the windows can still be opened and the doors are useless because water pressure holds them shut. Do not waste it calling 911, grabbing belongings, or waiting to see what happens. AAA advises escaping first and calling for help once you are out. Remember the order: Seatbelts, Windows, Children, Out."
+      },
+      {
+        "step": 2,
+        "title": "Seatbelts off",
+        "body": "Unbuckle your own seatbelt first - you cannot help anyone while strapped in. Shout to everyone else to unbuckle. If a belt jams, cut it with a belt cutter. Keep a combined belt-cutter and window-breaker tool where you can reach it while buckled, such as clipped to the visor, on the keychain, or in the console - not in the glove box. Do not try to unbuckle children yet; you need the window open first."
+      },
+      {
+        "step": 3,
+        "title": "Window open - not the door",
+        "body": "Press the power window switch right away. Electric windows often keep working for a short time after hitting water. If the window will not open, break a side window with a spring-loaded or hammer-style escape tool, striking near a corner. AAA testing found spring-loaded tools worked better on tempered glass, and swinging a hammer is hard underwater. Do not aim at the windshield; it is laminated and will not shatter. AAA found about 1 in 3 2018 models had laminated side windows, which escape tools cannot break - check the small label in the corner of each window and know which ones are tempered."
+      },
+      {
+        "step": 4,
+        "title": "Children out first",
+        "body": "Unbuckle children starting with the oldest, and push them out the open window ahead of you. Older children can grab the roof or float briefly while you get the younger ones. For a baby or toddler in a car seat, unbuckle the harness rather than trying to lift the whole seat. Tell older kids, \"Get out and hold the car,\" so they do not swim away into a current. Practice the order with them on dry land so the words are familiar."
+      },
+      {
+        "step": 5,
+        "title": "Out and up",
+        "body": "Go out through the window head first, pushing off the seat and door frame. Once out, climb onto the roof if the car is still floating, then swim or wade to the nearest safe shore, away from fast water. In moving water, float on your back with feet pointed downstream and steer toward shore at an angle. Once you are safe, call 911 and report the location and how many people were in the car."
+      },
+      {
+        "step": 6,
+        "title": "If the window cannot be opened or broken",
+        "body": "This is a last resort. Get everyone to an air pocket, usually toward the rear or the roof, as the car fills. When water inside nearly matches the level outside, pressure equalizes and the door may open. Take a deep breath, unlock, push the door hard, and pull yourself out along the car. This takes longer and the chance of survival drops, which is why opening or breaking a window in the first minute matters so much."
+      },
+      {
+        "step": 7,
+        "title": "After you get out",
+        "body": "Anyone who went under water, coughed hard, or feels short of breath needs medical evaluation even if they seem fine, because breathing problems can show up hours later. Get wet people warm and dry as soon as possible. Do not go back into the water for belongings. If someone is still in the car and you are not trained or equipped for water rescue, call 911 and throw something that floats rather than going in after them."
+      }
+    ],
+    "warnings": [
+      "Do not call 911 before escaping - you have only seconds while the car floats.",
+      "Do not try to open the door while the car is floating; water pressure will hold it shut and waste time.",
+      "Escape tools cannot break laminated glass or the windshield - know which of your windows are tempered.",
+      "Never drive into flood water; most of these situations start with a flooded road."
+    ],
+    "proTips": [
+      "Keep the escape tool within reach of the driver while buckled - visor, keychain, or console.",
+      "Rehearse \"Seatbelts, Windows, Children, Out\" out loud with the family.",
+      "Look for the glass label in the bottom corner of each side window when you buy a car.",
+      "In cold water, the first minute of gasping is the most dangerous - keep your head above water and focus on breathing before swimming."
+    ],
+    "relatedGuides": [
+      "vehicle-008",
+      "medical-028",
+      "dis-004",
+      "env-009"
+    ],
+    "source": "AAA / Kids and Car Safety (based on Univ. of Manitoba research)",
+    "sources": [
+      {
+        "title": "Sixty Seconds: What Experts Actually Want You to Do if Your Car Sinks",
+        "publisher": "Kids and Car Safety",
+        "url": "https://www.kidsandcars.org/news/sixty-seconds-what-experts-actually-want-you-to-do-if-your-car-sinks",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Vehicle Escape Tools",
+        "publisher": "AAA Newsroom",
+        "url": "https://newsroom.aaa.com/auto/vehicle-escape-tools/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "The \"wait for the car to fill, then open the door\" method is not the first choice - use it only when the windows cannot be opened or broken."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Your car has gone into water and is starting to sink.",
+      "immediate": [
+        "Seatbelts off - yours first",
+        "Window open or broken - not the door",
+        "Children out, oldest first, then you"
+      ],
+      "then": [
+        "Get onto the roof or to shore, then call 911",
+        "Get medical checks for anyone who swallowed or inhaled water"
+      ]
+    }
+  },
+  {
+    "id": "vehicle-008",
+    "category": "vehicle",
+    "title": "Flooded Roads - Turn Around, Don't Drown",
+    "priority": "critical",
+    "tags": [
+      "vehicle",
+      "flood",
+      "flash-flood",
+      "turn-around-dont-drown",
+      "water",
+      "driving"
+    ],
+    "summary": "Why driving into flood water kills more people than any other flood behavior, how little water it takes to float a car, and what to do if water is rising around you.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the numbers",
+        "body": "NWS data show flooding kills nearly 90 people a year in the U.S. on average, and more than half of those deaths happen in vehicles driven into flooded roads. It takes far less water than most people think. About 6 inches (15 cm) of water can make a car stall or lose control, and 6 inches of fast-moving water can knock an adult off their feet. About 12 inches (30 cm) can float a small car and carry it away if the water is moving. About 18 to 24 inches (45 to 60 cm) of moving water can sweep away most vehicles, including large SUVs and pickups."
+      },
+      {
+        "step": 2,
+        "title": "Turn around - every time",
+        "body": "If water covers the road, stop well before it, turn around, and find another route. You cannot tell how deep the water is or whether the road under it is still there; floods wash out pavement and leave hidden holes. This is even harder at night. High clearance or four-wheel drive does not help - bigger vehicles float too. Do not follow another car through; theirs may have barely made it. Never drive around barricades."
+      },
+      {
+        "step": 3,
+        "title": "Plan routes around low ground",
+        "body": "When flooding is forecast, avoid low-water crossings, underpasses, dips, and roads beside creeks and rivers. Check road conditions with your state's 511 service or DOT app before you leave. If a Flash Flood Warning is issued for your area, get to higher ground now; do not wait to see water. In canyons and washes, water can arrive suddenly from rain miles away."
+      },
+      {
+        "step": 4,
+        "title": "If the car stalls in water",
+        "body": "If water is rising around a stalled car and is not flowing fast, get out right away and move to higher ground. Leave the car; it is replaceable. Do not try to restart it. If the water is moving fast, stay inside with seatbelts on until you can judge it, but be ready to escape through a window if the car starts to float. Climbing onto the roof is better than being swept away inside the car."
+      },
+      {
+        "step": 5,
+        "title": "If the car is swept away or starts to sink",
+        "body": "Act immediately: seatbelts off, window open, children out, then you. Do not try to open the door against the water. Get on the roof and call 911 once you are out. The full step-by-step is in the sinking-vehicle guide. Do not walk or swim into flowing flood water to reach shore unless staying put is clearly worse."
+      },
+      {
+        "step": 6,
+        "title": "After the water goes down",
+        "body": "Roads that have been flooded may be weakened and can collapse under a car, so drive slowly and watch for broken pavement and debris. Stay out of water near downed power lines. Do not drive a car that was submerged above the floor until it is inspected - water in the engine, fuel, or electrical system can cause failures or fire. Flood-damaged electric vehicles have an added fire risk; see the EV guide."
+      }
+    ],
+    "warnings": [
+      "Never drive into water covering a road - you cannot judge depth or whether the road beneath is gone.",
+      "Never drive around a \"Road Closed\" barricade or flood gate.",
+      "Night makes flood water much harder to see - slow down on any road near streams in heavy rain.",
+      "Flood water may hide downed power lines and sewage - avoid wading in it."
+    ],
+    "proTips": [
+      "Memorize alternate routes from home and work that stay on high ground.",
+      "If you see a flooded car with someone inside, call 911 and do not drive or wade in after them.",
+      "Turn on your weather radio or phone alerts during heavy rain events.",
+      "In flash-flood country, park facing out and away from washes so you can leave quickly."
+    ],
+    "relatedGuides": [
+      "vehicle-007",
+      "dis-004",
+      "env-013",
+      "vehicle-009"
+    ],
+    "source": "NWS / FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Flood Safety Awareness - Turn Around Don't Drown",
+        "publisher": "National Weather Service (Pendleton)",
+        "url": "https://www.weather.gov/pdt/FSAW_Tuesday",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Car Safety",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/car",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "There is no safe depth to drive through flowing water on a road - do not try it."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Water is covering the road ahead or rising around your car.",
+      "immediate": [
+        "Stop and turn around - do not drive into the water",
+        "Pick a route on higher ground",
+        "If stalled in rising water, get out and go to high ground"
+      ],
+      "then": [
+        "If the car floats or sinks, follow Seatbelts, Windows, Children, Out",
+        "Have any flooded car inspected before driving it"
+      ]
+    }
+  },
+  {
+    "id": "vehicle-009",
+    "category": "vehicle",
+    "title": "Evacuation Driving - Routes, Fuel, and What to Bring",
+    "priority": "critical",
+    "tags": [
+      "vehicle",
+      "evacuation",
+      "hurricane",
+      "wildfire",
+      "contraflow",
+      "fuel",
+      "routes"
+    ],
+    "summary": "How to plan and drive an evacuation: when to leave, how to pick routes, keeping fuel or charge ready, what contraflow lanes mean, and what to pack in the car.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Leave early - when officials say go, or sooner",
+        "body": "Follow evacuation orders from local officials as soon as they are issued, and leave earlier if you feel unsafe. Traffic, fuel lines, and closed roads get worse by the hour. Leaving early also keeps you off roads during the worst weather, smoke, or fire. If you have elderly or disabled family members who need help evacuating, register with your local emergency office or call 2-1-1 well before storm season."
+      },
+      {
+        "step": 2,
+        "title": "Know where you are going",
+        "body": "Decide ahead of time where you will stay: friends, family, a hotel, or a public shelter. For hurricanes, Florida emergency managers point out that an evacuation often only needs to be tens of miles inland to a sturdy building out of the surge zone, not hundreds of miles. A shorter trip means less traffic and less fuel. Tell an out-of-area contact your destination and route, and check in when you arrive."
+      },
+      {
+        "step": 3,
+        "title": "Pick routes and backups",
+        "body": "Learn your area's marked evacuation routes and at least one alternate. Check your state DOT's 511 service or app for closures before and during the drive. Follow the routes officials direct you to - shortcuts and back roads may be blocked, flooded, or closed to traffic. Keep a paper road map in the car, since phone navigation may fail if cell networks are overloaded. Avoid bridges, low-lying roads, and anything near downed lines."
+      },
+      {
+        "step": 4,
+        "title": "Keep fuel or charge ready",
+        "body": "During hurricane or fire season, never let the tank drop below half - Florida calls this \"If you're halfway full, you're halfway there.\" For EVs, Florida suggests keeping the battery between 50 and 80 percent day to day, then charging higher before you leave if a long drive is likely. Expect closed stations and long lines on the route. Carry fuel in an approved can only if it is secured outside the passenger area, such as on a hitch rack."
+      },
+      {
+        "step": 5,
+        "title": "Understand contraflow lanes",
+        "body": "For big coastal evacuations, some states reverse the inbound lanes of a highway so all lanes carry traffic away from the coast. Texas also opens extra-wide shoulders as evacuation lanes. In contraflow, exits may be few and far apart, crossovers come at set points, and you may not be able to turn back. Fill up, use the restroom, and stock food and water before you enter. Stay in your lane, follow officers and signs, and watch for stopped traffic."
+      },
+      {
+        "step": 6,
+        "title": "Pack the car",
+        "body": "Bring your go-bag for each person, water and food for at least three days, medicines and medical devices, phone chargers and a battery bank, cash, ID and copies of important documents, a first aid kit, a flashlight, and pet supplies with leashes and carriers. Load it before the order if a storm is coming. Bring a car kit with jumper cables, a tire inflator, and a spare key. Do not overload the car; heavy loads hurt braking and fuel economy."
+      },
+      {
+        "step": 7,
+        "title": "Drive defensively",
+        "body": "Expect slow, stop-and-go traffic for hours. Keep a larger gap than usual and watch for sudden stops, stalled cars, and people walking along the road. Take breaks or switch drivers when tired. Keep the radio on local news for route changes. If you break down, get as far off the road as you can, turn on hazards, and stay buckled in the car; see the highway breakdown guide."
+      }
+    ],
+    "warnings": [
+      "Do not wait for the last minute - roads, fuel, and weather all get worse.",
+      "Do not drive into flood water, smoke you cannot see through, or around barricades.",
+      "Never carry gas cans inside the passenger cabin.",
+      "Do not leave pets behind in a closed home or car."
+    ],
+    "proTips": [
+      "Set up a family meeting place and an out-of-area contact before you need them.",
+      "Photograph your home and belongings before leaving for insurance.",
+      "Keep an \"evacuation box\" by the door with chargers, documents, and medications.",
+      "Download offline maps of your area and routes before the storm."
+    ],
+    "relatedGuides": [
+      "sec-003",
+      "tools-009",
+      "home-011",
+      "comms-005",
+      "vehicle-010",
+      "dis-001"
+    ],
+    "source": "Florida Division of Emergency Management / TxDOT / Ready.gov",
+    "sources": [
+      {
+        "title": "If You're Halfway Full, You're Halfway There",
+        "publisher": "Florida Division of Emergency Management",
+        "url": "https://floridadisaster.org/HalfwayFull",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Hurricane Preparation - Evacuation and Contraflow Routes",
+        "publisher": "Texas Department of Transportation",
+        "url": "https://www.txdot.gov/driver/weather/hurricane.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Car Safety",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/car",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Driving Through Wildfire Smoke Safely (Colorado State Patrol guidance)",
+        "publisher": "Colorado Public Radio",
+        "url": "https://www.cpr.org/2026/07/07/driving-through-wildfire-smoke-safely/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "When officials say to shelter in place (for example, a hazmat release or a tornado warning) - leaving can be more dangerous."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "Your generator will not start or is running poorly — most generator failures are caused by oil level or stale fuel in the carburetor",
-      "immediate": ["Check oil level first — low oil is the most common cause of permanent generator seizure", "Check for flooded engine: strong gas smell from exhaust, engine spins but won't fire — remove plug, crank 5-10 times plug-out, reinstall and retry", "Clean carburetor main jet if engine starts but dies or runs rough after storage — varnish from stale ethanol fuel is the most common cause"],
-      "then": ["Never run generator indoors or near open windows — CO kills silently and accumulates rapidly", "Run your generator under load for 30 minutes every 90 days to keep carburetor clear and confirm readiness"]
+      "situation": "You may need to evacuate by car from a storm, fire, or other disaster.",
+      "immediate": [
+        "Leave as soon as officials say - or earlier",
+        "Fill up or charge before the rush",
+        "Follow official routes and check 511"
+      ],
+      "then": [
+        "Bring go-bags, meds, documents, pets",
+        "Tell an out-of-area contact your destination"
+      ]
+    }
+  },
+  {
+    "id": "vehicle-010",
+    "category": "vehicle",
+    "title": "Building a Complete Vehicle Emergency Kit",
+    "priority": "critical",
+    "tags": [
+      "vehicle",
+      "kit",
+      "car-kit",
+      "winter",
+      "roadside",
+      "preparedness",
+      "checklist"
+    ],
+    "summary": "A full, layered vehicle emergency kit: the roadside basics every car needs, the survival layer for being stranded, seasonal add-ons, and how to keep it all working.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Start with the roadside core",
+        "body": "These items fix or flag the most common problems: jumper cables or a charged portable jump starter; a tire inflator that plugs into the 12-volt outlet, a tire gauge, and a plug or sealant kit; reflective warning triangles or flares and a reflective vest; a flashlight or headlamp with spare batteries; work gloves; and a basic tool set with screwdrivers, pliers, an adjustable wrench, duct tape, and zip ties. Ready.gov and NHTSA both list booster cables and warning devices as car-kit basics. Check that your car's jack, lug wrench, wheel-lock key, and spare are actually there."
+      },
+      {
+        "step": 2,
+        "title": "Add communication and navigation",
+        "body": "Keep a phone charging cable that fits your car and a charged battery bank. Add a paper road map of your state and region, since cell service and navigation can fail in storms and rural areas. A small battery or hand-crank radio lets you hear emergency broadcasts if your car battery is low. Write important phone numbers - roadside assistance, insurance, family, and an out-of-area contact - on a card in the glove box. Pack a whistle for signaling."
+      },
+      {
+        "step": 3,
+        "title": "Pack a survival layer for being stuck",
+        "body": "Plan for a long wait in a closed road or traffic jam. Pack water (Cal OES suggests planning for about a gallon per person per day), high-calorie food that will not spoil such as bars and nuts, a first aid kit, a few days of any essential medicines, moist towelettes, garbage bags for waste, and a roll of toilet paper. Add a warm blanket or sleeping bag for each regular passenger, a hat and gloves, and sturdy shoes in case you must walk."
+      },
+      {
+        "step": 4,
+        "title": "Add winter gear",
+        "body": "Before the first freeze, add a snow shovel, an ice scraper and snow brush, and sand or non-clumping cat litter for traction - all items NHTSA and Ready.gov list. Add hand warmers, extra socks, a bright red cloth to tie to the antenna, and winter windshield washer fluid. Tire chains are useful where they are allowed and you have practiced putting them on. A battery-powered carbon monoxide alarm is worth adding for long waits with the engine running."
+      },
+      {
+        "step": 5,
+        "title": "Add hot-weather and regional items",
+        "body": "In hot climates, double the water, add sun shades, sunscreen, and a wide-brimmed hat, and avoid storing items that break down in heat. In wildfire or ashfall country, add NIOSH-approved N95 respirators for each person, because EPA notes dust masks and bandanas do not filter fine smoke. In flood country and anywhere near water, keep a window-breaker and seatbelt-cutter tool within the driver's reach. A small vehicle fire extinguisher, secured so it cannot roll, is useful everywhere."
+      },
+      {
+        "step": 6,
+        "title": "Pack and secure it right",
+        "body": "Use one or two sturdy bins or a duffel so you can move the kit between vehicles. Put small items in zip bags to keep them dry. Strap or wedge the kit so it cannot fly forward in a crash - loose heavy items in the cabin are dangerous. Keep the escape tool, a flashlight, and a phone charger in the cabin; everything else can go in the trunk or cargo area. Never store gasoline cans inside the passenger area."
+      },
+      {
+        "step": 7,
+        "title": "Keep it working",
+        "body": "Check the kit twice a year, such as when clocks change. Replace water and food before their dates, recharge the jump starter and battery bank, swap batteries in flashlights and radios, refill medicines, and check the spare tire's pressure. Swap in winter gear in the fall and hot-weather gear in the spring. Keep your gas tank at least half full and your car serviced - a kit is a backup, not a replacement for good maintenance."
+      }
+    ],
+    "warnings": [
+      "Do not store gasoline cans or propane inside the passenger cabin.",
+      "Secure heavy items - they become projectiles in a crash.",
+      "Heat degrades batteries, medicines, and water bottles; rotate items more often in hot climates.",
+      "Check medicines for heat sensitivity and do not rely on a car kit as your only supply."
+    ],
+    "proTips": [
+      "Use the app's Vehicle Kit checklist to track what you have and when it expires.",
+      "Lithium jump starters double as phone power banks.",
+      "A bright headlamp leaves both hands free for tire changes and repairs.",
+      "Pack a spare key fob or hidden key - Cal OES suggests it, and it saves you from lock-outs."
+    ],
+    "relatedGuides": [
+      "vehicle-006",
+      "vehicle-002",
+      "vehicle-001",
+      "tools-001",
+      "tools-009",
+      "home-008"
+    ],
+    "source": "FEMA Ready.gov / NHTSA / NWS / Cal OES",
+    "sources": [
+      {
+        "title": "Car Safety",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/car",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NHTSA: Never too early to prepare for driving in wintry conditions",
+        "publisher": "NHTSA (via U.S. Army / army.mil)",
+        "url": "https://www.army.mil/article/282158/nhtsa_never_too_early_to_prepare_for_driving_in_wintry_conditions",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Winter Weather Safety",
+        "publisher": "National Weather Service (Amarillo)",
+        "url": "https://www.weather.gov/ama/winterwxsafety",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Building an Emergency Kit for Your Vehicle",
+        "publisher": "California Governor's Office of Emergency Services",
+        "url": "https://www.news.caloes.ca.gov/building-an-emergency-kit-for-your-vehicle/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Reduce Your Smoke Exposure (fact sheet)",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/system/files/documents/2026-06/reduce-smoke-exposure-factsheet.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are building or checking the emergency kit you keep in your car.",
+      "immediate": [
+        "Jumper cables or jump starter, tire inflator, triangles",
+        "Water, food, blankets, first aid, phone charger",
+        "Paper map and flashlight"
+      ],
+      "then": [
+        "Add winter or summer gear by season",
+        "Check and restock twice a year"
+      ]
+    }
+  },
+  {
+    "id": "vehicle-011",
+    "category": "vehicle",
+    "title": "Getting Unstuck From Snow, Mud, and Sand - Safely",
+    "priority": "beginner",
+    "tags": [
+      "vehicle",
+      "stuck",
+      "snow",
+      "mud",
+      "sand",
+      "recovery",
+      "traction"
+    ],
+    "summary": "How to free a stuck vehicle with the least risk: clearing, traction aids, gentle rocking, pushing safely, and when to stop and call for help instead of risking a dangerous recovery.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stop spinning and check the situation",
+        "body": "The moment the wheels spin without moving the car, ease off the gas. Flooring it digs the tires deeper, polishes snow into ice, and can overheat the transmission. Turn on your hazards. Get out on the safe side and look at what is holding you: snow packed under the car, drive wheels in a rut, mud up to the axle, or a frame resting on a hump. Know which wheels drive your car (front, rear, or all) - the traction work goes there."
+      },
+      {
+        "step": 2,
+        "title": "Clear the exhaust and the wheels",
+        "body": "If snow is involved, clear the tailpipe first so exhaust cannot build up in the cabin while you work - AAA lists this as a key step. Then shovel or dig snow, mud, or sand away from the front and back of each drive tire and from under the car if it is high-centered. Clear a path a few feet long in the direction you want to go. Straighten the steering wheel; turned wheels plow and resist rolling."
+      },
+      {
+        "step": 3,
+        "title": "Add traction under the drive tires",
+        "body": "Put something grippy in front of the drive tires to go forward or behind them to reverse: sand, gravel, non-clumping cat litter, the car's floor mats, cardboard, branches, or a short board about 2 feet (60 cm) long. Commercial traction boards work best. Pack it tight against the tire. Warn bystanders that mats and boards can shoot out from under a spinning tire."
+      },
+      {
+        "step": 4,
+        "title": "Use low gear and gentle rocking",
+        "body": "AAA suggests turning traction control off, which lets the wheels turn enough to dig through to grip; turn it back on once you are moving. Use the lowest gear and gentle throttle. If the car moves a little and stops, rock it: ease forward as far as it goes, then shift to reverse and back up as far as it goes, building a short track. Do not shift while the wheels are still spinning, and check your owner's manual - some automatics warn against rapid rocking."
+      },
+      {
+        "step": 5,
+        "title": "Push only the safe way",
+        "body": "If others can push, have them push from the back or front at the body, never by the wheels and never standing directly behind a spinning tire, which can throw rocks, ice, and mud with great force. Keep pushers away from the tailpipe. The driver should go gently and stop at once if anyone slips. Never let anyone push near traffic on a road; get help or a tow instead."
+      },
+      {
+        "step": 6,
+        "title": "Mud and sand tips",
+        "body": "In mud, keep momentum low and steady; aggressive spinning just fills the tire tread with mud. In soft sand, some off-road drivers lower tire pressure to widen the footprint, but only do this if you have a way to re-inflate and stay within your tire maker's guidance - drive slowly on low pressure and refill before road speeds. Avoid sudden stops on soft ground, and when you stop, choose a firm or downhill spot so you can roll away."
+      },
+      {
+        "step": 7,
+        "title": "Know when to quit and call for help",
+        "body": "If the car is still stuck after a few careful tries, if it is high-centered on its frame, or if it is sliding toward a ditch, stop and call roadside assistance or a tow. Pulling a stuck vehicle with a strap or chain can be deadly: hooks, broken straps, and tow balls can fly back like bullets. If you must be towed out, use rated recovery points listed in the owner's manual, rated straps, and keep everyone far away, at least the strap's length to the side. In a storm, a stuck car is often safest as shelter - see the winter-stranding guide."
+      }
+    ],
+    "warnings": [
+      "Never stand behind or beside a spinning tire - rocks, ice, and mats can be thrown hard.",
+      "Never use a tow ball or bumper as a recovery point; broken hardware can fly back and kill.",
+      "Clear the tailpipe in snow before running the engine to avoid carbon monoxide buildup.",
+      "Do not let anyone push a car near moving traffic."
+    ],
+    "proTips": [
+      "Keep a folding shovel and a bag of cat litter in the trunk all winter.",
+      "Two traction boards are worth more than a long tow strap for most drivers.",
+      "Turn traction control back on once you are out - you want it on the road.",
+      "Low gear and patience beat high throttle every time."
+    ],
+    "relatedGuides": [
+      "vehicle-006",
+      "vehicle-010",
+      "vehicle-013",
+      "tools-003"
+    ],
+    "source": "AAA / NHTSA / owner's manual guidance",
+    "sources": [
+      {
+        "title": "7 Tips on How to Get Your Car Unstuck From Snow",
+        "publisher": "AAA",
+        "url": "https://www.aaa.com/autorepair/articles/7-tips-on-how-to-get-your-car-unstuck-from-snow",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NHTSA: Never too early to prepare for driving in wintry conditions",
+        "publisher": "NHTSA (via U.S. Army / army.mil)",
+        "url": "https://www.army.mil/article/282158/nhtsa_never_too_early_to_prepare_for_driving_in_wintry_conditions",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Car Safety",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/car",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When the car is sliding toward a ditch, drop-off, or water - stop and call for help.",
+      "During a blizzard when getting out is more dangerous than staying with the car.",
+      "When the only option is an improvised strap pull from a non-rated point."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your car is stuck in snow, mud, or sand and the wheels just spin.",
+      "immediate": [
+        "Ease off the gas and clear the tailpipe",
+        "Dig out the drive wheels and straighten the steering",
+        "Put traction material in the direction of travel"
+      ],
+      "then": [
+        "Low gear, gentle rocking, traction control off",
+        "Call for a tow if it stays stuck or is high-centered"
+      ]
+    }
+  },
+  {
+    "id": "vehicle-012",
+    "category": "vehicle",
+    "title": "EVs and Hybrids in Emergencies - Range, Charging, Cold, Backup Power, and Floods",
+    "priority": "advanced",
+    "tags": [
+      "vehicle",
+      "ev",
+      "electric-vehicle",
+      "hybrid",
+      "v2l",
+      "power-outage",
+      "flood",
+      "battery-fire"
+    ],
+    "summary": "How to plan EV and hybrid range for evacuations and outages, what cold does to batteries, how to use your car as a safe power source, and why flooded EVs need special care.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Plan your charge level by season",
+        "body": "Day to day, many owners keep the battery between about 50 and 80 percent, a range Florida's emergency managers suggest for hurricane season. When a storm, fire, or evacuation is likely, charge higher - toward 100 percent - shortly before you need it, following your owner's manual on high-charge storage. Public fast chargers slow down sharply above about 80 percent, so on a crowded route several short charges can move you faster than waiting for a full one. Expect chargers to be down or crowded during regional outages."
+      },
+      {
+        "step": 2,
+        "title": "Expect much less range in the cold",
+        "body": "AAA testing found that at 20 degrees F (-7 C) with the heater running, average EV range dropped about 41 percent; at 95 degrees F (35 C) with A/C it dropped about 17 percent. Cold slows the battery, and heating draws from the same battery. Precondition the cabin and battery while still plugged in, as DOE recommends, park in a garage or under cover, and plug in overnight in winter. Use seat and steering-wheel heaters instead of heating the whole cabin."
+      },
+      {
+        "step": 3,
+        "title": "If you are stranded in an EV",
+        "body": "An EV can keep you warm without exhaust, but only as long as the battery lasts. Turn the cabin temperature down, use seat heaters, and use \"camp\" or similar climate modes if your car has them. Check range every hour and leave enough to reach help when roads reopen. Hybrids and plug-in hybrids are different: many will start their gas engine automatically to heat the cabin or charge the battery, so their tailpipe must stay clear of snow just like a gas car."
+      },
+      {
+        "step": 4,
+        "title": "Charging when the grid is down",
+        "body": "Do not count on home charging during an outage unless you have a battery or solar system designed for it. Public chargers in an outage area may be offline. Use navigation or charging apps to find working stations outside the outage area. A portable generator can run a Level 1 charger slowly in a pinch, but follow both makers' instructions and every generator CO rule - outdoors, 20 feet from buildings - and expect very few miles per hour of charging."
+      },
+      {
+        "step": 5,
+        "title": "Use the car as a power source safely",
+        "body": "Many newer EVs and some hybrid trucks have built-in outlets (vehicle-to-load or V2L), commonly rated somewhere around 1.5 to 3.6 kilowatts - enough for a refrigerator, lights, fans, phones, or some medical devices. Check the owner's manual for the outlet rating and a minimum-charge setting so you do not drain the battery too low to drive. A full home-backup setup (vehicle-to-home) needs a bidirectional charger and equipment installed by a licensed electrician. Never use improvised cords or \"suicide\" plugs to backfeed a house - that can start fires and electrocute utility workers."
+      },
+      {
+        "step": 6,
+        "title": "Keep the 12-volt battery in mind",
+        "body": "EVs and hybrids still use a small 12-volt battery to wake up their computers. If it dies, the car may not unlock or turn on even with a full main battery. Learn where the jump points are and how to open the car manually. AAA warns hybrid and EV electronics can be damaged by jump-starting another vehicle, so do not use your EV as a donor unless the manual allows it."
+      },
+      {
+        "step": 7,
+        "title": "Flooded EVs: treat as a fire risk",
+        "body": "Saltwater is especially dangerous: it conducts electricity and corrodes battery seals, and NTSB has noted standing water around submerged packs is the key concern. After Hurricane Ian, NHTSA research found a small share of flooded EVs caught fire, sometimes after the water went down. Before flooding, move the EV to higher ground and unplug the charger. After a flood, do not drive, charge, or power anything from it until a qualified technician inspects it. NHTSA advises keeping a submerged lithium-ion vehicle at least 50 feet (15 m) from buildings and other vehicles. Call 911 for smoke, hissing or popping sounds, or flames - and stay well back."
+      }
+    ],
+    "warnings": [
+      "Never backfeed a home from an EV with improvised cords; use only factory outlets or professionally installed V2H equipment.",
+      "A flooded EV, especially in saltwater, can catch fire even after the water goes down - keep it outdoors and 50+ feet from buildings.",
+      "Hybrids can start their gas engine on their own; keep the tailpipe clear and never run them in a closed garage.",
+      "Do not attempt to put out an EV battery fire yourself - get away and call 911."
+    ],
+    "proTips": [
+      "Set a minimum state of charge for V2L use so you always keep enough range to evacuate.",
+      "Download offline maps and charging station lists before evacuating.",
+      "Keep a portable jump starter that works on your car's 12-volt system.",
+      "Know your car's manual door release - practice it before you need it."
+    ],
+    "relatedGuides": [
+      "vehicle-009",
+      "vehicle-006",
+      "vehicle-008",
+      "home-006",
+      "dis-024",
+      "power-005"
+    ],
+    "source": "AAA / U.S. DOE / NHTSA and NTSB flood findings / Florida DEM",
+    "sources": [
+      {
+        "title": "Cold Weather Reduces Electric Vehicle Range",
+        "publisher": "AAA Newsroom",
+        "url": "https://newsroom.aaa.com/2019/02/cold-weather-reduces-electric-vehicle-range/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Electric vehicle winter driving tips",
+        "publisher": "U.S. Department of Energy",
+        "url": "https://www.energy.gov/node/4837529",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "If You're Halfway Full, You're Halfway There",
+        "publisher": "Florida Division of Emergency Management",
+        "url": "https://floridadisaster.org/HalfwayFull",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Proper Handling of Electric Vehicles After Flooding or Hurricanes (cites NHTSA 50-foot guidance)",
+        "publisher": "Nationwide",
+        "url": "https://www.nationwide.com/business/risk-management/services-resources/resource-library/articles/proper-handling-of-electric-vehicles-after-flooding-or-hurricanes",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Why Hurricane Floods Can Cause EV Battery Fires (NTSB and NHTSA comments)",
+        "publisher": "InsideEVs",
+        "url": "https://insideevs.com/news/735638/ev-fire-after-flood/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use V2L or charge a vehicle that has been in flood water until it is inspected.",
+      "Do not rely on an EV as your only heat source in a long blizzard if you cannot conserve enough range to reach help."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You drive an EV or hybrid and a storm, outage, or evacuation is coming.",
+      "immediate": [
+        "Charge higher before the event; know your cold-weather range",
+        "Move the car to high ground if flooding is possible",
+        "Unplug the charger before a flood"
+      ],
+      "then": [
+        "Use factory outlets (V2L) for small loads only",
+        "After any flood, do not drive or charge it until inspected; park 50+ feet from buildings"
+      ]
+    }
+  },
+  {
+    "id": "vehicle-013",
+    "category": "vehicle",
+    "title": "Breaking Down on the Highway - Staying Safe on the Shoulder",
+    "priority": "critical",
+    "tags": [
+      "vehicle",
+      "breakdown",
+      "highway",
+      "shoulder",
+      "roadside",
+      "move-over",
+      "hazard-lights"
+    ],
+    "summary": "What to do the moment your car fails at highway speed: getting as far from traffic as possible, staying visible, deciding whether to stay in the car or get out, and calling for help.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Get off the travel lanes",
+        "body": "When something fails - a warning light, a flat, a loss of power - turn on your hazard lights immediately and steer toward the right shoulder if you can (the left shoulder only if that is the only choice). If the car still rolls, aim for the next exit, a wide shoulder, or a parking area beyond a curve or hill, where drivers can see you sooner. Get as far right as possible, past the white edge line and onto the widest, firmest spot. Many states have \"steer it and clear it\" laws asking drivers in minor crashes to move out of travel lanes when it is safe."
+      },
+      {
+        "step": 2,
+        "title": "Secure the car",
+        "body": "Once stopped, put the car in Park, set the parking brake, and keep the hazard lights on. Turn the front wheels away from the road so a hit from behind pushes the car off the road rather than into traffic. At night, turn on the dome light too. If the engine is smoking or you smell burning, turn it off."
+      },
+      {
+        "step": 3,
+        "title": "Usually stay inside, buckled",
+        "body": "Michigan State Police and many other agencies advise staying in your car with your seat belt on while you wait for help. A seated, belted person is much better protected if another car hits the stopped vehicle. The exception: if the car is in a travel lane, on a curve with no shoulder, smoking or on fire, or at high risk of being struck, get everyone out and well away, behind a guardrail or up an embankment if one is there."
+      },
+      {
+        "step": 4,
+        "title": "If you must get out, do it safely",
+        "body": "Exit on the side away from traffic, sliding across if needed. Put on a reflective vest if you have one. Keep children and pets in hand. Stand well off the road, behind the guardrail if possible, and never stand between the car and traffic or directly behind the car. If you set warning triangles, walk facing traffic and place one about 100 feet (30 m) behind the car, with more spacing on fast roads or near curves. Do not work on the traffic side of the car - that includes changing a tire."
+      },
+      {
+        "step": 5,
+        "title": "Call for help",
+        "body": "Call roadside assistance, your insurer, or a tow company. If you are in a dangerous spot, injured, or blocking traffic, call 911. Give the highway name, direction of travel, the nearest mile marker or last exit, and a description of the car. Some states have a short code for highway help; check your state's DOT. Accept help only from uniformed officers, marked roadside service vehicles, or the tow you called. Stay in the locked car if someone you do not know stops; you can talk through a cracked window."
+      },
+      {
+        "step": 6,
+        "title": "Walking, if you have no choice",
+        "body": "Walking along a highway is dangerous and is illegal on some freeways. If you must walk, wear bright or reflective clothing, walk facing traffic as far from the road as possible, and use a flashlight at night. Never cross a highway on foot. Usually it is safer to wait with the car."
+      },
+      {
+        "step": 7,
+        "title": "When you are the one passing",
+        "body": "Every state has a Move Over law. When you see a stopped emergency, tow, or service vehicle - and in many states any stopped car with hazards - move over a full lane if you can do it safely, or slow down well below the speed limit if you cannot. Michigan, for example, requires slowing at least 10 mph below the limit. Slow down even more in rain, snow, ice, wind, or fog, when stopping distances grow."
+      }
+    ],
+    "warnings": [
+      "Never stand between your car and traffic or directly behind your car on a shoulder.",
+      "Do not change a tire or make repairs on the traffic side of the car on a highway.",
+      "If the car is smoking, on fire, or in a travel lane, get everyone out and far away.",
+      "Walking on a freeway is extremely dangerous and is prohibited in some places."
+    ],
+    "proTips": [
+      "Keep warning triangles and a reflective vest where you can reach them without unloading the trunk.",
+      "Note mile markers and exits as you drive so you can give your location quickly.",
+      "A roadside assistance plan through your insurer is often cheap and avoids standing on the shoulder for hours.",
+      "Keep a phone charger in the car; a dead phone turns a breakdown into an emergency."
+    ],
+    "relatedGuides": [
+      "vehicle-001",
+      "vehicle-003",
+      "vehicle-010",
+      "vehicle-002"
+    ],
+    "source": "Michigan State Police / AAA",
+    "sources": [
+      {
+        "title": "How to Handle a Roadside Emergency",
+        "publisher": "Michigan State Police, Office of Highway Safety Planning",
+        "url": "https://www.michigan.gov/msp/divisions/ohsp/how-to-handle-a-roadside-emergency",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Change a Tire in 11 Easy Steps",
+        "publisher": "AAA",
+        "url": "https://www.aaa.com/autorepair/articles/how-to-change-a-tire-in-11-easy-steps",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Car Safety",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/car",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not stay inside the car if it is stopped in a live travel lane, smoking, burning, or about to be struck."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your car has broken down or is losing power on a highway.",
+      "immediate": [
+        "Hazards on, steer as far off the road as you can",
+        "Park, parking brake, wheels turned away from traffic",
+        "Stay buckled inside unless the car is in danger"
+      ],
+      "then": [
+        "Call roadside help or 911 with mile marker and direction",
+        "If you get out, go away from traffic; triangle about 100 feet back"
+      ]
+    }
+  },
+  {
+    "id": "vehicle-014",
+    "category": "vehicle",
+    "title": "Driving Through Smoke, Dust Storms, and Ashfall",
+    "priority": "critical",
+    "tags": [
+      "vehicle",
+      "smoke",
+      "wildfire",
+      "dust-storm",
+      "haboob",
+      "ashfall",
+      "volcano",
+      "visibility"
+    ],
+    "summary": "How to handle sudden low visibility from wildfire smoke, dust storms, and volcanic ash: when to pull aside, how to keep smoke out of the cabin, and how to protect the engine and windshield.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Do not drive into it if you can avoid it",
+        "body": "The safest choice is not to enter a dust storm, heavy smoke, or ashfall at all. Check forecasts, air-quality alerts, and road reports before you leave. If you see a wall of dust ahead, or smoke dense enough to hide the road, stop well short at a safe place or take another route. If officials order an evacuation because of fire, leave early - before smoke closes roads."
+      },
+      {
+        "step": 2,
+        "title": "Caught in a dust storm: Pull Aside, Stay Alive",
+        "body": "Arizona DOT's guidance: check traffic around you and begin slowing. Pull off early, before visibility drops to nothing - leave the highway entirely if you can. Never stop in a travel lane or the emergency lane; get completely off the pavement and well away from where cars may drive. Turn off all your lights, including hazard lights, set the parking brake, and take your foot off the brake pedal. Stay inside with your seat belt on until the storm passes. Lights off matters: drivers behind you may follow your taillights and rear-end you, thinking you are still moving on the road."
+      },
+      {
+        "step": 3,
+        "title": "Driving in wildfire smoke",
+        "body": "Use low-beam headlights; high beams reflect off smoke and make it harder to see. Slow down well below the speed limit and leave three to five car lengths between you and the car ahead. Watch for emergency vehicles, wildlife, and people on foot. If the edge of the road is hard to see, use the painted right-side edge line as a guide. Put the phone away. Near an active fire, do not stop and do not drive off the road into grass or brush, where the hot exhaust system can start a fire."
+      },
+      {
+        "step": 4,
+        "title": "Keep smoke and dust out of the cabin",
+        "body": "Close all windows and vents, and set the fan to recirculate with the A/C on, as EPA advises. This cuts how much outside smoke enters. For long drives in smoke, keep a NIOSH-approved N95 respirator for each adult; it only works if it fits snugly with no gaps, and dust masks or bandanas do not filter fine smoke. N95s are not made for small children and should not be used on children under 2. People with asthma, heart disease, or lung disease should keep their medicines handy and get help if breathing worsens."
+      },
+      {
+        "step": 5,
+        "title": "Ashfall: drive only if you must",
+        "body": "USGS advises avoiding driving in volcanic ash; in heavy ashfall, drive only in an emergency. Ash is gritty, abrasive, and can be slippery like wet snow when damp. Drive slowly with headlights on and leave lots of space, since each vehicle stirs ash back into the air. Do not run the wipers on dry ash - it scratches the glass. Rinse the windshield with water and a cloth first, as often as needed."
+      },
+      {
+        "step": 6,
+        "title": "Protect the engine afterward",
+        "body": "Ash and heavy dust clog air filters and wear engine parts. USGS advises never driving without an air filter; if you cannot replace a dirty one, blow it out from the inside. In heavy ash, change oil and the oil filter far more often - USGS suggests every 50 to 100 miles (80 to 160 km) in heavy conditions and every 500 to 1,000 miles (800 to 1,600 km) in light dust. After smoke or dust, check the cabin and engine air filters, tires, and any ash buildup under the hood, and gently rinse ash off the windshield before using wipers."
+      }
+    ],
+    "warnings": [
+      "Never stop in a travel lane or on the paved shoulder in a dust storm - get fully off the road with lights off.",
+      "Do not drive into grass or brush near a wildfire; a hot exhaust can ignite it.",
+      "Do not use wipers on dry ash - it can scratch the windshield badly.",
+      "Dust masks and bandanas do not protect against fine smoke particles; use a well-fitted N95."
+    ],
+    "proTips": [
+      "Keep a few N95 respirators and a gallon of water for rinsing glass in the car during fire season.",
+      "Download your state's 511 or DOT app to check closures and conditions before driving.",
+      "If you live in ash or dust country, keep a spare engine air filter in the car.",
+      "A full tank lets you idle with the A/C on recirculate while waiting out dust or smoke."
+    ],
+    "relatedGuides": [
+      "dis-008",
+      "dis-013",
+      "vehicle-009",
+      "vehicle-013",
+      "vehicle-010"
+    ],
+    "source": "Arizona DOT / U.S. EPA / USGS / Colorado State Patrol",
+    "sources": [
+      {
+        "title": "Pull Aside, Stay Alive - Will You Know What to Do?",
+        "publisher": "Arizona Department of Transportation",
+        "url": "https://azdot.gov/blog-article/pull-aside-stay-alive-will-you-know-what-do",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Reduce Your Smoke Exposure (fact sheet)",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/system/files/documents/2026-06/reduce-smoke-exposure-factsheet.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Volcanic Ash - What Can I Do? Vehicles",
+        "publisher": "U.S. Geological Survey",
+        "url": "https://volcanoes.usgs.gov/volcanic_ash/what_can_i_do_vehicles.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Driving Through Wildfire Smoke Safely (Colorado State Patrol guidance)",
+        "publisher": "Colorado Public Radio",
+        "url": "https://www.cpr.org/2026/07/07/driving-through-wildfire-smoke-safely/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not pull aside and wait inside a car that is in the path of an approaching wildfire - follow evacuation routes away from the fire."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Smoke, dust, or ash suddenly drops visibility while you drive.",
+      "immediate": [
+        "Slow down early and check traffic around you",
+        "Dust storm: pull fully off the road, all lights off, foot off the brake",
+        "Windows up, air on recirculate"
+      ],
+      "then": [
+        "Smoke: low beams, big following gap, no stopping near fire",
+        "Ash: rinse the windshield before wipers; check air filter and oil"
+      ]
     }
   }
 ]

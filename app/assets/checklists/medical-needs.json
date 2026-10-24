@@ -1,0 +1,151 @@
+{
+  "id": "checklist-medical-needs",
+  "title": "Medical Needs Kit",
+  "disasterType": "medical-needs",
+  "description": "Use this list if anyone in your household depends on medicines, medical devices, or special care, so their needs are covered when power, pharmacies, or transport fail.",
+  "category": "health",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "FDA Offers Tips About Medical Devices and Natural Disasters",
+      "publisher": "U.S. FDA",
+      "url": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/fda-offers-tips-about-medical-devices-and-natural-disasters",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Information Regarding Insulin Storage and Switching Between Products in an Emergency",
+      "publisher": "U.S. FDA",
+      "url": "https://www.fda.gov/drugs/emergency-preparedness-drugs/information-regarding-insulin-storage-and-switching-between-products-emergency",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Safe Drug Use After a Natural Disaster",
+      "publisher": "U.S. FDA",
+      "url": "https://www.fda.gov/drugs/emergency-preparedness-drugs/safe-drug-use-after-natural-disaster",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "med-001",
+      "text": "Written list for each person: medicines with strength and schedule, allergies, conditions, doctors, pharmacy, and device model numbers - copies in each go-bag and a photo on your phone",
+      "critical": true
+    },
+    {
+      "id": "med-002",
+      "text": "At least a 7-14 day reserve of every daily prescription, built legally with your doctor, pharmacist, and insurer, and rotated oldest-first",
+      "critical": true
+    },
+    {
+      "id": "med-003",
+      "text": "Device power plan: battery run times, spare charged batteries, chargers, and whether it can run on a car outlet, power station, or generator",
+      "critical": true
+    },
+    {
+      "id": "med-004",
+      "text": "Tell your electric utility and fire department if someone relies on powered medical equipment",
+      "critical": true
+    },
+    {
+      "id": "med-005",
+      "text": "Cooler and frozen gel packs for refrigerated medicines - keep them from touching ice, since freezing ruins insulin",
+      "critical": true
+    },
+    {
+      "id": "med-006",
+      "text": "Write each refrigerated medicine's room-temperature limit from its label (many insulins: up to 28 days at 59-86 F / 15-30 C)",
+      "critical": true
+    },
+    {
+      "id": "med-007",
+      "text": "Backup oxygen cylinders sized for your flow rate, stored upright and secured, with no flames or smoking nearby",
+      "critical": true
+    },
+    {
+      "id": "med-008",
+      "text": "Backup supplies for pumps: pens or syringes and a written pump-failure plan from your clinician",
+      "critical": true
+    },
+    {
+      "id": "med-009",
+      "text": "Glucose tablets, testing supplies, and spare inhalers or epinephrine auto-injectors as needed",
+      "critical": true
+    },
+    {
+      "id": "med-010",
+      "text": "Plan for medicines you must not stop suddenly (seizure, heart, steroid, psychiatric) - know who to call for an emergency refill",
+      "critical": true
+    },
+    {
+      "id": "med-011",
+      "text": "Support network of at least three people per place (home, work, school) who know how to help and operate equipment",
+      "critical": true
+    },
+    {
+      "id": "med-012",
+      "text": "Accessible transportation and evacuation plan, including how to get down stairs if elevators stop",
+      "critical": true
+    },
+    {
+      "id": "med-013",
+      "text": "Ask officials about early evacuation if a life depends on a device and long power loss is expected",
+      "critical": true
+    },
+    {
+      "id": "med-014",
+      "text": "Extra glasses, hearing aids and batteries, catheters, ostomy and incontinence supplies",
+      "critical": false
+    },
+    {
+      "id": "med-015",
+      "text": "Medical alert bracelet or wallet card",
+      "critical": false
+    },
+    {
+      "id": "med-016",
+      "text": "Food for special diets for at least 3 days, and extra water if the doctor advises",
+      "critical": false
+    },
+    {
+      "id": "med-017",
+      "text": "Alerts in a usable form: text alerts, a strobe or vibrating weather radio, or large-print plans",
+      "critical": false
+    },
+    {
+      "id": "med-018",
+      "text": "Copies of insurance cards, prescriptions, and key medical records in a waterproof bag",
+      "critical": false
+    },
+    {
+      "id": "med-019",
+      "text": "Label equipment with the owner's name and phone number",
+      "critical": false
+    },
+    {
+      "id": "med-020",
+      "text": "Service animal supplies: food, tags, vaccination proof, and vet contacts",
+      "critical": false
+    },
+    {
+      "id": "med-021",
+      "text": "Ask home health, dialysis, and oxygen providers for their disaster and backup plans",
+      "critical": false
+    },
+    {
+      "id": "med-022",
+      "text": "Throw out medicines that touched floodwater unless one is life-saving, has no replacement, and looks normal - replace it as soon as you can",
+      "critical": false
+    },
+    {
+      "id": "med-023",
+      "text": "After an outage, check device settings did not reset, and never plug in a wet device",
+      "critical": false
+    }
+  ]
+}

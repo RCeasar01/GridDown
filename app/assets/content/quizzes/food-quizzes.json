@@ -4,93 +4,404 @@
     "category": "food",
     "type": "multiple_choice",
     "difficulty": "intermediate",
-    "scenario": "You've found a plant you cannot identify but need food. You want to perform the Universal Edibility Test (UET) on the leaves. After separating the plant into parts (roots, stems, leaves, berries) what is the FIRST step you perform on the leaf portion?",
+    "scenario": "You are stranded with water and shelter but no known food, and you decide to use the Universal Edibility Test (UET) on the leaves of a plentiful plant that is not in the carrot family and has no milky sap. You have fasted for 8 hours and separated the leaves from the rest of the plant. What do you do FIRST with the leaf?",
     "options": [
-      { "id": "a", "text": "Boil a small piece for 15 minutes and taste it — cooking destroys most toxins" },
-      { "id": "b", "text": "Crush a piece and hold it against your inner wrist or inner elbow for 15 minutes, watching for reaction" },
-      { "id": "c", "text": "Eat a thumbnail-sized piece and wait 8 hours before eating more" },
-      { "id": "d", "text": "Smell the broken stem — bitter almond smell indicates cyanogenic compounds, stop immediately" }
-    ],
-    "correct": "b",
-    "explanation": "The UET sequence is: (1) Separate plant parts. (2) Check smell of broken part — bitter almond/peach pits = cyanide compounds, STOP. Rancid/acrid smell = STOP. (3) Skin contact test — crush and hold on inner wrist/elbow for 15 min, watching for burning/rash/blisters. (4) Lip/mouth test — touch to lips only for 3 minutes. (5) Tongue test — hold on tongue for 15 min. (6) Chew small amount without swallowing, wait 15 min. (7) Eat thumbnail amount, wait 8 hours. Each stage is a GO/NO-GO gate. Smelling first eliminates obvious cyanogenic plants before you contact them. Boiling does NOT reliably destroy all plant toxins — many alkaloids and glycosides are heat-stable.",
-    "relatedGuide": "food-001",
-    "tags": ["food", "intermediate", "foraging", "edibility-test"]
-  },
-  {
-    "id": "quiz-food-dt-001",
-    "category": "food",
-    "type": "decision_tree",
-    "difficulty": "advanced",
-    "title": "3 Meters of Cord — Feed Two",
-    "nodes": {
-      "start": {
-        "id": "start",
-        "scenario": "Day 4 post-grid-down. You are in a temperate woodland. You and one partner have not eaten in 48 hours. You have 3 meters of 550 paracord, a knife, and knowledge of the area. You've identified active rabbit runs — fresh tracks and scat at 3 separate game trails. What is your trapping strategy?",
-        "options": [
-          { "text": "Set multiple small snares on the rabbit runs using the paracord", "next": "multiple_snares" },
-          { "text": "Construct a deadfall trap (Paiute or figure-4) at the most active trail", "next": "single_deadfall" }
-        ]
+      {
+        "id": "a",
+        "text": "Boil a small piece for 15 minutes and taste it - cooking destroys most toxins"
       },
-      "multiple_snares": {
-        "id": "multiple_snares",
-        "scenario": "Good. You split the paracord into the 7 inner strands of each section to create multiple loops. How do you set them?",
-        "options": [
-          { "text": "Set 3 snares — one at each active run — and return in 4-6 hours", "next": "three_snares" },
-          { "text": "Set 2 snares and keep 1m of paracord in reserve for other uses", "next": "two_snares_reserve" }
-        ]
+      {
+        "id": "b",
+        "text": "Crush a piece and hold it against your inner wrist for 15 minutes, watching for a reaction"
       },
-      "three_snares": {
-        "id": "three_snares",
-        "outcome": "success",
-        "explanation": "The trapping principle: more traps = more opportunities. Small game trappers say 'you need 10 traps to guarantee a meal.' With 3 traps on active runs, your odds are reasonable. Snare placement: the loop should hang 4 fingers above the trail surface, anchored to a stake or bent sapling. Loop diameter: 3-4 inches for rabbit. Paracord inner strands (gutted out) make excellent snare wire — nearly invisible and has good slip. Check every 4-6 hours — caught animals attract predators and decompose quickly in warm weather."
+      {
+        "id": "c",
+        "text": "Eat a thumbnail-sized piece and wait 8 hours before eating more"
       },
-      "two_snares_reserve": {
-        "id": "two_snares_reserve",
-        "outcome": "success",
-        "explanation": "Two snares is suboptimal but workable. You catch nothing the first check. Repositioning on the 2nd check yields one rabbit 24 hours later. Keeping cordage in reserve was reasonable planning but trapping success scales directly with the number of sets. The correct mentality: commit your full cordage to trap sets — if you need cord later, you can recover it from the traps. Use what you have NOW for food — caloric deficit compounds quickly on day 4+."
-      },
-      "single_deadfall": {
-        "id": "single_deadfall",
-        "outcome": "poor",
-        "explanation": "A deadfall requires precise construction and calibration. Without the right trigger wood, you lose 2+ hours building it. The rabbit avoids the unfamiliar object. No catch in 24 hours. Deadfalls work well for experienced trappers who can source precise trigger materials and set the bait correctly. For most people, snares are dramatically more reliable in real field conditions. With only 3 active runs and 3 meters of cord, multiple snares will almost always outperform a single deadfall. Additionally, rabbits often avoid newly disturbed ground — snares disturb the trail less than deadfall construction. Match your trap type to your skill level and available resources."
+      {
+        "id": "d",
+        "text": "Crush it and smell it - reject it if it has a strong bitter, acidic, or almond smell"
       }
-    },
-    "relatedGuide": "food-002",
-    "tags": ["food", "advanced", "trapping", "snares"]
+    ],
+    "correct": "d",
+    "explanation": "The smell check comes first because it costs nothing and rules out some dangerous plants before you touch them. The order is: smell, skin contact (about 15 minutes, then watch for hours), lips, tongue (15 minutes), chew (15 minutes), swallow a small bite and wait 8 hours, then eat about 1/4 cup and wait another 8 hours. Any reaction means stop. Skin contact (b) is the second step, not the first. Eating a piece right away (c) skips every safety gate. Boiling (a) does not destroy many plant toxins. Remember the test's real limits: it cannot reliably catch deadly plants like water hemlock, and it never works for mushrooms - use it only as a last resort.",
+    "relatedGuide": "food-007",
+    "tags": [
+      "food",
+      "intermediate",
+      "foraging",
+      "edibility-test"
+    ]
   },
   {
     "id": "quiz-food-003",
     "category": "food",
     "type": "multiple_choice",
     "difficulty": "beginner",
-    "scenario": "You have 4 pounds of raw venison. Power has been out for 5 days and won't return. Outside temperature is 65°F. Which preservation method gives this meat the longest shelf life without refrigeration?",
+    "scenario": "You have 4 pounds of fresh venison. The power has been out for 5 days and will not return soon. It is 65°F outside. Which plan keeps this meat safe the longest without refrigeration?",
     "options": [
-      { "id": "a", "text": "Hang it in a cool, shaded area — air circulation will slow spoilage" },
-      { "id": "b", "text": "Salt-cure and dry it (make jerky) — sliced thin, heavily salted, dried to below 10% moisture" },
-      { "id": "c", "text": "Smoke it over a hardwood fire for 4-6 hours" },
-      { "id": "d", "text": "Seal it in airtight jars using the open-kettle canning method" }
+      {
+        "id": "a",
+        "text": "Hang it in a cool, shaded spot - air circulation will slow spoilage"
+      },
+      {
+        "id": "b",
+        "text": "Slice it thin, heat the strips to 160°F, then dry them at 140°F or higher until they crack when bent"
+      },
+      {
+        "id": "c",
+        "text": "Lay strips in the sun on rocks for a day - sunlight kills bacteria"
+      },
+      {
+        "id": "d",
+        "text": "Seal it in jars and simmer them in a pot of boiling water (water-bath canning)"
+      }
     ],
     "correct": "b",
-    "explanation": "Proper jerky (salt-cured and dried to below 10% moisture, or water activity below 0.85) has a shelf life of 1-4 months at room temperature. Salt draws moisture out via osmosis, inhibiting microbial growth. The drying process further reduces water activity below the threshold for most pathogens. Smoking alone does not dry sufficiently for long-term preservation — true smoke-preserved meat still requires a salt cure or must reach internal temps that would reduce shelf life anyway. Hanging meat at 65°F will spoil within 24-48 hours. Open-kettle canning is unsafe for low-acid foods (meat) — botulism risk is high without a pressure canner reaching 240°F. Slice venison 1/4 inch thick, against the grain, salt heavily (or use a salt/cure brine), and dry at 140-160°F until it snaps, not bends.",
-    "relatedGuide": "food-003",
-    "tags": ["food", "beginner", "preservation", "jerky"]
+    "explanation": "Making jerky with a heat step is the safest choice. Trim the fat, slice 1/4 inch thick, heat the strips to 160°F (71°C) to kill bacteria like E. coli, then dry at a steady 140°F until a strip bends and cracks but does not snap. Stored airtight in a cool, dark place, homemade jerky keeps about 1 to 3 weeks. Hanging raw meat at 65°F (a) spoils it within a day or two. Sun drying (c) at mild temperatures is too slow and does not heat meat enough to kill germs. Water-bath canning (d) is unsafe for meat - low-acid foods need a pressure canner to prevent botulism.",
+    "relatedGuide": "food-004",
+    "tags": [
+      "food",
+      "beginner",
+      "preservation",
+      "jerky"
+    ]
   },
   {
     "id": "quiz-food-004",
     "category": "food",
     "type": "priority_order",
     "difficulty": "intermediate",
-    "scenario": "You're selecting which wild-foraged food sources to prioritize in a long-term survival situation where caloric intake is insufficient. Rank these from HIGHEST to LOWEST caloric density (calories per 100g edible portion).",
+    "scenario": "Your group is short on calories and must choose where to spend foraging effort. Rank these foods from HIGHEST to LOWEST calories per 100 grams of edible portion.",
     "items": [
-      { "id": "1", "text": "Pine nuts / tree nuts (various)" },
-      { "id": "2", "text": "Acorns (processed, tannins leached)" },
-      { "id": "3", "text": "Cattail pollen (collected in season)" },
-      { "id": "4", "text": "Dandelion greens (leaves)" },
-      { "id": "5", "text": "Pine cambium (inner bark, raw)" }
+      {
+        "id": "1",
+        "text": "Pine nuts (shelled)"
+      },
+      {
+        "id": "2",
+        "text": "Acorn meal (leached and dried)"
+      },
+      {
+        "id": "3",
+        "text": "Lean freshwater fish such as sunfish (raw weight)"
+      },
+      {
+        "id": "4",
+        "text": "Dandelion greens (raw leaves)"
+      }
     ],
-    "correct_order": ["1", "2", "3", "4", "5"],
-    "explanation": "Pine nuts ~673 cal/100g (67% fat content — the highest caloric density in wild plant foods). Processed acorns ~387 cal/100g (40% carbohydrate, 24% fat — must leach tannins in cold running water 2-3 days or boil multiple times). Cattail pollen ~340 cal/100g (high starch, protein — collect by bending heads into a bag in early summer). Dandelion greens ~45 cal/100g (excellent micronutrients but almost no caloric value — not a survival food for energy). Pine cambium ~20 cal/100g (mostly water and fiber — emergency starvation food only). KEY PRINCIPLE: In survival, prioritize FATS first (nuts, fatty animal parts), then STARCHES (roots, grains, acorns), then PROTEIN (lean meat), then greens last. Greens are nutritious but calorically irrelevant in a deficiency situation.",
-    "relatedGuide": "food-001",
-    "tags": ["food", "intermediate", "foraging", "calories", "wild-plants"]
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "explanation": "Nuts are the most calorie-dense wild plant foods because of their fat: pine nuts have roughly 670 calories per 100 g. Dried acorn meal is also high, around 400 to 500 calories per 100 g, but only after the tannins are leached out. Lean fish is a great protein source but has under 100 calories per 100 g raw, and eating only lean meat for days can make you sick without fat or carbohydrates. Dandelion greens have about 45 calories per 100 g - good for vitamins, but nearly useless for energy. Lesson: when calories are short, put effort into fats and starches first, then protein, and treat greens as a vitamin supplement.",
+    "relatedGuide": "food-014",
+    "tags": [
+      "food",
+      "intermediate",
+      "foraging",
+      "calories",
+      "wild-plants"
+    ]
+  },
+  {
+    "id": "quiz-food-005",
+    "category": "food",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Along a roadside ditch you find a tall plant with white, umbrella-shaped flower clusters, fern-like leaves, and a smooth, hairless stem with purple blotches. Crushed leaves smell musty. A friend says it is wild carrot and the root is edible. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dig up the root and boil it well - cooking removes the toxins"
+      },
+      {
+        "id": "b",
+        "text": "Do not eat it - these features match poison hemlock, which can kill"
+      },
+      {
+        "id": "c",
+        "text": "Do the universal edibility test on the root to be sure"
+      },
+      {
+        "id": "d",
+        "text": "Eat only the leaves, since the toxins are in the root"
+      }
+    ],
+    "correct": "b",
+    "explanation": "A smooth stem with purple blotches and a musty, mousy smell are classic signs of poison hemlock. Wild carrot (Queen Anne's lace) has a hairy stem without purple blotches. All parts of poison hemlock are toxic, including leaves (d), and cooking or drying does not make it safe (a). The edibility test (c) is not reliable for deadly carrot-family plants - even a small taste can be fatal. With white umbrella-shaped flowers, the safe answer is to leave the plant alone, wear gloves if you touch it, and never burn it.",
+    "relatedGuide": "food-005",
+    "tags": [
+      "food",
+      "beginner",
+      "poisonous-plants",
+      "poison-hemlock"
+    ]
+  },
+  {
+    "id": "quiz-food-006",
+    "category": "food",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "A neighbor cooked white wild mushrooms from a park on Saturday night. On Sunday morning he had vomiting and watery diarrhea. By Monday he feels much better and says he will skip the doctor. What is the right advice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "He is fine - feeling better means the mushroom has passed through"
+      },
+      {
+        "id": "b",
+        "text": "Drink lots of fluids and only see a doctor if he gets sick again"
+      },
+      {
+        "id": "c",
+        "text": "Call Poison Control (1-800-222-1222) and get to a hospital now - this pattern fits death cap poisoning"
+      },
+      {
+        "id": "d",
+        "text": "Take activated charcoal at home; the mushroom was cooked, so the toxin is weakened"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Amatoxin mushrooms like death caps and destroying angels cause stomach symptoms 6 to 24 hours after eating, then a 'false recovery,' then severe liver damage 2 to 4 days later. Feeling better (a, b) is exactly the dangerous phase. Cooking, boiling, freezing, and drying do not destroy amatoxins (d). Call Poison Control right away and get hospital care - early treatment can save the liver. Bring any leftover mushrooms and photos. California's 2025-2026 outbreak caused dozens of poisonings, several deaths, and liver transplants.",
+    "relatedGuide": "food-006",
+    "tags": [
+      "food",
+      "intermediate",
+      "mushrooms",
+      "poisoning"
+    ]
+  },
+  {
+    "id": "quiz-food-007",
+    "category": "food",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "An ice storm knocked out power three days ago and it is raining hard. You want to cook dinner on your propane camp stove. Where is it safe to use it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In the attached garage with the big door open"
+      },
+      {
+        "id": "b",
+        "text": "In the kitchen next to an open window"
+      },
+      {
+        "id": "c",
+        "text": "Outside, away from doors, windows, and vents, under an open shelter such as a canopy"
+      },
+      {
+        "id": "d",
+        "text": "In the kitchen, as long as you only run it for 10 minutes"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Camp stoves, grills, and generators make carbon monoxide, which you cannot see or smell. CDC guidance is to never use them inside a home, garage, or carport, or near doors, windows, or vents. An open garage door (a) or window (b) does not clear CO reliably, and even short use indoors (d) can poison people. Cook outside under an open canopy set well away from the house, and run battery-powered CO alarms indoors. Headache, dizziness, or nausea in several people means get outside and call 911.",
+    "relatedGuide": "food-011",
+    "tags": [
+      "food",
+      "beginner",
+      "cooking",
+      "carbon-monoxide"
+    ]
+  },
+  {
+    "id": "quiz-food-008",
+    "category": "food",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You are cleaning a rabbit taken during a legal season. You have a small cut on one finger. When you open the body, the liver is covered with many small white spots. What do you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cut away the liver and cook the rest of the meat well"
+      },
+      {
+        "id": "b",
+        "text": "Discard the whole carcass, disinfect your tools, wash well, and watch for fever or a skin sore over the next two weeks"
+      },
+      {
+        "id": "c",
+        "text": "Rinse the meat in salt water and cook it to 145°F"
+      },
+      {
+        "id": "d",
+        "text": "Keep going - white spots are normal fat deposits in wild rabbits"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Many white or yellow spots on a rabbit's liver or spleen can be a sign of tularemia or another disease. Do not eat any of it (a, c, d). Bag and dispose of the carcass following local rules, clean tools with bleach solution, and wash your hands well. Tularemia can enter through small cuts, which is why CDC advises wearing gloves when handling rabbits and rodents. Watch for sudden fever, chills, swollen glands, or a sore at the cut, usually 3 to 5 days later, and see a doctor if they appear. Also note 145°F is too low for game - cook it to at least 160°F, ideally 165°F.",
+    "relatedGuide": "food-009",
+    "tags": [
+      "food",
+      "intermediate",
+      "small-game",
+      "tularemia"
+    ]
+  },
+  {
+    "id": "quiz-food-009",
+    "category": "food",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You caught several perch from a lake during a long power outage. Someone wants to make 'lake ceviche' by soaking raw fillets in lime juice for an hour. What is the safest way to eat these fish?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ceviche is fine - the acid in lime juice cooks the fish"
+      },
+      {
+        "id": "b",
+        "text": "Freeze them in the chest freezer that lost power, then eat them raw"
+      },
+      {
+        "id": "c",
+        "text": "Cook them until the flesh is opaque and flakes easily, or 145°F inside"
+      },
+      {
+        "id": "d",
+        "text": "Smoke them lightly for 20 minutes - smoke kills parasites"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Wild freshwater fish can carry parasites such as fish tapeworm. Acid marinades (a) and light smoking (d) do not reliably kill parasites. Freezing only works at very low temperatures - such as -4°F for 7 days - which a home freezer, let alone one without power (b), may not reach. Cook fish to 145°F (63°C) or until opaque and flaky all the way through. Also check your state's fish advisory, since cooking does not remove mercury or PCBs.",
+    "relatedGuide": "food-010",
+    "tags": [
+      "food",
+      "beginner",
+      "fish",
+      "parasites"
+    ]
+  },
+  {
+    "id": "quiz-food-010",
+    "category": "food",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your household of five (two adults, a pregnant teenager, a 6-year-old, and a grandparent with diabetes) has about 3 weeks of shelf-stable food and no idea when stores will reopen. Fridge food is already used up. How should you ration?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cut everyone to half rations equally - fairness matters most"
+      },
+      {
+        "id": "b",
+        "text": "Healthy adults cut back and rest more; keep full rations for the child and the pregnant teen, and follow the grandparent's diabetes meal plan"
+      },
+      {
+        "id": "c",
+        "text": "Eat normally until food runs out, then figure it out"
+      },
+      {
+        "id": "d",
+        "text": "Cut food and water by half for everyone to stretch both supplies"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Emergency guidance says healthy adults who reduce activity can live on about half their usual food for an extended time, but children and pregnant women should not be rationed. People with diabetes need steady meals that match their medicine, so follow their care plan. Equal cuts (a) put the most vulnerable at risk. Eating normally (c) wastes the chance to stretch supplies. Never ration water (d) - dehydration is far more dangerous than hunger.",
+    "relatedGuide": "food-013",
+    "tags": [
+      "food",
+      "beginner",
+      "rationing",
+      "household"
+    ]
+  },
+  {
+    "id": "quiz-food-011",
+    "category": "food",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "You are packing a long-term food supply in Mylar bags with oxygen absorbers. Which item should NOT be sealed in an oxygen-free bag at room temperature, and why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "White rice - it will absorb the oxygen absorber's iron"
+      },
+      {
+        "id": "b",
+        "text": "Dry pinto beans - they need oxygen to stay edible"
+      },
+      {
+        "id": "c",
+        "text": "Home-dried fruit that is still soft and moist - moist food without oxygen can grow botulism"
+      },
+      {
+        "id": "d",
+        "text": "Wheat berries - they will sprout in the bag"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Oxygen absorbers are meant for dry foods, about 10 percent moisture or less, such as white rice, dry beans, and wheat. Sealing moist foods without oxygen creates conditions where botulism bacteria can grow, as Utah State University Extension warns. Rice (a), beans (b), and wheat (d) store well this way when dry. Keep sealed containers cool (ideally 40 to 60°F), dark, and off the floor, since every rise of about 10°F roughly halves storage life.",
+    "relatedGuide": "food-012",
+    "tags": [
+      "food",
+      "advanced",
+      "storage",
+      "oxygen-absorbers"
+    ]
+  },
+  {
+    "id": "quiz-food-dt-001",
+    "category": "food",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "3 Meters of Cord - Feed Two",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "Day 4 of a true life-or-death emergency with no resupply in sight. You are in a temperate woodland with one partner and have not eaten in 48 hours. You have 3 meters of 550 paracord, a knife, and a pair of nitrile gloves. You've found active rabbit runs - fresh tracks and droppings on 3 separate trails. (Outside an emergency like this, snaring is illegal or regulated in most states.) What is your trapping strategy?",
+        "options": [
+          {
+            "text": "Set multiple small snares on the rabbit runs using the paracord",
+            "next": "multiple_snares"
+          },
+          {
+            "text": "Construct a deadfall trap (Paiute or figure-4) at the most active trail",
+            "next": "single_deadfall"
+          }
+        ]
+      },
+      "multiple_snares": {
+        "id": "multiple_snares",
+        "scenario": "Good. You pull the inner strands out of the paracord to make several thin snare loops. How do you set them?",
+        "options": [
+          {
+            "text": "Set 3 snares - one on each active run - and check them every few hours",
+            "next": "three_snares"
+          },
+          {
+            "text": "Set 2 snares and keep 1 m of paracord in reserve for other uses",
+            "next": "two_snares_reserve"
+          }
+        ]
+      },
+      "three_snares": {
+        "id": "three_snares",
+        "outcome": "success",
+        "explanation": "More good sets on active trails means more chances for a meal. Hang each loop about 3 to 4 inches across, roughly a fist's height above the trail, anchored to a stake or root, and disturb the trail as little as possible. Check at least daily, and more often in warm weather, because caught animals spoil and attract predators. Put on gloves before handling a catch - rabbits can carry tularemia - and do not eat one that looks sick or has many white spots on its liver. Cook rabbit to at least 160-165°F, and eat some fat or starch with it, since rabbit is very lean. Take down every snare when you leave."
+      },
+      "two_snares_reserve": {
+        "id": "two_snares_reserve",
+        "outcome": "success",
+        "explanation": "Two snares can work but cut your odds. You catch nothing on the first check, move one snare to a fresher trail, and get a rabbit a day later. Keeping cord in reserve is reasonable planning, but trapping success rises with the number of good sets - and you can recover the cord from the snares later. Whatever you catch, wear gloves to handle it, check it for signs of illness, and cook it thoroughly."
+      },
+      "single_deadfall": {
+        "id": "single_deadfall",
+        "outcome": "poor",
+        "explanation": "A deadfall needs precise trigger pieces and careful tuning. You spend 2+ hours building it, burning energy you cannot spare, and the rabbit avoids the unfamiliar object. No catch in 24 hours. Deadfalls can also injure your hands while setting. With 3 active runs and cord on hand, several simple snares will usually beat a single deadfall for most people. Match the method to your skill and materials."
+      }
+    },
+    "relatedGuide": "food-002",
+    "tags": [
+      "food",
+      "advanced",
+      "trapping",
+      "snares"
+    ]
   }
 ]

@@ -1,0 +1,124 @@
+{
+  "id": "checklist-pet-kit",
+  "title": "Pet Emergency Kit",
+  "disasterType": "pet-kit",
+  "description": "Use this list to pack a go-kit for each pet and set up the plan so you never have to leave animals behind.",
+  "category": "home",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Pet Preparedness Social Media Toolkit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/pet-toolkit",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "pet-001",
+      "text": "Food for at least several days (ideally 2 weeks) in a waterproof container",
+      "critical": true
+    },
+    {
+      "id": "pet-002",
+      "text": "Water for several days plus bowls",
+      "critical": true
+    },
+    {
+      "id": "pet-003",
+      "text": "Medicines with written dosing instructions",
+      "critical": true
+    },
+    {
+      "id": "pet-004",
+      "text": "Sturdy leash, harness, and collar with ID tags showing your cell number and an out-of-town contact",
+      "critical": true
+    },
+    {
+      "id": "pet-005",
+      "text": "Carrier or crate for each animal, labeled with your contact info",
+      "critical": true
+    },
+    {
+      "id": "pet-006",
+      "text": "Microchip each pet and confirm the registry has your current phone and address",
+      "critical": true
+    },
+    {
+      "id": "pet-007",
+      "text": "Copies of vet records and vaccination proof in a waterproof bag",
+      "critical": true
+    },
+    {
+      "id": "pet-008",
+      "text": "Current photos of you with each pet to prove ownership if separated",
+      "critical": false
+    },
+    {
+      "id": "pet-009",
+      "text": "Pet first aid kit",
+      "critical": false
+    },
+    {
+      "id": "pet-010",
+      "text": "Litter and litter box, or poop bags",
+      "critical": false
+    },
+    {
+      "id": "pet-011",
+      "text": "Cleaning supplies: paper towels, disinfectant, trash bags",
+      "critical": false
+    },
+    {
+      "id": "pet-012",
+      "text": "Familiar blanket, toy, or treats to reduce stress",
+      "critical": false
+    },
+    {
+      "id": "pet-013",
+      "text": "Manual can opener if you pack canned food",
+      "critical": false
+    },
+    {
+      "id": "pet-014",
+      "text": "List of pet-friendly hotels, boarding kennels, vets, and friends outside your area",
+      "critical": true
+    },
+    {
+      "id": "pet-015",
+      "text": "Pet buddy: a neighbor with a key who can get your pets if you are not home",
+      "critical": true
+    },
+    {
+      "id": "pet-016",
+      "text": "Practice carriers and short car trips so pets load quickly",
+      "critical": false
+    },
+    {
+      "id": "pet-017",
+      "text": "Plan to evacuate early and take pets with you - never leave them chained or tied outside",
+      "critical": true
+    },
+    {
+      "id": "pet-018",
+      "text": "Rescue alert sticker on your door listing the animals inside",
+      "critical": false
+    },
+    {
+      "id": "pet-019",
+      "text": "For horses and livestock: trailer, transport route, and destination arranged well ahead",
+      "critical": false
+    },
+    {
+      "id": "pet-020",
+      "text": "Rotate pet food and medicines before they expire",
+      "critical": false
+    }
+  ]
+}

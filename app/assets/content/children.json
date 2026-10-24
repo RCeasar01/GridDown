@@ -7,158 +7,349 @@
     "tags": [
       "children",
       "emergency",
-      "911"
+      "911",
+      "phone",
+      "text to 911",
+      "parents"
     ],
     "audience": "children",
     "parentGuide": true,
-    "summary": "How to teach children to call 911 confidently and communicate effectively in an emergency.",
+    "summary": "How to teach children when to call 911, what to say, and how to stay on the line, with practice games that never tie up real dispatchers. Start as early as age 3 or 4.",
     "steps": [
       {
         "step": 1,
-        "title": "Address First",
-        "body": "Teach children to memorize their full home address including street number, street name, and city. Practice by having them recite it daily for 2 weeks. Make it a game. Address is the single most critical piece of information dispatchers need."
+        "title": "Teach the facts dispatchers need",
+        "body": "The single most useful thing a child can tell a dispatcher is where they are. Help your child learn their full address: house or apartment number, street name, and city or town. Add their own first and last name, their parents' real names (not just 'Mom' and 'Dad'), and one parent's phone number. For older kids, add nearby street names and landmarks, such as 'the blue house across from the school.' Practice in short, fun bursts - in the car, at bath time, or as a song. Most children can learn an address by age 4 or 5 with daily repetition over a few weeks. Post the address next to the home phone and on the fridge for babysitters too."
       },
       {
         "step": 2,
-        "title": "What to Say",
-        "body": "Script: 'I need help. My address is [ADDRESS]. [NAME OF PROBLEM]. My name is [NAME].' Practice this script until it's automatic. Role-play scenarios: 'Daddy is on the floor and won't wake up.' 'There's a fire in the kitchen.'"
+        "title": "Explain what an emergency is",
+        "body": "Give kids a simple test: 'Is someone hurt badly, in danger, or is something on fire RIGHT NOW?' If yes, call 911. Good examples: a grown-up will not wake up or is not breathing, a fire or smoke, someone breaking in, a bad car crash, or someone who is choking or bleeding a lot. Not emergencies: a lost toy, a power outage when everyone is fine, a scraped knee, or a question about homework. If they are not sure, tell them it is better to call. Promise them clearly that they will never be in trouble for calling 911 when they truly thought someone needed help."
       },
       {
         "step": 3,
-        "title": "When to Call",
-        "body": "Call 911 for: someone unconscious or not breathing, a fire, someone breaking in, a serious accident. NOT for: lost toys, power outages (unless someone is hurt), non-emergency questions. The rule: 'Is someone in danger RIGHT NOW?'"
+        "title": "Give them a simple script",
+        "body": "Teach a short, easy script: 'I need help. My name is ___. I am at ___ (address). My ___ is hurt / there is a fire.' Then teach the most important rule: answer the dispatcher's questions and do exactly what they say. Dispatchers are trained to talk with frightened children and will ask simple questions one at a time. Tell your child to speak slowly and clearly and to say 'I don't know' when they don't know an answer. If there is a fire, teach them to get out first and call from outside or from a neighbor's home."
       },
       {
         "step": 4,
-        "title": "Don't Hang Up",
-        "body": "Teach children to stay on the line. The dispatcher will talk them through it. 'Stay on the phone with the nice person who answered. They will help you until help arrives.'"
+        "title": "Stay on the line - and don't hang up by mistake",
+        "body": "Teach kids to keep the phone to their ear until the dispatcher says it is OK to hang up. The dispatcher may stay on the line until help arrives and may give instructions, such as unlocking the front door or turning on the porch light. If a child dials 911 by accident, they should stay on and say 'It was a mistake, everyone is OK.' Hanging up causes the center to call back and may send police to check, which takes help away from real emergencies."
       },
       {
         "step": 5,
-        "title": "Practice Drills",
-        "body": "Conduct quarterly 'what would you do' scenarios. Do NOT dial 911 during practice. Use a disconnected phone or simply talk through scenarios verbally. 'If mommy fell and couldn't get up, what would you do? Show me.'"
+        "title": "Show them how to use every phone",
+        "body": "Walk your child through each phone in the house. Show them how to dial 911 from a locked cell phone using the emergency call button on the lock screen, how to press 'call' or 'send' after dialing, and how to use speakerphone so they can keep their hands free. Explain that any working cell phone can usually reach 911 even without a phone plan. In many areas, you can text 911 if talking is not safe. The FCC's rule is 'call if you can, text if you can't.' A first text should say where you are and what is happening in plain words, with no emojis or slang. Text-to-911 is not available everywhere, so calling is always the first choice."
       },
       {
         "step": 6,
-        "title": "Where Are Phones",
-        "body": "Identify all phones in the home and their locations. Know that cell phones can call 911 even without service. Know the neighbor's door number who can help."
+        "title": "Practice without dialing",
+        "body": "Never dial 911 for practice. Use a toy phone, a powered-off phone, or just talk it through. Every few months, play 'What would you do?' with scenarios such as 'Grandpa fell and won't answer you' or 'You smell smoke at night.' Let the child act it out from dialing to answering questions. Many local 911 centers and fire departments offer free kids' materials, coloring books, and classroom visits. Praise effort and calm, clear talking, not speed."
+      },
+      {
+        "step": 7,
+        "title": "Keep phones useful but not toys",
+        "body": "Prank and accidental calls tie up dispatchers who may be needed for real emergencies. Keep old phones that can still dial 911 out of young children's play bins, or remove their batteries, and use the screen lock on your own phone. Make sure there is always a working phone your child can reach when they are home with only one adult, such as a cell phone on a charger in a known spot. Teach them the name and door of a trusted neighbor who can help if a phone does not work."
       }
     ],
     "warnings": [
-      "Teach children that calling 911 for non-emergencies ties up lines needed for real emergencies. Tell them they will never get in trouble for calling 911 if they genuinely thought it was an emergency."
+      "Never let children practice by dialing 911 on a real phone - use a toy or a powered-off device.",
+      "If there is a fire or smoke, teach kids to get out first and call from outside or a neighbor's home.",
+      "Text-to-911 is not available in every area and location may be less exact - call when it is safe to talk.",
+      "Old cell phones without service can still dial 911, so do not give them to toddlers as toys."
     ],
     "proTips": [
-      "Write your home address on a card and tape it near every phone and to the back of each child's phone/device. Children as young as 3-4 can memorize addresses with consistent practice."
+      "Write your address and a parent's phone number on a card taped near the home phone and inside the front door for kids and babysitters.",
+      "Set up your phone's emergency medical ID and emergency contacts so responders can see them from the lock screen.",
+      "Turn the address into a song or rhyme - young children remember music faster than lists.",
+      "Repeat the 'you will never be in trouble for calling' promise often; fear of trouble is a common reason kids freeze."
     ],
-    "relatedGuides": []
+    "relatedGuides": [
+      "children-004",
+      "children-003",
+      "comms-005",
+      "comms-012",
+      "medical-015"
+    ],
+    "source": "Local 911 public education / FCC",
+    "sources": [
+      {
+        "title": "Children Calling for Help and 911",
+        "publisher": "City of Norfolk, VA Emergency Communications",
+        "url": "https://norfolk.gov/1207/Children-911",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Text to 9-1-1",
+        "publisher": "Orange County Fire Authority",
+        "url": "https://www.ocfa.org/Text911",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Ready Kids",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/kids",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not call 911 from inside a burning building - get out first, then call.",
+      "Do not use 911 for non-emergencies such as power outages with no one hurt - use the local non-emergency number."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want your child to be able to get help if an adult is hurt or there is a fire or break-in.",
+      "immediate": [
+        "Teach their full address, their full name, and a parent's name and phone number.",
+        "Teach the test: someone badly hurt, in danger, or something on fire right now = call 911.",
+        "Teach them to answer questions and stay on the line until told to hang up."
+      ],
+      "then": [
+        "Show them how to make an emergency call from a locked cell phone.",
+        "Practice with a toy phone every few months - never dial 911 for practice."
+      ]
+    }
   },
   {
     "id": "children-002",
     "category": "children",
-    "title": "What to Do If You're Lost — Child Version",
+    "title": "What to Do If You're Lost - Child Version (Hug-a-Tree)",
     "priority": "critical",
     "tags": [
       "children",
       "lost",
       "wilderness",
-      "STOP"
+      "hug a tree",
+      "stay put",
+      "whistle",
+      "search and rescue"
     ],
     "audience": "children",
     "parentGuide": true,
-    "summary": "Teach children the STOP method and survival basics for when they become separated from adults.",
+    "summary": "The Hug-a-Tree rules that search and rescue teams teach kids: tell someone, stay put, stay warm and dry, and help searchers find you. Read it with your child before any hike, camping trip, or big outing.",
     "steps": [
       {
         "step": 1,
-        "title": "STOP",
-        "body": "Stop the moment you realize you're lost. Do not keep walking — every step may take you further from your last known position. Panicking and running is the most dangerous response. Standing still gives searchers a smaller area to search."
+        "title": "Before you go: tell a grown-up",
+        "body": "Parents, start here. Before any hike or campout, tell a trusted adult where you are going, who is going, and when you will be back. Dress your child in bright colors, take a photo of them that morning so you have their exact clothes on record, and make a shoe print on a piece of foil or paper so searchers can tell their track from others. Give every child their own whistle on a lanyard and a large orange or bright trash bag folded in a pocket. Tell them what to do if they get lost before you ever leave the car."
       },
       {
         "step": 2,
-        "title": "Think",
-        "body": "Take 3 deep breaths. Think about where you last saw your parents or group. Think about what you did to get here. Did you go uphill? Turn right? Cross a stream?"
+        "title": "Stop as soon as you feel lost",
+        "body": "Kids, the moment you can't see or hear your group, stop walking. Don't run, and don't try to find the way back by yourself. Every step can take you farther away and make you harder to find. Take three slow, deep breaths. Being lost is scary, but you are not in trouble, and grown-ups will come looking for you right away. A child who stays in one place is found much faster than one who keeps moving."
       },
       {
         "step": 3,
-        "title": "Observe",
-        "body": "Look around for familiar landmarks. Can you hear voices, water, or traffic? Can you see buildings, trails, or open sky? Note what is around you."
+        "title": "Hug a tree - pick your spot and stay",
+        "body": "Find a big tree or rock close by and stay right next to it. That is your spot. Hugging it or sitting against it can make you feel calmer and less alone. Do not leave your spot, even if you think you know the way, unless something dangerous like fire or rising water is coming. If you can, pick a spot near the edge of a clearing or trail where searchers or helicopters can see you, but don't go far to find one."
       },
       {
         "step": 4,
-        "title": "Plan",
-        "body": "Make a simple plan: Stay in one place and signal for help. Children should NOT try to find their way out alone in wilderness. Adults will come looking for YOU. Your job is to be VISIBLE and LOUD."
+        "title": "Stay warm and dry",
+        "body": "Getting cold and wet is the biggest danger when you are lost - much more than being hungry. Put on every layer you have. If you have a trash bag, tear a hole for your face (never cover your face or mouth with the bag) and pull it over your body like a poncho to stay dry and hold in warmth. Sit on a pile of branches, leaves, or your backpack instead of bare, wet ground. Stay out of the wind behind your tree or rock. Do not drink from streams or puddles unless a grown-up has told you it's an emergency and you have nothing else."
       },
       {
         "step": 5,
-        "title": "Hug a Tree",
-        "body": "Literally hug a tree or sit against a large visible object in a clearing. This is your waiting spot. Do not leave it. Searchers will find you faster if you stay put. If you must move, leave a trail of sticks/rocks pointing your direction."
+        "title": "Help searchers find you",
+        "body": "Blow your whistle three times in a row, then rest and listen. Do it again every few minutes. Three blasts means 'I need help.' A whistle carries much farther than your voice and won't wear out your throat. If you hear people calling your name, yell back and blow your whistle. Searchers might be strangers in bright jackets, with dogs, or in helicopters - they are there for YOU, so answer them. Nobody will be angry with you. If you see an aircraft, move to an open spot next to your tree and wave your arms or something bright."
       },
       {
         "step": 6,
-        "title": "Signal",
-        "body": "Use your whistle (always carry one): 3 blasts = SOS. Repeat every few minutes. Blow as loud as you can. Shout your name clearly every few minutes. Use a mirror, shiny wrapper, or phone screen to reflect sunlight."
+        "title": "At night, stay put",
+        "body": "If it gets dark, stay at your spot. Searchers keep looking at night, and the darkness is not dangerous by itself. Animal noises are usually small animals that are more scared of you. Keep your whistle ready, keep your layers on, and try to rest. Do not walk in the dark - that is how kids get hurt by falling. When morning comes, stay at your spot and keep using your whistle."
+      },
+      {
+        "step": 7,
+        "title": "Parents: practice and act fast",
+        "body": "Practice in the backyard or a park: have your child pick a tree, blow three blasts, and answer when called. Praise them for staying. If your child goes missing outdoors, search the immediate area for only a few minutes, then call 911 right away - do not wait hours. Tell the ranger or deputy what your child was wearing, their age, and when and where you last saw them. Give them the photo and the shoe print. Stay at the last known spot or where officials ask you to be."
       }
     ],
     "warnings": [
-      "The biggest danger for lost children is walking — it leads to falls, exhaustion, and makes the search area larger. Trust the rule: STOP and STAY."
+      "Never let a child put a plastic bag over their head or face - cut or tear a face hole and keep it below the chin.",
+      "Walking while lost leads to falls, exhaustion, and a much bigger search area - teach 'stop and stay.'",
+      "Children often hide from searchers because they fear being in trouble or are afraid of strangers - tell them searchers are safe helpers.",
+      "Call 911 quickly if a child is missing outdoors; early searches are smaller and faster."
     ],
     "proTips": [
-      "Every child should wear a bright-colored whistle around their neck in any outdoor setting. The rule 'hug a tree' was created by BC Search and Rescue and has saved hundreds of children's lives. Practice this drill in your backyard so it's automatic."
+      "Hug-a-Tree and Survive was created after a 9-year-old boy named Jimmy Beveridge was lost in southern California in 1981; many search and rescue teams and parks still teach it free.",
+      "Take a phone photo of your child every outing morning so searchers know exactly what to look for.",
+      "Tie the whistle to the backpack strap or jacket zipper, not deep in a pocket.",
+      "Plan a 'meet here if separated' spot at every trailhead, campsite, and fair entrance."
     ],
-    "relatedGuides": []
+    "relatedGuides": [
+      "nav-008",
+      "security-004",
+      "comms-004",
+      "children-005",
+      "medical-025"
+    ],
+    "source": "San Diego Mountain Rescue Team / NPS Hug-a-Tree",
+    "sources": [
+      {
+        "title": "Wilderness Safety - Hug-a-Tree",
+        "publisher": "San Diego Mountain Rescue Team",
+        "url": "https://www.sdmrt.org/safety/hug-a-tree",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Hug-a-Tree and Survive Kids Program",
+        "publisher": "National Park Service, Shiloh National Military Park",
+        "url": "https://www.nps.gov/shil/learn/news/hug-a-tree-and-survive-kids-program.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Leave the spot if fire, rising water, rockfall, or another danger is coming toward it - move only far enough to be safe, then stay put again.",
+      "In a city or crowd, the plan is different: go to a safe helper such as a store clerk or uniformed officer (see children-003)."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A child is separated from their group outdoors and can't see or hear anyone.",
+      "immediate": [
+        "Stop walking and stay next to one big tree or rock.",
+        "Blow the whistle three times, rest, listen, and repeat every few minutes.",
+        "Put on all layers and keep dry - use a trash bag poncho with a face hole."
+      ],
+      "then": [
+        "Answer anyone calling your name - searchers are safe helpers.",
+        "Parents: search briefly, then call 911 and give the photo and shoe print."
+      ]
+    }
   },
   {
     "id": "children-003",
     "category": "children",
-    "title": "Stranger Safety in Emergencies",
+    "title": "Safe Adults and Tricky Situations - Stranger Safety in Emergencies",
     "priority": "critical",
     "tags": [
       "children",
-      "strangers",
       "safety",
+      "safe adults",
+      "tricky people",
+      "check first",
+      "abduction prevention",
       "emergency"
     ],
     "audience": "children",
     "parentGuide": true,
-    "summary": "Teach children updated, realistic stranger safety rules that adapt to emergency situations.",
+    "summary": "Modern child safety teaches kids to spot unsafe behavior and find safe helpers, not to fear every stranger. This guide covers NCMEC's 'check first' approach, who to ask for help when lost or separated, and how to practice.",
     "steps": [
       {
         "step": 1,
-        "title": "Trusted Adults",
-        "body": "Children should have a pre-established list of 5 trusted adults (besides parents): specific named family members, teachers, neighbors. Practice naming them. In an emergency, a child should seek these specific people, not 'any adult.'"
+        "title": "Drop 'stranger danger' and teach behavior",
+        "body": "The National Center for Missing & Exploited Children (NCMEC) says 'stranger danger' is not the best lesson. Most children who are taken or harmed are hurt by someone they already know, and only about 1 percent of missing child cases reported to NCMEC are nonfamily abductions. Kids also may need a stranger's help in an emergency. So teach children to watch what people DO, not how they look. Warning signs from anyone, known or unknown: an adult asks a child for help, asks them to keep a secret, offers a gift or ride without a parent knowing, or tries to get them to go somewhere. Avoid words like 'bad guys' - unsafe people often look friendly and normal."
       },
       {
         "step": 2,
-        "title": "Safe Words",
-        "body": "Establish a family safe word. If someone says 'your mom sent me to pick you up' and doesn't know the safe word, the child does NOT go. Period. Practice: 'What's the safe word?' Safe words should be memorable but not guessable."
+        "title": "Make the 'check first' rule",
+        "body": "Teach one clear rule: 'Check with me (or the adult in charge) before you go anywhere with anyone, take anything from anyone, or get into any car - even with someone you know.' NCMEC has documented more than 100 tricks used to lure children. Common ones are: offering candy, toys, or a ride; asking for help finding a lost puppy; claiming 'your mom is hurt and sent me'; asking for directions; or telling a child they are in trouble. The answer to all of them is the same: say 'I have to check first,' step back at least an arm's length, and go find your grown-up. Remind kids that adults who need help should ask other adults."
       },
       {
         "step": 3,
-        "title": "When the Rules Change",
-        "body": "In some emergencies (parent injured, lost), a child may need to approach a stranger for help. Teach the difference: seek a uniformed person first (police, firefighter, paramedic), then a mother with children, then a store employee (behind a counter). Approach in public, visible locations — never go somewhere private."
+        "title": "Pick your family's safe adults",
+        "body": "Sit down with your child and name 3 to 5 specific trusted adults they can go to and who may pick them up - relatives, close neighbors, a teacher. Write the names on their emergency card (see children-004). Make sure the school or child care has the same list; schools should never release your child to someone not on it. Some families also use a family code word that a pickup person must know if plans change. If you use one, choose something not easy to guess, keep it off social media, and change it after it is used."
       },
       {
         "step": 4,
-        "title": "Information Rules",
-        "body": "Children should know their parents' first and last names, one parent's phone number, and their home address. They should NOT tell strangers: their home address (unless calling for help), that they're home alone, or their full daily schedule."
+        "title": "Teach who to ask when lost or separated",
+        "body": "In a store, crowd, evacuation center, or after a disaster, a child may need help from someone they don't know. NCMEC suggests teaching kids to look for a safe helper: a uniformed police officer or firefighter, a store worker with a name tag behind a counter or register, or a mom or dad with kids. Tell them to stay in public, in the open, and never go to a car, back room, or bathroom with a helper. In a store, they should go to the checkout counter and say 'I'm lost.' Agree on a meeting spot at the start of every outing, such as the main entrance or the information desk."
       },
       {
         "step": 5,
-        "title": "In Public Emergencies",
-        "body": "If separated during an emergency (earthquake, crowd event): Stay in place at first. Look for uniformed emergency personnel. If none: go to the nearest open store with employees. Do not follow crowds."
+        "title": "Teach kids to act - loudly",
+        "body": "NCMEC found that 83 percent of children who escaped attempted abductions did something to get away: walked or ran away, yelled, kicked, or pulled away. Give your child permission to be rude to an adult who makes them feel unsafe. Practice yelling 'This is not my parent!' or 'Help, I don't know this person!' so bystanders understand. Tell them they will never be in trouble for running away, yelling, or making a scene when they feel unsafe."
       },
       {
         "step": 6,
-        "title": "Practice Scenarios",
-        "body": "Role-play monthly: 'A person says your dad is sick at the hospital and they need to take you there. What do you do?' Answer: Ask for the safe word. If they don't know it, go into the nearest building and ask for help calling your parents."
+        "title": "Know what to share and what to keep private",
+        "body": "Kids should be able to tell a police officer, firefighter, or 911 dispatcher their full name, parents' names, phone number, and address. They should not tell callers, people at the door, or people online that they are home alone, their address, or their daily schedule. Teach older kids not to open the door to anyone when home alone, even if the person says they are a delivery driver, utility worker, or officer - they can talk through the closed door and call a parent."
+      },
+      {
+        "step": 7,
+        "title": "Practice, keep talking, and tell",
+        "body": "Children under 8 learn rules best by acting them out, not hearing them. Role-play short 'what if' scenes every month or two: 'A man says he lost his dog and wants you to help look.' 'A lady says your dad is hurt and you have to come with her.' Ask your child to show you what they would do. Most of all, tell them to always tell you or another trusted adult when anyone makes them uncomfortable or asks them to keep a secret - and stay calm when they do tell you, so they keep telling."
       }
     ],
     "warnings": [
-      "Old 'stranger danger' rules are outdated — most child abductions are by known adults. Focus on trusted-adult lists and safe words over general stranger avoidance."
+      "Don't teach that all strangers are dangerous - children who fear all strangers may hide from rescuers or refuse help in an emergency.",
+      "Don't put your child's name in large letters on backpacks, shirts, or bikes - it lets anyone call them by name and seem familiar.",
+      "Most harm comes from people a child knows; the 'check first' rule must apply to everyone, including relatives and friends.",
+      "If a child goes missing, call 911 right away, then NCMEC at 1-800-THE-LOST (1-800-843-5678)."
     ],
     "proTips": [
-      "Write your child's trusted adult list and family safe word on an index card and review quarterly. Children under 8 have difficulty implementing abstract rules — practice specific scripts rather than general principles."
+      "NCMEC's free KidSmartz program has short videos like 'Check First' and 'Tell a Trusted Adult' made for kids in grades K-5.",
+      "At big events, write your phone number on your young child's arm with a marker or use a wristband, and take a photo of them that morning.",
+      "Kids ages 10 to 14 walking to and from school in the afternoon are a common target of attempted abductions - teach them to walk with a friend.",
+      "Praise your child every time they 'check first,' even when it was a safe situation."
     ],
-    "relatedGuides": []
+    "relatedGuides": [
+      "children-004",
+      "children-001",
+      "children-009",
+      "security-004",
+      "sec-014"
+    ],
+    "source": "National Center for Missing & Exploited Children (KidSmartz)",
+    "sources": [
+      {
+        "title": "KidSmartz - Abduction Prevention Education",
+        "publisher": "National Center for Missing & Exploited Children",
+        "url": "https://www.missingkids.org/education/kidsmartz",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Staying Away From Stranger Danger",
+        "publisher": "National Center for Missing & Exploited Children",
+        "url": "https://www.missingkids.org/blog/2023/staying-away-from-stranger-danger",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Reunification with Children After a Disaster or Emergency",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/children-and-school-preparedness/before-during-after/reunification.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Lost in the woods is different - kids should stay put and blow a whistle rather than go looking for a helper (see children-002)."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want your child to stay safe around people they don't know and to find help if separated.",
+      "immediate": [
+        "Teach 'check first' before going anywhere, taking anything, or getting in any car.",
+        "Teach safe helpers: uniformed officer, store worker with a name tag, a parent with kids.",
+        "Teach kids to yell, run, and make a scene if someone tries to take them."
+      ],
+      "then": [
+        "Name 3-5 trusted adults and give the same list to the school.",
+        "Role-play tricky situations every month or two."
+      ]
+    }
   },
   {
     "id": "children-004",
@@ -168,104 +359,1106 @@
     "tags": [
       "children",
       "emergency",
-      "contact",
-      "card"
+      "contact card",
+      "reunification",
+      "backpack",
+      "phone numbers"
     ],
     "audience": "children",
     "parentGuide": true,
-    "summary": "Create and practice using a personal emergency contact card that every child should memorize and carry.",
+    "summary": "Make a small emergency contact card for each child, help them memorize the key facts, and keep it updated. CDC recommends contact cards in every child's school bag as part of the family reunification plan.",
     "steps": [
       {
         "step": 1,
-        "title": "What to Memorize",
-        "body": "Every child age 5+ should memorize: full home address, at least one parent's 10-digit phone number, one out-of-area family member's phone number, family safe word, and school address (for older children)."
+        "title": "Decide what each child should memorize",
+        "body": "Phones die, get lost, or stop working in disasters, so children need key facts in their heads. By about age 5, aim for: their full name, parents' full names, home address, and at least one parent's 10-digit phone number. By about age 8 to 10, add a second number, such as an out-of-area relative (see comms-005), the family meeting place, and the school's name and address. Teens should know every family member's number and the full family plan. Go at your child's pace - learning one number well is better than three numbers poorly."
       },
       {
         "step": 2,
-        "title": "Create the Card",
-        "body": "Make a wallet-sized card (3x5 index card, laminated) with: Child's name, Parents' names and phone numbers, Out-of-area contact, Home address, Allergies, Doctor's name and phone, Family safe word (optional — some families prefer not to write it)."
+        "title": "Make the card",
+        "body": "Use a sturdy index card or print a small card and seal it in clear packing tape or a laminating pouch so it survives rain. Include: the child's full name and date of birth, a recent photo, parents' or guardians' names and cell numbers, an out-of-area contact, a local trusted adult, home address, the family meeting places, allergies and medical conditions, medicines, and the doctor's name and number. For a child with special health needs, add a note to see their Emergency Information Form (see children-012). Leave off the family code word, if you use one."
       },
       {
         "step": 3,
-        "title": "Where to Keep It",
-        "body": "Keep one card in: child's school backpack (inside, not visible), child's wallet or coin purse if old enough, sewn into a jacket lining for outdoor activities, and kept by the school nurse."
+        "title": "Put cards where they'll be needed",
+        "body": "CDC recommends a contact card in each child's school bag or backpack. Put it in an inside pocket, not a visible tag. Add copies to the child's coat pocket for outings, the car seat or booster (taped underneath), sports bags, and the family go-bags (see children-006). Give copies to the school office, child care, coaches, and grandparents. For toddlers and children who can't speak for themselves, also consider a medical ID bracelet or shoe tag with a parent's number."
       },
       {
         "step": 4,
-        "title": "Practice the Info",
-        "body": "Weekly or bi-weekly quiz: 'Tell me our home phone number.' Make it a game with small rewards. Practice until it's instant recall, not slow recitation. 10-second recall under stress vs 30-second recall under stress is an important difference."
+        "title": "Practice until it is quick",
+        "body": "Under stress, kids forget things they knew yesterday. Practice in short, fun ways: sing the phone number to a tune, quiz at red lights, or let them 'call' you on a toy phone. Ask them to show you where their card is and to read it out loud. Practice saying it to a 'helper' in role-play: 'I'm lost. My name is ___. My mom's phone number is ___.' Review once a week until it sticks, then once a month."
       },
       {
         "step": 5,
-        "title": "Update Regularly",
-        "body": "Review and update the card: whenever you move, when phone numbers change, at start of each school year. Keep a parent copy with the date last updated."
+        "title": "Teach what to do when calls fail",
+        "body": "After disasters, phone lines often jam. Teach older kids a backup order: send a short text instead of calling, try the out-of-area contact, then try the next number on the card. Texts often get through when calls don't. Kids who use social media can post or use its safety-check feature to show they are safe, as CDC notes. Teach them to borrow a phone from a safe helper - a teacher, store worker, or officer - and to stay where they are rather than walking home through a damaged area."
       },
       {
         "step": 6,
-        "title": "Older Children",
-        "body": "Children 10+ should also know: family meeting point after school emergency, how to use a payphone or borrow a phone from a stranger (the sequence for calling mom/dad), what to do if phone calls aren't connecting (text, leave voicemail, try alternate contact)."
+        "title": "Keep a parent copy and update it",
+        "body": "Keep a matching parent page with each child's card info plus a current full-length photo, height, weight, and notable marks. This helps police, NCMEC, or the Red Cross if you are separated. Update cards at the start of each school year, after any move or phone number change, and twice a year when you check your emergency kits. Write the date on each card so you know which one is current, and throw out old copies."
       }
     ],
     "warnings": [
-      "Do not put child's full name visibly on the outside of backpacks — it allows strangers to call them by name and appear familiar."
+      "Don't print your child's name on the outside of backpacks or clothes - it lets anyone call them by name and seem familiar.",
+      "Don't write a family code word on the card - if the card is lost, the word is no longer secret.",
+      "A card does not replace memorizing - cards get lost, wet, or left behind.",
+      "Medical information goes on the card, but keep Social Security numbers and other ID numbers off it."
     ],
     "proTips": [
-      "Many school emergencies result in phones being jammed with traffic. Pre-establish a family text tree: everyone texts one central family member rather than all texting each other simultaneously."
+      "Have kids decorate their own card cover - they are more likely to remember where it is.",
+      "Save the out-of-area contact in every family phone under 'ICE' (In Case of Emergency).",
+      "Take a new photo of each child every year for the card and the parent copy.",
+      "Use a family 'text tree': everyone texts one central person instead of calling each other."
     ],
-    "relatedGuides": []
+    "relatedGuides": [
+      "children-001",
+      "children-009",
+      "comms-005",
+      "comms-012",
+      "home-010"
+    ],
+    "source": "CDC / FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Reunification with Children After a Disaster or Emergency",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/children-and-school-preparedness/before-during-after/reunification.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Family Disaster Supplies List",
+        "publisher": "American Academy of Pediatrics (HealthyChildren.org)",
+        "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Family-Disaster-Supplies-List.aspx",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Ready Kids",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/kids",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want your child to be able to reach you or be identified if you are separated.",
+      "immediate": [
+        "Make a sealed card with names, numbers, address, meeting places, allergies, and a photo.",
+        "Put it inside each child's school bag and coat pocket, not on the outside.",
+        "Help each child memorize their address and at least one parent's number."
+      ],
+      "then": [
+        "Teach older kids to text and try the out-of-area contact if calls fail.",
+        "Update cards each school year and after any move or number change."
+      ]
+    }
   },
   {
     "id": "children-005",
     "category": "children",
-    "title": "Age-Appropriate Wilderness Basics for Kids",
+    "title": "Age-Appropriate Outdoor Safety Basics for Kids",
     "priority": "beginner",
     "tags": [
       "children",
       "wilderness",
-      "survival",
-      "outdoor"
+      "outdoor",
+      "hiking",
+      "camping",
+      "whistle",
+      "safety"
     ],
     "audience": "children",
     "parentGuide": true,
-    "summary": "Teach children fundamental outdoor survival awareness appropriate for their age and stage of development.",
+    "summary": "The outdoor skills kids can really use, matched to their age: carrying their own small kit, staying visible, water and fire rules, wildlife manners, and knowing when to get an adult. Teach these before trips and practice them on easy outings.",
     "steps": [
       {
         "step": 1,
-        "title": "Whistle Signals",
-        "body": "Every child should carry and know how to use a Fox 40 or similar pea-less whistle: 3 blasts = I need help. 1 blast = I'm OK (responding to someone). Keep whistle accessible (around neck, not in pocket). Blow until someone hears you — don't stop because you're tired."
+        "title": "Give each child their own small kit",
+        "body": "Even a preschooler can carry a light day pack. Inside: a whistle on a lanyard, a full water bottle, a snack, a bright rain jacket or extra layer, a large bright trash bag for a poncho, and a card with their name and your phone number. Kids 8 and up can add a small flashlight or headlamp, a simple first aid pouch with bandages, sunscreen, and a hat. Keep the pack light - about 10 percent of the child's body weight or less is a common rule of thumb. Let them pack it themselves using a checklist, so they know what is inside and how to use it."
       },
       {
         "step": 2,
-        "title": "Stay Visible",
-        "body": "In wilderness, visibility is survival. Wear bright colors. If you hear searchers or aircraft, move to the biggest open space you can find (clearing, lakeshore, ridge top). Wave your arms, lay bright items flat on the ground in an X pattern."
+        "title": "Teach the whistle and stay-together rules",
+        "body": "Before every trip, review the rules: always stay where you can see a grown-up, wait at every trail junction, and never go off alone - even to the bathroom - without telling an adult. Teach the whistle code: three blasts means 'I need help.' Practice so kids know the whistle is only for real problems, like a 'fire drill' for the woods. If they ever lose the group, they use the Hug-a-Tree rules: stop, stay at one tree, stay warm, and blow the whistle (see children-002)."
       },
       {
         "step": 3,
-        "title": "Basic Fire Safety (ages 8+)",
-        "body": "Fire triangle: heat + fuel + oxygen = fire. Three rules for children: Never start a fire without adult supervision. If you find a fire and adults aren't there, move away from it, don't investigate it. In fire, stay low (smoke rises)."
+        "title": "Dress to be seen and stay warm",
+        "body": "Bright clothes such as orange, red, lime, or pink make kids easier to spot in trees and on trails. Avoid camouflage, brown, and dark green on kids. Getting cold and wet is a bigger danger to a lost or stuck child than hunger, so dress kids in layers and pack rain gear even on sunny days. Teach kids to tell you right away when they are cold, wet, or shivering - children lose heat faster than adults and often don't notice until they are miserable. Cotton stays wet; wool or synthetic layers are better."
       },
       {
         "step": 4,
-        "title": "Water Safety",
-        "body": "Never drink stream, pond, or lake water without adult treatment. Signs of dehydration to tell adults: headache, dark yellow pee, feeling dizzy or very tired. Even if you're very thirsty, finding water is a job for adults."
+        "title": "Water: drink often, never from streams",
+        "body": "Teach kids to sip water often, not just when they feel thirsty, and to tell an adult if they get a headache, feel dizzy, or are very tired. Explain that clear, cold-looking stream or lake water can still carry germs that cause bad stomach illness, so only adults treat water before anyone drinks it. Teach strong water rules: never go near a river, lake, or fast stream without an adult, stay back from slippery banks and rocks, and wear a life jacket in boats and near deep water."
       },
       {
         "step": 5,
-        "title": "Animal Encounters",
-        "body": "Make noise when hiking (talk, sing) to avoid surprise encounters. If you see a wild animal: stop moving, back away slowly, do NOT run. Tell an adult immediately. Do not touch or feed any wild animal — ever."
+        "title": "Fire: help, don't handle (until ready)",
+        "body": "Children of all ages should learn: never play with matches or lighters, stay at least 3 feet (1 m) away from a campfire unless an adult is helping, never run near a fire, and if clothes catch fire, stop, drop, and roll. Kids around 8 to 10 who show steady self-control can learn to gather small sticks and help an adult build and put out a fire with water and stirring until it is cold to the touch. Starting fires on their own is an adult-supervised skill that comes later, step by step, as they prove they follow the rules."
       },
       {
         "step": 6,
-        "title": "The Rule of Three",
-        "body": "Simplified version for children: You can survive 3 MINUTES without air. 3 HOURS without warmth (in cold and wet). 3 DAYS without water. 3 WEEKS without food. 'If it's cold and wet, staying warm is more important than finding food.'"
+        "title": "Wildlife and plant manners",
+        "body": "Teach kids to talk or sing on the trail so animals hear them coming and move away. If they see a wild animal, they should stop, stay calm, not run, back away slowly, and tell an adult. Never touch, chase, or feed any wild animal, even a cute or friendly-looking one, and never touch an animal that seems hurt or sick. Teach 'leaves of three, let it be' for poison ivy where it grows. Kids should never eat berries, mushrooms, or plants they find unless a knowledgeable adult says it is safe - many look-alikes are poisonous."
+      },
+      {
+        "step": 7,
+        "title": "Know when to get an adult",
+        "body": "The most important outdoor skill for a child is knowing when to ask for help. Make a short list: someone is hurt, someone is missing, you are cold and wet, you see fire or smoke, you see a wild animal, the weather turns stormy, or you just feel scared. Teach kids that asking for help early is smart, not babyish. After each trip, talk about what went well and what they learned, and add one new skill at a time as they grow, such as reading a trail map or using a compass with you."
       }
     ],
     "warnings": [
-      "Children should not be given adult responsibilities (fire-starting, navigation) until they consistently demonstrate the preceding skills. Overconfidence creates dangerous situations."
+      "Never let children drink untreated stream, lake, or pond water - it can carry germs that cause serious illness.",
+      "Keep children well back from fast or cold water; currents and slippery rocks cause many child drownings outdoors.",
+      "Don't give children fire-starting, knife, or navigation responsibilities until they have shown steady self-control and follow the rules every time.",
+      "Kids get cold faster than adults - check them often for shivering, especially when wet or windy."
     ],
     "proTips": [
-      "Buy a bright orange emergency whistle for every child before any camping or hiking trip — they cost $3-8 and are literally life-saving tools. Teach children that knowing when to ask for help is a skill, not a weakness."
+      "Let kids pick their own bright whistle and lanyard - they are more likely to wear it.",
+      "Practice the Hug-a-Tree drill on a short, easy hike so it feels like a game, not a threat.",
+      "Give older kids a 'job' on every trip: trail leader to the next junction, water checker, or snack boss.",
+      "Many state and national parks offer free junior ranger and Hug-a-Tree programs for kids."
     ],
-    "relatedGuides": []
+    "relatedGuides": [
+      "children-002",
+      "comms-004",
+      "nav-008",
+      "medical-025",
+      "medical-028"
+    ],
+    "source": "San Diego Mountain Rescue Team / NPS / CDC",
+    "sources": [
+      {
+        "title": "Wilderness Safety - Hug-a-Tree",
+        "publisher": "San Diego Mountain Rescue Team",
+        "url": "https://www.sdmrt.org/safety/hug-a-tree",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Hug-a-Tree and Survive Kids Program",
+        "publisher": "National Park Service, Shiloh National Military Park",
+        "url": "https://www.nps.gov/shil/learn/news/hug-a-tree-and-survive-kids-program.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Kit Checklist: Kids and Families",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/children-and-school-preparedness/resources/emergency-kit-checklist.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "children-002"
+    ],
+    "whenNotTo": [
+      "In true backcountry or bad weather, an adult must make every decision - these are awareness skills, not a substitute for supervision."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are taking kids hiking, camping, or exploring outdoors.",
+      "immediate": [
+        "Give each child a whistle, water, a snack, a bright layer, and a trash bag poncho.",
+        "Dress kids in bright colors and review the stay-together and three-blast rules.",
+        "Set clear rules: no stream water, no fire play, no touching wild animals."
+      ],
+      "then": [
+        "Teach kids to tell an adult right away when cold, wet, hurt, or scared.",
+        "Add one new skill per trip as they show they follow the rules."
+      ]
+    }
+  },
+  {
+    "id": "children-006",
+    "category": "children",
+    "title": "A Go-Bag for Kids - What to Pack by Age",
+    "priority": "beginner",
+    "tags": [
+      "children",
+      "go bag",
+      "emergency kit",
+      "evacuation",
+      "infants",
+      "toddlers",
+      "teens",
+      "comfort items"
+    ],
+    "summary": "How to add each child's needs to the family go-bag and give older kids a small bag of their own. Lists are built from the CDC kids and families checklist and AAP's family disaster supplies list, sorted by age.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Start with the family basics",
+        "body": "A child's bag adds to the family kit; it does not replace it. The family go-bag (see tools-009 and home-008) carries the bulk: water at 1 gallon (about 4 L) per person per day for at least 3 days, no-cook food, a first aid kit, flashlights, a radio, cash, and copies of documents. Make sure the documents include each child's ID or birth certificate copy, insurance cards, a list of each child's medicines and doses, allergy lists, and a current photo of each child and one of the whole family together, as AAP recommends. Keep them in a waterproof bag."
+      },
+      {
+        "step": 2,
+        "title": "Babies (0-12 months)",
+        "body": "Pack a well-stocked diaper bag: diapers for at least 3 days (babies can use 8 to 12 a day), wipes, diaper cream, and gallon-size zip bags for dirty items. For formula-fed babies, pack ready-to-feed formula, which CDC calls the safest choice because it needs no water, plus disposable bottles or cups. For breastfed babies, add a manual pump and nursing pads. Add pacifiers, burp cloths, a bulb syringe, infant fever medicine (follow the label and your pediatrician), at least two receiving blankets and two emergency blankets, and two or three changes of clothes including a hat. Plan a safe sleep space (see children-008)."
+      },
+      {
+        "step": 3,
+        "title": "Toddlers and preschoolers (1-5 years)",
+        "body": "Pack diapers or pull-ups and spare underwear, since stress often causes accidents. Add toddler snacks they already like, a sippy cup, two changes of clothes, sturdy shoes, a warm layer, and a hat. Include their favorite small comfort item - a stuffed animal or blanket - or a duplicate so the 'real' one stays home. Add a few quiet toys, a picture book, and crayons with paper. Write your phone number inside their clothes or on a wristband, and pack a child-size dust mask only if it fits well. Young children can't carry much, so these items ride in an adult's bag."
+      },
+      {
+        "step": 4,
+        "title": "School-age kids (6-12 years)",
+        "body": "Kids this age can carry a small backpack of their own. Inside: a water bottle, a few snacks, a flashlight or headlamp, a whistle, a change of clothes and socks, a rain poncho, a toothbrush and toothpaste, and their emergency contact card (see children-004). Let them choose comfort items: a book, a deck of cards, a small game, a journal and pencils, or a stuffed animal. Keep the pack light so they can carry it for an hour of walking; an adult carries the heavy water and food."
+      },
+      {
+        "step": 5,
+        "title": "Teens (13-18 years)",
+        "body": "CDC encourages teens to pack their own go-kit so they can bring what matters to them. Their bag can hold: any medicines they take, first aid basics, a flashlight with spare batteries, a phone charger and battery pack, toiletries and menstrual products if needed, granola bars or other shelf-stable food, a full change of clothes with socks and sturdy closed-toe shoes, and a printed list of family phone numbers. Optional: headphones, a book or e-reader, a journal, cards, and a sleeping bag or blanket. Have them keep it light, since they carry it."
+      },
+      {
+        "step": 6,
+        "title": "Add special needs and medicines",
+        "body": "Every child who takes medicine needs a supply in the kit. AAP suggests keeping a 2-week supply of prescriptions if your pediatrician agrees, along with a written list of each medicine, strength, and dose. Add glasses, hearing aid batteries, inhalers, epinephrine auto-injectors, special formula or feeding supplies, and backup power for any medical devices. For children with disabilities or medical needs, add their Emergency Information Form and the extra items in children-012."
+      },
+      {
+        "step": 7,
+        "title": "Store, check, and grow it",
+        "body": "Keep the kids' items in the same place as the family kit, such as a hall closet near the door, and keep a paper list of contents inside. AAP recommends reviewing the kit every 6 months. Each check, swap clothes and diapers for the next size up, replace expired food, formula, and medicine, test flashlights, and update photos and contact cards. Let kids help with the check - it builds confidence and reminds them where their bag is."
+      }
+    ],
+    "warnings": [
+      "Don't stock powdered formula as your only baby food in a go-bag - it needs safe water; ready-to-feed is safest in emergencies.",
+      "Keep medicines, button batteries, lighters, and hand sanitizer out of young children's reach in the kit.",
+      "A child's pack that is too heavy slows the whole family - adults carry the water and most food.",
+      "Expired infant formula and children's medicines must be replaced, not used."
+    ],
+    "proTips": [
+      "Pack each child's clothes in their own labeled zip bag so you can grab the right size in the dark.",
+      "Put a new small toy or book in the kit that kids haven't seen - novelty helps during long waits.",
+      "Write the contents list on the inside of the bin lid and check items off during each 6-month review.",
+      "Set the review for the start of the school year and spring break so it becomes habit."
+    ],
+    "relatedGuides": [
+      "tools-009",
+      "home-008",
+      "children-008",
+      "children-012",
+      "children-004",
+      "health-001"
+    ],
+    "source": "CDC / AAP HealthyChildren.org",
+    "sources": [
+      {
+        "title": "Emergency Kit Checklist: Kids and Families",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/children-and-school-preparedness/resources/emergency-kit-checklist.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Teens: Build Your Own Emergency Kit",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/natural-disasters/teens/build-your-own-emergency-kit.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Family Disaster Supplies List",
+        "publisher": "American Academy of Pediatrics (HealthyChildren.org)",
+        "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Family-Disaster-Supplies-List.aspx",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Special Considerations for Emergencies (Infant Feeding)",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/infant-feeding-emergencies-toolkit/php/special-considerations.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [
+      "home-008"
+    ],
+    "whenNotTo": [
+      "Don't delay evacuating to finish packing - if officials say leave now, grab the kit and documents and go."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are building or checking go-bags for a family with children.",
+      "immediate": [
+        "Add each child's documents, photo, medicines list, and contact card to the family kit.",
+        "Pack 3 days of age-specific items: diapers, ready-to-feed formula, snacks, and clothes.",
+        "Pack one or two comfort items per child."
+      ],
+      "then": [
+        "Let school-age kids and teens carry a light bag of their own.",
+        "Check sizes, food, and medicines every 6 months."
+      ]
+    }
+  },
+  {
+    "id": "children-007",
+    "category": "children",
+    "title": "Talking to Children About Disasters - Before, During, and After",
+    "priority": "beginner",
+    "tags": [
+      "children",
+      "mental health",
+      "coping",
+      "disaster",
+      "trauma",
+      "parents",
+      "talking to kids"
+    ],
+    "summary": "What to say to kids before a disaster so they feel prepared instead of scared, how to keep them steady during one, and how to spot normal stress reactions by age afterward - and when to get professional help.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Before: make preparing a family project",
+        "body": "Children cope better when they know there is a plan and they have a part in it. CDC encourages involving every family member, including kids, in making the emergency plan. Keep the tone calm and practical: 'Sometimes big storms happen. Grown-ups have a plan to keep you safe, and here is your job.' Let kids help pick the meeting place, pack their own comfort items (see children-006), and practice drills. Use FEMA's Ready Kids games and books for younger children. Focus on the disasters likely where you live, and skip frightening details they don't need."
+      },
+      {
+        "step": 2,
+        "title": "Before: answer questions honestly and simply",
+        "body": "When kids ask 'Could a tornado hit our house?', give a truthful answer at their level: 'It could happen, but it's rare, and if it does we know to go to the basement and cover our heads.' Match how much you say to their age - a short answer for preschoolers, more detail for teens. Ask what they have heard first, since kids often pick up wrong or scary information from friends or videos. Correct mistakes gently. It is fine to say 'I don't know, but I'll find out.'"
+      },
+      {
+        "step": 3,
+        "title": "During: stay calm and close",
+        "body": "Children read your face and voice. Take a breath and use a calm, steady tone, even if you are scared. Give short, clear instructions: 'Shoes on. Hold my hand. We're going to the car.' Keep young children physically close - hold them, carry them, or keep a hand on their back. Tell them what is happening next in simple steps. Avoid talking about worst-case fears in front of kids, and keep TV and phone news away from them as much as you can."
+      },
+      {
+        "step": 4,
+        "title": "After: know the normal reactions by age",
+        "body": "CDC lists common reactions that usually fade with time. Infants to 2 years: more crying, fussiness, and wanting to be held. Ages 3 to 6: going back to younger behavior such as bed-wetting or thumb-sucking, clinging, tantrums, fear of being apart from you, and trouble sleeping. Ages 7 to 10: sadness or anger, fear it will happen again, worry about school, focusing on details, and trouble concentrating. Preteens and teens: pulling away from friends, more family conflict, anxiety, sleep changes, and sometimes risky behavior. Children with disabilities or medical needs may react more strongly and need extra comfort."
+      },
+      {
+        "step": 5,
+        "title": "After: listen, reassure, and give some control",
+        "body": "Make time to talk, but don't force it. Ask open questions like 'What was the scariest part for you?' and accept their feelings without telling them not to feel that way. Answer questions truthfully. Remind them what is being done to keep them safe. Give kids small choices and jobs - which shirt to wear, helping hand out snacks - since feeling useful eases helplessness. Drawing, play, and storytelling help younger children work through what happened; let them play it out, even if the play seems dark."
+      },
+      {
+        "step": 6,
+        "title": "After: rebuild routines and limit media",
+        "body": "Get back to normal routines as soon as you can: regular meals, bedtimes, chores, and school. If things must change, explain the new routine and how long it might last. CDC advises limiting children's exposure to news coverage of the disaster, because replaying images can bring back fear. Take care of yourself too - eat, rest, and avoid using alcohol or drugs to cope - because a calmer parent makes a calmer child. Talk with teachers or child care staff about how your child is doing there."
+      },
+      {
+        "step": 7,
+        "title": "Know when to get help",
+        "body": "CDC suggests talking to your pediatrician, a school counselor, or a children's mental health professional if fear, sadness, anger, or anxiety lasts more than 2 to 4 weeks after the disaster, if problems are getting worse instead of better, or if reactions keep getting in the way of school, friendships, or family life. Get help right away if a child talks about hurting themselves or others. The Disaster Distress Helpline is free, 24/7, by call or text at 1-800-985-5990. In a crisis, call or text 988."
+      }
+    ],
+    "warnings": [
+      "Don't promise things you can't control, like 'This will never happen again' - promise what you will do instead.",
+      "Repeated exposure to disaster news and videos can increase children's fear - turn it off when kids are around.",
+      "If a child talks about wanting to die or hurt someone, get professional help right away (call or text 988).",
+      "Teens may hide distress or turn to risky behavior - check in directly and watch for changes."
+    ],
+    "proTips": [
+      "Read age-appropriate picture books about storms or helpers before disaster season.",
+      "Bedtime is often when worries come out - leave a few extra minutes for talking.",
+      "Let older kids help others, such as sorting donations - helping builds resilience.",
+      "Tell your child about times your family got through hard things together."
+    ],
+    "relatedGuides": [
+      "health-013",
+      "health-012",
+      "psych-001",
+      "children-010",
+      "children-006"
+    ],
+    "source": "CDC / FEMA Ready.gov / SAMHSA",
+    "sources": [
+      {
+        "title": "Helping Children Cope with a Disaster",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/children-and-school-preparedness/before-during-after/helping-children-cope.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Reunification with Children After a Disaster or Emergency",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/children-and-school-preparedness/before-during-after/reunification.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Ready Kids",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/kids",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "This guide does not replace professional care for a child with lasting or severe trauma symptoms."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your child is anxious about disasters, is living through one, or is struggling afterward.",
+      "immediate": [
+        "Stay calm, keep them close, and give short, clear instructions.",
+        "Answer questions honestly at their level and correct scary rumors.",
+        "Turn off disaster news when kids are around."
+      ],
+      "then": [
+        "Restart normal routines and give kids small jobs.",
+        "Get professional help if problems last more than 2-4 weeks or get worse."
+      ]
+    }
+  },
+  {
+    "id": "children-008",
+    "category": "children",
+    "title": "Infants and Babies in Emergencies - Feeding, Water, Diapering, Sleep, and Warmth",
+    "priority": "critical",
+    "tags": [
+      "children",
+      "infants",
+      "babies",
+      "formula",
+      "breastfeeding",
+      "safe sleep",
+      "diapers",
+      "power outage"
+    ],
+    "summary": "How to keep a baby fed, clean, warm, and sleeping safely when power or safe water is gone, based on CDC infant-feeding-in-emergencies guidance and safe sleep recommendations. Babies get sick from unsafe water and get cold or overheated much faster than adults.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Keep breastfeeding if you can",
+        "body": "CDC calls breastfeeding the safest way to feed a baby in an emergency because it needs no water, power, or supplies and helps protect against illness. Stress may slow milk flow for a short time, but frequent nursing usually keeps supply going. Drink plenty of safe water and eat when you can. If you pump, have a manual pump or learn hand expression, since electric pumps fail when the power is out. Clean pump parts with soap and safe water after each use. Ask a lactation consultant, WIC office, or shelter health staff for help if feeding gets hard."
+      },
+      {
+        "step": 2,
+        "title": "Formula: ready-to-feed first",
+        "body": "For formula-fed babies, CDC says ready-to-feed liquid formula is safest in an emergency because it does not need to be mixed with water. Unopened ready-to-feed does not need refrigeration - store it in a cool, dry place and check dates. Keep several days' worth in your kit (see children-006). Once opened, follow the label for how long it can be kept. Never water down formula to make it last, and never make homemade formula - both can seriously harm a baby. If you run low, ask a shelter, WIC office, food bank, or your pediatrician for help right away."
+      },
+      {
+        "step": 3,
+        "title": "If you must use powdered formula",
+        "body": "Use bottled water if you have it. If not, CDC says to bring water to a rolling boil for 1 minute (3 minutes above 6,500 feet / about 2,000 m). If you have neither bottled nor boiled water, use water disinfected following CDC directions; use tap water only when officials say it is safe. For babies under 2 months, born early, or with weak immune systems, CDC advises mixing powder with water that is still hot, about 158°F (70°C) - roughly 5 minutes after boiling - to kill germs, then cooling the bottle before feeding. Test a few drops on your wrist: warm, not hot. Measure water first, then add powder exactly as the label says. Use prepared formula within 2 hours, and within 1 hour once feeding starts; throw out what's left."
+      },
+      {
+        "step": 4,
+        "title": "Keep feeding items clean",
+        "body": "Wash hands with soap and safe water before preparing food. If water is short, use hand sanitizer with at least 60 percent alcohol. Clean bottles and nipples with soap and bottled, boiled, or disinfected water before each use. If you can't clean them, CDC suggests disposable bottles or single-use disposable cups - babies can learn to sip from a small cup with your help. Throw away any nipples, pacifiers, or teethers that touched floodwater; they can't be made safe."
+      },
+      {
+        "step": 5,
+        "title": "When the power goes out",
+        "body": "A closed refrigerator stays cold about 4 hours; a full closed freezer about 48 hours (24 if half full). CDC says to throw out opened or prepared formula from the refrigerator if power was out 4 hours or more. Freshly expressed breast milk can be kept in a cooler with frozen ice packs for up to 24 hours. Fully thawed breast milk should be used within 24 hours and not refrozen; milk that still has ice crystals can be refrozen. When in doubt, throw it out."
+      },
+      {
+        "step": 6,
+        "title": "Diapering and hygiene with little water",
+        "body": "Stock at least 3 days of diapers - newborns can use 10 or more a day. Use wipes and keep gallon zip bags or a lidded bucket for dirty diapers, away from food and water. If you run out, a clean cloth or towel folded into a pad with a waterproof layer works for a short time; change it often. Wash hands after every change. Let the skin air-dry before a new diaper and use barrier cream to prevent rash. Count wet diapers: far fewer than usual, a dry mouth, or no tears can mean dehydration - contact a doctor or go to a shelter medical station."
+      },
+      {
+        "step": 7,
+        "title": "Safe sleep anywhere",
+        "body": "Every sleep, place the baby on their back on a firm, flat, level surface with only a fitted sheet - no pillows, blankets, bumpers, or toys. Keep the baby in your room, close by, but not in your bed, couch, or armchair. If no crib, bassinet, or play yard is available, Texas DSHS safe-sleep guidance says a sturdy box, basket, or emptied dresser drawer with thin, firm padding that fits snugly and no lid can work for a short time. Replace it with an approved crib or play yard as soon as you can; shelters often have them, so ask. Don't let a baby sleep in a car seat or swing outside the car."
+      },
+      {
+        "step": 8,
+        "title": "Keep baby warm, not hot",
+        "body": "Babies lose heat fast. In cold, dress the baby in layers - a common rule is one more layer than an adult would need to be comfortable - with a hat while awake. For sleep, use a wearable blanket or sleep sack instead of loose blankets, and remove hats during sleep to avoid overheating. Feel the back of the neck or chest: it should be warm, not sweaty or cold. Skin-to-skin holding while you are awake is a great way to warm a baby. Never use a gas oven, grill, or generator indoors for heat - babies are very sensitive to carbon monoxide (see home-001 and home-006). In heat, dress lightly, keep baby in shade, and offer feeds more often."
+      }
+    ],
+    "warnings": [
+      "Never dilute formula or make homemade formula - both can cause dangerous illness in babies.",
+      "Never mix powdered formula with untreated water; use bottled, boiled, or properly disinfected water only.",
+      "Never put a baby to sleep in an adult bed, on a couch, or with pillows or blankets - sleep-related deaths rise in disasters when routines break down.",
+      "Get medical care right away for a baby under 3 months with a fever of 100.4°F (38°C) or higher, a baby who won't feed, has very few wet diapers, is very sleepy, or has trouble breathing.",
+      "Never run a generator, grill, or camp stove indoors or in a garage - carbon monoxide can kill a baby quickly."
+    ],
+    "proTips": [
+      "Keep a 'baby kit' bin with ready-to-feed formula, disposable bottles, diapers, wipes, a manual pump, and a sleep sack, and update sizes every few months.",
+      "A portable play yard is the most useful baby item for evacuation - it gives a safe sleep and play space anywhere.",
+      "A baby carrier keeps your hands free and the baby warm and close while evacuating.",
+      "Ask shelter staff right away for a crib, formula, and diapers - many shelters stock them but don't announce it."
+    ],
+    "relatedGuides": [
+      "children-006",
+      "water-006",
+      "home-004",
+      "home-006",
+      "medical-016",
+      "medical-015"
+    ],
+    "source": "CDC / Texas DSHS Safe Infant Sleep",
+    "sources": [
+      {
+        "title": "Special Considerations for Emergencies (Infant Feeding in Emergencies Toolkit)",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/infant-feeding-emergencies-toolkit/php/special-considerations.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Feeding Your Child Safely During a Disaster",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/breastfeeding/php/guidelines-recommendations/feeding-your-child-safely-during-a-disaster.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Infant Formula Preparation and Storage",
+        "publisher": "CDC",
+        "url": "https://Www.Cdc.gov/nutrition/InfantandToddlerNutrition/formula-feeding/infant-formula-preparation-and-storage.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Let's Talk: Safe Sleep During Emergencies",
+        "publisher": "Texas Department of State Health Services",
+        "url": "https://www.dshs.texas.gov/sites/default/files/healthytexasbabies/SIS/LetsTalk/Emergencies_LetsTalk_Recommendations_FINAL-A.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Kit Checklist: Kids and Families",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/children-and-school-preparedness/resources/emergency-kit-checklist.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not follow these steps instead of medical care for a baby who is sick, not feeding, or showing danger signs - get help.",
+      "Do not use improvised sleep spaces long term; switch to an approved crib or play yard as soon as one is available."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You are caring for a baby during a power outage, evacuation, or loss of safe water.",
+      "immediate": [
+        "Keep breastfeeding, or use ready-to-feed formula - never dilute formula.",
+        "If using powder, mix only with bottled or boiled (1 minute) water.",
+        "Put baby to sleep on their back on a firm, flat surface with nothing else in it."
+      ],
+      "then": [
+        "Use prepared formula within 2 hours and throw out leftovers.",
+        "Dress baby in layers and a sleep sack; never heat indoors with fuel-burning devices.",
+        "Get medical help fast for fever under 3 months, poor feeding, or few wet diapers."
+      ]
+    }
+  },
+  {
+    "id": "children-009",
+    "category": "children",
+    "title": "School Emergencies and Family Reunification Plans",
+    "priority": "critical",
+    "tags": [
+      "children",
+      "school",
+      "child care",
+      "reunification",
+      "lockdown",
+      "evacuation",
+      "pickup",
+      "family plan"
+    ],
+    "summary": "How to learn your child's school and child care emergency plans, set up who may pick your child up, and build a family plan to find each other if a disaster hits during the school or work day.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Learn the school's plan now",
+        "body": "CDC notes that schools and child care centers have their own plans for keeping children safe and reuniting them with families. Ask the principal, director, or school safety officer: What drills do you practice (fire, shelter-in-place, lockdown, evacuation)? Where will children go if the building must be evacuated, and where is the off-site reunification site? How will you notify parents - text, email, app, website? How long will you keep kids, and who stays with them? Write the answers in your family plan and in your phone. Lockdown drill rules differ by state, so check your state Department of Education site too."
+      },
+      {
+        "step": 2,
+        "title": "Update the pickup and contact lists",
+        "body": "Schools release children only to adults on the authorized pickup list, and you will usually need to show a photo ID. Make sure the list includes at least two backup adults who live or work nearby, in case you can't reach the school - roads may be closed. Tell those adults they are on the list and what to bring. Keep every phone number current with the school office and update it right away after any change. If custody orders limit who may pick up a child, give the school a copy."
+      },
+      {
+        "step": 3,
+        "title": "Sign up for alerts and know the rules",
+        "body": "Sign up for your school district's emergency texts and app notifications, plus local emergency alerts (see comms-013). In a real lockdown or shelter-in-place, the school will usually ask parents not to come to the building or call the school. Crowds of cars and parents can block police, fire, and ambulances, and phone calls tie up staff. Wait for official directions about where and when to pick up. Your child is usually safest staying with trained staff until officials say to come."
+      },
+      {
+        "step": 4,
+        "title": "Teach your child their job",
+        "body": "Explain to your child, in a calm way, what their job is if something happens at school: listen to the teacher, stay with the class, follow the drill, and never leave with anyone who isn't on the family list, even someone they know, unless a teacher releases them. Tell them you will come or send a safe adult as fast as you can, even if it takes hours. Put an emergency contact card in their backpack (see children-004). Children who use phones or social media can tell family they are safe that way, as CDC suggests - but teach them to silence their phone during a lockdown."
+      },
+      {
+        "step": 5,
+        "title": "Build a family reunification plan",
+        "body": "CDC recommends a family plan with phone numbers, emergency contacts, and several meeting places. Pick: a spot right outside your home for fires; a place in the neighborhood if you can't get home, such as a relative's house or library; and an out-of-town place if the area is evacuated. Choose an out-of-area contact everyone checks in with (see comms-005). Decide which parent or backup adult goes to which school or child care if you have kids in more than one place. Write it down for each family member and practice it twice a year."
+      },
+      {
+        "step": 6,
+        "title": "Go to reunification ready",
+        "body": "When the school says where to go, bring your photo ID and any paperwork they ask for. Expect a line and a careful process: staff check ID against the pickup list, then bring your child to you. This can take a long time - be patient, because it is how they make sure every child goes home with the right adult. Bring water, snacks, and a phone charger. Let the school know right away if someone else will be picking up your child."
+      },
+      {
+        "step": 7,
+        "title": "If you can't find your child",
+        "body": "Stay in contact with school and local officials and keep listening for updates until you are reunited. If your child is missing or you have seen a child who was separated from family, call the National Center for Missing & Exploited Children 24-hour hotline at 1-800-THE-LOST (1-800-843-5678). The American Red Cross Reconnecting Families program also helps families find each other after disasters. Give them a recent photo and description - another reason to keep current photos in your kit."
+      }
+    ],
+    "warnings": [
+      "Don't rush to the school during a lockdown or active emergency unless officials tell you to come - you may block responders and put yourself in danger.",
+      "Never let your child leave school with an adult who is not on the authorized pickup list, even a relative.",
+      "Phones may not work right after a disaster - your written plan and meeting places must work without them.",
+      "Expect reunification to take hours; plan for who will care for your other children while you wait."
+    ],
+    "proTips": [
+      "Save the school's reunification site address in your phone's maps for offline use.",
+      "Put the school's plan, pickup list, and your ID copy in the same folder as your go-bag documents.",
+      "Ask the school whether students practice reunification drills, and ask your child what they do in each drill.",
+      "If you work far away, ask a nearby neighbor to be a backup pickup adult and add them to the list."
+    ],
+    "relatedGuides": [
+      "children-004",
+      "children-003",
+      "comms-005",
+      "comms-013",
+      "sec-003",
+      "sec-010"
+    ],
+    "source": "CDC / FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Reunification with Children After a Disaster or Emergency",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/children-and-school-preparedness/before-during-after/reunification.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Ready Kids",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/kids",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Staying Away From Stranger Danger",
+        "publisher": "National Center for Missing & Exploited Children",
+        "url": "https://www.missingkids.org/blog/2023/staying-away-from-stranger-danger",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "comms-005"
+    ],
+    "whenNotTo": [
+      "If officials order an evacuation of your area and say the school is moving students, follow their directions instead of your normal pickup plan."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A disaster or emergency happens while your child is at school or child care.",
+      "immediate": [
+        "Check official school alerts - don't go to the building during a lockdown unless told to.",
+        "Contact your out-of-area contact and backup pickup adults.",
+        "Go to the reunification site when told, with photo ID."
+      ],
+      "then": [
+        "Be patient during ID checks - it keeps every child safe.",
+        "If a child is missing, call NCMEC at 1-800-THE-LOST."
+      ]
+    }
+  },
+  {
+    "id": "children-010",
+    "category": "children",
+    "title": "Keeping Kids Calm and Occupied During Long Emergencies",
+    "priority": "beginner",
+    "tags": [
+      "children",
+      "boredom",
+      "routine",
+      "activities",
+      "power outage",
+      "shelter",
+      "coping",
+      "games"
+    ],
+    "summary": "Practical ways to keep children calm, busy, and sleeping during long power outages, shelter stays, or evacuations - routines, no-power activities, jobs, and movement - so the whole family copes better.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Set a simple daily routine",
+        "body": "CDC notes that routines such as regular meals and bedtimes help reduce children's stress after a disaster. Even in a shelter or a dark house, keep the same wake-up time, meal times, a quiet rest time, and bedtime. Write the day's plan on paper or a whiteboard with pictures for young kids: breakfast, chores, outside play, lunch, rest, games, dinner, story, bed. If the routine has to change, tell kids what the new plan is and about how long it will last. Predictability is calming."
+      },
+      {
+        "step": 2,
+        "title": "Pack and rotate comfort and play items",
+        "body": "CDC's kids and families kit list includes books, games, puzzles, a favorite stuffed animal or blanket, and paper with pencils, markers, or crayons. Add a deck of cards, a small ball, dice, sticker books, modeling clay, and a few surprise items kids haven't seen yet. Don't bring everything out at once - rotate a few items each day so they stay interesting. A headlamp for each child makes reading and drawing possible after dark and helps them feel brave."
+      },
+      {
+        "step": 3,
+        "title": "Use games that need no power",
+        "body": "Keep a list of no-equipment games: I Spy, 20 Questions, Simon Says, charades, rock-paper-scissors tournaments, telling a story one sentence each, 'would you rather,' counting and alphabet games, and hand-clap songs. With cards and paper: Go Fish, Crazy Eights, War, tic-tac-toe, hangman, and dots and boxes. Flashlight shadow puppets and reading aloud are good after dark. Older kids and teens can learn card games like rummy or play long strategy games with adults."
+      },
+      {
+        "step": 4,
+        "title": "Give every child a real job",
+        "body": "Feeling useful helps kids feel less helpless. Match jobs to age. Toddlers: carry napkins, put toys away. Ages 4 to 7: hand out snacks, set the table, keep track of the flashlights. Ages 8 to 12: check the water supply list, help prepare no-cook meals, read to younger kids, help with pet care. Teens: help with planning, cooking, younger siblings, and checking on neighbors with an adult (see children-011). Praise the work and thank them by name."
+      },
+      {
+        "step": 5,
+        "title": "Move bodies every day",
+        "body": "Children who can't run around get restless, cranky, and sleep badly. When it is safe outside, plan at least one active play time each day: walks, tag, jump rope, catch, or a scavenger hunt. Inside, try dance parties with singing, yoga or animal-walk games, obstacle courses with cushions, and 'freeze' games. Keep kids away from storm debris, downed power lines, floodwater, and generators while they play (see dis-028)."
+      },
+      {
+        "step": 6,
+        "title": "Help kids calm down",
+        "body": "Teach simple calming skills before you need them. 'Smell the flower, blow out the candle' is a slow breath in through the nose and out through the mouth. Squeeze-and-release muscle games, counting five things you can see, and hugging a stuffed animal also help. Keep your own voice calm and limit adult worry talk and disaster news around kids. Quiet, cozy time - a story, a back rub, soft music from a hand-crank radio - helps at bedtime. Expect more clinginess and meltdowns than usual and respond with patience (see children-007)."
+      },
+      {
+        "step": 7,
+        "title": "Protect sleep",
+        "body": "Long emergencies often mean noisy shelters, heat or cold, and odd schedules. Keep the same bedtime steps every night: brush teeth, pajamas, a story, lights out. Bring each child's pillowcase or small blanket from home for a familiar smell. Earplugs, a sleep mask, or a hat pulled over the eyes help in shelters. Keep kids warm or cool enough (see home-001 and home-002). Short daytime naps are fine for young children, but keep older kids from napping late in the day."
+      },
+      {
+        "step": 8,
+        "title": "Keep learning and connection going",
+        "body": "If school is closed, short daily 'school time' keeps kids on track and gives the day shape: reading for 20 minutes, a few math facts, a journal entry about the day, or a nature walk with drawings. Let kids write letters or draw pictures for relatives, first responders, or neighbors. When phones work, short calls with grandparents or friends help a lot. Keep screen time for when it truly helps, such as a downloaded movie at a hard moment, and save battery for emergencies."
+      }
+    ],
+    "warnings": [
+      "Never let children play near generators, downed power lines, floodwater, or storm debris.",
+      "Keep candles and open flames away from children's play areas - use battery lights instead.",
+      "Big changes in behavior that last more than 2-4 weeks can be a sign a child needs professional help (see children-007).",
+      "Keep phone and tablet batteries for emergencies; don't let kids drain the only working phone."
+    ],
+    "proTips": [
+      "Pack a 'boredom box' in your kit with cards, crayons, a few new small toys, and a list of no-power games.",
+      "Download a few kids' movies, audiobooks, and songs to a tablet ahead of time for hard moments.",
+      "Make a 'feelings chart' with faces so younger kids can point to how they feel.",
+      "In shelters, team up with other families to take turns running games so parents can rest."
+    ],
+    "relatedGuides": [
+      "children-007",
+      "children-006",
+      "children-011",
+      "health-012",
+      "psych-004",
+      "dis-024"
+    ],
+    "source": "CDC",
+    "sources": [
+      {
+        "title": "Helping Children Cope with a Disaster",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/children-and-school-preparedness/before-during-after/helping-children-cope.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Kit Checklist: Kids and Families",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/children-and-school-preparedness/resources/emergency-kit-checklist.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Family Disaster Supplies List",
+        "publisher": "American Academy of Pediatrics (HealthyChildren.org)",
+        "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Family-Disaster-Supplies-List.aspx",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your family is stuck at home without power or in a shelter for days.",
+      "immediate": [
+        "Set a simple daily routine with regular meals and the usual bedtime.",
+        "Bring out a few comfort items and no-power games at a time.",
+        "Give each child a small, real job."
+      ],
+      "then": [
+        "Plan active play every day, away from hazards.",
+        "Keep short daily learning time and calls with family when phones work."
+      ]
+    }
+  },
+  {
+    "id": "children-011",
+    "category": "children",
+    "title": "Teens - Real Responsibilities and Skills They Can Take On",
+    "priority": "beginner",
+    "tags": [
+      "children",
+      "teens",
+      "youth",
+      "Teen CERT",
+      "leadership",
+      "skills",
+      "first aid",
+      "family plan"
+    ],
+    "summary": "Teens can be real helpers in an emergency, not just passengers. This guide covers which jobs and skills fit teens, how to train them, and where to draw safety lines - based on FEMA Ready.gov teen and CDC guidance.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Treat teens as part of the planning team",
+        "body": "FEMA's Ready.gov says teens can help their families, schools, and communities prepare, and can lead before, during, and after disasters. Bring your teen into the planning, not just the drills. Ask them to help write the family emergency plan, pick meeting places, set up the out-of-area contact (see comms-005), and make sure every phone has the family numbers saved. Teens are often better than adults at phone settings, alert apps, and offline maps - give them those jobs and let them teach the family."
+      },
+      {
+        "step": 2,
+        "title": "Have them build and own their own kit",
+        "body": "CDC encourages teens to pack their own go-kit so they can bring what matters to them if the family has to leave. Their bag should hold their medicines, basic first aid, a flashlight with spare batteries, a phone charger and battery pack, toiletries and menstrual products if needed, shelf-stable snacks, a full change of clothes with socks and sturdy closed-toe shoes, and a printed list of family numbers. Make them responsible for checking expiration dates every couple of months, and for helping with the family kit review (see children-006)."
+      },
+      {
+        "step": 3,
+        "title": "Train real skills",
+        "body": "Good skills for teens: CPR, AED use, and first aid (classes are offered by the Red Cross, American Heart Association, schools, and fire departments; see medical-015 and medical-016); how to use a fire extinguisher (home-016); how to find the gas, water, and electric shutoffs and when to use them, with an adult showing them first (home-005); how to listen for official alerts (comms-013); and how to use simple radios like FRS walkie-talkies (comms-007). Practice each skill more than once - real confidence comes from repetition."
+      },
+      {
+        "step": 4,
+        "title": "Join Teen CERT or a youth program",
+        "body": "Teen CERT (Community Emergency Response Team) trains teens in fire safety, light search and rescue, disaster first aid, and team organization, and many schools and communities run programs. Ready.gov notes teens can join an existing Teen CERT or start one. Other good options: Red Cross youth clubs, Scouting, Civil Air Patrol cadets, and school safety teams. These programs teach skills, give teens real roles, and connect them to adults trained in emergency work."
+      },
+      {
+        "step": 5,
+        "title": "Give them real jobs during an emergency",
+        "body": "Assign clear jobs your teen can own: watching younger siblings, keeping the family's phone and radio charged, tracking the water and food supply, helping cook no-power meals safely, checking on pets, keeping a written log of updates and alerts, and running games for younger kids (see children-010). With an adult nearby, teens can help check on older neighbors. Give them responsibility and thanks, and check in on how they are handling the stress too."
+      },
+      {
+        "step": 6,
+        "title": "Draw clear safety lines",
+        "body": "Some jobs stay with adults or need direct adult supervision: running or refueling generators, using chainsaws, climbing on roofs, entering damaged buildings, wading into floodwater, handling downed lines, and driving in disaster conditions. Teens who drive must never drive through flooded roads - just 12 inches (30 cm) of moving water can carry away a car - or around barricades. Teach them that knowing when to say 'this is too dangerous for me' is a skill, not a weakness."
+      },
+      {
+        "step": 7,
+        "title": "Watch for stress",
+        "body": "CDC notes that preteens and teens may react to disasters by pulling away from friends, arguing more with family, sleeping differently, feeling anxious or depressed, or taking risks such as reckless driving or alcohol or drug use. Teens may hide their feelings because they are trying to look strong. Check in privately and directly, keep some normal teen time with friends, and limit endless scrolling of disaster news. Get professional help if changes last more than 2 to 4 weeks or get worse, and right away if they talk about hurting themselves (call or text 988)."
+      }
+    ],
+    "warnings": [
+      "Teens should not run or refuel generators, use chainsaws, or enter damaged buildings without direct adult supervision.",
+      "Never let a teen driver go through flooded roads or around barricades - turn around, don't drown.",
+      "Don't load teens with so much responsibility that they become a full-time parent - keep some normal teen life.",
+      "Watch for risky behavior, alcohol or drug use, or talk of self-harm after a disaster and get help early."
+    ],
+    "proTips": [
+      "Let your teen run one family drill a year - planning it teaches more than following it.",
+      "A teen who knows CPR and first aid can also earn money babysitting and qualify for many summer jobs.",
+      "Ask your teen to make a one-page family plan on their phone and print copies for the kit.",
+      "Volunteer hours from Teen CERT or Red Cross can count toward school service requirements."
+    ],
+    "relatedGuides": [
+      "medical-015",
+      "home-016",
+      "home-005",
+      "comms-007",
+      "comms-005",
+      "children-006"
+    ],
+    "source": "FEMA Ready.gov / CDC",
+    "sources": [
+      {
+        "title": "Teens - Ready Kids",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/teens",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Teens: Build Your Own Emergency Kit",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/natural-disasters/teens/build-your-own-emergency-kit.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Helping Children Cope with a Disaster",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/children-and-school-preparedness/before-during-after/helping-children-cope.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Don't hand a teen tasks that need adult training or strength, such as generator fueling or debris removal, just because adults are busy."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want your teen to be a real helper before and during emergencies.",
+      "immediate": [
+        "Bring your teen into writing the family plan and setting up phones and alerts.",
+        "Have them build and maintain their own go-kit.",
+        "Give clear jobs: siblings, charging, supplies log, pets."
+      ],
+      "then": [
+        "Sign them up for CPR/first aid and Teen CERT or a youth program.",
+        "Set firm limits on generators, chainsaws, floodwater, and driving."
+      ]
+    }
+  },
+  {
+    "id": "children-012",
+    "category": "children",
+    "title": "Children With Disabilities or Medical Needs - Planning Ahead",
+    "priority": "critical",
+    "tags": [
+      "children",
+      "special health care needs",
+      "disabilities",
+      "medical devices",
+      "Emergency Information Form",
+      "medications",
+      "autism",
+      "evacuation"
+    ],
+    "summary": "Families of children with disabilities, chronic illness, or medical devices need a plan that goes beyond the basic kit. This guide covers the AAP/ACEP Emergency Information Form, medicine and power backup, communication supports, school and shelter planning, and leaving early.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Fill out an Emergency Information Form",
+        "body": "The American Academy of Pediatrics (AAP) and the American College of Emergency Physicians (ACEP) created the Emergency Information Form (EIF) for children with special health care needs. It gives a short summary of your child's complicated medical history - such as diagnoses, medicines, allergies, and devices - so responders can help even when you and your pediatrician aren't there. Download it from AAP or ACEP and fill it out with your child's doctor. AAP advises keeping a copy in your family's go-kit and disaster kit. Also give copies to school, child care, and regular caregivers, and update it after any major change."
+      },
+      {
+        "step": 2,
+        "title": "Write 'talking points' about your child",
+        "body": "AAP suggests writing short talking points about your child's needs to give first responders or shelter staff. Keep it to one page: how your child communicates, what calms them, what upsets them (loud noises, being touched, bright lights), how they show pain, mobility and transfer needs, diet and feeding needs, and any behaviors that might be misunderstood. Add a photo. Use medical ID bracelets or labels with emergency contact information on your child and on their belongings, such as a wheelchair, stroller, communication device, or backpack."
+      },
+      {
+        "step": 3,
+        "title": "Stock medicines and supplies",
+        "body": "Ask your pediatrician about keeping a 2-week supply of prescription medicines, as AAP and CDC suggest, and ask your pharmacist about early refills during disaster declarations. Keep a written list of each medicine, its strength and dose, the pharmacy, and the prescribing doctor. Plan for every supply your child depends on: special formula and feeding tubes and pumps, catheters, incontinence products, suction supplies, ventilator and oxygen supplies, spare batteries for hearing aids and cochlear implants, and glasses. For medicines that need refrigeration, plan a cooler and ice packs (see health-003)."
+      },
+      {
+        "step": 4,
+        "title": "Plan for power-dependent equipment",
+        "body": "If your child uses a ventilator, oxygen concentrator, suction machine, feeding pump, powered wheelchair, or other electric device, plan for outages. AAP lists backup power for medical equipment as a key supply. Know how long each device's battery lasts, keep spare batteries charged, and learn safe backup options such as a battery power station or a generator used only outdoors (see home-013 and home-006). Ask your utility whether it has a medical-needs registry, and know which local hospital or shelter can provide power if yours fails. Have a manual backup for critical devices, such as a hand suction pump, if your care team agrees."
+      },
+      {
+        "step": 5,
+        "title": "Plan transport, shelter, and leaving early",
+        "body": "AAP advises asking your transportation provider about backup options if specialized transport isn't available, and finding out which shelters can give the medical care your child needs. Save the phone number or app for at least one state or disability service agency. Watch evacuation alerts closely - your family may need extra time to leave, so go when officials first advise it rather than waiting for a mandatory order. Map more than one route to a hospital that can care for your child. Keep car seats, wheelchairs, and lifts in working order."
+      },
+      {
+        "step": 6,
+        "title": "Bring communication and comfort supports",
+        "body": "Pack your child's communication tools: a speech device and charger, picture cards, a printed communication board, or sign-language reminders for helpers. For children with autism, sensory processing differences, or anxiety, pack noise-canceling headphones, a weighted blanket or favorite comfort item, familiar snacks, and a visual schedule. CDC notes that children who rely on medical equipment or have physical, emotional, or intellectual limitations may react more strongly to disasters and may need extra explanation, reassurance, and closeness. Practice drills slowly and more than once so the plan feels familiar."
+      },
+      {
+        "step": 7,
+        "title": "Coordinate with school and your care team",
+        "body": "Ask your child's school how its emergency plan covers students with disabilities and medical needs: who gives medicines during a lockdown or shelter-in-place, how a wheelchair user evacuates, and where supplies are kept. Put emergency steps in the child's health plan or IEP/504 plan where possible. AAP recommends sharing your preparedness plan and kit list with your pediatrician. Build a support network of at least two or three people - relatives, neighbors, or other families - who know your child's needs and can help if you are hurt or separated (see home-012)."
+      }
+    ],
+    "warnings": [
+      "Never run a generator indoors or in a garage to power medical equipment - carbon monoxide can kill.",
+      "Don't wait for a mandatory evacuation order if your child depends on power or special transport - leave early.",
+      "Don't change or stretch medicine doses to make supplies last without talking to your child's doctor or pharmacist.",
+      "If a power-dependent device fails and you have no backup, call 911 or go to the nearest hospital - do not wait."
+    ],
+    "proTips": [
+      "Keep the EIF and talking points as a photo on your phone and on paper in a zip bag in the go-kit.",
+      "Label every piece of equipment and every charger with your child's name and your phone number.",
+      "Ask your durable medical equipment supplier for an emergency plan and a spare set of key parts.",
+      "Connect with your state's program for children and youth with special health care needs; many offer free emergency planning help."
+    ],
+    "relatedGuides": [
+      "home-012",
+      "home-013",
+      "health-002",
+      "health-003",
+      "health-016",
+      "children-006"
+    ],
+    "source": "AAP / ACEP / CDC",
+    "sources": [
+      {
+        "title": "Family Disaster Supplies List (Tips for Children With Special Health Care Needs)",
+        "publisher": "American Academy of Pediatrics (HealthyChildren.org)",
+        "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Family-Disaster-Supplies-List.aspx",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Preparedness for Children With Special Health Care Needs",
+        "publisher": "American Academy of Pediatrics",
+        "url": "https://www.aap.org/en/get-involved/aap-committees/committee-on-pediatric-emergency-medicine/emergency-preparedness-for-children-with-special-health-care-needs/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Information Form for Children With Special Health Care Needs",
+        "publisher": "American College of Emergency Physicians",
+        "url": "https://www.acep.org/by-medical-focus/pediatrics/medical-forms/emergency-information-form-for-children-with-special-health-care-needs",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Helping Children Cope with a Disaster",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/children-and-school-preparedness/before-during-after/helping-children-cope.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Kit Checklist: Kids and Families",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/children-and-school-preparedness/resources/emergency-kit-checklist.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [
+      "children-006"
+    ],
+    "whenNotTo": [
+      "This plan supports, but never replaces, the specific instructions from your child's medical team."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your child has a disability, chronic illness, or depends on medicines or medical devices.",
+      "immediate": [
+        "Fill out the AAP/ACEP Emergency Information Form with your pediatrician.",
+        "Keep a 2-week medicine supply (if your doctor agrees) and a written medicine list.",
+        "Plan backup power for every device your child depends on."
+      ],
+      "then": [
+        "Write one page of talking points for responders and shelter staff.",
+        "Leave early when evacuation is advised, and share the plan with school and caregivers."
+      ]
+    }
   }
 ]

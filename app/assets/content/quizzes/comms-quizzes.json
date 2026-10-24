@@ -4,51 +4,502 @@
     "category": "communications",
     "type": "multiple_choice",
     "difficulty": "beginner",
-    "scenario": "You need to signal an aircraft approximately 3 miles away. You have a signal mirror (commercial type with aiming hole). Which technique is correct?",
+    "scenario": "You need to signal an aircraft about 3 miles away on a sunny afternoon. You have a glass signal mirror with a sighting hole in the center. Which technique is correct?",
     "options": [
-      { "id": "a", "text": "Aim the mirror directly at the sun, then reflect sunlight toward the aircraft" },
-      { "id": "b", "text": "Hold mirror to your eye, sight the aircraft through the aiming hole, tilt until the bright reflection spot on your face aligns with the hole — then hold" },
-      { "id": "c", "text": "Flash SOS pattern (3 short-3 long-3 short) continuously at maximum rate" },
-      { "id": "d", "text": "Only use signal mirrors at noon when the sun is directly overhead — other angles are ineffective" }
+      {
+        "id": "a",
+        "text": "Point the mirror's shiny side at the sun and wait for the pilot to notice the glare"
+      },
+      {
+        "id": "b",
+        "text": "Hold the mirror near your eye, sight the aircraft through the hole, and tilt the mirror until the bright light spot in the sighting grid sits on the aircraft"
+      },
+      {
+        "id": "c",
+        "text": "Flash as fast as you can in random directions so the pilot sees movement"
+      },
+      {
+        "id": "d",
+        "text": "Wait until noon, because mirrors only work when the sun is directly overhead"
+      }
     ],
     "correct": "b",
-    "explanation": "Signal mirror with aiming hole: (1) Hold mirror near your eye. (2) Sight the target through the aiming hole. (3) Tilt the mirror until the bright reflected 'fireball' on your face aligns with the aiming hole. (4) The reflection is now aimed at your target. (5) Sweep slowly — don't flash rapidly, sweep at 2-3 second intervals so observers can see the reflection. A signal mirror can be visible 10-20 miles in direct sunlight. WITHOUT an aiming hole: hold 2 fingers in a V at arm's length, sight the target between the fingers, tilt mirror until reflection hits your fingers and reflects to the target. Do NOT aim directly at the sun — you're reflecting FROM the sun, not at it. Signal mirrors work at any sun angle as long as the sun is visible.",
+    "explanation": "With a sighting-hole mirror, you look at the target through the hole and tilt the mirror until the small bright spot of reflected light (the 'fireball') lands on the target - then the flash is hitting it. Keep the spot on the target and rock the mirror slightly. Pointing it at the sun (a) sends the flash nowhere useful. Random fast flashing (c) rarely hits the aircraft. Mirrors work at most sun angles as long as the sun is visible (d is wrong). Without a sighting hole, use the finger-V method at arm's length. Once the pilot has clearly seen you, stop holding the flash on the cockpit so you do not dazzle them.",
     "relatedGuide": "comms-001",
-    "tags": ["communications", "signaling", "survival", "beginner"]
+    "tags": [
+      "communications",
+      "signaling",
+      "survival",
+      "beginner"
+    ]
   },
   {
     "id": "quiz-comms-002",
     "category": "communications",
     "type": "priority_order",
     "difficulty": "intermediate",
-    "scenario": "You need to construct a signal fire for daytime aircraft signaling. You have dry wood, green vegetation (leaves/pine boughs), and a working lighter. Order these steps from first to last.",
+    "scenario": "You need a signal fire for daytime aircraft. You have dry wood, green vegetation (leaves and pine boughs), and a working lighter. Put these steps in order from first to last.",
     "items": [
-      { "id": "1", "text": "Build a base fire structure using dry wood for reliable ignition (tinder, kindling, fuel)" },
-      { "id": "2", "text": "Select a site with maximum air visibility — open clearing, hilltop, or large flat rock" },
-      { "id": "3", "text": "Gather a large pile of green vegetation (leaves, grass, pine boughs) to pile on once fire is lit" },
-      { "id": "4", "text": "Light the base fire and allow it to establish for 3-5 minutes" },
-      { "id": "5", "text": "Add green vegetation on top of established fire to create dense white-grey smoke visible from aircraft" }
+      {
+        "id": "1",
+        "text": "Build a base fire with dry tinder, kindling, and fuel on cleared, bare ground"
+      },
+      {
+        "id": "2",
+        "text": "Select a site with the best view from the air - an open clearing, ridge, or shoreline - and scrape away flammable debris"
+      },
+      {
+        "id": "3",
+        "text": "Gather a large pile of green vegetation and stage it beside the fire"
+      },
+      {
+        "id": "4",
+        "text": "Light the base fire and let it burn hot for several minutes"
+      },
+      {
+        "id": "5",
+        "text": "When an aircraft is heard or seen, pile green vegetation on the hot fire to make thick white smoke"
+      }
     ],
-    "correct_order": ["2", "1", "3", "4", "5"],
-    "explanation": "Site selection first — a brilliant signal fire in a forest clearing is nearly invisible from the air. Open ground, ridge lines, or prominent terrain features are required. Build the ignition base before gathering green material — green vegetation is heavy to transport and irrelevant until you have fire. Gather green material in quantity while your base is building (time efficiency). Light the base and let it establish before adding green — adding green to a new fire smothers it. Dense green material produces white/grey smoke visible against terrain. At night: no smoke needed — bright flames are visible. Signal 3 fires in a triangle (international distress) if material and time permit.",
-    "relatedGuide": "comms-001",
-    "tags": ["communications", "signaling", "fire", "intermediate"]
+    "correct_order": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Site first: a strong fire under thick trees is nearly invisible from the air, and clearing the ground keeps the fire from spreading. Build the dry base, then stage green material nearby so it is ready - you may get less than a minute of warning. Let the fire burn hot before adding green material, because green fuel smothers a weak fire. Add the green material when an aircraft is near so you do not waste fuel. At night, use bright flame instead of smoke. If you have the fuel and energy, three fires in a triangle about 30-50 feet (9-15 m) apart is a recognized distress signal, but never build more fire than you can control.",
+    "relatedGuide": "comms-003",
+    "tags": [
+      "communications",
+      "signaling",
+      "fire",
+      "intermediate"
+    ]
   },
   {
     "id": "quiz-comms-003",
     "category": "communications",
     "type": "multiple_choice",
     "difficulty": "beginner",
-    "scenario": "You're stranded on a remote lake. A vessel is passing approximately 400 meters away. You have a whistle. What is the internationally recognized whistle distress signal?",
+    "scenario": "You are stranded on the shore of a remote lake. People in a boat are passing about 400 yards away. You have a pealess whistle. Which whistle signal is most likely to be understood as a call for help?",
     "options": [
-      { "id": "a", "text": "One long blast — used universally for distress on water" },
-      { "id": "b", "text": "Three short blasts repeated — the universal distress signal recognized by maritime, SAR, and wilderness protocols" },
-      { "id": "c", "text": "Two long blasts alternating with two short blasts — Morse code for 'SOS'" },
-      { "id": "d", "text": "Continuous blowing for 30 second intervals — the duration indicates distress" }
+      {
+        "id": "a",
+        "text": "One long blast of 4 to 6 seconds"
+      },
+      {
+        "id": "b",
+        "text": "Three strong blasts, then a pause to listen, repeated"
+      },
+      {
+        "id": "c",
+        "text": "Five short, rapid blasts"
+      },
+      {
+        "id": "d",
+        "text": "Two blasts, then wait"
+      }
     ],
     "correct": "b",
-    "explanation": "The universal distress signal is the Rule of 3: three of anything (3 whistle blasts, 3 gunshots, 3 fires in a triangle, 3 mirror flashes). Three short blasts repeated, with a pause between sets, is internationally recognized by maritime and SAR protocols. SOS in Morse code is 3 short / 3 long / 3 short — but this is not the standard whistle protocol (most people don't recognize Morse code). One long blast on a vessel horn means you're leaving a dock — it is NOT a distress signal. In water survival: blow 3 short blasts, pause, repeat. A Fox 40 or ACME Thunderer whistle can be heard 1+ mile in calm conditions and requires no breath pressure, unlike voice.",
-    "relatedGuide": "comms-001",
-    "tags": ["communications", "signaling", "distress", "beginner"]
+    "explanation": "Three of anything - three whistle blasts, three flashes, three fires - is the widely used call for help on land, and most people recognize it. Blow three strong blasts, stop and listen, then repeat. One prolonged blast (a) is a boating signal meaning a vessel is leaving a dock or nearing a blind bend. Five short, rapid blasts (c) is the boating danger signal, meaning 'I do not understand your intentions' or 'danger.' Two blasts (d) is commonly used as an answer: 'I hear you, coming.' A boat in distress itself would use continuous sounding of its horn or fog signal. A whistle carries much farther than a shout and takes far less effort, so it works when you are tired or hoarse.",
+    "relatedGuide": "comms-004",
+    "tags": [
+      "communications",
+      "signaling",
+      "distress",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-comms-004",
+    "category": "comms",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "A neighbor says FRS channel 22A is the official emergency channel that rescuers always monitor, so your family should just use that in a disaster. What is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Right - FRS channel 22A is reserved by the FCC for emergencies"
+      },
+      {
+        "id": "b",
+        "text": "Wrong - no FRS channel is reserved for emergencies or any one user, so your family must agree on its own channel ahead of time"
+      },
+      {
+        "id": "c",
+        "text": "Wrong - the official FRS emergency channel is channel 1"
+      },
+      {
+        "id": "d",
+        "text": "Right - but only if you add a privacy code"
+      }
+    ],
+    "correct": "b",
+    "explanation": "The FCC says all 22 FRS channels are shared with GMRS and no channel is reserved for any one user; users must cooperate and listen before talking. There is no official FRS emergency channel, so choose a main and backup channel for your family, write them in your plan, and set check-in times. Channel 22A is a marine VHF designation, not FRS (a). Channel 1 is popular by habit, not by rule (c). Privacy codes only filter what you hear; they do not reserve a channel or keep others from hearing you (d).",
+    "relatedGuide": "comms-007",
+    "tags": [
+      "comms",
+      "FRS",
+      "radio",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-comms-005",
+    "category": "comms",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You want to use 5-watt GMRS handhelds and a 25-watt GMRS radio in your truck so your spouse and two teenagers can stay in touch. What do you need from the FCC?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nothing - GMRS is license-free like FRS"
+      },
+      {
+        "id": "b",
+        "text": "Four separate licenses, one per family member, each requiring an exam"
+      },
+      {
+        "id": "c",
+        "text": "One GMRS license in your name: $35, good for 10 years, no exam, and it covers your family members"
+      },
+      {
+        "id": "d",
+        "text": "A ham radio Technician license, because anything over 2 watts is amateur radio"
+      }
+    ],
+    "correct": "c",
+    "explanation": "GMRS requires an individual FCC license. It costs $35, lasts 10 years, and has no test. You must be at least 18, and family members of any age can operate within your licensed system. FRS (a) is license-free, but only on FRS radios limited to 2 watts (0.5 watt on channels 8-14) with fixed antennas. You do not need separate licenses or exams for each person (b). GMRS is its own service, so a ham license (d) does not cover it.",
+    "relatedGuide": "comms-007",
+    "tags": [
+      "comms",
+      "GMRS",
+      "license",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-comms-006",
+    "category": "comms",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "A tornado just hit your town. You are safe at work, and your calls to your spouse keep failing with a 'network busy' message. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep hitting redial as fast as possible until the call connects"
+      },
+      {
+        "id": "b",
+        "text": "Call 911 and ask them to check on your spouse"
+      },
+      {
+        "id": "c",
+        "text": "Send a short text to your spouse and your out-of-area contact saying you are safe, where you are, and when you will check in next"
+      },
+      {
+        "id": "d",
+        "text": "Send a video message so your spouse can see you are fine"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Texts need far less network capacity than calls and often get through when calls fail; FEMA's plan guidance says text is best. Include who, status, location, and next check-in time, and copy your out-of-area contact, who can relay messages. Rapid redialing (a) adds to the jam - wait about 10 seconds between tries. 911 (b) is for life-threatening emergencies only. Video (d) uses much more capacity and is less likely to send.",
+    "relatedGuide": "comms-012",
+    "tags": [
+      "comms",
+      "phone",
+      "texting",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-comms-007",
+    "category": "comms",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your hiking partner has fallen and cannot walk. You are in a deep, wooded canyon, your iPhone 15 shows 'No Service,' and you have no Wi-Fi. What is the best first move?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Open Messages via satellite and text a friend to call for help"
+      },
+      {
+        "id": "b",
+        "text": "Try calling 911 first; if it fails, choose Emergency Text via Satellite, answer the questions, and move to the most open spot with a clear view of the sky"
+      },
+      {
+        "id": "c",
+        "text": "Stay under the trees where it is sheltered and keep the phone in your pocket until you hear a helicopter"
+      },
+      {
+        "id": "d",
+        "text": "Wait until you get back to the trailhead, because satellite features do not work in the U.S."
+      }
+    ],
+    "correct": "b",
+    "explanation": "Apple says to try calling the emergency number first, because the call may connect on another carrier's network. If it fails, the phone offers Emergency Text via Satellite: answer the short questions, choose whether to notify emergency contacts, and follow the on-screen arrows with a clear view of the sky and horizon. Canyon walls and trees can block the signal, so move to open ground if you safely can. Messages via satellite (a) is for non-emergency texting, and Apple says not to use it in emergencies. Keeping the phone in your pocket (c) wastes time. Emergency SOS via satellite works in the U.S. on iPhone 14 and later (d is wrong).",
+    "relatedGuide": "comms-011",
+    "tags": [
+      "comms",
+      "satellite",
+      "iPhone",
+      "SOS",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-comms-008",
+    "category": "comms",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You just bought a 406 MHz personal locator beacon (PLB) for backcountry trips. What must you do before relying on it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Buy a monthly subscription so the beacon can reach satellites"
+      },
+      {
+        "id": "b",
+        "text": "Nothing - PLBs work out of the box and registration is optional"
+      },
+      {
+        "id": "c",
+        "text": "Register it with NOAA for free at beaconregistration.noaa.gov and keep your contact details current"
+      },
+      {
+        "id": "d",
+        "text": "Activate it once at home to test that rescuers respond"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Federal rules require 406 MHz beacons to be registered with NOAA. Registration is free, done online, and NOAA asks you to confirm your details every two years; update it if you sell the beacon or your contacts change. Registration lets rescuers call your emergency contacts and confirm the alert is real. PLBs need no subscription (a). Registration is not optional (b). Never set off a real distress alert to test (d) - use the beacon's self-test function as the maker describes.",
+    "relatedGuide": "comms-011",
+    "tags": [
+      "comms",
+      "PLB",
+      "satellite",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-comms-009",
+    "category": "comms",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You are setting up a new weather radio with SAME. Two NOAA stations come in: the one assigned to your county is a bit scratchy, and one from the next region is loud and clear. How should you program the radio?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use the loud, clear station - better audio means you will not miss anything"
+      },
+      {
+        "id": "b",
+        "text": "Use the station assigned to your county and enter your county's 6-digit SAME code, plus nearby counties you care about; add an external antenna if reception is poor"
+      },
+      {
+        "id": "c",
+        "text": "Leave SAME off so the radio alarms for every warning it hears"
+      },
+      {
+        "id": "d",
+        "text": "Enter only the 2-digit state code so you get alerts for the whole state"
+      }
+    ],
+    "correct": "b",
+    "explanation": "The National Weather Service warns not to program a louder or clearer station that is not designated for your SAME area, because it may not carry warnings for your county (a). SAME codes are six digits: whole or part county, state, and county. Enter your county plus upwind or family counties. If reception is weak, an external antenna helps. Turning SAME off (c) leads to constant false alarms, and people then unplug the radio. A state code alone (d) is not a valid SAME location code.",
+    "relatedGuide": "comms-013",
+    "tags": [
+      "comms",
+      "alerts",
+      "NOAA",
+      "SAME",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-comms-010",
+    "category": "comms",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "Your family is building a PACE plan for a long power outage. Put these methods in a sensible order from Primary to Emergency, choosing layers that do not all depend on the same system.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Go to the agreed neighborhood meeting place and leave a dated note on the back door"
+      },
+      {
+        "id": "2",
+        "text": "Cell phone text to the family group"
+      },
+      {
+        "id": "3",
+        "text": "GMRS radio on the family channel at the top of each hour"
+      },
+      {
+        "id": "4",
+        "text": "Wi-Fi calling or internet messaging from a library or shelter with generator power"
+      }
+    ],
+    "correct_order": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ],
+    "explanation": "Primary is the best, everyday method: a cell text. Alternate is a common backup that is a bit less convenient: Wi-Fi calling or internet messaging, which works when local towers are down but internet is reachable. Contingency is slower but independent of towers and internet: radio at scheduled check-in times. Emergency is the last resort that needs no electricity at all: walking to the meeting place and leaving a note. Each layer should fail for different reasons, and everyone needs clear triggers, such as 'no text reply in 30 minutes, switch to radio.'",
+    "relatedGuide": "comms-006",
+    "tags": [
+      "comms",
+      "PACE",
+      "planning",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-comms-011",
+    "category": "comms",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "Your boat's engine room is on fire and you are calling on VHF channel 16. Put the parts of your Mayday message in the correct order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Your position (latitude and longitude, or distance and direction from a landmark)"
+      },
+      {
+        "id": "2",
+        "text": "'Mayday, Mayday, Mayday'"
+      },
+      {
+        "id": "3",
+        "text": "'Over' - then release the button and listen"
+      },
+      {
+        "id": "4",
+        "text": "'This is' and your vessel name, three times"
+      },
+      {
+        "id": "5",
+        "text": "The nature of the emergency and the number of people aboard"
+      }
+    ],
+    "correct_order": [
+      "2",
+      "4",
+      "1",
+      "5",
+      "3"
+    ],
+    "explanation": "A Mayday follows a fixed order so the Coast Guard or other boats can write it down: the distress word three times, who you are, where you are, what is wrong and how many people, then 'over' and listen for 10 to 15 seconds before repeating. Position comes right after your identity because it is the single most important piece - rescuers can find you even if the rest is lost. If your radio has a red DSC distress button and GPS, pressing it sends your position automatically.",
+    "relatedGuide": "comms-016",
+    "tags": [
+      "comms",
+      "radio procedure",
+      "mayday",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-comms-012",
+    "category": "comms",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your friend has a badly broken leg in an open meadow. You hear a search helicopter in the distance and have time to lay out one ground symbol with logs. Which symbol best tells the crew what you need?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A large X - need medical help"
+      },
+      {
+        "id": "b",
+        "text": "A large triangle - safe to land"
+      },
+      {
+        "id": "c",
+        "text": "Two parallel lines (LL) - all is well"
+      },
+      {
+        "id": "d",
+        "text": "A small circle of rocks near your tent"
+      }
+    ],
+    "correct": "a",
+    "explanation": "X is the widely recognized ground-to-air symbol for 'need medical help' or 'unable to proceed.' V means 'need help' but does not say medical. Make it as large as you can - Colorado Parks and Wildlife suggests 30 to 50 feet (9 to 15 m) long and 3 to 4 feet (1 m) wide - with straight lines and strong contrast. A triangle (b) is not a standard 'safe to land' signal and could confuse the crew. LL (c) tells them you do not need help, the opposite of what you want. A small circle (d) is too small and looks natural from the air.",
+    "relatedGuide": "comms-015",
+    "tags": [
+      "comms",
+      "signaling",
+      "ground-to-air",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-comms-013",
+    "category": "comms",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You come upon a crash on a rural interstate with no cell service. Your truck has a CB radio. What is the best way to use it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Add a linear amplifier so your signal reaches the nearest town"
+      },
+      {
+        "id": "b",
+        "text": "Call on channel 9, the FCC emergency and traveler-assistance channel, giving highway, direction, mile marker, injuries, and asking someone to call 911; also try channel 19 where truckers listen"
+      },
+      {
+        "id": "c",
+        "text": "Use channel 19 only, because channel 9 is just for truckers"
+      },
+      {
+        "id": "d",
+        "text": "Wait until you have cell service - CB requires a license you do not have"
+      }
+    ],
+    "correct": "b",
+    "explanation": "The FCC reserves CB channel 9 for emergency communications and traveler assistance, and emergency messages have priority on every channel. Channel 19 is the traditional highway channel, so it is also a good place to find a listener. Give a precise location first. Linear amplifiers (a) are illegal on CB. Channel 9 is not 'just for truckers' (c). CB needs no license (d).",
+    "relatedGuide": "comms-008",
+    "tags": [
+      "comms",
+      "CB",
+      "radio",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-comms-014",
+    "category": "comms",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Your family just set up Meshtastic radios. Messages on the default LongFast channel go through fine, but you want to share home and medical details. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep using the default channel - all Meshtastic messages are encrypted, so they are private"
+      },
+      {
+        "id": "b",
+        "text": "Switch your radios to an ITU amateur region so the messages travel farther"
+      },
+      {
+        "id": "c",
+        "text": "Create a new named channel to generate a fresh key, send it to each radio, and share it by QR code only with family"
+      },
+      {
+        "id": "d",
+        "text": "Turn the hop limit up as high as it will go so more people can relay your messages"
+      }
+    ],
+    "correct": "c",
+    "explanation": "The default channel is encrypted with a well-known key, so anyone nearby on the same preset can read it. Meshtastic's docs advise making a separate channel for anything sensitive: naming the channel generates a new 256-bit key, which you save and send to the radio, then share by QR code. Answer a is the common mistake. Amateur regions (b) need a ham license and do not allow encryption at all. Raising the hop limit (d) does not add privacy and can clutter the mesh; the default is 3.",
+    "relatedGuide": "comms-010",
+    "tags": [
+      "comms",
+      "Meshtastic",
+      "mesh",
+      "advanced"
+    ]
   }
 ]

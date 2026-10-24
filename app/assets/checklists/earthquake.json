@@ -2,24 +2,139 @@
   "id": "checklist-earthquake",
   "title": "Earthquake",
   "disasterType": "earthquake",
-  "description": "No warning before an earthquake — prepare before, not during.",
+  "description": "Use this list before an earthquake ever happens - there is no warning, so the work is done ahead of time.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Earthquakes",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/earthquakes",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Safety Guidelines: During an Earthquake",
+      "publisher": "CDC",
+      "url": "https://www.cdc.gov/disasters/earthquakes/during.html",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    }
+  ],
   "items": [
-    { "id": "eq-001", "text": "Secure water heater to wall studs with strapping — fall hazard and fire risk", "critical": true },
-    { "id": "eq-002", "text": "Secure bookcases, cabinets, and tall furniture to wall studs with L-brackets", "critical": true },
-    { "id": "eq-003", "text": "Store minimum 14-day water supply (1 gal/person/day) in a low, stable location", "critical": true },
-    { "id": "eq-004", "text": "Store 14-day supply of non-perishable food requiring no cooking", "critical": true },
-    { "id": "eq-005", "text": "Learn to shut off gas at the meter — know the location and have a wrench", "critical": true },
-    { "id": "eq-006", "text": "Keep a crescent wrench attached to your gas meter for emergency shutoff", "critical": false },
-    { "id": "eq-007", "text": "Flashlight in every bedroom — power will fail, debris will be in the dark", "critical": true },
-    { "id": "eq-008", "text": "Shoes stored under every bed — broken glass causes serious post-quake injuries", "critical": false },
-    { "id": "eq-009", "text": "Drop-Cover-Hold On practiced with all household members", "critical": true },
-    { "id": "eq-010", "text": "Know your tsunami evacuation zone if in a coastal area — shaking IS the warning", "critical": true },
-    { "id": "eq-011", "text": "Emergency go-bag packed and accessible from outside building", "critical": true },
-    { "id": "eq-012", "text": "Fire extinguisher in kitchen and garage — earthquake fires are common from gas leaks", "critical": true },
-    { "id": "eq-013", "text": "Home insurance reviewed — standard policies often exclude earthquake damage", "critical": false },
-    { "id": "eq-014", "text": "Prescription medications — 90-day supply if on ongoing medications", "critical": true },
-    { "id": "eq-015", "text": "Battery banks and solar panel for device charging", "critical": false },
-    { "id": "eq-016", "text": "Out-of-area emergency contact designated and written on paper", "critical": false },
-    { "id": "eq-017", "text": "Important documents in waterproof container ready to take immediately", "critical": false }
+    {
+      "id": "eq-009",
+      "text": "Practice Drop, Cover, and Hold On with everyone in the home (and Lock, Cover, Hold On for wheelchair or walker users) - do not run outside or stand in a doorway",
+      "critical": true
+    },
+    {
+      "id": "eq-002",
+      "text": "Strap bookcases, cabinets, and other tall furniture to wall studs - falling objects cause most quake injuries",
+      "critical": true
+    },
+    {
+      "id": "eq-001",
+      "text": "Strap the water heater to wall studs so it cannot tip, break gas lines, or start a fire",
+      "critical": true
+    },
+    {
+      "id": "eq-018",
+      "text": "Move heavy and breakable items to low shelves; secure TVs, mirrors, and hanging objects away from beds and seats",
+      "critical": true
+    },
+    {
+      "id": "eq-010",
+      "text": "If you live on the coast, learn your tsunami zone and walking route - strong or long shaking (20+ seconds) is your warning to move to high ground",
+      "critical": true
+    },
+    {
+      "id": "eq-007",
+      "text": "Keep a flashlight by every bed - power often fails and broken glass is hard to see in the dark",
+      "critical": true
+    },
+    {
+      "id": "eq-008",
+      "text": "Keep sturdy shoes and work gloves by every bed - broken glass causes many injuries after the shaking",
+      "critical": true
+    },
+    {
+      "id": "eq-003",
+      "text": "Store water: at least 1 gallon (3.8 L) per person per day, aiming for 2 weeks, in a low, secured spot",
+      "critical": true
+    },
+    {
+      "id": "eq-004",
+      "text": "Store at least 2 weeks of non-perishable food that needs little or no cooking, plus a manual can opener",
+      "critical": true
+    },
+    {
+      "id": "eq-005",
+      "text": "Find your gas meter and learn how to shut it off - but only shut it off if you smell gas or hear hissing",
+      "critical": true
+    },
+    {
+      "id": "eq-006",
+      "text": "Keep the right-size wrench at the gas meter; once off, only the gas company should turn it back on",
+      "critical": false
+    },
+    {
+      "id": "eq-012",
+      "text": "Keep a fire extinguisher in the kitchen and garage - fires from broken gas lines are common after quakes",
+      "critical": true
+    },
+    {
+      "id": "eq-014",
+      "text": "Keep extra prescription medicine on hand - ask your doctor and pharmacist how to build a reserve your plan allows",
+      "critical": true
+    },
+    {
+      "id": "eq-019",
+      "text": "Keep a whistle by each bed and in your kit - if trapped, tap or whistle instead of shouting to save energy and avoid breathing dust",
+      "critical": true
+    },
+    {
+      "id": "eq-011",
+      "text": "Keep a packed go-bag near an exit or in the car so you can grab it if the building is unsafe to re-enter",
+      "critical": true
+    },
+    {
+      "id": "eq-020",
+      "text": "Keep a battery or hand-crank radio to get instructions when power, phones, and internet are down",
+      "critical": false
+    },
+    {
+      "id": "eq-021",
+      "text": "Turn on earthquake alerts on your phone if you live where they are offered (such as the West Coast)",
+      "critical": false
+    },
+    {
+      "id": "eq-016",
+      "text": "Pick an out-of-area contact and write the number on paper - texts often get through when calls do not",
+      "critical": false
+    },
+    {
+      "id": "eq-017",
+      "text": "Keep copies of important documents in a waterproof container you can grab quickly",
+      "critical": false
+    },
+    {
+      "id": "eq-015",
+      "text": "Keep charged power banks (and a small solar charger if you have one) for phones and lights",
+      "critical": false
+    },
+    {
+      "id": "eq-013",
+      "text": "Review insurance - standard homeowner's policies usually do not cover earthquake damage",
+      "critical": false
+    },
+    {
+      "id": "eq-022",
+      "text": "Have an older or weak building checked for a seismic retrofit if you own it",
+      "critical": false
+    }
   ]
 }

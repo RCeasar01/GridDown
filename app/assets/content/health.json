@@ -1,0 +1,2019 @@
+[
+  {
+    "id": "health-001",
+    "category": "health",
+    "title": "Building First Aid Kits - Home, Vehicle, and Go-Bag",
+    "priority": "critical",
+    "tags": [
+      "health",
+      "first aid",
+      "kit",
+      "preparedness",
+      "go-bag",
+      "vehicle",
+      "supplies"
+    ],
+    "summary": "Build three first aid kits that match where you will be when something goes wrong: a full home kit, a sturdy vehicle kit, and a light go-bag kit. Know why each item is there and how to keep the kit ready.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Start with a proven base list",
+        "body": "Use the American Red Cross list for a family of four as your floor, not your ceiling. It includes: 2 large absorbent compress dressings (5 x 9 in), 25 adhesive bandages in assorted sizes, a roll of 1-inch cloth tape, 5 packets of antibiotic ointment, 5 antiseptic wipes, 2 packets of 81 mg aspirin, an emergency blanket, a breathing barrier with a one-way valve, an instant cold pack, 2 pairs of large non-latex gloves, 2 packets of hydrocortisone ointment, 3-inch and 4-inch roller bandages, 5 sterile 3 x 3 in and 5 sterile 4 x 4 in gauze pads, a non-glass, non-mercury thermometer, 2 triangular bandages, tweezers, and printed first aid instructions. Buying a pre-made kit is fine, but open it, check every item against this list, and fill the gaps."
+      },
+      {
+        "step": 2,
+        "title": "Add bleeding control and a few tools",
+        "body": "Small cuts are common; large bleeds kill fast. Add a commercial tourniquet (a recognized brand, not a cheap copy), a pressure bandage, and hemostatic or plain compressed gauze for packing wounds. Add trauma shears that can cut clothing, a penlight or headlamp, safety pins, a small notepad and pencil for recording times and vital signs, and a bag for trash. Learn to use the tourniquet before you need it - practice on your own arm and leg. A kit you cannot use under stress is just weight. See the medical guides on tourniquets and wound packing."
+      },
+      {
+        "step": 3,
+        "title": "Build the home kit for long outages",
+        "body": "Your home kit carries the most. Beyond the base list, add a larger supply of gauze, tape, and bandages for daily dressing changes over weeks; oral rehydration salt packets; an OTC pain and fever reducer, an antihistamine, anti-diarrhea medicine, antacid, and burn gel (follow every label); saline for eye wash; elastic wrap; a SAM-type splint; blister supplies; and spare reading glasses. Keep a second thermometer and a blood pressure cuff if anyone in the house needs one. Store it in a cool, dry closet - not the bathroom, where heat and humidity break medicines down faster - and out of children's reach."
+      },
+      {
+        "step": 4,
+        "title": "Build the vehicle kit for crashes and strandings",
+        "body": "Car kits face heat, cold, and vibration. Pack them in a hard, sealed case. Focus on bleeding control, gloves, shears, a breathing barrier, emergency blankets (one per seat), a cold pack, and a flashlight. Medicines and ointments degrade fast in a hot car, so keep only a small supply there and replace them every spring and fall, or carry pills in your daily bag instead. Add a reflective vest and road flares or triangles so you can work on someone at a roadside safely. Strap the kit down so it does not fly around in a crash, and keep it where you can reach it if the trunk is jammed."
+      },
+      {
+        "step": 5,
+        "title": "Build a light go-bag kit",
+        "body": "A go-bag kit must be small enough that you will actually carry it on foot. Pack it in a bright, labeled pouch: a tourniquet, one pressure bandage, compressed gauze, gloves, a dozen adhesive bandages, tape, blister supplies, antiseptic wipes, a small tube of ointment, an emergency blanket, and a 3 to 7 day supply of everyone's daily medicines with a printed list of them. Add a copy of key medical information (allergies, conditions, doctors, blood type if known). Put the tourniquet where you can reach it with one hand, not buried at the bottom."
+      },
+      {
+        "step": 6,
+        "title": "Personalize for your household",
+        "body": "Walk through each person's needs. Infants and children need child-size bandages, a child-safe fever reducer with the right measuring device, and diaper-rash cream. Anyone with a severe allergy needs their epinephrine auto-injectors (at least two) in every kit they might be near. People with asthma need a spare inhaler and spacer. People with diabetes need glucose tablets or gel, testing supplies, and a cold pack plan for insulin. Pets need their own small kit. Ask your pharmacist or doctor about extra supplies of prescriptions for emergencies."
+      },
+      {
+        "step": 7,
+        "title": "Inspect, rotate, and train",
+        "body": "Set two dates a year, such as when clocks change, to open every kit. Check expiration dates, replace anything used, wet, cracked, or melted, and swap batteries. Check that sterile packages are sealed and gloves have not turned brittle. Write the check date on a tag inside. Then take a class: a hands-on first aid, CPR, and Stop the Bleed course will do more for your family than any extra item. Keep a printed first aid manual in the home kit, because phones and internet may be down when you need it most."
+      }
+    ],
+    "warnings": [
+      "Do not buy counterfeit or toy tourniquets sold online; they can break under load. Buy from a reputable medical supplier.",
+      "Heat in a parked car can ruin medicines, ointments, and adhesive. Rotate vehicle kit supplies at least twice a year.",
+      "Give aspirin only to an adult with possible heart attack signs who is not allergic and has no bleeding problem, and only if a dispatcher or the label allows it. Never give aspirin to children or teens.",
+      "Keep all kits with medicines out of children's reach."
+    ],
+    "proTips": [
+      "Use clear zip bags inside the kit, grouped by job (bleeding, burns, blisters, meds) and labeled, so anyone can find things fast.",
+      "Tape a contents list and check date inside the lid.",
+      "Put a small 'boo-boo kit' of adhesive bandages in a separate pouch so daily use does not raid your emergency supplies.",
+      "Keep a headlamp in every kit - injuries rarely happen in good light."
+    ],
+    "relatedGuides": [
+      "medical-002",
+      "medical-003",
+      "medical-015",
+      "tools-001",
+      "health-002",
+      "health-009"
+    ],
+    "source": "American Red Cross / FDA",
+    "sources": [
+      {
+        "title": "Anatomy of a First Aid Kit",
+        "publisher": "American Red Cross",
+        "url": "https://redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Don't Be Tempted to Use Expired Medicines",
+        "publisher": "U.S. FDA",
+        "url": "https://www.fda.gov/drugs/safe-disposal-medicines/dont-be-tempted-use-expired-medicines",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not let a well-stocked kit replace calling 911 when help is available.",
+      "Do not use items you have not trained with (tourniquets, hemostatic gauze) for the first time on a minor injury when simple pressure would work."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You need first aid supplies ready at home, in the car, and on your back before an emergency.",
+      "immediate": [
+        "Check your current kit against the Red Cross base list",
+        "Add a real tourniquet, pressure bandage, and gloves",
+        "Pack a 3-7 day supply of daily medicines in the go-bag"
+      ],
+      "then": [
+        "Inspect and rotate all kits twice a year",
+        "Take a first aid, CPR, and Stop the Bleed class"
+      ]
+    }
+  },
+  {
+    "id": "health-002",
+    "category": "health",
+    "title": "Medications in Emergencies - Supply, Storage, and Expiration Dates",
+    "priority": "critical",
+    "tags": [
+      "health",
+      "medications",
+      "prescriptions",
+      "expiration",
+      "storage",
+      "FDA",
+      "pharmacy"
+    ],
+    "summary": "Keep a safe reserve of the medicines your household depends on, store them so they stay potent through heat, cold, and floods, and understand what an expiration date does and does not tell you.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Make a written medication list",
+        "body": "For every person, write down each medicine: name, strength, how often it is taken, what it is for, the prescriber, and the pharmacy. Add allergies, medical conditions, and device details (pump model, oxygen flow rate). Keep one copy in each go-bag, one in a waterproof bag at home, and a photo on your phone. If you must go to a shelter or a new pharmacy, this list lets staff continue your care without guessing. Update it every time a medicine changes."
+      },
+      {
+        "step": 2,
+        "title": "Build a reserve the legal way",
+        "body": "Aim for at least a 7 to 14 day supply of every daily prescription, more if you live far from services. Ask your doctor and pharmacist how to get there: many plans allow 90-day fills or mail order, and some states let pharmacists give an emergency refill during declared disasters. Refill as soon as your plan allows instead of waiting until the last pill, and rotate - use the oldest supply first so your reserve stays fresh. Stock common OTC items too: pain and fever reducer, antihistamine, anti-diarrhea medicine, oral rehydration salts, and antacid. Never stockpile someone else's prescriptions or buy drugs from unverified websites."
+      },
+      {
+        "step": 3,
+        "title": "Store medicines cool, dry, and dark",
+        "body": "FDA advises keeping most medicines in a cool, dry place such as a dresser drawer or closet shelf. Avoid the bathroom cabinet: shower steam and heat can weaken medicines before their date. In the kitchen, keep them away from the stove and sink. Leave pills in their original labeled containers with the desiccant packet. In an outage, keep medicines in the coolest interior room, away from windows and sunlight. Do not leave them in a parked car. Always read the label - some products must be refrigerated and some must not get hot or freeze."
+      },
+      {
+        "step": 4,
+        "title": "Understand expiration dates",
+        "body": "FDA has required expiration dates since 1979. The date marks how long the maker has shown the product stays safe and works as intended when stored as labeled. After that date, FDA says there is no guarantee: the drug may lose strength or change chemically, and some products, such as liquids and eye drops, can grow bacteria. Weak antibiotics may fail and help create resistant germs. FDA's advice is not to use expired medicines. In a true grid-down situation with no replacement, ask a pharmacist or clinician first if you can reach one. Discard anything that has changed color, smell, or texture, or that is crumbling, sticky, or cloudy."
+      },
+      {
+        "step": 5,
+        "title": "Handle medicines after floods and fires",
+        "body": "FDA says to throw out medicines that touched floodwater or other possibly contaminated water - even in sealed containers - and anything wet or altered. The one exception: if a medicine treats a life-threatening condition, no replacement is available, and it looks normal, you may keep using it until you can replace it as soon as possible. Medicines exposed to high heat from a fire may have lost strength and should be replaced when you can. If a liquid medicine must be mixed with water, use only purified or bottled water, never tap water during a boil-water notice."
+      },
+      {
+        "step": 6,
+        "title": "Protect refrigerated medicines",
+        "body": "Insulin, some liquid antibiotics, some injectable drugs, and some eye drops need cold storage. If the power fails, check the package insert or call a pharmacist about how long the product can stay at room temperature. FDA says a life-sustaining medicine like insulin may be used until a new supply is available, even if storage was not ideal. Replace temperature-damaged medicines as soon as you can. See the insulin guide for cooling methods that do not freeze the medicine."
+      },
+      {
+        "step": 7,
+        "title": "Know who to call",
+        "body": "Pharmacists are one of the best-informed and most reachable health workers after a disaster. They can tell you whether a damaged medicine is usable, suggest a safe substitute, and help with emergency refills. Keep the pharmacy number, the manufacturer's customer line from the package, and Poison Control (1-800-222-1222) on your printed list. If you run out of a medicine that you must not stop suddenly - such as seizure, heart, blood pressure, psychiatric, or steroid medicines - get medical advice right away rather than stretching doses on your own."
+      }
+    ],
+    "warnings": [
+      "Do not cut doses or skip days to make a prescription last without medical advice; for some medicines this can cause seizures, heart problems, or dangerous withdrawal.",
+      "Do not take medicines that were in floodwater unless it is a life-saving drug with no replacement and it looks unchanged.",
+      "Expired liquid medicines, eye drops, and injectables are more likely to be unsafe than dry tablets; do not use them if they look or smell different.",
+      "Keep every medicine out of reach of children and pets; accidental ingestion sends tens of thousands of young children to the ER each year."
+    ],
+    "proTips": [
+      "Ask your pharmacist for printed labels or a medication record you can keep in the go-bag.",
+      "Use a weekly pill organizer from the reserve so you notice when supplies are low.",
+      "Write the open date on liquid medicines and drops.",
+      "Add a cheap thermometer to your medicine box to see how hot it really gets during an outage."
+    ],
+    "relatedGuides": [
+      "health-001",
+      "health-003",
+      "health-004",
+      "health-017",
+      "medical-046"
+    ],
+    "source": "U.S. FDA",
+    "sources": [
+      {
+        "title": "Don't Be Tempted to Use Expired Medicines",
+        "publisher": "U.S. FDA",
+        "url": "https://www.fda.gov/drugs/safe-disposal-medicines/dont-be-tempted-use-expired-medicines",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Safe Drug Use After a Natural Disaster",
+        "publisher": "U.S. FDA",
+        "url": "https://www.fda.gov/drugs/emergency-preparedness-drugs/safe-drug-use-after-natural-disaster",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Information Regarding Insulin Storage and Switching Between Products in an Emergency",
+        "publisher": "U.S. FDA",
+        "url": "https://www.fda.gov/drugs/emergencypreparedness/ucm085213.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not rely on this guide to decide whether to stop, change, or substitute a prescription - ask a pharmacist or clinician whenever you can reach one."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "An emergency threatens your access to medicines or exposes them to heat, cold, or water.",
+      "immediate": [
+        "Move medicines to the coolest dry interior spot",
+        "Check your written medication list and count remaining doses",
+        "Discard flood-soaked medicines unless life-saving and irreplaceable"
+      ],
+      "then": [
+        "Call a pharmacist about damaged or expiring medicines",
+        "Arrange emergency refills before you run out"
+      ]
+    }
+  },
+  {
+    "id": "health-003",
+    "category": "health",
+    "title": "Insulin and Refrigerated Medicines Without Power",
+    "priority": "critical",
+    "tags": [
+      "health",
+      "insulin",
+      "diabetes",
+      "refrigeration",
+      "power outage",
+      "medications",
+      "FDA"
+    ],
+    "summary": "Keep insulin and other cold-chain medicines working through a power outage: what temperatures they tolerate, how to keep them cool without freezing, and what to do when storage was not ideal.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the numbers before the outage",
+        "body": "FDA guidance (updated September 2026) says unopened insulin kept in the refrigerator at about 36 to 46 F (2 to 8 C) is good until its expiration date. Opened or unopened vials and pens can be kept unrefrigerated between 59 and 86 F (15 to 30 C) for up to 28 days and still work. Some newer products differ - for example, the once-weekly insulin Awiqli can stay below 86 F for up to 12 weeks - so read your own package insert. Write the room-temperature limit for each refrigerated medicine in your household on your medication list now."
+      },
+      {
+        "step": 2,
+        "title": "Mark the date the cold chain broke",
+        "body": "When the power goes out, write the date and time on a piece of tape on each vial or pen box. Your 28-day (or product-specific) clock starts the day it leaves proper refrigeration. Keep the fridge door shut as long as possible - a closed refrigerator stays cold for about 4 hours. Move insulin you will use soon into a cooler or insulated case, and leave backup supplies in the closed fridge until it starts to warm."
+      },
+      {
+        "step": 3,
+        "title": "Keep it cool - but never let it freeze",
+        "body": "Heat slowly destroys insulin; the hotter and longer, the more strength is lost. Freezing ruins it outright. FDA says do not use insulin that has been frozen. If you use ice or frozen gel packs, wrap the insulin in a towel or put it in a sealed bag inside a cooler so it never touches the ice. Evaporative cooling cases (soaked in water) and insulated travel wallets work well in heat. Keep insulin out of direct sunlight, off windowsills, and out of hot cars. A cheap fridge thermometer inside the cooler shows whether you are in range."
+      },
+      {
+        "step": 4,
+        "title": "Use exposed insulin if it is all you have",
+        "body": "FDA says that in an emergency, insulin stored above 86 F may still be needed and may be used if no replacement is available - but it may be weaker. Expect higher blood sugar and check more often. Look at the insulin before each dose: clear insulins should be clear, and cloudy (NPH or premixed) insulins should mix evenly. Do not use insulin with clumps, frosting on the vial, crystals, or a color change. Replace exposed insulin as soon as properly stored supplies are available."
+      },
+      {
+        "step": 5,
+        "title": "Protect pumps and their supplies",
+        "body": "FDA says to throw out insulin in a pump that has been exposed to temperatures above 98.6 F (37 C), and to change infusion sets every 48 hours unless the pump maker says otherwise. Keep pump insulin under clothing in heat, not against a hot surface. Carry backup pens or syringes and long-acting insulin in case the pump fails, and ask your diabetes team for a written pump-failure plan now - switching from a pump to injections requires a dose plan only your clinician should set."
+      },
+      {
+        "step": 6,
+        "title": "Do not switch insulins on your own",
+        "body": "If you cannot get your usual insulin, a different brand or type may be available at a shelter or pharmacy. FDA has published emergency switching information for clinicians, but the right dose depends on your body and the products involved. Switch only under medical guidance. If no doctor can be reached, monitor blood sugar closely, follow your sick-day plan, and see a clinician as soon as possible. A pharmacist can often help. Never share insulin pens between people, even with a new needle."
+      },
+      {
+        "step": 7,
+        "title": "Apply the same rules to other cold medicines",
+        "body": "Other medicines that may need refrigeration include some liquid antibiotics, GLP-1 and other injectable pens, some eye drops, biologic injections, and some vaccines. Each has its own room-temperature limit printed in the insert. If storage was not right, FDA advises checking the label or calling a pharmacist, prescriber, or the manufacturer. Life-sustaining medicines may be used until a replacement is found; replace temperature-damaged ones as soon as you can."
+      }
+    ],
+    "warnings": [
+      "Never use insulin that has frozen, even after it thaws.",
+      "Heat-damaged insulin can be weaker; check blood sugar more often and watch for signs of high blood sugar and ketones.",
+      "Do not change insulin type or dose on your own when switching products - get medical guidance.",
+      "Insulin that has been diluted or drawn out of its original vial should be thrown away within two weeks."
+    ],
+    "proTips": [
+      "Keep a two-week insulin reserve and rotate it so the oldest is used first.",
+      "An evaporative cooling wallet needs no ice or power and is worth having in every diabetes kit.",
+      "A small battery or solar-powered 12V cooler can hold insulin cold for days if you have a way to recharge it.",
+      "Register with your utility as a household with medical needs."
+    ],
+    "relatedGuides": [
+      "health-002",
+      "health-004",
+      "medical-045",
+      "power-006",
+      "home-002"
+    ],
+    "source": "U.S. FDA",
+    "sources": [
+      {
+        "title": "Information Regarding Insulin Storage and Switching Between Products in an Emergency",
+        "publisher": "U.S. FDA",
+        "url": "https://www.fda.gov/drugs/emergencypreparedness/ucm085213.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Safe Drug Use After a Natural Disaster",
+        "publisher": "U.S. FDA",
+        "url": "https://www.fda.gov/drugs/emergency-preparedness-drugs/safe-drug-use-after-natural-disaster",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Managing Sick Days",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/diabetes/living-with/managing-sick-days.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not rely on improvised storage when properly refrigerated insulin is available nearby - get it.",
+      "Do not use this guide to change insulin doses or types; that needs a clinician."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "The power is out and you or someone in your home depends on insulin or another refrigerated medicine.",
+      "immediate": [
+        "Write the date the cold chain broke on each box",
+        "Keep insulin between 59 and 86 F, out of sun",
+        "Wrap it so ice never touches it - frozen insulin is ruined"
+      ],
+      "then": [
+        "Check blood sugar more often if insulin got hot",
+        "Replace exposed supplies as soon as possible"
+      ]
+    }
+  },
+  {
+    "id": "health-004",
+    "category": "health",
+    "title": "Managing Chronic Conditions When the Grid Is Down",
+    "priority": "critical",
+    "tags": [
+      "health",
+      "chronic illness",
+      "diabetes",
+      "dialysis",
+      "oxygen",
+      "CPAP",
+      "blood pressure",
+      "power outage"
+    ],
+    "summary": "Plan ahead for diabetes, high blood pressure, kidney dialysis, home oxygen, and CPAP so a long outage does not turn a managed condition into an emergency.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Write a personal emergency health plan",
+        "body": "For each person with a chronic condition, write one page: diagnoses, medicines and doses, devices and settings, allergies, doctors, the dialysis or oxygen supplier, and a backup clinic in another town. List warning signs that mean 'go now' for that condition. Share it with at least one neighbor or relative who has a key and knows where your supplies are. Keep copies in each go-bag. Ask every clinic and supplier you use what their own emergency plan is and how to reach them when phones are down."
+      },
+      {
+        "step": 2,
+        "title": "Register and arrange backup power",
+        "body": "Call your electric and water utilities and ask to be listed as a medical-needs household; enrollment can bring early warning of planned outages and may move you up for restoration. For power-dependent devices, list each one's wattage and how long its batteries last. A charged portable power station can run a CPAP or charge a portable oxygen concentrator. A generator can run bigger loads for days, but only outdoors at least 20 feet from doors, windows, and vents. Keep a car charger for each device as a last resort."
+      },
+      {
+        "step": 3,
+        "title": "Diabetes - keep testing and keep taking insulin",
+        "body": "Keep several weeks of insulin, pills, test strips, lancets, ketone strips, and fast sugar (glucose tablets or gel). CDC sick-day advice applies in disasters too: keep taking insulin and diabetes medicines, check blood sugar about every 4 hours, drink plenty of water, and test for ketones. If you cannot eat normally, CDC suggests about 50 grams of carbohydrate every 4 hours, such as 1 1/2 cups of unsweetened applesauce or fruit juice. Go to emergency care for ketones, trouble breathing, blood sugar under 60 mg/dL, or being unable to keep liquids down for more than 4 hours. Protect your feet: walking in debris and wet shoes is a major risk for people with diabetes."
+      },
+      {
+        "step": 4,
+        "title": "High blood pressure and heart disease",
+        "body": "Do not stop blood pressure or heart medicines suddenly - some cause a dangerous rebound. Keep a reserve and a battery-powered home cuff with spare batteries, and log readings once or twice a day so you can show a clinician the trend. Disaster diets are often salty (canned soups, jerky, ramen); choose low-sodium options and rinse canned food. If you take water pills or have fluid limits, ask your doctor now how much to drink during heat. Know heart attack and stroke signs and act immediately (see the medical guides)."
+      },
+      {
+        "step": 5,
+        "title": "Kidney dialysis - the 3-day plan",
+        "body": "Missing dialysis is life-threatening within days. CDC advises keeping the numbers of your center, a second nearby center, and the Kidney Community Emergency Response (KCER) hotline, 1-866-901-3773. Keep at least a 3-day supply of all medicines. Learn the KCER 3-Day Emergency Diet now - it sharply limits potassium, sodium, phosphorus, and fluid to buy time until treatment - and store its foods. Home dialysis patients should learn manual exchanges for outages. Make sure your center has your current phone and address, and tell shelter staff right away that you need dialysis."
+      },
+      {
+        "step": 6,
+        "title": "Home oxygen",
+        "body": "Ask your supplier for stand-alone oxygen cylinders that need no electricity, and learn to set them up yourself. Know how many hours each tank lasts at your flow rate, and keep extra batteries and a car charger for a portable concentrator. Teach a trusted neighbor the setup. Oxygen makes fires burn hotter and faster: never use candles, gas stoves, or smoking near it, keep tanks upright and secured away from heat, and run any generator outside. If supplies are running low, contact the supplier early - do not wait until the last tank."
+      },
+      {
+        "step": 7,
+        "title": "CPAP and other breathing devices",
+        "body": "Make sure your CPAP has a battery backup or a DC adapter. Using it without the heated humidifier greatly extends battery life. Keep distilled water for the humidifier, or skip humidification if you have none - do not use unsafe water. If an outage goes on for a long time, ask your clinician about alternatives, such as sleeping position changes. Nebulizers have battery and hand-held options; ask about a spare inhaler with a spacer as a backup."
+      },
+      {
+        "step": 8,
+        "title": "Know when to evacuate",
+        "body": "Leave early, before roads close, if you cannot keep a life-sustaining device running, your medicine supply will run out before help is likely, or your treatment center is closed. Take your plan, medicines, devices, chargers, and supplies. Shelters and hospitals can sometimes provide power and care, but they work best when you arrive with your own supplies and list."
+      }
+    ],
+    "warnings": [
+      "Never run a generator, grill, or camp stove indoors or in a garage - carbon monoxide kills.",
+      "Oxygen plus open flame is a serious fire and burn risk.",
+      "Do not stop blood pressure, heart, seizure, or steroid medicines suddenly without medical advice.",
+      "People on dialysis who miss treatment can develop deadly potassium levels; follow the emergency diet strictly and seek treatment as fast as possible."
+    ],
+    "proTips": [
+      "Label every device and charger with the owner's name.",
+      "Test your backup power with the actual device for a full night before you need it.",
+      "Keep a paper log of blood sugar, blood pressure, and symptoms - it helps any clinician you see later.",
+      "The National Kidney Foundation helpline is 1-855-653-2273."
+    ],
+    "relatedGuides": [
+      "health-003",
+      "health-002",
+      "medical-045",
+      "medical-040",
+      "power-003",
+      "medical-047"
+    ],
+    "source": "CDC / American Lung Association / KCER",
+    "sources": [
+      {
+        "title": "What to Do When You Need Dialysis During an Emergency",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/kidney-disease/caring/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Managing Sick Days",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/diabetes/living-with/managing-sick-days.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Power Outage Preparation",
+        "publisher": "American Lung Association",
+        "url": "https://www.lung.org/blog/power-outage-preparation",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [
+      "health-002"
+    ],
+    "whenNotTo": [
+      "Do not try to ride out a long outage at home if you cannot power a life-sustaining device; evacuate early to a place that can."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "The power is out or services are down and someone in your home has diabetes, heart disease, kidney failure, or needs oxygen or CPAP.",
+      "immediate": [
+        "Count remaining medicine, oxygen, and battery hours",
+        "Switch devices to backup power safely",
+        "Call your supplier, dialysis center, or KCER (1-866-901-3773)"
+      ],
+      "then": [
+        "Follow sick-day and emergency diet plans",
+        "Evacuate early if supplies will run out before help arrives"
+      ]
+    }
+  },
+  {
+    "id": "health-005",
+    "category": "health",
+    "title": "Diarrhea and Stomach Illness - Prevention, Fluids, and Danger Signs",
+    "priority": "critical",
+    "tags": [
+      "health",
+      "diarrhea",
+      "vomiting",
+      "cholera",
+      "dysentery",
+      "dehydration",
+      "norovirus",
+      "sanitation"
+    ],
+    "summary": "Stomach illness spreads fast when water and sanitation fail. Prevent it, replace lost fluids early, clean up safely, and recognize the signs of cholera, dysentery, and severe dehydration.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Prevent it: safe water, clean hands, safe food",
+        "body": "Most diarrhea outbreaks after disasters come from dirty water, unwashed hands, and spoiled food. Drink, cook, and brush teeth only with water that is bottled, boiled, or disinfected. Wash hands with soap for at least 20 seconds after using the toilet, changing diapers, or caring for someone sick, and before handling food. Throw out food that touched floodwater or sat warm too long. Keep toilets or latrines well away from water sources and kitchens. See the water and sanitation guides for exact methods."
+      },
+      {
+        "step": 2,
+        "title": "Start fluids at the first loose stool",
+        "body": "Dehydration, not the germ itself, is what usually kills. Start drinking more as soon as diarrhea begins. For adults, MedlinePlus advises 8 to 10 glasses of clear fluids a day plus at least 1 extra cup (240 mL) after each loose stool. Oral rehydration solution (ORS) is best because the right mix of salt and sugar pulls water into the body. Use commercial ORS packets mixed exactly as labeled, or follow the oral rehydration guide. Take small, frequent sips if vomiting - a spoonful every few minutes often stays down. Keep breastfeeding infants."
+      },
+      {
+        "step": 3,
+        "title": "Eat simply and keep eating",
+        "body": "Eat small meals through the day once vomiting settles. Plain foods are usually well tolerated: white rice, pasta, bread, cooked cereal, bananas, potatoes, crackers, soup, cooked eggs, and lean meat. Salty foods and broth help replace sodium; bananas and potatoes replace potassium (people with kidney disease should ask first). Avoid fatty and fried food, alcohol, caffeine, and soda until better. Cut back on milk if it makes cramps worse. Starving the gut slows recovery."
+      },
+      {
+        "step": 4,
+        "title": "Watch for dehydration",
+        "body": "Check the person several times a day. Warning signs include very little or dark urine, dry mouth, no tears, sunken eyes, dizziness on standing, a fast heartbeat, and skin that stays tented when pinched. In children, CDC lists no urine for 8 hours, dry mouth, and no tears as reasons for urgent care. Confusion, extreme sleepiness, a weak fast pulse, or cold hands and feet mean severe dehydration - this is an emergency. Infants, older adults, and people with chronic illness dehydrate fastest."
+      },
+      {
+        "step": 5,
+        "title": "Recognize cholera",
+        "body": "CDC describes cholera as large amounts of watery diarrhea that can look like milky 'rice water,' often with vomiting and leg cramps. Most infected people have mild or no symptoms, but about 1 in 10 become severely ill and can lose fluid fast enough to die within hours without treatment. Symptoms usually start 2 to 3 days after exposure. During an outbreak, treat anyone with 3 or more watery stools a day as possibly having cholera: start ORS immediately and get them to medical care. Early, aggressive rehydration saves almost everyone."
+      },
+      {
+        "step": 6,
+        "title": "Recognize dysentery and other red flags",
+        "body": "Dysentery is diarrhea with blood or mucus, often with fever and painful cramps. It is caused by bacteria or parasites and may need prescription treatment, so get medical care. MedlinePlus also lists these reasons to contact a provider: blood or mucus in stool, a fever that will not go away, ongoing belly pain, vomiting, or diarrhea that is worse or not better after 5 days in adults. Do not give anti-diarrhea medicine to someone with bloody stool or high fever unless a clinician says to, and follow the label for age limits."
+      },
+      {
+        "step": 7,
+        "title": "Stop it from spreading in the household",
+        "body": "Give the sick person their own towel and, if possible, their own toilet or bucket. They should not prepare food for others. Clean vomit and stool while wearing gloves: wipe up, then disinfect the area. CDC's norovirus advice is to mix about 3/4 cup of regular bleach into 1 gallon of water, leave it on the surface for at least 5 minutes, then wash with soap and hot water. Wash soiled clothes and bedding in hot water and soap. Wash hands with soap and water afterward - hand sanitizer does not work well against norovirus."
+      }
+    ],
+    "warnings": [
+      "Severe watery diarrhea can kill within hours; start ORS immediately and seek care.",
+      "Blood in stool, high fever, confusion, or no urine for 8 hours or more need medical care.",
+      "Never mix bleach with ammonia or other cleaners.",
+      "Do not use floodwater or untreated water to mix ORS, formula, or drinks."
+    ],
+    "proTips": [
+      "Store ORS packets in every kit - they are cheap, light, and last for years.",
+      "Mark a cup with 1-cup (240 mL) lines so you can track fluids given.",
+      "Keep a simple log of stools, vomits, and urine for each sick person.",
+      "Set up a handwashing station with a jug, soap, and a catch basin next to the toilet area."
+    ],
+    "relatedGuides": [
+      "medical-008",
+      "medical-009",
+      "medical-011",
+      "home-003",
+      "water-002",
+      "health-014"
+    ],
+    "source": "CDC / MedlinePlus",
+    "sources": [
+      {
+        "title": "Signs and Symptoms of Cholera",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/cholera/signs-symptoms",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Diarrhea - what to ask your health care provider (adult)",
+        "publisher": "MedlinePlus, U.S. National Library of Medicine",
+        "url": "https://medlineplus.gov/ency/patientinstructions/000121.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Preventing Norovirus (video transcript)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/digital-social-media-tools/cdctv/norovirus-prevention/preventing-norovirus-transcript.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Caring for Someone Sick",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/flu/treatment/caring-for-someone.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not manage severe dehydration, bloody diarrhea, or cholera at home if any medical care can be reached - ORS is first aid, not a substitute for IV fluids when someone cannot drink."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Someone has diarrhea or vomiting, especially when water and sanitation are compromised.",
+      "immediate": [
+        "Start oral rehydration solution right away",
+        "Give at least 1 extra cup of fluid per loose stool",
+        "Isolate their toilet, towel, and dishes"
+      ],
+      "then": [
+        "Check for dehydration signs several times a day",
+        "Get care for blood in stool, rice-water diarrhea, high fever, or no urine"
+      ]
+    }
+  },
+  {
+    "id": "health-006",
+    "category": "health",
+    "title": "Respiratory Infections and Fever - Home Care and Danger Signs",
+    "priority": "critical",
+    "tags": [
+      "health",
+      "fever",
+      "flu",
+      "cold",
+      "COVID",
+      "respiratory",
+      "home care",
+      "danger signs"
+    ],
+    "summary": "Care for colds, flu, COVID, and other respiratory infections at home when clinics are hard to reach, limit spread to others, and know which signs mean the person needs emergency care now.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Rest, fluids, and comfort",
+        "body": "Most respiratory infections get better on their own in a week or two. Rest, keep warm but not overheated, and drink often - fever and fast breathing use up body water. Warm drinks, broth, and honey (never for babies under 1 year) can ease a cough and sore throat. Saltwater gargles and steam from a bowl of hot water (carefully, to avoid burns) can loosen mucus. Use an OTC fever and pain reducer if needed, following the label for age and weight. Do not give aspirin to children or teens."
+      },
+      {
+        "step": 2,
+        "title": "Measure and record",
+        "body": "Use a thermometer rather than guessing by touch. A fever is generally 100.4 F (38 C) or higher. Twice a day, write down temperature, breathing rate (count breaths for 30 seconds and double it), how much the person drinks and urinates, and how alert they are. If you have a pulse oximeter, record the oxygen reading too, but trust how the person looks over the number: darker skin can make some oximeters read falsely high. A written trend tells you, and any clinician later, whether the person is improving or getting worse."
+      },
+      {
+        "step": 3,
+        "title": "Keep it from spreading",
+        "body": "CDC's current respiratory virus advice (2024, still current in 2026) is to stay home and away from others while sick. Resume normal activities only when, for at least 24 hours, symptoms are getting better overall and there is no fever without using fever-reducing medicine. For the next 5 days, take extra care: masks, distance, handwashing, and fresh air. This replaced older fixed isolation periods for COVID. Note that people can still spread virus after feeling better, and people with weak immune systems may shed it longer."
+      },
+      {
+        "step": 4,
+        "title": "Protect the household",
+        "body": "Keep the sick person in one room if possible, and keep face-to-face contact short. Open a window or use a fan blowing out to move fresh air through. Wash hands after any contact with the person, their tissues, or their laundry. A well-fitted mask on the sick person and the caregiver adds protection. When holding a sick child, rest the chin on your shoulder so they do not cough in your face. Clean often-touched surfaces daily. See the caring-for-a-sick-household-member guide."
+      },
+      {
+        "step": 5,
+        "title": "Know the adult emergency signs",
+        "body": "CDC lists these as reasons to seek emergency care right away for an adult: trouble breathing or shortness of breath; chest or belly pain or pressure that does not go away; ongoing dizziness, confusion, or trouble waking up; seizures; not urinating; severe muscle pain; severe weakness or unsteadiness; and fever or cough that gets better and then comes back worse. Bluish or gray lips or face are also an emergency. Worsening of a chronic condition like asthma, COPD, diabetes, or heart failure is a reason to get help early."
+      },
+      {
+        "step": 6,
+        "title": "Know the child emergency signs",
+        "body": "For children, CDC lists: fast or hard breathing, ribs pulling in with each breath, bluish lips or face, or chest pain; muscle pain so bad they will not walk; signs of dehydration such as no urine in 8 hours, dry mouth, or no tears; not being alert when awake, or seizures; fever above 104 F (40 C) that does not come down with medicine; any fever in a baby under 12 weeks; and fever or cough that improves then returns or worsens. Any of these means get care now."
+      },
+      {
+        "step": 7,
+        "title": "Get help early for high-risk people",
+        "body": "Babies, adults 65 and older, pregnant people, and people with chronic heart, lung, kidney, or immune problems can get very sick quickly. CDC notes that doctors may prescribe antiviral medicines for flu or COVID, and these work best when started early - usually within the first couple of days. If you can reach any clinic, telehealth line, or pharmacist, contact them early for high-risk people instead of waiting for danger signs. Antibiotics do not treat viruses; do not use leftover antibiotics."
+      }
+    ],
+    "warnings": [
+      "Trouble breathing, bluish lips, chest pain, confusion, or seizures are emergencies - seek care immediately.",
+      "Any fever in a baby under 12 weeks old needs prompt medical care.",
+      "Never give aspirin to children or teens with a viral illness.",
+      "Do not use leftover or shared antibiotics; they do not work on viruses and can cause harm."
+    ],
+    "proTips": [
+      "Keep two thermometers and spare batteries in your home kit.",
+      "Store a box of well-fitting masks and some home tests if available.",
+      "Sleeping with the head raised on pillows can ease coughing and breathing.",
+      "Assign one healthy caregiver to limit how many people are exposed."
+    ],
+    "relatedGuides": [
+      "health-014",
+      "medical-058",
+      "medical-043",
+      "health-005",
+      "health-007"
+    ],
+    "source": "CDC",
+    "sources": [
+      {
+        "title": "Preventing Spread of Respiratory Viruses When You're Sick",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Caring for Someone Sick",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/flu/treatment/caring-for-someone.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not keep treating at home when any emergency sign appears - get medical care.",
+      "Home care is not enough for suspected pneumonia in a baby, an older adult, or someone with chronic lung or heart disease."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Someone has a cough, sore throat, or fever and medical care may be limited.",
+      "immediate": [
+        "Rest, fluids, and label-dose fever reducer",
+        "Keep them in one room with fresh air",
+        "Check breathing, alertness, and urine twice a day"
+      ],
+      "then": [
+        "Return to normal only after 24 hours improving and fever-free without medicine",
+        "Get emergency care for trouble breathing, chest pain, confusion, or bluish lips"
+      ]
+    }
+  },
+  {
+    "id": "health-007",
+    "category": "health",
+    "title": "Personal Hygiene With Limited Water - Handwashing, Bathing, Laundry",
+    "priority": "beginner",
+    "tags": [
+      "health",
+      "hygiene",
+      "handwashing",
+      "bathing",
+      "laundry",
+      "water conservation",
+      "sanitation"
+    ],
+    "summary": "Stay clean enough to prevent disease when water is scarce: where handwashing matters most, how to bathe and do laundry with a few gallons, and when water that is unsafe to drink can still be used.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Put handwashing first",
+        "body": "Of all hygiene tasks, handwashing prevents the most illness. Wash with soap for at least 20 seconds before preparing food or eating, after using the toilet or changing a diaper, after caring for a sick person, after handling garbage or animals, and after touching floodwater or debris. Scrub backs of hands, between fingers, and under nails. If you must ration water, ration bathing and laundry, not handwashing."
+      },
+      {
+        "step": 2,
+        "title": "Build a tippy-tap or jug station",
+        "body": "CDC suggests a temporary handwashing station when tap water is out. Use a large jug with a spigot (or a jug hung so a light tip pours a thin stream), a bar of soap on a string, and a bucket underneath to catch gray water. Wet hands, turn off the flow, lather and scrub, then rinse in a thin stream. This uses about 1 cup (240 mL) per wash. Place one station by the toilet area and one by the kitchen. If health officials advise it, use boiled or disinfected water; during a boil-water notice, tap water is often still fine for handwashing - follow local guidance."
+      },
+      {
+        "step": 3,
+        "title": "Use hand sanitizer correctly",
+        "body": "When there is no water, use an alcohol-based sanitizer with at least 60% alcohol. Use enough to wet all surfaces and rub until dry, about 20 seconds. CDC notes sanitizer does not kill all germs, does not remove chemicals, and works poorly on visibly dirty or greasy hands. It also works poorly against norovirus, the common vomiting-and-diarrhea virus. Wipe off visible dirt first, then use sanitizer, and switch back to soap and water as soon as you can."
+      },
+      {
+        "step": 4,
+        "title": "Take a sponge bath",
+        "body": "A full shower uses 15 to 25 gallons. A sponge bath uses about 1 to 2 quarts (1 to 2 L). Use two small basins: one with soapy water and one with rinse water, plus a washcloth. Wash from cleanest to dirtiest - face, then arms and chest, then legs and feet, and last the groin and buttocks, which matter most for preventing rashes and infection. Dry well, especially skin folds and between toes. Unscented baby wipes work between baths. CDC notes water that is unsafe to drink may sometimes be used for bathing if local officials say so - keep it out of your mouth and eyes, and never bathe in water with sewage or chemicals, or in flooded rivers and lakes."
+      },
+      {
+        "step": 5,
+        "title": "Protect wounds and skin",
+        "body": "Open cuts and rashes are an easy way in for germs. Wash wounds with soap and clean water and cover them with a waterproof bandage. Keep wounds out of floodwater, seawater, and brackish water; CDC warns that some coastal bacteria can cause serious wound infections. Get care if a wound gets red, swollen, warm, or oozes pus. Change socks and underwear daily even when you cannot bathe."
+      },
+      {
+        "step": 6,
+        "title": "Do laundry with a bucket",
+        "body": "Use two 5-gallon buckets with lids: one for washing, one for rinsing. Add a small amount of detergent, put in a few items, and agitate with a clean plunger or by hand for several minutes. Wring, move to the rinse bucket, agitate, and wring again. Hang to dry in sunlight when possible - it dries and helps freshen fabric. Prioritize underwear, socks, and items soiled with stool, vomit, or blood. Wash those separately in the hottest water you can safely handle, and wash hands afterward."
+      },
+      {
+        "step": 7,
+        "title": "Reuse gray water wisely",
+        "body": "Rinse water from handwashing or bathing can flush a toilet (pour into the bowl) or clean muddy boots. Do not use gray water for drinking, cooking, washing dishes, or brushing teeth, and do not store it - it grows bacteria within a day. Dump it away from wells, water sources, and gardens you eat from, or into a latrine. Water from laundry with stool on it should go into the toilet or latrine."
+      }
+    ],
+    "warnings": [
+      "Never bathe or wash in floodwater or water that may contain sewage or chemicals.",
+      "Keep open wounds out of floodwater, salt water, and brackish water.",
+      "Hand sanitizer is not a full substitute for soap and water, especially after diarrhea or vomiting illness.",
+      "Do not use gray water for anything that goes in the mouth."
+    ],
+    "proTips": [
+      "Store a few bars of soap and a gallon of sanitizer per person - they are cheap and last for years.",
+      "No-rinse shampoo and body wash save a lot of water.",
+      "Keep fingernails short; dirt and germs hide under long nails.",
+      "A garden pump sprayer filled with warm water makes a low-flow shower."
+    ],
+    "relatedGuides": [
+      "home-003",
+      "medical-009",
+      "water-015",
+      "health-005",
+      "health-010"
+    ],
+    "source": "CDC",
+    "sources": [
+      {
+        "title": "Guidelines for Personal Hygiene During an Emergency",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Preventing Norovirus (video transcript)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/digital-social-media-tools/cdctv/norovirus-prevention/preventing-norovirus-transcript.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use unsafe water for bathing infants or people with open wounds or weak immune systems; use clean water for them."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Running water is out or rationed and you need to stay clean to prevent illness.",
+      "immediate": [
+        "Set up a jug handwashing station by the toilet and kitchen",
+        "Wash hands with soap at key times - never ration this",
+        "Use 60%+ alcohol sanitizer only when water is unavailable"
+      ],
+      "then": [
+        "Sponge bathe daily with 1-2 quarts",
+        "Bucket-wash underwear, socks, and soiled items first"
+      ]
+    }
+  },
+  {
+    "id": "health-008",
+    "category": "health",
+    "title": "Dental Care Without a Dentist - Prevention and Pain Management",
+    "priority": "beginner",
+    "tags": [
+      "health",
+      "dental",
+      "teeth",
+      "toothache",
+      "oral hygiene",
+      "pain",
+      "prevention"
+    ],
+    "summary": "Keep teeth and gums healthy when dental care is out of reach, brush with almost no water, and manage tooth pain safely until you can see a dentist - plus the signs of an infection that cannot wait.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Get dental work done before trouble",
+        "body": "The best emergency dental kit is a recent checkup. Get cavities filled, cracked teeth and loose crowns fixed, and wisdom-tooth problems handled while care is easy to get. Ask your dentist which teeth are weak and what to watch for. People with dentures or partials should have a spare set or at least a repair kit and adhesive. Kids should keep up with sealants and fluoride. A small problem left alone becomes a painful infection months later - and those months may be the hard ones."
+      },
+      {
+        "step": 2,
+        "title": "Brush twice a day, even with little water",
+        "body": "Brush for two minutes, twice a day, with fluoride toothpaste. HeadStart.gov's emergency advice is that you do not need water to brush: put fluoride toothpaste on a dry brush, brush, and spit out the foam without rinsing. Leaving a thin film of fluoride on teeth helps protect them. Use only safe water if you do rinse, and never brush with untreated or floodwater. Store brushes upright so heads do not touch. Floss daily - food stuck between teeth causes gum pain and decay."
+      },
+      {
+        "step": 3,
+        "title": "Watch sugar and snacking",
+        "body": "Emergency foods are often sweet and sticky - candy, dried fruit, crackers, and sugary drinks - and people tend to snack all day under stress. Every sugar hit feeds the bacteria that cause decay. Eat sweets with meals instead of grazing, drink water between meals, and rinse with water or chew sugar-free gum (xylitol) after snacks. Store some crunchy foods like nuts and apples if you can. Do not let children go to sleep with a bottle of juice or milk."
+      },
+      {
+        "step": 4,
+        "title": "Stock a small dental kit",
+        "body": "HeadStart.gov's emergency oral health list includes gloves, a flashlight, gauze or cotton, salt for warm rinses, floss, an OTC pain reliever such as acetaminophen or ibuprofen, cold packs, and bags for waste. Add spare toothbrushes, fluoride toothpaste, a temporary filling kit from the pharmacy, dental wax (for broken braces wires or sharp edges), and an OTC oral pain gel. Keep a copy of the knocked-out-tooth steps from the dental emergencies guide."
+      },
+      {
+        "step": 5,
+        "title": "Manage a toothache",
+        "body": "Rinse with warm salt water (about 1/2 teaspoon salt in 8 oz / 240 mL of warm water) and floss gently to remove any trapped food. Hold a cold pack wrapped in cloth on the cheek for 15 minutes at a time. Use an OTC pain reliever by mouth exactly as the label directs. Do not place aspirin or pills directly on the gum or tooth - it burns the tissue. A temporary filling kit can cover a lost filling to reduce sensitivity. Chew on the other side and avoid very hot, cold, or sweet foods."
+      },
+      {
+        "step": 6,
+        "title": "Spot an abscess and act",
+        "body": "A dental infection can spread to the face, neck, and blood. Signs include throbbing pain, a pimple-like bump on the gum, bad taste, swelling of the face or jaw, and fever. Get to a dentist or medical care soon. It becomes an emergency if there is swelling that is spreading, trouble swallowing or breathing, swelling under the tongue or down the neck, a high fever, or the person seems very ill - go immediately. Do not try to cut or drain an abscess yourself. See the infection and sepsis guide."
+      },
+      {
+        "step": 7,
+        "title": "Find care after a disaster",
+        "body": "After a disaster, check local health department notices and emergency broadcasts to find out which dental clinics or mobile units are open. Hospital emergency departments can treat serious infections and bleeding even when they cannot fix the tooth. Bleeding that will not stop after firm pressure on folded gauze for 15 to 20 minutes needs care; call 911 if it is heavy."
+      }
+    ],
+    "warnings": [
+      "Facial swelling with fever, trouble swallowing, or trouble breathing can be life-threatening - seek emergency care immediately.",
+      "Never put aspirin or other pills directly on the gums.",
+      "Do not try to pull teeth or drain abscesses yourself; you can spread infection and cause serious bleeding.",
+      "Follow label age limits for oral pain gels, especially for babies and young children."
+    ],
+    "proTips": [
+      "Buy toothbrushes in multi-packs and replace them every 3 months.",
+      "Xylitol gum is a good stress snack that also helps teeth.",
+      "Keep dentures in a labeled case in your go-bag at night during an emergency so they do not get lost.",
+      "A mirror and headlamp make it much easier to see a problem tooth."
+    ],
+    "relatedGuides": [
+      "medical-059",
+      "medical-058",
+      "health-007",
+      "health-001"
+    ],
+    "source": "HeadStart.gov (U.S. HHS)",
+    "sources": [
+      {
+        "title": "Incorporating Oral Health into Emergency Preparedness",
+        "publisher": "HeadStart.gov, U.S. Department of Health and Human Services",
+        "url": "https://headstart.gov/oral-health/brush-oral-health/incorporating-oral-health-emergency-preparedness",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Guidelines for Personal Hygiene During an Emergency",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Home pain control is not treatment for an infection; get dental or medical care as soon as possible."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You cannot reach a dentist and need to prevent problems or manage tooth pain.",
+      "immediate": [
+        "Brush with fluoride paste on a dry brush and spit, no rinse",
+        "Warm saltwater rinse and floss for a toothache",
+        "Cold pack on the cheek and label-dose OTC pain reliever"
+      ],
+      "then": [
+        "Watch for swelling, fever, or trouble swallowing",
+        "Get dental or emergency care for any spreading swelling"
+      ]
+    }
+  },
+  {
+    "id": "health-009",
+    "category": "health",
+    "title": "Foot Care and Blisters on Long Walks",
+    "priority": "beginner",
+    "tags": [
+      "health",
+      "feet",
+      "blisters",
+      "trench foot",
+      "walking",
+      "evacuation",
+      "athlete's foot"
+    ],
+    "summary": "If you have to walk out, your feet are your transport. Prevent blisters, treat hot spots and blisters the right way, and avoid trench foot and fungal infections during long, wet days on foot.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Break in your footwear now",
+        "body": "Keep a pair of broken-in, well-fitting walking shoes or boots with your go-bag - not new boots still in the box. The American Academy of Dermatology advises shoes that are neither too tight nor too loose. Leave about a thumb's width at the toe, since feet swell on long walks. Walk at least several miles in them with a loaded pack before you need them. Trim toenails straight across and not too short a few days before a long walk; long nails cause black toenails on downhills."
+      },
+      {
+        "step": 2,
+        "title": "Wear the right socks",
+        "body": "Choose moisture-wicking synthetic or wool socks; avoid cotton, which holds sweat and causes rubbing. Some people prevent blisters with two layers - a thin liner sock under a cushioned sock - so the socks rub on each other instead of on your skin. Pack at least three pairs: one on, one drying, one clean. Put the drying pair under your clothes or on the outside of your pack."
+      },
+      {
+        "step": 3,
+        "title": "Stop at the first hot spot",
+        "body": "A hot spot is a warm, red, or stinging area. It is a blister that has not formed yet. Stop right away - do not push on to the next rest. Dry the skin, then cover the spot with tape, moleskin, or a blister bandage that extends well beyond the red area. Apply powder or a thin layer of petroleum jelly to reduce friction on spots that rub. Check shoe fit, re-lace, and remove any grit from socks."
+      },
+      {
+        "step": 4,
+        "title": "Treat a blister",
+        "body": "Leave a small, intact blister alone; the skin over it is the best bandage. Cover it loosely, or cut moleskin or foam into a donut shape, place the hole over the blister, and tape over it so pressure is taken off. Drain only if the blister is large and very painful: clean the skin, sterilize a needle with rubbing alcohol, pierce one edge, and press out the fluid. Leave the roof of skin in place, wash with soap and water, apply petroleum jelly, and cover. Watch for redness, pus, warmth, or more pain, which can signal infection."
+      },
+      {
+        "step": 5,
+        "title": "Dry your feet at every long break",
+        "body": "At each long rest, take off boots and socks, air and dry your feet, check for hot spots, and put on dry socks. Elevate your feet for a few minutes to reduce swelling. At night, wash and dry feet completely, especially between toes, and sleep in clean, dry socks or with bare feet raised."
+      },
+      {
+        "step": 6,
+        "title": "Prevent trench foot",
+        "body": "Trench (immersion) foot happens when feet stay wet and cold for many hours - it does not need freezing temperatures. CDC describes signs as painful, swollen feet with a heavy feeling; skin can turn pale, red, or blotchy, and later blister. Prevent it by keeping feet as clean and dry as you can, changing to dry socks often, and raising bare feet while sleeping. If you suspect it, CDC advises warming the feet in warm water for about 5 minutes, drying them well, and getting medical attention right away."
+      },
+      {
+        "step": 7,
+        "title": "Head off athlete's foot",
+        "body": "Warm, sweaty feet grow fungus. Itchy, peeling, or cracked skin between the toes is typical. CDC's ringworm prevention advice applies: keep feet clean and dry, change socks at least daily, wear shoes that let feet breathe, wear sandals in shared showers, and do not share socks, towels, or shoes. Use an OTC antifungal cream or powder as the label directs. People with diabetes or poor circulation should check their feet daily and get care early for any sore that is not healing."
+      }
+    ],
+    "warnings": [
+      "Do not tear off the roof of a blister; it protects against infection.",
+      "Red streaks, pus, spreading redness, or fever after a blister mean infection - get care.",
+      "Numb, pale, or blotchy feet after long wet exposure may be trench foot; get medical help.",
+      "People with diabetes can get serious foot infections from minor blisters - inspect feet every day."
+    ],
+    "proTips": [
+      "Pre-tape known trouble spots before you start walking.",
+      "Carry a small foot kit: tape, moleskin, a needle, alcohol wipes, petroleum jelly, and powder.",
+      "Gaiters keep grit and water out of boots on rough or wet ground.",
+      "Change socks at the halfway point of every day's walk, even if they feel fine."
+    ],
+    "relatedGuides": [
+      "urban-005",
+      "sec-003",
+      "health-010",
+      "health-001",
+      "medical-058"
+    ],
+    "source": "American Academy of Dermatology / CDC",
+    "sources": [
+      {
+        "title": "How to Prevent and Treat Blisters",
+        "publisher": "American Academy of Dermatology",
+        "url": "https://www.aad.org/injured-skin/prevent-treat-blisters",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Preventing Trench Foot or Immersion Foot",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/preventing-trench-foot-or-immersion-foot.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Ringworm Prevention",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/ringworm/aboutemergingringworm/index.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not drain blisters if you have diabetes, poor circulation, or a weak immune system unless a clinician advises it; cover and protect instead."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You are walking long distances, often in wet or hot conditions, and your feet start to hurt.",
+      "immediate": [
+        "Stop at the first hot spot and tape it",
+        "Dry feet and change to dry socks",
+        "Pad intact blisters with a donut - do not pop small ones"
+      ],
+      "then": [
+        "Air and inspect feet at every long break",
+        "Get care for signs of infection or trench foot"
+      ]
+    }
+  },
+  {
+    "id": "health-010",
+    "category": "health",
+    "title": "Skin Problems - Rashes, Poison Ivy, Fungus, Scabies, and Lice",
+    "priority": "beginner",
+    "tags": [
+      "health",
+      "skin",
+      "rash",
+      "poison ivy",
+      "poison oak",
+      "fungal infection",
+      "scabies",
+      "lice"
+    ],
+    "summary": "Crowding, sweat, and scarce water make skin problems common in long emergencies. Prevent and treat poison ivy and oak, fungal rashes, scabies, and head lice, and know which rashes need a clinician.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Avoid poison ivy, oak, and sumac",
+        "body": "These plants carry an oil (urushiol) that causes an itchy, blistering rash. 'Leaves of three, let it be' covers ivy and oak; sumac has rows of leaflets. When clearing brush, wear long sleeves, long pants, boots, and gloves. CDC/NIOSH warns the oil can stay active on tools and clothing for up to 5 years, so wash clothes separately in hot water and clean tools with rubbing alcohol or soap and lots of water while wearing disposable gloves. Never burn these plants - the smoke can cause severe lung reactions."
+      },
+      {
+        "step": 2,
+        "title": "Treat a poison plant exposure",
+        "body": "Rinse skin right away with rubbing alcohol, a poison plant wash, or dish soap and plenty of water, and rinse often so the wash does not dry and spread the oil. Scrub under the nails. For itching, use cool wet compresses, calamine lotion, or hydrocortisone cream (not on broken skin), and oatmeal baths. An OTC antihistamine can help but may cause drowsiness - follow the label. Get care for a severe rash or one on the face or genitals, and call 911 for swelling or trouble breathing."
+      },
+      {
+        "step": 3,
+        "title": "Prevent and treat fungal rashes",
+        "body": "Fungus thrives in sweaty skin folds, groins, feet, and under breasts. Ringworm shows as an itchy ring with a clearer center; jock itch and athlete's foot are cousins. CDC prevention advice: keep skin clean and dry, change socks and underwear at least daily, do not share towels, clothes, or bedding, and wear sandals in shared showers. Dry skin folds well after washing and use powder. Apply an OTC antifungal cream (such as clotrimazole or terbinafine) as the label directs, and keep using it as long as the label says, even after the rash fades. See a clinician for scalp ringworm or rashes that keep spreading."
+      },
+      {
+        "step": 4,
+        "title": "Recognize scabies",
+        "body": "Scabies is caused by tiny mites that burrow into skin and spread through prolonged skin-to-skin contact, which is common in crowded shelters. Look for an intensely itchy rash, worse at night, with small bumps or thin lines between fingers, on wrists, elbows, the waist, and the groin. CDC says over-the-counter products are not approved to treat scabies; treatment requires a prescription cream, lotion, or pill. Tell anyone you had close skin contact with in the past two months so they can be checked. Do not use insecticide sprays or fumigants on people or rooms."
+      },
+      {
+        "step": 5,
+        "title": "Clean up after scabies",
+        "body": "At the time of treatment, CDC advises washing bedding, clothes, and towels used in the past few days in hot water and drying them on high heat; mites die at temperatures above 122 F (50 C) for 10 minutes. Items that cannot be washed can be sealed in a plastic bag for at least 72 hours, or up to a week. Itching can last 2 to 4 weeks after successful treatment because of an allergic reaction to dead mites - that alone does not mean treatment failed. New burrows or rash after 2 to 4 weeks may need re-treatment."
+      },
+      {
+        "step": 6,
+        "title": "Treat head lice",
+        "body": "Head lice spread by head-to-head contact and are a nuisance, not a danger. Use an OTC or prescription lice product exactly as labeled; do not use conditioner before it or rewash hair for 1 to 2 days afterward. CDC notes that some products kill eggs and some do not - the second kind needs re-treatment about 7 to 9 days later. Comb wet hair with a fine nit comb every 2 to 3 days for 2 to 3 weeks. Wash bedding and recently worn hats and clothes in 130 F (54 C) water and dry on high heat, or seal unwashable items in a bag for 2 weeks. Soak combs in 130 F water for 5 to 10 minutes. CDC found no evidence that mayonnaise or oils smother lice, and fumigant sprays are not needed and can be toxic. Ask a provider before treating young children."
+      },
+      {
+        "step": 7,
+        "title": "Know which rashes are urgent",
+        "body": "Get medical care quickly for a rash with fever; a rash of small purple or red dots that do not fade when you press a glass on them; blistering or peeling over a large area; a rash with swelling of the face, lips, or tongue or trouble breathing; or a red, hot, swollen, spreading area of skin, which may be cellulitis. Also seek care for any rash after a tick bite. See the infection and allergic reaction guides."
+      }
+    ],
+    "warnings": [
+      "Never burn poison ivy, oak, or sumac - the smoke can severely injure the lungs.",
+      "Do not use kerosene, gasoline, pet insecticides, or bug sprays on skin or hair for lice or scabies.",
+      "A rash with fever, purple spots, or facial swelling needs urgent medical care.",
+      "Scabies needs prescription treatment; OTC products are not approved for it."
+    ],
+    "proTips": [
+      "Pack a 'skin kit': hydrocortisone, antifungal cream, calamine, an antihistamine, powder, and a nit comb.",
+      "Keep a change of clothes in a sealed bag for after brush clearing.",
+      "Treat everyone in a household with lice on the same day if they have live lice.",
+      "Cotton underwear and loose clothing reduce fungal rashes in heat."
+    ],
+    "relatedGuides": [
+      "health-007",
+      "health-009",
+      "medical-053",
+      "medical-058",
+      "medical-051",
+      "food-005"
+    ],
+    "source": "CDC / NIOSH",
+    "sources": [
+      {
+        "title": "Poisonous Plants and Work",
+        "publisher": "CDC / NIOSH",
+        "url": "https://www.cdc.gov/niosh/outdoor-workers/about/poisonous-plants.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Treatment of Scabies",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/scabies/treatment/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Treatment of Head Lice",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/lice/treatment/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Ringworm Prevention",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/ringworm/aboutemergingringworm/index.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not self-treat a rash with fever, blisters over large areas, or signs of spreading infection - get care.",
+      "Do not use hydrocortisone or other creams on broken, oozing skin unless a clinician advises it."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Someone has an itchy rash, a poison plant exposure, or signs of mites or lice, often in crowded or low-water conditions.",
+      "immediate": [
+        "Wash poison plant oil off within minutes with soap and lots of water",
+        "Keep skin clean and dry; change socks and underwear daily",
+        "Hot-wash or bag bedding for scabies or lice"
+      ],
+      "then": [
+        "Use label-directed OTC creams for itch and fungus",
+        "Get prescription care for scabies and urgent care for rashes with fever or swelling"
+      ]
+    }
+  },
+  {
+    "id": "health-011",
+    "category": "health",
+    "title": "Women's Health and Menstrual Supplies in Emergencies",
+    "priority": "beginner",
+    "tags": [
+      "health",
+      "women",
+      "menstruation",
+      "periods",
+      "pregnancy",
+      "hygiene",
+      "UTI",
+      "supplies"
+    ],
+    "summary": "Plan menstrual supplies for months, not days, care for reusable products with little water, and protect against urinary and vaginal infections. Includes planning for pregnancy and contraception in a long emergency.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stock for a long emergency",
+        "body": "Count how many pads or tampons you use in a typical cycle and store at least 3 to 6 months' worth per person who menstruates, including girls who may start their periods soon. Add a reusable option as a backup. UNICEF, which supplies menstrual kits in disasters, includes underwear, soap, and pain relief alongside products, because people often lose belongings when they flee. Pack a small kit in every go-bag: products for one full cycle, two pairs of underwear, wipes, a few zip bags, and an OTC pain reliever."
+      },
+      {
+        "step": 2,
+        "title": "Choose products that fit the situation",
+        "body": "Disposable pads need no water and are simplest; UNICEF notes they should be changed about every 4 to 6 hours. Tampons should be changed as their package directs; the lowest absorbency needed reduces the risk of toxic shock syndrome. Reusable cloth pads (UNICEF says about 60 uses each) need soap, water, and a private place to dry. Menstrual cups hold about three times as much as pads or tampons, are emptied every 6 to 12 hours, and are boiled for 5 to 10 minutes at the end of each cycle; a good cup can last 5 to 10 years. Practice with any new product before you depend on it."
+      },
+      {
+        "step": 3,
+        "title": "Wash and dry reusables safely",
+        "body": "Rinse used cloth pads in cold water first (hot water sets blood stains), then wash with soap, rinse, and wring. Use safe water if possible. Dry completely - in sunlight when you can - because damp cloth grows germs. If privacy is a problem, dry them under a light cloth or in a mesh bag. Store clean pads in a clean, dry bag. Throw out rinse water into a toilet or latrine, not near water sources, and wash hands afterward."
+      },
+      {
+        "step": 4,
+        "title": "Dispose of used products",
+        "body": "Wrap used pads and tampons in paper or a bag and put them in a lidded trash container. Do not flush them - with sewers failing, they will cause backups. In a latrine setting, use a separate lidded bin if waste is being burned or buried later. Wash hands before and after changing any product, using sanitizer if water is short."
+      },
+      {
+        "step": 5,
+        "title": "Prevent urinary and vaginal infections",
+        "body": "Dehydration, holding urine, and poor hygiene raise the risk of bladder infections. Drink enough water, urinate when you need to, and urinate after sex. Wipe front to back. Wash the outer genital area daily with plain water and mild soap - avoid douches and scented products. Wear cotton underwear and change it daily. Get care for burning with urination plus fever, back pain, or blood in urine, which can mean a kidney infection."
+      },
+      {
+        "step": 6,
+        "title": "Plan for pregnancy and contraception",
+        "body": "Store a long supply of any contraceptive you use, and talk to a clinician about longer-acting options if you expect long disruptions. Store pregnancy tests. If you are pregnant, keep copies of prenatal records, take prenatal vitamins, and know where the nearest birthing hospital and a backup are. Emergency signs in pregnancy - heavy bleeding, severe belly pain, severe headache or vision changes, leaking fluid early, fever, or reduced baby movement - need immediate care. See the emergency childbirth guide."
+      },
+      {
+        "step": 7,
+        "title": "Expect changes and ask for help",
+        "body": "Stress, weight loss, and hard physical work can make periods late, irregular, or stop for a while. That is common, but a missed period can also mean pregnancy, so test if there is any chance. Very heavy bleeding (soaking a pad or tampon every hour for several hours), bleeding with dizziness, or severe pain needs medical care. In shelters, ask staff for supplies and a private changing area; many relief groups now carry menstrual kits."
+      }
+    ],
+    "warnings": [
+      "Sudden high fever, rash, vomiting, or dizziness while using a tampon or cup can be toxic shock syndrome - remove it and get emergency care.",
+      "Do not reuse damp or poorly washed cloth pads; they can cause infections.",
+      "Heavy bleeding with dizziness or fainting is an emergency.",
+      "Pregnant people with bleeding, severe pain, or severe headache need care immediately."
+    ],
+    "proTips": [
+      "Period underwear is a good backup that needs only a bucket wash.",
+      "Store supplies in sealed bins; pads absorb moisture and odors.",
+      "A small dark-colored towel set aside for periods hides stains and saves stress.",
+      "Include a heat pack or hot-water bottle for cramps in the home kit."
+    ],
+    "relatedGuides": [
+      "health-007",
+      "medical-056",
+      "health-001",
+      "home-003"
+    ],
+    "source": "UNICEF Supply Division / CDC",
+    "sources": [
+      {
+        "title": "Menstrual Hygiene Products",
+        "publisher": "UNICEF Supply Division",
+        "url": "https://www.unicef.org/supply/menstrual-hygiene-products",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Guidelines for Personal Hygiene During an Emergency",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not switch to an unfamiliar product (cup or tampon) for the first time in the middle of an evacuation if you can avoid it; practice beforehand."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You need menstrual and women's health supplies during a long emergency with limited water and privacy.",
+      "immediate": [
+        "Pack a one-cycle kit with underwear and pain relief in each go-bag",
+        "Change pads every 4-6 hours; wash hands before and after",
+        "Bag used products - do not flush"
+      ],
+      "then": [
+        "Wash reusables with soap and dry fully in sun",
+        "Get care for heavy bleeding, fever, or pregnancy warning signs"
+      ]
+    }
+  },
+  {
+    "id": "health-012",
+    "category": "health",
+    "title": "Stress, Anxiety, and Sleep in a Crisis",
+    "priority": "beginner",
+    "tags": [
+      "health",
+      "mental health",
+      "stress",
+      "anxiety",
+      "sleep",
+      "coping",
+      "crisis",
+      "988"
+    ],
+    "summary": "Recognize normal stress reactions in yourself and your family, use simple daily habits that keep anxiety in check, protect sleep when life is upside down, and know when and where to get help.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Expect strong reactions - they are normal",
+        "body": "CDC lists common reactions after a disaster or traumatic event: feeling numb or dazed, sad, helpless, or anxious; relief at being alive; bad memories or dreams; avoiding reminders of the event; trouble sleeping, eating, or concentrating; and irritability or quick anger. Physical signs are common too - headaches, stomach upset, racing heart, and fatigue. These are normal responses to an abnormal situation and usually fade over days to weeks. Naming them out loud ('I'm on edge because of the storm') helps you and your family feel less alone."
+      },
+      {
+        "step": 2,
+        "title": "Keep a daily routine",
+        "body": "Routine tells your nervous system that the world still has some order. Get up, eat, work, and go to bed at roughly the same times. Give everyone, including children, a few daily jobs - hauling water, cooking, keeping the log. Purpose lowers anxiety. Schedule a short daily family check-in to share news, plans, and feelings. Keep small comforts: a morning coffee, a card game, prayer or reflection, music."
+      },
+      {
+        "step": 3,
+        "title": "Look after your body",
+        "body": "CDC's coping advice starts with basics: eat as healthily as you can, stay active, get enough sleep, and avoid alcohol, tobacco, drugs, and medicines not prescribed to you - they make sleep, mood, and judgment worse. Drink water; dehydration feels like anxiety. Short walks, stretching, or simple bodyweight exercise burn off stress hormones. Keep taking any mental health medicines and follow your treatment plan; do not stop them suddenly."
+      },
+      {
+        "step": 4,
+        "title": "Calm the alarm in the moment",
+        "body": "When panic rises, slow your breathing: breathe in through your nose for a count of 4, hold for 4, out for 4, hold for 4, and repeat for a few minutes. Or ground yourself by naming 5 things you see, 4 you can touch, 3 you hear, 2 you smell, and 1 you taste. Break overwhelming problems into the next single step. Write worries down at a set 'worry time' and then put the list away. Limit news and rumor - check for updates at set times instead of constantly."
+      },
+      {
+        "step": 5,
+        "title": "Protect sleep",
+        "body": "Sleep loss makes stress, judgment, and immune defenses worse. Make the sleeping spot as dark, quiet, and comfortable as you can: eye masks, earplugs, extra padding, and the right warmth. Keep a regular bedtime and wake time. Avoid caffeine after midday and heavy meals or screens right before sleep. Wind down for 30 minutes with low light and calm activity. If you cannot sleep after about 20 minutes, get up, do something boring in dim light, and return when sleepy. In groups, set a quiet hour and rotate watch duty so everyone gets a solid block of sleep."
+      },
+      {
+        "step": 6,
+        "title": "Stay connected",
+        "body": "Talk with family, friends, neighbors, or faith communities about how you feel. Check on people living alone. Helping others - sharing food, watching kids, checking on older neighbors - is one of the most effective ways to feel less helpless. Children take cues from adults: stay calm in front of them, answer questions simply and honestly, and keep them close."
+      },
+      {
+        "step": 7,
+        "title": "Know when to get help",
+        "body": "Get professional help if stress keeps you from caring for yourself or your family for more than a couple of weeks, if you are drinking or using drugs to cope, if you have flashbacks or panic that will not ease, or if you think about hurting yourself or others. Call or text 988, the Suicide and Crisis Lifeline, any time. The Disaster Distress Helpline, 1-800-985-5990, offers free crisis counseling after disasters, including in ASL. At a shelter, ask for a mental health worker. If someone is in immediate danger, call 911."
+      }
+    ],
+    "warnings": [
+      "Any talk of suicide or self-harm is an emergency - stay with the person and call or text 988 or 911.",
+      "Alcohol and sleeping pills not prescribed to you worsen sleep quality and can be dangerous in an emergency.",
+      "Do not stop prescribed mental health medicines suddenly.",
+      "Severe confusion, hallucinations, or agitation can have medical causes such as dehydration, low blood sugar, or infection - check for them."
+    ],
+    "proTips": [
+      "Write three small wins each evening; it trains attention away from constant threat.",
+      "Keep a deck of cards, a book, or a puzzle in the go-bag for downtime.",
+      "Assign a 'news person' so others do not have to monitor updates all day.",
+      "Put the 988 and 1-800-985-5990 numbers on your printed contact card."
+    ],
+    "relatedGuides": [
+      "medical-012",
+      "psych-001",
+      "psych-005",
+      "psych-004",
+      "health-013"
+    ],
+    "source": "CDC / SAMHSA",
+    "sources": [
+      {
+        "title": "How to Cope with Your Feelings (easy read)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/disability-emergency-preparedness/communication-resources/coping-easy-read.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Coping with Stress After a Traumatic Event: Tip Sheet",
+        "publisher": "CDC",
+        "url": "https://stacks.cdc.gov/view/cdc/11936",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Self-help is not enough when someone is at risk of harming themselves or others - get crisis help immediately."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You or people around you feel overwhelmed, anxious, or cannot sleep during a long crisis.",
+      "immediate": [
+        "Slow breathing: in 4, hold 4, out 4, hold 4",
+        "Keep a simple daily routine with jobs for everyone",
+        "Protect a dark, quiet sleep spot and regular bedtime"
+      ],
+      "then": [
+        "Limit news checks to set times",
+        "Call or text 988 or the Disaster Distress Helpline 1-800-985-5990 if it gets to be too much"
+      ]
+    }
+  },
+  {
+    "id": "health-013",
+    "category": "health",
+    "title": "Psychological First Aid - Helping Someone Through Shock and Grief",
+    "priority": "critical",
+    "tags": [
+      "health",
+      "psychological first aid",
+      "PFA",
+      "grief",
+      "shock",
+      "trauma",
+      "mental health",
+      "WHO"
+    ],
+    "summary": "Psychological first aid (PFA) is calm, practical, caring help for someone who has just been through something terrible. Anyone can learn it. Use the WHO Look, Listen, Link approach to help people feel safe, calmer, and connected.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know what PFA is - and is not",
+        "body": "The WHO guide describes PFA as humane, supportive, practical help for people suffering after a crisis: meeting basic needs, comforting, listening without pressure, connecting people to information and services, and protecting them from more harm. It is not counseling or therapy. It is not 'debriefing' - you do not ask people to retell or analyze what happened. The U.S. National Child Traumatic Stress Network (NCTSN) guide uses the same ideas in eight core actions: contact and engagement, safety and comfort, stabilization, gathering information, practical help, connection to social supports, coping information, and linkage to services."
+      },
+      {
+        "step": 2,
+        "title": "LOOK - check safety and needs first",
+        "body": "Before you approach, look. Is the area safe for you and others? If not, do not go in - get help or move people away from danger if you can do it safely. Identify who has urgent physical needs (injuries, cold, no water) and treat those first. Look for people with severe distress and for those who may need special attention: children separated from caregivers, older adults, people with disabilities or illness, pregnant women, and people who may face discrimination."
+      },
+      {
+        "step": 3,
+        "title": "LISTEN - approach calmly and let them lead",
+        "body": "Approach respectfully, introduce yourself by name, and ask if you can help. Find a quieter spot if possible. Sit or stand near them at a respectful distance and keep your voice calm and simple. Ask what they need and what worries them most. Listen; allow silence. Do not push them to talk about the event - some people want to, many do not. Acknowledge feelings ('That sounds terrifying'). Only touch if it is clearly welcome and culturally appropriate."
+      },
+      {
+        "step": 4,
+        "title": "Help someone who is overwhelmed",
+        "body": "Some people will be frozen, shaking, panicking, or unable to respond. Stay with them and speak gently. Help them notice the present: ask them to feel their feet on the ground, notice their breathing, and slow it down with you. Remind them where they are, what day it is, and that they are not alone. Offer a blanket, water, or a place to sit. If they are too distressed to care for themselves or their children, or might hurt themselves or others, do not leave them alone - get medical or other urgent help."
+      },
+      {
+        "step": 5,
+        "title": "LINK - meet practical needs and connect",
+        "body": "Help with what matters right now: water, food, warmth, shelter, finding family members, charging a phone, or understanding what aid is available. Give accurate information only - say 'I don't know, but I'll try to find out' rather than guessing, and keep any promise you make. Help people make their own decisions and point to their strengths ('You got your kids out - that took courage'). Connect them with family, friends, faith leaders, and services."
+      },
+      {
+        "step": 6,
+        "title": "Support someone who is grieving",
+        "body": "When someone has lost a loved one, a home, or a pet, there is nothing you can say to fix it. Being present matters more than words. Say their loved one's name if they do. Avoid phrases like 'They're in a better place,' 'At least...,' or 'I know how you feel.' Let them cry, be angry, or be numb - grief has no correct form. Help with practical tasks such as food, childcare, informing relatives, and religious or cultural customs. Check back over the following days and weeks; support often fades just when people need it most."
+      },
+      {
+        "step": 7,
+        "title": "Know when PFA is not enough",
+        "body": "WHO says some people need more advanced help right away: anyone with serious injuries, people too upset to care for themselves or their children, and anyone who may harm themselves or others. Keep them safe and get medical or crisis help. Call or text 988 for suicide risk, or 911 for immediate danger. Over the following weeks, encourage professional help for anyone whose distress is not easing, who cannot function, or who is turning to alcohol or drugs."
+      },
+      {
+        "step": 8,
+        "title": "Take care of yourself as a helper",
+        "body": "Helpers get worn down too. Work in pairs, check on each other, take breaks, eat, drink water, and rest. Limit alcohol, caffeine, and nicotine. Talk with someone you trust afterward. WHO advises getting help if upsetting memories, sleep problems, or heavy drinking last more than a month."
+      }
+    ],
+    "warnings": [
+      "Do not force anyone to tell their story or describe what happened; it can make distress worse.",
+      "Never make promises you cannot keep or give information you are not sure of.",
+      "Do not leave a person who may harm themselves or others alone - get help.",
+      "Do not enter an unsafe scene to provide comfort; your safety comes first."
+    ],
+    "proTips": [
+      "Learn PFA before you need it - free online courses are offered by NCTSN and other groups.",
+      "Carry a short card with local resources and the 988 and Disaster Distress Helpline (1-800-985-5990) numbers.",
+      "For children, keep them with caregivers whenever possible and use simple, honest words.",
+      "A cup of something warm and a place to sit often opens the door better than questions."
+    ],
+    "relatedGuides": [
+      "health-012",
+      "medical-012",
+      "psych-001",
+      "psych-003",
+      "medical-014"
+    ],
+    "source": "WHO / NCTSN",
+    "sources": [
+      {
+        "title": "Psychological First Aid: Guide for Field Workers",
+        "publisher": "World Health Organization, War Trauma Foundation, World Vision International",
+        "url": "https://who.int/publications/i/item/9789241548205",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Psychological First Aid: Guide for Field Workers (PDF)",
+        "publisher": "World Health Organization (hosted by University of Washington)",
+        "url": "https://psychiatry.uw.edu/wp-content/uploads/2020/04/1.-WHO_PFA_2011.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Psychological First Aid (PFA) Field Operations Guide, 2nd Edition",
+        "publisher": "National Child Traumatic Stress Network",
+        "url": "https://www.nctsn.org/resources/psychological-first-aid-pfa-field-operations-guide-2nd-edition",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "PFA is not a replacement for emergency medical care for injured people - treat life threats first.",
+      "Do not use PFA as a substitute for professional mental health care for someone with lasting or severe symptoms."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Someone near you has just survived something terrible and is shocked, panicking, or grieving.",
+      "immediate": [
+        "LOOK: make sure the scene is safe and treat injuries first",
+        "LISTEN: introduce yourself, sit nearby, let them lead",
+        "LINK: help with water, warmth, shelter, and finding family"
+      ],
+      "then": [
+        "Check back in the following days",
+        "Get urgent help for anyone who may harm themselves or others"
+      ]
+    }
+  },
+  {
+    "id": "health-014",
+    "category": "health",
+    "title": "Caring for a Sick Household Member and Infection Control",
+    "priority": "critical",
+    "tags": [
+      "health",
+      "caregiving",
+      "infection control",
+      "sick room",
+      "isolation",
+      "disinfection",
+      "home care"
+    ],
+    "summary": "Set up a sick room, protect the caregiver and the rest of the household, clean and handle laundry and waste safely, and keep good records so you know when the person needs more help.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Set up a sick room",
+        "body": "Choose one room - ideally with a window and close to a toilet - for the sick person. Use a separate bathroom if you have one, or a dedicated bucket toilet. Inside, keep a trash bag, tissues, a water bottle, a cup, a thermometer, a notepad, and hand sanitizer. Bring in fresh air by opening a window or setting a fan to blow air out of the room; CDC lists fresh air as an extra layer of protection. Keep the door closed. Limit visitors, and keep people at higher risk (babies, older adults, pregnant people, the chronically ill) away."
+      },
+      {
+        "step": 2,
+        "title": "Choose one caregiver",
+        "body": "Pick one healthy adult to give most of the care, ideally someone not at high risk. This limits how many people are exposed. CDC advises avoiding face-to-face contact when you can. When holding a sick child, rest their chin on your shoulder so they do not cough in your face. A well-fitted mask worn by the sick person and by the caregiver during close contact adds protection. Wear disposable gloves when touching body fluids, vomit, stool, or soiled linens."
+      },
+      {
+        "step": 3,
+        "title": "Wash hands constantly",
+        "body": "Wash hands with soap and water for at least 20 seconds after any contact with the sick person, their tissues, dishes, laundry, or trash, and after removing gloves. Use alcohol-based sanitizer (at least 60% alcohol) when soap and water are not available, except after diarrhea or vomiting illness, when soap and water work much better. Put a handwashing station or sanitizer at the sick room door so everyone uses it going in and out."
+      },
+      {
+        "step": 4,
+        "title": "Clean and disinfect",
+        "body": "Clean often-touched surfaces daily: doorknobs, light switches, faucet handles, toilet, phones, and bedside tables. Clean dirt off first with soap and water, then disinfect. For vomit and stool, CDC's norovirus guidance is about 3/4 cup of regular bleach in 1 gallon of water, left on the surface for at least 5 minutes, then washed with soap and hot water. Make fresh bleach solution daily, use it with ventilation, and never mix bleach with ammonia or other cleaners."
+      },
+      {
+        "step": 5,
+        "title": "Handle laundry, dishes, and trash",
+        "body": "Do not shake soiled laundry - that spreads germs in the air. Carry it in a bag or basket held away from your body, and wash it in hot water with soap; wash items with vomit or stool separately. Wash hands after handling laundry. Give the sick person their own cup, plate, and utensils and wash them in hot soapy water. Bag tissues, gloves, and soiled trash, tie it closed, and keep it outside the living area. Empty bucket toilets into a latrine and disinfect the bucket."
+      },
+      {
+        "step": 6,
+        "title": "Keep the person comfortable and fed",
+        "body": "Bring fluids every hour while awake and track how much they drink and urinate. Offer simple, easy food. Help them turn and change position every couple of hours if they are bedbound, to prevent pressure sores. Keep them clean and dry, and change wet bedding promptly. Give OTC medicines only as the label directs and keep a log of every dose and the time."
+      },
+      {
+        "step": 7,
+        "title": "Keep a care log and watch for danger signs",
+        "body": "Write down temperature, breathing rate, fluids in and urine out, medicines, food, and how alert the person is - twice a day at minimum. A written trend shows you if they are worsening. Get emergency care for trouble breathing, chest pain or pressure, confusion or trouble waking, seizures, no urine, severe weakness, bluish lips, or symptoms that improve and then come back worse. See the respiratory, diarrhea, and sepsis guides for condition-specific signs."
+      },
+      {
+        "step": 8,
+        "title": "Protect the caregiver",
+        "body": "Caregivers get sick and burn out. The caregiver should eat, drink, sleep in shifts if possible, and check their own temperature daily. If the caregiver gets sick, have a backup plan for who takes over. Keep vulnerable family members separate until the sick person has been better and fever-free for at least 24 hours without medicine."
+      }
+    ],
+    "warnings": [
+      "Never mix bleach with ammonia, vinegar, or other cleaners - it releases toxic gas.",
+      "Do not shake soiled laundry or carry it against your body.",
+      "Do not share cups, utensils, towels, or bedding with the sick person.",
+      "Get emergency care for trouble breathing, confusion, chest pain, or no urine."
+    ],
+    "proTips": [
+      "Store a 'sick room box': gloves, masks, trash bags, bleach, a thermometer, a notebook, and disposable cups.",
+      "Mark the sick person's dishes with tape so they do not get mixed up.",
+      "Use a bell or whistle so the sick person can call for help without leaving the room.",
+      "Let disinfectant sit for the full contact time - wiping it off immediately does little."
+    ],
+    "relatedGuides": [
+      "health-006",
+      "health-005",
+      "medical-013",
+      "medical-058",
+      "home-003",
+      "health-007"
+    ],
+    "source": "CDC",
+    "sources": [
+      {
+        "title": "Caring for Someone Sick",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/flu/treatment/caring-for-someone.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Preventing Spread of Respiratory Viruses When You're Sick",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Preventing Norovirus (video transcript)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/digital-social-media-tools/cdctv/norovirus-prevention/preventing-norovirus-transcript.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Home isolation is not enough for someone with emergency warning signs - get them to medical care.",
+      "Do not assign a high-risk person (pregnant, elderly, immune-weakened) as the main caregiver if anyone else can do it."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Someone in your home is sick with a contagious illness and you must care for them without outside help.",
+      "immediate": [
+        "Move them to one room with fresh air and a separate toilet or bucket",
+        "Pick one caregiver; use gloves and a mask for close care",
+        "Put soap or sanitizer at the room door"
+      ],
+      "then": [
+        "Disinfect touched surfaces daily and log vital signs twice a day",
+        "Get emergency care for breathing trouble, confusion, or no urine"
+      ]
+    }
+  },
+  {
+    "id": "health-015",
+    "category": "health",
+    "title": "Nutrition in Long Emergencies - Deficiencies to Watch For",
+    "priority": "advanced",
+    "tags": [
+      "health",
+      "nutrition",
+      "vitamins",
+      "scurvy",
+      "beriberi",
+      "deficiency",
+      "food storage",
+      "long-term"
+    ],
+    "summary": "Stored staples like white rice, flour, sugar, and canned food can keep you full but leave you short of key vitamins after weeks or months. Learn the early signs of scurvy, beriberi, and other deficiencies and how to prevent them.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand why long emergencies cause deficiencies",
+        "body": "In a short emergency, calories and water are what matter. After about a month on a narrow diet, missing vitamins start to show. The risk is highest when meals are mostly polished white rice, white flour, sugar, and fats, with little fresh produce, whole grains, beans, or meat. Long storage, canning, and heavy cooking destroy some vitamins, especially vitamin C. Children, pregnant and breastfeeding women, older adults, heavy drinkers, and people with long-lasting diarrhea are most at risk."
+      },
+      {
+        "step": 2,
+        "title": "Plan a varied store, not just calories",
+        "body": "Build food storage around variety: whole grains (brown rice, oats, whole wheat), dried beans and lentils, canned fish and meat, peanut butter and nuts, canned or dried fruit and vegetables, powdered milk, and fortified cereals. Add a bottle of a basic daily multivitamin for each person, rotated before its expiration date. Store seeds for sprouting and fast-growing greens. See the food storage and rationing guides for calorie planning."
+      },
+      {
+        "step": 3,
+        "title": "Watch for scurvy (vitamin C)",
+        "body": "The body cannot make or store much vitamin C. Signs usually appear after at least a month of very low intake and often take about three months. Early signs are fatigue, weakness, irritability, poor appetite, and aching legs. Later signs include swollen, bleeding gums, easy bruising and small bleeding spots on the skin (often on the legs), corkscrew-shaped hairs, slow wound healing, sore swollen joints, and anemia. MedlinePlus notes older adults with poor nutrition are most often affected. Adults need roughly 75 to 90 mg a day."
+      },
+      {
+        "step": 4,
+        "title": "Prevent and correct scurvy",
+        "body": "Good vitamin C sources include sweet peppers, citrus, kiwi, berries, tomatoes, potatoes, broccoli, cabbage, Brussels sprouts, and leafy greens. Eat them raw or lightly cooked when you can, since cooking and long storage lower vitamin C. Sprouted seeds and fresh wild greens you can identify with certainty also help (see the edible plants guides). Vitamin C tablets store well and are a cheap insurance item - follow the label. When vitamin C is restored, aches and fatigue often improve within days, while bruising and bleeding can take weeks."
+      },
+      {
+        "step": 5,
+        "title": "Watch for beriberi (thiamine, vitamin B1)",
+        "body": "A diet mostly of polished white rice, white flour, or sugar - a classic stored-food diet - can cause thiamine deficiency. Heavy alcohol use, long diarrhea, fever, hard physical work, pregnancy, and breastfeeding raise the need. Early signs are vague: tiredness, irritability, poor memory, poor appetite, and weight loss. Later come tingling or burning feet, leg cramps, and weakness ('dry' beriberi), or a fast heartbeat, leg swelling, and shortness of breath from heart strain ('wet' beriberi). Confusion with unsteady walking and eye problems can be Wernicke encephalopathy, a medical emergency."
+      },
+      {
+        "step": 6,
+        "title": "Prevent beriberi",
+        "body": "Thiamine is in whole grains, enriched flour and cereals, pork, liver and other meats, beans and other legumes, nuts, potatoes, and yeast. Choose enriched or whole-grain staples over plain polished rice where possible, mix beans into rice meals, and limit alcohol. Breastfed babies can develop beriberi if the mother is deficient, so nursing mothers need a good diet or a supplement."
+      },
+      {
+        "step": 7,
+        "title": "Know the other common gaps",
+        "body": "Iron deficiency causes tiredness, pale skin, and shortness of breath, especially in women and children - meat, beans, and fortified cereals help. Little sunlight and no dairy can cause low vitamin D and calcium. A diet mostly of untreated corn can cause pellagra (niacin), with rash on sun-exposed skin, diarrhea, and confusion. Night blindness can be an early sign of vitamin A deficiency - orange vegetables, leafy greens, eggs, and liver help. A daily multivitamin covers much of this, but food variety is the real fix."
+      },
+      {
+        "step": 8,
+        "title": "Track and get help",
+        "body": "Weigh household members weekly if you can, and watch children's growth, energy, and mood. Note any bleeding gums, unusual bruising, swelling, numbness, or night blindness. These signs can also come from other illnesses, so report them to a clinician when one is reachable. Severe malnutrition, especially in children, needs medical refeeding - restarting large amounts of food too fast after starvation can be dangerous."
+      }
+    ],
+    "warnings": [
+      "Confusion, unsteady walking, and abnormal eye movements in a poorly fed person or heavy drinker may be thiamine-related brain injury - an emergency.",
+      "Restarting full meals too quickly after weeks of starvation can cause dangerous shifts in body salts; get medical guidance for severe malnutrition.",
+      "Do not take large doses of vitamin A or iron supplements beyond the label - too much is toxic, especially for children and in pregnancy.",
+      "Only eat wild plants you can identify with complete certainty."
+    ],
+    "proTips": [
+      "Sprouting lentils, mung beans, or alfalfa in a jar gives fresh vitamin C in a few days with almost no space.",
+      "Rotate stored multivitamins and vitamin C each year.",
+      "Potatoes and cabbage store for months and still carry useful vitamin C.",
+      "Mix brown and white rice to stretch whole-grain stores."
+    ],
+    "relatedGuides": [
+      "food-012",
+      "food-013",
+      "food-014",
+      "homestead-002",
+      "food-001"
+    ],
+    "source": "MedlinePlus (NLM) / Merck Manual",
+    "sources": [
+      {
+        "title": "Scurvy",
+        "publisher": "MedlinePlus, U.S. National Library of Medicine",
+        "url": "https://medlineplus.gov/ency/article/000355.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Thiamin Deficiency",
+        "publisher": "Merck Manual Consumer Version",
+        "url": "https://www.merckmanuals.com/home/disorders-of-nutrition/vitamins/thiamin-deficiency",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Scurvy: Symptoms, Causes, and Treatment",
+        "publisher": "Healthline",
+        "url": "https://www.healthline.com/health/scurvy",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not assume symptoms like bleeding gums or numbness are only vitamin problems; they have other serious causes that need a clinician."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Your household has been living mainly on stored staples for weeks or months.",
+      "immediate": [
+        "Add a vitamin C source daily - fresh produce, sprouts, or tablets",
+        "Mix beans and whole or enriched grains into rice meals",
+        "Give a daily multivitamin if you have it"
+      ],
+      "then": [
+        "Check weekly for bleeding gums, bruising, numb feet, or swelling",
+        "Get care for confusion or severe weakness in poorly fed people"
+      ]
+    }
+  },
+  {
+    "id": "health-016",
+    "category": "health",
+    "title": "Glasses, Contacts, Hearing Aids, and Assistive Devices - Backups and Care",
+    "priority": "beginner",
+    "tags": [
+      "health",
+      "glasses",
+      "contact lenses",
+      "hearing aids",
+      "assistive devices",
+      "mobility",
+      "disability",
+      "backup"
+    ],
+    "summary": "If you rely on glasses, contacts, hearing aids, a cane, a walker, or a wheelchair, losing it in a disaster can be as disabling as an injury. Keep backups, power, and repair supplies, and care for devices safely when water and power are short.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Inventory every device in the household",
+        "body": "List each device: glasses (with your current prescription written down), contact lenses and solution, hearing aids or cochlear implant processors and their battery type, dentures, canes, walkers, wheelchairs, braces, communication boards, and any powered equipment. Note the model, the supplier's phone number, and how it is powered. Ready.gov advises older adults and people with disabilities to plan how they will keep assistive devices with them during an evacuation, and to include batteries and chargers in their supply kit."
+      },
+      {
+        "step": 2,
+        "title": "Keep a spare pair of glasses",
+        "body": "Store your previous pair of glasses or a cheap backup pair made to your current prescription in a hard case in the go-bag, plus a second pair in the car. Add a small screwdriver repair kit, a microfiber cloth, and a strap to keep glasses from falling off. If you wear reading glasses, store several pairs - they are cheap. Prescription sunglasses protect eyes from glare and debris during cleanup."
+      },
+      {
+        "step": 3,
+        "title": "Handle contact lenses safely - or switch to glasses",
+        "body": "FDA says never to expose contact lenses to any water - tap, bottled, distilled, lake, or ocean - because water can carry germs that cause serious, sight-threatening eye infections. Do not top off old solution or reuse it; empty the case, rinse it with fresh solution, and let it air dry each time. If you cannot wash and dry your hands, have no fresh solution, or the area is dusty or smoky, take the lenses out and wear glasses instead. Daily disposable lenses are a good emergency option. Remove lenses and contact an eye professional for eye pain, redness, blurry vision, or light sensitivity."
+      },
+      {
+        "step": 4,
+        "title": "Keep hearing aids powered and found",
+        "body": "Store spare hearing aid batteries (a few months' supply), and if your aids are rechargeable, a charger that runs from a power bank or car USB. Consider keeping an older backup hearing aid in your emergency supplies. Connecticut's public health department advises keeping hearing aids in the same secure spot every night - such as a container tied to the nightstand - so you can find them fast in the dark. Store aids in a dry box or with desiccant in humid conditions. Carry a pen and paper or a card that says you are hard of hearing and how best to communicate with you."
+      },
+      {
+        "step": 5,
+        "title": "Plan for mobility devices",
+        "body": "Keep a folding cane or a spare walker you can grab quickly. For wheelchairs, store a patch kit, pump, and basic tools, and know the chair's weight and whether it folds for transport. Power wheelchairs and scooters need a charging plan: know the battery type and charge time, and ask about a manual backup chair. Practice your evacuation route with the device, including stairs or curbs. Tell your support network how to safely help you move."
+      },
+      {
+        "step": 6,
+        "title": "Protect powered medical devices",
+        "body": "For anything that plugs in - power chairs, hearing aid chargers, electronic magnifiers, communication devices - keep charged power banks or a portable power station and a car charger. Charge everything when a storm or outage is forecast. Label each device and charger with your name and phone number. Register with your utility as a medical-needs customer if you use life-sustaining equipment."
+      },
+      {
+        "step": 7,
+        "title": "Get replacements after a loss",
+        "body": "If a device is lost or damaged, tell shelter staff or emergency managers right away; many relief agencies help replace glasses, hearing aid batteries, canes, and wheelchairs. Have copies of your eyeglass prescription, device serial numbers, and insurance cards (Medicare, Medicaid, or others) in your go-bag. Keep a photo of each device and its label on your phone."
+      }
+    ],
+    "warnings": [
+      "Never rinse or store contact lenses in water of any kind, and never use saliva - it can cause a blinding eye infection.",
+      "Eye pain, redness, or blurred vision in a contact lens wearer needs prompt care from an eye professional.",
+      "Button batteries for hearing aids are deadly if a child swallows one - store them locked away and seek emergency care immediately if swallowed.",
+      "Do not try to repair a power wheelchair's electrical system with improvised parts."
+    ],
+    "proTips": [
+      "Tape a copy of your eyeglass prescription inside your glasses case.",
+      "A cheap headlamp helps people with low vision move safely at night.",
+      "Practice saying or writing your communication needs before an emergency.",
+      "Keep hearing aid batteries in their original packaging until use; they last longer."
+    ],
+    "relatedGuides": [
+      "health-017",
+      "health-004",
+      "power-006",
+      "health-001"
+    ],
+    "source": "FDA / Ready.gov / Connecticut DPH",
+    "sources": [
+      {
+        "title": "Contact Lenses",
+        "publisher": "U.S. FDA",
+        "url": "https://www.fda.gov/medical-devices/consumer-products/contact-lenses",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Older Adults",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/older-adults",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Tips for People Who Are Hearing Impaired",
+        "publisher": "Connecticut Department of Public Health",
+        "url": "https://portal.ct.gov/dph/public-health-preparedness/bioterrorism/tips-for-people-who-are-hearing-impaired",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not keep wearing contact lenses in smoky, dusty, or dirty conditions when you cannot clean your hands; switch to glasses."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You or a family member depends on glasses, contacts, hearing aids, or a mobility device and an emergency has started.",
+      "immediate": [
+        "Grab backup glasses, hearing aid batteries, and chargers",
+        "Switch from contacts to glasses if you cannot wash hands or lack fresh solution",
+        "Keep devices in one known spot at night"
+      ],
+      "then": [
+        "Charge powered devices from a power bank or car",
+        "Report lost devices to shelter staff for replacement help"
+      ]
+    }
+  },
+  {
+    "id": "health-017",
+    "category": "health",
+    "title": "Older Adults' Health in Emergencies - Heat, Cold, Dehydration, Falls, and Medications",
+    "priority": "critical",
+    "tags": [
+      "health",
+      "older adults",
+      "seniors",
+      "heat",
+      "hypothermia",
+      "dehydration",
+      "falls",
+      "medications"
+    ],
+    "summary": "Older adults are hit hardest by heat waves, cold homes, dehydration, falls, and missed medicines during outages. Use these checks and habits to keep an older family member or neighbor safe, or to protect yourself.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Build a support network and plan",
+        "body": "Ready.gov advises older adults to build a network of family, friends, and neighbors who will check in during an emergency. At least one person should have a spare key, know where supplies and medicines are, and know how to use any medical equipment. Keep copies of Medicare, Medicaid, and other insurance cards in the go-bag. Ask any clinic that provides routine treatment about its emergency plan, and line up a backup provider. Plan transportation in advance if you cannot drive or walk far."
+      },
+      {
+        "step": 2,
+        "title": "Protect against heat",
+        "body": "CDC explains that older bodies adjust poorly to sudden heat, chronic illness changes how the body handles it, and some medicines reduce sweating or temperature control. Drink more water than usual, before feeling thirsty. Spend hot hours in air conditioning - a cooling center, library, or friend's home if yours has no power. Do not rely on a fan alone in extreme heat. Take cool showers or use cool, wet cloths, wear loose light clothing, and avoid using the stove. If your doctor limits fluids or prescribes water pills, ask now how much to drink in hot weather."
+      },
+      {
+        "step": 3,
+        "title": "Check in twice a day during heat",
+        "body": "CDC advises caregivers to visit older adults at least twice a day during heat and ask: are they drinking enough, do they have a cool place, do they know how to stay cool, and do they show signs of heat illness? Watch for muscle cramps, headache, nausea, vomiting, dizziness, confusion, or unusual tiredness and seek medical care right away for these. Hot, dry or very red skin, confusion, or passing out may be heatstroke - call 911 and cool the person immediately."
+      },
+      {
+        "step": 4,
+        "title": "Protect against cold",
+        "body": "NIH's National Institute on Aging warns that older adults can develop hypothermia even indoors in a mildly cool home of 60 to 65 F, and advises keeping the thermostat at 68 to 70 F or higher when possible. In an outage, gather everyone in one small room, dress in layers with a hat, use blankets, and eat warm meals and drinks. Some medicines, including some OTC cold remedies, and conditions like diabetes reduce the body's response to cold. Warning signs include confusion or sleepiness, slurred speech, shivering or stiffness, and clumsy movements. A body temperature of 96 F or lower means call 911."
+      },
+      {
+        "step": 5,
+        "title": "Prevent dehydration",
+        "body": "The sense of thirst weakens with age, and many older adults drink less to avoid trips to a dark or distant toilet. Set out a measured water bottle each morning and track it. Offer fluids at every meal and visit. Watch for dark urine, dry mouth, dizziness when standing, new confusion, and constipation. Treat diarrhea or vomiting early with oral rehydration solution. Sudden confusion in an older adult is a warning sign - check for dehydration, infection, low blood sugar, and heat or cold first, and get care."
+      },
+      {
+        "step": 6,
+        "title": "Prevent falls in a dark, cluttered home",
+        "body": "CDC reports that about 1 in 4 older adults falls each year, and falls are the leading cause of injury for people 65 and older. Outages and debris make it worse. Put battery or motion-sensor lights along the path to the bathroom and on stairs, and keep a flashlight within reach of the bed. Clear cords, rugs, and clutter from walkways. Wear supportive, non-slip, closed-toe shoes - not loose slippers. Get up slowly and pause before walking. Keep canes and walkers at the right height and within reach. Never climb on chairs; ask for help."
+      },
+      {
+        "step": 7,
+        "title": "Keep medicines on track",
+        "body": "Older adults often take many medicines, and a missed or doubled dose can be dangerous. Use a weekly pill organizer and a printed list of every medicine, dose, and time. Keep at least a 7 to 14 day reserve. Store medicines in the coolest dry spot during outages, and see the insulin guide for refrigerated medicines. Ask a pharmacist which medicines raise heat or fall risk. Never stop heart, blood pressure, or seizure medicines suddenly without advice."
+      },
+      {
+        "step": 8,
+        "title": "Know when to move them",
+        "body": "Move an older adult to a cooling or warming center, a relative's home, or a shelter early if the home cannot be kept safely warm or cool, if powered medical equipment cannot run, or if no one can check on them daily. Bring the medicine list, medicines, glasses, hearing aids, dentures, mobility aids, and chargers."
+      }
+    ],
+    "warnings": [
+      "Heatstroke (hot skin, confusion, collapse) is an emergency - call 911 and cool the person immediately.",
+      "A body temperature of 96 F or lower in an older adult means call 911.",
+      "Sudden confusion in an older adult is a medical warning sign, not normal aging.",
+      "Never use a gas oven, grill, or generator indoors for heat - carbon monoxide kills."
+    ],
+    "proTips": [
+      "Use the CDC HeatRisk forecast by ZIP code to plan check-ins on hot days.",
+      "Put a night light and a whistle at the bedside of anyone at risk of falls.",
+      "Make a large-print card with medicines, allergies, and emergency contacts.",
+      "Arrange a buddy check-in by phone or in person at set times each day."
+    ],
+    "relatedGuides": [
+      "home-002",
+      "home-001",
+      "health-002",
+      "health-016",
+      "medical-047",
+      "medical-008"
+    ],
+    "source": "CDC / NIH / Ready.gov",
+    "sources": [
+      {
+        "title": "Heat and Older Adults (Aged 65+)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/heat-health/risk-factors/heat-and-older-adults-aged-65.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Hypothermia: A Cold Weather Hazard for Seniors",
+        "publisher": "National Institutes of Health",
+        "url": "https://www.nih.gov/news-events/news-releases/hypothermia-cold-weather-hazard-seniors",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Older Adults",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/older-adults",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "8 Ways to Prevent Falls at Home",
+        "publisher": "UChicago Medicine",
+        "url": "https://www.uchicagomedicine.org/forefront/prevention-and-screening-articles/2026/january/8-ways-to-prevent-falls-at-home",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not keep an older adult in a home that cannot be kept safely cool or warm; move them early."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "An older adult is at home during a heat wave, cold snap, or long outage.",
+      "immediate": [
+        "Check on them at least twice a day",
+        "Get them to a cool or warm place and push fluids",
+        "Light the path to the bathroom and clear trip hazards"
+      ],
+      "then": [
+        "Keep medicines on schedule with an organizer and list",
+        "Call 911 for confusion, collapse, or temperature 96 F or lower"
+      ]
+    }
+  }
+]

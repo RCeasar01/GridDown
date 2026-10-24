@@ -2,27 +2,155 @@
   "id": "checklist-hurricane",
   "title": "Hurricane",
   "disasterType": "hurricane",
-  "description": "Complete 72 hours before a hurricane makes landfall in your area.",
+  "description": "Use this list before hurricane season and again when a Hurricane Watch is issued for your area.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Hurricane Information Sheet",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/sites/default/files/2020-03/hurricane_information-sheet.pdf",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "2026 NHC New Products and Services",
+      "publisher": "NOAA National Hurricane Center",
+      "url": "https://www.nhc.noaa.gov/pdf/2026NHCNewProductsAndServices.pdf",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Flood Safety",
+      "publisher": "NWS Boston/Norton",
+      "url": "https://www.weather.gov/box/flood_safety",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Winter Storms Aren't Over: CPSC Warns of Deadly Carbon Monoxide Risks and Fires During Power Outages",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "url": "https://cpsc.gov/Newsroom/News-Releases/2026/Winter-Storms-Arent-Over-CPSC-Warns-of-Deadly-Carbon-Monoxide-Risks-and-Fires-During-Power-Outages",
+      "accessed": "2026-10"
+    }
+  ],
   "items": [
-    { "id": "h-001", "text": "Know your evacuation zone — look up zone letter on local EM website", "critical": true },
-    { "id": "h-002", "text": "Fill all vehicle gas tanks now — stations sell out 36–48 hours out", "critical": true },
-    { "id": "h-003", "text": "Withdraw $300+ cash — ATMs and card readers fail without power", "critical": true },
-    { "id": "h-004", "text": "Store 1 gallon of water per person per day for minimum 14 days", "critical": true },
-    { "id": "h-005", "text": "Fill bathtubs using WaterBob or standard fill (backup water source)", "critical": true },
-    { "id": "h-006", "text": "Stock 2 weeks of non-perishable food that requires no cooking", "critical": true },
-    { "id": "h-007", "text": "Purchase or install hurricane shutters or pre-cut plywood for all windows", "critical": true },
-    { "id": "h-008", "text": "Charge all devices, battery banks, and backup batteries", "critical": false },
-    { "id": "h-009", "text": "Program NOAA weather radio with your county SAME code", "critical": true },
-    { "id": "h-010", "text": "Secure or bring inside all outdoor furniture, grills, and loose items", "critical": true },
-    { "id": "h-011", "text": "Identify your interior safe room (lowest floor, most interior room)", "critical": true },
-    { "id": "h-012", "text": "Gather medications — minimum 30-day supply before storm season", "critical": true },
-    { "id": "h-013", "text": "Generator placed outside, minimum 20 feet from any window or door", "critical": true },
-    { "id": "h-014", "text": "Stock generator fuel — use fuel stabilizer for storage", "critical": false },
-    { "id": "h-015", "text": "Document all valuables with photos for insurance", "critical": false },
-    { "id": "h-016", "text": "Know the location of gas, water, and electric shutoffs in your home", "critical": false },
-    { "id": "h-017", "text": "First aid kit checked and restocked", "critical": false },
-    { "id": "h-018", "text": "Emergency contacts written on paper (do not rely on phone)", "critical": false },
-    { "id": "h-019", "text": "Pet food, crate, and medications packed if evacuating", "critical": false },
-    { "id": "h-020", "text": "Important documents in waterproof bag: ID, insurance, medical records", "critical": true }
+    {
+      "id": "h-001",
+      "text": "Look up your evacuation zone with county emergency management and your storm surge risk on NHC surge maps - water causes most hurricane deaths",
+      "critical": true
+    },
+    {
+      "id": "h-021",
+      "text": "Decide where you will go if told to leave (inland friend, hotel, or shelter) and plan a main and backup route",
+      "critical": true
+    },
+    {
+      "id": "h-022",
+      "text": "If you live in a mobile home, RV, or temporary structure, plan to leave for any hurricane",
+      "critical": true
+    },
+    {
+      "id": "h-013",
+      "text": "Run any generator outdoors only, at least 20 feet (6 m) from windows, doors, and vents - never in a garage or on a porch - and install battery CO alarms",
+      "critical": true
+    },
+    {
+      "id": "h-004",
+      "text": "Store at least 1 gallon (3.8 L) of water per person per day - several days minimum, 2 weeks if you plan to stay",
+      "critical": true
+    },
+    {
+      "id": "h-006",
+      "text": "Stock at least 2 weeks of non-perishable food that needs no cooking, plus a manual can opener",
+      "critical": true
+    },
+    {
+      "id": "h-012",
+      "text": "Refill prescriptions at the Watch stage and keep extra supply as your plan allows, with a written medicine list",
+      "critical": true
+    },
+    {
+      "id": "h-007",
+      "text": "Install hurricane shutters or have pre-cut plywood marked for each window - do not rely on taping windows",
+      "critical": true
+    },
+    {
+      "id": "h-011",
+      "text": "Choose your wind shelter spot: a safe room or a small interior windowless room on the lowest floor that will not flood",
+      "critical": true
+    },
+    {
+      "id": "h-009",
+      "text": "Program a battery NOAA Weather Radio with your county SAME code and turn on phone alerts",
+      "critical": true
+    },
+    {
+      "id": "h-020",
+      "text": "Put IDs, insurance, and medical records in a waterproof bag, and keep encrypted digital copies",
+      "critical": true
+    },
+    {
+      "id": "h-002",
+      "text": "Fill vehicle gas tanks when a Watch is issued - fuel lines and shortages build fast before landfall",
+      "critical": true
+    },
+    {
+      "id": "h-003",
+      "text": "Get cash in small bills at the Watch stage - ATMs and card readers fail without power",
+      "critical": true
+    },
+    {
+      "id": "h-010",
+      "text": "Bring in or tie down outdoor furniture, grills, trash cans, and other loose items that wind can throw",
+      "critical": true
+    },
+    {
+      "id": "h-005",
+      "text": "Fill bathtubs and large containers with water for flushing and cleaning (a bathtub water-storage liner keeps it cleaner for drinking)",
+      "critical": false
+    },
+    {
+      "id": "h-008",
+      "text": "Charge phones, power banks, and spare batteries before the storm",
+      "critical": false
+    },
+    {
+      "id": "h-017",
+      "text": "Check and restock the first aid kit",
+      "critical": false
+    },
+    {
+      "id": "h-019",
+      "text": "Pack pet food, carriers, leashes, records, and pet medicines - take pets with you if you evacuate",
+      "critical": false
+    },
+    {
+      "id": "h-014",
+      "text": "Store generator fuel safely outside the living space in approved cans, with fuel stabilizer for longer storage",
+      "critical": false
+    },
+    {
+      "id": "h-016",
+      "text": "Know where your gas, water, and main electrical shutoffs are and how to use them",
+      "critical": false
+    },
+    {
+      "id": "h-018",
+      "text": "Write emergency contacts on paper - do not rely only on your phone",
+      "critical": false
+    },
+    {
+      "id": "h-015",
+      "text": "Photograph your home and valuables for insurance before the storm",
+      "critical": false
+    },
+    {
+      "id": "h-023",
+      "text": "Buy flood insurance months ahead - homeowner's policies usually exclude flooding and NFIP policies take about 30 days to start",
+      "critical": false
+    },
+    {
+      "id": "h-024",
+      "text": "Clear gutters and drains and trim weak or dead tree limbs before the season",
+      "critical": false
+    }
   ]
 }

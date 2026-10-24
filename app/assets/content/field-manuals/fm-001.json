@@ -2,73 +2,114 @@
   {
     "id": "fm-001",
     "category": "security",
-    "title": "FM 21-76 Urban Survival — Key Principles",
+    "title": "Army Survival Manual Principles for City Emergencies",
     "priority": "critical",
-    "source": "US Army Field Manual (Public Domain)",
+    "source": "U.S. military survival manual FM 21-76-1 (public domain) / CDC",
     "tags": [
       "field-manual",
       "survival",
       "urban",
-      "military",
-      "FM21-76"
+      "FM21-76",
+      "mindset",
+      "signaling",
+      "water"
     ],
-    "summary": "Core principles from the Army Survival Manual adapted for urban grid-down scenarios: signaling, water, shelter, and maintaining will to survive.",
+    "summary": "Key ideas from the U.S. military survival manuals, adapted for families stuck in a town or city when power, water, and phones fail: a calm mindset, water already in your home, staying safe and low-key, signaling for help, and finding your way without GPS.",
     "steps": [
       {
         "step": 1,
-        "title": "The Will to Survive",
-        "body": "Psychological toughness is the #1 survival factor per FM 21-76. Use the SURVIVAL acronym as a mental checklist: S — Size up the situation (surroundings, physical condition, equipment); U — Undue haste makes waste (slow down and think before acting); R — Remember where you are (stay oriented to terrain and objective); V — Vanquish fear and panic (acknowledge fear, then control it through action); I — Improvise (adapt military tools and techniques to what you have); V — Value living (your life and your group's lives are worth fighting for); A — Act like the natives (blend into your environment, avoid standing out); L — Live by your wits (use knowledge and training, not just gear). Survivors in extreme scenarios consistently report that the decision to live — made consciously — was the turning point."
+        "title": "Use the SURVIVAL checklist to stay calm",
+        "body": "The military survival manuals open with a memory aid that works just as well in a blackout as in the woods. S - Size up the situation, your surroundings, your health, and your gear. U - Use all your senses; slow down and notice. R - Remember where you are and where help is. V - Vanquish fear and panic by giving yourself a task. I - Improvise and improve with what you have. V - Value living; decide you will get through this. A - Act like the natives, meaning do what experienced locals do. L - Live by your wits. When stress spikes, walk through the letters out loud. It turns panic into a to-do list."
       },
       {
         "step": 2,
-        "title": "Urban Water Sources",
-        "body": "Urban structures contain significant water reserves often overlooked: (1) Fire suppression standpipes — buildings with sprinkler systems have pressurized lines containing treated water; access via hose bib connections. (2) Water heater tanks — residential units hold 40–80 gallons of treated water; drain via the bottom spigot. (3) Toilet tanks (NOT bowls) — the tank behind the toilet holds 1–3 gallons of potable water untouched by bowl contents. (4) Closed-loop HVAC systems in commercial buildings may contain large water volumes. Important: all recovered urban water should still be treated before consumption — contamination from pipe damage, chemical spill, or system breach is possible. Avoid floodwater entirely; it combines sewage, chemical, and biological hazards."
+        "title": "Find the water already in your home",
+        "body": "CDC lists safe backup water inside the house: the tank of your water heater (the one that feeds your faucets, not a radiator boiler in older homes), melted ice made from clean water, liquid in canned fruits and vegetables, and water in the toilet tank if it is clear and has no chemical cleaner. Never drink from the toilet bowl. Pool and spa water is for washing, not drinking. Water touched by fuel or chemicals cannot be made safe. Turn off the water heater's power or gas before draining it, and let it cool. Treat outdoor water before drinking, and follow local boil-water notices."
       },
       {
         "step": 3,
-        "title": "Urban Shelter Priorities",
-        "body": "In urban grid-down environments, security takes precedence over comfort — unlike wilderness survival where warmth and dryness come first. Key principles: (1) Upper floors provide observation advantage and make forced entry more difficult; (2) Ground floor access points must be reinforced or blocked — door frame reinforcement, window barricades, early warning systems (cans on wire, broken glass on sills); (3) Avoid open fires indoors if possible — heat signature and smoke column identify your position to opportunistic threats; use rocket stoves vented through existing chimneys or cook only during hours when ambient smoke is common (morning, evening); (4) Thermal signature management: body heat through windows is visible to thermal optics — use interior rooms; (5) Single entry/exit is a trap — always identify secondary egress before settling a location."
+        "title": "Stay put safely if your home is sound",
+        "body": "If officials have not ordered an evacuation and your home is not damaged, staying home usually beats wandering a city. Lock doors and windows, keep a way out clear in case of fire, and choose one room to gather the family at night. Cook and heat only with devices made for indoor use; never use grills, camp stoves, or generators inside, in a garage, or near windows, because carbon monoxide kills quickly. Run a battery-powered CO alarm. Keep a low profile: do not advertise supplies, and keep lights and noise modest after dark (see sec-006)."
       },
       {
         "step": 4,
-        "title": "Signaling for Rescue in Urban Areas",
-        "body": "When rescue or evacuation is the goal, active and passive signaling increases your chances significantly. Methods: (1) VS-17 signal panel — international orange/pink panel visible from aircraft at altitude; display on rooftops or open areas. (2) Mirror flash — improvised signal mirror (CD, chrome surface, makeup mirror) aimed at aircraft; effective range exceeds 10 miles. (3) Whistle pattern — three blasts repeated = universal distress; pause and repeat; carry a Fox 40 or similar pealess whistle. (4) Ground-to-air signals (stomp or arrange in open area, minimum 10 feet across): X = need medical assistance; arrow pointing = direction of travel; triangle (Δ) = safe to land here; N = negative/no. (5) Fire and smoke: black rubber smoke (burn tires cautiously) is visible in daytime sky; white smoke from green vegetation is used at night when fire itself is the signal."
+        "title": "Act like the natives - blend in",
+        "body": "In a city emergency, 'act like the natives' means behave like your calm, sensible neighbors. Dress plainly, carry supplies in an ordinary bag, keep cash and gear out of sight, and move with purpose. Avoid crowds that are growing angry, demonstrations, and long lines after dark. Travel in small groups and tell someone where you are going and when you will be back. Blending in reduces the chance that anyone sees you as a target; see sec-007 for more."
       },
       {
         "step": 5,
-        "title": "Urban Navigation Without GPS",
-        "body": "GPS-denied urban navigation relies on map literacy and environmental awareness: (1) Grid reference to street intersection — convert military grid to street address using pre-downloaded offline maps (Maps.me, CalTopo saved tiles); (2) Dead reckoning by block count — average city block is 260–900 feet depending on city; calibrate to your specific city beforehand; (3) Sun/shadow navigation — sun rises E, sets W; at noon, shadows point north in northern hemisphere; (4) Building numbering systems — in US cities, numbers typically increase away from a central baseline; even/odd sides are consistent within a city grid; (5) Utility infrastructure orientation — water mains follow streets and flow toward treatment plants (typically downhill or toward rivers); power transmission lines lead to substations on the grid periphery; these can orient you when street signs are missing or misleading."
+        "title": "Signal for help so rescuers can see you",
+        "body": "The manuals stress making signals as large and high-contrast as possible. From a roof, balcony, or yard, spread a bright sheet, tarp, or signal panel, or write SOS or HELP in big letters with tape or paint. Three of anything - three whistle blasts, three flashes, three bright objects in a row - is a widely understood distress signal. A mirror or shiny CD can flash sunlight toward aircraft. At night, use a flashlight or phone light in bursts. Do not burn tires or trash for smoke; the fumes are toxic and fires spread in cities."
+      },
+      {
+        "step": 6,
+        "title": "Find your way without GPS",
+        "body": "Keep a paper street map of your town in your go bag with key places marked: hospitals, fire stations, shelters, and family meeting spots. Download offline maps on your phone before trouble starts. Learn how your city numbers streets and addresses, since numbers usually climb as you move away from a central line. Count blocks as you walk and note big landmarks such as water towers, rivers, and highways. The sun rises roughly in the east and sets roughly in the west. If you are lost, stop, check your map, and ask first responders or shelter staff."
       }
     ],
     "warnings": [
-      "FM 21-76 is a military document — civilian application requires judgment about context. Tactics appropriate for combat zones may be illegal or counterproductive in a domestic disaster environment.",
-      "Urban survival priorities differ significantly from wilderness — security and concealment matter more in populated grid-down environments where resource competition is higher."
+      "Military manuals were written for service members in combat and remote areas. Use the survival ideas, not the military tactics, and follow civilian law and official instructions.",
+      "Never use fuel-burning stoves, grills, or generators indoors or in a garage. Carbon monoxide is odorless and deadly.",
+      "Do not drink floodwater or water that smells of fuel or chemicals - it cannot be made safe at home.",
+      "Do not enter damaged buildings; they can collapse or have gas leaks."
     ],
     "proTips": [
-      "Carry a VS-17 signal panel — it folds to fit in a cargo pocket and is visible from search aircraft at high altitude. Costs under $20 and weighs almost nothing.",
-      "Survival is 90% mental — the will to survive has kept people alive in conditions where it should have been statistically impossible. Maintain purpose, routine, and group cohesion."
+      "Fill bathtubs and clean containers as soon as a storm or outage is forecast, so you are not relying on the water heater.",
+      "Tape a bright cloth panel and a whistle inside your go bag; together they weigh almost nothing.",
+      "Practice the SURVIVAL checklist on small problems, like a flat tire, so it comes easily under stress.",
+      "Mark your paper map with two routes to each meeting place."
     ],
     "relatedGuides": [
-      "fm-002",
       "fm-004",
+      "sec-006",
+      "sec-007",
+      "sec-003",
       "water-002",
       "shelter-004"
     ],
-    "lastReviewed": "2025-01",
-    "skillLevel": "intermediate",
+    "sources": [
+      {
+        "title": "Survival, Evasion, and Recovery: Multiservice Procedures (FM 21-76-1, 1999)",
+        "publisher": "U.S. Army / USMC / USN / USAF, hosted by NC Resource Management Program",
+        "url": "https://rmp.nc.gov/LCF/Publications/AL_Resources/Survival/Multi Service Survival Manual.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Find Clean Water in an Emergency",
+        "publisher": "U.S. Centers for Disease Control and Prevention",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-find-clean-water-in-an-emergency.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Holiday a good time to travel, but stay smart",
+        "publisher": "U.S. Air Force, 501st Combat Support Wing",
+        "url": "https://www.501csw.usafe.af.mil/News/Article-Display/Article/437144/holiday-good-time-to-travel-but-stay-smart/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "high",
     "prerequisites": [],
+    "whenNotTo": [
+      "If officials order an evacuation or your home is damaged, leave instead of staying put - see sec-003.",
+      "Do not try to signal by starting fires in a city."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You are in an urban environment during a grid-down scenario and need to apply military survival principles to civilian conditions",
+      "situation": "You are in a town or city when power, water, and phone service fail and help may be slow.",
       "immediate": [
-        "Apply SURVIVAL acronym: Size up, Undue haste avoidance, Remember location, Vanquish fear, Improvise, Value life, Act like natives, Live by wits",
-        "Identify water in urban structures: water heater tanks (40-80 gal), toilet tanks (1-3 gal, not bowls), fire suppression standpipes",
-        "Select shelter prioritizing security over comfort: upper floors, multiple exits, blocked ground-level entry points"
+        "Walk through the SURVIVAL checklist to calm down and size things up",
+        "Use safe in-home water: water heater tank, clean ice, clear toilet tank (never the bowl)",
+        "Stay put if your home is sound; never use grills or generators indoors"
       ],
       "then": [
-        "Signal for rescue from rooftop: mirror flash, ground-to-air symbols minimum 10 feet across, three-fire triangle",
-        "Navigate without GPS using block counts, building numbering systems, sun/shadow direction finding"
+        "Signal for help with large bright panels, SOS, or three of anything",
+        "Navigate with a paper map and landmarks; ask responders if lost"
       ]
     }
   }

@@ -2,249 +2,1099 @@
   {
     "id": "psych-001",
     "category": "leadership",
-    "title": "Managing Panic — Yours and Others'",
+    "title": "Managing Panic - Yours and Others'",
     "priority": "critical",
-    "tags": ["leadership", "psychology", "panic", "stress-management"],
-    "summary": "Understand the physiological panic response and apply proven techniques to regain control for yourself and calm others.",
+    "tags": [
+      "leadership",
+      "psychology",
+      "panic",
+      "stress-management",
+      "breathing",
+      "grounding"
+    ],
+    "summary": "How to notice the panic response early, bring yourself back with slow breathing and grounding, and calm a frightened person or group by giving them something to do.",
     "steps": [
       {
         "step": 1,
-        "title": "The Physiology of Panic",
-        "body": "Panic is not a character flaw — it is a predictable physiological response to perceived life threat. The amygdala (the brain's threat-detection center) triggers an adrenaline surge that causes: heart rate spike to 100–180 BPM, peripheral vision narrowing (tunnel vision), fine motor skill degradation (hands shake, fine coordination fails), and downregulation of the prefrontal cortex — the rational, planning portion of your brain. This is your survival system activating. It is optimized for immediate physical threat response — run or fight — not for complex problem-solving. The core challenge in a crisis is that the very brain systems you need for good decision-making are the first to be degraded by the threat response. Recognition of this process as it happens is the first intervention: 'This is the adrenaline response. My brain is narrowing. I need to intervene.'"
+        "title": "Recognize the signs early",
+        "body": "Fear is a normal reaction to danger. It can make you careful, or it can freeze you. Military survival training calls panic one of the biggest threats in any survival situation because it wrecks judgment. Learn your own early signs: pounding heart, fast shallow breathing, tunnel vision, shaking hands, a dry mouth, and an urge to run or do something - anything - right now. The thinking part of your brain works worse when this happens. Name it to yourself as soon as you notice it: 'This is adrenaline. I need 60 seconds to get my head back.' Naming the reaction does not make it go away, but it reminds you not to make a big decision in the first rush of fear. Unless there is an immediate threat like fire or a collapse, a short pause is almost always safe."
       },
       {
         "step": 2,
-        "title": "Tactical Breathing (Box Breathing)",
-        "body": "Box breathing is the fastest evidence-based intervention for physiologically downregulating the panic response. Mechanism: controlled breathing activates the vagus nerve, triggering the parasympathetic nervous system (rest-and-digest), which directly counteracts the sympathetic (fight-or-flight) activation. Protocol: Inhale slowly through the nose for 4 counts. Hold breath for 4 counts. Exhale slowly through the mouth for 4 counts. Hold (empty) for 4 counts. Repeat for 4 cycles. Effect: measurable reduction in heart rate within 60–90 seconds, partial restoration of prefrontal cortex function within 2–3 cycles. Adopted by Navy SEALs (where it is called tactical breathing), emergency room surgeons, and combat veterans because it works under genuine life-threat conditions — not just exercise-induced stress. Learn it now, before you need it — technique learned under calm conditions transfers to high-stress conditions."
+        "title": "Slow your breathing",
+        "body": "Slow breathing is one of the simplest tools the VA National Center for PTSD recommends for staying calm. One easy pattern is box breathing: breathe in through your nose for a count of 4, hold for 4, breathe out slowly through your mouth for 4, hold for 4. Repeat 4 to 6 times. If holding your breath feels bad, just make each breath out longer than the breath in - for example, in for 4 and out for 6. Drop your shoulders and unclench your jaw while you do it. You should notice your heart rate easing and your thinking getting clearer within a minute or two. Practice this daily when you are calm, a few minutes at a time. A skill practiced in calm times is much easier to use when you are scared."
       },
       {
         "step": 3,
-        "title": "Grounding Technique (5-4-3-2-1)",
-        "body": "The 5-4-3-2-1 grounding technique is used for acute panic or dissociation — states where the individual is losing contact with present reality and spiraling into catastrophic thinking. Protocol: force sensory engagement with the current physical environment by sequentially naming: 5 things you can currently see (describe them specifically — 'the red exit sign, the cracked ceiling tile, the water on the floor'). 4 things you can physically touch right now (press your hands against them). 3 things you can currently hear. 2 things you can smell. 1 thing you can taste. The mechanism: the exercise forces sensory processing through multiple channels simultaneously, which cannot co-occur with abstract fearful rumination. It anchors the person in the present moment, interrupts the catastrophic thought spiral, and restores enough executive function to take the next small action."
+        "title": "Ground yourself in the present",
+        "body": "When your mind is racing through worst-case scenarios, pull your attention back to what is real right now. The 5-4-3-2-1 method works well: name 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste. Say them out loud or under your breath, and be specific ('the green flashlight, the wet floor'). Press your feet into the ground and your hands onto a solid surface. The VA recommends focusing on your breathing or your senses in this way to feel safer after a disaster. Once you feel steadier, pick one small, concrete next action - check the water jug, look out the window, count supplies. Action is the bridge back to clear thinking."
       },
       {
         "step": 4,
-        "title": "Calming Others",
-        "body": "Panic is contagious — but calm is equally contagious. Before attempting to calm another person, verify that you have first stabilized your own state with tactical breathing. Attempting to calm someone else from a place of personal panic produces the opposite effect. With the other person: lower your own voice before speaking — a calm, measured tone at moderate volume is more effective than raised volume. Make appropriate physical contact if the person is receptive: a firm hand on the shoulder or arm creates a physical connection that grounds the panicking person. Use short, direct sentences rather than complex explanations: 'Look at me. Good. Breathe with me.' Never say 'calm down' — it is not actionable and can increase frustration. Instead, give a task: 'Hold this flashlight here and keep it pointed at that door.' Tasks engage the cognitive system and interrupt the emotional loop."
+        "title": "Calm yourself before you calm others",
+        "body": "Fear spreads through a group, and so does calm. If you try to settle someone while you are still panicked, you will usually make it worse. Take three slow breaths first. Then lower your voice, slow your speech, and use short sentences. Get to their eye level. Say their name. Try: 'Sam, look at me. You're safe right now. Breathe with me.' Then breathe slowly together where they can see you. Ask before touching; a hand on the shoulder helps some people and scares others. Do not say 'calm down' - it is not an instruction anyone can follow. Do not lie ('everything is fine') when it is clearly not; false reassurance destroys trust the moment reality shows up."
       },
       {
         "step": 5,
-        "title": "Managing Group Panic",
-        "body": "A single panicking individual in a group can cascade — panic activates threat-detection in observers who then panic themselves, amplifying the original response. Group panic management: first priority is to prevent cascade, not to resolve the individual. Move the panicking person away from the group if possible — create physical separation before the emotional state spreads. In a fixed space where separation is not possible, the leader's most effective tool is rapid, authoritative action: say something specific, direct, and calm. 'Everyone stop. Listen to me. Here is what we are doing right now.' The specificity ('here is what we're doing') gives people cognitive traction — something to think about other than the threat. Then give each person a task immediately. People with assigned tasks stop feeding the panic loop and start executing. Track for secondary panic responses in the group for the next 10–15 minutes — initial calming is not permanent resolution."
+        "title": "Give them a job",
+        "body": "A panicking person needs something to focus on that is not the threat. Once they can hear you, give one simple, useful task with a clear end: 'Hold this light on the door,' 'Fill these two bottles,' 'Count how many cans we have.' A real job gives the mind something to grip and helps restore a sense of control. Check back in a few minutes and thank them for doing it. Keep tasks short and easy at first, and step up to bigger jobs as they settle. Children respond well to this too - give them real, safe work, not pretend tasks."
       },
       {
         "step": 6,
-        "title": "After-Action — Processing the Response",
-        "body": "Panic suppression without acknowledgment creates a delayed response problem — the unprocessed event resurfaces as intrusive thoughts, irritability, or excessive fear response to subsequent stressors. After the immediate threat has passed: acknowledge that the panic response occurred without shame (it happened, it is a normal physiological event, it does not indicate unfitness). Privately or in a small trusted group, work through: what was the trigger? What early physical signs appeared before full panic (elevated heart rate, tunnel vision, urge to run)? What worked — breathing, grounding, task assignment? What would I do differently? Build this into your mental model. Each analyzed event improves your recognition speed and intervention effectiveness in subsequent events. This is how emergency professionals develop stress inoculation — not by being fearless, but by having detailed experience of their own response patterns."
+        "title": "Stop group panic from spreading",
+        "body": "When several people start to panic at once, speak to the whole group in a firm, level voice: 'Everyone stop. Listen. Here is what we are doing right now.' Then give one clear plan and assign people by name. If one person is spiraling, move them a few steps away from the group with one calm helper so the fear does not spread. In a true emergency - fire, gas smell, collapse - the plan is simply to move to safety; skip the calming and lead the way out. Watch the group for the next 10 to 15 minutes, because fear often comes back in waves as new information arrives."
+      },
+      {
+        "step": 7,
+        "title": "Talk it through afterward",
+        "body": "When the danger has passed, take a few minutes to talk about what happened without blame. Panic is a body reaction, not a weakness. Ask: What set it off? What were the first signs? What helped? What would we do differently? Write down what worked so the group can use it next time. Normal reactions after a scary event include trouble sleeping, irritability, and replaying the event. These often fade over days to weeks. If someone keeps having panic attacks, cannot function, or talks about harming themselves, get professional help as soon as you can. In the U.S., call or text 988 for the crisis line, or call or text the SAMHSA Disaster Distress Helpline at 1-800-985-5990."
       }
     ],
     "warnings": [
-      "Suppressing panic without acknowledging it creates a delayed cascade — the unprocessed state emerges later at a worse moment.",
-      "Telling someone 'everything is fine' when it is clearly not destroys trust and creates a larger panic response when reality contradicts the false reassurance.",
-      "Do not attempt to physically restrain a panicking individual unless they are actively harming themselves or others — physical restraint often intensifies the panic response."
+      "Chest pain, fainting, trouble breathing, or confusion can be a heart attack, asthma, low blood sugar, or other medical emergency, not panic. Treat it as medical until you are sure, and call 911 if you can.",
+      "Do not make big, permanent decisions in the first rush of fear unless staying put is clearly deadly.",
+      "Do not physically restrain a panicking person unless they are about to hurt themselves or someone else. Restraint usually makes panic worse.",
+      "False reassurance ('help is on the way') that turns out wrong costs you the group's trust when you need it most."
     ],
     "proTips": [
-      "Practice box breathing daily for 5 minutes until it is a completely automatic sequence — it only transfers to genuine high-stress conditions through repetition, not just knowledge.",
-      "As a group leader, your emotional affect is transmitted to your group at approximately 3× your own perceived intensity — control your face and voice before you open your mouth in any crisis situation.",
-      "The most useful pre-crisis activity is having an honest conversation about panic with your group before an emergency: 'If someone panics, here's what we'll do.' Named protocols reduce the stigma and response time."
+      "Practice slow breathing for 2-5 minutes a day so it becomes automatic before you ever need it.",
+      "Agree on a family 'panic plan' ahead of time: who calms whom, what words you will use, and what simple job each person takes.",
+      "Keep small, concrete tasks ready to hand out - filling water, counting supplies, holding a light - so you never have to think one up under stress.",
+      "Your face and voice set the tone. Take one slow breath before you speak to the group."
     ],
-    "relatedGuides": ["psych-002", "psych-003"]
-  },  {
+    "relatedGuides": [
+      "psych-002",
+      "psych-003",
+      "health-012",
+      "health-013",
+      "medical-012",
+      "sec-009"
+    ],
+    "source": "U.S. Marine Corps survival training (FM 21-76) / VA National Center for PTSD / SAMHSA",
+    "sources": [
+      {
+        "title": "RP0401 Field Survival (based on FM 21-76 / MCRP 3-02F Survival)",
+        "publisher": "U.S. Marine Corps Training and Education Command",
+        "url": "https://www.tecom.marines.mil/Portals/120/Docs/Student%20Materials/CREST%20Manual/RP0401.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Self-Care After Disaster Events",
+        "publisher": "VA National Center for PTSD",
+        "url": "https://www.ptsd.va.gov/disaster_events/for_everyone/selfcare_after_disaster.asp",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Cope With Traumatic Events and Disasters",
+        "publisher": "SAMHSA",
+        "url": "https://www.samhsa.gov/mental-health/disaster-preparedness/coping-tips",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When there is an immediate physical danger (fire, gas, collapse, rising water) - move people to safety first and calm them afterward.",
+      "When the person may be having a medical emergency such as a heart attack, asthma attack, or diabetic low - treat the medical problem first."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You or someone near you is starting to panic during an emergency.",
+      "immediate": [
+        "Move away from any immediate physical danger first.",
+        "Breathe slowly: in 4, hold 4, out 4, hold 4 - repeat 4 to 6 times.",
+        "Speak low and slow, use the person's name, and breathe with them.",
+        "Give them one simple, real task to do."
+      ],
+      "then": [
+        "Watch the group for the next 10-15 minutes for fear coming back.",
+        "Talk it through later and note what worked.",
+        "Get professional help if panic keeps returning; call or text 988 in a crisis."
+      ]
+    }
+  },
+  {
     "id": "psych-002",
     "category": "leadership",
     "title": "Decision Making Under Stress",
     "priority": "advanced",
-    "tags": ["leadership", "psychology", "decision-making", "OODA"],
-    "summary": "Apply proven frameworks for making better decisions when stress degrades cognitive function.",
+    "tags": [
+      "leadership",
+      "psychology",
+      "decision-making",
+      "OODA",
+      "priorities",
+      "delegation"
+    ],
+    "summary": "Simple, repeatable ways to make good-enough decisions fast when stress, fatigue, and missing information make clear thinking hard.",
     "steps": [
       {
         "step": 1,
-        "title": "How Stress Degrades Decisions",
-        "body": "Under high stress, your brain defaults to System 1 thinking — fast, automatic, intuitive, pattern-matching cognition that evolved for rapid response to familiar threats. System 1 is effective when the current situation closely matches situations you have encountered before. It is dangerous when the situation is novel, complex, or requires nuanced trade-offs — exactly what most emergencies present. System 2 thinking — slow, deliberate, analytical, capable of considering novel problems — is the first casualty of stress-induced cortisol and adrenaline release. The prefrontal cortex that handles System 2 thinking is literally downregulated by the stress hormones designed to activate System 1. Solution: do not try to think better under stress. Instead, install deliberate decision frameworks into memory through practice, so that when stress forces you into automatic mode, those frameworks are the automatic patterns that activate."
+        "title": "Know what stress does to your thinking",
+        "body": "Under stress, people jump to fast, gut-level choices and stop weighing options. That works when the situation is familiar. It fails when the problem is new or has trade-offs - which describes most emergencies. Stress also narrows attention, so you fixate on the loudest problem and miss quieter, deadlier ones. You will not out-think this in the moment. Instead, carry a few simple decision habits that you have practiced ahead of time, so they kick in automatically. The U.S. military survival acronym SURVIVAL starts with 'Size up the situation' and 'Use all your senses; haste wastes' for this reason: a short, deliberate look beats a fast wrong move."
       },
       {
         "step": 2,
-        "title": "The OODA Loop",
-        "body": "The OODA Loop was developed by US Air Force Colonel John Boyd through analysis of fighter pilot combat performance in the Korean War. OODA stands for: Observe — gather raw sensory data from the environment without filtering or interpretation. What is actually, literally happening right now? Orient — apply context to raw data. What does this mean? What have I seen like this before? What is likely true? What is certainly true? Decide — select a course of action from the available options. Act — execute the decision. Then immediately return to Observe with new data. Boyd's insight was that in any competitive or rapidly evolving scenario, the winner is almost always the person or system that cycles through OODA fastest — not necessarily the one with the best individual decisions. Applied to emergency response: move through the loop quickly, be willing to make small decisions rapidly and update them, and avoid getting stuck in Orient or Decide phases waiting for certainty."
+        "title": "Size up before you act",
+        "body": "Take 30 to 60 seconds to look, listen, and count. Ask three questions: What is happening right now? What is about to get worse? What do we have to work with - people, tools, water, time? CERT leadership training uses a similar process: define all the problems, look at the information carefully, pick out the problems your team can actually handle, rank them, and choose a course of action for each. Say what you know and what you do not know out loud, even if only to yourself. If you are leading, share it with the group. Separating facts ('the water is at the second step') from guesses ('the road is probably out') keeps rumors from steering the decision."
       },
       {
         "step": 3,
-        "title": "Prioritization Framework",
-        "body": "When a crisis presents multiple simultaneous problems, the instinct to address the most visible or most emotionally salient problem first is often wrong. A structured prioritization framework prevents this: Step 1 — Life safety. Immediate threats to human life are addressed first, regardless of resource cost or complexity. Nothing else happens until life threats are addressed. Step 2 — Prevent escalation. What is currently stable but will become worse if not addressed? A containable fire, a person approaching a dangerous state of mind, a resource that will be lost if not secured. Address these second. Step 3 — Stabilize. Establish baseline capability — food, water, shelter, communication. Step 4 — Optimize. Now improve your position. The sequence exists because people regularly skip Step 1 and 2 to jump to Step 4 — because optimizing feels productive. Optimization while a fire spreads is a mistake."
+        "title": "Put problems in the right order",
+        "body": "When several things are wrong at once, handle them in this order. First, threats to life right now: fire, severe bleeding, gas, rising water, extreme cold or heat. Second, problems that are stable but will get much worse soon: a small leak, a dropping fuel supply, a person getting sicker. Third, basic needs: safe water, shelter, warmth, food, sanitation, communication. Fourth, everything that makes life easier. People often skip to the fourth group because it feels productive. Reorganizing supplies while a heater is filling the room with carbon monoxide is a classic mistake. Write the list down and work it top to bottom."
       },
       {
         "step": 4,
-        "title": "The Good Enough Decision",
-        "body": "Perfectionism kills decision-making under time pressure. The cognitive bias toward seeking a complete solution before acting is adaptive in stable environments and catastrophic in dynamic emergencies. The military standard for decision-making under time pressure is the '70% solution' principle: a decision made on 70% of the information you'd ideally want, executed now, produces better outcomes than the optimal decision executed 30 minutes from now. Why: emergencies are dynamic. By the time you've gathered the remaining 30% of information and decided, the situation has changed and your decision may no longer apply to reality. The objective is to move from no-action to action, accepting that your decision will be imperfect and you will adjust as you observe results. 'Don't let perfect be the enemy of good enough' is not a resignation to mediocrity — it is an operationally sound approach to time-critical decision-making."
+        "title": "Use a fast loop: observe, orient, decide, act",
+        "body": "The OODA loop, developed by U.S. Air Force Colonel John Boyd, is a handy way to keep moving. Observe: what is actually happening? Orient: what does it mean, given what you know? Decide: pick one course of action. Act: do it. Then go straight back to Observe and check whether it worked. The point is not one perfect decision but many small, correctable ones. Make the decision, watch the result, and adjust. If the first plan is not working, CERT training says to switch to your backup plan rather than pushing harder on a failing one."
       },
       {
         "step": 5,
-        "title": "Decision Fatigue",
-        "body": "Each decision you make depletes a measurable, finite cognitive resource. Research consistently shows that decision quality degrades as the number of decisions made increases, regardless of the individual decision's complexity. This is decision fatigue. In a crisis that requires many decisions over hours or days, fatigue-induced poor decisions accumulate and compound. Mitigations: pre-plan decisions before the crisis. SOPs (standard operating procedures) for predictable events transform a decision into an execution — no cognitive cost. 'If the building loses power, I do X, Y, Z' requires no decision under stress. Delegate routine decisions to capable group members immediately — free your cognitive bandwidth for strategic choices. Reduce optionality: fewer choices per decision means less depletion per decision. Preserve significant decisions for your highest-functioning periods (after rest, after eating, early in the day before fatigue accumulates)."
+        "title": "Accept a good-enough answer on a deadline",
+        "body": "Waiting for perfect information is itself a decision, and often a bad one. Set a time limit that fits the stakes: seconds for a fire, minutes for whether to evacuate, hours for a supply plan. When the time is up, choose the best option you have. Many military leaders use a rough '70 percent' rule - if you have most of the information and more waiting will cost you, decide. Then tell people the plan clearly and say when you will re-check it ('We stay put; I'll reassess at noon'). A scheduled re-check makes it easier to commit now without feeling locked in."
       },
       {
         "step": 6,
-        "title": "When to Delegate",
-        "body": "A leader who tries to make every decision in a crisis fails through cognitive overload and creates a dependent group that stops thinking. The test for any decision: Does this require my unique knowledge, authority, or perspective? If the answer is no, it should be delegated to the most capable available person. Effective delegation: assign the task to a named individual (not 'someone'), state the desired outcome rather than prescribing exactly how to achieve it (allows the delegate to apply their own competence), establish a reporting expectation ('Tell me what you find in 15 minutes'), and trust the result unless there is evidence of a problem. Delegation benefits compound: the delegating leader reclaims bandwidth, the delegated-to individual develops competence and confidence, and the group develops capacity for distributed decision-making — which is more resilient than single-point leadership."
+        "title": "Fight decision fatigue",
+        "body": "Every decision uses up a little of your mental energy, and the quality of decisions drops as the hours and the decisions pile up, especially without sleep or food. Make routine choices ahead of time with simple rules: 'If the power is out more than 4 hours, we move the freezer food to coolers.' Rules turn decisions into actions. Hand routine decisions to other people. Save the big, hard-to-reverse choices for times when you have eaten and rested. If you have been awake a long time, say so and ask someone else to double-check your thinking."
+      },
+      {
+        "step": 7,
+        "title": "Check your blind spots",
+        "body": "Stress makes everyone seek information that agrees with what they already think. Before a major decision, ask one person to argue against it, or run a quick 'pre-mortem': imagine the plan failed, and list the most likely reasons. Fix the top one or two. Write the decision and the reason on paper in one sentence. Writing forces you to be precise, helps the next shift understand what was decided, and prevents arguments later about who said what."
       }
     ],
     "warnings": [
-      "Confirmation bias — the tendency to seek information that confirms your existing belief — is dramatically amplified under stress. Actively seek disconfirming evidence and assign someone to argue against your chosen course of action before committing.",
-      "Analysis paralysis — cycling through options without deciding — is as dangerous as a poor decision in time-critical situations. Set a decision deadline and honor it."
+      "Analysis paralysis - circling options without choosing - can be as dangerous as a poor choice. Set a deadline and keep it.",
+      "Fatigue and hunger quietly wreck judgment. Do not make irreversible decisions while badly sleep-deprived if they can wait.",
+      "Rumors spread fast in a crisis. Act on verified information from official alerts, your own eyes, or trusted reports."
     ],
     "proTips": [
-      "Run a pre-mortem before committing to a major decision: ask 'If this plan fails, what are the most likely reasons?' Pre-identified failure modes are far easier to prevent than post-identified ones.",
-      "Red-teaming — assigning someone to actively argue against your decision — is the most reliable way to catch the blind spots that stress-induced tunnel vision creates.",
-      "Write decisions down when possible, even one sentence on paper. The act of writing forces precision and creates a reference that prevents the stress-induced memory distortion that makes people later misremember what they actually decided."
+      "Keep a small notebook for decisions: time, decision, reason, re-check time.",
+      "Write 'if-then' rules for your most likely emergencies now, while you are calm.",
+      "Ask 'What will this look like in an hour if we do nothing?' to spot problems that are about to get worse."
     ],
-    "relatedGuides": ["psych-001", "psych-003"]
-  },  {
+    "relatedGuides": [
+      "psych-001",
+      "psych-003",
+      "psych-008",
+      "psych-005"
+    ],
+    "source": "U.S. Marine Corps survival training (FM 21-76) / FEMA CERT",
+    "sources": [
+      {
+        "title": "CERT Tools for Leadership Success",
+        "publisher": "FEMA / Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2020-08/cert_toolsforleadershipsuccess.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "RP0401 Field Survival (based on FM 21-76 / MCRP 3-02F Survival)",
+        "publisher": "U.S. Marine Corps Training and Education Command",
+        "url": "https://www.tecom.marines.mil/Portals/120/Docs/Student%20Materials/CREST%20Manual/RP0401.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "IS-100.c Introduction to the Incident Command System (class handouts)",
+        "publisher": "FEMA Emergency Management Institute (via URMC Finger Lakes Regional Training Center)",
+        "url": "https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/flrtc/documents/ICS-100-Class-Handouts_1.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When a trained responder (firefighter, police, EMS) is on scene and giving instructions - follow them.",
+      "When an official evacuation order is in place - leave; do not re-decide it."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You must decide something important fast while stressed and missing information.",
+      "immediate": [
+        "Take 30-60 seconds to size up: what is happening, what will get worse, what do we have?",
+        "Handle life threats first, then problems about to get worse, then basic needs.",
+        "Set a decision deadline and pick the best option when it arrives."
+      ],
+      "then": [
+        "Announce the plan and when you will re-check it.",
+        "Ask someone to argue against big decisions before you commit.",
+        "Write down the decision and the reason."
+      ]
+    }
+  },
+  {
     "id": "psych-003",
     "category": "leadership",
     "title": "Group Leadership in a Crisis",
     "priority": "advanced",
-    "tags": ["leadership", "group", "crisis", "authority"],
-    "summary": "Establish effective leadership in an improvised group during emergencies, manage conflict, and keep people moving forward.",
+    "tags": [
+      "leadership",
+      "group",
+      "crisis",
+      "authority",
+      "delegation",
+      "CERT"
+    ],
+    "summary": "How to step up and lead a household, neighbors, or a group of strangers in an emergency: earn trust fast, give clear assignments, match your style to the situation, and hand off leadership before you burn out.",
     "steps": [
       {
         "step": 1,
-        "title": "Establishing Authority",
-        "body": "In a crisis, authority is not conferred by title, age, or seniority — it is earned in real time through demonstrated competence and composure. The person who acts first with visible confidence and specific, correct action draws others. The corollary: the person who hesitates, asks questions without answers, or visibly panics loses the room, regardless of their formal title. In the first minutes of a crisis, people are looking for someone who knows what is happening. Establish authority through action sequence: assess the situation quickly (even 30 seconds of visible, methodical looking around communicates competence). State what you know and what you don't (honesty about uncertainty builds trust; false certainty destroys it when reality diverges). Take one specific visible action that addresses the highest-priority problem. This sequence — assess, state, act — done within the first 2 minutes, establishes you as the decision point for the group."
+        "title": "Earn authority by being calm and useful",
+        "body": "In a crisis, people follow whoever seems to know what to do, not whoever has the biggest title. Earn that trust in the first few minutes. Take a short, visible look around. Then say plainly what you know and what you do not: 'The power is out across the whole street. I don't know for how long yet.' Then take one useful action on the biggest problem. Honesty about what you don't know builds trust; false certainty destroys it the moment reality disagrees. If someone in the group clearly has more relevant skill - a nurse for an injury, an electrician for a downed line - let them lead that part. Good leaders know when to step aside."
       },
       {
         "step": 2,
-        "title": "The Initial Address",
-        "body": "When you have established yourself as the acting leader, your first formal address to the group should occur within the first 2 minutes and follow a specific structure. Acknowledge the situation honestly: 'Here is what has happened: [brief factual statement]. This is serious and we are dealing with it.' State what you know and explicitly state what you don't: 'What I know: [facts]. What I don't know yet: [gaps]. I am finding out.' Give one specific, immediate task to every available person: 'Sarah — check on everyone in rooms 1 through 5 and report back to me in 10 minutes. Marcus — find every water source in this building and bring me an inventory. Jenna — you're with me.' Project control through specificity — named tasks, specific deliverables, specific timeframes. This communication structure provides cognitive traction for everyone in the group and transforms passive frightened observers into active contributors within 60 seconds."
+        "title": "Give a short first briefing",
+        "body": "Within the first few minutes, gather people and give a briefing of about one minute. Cover four things: what happened, what we know and don't know, what we are doing right now, and who is doing what. Assign tasks by name, with a time to report back: 'Maria, check on everyone in the back rooms and tell me in 10 minutes. Dev, find every flashlight and bring them here. Lee, stay with me.' Use plain words, short sentences, and ask people to repeat key instructions back. CERT leadership training stresses these same habits: clear, simple directions and confirming people understood."
       },
       {
         "step": 3,
-        "title": "Task Delegation",
-        "body": "Effective delegation in an improvised crisis group requires assessing competence in real time with limited information. Prioritize: ask directly for relevant experience ('Does anyone here have medical training? Does anyone have a vehicle? Who has been in this building before?'). Self-reported expertise is the fastest initial signal — and it comes with accountability when the person volunteers it. Match task to claimed competence. Critical: close the delegation loop with accountability. A delegated task without accountability is often incomplete. 'Marcus, you have 10 minutes to inventory the water sources — come back to me with what you found whether it's complete or not.' At the checkpoint, acknowledge results (positive or negative) and re-assign as needed. Track all delegated tasks either mentally or on paper — multiple simultaneous delegations without tracking leads to tasks falling between the gaps."
+        "title": "Find out what people can do",
+        "body": "Ask the group directly: 'Who has medical training? Who knows this building or area? Who has a vehicle, a radio, tools?' Match jobs to real skills and to people's physical limits. Military survival training emphasizes assigning tasks according to each person's abilities and looking after one another. Keep the span of control small: the Incident Command System suggests one supervisor for about five people. If you have more than that, name a few small-team leads and talk mainly to them. Pair people up so no one works alone on risky tasks. Keep a simple list of who is doing what so jobs don't fall through the cracks."
       },
       {
         "step": 4,
-        "title": "Managing Conflict",
-        "body": "Conflict within a crisis group is not a leadership failure — it is predictable, and handling it is part of the job. Conflict arises from: resource scarcity (who gets what, how much), direction disagreement (where should we go, what should we do), and authority contests (why should you decide, not me). Address conflict directly and immediately — unresolved conflict consumes group energy, disrupts coordination, and erodes trust. Protocol for conflict in a crisis: acknowledge the disagreement publicly and briefly ('There's a real disagreement here'). Give both positions a single brief hearing (no extended debate — one exchange each). Make a decision: 'Here's what we're doing and why.' Execute and move. Post-decision, the expectation is compliance even from those who disagreed — disagreement is allowed, defiance is not. Revisit the decision only if new information significantly changes the situation — not because the dissenting party continues to lobby."
+        "title": "Match your style to the situation",
+        "body": "CERT training describes three leadership styles. When lives are in immediate danger, be directive: take input quickly, but decide and give clear orders. When the situation is controlled but still serious, be participative: ask for ideas, then decide. When there is a settled plan and no immediate danger, be delegative: let team members make decisions within their jobs, while you stay informed and available. A useful test: How bad is a wrong decision, and how much time do we have? High stakes and little time call for command. Lower stakes and more time call for discussion. Using command for everything breeds resentment; using a vote during a fire gets people hurt."
       },
       {
         "step": 5,
-        "title": "Consensus vs Command",
-        "body": "Two leadership styles exist on a spectrum: command (one person decides, others execute) and consensus (all parties deliberate, group decides). Neither is universally correct — the context determines which is appropriate. Command is appropriate when: decisions are time-critical, life safety is at stake, the leader has clearly superior information or expertise, or the group is in a state of cognitive overload and needs a decision injected. Consensus is appropriate when: time is available, the decision significantly impacts all group members over the long term, the decision is reversible, or buy-in is more important than speed. Critical errors: using command for low-stakes decisions creates resentment and removes group initiative. Using consensus for time-critical decisions causes dangerous delay. Apply the test: 'What is the cost of the wrong decision here, and how much time do I have?' High cost + low time = command. Lower cost + more time = consensus."
+        "title": "Handle disagreement quickly and fairly",
+        "body": "Conflict in a stressed group is normal. Deal with it early, before it festers. In urgent moments, give each side one short hearing, decide, explain why in one sentence, and move on. Disagreement is allowed; refusing to cooperate on safety is not. Revisit a decision only when new facts appear, not because someone keeps pushing. For longer-running conflicts over chores, space, or supplies, use the step-by-step approach in the conflict guide (psych-006). If a dispute turns threatening, focus on calming it and keeping people safe (see sec-009)."
       },
       {
         "step": 6,
-        "title": "After-Action and Leadership Transition",
-        "body": "Once the immediate crisis phase passes, the leadership structure needs to evolve. Single-leader command is appropriate for emergency response but unsustainable and counterproductive in an extended scenario — it causes leader burnout, creates dangerous single-point dependency, and generates resentment. Transition to a council or distributed model when the immediate crisis stabilizes: establish a formal group decision-making process with rotating chair, formalize resource distribution rules, and explicitly distribute authority over different domains (one person owns food inventory, one owns medical, one owns security). Conduct a brief after-action review of the crisis response: what worked, what failed, what was our decision quality, what do we do differently next time. Keep it under 30 minutes — long enough to generate insight, short enough to not exhaust the group. Document decisions and insights where possible."
+        "title": "Look after your people and yourself",
+        "body": "A team runs on rest, food, and water. Brief people before each task, rotate hard or risky jobs, and enforce breaks away from the scene. Watch for signs of strain: irritability, mistakes, withdrawal, or someone pushing far past exhaustion. Leaders burn out fastest because they never stop. Name a second-in-charge early. When you need rest, hand over with a short briefing - what is happening, what is in progress, what is planned - just as ICS requires a briefing at every change of command. CERT leadership training also suggests that if a leader is clearly worn out, one or two members should quietly ask whether they need help."
+      },
+      {
+        "step": 7,
+        "title": "Shift to shared leadership for the long haul",
+        "body": "One-person command works for the first hours. Over days or weeks it causes burnout, resentment, and a dangerous single point of failure. Once things stabilize, spread out responsibility: one person owns water and food, one owns medical and hygiene, one owns communications, one owns safety and night watch. Hold a short daily meeting to set priorities together. Write down shared rules, especially for supplies (see psych-009). Do a short after-action talk after big events: what worked, what didn't, what we change. Keep it under 30 minutes and focused on fixes, not blame."
       }
     ],
     "warnings": [
-      "Authoritarian command leadership produces compliance but eliminates initiative — people stop observing, thinking, and reporting problems on their own, which is catastrophic in a dynamic emergency where the leader cannot perceive everything.",
-      "Losing your composure in front of the group — raised voice, visible panic, emotional outburst — can permanently damage your authority in the group, which then reduces your effectiveness when it matters most."
+      "Losing your temper or visibly panicking in front of the group can cost you its trust for the rest of the event.",
+      "Pure top-down command for days on end shuts down initiative - people stop reporting problems you cannot see yourself.",
+      "Never send someone alone to do a risky task. Use pairs and set a check-in time."
     ],
     "proTips": [
-      "Name people explicitly when assigning tasks — 'John, I need you to…' not 'Someone should…'. Named individuals accept accountability; unnamed groups diffuse it and the task frequently goes undone.",
-      "The first 10 minutes of crisis leadership sets the psychological tone for the entire event that follows — invest disproportionately in composure, clarity, and decisive action in that window.",
-      "Having a pre-established agreement within your household or team about who leads in different scenarios (fire, medical, security) prevents authority contests from consuming time during the emergency itself."
+      "Assign by name. 'Someone check the back door' means no one will.",
+      "Decide ahead of time who leads in which emergency at home - fire, medical, security - so there is no argument when it happens.",
+      "Ask people to repeat instructions back. It catches misunderstandings in seconds.",
+      "Free FEMA training (IS-100.c for ICS, IS-317 for CERT) is a low-cost way to build real leadership skills before a disaster."
     ],
-    "relatedGuides": ["psych-001", "psych-002", "psych-004"]
-  },  {
+    "relatedGuides": [
+      "psych-001",
+      "psych-002",
+      "psych-004",
+      "psych-006",
+      "psych-008",
+      "sec-009"
+    ],
+    "source": "FEMA CERT / FEMA ICS-100 / U.S. Marine Corps survival training (FM 21-76)",
+    "sources": [
+      {
+        "title": "CERT Tools for Leadership Success",
+        "publisher": "FEMA / Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2020-08/cert_toolsforleadershipsuccess.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "IS-100.c Introduction to the Incident Command System (class handouts)",
+        "publisher": "FEMA Emergency Management Institute (via URMC Finger Lakes Regional Training Center)",
+        "url": "https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/flrtc/documents/ICS-100-Class-Handouts_1.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "RP0401 Field Survival (based on FM 21-76 / MCRP 3-02F Survival)",
+        "publisher": "U.S. Marine Corps Training and Education Command",
+        "url": "https://www.tecom.marines.mil/Portals/120/Docs/Student%20Materials/CREST%20Manual/RP0401.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Community Emergency Response Team (CERT)",
+        "publisher": "FEMA",
+        "url": "https://www.fema.gov/CERT",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "psych-001"
+    ],
+    "whenNotTo": [
+      "When police, fire, or EMS are on scene - support their instructions instead of running a parallel operation.",
+      "When someone else is already leading well - back them up rather than competing for control."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A group is looking for direction in an emergency and no one is leading.",
+      "immediate": [
+        "Look around briefly, then say what you know and don't know.",
+        "Give a one-minute briefing and assign tasks by name with report-back times.",
+        "Ask who has medical skills, tools, or local knowledge."
+      ],
+      "then": [
+        "Keep small teams of about five with a lead each.",
+        "Name a second-in-charge and rotate rest.",
+        "Spread responsibilities once things stabilize."
+      ]
+    }
+  },
+  {
     "id": "psych-004",
     "category": "leadership",
     "title": "Morale and Psychological Endurance",
     "priority": "advanced",
-    "tags": ["leadership", "psychology", "morale", "endurance"],
-    "summary": "Sustain psychological strength and group morale through extended crisis scenarios.",
+    "tags": [
+      "leadership",
+      "psychology",
+      "morale",
+      "endurance",
+      "routine",
+      "grief",
+      "resilience"
+    ],
+    "summary": "How to keep yourself and your group going through a long emergency: honest hope, daily routine, small wins, connection, and room for grief.",
     "steps": [
       {
         "step": 1,
-        "title": "The 72-Hour Psychological Wall",
-        "body": "Most people can sustain high-performance, high-alertness functioning for 24–72 hours on the physiological cocktail of adrenaline, cortisol, and urgency that an acute crisis produces. This window also compresses time perception — 48 hours of crisis often feels like 12. After 72 hours, the hormonal response fades, the reality of the situation's duration becomes tangible, exhaustion accumulates, and the grief or loss that was suppressed during the acute phase surfaces. This is the 72-hour psychological wall — the period where the greatest risk of morale collapse, conflict escalation, and dangerous despair occurs. Leaders who understand this wall plan for it: deliberately schedule a group conversation at the 48-72 hour mark to acknowledge the transition from acute crisis to sustained response, reset expectations, and surface and address the emotional weight the group is carrying."
+        "title": "Expect the slump after the first few days",
+        "body": "In the first hours of a disaster, adrenaline and urgency carry most people. After a few days that energy fades. Exhaustion builds, the length of the situation sinks in, and feelings pushed aside earlier come back. Military survival training lists the common stressors: injury or illness, uncertainty and lack of control, the environment, hunger and thirst, fatigue, and isolation. Their effects pile up. Plan for this slump. Around day two or three, hold a short group talk to say out loud that you are moving from 'getting through tonight' to 'living like this for a while,' reset expectations, and ask how people are holding up."
       },
       {
         "step": 2,
-        "title": "Managing Hope",
-        "body": "Hope in a survival context is not optimistic wishful thinking — it is a specific cognitive state comprising two components: a belief that the situation can improve, and an understanding of what actions are available to improve it. Hope without a path forward is fragile and collapses when external rescue fails to arrive. Path-connected hope is resilient. As a leader, you manufacture hope not through reassurance but through action: 'Here is the problem. Here is what we are doing about it. Here is what improvement looks like.' False hope — stating rescue timelines you cannot verify, minimizing genuine dangers — destroys trust when reality contradicts it, and the collapse of false hope is far more demoralizing than the original difficulty. Preferred language: 'I don't know when this ends. Here's what I do know: we have [X days of water], we have [functioning communication], and here's what we're doing today to improve our position.'"
+        "title": "Build hope on a plan, not a promise",
+        "body": "Real hope has two parts: believing things can improve, and knowing what you can do to help them improve. Hope built on a rescue date you can't confirm collapses when the date passes. Give the group facts and actions instead: 'I don't know when power comes back. Here's what I do know: we have water for 9 days, the radio works, and today we're going to fix the rain catch.' Avoid both extremes. 'Everything will be fine' sounds dismissive and erodes trust. 'We're done for' drains the energy people need to act. Honest difficulty, plus real strengths, plus a next step, is the formula."
       },
       {
         "step": 3,
-        "title": "Realistic Optimism",
-        "body": "The psychological disposition most predictive of sustained performance under adversity is neither optimism nor pessimism but realistic optimism: an accurate, honest assessment of the difficulty of the current situation combined with a genuine belief in the group's capability to manage it. Distinguish it from: toxic positivity ('Everything will be fine!' — minimizes legitimate concern and erodes credibility); pessimism ('We probably won't make it' — self-fulfilling, destroys initiative); and denial ('This isn't that bad' — prevents accurate assessment and preparation). Realistic optimism sounds like: 'This is genuinely hard. We are missing [X]. We're going to lose [Y] if we can't solve [Z]. Here is what we have going for us: [list genuine assets]. And here is the next thing we're going to do.' The combination of honest difficulty + enumerated capability + specific forward action is the most effective morale formula known in leadership psychology."
+        "title": "Create a daily routine",
+        "body": "Uncertainty feeds anxiety. Routine gives the brain something predictable to hold onto. Set fixed wake and sleep times, regular meals even if small, and a short morning briefing (5 to 10 minutes: status, today's priorities, who does what). Add an evening check-in. Give everyone a real job each day, including children and older adults, matched to what they can safely do. Protect rest periods - don't just schedule them, enforce them. The VA National Center for PTSD recommends setting simple daily goals and breaking big problems into small steps to rebuild a sense of control after a disaster."
       },
       {
         "step": 4,
-        "title": "Small Wins",
-        "body": "Large problems — weeks without power, uncertain rescue timeline, depleted supplies — are psychologically paralyzing because the gap between the current state and the desired state is enormous and the path is unclear. Break large problems into visible daily wins that can be achieved, completed, and celebrated. Examples: 'Today's goal: secure a 3-day water supply.' 'Today's goal: establish contact with the neighbors in units 4 and 5.' 'Today's goal: complete a full inventory of food.' When a small win is achieved, name it explicitly to the group: 'We found 3 gallons of water today. That extends our water supply by 1.5 days. Good work.' The psychology: small wins create evidence that progress is possible, which maintains the belief that larger progress is possible. Track and display wins visibly when you can — a physical tally, a list on paper, a verbal inventory recited at morning and evening check-in."
+        "title": "Find and name small wins",
+        "body": "Big problems - weeks without power, unclear rescue, shrinking supplies - feel paralyzing because the gap is so large. Break them into daily goals the group can actually finish: 'Today we inventory all the food.' 'Today we check on the neighbors at number 12.' When a goal is met, say so out loud: 'We collected 5 gallons of rainwater today. That's two more days of drinking water. Good work.' Keep a visible tally on paper or a whiteboard. Each finished goal is proof that effort pays off, which keeps people working. The VA also recommends celebrating small successes as part of recovering from disaster."
       },
       {
         "step": 5,
-        "title": "Routine and Predictability",
-        "body": "Anxiety is amplified by unpredictability — the psychological stress of not knowing what happens next compounds the stress of the actual situation. Creating routine and predictable daily structure reduces ambient anxiety by giving the brain a framework of expected events to navigate rather than a constant stream of uncertainty. Structure elements: fixed wake and sleep times, even if the hours are unusual. A morning briefing (5–10 minutes: status update, today's priorities, task assignments). Defined mealtimes, even if meals are small or simple. Regular group check-ins at consistent intervals. Rest periods that are genuinely observed, not just scheduled. Task rotations that give everyone a defined role each day. Children are especially sensitive to routine disruption — giving children age-appropriate tasks within the group structure (not pretend tasks but genuinely useful ones) maintains their sense of capability and reduces their anxiety transmission to adults."
+        "title": "Keep people connected",
+        "body": "Isolation is one of the main survival stressors. Social support is one of the strongest protections against lasting distress. Eat together when you can. Check on people who go quiet. Link up with neighbors, especially those who live alone, are older, or have disabilities. Helping others also lifts the helper's mood. Limit how much disaster news people take in, especially right before sleep - get updates at set times, then turn it off. Small comforts on a schedule, like a hot drink, a card game, music, or a story at night, do more for morale than their cost suggests."
       },
       {
         "step": 6,
-        "title": "Grief and Loss",
-        "body": "In extended crisis scenarios, group members may have experienced or be experiencing loss — of property, of normalcy, of contact with loved ones, potentially of people. Unacknowledged grief does not disappear; it manifests as behavioral problems: aggression, withdrawal, risk-taking, paralysis, conflict with other group members. Acknowledge grief explicitly and create structured space for it. This does not require professional counseling — it requires: naming the loss ('We know Marcus lost contact with his family two days ago and we don't know yet if they're okay. That's real and it's hard'), providing a brief period for expression (end of day, 5–10 minutes where people can speak or not as they choose), and then returning to forward motion ('We're going to keep going because that's what we can do'). The structure — acknowledgment + expression + forward movement — honors the emotion without allowing it to consume the group's capacity to act."
+        "title": "Make room for grief and anger",
+        "body": "People may be grieving lost homes, pets, routines, health, or people. Grief that is ignored often shows up as anger, withdrawal, risky behavior, or conflict. Name losses openly and kindly: 'Marcus hasn't heard from his family in two days. That's hard.' Offer a short, optional time each evening where people can talk or just sit. Simple rituals - writing about a loss, a moment of silence - help. Anger and irritability are common after disasters; exercise, journaling, and taking a break before a tense conversation all help. Then return to the next small task. Acknowledge, allow, and move forward."
+      },
+      {
+        "step": 7,
+        "title": "Know when someone needs more help",
+        "body": "Most people bounce back over time, and there is no single right way to cope. Get professional help as soon as you can if someone cannot function for days, stops eating or drinking, uses alcohol or drugs heavily, talks about hopelessness or harming themselves, or seems out of touch with reality. In the U.S., call or text 988 (Veterans press 1). The SAMHSA Disaster Distress Helpline at 1-800-985-5990 offers free crisis counseling by call or text. Do not leave someone who talks about suicide alone; remove obvious means of harm if it is safe to do so and get help. Psychological first aid basics are in health-013."
       }
     ],
     "warnings": [
-      "Morale collapse in a survival group is as operationally dangerous as any physical threat — it leads to inaction, poor decisions, conflict, and group separation. Treat it as a priority threat, not a soft concern.",
-      "Never mock or minimize another person's emotional response during a sustained crisis — what looks like overreaction is often the accumulation of multiple unprocessed stressors expressing themselves at once."
+      "Treat morale collapse as a real threat: it leads to poor decisions, conflict, and people splitting off from the group.",
+      "Never mock someone's emotional reaction. What looks like overreaction is often many stresses hitting at once.",
+      "Talk of suicide or self-harm is an emergency. Stay with the person and get help - call or text 988."
     ],
     "proTips": [
-      "Stories of human survival under worse conditions — polar expeditions, shipwrecks, prolonged captivity — expand the psychological boundary of what people believe is survivable. Keep a few such stories in your knowledge base and deploy them when the group needs expanded perspective.",
-      "Appropriate humor is one of the most effective morale tools available — it signals that the situation, while serious, has not destroyed the group's ability to find humanity in it. Earn it with real work, then use it.",
-      "A predictable small pleasure at a regular interval — a cup of coffee, a piece of hard candy, a song played on a radio, a few minutes of non-crisis conversation — has a morale impact disproportionate to its cost. Build it into the daily structure deliberately."
+      "Schedule small pleasures - coffee at 7, cards at 8 - so people have something to look forward to.",
+      "Humor helps when it is kind and earned. Never aim it at someone's fear or loss.",
+      "True survival stories (polar expeditions, shipwrecks) remind people that humans endure far worse.",
+      "Give children real, safe jobs; feeling useful lowers their anxiety and the adults' too."
     ],
-    "relatedGuides": ["psych-003", "psych-005"]
-  },  {
+    "relatedGuides": [
+      "psych-003",
+      "psych-005",
+      "psych-008",
+      "health-012",
+      "health-013"
+    ],
+    "source": "VA National Center for PTSD / SAMHSA / U.S. Marine Corps survival training (FM 21-76)",
+    "sources": [
+      {
+        "title": "Self-Care After Disaster Events",
+        "publisher": "VA National Center for PTSD",
+        "url": "https://www.ptsd.va.gov/disaster_events/for_everyone/selfcare_after_disaster.asp",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Cope With Traumatic Events and Disasters",
+        "publisher": "SAMHSA",
+        "url": "https://www.samhsa.gov/mental-health/disaster-preparedness/coping-tips",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "RP0401 Field Survival (based on FM 21-76 / MCRP 3-02F Survival)",
+        "publisher": "U.S. Marine Corps Training and Education Command",
+        "url": "https://www.tecom.marines.mil/Portals/120/Docs/Student%20Materials/CREST%20Manual/RP0401.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "These are group-morale and self-care tools, not treatment. Someone who is suicidal, severely depressed, or out of touch with reality needs professional help."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Your group is days into an emergency and energy, hope, or patience is running low.",
+      "immediate": [
+        "Hold a short talk to reset expectations and ask how people are doing.",
+        "Set a daily routine with a morning briefing and an evening check-in.",
+        "Pick one small goal for today and celebrate it when it is done."
+      ],
+      "then": [
+        "Make time each evening to acknowledge losses.",
+        "Check on quiet or isolated people, including neighbors.",
+        "Get help for anyone who cannot function or talks about self-harm - call or text 988."
+      ]
+    }
+  },
+  {
     "id": "psych-005",
     "category": "leadership",
     "title": "Sleep Deprivation Management",
     "priority": "advanced",
-    "tags": ["leadership", "psychology", "sleep", "performance"],
-    "summary": "Manage sleep deprivation in yourself and your group without compromising safety or decision quality.",
+    "tags": [
+      "leadership",
+      "psychology",
+      "sleep",
+      "fatigue",
+      "naps",
+      "caffeine",
+      "watch-rotation"
+    ],
+    "summary": "How to keep a household or group safe when no one is getting enough sleep: know the impairment, rotate rest, nap smart, use caffeine carefully, and keep tired people away from dangerous jobs.",
     "steps": [
       {
         "step": 1,
-        "title": "Performance Degradation Timeline",
-        "body": "Sleep deprivation degrades cognitive performance along a well-documented timeline. 18 hours without sleep: cognitive impairment equivalent to 0.05% blood alcohol content (BAC) — legally impaired for driving in most US states. 24 hours: equivalent to 0.10% BAC, above the legal limit in all US states. Performance on complex tasks degrades by 25–40%. 36 hours: emotional dysregulation begins — irritability, disproportionate emotional responses, impaired empathy. Early perceptual distortions (misidentifying sounds or shadows) begin. 48 hours: significant memory consolidation failure, severe executive function impairment. Visual hallucinations can begin. 72+ hours: psychosis-like symptoms, profound judgment failure, life-threatening decision errors become likely. The critical and counterintuitive finding: severely sleep-deprived individuals dramatically underestimate their own impairment. A person at 36 hours often believes they are functioning normally. Do not rely on self-assessment for sleep-deprived individuals."
+        "title": "Understand how impaired tired people are",
+        "body": "CDC's NIOSH notes that being awake for 17 hours affects performance about as much as a blood alcohol level of 0.05 percent, and 24 hours awake is similar to 0.10 percent - above the 0.08 percent legal driving limit in the U.S. Tired people react slower, make more mistakes, lose their temper faster, and communicate poorly. The worst part: sleep-deprived people are bad at judging their own impairment. Someone who has been up all night may honestly believe they are fine. Do not rely on 'I'm okay' from a tired person. Use hours awake and visible signs to decide who does what."
       },
       {
         "step": 2,
-        "title": "Sleep Rotation in Groups",
-        "body": "The cardinal rule in any extended crisis scenario: never allow all group members to sleep simultaneously. Establish a watch rotation as a mandatory structure, not a suggestion. Minimum rotation for a group of 4: 2-hour watches (each person sleeps 6 hours in a 8-hour cycle if all 4 participate). For groups of 3: consider 90-minute watches for a 6-hour cycle. Watch rotation rules: the on-watch person has one job — active alertness. Routine tasks, phone scrolling, or repetitive tasks that allow mental drift are not watch activities. Active watch means: periodic perimeter or building checks at irregular intervals, listening monitoring, note-taking of anything unusual, maintaining the ability to immediately wake the sleeping group. The person coming off watch should verbally brief the incoming watch person on anything observed before sleeping. This hand-off prevents critical information from being lost between rotations."
+        "title": "Watch for the warning signs",
+        "body": "NIOSH lists yawning, trouble concentrating, emotional swings, flawed logic, and poor communication as signs of fatigue. Also watch for heavy or slow blinking, a glassy stare, head nodding then jerking up, trailing off mid-sentence, and forgetting what was just said. These can come before microsleeps - brief lapses of a few seconds that the person often doesn't notice. A microsleep while driving, cooking over a flame, or on watch can be deadly. If you see these signs in yourself, stop the risky task. If you see them in someone else, relieve them now. Use a buddy system: pair people up to keep an eye on each other's fatigue."
       },
       {
         "step": 3,
-        "title": "Strategic Sleep Prioritization",
-        "body": "When sleep is limited and must be allocated, it should not be distributed randomly. Prioritize sleep for: the primary decision-maker first — impaired judgment at the leadership level cascades to the entire group. Medical personnel second — fatigue errors in medical care are particularly consequential. Then rotate based on physical task requirements for the next cycle. If total sleep available is 4 hours, splitting into two 2-hour blocks (with a brief activity period between) is more restorative than a single 4-hour block for some people — it reduces sleep inertia (the grogginess from deep-sleep stage interruption) if the 4-hour block coincides with deep sleep. In practice: sleep in the longest uninterrupted blocks possible within watch rotation constraints. Even 90 minutes of sleep — which contains one full sleep cycle — provides meaningful cognitive recovery compared to zero."
+        "title": "Never let everyone sleep at once - and never let one person carry it all",
+        "body": "In an extended emergency, set up a rest and watch rotation. With 4 adults and 2-hour watches, each person can get about 6 hours of sleep in an 8-hour night. With fewer people, use shorter watches or accept a watch that only covers the riskiest hours. Keep watch duty simple and active: listen, do quick checks at irregular times, write down anything unusual, and know how to wake everyone fast. At each handover, give a short verbal briefing of anything seen or heard. See sec-012 for setting up a night watch. NIOSH advises at least 10 hours off in each 24 hours for workers on long shifts and avoiding shifts over 12 hours when you can."
       },
       {
         "step": 4,
-        "title": "Micro-Sleep Recognition",
-        "body": "Micro-sleep events — involuntary sleep episodes lasting 2–30 seconds — begin occurring when an individual is severely sleep-deprived. They happen without warning and without the individual's awareness. Micro-sleeps during critical tasks cause life-threatening lapses: a person driving, on watch, or managing a fire for cooking can micro-sleep mid-task without any subjective awareness of the gap. Precursor signs to watch for in yourself and others: eyes blinking more slowly than normal, eyes losing focus and going glassy, head nodding or dropping and correcting, blank staring rather than active looking, slow verbal response or trailing off mid-sentence, forgetting what was just said. If you are experiencing these precursors, you must stop critical activities immediately. If you observe these in another person, relieve them immediately — do not leave them in a safety-sensitive position."
+        "title": "Decide who sleeps first",
+        "body": "When sleep is short, don't share it out at random. The main decision-maker should get protected sleep, because tired judgment at the top affects everyone. People doing medical care, driving, or other dangerous work come next. Then rotate everyone else. Make sleep as good as possible: dark, quiet, cool, and with earplugs or an eye mask if you have them. Keep a short, consistent routine before sleep. Avoid alcohol and nicotine for 2 to 3 hours before sleeping, and limit bright screens for about an hour and a half before bed - both NIOSH recommendations."
       },
       {
         "step": 5,
-        "title": "Caffeine Management",
-        "body": "Caffeine is a cognitive performance aid, not a substitute for sleep. It delays the subjective feeling of sleepiness by blocking adenosine receptors, but does not restore the cognitive functions that sleep deprivation degrades. Critically: caffeine masks the subjective experience of impairment while the impairment continues. A caffeine-sustained person can feel alert while performing at 70% capacity. Used correctly, caffeine extends functional performance. Used incorrectly, it creates overconfident impaired people. Strategic caffeine use: 200mg (approximately 1–2 cups of coffee or 1 strong energy drink) taken at the natural low points of the circadian rhythm (0200–0600 and 1300–1500) provides maximum impact. Reserve caffeine for critical decision and action windows rather than continuous use. Caffeine tolerance builds rapidly with sustained use — if possible, cycle off for 3–5 days before a predicted high-demand period to restore sensitivity."
+        "title": "Nap on purpose",
+        "body": "Naps help but do not replace real sleep. NIOSH recommends short naps of 15 to 30 minutes to reduce fatigue during a long shift; set an alarm. Longer naps of about 1.5 hours can help before a night of work when hours are very long. The easiest times to nap are early morning, mid-afternoon, and during the night. Expect grogginess right after waking, called sleep inertia. Allow time for it to pass before doing anything critical. Bright light, washing your face, or a small amount of caffeine helps. One trick: drink a cup of coffee right before a short nap - caffeine takes about 30 minutes to kick in, so it starts working as you wake."
       },
       {
         "step": 6,
-        "title": "Recovery",
-        "body": "After extended sleep deprivation, recovery is not instantaneous even with unlimited sleep opportunity. A single 8-hour recovery sleep restores much (not all) of physical performance and basic cognitive function. Two full-night recovery periods restore near-complete cognitive function for most people. Emotional regulation and social judgment are the slowest to recover — expect irritability, poor social calibration, and overreaction to minor stressors to persist for 24–48 hours after physical performance has largely recovered. In a group context: lower the threshold for conflict during post-deprivation recovery. Provide extra space for irritability, slow processing, and emotional responses that seem disproportionate. Avoid irreversible major decisions in the first 24 hours of recovery — cognitive biases are significantly elevated. Schedule significant decisions for 48+ hours post-deprivation whenever the situation allows."
+        "title": "Use caffeine as a tool, not a fix",
+        "body": "Caffeine makes you feel more alert but does not undo sleep loss. It can make a tired person feel fine while still making mistakes. Use it at the times you most need to be sharp, not all day. NIOSH notes that about 100 mg (roughly one 5-ounce cup of brewed coffee) can help shake off post-nap grogginess, and suggests stopping caffeine about 5 hours before you plan to sleep. Heavy daily use builds tolerance, so it works less. Be careful with energy drinks and caffeine pills; too much caffeine can affect the heart and nervous system. If you cut back, do it gradually to avoid headaches and irritability, and drink extra water."
+      },
+      {
+        "step": 7,
+        "title": "Plan the recovery",
+        "body": "After days of short sleep, one long night helps a lot but usually doesn't fully restore you. Plan for at least two good nights. Mood and patience are often the last to recover, so expect irritability and short tempers for a day or two after. Lower the bar for conflict during that time and give people space. Avoid big, permanent decisions until people have had real sleep. If someone cannot sleep for many nights even when they have the chance, or has ongoing nightmares, panic, or confusion, they may need medical or mental-health help."
       }
     ],
     "warnings": [
-      "The most dangerous sleep-deprived person is the one who insists they are fine and is confident in their own judgment — impaired self-assessment is a core symptom of sleep deprivation.",
-      "Do not allow severely sleep-deprived individuals (36+ hours awake) to perform safety-sensitive tasks alone: driving, fire management, medical care, armed watch, or primary decision-making.",
-      "Micro-sleeps cannot be prevented through willpower — if precursor signs are present, the only reliable intervention is actual sleep or immediate removal from safety-critical activities."
+      "Do not let a badly sleep-deprived person drive, run a stove or heater, give medical care, or stand watch alone.",
+      "The most dangerous tired person is the one who insists they are fine. Go by hours awake and visible signs.",
+      "Willpower does not stop microsleeps. If warning signs appear, the only fixes are sleep or removing the person from the risky task.",
+      "Too much caffeine, especially from energy drinks or pills, can cause heart rhythm problems. Follow product labels."
     ],
     "proTips": [
-      "A strategic 20-minute nap (set an alarm before entering deep sleep — typically around 20–25 minutes after lying down) provides significant cognitive restoration without causing sleep inertia from a deep-sleep stage interruption.",
-      "A consistent pre-sleep ritual sequence — same 3–5 actions every time before sleeping — trains the brain to initiate sleep onset faster, which is valuable when sleep windows are short and every minute of sleep counts.",
-      "Brief exposure to bright light (daylight or a bright LED) at the start of a watch period suppresses melatonin and extends alertness for 2–3 hours — a natural, zero-cost performance aid for night watch assignments."
+      "Write the watch and rest schedule on paper and post it so no one has to remember or argue about it.",
+      "A cup of coffee just before a 15-20 minute nap helps you wake up sharper.",
+      "Bright light at the start of a night watch helps alertness; keep sleeping areas as dark as possible.",
+      "Use a buddy system so everyone has someone checking them for fatigue."
     ],
-    "relatedGuides": ["psych-004", "psych-002"]
+    "relatedGuides": [
+      "psych-004",
+      "psych-002",
+      "sec-012",
+      "health-012"
+    ],
+    "source": "CDC NIOSH",
+    "sources": [
+      {
+        "title": "Impairments due to sleep deprivation are similar to impairments due to alcohol intoxication (Work Schedules training, Module 3)",
+        "publisher": "CDC NIOSH",
+        "url": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod3/08.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Managing Fatigue During Times of Crisis: Guidance for Nurses, Managers, and Other Healthcare Workers",
+        "publisher": "CDC NIOSH",
+        "url": "https://www.cdc.gov/niosh/bulletin/2020/fatigue-crisis.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Napping, an Important Fatigue Countermeasure",
+        "publisher": "CDC NIOSH (archived)",
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/emres/longhourstraining/napping.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Using Caffeine Carefully",
+        "publisher": "CDC NIOSH (archived)",
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/emres/longhourstraining/usingcaffeine.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use caffeine or naps to keep driving when drowsy if you can safely stop and sleep instead.",
+      "People with heart conditions, high blood pressure, pregnancy, or caffeine sensitivity should limit caffeine and follow their clinician's advice."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Your group is short on sleep and people still have to make decisions and do risky jobs.",
+      "immediate": [
+        "Pull anyone showing drowsiness signs off driving, flames, medical care, or solo watch.",
+        "Set a written rest and watch rotation so someone is always awake and everyone gets sleep.",
+        "Use 15-30 minute naps with an alarm when real sleep is not possible."
+      ],
+      "then": [
+        "Use caffeine only for critical windows and stop about 5 hours before sleep.",
+        "Protect sleep for the main decision-maker and anyone doing medical work.",
+        "Plan two good nights of recovery and avoid big decisions until then."
+      ]
+    }
+  },
+  {
+    "id": "psych-006",
+    "category": "leadership",
+    "title": "Resolving Conflict Inside a Group Under Stress",
+    "priority": "advanced",
+    "tags": [
+      "leadership",
+      "conflict",
+      "mediation",
+      "negotiation",
+      "group",
+      "communication"
+    ],
+    "summary": "A step-by-step way to settle arguments over chores, space, supplies, and decisions in a stressed household or group before they split it apart.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Cool things down first",
+        "body": "No one solves a problem while shouting. If voices are rising, call a pause: 'Let's take ten minutes and come back to this.' Separate the people if needed and give each one something to drink or a quiet task. Check the basics - hunger, thirst, exhaustion, cold, and pain make every conflict worse, and many arguments disappear after food and sleep. The VA National Center for PTSD notes that anger and irritability are very common after disasters and suggests taking a break before a tense conversation. If anyone is threatening violence or has a weapon, stop here and focus on safety and de-escalation (see sec-009)."
+      },
+      {
+        "step": 2,
+        "title": "Pick the right time, place, and helper",
+        "body": "Deal with the conflict soon - CERT leadership training says to resolve conflicts quickly and respectfully, because problems left alone grow. Choose a time when people are fed and rested and a place with some privacy. Avoid settling it in front of the whole group, which makes people defend their pride. If the leader is one of the people in the dispute, ask a neutral, trusted person to run the conversation instead. The helper's job is not to decide who is right; it is to keep the talk fair and moving."
+      },
+      {
+        "step": 3,
+        "title": "Set simple ground rules",
+        "body": "Start by agreeing on how you will talk. Keep it short: one person speaks at a time; no insults or name-calling; talk about the problem, not the person's character; and everyone is here to find something that works for the group. Federal mediators use this same idea in interest-based negotiation: the sides agree on ground rules and a shared goal before getting into the issues. Then state the shared goal out loud, for example: 'We all want to get through this winter without running out of firewood.'"
+      },
+      {
+        "step": 4,
+        "title": "Listen until each side feels heard",
+        "body": "Let each person explain their view without interruption. Then have the other person, or the helper, repeat it back in their own words: 'So you're saying you've done the water runs four days in a row and no one noticed.' Ask, 'Did I get that right?' CERT training calls this empathetic listening: try to see the other person's view, listen for meaning, and paraphrase to confirm. People often calm down sharply once they feel understood, even before anything is solved. Watch tone of voice and body language too, not just words."
+      },
+      {
+        "step": 5,
+        "title": "Look for the need behind the demand",
+        "body": "A position is what someone says they want ('I want the back bedroom'). An interest is why ('I can't sleep with the baby crying, and I have the 2 a.m. watch'). Interest-based negotiation focuses on interests because there are usually several ways to meet them. Ask 'Why does that matter to you?' and 'What are you worried will happen?' Write the interests down. Often both sides share more than they think - both want rest, safety, or fairness - and the real fight is just about the method."
+      },
+      {
+        "step": 6,
+        "title": "Brainstorm options, then judge them fairly",
+        "body": "List every possible fix without judging any yet: swap watches, rotate the room weekly, hang a blanket as a sound barrier, move the baby's bed. Then agree on what makes a solution fair - for example, safe, doable with what we have, and equal in workload. Check each option against those standards, not against who argued louder. Federal mediators use this order: generate options first, agree on standards second, evaluate third. Combine pieces from different ideas if that works better. If something can't be settled now, 'park' it and set a time to come back to it."
+      },
+      {
+        "step": 7,
+        "title": "Agree, write it down, and check back",
+        "body": "State the agreement in plain words and confirm that each person accepts it. Write it down if it involves chores, supplies, or schedules, and post it where everyone can see. Set a check-in: 'Let's see how this works for three days.' If the agreement fails, return to the interests rather than the old positions. If two people truly cannot agree and a group decision is needed, the leader or the group decides by the agreed process, explains why, and expects everyone to follow it - disagreement is allowed, refusing to cooperate on safety is not."
+      },
+      {
+        "step": 8,
+        "title": "Prevent the next fight",
+        "body": "Most group conflict in emergencies comes from a few causes: unfair workload, unclear rules about supplies, lack of privacy, and decisions made without explanation. Fix these up front. Post a chore rotation. Set written rules for food, water, and fuel (see psych-009). Give each person a small private space, even just a corner and a bag. Explain the reason behind decisions in one sentence. Hold a short daily meeting where problems can be raised early, before they boil over."
+      }
+    ],
+    "warnings": [
+      "If a conflict involves threats, weapons, or violence, stop mediating. Separate people, protect the vulnerable, and get help from authorities if possible.",
+      "Don't try to settle a dispute while people are exhausted, hungry, drunk, or furious. Wait until basics are handled.",
+      "Avoid public shaming. It hardens positions and can turn a small dispute into a lasting grudge.",
+      "Domestic violence or abuse is not a 'conflict' to mediate. Help the person at risk get to safety and contact the National Domestic Violence Hotline (1-800-799-7233) or 911."
+    ],
+    "proTips": [
+      "Ask each side to restate the other's view before arguing their own. It cools tempers fast.",
+      "Use 'I' statements: 'I'm worried we'll run out' instead of 'You're wasting everything.'",
+      "Keep a written list of agreements so no one has to rely on memory.",
+      "A neutral helper with a simple script works better than a leader picking a winner."
+    ],
+    "relatedGuides": [
+      "psych-003",
+      "psych-004",
+      "psych-009",
+      "sec-009"
+    ],
+    "source": "Federal Mediation and Conciliation Service / FEMA CERT / VA National Center for PTSD",
+    "sources": [
+      {
+        "title": "Steps in Interest-Based Negotiation",
+        "publisher": "Federal Mediation and Conciliation Service (via Air University Air Force Negotiation Center)",
+        "url": "https://www.airuniversity.af.edu/Portals/10/AFNC/documents/ibnworksheets/3interest_based_steps.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "CERT Tools for Leadership Success",
+        "publisher": "FEMA / Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2020-08/cert_toolsforleadershipsuccess.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Self-Care After Disaster Events",
+        "publisher": "VA National Center for PTSD",
+        "url": "https://www.ptsd.va.gov/disaster_events/for_everyone/selfcare_after_disaster.asp",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "During an immediate life-safety emergency - decide fast and sort out disagreements later.",
+      "When there is abuse, threats, or a weapon involved - focus on safety, not mediation."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Two people or factions in your group are fighting over chores, space, supplies, or decisions.",
+      "immediate": [
+        "Call a pause and separate people if voices are rising.",
+        "Check for hunger, thirst, and exhaustion before talking it out.",
+        "Agree on ground rules: one speaker at a time, no insults."
+      ],
+      "then": [
+        "Have each side restate the other's view, then find the needs behind the demands.",
+        "Brainstorm options, judge them by agreed fairness standards, and write down the deal.",
+        "Set a check-in date to see if the agreement is working."
+      ]
+    }
+  },
+  {
+    "id": "psych-007",
+    "category": "leadership",
+    "title": "Mutual Aid and Organizing Your Neighborhood",
+    "priority": "beginner",
+    "tags": [
+      "leadership",
+      "community",
+      "neighbors",
+      "mutual-aid",
+      "CERT",
+      "resilience",
+      "volunteer"
+    ],
+    "summary": "How to turn a street or building into a neighborhood that checks on each other, shares skills and tools, and works with official responders - starting before a disaster hits.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Start small, before anything happens",
+        "body": "In most disasters, the first help people get comes from neighbors, not from professional responders. You don't need a formal group to start. Pick a manageable area - your block, one floor of an apartment building, or 10 to 20 homes. Knock on doors or leave a short note inviting people to a 30-minute meeting about getting ready for outages and storms. Keep it practical and friendly. Meet at a porch, driveway, community room, or place of worship. Your first goal is simply that neighbors know each other's names and faces, which makes checking on each other natural when the power goes out."
+      },
+      {
+        "step": 2,
+        "title": "Map people, skills, and needs",
+        "body": "With permission, make a simple contact list: names, addresses, phone numbers, and an out-of-area contact for each household. Ask who has useful skills - nursing, EMT, electrician, plumber, ham radio, carpentry, languages, childcare. Ask who may need extra help: older adults living alone, people with disabilities, people who rely on powered medical equipment or refrigerated medicine, families with infants, and people without a car. Let people share only what they are comfortable sharing. Keep the list private and on paper as well as on phones, since phones may die. Share it only with the people who need it."
+      },
+      {
+        "step": 3,
+        "title": "Inventory shared tools and supplies",
+        "body": "List equipment that could help the whole street: generators, chainsaws, ladders, wheelbarrows, a pickup truck, extra coolers, a camp stove, radios, first aid kits, solar chargers, and wet-dry vacuums. Note who owns each item and whether they are willing to lend it. Agree on simple rules: the owner decides how their item is used, borrowed items come back clean and fueled, and dangerous tools are only run by people trained to use them. Never run a generator or fuel-burning heater indoors or in a garage - carbon monoxide kills."
+      },
+      {
+        "step": 4,
+        "title": "Agree on a check-in plan and meeting point",
+        "body": "Decide how neighbors will check on each other after a storm, quake, or long outage. Assign each person or household a few nearby homes to check, with priority on those who may need help. Choose a meeting point that is safe and easy to find, plus a backup. Set a signal for homes that are okay versus need help - for example, a green or red card in the front window. Agree on how you will talk if phones are down: walking messengers, FRS or GMRS radios on a set channel, or a bulletin board at the meeting point. See comms-005 for family communication plans."
+      },
+      {
+        "step": 5,
+        "title": "Organize lightly when it happens",
+        "body": "After a disaster, use a simple structure modeled on CERT teams: one coordinator at the meeting point who tracks information, small teams of two or more people who go out to check homes, and someone keeping a written log of who needs what. Work in pairs; no one goes into damaged buildings alone. CERT training covers basic fire safety, light search and rescue, team organization, and disaster medical operations - but untrained neighbors should stick to checking on people, sharing supplies, and passing information. Report serious injuries, fires, gas leaks, and downed lines to 911 or official responders, and follow their directions when they arrive."
+      },
+      {
+        "step": 6,
+        "title": "Share fairly and protect dignity",
+        "body": "Mutual aid works because it is two-way: people give what they can and take what they need, without anyone being made to feel like a charity case. Set up shared resources in a calm, orderly way - a sign-up sheet for generator charging time, a shared cooler for medicines, a list for water runs. Prioritize those with medical needs, infants, and older adults. Keep records simple and transparent so no one suspects favoritism. Be careful about announcing large personal stockpiles widely; share within the trusted group (see sec-006 on keeping supplies private)."
+      },
+      {
+        "step": 7,
+        "title": "Get trained and connect with official programs",
+        "body": "FEMA's Community Emergency Response Team (CERT) program has more than 3,200 local programs nationwide. Basic training teaches volunteers fire safety, light search and rescue, team organization, and disaster medical operations. FEMA's free online course IS-317, Introduction to CERT, is a good first step; contact your city or county emergency management office to find a local program. Ready.gov also encourages volunteering through reputable organizations listed by National Voluntary Organizations Active in Disaster (NVOAD), and notes that after a disaster, cash donations to reputable nonprofits usually help more than donated goods."
+      },
+      {
+        "step": 8,
+        "title": "Keep it alive with practice",
+        "body": "A plan that is never used is forgotten. Meet once or twice a year, update the contact list, and run a short drill - for example, everyone puts their window card up and the check teams do a 20-minute walk. Try a potluck during a planned power outage drill to test cooking and lighting. Each practice reveals gaps: a dead radio, a missing phone number, a neighbor who moved. Fix them and keep going. Neighborhood watch groups can build on this same network for night safety (see sec-012)."
+      }
+    ],
+    "warnings": [
+      "Untrained volunteers should not enter damaged or collapsed buildings, fight large fires, or handle downed power lines. Call 911 and wait for professionals.",
+      "Never run generators, grills, or fuel heaters indoors or in garages - carbon monoxide is a leading cause of death after storms.",
+      "Protect private information. Contact and medical-needs lists should be kept by a few trusted people only.",
+      "Be wary of people who suddenly show up offering paid 'help' or asking for personal information after a disaster - scams are common (see sec-008)."
+    ],
+    "proTips": [
+      "Pair each person who needs help with two neighbors, so there is always a backup.",
+      "Print the contact list and map; laminate one copy for the meeting point.",
+      "Agree on one FRS or GMRS channel for the neighborhood ahead of time.",
+      "FEMA's IS-317 course is free and online - a great first step for the organizer."
+    ],
+    "relatedGuides": [
+      "psych-003",
+      "psych-009",
+      "sec-012",
+      "comms-005",
+      "home-012",
+      "sec-006"
+    ],
+    "source": "FEMA CERT / Ready.gov",
+    "sources": [
+      {
+        "title": "Community Emergency Response Team (CERT)",
+        "publisher": "FEMA",
+        "url": "https://www.fema.gov/CERT",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Get Involved",
+        "publisher": "Ready.gov (FEMA)",
+        "url": "https://www.ready.gov/get-involved",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "CERT Tools for Leadership Success",
+        "publisher": "FEMA / Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2020-08/cert_toolsforleadershipsuccess.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When officials order an evacuation - leave; do not stay behind to run neighborhood operations.",
+      "When conditions are unsafe (active fire, flooding, gas leak) - get to safety first and organize afterward."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want your street or building to look after each other in emergencies.",
+      "immediate": [
+        "Invite 10-20 nearby households to a short meeting.",
+        "Make a private contact list with skills and who may need extra help.",
+        "Pick a meeting point, a backup, and an okay/help window signal."
+      ],
+      "then": [
+        "List shared tools and agree on lending rules.",
+        "Take FEMA's free IS-317 course and find a local CERT program.",
+        "Drill once or twice a year and update the list."
+      ]
+    }
+  },
+  {
+    "id": "psych-008",
+    "category": "leadership",
+    "title": "Running Your Household Like an Incident Command",
+    "priority": "beginner",
+    "tags": [
+      "leadership",
+      "ICS",
+      "incident-command",
+      "family",
+      "household",
+      "briefings",
+      "planning"
+    ],
+    "summary": "Borrow the basics of FEMA's Incident Command System - one person in charge, clear roles, short briefings, written task lists, and clean handoffs - to run your home smoothly through an outage or disaster.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Name one person in charge",
+        "body": "In the Incident Command System (ICS) used by U.S. responders, every incident has one Incident Commander from the start. At home, pick one adult to coordinate - often whoever is calmest and has the most relevant knowledge, not necessarily the oldest. This person does not do everything; they keep the big picture, set priorities, and make final calls when the family can't agree. Name a backup too. ICS uses 'unity of command': each person takes assignments from only one supervisor. In a family that means kids are not getting three different instructions from three adults. Decide this ahead of time, and write it in your family emergency plan."
+      },
+      {
+        "step": 2,
+        "title": "Assign the four main roles",
+        "body": "ICS has four main sections, and they map well onto a household. Operations does the hands-on work: setting up lights, hauling water, cooking, caring for the sick. Planning tracks information: weather and news updates, how many days of water and fuel are left, and the written plan. Logistics finds and manages supplies: inventory, batteries, fuel, borrowing from neighbors. Finance and admin handles cash, receipts, insurance photos, and important documents. In a small family, one person may hold two or three roles. Give children real but safe pieces of these jobs, such as counting batteries or keeping the log."
+      },
+      {
+        "step": 3,
+        "title": "Set objectives for each period",
+        "body": "ICS uses 'management by objectives' and plans in 'operational periods' - blocks of time with clear goals. At home, use a morning-to-evening and evening-to-morning cycle. For each period, write 2 to 4 specific goals: 'Fill all water containers by noon.' 'Move freezer food to coolers.' 'Check on Mrs. Lee next door.' 'Charge all phones and radios from the car.' Specific goals with a deadline get done. Vague goals like 'stay safe' do not. Put life-safety items first, then problems about to get worse, then comfort."
+      },
+      {
+        "step": 4,
+        "title": "Hold short briefings",
+        "body": "Start each period with a 5 to 10 minute briefing, standing up. Cover: current situation (power status, weather, official alerts), what's left (water, food, fuel, medicine), today's objectives, who does what, safety reminders (no generators indoors, candles watched), and the next check-in time. Ask each person to say their task back. Keep it brief and calm - children absorb the tone. End-of-day check-ins cover what got done, what didn't, and any problems. ICS also stresses using plain language instead of jargon or codes, which matters even more at a kitchen table."
+      },
+      {
+        "step": 5,
+        "title": "Keep a written task board and log",
+        "body": "Write tasks on paper, a whiteboard, or a taped-up sheet: task, who owns it, when it's due, and a box to check when done. This is your household version of an Incident Action Plan. Keep a separate running log with the time and key events: 'Power out 6:10 p.m.' 'Boil-water notice 9:00 a.m.' 'Gave Dad his 8 a.m. meds.' A log helps the next person on shift, protects against tired memory, and is useful later for insurance claims. Track supplies on the same board so everyone can see how many days of water and fuel are left."
+      },
+      {
+        "step": 6,
+        "title": "Keep span of control small and check in and out",
+        "body": "ICS suggests one supervisor for about five people. In a larger household or multi-family group, split into small teams with a lead each, and the coordinator talks mainly to the leads. Use check-in and check-out: anyone leaving the house says where they are going, who they are with, and when they will be back, and reports when they return. Never send kids or anyone else out alone after dark or into damaged areas. If someone doesn't return on time, you'll know right away and can act (see security-004 for rally points and lost-person steps)."
+      },
+      {
+        "step": 7,
+        "title": "Hand off cleanly",
+        "body": "ICS requires a briefing whenever command changes. When the coordinator needs to sleep, or another adult takes over a role, do a short handoff: what is happening now, what's in progress, what's planned, and any concerns. Point to the task board and log. Say clearly, 'You're in charge until 6 a.m.' The person taking over repeats the key points back. Clean handoffs prevent the classic failure where both adults think the other one turned off the stove or locked the door."
+      },
+      {
+        "step": 8,
+        "title": "Scale up, scale down, and debrief",
+        "body": "ICS is designed to expand or shrink with the size of the problem. A short outage might need only one coordinator and a task list. A week-long emergency might need every role filled and a neighbor or two folded in. When things return to normal, stand the structure down on purpose and say thank you. Then hold a 15-minute debrief: what worked, what didn't, what supplies ran out first, and what to fix in the plan. Update your kit and plan right away while lessons are fresh."
+      }
+    ],
+    "warnings": [
+      "Don't let structure slow down a true emergency. If there's a fire, gas smell, or medical crisis, act first and organize afterward.",
+      "One coordinator does not mean one person does all the work - that leads to burnout and mistakes.",
+      "Check-in and check-out rules matter most after dark and in damaged areas. Never let anyone go out alone without a return time."
+    ],
+    "proTips": [
+      "Laminate a one-page household ICS card: roles, briefing checklist, and task-board template.",
+      "Use a whiteboard and dry-erase markers; they work without power and everyone can see them.",
+      "Practice once during a planned 'lights out' evening so roles feel natural.",
+      "FEMA's free online IS-100.c course explains ICS in a few hours."
+    ],
+    "relatedGuides": [
+      "psych-003",
+      "psych-002",
+      "psych-007",
+      "psych-009",
+      "comms-005",
+      "security-004"
+    ],
+    "source": "FEMA Emergency Management Institute IS-100.c (ICS) / FEMA CERT",
+    "sources": [
+      {
+        "title": "IS-100.c Introduction to the Incident Command System (class handouts)",
+        "publisher": "FEMA Emergency Management Institute (via URMC Finger Lakes Regional Training Center)",
+        "url": "https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/flrtc/documents/ICS-100-Class-Handouts_1.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "CERT Tools for Leadership Success",
+        "publisher": "FEMA / Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2020-08/cert_toolsforleadershipsuccess.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Community Emergency Response Team (CERT)",
+        "publisher": "FEMA",
+        "url": "https://www.fema.gov/CERT",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "In the first seconds of a fire, collapse, or medical emergency - act immediately and set up structure once people are safe.",
+      "For a very short outage - a quick plan and one person keeping track is enough."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your household faces an outage or disaster that will last more than a few hours.",
+      "immediate": [
+        "Name one coordinator and a backup.",
+        "Assign roles: hands-on work, information tracking, supplies, and documents/cash.",
+        "Hold a 5-10 minute briefing and write 2-4 goals for this period."
+      ],
+      "then": [
+        "Keep a task board, supply count, and time log.",
+        "Use check-in and check-out for anyone leaving the house.",
+        "Do a spoken handoff at every shift change and debrief when it's over."
+      ]
+    }
+  },
+  {
+    "id": "psych-009",
+    "category": "leadership",
+    "title": "Fair Rationing and Resource Decisions in a Group",
+    "priority": "critical",
+    "tags": [
+      "leadership",
+      "rationing",
+      "resources",
+      "fairness",
+      "food",
+      "water",
+      "group"
+    ],
+    "summary": "How a household or group can count what it has, set clear and fair rules for food, fuel, and medicine, protect the most vulnerable, and avoid the fights that scarcity causes. Includes the key safety rule: do not ration drinking water.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Count everything first",
+        "body": "You can't share fairly what you haven't counted. Do a full inventory as early as possible: water in gallons, food in meals or rough calories, fuel, batteries, medicines (with expiration dates), and hygiene supplies. Have two people count together and write it down; this prevents both mistakes and suspicion. Then divide by the number of people to get 'days of supply.' For example, Ready.gov recommends one gallon of water per person per day for drinking and sanitation. If four people have 24 gallons, that is about 6 days. Post the totals where the group can see them and update them daily."
+      },
+      {
+        "step": 2,
+        "title": "Do not ration drinking water",
+        "body": "Health officials are clear on this point: never ration drinking water. If supplies are low, drink what you need today and work hard to find or make more for tomorrow. Dehydration causes confusion, poor decisions, and serious illness quickly. A normally active person needs at least about 2 quarts (about 2 liters) of drinking water a day, and heat can roughly double that. Children, nursing mothers, and sick people need even more. Cut water use elsewhere instead: limit washing, reuse gray water for flushing, and reduce physical activity and stay cool to lower how much your body needs. See water-015 and water-010."
+      },
+      {
+        "step": 3,
+        "title": "Ration food carefully - with exceptions",
+        "body": "Unlike water, food can be rationed safely for a while for most healthy adults. Health officials note that healthy people can get by on about half their usual food for an extended time. Do not cut food for children or pregnant women, and be careful with nursing mothers, older adults, people who are sick, and anyone with diabetes or other medical conditions - they may need regular meals or special foods. In an outage, eat food from the refrigerator first, then the freezer, and save shelf-stable food for last (see home-004 for food safety). Plan meals for the whole household in advance (see food-013) rather than letting people graze."
+      },
+      {
+        "step": 4,
+        "title": "Agree on the rules together, in advance",
+        "body": "Rules feel fair when people help make them and understand why. Hold a short meeting to agree on: daily portions, who gets priority, how medicines are handled, what counts as personal versus shared supplies, and how the rules will change if the situation gets better or worse. Write them down in plain words and post them. Use clear standards, such as medical need first, equal shares for healthy adults, and extra for those doing heavy work. Deciding the standards first, then applying them, is the same approach federal mediators use to settle disputes fairly."
+      },
+      {
+        "step": 5,
+        "title": "Protect the most vulnerable",
+        "body": "Set aside supplies for those who cannot go without: infant formula and baby food, prescription and critical medicines, food for people with diabetes or allergies, and extra water for children, nursing mothers, and the sick. Mark these supplies clearly and keep them separate. People who need refrigerated or powered medical equipment may need a larger share of fuel or battery power. Being open about why these people get priority prevents resentment. Most people accept unequal shares when the reason is clear and the same rules apply to everyone."
+      },
+      {
+        "step": 6,
+        "title": "Make sharing transparent",
+        "body": "Suspicion destroys groups faster than hunger. Have two people handle distribution, rotating the job. Serve meals at set times, together if possible, so everyone can see portions. Keep a simple log of what was used each day. Store shared supplies in one place with limited access, and lock or secure them if trust is low. Never let one person control all supplies without oversight - even an honest person will face accusations. If someone is caught taking extra, deal with it calmly and privately first, using the conflict steps in psych-006."
+      },
+      {
+        "step": 7,
+        "title": "Decide on fuel, power, and other limited resources",
+        "body": "Use the same process for fuel, batteries, and generator time. List what each resource is needed for, rank uses by importance, and set a budget. A typical order: medical devices and medicine storage, safe heating or cooling for vulnerable people, water purification, communication (radios and phones), food safety, then lighting and comfort. Post a schedule, for example, 'Generator runs 7-9 a.m. and 6-8 p.m.; medical devices charge first.' Never run generators or fuel heaters indoors."
+      },
+      {
+        "step": 8,
+        "title": "Review and adjust",
+        "body": "Check the inventory and the rules every day or two. If resupply arrives, loosen the rules and say so. If it's getting worse, tighten them early rather than late - small cuts now are easier than big ones later. Explain each change and the numbers behind it. Watch people for signs of not getting enough food or water: dizziness, confusion, very dark urine, weakness, or a child who is unusually sleepy or irritable. Treat these as warnings to adjust portions, and get medical help if they are severe."
+      }
+    ],
+    "warnings": [
+      "Never ration drinking water. Drink what you need today and look for more for tomorrow.",
+      "Do not cut food for children or pregnant women. Be cautious with nursing mothers, older adults, sick people, and people with diabetes or other medical conditions.",
+      "Never let one person control all supplies with no oversight - it invites both abuse and false accusations.",
+      "Do not ration prescription medicines by skipping or splitting doses without talking to a pharmacist or doctor."
+    ],
+    "proTips": [
+      "Count supplies with two people and post the totals and 'days left' on a board.",
+      "Serve meals at set times so everyone sees the portions.",
+      "Keep a separate, clearly marked kit for babies, medicines, and special diets.",
+      "Decide the rules before you're hungry - people are far more reasonable on a full stomach."
+    ],
+    "relatedGuides": [
+      "food-013",
+      "water-015",
+      "water-010",
+      "psych-006",
+      "psych-008",
+      "home-008"
+    ],
+    "source": "Ready.gov (FEMA) / Mississippi State Department of Health",
+    "sources": [
+      {
+        "title": "Food and Water Supplies: Q&A",
+        "publisher": "Mississippi State Department of Health",
+        "url": "https://msdh.ms.gov/Page/44,4797,122,218.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Build A Kit",
+        "publisher": "Ready.gov (FEMA)",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Steps in Interest-Based Negotiation",
+        "publisher": "Federal Mediation and Conciliation Service (via Air University Air Force Negotiation Center)",
+        "url": "https://www.airuniversity.af.edu/Portals/10/AFNC/documents/ibnworksheets/3interest_based_steps.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not apply food cuts to children, pregnant women, or people with medical conditions that need regular meals.",
+      "Do not ration water - reduce other uses of water instead."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Your household or group has limited food, water, fuel, or medicine and no resupply in sight.",
+      "immediate": [
+        "Count all supplies with two people and figure days left per person.",
+        "Do not ration drinking water - cut other water uses instead.",
+        "Set aside supplies for babies, medicines, and medical needs."
+      ],
+      "then": [
+        "Agree on written rules and post them.",
+        "Serve meals at set times and log what is used.",
+        "Review the numbers every day or two and adjust early."
+      ]
+    }
   }
 ]

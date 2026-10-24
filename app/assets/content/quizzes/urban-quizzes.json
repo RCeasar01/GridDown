@@ -1,0 +1,215 @@
+[
+  {
+    "id": "quiz-urban-001",
+    "category": "urban",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You live on the 18th floor of a fire-resistive ('fireproof') apartment tower. The alarm sounds. The fire is reported on the 9th floor. You open your door a crack and the hallway is filling with smoke. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Run for the nearest stairwell and push down through the smoke as fast as you can."
+      },
+      {
+        "id": "b",
+        "text": "Take the elevator, since it is faster than 18 flights of stairs."
+      },
+      {
+        "id": "c",
+        "text": "Close the door, seal the gaps with wet towels or tape, call 911 with your apartment number, and signal from a window."
+      },
+      {
+        "id": "d",
+        "text": "Break a window to let the smoke out and wait for a ladder."
+      }
+    ],
+    "correct": "c",
+    "explanation": "In a fire-resistive building with the fire below you and smoke in the hall, the FDNY advises staying in your sealed unit - heat and smoke rise into stairwells. Pushing through smoke (a) is how people die in hallways and stairs. Elevators (b) can open onto the fire floor or stop in a smoky shaft. Breaking a window (d) sends glass onto people below and means you can no longer close out smoke.",
+    "relatedGuide": "urban-006",
+    "tags": [
+      "urban",
+      "fire",
+      "high-rise",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-urban-002",
+    "category": "urban",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "A citywide blackout stops your office elevator between floors. You have pressed the alarm and the operator says help is coming, but it has been 40 minutes. A coworker wants to pry the doors open and climb out. What is the safest choice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Help pry the doors open - you are close enough to a floor to climb up."
+      },
+      {
+        "id": "b",
+        "text": "Climb out through the ceiling hatch to reach the next floor's doors."
+      },
+      {
+        "id": "c",
+        "text": "Stay in the car, keep the doors closed, and keep checking in by intercom or phone until trained responders arrive."
+      },
+      {
+        "id": "d",
+        "text": "Jump up and down to get the car moving again."
+      }
+    ],
+    "correct": "c",
+    "explanation": "Elevator makers and utilities agree: stay in the car and wait for a technician or firefighters. The car can move without warning when power returns, so prying doors (a) or using the hatch (b) can drop you into the shaft. The car has vents, so air is not running out. Jumping (d) does nothing useful and can trip safety devices. Call 911 only if there is a medical emergency, smoke, or fire.",
+    "relatedGuide": "urban-007",
+    "tags": [
+      "urban",
+      "elevator",
+      "power-outage",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-urban-003",
+    "category": "urban",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your subway train stops in a dark tunnel during a power failure. After 20 minutes, a light haze of smoke appears at the far end of your car. Other riders are talking about forcing the doors and walking along the tracks to the next station. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Open the doors and walk the tracks to the station - the power is out so the rails are safe."
+      },
+      {
+        "id": "b",
+        "text": "Alert the crew on the intercom, then walk calmly into the next car that has no smoke and follow crew instructions."
+      },
+      {
+        "id": "c",
+        "text": "Pull the emergency brake to make sure the train cannot move."
+      },
+      {
+        "id": "d",
+        "text": "Stay in your seat in the smoky car and wait quietly."
+      }
+    ],
+    "correct": "b",
+    "explanation": "The MTA says the train is usually the safest place, and moving to an unaffected car solves most problems. A power failure does not guarantee the third rail is dead, and other trains may be moving (a). The emergency brake (c) is only for when the train's motion threatens lives, and should be avoided in tunnels because it limits how the train can be moved. Staying in the smoke (d) is unnecessary when a clear car is next to you.",
+    "relatedGuide": "urban-007",
+    "tags": [
+      "urban",
+      "subway",
+      "transit",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-urban-004",
+    "category": "urban",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "A hurricane flooded your apartment. You left with only your phone and the clothes you are wearing - your wallet and ID are gone. You need a place to sleep tonight. What is true about Red Cross shelters?",
+    "options": [
+      {
+        "id": "a",
+        "text": "You must show photo ID and proof of address to get in."
+      },
+      {
+        "id": "b",
+        "text": "You must first apply for FEMA assistance and get an application number."
+      },
+      {
+        "id": "c",
+        "text": "Shelters are free and you only need to give your name and where you lived before the disaster."
+      },
+      {
+        "id": "d",
+        "text": "Shelters charge a small daily fee that FEMA pays back later."
+      }
+    ],
+    "correct": "c",
+    "explanation": "The Red Cross says its shelters are free, open to anyone with a disaster-related need, and do not require ID - only your name and pre-disaster address. You do not need a FEMA application (b) to get shelter; you can apply later online, by app, by phone at 1-800-621-3362, or at a Disaster Recovery Center. Call or text 211 or check the Red Cross shelter map to find one.",
+    "relatedGuide": "urban-008",
+    "tags": [
+      "urban",
+      "shelter",
+      "red-cross",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-urban-005",
+    "category": "urban",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "After a tornado, your street is lined with debris piles. A neighbor's house is badly damaged and the family has evacuated. Their garage door is torn open and you can see a new generator inside. You could really use it. What is the right move?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Take it - the family left, so the property is abandoned."
+      },
+      {
+        "id": "b",
+        "text": "Take it but leave a note saying you will return it."
+      },
+      {
+        "id": "c",
+        "text": "Leave it. Taking property from a garage or home without permission is theft, and many places punish looting harder during emergencies. Contact the owner or report the open garage to police."
+      },
+      {
+        "id": "d",
+        "text": "It is fine as long as you only take things from the curbside piles instead."
+      }
+    ],
+    "correct": "c",
+    "explanation": "Evacuated owners still own their property, and taking it from an enclosed area like a garage is theft or burglary (a, b). Curbside debris rules (d) vary: some police departments say taking curbside items is not looting, but other cities, like Rowlett, Texas, have made it a misdemeanor without the owner's permission. Always check local rules and ask the owner. The right move is to leave it and let the owner or police know the garage is open.",
+    "relatedGuide": "urban-009",
+    "tags": [
+      "urban",
+      "salvage",
+      "law",
+      "advanced"
+    ]
+  },
+  {
+    "id": "quiz-urban-006",
+    "category": "urban",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "Officials have issued an evacuation warning for your city as a major hurricane approaches. You have a car, a dog, and an elderly parent. Put these actions in the best order.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Fill the gas tank and load the go-bag, medicines, and the dog's supplies"
+      },
+      {
+        "id": "b",
+        "text": "Decide to leave now at the warning stage, since your parent will need extra time"
+      },
+      {
+        "id": "c",
+        "text": "Drive out on the official evacuation route, avoiding shortcuts and floodwater"
+      },
+      {
+        "id": "d",
+        "text": "Text your out-of-area contact your route and destination"
+      },
+      {
+        "id": "e",
+        "text": "Wait at your destination until officials say it is safe to return"
+      }
+    ],
+    "correct_order": [
+      "b",
+      "a",
+      "d",
+      "c",
+      "e"
+    ],
+    "explanation": "Decide early first - people who need extra help should leave at the warning, not the order. Then fuel up and pack, since gas stations may close. Tell your out-of-area contact before you go so someone knows where to look for you. Drive the official route - shortcuts may be blocked or flooded. Finally, do not return until officials clear the area.",
+    "relatedGuide": "urban-011",
+    "tags": [
+      "urban",
+      "evacuation",
+      "intermediate"
+    ]
+  }
+]

@@ -2,80 +2,119 @@
   {
     "id": "fm-003",
     "category": "medical",
-    "title": "Field Sanitation — Military Standards",
+    "title": "Field Sanitation - Military Standards",
     "priority": "advanced",
-    "source": "US Army Field Manual (Public Domain)",
     "tags": [
       "field-manual",
       "sanitation",
       "hygiene",
       "disease-prevention",
-      "military"
+      "military",
+      "latrine",
+      "field kitchen"
     ],
-    "summary": "Military field sanitation standards adapted for civilian grid-down camps — latrine siting, waste disposal, hand hygiene, vector control, water discipline, and field kitchen sanitation to prevent disease outbreak.",
+    "summary": "U.S. Army field sanitation standards adapted for civilian grid-down camps: a sanitation team, latrine siting and types, hand-washing, waste water, flies and rodents, water discipline, and kitchen hygiene.",
     "steps": [
       {
         "step": 1,
-        "title": "Latrine Site Selection",
-        "body": "Proper latrine siting prevents the most common cause of group collapse in grid-down scenarios: fecal-oral disease transmission. Minimum standards: (1) Site latrines at least 100 meters (330 feet) from any water source, living area, or food preparation site; (2) Position downhill and downwind from the camp when terrain allows — prevents contaminated runoff and odor drift toward living areas; (3) Individual cat hole: dig 6–8 inches deep (this is the active aerobic decomposition zone where soil bacteria break down waste most effectively); place at least 200 feet from any water source; refill and mound when 2/3 full; (4) Group straddle trench: 1 foot wide x 2.5 feet deep x 4 feet long accommodates approximately 25 people per day; extend length as needed; (5) Mark latrines clearly, especially night-use paths — trips in the dark without clear marking lead to misuse and contamination of random areas."
+        "title": "Appoint a sanitation team",
+        "body": "The Army requires each company-sized unit to train a field sanitation team that inspects latrines, hand-wash stations, water, and food areas every day and reports problems to leaders. Do the same for a family or neighborhood camp: name two responsible people, give them authority, and rotate helpers. Their daily walk-through should check soap and water at every station, latrine depth and lids, standing water, trash, and anyone sick. Sanitation fails when it is everyone's job and no one's responsibility."
       },
       {
         "step": 2,
-        "title": "Waste Disposal and Fly Control",
-        "body": "Flies are the primary mechanical vector for fecal-oral disease — a single fly can carry millions of pathogens from latrine to food surface. Protocols: (1) Cover all human waste immediately after use — no exceptions; dirt, ash, or a purpose-built latrine cover; (2) Cat hole: refill and mound slightly above grade when 2/3 full (prevents rainwater infiltration and surface exposure); (3) Burn toilet paper separately from waste — paper buried in cat holes resurfaces; (4) Latrine fly screen: construct a simple screened structure over the straddle trench to prevent fly access while allowing ventilation; (5) Lime or wood ash application: sprinkle a thin layer over waste after each use — reduces odor, raises pH, and disrupts fly breeding cycle; lime is more effective but ash is widely available; (6) Sandbag or wood seat construction over straddle trench improves compliance — people avoid latrines that require awkward posturing, leading to misuse."
+        "title": "Site latrines to Army standards",
+        "body": "Army field sanitation training places latrines at least 100 feet (30 m) from any water source, at least 100 yards (90 m) downwind of the food service area, and about 30 yards (27 m) from the edge of the living area. Put them downhill from wells and springs. Choose latrine type by how long you stay: cat holes about 1 foot (30 cm) deep for people on the move; straddle trenches about 1 foot wide, 2.5 feet deep, and 4 feet long for stays up to about 3 days; and deep pits with fly-tight box seats for longer. Details are in guide medical-009."
       },
       {
         "step": 3,
-        "title": "Hand Washing Protocol",
-        "body": "Hand washing is the single highest-impact disease prevention measure available in any field environment. Minimum effective procedure when water is scarce: (1) Dampen hands with a small amount of water; (2) Apply soap — hard soap is preferred for durability; improvised substitutes include wood ash (alkaline, mild antimicrobial effect) or plant-based saponins; (3) Scrub for minimum 20 seconds, covering all surfaces: palms, backs, between fingers, under nails, wrists; (4) Rinse with the minimum water needed to remove soap; (5) Air dry or use a dedicated personal cloth — shared cloths become fomites. Waterless hand sanitizer requires minimum 60% alcohol concentration to be effective — lower concentrations do not reliably kill norovirus and many bacteria. Critical moments requiring hand washing without exception: before any food preparation, after latrine use, after treating any wound, after handling animals or animal waste."
+        "title": "Close latrines correctly",
+        "body": "Close a trench or pit when waste reaches within 1 foot (30 cm) of the surface or when you leave. Remove any seat box, then fill with soil in thin layers, packing it every few inches. Mound about 1 foot (30 cm) of soil above ground level to shed rain and keep flies and animals out. Post a marker with the latrine type and date. Proper closure prevents later digging accidents and keeps flies from breeding in the waste."
       },
       {
         "step": 4,
-        "title": "Vector Control — Mosquitoes and Rodents",
-        "body": "Arthropod and rodent vectors are responsible for malaria, dengue, hantavirus, leptospirosis, plague, and numerous other diseases that become significant threats when medical care is unavailable. Mosquito control: (1) Eliminate all standing water — even bottle caps and upturned lids hold enough water for Aedes mosquito breeding; patrol camp perimeter for containers, tarps, and hollows; (2) Mosquito activity peaks at dawn and dusk — schedule outdoor activity accordingly and maximize skin coverage during peak hours; (3) Permethrin treatment of clothing and gear is highly effective and lasts approximately 40 washes — treat before deployment, not after; (4) Bed nets over sleeping areas drastically reduce nighttime exposure. Rodent control: (1) Eliminate harborage — dense debris piles, wood stacks against structures, and abandoned equipment all shelter rodents; (2) Store all food in hard-sided sealed containers elevated minimum 18 inches off the ground; (3) Remove dead animals promptly using gloves — hantavirus is transmitted via aerosolized rodent excreta in disturbed nests."
+        "title": "Make hand-washing automatic",
+        "body": "Install a hand-washing device outside each latrine and near the kitchen, and keep it constantly supplied with soap and water - that is an Army standard, not a suggestion. A water jug with a spigot or a tippy-tap made from a jug and rope works well. Wash with soap for about 20 seconds before handling food, after latrine use, after caring for the sick, and after handling animals or trash. Do not share towels; air dry or use a personal cloth."
       },
       {
         "step": 5,
-        "title": "Water Discipline in the Field",
-        "body": "Waterborne disease — primarily diarrheal illness — is historically the most common cause of incapacitation in field operations. All water must be treated before consumption regardless of apparent source quality. Treatment methods in order of reliability: (1) Boil — rolling boil for 1 minute (3 minutes above 6,500 ft elevation) kills all pathogens; effective but fuel-intensive; (2) Bleach (sodium hypochlorite 6–8.25%) — 8 drops per gallon of clear water, 16 drops if cloudy, wait 30 minutes before drinking; (3) Iodine tablets — 2 tablets per liter, wait 30 minutes (double time if water is cold or turbid); less effective against Cryptosporidium; (4) Mechanical filter (0.2 micron or smaller) removes protozoa and bacteria but not viruses — must be combined with chemical treatment for complete protection. Canteen discipline: the lip of your canteen contacts your mouth — your canteen is personal, never shared without full treatment of the container. Shared water sources (pots, jugs) become disease vectors when people drink directly from them."
+        "title": "Dispose of waste water and trash",
+        "body": "Pour wash and kitchen water through a grease or food trap into a soakage pit - a hole filled with rocks or rubble - well away from water sources. Large camps should rotate between two pits. Never dump gray water on the ground near living areas or into streams. Store trash in covered containers and bury or burn it daily well downwind, following local fire rules. Garbage left out draws flies, rodents, and larger animals."
       },
       {
         "step": 6,
-        "title": "Field Kitchen Sanitation",
-        "body": "Foodborne illness can incapacitate an entire group within hours — field kitchen sanitation is a group survival issue, not a personal preference. Standards: (1) Three-pot wash system: pot 1 = hot soapy wash water; pot 2 = clean hot rinse water; pot 3 = sanitizer solution (1 teaspoon bleach per gallon of water); all dishes, utensils, and cooking pots cycle through all three after every use; (2) Dish temperature: water at or above 160°F for final rinse kills most pathogens on contact; (3) Food temperature danger zone: bacteria multiply rapidly between 40°F and 140°F — cook food to internal temperature above 165°F; do not leave cooked food in the danger zone for more than 2 hours; (4) Sick cook protocol: any person with fever, diarrhea, vomiting, or skin infection on hands must not handle food for others — this is non-negotiable in a grid-down environment where a single outbreak can be catastrophic; (5) Insect exclusion: cover all prepared food immediately; work under screening when possible; (6) Waste disposal: food waste must go to a dedicated disposal site away from the kitchen and living areas to avoid attracting both insects and rodents."
+        "title": "Control flies, mosquitoes, and rodents",
+        "body": "Keep latrine lids closed, cover all food, and remove breeding sites: standing water, open trash, and manure. Use EPA-registered repellents and bed nets, and keep food sealed and off the ground. Clean rodent droppings only by soaking them with disinfectant first, never by sweeping. See guide medical-010 for repellent choices and rodent cleanup steps."
+      },
+      {
+        "step": 7,
+        "title": "Enforce water and kitchen discipline",
+        "body": "Treat all drinking water by an approved method before use (see water-002 and water-003). Do not drink from shared pots or let people dip personal cups into the group container - pour instead. In the kitchen, wash, rinse, and sanitize dishes after every meal, cook food thoroughly, and serve it promptly. Anyone with diarrhea, vomiting, fever, or open sores on the hands must not cook or serve food for others. One sick cook can disable an entire camp."
       }
     ],
     "warnings": [
-      "A single sanitation failure in a group living situation can produce a disease outbreak that incapacitates everyone within 48 hours. Field sanitation is a group survival issue, not optional personal hygiene.",
-      "Cryptosporidium is resistant to iodine and chlorine at normal doses — boiling or a certified 0.2-micron filter is required for full protection against this common waterborne parasite."
+      "A single sanitation failure - an empty soap station or a sick cook - can cause an outbreak that disables a whole group.",
+      "Never site a latrine uphill of or within 100 feet (30 m) of a water source.",
+      "Do not sweep or vacuum rodent droppings; soak them with disinfectant first.",
+      "Burning trash or waste near shelters creates toxic smoke and fire risk."
     ],
     "proTips": [
-      "A handwashing station at the latrine entrance — even a simple jug with a drilled hole — dramatically increases compliance by making hand washing the path of least resistance.",
-      "Pre-treat all camp clothing and gear with permethrin before a grid-down scenario; it is far easier to treat before you leave than to manage mosquito exposure in the field with limited supplies."
+      "Put the hand-wash station on the path out of the latrine so washing is the easiest choice.",
+      "Use a simple daily checklist for the sanitation team and post it where everyone sees it.",
+      "Color-code containers: blue for drinking water, red for wash water, so they never get mixed.",
+      "Treat clothing and bed nets with permethrin before you need them, following the label."
     ],
     "relatedGuides": [
-      "fm-005",
+      "medical-009",
+      "medical-010",
+      "medical-011",
       "water-002",
-      "shelter-002",
-      "medical-010"
+      "fm-005"
     ],
-    "lastReviewed": "2025-01",
+    "source": "U.S. Army Field Sanitation (ATP 4-25.12) / CDC",
+    "sources": [
+      {
+        "title": "Field Sanitation Team Certification Course - Waste Disposal Lesson Plan (based on ATP 4-25.12)",
+        "publisher": "New York State Division of Military and Naval Affairs",
+        "url": "https://dmna.ny.gov/foodservice/docs/Field_Sanitation_Team_Certification_Course/Instructor_Manual/L006LP_Waste_Disposal_LP.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Clean Up After Rodents",
+        "publisher": "U.S. CDC",
+        "url": "https://cdc.gov/healthy-pets/rodent-control/clean-up.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Preventing Mosquito Bites - Use Insect Repellent",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/mosquitoes/modules/mosquito-bites/mosquito-bite-prevention-us-content.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
     "riskLevel": "high",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not dig pits in flood-prone ground or where the water table is shallow - use bucket toilets and haul waste.",
+      "Where working toilets or municipal sanitation still function, use them instead of field latrines."
+    ],
+    "requiresMedicalDisclaimer": true,
     "quickGlance": {
-      "situation": "You are establishing or managing a multi-person camp and need to implement sanitation practices that prevent disease outbreak — a single sanitation failure can incapacitate everyone within 48 hours",
+      "situation": "You are running a multi-person camp without working sanitation and need to prevent disease outbreaks.",
       "immediate": [
-        "Site latrines minimum 100 meters from any water source, living area, or food preparation — downhill and downwind from camp",
-        "Establish hand washing station at the latrine entrance: dampen, soap, scrub 20 seconds covering all surfaces, rinse, air dry",
-        "Eliminate all standing water around camp — even bottle caps breed mosquitoes in 4-5 days"
+        "Name a sanitation team to inspect latrines, wash stations, water, and kitchen daily",
+        "Site latrines 100+ ft from water and 100 yards downwind of food",
+        "Keep soap and water at every latrine and the kitchen at all times"
       ],
       "then": [
-        "Use three-pot wash system for all cooking equipment: hot soapy wash, hot rinse, bleach sanitizer solution",
-        "Any person with fever, diarrhea, vomiting, or hand skin infection must not handle food for others — non-negotiable"
+        "Route gray water to a soakage pit; cover trash and food",
+        "Bar anyone with diarrhea, vomiting, fever, or hand sores from cooking"
       ]
-    },
-    "requiresMedicalDisclaimer": true
+    }
   }
 ]

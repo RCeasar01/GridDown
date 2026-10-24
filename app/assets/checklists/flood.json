@@ -2,22 +2,119 @@
   "id": "checklist-flood",
   "title": "Flood",
   "disasterType": "flood",
-  "description": "Flash floods give minutes; river floods give hours — act on first warning.",
+  "description": "Use this list to prepare for flash floods (minutes of warning) and river floods (hours to days) before the rain arrives.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Floods",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/floods",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Flood Safety",
+      "publisher": "NWS Boston/Norton",
+      "url": "https://www.weather.gov/box/flood_safety",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "FEMA Flood Map Service Center",
+      "publisher": "FEMA",
+      "url": "https://msc.fema.gov/portal/home",
+      "accessed": "2026-10"
+    }
+  ],
   "items": [
-    { "id": "fl-001", "text": "Know your FEMA flood zone — look up your address at msc.fema.gov", "critical": true },
-    { "id": "fl-002", "text": "Know your elevation relative to nearby flood-prone waterways", "critical": true },
-    { "id": "fl-003", "text": "NEVER drive through standing or moving flood water — TURN AROUND DON'T DROWN", "critical": true },
-    { "id": "fl-004", "text": "Identify evacuation routes that avoid flood-prone bridges and low areas", "critical": true },
-    { "id": "fl-005", "text": "Important documents in waterproof, portable container ready to grab immediately", "critical": true },
-    { "id": "fl-006", "text": "Water stored in elevated location or second story (flood water contaminates open containers)", "critical": false },
-    { "id": "fl-007", "text": "Electrical panel, water heater, and furnace elevated if in flood zone", "critical": false },
-    { "id": "fl-008", "text": "Flood insurance policy reviewed — standard homeowner's does NOT cover flood damage", "critical": false },
-    { "id": "fl-009", "text": "Sandbags available for doorways and utility entries if in high-risk zone", "critical": false },
-    { "id": "fl-010", "text": "72-hour bag packed and ready — flood evacuation can be immediate", "critical": true },
-    { "id": "fl-011", "text": "Vehicle parked on high ground if significant flooding is forecast", "critical": true },
-    { "id": "fl-012", "text": "Monitor NOAA forecasts — know Flash Flood Watch vs. Warning distinction", "critical": true },
-    { "id": "fl-013", "text": "Waterproof boots for post-flood cleanup — flood water is sewage-contaminated", "critical": false },
-    { "id": "fl-014", "text": "Document home contents with photos/video for insurance claims before flood season", "critical": false },
-    { "id": "fl-015", "text": "Out-of-area emergency contact designated and written on paper", "critical": false }
+    {
+      "id": "fl-003",
+      "text": "Never drive or walk through floodwater: Turn Around, Don't Drown - 6 inches (15 cm) of moving water can knock you down and about 12 inches (30 cm) can float a car",
+      "critical": true
+    },
+    {
+      "id": "fl-012",
+      "text": "Know the alerts: a Flash Flood Watch means get ready; a Flash Flood Warning means move to higher ground now",
+      "critical": true
+    },
+    {
+      "id": "fl-016",
+      "text": "Have two ways to get alerts - phone Wireless Emergency Alerts and a NOAA Weather Radio - and keep them on at night when heavy rain is forecast",
+      "critical": true
+    },
+    {
+      "id": "fl-001",
+      "text": "Look up your flood risk on the FEMA Flood Map Service Center (msc.fema.gov) and learn if you are below a dam or levee",
+      "critical": true
+    },
+    {
+      "id": "fl-004",
+      "text": "Plan at least two routes to higher ground that avoid low crossings, dips, and flood-prone bridges",
+      "critical": true
+    },
+    {
+      "id": "fl-002",
+      "text": "Know where high ground is from home, work, and school - and that canyons, washes, and burn scars can flood with little rain",
+      "critical": true
+    },
+    {
+      "id": "fl-010",
+      "text": "Keep a go-bag packed and ready - flash flood evacuation can mean leaving within minutes",
+      "critical": true
+    },
+    {
+      "id": "fl-005",
+      "text": "Keep important documents in a waterproof, portable container you can grab right away",
+      "critical": true
+    },
+    {
+      "id": "fl-017",
+      "text": "Know the plan if trapped: go to the highest floor, never into a closed attic; go onto the roof only if you must and signal for help",
+      "critical": true
+    },
+    {
+      "id": "fl-011",
+      "text": "Move vehicles to high ground when significant flooding is forecast",
+      "critical": false
+    },
+    {
+      "id": "fl-006",
+      "text": "Store drinking water in sealed containers on an upper floor or high shelf - floodwater ruins anything it touches",
+      "critical": false
+    },
+    {
+      "id": "fl-008",
+      "text": "Buy flood insurance early - standard homeowner's and renter's policies do not cover floods, and NFIP policies usually take 30 days to start",
+      "critical": false
+    },
+    {
+      "id": "fl-007",
+      "text": "Raise the electrical panel, water heater, and furnace above flood level if you are in a flood zone",
+      "critical": false
+    },
+    {
+      "id": "fl-018",
+      "text": "Clear gutters and drains, and consider backflow valves and a battery-backup sump pump",
+      "critical": false
+    },
+    {
+      "id": "fl-009",
+      "text": "Keep sandbags or flood barriers for doorways and low openings if you are in a high-risk area",
+      "critical": false
+    },
+    {
+      "id": "fl-014",
+      "text": "Photograph or video your home and belongings before flood season for insurance claims",
+      "critical": false
+    },
+    {
+      "id": "fl-013",
+      "text": "Keep waterproof boots, heavy gloves, and N95 masks for cleanup - floodwater carries sewage, chemicals, and mold",
+      "critical": false
+    },
+    {
+      "id": "fl-015",
+      "text": "Pick an out-of-area contact and write the number on paper",
+      "critical": false
+    }
   ]
 }

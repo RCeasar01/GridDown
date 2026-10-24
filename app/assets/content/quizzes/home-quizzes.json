@@ -1,0 +1,220 @@
+[
+  {
+    "id": "quiz-house-001",
+    "category": "home",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "A winter ice storm knocks out power. By the second night the house is 48 F and your kids are shivering. You have a gas range that still works because the gas is on. A neighbor says to turn on all the burners and open the oven door, and to crack a window for safety. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Follow the neighbor's advice - cracking a window makes the gas range safe to use as a heater."
+      },
+      {
+        "id": "b",
+        "text": "Do not use the range for heat. Move everyone into one small closed-off room with blankets and layers, check CO alarm batteries, and go to a warming center if you cannot stay safely warm."
+      },
+      {
+        "id": "c",
+        "text": "Use the oven for heat only during the day while everyone is awake, then turn it off at night."
+      },
+      {
+        "id": "d",
+        "text": "Bring the charcoal grill into the garage with the door open and use it to warm the house."
+      }
+    ],
+    "correct": "b",
+    "explanation": "CDC, CPSC, and Ready.gov all say never use a gas stovetop or oven to heat your home. It can build up carbon monoxide, and an open window does not clear it fast enough. Using it only while awake (c) is still unsafe - CO symptoms feel like the flu and confuse people before they notice. A charcoal grill in a garage (d) is one of the classic ways families die in outages, even with the door open. Holding heat in one room, using layers, checking alarms, and moving to a warming center is the safe plan.",
+    "relatedGuide": "home-001",
+    "tags": [
+      "home",
+      "beginner",
+      "heating",
+      "carbon monoxide"
+    ]
+  },
+  {
+    "id": "quiz-house-002",
+    "category": "home",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "The power went out at 6 p.m. and came back at 2 p.m. the next day - 20 hours. Nobody opened the fridge or the full chest freezer. The fridge thermometer now reads 50 F. In the freezer, the chicken still has ice crystals and the thermometer reads 20 F. What do you keep?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep everything - the doors stayed closed, so it all stayed safe."
+      },
+      {
+        "id": "b",
+        "text": "Throw out everything in both appliances to be safe."
+      },
+      {
+        "id": "c",
+        "text": "Throw out the perishable fridge food (above 40 F for well over 4 hours); keep or refreeze the freezer food that still has ice crystals and is at 40 F or below."
+      },
+      {
+        "id": "d",
+        "text": "Smell and taste the fridge food; keep anything that seems fine."
+      }
+    ],
+    "correct": "c",
+    "explanation": "USDA and CDC say a closed refrigerator keeps food safe about 4 hours, and a full freezer about 48 hours. After 20 hours, perishable fridge food at 50 F must go. The freezer food still holds ice crystals and is well below 40 F, so it can be refrozen or cooked. Throwing out everything (b) wastes safe food. Tasting or smelling (d) is never a safety test - many food-poisoning germs do not change the smell or taste. Closed doors (a) only stretch time; they do not make it unlimited.",
+    "relatedGuide": "home-004",
+    "tags": [
+      "home",
+      "intermediate",
+      "food safety",
+      "power outage"
+    ]
+  },
+  {
+    "id": "quiz-house-003",
+    "category": "home",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "After a hurricane, you buy a portable generator. It is raining hard. Your brother-in-law suggests three ideas. Which plan is safe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Run it inside the attached garage with the big door fully open to keep it dry."
+      },
+      {
+        "id": "b",
+        "text": "Make a double-male cord and plug the generator into the dryer outlet so the whole house has power."
+      },
+      {
+        "id": "c",
+        "text": "Run it outside on a dry, level spot under an open canopy at least 20 feet from doors, windows, and vents, with outdoor-rated cords to the fridge, and battery CO alarms inside."
+      },
+      {
+        "id": "d",
+        "text": "Run it right under the bedroom window so the cords reach without an extension."
+      }
+    ],
+    "correct": "c",
+    "explanation": "CDC, CPSC, and Ready.gov say to run generators outdoors only, at least 20 feet from openings, with the exhaust pointed away from the home, and to have CO alarms inside. An open garage (a) still lets deadly CO build up and seep into the house. Plugging into a dryer or wall outlet (b) is backfeeding - it can electrocute utility workers and neighbors and start fires; only a licensed electrician-installed transfer switch or interlock is safe. Under a window (d) sends exhaust straight into where people sleep.",
+    "relatedGuide": "home-006",
+    "tags": [
+      "home",
+      "intermediate",
+      "generator",
+      "carbon monoxide",
+      "backfeeding"
+    ]
+  },
+  {
+    "id": "quiz-house-004",
+    "category": "home",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "You come home after an earthquake and smell a strong rotten-egg odor near the kitchen. Put these actions in the right order.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Do not touch light switches, phones, or flames inside."
+      },
+      {
+        "id": "b",
+        "text": "Get everyone out of the house."
+      },
+      {
+        "id": "c",
+        "text": "If you can do it safely, turn the gas meter valve a quarter turn so the tab is crosswise to the pipe."
+      },
+      {
+        "id": "d",
+        "text": "Call the gas company or 911 from a safe distance outside."
+      },
+      {
+        "id": "e",
+        "text": "Wait for the utility to inspect, turn the gas back on, and relight pilots."
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "Any spark - a light switch, a phone, a match - can ignite leaking gas, so avoid all of them while inside. Get people out first; property comes second. Shut off the gas at the meter only if it is safe to reach. Call from outside, well away from the house. Never turn the gas back on yourself: a qualified technician must check for leaks and relight every pilot, or gas can pour out and explode.",
+    "relatedGuide": "home-005",
+    "tags": [
+      "home",
+      "beginner",
+      "gas leak",
+      "utilities",
+      "earthquake"
+    ]
+  },
+  {
+    "id": "quiz-house-005",
+    "category": "home",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Day 3 of a summer grid-down event. Officials say street sewer lines are cracked. Your home's toilets still flush. Your father uses insulin pens (manufacturer pens, unopened and opened) and the house is 82 F. Which plan is best?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep flushing since the toilets work, and put the insulin directly on ice in a sealed cooler so it stays as cold as possible."
+      },
+      {
+        "id": "b",
+        "text": "Stop flushing and use a two-bucket toilet with urine kept separate; keep the insulin cool and out of the sun but not touching ice, and plan to replace it - FDA says most manufacturer insulin can stay unrefrigerated at 59-86 F for up to 28 days."
+      },
+      {
+        "id": "c",
+        "text": "Stop flushing, but throw the insulin away immediately because it was out of the fridge more than 4 hours."
+      },
+      {
+        "id": "d",
+        "text": "Keep flushing with bucket water and store the insulin in the freezer compartment of a cooler."
+      }
+    ],
+    "correct": "b",
+    "explanation": "When officials say street sewers are damaged, flushing can back sewage into homes even if your toilet seems fine, so switch to a twin-bucket toilet. For insulin, FDA says most manufacturer vials and pens can be kept unrefrigerated between 59 and 86 F for up to 28 days, so it should not be thrown out right away (c). Freezing ruins insulin, and FDA says not to use insulin that has frozen, so direct ice or a freezer (a, d) is the wrong move. Check the product label and call the pharmacy for a replacement as soon as you can.",
+    "relatedGuide": "home-013",
+    "tags": [
+      "home",
+      "advanced",
+      "sanitation",
+      "insulin",
+      "medical devices"
+    ]
+  },
+  {
+    "id": "quiz-house-006",
+    "category": "home",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "During an outage, a candle tips over and sets a wastebasket on fire. The fire is knee-high and not spreading yet. Your partner is taking the kids outside and calling 911. You have an ABC extinguisher and the door is behind you. What is the correct way to use it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pull the pin, aim at the tops of the flames, squeeze in short bursts, and step closer to finish it off."
+      },
+      {
+        "id": "b",
+        "text": "Pull the pin, aim low at the base of the fire, squeeze slowly and evenly, and sweep side to side; back away while watching for flare-ups, and leave if it is not out when the extinguisher empties."
+      },
+      {
+        "id": "c",
+        "text": "Throw a pot of water on it first, then use the extinguisher if that fails."
+      },
+      {
+        "id": "d",
+        "text": "Grab the burning wastebasket and carry it outside."
+      }
+    ],
+    "correct": "b",
+    "explanation": "This is the PASS method from OSHA and NFPA: Pull, Aim low at the base, Squeeze, Sweep. Aiming at the flames (a) wastes agent and does not reach the fuel. Water (c) can spread some fires and wastes precious seconds. Carrying a burning object (d) can set your clothes and the house on fire. Fight a fire only when it is small, others are getting out, 911 is being called, and your exit is behind you; if in doubt, get out.",
+    "relatedGuide": "home-016",
+    "tags": [
+      "home",
+      "intermediate",
+      "fire extinguisher",
+      "PASS",
+      "candles"
+    ]
+  }
+]

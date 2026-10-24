@@ -4,67 +4,240 @@
     "category": "tools",
     "title": "The Essential EDC and Survival Kit",
     "priority": "critical",
-    "tags": ["tools", "EDC", "kit", "gear"],
-    "summary": "What to carry every day and what to have in a 72-hour kit — ranked by survival impact.",
+    "tags": [
+      "tools",
+      "EDC",
+      "everyday carry",
+      "kit",
+      "gear",
+      "preparedness"
+    ],
+    "summary": "Build a small everyday-carry (EDC) kit that lives on your body, and learn how it fits with your get-home bag, go-bag, and home supplies. Use this to build or audit what you carry every day.",
     "steps": [
-      { "step": 1, "title": "EDC tier — on your person always", "body": "The items you carry when you have nothing else: a folding knife (minimum 3-inch blade, locking mechanism — the Benchmade Griptilian, Spyderco Paramilitary 2, or Ka-Bar Dozier are proven platforms). A lighter (Bic wins on reliability-to-cost ratio; carry two). A small flashlight (Streamlight Microstream or Fenix E12 — runs on a single AA battery). A quality whistle (Fox 40 pealess). These four items fit in any pocket and address the most common everyday emergencies." },
-      { "step": 2, "title": "Trauma supplement — IFAK", "body": "Individual First Aid Kit for carry: tourniquet (CAT or SOFTT-W), wound packing gauze (QuikClot or Celox), pressure bandage (Israeli bandage or OLAES), chest seal pair (vented — Halo or SAM), nasopharyngeal airway (28 French with lube). This combination addresses the 'Preventable Death' injuries identified by military trauma data. Commercial IFAKs from North American Rescue or Chinook Medical are pre-assembled. Learn to use everything in your kit — the kit without training is only potential value." },
-      { "step": 3, "title": "72-hour kit fundamentals", "body": "WATER: 1L stored plus Sawyer Squeeze filter or SteriPen UV purifier and collapsible container. FIRE: Bic lighter, ferro rod (Bayite 4-inch), waterproof matches. SHELTER: emergency bivy sack (SOL Escape Bivy — 0°C rated, weighs 10 oz) or Mylar emergency blanket minimum. FOOD: 3 days of calorie-dense food: mountain house freeze-dried meals, protein bars, nuts, hard candy. NAVIGATION: waterproof paper topo map of your region, Suunto A-10 compass. COMMS: Baofeng UV-5R programmed with local repeaters, NOAA frequencies. MEDICAL: IFAK plus any personal medications (90-day supply if possible). POWER: USB battery bank (20,000+ mAh), solar panel." },
-      { "step": 4, "title": "What not to carry", "body": "The failure mode of most survival kits is weight. Prioritize tools that serve multiple functions. What to evaluate skeptically: 'survival kits' with 100+ pieces of low-quality items; credit card multi-tools (too small to be useful); wire saw (effective but heavy — a folding saw does more work); survival straws (use a full Sawyer filter instead); paracord bracelets (too little cord to matter — carry a 50-foot hank instead). Every item in your kit must earn its weight with specific, high-priority capability." }
+      {
+        "step": 1,
+        "title": "Think in layers, not one big kit",
+        "body": "Plan your gear in four layers. Layer 1 is EDC: what is in your pockets or on your belt every day, because that is what you will have when something happens. Layer 2 is a get-home bag at work or in your car (see tools-010). Layer 3 is a go-bag you grab when you must evacuate (tools-009). Layer 4 is your home supply for sheltering in place (home-008). Each layer backs up the one before it. Keep the EDC layer small and light, or you will stop carrying it. A good test: if you would leave it on the counter on a hot day, it is too big. Write down what each layer is for before you buy anything."
+      },
+      {
+        "step": 2,
+        "title": "Carry a cutting tool you can use safely",
+        "body": "Carry a folding knife with a locking blade, or a compact multi-tool with a locking blade. A blade of about 2.5 to 3.5 inches (6 to 9 cm) handles almost every daily job: opening packages, cutting cord, trimming tape, and making tinder. Check your state and city knife laws before you carry, and leave the knife at home when going to schools, courthouses, airports, or other places that ban them. Keep the edge sharp (see tools-006), because a dull blade needs more force and slips more. Close it with your fingers clear of the edge, and cut away from your body. Treat it as a tool, not a weapon."
+      },
+      {
+        "step": 3,
+        "title": "Always have light",
+        "body": "A phone flashlight is a backup, not a plan, because it drains the battery you may need for calls and alerts. Carry a small LED flashlight or a keychain light that runs on one AA, one AAA, or a built-in rechargeable cell. Pick one with a low mode, because low output can run for many hours and saves your night vision. If it uses disposable batteries, lithium AA or AAA cells hold their charge for years and work in hard cold. Test it every month. See tools-011 for battery choices and storage."
+      },
+      {
+        "step": 4,
+        "title": "Carry two ways to make fire",
+        "body": "Carry a disposable butane lighter in a pocket and a second one, or waterproof matches, somewhere else, such as a bag or vehicle. Two separate sources mean one loss or one wet pocket does not leave you without fire. Butane lighters work poorly when very cold, so keep the pocket one close to your body heat in winter. A small ferro rod is a good third option for your bag because it works wet. Fire matters for warmth, signaling, and boiling water. See fire-006 for choosing and waterproofing lighters and matches."
+      },
+      {
+        "step": 5,
+        "title": "Add signal, phone power, and contact info",
+        "body": "Add a loud plastic whistle on your keys. Three blasts is the standard call for help, and a whistle carries farther than your voice with less effort. Keep your phone charged and carry a small power bank and short cable when you can. Write your key phone numbers on a card in your wallet, because a dead or lost phone means you may not remember them. Ready.gov lists a whistle, a phone with chargers and a backup battery, and a flashlight in its basic kit for good reason: being found and staying in touch solve most emergencies."
+      },
+      {
+        "step": 6,
+        "title": "Carry personal medical basics",
+        "body": "Carry a few adhesive bandages, a pair of nitrile gloves, and a small amount of any medicine you need daily, such as an inhaler or allergy medicine. If you have a prescribed epinephrine auto-injector, carry it every day. A tourniquet is a valuable item for your bag or car, but get hands-on training before you rely on it. See health-001 for building first aid kits at each layer, and get first aid and CPR training locally."
+      },
+      {
+        "step": 7,
+        "title": "Round it out with small problem solvers",
+        "body": "Add items that solve many problems for very little weight: 10 to 20 feet (3 to 6 m) of strong cord, a few feet of duct tape wrapped around a lighter or card, a little cash in small bills (card readers fail when power is out), and a photo or paper copy of your ID and emergency contacts. A bandana or buff works as a dust mask, sling, sweat rag, or pre-filter for water. Skip novelty survival cards and tiny tools you will never use. Every item should do a real job you can name."
+      },
+      {
+        "step": 8,
+        "title": "Check and rotate your kit",
+        "body": "Once a month, empty your pockets and kit. Test the light, check the lighter, and replace anything used or broken. Replace medicine before it expires. Once a year, review the whole kit for changes in your life, like a new job, a new commute, or a new baby. Ready.gov advises reviewing kits each year and replacing expired items. Most important, practice: use your knife, light a fire with your lighter, and walk your route home once. Skill with a few items beats a large kit you have never used."
+      }
     ],
     "warnings": [
-      "A knife is a cutting tool, not a weapon. The defensive value of a knife is vastly overestimated; its utility value for survival tasks is vastly underestimated. Carry it, use it constantly for tasks, and develop the skills to use it effectively.",
-      "Lithium batteries perform significantly better than alkaline in extreme cold. For any device used in cold weather, use Energizer Ultimate Lithium or equivalent lithium cells."
+      "Knife laws vary by state, city, and building. Check them before you carry, and leave blades at home when visiting places that ban them.",
+      "Do not rely on your phone as your only light, map, and contact list. A dead battery takes all three away at once.",
+      "Do not carry medical gear you have not been trained to use. Get hands-on training for tourniquets and other trauma items.",
+      "Keep lighters and power banks out of very hot cars when possible. Heat can damage lithium batteries and make butane lighters vent."
     ],
     "proTips": [
-      "The Bic lighter is the survival community's most endorsed fire-making tool because it has been tested in extreme conditions worldwide and outperforms matches, ferro rods, and piezoelectric lighters in ease of use for most people. Carry two — one in pocket, one in kit.",
-      "Skill beats gear. A person who can start a fire with a bow drill and read a topo map will survive in conditions that defeat a person with a $5,000 kit and no skills. Invest in training commensurate with your investment in gear."
+      "Wrap a few feet of duct tape around your lighter or a water bottle so it rides along without taking up pocket space.",
+      "Choose lights and devices that share one battery size so spares fit everything you carry.",
+      "Write your emergency numbers on the back of a card in your wallet - most people do not remember them when the phone dies.",
+      "Carry your EDC every day for two weeks before adding anything. Whatever you never touch, cut."
     ],
-    "relatedGuides": ["tools-002", "tools-003", "fire-001"],
-    "source": "Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "tools-009",
+      "tools-010",
+      "tools-011",
+      "home-008",
+      "health-001",
+      "fire-006"
+    ],
+    "source": "FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Build A Kit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Car Safety",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/car",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Battery Comparison Chart",
+        "publisher": "Energizer",
+        "url": "https://energizer.com/eu/uk/?p=5946",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "low",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not carry a knife into schools, courthouses, airports, or other places where blades are banned.",
+      "An EDC kit is not a substitute for a go-bag or home supply during an evacuation or long outage."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to build or audit your everyday carry and 72-hour emergency kit — gear selection determines capability in a no-resupply scenario",
-      "immediate": ["EDC minimum: locking folding knife, two Bic lighters, LED flashlight (AA battery), pealess whistle", "IFAK minimum: CAT tourniquet, QuikClot gauze, Israeli pressure bandage, vented chest seal pair", "72-hour bag: 1L water + Sawyer filter, 2000+ cal/day food, emergency bivy, 3 fire methods, compass + topo map"],
-      "then": ["Weight is your enemy: evaluate every item for multi-function use; eliminate low-value single-purpose items", "Skill beats gear — a person who can start a fire and read a topo map survives where a person with a $5,000 kit and no skills does not"]
+      "situation": "You want a small kit that is always on you, so you have the basics when trouble starts away from home.",
+      "immediate": [
+        "Carry a locking folding knife or multi-tool, a small LED flashlight, and two fire sources in separate places",
+        "Add a whistle, a charged phone with a small power bank, and a written contact card",
+        "Carry daily medicines and a few bandages"
+      ],
+      "then": [
+        "Build a get-home bag and a go-bag as your next layers",
+        "Check the kit monthly and review it every year"
+      ]
     }
   },
   {
     "id": "tools-002",
     "category": "tools",
-    "title": "Fixed-Blade Knife — Skills and Maintenance",
+    "title": "Fixed-Blade Knife - Skills and Maintenance",
     "priority": "advanced",
-    "tags": ["tools", "knife", "blade", "maintenance"],
-    "summary": "Choose, use, and maintain a fixed-blade knife — the most important field tool.",
+    "tags": [
+      "tools",
+      "knife",
+      "fixed blade",
+      "batoning",
+      "carving",
+      "maintenance",
+      "safety"
+    ],
+    "summary": "Choose a sturdy fixed-blade knife, use it safely for camp jobs like carving, feathering tinder, and splitting small wood, and keep it clean and rust-free.",
     "steps": [
-      { "step": 1, "title": "Choosing a fixed blade", "body": "A survival fixed blade: 4–6 inch blade (long enough for batoning wood, short enough for fine work), full tang construction (blade steel extends the full length of the handle — partial tang blades can fail under stress), high-carbon or quality stainless steel (1095 carbon steel, 440C, 154CM — all proven options). Handle material that maintains grip when wet (G-10, Micarta, textured rubber). Kydex sheath with positive retention. Proven platforms: ESEE-4, KA-BAR BECKER BK2, Morakniv Companion (value option at ~$15 — legitimate survival knife)." },
-      { "step": 2, "title": "Field sharpening", "body": "A dull knife is dangerous — it requires more force, which increases slipping risk. Field sharpening: use a whetstone (medium grit to re-establish edge, fine grit to finish), ceramic rod, or diamond sharpener. Maintain a consistent angle — 15–20 degrees per side for most knives (lay the blade flat on the stone, then raise the spine approximately the width of your thumbnail to set the angle). Use light, consistent pressure. Work from the base of the blade to the tip in sweeping strokes. Test sharpness: the knife should shave arm hair cleanly and catch on the edge of a thumbnail with minimal pressure." },
-      { "step": 3, "title": "Core tasks", "body": "Batoning (splitting wood): place the knife blade across the wood, strike the blade spine with a heavy stick to split the wood. Use only a full-tang blade. Feathering tinder: hold the wood with one hand, draw the blade edge toward you at a steep angle to create fine wood shavings for fire starting. Carving: more control with a short grip near the blade, power strokes with a full grip. Cutting cordage: straight cuts with the belly of the blade; sawing motion for rope." },
-      { "step": 4, "title": "Maintenance", "body": "After field use: clean the blade of sap, blood, and debris immediately. Carbon steel will rust rapidly if left wet or dirty — apply a thin coat of oil (mineral oil, olive oil in the field) after cleaning. Store in a dry environment. Do not store a carbon steel blade in a leather sheath for extended periods — leather retains moisture and accelerates rust. Kydex is the preferred sheath material for field storage." }
+      {
+        "step": 1,
+        "title": "Choose a knife that fits the job",
+        "body": "For general field use, pick a fixed blade of about 4 to 5 inches (10 to 13 cm). Longer blades are harder to control for fine work, and shorter ones struggle with splitting. Look for a full tang, meaning the steel runs the full length of the handle, so it will not snap at the handle under load. Carbon steel is easy to sharpen but rusts fast. Stainless steel resists rust but can be harder to sharpen. Pick a handle that grips well when wet and a sheath that holds the knife firmly, even upside down. An inexpensive, proven knife you practice with beats a costly one you are afraid to use."
+      },
+      {
+        "step": 2,
+        "title": "Set up a safe work zone",
+        "body": "Before you cut, check your blood circle: hold the closed sheathed knife at arm's length and turn in a full circle. No person should be inside that space. Sit or kneel with your elbows on or outside your knees, so a slipping blade passes beside your legs, not into them. The inner thigh has a large artery, so never cut toward your lap. Keep your free hand behind the edge, never in front of it. Use the knife when you are rested and have good light. Most knife injuries come from a blade slipping off the work toward the user, so plan where the blade will go if it slips."
+      },
+      {
+        "step": 3,
+        "title": "Use the right grip for each cut",
+        "body": "For power cuts, use a full grip, with the edge facing away and your wrist locked, and push the blade away from you. For control, choke up and place your thumb on the spine near the handle. For small, precise cuts, use a chest-lever grip: hold the knife edge out with your knuckles toward your chest, hold the wood in the other hand, and open your shoulders to make a short, controlled cut. Cut with the part of the blade near the handle for power and with the tip area for detail. Take many thin cuts instead of one deep one."
+      },
+      {
+        "step": 4,
+        "title": "Make feather sticks for fire",
+        "body": "Split dry, straight-grained wood to about thumb thickness. Brace the stick on a log or the ground at an angle, tip down, away from your body. Lay the blade almost flat on the wood near the top and push down and away in a long, thin stroke, stopping before the curl breaks off. Repeat side by side, building a cluster of curls at the bottom of the stick. The thinner the curls, the faster they catch. Dry inner wood from a split dead branch works even after rain. Make two or three sticks before you light the fire. See fire-007 for more on tinder and kindling."
+      },
+      {
+        "step": 5,
+        "title": "Split small wood by batoning only when needed",
+        "body": "Batoning means striking the spine of the knife with a stick to drive it through a small log. Use it only with a sturdy full-tang knife and only on wood thinner than the blade is long, usually wrist thickness or less. Stand the wood on a solid base, set the edge across the top, and tap the spine with a club of hard wood. Never use a rock or hammer on the spine. Once the tip comes out the other side, strike the tip area to finish. Keep your free hand off the blade. If wood is knotty or thick, use a saw or axe instead (see tools-007)."
+      },
+      {
+        "step": 6,
+        "title": "Clean and dry the blade after every use",
+        "body": "Wipe off sap, food, and dirt before you sheathe the knife. Wash it in warm soapy water when possible, then dry it fully, including near the handle. Carbon steel can rust overnight in damp air, so coat it lightly with food-safe mineral oil or cooking oil. Remove sap with a little alcohol or citrus cleaner. If light rust forms, rub it off with fine steel wool or a sharpening stone and oil the blade again. Keep the knife dry inside the sheath. Leather holds moisture, so do not store carbon steel in a leather sheath for long periods."
+      },
+      {
+        "step": 7,
+        "title": "Keep it sharp and know its limits",
+        "body": "Touch up the edge often instead of waiting until it is dull. A sharp knife bites with little force and is safer than a dull one that skids. See tools-006 for full sharpening steps. Do not pry, chop hard against knots, throw the knife, or use it as a screwdriver - tips and edges chip easily. Pass a knife handle first with the edge facing away, or set it down and let the other person pick it up. Store it sheathed and out of reach of children."
+      }
     ],
     "warnings": [
-      "Always cut away from your body and away from others. The most common knife injury is a cutting tool slipping toward the operator. Proper technique eliminates most knife injuries.",
-      "Never use your knife as a pry bar or lever — this will snap or damage the tip and potentially the blade. A pry bar is a different tool."
+      "Never cut toward your thighs, hands, or anyone else. Inner-thigh cuts can cause life-threatening bleeding.",
+      "Do not baton with a folding knife, a partial-tang knife, or a rock. The knife can break and fly apart.",
+      "Never try to catch a falling knife. Step back and let it drop.",
+      "Check local laws on carrying fixed-blade knives in public."
     ],
     "proTips": [
-      "The strop is the most underutilized sharpening tool. After sharpening on a stone, 10–15 light strokes per side on a leather strop (or even cardboard) removes the micro-burr from the edge and produces a razor finish without more stone work.",
-      "Learn to sharpen freehand without a jig. A sharpening jig is a crutch that requires equipment — freehand sharpening skill with any available abrasive is the real survival skill."
+      "Carry a small leather strop or a piece of cardboard - a few strokes per side restores a slightly dull edge in seconds.",
+      "Cut feather sticks from the inside of split dead wood when everything outside is wet.",
+      "Mark a strip of tape on the sheath with the date you last oiled a carbon blade.",
+      "Practice the chest-lever grip at home until it feels natural; it is the safest way to make small cuts."
     ],
-    "relatedGuides": ["tools-001", "tools-003"],
-    "source": "Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "tools-006",
+      "tools-007",
+      "tools-001",
+      "fire-007",
+      "fire-015"
+    ],
+    "source": "Scouting knife-safety practice / USDA Forest Service",
+    "sources": [
+      {
+        "title": "Totin' Chip",
+        "publisher": "Wikipedia (summary of Scouts BSA tool-safety rules)",
+        "url": "https://en.wikipedia.org/wiki/Totin%27_Chip",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Sharpen a Knife With a Whetstone",
+        "publisher": "GearJunkie",
+        "url": "https://gearjunkie.com/knives/how-to-sharpen-knife-whetstone",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Handtools for Trail Work - Cutting Tools",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/t-d/pubs/htmlpubs/htm05232810/page05.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
-    "riskLevel": "low",
+    "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not baton thick or knotty wood - use a saw or axe instead.",
+      "Do not use a knife when you are exhausted, very cold, or in poor light if the job can wait."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to select, use, and maintain a fixed-blade knife as your primary field tool",
-      "immediate": ["Selection: 4-6 inch blade, full tang, high-carbon or quality stainless steel, Kydex sheath", "Field sharpening: maintain 15-20 degrees per side — raise spine approximately one thumbnail width off the stone", "Core tasks: batoning (split wood by striking blade spine with heavy stick — full tang only), feathering tinder, cutting cordage"],
-      "then": ["After field use: clean blade of sap, blood, and debris; apply thin oil coat to carbon steel — it rusts rapidly if left wet", "Do not store carbon steel blade in leather sheath long-term — leather retains moisture and causes rust"]
+      "situation": "You need to carve, make tinder, or split small wood with a fixed-blade knife without hurting yourself.",
+      "immediate": [
+        "Clear an arm's-length blood circle and keep elbows outside your knees",
+        "Cut away from your body with your free hand behind the edge",
+        "Baton only wood thinner than the blade is long, with a wooden club"
+      ],
+      "then": [
+        "Clean, dry, and oil the blade before storing",
+        "Touch up the edge often and never pry with the tip"
+      ]
     }
   },
   {
@@ -72,33 +245,1192 @@
     "category": "tools",
     "title": "Improvised Tools and Repairs",
     "priority": "advanced",
-    "tags": ["tools", "improvised", "repair", "field craft"],
-    "summary": "Fabricate and repair essential tools from available materials when purpose-built tools are unavailable.",
+    "tags": [
+      "tools",
+      "improvised",
+      "field craft",
+      "bushcraft",
+      "repair",
+      "containers"
+    ],
+    "summary": "Make simple working tools - mallets, digging sticks, tongs, pot hangers, containers, and sharp stone flakes - from wood, stone, and scrap when the real tool is missing or broken.",
     "steps": [
-      { "step": 1, "title": "Paracord applications", "body": "550 paracord (7-strand, 550 lb tensile minimum) is the most versatile field cordage. Applications: shelters (ridgeline, tarp tie-outs), snares and traps, tourniquet improvisation (3-strand flat braid minimum — still far inferior to commercial), gear lashing, equipment repair, fishing line (inner strands), fire-starting (inner strands for bow-drill cord). Carry a minimum 50-foot hank in your kit. Learn basic knots: bowline (non-slip loop), clove hitch (post attachment), taut-line hitch (adjustable tension), sheet bend (joining two ropes)." },
-      { "step": 2, "title": "Stone knapping — improvised blades", "body": "Knapping produces sharp edges from flint, obsidian, chert, or any silicate rock with conchoidal fracture. It is a genuine skill that requires practice. Basic flake production: identify a suitable rock with sharp edges where previous flakes have broken off naturally. Strike with a hammerstone at the edge, angling down toward the face you want to remove. A proper flake strike produces a sharp-edged flake that can cut effectively. Do not attempt fine knapping without practice — begin with producing functional flakes for cutting, not finished tools." },
-      { "step": 3, "title": "Gear repair — field stitching", "body": "A needle and heavy thread in your kit weighs nothing and repairs critical equipment. Field stitching for fabric gear (packs, tent poles, clothing): running stitch for basic seams, lock stitch for load-bearing seams. Waxed thread or dental floss is more durable than standard thread in field conditions. Duct tape is a rapid temporary patch for almost any surface — carry at least 10 feet wound around a water bottle or tool handle to reduce bulk." },
-      { "step": 4, "title": "Container improvisation", "body": "Fluid containers can be improvised from: large-leaf plants formed into a cup (temporary), clay that can be fired (long-term), birch bark folded and pinned with thorns, sections of large bamboo (natural segments form waterproof chambers). Even a large plastic bag is a functional water container. For cooking: rocks heated in fire and transferred to a water-filled container (rock boiling) allow cooking without a fire-proof pot." }
+      {
+        "step": 1,
+        "title": "Start with the job, not the tool",
+        "body": "The Army survival manual's advice is to improvise: take something made for one purpose and find other ways to use it, such as using a rock as a hammer. Before you build anything, name the job in plain words: drive a stake, dig a hole, lift a hot pot, carry water. Then look around for something with the right shape and strength. A flat rock is a hammer, a forked branch is a pot hanger, a plastic bottle is a scoop, and a car's tire iron is a pry bar. Use real tools from your kit first (see tools-012). Build only what you cannot borrow, carry, or do without."
+      },
+      {
+        "step": 2,
+        "title": "Make a wooden mallet and stakes",
+        "body": "Cut a hardwood branch about 3 to 4 inches (8 to 10 cm) thick and about 15 inches (38 cm) long. Carve the bottom third down to a handle, leaving the top as a heavy head. Use it to drive stakes and to strike a knife or wedge when splitting wood. A wooden mallet will not chip your tools the way a rock or hammer will. For tent or tarp stakes, cut green sticks about 8 to 12 inches (20 to 30 cm) long, point one end, and carve a notch near the top so the line cannot slip off. Drive them at a slight angle away from the shelter."
+      },
+      {
+        "step": 3,
+        "title": "Make a digging stick",
+        "body": "Choose a straight, strong hardwood stick about 1.5 inches (4 cm) thick and as long as your arm. Carve one end into a flat, chisel-shaped point. Harden the tip by holding it near hot coals and turning it until the wood darkens slightly, but do not let it burn. Use it to loosen soil for a cat hole, dig a fire pit, or pry up roots. Loosen soil with the stick, then scoop it with your hands or a flat piece of wood. Never dig with your knife or axe - dirt and rock ruin the edge, and the Forest Service warns against striking the ground with an axe."
+      },
+      {
+        "step": 4,
+        "title": "Build tongs, pot hangers, and a cooking tripod",
+        "body": "For tongs, take a green stick about 2 feet (60 cm) long and split it partway, or shave the middle thin and bend it in half. Use them to move hot rocks or food. For a pot hanger, push a forked stick into the ground at an angle over the fire and hang the pot handle from a notch near the end. For a tripod, lash three poles together near the top with a few wraps of cord and a clove hitch (see tools-004), then spread the legs. Use green wood near fire, check it often, and keep a hand free to catch a falling pot."
+      },
+      {
+        "step": 5,
+        "title": "Improvise containers",
+        "body": "Plastic bottles, cans, and bags are the easiest containers - collect clean ones. A metal can, with paper labels and any plastic lining removed, can boil water over coals. Birch bark can be folded into a box or cone and pinned with split sticks. Large leaves work for very short-term carrying. A section of bamboo between two joints holds water; drill or cut one end open. You can heat water in a non-metal container by dropping in fire-heated rocks, but use only dry rocks from high ground. Rocks from rivers or wet places can trap water and crack or burst when heated."
+      },
+      {
+        "step": 6,
+        "title": "Make a sharp stone flake only if you must",
+        "body": "If you have no blade, a fresh flake of flint, chert, obsidian, or quartzite can cut cord and skin game. Put on eye protection or turn your face away, and wear gloves if you have them. Hold the stone on your thigh protected by a thick pad, or on the ground. Strike near the edge with a rounder, harder hammerstone, aiming down at an angle so a thin piece pops off. Flakes are razor sharp and break easily. Use them, then discard them where no one will step. Expect many failures - this is a skill that takes practice."
+      },
+      {
+        "step": 7,
+        "title": "Attach handles and test before trusting",
+        "body": "To add a handle to a stone, can lid, or blade, split the end of a stick, set the piece in the split, and lash it tight with cord or wet rawhide (see tools-005). Wrap from the split downward with tight, even turns and finish with a clove hitch. Then test gently. Pull, twist, and tap it before putting full force on it. Improvised tools fail without warning, so keep your body out of the line of failure and inspect them often. Replace improvised tools with real ones as soon as you can."
+      }
     ],
     "warnings": [
-      "Stone knapping produces sharp microfragments that can embed in eyes and skin. Work with eye protection and brush off clothing after knapping. Never knap toward other people.",
-      "Field-improvised tools are inherently less reliable than purpose-built equipment. Increased inspection, care, and testing before reliance is required."
+      "Wear eye protection when striking stone. Flying chips can blind you.",
+      "Never heat rocks from rivers, lakes, or wet ground. Trapped water can make them crack or burst.",
+      "Do not cook in cans with plastic linings, painted surfaces, or galvanized (zinc-coated) metal.",
+      "Improvised tools can break without warning. Keep hands, feet, and face out of the line of failure."
     ],
     "proTips": [
-      "The most useful skill is knowing which material properties to look for, not knowing which specific materials to use. A rope is a rope — grass, bark strips, roots, vines, and commercial paracord all serve when braided into a multi-strand cord. Recognize the principle, apply available materials.",
-      "Duct tape and paracord are the two most frequently useful field improvisation materials. Both are light, compact, and solve a disproportionate number of field problems. Never leave either out of your kit."
+      "Carry a few spare zip ties and a small roll of tape - they make most lashings faster and stronger.",
+      "Green wood is better near fire; dry, seasoned wood is better for mallets and handles.",
+      "Save a clean metal can or two in your bag - it becomes a pot, a scoop, or a stove.",
+      "Practice making one improvised tool each time you camp so the skill is ready when needed."
     ],
-    "relatedGuides": ["tools-001", "tools-002", "shelter-001"],
-    "source": "Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "tools-012",
+      "tools-004",
+      "tools-005",
+      "fire-012",
+      "shelter-006"
+    ],
+    "source": "U.S. Army FM 21-76 / USDA Forest Service",
+    "sources": [
+      {
+        "title": "FM 21-76 US Army Survival Manual",
+        "publisher": "U.S. Army",
+        "url": "https://www.sjsu.edu/people/michelle.hager/docs/fm_21-76_us_army_survival_manual_2006.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "An Ax to Grind - Safety and Use",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/t-d/pubs/htmlpubs/htm99232823/page04.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "tools-002"
+    ],
+    "whenNotTo": [
+      "Do not improvise when a real tool is available - borrow or use the proper tool.",
+      "Do not cut living trees or collect rock on private or protected land unless it is a true emergency."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are missing a tool and need to make a working substitute from wood, stone, or scrap.",
+      "immediate": [
+        "Name the job, then look for an object with the right shape and strength",
+        "Make a wooden mallet, digging stick, or forked pot hanger as needed",
+        "Wear eye protection when breaking stone"
+      ],
+      "then": [
+        "Lash handles tight and test gently before full use",
+        "Replace improvised tools with real ones as soon as you can"
+      ]
+    }
+  },
+  {
+    "id": "tools-004",
+    "category": "tools",
+    "title": "Essential Knots - What Each Is For and How to Tie It",
+    "priority": "beginner",
+    "tags": [
+      "tools",
+      "knots",
+      "rope",
+      "cordage",
+      "bowline",
+      "clove hitch",
+      "taut-line",
+      "trucker's hitch",
+      "prusik",
+      "lashing"
+    ],
+    "summary": "Twelve knots cover almost every camp and grid-down job: fixed loops, tying to posts, adjustable guy lines, cinching loads, joining ropes, and gripping a rope. Learn what each is for, how to tie it, and how to check it.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Learn the words and the three checks",
+        "body": "The working end is the end you tie with. The standing part is the rest of the rope. A bight is a U-shaped bend, and a loop is a bend that crosses itself. A bend joins two ropes, and a hitch ties a rope to an object. After tying any knot, do three checks: dress it (straighten the strands so nothing is twisted or crossed wrong), set it (pull every strand tight), and check the tail (leave several inches past the knot). Practice each knot until you can tie it in the dark and with cold hands. Knots used to hold a person's weight need hands-on training - do not learn climbing or rescue from a screen alone."
+      },
+      {
+        "step": 2,
+        "title": "Bowline - a fixed loop that will not slip",
+        "body": "Use the bowline to put a loop around a tree, tie a line through a grommet, or make a loop that is easy to untie after a heavy load. To tie: make a small overhand loop in the standing part, with the working end lying on top. Pass the working end up through the small loop, around behind the standing part, and back down through the small loop. Hold the end and the loop side together and pull the standing part to tighten. Memory aid: the rabbit comes up the hole, around the tree, and back down the hole. A bowline can shake loose when it is not under load, so leave a long tail or tie the tail off with an overhand knot."
+      },
+      {
+        "step": 3,
+        "title": "Figure-8 and figure-8 follow-through - a secure end loop",
+        "body": "The figure-8 is a stopper knot at the end of a rope that keeps it from pulling through a hole or pulley. Make a loop, pass the end around the standing part, and come back through the loop from the other side so it looks like an 8. The figure-8 follow-through makes a strong loop around an object, and it is the standard knot climbers use to tie into a harness. Tie a loose figure-8 about 3 feet (1 m) from the end, pass the end around or through the anchor, then trace the end back through the 8 alongside the first strand, following it exactly. The finished knot shows neat pairs of parallel strands. Leave a tail at least as long as your fist is wide. It is hard to untie after heavy loading."
+      },
+      {
+        "step": 4,
+        "title": "Clove hitch, timber hitch, and constrictor - tying to objects",
+        "body": "The clove hitch ties a line to a post or pole and starts and ends most lashings. Wrap the end around the pole, cross over the first wrap to form an X, wrap again, and tuck the end under the X. It can slip unless the load is steady, so add a half hitch for safety. The timber hitch drags a log or starts a lashing: pass the end around the log, loop it around the standing part, and twist the end around itself three or more times, then pull tight. It holds while pulled and falls apart when slack. The constrictor is a clove hitch with the end tucked under both wraps where they cross. It grips hard - use it to close a bag, hold a rope end from fraying, or clamp a split handle. It is very hard to untie, so cut it off when done."
+      },
+      {
+        "step": 5,
+        "title": "Taut-line hitch and trucker's hitch - lines you can tighten",
+        "body": "The taut-line hitch is a sliding loop for tent and tarp guy lines. Pass the line around the stake. Wrap the end twice around the standing part inside the loop, working toward the stake, then once more around the standing part outside those wraps, and pull snug. Slide the knot up to tighten the line. The trucker's hitch pulls a load or ridgeline very tight. Form a fixed loop in the standing part, such as a figure-8 on a bight. Pass the end around the anchor, back up through that loop, and pull down - the loop works like a pulley and roughly triples your pull. Pinch it and tie it off with two half hitches. Do not use it on frayed rope; the extra force can snap a weak line."
+      },
+      {
+        "step": 6,
+        "title": "Square knot, sheet bend, and water knot - joining",
+        "body": "The square knot joins two ends of the same size for bandages, packages, and bundles. Right over left and under, then left over right and under. Both tails should lie on the same side. Never use it to join ropes that carry a heavy load - it can slip or roll apart. The sheet bend joins ropes of different sizes or materials. Make a bight in the thicker rope, pass the thin end up through it, around behind both legs, and tuck it under itself so both tails exit on the same side. The water knot joins flat webbing or ties webbing into a loop. Tie a loose overhand knot in one end, then follow it backward with the other end so the two pieces lie flat side by side. Leave tails of at least 3 inches (8 cm) and check it before every use, because it can creep loose."
+      },
+      {
+        "step": 7,
+        "title": "Prusik and Munter hitch - gripping and lowering",
+        "body": "The prusik is a friction hitch made with a loop of thinner cord on a thicker rope. It slides when loose and grips when loaded, so it can hold a tarp in place on a ridgeline or capture a load. Lay the loop behind the rope, pass it through itself 3 times around the rope, and dress the wraps so they lie neatly side by side. Use more wraps on thin, wet, or icy rope. The Munter hitch lowers a load with friction on a locking, pear-shaped carabiner. Make two loops side by side, fold them together like closing a book, and clip both into the carabiner, then lock it. Keep the brake hand on the rope at all times. It twists rope. Both knots are used in climbing and rescue - get training before you trust a person's weight to them."
+      },
+      {
+        "step": 8,
+        "title": "Practice and inspect",
+        "body": "Keep a 6-foot (2 m) piece of cord where you sit and tie each knot daily for a week, then weekly. Practice with gloves on and with your eyes closed. Before every real use, look at the rope as well as the knot: cuts, glazed or melted spots, and stiff, damaged areas weaken it. Knots reduce rope strength, so a knotted line is weaker than its rated strength. Retie any knot that looks wrong. When in doubt, untie it and tie it again."
+      }
+    ],
+    "warnings": [
+      "Never trust a person's weight to a knot or rope system you have not been trained on. Climbing and rescue rigging needs hands-on instruction.",
+      "Do not use a square knot to join ropes under heavy load. It can slip or roll apart.",
+      "Bowlines and water knots can loosen when not loaded. Leave long tails and check them before each use.",
+      "Stand clear of tight lines. A snapped rope or pulled stake can whip back hard."
+    ],
+    "proTips": [
+      "Tie a stopper knot (figure-8) at the end of any rope that runs through a hole, so it cannot pull free.",
+      "Add a half hitch after a clove hitch for any line that will flap in the wind.",
+      "Use contrasting colors of cord when you practice joining knots - it makes the path easy to see.",
+      "Melt the cut ends of nylon cord with a lighter so they do not fray."
+    ],
+    "relatedGuides": [
+      "tools-005",
+      "tools-003",
+      "shelter-006",
+      "shelter-002"
+    ],
+    "source": "Scouting America (Scout Life) / U.S. Army knot training",
+    "sources": [
+      {
+        "title": "How to Tie the 7 Basic Scout Knots",
+        "publisher": "Scout Life (Scouting America)",
+        "url": "https://scoutlife.org/outdoors/176401/how-to-tie-the-7-basic-scout-knots/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Knots and Rope Management",
+        "publisher": "U.S. Army Fort Drum Mountain School",
+        "url": "https://home.army.mil/drum/5717/7679/4735/Knots_and_Rope_Management_MOC_and_MST.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Climbing Knots",
+        "publisher": "Caltech Alpine Club",
+        "url": "https://alpine.caltech.edu/resources/guidesadvice/climbing-knots",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use these instructions alone to build climbing, rappelling, or rescue systems.",
+      "Do not rely on damaged, melted, or unknown-strength cord for heavy or critical loads."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need to tie a line to something, tighten a guy line, join two ropes, or make a loop that holds.",
+      "immediate": [
+        "Fixed loop: bowline or figure-8 follow-through",
+        "Tie to a pole: clove hitch; drag a log: timber hitch; adjustable guy line: taut-line hitch",
+        "Join two ropes: sheet bend; join webbing: water knot"
+      ],
+      "then": [
+        "Dress, set, and check the tail of every knot",
+        "Practice weekly until you can tie each one in the dark"
+      ]
+    }
+  },
+  {
+    "id": "tools-005",
+    "category": "tools",
+    "title": "Making Cordage From Natural Fibers, and Paracord Uses",
+    "priority": "advanced",
+    "tags": [
+      "tools",
+      "cordage",
+      "rope",
+      "paracord",
+      "natural fibers",
+      "reverse wrap",
+      "bushcraft"
+    ],
+    "summary": "Turn plant fibers into strong two-ply cord with the reverse-wrap method, and get the most out of 550 paracord - including how to tell real mil-spec cord from cheap copies.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Find good fiber plants",
+        "body": "The best beginner fibers come from the stalks of stinging nettle, milkweed, and dogbane, from the leaves of yucca and agave, and from the inner bark of basswood and western red cedar. Harvest stalks late in the season, after the plant has died back or gone to seed. Dead, dry stalks that snap crisply are ready to use. Test any fiber by twisting a small piece and pulling it: if it breaks easily, move on. Wear gloves for nettle, and wash your hands after handling dogbane or milkweed, whose sap can irritate skin and is toxic if eaten. Get permission before harvesting on private or public land, and take only part of any stand so it regrows."
+      },
+      {
+        "step": 2,
+        "title": "Process the fibers",
+        "body": "Lay a dry stalk on a hard surface and gently crush its whole length with a smooth rock or stick, taking extra care at the joints. Split it open with a thumbnail and lay it flat like a book. Bend the stalk back and forth over your fingers and peel the woody core away from the outer fibers, working slowly at the joints where fiber is easy to lose. Then rub the fibers hard between your palms to knock out the last woody bits. Good fiber turns soft, fluffy, and lighter in color. For yucca leaves, scrape away the green pulp with a knife back to free the fibers. For inner bark, soak strips in water for several days to separate the layers."
+      },
+      {
+        "step": 3,
+        "title": "Twist two-ply cord with the reverse wrap",
+        "body": "Take a bundle of fiber and hold it with your hands a few inches apart. Twist your hands in opposite directions until a kink forms in the middle. Pinch the kink - this is the start of your cord, and now you have two strands. Twist the strand farther from you away from you (clockwise, for example), then wrap it over the other strand toward you (counterclockwise). Repeat: twist the new far strand away, wrap it toward you. The key rule is that each strand is twisted one way and wrapped the other way. If you twist and wrap in the same direction, the cord will unravel. Keep the tension even so the coils look uniform."
+      },
+      {
+        "step": 4,
+        "title": "Splice in fiber to make long cord",
+        "body": "Make the two strands different lengths at the start so they do not run out at the same place. When one strand gets down to about 2 inches (5 cm), lay a new bundle of fiber along it, overlapping by an inch or two, and keep twisting so the old and new fibers lock together. Stagger every splice. Trim loose ends when finished. To finish the cord, tie an overhand knot at the end, or keep going and double the cord back on itself to make four-ply cord, which is much stronger. Expect a slow pace - a few feet per hour is normal at first."
+      },
+      {
+        "step": 5,
+        "title": "Know what natural cord can do",
+        "body": "Well-made two-ply cord is good for bow-drill strings, snare lines where legal, lashings, bundling, fishing lines, and repairs. It is much weaker than modern rope. Cord with leftover woody bits or uneven twist fails early. Test new cord with a steady pull before you rely on it, and never use it to hold a person's weight. Keep it dry when not in use, because wet plant cord can stretch and rot. Make cord on quiet days and store it, so you are not trying to learn the skill during an emergency."
+      },
+      {
+        "step": 6,
+        "title": "Know your paracord",
+        "body": "Real 550 paracord is Type III under the military spec MIL-C-5040H, rated to hold at least 550 pounds (about 250 kg). It has a nylon sheath with 7 to 9 inner yarns, each made of 3 smaller twisted strands. Genuine mil-spec cord also has a colored marker thread inside that identifies the maker. Cheap cord sold as 550 or military grade may have fewer, weaker, or polyester inner strands. Cut a short piece and look inside. Remember that knots, wear, and sunlight reduce strength. Paracord stretches, so it is poor for a tight ridgeline. Never use it for climbing or rappelling - it is not life-safety rope."
+      },
+      {
+        "step": 7,
+        "title": "Use paracord well",
+        "body": "Carry at least 50 feet (15 m) in a hank instead of a bracelet - a bracelet holds only about 8 to 12 feet and takes a long time to unravel. Uses include tarp guy lines and lashings, hanging food, replacing boot laces, lashing splints and tools, and making a clothesline. Pull out the inner strands for sewing thread, fishing line, small snare lines, or extra cord, then reuse the empty sheath as a lighter cord. Cut it with a sharp knife and melt the ends with a lighter so they do not fray. Coil it in a figure-8 or chain sinnet so it comes out without tangling."
+      }
+    ],
+    "warnings": [
+      "Never use paracord or homemade cord to hold a person's weight, for climbing, or for rappelling.",
+      "Dogbane and milkweed sap can irritate skin and are poisonous if eaten. Wash your hands after handling them.",
+      "Melted nylon is very hot and sticks to skin. Let melted cord ends cool before touching them.",
+      "Snares and traps are illegal or restricted in many places. Follow local law except in a true life-or-death emergency."
+    ],
+    "proTips": [
+      "Start strands of different lengths so your splices never line up in one weak spot.",
+      "Collect dead dogbane and milkweed stalks in late fall and store them dry - they keep for months.",
+      "Use dental floss or paracord inner strands as heavy sewing thread for gear repair.",
+      "Write the length on a piece of tape on each paracord hank so you know what you have."
+    ],
+    "relatedGuides": [
+      "tools-004",
+      "tools-003",
+      "tools-008",
+      "fire-001",
+      "food-002"
+    ],
+    "source": "Alderleaf Wilderness College / mil-spec paracord identification",
+    "sources": [
+      {
+        "title": "How to Make Cordage",
+        "publisher": "Alderleaf Wilderness College",
+        "url": "https://www.wildernesscollege.com/cordage.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Identifying Mil-Spec 550lb Paracord",
+        "publisher": "OFFGRID",
+        "url": "https://offgridweb.com/preparation/identifying-mil-spec-550lb-paracord/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not spend hours making cord when you have commercial cord, wire, or tape that will do the job.",
+      "Do not harvest fiber plants in parks or protected areas outside of a real emergency."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need cord for lashings, repairs, or a bow drill and have none, or you want to use your paracord fully.",
+      "immediate": [
+        "Gather dead, dry stalks of nettle, milkweed, or dogbane, or yucca leaves",
+        "Crush, peel, and buff the fibers, then reverse-wrap into two-ply cord",
+        "Twist each strand one way and wrap it the opposite way"
+      ],
+      "then": [
+        "Stagger splices and test the cord before relying on it",
+        "Carry 50 feet of real Type III paracord and use inner strands as thread"
+      ]
+    }
+  },
+  {
+    "id": "tools-006",
+    "category": "tools",
+    "title": "Sharpening Knives, Axes, and Saws",
+    "priority": "advanced",
+    "tags": [
+      "tools",
+      "sharpening",
+      "whetstone",
+      "knife",
+      "axe",
+      "saw",
+      "file",
+      "maintenance"
+    ],
+    "summary": "Sharpen a knife on a stone by raising and removing a burr, restore an axe edge with a file and stone, and know which saws to file and which to replace.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Gather the right sharpeners",
+        "body": "For knives, a combination whetstone with a coarse side (about 300 to 400 grit) and a medium side (about 1,000 grit) covers most needs, and a fine stone or leather strop gives a polished finish. A pocket diamond plate or ceramic rod is good for field touch-ups. For axes, carry a 6- to 10-inch mill bastard file with a handle and a file guard, plus a round puck-style axe stone. Wear cut-resistant gloves on both hands when filing an axe - the Forest Service requires gloves for sharpening. Work on a stable surface, in good light, with the edge pointed away from you."
+      },
+      {
+        "step": 2,
+        "title": "Set the knife angle and raise a burr",
+        "body": "Wet the stone with water or the lubricant the maker recommends, and set it on a towel or holder so it cannot slide. Lay the blade flat on the stone, then lift the spine until the edge bevel sits flat - about 15 to 20 degrees for most knives. Two stacked coins under the spine of a small knife gives a rough guide. Push the blade across the stone, edge first, as if slicing a thin layer off the top, sweeping from heel to tip. Keep the angle steady. After 10 to 20 strokes, feel gently across (never along) the opposite side of the edge for a slight rough lip of metal, called a burr. Keep going until the burr runs the whole length."
+      },
+      {
+        "step": 3,
+        "title": "Sharpen the other side and remove the burr",
+        "body": "Flip the knife and repeat the same strokes on the other side until a burr forms along the whole first side. Then move to a finer grit and repeat both sides with lighter pressure. Finish with a few alternating single strokes on each side using very light pressure, which shrinks the burr. Strop the edge by pulling it spine-first across leather, cardboard, or denim 10 times per side - the edge trails behind, so it will not cut the strop. Test by slicing a sheet of paper: a sharp edge cuts cleanly without tearing. Wipe the blade and dry the stone when done."
+      },
+      {
+        "step": 4,
+        "title": "Touch up in the field",
+        "body": "Do not wait until a knife is fully dull. A few light strokes on a ceramic rod, diamond plate, or even the unglazed ring on the bottom of a ceramic mug brings back a working edge. Hold the same angle you used on the stone. If you have nothing else, a smooth, fine-grained river stone works, used wet. Wipe and dry the blade afterward. Small chips or a rolled edge need the coarse stone; touch-ups only maintain a good edge."
+      },
+      {
+        "step": 5,
+        "title": "File an axe edge",
+        "body": "Secure the axe so both hands are free. In the field, wedge the head against a log or set the handle end in a notched stump, with the edge facing up and away. Put on gloves and fit the file guard. Push the file from the edge back into the cheek of the blade, filing into the edge, and lift it on the return stroke - files cut only on the push. Work the full width of the bevel, keeping its original shape, which should be slightly rounded (convex), not hollow. Count your strokes and give the other side the same number. Stop when you feel a small burr along the whole edge."
+      },
+      {
+        "step": 6,
+        "title": "Finish the axe with a stone",
+        "body": "Wet the axe stone and use its coarse side first. Rub it in small circles along the edge, keeping it flat against the bevel, then switch sides. Move to the fine side and repeat until the burr is gone and the edge looks even. Keep your fingers behind the stone, not beside the edge. A sharp axe bites into wood instead of glancing off, which makes it safer. On a double-bit axe, keep one bit very sharp and the other slightly duller for chopping near dirt or roots, and mark the duller one with a dab of paint. Discard any axe head with cracks."
+      },
+      {
+        "step": 7,
+        "title": "Decide whether to file or replace a saw",
+        "body": "Most modern folding saws and bow-saw blades have hardened teeth that a file will not cut. When they dull, replace the blade - spares are cheap and light. The Forest Service notes that bow-saw blades are replaced, not sharpened. Some folding pruning saws can be touched up with a small cant saw file. A sharp saw makes thick, even shavings with light pressure; fine dust and binding mean it is dull. Crosscut saws need special filing skill, so leave them to a trained filer. Clean pitch off any blade with citrus cleaner and coat it lightly with oil before storage."
+      }
+    ],
+    "warnings": [
+      "Wear gloves on both hands and use a file guard when sharpening an axe. A slipping file drives your hand into the edge.",
+      "Never test sharpness by running a finger along the edge. Test on paper or wood.",
+      "Do not use a power grinder on a knife or axe unless trained. Overheating ruins the steel's hardness.",
+      "Keep the edge pointed away from you while sharpening and while wiping the blade."
+    ],
+    "proTips": [
+      "Color the edge bevel with a marker before sharpening. Where the ink wears off shows if your angle is right.",
+      "A file cuts only on the push stroke. Lift it on the way back to keep it sharp longer.",
+      "Carry a spare folding-saw blade - it weighs almost nothing and saves the tool.",
+      "Store files wrapped so they do not touch each other or other tools."
+    ],
+    "relatedGuides": [
+      "tools-002",
+      "tools-007",
+      "tools-001",
+      "fire-015"
+    ],
+    "source": "USDA Forest Service / GearJunkie",
+    "sources": [
+      {
+        "title": "Handtools for Trail Work - Axes and Cutting Tools",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/t-d/pubs/htmlpubs/htm05232810/page05.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Handtools for Trail Work - Saws",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/t-d/pubs/htmlpubs/htm05232810/page04.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Sharpen a Knife With a Whetstone",
+        "publisher": "GearJunkie",
+        "url": "https://gearjunkie.com/knives/how-to-sharpen-knife-whetstone",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not try to file hardened saw teeth or crosscut saws without training - replace the blade or find a trained filer.",
+      "Do not sharpen while rushed, cold, or in poor light if it can wait."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your knife, axe, or saw is dull and cutting poorly, which makes it more likely to slip and injure you.",
+      "immediate": [
+        "Knife: hold 15-20 degrees, sharpen until a burr forms, then switch sides",
+        "Axe: wear gloves and a file guard, file into the edge, then finish with a stone",
+        "Saw: replace hardened blades instead of filing them"
+      ],
+      "then": [
+        "Remove the burr with light strokes and a strop",
+        "Clean, dry, and oil blades before storing"
+      ]
+    }
+  },
+  {
+    "id": "tools-007",
+    "category": "tools",
+    "title": "Axe, Hatchet, and Saw Safety and Technique",
+    "priority": "advanced",
+    "tags": [
+      "tools",
+      "axe",
+      "hatchet",
+      "saw",
+      "bow saw",
+      "folding saw",
+      "firewood",
+      "splitting",
+      "safety"
+    ],
+    "summary": "Use an axe, hatchet, and saw safely to process firewood and clear small downed wood: protective gear, a clear swing zone, carrying and storage, and the cuts that keep blades out of your legs.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Gear up and inspect the tool",
+        "body": "Wear sturdy boots, eye protection, and gloves. The Forest Service calls for leather boots at least 8 inches high and always wearing safety glasses or goggles for axe work, plus a hard hat if anything could fall from above. Check the tool before each use. The head must be tight on the handle, with no cracks in the head or splits in the handle. Replace a loose or cracked tool rather than patching it. A sharp edge bites into wood; a dull one glances off toward your legs (see tools-006). In freezing weather, warm the axe head in your hands or under your arm first, because very cold steel can chip."
+      },
+      {
+        "step": 2,
+        "title": "Clear your swing zone",
+        "body": "Before chopping, hold the axe at full arm's length and turn in a full circle. Remove brush, branches, and vines that could catch the swing and deflect it. Make sure no one is within two axe lengths of you, and never chop with someone in front of or behind you. Stand with your feet about shoulder-width apart on firm footing. Never chop into the ground or rocks - it ruins the edge and can bounce the blade back. Remove any chip stuck to the bit before the next swing, since it can make the blade glance."
+      },
+      {
+        "step": 3,
+        "title": "Split firewood on a chopping block",
+        "body": "Cut rounds 12 to 24 inches (30 to 60 cm) long and stand one on end on a wide, flat stump or log used as a chopping block, so a miss hits wood, not dirt or your shins. Aim for an existing crack. Grip the handle with one hand near the end and the other higher up, then slide the upper hand down as you swing so both hands meet at impact. Swing straight down and let the weight of the axe do the work. Accuracy matters more than power. If the axe sticks, do not wiggle it with your hands near the edge - tap the round and axe together on the block, or drive a wooden wedge."
+      },
+      {
+        "step": 4,
+        "title": "Use a hatchet with control",
+        "body": "A hatchet is a one-handed tool for small splitting, limbing, and kindling. Kneel down so a miss goes into the block, not your leg. Hold the wood with your free hand at the top or side, away from where the blade will land, or tap the hatchet into the top of the wood first and then lift wood and hatchet together to strike the block. Choke up on the handle for fine work. Keep the blade from swinging below the level of your hands. Never hold small kindling where the blade will land - use a stick to hold it instead."
+      },
+      {
+        "step": 5,
+        "title": "Limb downed wood from the safe side",
+        "body": "Start at the thick end of a downed trunk and work toward the top, cutting each branch from its underside. Stand on the opposite side of the trunk from the branch so the log is between you and the blade. Do not straddle the log. Watch for branches bent under tension or pressure - they can spring loose or let the log roll. Cut those slowly from the outside of the bend, or score the outside first to release tension. Felling standing trees is one of the most dangerous jobs in the woods. Leave it to trained people unless there is no other choice."
+      },
+      {
+        "step": 6,
+        "title": "Saw with light pressure and full strokes",
+        "body": "A folding saw or bow saw is safer than an axe for most camp wood. Brace the wood so it cannot roll, and keep your free hand well away from the blade, holding the wood several inches to the side of the cut. Start with a few short pull strokes to set a groove, then use long, full strokes and light pressure - forcing the saw makes it bind or break. If the cut pinches closed, the wood is pressing on the blade. Stop, support the wood differently, or cut from the other side. On a log supported at both ends, cut partway from the top, then finish from below. Wear gloves and carry spare blades."
+      },
+      {
+        "step": 7,
+        "title": "Carry and store tools safely",
+        "body": "Sheathe every axe, hatchet, and saw before you walk anywhere. Carry an axe at your side near the head, edge down and away from your body, on the downhill side on slopes. If you trip, throw the tool away from you. Carry saws at your side with the blade down and guarded. When you set an axe down, never leave it lying in the open with the edge up or leaning against something. Stick it into a log or lay it flat with the edge against a log. Always know where your tools are. Keep them dry, oiled lightly, and out of reach of children."
+      }
+    ],
+    "warnings": [
+      "Never chop with anyone within two axe lengths, and never stand in line with someone else's swing.",
+      "A glancing blow from a dull or wet axe is the most common way people cut their legs. Keep the edge sharp and use a chopping block.",
+      "Do not fell standing trees without training. Trees can twist, kick back, or drop dead limbs on you.",
+      "Never use the back (poll) of an axe as a hammer on steel wedges. The head can crack and send metal flying."
+    ],
+    "proTips": [
+      "Split wood standing on end on top of a larger round - it saves your edge and your shins.",
+      "A 21- to 24-inch bow saw processes most firewood with less effort and risk than an axe.",
+      "Paint the handle a bright color so you never lose a tool in leaves or snow.",
+      "Stop when you are tired. Most accidents happen near the end of a long work session."
+    ],
+    "relatedGuides": [
+      "tools-006",
+      "tools-002",
+      "fire-015",
+      "fire-008",
+      "medical-024"
+    ],
+    "source": "USDA Forest Service (An Ax to Grind; Handtools for Trail Work)",
+    "sources": [
+      {
+        "title": "An Ax to Grind: A Practical Ax Manual - Safety and Use",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/t-d/pubs/htmlpubs/htm99232823/page04.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Handtools for Trail Work - Saws",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/t-d/pubs/htmlpubs/htm05232810/page04.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Handtools for Trail Work - Axes and Cutting Tools",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/t-d/pubs/htmlpubs/htm05232810/page05.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use an axe when exhausted, in the dark, or on icy footing - use a saw or wait.",
+      "Do not fell standing trees or cut storm-tangled trees under tension without training."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need to split firewood or clear downed wood with an axe, hatchet, or saw.",
+      "immediate": [
+        "Wear boots, eye protection, and gloves; check the head is tight",
+        "Clear a full swing circle and keep everyone two axe lengths away",
+        "Split on a chopping block and keep the blade from dropping below your hands"
+      ],
+      "then": [
+        "Saw with light, full strokes and keep your free hand away from the blade",
+        "Sheathe tools before walking and store them edge-safe"
+      ]
+    }
+  },
+  {
+    "id": "tools-008",
+    "category": "tools",
+    "title": "Sewing and Gear Repair in the Field",
+    "priority": "beginner",
+    "tags": [
+      "tools",
+      "sewing",
+      "repair",
+      "gear repair",
+      "patch",
+      "zipper",
+      "stitches",
+      "repair tape"
+    ],
+    "summary": "Fix torn clothing, packs, tarps, tents, sleeping pads, zippers, and straps with a small sewing kit and repair tape, using the right stitch for each job.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pack a small repair kit",
+        "body": "A good kit fits in a sandwich bag: two or three heavy needles (including one large-eye needle), strong thread such as heavy polyester, waxed thread, or unwaxed dental floss, safety pins, a few spare buttons, gear repair tape and a few pre-cut patches, a small tube of flexible urethane sealant or glue, a spare buckle, and a few feet of duct tape. Add a needle threader and a thimble or a coin to push needles through thick fabric. Paracord inner strands also work as heavy thread. Keep a small pair of scissors or use your multi-tool."
+      },
+      {
+        "step": 2,
+        "title": "Thread and anchor the needle",
+        "body": "Cut a length of thread about as long as your arm - longer pieces tangle. Thread the needle and pull the ends even if you want doubled thread for strength. Tie a knot at the end by wrapping the thread around your finger two or three times, rolling it off, and pulling tight. Start sewing from the inside or back of the fabric so the knot is hidden and protected. Begin and end each repair about half an inch (1 cm) beyond the damage, into sound fabric. Finish by taking two or three small stitches in the same spot, then tie off through the last loop."
+      },
+      {
+        "step": 3,
+        "title": "Use a backstitch for split seams",
+        "body": "The backstitch is the strongest hand stitch and the best way to repair a seam that has come apart. Push the needle up through both layers. Go back down about 1/8 inch (3 mm) behind where it came up, then come up again 1/8 inch ahead of the first hole. Keep going, always stepping back to touch the end of the last stitch. The front shows a solid line like a machine seam. Keep stitches small and even, and follow the old stitch holes if you can see them. Use this for pack seams, pants, and shoulder straps that are pulling away."
+      },
+      {
+        "step": 4,
+        "title": "Close tears with whip or baseball stitch",
+        "body": "For a straight tear in the middle of fabric, use a baseball stitch: push the needle up from underneath on one side of the tear, then up from underneath on the other side, like lacing a shoe. It pulls the edges together flat with little fraying. For a frayed edge or to sew on a patch, use a whip stitch: loop the thread over the edge again and again in a spiral. Keep stitches about 1/8 to 1/4 inch (3 to 6 mm) apart. Do not pull so tight that the fabric puckers. On waterproof gear, seal the stitches afterward with sealant."
+      },
+      {
+        "step": 5,
+        "title": "Patch with repair tape",
+        "body": "Repair tape works well on tents, tarps, rain jackets, down jackets, and sleeping bags. Clean the area and dry it fully - tape will not stick to wet, dirty, or oily fabric. Cut a patch that overlaps the damage by at least half an inch (1 cm) on all sides, and round the corners with scissors so they do not catch and peel. Press it on firmly from the center out and rub it to warm the adhesive. For a big tear, patch both sides. Clear tape is good for tents and tarps. Unlike duct tape, repair tape usually peels off later without sticky residue, so a permanent fix is still possible."
+      },
+      {
+        "step": 6,
+        "title": "Fix air pads, zippers, and buckles",
+        "body": "To find a leak in an air pad, inflate it and listen, or rub soapy water on it and look for bubbles. Mark the hole, let it dry, and cover it with a round patch or a dab of sealant. For a zipper that will not close, the slider is often worn and spread open. Gently squeeze the back of the slider with pliers, a little on each side, then test. Rub a pencil or wax along sticky teeth. For a broken buckle, replace it with a spare, or tie the strap ends together with a square knot or sew them flat with a backstitch."
+      },
+      {
+        "step": 7,
+        "title": "Fix boots and make it last",
+        "body": "For a sole peeling off a boot, clean and dry both surfaces, glue them with sealant if you have it, and clamp with tape or cord overnight. In the field, wrap duct tape around the boot and sole as a short-term fix, or tie cord around it under the arch. For a blown-out sock heel, use a whip stitch around the hole. Check your gear every evening for small problems. A small tear fixed tonight stops a big failure tomorrow. Replace field repairs with proper ones when you get home."
+      }
+    ],
+    "warnings": [
+      "Needles and safety pins are sharp - store them in a small case or pushed through fabric, never loose in a pocket.",
+      "Sealants and glues give off fumes. Use them with good airflow and let them cure fully before packing.",
+      "Do not sew or tape over damage on life-safety gear like climbing harnesses, life jackets, or helmets. Replace that gear.",
+      "Squeeze zipper sliders a little at a time. Too much pressure cracks them."
+    ],
+    "proTips": [
+      "Wrap a few feet of heavy thread around a piece of card with the needle stuck through it so nothing tangles.",
+      "Round every patch's corners - square corners are where patches start to peel.",
+      "Use dental floss as thread for packs and tarps; it is strong, waterproof, and cheap.",
+      "Carry one spare buckle that matches your pack's hip belt - it is the part that most often breaks."
+    ],
+    "relatedGuides": [
+      "tools-012",
+      "tools-005",
+      "shelter-012",
+      "shelter-006",
+      "health-009"
+    ],
+    "source": "iFixit / Section Hiker",
+    "sources": [
+      {
+        "title": "Hand Sewing Stitches",
+        "publisher": "iFixit",
+        "url": "https://www.ifixit.com/Wiki/Hand_Sewing_Stitches",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Use Tenacious Tape for Backpacking Gear Repair",
+        "publisher": "Section Hiker",
+        "url": "https://sectionhiker.com/how-to-use-tenacious-tape-for-backpacking-gear-repair/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "low",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not repair life-safety equipment such as harnesses, helmets, or flotation devices - replace it.",
+      "Do not tape wet or dirty fabric; dry and clean it first or the patch will fail."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to fabricate or repair tools from available materials — paracord and duct tape solve a disproportionate number of field problems",
-      "immediate": ["Paracord (550 lb, 7-strand) applications: shelter ridgelines, snares, tourniquet improvisation (inferior to commercial), gear lashing, fishing line from inner strands", "Learn 4 essential knots: bowline (non-slip loop), clove hitch (post attachment), taut-line hitch (adjustable tension), sheet bend (join two ropes)", "Gear repair: waxed thread or dental floss stitching for fabric; duct tape for rapid temporary patches on any surface"],
-      "then": ["Stone knapping for improvised blades requires practice — start with producing functional flakes for cutting, not finished tools", "Containers can be improvised: birch bark folded and pinned, large tropical leaves, bamboo sections, clay fired over time"]
+      "situation": "A seam has split, fabric has torn, or a zipper, pad, buckle, or boot has failed and you need it working again.",
+      "immediate": [
+        "Split seam: backstitch; mid-fabric tear: baseball stitch; edge or patch: whip stitch",
+        "Clean and dry fabric, then apply a round-cornered tape patch overlapping by half an inch",
+        "Zipper not closing: gently squeeze the slider with pliers"
+      ],
+      "then": [
+        "Seal stitches on waterproof gear",
+        "Make a permanent repair when you get home"
+      ]
+    }
+  },
+  {
+    "id": "tools-009",
+    "category": "tools",
+    "title": "Building a Bug-Out Bag (Go-Bag) for Evacuation",
+    "priority": "critical",
+    "tags": [
+      "tools",
+      "go-bag",
+      "bug-out bag",
+      "evacuation",
+      "kit",
+      "72 hours",
+      "preparedness"
+    ],
+    "summary": "Pack one grab-and-go bag per person that gets your household through about three days away from home - water, food, medicine, documents, light, power, clothing, and shelter - and keep it ready to leave in minutes.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Plan for leaving fast",
+        "body": "A go-bag is for when officials tell you to evacuate, or when you decide to leave before a fire, flood, or chemical release reaches you. Many areas use three levels: Be Ready (prepare), Be Set (leave now if you need extra time), and Go Now (leave immediately without gathering belongings). At Go Now, you will not have time to pack, so the bag must already be packed. Give each person their own bag sized for what they can carry. Plan for about 72 hours, since shelters and help can take time to set up. Know where you would go and two ways to get there (see sec-003)."
+      },
+      {
+        "step": 2,
+        "title": "Choose the bag",
+        "body": "Use a sturdy backpack with padded shoulder straps and a hip belt, so you can walk with it if roads close. Most adults can carry about 20% of their body weight for a few miles; less is better. A full adult bag usually weighs 20 to 30 pounds (9 to 14 kg). Pick a plain color - a bag that looks military can draw unwanted attention. Line it with a trash-compactor bag to keep everything dry. Load heavy items, like water, close to your back and in the middle. Put items you need fast, like the light, first aid kit, and rain jacket, in outside pockets."
+      },
+      {
+        "step": 3,
+        "title": "Pack water and food",
+        "body": "Ready.gov recommends one gallon of water per person per day. That is too heavy to carry for three days, so pack 1 to 2 liters plus a way to treat more: a filter and chemical tablets (see water-008 and water-007). Keep extra water jugs by the door or in the car to grab if you are driving. Pack three days of food that needs no cooking or only hot water - energy bars, nut butter packets, jerky, crackers, dried fruit, and ready-to-eat meals - about 2,000 calories per adult per day. Add a metal cup or small pot, a spoon, and a manual can opener if you pack cans."
+      },
+      {
+        "step": 4,
+        "title": "Pack medicine, first aid, and hygiene",
+        "body": "Pack at least a 7-day supply of prescription medicines in labeled containers, plus copies of prescriptions, and spare glasses or contacts. Add a first aid kit (see health-001), any over-the-counter medicines you use, and N95 masks for smoke or dust. Pack hand sanitizer, wet wipes, toilet paper, a toothbrush, soap, menstrual supplies, and trash bags. If someone needs medical devices, include chargers and backup batteries (see home-013). Rotate medicines before they expire."
+      },
+      {
+        "step": 5,
+        "title": "Pack documents, cash, and contacts",
+        "body": "Put copies of IDs, insurance cards and policies, proof of address or ownership, medical records, and pet records in a waterproof zip bag, and save scans to a secure encrypted drive or cloud account. Pack cash in small bills, since card readers and ATMs fail when power is out. Write out key phone numbers and an out-of-area contact on a card. Include a printed map of your area with your routes marked. See home-010 for organizing documents."
+      },
+      {
+        "step": 6,
+        "title": "Pack light, power, communication, and tools",
+        "body": "Pack a headlamp and a flashlight with spare batteries (see tools-011), a phone charging cable, and a charged power bank. Add a battery or hand-crank radio that receives NOAA Weather Radio. Add a whistle, a multi-tool, duct tape, 50 feet (15 m) of cord, work gloves, two fire sources, and a small notebook and pencil. Ready.gov also lists a dust mask, plastic sheeting, and a wrench or pliers to shut off utilities in its basic kit."
+      },
+      {
+        "step": 7,
+        "title": "Pack clothing and shelter",
+        "body": "Pack one full change of clothes for your climate, extra socks, a warm hat, a rain jacket or poncho, and sturdy shoes if you do not wear them every day. Add an emergency bivy or space blanket and a light tarp. In cold areas, add a warm layer and gloves. If you have children, add comfort items, snacks, and small activities. For pets, pack food, water, a leash or carrier, and vaccination records (see home-011)."
+      },
+      {
+        "step": 8,
+        "title": "Store it, check it, and practice",
+        "body": "Keep bags by an exit or in a closet near the door, not in the attic. Check them every six months, such as when clocks change: swap food and water near expiration, replace batteries, update medicines, and refit clothing for growing kids and the season. Practice once: grab the bags, load the car, and leave in under 10 minutes. Walk a mile with your bag to find out if it is too heavy. Ready.gov advises reviewing your kit every year as your family's needs change."
+      }
+    ],
+    "warnings": [
+      "When told to evacuate immediately, leave. Do not go back for items or wait to finish packing.",
+      "A bag that is too heavy is a bag you will drop. Test-walk it before you need it.",
+      "Do not store medicines and batteries in very hot cars or attics. Heat damages both.",
+      "Never drive through flooded roads during an evacuation. A foot of moving water can float many cars."
+    ],
+    "proTips": [
+      "Keep a written last-minute grab list taped inside the bag: phone, wallet, keys, glasses, medicines from the fridge.",
+      "Pack items in color-coded zip bags by type so you can find them in the dark.",
+      "Keep your car's gas tank at least half full during fire or hurricane season.",
+      "Put a copy of your contact card in each child's bag."
+    ],
+    "relatedGuides": [
+      "sec-003",
+      "home-008",
+      "health-001",
+      "home-010",
+      "home-011",
+      "tools-010"
+    ],
+    "source": "FEMA Ready.gov / Linn County (OR) Sheriff's Office",
+    "sources": [
+      {
+        "title": "Build A Kit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Evacuation Levels and Go Bag Handout",
+        "publisher": "Linn County Sheriff's Office (Oregon)",
+        "url": "https://www.linnsheriff.org/wp-content/uploads/Evac-Handout.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Car Safety",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/car",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "low",
+    "prerequisites": [
+      "tools-001"
+    ],
+    "whenNotTo": [
+      "If officials tell you to shelter in place, do not leave just because you have a go-bag.",
+      "Do not delay leaving to pack a bag during a Go Now evacuation - take people and pets first."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You may need to leave home within minutes and survive about three days away from your supplies.",
+      "immediate": [
+        "Grab one packed bag per person, plus medicines, phone, wallet, and keys",
+        "Leave immediately when told Go Now",
+        "Take water jugs from by the door if you are driving"
+      ],
+      "then": [
+        "Check bags every six months and swap food, water, batteries, and medicines",
+        "Practice loading up and leaving in under 10 minutes"
+      ]
+    }
+  },
+  {
+    "id": "tools-010",
+    "category": "tools",
+    "title": "Building a Get-Home Bag for Work or Your Car",
+    "priority": "critical",
+    "tags": [
+      "tools",
+      "get-home bag",
+      "car kit",
+      "vehicle",
+      "work",
+      "commute",
+      "walking home"
+    ],
+    "summary": "Build a small bag that lives at work or in your car and gets you home on foot or keeps you safe in a stranded vehicle for up to a day or two, plus the car-only items every vehicle should carry.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Size the bag to your trip home",
+        "body": "A get-home bag answers one question: if roads, trains, and phones fail while you are away, can you get home or wait it out safely? Measure your usual distance from home. Most people walk 2 to 3 miles (3 to 5 km) per hour on flat ground, slower with a load, in bad weather, or after dark. A 20-mile trip can take a full day or longer. Plan for 24 to 48 hours. Keep it smaller and lighter than a go-bag - a day pack is usually enough. If you have kids at school or a partner across town, decide in advance who picks up whom."
+      },
+      {
+        "step": 2,
+        "title": "Start with walking shoes and weather clothing",
+        "body": "Dress shoes and heels are the first thing that stops people walking home. Pack broken-in walking shoes or boots and two pairs of good socks. Add a rain jacket or poncho, a warm layer, a hat, and gloves suited to your worst season, plus sun protection like a cap and sunscreen in hot places. Add a compact emergency blanket or bivy. Pack moleskin or blister bandages, since blisters can end a long walk (see health-009). Change the clothing with the seasons."
+      },
+      {
+        "step": 3,
+        "title": "Pack water, food, and personal medicine",
+        "body": "Carry at least 1 liter (1 quart) of water in a bottle that will not burst if it freezes, plus a small filter or purification tablets so you can refill from other sources. Pack about 2,000 calories of no-cook food such as energy bars, nuts, and jerky. Keep a few days of any prescription medicine you take, and a small first aid kit with gloves and blister care. If you take medicine that must stay cool, plan how you would carry it and swap it often."
+      },
+      {
+        "step": 4,
+        "title": "Add light, navigation, and communication",
+        "body": "Pack a headlamp with spare batteries so your hands are free, a whistle, and a small power bank with a cable for your phone. Print a paper map of the area between work and home and mark two or three routes, avoiding bridges, tunnels, and low ground that floods. Add a small compass if you know how to use it. Write down key phone numbers and an out-of-area contact person. Text messages often get through when calls do not, so agree on a plan to text one contact."
+      },
+      {
+        "step": 5,
+        "title": "Round it out with tools and cash",
+        "body": "Add a multi-tool, a few feet of duct tape, 25 to 50 feet (8 to 15 m) of cord, work gloves, an N95 mask for dust or smoke, a small lighter, hand sanitizer, a bandana, and cash in small bills. Keep a copy of your ID. Skip anything that is not allowed at your workplace. Keep the bag ordinary-looking, like a school or work backpack, so it does not draw attention on the walk home."
+      },
+      {
+        "step": 6,
+        "title": "Add car-only items to every vehicle",
+        "body": "Ready.gov recommends keeping jumper cables, flares or a reflective triangle, an ice scraper, a car phone charger, a blanket, a map, and cat litter or sand for traction in your vehicle. Add a flashlight, a tire inflator or check that your spare is aired up, a basic tool kit, extra water, and snacks. In cold climates, add a small shovel, extra warm clothing, and boots. Keep the tank at least half full so you can evacuate or run the heater if stranded. Ready.gov also advises staying inside your car if a power line falls on it until a trained person removes it."
+      },
+      {
+        "step": 7,
+        "title": "Decide when to walk and when to stay",
+        "body": "Staying put is often safer. If you are stranded in a car in a snowstorm, stay with the vehicle, tie bright cloth to the antenna, keep the exhaust pipe clear of snow, and run the engine about 10 minutes each hour for heat to reduce carbon monoxide risk (see medical-047). Walk only if you are sure of the route, the weather is survivable, and help is not coming. Never walk or drive through floodwater - six inches can stall a car and a foot can float many vehicles. Leave a note in the car with your route and the time you left."
+      },
+      {
+        "step": 8,
+        "title": "Store and rotate it",
+        "body": "Car heat damages food, water bottles, medicines, and batteries. Use lithium batteries, which handle heat and cold better, store the power bank in your bag at work or inside your home in hot months, and swap food and water every six months. Check the bag when you change clocks in spring and fall. Walk part of your route home on a nice day to learn how long it really takes."
+      }
+    ],
+    "warnings": [
+      "Never walk or drive through floodwater. Six inches of moving water can knock you down or stall a car.",
+      "If stranded in snow, keep the exhaust pipe clear before running the engine. A blocked pipe can fill the car with carbon monoxide.",
+      "Do not leave lithium power banks in a hot car for long periods. Heat can damage them and cause fires.",
+      "Do not start walking into a storm, extreme heat, or smoke if you can shelter safely where you are."
+    ],
+    "proTips": [
+      "Keep a pair of walking shoes under your desk even if you have nothing else.",
+      "Mark your routes on the paper map with landmarks, not just street names, in case signs are down.",
+      "Agree on one out-of-area contact who every family member texts after a disaster.",
+      "Pack a small trash bag - it works as rain gear, a ground cloth, or a water carrier."
+    ],
+    "relatedGuides": [
+      "urban-005",
+      "tools-001",
+      "tools-009",
+      "health-009",
+      "vehicle-002",
+      "medical-047"
+    ],
+    "source": "FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Car Safety",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/car",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Build A Kit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Battery Comparison Chart",
+        "publisher": "Energizer",
+        "url": "https://energizer.com/eu/uk/?p=5946",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [
+      "tools-001"
+    ],
+    "whenNotTo": [
+      "Do not start walking home in a blizzard, extreme heat, wildfire smoke, or flooding if you can shelter safely.",
+      "If officials order you to shelter where you are, stay put."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A disaster hits while you are at work or on the road, and you may need to walk home or wait in your car.",
+      "immediate": [
+        "Put on walking shoes and weather-ready clothing from your bag",
+        "Text your out-of-area contact your plan and route",
+        "Decide whether staying put is safer than walking"
+      ],
+      "then": [
+        "Follow your marked map route, avoiding bridges, tunnels, and floodwater",
+        "Rotate food, water, and batteries every six months"
+      ]
+    }
+  },
+  {
+    "id": "tools-011",
+    "category": "tools",
+    "title": "Lighting and Batteries - Headlamps, Battery Types, Rechargeables, and Storage",
+    "priority": "beginner",
+    "tags": [
+      "tools",
+      "lighting",
+      "headlamp",
+      "flashlight",
+      "batteries",
+      "lithium",
+      "NiMH",
+      "alkaline",
+      "rechargeable",
+      "battery safety"
+    ],
+    "summary": "Choose headlamps and flashlights that run a long time, pick the right battery type for storage, cold, and recharging, and store and charge batteries safely.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Make a headlamp your main light",
+        "body": "A headlamp keeps both hands free for cooking, first aid, repairs, and walking. Pick one with at least three modes: a low mode of 5 to 30 lumens for close work and long runtime, a medium mode, and a high mode of 200 lumens or more for finding a path. A red-light mode saves your night vision and is less likely to wake others. Check the runtime listed for each mode - low modes often last 20 to 100 hours or more, while high modes may last only 1 to 3. Choose one that runs on common AA or AAA cells, or on a rechargeable pack that can also take disposable cells. Carry one per person."
+      },
+      {
+        "step": 2,
+        "title": "Add flashlights and area lights",
+        "body": "Keep a sturdy flashlight for searching and signaling, and a battery lantern for lighting a room. LED lights use far less power than old bulbs, so batteries last much longer. Keep a small light by every bed and in each kit. Avoid candles when you can - they are a leading cause of home fires during outages. If you use them, keep them away from anything that burns and never leave them unattended. See home-014 for safe home lighting during an outage."
+      },
+      {
+        "step": 3,
+        "title": "Pick the right disposable batteries",
+        "body": "Alkaline batteries are cheap and fine for everyday devices, but they lose power in hard cold and can leak and ruin a device if left in it for years. Energizer rates its alkaline AAs for 7 to 10 years of shelf life and use down to about 0 F (-18 C). Lithium AA and AAA batteries (often labeled 1.5 V lithium, not lithium-ion) cost more but are lighter, resist leaking, and work down to -40 F (-40 C). Energizer now lists a 25-year shelf life for its lithium AA and AAA cells, up from 15 years in older materials. Use lithium for emergency kits, cold weather, and lights you rarely use."
+      },
+      {
+        "step": 4,
+        "title": "Use rechargeables for daily and long outages",
+        "body": "Nickel-metal hydride (NiMH) rechargeable AA and AAA batteries can be recharged hundreds of times and save money if you use lights often. Choose low self-discharge (pre-charged) NiMH cells, which hold most of their charge for months on the shelf. They run at 1.2 volts instead of 1.5, which most lights handle fine. Charge them at room temperature, ideally between 32 and 104 F (0 to 40 C). Pair them with a charger that can run from USB, a car, or a small solar panel so you can recharge without grid power (see power-006 and power-001)."
+      },
+      {
+        "step": 5,
+        "title": "Handle lithium-ion devices safely",
+        "body": "Many headlamps, power banks, and phones use lithium-ion packs. Use the charger and cable that came with the device or a certified replacement. Do not leave devices charging overnight or on a bed or couch. Keep them out of direct sun and hot cars. Stop using any battery that is swollen, leaking, very hot, smells odd, or changes color, and move it outside away from anything that burns if you can do so safely. If a battery catches fire, get out, close the door, and call 911. Recycle lithium batteries at a battery drop-off or hazardous waste site - never in the household trash."
+      },
+      {
+        "step": 6,
+        "title": "Keep coin batteries away from children",
+        "body": "Button and coin batteries, found in key fobs, small lights, and thermometers, can burn through a child's throat in as little as two hours if swallowed. Store spares in their child-resistant package, up high. Check that battery doors on devices are closed with a screw. If a child may have swallowed one, go to the emergency room right away and call the National Battery Ingestion Hotline at 800-498-8666 or Poison Help at 800-222-1222."
+      },
+      {
+        "step": 7,
+        "title": "Store and rotate batteries",
+        "body": "Store batteries in their packages or a plastic case in a cool, dry place inside your home. Keep loose cells from touching each other or metal like keys and coins, which can short them. Tape over the ends of 9-volt batteries. Remove alkaline batteries from devices you store for long periods, and put them in a bag taped to the light instead, so leaks do not ruin it. Write the purchase date on each pack. Test every light and battery twice a year. Standardize on one or two battery sizes so spares fit everything."
+      }
+    ],
+    "warnings": [
+      "Never let children handle coin or button batteries. Swallowing one can cause severe burns within two hours - get emergency care immediately.",
+      "Stop using any swollen, leaking, hot, or smoking lithium-ion battery. If it catches fire, get out and call 911.",
+      "Do not mix old and new batteries or different types in the same device. It can cause leaks or overheating.",
+      "Do not try to recharge alkaline or single-use lithium batteries."
+    ],
+    "proTips": [
+      "Turn the head of a headlamp or flashlight around in storage, or lock it, so it does not switch on in your bag.",
+      "Point a headlamp at a white jug of water to turn it into a room lantern.",
+      "Keep lithium cells in your car and go-bag; keep NiMH cells in daily-use lights at home.",
+      "Write the date on batteries with a marker when you install them."
+    ],
+    "relatedGuides": [
+      "home-014",
+      "power-006",
+      "power-001",
+      "tools-001",
+      "tools-009"
+    ],
+    "source": "CPSC / local fire departments / Energizer",
+    "sources": [
+      {
+        "title": "Battery Comparison Chart",
+        "publisher": "Energizer",
+        "url": "https://energizer.com/eu/uk/?p=5946",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Energizer Ultimate Lithium AA Sell Sheet",
+        "publisher": "Energizer",
+        "url": "https://data.energizer.com/pdfs/liaa_sellsheet_may2010.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lithium-ion Battery Safety Tips",
+        "publisher": "City of Melbourne (FL) Fire Department",
+        "url": "https://www.melbourneflorida.org/Government/Departments/Fire-Department/Fire-Prevention-Office/Fire-Prevention-Safety-Tips/Lithium-ion-Battery-Safety-Tips",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Reese's Law Leads to New Federal Mandatory Safety Standard for Button Cell and Coin Batteries",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/Newsroom/News-Releases/2023/Making-Families-Safer-from-Button-Cell-or-Coin-Battery-Dangers-Reeses-Law-Leads-to-New-Federal-Mandatory-Safety-Standard",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use candles or fuel lanterns indoors when battery lights are available.",
+      "Do not use cheap, uncertified chargers or damaged cables for lithium-ion devices."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are choosing lights and batteries for kits, or the power is out and you need light that lasts.",
+      "immediate": [
+        "Use a headlamp on low mode for long runtime",
+        "Use lithium AA/AAA cells in kits and cold weather",
+        "Stop using any swollen, hot, or leaking lithium-ion battery"
+      ],
+      "then": [
+        "Use low self-discharge NiMH rechargeables for daily use with a USB or solar charger",
+        "Store batteries cool and dry, test twice a year, and keep coin cells away from kids"
+      ]
+    }
+  },
+  {
+    "id": "tools-012",
+    "category": "tools",
+    "title": "Multi-Tools, Duct Tape, Zip Ties, and Wire - The Improvised Repair Kit",
+    "priority": "beginner",
+    "tags": [
+      "tools",
+      "multi-tool",
+      "duct tape",
+      "zip ties",
+      "wire",
+      "hose clamps",
+      "repair kit",
+      "improvised repair"
+    ],
+    "summary": "Put together a small repair kit built around a multi-tool, duct tape, zip ties, wire, and a few fasteners, and learn which fixes they handle well and which they do not.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Build the core kit",
+        "body": "Start with a full-size multi-tool with pliers, wire cutters, a locking knife blade, flat and Phillips screwdrivers, and a file or saw. Add a roll of quality duct tape, about 20 assorted zip ties in sizes from 4 to 14 inches (10 to 36 cm), a small coil of soft steel or baling wire, a few hose clamps in two sizes, electrical tape, a small tube of super glue, and a handful of screws, nuts, and bolts that fit your gear. Ready.gov lists duct tape, plastic ties, and a wrench or pliers in its basic disaster kit. Pack it all in a small pouch or zip bag in your car, go-bag, and home."
+      },
+      {
+        "step": 2,
+        "title": "Use the multi-tool safely",
+        "body": "Lock blades and tools open before use, and keep your fingers away from the folding side so the tool cannot close on them. Use the pliers to grip, bend, and cut wire, not as a hammer. Use the right screwdriver size to avoid stripping screws. For stuck bolts, use pliers on the bolt head and push, do not pull toward your body. Never pry with the knife blade. Clean and lightly oil the tool's joints after it gets wet or dirty. A multi-tool is a backup - use a real wrench or screwdriver when you have one, especially for gas or water shutoffs."
+      },
+      {
+        "step": 3,
+        "title": "Use duct tape where it works",
+        "body": "Duct tape is a fast, temporary fix for torn tarps and packs, cracked plastic, split tool handles, holding a sole on a boot, sealing a window with plastic during shelter-in-place, and covering blisters with a pad underneath (see health-009). For a hole in thin metal or plastic, put a piece of flattened can over the hole first and tape over it - it holds much better than tape alone. Clean and dry the surface first, warm the tape in your hands in cold weather, and wrap past the damage on both sides. Store a few feet wrapped on a water bottle, lighter, or pencil."
+      },
+      {
+        "step": 4,
+        "title": "Know duct tape's limits",
+        "body": "Duct tape fails with heat, oil, and pressure. Do not use it on leaking hydraulic or fuel lines - oil breaks down the glue and it can make a small leak a bigger mess. Do not use it as the main fix on electrical wiring; use electrical tape and proper connectors. Do not use it on a radiator hose under pressure for anything but a slow drive to safety. It leaves sticky residue that makes a later real repair harder, so remove it as soon as you can. Gear repair tape is better than duct tape on fabric (see tools-008)."
+      },
+      {
+        "step": 5,
+        "title": "Fasten with zip ties and hose clamps",
+        "body": "Zip ties usually beat tape for holding parts together. Use them to hold a dragging muffler or bumper away from moving parts until you reach help, to fasten a broken pack strap or tent pole, to secure a splint (padded, and never so tight it cuts off blood flow), or to bundle wires and hoses. Use two ties side by side for strength, and chain small ties to make a big one. Trim the tails flush so the sharp ends do not cut you. Hose clamps make strong, adjustable bands for splitting handles, broken poles, and hoses. Tighten them with a screwdriver until snug, not crushing."
+      },
+      {
+        "step": 6,
+        "title": "Use wire for heat and strength",
+        "body": "Soft steel wire holds where tape melts and plastic ties burn. Use it near heat: to hang a pot over a fire, secure a loose exhaust part after it cools, or wrap a split handle. Wrap the wire tightly in several turns, then twist the ends together with pliers and bend the twisted tail flat so it does not stab you. Wire can also make a snare where legal, a hook to retrieve items, or a temporary pin for a lost hitch or clevis pin. Wear gloves - wire ends are sharp."
+      },
+      {
+        "step": 7,
+        "title": "Glue small parts and make it permanent later",
+        "body": "Super glue fixes small hard parts like broken plastic clips and eyeglass frames. Clean both surfaces, use a tiny amount, and hold the parts still for a full minute. Keep it off your skin and away from eyes. Every improvised repair is temporary. Check it often, especially anything carrying weight or near heat, and replace it with a proper part as soon as you can. Restock the kit after every use."
+      }
+    ],
+    "warnings": [
+      "Never rely on duct tape or zip ties for brakes, steering, fuel lines, or anything holding a person's weight.",
+      "Do not tape over leaking fuel or oil lines and keep driving. Fuel leaks can start fires.",
+      "Never tighten zip ties around a person's limb so tight that it cuts off blood flow. Check fingers and toes for color and feeling.",
+      "Let hot engine and exhaust parts cool fully before handling them, and wear gloves."
+    ],
+    "proTips": [
+      "Put a flattened piece of aluminum can under duct tape when patching a hole - it holds far better.",
+      "Carry a few reusable (releasable) zip ties for jobs you will need to undo.",
+      "Keep a short length of wire and two hose clamps in every vehicle.",
+      "Wrap duct tape around your trekking poles or water bottle so you always have some."
+    ],
+    "relatedGuides": [
+      "tools-003",
+      "tools-008",
+      "tools-001",
+      "vehicle-003",
+      "home-005"
+    ],
+    "source": "FEMA Ready.gov / AgWeb",
+    "sources": [
+      {
+        "title": "Build A Kit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "In The Shop: Duct Tape Do's and Don'ts",
+        "publisher": "AgWeb (Farm Journal)",
+        "url": "https://www.agweb.com/opinion/shop-duct-tape-dos-and-donts",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use improvised repairs on brakes, steering, fuel systems, gas lines, or life-safety gear.",
+      "Do not use tape on live electrical wiring - shut off power and use proper materials."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Something broke - a strap, handle, tarp, pole, or loose car part - and you need it working until you can fix it properly.",
+      "immediate": [
+        "Fabric or plastic: duct tape over a patch, wrapped past the damage",
+        "Loose parts: zip ties or hose clamps; near heat: wire",
+        "Never tape fuel, oil, or brake lines"
+      ],
+      "then": [
+        "Check temporary repairs often",
+        "Replace with proper parts and restock the kit"
+      ]
     }
   }
 ]

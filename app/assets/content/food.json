@@ -2,36 +2,119 @@
   {
     "id": "food-001",
     "category": "food",
-    "title": "Edible Plant Identification — North America",
+    "title": "Edible Plant Identification - North America",
     "priority": "advanced",
-    "tags": ["food", "plants", "foraging", "identification"],
-    "summary": "Identify high-confidence edible plants using the universal edibility test and key North American species.",
+    "tags": [
+      "food",
+      "plants",
+      "foraging",
+      "identification",
+      "lookalikes",
+      "poisonous-plants"
+    ],
+    "summary": "A conservative method for deciding whether a wild plant is safe to eat: confirm many features, rule out deadly lookalikes, and eat nothing you cannot identify with certainty. Use this before you forage anything.",
     "steps": [
-      { "step": 1, "title": "Understand the risk baseline", "body": "Misidentification of edible plants kills people every year. The safest approach is to know 5–10 plants in your region with absolute certainty rather than attempting to identify hundreds from memory. Focus on high-confidence, widely-distributed, high-calorie species with no dangerous look-alikes." },
-      { "step": 2, "title": "High-confidence species", "body": "Prioritize these for North American scenarios: Cattail (Typha) — roots, pollen, and young shoots are edible. Found near any standing water. Dandelion — entire plant edible, roots, leaves, flower. Acorns — all oaks produce edible acorns after leaching tannins in water for 24+ hours. Pine — inner bark (cambium layer) is edible, needles for tea. Wild garlic/onion — if it smells like onion, it is safe. Death camas looks similar but has no onion smell." },
-      { "step": 3, "title": "Universal edibility test", "body": "When unsure: 1) Separate plant into parts (root, leaf, stem, seed). 2) Smell — avoid strong unpleasant chemical or almond odors. 3) Skin test — rub a small amount on inner wrist, wait 15 minutes for reaction. 4) Lip test — touch to lip for 3 minutes, wait 15 minutes. 5) Tongue test — place on tongue for 15 minutes. 6) Eat a teaspoon and wait 8 hours. Test only one part of one plant at a time. This takes time — start before you're critically hungry." },
-      { "step": 4, "title": "Processing and preparation", "body": "Many edible plants are far safer cooked. Boiling eliminates many toxins and improves digestibility. Never eat raw elderberries (cook first). Leach bitter-tasting plants in multiple changes of boiling water to remove tannins and other irritants. Cooking also improves caloric availability." }
+      {
+        "step": 1,
+        "title": "Accept the real risk first",
+        "body": "Mistaking a poisonous plant for an edible one can kill you within hours, and some of the deadliest plants in North America look like wild carrot, parsnip, or onion. Foraging rarely provides many calories, so it is almost never worth a gamble. Your goal is not to know hundreds of plants. Your goal is to know a few plants in your own region so well that you could never confuse them, and to leave everything else alone. If you are not 100 percent sure, the answer is no. Hunger makes people take shortcuts, so set this rule now, while you are fed and calm."
+      },
+      {
+        "step": 2,
+        "title": "Learn from a field guide and a local expert",
+        "body": "Get a regional field guide with clear photos and drawings of each plant at every stage: young shoots, mature leaves, flowers, seeds, and roots. Pair it with a person who knows your area, such as a county extension agent, a native plant society member, or an experienced local forager, and have them show you each plant in the field. Learn the plant across a full year before you eat it. Phone apps and a single photo match are not enough to bet your life on. They are a starting point for questions, never a final answer."
+      },
+      {
+        "step": 3,
+        "title": "Confirm several features, not one",
+        "body": "Check every feature your guide lists and write them down: leaf shape and edge, how leaves attach to the stem (alternate, opposite, or in a ring), stem shape, hairs or no hairs, spots or color, sap color, smell when crushed, flower structure, seed shape, root type, habitat, and season. Every feature must match. One mismatch means you stop. A single trait like 'it smells like onion' or 'animals eat it' is not proof. Animals can eat plants that are toxic to people, and smells can transfer to your hands from a plant you touched earlier."
+      },
+      {
+        "step": 4,
+        "title": "Rule out the deadly lookalikes by name",
+        "body": "For each edible plant you learn, learn its dangerous twins at the same time. Wild carrot (Queen Anne's lace) has a hairy stem; poison hemlock has a smooth stem with purple blotches and a musty smell. Wild onion smells strongly of onion from every part; death camas has no onion smell at all and has killed people who mixed them up. Cattail can be confused with toxic iris when young. Be extra cautious with the carrot family (white, umbrella-shaped flower clusters), which includes water hemlock, the most toxic plant in North America. If a plant could be a deadly lookalike, do not eat it."
+      },
+      {
+        "step": 5,
+        "title": "Use a short list of conservative warning signs",
+        "body": "These are not proof that a plant is safe or poisonous, but treat them as stop signs: white umbrella-shaped flower clusters with fern-like leaves, plants growing in wet ground with a carrot-like or musty smell, bulbs with no onion smell, beans or seeds in pods, bitter or soapy taste, almond or peach-pit smell, shiny leaves in groups of three, and grain heads with pink, purple, or black spurs. Also skip anything near roads, rail lines, farms, lawns, or ditches, which may be sprayed with chemicals or polluted. Never eat wild mushrooms unless an expert is right there with you."
+      },
+      {
+        "step": 6,
+        "title": "Harvest and prepare carefully",
+        "body": "Pick only healthy, clean plants away from pollution. Wear gloves if you are unsure what is growing nearby, because some toxic plants can harm skin, and wash your hands before touching your face. Harvest the exact part your guide says is edible at the right season, since a root may be safe while the seeds or leaves are not. Wash well, and cook when your guide says to. Cooking helps with some plants (acorns, elderberries), but it does not make poisonous plants safe. Start with a small portion the first time, even for a plant you know, and only eat one new food at a time."
+      },
+      {
+        "step": 7,
+        "title": "Know what to do if someone gets sick",
+        "body": "Signs of plant poisoning can include vomiting, drooling, stomach cramps, sweating, confusion, trembling, seizures, trouble breathing, or a slow or racing heartbeat. Call 911 and Poison Control at 1-800-222-1222 right away; do not wait for symptoms to get worse. Keep a sample of the plant (in a bag, with a photo) so experts can identify it. Do not make the person vomit unless Poison Control tells you to. If they stop breathing normally, start CPR. Water hemlock and poison hemlock can cause death within hours, so speed matters."
+      }
     ],
     "warnings": [
-      "Never eat wild mushrooms unless you have formal training and certainty of identification — Amanita phalloides (death cap) is fatal in small quantities with no antidote.",
-      "Avoid plants with milky white sap, umbrella-shaped flower clusters (Apiaceae family contains deadly hemlock), and shiny three-leafed plants.",
-      "The three-day starvation threshold: the energy cost of foraging over a wide area may exceed caloric return in some environments. Prioritize water, shelter, and rest over aggressive foraging."
+      "Water hemlock and poison hemlock are deadly in small amounts and look like wild carrot, parsnip, and parsley. Do not eat any wild plant with white umbrella-shaped flower clusters unless an expert confirms it in person.",
+      "Death camas looks like wild onion and camas. No onion smell from the bulb, leaves, and flower means do not eat it.",
+      "The 'universal edibility test' cannot reliably detect deadly plants. It is a last resort, not a way to identify food.",
+      "Cooking, boiling, or drying does not make poisonous plants or mushrooms safe.",
+      "Children, pregnant women, and people on medicines are at higher risk. Do not feed wild plants to them unless the identification is certain."
     ],
     "proTips": [
-      "Cattail is called the 'supermarket of the swamp' for good reason. A single cattail rhizome (root) can be dried and ground into starch flour. The pollen in bloom is nutritious and tastes slightly sweet.",
-      "Acorn flour (after tannin leaching) is a reliable, storable, high-calorie food source. Cold-water leaching takes 2–3 days; hot-water leaching takes several hours with multiple water changes."
+      "Practice now: pick three plants in your area, study them across all four seasons with a local expert, and keep a notebook with sketches and photos.",
+      "Store calories (rice, beans, oil) instead of planning to forage. Wild greens add vitamins but very few calories.",
+      "When you crush a leaf to smell it, wash your hands first so an earlier plant's smell does not fool you.",
+      "Your county extension office can often identify a plant from a fresh sample or clear photos of leaves, stem, flowers, and roots."
     ],
-    "relatedGuides": ["food-002", "food-003", "food-004"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "food-005",
+      "food-014",
+      "food-007",
+      "food-006"
+    ],
+    "source": "Oregon State / Montana State / Ohio State University Extension",
+    "sources": [
+      {
+        "title": "Poison hemlock and Western waterhemlock: Deadly plants that may be growing in your pasture",
+        "publisher": "Oregon State University Extension",
+        "url": "https://extension.oregonstate.edu/catalog/em-9911-poison-hemlock-western-waterhemlock-deadly-plants-may-be-growing-your-pasture",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Death Camas",
+        "publisher": "Montana State University Extension",
+        "url": "https://apps.msuextension.org/magazine/assets/docs/DeathCamas.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Queen Ann's Lace vs. Poison Hemlock. What's the difference?",
+        "publisher": "Ohio State University Extension (BYGL)",
+        "url": "https://bygl.osu.edu/node/2665",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
     "skillLevel": "intermediate",
     "gearRequired": "none",
-    "riskLevel": "low",
+    "riskLevel": "high",
     "prerequisites": [],
+    "whenNotTo": [
+      "When you have stored food - eat that instead of taking any foraging risk.",
+      "When you can identify a plant from only one or two features, or from an app alone.",
+      "For children, pregnant women, or anyone already sick, unless identification is certain."
+    ],
+    "requiresMedicalDisclaimer": true,
     "quickGlance": {
-      "situation": "You are in a survival situation and need to supplement calories through foraging — focus on 5-10 high-confidence species, not a broad survey",
-      "immediate": ["Identify high-confidence species first: cattail near water, dandelion in fields, acorns from any oak", "Apply the edibility test for unknowns: smell, skin test, lip test, tongue test — one plant part at a time", "Avoid anything with milky sap, umbrella flower clusters, or shiny three-leafed plants"],
-      "then": ["Cook all foraged plants when possible — boiling eliminates many toxins", "Leach bitter-tasting plants in multiple water changes to remove tannins"]
+      "situation": "You are thinking about eating a wild plant and need to decide if it is safe.",
+      "immediate": [
+        "If you are not 100 percent sure what it is, do not eat it",
+        "Match every feature in a regional field guide - leaves, stem, flowers, smell, roots, habitat",
+        "Rule out deadly lookalikes by name (hemlocks, death camas, iris)"
+      ],
+      "then": [
+        "Eat a small amount of one new plant at a time",
+        "If anyone gets sick, call 911 and Poison Control at 1-800-222-1222 and keep a plant sample"
+      ]
     }
   },
   {
@@ -39,34 +122,109 @@
     "category": "food",
     "title": "Trapping and Snaring",
     "priority": "advanced",
-    "tags": ["food", "trapping", "snaring", "protein"],
-    "summary": "Set effective small game traps and snares for continuous passive calorie collection.",
+    "tags": [
+      "food",
+      "trapping",
+      "snaring",
+      "small-game",
+      "protein",
+      "legal"
+    ],
+    "summary": "How survival snares work, where to place them, and how to check and handle a catch safely. Trapping is tightly regulated - use these methods only where legal or in a true life-or-death emergency.",
     "steps": [
-      { "step": 1, "title": "Think in trap lines, not single traps", "body": "Set 10–20 snares simultaneously rather than 1–2. Most snares fail. Trap lines give you statistical coverage. Check every trap every 4–6 hours — dead animals spoil quickly in warm weather, and live-caught animals damage snares." },
-      { "step": 2, "title": "Simple loop snare", "body": "Use paracord, wire (preferred — holds shape), or cordage. Form a fixed loop 4–5 inches in diameter for rabbits, 2–3 inches for squirrels. Tie the other end to a fixed anchor (root, stake). Hang the loop at head height of the target animal — for rabbit, fist height off the ground. The loop must be on a game trail, near burrows, or on a natural pinch point (narrow gap between logs, brush, etc.)." },
-      { "step": 3, "title": "Twitch-up snare (live capture / quick kill)", "body": "A spring snare attached to a bent sapling or counterweight triggers when an animal steps through the loop, jerking the animal upward off the ground. This kills or immobilizes quickly and keeps the catch off the ground and away from other scavengers. The trigger is a notched stick under tension — animal pulls the snare loop, trigger releases, sapling fires." },
-      { "step": 4, "title": "Site selection", "body": "Look for: runs (paths animals use repeatedly — compressed grass, worn trail), droppings, fur on bark or wire, burrow entrances, and feeding signs (chewed vegetation, acorn shells). Animals are most active at dawn and dusk. Snares on active runs consistently outperform snares placed in likely-looking but inactive areas." },
-      { "step": 5, "title": "Scent control", "body": "Human scent on traps and snares is a significant deterrent. Boil snares in pine bark or walnut hulls to neutralize scent. Handle traps with gloves or after rubbing hands with dirt and pine needles. Do not urinate near trap lines." }
+      {
+        "step": 1,
+        "title": "Know the law before you set anything",
+        "body": "In normal times, trapping needs a license, a season, and approved trap types, and many states ban or restrict snares completely. Some states require traps to be marked with your name and checked every 24 hours. Setting illegal snares can bring fines and can catch pets, protected animals, or a neighbor's dog. Check your state wildlife agency rules before you practice. Survival snaring outside those rules is only for a true life-or-death emergency with no other food. Even then, stay off private land you do not have permission to use, and remove every snare you set when you leave."
+      },
+      {
+        "step": 2,
+        "title": "Think in numbers, not single traps",
+        "body": "Most snares catch nothing. Your chance of a meal goes up with the number of good sets on active trails, so plan to set many small snares instead of building one complicated trap. Weigh the effort, though: walking a long trap line burns calories and water. Trap close to camp, near water, and on trails you will pass anyway. Fishing and gathering insects often give more food per hour of work, so set snares as a passive extra while you do other tasks, not as your main plan."
+      },
+      {
+        "step": 3,
+        "title": "Find active animal trails",
+        "body": "Look for runs: narrow paths of pressed-down grass or worn soil, often between cover and food or water. Signs that a trail is in use include fresh droppings, tracks in mud or snow, tufts of fur on twigs, chewed plants, and burrow entrances with fresh dirt. Natural pinch points, like a gap between a log and a bush, funnel animals into a small space. A snare on a fresh, busy trail does far better than one in a spot that only looks good. Animals like rabbits move most at dawn and dusk."
+      },
+      {
+        "step": 4,
+        "title": "Set a simple loop snare",
+        "body": "Use thin wire (it holds its shape best) or strong thin cord. Make a running loop about the size of the animal's head plus a little: roughly 3 to 4 inches (8 to 10 cm) across for rabbits, smaller for squirrels. Hang the loop across the trail so its bottom sits about a fist's height off the ground for rabbits. Tie the other end firmly to a stake, root, or sapling. Use sticks or brush to guide the animal into the loop, but change the trail as little as you can. Animals notice fresh digging and broken branches."
+      },
+      {
+        "step": 5,
+        "title": "Reduce your scent and disturbance",
+        "body": "Handle snares as little as possible and wear gloves if you have them. Rubbing your hands with local soil or plants can help. Do not eat, smoke, or urinate near your sets. Set snares and leave the area quietly, and approach from the same direction each time you check so you do not trample new paths across the trails."
+      },
+      {
+        "step": 6,
+        "title": "Check often and handle the catch safely",
+        "body": "Check every snare at least once a day, and more often in warm weather, because meat spoils fast and a trapped animal suffers. Approach carefully - a live animal can bite or scratch. Put on gloves before touching any catch. Do not keep an animal that looks sick, acts oddly, or that you find already dead in the area; rabbits and rodents can carry tularemia, which spreads through skin contact and cuts. If you catch a non-target animal that is alive and unhurt, release it if you can do so safely. Field dress your catch promptly and keep the meat cool."
+      },
+      {
+        "step": 7,
+        "title": "Take down your snares",
+        "body": "Keep a written or mental list of every set and its location. When you move on, or once you no longer need them, remove every snare. A forgotten snare keeps killing animals for months and can injure pets and children. Reuse the wire and cord for other needs."
+      }
     ],
     "warnings": [
-      "Check local regulations if applicable — in most true emergency scenarios, survival trapping supersedes normal regulatory constraints, but be aware of the distinction.",
-      "Snares do not discriminate — you may catch non-target animals. Know how to humanely dispatch any animal you catch."
+      "Snares are illegal or restricted in many states. Outside a true emergency, follow your state's trapping laws, licenses, and check-time rules.",
+      "Snares catch anything that walks through them, including pets and protected animals. Never set them near homes, trails used by people, or where children play.",
+      "Wear gloves when handling any catch. Rabbits, squirrels, and other rodents can carry tularemia and other diseases.",
+      "Do not eat animals that look sick or that you find dead."
     ],
     "proTips": [
-      "Fishing by trap (improvised fish weir, bottle trap, or hook and line) is far more calorie-efficient per hour of labor than land trapping in most environments with water access.",
-      "Insects are a high-protein, readily available food source that requires no trap skill. Beetles, grubs, grasshoppers, and caterpillars are all edible cooked. Avoid brightly colored insects, hairy caterpillars, and insects that sting."
+      "Practice setting snares (unarmed, with no loop on a trail) in your backyard so you know how much wire and time each set takes.",
+      "A rabbit has very little fat. Eat fat or carbohydrates with lean game, or a lean-meat-only diet will make you sick.",
+      "Mark your set locations with something only you will notice, and write them down so you can find every one later."
     ],
-    "relatedGuides": ["food-001", "food-003", "food-004"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "food-009",
+      "food-008",
+      "food-003",
+      "homestead-005"
+    ],
+    "source": "CDC / NY State Dept. of Health / state wildlife agencies",
+    "sources": [
+      {
+        "title": "Preventing Tularemia",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/tularemia/prevention/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Harvesting, Preparing, and Eating Wild Game",
+        "publisher": "New York State Department of Health",
+        "url": "https://healthweb-back.health.ny.gov/environmental/outdoors/venison_game/advice_on_eating_game.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
-    "riskLevel": "low",
+    "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "When it is not legal where you are and you are not in a true life-or-death emergency.",
+      "Near homes, schools, or trails where pets and people walk.",
+      "When you have stored food - trapping costs energy and often catches nothing."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You are in a survival situation that will extend beyond 3 days and need passive protein collection — set trap lines to collect food while you do other tasks",
-      "immediate": ["Set 10-20 snares simultaneously on active game runs — statistical coverage is the key", "For rabbits: loop 4-5 inches diameter, fist height off ground, on worn game trail or near burrow", "Boil or rub snares with pine needles and dirt before placing to neutralize human scent"],
-      "then": ["Check traps every 4-6 hours — dead animals spoil quickly in warm weather", "Prioritize fishing over land trapping when water is available — it is more calorie-efficient per hour"]
+      "situation": "You are in a long emergency with no food supply and need passive protein.",
+      "immediate": [
+        "Confirm this is legal or a true life-or-death emergency",
+        "Set several simple snares on fresh, active trails close to camp",
+        "Wear gloves when handling any catch"
+      ],
+      "then": [
+        "Check snares at least daily, more in warm weather",
+        "Remove every snare when you leave"
+      ]
     }
   },
   {
@@ -74,33 +232,108 @@
     "category": "food",
     "title": "Fishing Without Gear",
     "priority": "advanced",
-    "tags": ["food", "fishing", "improvised"],
-    "summary": "Catch fish using improvised hooks, weirs, and hand-fishing techniques.",
+    "tags": [
+      "food",
+      "fishing",
+      "improvised",
+      "protein",
+      "legal"
+    ],
+    "summary": "Catch fish with improvised hooks, lines, and simple traps when you have no tackle. Follow fishing laws unless it is a true life-or-death emergency, and cook every fish you catch.",
     "steps": [
-      { "step": 1, "title": "Improvised hook and line", "body": "Hooks can be improvised from safety pins, thorns, bent nails, carved bone or hardwood, and metal can tab openings. Line can be paracord inner strands, thread, plant fiber cordage, or stripped electrical wire. Bait with worms (dig near river banks), insects, small fish pieces, or dough balls from found grain." },
-      { "step": 2, "title": "Gorge hook technique", "body": "A gorge hook is a straight, pointed, double-ended piece of bone, hardwood, or metal (a toothpick-sized piece of wire bent at both ends). Tie line to the center. Bait it and let the fish swallow it whole. When the fish swallows and the line is pulled, the gorge turns sideways inside the throat and lodges — no bend required. Used globally as a primitive fishing method." },
-      { "step": 3, "title": "Fish weir", "body": "A fish weir is a V-shaped wall of rocks built across a stream, with the point of the V facing downstream. Fish swimming upstream funnel into the point and cannot reverse out. Build the walls above the water line so fish do not simply swim over. This is a passive trap that works 24 hours with no attendance." },
-      { "step": 4, "title": "Hand fishing (noodling/tickling)", "body": "In slow or still water, submerge your arm slowly under rock overhangs and logs where fish hide. Move extremely slowly. When you feel a fish, grab firmly behind the gills or around the body and remove quickly. Catfish, bass, and carp respond to this technique. Wear mental armor — you will also encounter crawdads, snakes, and snapping turtles." }
+      {
+        "step": 1,
+        "title": "Check the rules and the water",
+        "body": "Fishing normally requires a state license, and many methods in this guide (traps, weirs, hand grabbing, multiple lines) are illegal in most places outside an emergency. Use them only when it is legal or when you truly have no other food. Before you fish, also check for a local fish advisory: some lakes and rivers have fish with mercury, PCBs, or other chemicals, and your state lists which waters and species to limit or avoid. Do not fish near sewage outfalls, factories, or water with dead fish, oily sheen, or algae scum."
+      },
+      {
+        "step": 2,
+        "title": "Make a hook and line",
+        "body": "Hooks can be made from a safety pin, a bent sewing needle, a thin nail, a thorn, or a small sliver of bone or hard wood. File or carve a point and, if you can, a small barb. Line can be the inner strands of paracord, strong thread, dental floss, or twisted plant fibers. Tie the line to a flexible stick for a pole. Add a small stone as a weight and a piece of dry wood or a cork as a float so you can see bites."
+      },
+      {
+        "step": 3,
+        "title": "Use a gorge if you cannot bend a hook",
+        "body": "A gorge is a small, straight piece of wood, bone, or wire about an inch (2 to 3 cm) long, pointed at both ends, with the line tied to the middle. Push it lengthwise into the bait. When a fish swallows the bait and you pull, the gorge turns sideways and catches. Let the fish take the bait fully before you pull. It is simple and works with almost any material."
+      },
+      {
+        "step": 4,
+        "title": "Pick good bait and good spots",
+        "body": "Dig worms in damp soil near banks, flip rocks for insect larvae, catch grasshoppers, or use bits of fish guts from an earlier catch. Fish gather where there is cover and food: under overhanging banks, near fallen trees, at the edges of weed beds, in deep pools below riffles, and where a creek enters a lake. Fish feed more at dawn and dusk and often move to deeper, cooler water in the heat of the day."
+      },
+      {
+        "step": 5,
+        "title": "Set passive lines and traps (emergency only)",
+        "body": "Set lines let you fish while you do other work: tie several baited lines to branches or stakes along the bank and check them every few hours. In a small stream, a simple stone or stick fence can guide fish into a shallow pen where you can scoop them out. Keep these away from where others swim or wade, check them often, and take them all down when you leave. Remember these methods are illegal in most places during normal times."
+      },
+      {
+        "step": 6,
+        "title": "Be careful with hand fishing",
+        "body": "Reaching into holes under banks or logs to grab fish is risky. You may meet snapping turtles, snakes, or sharp debris, and you can slip in fast or cold water. Do it only in shallow, slow water where you can see the bottom, with a partner, and never reach where you cannot see in snake country. Cold water drains body heat quickly, so limit time in the water."
+      },
+      {
+        "step": 7,
+        "title": "Clean and cook every catch",
+        "body": "Keep fish cool and clean them soon after catching, away from your drinking water source. Cook fish until the flesh is opaque and flakes easily, or to 145°F (63°C) inside if you have a thermometer. Do not eat raw or undercooked freshwater fish - they can carry tapeworms and other parasites. See the guide on cleaning and cooking fish for details."
+      }
     ],
     "warnings": [
-      "Wash hands thoroughly after handling fish and raw protein — any cuts provide entry for infection.",
-      "Cook all freshwater fish thoroughly — raw freshwater fish can carry parasites including tapeworms. Saltwater fish are relatively safer raw but cooking is always preferable."
+      "Traps, weirs, set lines, and hand grabbing are illegal in most places outside an emergency. Follow state fishing laws when you can.",
+      "Check local fish advisories. Some waters have fish with mercury or other chemicals that build up in your body.",
+      "Never eat raw freshwater fish - cook to 145°F (63°C) or until flaky.",
+      "Wading and hand fishing in fast or cold water can cause drowning or hypothermia."
     ],
     "proTips": [
-      "Fish are most active at dawn and dusk in low-light conditions. Mid-day fishing is often unproductive in warm weather — fish move to deep, cool water.",
-      "Edible freshwater fish in North America include bass, trout, catfish, perch, crappie, carp, and bluegill. All are safe to eat cooked. Identify them by body shape rather than color — colors vary by region."
+      "Keep a small fishing kit (hooks, line, sinkers) in your emergency bag - it weighs almost nothing and works far better than improvised gear.",
+      "Smaller fish and panfish are usually lower in mercury than large, older predator fish.",
+      "Fish guts make good bait for the next catch and for crayfish."
     ],
-    "relatedGuides": ["food-002", "food-004"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "food-010",
+      "food-008",
+      "food-002",
+      "water-002"
+    ],
+    "source": "U.S. EPA / FoodSafety.gov",
+    "sources": [
+      {
+        "title": "Fish and Shellfish Advisories and Safe Eating Guidelines",
+        "publisher": "U.S. EPA",
+        "url": "https://epa.gov/fishadvice",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Safe Minimum Internal Temperature Chart",
+        "publisher": "FoodSafety.gov (U.S. HHS / USDA)",
+        "url": "https://www.foodsafety.gov/print/pdf/node/10",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
-    "riskLevel": "low",
+    "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "In waters with a 'do not eat' advisory or signs of pollution.",
+      "When the methods are illegal and you are not in a true emergency.",
+      "Hand fishing in fast, deep, cold, or murky water."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You have access to a stream, lake, or river and need protein — improvised fishing is more calorie-efficient per hour than land trapping",
-      "immediate": ["Improvise hook from safety pin, bent nail, or carved bone; use paracord inner strands as line", "Build a fish weir: V-shaped rock wall across stream with point downstream — fish funnel in and cannot reverse", "Use bait from riverbank: worms, insects, or small pieces of existing protein"],
-      "then": ["Fish at dawn and dusk when fish are most active in shallow water", "Cook all freshwater fish thoroughly — raw freshwater fish can carry tapeworms and parasites"]
+      "situation": "You are near a lake or stream with no fishing tackle and need protein.",
+      "immediate": [
+        "Make a hook from a safety pin or needle and line from paracord strands",
+        "Bait with worms or insects and fish near cover at dawn and dusk",
+        "Check for local fish advisories or signs of pollution"
+      ],
+      "then": [
+        "Set a few lines to fish while you work (emergency only)",
+        "Cook every fish to 145°F (63°C) or until it flakes"
+      ]
     }
   },
   {
@@ -108,33 +341,1292 @@
     "category": "food",
     "title": "Food Preservation Without Refrigeration",
     "priority": "advanced",
-    "tags": ["food", "preservation", "drying", "smoking"],
-    "summary": "Preserve meat, fish, and plant foods for days to weeks using primitive methods.",
+    "tags": [
+      "food",
+      "preservation",
+      "drying",
+      "jerky",
+      "smoking",
+      "food-safety"
+    ],
+    "summary": "Keep meat, fish, and produce from spoiling when there is no power: use fridge and freezer food first, then dry meat safely with a 160°F heat step, and store root crops cool and dark.",
     "steps": [
-      { "step": 1, "title": "Smoking", "body": "Cut meat into strips 1/4 inch thick, removing as much fat as possible (fat goes rancid rapidly). Hang strips on a wooden rack over a smoky fire — hardwood smoke (oak, hickory, apple, cherry) is best. Avoid softwoods (pine, fir) which contain resins. Smoke at low heat (150–200°F) for 6–12 hours until the meat is dark, hard, and dry with no moisture. Properly smoked meat can last 1–2 weeks without refrigeration." },
-      { "step": 2, "title": "Solar drying", "body": "In low-humidity, sunny conditions, thin strips of meat or fish can be dried without smoking. Spread pieces on clean rocks or improvised racks in direct sunlight and wind. Cover loosely with cloth or screen to keep insects off. Turn every few hours. Full sun drying takes 2–3 days depending on temperature, humidity, and thickness. The product should be rigid and hard with no soft spots." },
-      { "step": 3, "title": "Salt curing", "body": "Salt draws moisture out of meat through osmosis and inhibits bacterial growth. Pack meat pieces completely in salt — do not allow any surface to remain unsalted. Leave for 24–48 hours. Rinse, dry, and optionally smoke. Requires significant salt — roughly 1 pound of salt per 5 pounds of meat. Salt is a critical grid-down resource." },
-      { "step": 4, "title": "Root cellaring concept", "body": "Many root vegetables (potatoes, turnips, carrots, beets) and squash remain edible for weeks to months in cool, dark, humid conditions. Dig a pit 2–3 feet below the frost line, line with straw, and store root vegetables. Temperature stabilizes at 35–45°F below ground — natural refrigeration." }
+      {
+        "step": 1,
+        "title": "Use perishable food in the right order",
+        "body": "When the power goes out, keep fridge and freezer doors shut. A closed fridge keeps food cold for about 4 hours. A full freezer holds for about 48 hours, a half-full one about 24 hours. Eat fresh food from the fridge first, then freezer food, then shelf-stable food. After 4 hours without power, throw out refrigerated meat, poultry, fish, eggs, and milk unless they stayed at 40°F (4°C) or below. Frozen food that still has ice crystals or is at 40°F or below can be refrozen or cooked. Never taste food to check it. When in doubt, throw it out."
+      },
+      {
+        "step": 2,
+        "title": "Prepare meat for drying",
+        "body": "Start with fresh, clean meat kept cold. Trim off all the fat you can, because fat turns rancid and shortens storage life. Slice it into thin, even strips about 1/4 inch (6 mm) thick; partly frozen meat is easier to slice. Wash your hands, knife, and board before and after. For wild game like venison or bear, extension services recommend freezing the meat first (at 0°F or below for 30 days, pieces 6 inches thick or less) to kill parasites such as trichinella. If you cannot freeze it, the full cooking step below is even more important."
+      },
+      {
+        "step": 3,
+        "title": "Heat the meat to 160°F",
+        "body": "Drying alone does not reliably kill harmful bacteria like E. coli and Salmonella. Heat the strips to an internal temperature of 160°F (71°C) before or after drying. One way is to bring a marinade or salt brine to a rolling boil, drop in the strips, and return it to a full boil for about 1 minute. Another is to heat dried strips on a pan in a 275°F oven (or over steady coals) for about 10 minutes. Use a thermometer if you have one. Do not reuse marinade that touched raw meat."
+      },
+      {
+        "step": 4,
+        "title": "Dry thin strips with steady low heat and airflow",
+        "body": "Lay strips so they do not touch on racks, screens, or sticks. Dry at a steady 140°F (60°C) or a little higher: a dehydrator, an oven with the door propped open, or a smoker or low smoky fire outdoors. Keep insects off with cloth or screen. Drying usually takes 10 to 24 hours. It is done when a strip bends and cracks but does not snap apart, and has no soft, moist spots. In humid, cool weather, open-air sun drying is unsafe because meat spoils before it dries."
+      },
+      {
+        "step": 5,
+        "title": "Store dried meat correctly",
+        "body": "Cool the jerky, then pack it in clean, airtight containers or bags with as little air as possible. Keep it in a cool, dark, dry place. Homemade jerky keeps about 1 to 3 weeks at room temperature, depending on the meat and how dry it is. Freeze or refrigerate it for longer storage. Check before eating: throw out any with mold, slime, or an off smell. Salt-curing helps, but it does not replace the 160°F heat step."
+      },
+      {
+        "step": 6,
+        "title": "Keep root crops cool and dark",
+        "body": "Potatoes, carrots, beets, turnips, cabbage, apples, and winter squash can last weeks to months without power if kept cool, dark, and at the right humidity. A basement corner, an unheated room, or a pit lined with straw below the frost line can work. Most root crops like it cold and damp (near 32 to 40°F); squash and onions like it cooler than a living room but dry. Check them every week and remove anything soft or rotting before it spreads."
+      },
+      {
+        "step": 7,
+        "title": "Know which methods are not safe",
+        "body": "Do not can low-acid foods like meat, beans, or most vegetables in a boiling water bath, an oven, or with the open-kettle method - only a pressure canner reaches temperatures that kill botulism spores. Do not store garlic or herbs in oil at room temperature. Do not pack moist foods with oxygen absorbers. Botulism toxin has no smell or taste and can kill. If a can or jar is bulging, leaking, spurting, or smells bad, throw it out without tasting."
+      }
     ],
     "warnings": [
-      "Improperly dried or smoked meat causes botulism and other food-borne illnesses. If meat smells off, is slimy, or shows mold, discard it. Food poisoning in a grid-down scenario with no medical care can be fatal.",
-      "Do not attempt to dry or smoke meat in high humidity — the surface dries before the interior, creating a case-hardened exterior that traps moisture and allows bacteria to grow inside."
+      "Drying meat without first reaching 160°F (71°C) may not kill dangerous bacteria.",
+      "Never taste food to test whether it is safe. When in doubt, throw it out.",
+      "Low-acid foods can only be safely home-canned in a pressure canner. Other methods risk botulism.",
+      "Food poisoning with no medical care can be deadly, especially for children, older adults, and pregnant women."
     ],
     "proTips": [
-      "Pemmican — rendered fat mixed with dried meat powder and dried berries — was the original long-distance trail food used by indigenous peoples and fur traders. It lasts for months without refrigeration and is calorie-dense (400–500 cal/100g).",
-      "Fish preserves much faster than mammal meat when smoked because fish is leaner and the tissue is less dense. A full-size salmon can be smoked to preservation in 8–10 hours."
+      "Freeze jugs of water now. During an outage they keep the freezer cold longer, and later they become drinking water.",
+      "Keep an appliance thermometer in your fridge and freezer so you know the real temperature after an outage.",
+      "Lean meats such as venison and beef round make the best jerky. Fatty meat goes rancid quickly."
     ],
-    "relatedGuides": ["food-001", "food-002"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "homestead-003",
+      "medical-011",
+      "food-012",
+      "food-011"
+    ],
+    "source": "FoodSafety.gov / Penn State and University of Missouri Extension",
+    "sources": [
+      {
+        "title": "Three Ways to Keep Food Safe When You Lose Power",
+        "publisher": "FoodSafety.gov",
+        "url": "https://www.foodsafety.gov/blog/three-ways-keep-food-safe-when-you-lose-power",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Drying Jerky",
+        "publisher": "Penn State Extension",
+        "url": "https://extension.psu.edu/drying-jerky",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Making jerky from venison",
+        "publisher": "University of Missouri Extension",
+        "url": "https://extension.missouri.edu/news/making-jerky-from-venison",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "In cool, humid weather with no steady heat source - meat will spoil before it dries.",
+      "With meat that already smells off, is slimy, or sat warm for hours.",
+      "As a substitute for pressure canning low-acid foods."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "The power is out and you have meat or produce that will spoil.",
+      "immediate": [
+        "Keep the fridge and freezer closed; eat fridge food first, then freezer food",
+        "Trim fat and slice meat 1/4 inch thick",
+        "Heat strips to 160°F (71°C), then dry at a steady 140°F or higher"
+      ],
+      "then": [
+        "Store jerky airtight, cool, and dark; eat within 1 to 3 weeks",
+        "Keep root crops cool and dark, and check them weekly"
+      ]
+    }
+  },
+  {
+    "id": "food-005",
+    "category": "food",
+    "title": "Poisonous Plants and Deadly Lookalikes in North America",
+    "priority": "critical",
+    "tags": [
+      "food",
+      "plants",
+      "poisonous-plants",
+      "water-hemlock",
+      "poison-hemlock",
+      "death-camas",
+      "lookalikes"
+    ],
+    "summary": "Recognize the North American plants most likely to kill foragers - water hemlock, poison hemlock, and death camas - and the edible plants they are mistaken for. Learn these before you eat any wild plant.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Learn the carrot family warning",
+        "body": "The carrot family (Apiaceae) includes carrots, parsnips, parsley, and dill, but also the two deadliest plants in North America: water hemlock and poison hemlock. Members share flat or domed clusters of tiny white flowers on spokes, like an open umbrella, and often feathery or fern-like leaves. Because the edible and deadly members look so much alike, the safest rule for almost everyone is simple: do not eat any wild plant with umbrella-shaped white flower clusters or carrot-like leaves unless an expert confirms it in person."
+      },
+      {
+        "step": 2,
+        "title": "Recognize water hemlock",
+        "body": "Water hemlock (Cicuta species) grows in wet places: ditches, marshes, stream banks, and wet meadows. It stands about 2 to 8 feet tall with hollow stems, white umbrella flower clusters, and leaves divided into narrow, toothed leaflets. The key sign is the base: a thick rootstalk that, when cut lengthwise, shows hollow chambers separated by cross walls and may ooze a yellowish, oily liquid with a carrot or parsnip smell. Its toxin, cicutoxin, is most concentrated in the roots and stays toxic when dried. A bite-sized piece of root can kill an adult, often by violent seizures. It is sometimes called 'wild parsnip,' which shows how easily it is confused."
+      },
+      {
+        "step": 3,
+        "title": "Recognize poison hemlock",
+        "body": "Poison hemlock (Conium maculatum) is common along roads, fence lines, ditches, and field edges across most of the U.S. It is usually 3 to 8 feet tall, sometimes taller. Its stems are smooth, hairless, and hollow with purple or reddish blotches. Leaves are glossy, finely divided, and fern-like. Crushed leaves give off a musty smell often compared to mouse urine. All parts are poisonous, and the dried plant stays toxic for a long time. It is mistaken for wild carrot (Queen Anne's lace), wild parsnip, wild parsley, and fennel. Wild carrot has a hairy stem with no purple blotches. Even touching poison hemlock on a hot day can cause problems, so wear gloves and never burn it."
+      },
+      {
+        "step": 4,
+        "title": "Recognize death camas",
+        "body": "Death camas (Toxicoscordion, formerly Zigadenus) grows from a bulb in meadows, hillsides, and open woods, mostly in the western half of North America, though related species occur elsewhere. It has grass-like, V-shaped leaves mostly at the base and a cluster of small cream to greenish-white flowers. All parts are toxic, especially the seeds and bulbs. It is mistaken for wild onion and for edible blue camas, which grows in the same meadows. The most useful check: wild onion smells strongly of onion from every part, while death camas has no onion smell at all. Blue camas bulbs look the same as death camas bulbs once flowers are gone, so do not dig camas bulbs without an expert."
+      },
+      {
+        "step": 5,
+        "title": "Know other common poisonous plants",
+        "body": "Learn these too: pokeweed (purple berries and roots are toxic; young shoots are only eaten after special preparation by experienced people), jimsonweed (spiny seed pods; causes delirium), nightshades (some berries are toxic, especially unripe ones), buckeye and horse chestnut (mistaken for edible chestnuts), mayapple (unripe fruit, leaves, and roots are toxic), and baneberry (white or red berries). Garden and house plants such as foxglove, lily of the valley, oleander, yew, and daffodil bulbs can stop the heart or cause severe illness. Many wild berries are poisonous. Treat any unknown berry as dangerous."
+      },
+      {
+        "step": 6,
+        "title": "Recognize poisoning and act fast",
+        "body": "Signs of severe plant poisoning can begin within minutes to a few hours: drooling, nausea and vomiting, stomach pain, sweating, dilated pupils, tremors, confusion, seizures, a very slow or fast heartbeat, weakness, and trouble breathing. Death camas symptoms may be delayed several hours. Call 911 and Poison Control (1-800-222-1222) immediately. Do not wait for symptoms if you know someone ate a suspect plant. Keep the person on their side if they are drowsy or seizing, and protect their head. Do not give anything by mouth or make them vomit unless Poison Control says so. Bring the plant or clear photos of it to the hospital."
+      },
+      {
+        "step": 7,
+        "title": "Handle and remove safely",
+        "body": "Wear gloves, long sleeves, and eye protection when pulling these plants. Do not touch your eyes or mouth while working, and wash well afterward. Bag the plants for disposal rather than burning or composting them, because smoke and dried material can still be toxic. Teach children never to use hollow hemlock stems as whistles, peashooters, or straws - children have been poisoned this way. Keep pets and livestock away from areas where these plants grow."
+      }
+    ],
+    "warnings": [
+      "Water hemlock is the most toxic plant in North America. A small piece of root can kill. Do not dig or eat any carrot-like plant growing in wet ground.",
+      "Poison hemlock grows along roadsides almost everywhere. Smooth stem with purple blotches means stay away.",
+      "Death camas has no onion smell. Never eat a bulb that does not smell strongly of onion - but smell alone is not proof: onion scent can rub off on your hands or nearby plants when they grow together. If in doubt, do not eat it.",
+      "Drying, boiling, or cooking does not make these plants safe.",
+      "Call 911 and Poison Control at 1-800-222-1222 right away for any suspected poisoning - do not wait for symptoms."
+    ],
+    "proTips": [
+      "Learn these deadly plants before you learn edible ones. Knowing what to avoid prevents most foraging deaths.",
+      "Take photos of hemlock and death camas growing near you in different seasons so you know them when you see them.",
+      "Your county extension office can confirm a suspect plant from a fresh sample in a sealed bag."
+    ],
+    "relatedGuides": [
+      "food-001",
+      "food-014",
+      "food-007",
+      "food-006"
+    ],
+    "source": "Oregon State / Montana State / Ohio State University Extension",
+    "sources": [
+      {
+        "title": "Poison hemlock and Western waterhemlock: Deadly plants that may be growing in your pasture",
+        "publisher": "Oregon State University Extension",
+        "url": "https://extension.oregonstate.edu/catalog/em-9911-poison-hemlock-western-waterhemlock-deadly-plants-may-be-growing-your-pasture",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Death Camas",
+        "publisher": "Montana State University Extension",
+        "url": "https://apps.msuextension.org/magazine/assets/docs/DeathCamas.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Queen Ann's Lace vs. Poison Hemlock. What's the difference?",
+        "publisher": "Ohio State University Extension (BYGL)",
+        "url": "https://bygl.osu.edu/node/2665",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.1",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use this guide to decide a plant is safe - it only helps you recognize danger.",
+      "Do not try to handle or remove these plants without gloves and eye protection."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You see a plant with white umbrella-shaped flowers, a carrot-like root, or an onion-like bulb and wonder if it is edible.",
+      "immediate": [
+        "Do not eat it - carrot-family and onion-like plants include deadly lookalikes",
+        "Smooth stem with purple blotches = poison hemlock; chambered root in wet ground = water hemlock",
+        "No onion smell from a bulb plant = possible death camas; an onion smell is NOT proof of safety - if in doubt, don't eat it"
+      ],
+      "then": [
+        "If anyone ate a suspect plant, call 911 and Poison Control at 1-800-222-1222 now",
+        "Keep a sample or photos for identification"
+      ]
+    }
+  },
+  {
+    "id": "food-006",
+    "category": "food",
+    "title": "Wild Mushrooms - Why Not to Forage Without Expert Training",
+    "priority": "critical",
+    "tags": [
+      "food",
+      "mushrooms",
+      "foraging",
+      "death-cap",
+      "amatoxin",
+      "poisoning"
+    ],
+    "summary": "Wild mushrooms give almost no calories and some of them destroy the liver days after you eat them. This guide explains why you should not eat wild mushrooms without in-person expert training, and what to do if someone does.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know why mushrooms are not survival food",
+        "body": "Mushrooms are mostly water and fiber. Even a large basket gives few calories, so the reward is tiny and the risk is huge. Several deadly species look very much like popular edible ones, and the differences can be small details of color, gills, or spore print that change with age and weather. There is no simple field test that separates safe from deadly mushrooms. In a survival situation, the right choice is to leave all wild mushrooms alone and spend your energy on water, shelter, and stored food."
+      },
+      {
+        "step": 2,
+        "title": "Learn from the recent California outbreak",
+        "body": "Starting in November 2025, California saw its worst mushroom poisoning outbreak on record. By May 2026 the state health department counted 50 cases, including 4 deaths and 4 liver transplants, compared with fewer than 5 cases in a typical year. Most involved death caps (Amanita phalloides) or western destroying angels, picked in city, county, and national parks, sometimes in places where these mushrooms were not usually found. Officials stressed that even experienced foragers can have trouble telling them from edible species. Death caps have now spread to many areas outside their usual range."
+      },
+      {
+        "step": 3,
+        "title": "Understand amatoxin poisoning",
+        "body": "Death caps, destroying angels, and some small brown mushrooms (such as certain Galerina and Lepiota species) contain amatoxins. These toxins are not destroyed by cooking, boiling, freezing, or drying. Symptoms are delayed: watery diarrhea, vomiting, and stomach pain usually start 6 to 24 hours after eating. These often fade within a day, which makes people think they are fine. Then severe liver damage can appear 2 to 4 days after the meal, leading to liver failure and death. By the time a person feels sick, the toxin is already working, so early hospital care matters."
+      },
+      {
+        "step": 4,
+        "title": "Know the common mix-ups",
+        "body": "Poison centers see the same mistakes again and again. Jack-o'-lantern mushrooms are mistaken for chanterelles and cause severe vomiting. False morels are mistaken for true morels and can damage the liver and nerves. Pigskin poison puffballs are mistaken for edible puffballs. Death caps and destroying angels are mistaken for straw mushrooms, paddy straw, and other white or greenish edible species, especially by people who foraged in other countries. Phone apps and online photo groups have led to many wrong identifications. Treat them as a starting point for learning, never as permission to eat."
+      },
+      {
+        "step": 5,
+        "title": "Ignore the old myths",
+        "body": "None of these 'tests' work: peeling the cap, a silver spoon turning black, cooking with garlic or rice, animals or insects eating the mushroom, a pleasant smell or taste, or mushrooms growing on wood. Deadly mushrooms can taste good. Squirrels and slugs eat mushrooms that kill people. The universal edibility test for plants does not work for mushrooms, because amatoxin symptoms show up long after the test would say 'safe.'"
+      },
+      {
+        "step": 6,
+        "title": "If you want to learn, train in person",
+        "body": "If you are serious about mushrooms, join a regional mycological society; the North American Mycological Association lists local clubs. Go on guided forays, learn spore prints and key features, and have every find checked in person by an expert for several seasons before you eat anything. Start by learning the deadly species in your area. Even trained foragers stick to a small number of easy-to-confirm species and still have experts double-check."
+      },
+      {
+        "step": 7,
+        "title": "If someone ate a wild mushroom",
+        "body": "Call Poison Control at 1-800-222-1222 right away, even if the person feels fine. Do not wait for symptoms - early treatment can save the liver. Call 911 for vomiting, severe diarrhea, confusion, yellow skin or eyes, or trouble breathing. Save any leftover mushrooms, raw or cooked, in a paper bag or container. Take photos of the top, underside, and side of the cap next to a coin for scale, and note where it grew (on wood, in grass, under which trees). Keep children and pets away from wild mushrooms in yards and parks."
+      }
+    ],
+    "warnings": [
+      "Cooking, boiling, freezing, and drying do not destroy death cap toxins.",
+      "Feeling better a day after eating a wild mushroom does not mean you are safe. Liver damage can appear 2 to 4 days later.",
+      "Phone apps and online photos are not reliable enough to decide if a mushroom is safe to eat.",
+      "Call Poison Control at 1-800-222-1222 for any wild mushroom ingestion, even without symptoms."
+    ],
+    "proTips": [
+      "Store mushrooms you want for recipes as dried, store-bought products in your food supply instead of planning to forage.",
+      "Check lawns and play areas after rain and remove mushrooms if small children or pets use them (wear gloves).",
+      "If you buy wild mushrooms, buy only from trusted, licensed sellers."
+    ],
+    "relatedGuides": [
+      "food-001",
+      "food-005",
+      "food-007",
+      "food-014"
+    ],
+    "source": "California Dept. of Public Health / Northern New England Poison Center",
+    "sources": [
+      {
+        "title": "Wild mushroom poisonings update (NR26-023)",
+        "publisher": "California Department of Public Health",
+        "url": "https://www.cdph.ca.gov/Programs/OPA/Pages/NR26-023.aspx",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Increase in mushroom poisonings in California (CAHAN health advisory)",
+        "publisher": "California Department of Public Health",
+        "url": "https://www.cdph.ca.gov/Programs/OPA/Pages/CAHAN/Increase-in-mushroom-poisonings-in-California%E2%80%8B%E2%80%8B-.aspx",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Foraging for mushrooms can be risky",
+        "publisher": "Northern New England Poison Center",
+        "url": "https://www.nnepc.org/regional-news/foraging-for-mushrooms-can-be-risky",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Never eat a wild mushroom based on this guide, an app, a photo, or a book alone."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You find wild mushrooms and are tempted to eat them, or someone already did.",
+      "immediate": [
+        "Do not eat wild mushrooms without an in-person expert check",
+        "If someone ate one, call Poison Control at 1-800-222-1222 now, even if they feel fine",
+        "Save leftovers and take photos of the cap top, underside, and side"
+      ],
+      "then": [
+        "Get hospital care for any vomiting or diarrhea after a wild mushroom meal",
+        "Do not trust feeling better - liver damage can show up days later"
+      ]
+    }
+  },
+  {
+    "id": "food-007",
+    "category": "food",
+    "title": "The Universal Edibility Test - What It Is and Its Real Limits",
+    "priority": "advanced",
+    "tags": [
+      "food",
+      "plants",
+      "edibility-test",
+      "foraging",
+      "last-resort"
+    ],
+    "summary": "The universal edibility test is an old military survival procedure for trying an unknown plant in tiny, staged doses. Learn how it works, why it cannot detect the deadliest plants, and why it is only a last resort.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand what the test is",
+        "body": "The universal edibility test (UET) appears in older military survival manuals. It has you test one part of one unknown plant through a series of steps - smell, skin contact, lip, tongue, chewing, and swallowing tiny amounts - with long waits in between. The idea is that a plant that irritates skin or mouth, or causes stomach upset in a small dose, should be rejected. It takes 24 hours or more for a single plant part, and you must not eat anything else during that time. It was designed for soldiers stranded in unfamiliar places with no other option."
+      },
+      {
+        "step": 2,
+        "title": "Know its deadly blind spots",
+        "body": "The test cannot reliably catch the plants most likely to kill you. Water hemlock and poison hemlock may not burn your skin or lips, and a small taste can still cause seizures or stop your breathing. Some toxins, like those in death caps, cause no symptoms for 6 to 24 hours and then destroy the liver days later, long after the test would say 'safe.' Other plants build up harm over days or weeks (some ferns, plants that damage the liver or kidneys). The test also does not work for mushrooms at all. Passing every step does not prove a plant is safe."
+      },
+      {
+        "step": 3,
+        "title": "Weigh whether it is worth it",
+        "body": "Healthy adults can survive weeks without food but only days without water. The test costs a full day or more, makes you fast during that time, and may end with you sick, dehydrated, or worse - all to gain a plant that may have few calories. Before you start, ask: Do I have water? Do I have shelter? Is rescue likely? Is there a known, easy-to-identify food nearby, such as insects, fish, cattail, or acorns? In almost every real situation, staying put, conserving energy, and using known foods is safer than testing an unknown plant."
+      },
+      {
+        "step": 4,
+        "title": "Rule out plants before testing",
+        "body": "If you still decide to test, never test plants with these signs: white umbrella-shaped flower clusters or carrot-like leaves, bulbs without an onion smell, milky or colored sap, beans or seeds in pods, an almond or bitter smell, shiny three-part leaves, spines or fine hairs, or grain heads with dark spurs. Never test mushrooms. Pick a plant that is plentiful nearby, since there is no point testing something you cannot gather in quantity. Test only one part (leaf, root, flower, or fruit) at a time, because one part can be safe while another is deadly."
+      },
+      {
+        "step": 5,
+        "title": "Follow the stages slowly",
+        "body": "The usual sequence: do not eat for 8 hours beforehand. Crush the part and smell it; reject harsh, bitter, or almond smells. Hold it on the inside of your wrist or elbow for about 15 minutes and watch for burning, itching, or rash over the next several hours. Touch a piece to your lips for a few minutes. Place it on your tongue for 15 minutes without chewing. Chew it for 15 minutes without swallowing. If nothing happens at any stage, swallow a small bite and wait 8 hours with no other food. If you still feel fine, eat about 1/4 cup (a small handful) prepared the same way and wait another 8 hours. Any reaction at any stage means stop and reject the plant."
+      },
+      {
+        "step": 6,
+        "title": "Stop and respond to any reaction",
+        "body": "If your mouth burns, tingles, or goes numb, spit it out and rinse with clean water. If you feel nausea, cramps, dizziness, a racing or slow heartbeat, sweating, confusion, or trouble breathing, stop testing and get help: call 911 and Poison Control (1-800-222-1222) if you have any signal. Drink clean water if you can keep it down. Keep a piece of the plant so others can identify it. Do not test another plant until you have fully recovered."
+      },
+      {
+        "step": 7,
+        "title": "Use better tools instead",
+        "body": "The test is a poor substitute for knowledge. Spend time now learning a few safe, easy plants in your region with a field guide and a local expert, and learn their deadly lookalikes. Store calories at home and carry high-calorie food in your kit. Learn to catch fish and gather insects, which are easier to identify safely. If you must forage, stick to plants you can identify with certainty and leave the edibility test as a true last resort."
+      }
+    ],
+    "warnings": [
+      "Passing the test does not prove a plant is safe. Water hemlock, poison hemlock, and death camas can kill even in small amounts.",
+      "Never use the test on mushrooms. Deadly mushroom symptoms show up many hours to days later.",
+      "Never let children, pregnant women, or sick people do the test.",
+      "Testing takes 24 hours or more per plant part and can leave you weaker and dehydrated."
+    ],
+    "proTips": [
+      "Test a plant that grows in large amounts nearby, or the effort is wasted.",
+      "Write down every stage and time as you go so you, or rescuers, know exactly what you ate and when.",
+      "A small amount of a known safe food beats a large amount of a tested unknown."
+    ],
+    "relatedGuides": [
+      "food-001",
+      "food-005",
+      "food-006",
+      "food-014",
+      "food-008"
+    ],
+    "source": "U.S. Army survival manual (FM 21-76) / university extension",
+    "sources": [
+      {
+        "title": "What Is The Universal Edibility Test: How To Tell If A Plant Is Edible",
+        "publisher": "Gardening Know How",
+        "url": "https://www.gardeningknowhow.com/edible/herbs/hgen/what-is-the-universal-edibility-test.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Poison hemlock and Western waterhemlock: Deadly plants that may be growing in your pasture",
+        "publisher": "Oregon State University Extension",
+        "url": "https://extension.oregonstate.edu/catalog/em-9911-poison-hemlock-western-waterhemlock-deadly-plants-may-be-growing-your-pasture",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Wild mushroom poisonings update (NR26-023)",
+        "publisher": "California Department of Public Health",
+        "url": "https://www.cdph.ca.gov/Programs/OPA/Pages/NR26-023.aspx",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "advanced",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [
+      "food-005"
+    ],
+    "whenNotTo": [
+      "When you have any other food, or rescue is likely within days.",
+      "When you are short on water - the test makes dehydration worse.",
+      "On mushrooms, carrot-family plants, bulbs without onion smell, or plants with milky sap.",
+      "For children, pregnant women, or anyone ill."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You are stranded with no known food and are thinking about testing an unknown plant.",
+      "immediate": [
+        "First secure water and shelter - food can wait",
+        "Look for known foods (fish, insects, cattail, acorns) before testing anything",
+        "Never test mushrooms or carrot-family plants"
+      ],
+      "then": [
+        "If you must test, do one plant part at a time with 8-hour waits",
+        "Stop at the first reaction and call 911 / Poison Control if you can"
+      ]
+    }
+  },
+  {
+    "id": "food-008",
+    "category": "food",
+    "title": "Insects and Other Overlooked Protein",
+    "priority": "beginner",
+    "tags": [
+      "food",
+      "insects",
+      "protein",
+      "crayfish",
+      "foraging",
+      "cooking"
+    ],
+    "summary": "Grasshoppers, crickets, beetle grubs, ants, crayfish, and freshwater mussels can supply protein when other food runs out. Learn which are safer, which to avoid, and why you must always cook them.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know why insects are worth it",
+        "body": "Insects are eaten by billions of people around the world and are rich in protein, fat, and minerals. They are easy to identify compared with plants, need no traps or weapons, and are found almost everywhere in warm months. A handful of grasshoppers or beetle grubs will not fill you up, but steady gathering adds real protein to a thin diet. Military survival manuals recommend going after small, easy food like insects, crayfish, and fish first, while you set up longer-term food sources."
+      },
+      {
+        "step": 2,
+        "title": "Choose safer insects",
+        "body": "Good choices include grasshoppers and crickets, beetle larvae (grubs) found in rotting logs, adult beetles that are dull in color, termites, ant larvae and eggs, and cicadas. Look under logs and rocks, in rotting wood, and in grassy fields early in the morning, when grasshoppers are cold and slow. Collect into a container with a lid. Gather from clean areas: avoid lawns, crops, roadsides, and places that may be sprayed with pesticides."
+      },
+      {
+        "step": 3,
+        "title": "Avoid the risky ones",
+        "body": "Skip insects that are brightly colored (red, orange, yellow, or blue warning colors), hairy or fuzzy caterpillars, insects with a strong bad smell, and anything that stings or bites, such as bees, wasps, and fire ants, unless you know how to handle them safely. Avoid disease carriers: flies, mosquitoes, ticks, and cockroaches. Do not eat insects that are dead when you find them or that came from garbage or dung. Spiders, centipedes, and scorpions are not insects and are best left alone."
+      },
+      {
+        "step": 4,
+        "title": "Prepare and cook every time",
+        "body": "Raw or live insects can carry bacteria and parasites, so cook them thoroughly. Remove legs with spines, wings, and heads from grasshoppers and crickets, since spiny legs can scrape the throat. Roast them on a hot rock or pan, fry them, or boil them for several minutes, then roast to crisp them. Grubs can be boiled or roasted until firm. Cooked insects can be dried and ground into a powder to mix into soups or flatbreads. Grasshoppers can carry parasites, which is one more reason never to eat them raw."
+      },
+      {
+        "step": 5,
+        "title": "Watch for allergies",
+        "body": "People with shellfish allergies (shrimp, crab, lobster) may also react to insects, because they share some of the same proteins. If you have a shellfish allergy, avoid insects and crayfish. For anyone eating insects for the first time, start with a small amount and wait to see how you feel. Signs of a serious allergic reaction include hives, swelling of the lips or throat, wheezing, and dizziness. Use an epinephrine auto-injector if prescribed, following the device instructions, and call 911."
+      },
+      {
+        "step": 6,
+        "title": "Add crayfish, snails, and mussels carefully",
+        "body": "Crayfish live under rocks in streams and ponds and can be caught by hand or with a baited line. Freshwater mussels and snails are also edible but risky: they filter or graze in the water and can carry parasites, bacteria, and pollutants, and many freshwater mussels are protected. Collect them only from clean, flowing water away from sewage and farm runoff, check local rules, and boil them thoroughly. Never eat raw snails or slugs, which can carry rat lungworm. Do not eat any shellfish, freshwater or ocean, that was dead before cooking."
+      },
+      {
+        "step": 7,
+        "title": "Store what you catch",
+        "body": "Live insects spoil fast once killed. Cook them the same day. To save extras, roast or dry them until crisp and store them in a sealed, dry container, out of heat and damp. Throw out any that smell bad or grow mold."
+      }
+    ],
+    "warnings": [
+      "Always cook insects, crayfish, snails, and mussels. Raw ones can carry parasites and bacteria.",
+      "People with shellfish allergies may react to insects. Avoid them if you have that allergy.",
+      "Avoid brightly colored, hairy, smelly, or stinging insects, and disease carriers like flies, ticks, and mosquitoes.",
+      "Do not collect from areas that may be sprayed with pesticides or polluted."
+    ],
+    "proTips": [
+      "Gather grasshoppers at dawn, when they are cold and slow. Swat them gently with a shirt or leafy branch.",
+      "Rotting logs are grub pantries. Roll them back into place afterward so they keep producing.",
+      "Ground, roasted insects store well and blend into soup or bread without anyone noticing the texture."
+    ],
+    "relatedGuides": [
+      "food-003",
+      "food-010",
+      "food-013",
+      "food-007"
+    ],
+    "source": "Singapore Food Agency / U.S. Army survival manual",
+    "sources": [
+      {
+        "title": "Insects - Risk at a Glance",
+        "publisher": "Singapore Food Agency",
+        "url": "https://www.stg.sfa.gov.sg/food-safety-tips/food-risk-concerns/risk-at-a-glance/insects",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 21-76 US Army Survival Manual",
+        "publisher": "U.S. Army (via San Jose State University)",
+        "url": "https://www.sjsu.edu/people/michelle.hager/docs/fm_21-76_us_army_survival_manual_2006.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "If you have a shellfish allergy.",
+      "In areas that may have been sprayed with pesticides.",
+      "When you cannot cook what you collect."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You are low on food and need protein you can gather without traps or weapons.",
+      "immediate": [
+        "Collect grasshoppers, crickets, grubs, and dull-colored beetles from clean areas",
+        "Skip brightly colored, hairy, stinging, or disease-carrying insects",
+        "Remove spiny legs and wings, then cook thoroughly"
+      ],
+      "then": [
+        "Avoid insects and crayfish if you have a shellfish allergy",
+        "Roast extras until crisp and store them dry"
+      ]
+    }
+  },
+  {
+    "id": "food-009",
+    "category": "food",
+    "title": "Small Game - Legal Reminders, Field Dressing, and Safe Handling",
+    "priority": "advanced",
+    "tags": [
+      "food",
+      "small-game",
+      "rabbit",
+      "squirrel",
+      "field-dressing",
+      "tularemia",
+      "hunting"
+    ],
+    "summary": "Clean rabbits, squirrels, and other small game safely: follow hunting law, wear gloves, spot sick animals, avoid tularemia, keep meat cold, and cook it all the way through.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Follow hunting law",
+        "body": "Hunting small game normally requires a state license, an open season, legal methods, and respect for bag limits and private property. Hunter education is required for new hunters in most states. Outside a true life-or-death emergency, follow your state wildlife agency's rules. Firearms safety always applies: treat every gun as loaded, keep the muzzle pointed in a safe direction, keep your finger off the trigger until ready, and be sure of your target and what is beyond it. Store firearms unloaded and locked away from children."
+      },
+      {
+        "step": 2,
+        "title": "Do not take sick animals",
+        "body": "Never handle or eat an animal that looks sick, acts strangely (stumbling, unafraid, unable to run), or that you find already dead. Rabbits, hares, muskrats, squirrels, and other rodents can carry tularemia ('rabbit fever'), and animals can also carry rabies and other diseases. If an animal looks thin or weak, leave it. Pets that catch rabbits can bring the disease home too. Report animals that seem sick or found dead in numbers to your state wildlife agency."
+      },
+      {
+        "step": 3,
+        "title": "Put on gloves and protect cuts",
+        "body": "Wear nitrile, rubber, or latex gloves for field dressing, skinning, and butchering. This matters most if you have cuts, scrapes, or sores on your hands, because tularemia and other germs can enter through tiny breaks in the skin. Eye protection helps too, since fluids can splash. Do not eat, drink, smoke, or touch your face while cleaning game. Use a sharp knife and cut away from yourself - most field dressing injuries are knife cuts."
+      },
+      {
+        "step": 4,
+        "title": "Field dress promptly",
+        "body": "Clean small game soon after harvest so it cools fast. Skin the animal first if you like; for rabbits, remove the head, feet, and tail. Cut through the skin from the pelvis up to the breastbone, lifting the skin and belly wall with a finger under the blade so you do not puncture the gut. Reach in, free the windpipe and gullet, and pull out the organs. Avoid spilling stomach or intestine contents onto the meat. Wipe out the body cavity and let the carcass cool in shade with air moving around it."
+      },
+      {
+        "step": 5,
+        "title": "Inspect the organs and meat",
+        "body": "Look at the liver and spleen. In rabbits and rodents, many small white or yellowish spots on the liver or spleen can be a sign of tularemia or other disease. If you see them, or if the meat looks discolored, swollen, or has pus pockets, do not eat it. Bag and bury or burn the carcass according to local rules, clean your tools with a bleach solution, and wash well. Remove any bullet or shot fragments, plus hair and bloodshot meat around wounds. Lead fragments can be too small to see, so trim generously around the wound."
+      },
+      {
+        "step": 6,
+        "title": "Keep it cold and clean",
+        "body": "Keep game below about 45°F (7°C) until you butcher it, then refrigerate or freeze it. In warm weather without refrigeration, cook and eat it the same day. Keep butchering tools separate from kitchen tools. Wash hands, knives, and surfaces with soap and water before and after, then sanitize with boiling water or a fresh bleach solution. Bury or dispose of guts away from camp and water sources so they do not draw predators or flies."
+      },
+      {
+        "step": 7,
+        "title": "Cook game all the way through",
+        "body": "Cook rabbit, squirrel, and other game until no pink remains and juices run clear. Federal food safety guidance lists 160°F (71°C) inside for game such as rabbit and venison; some state health departments advise 165°F (74°C) for all game, so aim for 165°F when you can. Use a thermometer in the thickest part. Thorough cooking kills tularemia bacteria and many parasites. Remember that rabbit meat is very lean: eating only lean meat for many days can make you sick, so add fat, nuts, grains, or other foods."
+      },
+      {
+        "step": 8,
+        "title": "Watch for signs of illness",
+        "body": "Tularemia symptoms usually start 3 to 5 days after exposure, but can take up to 2 weeks. Watch for sudden fever, chills, headache, an ulcer or sore where germs entered the skin, and swollen glands. Get medical care right away and tell the provider you handled wild game. Tularemia is treatable with antibiotics, but it can be serious without treatment."
+      }
+    ],
+    "warnings": [
+      "Follow hunting laws, seasons, and firearm safety rules except in a true life-or-death emergency.",
+      "Always wear gloves when cleaning rabbits, squirrels, and rodents. Tularemia enters through small cuts.",
+      "Do not eat animals that act sick or were found dead, or whose liver has many white spots.",
+      "Cook game to at least 160°F (71°C), ideally 165°F (74°C), with no pink."
+    ],
+    "proTips": [
+      "Pack a few pairs of nitrile gloves and a small bottle of hand sanitizer in your game bag.",
+      "Rabbit and squirrel make good stew, which helps make sure the meat cooks through and keeps the fat-poor meat moist.",
+      "Use non-lead ammunition when possible to keep lead fragments out of your food."
+    ],
+    "relatedGuides": [
+      "food-002",
+      "food-004",
+      "homestead-005",
+      "medical-010"
+    ],
+    "source": "CDC / NY State Dept. of Health / FoodSafety.gov",
+    "sources": [
+      {
+        "title": "Preventing Tularemia",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/tularemia/prevention/index.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Harvesting, Preparing, and Eating Wild Game",
+        "publisher": "New York State Department of Health",
+        "url": "https://healthweb-back.health.ny.gov/environmental/outdoors/venison_game/advice_on_eating_game.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Field Dressing Small Game (Vermont hunter education study guide)",
+        "publisher": "Kalkomey / hunter-ed.com",
+        "url": "https://www.hunter-ed.com/vermont/studyGuide/Field-Dressing-Small-Game/20104901_145238/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Safe Minimum Internal Temperature Chart",
+        "publisher": "FoodSafety.gov (U.S. HHS / USDA)",
+        "url": "https://www.foodsafety.gov/print/pdf/node/10",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When the animal looks or acts sick, or was found dead.",
+      "When hunting is illegal and you are not in a true emergency.",
+      "When you cannot keep the meat cold or cook it the same day."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You have harvested a rabbit, squirrel, or other small animal and need to clean and cook it safely.",
+      "immediate": [
+        "Put on gloves before touching the animal",
+        "Field dress promptly without spilling gut contents on the meat",
+        "Check the liver and spleen - many white spots means do not eat"
+      ],
+      "then": [
+        "Keep meat cold and cook to 160-165°F (71-74°C) with no pink",
+        "See a doctor for fever or a skin sore within 2 weeks of handling game"
+      ]
+    }
+  },
+  {
+    "id": "food-010",
+    "category": "food",
+    "title": "Cleaning and Cooking Fish Safely",
+    "priority": "beginner",
+    "tags": [
+      "food",
+      "fish",
+      "parasites",
+      "cooking",
+      "fish-advisory",
+      "food-safety"
+    ],
+    "summary": "Clean, store, and cook wild-caught fish so they do not make you sick: check local advisories, keep fish cold, cook to 145°F (63°C), and know when freezing is needed to kill parasites.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Check the advisory for your water",
+        "body": "States, tribes, and territories issue fish advisories that tell you which lakes and rivers have fish with mercury, PCBs, PFAS, or other chemicals, and how often it is safe to eat each kind. These chemicals build up in fish over time and are not removed by cooking. Women who are or may become pregnant, nursing mothers, and young children are most at risk and often have stricter limits. Look up your state's advisory now and save it offline. In general, smaller and younger fish, and panfish like bluegill, tend to be lower in mercury than large, older predators."
+      },
+      {
+        "step": 2,
+        "title": "Keep fish alive or cold",
+        "body": "Fish spoil quickly once dead, especially in warm weather. Keep them alive on a stringer or in a basket in the water, or kill them quickly and put them on ice or in the coldest shade you can find. Clean them within a couple of hours. Do not keep fish that were dead when you found them, that smell sour or ammonia-like, or that have cloudy, sunken eyes and soft flesh that does not spring back."
+      },
+      {
+        "step": 3,
+        "title": "Clean fish away from your water source",
+        "body": "Work at least 200 feet (60 m) from where you get drinking water, and bury or properly dispose of guts and heads so they do not draw animals. Wash your hands, knife, and board first. Scale the fish (or plan to skin it), then cut from the vent up to the gills and remove the guts. Scrape out the dark kidney line along the backbone. Rinse in clean water. For fish with advisories for PCBs or similar chemicals, remove the skin, belly fat, and dark fatty strip along the side, where those chemicals collect."
+      },
+      {
+        "step": 4,
+        "title": "Look for parasites",
+        "body": "Wild fish often carry parasites such as worms and cysts. Many are harmless once cooked, but some, like fish tapeworm and certain roundworms, can infect people who eat raw or undercooked fish. If you see worms, you can cut them out, but cooking is what makes the fish safe. Throw out fish with large areas of soft, discolored, or lumpy flesh."
+      },
+      {
+        "step": 5,
+        "title": "Cook to 145°F (63°C)",
+        "body": "Cook fish until the thickest part reaches 145°F (63°C), or until the flesh is opaque all the way through and separates easily with a fork. Bake, fry, grill on a stick, or boil in a stew. Whole fish cooked over a fire char outside before the middle is done, so cook them slowly at the edge of the coals and check the center. Shellfish like clams and mussels are done when their shells open; throw out any that do not open."
+      },
+      {
+        "step": 6,
+        "title": "Know the rules for raw or lightly cooked fish",
+        "body": "Do not eat wild freshwater fish raw. Ocean fish meant for raw dishes like sushi must be frozen first to kill parasites: at -4°F (-20°C) or colder for 7 days, or at -31°F (-35°C) until solid and then held there for 15 hours. Most home freezers do not reliably get that cold. Smoking, marinating, salting, and pickling do not reliably kill parasites unless the fish was frozen or cooked first. In a grid-down situation with no deep freezer, cook all fish fully."
+      },
+      {
+        "step": 7,
+        "title": "Store leftovers safely",
+        "body": "Eat cooked fish right away or keep it cold (40°F / 4°C or below) and eat it within a day or two. Without refrigeration, do not keep cooked fish more than about 2 hours at warm temperatures. Reheat leftovers to 165°F (74°C). Dry or smoke extra fish only with good heat and airflow, and treat it like jerky - store it dry, airtight, and check before eating."
+      }
+    ],
+    "warnings": [
+      "Never eat raw or undercooked freshwater fish. Cook to 145°F (63°C) or until opaque and flaky.",
+      "Cooking does not remove mercury or PCBs. Follow your state's fish advisory, especially for children and pregnant women.",
+      "Throw out fish that were found dead or that smell sour, and shellfish that do not open when cooked.",
+      "Clean fish at least 200 feet from your drinking water source."
+    ],
+    "proTips": [
+      "Save your state's fish advisory as a screenshot or printout - it will not load without internet.",
+      "Panfish fillets cook through fast and evenly, which makes them easier to cook safely over a fire.",
+      "A thin stick through the body of a small fish makes a simple spit, but turn it often and check the center."
+    ],
+    "relatedGuides": [
+      "food-003",
+      "food-004",
+      "food-011",
+      "medical-011"
+    ],
+    "source": "U.S. EPA / FoodSafety.gov / Minnesota Dept. of Health",
+    "sources": [
+      {
+        "title": "Fish and Shellfish Advisories and Safe Eating Guidelines",
+        "publisher": "U.S. EPA",
+        "url": "https://epa.gov/fishadvice",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Safe Minimum Internal Temperature Chart",
+        "publisher": "FoodSafety.gov (U.S. HHS / USDA)",
+        "url": "https://www.foodsafety.gov/print/pdf/node/10",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Raw or Undercooked Fish: Parasite Destruction",
+        "publisher": "Minnesota Department of Health",
+        "url": "https://www.health.mn.gov/communities/environment/food/docs/fs/fishrawfs.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not eat fish from waters with a 'do not eat' advisory.",
+      "Do not serve wild fish raw unless it was frozen to parasite-killing temperatures."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You caught fish and need to clean and cook them without getting sick.",
+      "immediate": [
+        "Keep fish alive or cold and clean them within a couple of hours",
+        "Gut and clean at least 200 feet from drinking water",
+        "Cook to 145°F (63°C) or until opaque and flaky all the way through"
+      ],
+      "then": [
+        "Follow your state fish advisory for how often to eat each species",
+        "Never eat raw freshwater fish"
+      ]
+    }
+  },
+  {
+    "id": "food-011",
+    "category": "food",
+    "title": "Cooking Without Power - Stoves, Rocket Stoves, and Carbon Monoxide",
+    "priority": "critical",
+    "tags": [
+      "food",
+      "cooking",
+      "camp-stove",
+      "rocket-stove",
+      "carbon-monoxide",
+      "propane",
+      "fuel-storage"
+    ],
+    "summary": "Cook safely when the power is out using camp stoves, grills, and rocket stoves outdoors, and avoid carbon monoxide poisoning and fuel fires. Covers which devices are safe indoors (very few) and how to store fuel.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the carbon monoxide danger",
+        "body": "Carbon monoxide (CO) is a gas you cannot see or smell. It is made by anything that burns fuel: camp stoves, charcoal and gas grills, generators, rocket stoves, and fires. It kills more than 500 Americans every year, and deaths jump after storms and power outages when people cook or heat indoors. Early signs feel like the flu: headache, dizziness, weakness, nausea, and confusion. People who are asleep or drunk can die before they notice anything. If several people or pets in the same space feel sick at once, think CO."
+      },
+      {
+        "step": 2,
+        "title": "Cook outdoors with fuel-burning stoves",
+        "body": "Use propane, butane, white gas, and charcoal stoves and grills outside only - never inside your home, garage, carport, tent, or camper, even with a door or window open. Set them up away from doors, windows, and vents so fumes do not drift inside, and keep generators at least 20 feet from openings. Do not use a gas oven or stovetop to heat your home. A covered porch with walls or an attached garage counts as indoors."
+      },
+      {
+        "step": 3,
+        "title": "Install and test CO alarms",
+        "body": "Put battery-powered or battery-backup CO alarms on every level of your home and near sleeping areas. Test them monthly and keep spare batteries in your emergency kit. During an outage, plug-in alarms without battery backup will not work. If the alarm sounds or anyone has symptoms, get everyone outside to fresh air right away and call 911 from outside. Do not go back in until responders say it is safe."
+      },
+      {
+        "step": 4,
+        "title": "Use safe indoor options",
+        "body": "Indoors, the safest ways to heat food are ones with very small flames or none at all. Canned food can be eaten cold. Emergency guidance lists candle warmers, chafing dishes, and fondue pots as indoor options, used with care and never left unattended. Some butane stoves are labeled for indoor use; follow the label exactly, use them only briefly with ventilation, and still run a CO alarm. A fireplace or wood stove that is properly vented and in good repair can also be used. If you heat food in its can, open it and remove the paper label first."
+      },
+      {
+        "step": 5,
+        "title": "Build or use a rocket stove outdoors",
+        "body": "A rocket stove is an insulated L-shaped chimney that burns small sticks very efficiently, so it uses far less wood than an open fire and makes less smoke. You can buy one or build one from bricks or blocks. Set it on bare ground or stone, clear at least 10 feet (3 m) of anything that can burn, and keep it away from buildings, overhanging branches, and dry grass. Feed only dry sticks into the fuel opening, keep the pot stable on the top, and never leave it burning unattended. It still makes CO, so it is an outdoor tool only."
+      },
+      {
+        "step": 6,
+        "title": "Store fuel safely",
+        "body": "Store propane cylinders outdoors, upright, with valves closed, in a shaded, well-ventilated spot - never in the house or an attached garage. Replace or recertify cylinders that are damaged or over 10 years old. Keep liquid fuels like white gas and kerosene in their original or approved containers, away from living spaces and heat. Keep charcoal dry and never bring a lit or smoldering grill inside. If you smell rotten eggs or hear hissing, leave the area, avoid switches and flames, and call 911 from a safe spot."
+      },
+      {
+        "step": 7,
+        "title": "Prevent burns and fires",
+        "body": "Set stoves on a stable, flat surface with no wind gusts to knock them over. Keep children and pets back at least 3 feet. Let stoves cool before changing fuel canisters, and change them outside away from any flame. Keep a fire extinguisher, a bucket of water or sand, and a lid that fits your pot nearby to smother grease fires - never throw water on burning grease. Plan meals that need little cooking time to save fuel."
+      }
+    ],
+    "warnings": [
+      "Never use a camp stove, grill, generator, or rocket stove inside a home, garage, tent, or camper.",
+      "Never heat your home with a gas oven or stove.",
+      "Headache, dizziness, and nausea in several people at once may be CO poisoning - get outside and call 911.",
+      "Never store propane cylinders indoors or in an attached garage."
+    ],
+    "proTips": [
+      "Pressure cookers and insulated 'haybox' or cooler cooking cut fuel use - bring food to a boil, then insulate the pot to finish cooking.",
+      "Rotate stored fuel and test your stove twice a year so you know it works.",
+      "Pre-cooked staples such as canned beans and instant rice need only heating, which saves fuel."
+    ],
+    "relatedGuides": [
+      "power-004",
+      "power-003",
+      "fire-004",
+      "food-012",
+      "food-004"
+    ],
+    "source": "CDC / FEMA emergency food guidance / BC propane safety",
+    "sources": [
+      {
+        "title": "Avoiding Carbon Monoxide Poisoning",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/avoiding-carbon-monoxide-poisoning.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Preparedness - Food",
+        "publisher": "U.S. Marine Corps, MCAS Iwakuni",
+        "url": "https://www.mcasiwakuni.marines.mil/Emergency-Preparedness/Food/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Propane Safety",
+        "publisher": "Government of British Columbia",
+        "url": "https://www2.gov.bc.ca/assets/gov/public-safety-and-emergency-services/public-safety/fire-safety/fire-prevention-and-education/propane_safety-brochure.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Indoors, in tents, or in garages with any fuel-burning stove not labeled for indoor use.",
+      "In high wind or very dry, fire-danger conditions with an open flame or rocket stove."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "The power is out and you need to cook or heat food.",
+      "immediate": [
+        "Use camp stoves, grills, and rocket stoves outdoors only, away from doors and windows",
+        "Run battery-powered CO alarms inside",
+        "Indoors, eat canned food cold or use small warmers carefully"
+      ],
+      "then": [
+        "Store propane outside, upright, valves closed",
+        "If anyone gets a headache or dizziness, get outside and call 911"
+      ]
+    }
+  },
+  {
+    "id": "food-012",
+    "category": "food",
+    "title": "Long-Term Food Storage and Real Shelf Life",
+    "priority": "beginner",
+    "tags": [
+      "food",
+      "storage",
+      "shelf-life",
+      "pantry",
+      "canned-food",
+      "oxygen-absorbers",
+      "rotation"
+    ],
+    "summary": "Build a food supply that actually lasts: what shelf-life dates mean, how long canned and dry foods really keep, and how temperature, moisture, oxygen, light, and pests shorten storage life.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Start with what you already eat",
+        "body": "Emergency guidance recommends at least a two-week supply of food at home, built up by buying a little more of the foods you already eat. Choose foods that need little or no cooking or water, like canned meat, fish, beans, vegetables, fruit, and soups, peanut butter, crackers, cereal, and dried fruit. Add long-keeping staples such as white rice, dry beans, pasta, oats, flour, sugar, salt, and cooking oil if you can cook. Plan for babies, older adults, special diets, allergies, and pets. Keep a manual can opener with your supply."
+      },
+      {
+        "step": 2,
+        "title": "Understand the dates",
+        "body": "Most dates on food are about quality, not safety. A 'best if used by' date shows when flavor and nutrition are at their peak. Many stored foods remain safe and edible well past that date if the package is intact and stored well, though taste, color, texture, and vitamins slowly decline. Codes stamped on cans are often packing codes for the manufacturer. Infant formula is the exception - follow its date. Write the purchase date on everything with a marker."
+      },
+      {
+        "step": 3,
+        "title": "Know realistic shelf lives",
+        "body": "Commercially canned high-acid foods (tomatoes, citrus, pineapple, most fruit) keep best quality for about 12 to 18 months. Low-acid canned foods (meat, fish, poultry, most vegetables, soups) keep best quality for about 2 to 5 years. Foods to use within about 6 months include boxed powdered milk, dried fruit, and crackers. Foods to use within about a year include canned fruits and vegetables, ready-to-eat cereal, peanut butter, and jelly. Properly packaged white rice, wheat, dried corn, dry pasta, salt, sugar, and nitrogen-packed powdered milk can last for many years. Whole-grain flour, brown rice, and nuts go rancid much sooner because of their oils."
+      },
+      {
+        "step": 4,
+        "title": "Control temperature",
+        "body": "Heat is the biggest enemy of stored food. Storage life drops sharply as temperature rises; USDA estimates suggest every increase of about 10°F cuts shelf life roughly in half. Aim for a steady 40 to 60°F if possible, and keep canned goods away from freezing and from heat above 90°F. Good spots are an interior closet, under beds, or a basement. Avoid attics, garages, sheds, and spots near furnaces, water heaters, or sunny walls."
+      },
+      {
+        "step": 5,
+        "title": "Control moisture, oxygen, light, and pests",
+        "body": "Keep dry foods dry - about 10 percent moisture or less for long storage. Use food-grade containers with airtight seals: #10 cans, food-grade buckets with gasket lids, Mylar or foil pouches, glass jars, or PETE plastic bottles for small amounts. Oxygen absorbers in sealed containers slow rancidity and kill insects, but use them only with dry foods - moist foods sealed without oxygen can grow botulism. Store in the dark, since light damages vitamins and fats. To kill insect eggs in grains or beans, freeze them at 0°F for 3 to 4 days before packing."
+      },
+      {
+        "step": 6,
+        "title": "Rotate your stock",
+        "body": "Use 'first in, first out.' Put new food at the back and move older food to the front, then eat it in your normal meals before it gets old. Check your supply every 6 months: look at dates, replace what you used, and update the plan for changes in your household. Keep a simple list or spreadsheet of what you have and where it is."
+      },
+      {
+        "step": 7,
+        "title": "Inspect before you eat",
+        "body": "Throw out any can that is bulging, leaking, deeply dented (especially on the seams), badly rusted, or that spurts liquid or smells bad when opened. Discard jars with loose lids or mold. Throw out dry foods with insects, mold, damp clumps, or a rancid smell. Never taste food to test whether it is safe."
+      }
+    ],
+    "warnings": [
+      "Throw out bulging, leaking, spurting, or deeply dented cans without tasting. They may contain botulism toxin.",
+      "Use oxygen absorbers only with dry foods (about 10 percent moisture or less).",
+      "Garages and attics get too hot for long-term food storage.",
+      "Do not store food in non-food-grade buckets or containers that held chemicals."
+    ],
+    "proTips": [
+      "Store what you eat and eat what you store - rotation keeps your supply fresh without waste.",
+      "Store water with your food: dry staples like rice and beans need water and fuel to cook.",
+      "Spread your supply across a few places in the house so one leak or pest problem does not ruin it all."
+    ],
+    "relatedGuides": [
+      "food-013",
+      "food-011",
+      "food-004",
+      "homestead-003",
+      "medical-011"
+    ],
+    "source": "Utah State / University of Arizona Extension / FEMA",
+    "sources": [
+      {
+        "title": "7 Factors That Prolong Your Food Storage Supply",
+        "publisher": "Utah State University Extension",
+        "url": "https://extension.usu.edu/news_sections/home_family_and_food/foodstorage",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "AZ1666 - canned food storage and shelf life",
+        "publisher": "University of Arizona Cooperative Extension",
+        "url": "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1666-2015.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Preparedness - Food",
+        "publisher": "U.S. Marine Corps, MCAS Iwakuni",
+        "url": "https://www.mcasiwakuni.marines.mil/Emergency-Preparedness/Food/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
     "riskLevel": "low",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not seal moist or oily foods with oxygen absorbers.",
+      "Do not rely on stored food past its quality window for infants - follow formula dates."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You have more food than can be consumed today and need to preserve it — spoilage in a grid-down scenario wastes irreplaceable calories",
-      "immediate": ["Cut meat into 1/4-inch strips removing all fat — hang over smoky hardwood fire", "Smoke at low heat 150-200°F for 6-12 hours until meat is dark, hard, and dry throughout", "For solar drying: spread thin strips on rocks in direct sun, cover with cloth to keep insects off"],
-      "then": ["Store smoked or dried meat in dry, sealed container — properly dried meat lasts 1-2 weeks", "Salt curing requires 2.5% salt by weight of meat — pack completely with no exposed surface"]
+      "situation": "You want a home food supply that will still be good when you need it.",
+      "immediate": [
+        "Stock at least two weeks of foods you already eat that need little cooking",
+        "Store food cool (40-60°F), dry, and dark in airtight containers",
+        "Date everything and rotate first in, first out"
+      ],
+      "then": [
+        "Check the supply every 6 months",
+        "Throw out bulging, leaking, or badly dented cans"
+      ]
+    }
+  },
+  {
+    "id": "food-013",
+    "category": "food",
+    "title": "Rationing and Calorie Planning for a Household",
+    "priority": "beginner",
+    "tags": [
+      "food",
+      "rationing",
+      "calories",
+      "planning",
+      "household",
+      "nutrition"
+    ],
+    "summary": "Count how many days your food will really last, set fair daily rations for each person, and protect children, pregnant women, and anyone sick. Includes a simple calorie worksheet method.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Estimate each person's daily needs",
+        "body": "Use rough calorie needs from dietary guidelines. Adult men need about 2,200 to 2,600 calories a day when not very active, and 2,600 to 3,000 when active. Adult women need about 1,600 to 2,000, or 2,200 to 2,400 when active. Adults over 60 need a bit less. Children 2 to 6 need about 1,000 to 1,400. Older children and teens range widely, from about 1,200 to over 3,000 for active teen boys. Pregnant and nursing women need extra. Hard work, cold weather, and walking long distances raise needs a lot. Write each person's estimate down."
+      },
+      {
+        "step": 2,
+        "title": "Count the calories you have",
+        "body": "Go through your food and add up the total calories, using the nutrition label: calories per serving times servings per container. Write totals by category (grains, beans, canned meat, fats and oils, fruit, vegetables, snacks). Add perishable food separately, because it must be eaten first. Divide your total calories by your household's total daily need to get the number of full-ration days. This number is often lower than people expect, so do it before an emergency."
+      },
+      {
+        "step": 3,
+        "title": "Eat perishables first, then ration",
+        "body": "Use food in this order: fresh food from the refrigerator, then freezer food while it is still cold, then shelf-stable food. Do not ration in the first days if perishable food would spoil anyway. Once you are on shelf-stable food and do not know when resupply will come, decide on a ration level. Healthy adults who reduce their activity can live on about half their usual intake for an extended time, according to emergency guidance. Food, unlike water, can be rationed safely for most adults."
+      },
+      {
+        "step": 4,
+        "title": "Protect those who cannot be rationed",
+        "body": "Do not cut rations for children, pregnant or nursing women, or people who are sick, injured, or elderly and frail. Children need steady calories to grow and stay healthy, and pregnant women need extra. People with diabetes or other conditions may need regular meals with steady carbohydrates; follow their care plan and keep their medicines with the food supply. If food is short, adults take the cut first. Infants need formula or breast milk - never water them down or replace them with homemade substitutes."
+      },
+      {
+        "step": 5,
+        "title": "Balance what you eat",
+        "body": "Calories alone are not enough. Aim for at least one balanced meal a day. Fats and oils are the most calorie-dense foods and help stretch supplies. Do not live on lean meat alone: when protein makes up too much of your calories (over about a third) without enough fat or carbohydrates, people get sick, a problem known as 'rabbit starvation.' Add vitamins from canned fruits and vegetables, sprouted beans, or a daily multivitamin. If water is short, eat fewer salty, high-protein, and high-fat foods, which raise thirst, and never ration water to save food."
+      },
+      {
+        "step": 6,
+        "title": "Save energy to save food",
+        "body": "Every hour of hard work burns extra food. Rest during the hottest part of the day, keep warm with clothing and shelter instead of burning calories shivering, and plan heavy tasks for cooler times. Cook in one pot to save fuel. Avoid unnecessary travel. Keep everyone's spirits up with regular mealtimes - predictable meals reduce arguments and stress."
+      },
+      {
+        "step": 7,
+        "title": "Track and adjust",
+        "body": "Keep a simple daily log: what you ate, how much is left, and how many days remain at current rations. Weigh people weekly if you can, or watch for warning signs of underfeeding: weight loss, weakness, dizziness, feeling cold, slow healing, and irritability. Increase rations for anyone losing weight fast, especially children. Make rationing rules fair and clear, and have the whole household agree on them. Restock as soon as resupply is possible."
+      }
+    ],
+    "warnings": [
+      "Never ration food for babies, children, or pregnant or nursing women.",
+      "Never ration water to save food. Drink what you need.",
+      "A lean-meat-only diet for days can make you sick. Eat fat and carbohydrates too.",
+      "People with diabetes or other conditions should follow their care plan for meals and medicine."
+    ],
+    "proTips": [
+      "Store a few calorie-dense foods like peanut butter, nuts, cooking oil, and powdered milk to stretch rations.",
+      "Run a one-weekend practice using only stored food to see how far it really goes.",
+      "Keep a printed copy of each person's calorie estimate with your food inventory."
+    ],
+    "relatedGuides": [
+      "food-012",
+      "food-011",
+      "food-008",
+      "psych-003"
+    ],
+    "source": "FEMA emergency food guidance / Merck Manual / dietary guidelines",
+    "sources": [
+      {
+        "title": "Emergency Preparedness - Food",
+        "publisher": "U.S. Marine Corps, MCAS Iwakuni",
+        "url": "https://www.mcasiwakuni.marines.mil/Emergency-Preparedness/Food/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Estimated Number of Calories Needed Based on Age, Sex, and Activity Level",
+        "publisher": "Merck Manual Consumer Version",
+        "url": "https://www.merckmanuals.com/home/multimedia/table/estimated-number-of-calories-needed-based-on-age-sex-and-activity-level",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Is Meat Poison? Is Fat the Antidote?",
+        "publisher": "Science-Based Medicine",
+        "url": "https://sciencebasedmedicine.org/is-meat-poison-is-fat-the-antidote/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not cut rations while perishable food is still available and would spoil.",
+      "Do not ration children, pregnant or nursing women, or the sick."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Resupply is uncertain and you need your household's food to last.",
+      "immediate": [
+        "Eat fridge food first, then freezer, then shelf-stable",
+        "Count total calories on hand and divide by daily household needs",
+        "Keep full rations for children, pregnant women, and the sick"
+      ],
+      "then": [
+        "Healthy adults can cut to about half rations while resting more",
+        "Track what is left daily and watch for weight loss"
+      ]
+    }
+  },
+  {
+    "id": "food-014",
+    "category": "food",
+    "title": "Easy Wild Edibles Almost Anyone Can Identify",
+    "priority": "beginner",
+    "tags": [
+      "food",
+      "foraging",
+      "dandelion",
+      "cattail",
+      "acorns",
+      "wild-edibles",
+      "lookalikes"
+    ],
+    "summary": "A short list of common North American wild foods with few dangerous lookalikes - dandelion, cattail, acorns, blackberries and raspberries, and wild onion - with the checks and warnings you still need before you eat them.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Follow the ground rules",
+        "body": "Even easy plants must match every feature before you eat them. Use a regional field guide, and if you can, have a local expert confirm your first finds. Collect only from clean places: away from roads, railways, sprayed lawns, crop fields, and polluted water. Eat a small amount the first time in case of allergy. Wash everything, and cook when the guide says to. Learn the deadly lookalikes listed in this guide before you start. These plants add vitamins and some calories, but they will not replace stored food."
+      },
+      {
+        "step": 2,
+        "title": "Dandelion",
+        "body": "True dandelion has a ground-level rosette of sharply toothed leaves that are smooth, not hairy. Each flower sits alone on a hollow, unbranched stalk with no leaves on it, and the stalk and leaves leak white sap when broken. Young leaves are less bitter; flowers can be eaten raw or cooked; roots can be roasted. Lookalikes include cat's ear (hairy leaves, branched solid stalks) and false dandelions (branched stalks, several flowers); these are not known to be dangerous, but check the features so you know what you have. Avoid dandelions from treated lawns."
+      },
+      {
+        "step": 3,
+        "title": "Cattail",
+        "body": "Cattails grow in marshes and shallow water, with tall, flat, grass-like leaves and the familiar brown, sausage-shaped seed head on a stiff stalk. Young shoots can be peeled and eaten, the green flower spikes cooked in late spring, the yellow pollen collected in summer, and the starchy rhizomes (roots) dug in fall and winter. The dangerous lookalike is wild iris (blue flag and yellow flag), which is toxic. Iris leaves are flat in cross-section with sharp tips and often a purple tint at the base; cattail leaves are thicker, D-shaped in cross-section, with blunter tips. If there is no brown cattail head from last year nearby, be extra careful. Harvest only from clean water, because cattails absorb pollutants."
+      },
+      {
+        "step": 4,
+        "title": "Acorns - only after leaching",
+        "body": "All North American oaks make acorns, but raw acorns are full of bitter tannins that upset the stomach. Collect brown, mature acorns with no holes, cracks, or mold. Shell them and remove any bad nutmeat. For hot leaching, boil the nutmeat and pour off the water each time it turns brown, repeating with fresh boiling water until the acorns taste mild and no longer bitter or mouth-drying - usually an hour or more. For cold leaching, grind them coarsely and soak in cold water, changing it once or twice a day for several days. White oak acorns need less leaching than red oak acorns. Dry the meal well and store it cool, since it can turn rancid. Do not confuse acorns with buckeyes or horse chestnuts, which are toxic and have no cap."
+      },
+      {
+        "step": 5,
+        "title": "Blackberries and raspberries",
+        "body": "Wild blackberries and raspberries grow on thorny canes and have berries made of many small round beads clustered together. Raspberries pull away from the core and are hollow; blackberries keep the core inside. Leaves usually have three to five toothed leaflets. There are no common deadly lookalikes in North America with that beaded berry shape, which makes them one of the safest wild foods. Still, never eat any other kind of wild berry unless you are certain of it, since many berries are poisonous."
+      },
+      {
+        "step": 6,
+        "title": "Wild onion and garlic - with care",
+        "body": "Wild onions, garlic, and ramps have a strong onion or garlic smell from every part: leaves, bulb, and flowers. Death camas looks very similar and has no onion smell, and it can kill. Crush a fresh leaf and the bulb from the same plant and smell each, after washing your hands so earlier smells do not fool you. If any part lacks the smell, or if your hands already smell of onion and you cannot tell, do not eat it. Lily-of-the-valley and daffodil leaves can also look like ramps or wild onion; they have no onion smell."
+      },
+      {
+        "step": 7,
+        "title": "Know when to stop",
+        "body": "Stop and seek help if you feel sick after eating any wild plant: call Poison Control at 1-800-222-1222, or 911 for severe symptoms such as trouble breathing, seizures, or confusion. Keep a sample of what you ate. Do not move on to harder plants, such as the carrot family, mushrooms, or unknown berries, without in-person training."
+      }
+    ],
+    "warnings": [
+      "Wild iris looks like cattail when young and is toxic. Check leaf cross-section and look for old cattail heads.",
+      "Death camas looks like wild onion and has no onion smell. No smell, no eating.",
+      "Raw, unleached acorns cause stomach upset. Buckeyes and horse chestnuts are poisonous lookalikes.",
+      "Collect only from clean areas away from roads, sprayed lawns, and polluted water."
+    ],
+    "proTips": [
+      "Start a foraging notebook with photos of each plant from the same spot across the seasons.",
+      "Acorn meal is calorie-rich once leached and dried. Store it in the freezer or a cool place to prevent rancidity.",
+      "Dandelion greens get more bitter as the plant flowers; pick young leaves or cook older ones in two changes of water."
+    ],
+    "relatedGuides": [
+      "food-001",
+      "food-005",
+      "food-007",
+      "food-006"
+    ],
+    "source": "Montana State Extension / Old Farmer's Almanac / regional identification guides",
+    "sources": [
+      {
+        "title": "Dandelions, True or False?",
+        "publisher": "Name That Plant",
+        "url": "https://namethatplant.net/article_dandelion.shtml",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Edible Cat-tail vs Toxic Iris - Know the Difference",
+        "publisher": "PEI Untamed",
+        "url": "https://www.pei-untamed.com/post/edible-cat-tail-vs-toxic-iris-know-the-difference",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Prepare and Cook Acorns",
+        "publisher": "The Old Farmer's Almanac",
+        "url": "https://www.almanac.com/content/how-prepare-and-cook-acorns",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Death Camas",
+        "publisher": "Montana State University Extension",
+        "url": "https://apps.msuextension.org/magazine/assets/docs/DeathCamas.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "food-001"
+    ],
+    "whenNotTo": [
+      "When the plant matches some features but not all.",
+      "When plants grow near roads, sprayed areas, or polluted water.",
+      "When you have a known allergy to related plants (for example ragweed and dandelion)."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You want to add safe wild food to your diet and need plants that are hard to confuse.",
+      "immediate": [
+        "Start with dandelion, cattail, leached acorns, and blackberries or raspberries",
+        "Check every feature and the named lookalikes (iris, death camas, buckeye)",
+        "Collect only from clean areas"
+      ],
+      "then": [
+        "Eat a small amount the first time",
+        "Call Poison Control at 1-800-222-1222 if anyone feels sick"
+      ]
     }
   }
 ]

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "quiz-health-001",
+    "category": "health",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "The power has been out for 3 days in July. Your father's opened insulin pen has been in the kitchen, where it is about 82 F. You have a cooler and a bag of ice. What is the best plan?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Throw the pen away - insulin is ruined as soon as it leaves the fridge."
+      },
+      {
+        "id": "b",
+        "text": "Bury the pen directly in the ice so it stays as cold as possible."
+      },
+      {
+        "id": "c",
+        "text": "Keep using it, note the date it left the fridge, and keep it cool in the cooler wrapped so it never touches ice."
+      },
+      {
+        "id": "d",
+        "text": "Freeze it overnight to reset it, then thaw before the next dose."
+      }
+    ],
+    "correct": "c",
+    "explanation": "FDA says opened or unopened insulin can stay between 59 and 86 F for up to 28 days and still work, so the pen is still usable. Track the date and keep it cool. Ice must not touch it, because frozen insulin must not be used - which rules out b and d. Throwing it away (a) wastes a life-sustaining medicine.",
+    "relatedGuide": "health-003",
+    "tags": [
+      "health",
+      "insulin",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-health-002",
+    "category": "health",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Two weeks after a flood, a neighbor has had large amounts of watery, milky-looking diarrhea all morning and leg cramps. Several people nearby are sick. What should you do first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Give anti-diarrhea medicine and have them skip meals until it stops."
+      },
+      {
+        "id": "b",
+        "text": "Start oral rehydration solution right away and get them to medical care as fast as possible."
+      },
+      {
+        "id": "c",
+        "text": "Wait 24 hours to see if it settles on its own, since most diarrhea is mild."
+      },
+      {
+        "id": "d",
+        "text": "Give plain water only, as much as they can drink at once."
+      }
+    ],
+    "correct": "b",
+    "explanation": "Rice-water diarrhea with cramps during an outbreak may be cholera, which CDC warns can kill quickly through dehydration. Immediate ORS plus medical care saves lives. Waiting (c) is dangerous. Anti-diarrhea medicine and fasting (a) do not replace lost fluid. Plain water (d) lacks the salts the body is losing; ORS in small frequent sips works better.",
+    "relatedGuide": "health-005",
+    "tags": [
+      "health",
+      "cholera",
+      "dehydration",
+      "advanced"
+    ]
+  },
+  {
+    "id": "quiz-health-003",
+    "category": "health",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You are on day two of walking out after a storm. You feel a hot, stinging spot on your heel, but you are only a mile from your planned rest stop. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep going to the rest stop, then check it."
+      },
+      {
+        "id": "b",
+        "text": "Stop now, dry the skin, and cover the spot with tape or moleskin."
+      },
+      {
+        "id": "c",
+        "text": "Pop it with your knife so it does not get bigger."
+      },
+      {
+        "id": "d",
+        "text": "Put on a cotton sock over your current sock for padding."
+      }
+    ],
+    "correct": "b",
+    "explanation": "A hot spot is a blister that has not formed yet. Stopping right away and taping it usually prevents the blister. Waiting (a) lets it form. There is nothing to drain yet, and an unsterile blade invites infection (c). Cotton holds sweat and increases friction (d).",
+    "relatedGuide": "health-009",
+    "tags": [
+      "health",
+      "blisters",
+      "feet",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-health-004",
+    "category": "health",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "After a tornado, you find a woman sitting in the rubble of her house, shaking and staring. Put the psychological first aid actions in the right order.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Check that the area is safe and whether she has injuries or urgent needs"
+      },
+      {
+        "id": "b",
+        "text": "Introduce yourself calmly and ask if you can help"
+      },
+      {
+        "id": "c",
+        "text": "Listen to what she needs most without pushing her to describe what happened"
+      },
+      {
+        "id": "d",
+        "text": "Help with practical needs and connect her with family and services"
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "The WHO approach is Look, Listen, Link. First LOOK: make sure the scene is safe and treat urgent physical needs. Then approach and introduce yourself, LISTEN to her concerns at her pace without forcing her to retell the event, and finally LINK her to water, shelter, loved ones, and services.",
+    "relatedGuide": "health-013",
+    "tags": [
+      "health",
+      "psychological first aid",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-health-005",
+    "category": "health",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your teenage son has had the flu for four days. He has had no fever since yesterday morning without taking any fever reducer, and his cough is getting better. According to current CDC guidance, what is right?",
+    "options": [
+      {
+        "id": "a",
+        "text": "He must stay isolated for a full 10 days no matter what."
+      },
+      {
+        "id": "b",
+        "text": "He can return to normal activities, but should take extra care around others - masks, distance, handwashing - for the next 5 days."
+      },
+      {
+        "id": "c",
+        "text": "He can go back as soon as he feels like it, even with a fever."
+      },
+      {
+        "id": "d",
+        "text": "He must test negative twice before leaving the house."
+      }
+    ],
+    "correct": "b",
+    "explanation": "CDC's respiratory virus guidance says people can resume normal activities once symptoms have been improving and they have been fever-free without medicine for at least 24 hours, then take added precautions for 5 days. The older fixed isolation periods (a) and testing requirements (d) were replaced. Going out with a fever (c) spreads illness.",
+    "relatedGuide": "health-006",
+    "tags": [
+      "health",
+      "respiratory",
+      "fever",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-health-006",
+    "category": "health",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Your household has eaten mostly white rice, crackers, and canned meat for three months. Your mother's gums now bleed when she brushes, she bruises easily on her legs, and she is very tired. What is the most likely cause, and the best food fix?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Too much salt - stop eating the canned meat."
+      },
+      {
+        "id": "b",
+        "text": "Vitamin C deficiency (scurvy) - add fresh produce, sprouts, or vitamin C tablets daily, and see a clinician when possible."
+      },
+      {
+        "id": "c",
+        "text": "Iron overload - stop all meat."
+      },
+      {
+        "id": "d",
+        "text": "Normal aging - no change is needed."
+      }
+    ],
+    "correct": "b",
+    "explanation": "Bleeding gums, easy bruising, and fatigue after months without fresh fruits and vegetables are classic signs of scurvy, which usually takes one to three months of very low vitamin C to appear. Peppers, citrus, potatoes, cabbage, sprouts, or vitamin C tablets prevent and correct it. Because these signs can have other causes, a clinician should check her when possible. The other answers ignore the diet clue; cutting meat would make her diet even poorer.",
+    "relatedGuide": "health-015",
+    "tags": [
+      "health",
+      "nutrition",
+      "scurvy",
+      "advanced"
+    ]
+  }
+]

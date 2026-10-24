@@ -1,0 +1,220 @@
+[
+  {
+    "id": "quiz-power-001",
+    "category": "power",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "An ice storm knocks out power. It is raining hard and your portable generator is in the attached garage. Your neighbor says to just run it in the garage with the big door fully open. Where should you run it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In the garage with the door fully open and a fan blowing out"
+      },
+      {
+        "id": "b",
+        "text": "On the covered back porch, right outside the kitchen door"
+      },
+      {
+        "id": "c",
+        "text": "Outdoors, at least 20 feet from the house, exhaust pointed away from doors, windows, and vents, under a canopy that leaves it open on all sides"
+      },
+      {
+        "id": "d",
+        "text": "In the basement next to a window, so the cords reach the panel"
+      }
+    ],
+    "correct": "c",
+    "explanation": "CPSC, CDC, and FEMA all say to run portable generators outdoors only, at least 20 feet from the house, with exhaust aimed away from openings. Open garage doors and fans do not stop carbon monoxide from building up, and CPSC specifically warns against porches and carports. If rain is the problem, use a canopy made for generators that stays open on all sides - never move the generator closer to or into the house.",
+    "relatedGuide": "power-003",
+    "tags": [
+      "power",
+      "generator",
+      "carbon-monoxide",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-power-002",
+    "category": "power",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your brother-in-law offers you a cord with a male plug on both ends so you can plug your generator into a dryer outlet and power the whole house. What is the safe way to power house circuits from a generator?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use the double-male cord, but turn off the main breaker first"
+      },
+      {
+        "id": "b",
+        "text": "Have a licensed electrician install a transfer switch or approved interlock, or plug appliances directly into the generator with heavy-duty outdoor cords"
+      },
+      {
+        "id": "c",
+        "text": "Use the cord only at night, when line crews are not working"
+      },
+      {
+        "id": "d",
+        "text": "Plug it into a regular wall outlet instead, since it carries less power than the dryer outlet"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Plugging a generator into any outlet backfeeds the house wiring. Power can flow out onto utility lines and electrocute line workers or neighbors, and it can start fires. Forgetting or failing to switch off the main is a common deadly mistake, and crews work around the clock after storms. OSHA, NFPA, and CPSC all say to connect to house wiring only through a properly installed transfer switch - otherwise plug appliances directly into the generator.",
+    "relatedGuide": "power-003",
+    "tags": [
+      "power",
+      "generator",
+      "backfeed",
+      "transfer-switch",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-power-003",
+    "category": "power",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You are buying a power station to run a refrigerator during outages. The fridge runs at about 150 watts, briefly surges to about 900 watts when it starts, and uses about 1,400 watt-hours per day. Which unit fits best for one day without recharging?",
+    "options": [
+      {
+        "id": "a",
+        "text": "500 Wh capacity, 600 W continuous, 1,200 W surge"
+      },
+      {
+        "id": "b",
+        "text": "2,000 Wh capacity, 1,800 W continuous, 3,600 W surge"
+      },
+      {
+        "id": "c",
+        "text": "1,500 Wh capacity, 300 W continuous, 600 W surge"
+      },
+      {
+        "id": "d",
+        "text": "3,000 Wh capacity, 150 W continuous, 150 W surge"
+      }
+    ],
+    "correct": "b",
+    "explanation": "You need two things: enough watt-hours to cover a day (1,400 Wh plus about 20 percent for losses, roughly 1,700 Wh) and enough output to start the compressor (900 W surge). Option a has the output but far too little energy. Options c and d have the energy but cannot handle the starting surge, so the unit would trip. Only b covers both numbers.",
+    "relatedGuide": "power-009",
+    "tags": [
+      "power",
+      "sizing",
+      "power-station",
+      "surge",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-power-004",
+    "category": "power",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "During a blizzard outage you plan to sit in your running car to charge phones and warm up. The car is parked in the driveway with snow drifted around the back bumper. What should you do first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pull the car into the garage so it is out of the wind, and keep the garage door open"
+      },
+      {
+        "id": "b",
+        "text": "Start the engine and let the exhaust heat melt the snow around the tailpipe"
+      },
+      {
+        "id": "c",
+        "text": "Clear the snow from around the tailpipe and under the car before starting it, crack a window, and never fall asleep with it running"
+      },
+      {
+        "id": "d",
+        "text": "Close all the windows tightly to keep the heat in, then start the car"
+      }
+    ],
+    "correct": "c",
+    "explanation": "A blocked tailpipe can push carbon monoxide into the cabin, and exhaust heat often will not melt a drift. Clear the tailpipe and undercarriage first and crack a window, as Massachusetts and other health agencies advise. Never idle a car in a garage, even with the door open - fumes build up fast. Sleeping in a running car is dangerous because you cannot notice CO symptoms.",
+    "relatedGuide": "power-008",
+    "tags": [
+      "power",
+      "vehicle",
+      "carbon-monoxide",
+      "winter",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-power-005",
+    "category": "power",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You are setting up a kerosene heater for a winter outage. You have an empty red gas can, a blue kerosene can, and the heater in the living room. Which plan is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fill the red gas can with kerosene since it is bigger, and refill the heater in the living room while it is still warm"
+      },
+      {
+        "id": "b",
+        "text": "Buy 1-K kerosene in the blue can, let the heater cool, refuel it outdoors without filling past the full mark, and run it with a door open to the rest of the house or a window cracked about an inch"
+      },
+      {
+        "id": "c",
+        "text": "Top off the kerosene with a little gasoline so it lights easier in the cold"
+      },
+      {
+        "id": "d",
+        "text": "Run the heater in the bedroom overnight with the door shut to keep the heat in"
+      }
+    ],
+    "correct": "b",
+    "explanation": "CPSC says to use only water-clear 1-K kerosene, keep it in a kerosene container that has never held gasoline, refuel outdoors only after the heater is off and cool, and not fill past the full mark. Even a little gasoline in a kerosene heater can cause a fire or explosion. Heaters give off carbon monoxide and other gases, so provide ventilation and never sleep in a room with an unvented heater. Also check that your local code allows unvented kerosene heaters at all.",
+    "relatedGuide": "power-011",
+    "tags": [
+      "power",
+      "kerosene",
+      "heating",
+      "fuel-storage",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-power-006",
+    "category": "power",
+    "type": "priority_order",
+    "difficulty": "advanced",
+    "scenario": "Day three of an outage. Your battery bank is at 30 percent and it is cloudy. Put these loads in the order you should keep them powered, from most important to the first to cut.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Grandfather's CPAP machine overnight"
+      },
+      {
+        "id": "b",
+        "text": "One emergency phone and the NOAA weather radio"
+      },
+      {
+        "id": "c",
+        "text": "Refrigerator run in short blocks"
+      },
+      {
+        "id": "d",
+        "text": "LED lights in the main room"
+      },
+      {
+        "id": "e",
+        "text": "Television and game console"
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "d",
+      "c",
+      "e"
+    ],
+    "explanation": "Medical devices come first because losing them can cause injury or death. Communications are next so you can call 911 and get warnings. A few LED lights use very little power and prevent falls and fires from candles. The refrigerator uses far more energy, so it runs in blocks only when there is capacity; food can also be moved to coolers. Entertainment is the first thing to cut. Write this order down and tape it next to your inverter or power station.",
+    "relatedGuide": "power-005",
+    "tags": [
+      "power",
+      "load-shedding",
+      "batteries",
+      "advanced"
+    ]
+  }
+]

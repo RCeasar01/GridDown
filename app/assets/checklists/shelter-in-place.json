@@ -1,0 +1,120 @@
+{
+  "id": "checklist-shelter-in-place",
+  "title": "Shelter-in-Place Room",
+  "disasterType": "shelter-in-place",
+  "description": "Use this list to set up and stock a room for staying inside during a chemical, radiation, or storm emergency, and to pick the right room for each threat.",
+  "category": "home",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "What to Do to Shelter in Place for a Chemical Emergency",
+      "publisher": "CDC",
+      "url": "https://cdc.gov/chemical-emergencies/response/shelter-in-place.html",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "What to Do: Get Inside",
+      "publisher": "CDC",
+      "url": "https://cdc.gov/radiation-emergencies/response/get-inside.html",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "sip-001",
+      "text": "Know the right room for each threat: chemical - interior room above ground with few windows; tornado - lowest floor interior; radiation - basement or center of building",
+      "critical": true
+    },
+    {
+      "id": "sip-002",
+      "text": "Pick an interior room big enough for everyone and pets, ideally with a bathroom and few windows and vents",
+      "critical": true
+    },
+    {
+      "id": "sip-003",
+      "text": "Learn how to shut off the furnace, air conditioning, and all fans (bath, kitchen, dryer) quickly",
+      "critical": true
+    },
+    {
+      "id": "sip-004",
+      "text": "Pre-cut plastic sheeting (4 mil or thicker), about 6 inches (15 cm) larger than each window and vent, labeled for where it goes",
+      "critical": true
+    },
+    {
+      "id": "sip-005",
+      "text": "At least two rolls of duct tape and scissors stored in the room",
+      "critical": true
+    },
+    {
+      "id": "sip-006",
+      "text": "Battery or hand-crank radio to hear when it is safe",
+      "critical": true
+    },
+    {
+      "id": "sip-007",
+      "text": "Charged phone and power bank",
+      "critical": true
+    },
+    {
+      "id": "sip-008",
+      "text": "Drinking water and ready-to-eat food",
+      "critical": true
+    },
+    {
+      "id": "sip-009",
+      "text": "Essential medicines and a first aid kit",
+      "critical": true
+    },
+    {
+      "id": "sip-010",
+      "text": "Flashlights with extra batteries - no candles or flames in a sealed room",
+      "critical": true
+    },
+    {
+      "id": "sip-011",
+      "text": "Towels to wet and lay along the bottom of the door",
+      "critical": false
+    },
+    {
+      "id": "sip-012",
+      "text": "Bucket toilet with bags and a lid",
+      "critical": false
+    },
+    {
+      "id": "sip-013",
+      "text": "Blankets, books, and games",
+      "critical": false
+    },
+    {
+      "id": "sip-014",
+      "text": "Step stool for sealing high vents",
+      "critical": false
+    },
+    {
+      "id": "sip-015",
+      "text": "Plan who helps family members or neighbors who need help getting to the room",
+      "critical": false
+    },
+    {
+      "id": "sip-016",
+      "text": "Know that a sealed room is for hours, not days - stay until officials give the all-clear, then air out the house",
+      "critical": true
+    },
+    {
+      "id": "sip-017",
+      "text": "Agree as a family not to leave to pick up children - schools shelter students on their own plans",
+      "critical": false
+    },
+    {
+      "id": "sip-018",
+      "text": "Check the room kit once a year and replace water, food, batteries, and medicines",
+      "critical": false
+    }
+  ]
+}

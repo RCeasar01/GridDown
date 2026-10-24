@@ -1,0 +1,1931 @@
+[
+  {
+    "id": "env-001",
+    "category": "environment",
+    "title": "Desert Survival - Heat, Water, Night Travel, and Signaling",
+    "priority": "critical",
+    "tags": [
+      "desert",
+      "heat",
+      "water",
+      "night travel",
+      "signaling",
+      "vehicle",
+      "stranded"
+    ],
+    "summary": "How to stay alive when stranded or lost in hot desert country: save sweat instead of rationing water, stay with your vehicle, move only in cool hours, and make yourself easy to find.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stop, get in shade, and take stock",
+        "body": "The desert kills by heat and water loss, usually within one or two days in summer. The moment you realize you are stranded or lost, stop moving in the sun. Get into shade - under a vehicle awning, a tarp, a rock overhang, or a shade shelter (see shelter-009). Then count your resources: total water in gallons or liters, food, clothing, phone battery, signaling gear, and how many people you have. Tell everyone the plan out loud. Panic makes people walk off into the heat, which is one of the most common ways desert emergencies turn deadly. Desert summer air often tops 100 F (38 C) and can exceed 120 F (49 C) in places like Death Valley, and the ground can be far hotter."
+      },
+      {
+        "step": 2,
+        "title": "Stay with the vehicle",
+        "body": "If you broke down or got stuck, stay with your car unless you are certain help is a short, cool walk away on a known road. Park rangers in hot desert parks give the same advice: a vehicle is far easier for searchers to see than a person, it holds your supplies, and it gives shade. Do not sit inside a closed car in the sun - it turns into an oven. Sit in shade beside it, open the doors and windows for airflow, or rig a tarp from the roof. Raise the hood, which signals trouble to passersby and aircraft. If you must stay inside during peak heat, keep windows open and stay out of direct sun."
+      },
+      {
+        "step": 3,
+        "title": "Drink your water - ration sweat, not water",
+        "body": "Drink when you are thirsty and keep drinking; water does more good inside you than in the bottle. Rationing water while you sweat it out speeds up heat illness. Instead, cut sweat loss: rest in shade from late morning to late afternoon, keep your clothes on (loose, light-colored, long sleeves and a wide-brimmed hat), keep your mouth closed, and do not talk or work more than needed. Desert parks advise carrying at least 1 gallon (3.8 L) per person per day, and 2 gallons (7.6 L) for hiking in heat, plus an emergency reserve. Do not drink alcohol. Eat only if you have water, since digesting food uses water. If you have salty snacks, eat some with water during long heat exposure. For finding more water, see water-012."
+      },
+      {
+        "step": 4,
+        "title": "Watch for heat illness in everyone",
+        "body": "Check each other every hour. Dizziness, headache, nausea, cramps, heavy sweating, or weakness mean heat exhaustion is starting: move that person to the coolest shade, have them drink, wet their clothing, and fan them. Confusion, strange behavior, collapse, or a hot body with altered thinking is heat stroke, a life-threatening emergency that needs rapid cooling and evacuation - see the heat illness guides in the Medical category. Children, older adults, and people on heart or blood pressure medicines get into trouble faster. Do not let anyone go off alone to 'look for help' while showing heat symptoms."
+      },
+      {
+        "step": 5,
+        "title": "If you must move, move at night or at dawn",
+        "body": "Walking is a last resort - for example, nobody knows where you are and you know exactly where the nearest road or water is. If you go, travel in the cool hours: from dusk through the night and into early morning, then shelter in shade by mid-morning. Carry all your water, a light, a whistle, and warm layers, because desert nights can drop 30-40 F (17-22 C) and feel cold. Follow roads, tracks, or power lines rather than heading cross-country. Leave a note on the vehicle with your names, direction, time you left, and your plan, and mark your route with arrows of rocks. Watch your footing for holes, cactus, and snakes; use a light at night."
+      },
+      {
+        "step": 6,
+        "title": "Make yourself easy to find",
+        "body": "Try 911 first; even a weak signal may get a text through, and many newer phones can send emergency texts by satellite where there is no cell service. Turn off apps to save battery and check for signal from high ground every hour or so. In daylight, flash a signal mirror (or any shiny object) at aircraft and distant vehicles (see comms-001). Lay out bright items, a tarp, or rocks in a big X or SOS shape on open ground. Use three whistle blasts, a pause, then repeat. At night, flash a light in the SOS pattern sparingly. A smoky signal fire is visible for miles, but only light it if fire danger allows and you can control it (see comms-003)."
+      },
+      {
+        "step": 7,
+        "title": "Respect desert storms and cold",
+        "body": "Deserts also flood. Summer monsoon storms can send flash floods down dry washes from storms miles away, even under blue sky overhead - never camp or park in a wash, and climb to high ground if you hear a roar or see muddy water (see env-013). Lightning is common with these storms (see env-012). In winter, desert nights can bring frost and even snow, so a stranded person needs warm layers and insulation from the ground. Plan for both extremes before you go: tell someone your route and return time, carry extra water, a spare tire and inflator, and know that tow help may be hours away."
+      }
+    ],
+    "warnings": [
+      "Never leave a person or pet inside a closed vehicle in desert heat - temperatures inside climb to deadly levels within minutes.",
+      "Walking away from a vehicle in daytime heat is a leading cause of desert deaths - stay put unless you have a solid reason and a plan.",
+      "Rationing water while working hard or sweating speeds up heat stroke. Drink, and reduce sweat instead.",
+      "Do not drink radiator fluid, urine, or alcohol as water substitutes.",
+      "Dry washes can flash flood with no rain where you are standing."
+    ],
+    "proTips": [
+      "Before any desert drive, leave your route, return date, and vehicle plate number with someone who will call for help if you are late.",
+      "Keep at least an extra 2 gallons (7.6 L) of water per person sealed in the vehicle year-round.",
+      "If stuck in sand, letting tires down to about 20 PSI or less can help you drive out - carry a gauge and inflator to reinflate.",
+      "Sitting 1-2 feet off the ground on a cot, seat, or pile of brush is much cooler than sitting on hot sand."
+    ],
+    "relatedGuides": [
+      "water-012",
+      "water-015",
+      "shelter-009",
+      "comms-001",
+      "comms-004",
+      "env-013",
+      "medical-027"
+    ],
+    "source": "NPS (Mojave, Death Valley) / CDC",
+    "sources": [
+      {
+        "title": "Mojave National Preserve - Safety",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/moja/planyourvisit/safety.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Death Valley Summer Visit",
+        "publisher": "National Park Service",
+        "url": "https://home.nps.gov/deva/planyourvisit/summer-visit.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NPS Outdoor Emergency Plan",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/subjects/healthandsafety/upload/NPS-Outdoor-Emergency-Plan-508c.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Heat and Cold Illness in Travelers (Yellow Book)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/heat-and-cold-illness-in-travelers.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Flash Floods - Zion National Park",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/zion/planyourvisit/flash-flood.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not stay put if a flash flood, wildfire, or other immediate threat is coming at your location - move to safety first.",
+      "Do not start walking in daytime heat just because waiting feels hard; waiting in shade is usually the safer choice."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are stranded or lost in hot desert country with limited water.",
+      "immediate": [
+        "Get into shade and stop all hard work in the heat",
+        "Stay with your vehicle and raise the hood",
+        "Drink when thirsty - save sweat, not water",
+        "Call or text 911 and try satellite SOS if your phone has it"
+      ],
+      "then": [
+        "Signal with a mirror by day and a light by night",
+        "If you must move, go at night along roads, and leave a note",
+        "Watch everyone for heat illness signs every hour"
+      ]
+    }
+  },
+  {
+    "id": "env-002",
+    "category": "environment",
+    "title": "Hot, Humid, and Tropical Environments",
+    "priority": "critical",
+    "tags": [
+      "tropical",
+      "humidity",
+      "heat",
+      "jungle",
+      "insects",
+      "acclimatization",
+      "foot care"
+    ],
+    "summary": "Humid heat stops sweat from cooling you, soaks your gear, and breeds insects and infection. This guide covers pacing, water, clothing, bugs, feet, and shelter in hot, wet country.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand why humid heat is different",
+        "body": "Your body cools mostly by sweat evaporating off your skin. When the air is hot and humid - especially above about 95 F (35 C) - sweat drips off instead of evaporating, so you keep heating up even while soaked. That means you can get heat illness at temperatures that would feel manageable in dry country. Check the local heat forecast if you can (the CDC HeatRisk tool and the NWS heat index both factor in humidity). Treat a high heat index as a reason to slow down, not just a number. Wet clothing does not mean you are cooling well; a flushed, dizzy, or confused person is in trouble no matter how sweaty they are."
+      },
+      {
+        "step": 2,
+        "title": "Acclimatize and pace yourself",
+        "body": "Bodies adapt to heat, but slowly. Most of the change takes about 10 days of daily exercise in the heat, roughly 1-2 hours a day; just sitting in the heat gives only partial adaptation, and the benefit fades within days to weeks once you leave. In your first week, cut your workload and distance. Do hard work early in the morning and late in the afternoon, and rest in shade during midday. Take regular cooling breaks. Work in pairs and check each other. If anyone becomes faint or weak, stop all activity and get them cool. Heat exhaustion and heat stroke care are covered in the heat illness guides in the Medical category."
+      },
+      {
+        "step": 3,
+        "title": "Drink to thirst and replace salt",
+        "body": "Drink regularly and before you feel parched, but do not force huge amounts of plain water on someone who is not thirsty. Over-drinking plain water for hours can cause dangerously low blood sodium (hyponatremia), which can look like heat illness but with confusion and a normal body temperature. During long hot days - more than about 6 hours of work or heat exposure - eat salty food with your water or use oral rehydration salts (see medical-008). Avoid alcohol. Treat all jungle stream, swamp, and puddle water before drinking (see water-002 and water-008); tropical surface water often carries bacteria and parasites."
+      },
+      {
+        "step": 4,
+        "title": "Dress for sun, sweat, and bugs",
+        "body": "Wear loose, lightweight, light-colored clothing that lets air move. Long sleeves and long pants protect against sun, sharp leaves, leeches, and insects at the same time. A wide-brimmed hat cuts radiant heat. Synthetic or blended fabrics dry faster than heavy cotton. Mosquitoes are worst at dawn, at dusk, on overcast days, and in summer; in the tropics they can carry dengue, malaria, Zika, and other diseases. Use an EPA-registered insect repellent on exposed skin, following the label, and consider permethrin-treated clothing. Sleep under a mosquito net if one is available. For tick and mosquito control details, see medical-010."
+      },
+      {
+        "step": 5,
+        "title": "Protect your feet and skin",
+        "body": "Constant wet is the enemy. Feet that stay wet for days get immersion foot (trench foot): wrinkled, white, painful, and later blistered or infected skin. Every rest stop, take boots off, dry and air your feet, and change into dry socks if you have them; keep one dry pair just for sleeping. Small cuts and scrapes get infected fast in humid heat. Clean every wound promptly with safe water, cover it, and watch for spreading redness, warmth, pus, or fever. Keep skin folds dry to prevent rashes. Check yourself for ticks and leeches daily; pull leeches off from the head end or let them drop, and keep the bite clean."
+      },
+      {
+        "step": 6,
+        "title": "Sleep off the ground and stay dry",
+        "body": "The jungle floor is wet and full of ants, scorpions, snakes, and runoff when it rains. Sleep raised off the ground in a hammock or a raised platform with a tarp roof (see shelter-010). Pitch on slightly high ground, never in a gully or near a stream that can rise. Look up before you camp - dead branches and rotten trees fall without warning, especially in storms. Shake out boots, clothes, and bedding before use. Store food sealed and away from your sleeping spot to avoid drawing animals and insects. Expect heavy afternoon rain and lightning in many tropical areas; plan to be under cover by then."
+      },
+      {
+        "step": 7,
+        "title": "Travel carefully in dense vegetation",
+        "body": "Thick growth limits visibility to a few yards, so it is easy to get lost. Follow streams downhill or existing trails rather than cutting new routes, and mark your path. Move slowly, look where you put your hands and feet, and use a stick to part vegetation. Many tropical plants have spines or irritating sap - do not grab plants for balance without looking. Rivers in the tropics can rise fast after rain upstream; cross only when necessary and follow env-009. If you are lost, stopping and signaling usually beats pushing deeper into unknown terrain (see env-005)."
+      }
+    ],
+    "warnings": [
+      "High humidity hides heat stress - confusion, collapse, or strange behavior in the heat is an emergency even if the person is sweating.",
+      "Drinking large amounts of plain water for many hours without food or salt can cause dangerous low sodium.",
+      "Never drink untreated tropical surface water.",
+      "Feet left wet for days can develop immersion foot, which can lead to serious infection.",
+      "Do not camp under dead trees or in gullies that can flood."
+    ],
+    "proTips": [
+      "Carry two pairs of socks and rotate them - wear one while the other dries on the outside of your pack.",
+      "A small packet of oral rehydration salts weighs almost nothing and is worth carrying in every hot-weather kit.",
+      "Plan your hardest effort for first light; tropical afternoons are often the hottest and stormiest part of the day.",
+      "Light-colored clothing makes ticks easier to see."
+    ],
+    "relatedGuides": [
+      "shelter-010",
+      "medical-008",
+      "medical-010",
+      "water-008",
+      "env-006",
+      "env-005",
+      "medical-027"
+    ],
+    "source": "CDC Yellow Book / NPS Everglades",
+    "sources": [
+      {
+        "title": "Heat and Cold Illness in Travelers (Yellow Book)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/heat-and-cold-illness-in-travelers.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Heat and Outdoor Workers",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/heat-health/risk-factors/heat-and-outdoor-workers.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Everglades National Park - Safety",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/ever/planyourvisit/safety.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not push through the first week of heat exposure at full workload - acclimatization takes days.",
+      "Do not rely on this guide for treating heat stroke; use the Medical category and get help."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are working, traveling, or stranded in hot, humid, or jungle conditions.",
+      "immediate": [
+        "Slow down and rest in shade during midday",
+        "Drink regularly and eat salty food on long days",
+        "Cover skin and use repellent against mosquitoes"
+      ],
+      "then": [
+        "Dry your feet and change socks at every stop",
+        "Sleep off the ground on high, safe ground",
+        "Treat all water before drinking"
+      ]
+    }
+  },
+  {
+    "id": "env-003",
+    "category": "environment",
+    "title": "Cold and Arctic Environments - Wind Chill, Travel, and Staying Dry",
+    "priority": "critical",
+    "tags": [
+      "cold",
+      "arctic",
+      "winter",
+      "wind chill",
+      "COLD",
+      "layering",
+      "frostbite",
+      "hypothermia"
+    ],
+    "summary": "How cold, wind, and wet steal heat, how to read wind chill and the new NWS cold alerts, and how to use the COLD principle, layers, and smart travel to stay warm and dry.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know how cold takes your heat",
+        "body": "Your body loses heat fastest through contact with water or wet clothing (conduction), then through wind (convection), then by radiating it to cold surroundings. That is why wet and windy days at 35 F (2 C) can be more dangerous than calm, dry days far below zero. Sitting on snow or bare cold ground also pulls heat out quickly. Every decision in cold country comes back to three things: stay dry, block the wind, and insulate yourself from the ground. People who are tired, hungry, dehydrated, older, very young, or sick lose heat faster and need more protection."
+      },
+      {
+        "step": 2,
+        "title": "Read wind chill and cold alerts",
+        "body": "Wind chill is how cold it feels on exposed skin when wind strips heat away. The NWS index is designed for adults at face height, at night with no sun; bright sun can make it feel 10-18 F warmer. Example: at 0 F (-18 C) with a 15 mph wind, the wind chill is about -19 F (-28 C), and exposed skin can freeze in about 30 minutes. Frostbite needs the actual air temperature to be below freezing, but hypothermia can happen well above freezing. Since the 2024-25 winter, the NWS replaced its Wind Chill alerts: a Wind Chill Watch is now an Extreme Cold Watch, a Wind Chill Warning is now an Extreme Cold Warning, and a Wind Chill Advisory is now a Cold Weather Advisory. These new alerts can be issued for dangerous cold even without wind."
+      },
+      {
+        "step": 3,
+        "title": "Dress by the COLD principle",
+        "body": "The Army uses the acronym COLD for cold-weather clothing. C - keep it Clean: dirt and body oils crush insulation. O - avoid Overheating: sweat soaks your layers and then freezes you when you stop, so shed a layer before you start sweating. L - wear it Loose and in Layers: tight clothes cut blood flow, and layers trap warm air and let you adjust. D - keep it Dry: change wet socks and gloves right away and keep a dry set for sleeping. A good layer system is a moisture-wicking base layer, an insulating middle layer like fleece or wool, and a hooded windproof and waterproof shell. Cover your head, neck, hands, and feet well. Avoid cotton next to your skin."
+      },
+      {
+        "step": 4,
+        "title": "Fuel, hydrate, and check each other",
+        "body": "Your body burns more calories just to stay warm. Eat frequent snacks with fat and carbohydrates, and eat something before sleeping. Drink warm fluids if you can; cold air is dry and you lose a lot of water by breathing, but cold also dulls thirst. Pale yellow urine is a good sign. Pair up and check each other's faces, ears, nose, and fingers often for white, gray, waxy, or numb patches (frostnip and frostbite). Watch for shivering, stumbling, slurred speech, poor decisions, or 'the umbles' - those signal hypothermia. Care for frostbite and hypothermia is covered in the cold injury guides in the Medical category; the first move is always to get the person out of wind and wet and into insulation."
+      },
+      {
+        "step": 5,
+        "title": "Travel smart on snow and ice",
+        "body": "Travel during daylight and plan to stop with at least an hour of light left to make camp. Keep a steady pace that does not make you sweat. Short days, deep snow, and whiteouts make distances take two to three times longer than in summer. Snowshoes or skis keep you from post-holing, which wastes energy and soaks your legs. Stay off frozen lakes and rivers unless you have checked the ice (see env-010), and avoid steep, snow-loaded slopes (see env-011). In a whiteout, stop and shelter rather than wandering - it is easy to walk in circles or off a drop. If stranded in a vehicle, stay with it, run the engine only about 10 minutes an hour for heat, and keep the exhaust pipe clear of snow to avoid carbon monoxide (see medical-047)."
+      },
+      {
+        "step": 6,
+        "title": "Shelter early and insulate from the ground",
+        "body": "Do not wait until you are exhausted or hypothermic to shelter. Get out of the wind first: behind trees, rocks, or a snow wall. Put as much insulation as you can under you - a pad, packs, spruce boughs, or dry brush - because the ground steals more heat than the air. Small shelters warm up faster than big ones. A snow shelter can be much warmer than the outside air if built well (see shelter-003), and shelter-008 covers getting through a cold night without a kit. If you can make fire safely, it dries gear and boosts morale (see fire-010). Melt snow for water instead of eating it, which chills you (see water-013)."
+      },
+      {
+        "step": 7,
+        "title": "Protect hands, feet, and face",
+        "body": "Fingers, toes, ears, nose, and cheeks freeze first. Mittens are warmer than gloves; wear thin liner gloves underneath for tasks so you never handle metal or fuel bare-handed (super-cooled fuel can cause instant frostbite). Wiggle toes and fingers often, and loosen tight boots. Warm cold hands in your armpits or against a partner's belly. Do not rub frozen skin or warm it by a fire or engine you cannot feel - you can burn numb skin without knowing. If skin has frozen and there is a chance it could refreeze before you reach safety, it is usually better to keep it frozen than thaw and refreeze it; get medical care as soon as possible."
+      }
+    ],
+    "warnings": [
+      "Sweating in the cold is dangerous - wet layers lose most of their insulation and chill you fast when you stop.",
+      "Hypothermia can happen at temperatures well above freezing, especially with rain, wind, or immersion.",
+      "Never run a stove, heater, or generator inside a closed tent, snow shelter, or vehicle without ventilation - carbon monoxide kills.",
+      "Do not rub frostbitten skin or rewarm it with direct high heat.",
+      "Alcohol makes you feel warm while increasing heat loss."
+    ],
+    "proTips": [
+      "Open your jacket and take off your hat before climbing a hill; put them back on at the top before you cool down.",
+      "Sleep with tomorrow's socks, gloves, water bottle, and phone inside your sleeping bag to keep them dry and working.",
+      "Keep phone and spare batteries in an inner pocket - cold drains batteries fast.",
+      "A fresh dry pair of socks is worth more than an extra jacket on a long cold trip."
+    ],
+    "relatedGuides": [
+      "shelter-003",
+      "shelter-008",
+      "fire-010",
+      "water-013",
+      "medical-047",
+      "env-010",
+      "medical-025",
+      "medical-026"
+    ],
+    "source": "NWS / U.S. Army / CDC",
+    "sources": [
+      {
+        "title": "Wind Chill Chart and Safety",
+        "publisher": "National Weather Service",
+        "url": "https://weather.gov/safety/cold-wind-chill-chart",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Here is why there won't be any wind chill warnings this winter in the US",
+        "publisher": "WOWT (reporting NWS change)",
+        "url": "https://www.wowt.com/2024/10/08/here-is-why-there-wont-be-any-wind-chill-warnings-this-winter-us/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Cold weather survival for Soldiers",
+        "publisher": "U.S. Army",
+        "url": "https://www.army.mil/article/92248",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Heat and Cold Illness in Travelers (Yellow Book)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/heat-and-cold-illness-in-travelers.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not set out on winter travel during an Extreme Cold Warning or blizzard if you can safely wait it out.",
+      "Do not keep pushing on when someone shows signs of hypothermia - stop, shelter, and warm them."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are outdoors or stranded in freezing, windy, or wet winter conditions.",
+      "immediate": [
+        "Get out of the wind and off the bare ground",
+        "Change out of wet clothing into dry layers",
+        "Eat and drink something warm if you can"
+      ],
+      "then": [
+        "Check each other for frostbite and hypothermia signs",
+        "Shelter early rather than traveling exhausted",
+        "Follow COLD: Clean, avoid Overheating, Loose layers, Dry"
+      ]
+    }
+  },
+  {
+    "id": "env-004",
+    "category": "environment",
+    "title": "Mountains - Weather, Terrain, and Altitude",
+    "priority": "critical",
+    "tags": [
+      "mountains",
+      "altitude",
+      "thunderstorms",
+      "treeline",
+      "terrain",
+      "weather",
+      "hiking"
+    ],
+    "summary": "Mountain weather changes fast, terrain hides drops and loose rock, and thin air slows everyone down. This guide covers timing your day, reading the sky, moving on steep ground, and handling altitude.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Plan around the forecast and start early",
+        "body": "In many mountain ranges, summer thunderstorms build in the early afternoon. Check the forecast for the mountain itself, not the nearest town - the NWS issues point forecasts for higher elevations. If storms are forecast, plan to be off peaks, ridges, and open slopes before noon, and know that storms sometimes arrive earlier. Start before sunrise for big days. Leave your route and expected return time with someone who will call for help. Pack for every season: above about 9,000 feet (2,700 m), rain, sleet, and snow are possible even in summer, so carry a waterproof shell, warm layers, a hat, and gloves."
+      },
+      {
+        "step": 2,
+        "title": "Set a turnaround time and keep it",
+        "body": "Decide before you start what time you will turn back no matter where you are, and stick to it. 'Summit fever' - pushing on because the top is close - is behind many mountain accidents. Turn back early if the weather builds, if anyone in the group is slowing badly, feels sick, or is getting cold, or if the route is harder than expected. The descent is when tired people trip and fall; save energy and daylight for it. A good group moves at the pace of its slowest member and stays together."
+      },
+      {
+        "step": 3,
+        "title": "Read the sky and get low when storms build",
+        "body": "Watch for puffy clouds growing tall and dark, building towers with flat tops, a sudden cold wind, and distant thunder. If you hear thunder, lightning can reach you. Get off summits and ridges, descend below treeline if you can, and avoid open meadows, lone tall trees, and water. Spread a group out at least 15 feet (5 m) apart so one strike cannot injure everyone. Do not shelter in shallow caves or under rock overhangs. There is no fully safe place outdoors in a thunderstorm; env-012 covers what to do if you are caught."
+      },
+      {
+        "step": 4,
+        "title": "Move carefully on steep and loose ground",
+        "body": "Most mountain injuries come from slips and falls, not wildlife. Stay on established trails where they exist. Keep three points of contact (two feet and a hand, or two hands and a foot) on steep rock. Test handholds and footholds before you weight them; rock can be loose even on popular routes. Do not climb up anything you cannot climb back down. On scree and talus, move slowly and spread out sideways so no one is directly below someone else who could knock rocks down. Watch for snowfields that stay hard and icy in the morning - a slip on steep snow can turn into a long, fast slide. Trekking poles help balance on descents."
+      },
+      {
+        "step": 5,
+        "title": "Handle altitude by going up slowly",
+        "body": "Thin air means less oxygen. Many people feel headache, tiredness, poor sleep, nausea, or loss of appetite after going above about 8,000 feet (2,500 m), especially if they ascend fast. Climb gradually when you can, drink to thirst, and avoid alcohol and sleeping pills the first nights. Expect to move slower than at home. Never keep climbing with worsening symptoms. Stumbling, confusion, severe breathlessness at rest, or a wet cough are danger signs of serious altitude illness (HACE or HAPE) - descend right away. See medical-057 for recognition and care."
+      },
+      {
+        "step": 6,
+        "title": "Manage sun, cold, and water",
+        "body": "At altitude the sun is stronger and snow reflects it, so sunburn and snow blindness come fast; wear sunglasses with side protection, sunscreen, and a hat. Temperatures drop roughly 3-5 F for every 1,000 feet (300 m) you climb, and wind on ridges makes it feel much colder - see env-003. Streams above treeline may still carry germs from animals; treat water. Breathing hard in dry mountain air dehydrates you, so drink regularly."
+      },
+      {
+        "step": 7,
+        "title": "If something goes wrong",
+        "body": "If someone is hurt or you are lost, stop and think before acting (see env-005). Do not split up on steep ground. Get the injured person out of wind and insulated from the ground. Call 911 or use a satellite messenger or phone satellite SOS feature if you have one; cell signal is unreliable in mountains, so try from high open spots and keep batteries warm. Mark your location for helicopters with bright gear in an open area. If you must self-evacuate, go down the way you came - unknown gullies often end at cliffs."
+      }
+    ],
+    "warnings": [
+      "Afternoon thunderstorms above treeline are one of the biggest killers in summer mountains - be off exposed terrain early.",
+      "Never keep climbing with worsening altitude symptoms; descending is the most important treatment.",
+      "Do not descend unknown gullies or drainages to 'find a shortcut' - many end in cliffs or waterfalls.",
+      "Hard, icy snow can cause uncontrollable slides; avoid steep snow without proper gear and training."
+    ],
+    "proTips": [
+      "Write your turnaround time on your hand or set a phone alarm so the decision is made before you are tired.",
+      "Take a photo of the trail sign and your map at each junction so you can retrace your steps.",
+      "Count headlamps and layers before leaving the car - many rescues start with a hike that ran late.",
+      "Eat small snacks every hour; tired and hungry climbers make poor decisions."
+    ],
+    "relatedGuides": [
+      "medical-057",
+      "env-012",
+      "env-003",
+      "env-005",
+      "nav-001",
+      "env-011",
+      "medical-025"
+    ],
+    "source": "NWS / NPS / USFS",
+    "sources": [
+      {
+        "title": "Lightning - Know Before You Go",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/visit/know-before-you-go/lightning",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lightning Safety Tips",
+        "publisher": "National Weather Service",
+        "url": "https://www.weather.gov/safety/lightning-tips",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to be prepared for summer storms while hiking in the Rocky Mountains",
+        "publisher": "Visit Estes Park",
+        "url": "https://www.visitestespark.com/blog/post/how-to-be-prepared-for-summer-storms-while-hiking-in-the-rocky-mountains/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NPS Outdoor Emergency Plan",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/subjects/healthandsafety/upload/NPS-Outdoor-Emergency-Plan-508c.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Technical climbing, glacier travel, and steep snow require training and gear beyond this guide.",
+      "Do not use this guide as the only plan for high-altitude trips above about 12,000 feet (3,700 m); get specialized training."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are hiking or traveling in mountain terrain where weather, slopes, and altitude can turn on you.",
+      "immediate": [
+        "Check the mountain forecast and start early",
+        "Set a firm turnaround time",
+        "Get off peaks and ridges when clouds build or thunder starts"
+      ],
+      "then": [
+        "Descend if altitude symptoms worsen",
+        "Move with three points of contact on steep ground",
+        "Carry layers for snow and rain even in summer"
+      ]
+    }
+  },
+  {
+    "id": "env-005",
+    "category": "environment",
+    "title": "Lost in the Forest - STOP, Stay Put, and Help Searchers Find You",
+    "priority": "critical",
+    "tags": [
+      "lost",
+      "forest",
+      "STOP",
+      "search and rescue",
+      "signaling",
+      "whistle",
+      "stay put"
+    ],
+    "summary": "What to do the moment you realize you are lost in the woods: stop and think, decide whether to stay or move, call for help, and make yourself easy to find until searchers arrive.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "STOP the moment you feel lost",
+        "body": "Use the STOP method. S - Stop: stand still and sit down if you can. Walking on while confused usually makes you more lost and harder to find. T - Think: when did you last know exactly where you were? How much daylight is left? O - Observe: look at your map, compass, GPS, phone map, the sun, streams, ridges, and trail signs. Check your supplies, the weather, and how everyone feels. P - Plan: make one clear decision based on what you found. Eat a snack and drink some water while you think - it calms you and helps you reason."
+      },
+      {
+        "step": 2,
+        "title": "Try to get back the way you came - carefully",
+        "body": "If you are confident about the way back - you can see your tracks, recognize landmarks, or your GPS shows the route - you can retrace your steps a short way. Mark your current spot first (a pile of rocks, a bright item, an arrow on the ground), and leave marks as you go so you can return. If you do not reach a known point within about 15-20 minutes, go back to your marked spot. Do not 'try one more direction' over and over; that is how people end up miles off route."
+      },
+      {
+        "step": 3,
+        "title": "Call for help early",
+        "body": "If you cannot get back on your route, call 911 - do not wait until dark or until you are in trouble. If calls fail, try a text, which can get through with weak signal. Many newer phones can send emergency messages by satellite; satellite messengers and personal locator beacons also work without cell service. Give the dispatcher your GPS coordinates if your phone shows them, where you started, your last known location, landmarks you can see, your clothing colors, your gear, and any medical conditions. Then turn off nonessential apps and lower screen brightness to save battery, and follow the dispatcher's instructions about staying in place."
+      },
+      {
+        "step": 4,
+        "title": "Stay put unless your life is in danger",
+        "body": "The National Park Service advice is clear: once you are lost, staying in one place makes it much easier for searchers to find you. Searchers start at your last known point and work outward; a moving person can walk out of the area they are searching. Move only if you face an immediate threat - rising water, wildfire, rockfall, or a spot so exposed you cannot survive the night there. If you must move, go only to the nearest safe, open, visible spot nearby, such as a clearing or trail junction. Teach children to 'hug a tree' and stay in one spot (see children-002)."
+      },
+      {
+        "step": 5,
+        "title": "Shelter and conserve your energy",
+        "body": "Get out of rain, wind, sun, or snow. Put on layers before you get cold - forest nights can be much colder than the afternoon. Insulate yourself from the ground with a pack, pad, or a thick pile of dry leaves and branches. Build a simple shelter near your spot (see shelter-005 and shelter-008). Ration your effort, not your water: rest, keep warm, and drink what you have. Only build a fire if it is safe and allowed - during high fire danger or wildfire season, an escaped fire can kill you and others. Help can take hours or even days, so plan for a night out."
+      },
+      {
+        "step": 6,
+        "title": "Signal so searchers can find you",
+        "body": "Make noise in patterns searchers recognize. Three blasts on a whistle, a pause, then repeat - a whistle carries farther than your voice and uses less energy than yelling (see comms-004). At night, flash a light in an SOS pattern (three short, three long, three short) now and then to save batteries. In daylight, flash a mirror or phone screen at aircraft (see comms-001). Spread a bright tarp or clothing in the nearest clearing, or lay out rocks or branches in a large X or SOS that can be seen from above. When you hear searchers or a helicopter, answer with your whistle and wave something bright."
+      },
+      {
+        "step": 7,
+        "title": "Prevent the next one",
+        "body": "Most lost-person searches start with a small mistake: leaving a trail to explore, missing a junction, or running out of daylight. Before every trip, tell someone your route and when to call for help if you are late. Carry the Ten Essentials, including a map and compass you know how to use (see nav-004), a headlamp, extra layers, food, water, a whistle, a fire starter, and a first aid kit. Download offline maps before losing signal. At every junction, stop and look back so you recognize the way home. Turn around early when the light is fading."
+      }
+    ],
+    "warnings": [
+      "Do not keep walking when you feel lost - moving makes you harder to find and often leads into worse terrain.",
+      "Do not follow a stream downhill blindly in steep country; drainages can end at cliffs and waterfalls.",
+      "Do not build a fire during high fire danger or a fire ban.",
+      "Do not split up a lost group unless someone must go for help and knows exactly where they are going."
+    ],
+    "proTips": [
+      "Wear or carry something bright - searchers and aircraft spot orange, red, and yellow far easier than earth tones.",
+      "Before going out, take a photo of the trailhead map and your car's location.",
+      "A plastic whistle tied to each child's jacket is one of the cheapest life-savers there is.",
+      "If you hear a search team calling your name, answer even if you are embarrassed - people have hidden from searchers."
+    ],
+    "relatedGuides": [
+      "comms-004",
+      "comms-001",
+      "children-002",
+      "shelter-008",
+      "nav-004",
+      "security-004"
+    ],
+    "source": "NPS Outdoor Emergency Plan",
+    "sources": [
+      {
+        "title": "NPS Outdoor Emergency Plan",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/subjects/healthandsafety/upload/NPS-Outdoor-Emergency-Plan-508c.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Move if your spot is in immediate danger - flood, fire, rockfall, or an exposed spot you cannot survive.",
+      "If nobody knows you are missing and you know the way to a road, careful self-rescue in daylight may be the better choice."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You realize you do not know where you are in the woods.",
+      "immediate": [
+        "STOP: Stop, Think, Observe, Plan",
+        "Call or text 911 and give your GPS coordinates",
+        "Stay where you are unless there is immediate danger"
+      ],
+      "then": [
+        "Shelter and layer up before you get cold",
+        "Signal with three whistle blasts and a light or mirror",
+        "Lay out something bright in an open area"
+      ]
+    }
+  },
+  {
+    "id": "env-006",
+    "category": "environment",
+    "title": "Swamps and Wetlands",
+    "priority": "advanced",
+    "tags": [
+      "swamp",
+      "wetland",
+      "marsh",
+      "alligators",
+      "mosquitoes",
+      "navigation",
+      "wet walking"
+    ],
+    "summary": "Swamps mix deep water, soft mud, heat, insects, and wildlife, and they all look the same in every direction. This guide covers moving, navigating, staying dry enough, and staying safe in wetlands.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Plan before you go in",
+        "body": "Wetlands are easy to get lost in and hard for rescuers to reach. File your route and return time with someone you trust, and carry a personal locator beacon or satellite messenger if you can - preserves like Big Cypress recommend it. Check the forecast; summer brings intense heat, humidity, daily thunderstorms, and rising water. Bring more water than you think you need and a way to treat more, sun and bug protection, a map and compass, and a walking stick. Wear long pants and closed shoes or boots you do not mind soaking - flip-flops and bare feet invite cuts, punctures, and bites."
+      },
+      {
+        "step": 2,
+        "title": "Wade slowly and probe ahead",
+        "body": "Use a stout stick to probe the bottom in front of you for depth, holes, soft mud, logs, and anything that moves. Shuffle your feet rather than taking high steps. Water that looks shallow can drop suddenly into a channel or 'gator hole'. If you start sinking in soft mud, stop struggling, lean back to spread your weight, and work your legs out slowly one at a time while pulling yourself toward firmer ground or roots. Avoid water deeper than your thighs and any water with current. Stay in daylight; visibility and footing get much worse after dark."
+      },
+      {
+        "step": 3,
+        "title": "Respect alligators, snakes, and other wildlife",
+        "body": "In the southeastern U.S., assume alligators live in any freshwater swamp, and in south Florida crocodiles may live in brackish water too. Keep at least 15 feet (4.5 m) away - and farther if one hisses, which means you are too close. They are most active from dusk to dawn. Never feed or harass them; it is illegal and makes them dangerous. Keep children and dogs close and out of the water's edge. Watch where you step and put your hands for venomous snakes such as cottonmouths and rattlesnakes. More detail is in env-016 and medical-048."
+      },
+      {
+        "step": 4,
+        "title": "Navigate when everything looks the same",
+        "body": "Swamp vegetation hides landmarks, and walking around obstacles constantly shifts your direction. Take a compass bearing before you leave dry ground and check it often (see nav-004). Count paces or note time to estimate distance (see nav-003). Mark your route with flagging tape you remove on the way out. Note the direction of the nearest road, levee, canal, or high ground as your 'catching feature'. If you get turned around, follow env-005: stop, call for help, and stay on the best high, open, visible ground nearby."
+      },
+      {
+        "step": 5,
+        "title": "Beat the bugs and the heat",
+        "body": "Mosquitoes are worst at dawn, dusk, on overcast days, and in summer, and they can be intense enough to cause real misery. Wear long sleeves and long pants and use an insect repellent on exposed skin, following the label; a head net helps. Heat and humidity can cause heat illness fast because sweat does not evaporate well (see env-002). Rest in shade, drink regularly, and plan the hard parts of the trip for the cooler morning. Lightning storms are common in summer afternoons - get out of the water and away from open areas when storms approach (see env-012)."
+      },
+      {
+        "step": 6,
+        "title": "Make dry camp and treat your water",
+        "body": "Camp on the highest dry ground you can find - a hammock (an island of slightly higher ground), a levee, or a raised platform. If there is no dry ground, sleep off the ground in a hammock with a bug net and tarp (see shelter-010). Swamp water is full of organic matter, bacteria, and parasites; filter out debris through cloth first, then boil or use a filter plus chemical treatment (see water-002 and water-008). At camp, dry your feet completely, change socks, and check for ticks, leeches, and cuts. Treat every scrape - wetland infections can spread quickly."
+      },
+      {
+        "step": 7,
+        "title": "Know when to get out",
+        "body": "Leave the swamp, or do not enter, when water is rising after heavy rain, when a tropical storm or hurricane is forecast, or when someone is showing heat illness, infection, or exhaustion. Getting an injured person out of a swamp is slow and hard, so a small problem can grow into a big one. If you have a canoe or kayak, stay with it if you capsize - it floats and is easier to see. Call for help early rather than late."
+      }
+    ],
+    "warnings": [
+      "Keep at least 15 feet (4.5 m) from alligators and crocodiles; a hissing animal means back away now.",
+      "Never swim in swamp water where alligators may live, especially at dusk, at night, or with dogs.",
+      "Soft mud and sudden drop-offs can trap or drown you - probe ahead with a stick.",
+      "All swamp water must be treated before drinking.",
+      "Wetland travel during floods or tropical storms is extremely dangerous."
+    ],
+    "proTips": [
+      "Old sneakers with wool or synthetic socks are better for wet walking than heavy waterproof boots that fill with water.",
+      "Carry a dry bag for your phone, map, fire starter, and spare socks.",
+      "A bright bandana tied high on a branch makes your camp visible to searchers.",
+      "Look for cypress domes and tree lines on a map - they often mark deeper water."
+    ],
+    "relatedGuides": [
+      "shelter-010",
+      "nav-004",
+      "nav-003",
+      "medical-048",
+      "env-016",
+      "env-002"
+    ],
+    "source": "NPS (Everglades, Big Cypress) / CDC",
+    "sources": [
+      {
+        "title": "Everglades National Park - Safety",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/ever/planyourvisit/safety.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Big Cypress National Preserve - Safety",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/bicy/planyourvisit/safety.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Heat and Cold Illness in Travelers (Yellow Book)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/heat-and-cold-illness-in-travelers.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [
+      "nav-004"
+    ],
+    "whenNotTo": [
+      "Do not enter wetlands during floods, rising water, or tropical storm watches.",
+      "Do not wade swamps alone or at night."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need to move through or survive in a swamp, marsh, or wetland.",
+      "immediate": [
+        "Probe ahead with a stick and shuffle your feet",
+        "Stay 15+ feet from alligators and watch for snakes",
+        "Take a compass bearing and mark your route"
+      ],
+      "then": [
+        "Camp on high ground or off the ground",
+        "Treat all water before drinking",
+        "Dry your feet and check for cuts every night"
+      ]
+    }
+  },
+  {
+    "id": "env-007",
+    "category": "environment",
+    "title": "Survival at Sea - Life Rafts, Flotation, Water, and Signaling",
+    "priority": "critical",
+    "tags": [
+      "sea",
+      "boat",
+      "life raft",
+      "PFD",
+      "life jacket",
+      "EPIRB",
+      "flares",
+      "cold water",
+      "HELP"
+    ],
+    "summary": "What to do if your boat is sinking or you end up in the water: stay with the boat, wear flotation, conserve heat with HELP and huddling, manage fresh water, and signal at the right time.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Recognize the emergency and call MAYDAY",
+        "body": "The U.S. Coast Guard's survival sequence starts with recognizing that you are in a life-threatening emergency - delay kills. As soon as the boat is in serious trouble, send a MAYDAY on VHF channel 16 (or press the DSC distress button on a radio connected to GPS). Give the vessel name, your position, the nature of the emergency, and the number of people aboard. Activate your EPIRB or personal locator beacon. Then take inventory: who is aboard and how are they, what gear and water you have, the weather, and how far you are from land and help."
+      },
+      {
+        "step": 2,
+        "title": "Put on life jackets and warm layers",
+        "body": "Everyone puts on a life jacket (PFD) or immersion suit now, before anyone enters the water. A PFD keeps you floating when cold shock or exhaustion takes away your ability to swim, and it lets you hold a heat-saving position. Survivors of the first cold shock can lose the ability to swim within about 10 minutes in cold water. Dress in plenty of warm layers, ideally wool or synthetic, and a hat - extra clothing slows heat loss and traps air that helps you float. If using an immersion suit, zip and close it fully before you get in the water."
+      },
+      {
+        "step": 3,
+        "title": "Stay with the boat as long as it floats",
+        "body": "Your boat is your best shelter and the easiest thing for rescuers to spot. Do not abandon it until it is truly sinking or on fire and the captain orders it. If it capsizes but still floats, climb onto it to get as much of your body out of the water as possible - water pulls heat from your body about 25 times faster than air. Launch the life raft on the side away from the wind and keep it tied to the vessel as long as it is safe. Pull the painter line to inflate it, and wait for full inflation before boarding."
+      },
+      {
+        "step": 4,
+        "title": "Enter the water and the raft safely",
+        "body": "If you must go into the water, check below first and enter feet first. Hold your nose and mouth closed with one hand and cover your head, with feet together. Get into the raft as soon as possible rather than swimming around. If the raft flips, use the righting strap: stand on the gas cylinder side, pull the strap, and spring backward and to the side as it rolls over. Inside the raft, bail out water, close the canopy against wind and spray, and stay dry. Take turns on watch."
+      },
+      {
+        "step": 5,
+        "title": "Conserve heat - HELP and huddle",
+        "body": "In the water, do not swim unless you can reach the boat, raft, or something to climb on - swimming speeds heat loss. Use the HELP position (Heat Escape Lessening Posture): pull your knees to your chest and hold your arms tight against your sides, protecting your armpits, groin, and head. With several people, huddle together in a tight circle, facing in, with arms linked; it shares body heat, keeps the group together, and makes you easier to see. Keep your head out of the water. Use a whistle to attract attention."
+      },
+      {
+        "step": 6,
+        "title": "Manage fresh water and food",
+        "body": "Fresh water is your most important supply after flotation. Never drink seawater - the salt pulls water out of your body and makes dehydration worse. Drink from the raft's emergency water ration and collect rain using the canopy, tarps, or any container; rinse salt off the collection surface first. Reduce sweating by staying in shade and resting. Eat only if you have water, because digestion uses water. Use high-energy ration bars from the survival pack. Keep spirits up with routines and watch rotations - the Coast Guard lists a positive attitude as one of the survival steps."
+      },
+      {
+        "step": 7,
+        "title": "Signal at the right time",
+        "body": "Leave your EPIRB or PLB on and floating, tied to you or the raft, until you are rescued. Save pyrotechnic flares and smoke for when you can actually see or hear a ship or aircraft, or they are within the expected visibility range - hand flares last only a minute or two and orange smoke only a few minutes. A signal mirror works any time the sun is out (see comms-001). Strobe lights run for hours at night. Hold flares downwind over the side of the raft so burning drips fall into the sea, not the raft. Dye markers make you more visible from the air."
+      }
+    ],
+    "warnings": [
+      "Never drink seawater or urine - both make dehydration worse.",
+      "Do not swim away from a floating boat or raft toward a distant shore; distances at sea are deceiving and swimming drains heat and energy.",
+      "Do not fire all your flares at once or when no rescuer can see them.",
+      "Flares can burn you and the raft - hold them downwind and over the water.",
+      "Without a life jacket, cold water can drown even strong swimmers within minutes."
+    ],
+    "proTips": [
+      "Register your EPIRB or PLB with NOAA and keep it in a place you can grab in seconds.",
+      "Practice putting on immersion suits and life jackets in the dark before a long trip.",
+      "Pack a ditch bag with water, a handheld VHF, PLB, flares, mirror, whistle, sunscreen, and seasickness tablets.",
+      "File a float plan with someone ashore listing your route, boat description, and return time."
+    ],
+    "relatedGuides": [
+      "comms-001",
+      "comms-004",
+      "water-015",
+      "env-008",
+      "env-003",
+      "medical-015",
+      "medical-025",
+      "medical-028"
+    ],
+    "source": "U.S. Coast Guard / U.S. Army Corps of Engineers / CDC",
+    "sources": [
+      {
+        "title": "7 Steps of Survival - Safety Equipment and Survival Card",
+        "publisher": "U.S. Coast Guard",
+        "url": "https://www.dco.uscg.mil/Portals/9/DCO%20Documents/5p/CG-5PC/CG-CVC/CVC3/references/Safety_Equip_Survival_Card.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Cold water survival tips from USACE and USCG",
+        "publisher": "U.S. Army",
+        "url": "https://www.army.mil/article/51309/cold_water_survival_tips_from_usace_and_uscg",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Heat and Cold Illness in Travelers (Yellow Book)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/heat-and-cold-illness-in-travelers.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not leave a floating vessel for a raft unless it is sinking, on fire, or the captain orders it.",
+      "If you are close to shore in a rip current, follow env-008 instead of open-sea steps."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your boat is sinking or you are adrift at sea.",
+      "immediate": [
+        "Send MAYDAY on VHF 16 and activate the EPIRB or PLB",
+        "Put on life jackets and warm layers",
+        "Stay with the boat as long as it floats"
+      ],
+      "then": [
+        "Use HELP or huddle if in the water",
+        "Never drink seawater; collect rain",
+        "Save flares until rescuers are in sight"
+      ]
+    }
+  },
+  {
+    "id": "env-008",
+    "category": "environment",
+    "title": "Rip Currents and Coastal Hazards",
+    "priority": "critical",
+    "tags": [
+      "rip current",
+      "beach",
+      "ocean",
+      "surf",
+      "drowning",
+      "coastal",
+      "jetty",
+      "swimming"
+    ],
+    "summary": "How to spot rip currents, escape one if it grabs you, help someone else without becoming a second victim, and avoid other common coastal hazards like jetties, shorebreak, and storm surf.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know what a rip current is",
+        "body": "A rip current is a narrow channel of water flowing away from shore through the surf zone. Rips usually move 1-2 feet per second but have been clocked at about 8 feet per second - faster than an Olympic swimmer. They do not pull you under; they pull you out. People drown when they panic and wear themselves out trying to swim straight back to the beach against the current. The U.S. Lifesaving Association estimates more than 100 people die in rip currents in the U.S. each year. Rips form at almost any surf beach, often at gaps in sandbars and next to jetties and piers."
+      },
+      {
+        "step": 2,
+        "title": "Check conditions and spot rips before you swim",
+        "body": "Check the NWS surf zone forecast and rip current risk before you go, and obey beach warning flags and lifeguards. Swim near a lifeguard whenever possible. From the beach, look for signs of a rip: a gap in the line of breaking waves, a darker or calmer-looking channel, a line of foam, seaweed, or debris moving seaward, or choppy, churned-up water heading out. These signs can be hard to see, especially from low on the beach - climb higher for a better look. If you are not sure, ask a lifeguard."
+      },
+      {
+        "step": 3,
+        "title": "If you are caught - relax and float",
+        "body": "Stay calm. The current will not drag you under. Flip onto your back and float, or tread water, to save energy and keep your head up. Do not fight the current by swimming straight toward shore. Take a few breaths and look at which way the water is moving and where the waves are breaking. Many rips will carry you out just past the breaking waves and then weaken or circle back toward shore."
+      },
+      {
+        "step": 4,
+        "title": "Swim parallel to shore to escape",
+        "body": "When you are ready, swim parallel to the shoreline - along the beach, not toward it - until you feel the pull ease. Then swim at an angle back to shore, away from the current. Swimming toward breaking waves can also help, since waves push water toward the beach. If you cannot get out of the current, keep floating or treading water. If you need help, face the shore, wave your arms, and yell for help."
+      },
+      {
+        "step": 5,
+        "title": "Help others without going in",
+        "body": "Every year, would-be rescuers drown trying to save someone from a rip. If someone is in trouble, get a lifeguard first. If none is present, call 911. From the beach, throw the person something that floats - a life ring, cooler, boogie board, or empty jug - and shout instructions to swim parallel to shore. Keep your eyes on them the whole time so you can point rescuers to the right spot. Only go in yourself if you are a trained rescuer and take a flotation device with you."
+      },
+      {
+        "step": 6,
+        "title": "Avoid other coastal hazards",
+        "body": "Stay off jetties and wet rocks, especially in big surf; 'sneaker waves' can knock people off without warning. Strong rips often run alongside jetties and piers. Shorebreak - waves breaking right on the sand - can cause neck and spine injuries; never dive headfirst into surf. Stay out of the water during and after hurricanes and offshore storms, which can bring dangerous surf and rips to beaches far from the storm, even on sunny days. Watch the tide on sand bars, mudflats, and beach walks so you do not get cut off. Get out of the water at the first thunder (see env-012)."
+      },
+      {
+        "step": 7,
+        "title": "Protect children and weak swimmers",
+        "body": "Keep small children within arm's reach in and near water and assign one adult as the 'water watcher' who does nothing but watch. Have weak swimmers and children wear a properly fitted Coast Guard-approved life jacket. Teach kids that if they get carried out, they should float, wave, and yell - not swim against the water. Choose beaches with lifeguards, and set a meeting spot on the beach in case anyone gets separated."
+      }
+    ],
+    "warnings": [
+      "Never swim straight toward shore against a rip current - you will tire out fast.",
+      "Do not go into the water to rescue someone without flotation and training; throw something that floats instead.",
+      "Big surf from distant hurricanes can create deadly rips on calm, sunny days.",
+      "Never dive headfirst into surf or shorebreak.",
+      "Stay off jetties and rocks in rough seas."
+    ],
+    "proTips": [
+      "When you arrive at a beach, pick a landmark on shore so you can tell if you are drifting along the beach.",
+      "Look at the beach from a dune or boardwalk first - rips are easier to see from higher up.",
+      "Ask lifeguards where today's rips are; they spend all day watching them.",
+      "Polarized sunglasses help you see water color and channel differences."
+    ],
+    "relatedGuides": [
+      "env-007",
+      "env-016",
+      "env-012",
+      "medical-015",
+      "children-001",
+      "medical-028"
+    ],
+    "source": "NOAA / National Weather Service",
+    "sources": [
+      {
+        "title": "Rip Current Safety",
+        "publisher": "National Weather Service",
+        "url": "https://www.weather.gov/wrn/summer2020-rip-currents-sm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lightning - Know Before You Go",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/visit/know-before-you-go/lightning",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not swim at all when red or double-red flags are flying or when the NWS rip current risk is high.",
+      "This guide does not replace lifeguard training for in-water rescues."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You or someone else is being carried away from shore at a surf beach.",
+      "immediate": [
+        "Stay calm and float or tread water",
+        "Do not swim straight against the current",
+        "Swim parallel to shore, then angle back in"
+      ],
+      "then": [
+        "If you cannot escape, face shore, wave, and yell",
+        "Rescuers: throw something that floats and call 911",
+        "Keep eyes on the person in the water"
+      ]
+    }
+  },
+  {
+    "id": "env-009",
+    "category": "environment",
+    "title": "Crossing Rivers and Streams Safely - or Not Crossing",
+    "priority": "critical",
+    "tags": [
+      "river crossing",
+      "stream",
+      "ford",
+      "swift water",
+      "hiking",
+      "drowning",
+      "strainers"
+    ],
+    "summary": "Moving water is one of the most underestimated killers in the backcountry. This guide covers deciding whether to cross at all, choosing a spot, crossing alone or as a group, and what to do if you fall in.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Decide whether you really need to cross",
+        "body": "The safest crossing is the one you do not make. Ask: Is there a bridge, log, or easier spot upstream or downstream? Can you wait for the water to drop? Is the far side worth the risk? Park rangers advise being willing to spend an extra hour - or an extra day - to find a safe crossing or wait it out. Do not cross if the water is above your knees, is fast and loud, is muddy so you cannot see the bottom, or is carrying logs and debris. Never cross floodwater (see env-013). If in doubt, do not cross."
+      },
+      {
+        "step": 2,
+        "title": "Cross at the right time",
+        "body": "Snowmelt and glacier-fed streams are usually lowest in the early morning and rise through the afternoon as the sun melts snow upstream - levels can change by about a foot over a day. Rain miles upstream can raise a river quickly even under clear skies. Plan crossings for morning when you can. If you arrive at a high, fast stream in the afternoon, consider camping and crossing at first light."
+      },
+      {
+        "step": 3,
+        "title": "Scout and choose the crossing spot",
+        "body": "Look for the widest part of the river, where the water spreads out and runs slower and shallower, or where it splits into several braided channels. Avoid narrow, fast, deep sections and the outside of bends where current is strongest. Look downstream before you commit: there should be no strainers (fallen trees or brush the current flows through), log jams, waterfalls, or rapids that could trap you if you fall. Pick your exit point on the far bank and a backup spot downstream where you could get out if swept away."
+      },
+      {
+        "step": 4,
+        "title": "Prepare yourself and your pack",
+        "body": "Unbuckle your pack's hip belt and loosen the shoulder straps so you can shed the pack fast if you fall - a pack strapped to you can pin you underwater. Put critical items like your phone, fire starter, and dry clothes in a waterproof bag. Keep your shoes on to protect your feet and give grip; swap into camp shoes if you have them. Use a sturdy stick or trekking poles to stay stable. Put on a warm layer if the water is cold, and plan to dry off and warm up right after."
+      },
+      {
+        "step": 5,
+        "title": "Cross with good technique",
+        "body": "Face upstream or angle slightly upstream and lean into the current. Use your stick or poles on the upstream side to form a tripod, and keep at least two points of contact on the bottom at all times. Shuffle your feet; slide each foot forward and feel for solid footing before you shift your weight. Look ahead to your exit point and upstream, not down at the moving water, which can make you dizzy. If water reaches your thighs or you feel your feet getting light, back out the way you came. On a log crossing, straddling and scooting along it may be safer than walking."
+      },
+      {
+        "step": 6,
+        "title": "Cross as a group",
+        "body": "Groups can link up to be more stable. One method is to stand in a line parallel to the current with the strongest person upstream breaking the water and others holding onto the pack or waist of the person in front. Another is a tight triangle or huddle of three, holding each other's packs or shoulders and moving one person at a time. Cross one group at a time and have someone waiting downstream on the bank with a rope, branch, or throwable flotation, ready to help. Never tie a rope around anyone crossing - a tethered person can be pulled under by the current."
+      },
+      {
+        "step": 7,
+        "title": "If you fall in",
+        "body": "Drop your pack if it is pulling you under. Roll onto your back with your feet pointed downstream and near the surface to fend off rocks; do not try to stand up in fast water, because a foot can get stuck between rocks and the current can push you under. Use your arms to steer toward shore at an angle. Watch for strainers and, if you cannot avoid one, swim hard toward it head-first and try to get up and over it. Once out, get warm and dry quickly; cold water can cause hypothermia in minutes (see env-003)."
+      }
+    ],
+    "warnings": [
+      "Do not cross water deeper than your knees, or any fast, muddy, or debris-filled water.",
+      "Never tie yourself to a rope while crossing - the current can hold you under.",
+      "Never stand up in fast current; a trapped foot can drown you.",
+      "Strainers (downed trees in current) are deadly - always scout downstream before crossing.",
+      "Water levels can rise quickly from rain or snowmelt you cannot see."
+    ],
+    "proTips": [
+      "Throw a stick into the water to judge current speed; if it moves faster than you can walk, look elsewhere.",
+      "Carry a pair of lightweight water shoes for crossings so your boots stay drier.",
+      "A wide, rippled, noisy riffle is often shallower than a quiet, smooth pool.",
+      "Unbuckle the hip belt before you even step in - make it a habit."
+    ],
+    "relatedGuides": [
+      "env-013",
+      "env-003",
+      "env-005",
+      "nav-001",
+      "medical-015",
+      "medical-028"
+    ],
+    "source": "NPS Mount Rainier / NPS Zion",
+    "sources": [
+      {
+        "title": "Hikers Advised to Use Caution When Crossing Rivers",
+        "publisher": "National Park Service (Mount Rainier)",
+        "url": "https://www.nps.gov/mora/learn/news/hikers-advised-to-use-caution-when-crossing-rivers.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Flash Floods - Zion National Park",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/zion/planyourvisit/flash-flood.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not cross during or after heavy rain, during peak snowmelt afternoons, or when the water is muddy and fast.",
+      "Do not cross floodwater on foot or by vehicle - turn around."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your route is blocked by a stream or river and you are deciding whether to cross.",
+      "immediate": [
+        "Look for a bridge, log, or better spot - or wait",
+        "Do not cross above knee depth or in fast, muddy water",
+        "Unbuckle your hip belt before stepping in"
+      ],
+      "then": [
+        "Face upstream, use a pole, and keep two points of contact",
+        "Have a spotter downstream with a throwable",
+        "If swept away, go feet first downstream on your back"
+      ]
+    }
+  },
+  {
+    "id": "env-010",
+    "category": "environment",
+    "title": "Ice Safety on Lakes and Rivers - Thickness and Self-Rescue",
+    "priority": "critical",
+    "tags": [
+      "ice",
+      "thin ice",
+      "frozen lake",
+      "self-rescue",
+      "ice picks",
+      "cold water",
+      "winter"
+    ],
+    "summary": "How thick ice needs to be for walking and vehicles, how to check it, how to get yourself out if you break through, and how to help someone else without going in after them.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the minimum thickness guidelines",
+        "body": "The Minnesota DNR guidelines for new, clear, solid ice are: under 4 inches (10 cm) - stay off; 4 inches (10 cm) - walking; 5-7 inches (13-18 cm) - snowmobile or small ATV; 7-8 inches (18-20 cm) - side-by-side ATV; 9-10 inches (23-25 cm) - small car or small SUV; 11-12 inches (28-30 cm) - medium SUV or small pickup; 13 inches (33 cm) - medium truck; 16-17 inches (41-43 cm) - heavy-duty truck (Minnesota DNR). Parked vehicles need more: park at least 50 feet apart, move them every 2 hours, and never park near cracks or pressure ridges. These are minimums for clear ice only. White, cloudy, or snow-covered ice is weaker, and old ice that has thawed and refrozen can be much weaker - many agencies suggest doubling the numbers for white ice. No ice is ever completely safe."
+      },
+      {
+        "step": 2,
+        "title": "Check the ice yourself as you go",
+        "body": "Ice thickness can change a lot within a few steps. Do not trust tracks, other people's reports, or social media. Before going out, ask local bait shops or resorts about known problem spots. Check thickness at regular intervals with an ice chisel (spud bar), auger, or drill and a tape measure. Shovel snow away to see the ice color. Be extra careful near inlets, outlets, bridges, docks, springs, pressure ridges, dark spots, and anywhere water moves. River ice is far less predictable than lake ice because current eats it from below. Snow cover insulates ice and slows freezing, and its weight lowers how much the ice can carry."
+      },
+      {
+        "step": 3,
+        "title": "Carry the right safety gear",
+        "body": "Wear a life jacket or float coat when on the ice (except inside a vehicle) - the shock of cold water can disable even strong swimmers. Wear ice picks around your neck or in a chest pocket where you can reach them instantly. Carry a throw rope, a whistle, and a cell phone in a waterproof bag or a personal locator beacon. Never go out alone; tell someone your plans and return time. Keep children off ice unless an adult is right with them."
+      },
+      {
+        "step": 4,
+        "title": "If you break through, control your breathing",
+        "body": "The first minute after falling into icy water brings cold shock: gasping and rapid breathing. Keep your head up and focus on slowing your breathing so you do not inhale water. Do not take off your winter clothes - they trap air and help you float at first. Turn around in the water to face the direction you came from; the ice there held you a moment ago and is likely the strongest. Yell for help."
+      },
+      {
+        "step": 5,
+        "title": "Get out - picks, kick, and roll",
+        "body": "Put your arms up on the unbroken ice. Dig your ice picks (or keys, nails, or screwdrivers) into the ice and pull while kicking your legs hard behind you, like a swimmer, to slide your body forward onto the surface. Once your body is on the ice, do not stand up. Lie flat and roll away from the hole to spread your weight, then crawl back along the path you came on until you reach thicker ice or shore. If you cannot get out, keep your arms on the ice so that if you lose strength your clothes may freeze to it and keep your head up while you wait for help."
+      },
+      {
+        "step": 6,
+        "title": "Warm up right away",
+        "body": "Get to shelter, out of wind, and out of wet clothing as fast as you can. Put on dry clothes or wrap in blankets and drink warm, sweet fluids if fully alert. Shivering hard, confusion, slurred speech, or drowsiness signal hypothermia - get medical help. For moderate to severe hypothermia, handle the person gently and get them to a hospital; see the cold injury and hypothermia guides in the Medical category."
+      },
+      {
+        "step": 7,
+        "title": "Rescue someone else - Preach, Reach, Throw, Row, Don't Go",
+        "body": "Most would-be rescuers who run onto the ice fall in too. Use this order. PREACH: call 911 and shout to the person to keep calm and keep their arms on the ice. REACH: from shore or solid ice, extend a rope, ladder, branch, or pole - do not run to the edge of the hole. THROW: toss a rope or something that floats and tell them to hold on or tie it around themselves. ROW: if you have a lightweight boat, push it across the ice toward them while wearing a life jacket and ice picks. DON'T GO: do not walk out to them unless you are trained, equipped, and tied to a rope held by someone on solid footing."
+      }
+    ],
+    "warnings": [
+      "Ice is never completely safe - thickness can change within a few feet.",
+      "River ice, ice near inlets and outlets, and ice over springs or moving water are especially dangerous.",
+      "Do not run onto the ice to save someone - reach or throw instead.",
+      "Do not drive onto ice at the start or end of the season, or at all unless thickness has been checked along your route.",
+      "Cold-water shock can cause drowning in the first minute; wear flotation on the ice."
+    ],
+    "proTips": [
+      "Make simple ice picks from two wooden dowels with nails, joined by a cord through your jacket sleeves.",
+      "Drive with windows down and seat belts off on ice so you can get out fast if the vehicle breaks through.",
+      "Clear blue-black ice is the strongest; gray ice may contain water and should be avoided.",
+      "Check ice every 150 feet (45 m) or so, and more often near shorelines and structures."
+    ],
+    "relatedGuides": [
+      "env-003",
+      "shelter-008",
+      "fire-010",
+      "medical-015",
+      "env-009",
+      "medical-025",
+      "medical-028"
+    ],
+    "source": "Minnesota DNR / CDC",
+    "sources": [
+      {
+        "title": "Danger Thin Ice (2026)",
+        "publisher": "Minnesota Department of Natural Resources",
+        "url": "https://files.dnr.state.mn.us/education_safety/safety/ice/enf-0017-2026-dangerthinice-english-a11ys.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Caution paramount as ice season gets underway",
+        "publisher": "Minnesota Department of Natural Resources",
+        "url": "https://dnr.state.mn.us/news/2023/12/01/caution-paramount-ice-season-gets-underway",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Heat and Cold Illness in Travelers (Yellow Book)",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/heat-and-cold-illness-in-travelers.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.1",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not go on ice under 4 inches (10 cm) of clear ice, or on any ice during thaw, rain, or early/late season.",
+      "Avoid river ice and moving-water ice entirely unless locals and measurements confirm it is safe."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are on a frozen lake or river, or someone has fallen through the ice.",
+      "immediate": [
+        "If you fall in, slow your breathing and turn toward where you came from",
+        "Use ice picks and kick to slide out onto the ice",
+        "Lie flat and roll away from the hole"
+      ],
+      "then": [
+        "Get dry and warm right away",
+        "For someone else: call 911, reach or throw - do not go",
+        "Use 4 inches clear ice as the bare minimum for walking"
+      ]
+    }
+  },
+  {
+    "id": "env-011",
+    "category": "environment",
+    "title": "Avalanche Awareness for Non-Skiers and Travelers",
+    "priority": "advanced",
+    "tags": [
+      "avalanche",
+      "snow",
+      "winter travel",
+      "slope angle",
+      "snowshoeing",
+      "mountain roads",
+      "beacon"
+    ],
+    "summary": "Avalanches are not just a skier problem - snowshoers, hikers, snowmobilers, and people on mountain roads get caught too. Learn which slopes slide, the warning signs, and what to do if someone is buried.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Check the avalanche forecast first",
+        "body": "Before any winter trip into the mountains, check the regional avalanche center forecast through avalanche.org, along with the NWS weather forecast. Forecasts use a five-level danger scale from Low to Extreme and describe which slopes and elevations are most dangerous that day. If the danger is Considerable or higher and you do not have avalanche training, stay on low-angle terrain well away from steep slopes, or choose another day. Not every area has a forecast; where there is none, be even more conservative. Winter road closures for avalanche control exist for a reason - never drive around them."
+      },
+      {
+        "step": 2,
+        "title": "Learn which slopes avalanche",
+        "body": "Most avalanches start on slopes between about 30 and 45 degrees - about as steep as a black-diamond ski run or a steep staircase. Slopes from about 30 up to 50 degrees can slide, and the 35-45 degree range is the most common. Gentle slopes under 30 degrees rarely release on their own, but they are not safe if they sit below or connect to steeper slopes: an avalanche above can run down onto you. Valley floors, flat trails at the base of steep slopes, and narrow gullies are common places people get caught by slides they did not trigger."
+      },
+      {
+        "step": 3,
+        "title": "Know the red flags",
+        "body": "Treat any of these as a stop sign: recent avalanches on similar slopes; cracks shooting out from your feet or skis; a 'whumpf' sound or the snow collapsing under you; heavy new snow or rain in the last 24 hours (slides often release on the first clear day after a storm); strong wind blowing snow and building drifts and cornices on the downwind side of ridges; and rapid warming, especially when snow becomes wet and sloppy. Hollow, drum-like sounds on hard snow also signal danger. Weak layers deep in the snowpack can cause slides weeks after a storm, so a quiet-looking slope can still release."
+      },
+      {
+        "step": 4,
+        "title": "Choose routes that avoid avalanche terrain",
+        "body": "Stay on low-angle slopes and ridges, dense forest, or wide flat valleys well away from the run-out of steep slopes above. Avoid crossing open slopes, gullies, and bowls. Avoid terrain traps - places like gullies, cliffs, trees, and creek beds where even a small slide can bury you deep or slam you into objects. If you must cross a slope, do it one person at a time, quickly, from one safe spot to the next, while the others watch. Never stop to rest in the middle of a slope or at its bottom. Travel with a partner and tell someone your plan and return time."
+      },
+      {
+        "step": 5,
+        "title": "Carry rescue gear and know how to use it",
+        "body": "Anyone going into avalanche terrain needs a transceiver (beacon) turned on and worn on the body, a probe, and a shovel - and the training to use them. Gear in a pack you left at the car does nothing. Practice with your partners until you can find a buried beacon quickly. Take an avalanche awareness class or a formal course before traveling in steep winter terrain; many avalanche centers offer free or low-cost sessions."
+      },
+      {
+        "step": 6,
+        "title": "If you are caught",
+        "body": "Yell to alert your partners and try to get off the moving snow by moving to the side. Let go of poles and heavy gear if they drag you down. Fight to stay on the surface using strong swimming or rolling motions, and grab trees or rocks if you can. As the snow slows, push one hand toward the surface and use the other to make an air space in front of your face. Avalanche snow sets up like concrete once it stops, so this last moment matters most. Try to stay calm to save air."
+      },
+      {
+        "step": 7,
+        "title": "If someone is buried - search immediately",
+        "body": "Time is everything. Most avalanche deaths are from suffocation, and survival drops sharply after about 15 minutes - roughly 9 in 10 people dug out within 15 minutes survive, versus about a third by 35 minutes. Do not leave to get help if you are the only searchers; the buried person likely will not survive the wait. Make sure the slope above is safe, watch the spot where the person was last seen, switch beacons to search, and search downhill from that point. Probe to confirm and dig fast. Clear the airway first. Call 911 once a search is underway. Start CPR with rescue breaths if the person is not breathing (see medical-015) and protect them from the cold."
+      }
+    ],
+    "warnings": [
+      "Avalanches can run far onto flat ground below steep slopes - you do not have to be on a steep slope to be caught.",
+      "Do not travel in avalanche terrain without a beacon, probe, shovel, training, and a partner.",
+      "The first clear day after a big storm is often the most dangerous.",
+      "Never drive around avalanche road closures."
+    ],
+    "proTips": [
+      "A cheap slope meter or phone inclinometer app helps you learn what 30 degrees actually looks like.",
+      "If your snowshoe route crosses below big open slopes, choose a forested or valley route instead.",
+      "Check your partners' beacons at the trailhead every time.",
+      "Read the forecast's 'avalanche problem' section - it tells you which slopes and elevations to avoid."
+    ],
+    "relatedGuides": [
+      "env-003",
+      "env-004",
+      "shelter-003",
+      "medical-015",
+      "nav-001"
+    ],
+    "source": "NPS Lassen Volcanic / Sierra Avalanche Center / avalanche.org",
+    "sources": [
+      {
+        "title": "Avalanche Awareness Site Bulletin",
+        "publisher": "National Park Service (Lassen Volcanic)",
+        "url": "https://www.nps.gov/lavo/planyourvisit/upload/Avalanche-Awareness-site-bulletin-508.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Avalanche burial survival and rescue",
+        "publisher": "Sierra Avalanche Center",
+        "url": "https://www.sierraavalanchecenter.org/node/8875",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "This is awareness only - it does not prepare you to travel in avalanche terrain; take a formal course first.",
+      "Do not enter avalanche terrain when the forecast danger is Considerable or higher without training and experience."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are traveling in snowy mountains near steep slopes.",
+      "immediate": [
+        "Check the avalanche forecast at avalanche.org",
+        "Stay off and out from under slopes of 30-45 degrees",
+        "Stop and turn back at cracking, whumpfing, or recent slides"
+      ],
+      "then": [
+        "Carry beacon, probe, and shovel and know how to use them",
+        "If someone is buried, search immediately - minutes matter",
+        "Take an avalanche awareness course"
+      ]
+    }
+  },
+  {
+    "id": "env-012",
+    "category": "environment",
+    "title": "Lightning Safety Outdoors",
+    "priority": "critical",
+    "tags": [
+      "lightning",
+      "thunderstorm",
+      "camping",
+      "hiking",
+      "30-minute rule",
+      "weather"
+    ],
+    "summary": "There is no safe place outside in a thunderstorm. This guide covers planning around storms, getting to real shelter, what to do as a last resort when caught out, and helping someone who is struck.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Plan to avoid storms",
+        "body": "The National Weather Service is blunt: no place outside is safe when thunderstorms are in the area. Your best protection is not being out there. Check the forecast before outdoor plans and cancel or move activities when thunderstorms are expected. In the mountains and in many hot, humid areas, storms build in the afternoon, so do exposed activities early (see env-004). Know where your nearest real shelter is - a substantial building or a hard-topped vehicle - and how long it takes to get there. Watch the sky for towering, darkening clouds and listen for thunder."
+      },
+      {
+        "step": 2,
+        "title": "When thunder roars, go indoors",
+        "body": "If you can hear thunder, you are close enough to be struck - lightning can reach out many miles from a storm. At the first rumble, get to safe shelter right away. Safe shelter means an enclosed building with plumbing and wiring, or a hard-topped metal vehicle with the windows up. Picnic shelters, tents, dugouts, small sheds, open-sided pavilions, and convertibles or open vehicles are not safe. Do not wait for rain; lightning often strikes before the rain arrives and after it moves on."
+      },
+      {
+        "step": 3,
+        "title": "If caught out, get away from high and open ground",
+        "body": "If you cannot reach shelter, you can only lower your risk, not remove it. Immediately get off hills, ridges, and peaks. Get out of open fields and away from lone trees, poles, and anything that is the tallest object around. Do not shelter under a lone tree or in a shallow cave or rock overhang - lightning current can jump across the gap. If you are in a forest, move to a lower area among shorter trees. Never lie flat on the ground, which increases your contact with ground current."
+      },
+      {
+        "step": 4,
+        "title": "Get away from water and metal",
+        "body": "Get out of and away from lakes, ponds, rivers, and pools right away. If you are in a boat, head for shore before the storm arrives; if you cannot, crouch low in the boat, and once ashore, move well away from the water (the Forest Service suggests at least 100 yards). Put down metal items like fishing rods, metal-framed packs, and umbrellas. Stay away from fences, power lines, windmills, and other metal objects that can carry current from distant strikes. Get off bicycles, horses, and ATVs."
+      },
+      {
+        "step": 5,
+        "title": "Spread out groups and set up camp wisely",
+        "body": "When the risk is high and you are caught outside in a group, spread out at least 15 feet (5 m) apart so a single strike cannot injure everyone and others can help the victim. Keep in sight of each other. When camping in thunderstorm country, do not pitch your tent next to the tallest tree or on a ridge or open meadow. A tent offers no protection from lightning. If storms are forecast, choose a campsite in a lower, forested area away from water, or plan to sleep near a vehicle you can move into."
+      },
+      {
+        "step": 6,
+        "title": "The last-resort crouch - and its limits",
+        "body": "As a last resort in an open area, the Forest Service advises crouching low in the lowest spot you can find, with your feet together and head down, keeping as little of your body touching the ground as possible. Do not sit or lie down. Be aware that the NWS now stresses that crouching does not make you safe - it is only slightly better than standing. Use it only while you have no way to reach shelter, and keep moving toward safer ground between strikes if you can. The real fix is getting inside."
+      },
+      {
+        "step": 7,
+        "title": "Wait 30 minutes and help any victims",
+        "body": "Stay in shelter until 30 minutes after the last thunder or lightning. Many lightning injuries happen to people who go back out too soon as a storm seems to pass. If someone is struck, they do not carry an electrical charge and are safe to touch. Call 911 immediately. Check breathing and pulse; lightning often stops the heart, and quick CPR and an AED can save lives (see medical-015). If several people are hit, help the ones who appear lifeless first - people who are moving and talking usually survive. Check for burns and other injuries and keep the person warm."
+      }
+    ],
+    "warnings": [
+      "There is no safe place outside in a thunderstorm - the only real protection is a substantial building or hard-topped vehicle.",
+      "Tents, picnic shelters, lone trees, and caves do not protect you from lightning.",
+      "Do not go back outside until 30 minutes after the last thunder.",
+      "Never lie flat on the ground during a lightning storm.",
+      "Get off and away from water at the first sign of a storm."
+    ],
+    "proTips": [
+      "Count seconds from flash to bang; under 30 seconds means the storm is about 6 miles (10 km) away or closer - seek shelter now.",
+      "Set a group rule before the trip: first thunder means everyone heads to the planned shelter, no debate.",
+      "In the mountains, being below treeline by noon avoids most summer storms.",
+      "Lightning victims who appear dead may be saved by immediate CPR - do not give up early."
+    ],
+    "relatedGuides": [
+      "env-004",
+      "medical-015",
+      "env-013",
+      "env-008",
+      "dis-002",
+      "medical-029"
+    ],
+    "source": "NWS / USDA Forest Service",
+    "sources": [
+      {
+        "title": "Lightning Safety Overview",
+        "publisher": "National Weather Service",
+        "url": "https://www.weather.gov/safety/lightning-safety-overview",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lightning Safety Tips",
+        "publisher": "National Weather Service",
+        "url": "https://www.weather.gov/safety/lightning-tips",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lightning - Know Before You Go",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/visit/know-before-you-go/lightning",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not rely on the crouch position if any real shelter is within reach - go there instead.",
+      "Do not shelter in tents, open pavilions, or caves expecting lightning protection."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Thunder is audible or a thunderstorm is approaching while you are outdoors.",
+      "immediate": [
+        "Get to a building or hard-topped vehicle now",
+        "If caught out, get off peaks, open ground, and away from water",
+        "Spread a group at least 15 feet apart"
+      ],
+      "then": [
+        "Wait 30 minutes after the last thunder",
+        "Lightning victims are safe to touch - call 911 and start CPR if needed"
+      ]
+    }
+  },
+  {
+    "id": "env-013",
+    "category": "environment",
+    "title": "Flash Floods in Canyons, Washes, and Low Ground",
+    "priority": "critical",
+    "tags": [
+      "flash flood",
+      "canyon",
+      "slot canyon",
+      "wash",
+      "arroyo",
+      "monsoon",
+      "high ground"
+    ],
+    "summary": "Flash floods can roar down canyons and dry washes in minutes, often from storms you cannot see. Learn to read the forecast, recognize the warning signs, pick safe camps, and get to high ground fast.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand how flash floods happen",
+        "body": "A thunderstorm miles upstream can dump heavy rain on bare rock and dry soil that cannot soak it up. That water funnels into canyons, washes, arroyos, and small streams and arrives downstream as a wall of muddy water, rocks, and logs - sometimes under blue sky where you stand. Narrow slot canyons are the most dangerous because there is no way to climb out and the water rises fastest. Burn scars from recent wildfires also flood far more easily. You cannot outrun a flash flood, so the whole plan is to not be in its path."
+      },
+      {
+        "step": 2,
+        "title": "Check the forecast and flash flood potential",
+        "body": "Before entering any canyon, wash, or low area, check the NWS forecast for the whole drainage, not just your spot, and any Flash Flood Watch or Warning. Many canyon parks post a flash flood potential rating - Not Expected, Possible, Probable, or Expected. Take 'Possible' and above seriously and pick routes that avoid narrow canyons, dry washes, and small streams. Even when flooding is 'Not Expected', it can still happen. A rain chance percentage describes how much of the forecast area will get rain, not your odds of staying dry. Stop at a visitor center, leave your itinerary with someone, and carry extra food, water, and warm layers in case you are stuck for hours."
+      },
+      {
+        "step": 3,
+        "title": "Watch for the warning signs",
+        "body": "Pay attention to the sky and the water the entire time you are in low ground. Signs a flood may be coming: building clouds or thunder in any direction, especially upstream; water turning from clear to muddy; floating sticks, leaves, and debris; water rising or the current getting stronger; and a growing roar or rumble from upstream. Any one of these means act now - do not wait to confirm it."
+      },
+      {
+        "step": 4,
+        "title": "Get to high ground immediately",
+        "body": "At the first sign of a flood, climb to higher ground as fast as you can. Do not stop to pack up gear or take photos. Climb up the side of the canyon or wash, as high as you safely can, well above the high-water line - look for debris, mud lines, and driftwood stuck on walls or trees to see how high water has reached before. Do not try to run down the canyon ahead of the water. Do not try to cross or enter floodwater. Stay high and be patient - floodwater can take hours to drop to safe levels."
+      },
+      {
+        "step": 5,
+        "title": "Camp and park out of the flood path",
+        "body": "Never camp, park, or sleep in a dry wash, creek bed, or canyon bottom, even if the sky is clear when you go to bed. Choose sites on benches well above the high-water line and away from the mouth of side canyons. At night you will not see or hear a flood coming until it is too late. If you are parked in a low area and heavy rain starts nearby, move the vehicle to higher ground right away."
+      },
+      {
+        "step": 6,
+        "title": "Never drive or walk into floodwater",
+        "body": "Just 6 inches (15 cm) of moving water can knock an adult off their feet, and 12-24 inches (30-60 cm) can float and sweep away most vehicles. Water over a road may hide a washed-out road surface. The NWS slogan is 'Turn Around, Don't Drown'. In desert country, flooded dips and low-water crossings on dirt roads trap many drivers each year. Wait it out; desert floods usually drop within hours. For flooding in towns and long-duration floods, see dis-004."
+      },
+      {
+        "step": 7,
+        "title": "After the flood passes",
+        "body": "Stay out of the canyon or wash until water levels are back to normal and the forecast is clear; a second storm can follow. Watch for undercut banks, quicksand-like mud, new debris jams, and loose rock on canyon walls. Floodwater carries sewage, chemicals, and dead animals - do not drink it, and wash cuts with clean water (see water-014). If anyone is missing, call 911 and do not enter moving water to search."
+      }
+    ],
+    "warnings": [
+      "You cannot outrun a flash flood - climb up, do not run down-canyon.",
+      "Storms miles away can flood your canyon under clear skies.",
+      "Never enter a slot canyon when thunderstorms are possible in the area.",
+      "Six inches of moving water can knock you down; a foot or two can carry away a car.",
+      "Never camp in a wash or dry creek bed."
+    ],
+    "proTips": [
+      "Before entering a canyon, note escape routes - ledges or side slopes you can climb in seconds.",
+      "Look up-canyon at the sky every few minutes; that is where your flood will come from.",
+      "Monsoon season in the U.S. Southwest runs roughly from mid-June through September - plan canyon trips with that in mind.",
+      "Carry a light and warm layer in canyons; waiting out a flood on a ledge can take all night."
+    ],
+    "relatedGuides": [
+      "dis-004",
+      "env-001",
+      "env-009",
+      "env-012",
+      "water-014"
+    ],
+    "source": "NPS Zion / National Weather Service",
+    "sources": [
+      {
+        "title": "Flash Floods - Zion National Park",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/zion/planyourvisit/flash-flood.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not enter narrow canyons at all when the flash flood potential is Possible or higher.",
+      "Do not try to cross or wade a wash with moving water to reach your car - wait on high ground."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are in or near a canyon, wash, or low ground and storms are possible.",
+      "immediate": [
+        "Climb to high ground at the first sign: muddy water, debris, rising water, or a roar",
+        "Do not stop to pack up",
+        "Never enter or cross floodwater"
+      ],
+      "then": [
+        "Stay high for hours until water drops",
+        "Camp and park well above the high-water line",
+        "Check the flash flood potential before you go"
+      ]
+    }
+  },
+  {
+    "id": "env-014",
+    "category": "environment",
+    "title": "Bear Encounters - Black vs Grizzly, Bear Spray, and Food Storage",
+    "priority": "critical",
+    "tags": [
+      "bears",
+      "grizzly",
+      "black bear",
+      "brown bear",
+      "bear spray",
+      "food storage",
+      "wildlife"
+    ],
+    "summary": "How to avoid surprising bears, what to do in an encounter, how responses differ for black bears and grizzly/brown bears, how to carry and use bear spray, and how to store food so bears never get it.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Avoid surprising a bear",
+        "body": "Most bear attacks happen when a bear is surprised at close range, especially a mother with cubs or a bear on a food source. Make noise as you hike - talk, call out 'hey bear' near blind corners, streams, and thick brush. Hike in groups; groups are louder and bears notice them sooner. Watch for fresh sign: tracks, scat, torn-up logs, dug-up ground, and animal carcasses. Leave the area if you find a carcass, since a bear may be guarding it. Hike in daylight, keep dogs leashed or at home, and never come between a mother and her cubs. Keep at least 100 yards (91 m) from bears where parks require it."
+      },
+      {
+        "step": 2,
+        "title": "Carry bear spray where you can reach it",
+        "body": "In bear country, each person should carry their own can of bear spray in a hip or chest holster - not inside a pack. Buy only EPA-registered spray labeled 'Bear Spray' or 'Bear Deterrent' with at least 7.9 oz (225 g) of product; human pepper spray is not a substitute. Check the expiration date. Keep a can next to your flashlight in the tent and one in the cooking area. On long trips, consider two cans. Practice drawing it and removing the safety clip with an inert training can. Check whether the park you visit allows it."
+      },
+      {
+        "step": 3,
+        "title": "If you see a bear, stay calm and identify yourself",
+        "body": "Stop. Stay calm and do not run - running can trigger a chase, and bears can outrun any human. Speak in a low, calm voice and slowly wave your arms so the bear knows you are a human. Pick up small children right away. Keep your group together and make yourselves look large. If the bear is not moving, back away slowly and sideways, keeping an eye on it, and leave it an escape route. Do not climb a tree - both black and grizzly bears can climb. If the bear follows, stop and hold your ground. A bear standing up is usually just trying to see or smell you."
+      },
+      {
+        "step": 4,
+        "title": "If a bear charges, use your spray",
+        "body": "Many charges are bluffs that stop short or veer away, but get your spray out and remove the safety as soon as a bear approaches. When the charging bear is within about 30 feet (9 m) - most sprays reach 20-30 feet - aim slightly down in front of the bear and spray a cloud it must run through, adjusting for wind. Keep spraying until the bear turns away. Then leave the area promptly without running, or get into a vehicle or building. Do not chase the bear. Spray is not a repellent - never spray it on yourself, your tent, or gear."
+      },
+      {
+        "step": 5,
+        "title": "If a grizzly or brown bear attacks - play dead",
+        "body": "If a grizzly or brown bear makes contact in a surprise or defensive attack, leave your pack on to protect your back and play dead. Lie flat on your stomach, clasp your hands behind your neck, and spread your legs so it is hard to flip you over. Stay still and quiet until you are sure the bear has left the area. If the bear keeps attacking or starts to eat you, fight back as hard as you can, hitting at its face and muzzle."
+      },
+      {
+        "step": 6,
+        "title": "If a black bear attacks - fight back",
+        "body": "Do not play dead with a black bear. Try to escape to a secure place like a car or building. If you cannot, fight back with everything you have - rocks, sticks, trekking poles, fists - aimed at the face and muzzle. For any species, if a bear attacks you in your tent or stalks you and then attacks, fight back: it may see you as food. Note that 'black' and 'brown' describe species, not color - black bears can be brown or cinnamon. Grizzlies typically have a shoulder hump and a dished face profile. After any attack, get medical care and report it to rangers (see medical-052 for animal bites)."
+      },
+      {
+        "step": 7,
+        "title": "Store food so bears never get it",
+        "body": "A bear that gets human food learns to seek people out and often has to be killed. Store all food, trash, toiletries, and anything with a scent - sunscreen, insect repellent, lip balm, toothpaste, deodorant, medicines, and pet food - in a bear-resistant canister, locker, or proper hang where required. Cook, eat, and store the canister at least 100 yards (91 m) downwind of your tent. Set canisters on the ground hidden among rocks or brush, away from cliffs and water, and keep them closed. Do not sleep in clothes you cooked in. Pack out all trash; never burn or bury food scraps. Follow the food storage rules for the area you visit."
+      }
+    ],
+    "warnings": [
+      "Never run from a bear - it can trigger a chase.",
+      "Do not play dead with a black bear; fight back.",
+      "Play dead only for a defensive grizzly/brown bear attack - fight back if it continues or if any bear attacks in your tent.",
+      "Human pepper spray is not bear spray; use only EPA-registered bear spray.",
+      "Never keep food or scented items in your tent."
+    ],
+    "proTips": [
+      "Practice a fast draw with an inert training can until it takes you under 2 seconds.",
+      "Ask rangers about recent bear activity and closures before you go.",
+      "Keep your bear spray out of a hot car - heat can damage the can.",
+      "Use odor-proof bags inside your canister to cut down on smells."
+    ],
+    "relatedGuides": [
+      "env-015",
+      "medical-052",
+      "env-005",
+      "shelter-005",
+      "children-005"
+    ],
+    "source": "NPS / Interagency Grizzly Bear Committee",
+    "sources": [
+      {
+        "title": "Staying Safe Around Bears",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/subjects/bears/safety.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "IGBC Bear Spray Guidelines",
+        "publisher": "Interagency Grizzly Bear Committee",
+        "url": "https://igbconline.org/bear-spray/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How Do I Use a Bear Canister?",
+        "publisher": "National Park Service (Grand Teton)",
+        "url": "https://www.nps.gov/grte/planyourvisit/bear_canisters.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not play dead during a black bear attack or a predatory/tent attack by any bear.",
+      "Do not use bear spray as a repellent on people, tents, or gear."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You see a bear on the trail or in camp, or a bear is approaching or charging.",
+      "immediate": [
+        "Stop, stay calm, and do not run",
+        "Talk calmly, group up, and pick up small children",
+        "Draw bear spray and spray a charging bear at about 30 feet"
+      ],
+      "then": [
+        "Grizzly defensive attack: play dead face-down; black bear: fight back",
+        "Store all food and scented items 100 yards downwind in a bear canister"
+      ]
+    }
+  },
+  {
+    "id": "env-015",
+    "category": "environment",
+    "title": "Mountain Lions, Moose, Wolves, and Coyotes",
+    "priority": "advanced",
+    "tags": [
+      "mountain lion",
+      "cougar",
+      "moose",
+      "wolves",
+      "coyotes",
+      "wildlife",
+      "encounter"
+    ],
+    "summary": "Each of these animals calls for a different response. Stand tall and fight a lion, run from a moose, and haze wolves and coyotes. This guide covers prevention and what to do in each encounter.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Prevent encounters with all wildlife",
+        "body": "Most wildlife avoids people. Keep it that way: hike in groups and make normal noise, keep children close and in sight, and keep dogs leashed or at home - dogs can provoke moose and attract wolves and coyotes. Be most alert at dawn and dusk. Never feed wildlife, and store food and trash securely (see env-014); fed animals lose their fear of people and become dangerous. Give every large animal plenty of room, and use binoculars or a zoom lens instead of moving closer. Report aggressive animals and close encounters to rangers or wildlife officials."
+      },
+      {
+        "step": 2,
+        "title": "Mountain lion - do not run, look big",
+        "body": "If you see a mountain lion (cougar), do not approach it, and give it a way to escape. Do not run - running can trigger a chase. Stand your ground, face the lion, and make eye contact. Do not crouch or bend over, which makes you look like four-legged prey; pick up small children without bending down or turning away. Make yourself look as big as possible: raise your arms, open your jacket, and wave slowly. Speak firmly and loudly. If it acts aggressively, throw stones or branches - but only if you can reach them without crouching or turning your back."
+      },
+      {
+        "step": 3,
+        "title": "Mountain lion attack - fight back",
+        "body": "If a mountain lion attacks, fight back with everything you have. Stay on your feet and face the animal. Lions usually go for the head and neck, so protect them. People have successfully fought off lions with rocks, sticks, trekking poles, jackets, and bare hands. Do not play dead. Once the lion leaves, get to safety, control bleeding (see medical-002 and medical-003 if needed), and seek medical care for every bite or scratch because of infection and rabies risk (see medical-052)."
+      },
+      {
+        "step": 4,
+        "title": "Moose - back off and run if it charges",
+        "body": "Moose are large, fast, and easily provoked. They are especially dangerous when a cow has calves, during the fall rut, when stressed by deep snow, or when harassed by dogs. Warning signs of a charge: ears laid back, hackles (the hair on the hump) raised, lip licking, and stomping. If a moose has not seen you, move away quietly. If it has, talk softly and back away slowly. If it charges, run - unlike with bears, running from a moose is the right move - and get behind something solid like a large tree, boulder, or vehicle. Most charges are bluffs, but treat every one as real."
+      },
+      {
+        "step": 5,
+        "title": "If a moose knocks you down",
+        "body": "If a moose knocks you down, curl into a ball, cover your head with your arms, and stay still. Do not fight back - it can tell the moose you are still a threat. Stay down and still until the moose has moved well away; getting up too soon can trigger a second attack. Then get to safety and get checked for injuries, since kicks and stomps can cause internal injuries that are not obvious at first."
+      },
+      {
+        "step": 6,
+        "title": "Wolves - stand tall, group up, and fight if attacked",
+        "body": "Wolf attacks on people are rare, but wolves that are used to people or attracted by dogs can approach. If you see a wolf, do not run or crouch. Keep your group together and pick up small children. Back away slowly while watching the animal. If it approaches, act big and loud: yell, wave your arms, use an air horn, and throw sticks or stones. If a wolf becomes aggressive, use bear spray and fight back. Keep dogs close or leave them home, since wolves may see them as rivals or prey."
+      },
+      {
+        "step": 7,
+        "title": "Coyotes - haze them away",
+        "body": "Coyotes live almost everywhere, including cities, and attacks on people are uncommon but do happen, often involving small children or pets. If a coyote comes near, haze it: yell, stomp, wave your arms, look big, and keep eye contact. If it does not leave, step toward it and repeat; throw small objects near it. Do not turn and run. Pick up small dogs and children. Remove attractants around camp or home - pet food, water bowls, trash, and fallen fruit. If anyone is bitten or scratched, wash the wound well and get emergency care right away, since rabies shots may be needed (see medical-052)."
+      }
+    ],
+    "warnings": [
+      "Never run from a mountain lion, wolf, or coyote - it can trigger a chase.",
+      "Do run from a charging moose and get behind something solid.",
+      "Do not fight a moose that has knocked you down; curl up and stay still until it leaves.",
+      "Fight back against a mountain lion or wolf attack - do not play dead.",
+      "Any bite or scratch from a wild mammal needs medical evaluation for rabies."
+    ],
+    "proTips": [
+      "Remember the short version: lions - stand big and fight; moose - run and hide behind a tree; wolves and coyotes - group up and haze.",
+      "Parks Canada advises carrying bear spray within easy reach in wolf country, not just bear country.",
+      "Moose often bed down in willow thickets near water; scan ahead before walking through.",
+      "In winter, give moose on plowed roads and trails extra room - deep snow makes them irritable."
+    ],
+    "relatedGuides": [
+      "env-014",
+      "medical-052",
+      "medical-002",
+      "children-005",
+      "env-016"
+    ],
+    "source": "NPS / Parks Canada / San Diego County Animal Services",
+    "sources": [
+      {
+        "title": "Mountain Lion Safety",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/articles/mountain-lion-safety.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Moose Safety - Wrangell-St. Elias",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/wrst/planyourvisit/moose-safety.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Wolf activity bulletin - Pacific Rim National Park Reserve",
+        "publisher": "Parks Canada",
+        "url": "https://parks.canada.ca/pn-np/bc/pacificrim/bulletins/745610d9-0ba0-4921-b360-9c1c6f550d81",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Stay Safe if You Encounter a Coyote",
+        "publisher": "San Diego County News Center",
+        "url": "https://www.countynewscenter.com/how-to-stay-safe-if-you-encounter-a-coyote/amp/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not apply moose advice (run) to lions, wolves, or coyotes, or lion advice (fight) to a moose that has knocked you down.",
+      "Do not approach any wild animal for photos or to feed it."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A mountain lion, moose, wolf, or coyote is near you or acting aggressively.",
+      "immediate": [
+        "Lion: stand tall, face it, do not run or crouch",
+        "Moose: back away; if it charges, run and get behind a tree or car",
+        "Wolf or coyote: group up, look big, yell, and haze"
+      ],
+      "then": [
+        "Fight back if a lion or wolf attacks",
+        "Curl up and stay still if a moose knocks you down",
+        "Get medical care for any bite or scratch"
+      ]
+    }
+  },
+  {
+    "id": "env-016",
+    "category": "environment",
+    "title": "Alligators, Crocodiles, and Dangerous Marine Life",
+    "priority": "advanced",
+    "tags": [
+      "alligator",
+      "crocodile",
+      "jellyfish",
+      "stingray",
+      "shark",
+      "marine life",
+      "Florida",
+      "water safety"
+    ],
+    "summary": "How to stay safe around alligators and crocodiles in fresh and brackish water, and how to avoid and respond to jellyfish, stingrays, sharks, and other hazards in coastal water.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know where alligators and crocodiles live",
+        "body": "American alligators live in fresh and slightly brackish water across the southeastern U.S., from the Carolinas to Texas, in lakes, rivers, canals, ponds, golf course ponds, and swamps. American crocodiles live only in south Florida, mostly in brackish and salt water. In other parts of the world, saltwater and Nile crocodiles are far more aggressive than American species - follow local warnings strictly when traveling. Assume any body of fresh water in alligator country could hold one, even small retention ponds. Serious alligator injuries are rare in Florida, but they are usually preventable."
+      },
+      {
+        "step": 2,
+        "title": "Keep your distance and never feed them",
+        "body": "Stay at least 15 feet (4.5 m) from alligators and crocodiles. If one hisses or opens its mouth at you, you are too close - back away slowly. They are most active from dusk to dawn, so avoid the water's edge then. Never feed them; it is illegal in Florida and many other places, and fed alligators lose their fear of people and become dangerous. Do not throw things at or harass them. Dispose of fish scraps in trash cans, not in the water. Report an alligator that threatens people, pets, or property to the state wildlife agency - in Florida, call the FWC nuisance alligator hotline at 866-392-4286."
+      },
+      {
+        "step": 3,
+        "title": "Protect children, pets, and yourself near the water",
+        "body": "Swim only in designated swimming areas and only during daylight. Keep small children close at all times near water, and never let them play at the edge of a pond or canal unattended. Keep dogs leashed and away from the water's edge; to an alligator, a small dog looks like prey, and dogs splashing near shore can draw them in. Do not wade or let pets drink from water where alligators may be. When fishing, stay back from the shoreline and do not clean fish at the water's edge."
+      },
+      {
+        "step": 4,
+        "title": "If an alligator grabs you - fight back",
+        "body": "If an alligator bites or grabs you, fight back hard - do not play dead. Hit or poke at its eyes and snout, and make as much noise as possible. If it has hold of a limb, try to keep it from rolling you underwater and keep fighting. Once free, get away from the water quickly. Any bite needs emergency care right away because of severe tissue damage and high infection risk. Call 911, control bleeding (see medical-002 and medical-003), and keep the wound clean."
+      },
+      {
+        "step": 5,
+        "title": "Avoid jellyfish and stingrays",
+        "body": "Jellyfish, including the Portuguese man-of-war and box jellyfish, can sting even when washed up dead on the beach - never touch them. Be extra careful when you see many near shore, especially after storms or during seasonal blooms, and check beach flags and advisories. Stingrays lie buried in sand in shallow water and sting when stepped on. Shuffle your feet as you wade (the 'stingray shuffle') so they feel you coming and swim away. Wear water shoes in murky or rocky water to protect against stingrays, sea urchins, coral, and broken shells."
+      },
+      {
+        "step": 6,
+        "title": "Respond to stings",
+        "body": "For a jellyfish sting, get out of the water, rinse the area with seawater (not fresh water, which can make stinging cells fire), and carefully remove any tentacles with tweezers or a gloved hand. Follow local lifeguard or health guidance on rinses for the species in your area. For a stingray wound, rinse it, then soak it in water as hot as the person can comfortably stand without burning - heat often eases the pain - and get medical care, since pieces of barb may remain and wounds get infected. Call 911 for trouble breathing, swelling of the face or throat, chest pain, a sting over a large area, or a box jellyfish sting (see medical-042 for anaphylaxis)."
+      },
+      {
+        "step": 7,
+        "title": "Lower your risk from sharks",
+        "body": "Shark bites are rare, and sharks seldom target people unless provoked or confused. Lower the odds further: swim in groups near a lifeguard; stay out of the water at dawn, dusk, and night; avoid murky water, river mouths, and areas with people fishing, bait, or schools of fish; skip shiny jewelry; and do not swim with bleeding wounds. Watch sharks from a distance and never try to touch or feed them. If a shark approaches, move calmly toward shore or a boat while keeping it in view. If attacked, fight back by hitting its eyes, gills, and snout. Get the person out of the water and control bleeding fast."
+      }
+    ],
+    "warnings": [
+      "Never feed alligators, crocodiles, or sharks - it is illegal in many places and makes them dangerous.",
+      "Stay at least 15 feet from alligators and crocodiles; a hissing animal means you are too close.",
+      "Keep children and dogs away from the edge of any freshwater pond or canal in alligator country.",
+      "Do not rinse jellyfish stings with fresh water.",
+      "Trouble breathing or facial swelling after a sting is a 911 emergency."
+    ],
+    "proTips": [
+      "Ask lifeguards each day about jellyfish and stingrays - conditions change with wind, tide, and season.",
+      "Carry a small bottle of vinegar only if local guidance recommends it for your area's jellyfish.",
+      "Alligator eyes reflect red in a flashlight beam at night - scan the shoreline before walking near water after dark.",
+      "Use a flagged 'water watcher' adult for kids at any beach, lake, or pond."
+    ],
+    "relatedGuides": [
+      "env-006",
+      "env-008",
+      "medical-042",
+      "medical-002",
+      "env-015"
+    ],
+    "source": "NPS Everglades / Florida FWC / Florida Dept. of Health",
+    "sources": [
+      {
+        "title": "Everglades National Park - Safety",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/ever/planyourvisit/safety.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Alligator Safety Tips for People and Pets",
+        "publisher": "Florida Fish and Wildlife Conservation Commission",
+        "url": "https://myfwc.com/conservation/you-conserve/wildlife/alligators/pet-safety/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Marine Life Hazards",
+        "publisher": "Florida Department of Health",
+        "url": "https://floridahealth.gov/PROGRAMS-AND-SERVICES/emergency-preparedness-and-response/prepare-yourself/current-hazards/marine-hazards/marine-life.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not apply American alligator advice to saltwater or Nile crocodiles abroad - avoid their water entirely and follow local rules.",
+      "Do not handle or relocate an alligator yourself - call wildlife authorities."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are near fresh water in alligator country or wading and swimming in coastal water.",
+      "immediate": [
+        "Stay 15+ feet from alligators and crocodiles",
+        "Keep kids and dogs away from the water's edge",
+        "Shuffle your feet when wading for stingrays"
+      ],
+      "then": [
+        "Fight back if an alligator or shark grabs you",
+        "Rinse jellyfish stings with seawater, not fresh water",
+        "Call 911 for breathing trouble or a serious bite"
+      ]
+    }
+  }
+]

@@ -1,0 +1,1940 @@
+[
+  {
+    "id": "home-001",
+    "category": "home",
+    "title": "Heating Your Home Safely Without Power",
+    "priority": "critical",
+    "tags": [
+      "home",
+      "heating",
+      "carbon monoxide",
+      "winter",
+      "power outage",
+      "fire safety",
+      "space heater"
+    ],
+    "summary": "How to stay warm at home when the power or gas is out without poisoning your family with carbon monoxide or starting a fire. Use it before and during any winter outage.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know what never goes indoors",
+        "body": "Carbon monoxide (CO) is a colorless, odorless gas that kills people every winter during outages. Never use any of these to heat a home: a gas stovetop or oven, a charcoal grill or hibachi, a camp stove, a propane patio heater, a clothes dryer, a portable generator, or a running car in an attached garage, even with the garage door open. Opening a window does not make these safe. CDC and CPSC both list a gas range or oven as a heat source you must never use. Sleeping people and people who have been drinking can die before they notice any symptoms, so the rule has no exceptions."
+      },
+      {
+        "step": 2,
+        "title": "Install and test CO and smoke alarms first",
+        "body": "Before you light anything, make sure you have working alarms. Put a CO alarm on every level of the home and outside each sleeping area, and smoke alarms on every level and inside every bedroom (CPSC 2026 guidance). Hard-wired alarms go dead in an outage unless they have a battery backup, so check that they do. Test alarms monthly and keep spare batteries in your kit. If a CO alarm sounds, get everyone outside to fresh air at once and call 911 from outside. Do not go back in to find the source."
+      },
+      {
+        "step": 3,
+        "title": "Hold heat in before you add heat",
+        "body": "The cheapest heat is the heat you already have. Pick one room to live in, ideally on the sunny side with few windows, and close doors to every other room. Hang blankets over doorways and windows at night, and open curtains on sunny windows during the day. Roll towels against door gaps. Dress everyone in loose layers with a hat and warm socks, sleep together in one room under extra blankets, and eat regular meals and warm drinks. Do not seal the room so tightly that a fuel-burning heater has no fresh air."
+      },
+      {
+        "step": 4,
+        "title": "Use an approved fuel-burning heater only as designed",
+        "body": "If you use a fireplace, wood stove, or a heater made for indoor use, follow the maker's instructions exactly. For a kerosene heater, buy one listed by a recognized testing lab with automatic shut-off, check that it is legal where you live, crack a window for fresh air, and refuel it only outdoors after it has cooled. Never put gasoline in a kerosene heater. Keep a screen in front of an open fire, never close the fireplace damper while ashes are hot, and have chimneys inspected and cleaned each year. Do not burn charcoal, trash, or treated wood indoors."
+      },
+      {
+        "step": 5,
+        "title": "Keep the 3-foot rule",
+        "body": "Keep anything that can burn at least 3 feet (1 m) from any heater, stove, or fireplace: beds, curtains, clothing, furniture, paper, and kids' toys. Make the 3-foot zone a no-play area for children and pets. Plug electric space heaters straight into a wall outlet, never into an extension cord or power strip, and turn them off when you leave the room or go to sleep. Never dry clothes or mittens on a heater. Store cooled ashes in a metal can with a lid, outdoors, at least 10 feet (3 m) from the house, because ashes can hold heat for days."
+      },
+      {
+        "step": 6,
+        "title": "Watch for CO symptoms around the clock",
+        "body": "Early CO poisoning feels like the flu: headache, dizziness, weakness, upset stomach, vomiting, chest pain, and confusion. A clue is that several people or pets feel sick at once and feel better after leaving the house. If anyone has these signs, turn off fuel-burning appliances if you can do it quickly, get everyone into fresh air, and call 911 or Poison Control at 1-800-222-1222. Anyone who passed out, is pregnant, or has chest pain needs medical care even if they feel better outside."
+      },
+      {
+        "step": 7,
+        "title": "Know when to leave",
+        "body": "If you cannot keep your living space safely warm, go somewhere that is. Stay with friends or family, or go to a public warming center or shelter (listen to local radio or check official alerts for locations). Older adults, infants, and people with medical conditions get cold fast, so move them early. If you stay, check on neighbors who live alone. Leaving a cold house beats risking CO poisoning from an unsafe heat source."
+      }
+    ],
+    "warnings": [
+      "Never heat your home with a gas oven or stovetop, grill, camp stove, generator, or running vehicle - CO can kill within minutes.",
+      "Opening a window or door does not make an outdoor fuel-burning device safe to use indoors.",
+      "Hard-wired smoke and CO alarms without battery backup stop working when the power fails.",
+      "Never refuel a kerosene heater indoors or while hot, and never use gasoline in it.",
+      "Space heaters plugged into extension cords or power strips are a leading cause of heating fires."
+    ],
+    "proTips": [
+      "A small tent or blanket fort set up inside your warm room traps body heat and can raise sleeping temperature several degrees.",
+      "Fill bottles with hot water from a safe stove, wrap them in a sock, and put them in sleeping bags.",
+      "Buy CO alarms listed to UL 2034 and write the install date on the back; replace them when the maker says.",
+      "Keep a fire extinguisher in the room with any stove or fireplace and make sure everyone knows how to use it."
+    ],
+    "relatedGuides": [
+      "fire-013",
+      "medical-047",
+      "home-006",
+      "home-016",
+      "food-011",
+      "shelter-007"
+    ],
+    "source": "CPSC / CDC / U.S. Fire Administration",
+    "sources": [
+      {
+        "title": "CPSC Issues Winter Weather Safety Tips to Prevent Fires and Carbon Monoxide Poisoning",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Issues-Winter-Weather-Safety-Tips-to-Prevent-Fires-and-Carbon-Monoxide-Poisoning",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Preventing Carbon Monoxide Poisoning After an Emergency",
+        "publisher": "CDC",
+        "url": "https://stacks.cdc.gov/view/cdc/6960/cdc_6960_DS1.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Heating Fire Safety",
+        "publisher": "U.S. Fire Administration (FEMA)",
+        "url": "https://www.usfa.fema.gov/downloads/pdf/publications/heating-fire-safety-handout.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Extreme Cold Safety",
+        "publisher": "National Weather Service",
+        "url": "https://www.weather.gov/media/aly/PSAs/ExtremeCold.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use any fuel-burning heater that is not labeled for indoor use, no matter how cold it gets.",
+      "Do not try to heat a home with a damaged chimney, cracked stove, or after an earthquake until it has been inspected.",
+      "Do not stay in a home you cannot keep safely warm when a warming center is reachable."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "The power or gas is out in cold weather and the house is getting colder.",
+      "immediate": [
+        "Never use a gas oven, grill, camp stove, generator, or car to heat the home.",
+        "Check that CO and smoke alarms have working batteries.",
+        "Move everyone into one small room and close it off with blankets."
+      ],
+      "then": [
+        "Use only indoor-rated heaters, 3 feet from anything that burns.",
+        "Get to fresh air and call 911 if anyone has headache, dizziness, or nausea.",
+        "Go to a warming center if you cannot stay safely warm."
+      ]
+    }
+  },
+  {
+    "id": "home-002",
+    "category": "home",
+    "title": "Staying Cool Without Power",
+    "priority": "critical",
+    "tags": [
+      "home",
+      "heat",
+      "heat stroke",
+      "power outage",
+      "summer",
+      "cooling",
+      "fans"
+    ],
+    "summary": "How to keep your household safe when a heat wave hits and the air conditioning is out, including when fans stop helping and how to spot heat stroke. Use it during any summer outage.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Block the heat before it gets in",
+        "body": "Close blinds, shades, and curtains on windows that get direct sun, especially east windows in the morning and west windows in the afternoon. Reflective window film or foil-faced board taped to the outside of a sunny window works even better. Keep doors to hot rooms shut. If the air outside is cooler than inside (usually at night and early morning), open windows on opposite sides of the house to pull a cross-breeze through, then close them and the curtains once the outside air warms up again. Live on the lowest floor; basements and ground floors stay coolest."
+      },
+      {
+        "step": 2,
+        "title": "Cool bodies, not rooms",
+        "body": "Without AC you cannot cool the whole house, so cool people directly. Take cool showers or baths, or wipe down with a cold wet cloth. Soak your feet or forearms in a basin of cool water. Wear light-colored, loose, lightweight clothing. Put a damp cloth on the back of the neck. At night, sleep in the coolest room on a cotton sheet, and mist skin with a spray bottle. CDC lists a cold shower or bath and a damp cloth as top ways to cool off during a hot-weather outage."
+      },
+      {
+        "step": 3,
+        "title": "Use fans the right way",
+        "body": "Battery or USB fans move air and help sweat dry, but they do not lower the air temperature. CDC advises using fans only when indoor temperatures are below 90 degrees F (32 C); above that, a fan blowing hot air can actually raise body temperature. Other health groups put the cutoff in the mid-90s F. Above about 90 F indoors, switch to wetting the skin and finding a cooler place. Point a fan out a window at night to push hot air out, and pair it with a misted shirt for more cooling."
+      },
+      {
+        "step": 4,
+        "title": "Drink, eat light, and slow down",
+        "body": "Drink water regularly, before you feel thirsty. Skip alcohol and limit sugary or caffeinated drinks. If you sweat heavily for hours, add some salty food or an electrolyte drink. Eat small, cool meals that need no cooking, so the stove does not heat the house. Do heavy chores like hauling water or clearing debris only in the early morning, and rest in the shade during the hottest part of the day (roughly 11 a.m. to 5 p.m.). Ask a doctor ahead of time if anyone takes medicine that limits fluids or affects heat tolerance."
+      },
+      {
+        "step": 5,
+        "title": "Know heat exhaustion and heat stroke",
+        "body": "Heat exhaustion signs: heavy sweating, headache, nausea, dizziness, weakness, thirst, and peeing less than normal. Move the person somewhere cooler, loosen or remove extra clothing, give small frequent sips of cool water, and cool them with cold cloths. If they get worse or do not improve within an hour, get medical help. Heat stroke is an emergency: confusion, slurred speech, fainting, seizures, or very hot skin (dry or sweating). Call 911, move them to shade, and cool them fast with cold water, wet cloths, or ice packs on the neck, armpits, and groin while you wait."
+      },
+      {
+        "step": 6,
+        "title": "Protect the most at-risk people",
+        "body": "Infants, young children, adults over 65, pregnant people, and anyone with heart disease, obesity, or mental illness get sick from heat faster. Check on them at least twice a day, and check on neighbors who live alone. Never leave a child or pet in a parked car, even for a minute. Give pets shade, water, and a cool floor to lie on. Keep medicines that need cool storage in the coolest spot, and see home-013 for refrigerated medicines."
+      },
+      {
+        "step": 7,
+        "title": "Leave when the house is too hot",
+        "body": "If indoor temperatures stay above 90 F, or anyone shows signs of heat illness, go to a place with air conditioning: a public cooling center, library, mall, or a friend's home with power. Listen to local radio or official alerts for cooling center locations and hours. Sitting in a running car with AC is fine outdoors in open air, but never in a garage. Plan your ride ahead of time for people who cannot drive."
+      }
+    ],
+    "warnings": [
+      "Above about 90 F (32 C) indoors, fans alone do not prevent heat illness and can make it worse.",
+      "Heat stroke can kill within hours - confusion or fainting in the heat means call 911.",
+      "Never run a generator or car in a garage to power an AC unit or fan.",
+      "Never leave children, older adults, or pets in a parked vehicle."
+    ],
+    "proTips": [
+      "Freeze water bottles while you still have power; they double as cold packs and drinking water.",
+      "A wet bandana or cooling towel around the neck plus a small fan is one of the best no-power combos below 90 F.",
+      "Write cooling center locations on your paper emergency plan before summer.",
+      "A cheap indoor thermometer tells you when it is time to leave instead of guessing."
+    ],
+    "relatedGuides": [
+      "home-013",
+      "home-012",
+      "home-006",
+      "water-015",
+      "shelter-009",
+      "medical-008"
+    ],
+    "source": "CDC / FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Power Failures in Hot Weather",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/natural-disasters/psa-toolkit/power-failures-in-hot-weather.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Prevent Heat-Related Illnesses During a Power Outage",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/natural-disasters/psa-toolkit/prevent-heat-related-illnesses-during-a-power-outage.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Heat-related Illnesses",
+        "publisher": "CDC NIOSH",
+        "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Be Prepared for a Power Outage",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2024-03/ready.gov_power-outage_hazard-info-sheet.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not rely on fans alone once indoor temperatures pass about 90 F - cool the skin with water and head to a cooler place.",
+      "Do not stay home with someone showing heat stroke signs; call 911 and start cooling them."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "The power is out during hot weather and the house is heating up.",
+      "immediate": [
+        "Close curtains on sunny windows and move to the lowest, shadiest room.",
+        "Drink water often and cool skin with wet cloths or a cool shower.",
+        "Use fans only while indoor temps are below 90 F."
+      ],
+      "then": [
+        "Check on babies, older adults, and neighbors twice a day.",
+        "Call 911 for confusion, fainting, or seizures in the heat.",
+        "Go to a cooling center if the house stays above 90 F."
+      ]
+    }
+  },
+  {
+    "id": "home-003",
+    "category": "home",
+    "title": "When Toilets and Sewers Fail - Bucket Toilets and Sanitation",
+    "priority": "critical",
+    "tags": [
+      "home",
+      "sanitation",
+      "toilet",
+      "bucket toilet",
+      "sewage",
+      "hygiene",
+      "handwashing"
+    ],
+    "summary": "How to set up a safe two-bucket toilet, store human waste, and keep hands clean when water or sewer service is down. Use it the moment you learn sewer lines may be damaged.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stop flushing until you know the sewer works",
+        "body": "After an earthquake, flood, or major storm, do not flush toilets or pour water down drains until local officials say the sewer is working. Your home's pipes may look fine while street lines are broken, and flushing can push sewage back up into your home or a neighbor's. Listen to local radio or official alerts. If you are on a septic system, it may still be usable if there are no signs of leaks, soggy ground over the tank, or backup into the house. If water is off but sewers are fine, you can flush by pouring a bucket of gray water fast into the bowl."
+      },
+      {
+        "step": 2,
+        "title": "Gather the twin-bucket kit",
+        "body": "You need two 5-gallon (19 L) buckets with lids, a toilet seat that fits one or both, heavy-duty garbage bags (3 mil or thicker), toilet paper, disposable gloves, and a bag of dry carbon material such as sawdust, wood shavings, shredded paper, peat moss, or dry leaves. Label one bucket PEE and one POO. Store the supplies inside the buckets so the kit is ready to use. Set it up in a private spot, such as your bathroom or behind a curtain, with a hand-washing station nearby."
+      },
+      {
+        "step": 3,
+        "title": "Keep pee and poo separate",
+        "body": "Line only the poo bucket with a garbage bag. Pee goes into the unlined pee bucket. Keeping urine out of the poo bucket is the single biggest step in cutting odor and keeping the waste drier and lighter. After each poo, cover it completely with about a half cup of carbon material to soak up moisture, block smell, and keep flies off. Put used toilet paper in the poo bag. Rest the lid loosely on the poo bucket between uses rather than snapping it airtight, so the contents can dry."
+      },
+      {
+        "step": 4,
+        "title": "Empty urine safely",
+        "body": "When the pee bucket is about one-quarter full, or before it gets too heavy to carry, dilute it with water if you can spare it (hand-washing rinse water works) and pour it onto soil or lawn, away from gardens with food you will eat raw, wells, and streams. Rotate the spots you use. Urine from healthy people carries far fewer germs than feces, which is why it is handled separately. Rinse the bucket with a little water and pour the rinse out the same way."
+      },
+      {
+        "step": 5,
+        "title": "Bag and store solid waste",
+        "body": "Fill the poo bucket no more than half full so it stays light enough to lift. Put on gloves, tie the bag, place it inside a second bag, and seal it tightly. Store sealed bags in a separate lidded container such as a trash can, outdoors or in a garage, away from food, water, children, pets, flies, and rodents. Do not put it in regular trash unless officials say to, and do not bury it within 100 feet (30 m) of any well, stream, or water source. Local officials will announce collection or disposal points; storage may last weeks."
+      },
+      {
+        "step": 6,
+        "title": "Wash hands every time",
+        "body": "Set up a hand-washing station: a jug of clean water with a spigot, soap, paper towels, and a catch bucket underneath. Wash for at least 20 seconds after using the toilet, before handling food, after diaper changes, after caring for someone sick, and after touching garbage or animals. If you have no water, use hand sanitizer with at least 60 percent alcohol, but know it works poorly on visibly dirty hands. Use only safe water for brushing teeth. See water-006 for making water safe."
+      },
+      {
+        "step": 7,
+        "title": "Clean and disinfect the toilet area",
+        "body": "Wipe the seat and handles daily with a disinfectant or a bleach solution made per the label. Wear gloves while cleaning and while handling waste bags, then wash your hands. Keep a spare roll of bags and a full bag of carbon material on hand; you will use more than you expect. If anyone in the house has diarrhea or vomiting, double down on cleaning and hand washing, and give the sick person their own bucket if possible."
+      }
+    ],
+    "warnings": [
+      "Do not flush or drain water after a disaster until officials confirm the sewer works - sewage can back up into your home.",
+      "Human feces spread serious diseases; always wear gloves and wash hands after handling waste.",
+      "Never bury waste within 100 feet (30 m) of a well, stream, or other water source.",
+      "Do not mix household cleaners - bleach plus ammonia or acids makes toxic gas."
+    ],
+    "proTips": [
+      "Separating urine is the trick that makes bucket toilets tolerable; a funnel or urinal bottle helps children and men aim.",
+      "Pre-cut a garbage bag and store it with a seat and a 5-pound bag of pine shavings from a pet store.",
+      "Plan for at least two weeks of toilet supplies - sewer repairs after big disasters can take much longer.",
+      "Hang a flashlight or headlamp near the toilet station so nighttime trips are safe."
+    ],
+    "relatedGuides": [
+      "medical-009",
+      "home-015",
+      "water-006",
+      "water-011",
+      "home-008"
+    ],
+    "source": "CDC / Oregon State University Extension",
+    "sources": [
+      {
+        "title": "Survival Basics: Sanitation and Waste Management (EM 9334)",
+        "publisher": "Oregon State University Extension Service",
+        "url": "https://extension.oregonstate.edu/catalog/pub/em-9334-survival-basics-sanitation-waste-management",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Guidelines for Personal Hygiene During an Emergency",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "The Two-Bucket Toilet Solution",
+        "publisher": "City of Wilsonville, Oregon",
+        "url": "https://www.wilsonvilleoregon.gov/ready/page/two-bucket-toilet-solution",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not switch to a bucket toilet if officials confirm the sewer is working and you only lack water - flush with a bucket of gray water instead.",
+      "Do not use the open-ground urine method near wells, streams, or vegetable gardens."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Water or sewer service is out, or sewer lines may be broken after a disaster.",
+      "immediate": [
+        "Stop flushing and draining until officials say the sewer works.",
+        "Set up two labeled buckets: pee unlined, poo lined with a heavy bag.",
+        "Cover each poo with a half cup of sawdust or shredded paper."
+      ],
+      "then": [
+        "Double-bag solid waste when half full and store it sealed outdoors.",
+        "Wash hands with soap for 20 seconds after every use.",
+        "Follow official instructions for waste collection."
+      ]
+    }
+  },
+  {
+    "id": "home-004",
+    "category": "home",
+    "title": "Refrigerator and Freezer Food Safety During Outages",
+    "priority": "critical",
+    "tags": [
+      "home",
+      "food safety",
+      "refrigerator",
+      "freezer",
+      "power outage",
+      "4 hours",
+      "40F"
+    ],
+    "summary": "The USDA and CDC rules for how long food stays safe in a dead fridge or freezer, how to stretch that time, and what to keep or throw out when power returns.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Prepare before the outage",
+        "body": "Put an appliance thermometer in both the refrigerator and the freezer. The fridge should read 40 degrees F (4 C) or below and the freezer 0 F (-18 C) or below. Keep frozen water bottles, ice, or gel packs in the freezer, and have coolers ready. Group frozen foods together so they keep each other cold, and freeze milk, leftovers, and meat you will not use right away. If a long outage is forecast, find out where to buy dry ice or block ice. USDA notes that about 50 pounds (23 kg) of dry ice can hold a full 18-cubic-foot freezer for about two days."
+      },
+      {
+        "step": 2,
+        "title": "Keep the doors shut",
+        "body": "As soon as the power goes out, stop opening the fridge and freezer. Every opening lets cold air out. With the doors closed, a refrigerator keeps food safe for about 4 hours. A full freezer holds a safe temperature for about 48 hours, and a half-full freezer for about 24 hours. Tape a note on the doors so nobody in the family opens them out of habit. Write down the time the power went out."
+      },
+      {
+        "step": 3,
+        "title": "Move perishables to a cooler at 4 hours",
+        "body": "If the outage will last longer than 4 hours, move perishable refrigerator food into coolers packed with ice, frozen gel packs, or frozen water bottles. Put a thermometer in the cooler and keep it at 40 F or below. Perishables include meat, poultry, fish, eggs, milk, soft cheese, cooked leftovers, cut fruits and vegetables, and deli items. Add ice as it melts and drain melt water away from food. Do not store food outdoors or in snow; sun, animals, and swinging temperatures make it unsafe."
+      },
+      {
+        "step": 4,
+        "title": "Use dry ice and block ice carefully",
+        "body": "Block ice lasts longer than cubes. Dry ice is about -109 F (-78 C) and burns skin, so handle it with heavy gloves or tongs and never touch it bare-handed. Wrap it in paper and set it on cardboard on top of frozen food. As it turns to gas it gives off carbon dioxide, so keep the area ventilated, never store it in a closed car or small airtight room, and never put it in a sealed container that could burst. Keep it away from children and pets."
+      },
+      {
+        "step": 5,
+        "title": "Check temperatures when power returns",
+        "body": "Read the thermometers before you decide anything. Food that is still at 40 F or below, or frozen food that still has ice crystals, is safe to keep, cook, or refreeze. Refrozen food may lose some quality but it is safe. Throw out perishable food that has been above 40 F for more than 4 hours. If you have no thermometer, check each item: if it is not cold to the touch and firm, treat it as unsafe."
+      },
+      {
+        "step": 6,
+        "title": "When in doubt, throw it out",
+        "body": "Discard any food with an unusual smell, color, or texture, or that feels warm. Never taste food to decide if it is safe; germs that cause food poisoning often do not change the taste or smell. Discard any food that touched floodwater. Some items hold up better at room temperature, such as hard cheeses, butter, whole fresh fruits and vegetables, and condiments like ketchup and mustard, but check the USDA FoodKeeper app or call the USDA Meat and Poultry Hotline (1-888-674-6854) for specific foods."
+      },
+      {
+        "step": 7,
+        "title": "Clean up and reset",
+        "body": "Once the fridge is empty of spoiled food, wash the inside with hot soapy water, rinse, and wipe with a sanitizing solution. Leave the door open to air it out. Bag spoiled food tightly and get it out of the house quickly so it does not draw flies and rodents (see home-015). Restock the freezer with water bottles so it is ready for the next outage, and replace refrigerated medicines as described in home-013."
+      }
+    ],
+    "warnings": [
+      "Never taste food to test it - dangerous bacteria usually cannot be seen, smelled, or tasted.",
+      "Perishable food above 40 F (4 C) for more than 4 hours must be thrown out.",
+      "Dry ice causes frostbite on contact and gives off carbon dioxide; ventilate and never seal it in a container.",
+      "Do not store food outside or in snow during an outage."
+    ],
+    "proTips": [
+      "Fill empty freezer space with jugs of water now; a full freezer stays cold twice as long as a half-full one.",
+      "Put a coin on top of a frozen cup of water in the freezer before you leave home - if the coin sinks, the freezer thawed while you were gone.",
+      "Eat refrigerated food first, then freezer food, then shelf-stable pantry food.",
+      "Keep a cheap dial thermometer in every cooler."
+    ],
+    "relatedGuides": [
+      "medical-011",
+      "food-004",
+      "food-012",
+      "food-011",
+      "home-015",
+      "home-013"
+    ],
+    "source": "USDA FSIS / CDC / FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Food Safety During Power Outages (USDA)",
+        "publisher": "U.S. Department of Agriculture",
+        "url": "https://www.usda.gov/node/19949",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Keep Food Safe After a Disaster or Emergency",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Be Prepared for a Power Outage",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2024-03/ready.gov_power-outage_hazard-info-sheet.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use the 4-hour and 48-hour times as a guarantee if the doors were opened often or the house is very hot - check with a thermometer.",
+      "Do not try to save food that touched floodwater, except commercially canned goods sanitized per CDC directions."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The power is out and you have food in the refrigerator and freezer.",
+      "immediate": [
+        "Keep fridge and freezer doors closed and note the time.",
+        "Fridge food is good about 4 hours; full freezer about 48, half-full about 24.",
+        "After 4 hours, move perishables to a cooler with ice at 40 F or below."
+      ],
+      "then": [
+        "When power returns, keep food at 40 F or below or still holding ice crystals.",
+        "Throw out anything above 40 F over 4 hours, or that smells or looks wrong.",
+        "Never taste food to check it."
+      ]
+    }
+  },
+  {
+    "id": "home-005",
+    "category": "home",
+    "title": "Shutting Off Gas, Water, and Electricity",
+    "priority": "critical",
+    "tags": [
+      "home",
+      "utilities",
+      "gas leak",
+      "shutoff",
+      "earthquake",
+      "water main",
+      "breaker"
+    ],
+    "summary": "When and how to shut off your home's gas, water, and electricity after a disaster, and why only the gas company should turn the gas back on. Learn the shutoffs before you need them.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Find every shutoff now",
+        "body": "Walk your home today and find three things: the main electrical panel and its main breaker, the main water shutoff valve (often where the line enters the house, in a basement, crawl space, garage, or near the water heater, plus the street-side meter under a metal cover), and the gas meter with its shutoff valve on the pipe coming out of the ground. Take photos, label them, and show every adult and teen in the house. Keep the right tool at each spot: an adjustable wrench for gas (Ready.gov lists a wrench or pliers in its basic kit) and a T-shaped water meter key if your valve is at the street."
+      },
+      {
+        "step": 2,
+        "title": "Shut off gas only if you smell or hear a leak",
+        "body": "Turn off the gas if you smell rotten eggs, hear a hissing or blowing sound, see a broken gas line, or if officials tell you to. Do not shut it off just because there was a disaster; once it is off, it can take days for the utility to reach you and turn it back on. If you suspect a leak: do not light matches, candles, or lighters, do not smoke, and do not flip any light switch or use any electrical device, including phones, inside. Open windows if it is quick, get everyone out, and call the gas company or 911 from a safe distance outside."
+      },
+      {
+        "step": 3,
+        "title": "Turn the gas valve a quarter turn",
+        "body": "At the meter, find the valve on the inlet pipe. The valve has a flat tab or bar. When the tab runs in the same direction as the pipe, the gas is on. Use a wrench to turn it a quarter turn so the tab sits crosswise (perpendicular) to the pipe. That is off. Some homes also have an automatic seismic shutoff valve that closes itself in an earthquake. If you have propane, close the valve on top of the tank by turning it clockwise."
+      },
+      {
+        "step": 4,
+        "title": "Never turn the gas back on yourself",
+        "body": "Once the gas is off, leave it off. A qualified utility worker or licensed technician must turn it back on, check for leaks, and relight every pilot light on your furnace, water heater, and stove. If you turn it on yourself, gas can pour out of an unlit pilot or a damaged pipe and build up until a spark sets off a fire or explosion. Do not go back into a home where you smelled gas until the utility or fire department says it is safe."
+      },
+      {
+        "step": 5,
+        "title": "Shut off electricity at the main",
+        "body": "Shut off power if you see sparks, smell hot insulation, have wiring damage, or water is rising toward outlets or the panel. Turn off all the individual circuit breakers first, then the main breaker (usually the largest switch at the top of the panel). Older homes with fuse boxes have a main fuse block or lever to pull. Never stand in water or touch the panel with wet hands. If the panel is in a flooded basement, do not go down; call the utility. Stay far away from downed power lines and assume every one is live."
+      },
+      {
+        "step": 6,
+        "title": "Shut off water to protect your supply",
+        "body": "Close the main water valve if a pipe bursts, if you hear reports of broken water or sewer mains, or if officials warn the public supply is contaminated. Closing it keeps dirty water from being pulled into your home's pipes and saves the clean water already inside your water heater and plumbing for emergency use (see water-011). Turn the valve clockwise until snug; a lever valve is off when it sits crosswise to the pipe. Turn off the power or gas to your water heater if the house water will be off for a long time."
+      },
+      {
+        "step": 7,
+        "title": "Restore power and water carefully",
+        "body": "When the utility says power is back and your wiring is dry and undamaged, turn the main breaker on first, then individual breakers one at a time to avoid a surge. Have an electrician check anything that was flooded before you use it. When water is restored, open a faucet slowly to let out air and check for leaks, and follow any boil-water advice until officials lift it."
+      }
+    ],
+    "warnings": [
+      "Never turn gas service back on yourself - only the utility or a licensed technician should restore gas and relight pilots.",
+      "If you smell gas, do not use light switches, phones, or flames inside; get out and call from outside.",
+      "Do not touch an electrical panel while standing in water or with wet hands.",
+      "Treat every downed power line as live and deadly."
+    ],
+    "proTips": [
+      "Zip-tie or chain the right wrench next to the gas meter so it cannot wander off.",
+      "Paint the off position on the water valve with a dot of bright paint.",
+      "Ask your gas company whether your home has an excess-flow or seismic shutoff valve.",
+      "Practice turning the water main off and on once a year; old valves seize."
+    ],
+    "relatedGuides": [
+      "water-011",
+      "dis-003",
+      "home-006",
+      "home-009",
+      "home-008"
+    ],
+    "source": "FEMA Ready.gov / utility guidance",
+    "sources": [
+      {
+        "title": "Build A Kit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Turn Off Utilities (brochure)",
+        "publisher": "Memphis Light, Gas and Water (municipal utility)",
+        "url": "https://www.mlgw.com/images/content/files/pdf/UtilityTurnOffBrochure.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not shut off gas just because a disaster happened - only for a smell, sound, visible damage, or an official order.",
+      "Do not enter a flooded basement to reach an electrical panel.",
+      "Do not try to fix or repair a gas line or meter yourself."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "After a disaster you smell gas, see damaged wiring, or hear that water mains are broken.",
+      "immediate": [
+        "Smell gas: no flames or switches, get out, turn the meter valve a quarter turn crosswise, call from outside.",
+        "Sparks or flooding: turn off branch breakers, then the main - never while standing in water.",
+        "Broken water mains: close the main water valve."
+      ],
+      "then": [
+        "Let only the gas company turn gas back on.",
+        "Have flooded wiring checked before restoring power."
+      ]
+    }
+  },
+  {
+    "id": "home-006",
+    "category": "home",
+    "title": "Generators and Carbon Monoxide at Home",
+    "priority": "critical",
+    "tags": [
+      "home",
+      "generator",
+      "carbon monoxide",
+      "backfeeding",
+      "CO alarm",
+      "power outage",
+      "extension cord"
+    ],
+    "summary": "Where to put a portable generator so it does not poison your household, how to connect it without backfeeding the grid, and what CO alarms you need. Read before you start one.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Put CO alarms in first",
+        "body": "Before you run any generator, install battery-operated CO alarms, or plug-in alarms with battery backup, on every level of the home and outside sleeping areas. Look for alarms certified to UL 2034 (or CSA 6.19 in Canada). Test them monthly and replace batteries as needed. Portable generators kill roughly 100 people in the U.S. each year from CO, according to CPSC's latest report, and many victims were asleep. An alarm is the only way to know CO is building up, because you cannot see or smell it."
+      },
+      {
+        "step": 2,
+        "title": "Run it outside and at least 20 feet away",
+        "body": "Run the generator outdoors only, at least 20 feet (6 m) from the house and from any window, door, or vent, with the exhaust pointed away from your home and your neighbors' homes (CDC, CPSC, Ready.gov). Never run it inside a home, garage, basement, crawl space, shed, or carport, even with doors and windows open; fans and open doors do not clear CO fast enough. Do not put it under an open window or next to an air intake. Remember your neighbors: a generator next to their bedroom window can poison them."
+      },
+      {
+        "step": 3,
+        "title": "Keep it dry without boxing it in",
+        "body": "Water and generators cause shock. In rain or snow, set the generator on a dry, level surface where water will not pool, under an open canopy-style cover that is open on all sides. Do not wrap it in a tarp or push it into a doorway or garage to keep it dry. Dry your hands before touching it. Commercial generator tents made for the purpose are an option if they keep the unit fully in open air."
+      },
+      {
+        "step": 4,
+        "title": "Connect appliances with the right cords",
+        "body": "Plug appliances straight into the generator, or use heavy-duty outdoor-rated extension cords with three-prong plugs. Each cord's watt rating must be higher than the total load on it. Use cords long enough to keep the generator at least 20 feet away, check them for cuts, and do not pinch them in doors or windows. Decide ahead of time which few things matter most, such as the refrigerator, a medical device, phone chargers, and a few lights, and add up their watts so you do not overload the unit."
+      },
+      {
+        "step": 5,
+        "title": "Never backfeed your house wiring",
+        "body": "Never plug a generator into a wall outlet or the dryer outlet to power the house. This is called backfeeding. It skips your home's circuit protection, can start fires, and sends power back out through the utility transformer, where it can electrocute line workers and neighbors working to restore service. If you want to power household circuits, hire a licensed electrician to install a transfer switch or an approved interlock, following local permit rules."
+      },
+      {
+        "step": 6,
+        "title": "Refuel and store fuel safely",
+        "body": "Turn the generator off and let it cool before refueling; gasoline spilled on a hot engine can ignite. Store fuel outside living areas, in a labeled, approved non-glass container, away from any fuel-burning appliance like a water heater. Keep enough fuel for a few days but check local limits. See power-004 for fuel shelf life."
+      },
+      {
+        "step": 7,
+        "title": "Act fast on CO symptoms",
+        "body": "If anyone feels sick, dizzy, weak, or gets a headache or nausea while a generator is running, get everyone into fresh air right away and call 911 or Poison Control at 1-800-222-1222. If the CO alarm goes off, go outside immediately and do not go back in until responders say it is safe. Check the generator's location before restarting it. See medical-047 for CO poisoning first aid."
+      }
+    ],
+    "warnings": [
+      "Never run a generator in a home, garage, basement, crawl space, or shed - even with doors open.",
+      "Keep generators at least 20 feet (6 m) from any window, door, or vent.",
+      "Never plug a generator into a wall outlet - backfeeding can kill utility workers and start fires.",
+      "Never refuel a hot or running generator."
+    ],
+    "proTips": [
+      "Newer CO-reducing generators with automatic shutoff are safer, but they still belong outside and 20 feet away.",
+      "Run a 25-foot or longer heavy-duty cord so the 20-foot rule is easy to follow.",
+      "Chain and lock the generator to keep it from walking off during a long outage.",
+      "Start and run the generator for 20 minutes each month so it starts when you need it."
+    ],
+    "relatedGuides": [
+      "power-003",
+      "power-004",
+      "medical-047",
+      "home-001",
+      "home-013",
+      "vehicle-005"
+    ],
+    "source": "CPSC / CDC / FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Portable Generator Safety Alert",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/s3fs-public/5123_SafetyAlert_PortableGenerators_102021.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "CPSC Issues Winter Weather Safety Tips to Prevent Fires and Carbon Monoxide Poisoning",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Issues-Winter-Weather-Safety-Tips-to-Prevent-Fires-and-Carbon-Monoxide-Poisoning",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Be Prepared for a Power Outage",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2024-03/ready.gov_power-outage_hazard-info-sheet.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not run a generator if you have no place outdoors at least 20 feet from openings - use batteries or a power station indoors instead.",
+      "Do not connect a generator to household wiring without a professionally installed transfer switch or interlock."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You need to run a portable generator during a power outage.",
+      "immediate": [
+        "Check CO alarms have batteries before starting.",
+        "Place the generator outside, 20+ feet from windows, doors, and vents, exhaust pointed away.",
+        "Plug appliances in with outdoor-rated cords - never into a wall outlet."
+      ],
+      "then": [
+        "Turn off and cool before refueling.",
+        "Anyone dizzy or sick: everyone outside and call 911."
+      ]
+    }
+  },
+  {
+    "id": "home-007",
+    "category": "home",
+    "title": "Setting Up a Shelter-in-Place Room",
+    "priority": "critical",
+    "tags": [
+      "home",
+      "shelter in place",
+      "chemical release",
+      "plastic sheeting",
+      "duct tape",
+      "safe room"
+    ],
+    "summary": "How to choose, stock, and seal a room in your home for a chemical or hazardous air release, and how that differs from sheltering for tornadoes or radiation. Set it up before you need it.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know which kind of sheltering you need",
+        "body": "Shelter in place means staying inside instead of evacuating, but the best room depends on the threat. For a chemical or hazardous air release, use an interior room above ground level with few or no windows, because many chemicals are heavier than air and settle low. For a tornado, go to the basement or the lowest floor, in an interior room away from windows. For a nuclear or radiation emergency, go to the basement or the middle of the building, as far from the outside walls and roof as you can (see dis-006). Officials will usually say which threat it is."
+      },
+      {
+        "step": 2,
+        "title": "Pick and prepare the room ahead of time",
+        "body": "Choose an interior room big enough for everyone, including pets, ideally with a bathroom attached and few windows, doors, and vents. Measure every window, door, vent, and outlet in it. Precut sheets of clear plastic sheeting, 4 mil or thicker, about 6 inches (15 cm) larger than each opening on every side, and label each sheet with where it goes. Store the sheets in the room with at least two rolls of duct tape and scissors. Ready.gov includes plastic sheeting, duct tape, and scissors in its basic kit for this reason."
+      },
+      {
+        "step": 3,
+        "title": "Stock the room",
+        "body": "Keep a small kit in or near the room: drinking water, ready-to-eat food, a battery or hand-crank radio, flashlights with extra batteries, a charged phone and power bank, a first aid kit, essential medications, blankets, a bucket toilet with bags (see home-003), towels, books or games, and a step stool for sealing high vents. Do not use candles or any flame in a sealed room. Plan for family members or neighbors who need extra help getting to the room."
+      },
+      {
+        "step": 4,
+        "title": "When told to shelter, move fast",
+        "body": "When an alert tells you to shelter in place for a chemical release, bring children and pets inside right away. Close and lock all outside doors and windows. Turn off the heating, air conditioning, and ventilation system, and all fans, including bathroom and kitchen exhaust fans and the clothes dryer, so they do not pull outside air in. Close fireplace dampers. Grab your kit and get everyone into the room."
+      },
+      {
+        "step": 5,
+        "title": "Seal the room",
+        "body": "Close the door. Tape the precut plastic over windows, vents, and air conditioning openings, starting with the corners and then sealing all edges. Tape over electrical outlets, light switches, and gaps around pipes. Stuff a wet towel along the bottom of the door and tape plastic over the door frame. Work quickly; the goal is to cut down on how much outside air leaks in, not to make the room perfectly airtight. Do not flush the toilet while sealed, because flushing moves air."
+      },
+      {
+        "step": 6,
+        "title": "Listen, wait, and watch the time",
+        "body": "Keep the radio or phone on for updates. Chemical sheltering usually lasts hours, not days; a sealed room does not hold enough fresh air for a long stay. Stay put until officials say the danger has passed or tell you to evacuate. If anyone has trouble breathing, burning eyes, or feels faint, call 911 and follow their instructions."
+      },
+      {
+        "step": 7,
+        "title": "Air out when it is over",
+        "body": "When officials give the all-clear, remove the plastic and tape, open windows and doors, and turn the ventilation system back on to air out the whole house. Go outside if the air in the room feels stuffy. Follow any instructions about cleaning surfaces, washing clothes, or avoiding garden produce. Repack the kit and replace anything you used."
+      }
+    ],
+    "warnings": [
+      "A sealed room holds a limited amount of air - chemical sheltering is meant for hours, not days.",
+      "Never use candles, stoves, or any flame in a sealed room.",
+      "Do not go outside to check on conditions during a chemical release; wait for official word.",
+      "Use the right room for the threat - high interior for chemicals, low interior for tornadoes, deep center for radiation."
+    ],
+    "proTips": [
+      "Number the precut plastic sheets and draw a diagram of where each one goes so anyone in the family can seal the room.",
+      "Practice sealing the room once a year with a timer; aim for under 10 minutes.",
+      "Keep a list of the HVAC shutoff location and fan switches taped inside the room.",
+      "Sign up for local emergency alerts so you hear the order to shelter right away."
+    ],
+    "relatedGuides": [
+      "dis-006",
+      "dis-002",
+      "home-003",
+      "home-008",
+      "urban-003",
+      "comms-002"
+    ],
+    "source": "FEMA Ready.gov / Be Ready Utah",
+    "sources": [
+      {
+        "title": "Shelter in Place",
+        "publisher": "Be Ready Utah (Utah Division of Emergency Management)",
+        "url": "https://beready.utah.gov/shelter-in-place",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Build A Kit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not shelter in place if officials order an evacuation - leave.",
+      "Do not seal a room for a tornado or a radiation event; sealing is for chemical or hazardous air releases.",
+      "Do not stay sealed for days; air it out or evacuate when officials say."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "An alert tells you to shelter in place because of a chemical or hazardous air release.",
+      "immediate": [
+        "Get everyone and pets inside; close and lock doors and windows.",
+        "Turn off HVAC, fans, and the dryer; close fireplace dampers.",
+        "Go to an interior upper-floor room and tape plastic over windows, vents, and outlets."
+      ],
+      "then": [
+        "Keep the radio on and stay until the all-clear.",
+        "Air out the whole house when it is over."
+      ]
+    }
+  },
+  {
+    "id": "home-008",
+    "category": "home",
+    "title": "Building a 72-Hour Kit and a Two-Week Home Supply",
+    "priority": "beginner",
+    "tags": [
+      "home",
+      "emergency kit",
+      "72-hour kit",
+      "go bag",
+      "supplies",
+      "ready.gov",
+      "two weeks"
+    ],
+    "summary": "A step-by-step plan for building the Ready.gov basic emergency kit, growing it into a two-week home supply, and keeping it fresh. Start with what you already own.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Start with water and food",
+        "body": "Plan for at least 1 gallon (about 4 L) of water per person per day for drinking and basic hygiene, plus extra for pets, hot climates, nursing mothers, and sick people. A 72-hour kit needs at least 3 gallons per person; a two-week home supply needs 14. Add non-perishable food your family will actually eat that needs little or no cooking: canned meat, beans, soup, fruit, peanut butter, crackers, cereal, and dried fruit. Include a manual can opener. See water-010 for storing water and food-012 for shelf life."
+      },
+      {
+        "step": 2,
+        "title": "Add the Ready.gov basics",
+        "body": "Ready.gov's basic kit list adds: a battery-powered or hand-crank radio and a NOAA Weather Radio with alerts, a flashlight with extra batteries, a first aid kit, a whistle to signal for help, dust masks, plastic sheeting, scissors and duct tape for sheltering in place, wet wipes, garbage bags and plastic ties for sanitation, a wrench or pliers to turn off utilities, local paper maps, and a cell phone with chargers and a backup battery. Pack these in one or two sturdy, easy-to-carry containers such as plastic bins or a duffel bag."
+      },
+      {
+        "step": 3,
+        "title": "Add your household's special needs",
+        "body": "Next, add what your family uniquely needs: prescription medicines, over-the-counter pain and stomach medicines, glasses and contact supplies, infant formula, bottles, diapers and wipes, pet food and supplies, feminine and personal hygiene items, soap and hand sanitizer, a sleeping bag or warm blanket for each person, a change of weather-appropriate clothes and sturdy shoes, a fire extinguisher, waterproof matches, plates and utensils, paper and pencil, and games or books for kids. Keep cash in small bills and copies of key documents (see home-010)."
+      },
+      {
+        "step": 4,
+        "title": "Grow it to two weeks at home",
+        "body": "Ready.gov asks for at least several days of supplies; some emergency agencies, such as Oregon State University Extension, tell households to plan for at least two weeks without services after big disasters. Build up slowly by buying a few extra cans or a case of water each shopping trip. Add a two-week sanitation kit (home-003), a way to cook safely outdoors (food-011), extra batteries, and fuel stored safely (power-004). Ask your doctor or pharmacist about keeping a longer supply of essential medicines; insurance rules vary."
+      },
+      {
+        "step": 5,
+        "title": "Pack smaller kits for work and car",
+        "body": "Keep a work kit with food, water, medicine, and comfortable walking shoes to last at least 24 hours in a grab-and-go bag. Keep a car kit with water, snacks, a flashlight, a first aid kit, jumper cables, a blanket, a phone charger, and seasonal items such as an ice scraper and warm clothes. Everyone in the house should know where every kit is."
+      },
+      {
+        "step": 6,
+        "title": "Store it right",
+        "body": "Store the home kit in a cool, dry, dark place everyone can reach quickly, such as a hall closet. Keep canned food cool and dry, and put boxed food in tightly sealed plastic or metal containers to keep pests and moisture out. Keep the kit away from the furnace, water heater, and chemicals. If you live in a flood zone, store it off the floor."
+      },
+      {
+        "step": 7,
+        "title": "Rotate and review every year",
+        "body": "Pick an easy date, such as a birthday or the day clocks change, to check the kit. Eat and replace food before it expires, replace stored water as recommended, test flashlights and radios, swap out expired medicine, and update clothes and diapers as kids grow. Rethink your list each year as your household changes, for example a new baby, a new pet, or a new medical device."
+      }
+    ],
+    "warnings": [
+      "Do not store gasoline, propane, or other fuel indoors with your kit.",
+      "Check expiration dates on medicines, batteries, and food at least once a year.",
+      "Do not pack candles as your main light source - flashlights and lanterns are safer."
+    ],
+    "proTips": [
+      "Store the food you already eat, and rotate it into your normal meals so nothing goes to waste.",
+      "Use the free Ready.gov printable checklist and tape it inside the bin lid.",
+      "Headlamps beat flashlights because they leave your hands free.",
+      "Buy one item a week; in a few months you will have a complete kit without a big bill."
+    ],
+    "relatedGuides": [
+      "water-010",
+      "water-015",
+      "food-012",
+      "food-013",
+      "tools-001",
+      "home-010"
+    ],
+    "source": "FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Build A Kit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Be Prepared for a Power Outage",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2024-03/ready.gov_power-outage_hazard-info-sheet.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Survival Basics: Sanitation and Waste Management (EM 9334)",
+        "publisher": "Oregon State University Extension Service",
+        "url": "https://extension.oregonstate.edu/catalog/pub/em-9334-survival-basics-sanitation-waste-management",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not wait to build a full kit before starting - a partial kit is far better than none."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want your household ready to get through several days to two weeks without help.",
+      "immediate": [
+        "Store 1 gallon of water per person per day - 3 days minimum, 2 weeks for home.",
+        "Gather no-cook food, a manual can opener, radio, flashlights, batteries, and a first aid kit.",
+        "Add medicines, baby and pet supplies, cash, and document copies."
+      ],
+      "then": [
+        "Pack smaller kits for work and the car.",
+        "Check and rotate everything once a year."
+      ]
+    }
+  },
+  {
+    "id": "home-009",
+    "category": "home",
+    "title": "Preventing and Thawing Frozen Pipes",
+    "priority": "beginner",
+    "tags": [
+      "home",
+      "frozen pipes",
+      "winter",
+      "plumbing",
+      "burst pipe",
+      "water damage",
+      "power outage"
+    ],
+    "summary": "How to keep pipes from freezing during a cold snap or a winter power outage, how to thaw them safely without fire, and what to do if one bursts.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know which pipes freeze first",
+        "body": "Pipes at highest risk are outdoor hose bibs, swimming pool and sprinkler supply lines, pipes in unheated spaces such as basements, crawl spaces, attics, and garages, pipes under kitchen and bathroom sinks on outside walls, and any pipe running along an exterior wall with little insulation. Water expands as it freezes, which builds pressure between the ice and a closed faucet until the pipe splits. Find these weak spots before winter and find your main water shutoff valve (see home-005)."
+      },
+      {
+        "step": 2,
+        "title": "Winterize before the cold arrives",
+        "body": "Disconnect and store garden hoses. Close the indoor valve that feeds each outdoor faucet, then open the outdoor faucet so trapped water can drain and expand. Drain sprinkler and pool lines following the maker's directions, and do not pour antifreeze into them unless directed, because it is toxic to people, pets, and wildlife. Insulate attics, basements, and crawl spaces, and wrap exposed pipes with foam pipe sleeves or UL-listed heat tape. Newspaper wrapped around a pipe gives short-term protection in a pinch."
+      },
+      {
+        "step": 3,
+        "title": "Protect pipes during a cold snap",
+        "body": "Keep garage doors closed if there are water lines in the garage. Open kitchen and bathroom cabinet doors so warm room air reaches the plumbing, moving cleaners out of reach of kids. Let a thin stream of cold water drip from faucets served by exposed pipes; moving water is much harder to freeze and a dripping faucet relieves pressure. Keep the thermostat at the same setting day and night. If you leave home, keep the heat set no lower than 55 degrees F (13 C), and have someone check the house daily."
+      },
+      {
+        "step": 4,
+        "title": "Plan for a winter power outage",
+        "body": "With no heat, a house can drop below freezing in a day or two. If the outage will be long and the house is going to freeze, the safest choice is to drain the plumbing: shut off the main water valve, turn off the power or gas to the water heater, then open all faucets, starting at the top floor, and flush toilets to empty the lines. Save the clean water you drain for drinking (see water-011). Leave faucets open. If you have a fire sprinkler system, do not drain it yourself; call a professional."
+      },
+      {
+        "step": 5,
+        "title": "Thaw a frozen pipe safely",
+        "body": "If only a trickle comes out of a faucet, a pipe is likely frozen, often where it runs along an outside wall or enters through the foundation. Keep that faucet open so melting water can flow out and relieve pressure. Warm the frozen section gently with an electric hair dryer, an electric heating pad, or towels soaked in hot water, working from the faucet back toward the frozen spot. Keep going until full water pressure returns, then check other faucets for more frozen pipes. Keep electrical devices away from standing water."
+      },
+      {
+        "step": 6,
+        "title": "Never use open flame",
+        "body": "Do not thaw pipes with a blowtorch, propane torch, kerosene or propane heater, charcoal stove, or any open flame. Fire officials see house fires every winter from people thawing pipes with torches; the flame can ignite wood framing, insulation, and dust hidden behind walls, sometimes hours later. A torch can also overheat a pipe and make it burst. Call a licensed plumber if you cannot find, reach, or thaw the frozen section."
+      },
+      {
+        "step": 7,
+        "title": "If a pipe bursts",
+        "body": "Shut off the main water valve right away. If water has reached outlets, appliances, or the electrical panel, turn off power at the main breaker only if you can do it while dry; otherwise call the utility. Call a plumber. Remove standing water with buckets, mops, or a wet vacuum, and dry and ventilate the area within 48 hours to limit mold. Photograph the damage for insurance before cleaning up. After any freeze, look for leaks; a pipe that froze may be weakened even if it did not split."
+      }
+    ],
+    "warnings": [
+      "Never thaw pipes with a torch or open flame - it can start a hidden fire inside walls.",
+      "Do not use electrical devices while standing in water from a leak.",
+      "Do not add antifreeze to plumbing lines unless the manufacturer or installer says to.",
+      "Do not drain a fire sprinkler system yourself."
+    ],
+    "proTips": [
+      "Tag your main water shutoff with a bright label and teach every adult how to close it.",
+      "A cheap remote thermometer in the crawl space or basement warns you before pipes freeze.",
+      "Fill bathtubs and jugs with water before a big freeze in case you need to drain the plumbing.",
+      "Foam outdoor faucet covers cost a few dollars and prevent many hose-bib failures."
+    ],
+    "relatedGuides": [
+      "home-005",
+      "home-001",
+      "water-011",
+      "water-010"
+    ],
+    "source": "American Red Cross / National Weather Service",
+    "sources": [
+      {
+        "title": "Preventing and Thawing Frozen Pipes",
+        "publisher": "American Red Cross",
+        "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Extreme Cold Safety",
+        "publisher": "National Weather Service",
+        "url": "https://www.weather.gov/media/aly/PSAs/ExtremeCold.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Dealing with Debris and Damaged Buildings (mold drying window)",
+        "publisher": "U.S. EPA (January 2021 snapshot)",
+        "url": "https://19january2021snapshot.epa.gov/natural-disasters/dealing-debris-and-damaged-buildings_.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not try to thaw a pipe you cannot reach or locate - call a plumber.",
+      "Do not thaw a pipe that has already split until the water main is shut off."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Temperatures are below freezing, or the heat is out, and your pipes could freeze.",
+      "immediate": [
+        "Open cabinet doors and let exposed-pipe faucets drip.",
+        "Keep heat at 55 F or higher if you can.",
+        "If the house will freeze, shut off the main and drain the plumbing."
+      ],
+      "then": [
+        "Thaw frozen pipes with a hair dryer or hot towels, faucet open - never a flame.",
+        "If a pipe bursts, close the main valve and call a plumber."
+      ]
+    }
+  },
+  {
+    "id": "home-010",
+    "category": "home",
+    "title": "Important Documents, Cash, and Digital Backups",
+    "priority": "beginner",
+    "tags": [
+      "home",
+      "documents",
+      "cash",
+      "insurance",
+      "backups",
+      "financial preparedness",
+      "EFFAK"
+    ],
+    "summary": "How to gather, protect, and back up the papers, cash, and records you need to prove who you are, file insurance claims, and get aid after a disaster. Do it on a quiet weekend before you need it.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Make a list of what you need",
+        "body": "Use FEMA's free Emergency Financial First Aid Kit (EFFAK) checklist as a guide. Core items: photo IDs and passports, birth and marriage certificates, Social Security cards, military records such as a DD-214, insurance policies (home or renters, flood, auto, health, life), property deeds, leases, and car titles, mortgage and loan papers, bank and credit card account numbers with customer service phone numbers, recent tax returns, wills and powers of attorney, medical records, prescription lists, vaccination records, and pet records. Add a written list of emergency contacts."
+      },
+      {
+        "step": 2,
+        "title": "Document your home and belongings",
+        "body": "Ready.gov recommends photos or video of your home's inside and outside and your belongings, plus a written inventory for insurance. Walk through every room with your phone, open closets and drawers, and narrate what things are and roughly when you bought them. Photograph serial numbers on electronics and appliances, and keep receipts for big purchases. Update it after major purchases. This record can speed up insurance claims and disaster aid by weeks."
+      },
+      {
+        "step": 3,
+        "title": "Protect the originals",
+        "body": "Keep originals that are hard to replace, like deeds, wills, birth certificates, and titles, somewhere safe away from home, such as a bank safe deposit box, with copies at home. At home, store papers in a waterproof, fire-resistant document bag or safe, off the floor and out of flood-prone basements. Note that many home safes are rated to protect paper from fire for a limited time only, not electronics or flash drives, so check the rating."
+      },
+      {
+        "step": 4,
+        "title": "Make copies and a grab-and-go folder",
+        "body": "Put photocopies of IDs, insurance cards and policy pages, medication lists, and contact lists in a sealed waterproof bag in your emergency kit (home-008). Add a sheet listing your doctors, pharmacy, insurance agent, and bank with phone numbers. If you must evacuate fast, this folder plus your wallet lets you prove identity, refill prescriptions, and start claims."
+      },
+      {
+        "step": 5,
+        "title": "Back up digitally the safe way",
+        "body": "Scan or photograph every document. Store copies in at least two places: an encrypted cloud account protected by a strong password and two-factor authentication, and an encrypted USB drive kept in your kit or with a trusted relative in another town. Do not email unencrypted copies of Social Security cards or account numbers. Write down how to get into your cloud account without your phone, such as backup codes, and keep that in your safe, because phones get lost or broken in disasters."
+      },
+      {
+        "step": 6,
+        "title": "Keep cash on hand",
+        "body": "When the power is out, ATMs, card readers, and banks may not work. Keep some cash at home in a safe place, in small bills, because stores may not be able to make change. There is no official dollar amount; many households aim for enough to cover several days of food, fuel, and lodging. Keep some coins for vending machines or laundry. Do not tell people outside your household where cash is stored."
+      },
+      {
+        "step": 7,
+        "title": "Review insurance and update every year",
+        "body": "Read your home or renters policy and know what it covers. Standard homeowners policies usually do not cover flood damage; flood insurance through the National Flood Insurance Program usually has a 30-day waiting period, so do not wait for a storm forecast. Each year, update your inventory, swap in new ID copies, check that cloud backups still open, and refresh the cash supply. Make sure a trusted adult knows where everything is."
+      }
+    ],
+    "warnings": [
+      "Do not store your only copies of key documents at home - a fire or flood can destroy everything at once.",
+      "Unencrypted digital copies of IDs and account numbers can lead to identity theft if lost or hacked.",
+      "Standard homeowners insurance usually does not cover floods."
+    ],
+    "proTips": [
+      "A gallon zip-top freezer bag inside a second bag makes a cheap waterproof document pouch.",
+      "Include a recent photo of each family member and pet in case you are separated.",
+      "Store the cloud account recovery codes on paper, not on the same phone.",
+      "Veterans: keep a copy of your DD-214 and VA card; replacements take time."
+    ],
+    "relatedGuides": [
+      "home-008",
+      "home-011",
+      "home-012",
+      "children-004",
+      "sec-003"
+    ],
+    "source": "FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Financial Preparedness",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/financial-preparedness",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Financial First Aid Kit (EFFAK)",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/emergency-financial-first-aid-kit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Build A Kit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not go back into a damaged or flooding home to retrieve documents - lives come first, and records can be replaced."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want to be able to prove identity, file claims, and pay for things after a disaster.",
+      "immediate": [
+        "Gather IDs, insurance, deeds, medical and financial records using the FEMA EFFAK checklist.",
+        "Put copies in a waterproof bag in your emergency kit.",
+        "Keep some cash at home in small bills."
+      ],
+      "then": [
+        "Scan everything to encrypted cloud storage and an encrypted USB drive.",
+        "Video your home and belongings; update every year."
+      ]
+    }
+  },
+  {
+    "id": "home-011",
+    "category": "home",
+    "title": "Pets in Emergencies - Supplies, Evacuation, and Shelters",
+    "priority": "beginner",
+    "tags": [
+      "home",
+      "pets",
+      "animals",
+      "evacuation",
+      "pet kit",
+      "microchip",
+      "shelters"
+    ],
+    "summary": "How to build a pet emergency kit, plan where your animals will go, and keep them safe during and after a disaster. If it is not safe for you to stay, it is not safe for them either.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Put pets in your family plan",
+        "body": "Ready.gov's first pet rule is to include your animals in your family emergency plan. Decide now who grabs which pet, where the carriers and leashes are, and where you will go. Arrange a buddy, such as a neighbor or nearby friend, who can pick up your pets if a disaster hits while you are at work. Give them a key and a copy of your pet info. Practice so the plan works without you."
+      },
+      {
+        "step": 2,
+        "title": "Build a pet go-kit",
+        "body": "Pack at least several days (ideally two weeks) of food in a waterproof container, plus water, bowls, and a manual can opener if needed. Add medicines with dosing instructions, a pet first aid kit, a sturdy leash, harness, and collar with ID tags, a carrier or crate for each animal, cat litter and a litter box or poop bags, cleaning supplies, a familiar blanket, toy, or treats to reduce stress, and copies of vet records and vaccinations. Include current photos of you with each pet to help prove ownership if you are separated."
+      },
+      {
+        "step": 3,
+        "title": "Microchip and tag every animal",
+        "body": "Ready.gov recommends microchipping, because collars come off. Make sure the microchip registry has your current phone number and address, and add an out-of-town contact. Put an ID tag on every collar with your name, cell number, and the out-of-town contact's number. Even indoor cats need tags; frightened pets slip out of doors during storms."
+      },
+      {
+        "step": 4,
+        "title": "Find pet-friendly places before you need them",
+        "body": "Many public shelters only accept service animals, though more communities now have pet-friendly shelters. Before an emergency, list the addresses and phone numbers of pet-friendly hotels, boarding kennels, vet offices, and friends or relatives outside your area who could take your animals. Ask your local emergency management office or animal control where pets can go during evacuations. Keep this list in your kit and on your phone."
+      },
+      {
+        "step": 5,
+        "title": "Practice carriers and car trips",
+        "body": "A pet that has never been in a carrier will fight it during a disaster. Leave carriers out with a soft blanket and treats so pets learn to walk in on their own. Take short practice drives so the car is not new and scary. Know how long it takes you to load all pets; for a cat that hides, that can be the longest part of evacuating."
+      },
+      {
+        "step": 6,
+        "title": "Evacuate early and take them with you",
+        "body": "If officials order an evacuation, take your pets. Pets left behind can be lost, injured, or killed, and you may not be allowed back for days or weeks. Leave early, because animals become harder to handle as conditions get worse. If you truly cannot take them, bring them inside, never chain them outside, leave plenty of water and food, and put a sticker on your door listing the animals inside for rescuers."
+      },
+      {
+        "step": 7,
+        "title": "Keep them safe after the disaster",
+        "body": "Familiar landmarks and smells can be gone after a storm, and pets get confused and lost easily. Keep dogs on a leash and cats in carriers or indoors. Watch for downed power lines, broken glass, sharp debris, standing floodwater, and wild animals. Animals under stress may bite or act differently. If a pet goes missing, contact local animal shelters and post photos right away. For farm animals and horses, plan trailers, transport routes, and destinations well ahead."
+      }
+    ],
+    "warnings": [
+      "Never leave pets chained or tied outside during a disaster.",
+      "Do not let pets drink floodwater or eat spoiled food after an outage.",
+      "Stressed pets may bite even their owners - handle them calmly and use carriers.",
+      "Never leave a pet in a parked car in hot weather."
+    ],
+    "proTips": [
+      "Write each pet's name, your phone, and 'Emergency Contact' on the carrier with a paint marker.",
+      "Keep a two-week supply of any pet medicine and rotate it.",
+      "A collapsible fabric crate fits in a car trunk when a hard carrier will not.",
+      "Rescue alert stickers for windows are often free from animal welfare groups."
+    ],
+    "relatedGuides": [
+      "home-008",
+      "home-010",
+      "home-012",
+      "sec-003"
+    ],
+    "source": "FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Pet Preparedness Social Media Toolkit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/pet-toolkit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Build A Kit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not delay your own evacuation searching for a hiding pet when the danger is immediate - tell responders where the animal is."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A disaster is coming and you have pets or livestock to protect.",
+      "immediate": [
+        "Grab carriers, leashes, and the pet go-kit.",
+        "Check collars have ID tags with your cell number.",
+        "Evacuate early and take your pets with you."
+      ],
+      "then": [
+        "Go to a pet-friendly shelter, hotel, or friend you lined up ahead of time.",
+        "Keep pets leashed or crated after the disaster."
+      ]
+    }
+  },
+  {
+    "id": "home-012",
+    "category": "home",
+    "title": "Household Members With Disabilities, Mobility Needs, or Medical Devices",
+    "priority": "critical",
+    "tags": [
+      "home",
+      "disabilities",
+      "access and functional needs",
+      "mobility",
+      "support network",
+      "older adults",
+      "evacuation"
+    ],
+    "summary": "How to plan for family members who use wheelchairs, oxygen, hearing or vision aids, or need extra help, so nobody is left behind when the power fails or you must evacuate.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Build a support network",
+        "body": "List family, friends, neighbors, coworkers, personal care attendants, and service providers who can help, including at least one person outside your area. Aim for at least three people for each place you spend a lot of time, such as home, work, and school. Give each person a copy of the plan and a spare key, show them how to operate equipment, and agree on how you will check in if phones fail. Do not depend on only one person; they may be hurt or stuck."
+      },
+      {
+        "step": 2,
+        "title": "Write down needs and instructions",
+        "body": "Make a one-page card for each person: name, conditions, allergies, medications with dose, schedule, prescribing doctor and pharmacy, equipment used and its model and serial number, how best to communicate, and emergency contacts. Wear a medical alert bracelet or carry the card in a wallet. Ask each regular service provider, such as home health, dialysis, oxygen supply, or transportation, what their disaster plan is and who their backup is."
+      },
+      {
+        "step": 3,
+        "title": "Stock medicines and supplies",
+        "body": "Keep a list of all prescriptions and, where your doctor and insurance allow, an extra supply on hand. If medicines need refrigeration, keep a cooler and ice packs ready (see home-013). Include at least 3 days of food that meets dietary needs, plus a manual can opener, and at least 1 gallon of water per person per day; ask the doctor if more is needed. Pack extra glasses, hearing aids with batteries, catheters, ostomy supplies, incontinence supplies, and any other daily items. Label equipment with the owner's name and phone number."
+      },
+      {
+        "step": 4,
+        "title": "Plan power for equipment",
+        "body": "List every device that needs electricity: oxygen concentrators, power wheelchairs, CPAP, suction, feeding pumps, and lifts. Keep extra batteries and chargers, and practice the backup you already use for short outages. Tell your electric utility and local fire department that someone in the home relies on powered medical equipment; many utilities keep a priority list, though it does not guarantee faster repair. Home-013 covers device power in detail."
+      },
+      {
+        "step": 5,
+        "title": "Plan how to get out",
+        "body": "Identify two ways out of the home, and of work or school. If someone uses a wheelchair, walker, or cane, figure out how they will get down stairs if elevators stop; ask building managers about evacuation chairs and areas of rescue assistance. Line up accessible transportation ahead of time, since public transit and paratransit may stop. Decide where you will go: friends or family, a hotel, or a public shelter that can meet the person's needs. Service animals are allowed in public shelters; pack their food, tags, vaccination proof, and vet contacts."
+      },
+      {
+        "step": 6,
+        "title": "Plan communication and alerts",
+        "body": "Make sure the person can get emergency alerts in a form they can use: text alerts, vibrating or flashing alarms, a weather radio with a strobe for deaf or hard of hearing people, or large-print plans for low vision. People who use relay services should know backups such as dialing 711, captioned phone, internet relay, or video relay. Write down a meeting place in case you are separated. Ask your local emergency management office how alerts are sent in your area."
+      },
+      {
+        "step": 7,
+        "title": "Pack a go-bag and practice",
+        "body": "Put the most critical items in a grab-and-go bag: medicines, equipment batteries and chargers, the needs card, copies of insurance and ID, a whistle, a flashlight, a small first aid kit, and a white cloth to signal for help. Practice the evacuation plan with your support network at least once a year, and update it whenever health, equipment, or living situation changes. If someone's life depends on a device and power will be out, ask officials early about evacuation; do not wait until the battery is dead."
+      }
+    ],
+    "warnings": [
+      "If someone's life depends on powered equipment, call 911 when backup power is running out - do not wait.",
+      "Elevators stop in outages and fires; plan a stair evacuation method ahead of time.",
+      "Do not rely on a single caregiver; build a network of at least three people.",
+      "Do not stop or change prescription medicines without talking to a doctor or pharmacist."
+    ],
+    "proTips": [
+      "Tape a copy of the needs card inside the front door and in the go-bag for responders.",
+      "Ask your pharmacist about emergency refills; many states allow them during declared disasters.",
+      "Practice moving a wheelchair user down stairs only with trained help or proper equipment.",
+      "Older adults living alone benefit from a daily check-in call with a neighbor during any outage."
+    ],
+    "relatedGuides": [
+      "home-013",
+      "home-008",
+      "home-010",
+      "home-002",
+      "medical-045"
+    ],
+    "source": "FEMA Ready.gov / Alaska DHS&EM",
+    "sources": [
+      {
+        "title": "Disaster Readiness Tips for People with Disabilities",
+        "publisher": "Alaska Division of Homeland Security and Emergency Management (FEMA material)",
+        "url": "https://ready.alaska.gov/Documents/Preparedness/Outreach/Disaster%20Tips%20for%20People%20with%20Disabilities.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FDA Offers Tips About Medical Devices and Natural Disasters",
+        "publisher": "U.S. FDA",
+        "url": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/fda-offers-tips-about-medical-devices-and-natural-disasters",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Build A Kit",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/kit",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not try to carry a person down stairs alone without training if responders or proper equipment are available.",
+      "Do not shelter in place with someone whose life-support device cannot be kept powered - evacuate early."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "Someone in your home has a disability, uses medical equipment, or needs help moving.",
+      "immediate": [
+        "Call your support network and check that equipment batteries are charged.",
+        "Grab the go-bag with medicines, chargers, and the needs card.",
+        "If life-support power will run out, call 911 or ask officials for early evacuation."
+      ],
+      "then": [
+        "Use your planned accessible ride and destination.",
+        "Update the plan after every event."
+      ]
+    }
+  },
+  {
+    "id": "home-013",
+    "category": "home",
+    "title": "Keeping Medical Devices and Medicines Working During Outages",
+    "priority": "critical",
+    "tags": [
+      "home",
+      "medical devices",
+      "oxygen",
+      "CPAP",
+      "insulin",
+      "refrigerated medicine",
+      "backup power",
+      "power outage"
+    ],
+    "summary": "How to keep home medical equipment powered and refrigerated medicines usable when the grid goes down, and when to call for help. Plan with the doctor and device supplier before an outage.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Make a device power plan with your provider",
+        "body": "For each device, ask the doctor, supplier, or manufacturer: How long does the battery last? Can it run from a car outlet, a portable power station, or a generator, and which kind? Is there a manual or non-electric backup, such as oxygen cylinders for a concentrator? Write the answers on a card kept with the device. FDA advises asking the distributor or manufacturer directly whether your device can run on batteries or a generator, because some devices are sensitive to unstable generator power."
+      },
+      {
+        "step": 2,
+        "title": "Register and tell people who can help",
+        "body": "Tell your electric company and your local fire department that someone in the home relies on powered equipment such as a ventilator, oxygen concentrator, or apnea monitor. Many utilities keep a medical priority list and may call before planned shutoffs, but they cannot promise faster repairs. If your life depends on the device and a major storm is coming, ask local public health or emergency management about evacuating early, before the power fails."
+      },
+      {
+        "step": 3,
+        "title": "Build your backup power",
+        "body": "Keep spare charged batteries and chargers for every device, including a car charger if the device allows. A portable battery power station can run small devices like a CPAP indoors safely because it makes no fumes; check its watt-hours against your device's draw to know how many hours it will last. If you use a generator, it must run outside at least 20 feet from openings (see home-006). Charge everything as soon as a storm is forecast."
+      },
+      {
+        "step": 4,
+        "title": "Keep oxygen safe",
+        "body": "Oxygen makes fires burn hotter and faster. When oxygen is in use, light the home only with battery flashlights or lanterns, never candles, gas lanterns, or torches. Keep oxygen at least as far from any heat source or flame as the supplier directs, never smoke near it, and store cylinders upright and secured. Know how many hours your backup cylinders last at your prescribed flow rate, and call the supplier early for a refill."
+      },
+      {
+        "step": 5,
+        "title": "Keep refrigerated medicines usable",
+        "body": "Many medicines need refrigeration. Keep a small cooler and frozen gel packs ready. In an outage, move medicines to the cooler but keep them from touching ice directly, because freezing ruins many drugs; FDA says not to use insulin that has frozen. FDA says most manufacturer-supplied insulin vials and pens, opened or not, can be kept unrefrigerated between 59 and 86 degrees F (15 to 30 C) for up to 28 days and still work; check your product's label, since some differ. Keep medicines out of direct sun and heat."
+      },
+      {
+        "step": 6,
+        "title": "Know when to replace medicines",
+        "body": "Ready.gov and CDC advise replacing refrigerated medicines if the power was out for a day or more, unless the label says otherwise. If a life depends on a refrigerated medicine that has been warm, keep using it only until a new supply is available, and call your doctor or pharmacist right away for advice and a replacement. Do not stop or change a medicine on your own."
+      },
+      {
+        "step": 7,
+        "title": "Check devices after the outage",
+        "body": "When power returns, check that device settings did not reset to factory defaults. Check cords, batteries, and devices for water damage before plugging them in, and never plug in a wet device; turn off power at the main breaker if equipment got wet. Do not reuse single-use supplies or use sterile items whose packaging got wet or torn. Clean multi-use devices with safe water as the maker directs. Restock batteries and supplies."
+      }
+    ],
+    "warnings": [
+      "If a life-sustaining device is about to lose power, call 911 - do not wait for the battery to die.",
+      "Never use candles or open flames around oxygen.",
+      "Do not let insulin or other refrigerated medicines freeze or sit directly on ice.",
+      "Never run a generator indoors to power a medical device."
+    ],
+    "proTips": [
+      "Label every charger and battery with the device it belongs to; in the dark they all look alike.",
+      "A 12-volt car outlet with an approved adapter can be a backup charger - run the car outdoors only.",
+      "Keep a printed copy of device settings so you can restore them after a reset.",
+      "Ask the supplier for a written backup plan and keep it with the device."
+    ],
+    "relatedGuides": [
+      "home-012",
+      "home-006",
+      "power-005",
+      "power-006",
+      "medical-045",
+      "home-004"
+    ],
+    "source": "FDA / FEMA Ready.gov / CDC",
+    "sources": [
+      {
+        "title": "FDA Offers Tips About Medical Devices and Natural Disasters",
+        "publisher": "U.S. FDA",
+        "url": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/fda-offers-tips-about-medical-devices-and-natural-disasters",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Information Regarding Insulin Storage and Switching Between Products in an Emergency",
+        "publisher": "U.S. FDA",
+        "url": "https://www.fda.gov/drugs/emergency-preparedness-drugs/information-regarding-insulin-storage-and-switching-between-products-emergency",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Be Prepared for a Power Outage",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2024-03/ready.gov_power-outage_hazard-info-sheet.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not power a device from a generator or inverter the manufacturer says is unsafe for it.",
+      "Do not stay home through a long outage if backup power cannot cover a life-sustaining device - evacuate early."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "The power is out and someone at home uses powered medical equipment or refrigerated medicine.",
+      "immediate": [
+        "Switch devices to charged backup batteries or a power station.",
+        "Move refrigerated medicines to a cooler, not touching ice.",
+        "Use only battery lights around oxygen - no flames."
+      ],
+      "then": [
+        "Call 911 if a life-sustaining device will run out of power.",
+        "Replace refrigerated medicines after a day or more without power unless the label says otherwise.",
+        "Check settings and dryness before restarting devices."
+      ]
+    }
+  },
+  {
+    "id": "home-014",
+    "category": "home",
+    "title": "Safe Lighting Without Power",
+    "priority": "beginner",
+    "tags": [
+      "home",
+      "lighting",
+      "flashlight",
+      "lantern",
+      "candles",
+      "fire safety",
+      "batteries",
+      "power outage"
+    ],
+    "summary": "How to light your home during an outage with flashlights and lanterns instead of flames, how to stretch batteries, and how to use candles safely if you have no other choice.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Choose battery light over flame",
+        "body": "Ready.gov, CDC, CPSC, and the U.S. Fire Administration all say the same thing: use flashlights and battery-powered lanterns, not candles, during a power outage. Candles cause about 20 home fires every day in the U.S., according to NFPA data cited by USFA, and a notable share of fatal candle fires happen when the power is out, often at night when people fall asleep with a candle burning. Battery-powered flameless candles give the same soft light with no fire risk."
+      },
+      {
+        "step": 2,
+        "title": "Build a lighting kit",
+        "body": "For each person, keep a headlamp or flashlight at the bedside. Add one bright LED lantern for each main living area. Store extra batteries of the right sizes in a cool, dry place, or use rechargeable lights with a power bank, solar charger, or hand-crank charger. Glow sticks are a good, safe nightlight for kids and a marker for bathrooms and stairs. Keep a flashlight near the breaker panel and by the front door. Check every light twice a year."
+      },
+      {
+        "step": 3,
+        "title": "Make your batteries last",
+        "body": "Use the lowest brightness setting that does the job; LED lights often run several times longer on low. Turn lights off when you leave a room. Gather the family in one room with one lantern instead of lighting several rooms. Point a headlamp at a white wall or ceiling, or set a flashlight under a clear jug of water, to spread light across a room. Pull batteries out of devices stored for a long time so they do not leak."
+      },
+      {
+        "step": 4,
+        "title": "Avoid fuel lanterns indoors",
+        "body": "Propane, white gas, and kerosene lanterns burn fuel and make carbon monoxide. CDC lists camping lanterns among the fuel-burning items you should not use indoors. Use them only outdoors, and never in a tent, garage, or near anyone using oxygen. If you use one outside, keep it on a stable surface away from anything that can burn, and let it cool before refueling outdoors."
+      },
+      {
+        "step": 5,
+        "title": "If you must use candles, follow the rules",
+        "body": "If a candle is truly your only light, set it in a sturdy, non-tip holder on a stable, uncluttered surface, at least 12 inches (30 cm) from anything that can burn, such as curtains, bedding, paper, and decorations. Keep it out of reach of children and pets. Never leave it burning when you leave the room or go to sleep, and never use candles in bedrooms or sleeping areas. Do not carry a lit candle while walking, and never use one to look inside closets or near fuel. Never use any flame near medical oxygen."
+      },
+      {
+        "step": 6,
+        "title": "Have fire protection ready",
+        "body": "Whenever any flame is lit in the home, make sure smoke alarms have working batteries, keep a fire extinguisher nearby, and know how to use it (see home-016). Make sure everyone knows two ways out of every room. Blow out every candle and turn off fuel lights before anyone goes to sleep."
+      }
+    ],
+    "warnings": [
+      "Never leave a candle burning unattended or while sleeping.",
+      "Never use candles or flames near someone on oxygen.",
+      "Fuel-burning lanterns make carbon monoxide - use them outdoors only.",
+      "Never use a candle or lighter to check for a gas leak or look into a fuel tank."
+    ],
+    "proTips": [
+      "A headlamp on low can run for days on one set of batteries and keeps both hands free.",
+      "Solar garden lights brought inside at night make free, safe nightlights.",
+      "Buy lights that all use the same battery size to simplify your spares.",
+      "Store a lantern and batteries in the same bin so they are found together in the dark."
+    ],
+    "relatedGuides": [
+      "home-016",
+      "home-001",
+      "home-013",
+      "power-006",
+      "power-001"
+    ],
+    "source": "U.S. Fire Administration / CDC / FEMA Ready.gov",
+    "sources": [
+      {
+        "title": "Candle Fire Safety",
+        "publisher": "U.S. Fire Administration (FEMA)",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/candle",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Be Prepared for a Power Outage",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://www.ready.gov/sites/default/files/2024-03/ready.gov_power-outage_hazard-info-sheet.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "CPSC Issues Winter Weather Safety Tips to Prevent Fires and Carbon Monoxide Poisoning",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Issues-Winter-Weather-Safety-Tips-to-Prevent-Fires-and-Carbon-Monoxide-Poisoning",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use candles at all if you have battery lights available.",
+      "Do not use any flame if you smell gas or someone is using medical oxygen."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The power is out and it is getting dark.",
+      "immediate": [
+        "Use flashlights, headlamps, and battery lanterns - not candles.",
+        "Put a light at each bedside and one in the main room.",
+        "Set lights on low to stretch batteries."
+      ],
+      "then": [
+        "If you must use a candle: sturdy holder, 12 inches from anything that burns, never unattended.",
+        "Keep fuel lanterns outdoors only."
+      ]
+    }
+  },
+  {
+    "id": "home-015",
+    "category": "home",
+    "title": "Trash, Pests, and Household Waste When Collection Stops",
+    "priority": "beginner",
+    "tags": [
+      "home",
+      "trash",
+      "garbage",
+      "rodents",
+      "pests",
+      "hazardous waste",
+      "sanitation",
+      "debris"
+    ],
+    "summary": "How to store garbage, keep rats and flies away, and handle household chemicals and debris safely when trash pickup stops after a disaster.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Cut down how much trash you make",
+        "body": "When collection stops, every bag you make has to be stored at your home. Make less of it. Flatten boxes and cans. Keep clean, dry paper, cardboard, and cans separate; they do not smell and can be stored longer. Clean paper and cardboard can also be shredded for bucket-toilet cover material (home-003). Rinse food cans with used dishwater before storing them. Plan meals to avoid leftovers you cannot keep cold."
+      },
+      {
+        "step": 2,
+        "title": "Store food waste tight and outdoors",
+        "body": "Food scraps and spoiled food from the fridge draw flies, rats, raccoons, and bears. Double-bag wet garbage, squeeze out the air, and tie it tightly. Store bags in trash cans with tight-fitting lids, outside or in a detached shed, away from doors, windows, and children's play areas. Keep cans in the shade to slow rotting and smell. CDC advises throwing trash out as soon as possible and always keeping it in covered cans or dumpsters."
+      },
+      {
+        "step": 3,
+        "title": "Keep rodents out of the house",
+        "body": "Rodents carry disease and can squeeze through a gap the size of a dime. Seal holes in walls, around pipes, and under doors with steel wool, metal flashing, or caulk. Store all food, pet food, and water in thick plastic, glass, or metal containers with tight lids. Wash dishes and cooking gear right after each use. Clear brush, debris, and trash piles near the house, since they make perfect nesting spots. If you need to trap, CDC recommends snap traps. Do not eat or drink anything that rodents may have touched."
+      },
+      {
+        "step": 4,
+        "title": "Clean up after rodents safely",
+        "body": "Do not sweep or vacuum rodent droppings or nests; that stirs up dust that can carry hantavirus and other germs. Air out the space for 30 minutes, put on rubber or plastic gloves, spray droppings with a disinfectant or a bleach solution made per the label, let it soak about 5 minutes, then wipe up with paper towels. Seal dead rodents in two plastic bags and put them in a covered outdoor trash can. Wash gloved hands, then remove the gloves and wash bare hands."
+      },
+      {
+        "step": 5,
+        "title": "Control flies and mosquitoes",
+        "body": "Flies breed in uncovered garbage and human waste in days. Keep all trash and bucket toilets covered. Empty or tip over anything holding standing water at least once a week, such as buckets, tires, flowerpot saucers, and tarps, because mosquitoes breed in still water. Use window screens and repair holes. Use insect repellent registered with the EPA when outdoors, following the label."
+      },
+      {
+        "step": 6,
+        "title": "Set aside household hazardous waste",
+        "body": "Paint, pesticides, cleaners, motor oil, solvents, batteries, propane cylinders, and electronics need special handling. Keep them separate from regular trash and from each other, since leaking chemicals can react. Never pour them down drains, toilets, or storm sewers, and never burn them. Set unbroken containers aside, clearly labeled, until your community's household hazardous waste collection opens; leave damaged or unlabeled containers alone if you can."
+      },
+      {
+        "step": 7,
+        "title": "Do not burn trash",
+        "body": "Burning household trash in a barrel or pile releases toxic smoke, including dioxins, and is a major cause of wildfires and house fires. It is illegal in many areas. EPA advises individuals to avoid open burning; after big disasters, any debris burning should be done by trained officials at approved sites. Wait for official debris and trash collection, and follow instructions on how to sort debris at the curb, such as separating appliances, electronics, and building materials."
+      }
+    ],
+    "warnings": [
+      "Never burn plastic, treated wood, or household trash - the smoke is toxic.",
+      "Do not sweep or vacuum rodent droppings; wet them with disinfectant first.",
+      "Never mix household chemicals or pour them down drains.",
+      "Keep garbage away from children and pets, especially spoiled meat and broken glass."
+    ],
+    "proTips": [
+      "A cheap galvanized steel can with a locking lid stops most raccoons and dogs.",
+      "Freeze meat scraps while you still have power to cut odor until pickup day.",
+      "Mark hazardous waste with tape and a marker so nobody uses it as a water jug.",
+      "Keep a box of contractor bags in your kit - they hold far more than kitchen bags."
+    ],
+    "relatedGuides": [
+      "home-003",
+      "home-004",
+      "medical-010",
+      "medical-009",
+      "fire-014"
+    ],
+    "source": "CDC / U.S. EPA",
+    "sources": [
+      {
+        "title": "Keep Pests Out (updated 2026)",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/natural-disasters/media/pdfs/2026/08/KeepPestsOut_ENG_Updated2026.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Dealing with Debris and Damaged Buildings",
+        "publisher": "U.S. EPA (January 2021 snapshot)",
+        "url": "https://19january2021snapshot.epa.gov/natural-disasters/dealing-debris-and-damaged-buildings_.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Survival Basics: Sanitation and Waste Management (EM 9334)",
+        "publisher": "Oregon State University Extension Service",
+        "url": "https://extension.oregonstate.edu/catalog/pub/em-9334-survival-basics-sanitation-waste-management",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not handle damaged, leaking, or unlabeled chemical containers - leave them for trained crews.",
+      "Do not disturb debris from older homes that may contain asbestos or lead paint; get professional help."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Trash pickup has stopped and garbage is building up at home.",
+      "immediate": [
+        "Double-bag food waste and store it in lidded cans outdoors.",
+        "Store all food and pet food in sealed hard containers.",
+        "Keep chemicals and batteries separate from regular trash."
+      ],
+      "then": [
+        "Seal rodent entry holes and dump standing water weekly.",
+        "Never burn trash; wait for official collection."
+      ]
+    }
+  },
+  {
+    "id": "home-016",
+    "category": "home",
+    "title": "Home Fire Prevention and Using a Fire Extinguisher (PASS)",
+    "priority": "critical",
+    "tags": [
+      "home",
+      "fire safety",
+      "fire extinguisher",
+      "PASS",
+      "smoke alarm",
+      "escape plan",
+      "power outage"
+    ],
+    "summary": "How to prevent the house fires that spike during outages, when it is safe to fight a small fire, and how to use an extinguisher with the PASS method. Escape always comes first.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know why outages raise fire risk",
+        "body": "Outages bring candles, space heaters, fireplaces, generators, fuel cans, and camp stoves into daily use, often in tired, crowded homes. Each one is a common cause of house fires. Keep 3 feet (1 m) of clear space around heaters and stoves, never leave flames unattended, store fuel outside living areas, refuel only cool engines outdoors, and cook outdoors on fuel-burning stoves (see home-001, home-014, and food-011). When the fire department may be slow to respond, prevention matters even more."
+      },
+      {
+        "step": 2,
+        "title": "Keep smoke alarms working",
+        "body": "Install smoke alarms on every level and inside every bedroom, plus CO alarms on every level and outside sleeping areas (CPSC). Test them monthly. Hard-wired alarms without battery backup go silent in an outage, so add battery-powered alarms if yours lack a backup. Never pull batteries from an alarm to quiet it. Replace smoke alarms 10 years after the manufacture date printed on the back."
+      },
+      {
+        "step": 3,
+        "title": "Plan and practice your escape",
+        "body": "Make a home escape plan with two ways out of every room, such as a door and a window, and an outside meeting place a safe distance from the house. Practice it at least twice a year, including once in the dark with flashlights, since outages often mean no lights. Make sure windows open and security bars have quick-release latches. Teach everyone: get out, stay out, and call 911 from outside. Never go back inside a burning building."
+      },
+      {
+        "step": 4,
+        "title": "Choose and place the right extinguisher",
+        "body": "For most homes, a multipurpose dry chemical extinguisher labeled ABC, with a rating of at least 2-A:10-B:C, covers ordinary combustibles, flammable liquids, and electrical fires. Pick one large enough to matter but light enough for everyone in the home to lift. Mount one near the kitchen exit, one in the garage, and one on each floor, near an exit, not next to the stove. Check the pressure gauge monthly, keep it in the green, and replace or service it as the label directs."
+      },
+      {
+        "step": 5,
+        "title": "Decide: fight or get out",
+        "body": "Fight a fire only if all of these are true: everyone else is getting out, someone has called 911 or is calling, the fire is small and contained (like a wastebasket) and not spreading, the room is not filling with smoke, and you have a clear exit behind you. OSHA's rule is simple: if you have any doubt about fighting the fire, get out right away. If the extinguisher empties and the fire is not out, leave immediately and close the door behind you."
+      },
+      {
+        "step": 6,
+        "title": "Use PASS",
+        "body": "Stand 6 to 8 feet (2 to 2.5 m) back with your exit behind you. Pull the pin, holding the nozzle pointed away from you; this breaks the tamper seal. Aim low, at the base of the fire, not the flames. Squeeze the handle slowly and evenly. Sweep the nozzle side to side across the base until the fire looks out. Back away while watching it; fires can flare back up. If it rekindles, repeat or get out. Most home extinguishers empty in about 10 to 20 seconds, so do not waste agent."
+      },
+      {
+        "step": 7,
+        "title": "Handle special fires correctly",
+        "body": "For a grease fire on a stove, never use water; slide a lid over the pan, turn off the burner, and leave the lid on until the pan cools. For an oven or microwave fire, keep the door closed and turn it off. For an electrical fire, cut the power if you can do it safely and use an ABC or C-rated extinguisher, never water. If clothes catch fire, stop, drop, and roll. After any fire, even a small one, have the fire department check that it is fully out."
+      }
+    ],
+    "warnings": [
+      "If you have any doubt about fighting a fire, get out and call 911 from outside.",
+      "Never throw water on a grease or electrical fire.",
+      "Never let the fire get between you and your exit.",
+      "Hard-wired smoke alarms without battery backup do not work during an outage."
+    ],
+    "proTips": [
+      "Practice PASS with a training extinguisher or at a fire department class - many offer them free.",
+      "Write the purchase date on the extinguisher and set a phone reminder to check the gauge monthly.",
+      "Keep a lid next to the stove for grease fires; it is faster than any extinguisher.",
+      "Sleep with bedroom doors closed; a closed door slows smoke and fire."
+    ],
+    "relatedGuides": [
+      "fire-013",
+      "fire-014",
+      "home-001",
+      "home-014",
+      "medical-017",
+      "food-011"
+    ],
+    "source": "OSHA / NFPA / CPSC",
+    "sources": [
+      {
+        "title": "Portable Fire Extinguishers - Fire Extinguisher Use",
+        "publisher": "OSHA",
+        "url": "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fire Extinguishers (NFPA safety tips)",
+        "publisher": "North Hudson Regional Fire and Rescue",
+        "url": "https://www.northhudsonfire.org/public-safety/fire-extinguishers/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "CPSC Issues Winter Weather Safety Tips to Prevent Fires and Carbon Monoxide Poisoning",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Issues-Winter-Weather-Safety-Tips-to-Prevent-Fires-and-Carbon-Monoxide-Poisoning",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Heating Fire Safety",
+        "publisher": "U.S. Fire Administration (FEMA)",
+        "url": "https://www.usfa.fema.gov/downloads/pdf/publications/heating-fire-safety-handout.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not fight a fire that is spreading, filling the room with smoke, or blocking your exit.",
+      "Do not use a water extinguisher on grease, fuel, or electrical fires.",
+      "Do not fight any fire before everyone else is getting out and 911 is being called."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A small fire has started in your home.",
+      "immediate": [
+        "Get everyone out and have someone call 911.",
+        "Fight it only if it is small, not spreading, and your exit is behind you.",
+        "PASS: Pull the pin, Aim at the base, Squeeze, Sweep side to side."
+      ],
+      "then": [
+        "If the fire is not out when the extinguisher empties, leave and close the door.",
+        "Have the fire department check even a fire you put out."
+      ]
+    }
+  }
+]

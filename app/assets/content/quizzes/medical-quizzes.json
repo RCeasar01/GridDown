@@ -4,18 +4,44 @@
     "category": "medical",
     "type": "priority_order",
     "difficulty": "advanced",
-    "scenario": "You have a conscious casualty with a gunshot wound to the upper thigh, heavy bleeding, no incoming fire. Put these actions in the correct order.",
+    "scenario": "A conscious casualty has a gunshot wound to the mid-thigh with heavy bleeding. The shooter is gone but the area is still exposed. Put these actions in the correct order.",
     "items": [
-      { "id": "1", "text": "Apply tourniquet 2–3 inches above the wound" },
-      { "id": "2", "text": "Establish the casualty's airway" },
-      { "id": "3", "text": "Note the time of tourniquet application" },
-      { "id": "4", "text": "Move the casualty to cover" },
-      { "id": "5", "text": "Pack the wound if tourniquet is ineffective" }
+      {
+        "id": "1",
+        "text": "Apply a tourniquet 2-3 inches above the wound and tighten until bleeding stops"
+      },
+      {
+        "id": "2",
+        "text": "Check the airway and breathing"
+      },
+      {
+        "id": "3",
+        "text": "Write the time of tourniquet application on the tourniquet"
+      },
+      {
+        "id": "4",
+        "text": "Move the casualty to cover"
+      },
+      {
+        "id": "5",
+        "text": "If bleeding continues, add a second tourniquet just above the first"
+      }
     ],
-    "correct_order": ["4", "1", "3", "5", "2"],
-    "explanation": "Under fire: move to cover first. Then hemorrhage control is the priority — tourniquet high and tight. Always mark the time. Pack if the tourniquet alone doesn't control bleeding. Airway comes after hemorrhage when not in immediate danger.",
+    "correct_order": [
+      "4",
+      "1",
+      "3",
+      "5",
+      "2"
+    ],
+    "explanation": "Safety first: get to cover. Then massive bleeding comes before airway (MARCH). Mark the time as soon as the tourniquet is locked. If the first tourniquet does not stop the bleeding, the current CoTCCC guidelines call for a second tourniquet side by side, just above the first - not removing the first. Airway and breathing come next for a conscious, talking casualty.",
     "relatedGuide": "medical-002",
-    "tags": ["medical", "TCCC", "tourniquet", "advanced"]
+    "tags": [
+      "medical",
+      "TCCC",
+      "tourniquet",
+      "advanced"
+    ]
   },
   {
     "id": "quiz-medical-002",
@@ -24,33 +50,787 @@
     "difficulty": "intermediate",
     "scenario": "You have a severe laceration to your right forearm near the elbow with arterial bleeding (spurting). You have a CAT tourniquet. You must apply it one-handed to your own arm. Put these steps in correct order.",
     "items": [
-      { "id": "1", "text": "Thread the strap through the buckle and pull tight, routing proximal to the wound" },
-      { "id": "2", "text": "Position the tourniquet 2-3 inches proximal (toward the heart) from the wound" },
-      { "id": "3", "text": "Twist the windlass rod until bleeding completely stops" },
-      { "id": "4", "text": "Secure the windlass with the locking clip or hook-and-loop" },
-      { "id": "5", "text": "Write the time of application on the white TQ label or on your skin with a marker" }
+      {
+        "id": "1",
+        "text": "Thread the strap through the buckle and pull tight, routing proximal to the wound"
+      },
+      {
+        "id": "2",
+        "text": "Position the tourniquet 2-3 inches proximal (toward the heart) from the wound"
+      },
+      {
+        "id": "3",
+        "text": "Twist the windlass rod until bleeding completely stops"
+      },
+      {
+        "id": "4",
+        "text": "Secure the windlass with the locking clip or hook-and-loop"
+      },
+      {
+        "id": "5",
+        "text": "Write the time of application on the white TQ label or on your skin with a marker"
+      }
     ],
-    "correct_order": ["2", "1", "3", "4", "5"],
+    "correct_order": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
     "explanation": "Position before tightening — 2-3 inches proximal to the wound, never over a joint. Tighten the strap as much as possible before touching the windlass — the strap does most of the compression work. Twist the windlass until bleeding stops completely — partial application that slows but doesn't stop bleeding is dangerous (it blocks venous return without stopping arterial flow, accelerating blood loss). Secure the windlass — an unsecured windlass can unwind, causing rebleed. Always mark the time — tourniquet time determines the evacuation priority and guides the receiving physician on nerve/vascular damage windows. Never remove the tourniquet in the field once applied.",
     "relatedGuide": "medical-002",
-    "tags": ["medical", "tourniquet", "self-aid", "intermediate"]
+    "tags": [
+      "medical",
+      "tourniquet",
+      "self-aid",
+      "intermediate"
+    ]
   },
   {
     "id": "quiz-medical-003",
     "category": "medical",
     "type": "multiple_choice",
     "difficulty": "advanced",
-    "scenario": "Your casualty took blunt trauma to the left chest from a vehicle collision. He is conscious but deteriorating rapidly. He shows: decreased breath sounds on the LEFT, respiratory distress, blood pressure dropping (systolic 80), neck veins visibly distended, and trachea deviated toward the RIGHT. Which action is most appropriate?",
+    "scenario": "Your casualty took blunt trauma to the left chest in a vehicle collision. He is conscious but getting worse fast: decreased breath sounds on the LEFT, severe breathing distress, weak fast pulse, distended neck veins, and the windpipe pushed toward the RIGHT. A trained medic is with you. Which action is most appropriate?",
     "options": [
-      { "id": "a", "text": "Position him in recovery position and monitor — this is a simple pneumothorax" },
-      { "id": "b", "text": "Needle decompression: 14-gauge needle at the 2nd intercostal space, midclavicular line on the LEFT side" },
-      { "id": "c", "text": "Needle decompression on the RIGHT (opposite of injury) — tracheal deviation indicates the right lung is compressed" },
-      { "id": "d", "text": "Apply a chest seal to the left chest and reassess" }
+      {
+        "id": "a",
+        "text": "Place him in the recovery position and monitor - this is a simple pneumothorax"
+      },
+      {
+        "id": "b",
+        "text": "Needle decompression on the LEFT side, at the 5th rib space anterior axillary line or the 2nd rib space midclavicular line"
+      },
+      {
+        "id": "c",
+        "text": "Needle decompression on the RIGHT side, because the windpipe has shifted to the right"
+      },
+      {
+        "id": "d",
+        "text": "Apply an airtight chest seal to the left chest and reassess in 15 minutes"
+      }
     ],
     "correct": "b",
-    "explanation": "This is a tension pneumothorax. The diagnostic triad: (1) absent/decreased breath sounds on affected side, (2) tracheal deviation AWAY from the injury (trachea pushes toward right = left tension), (3) hypotension + JVD. The trachea deviates AWAY from the tension — needle decompression goes to the SAME side as the injury (left). Landmark: 2nd ICS, midclavicular line OR 4th-5th ICS, anterior axillary line (now preferred — less risk of hitting the heart or vessels). A simple pneumothorax does not cause tracheal deviation or hemodynamic instability. An occlusive chest seal can worsen tension PTX if it seals completely — use a vented chest seal if one is present.",
-    "relatedGuide": "medical-003",
-    "tags": ["medical", "advanced", "chest-trauma", "pneumothorax"]
+    "explanation": "These are signs of a left tension pneumothorax: the trapped air pushes the windpipe AWAY from the injured side, so decompression goes on the injured (left) side. The May 2026 CoTCCC guidelines list the 5th rib space at the anterior axillary line first and the 2nd rib space at the midclavicular line as the alternate, never inside the nipple line, using a 3.25-inch needle - a procedure for trained personnel only. A simple pneumothorax does not cause this shock picture. There is no open wound here, and an airtight seal can trap air and worsen tension.",
+    "relatedGuide": "medical-005",
+    "tags": [
+      "medical",
+      "advanced",
+      "chest-trauma",
+      "pneumothorax"
+    ]
+  },
+  {
+    "id": "quiz-medical-005",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "After a fall onto rebar, your casualty has a deep thigh wound that you have now packed and controlled. He is confused, pale, and sweaty, with a fast, weak wrist pulse and fast breathing. Help is 40 minutes away. What is the best positioning and care?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lay him flat, raise his legs 12 inches, and give him water to drink"
+      },
+      {
+        "id": "b",
+        "text": "Lay him flat on his back, do not raise his legs, insulate him from the ground and wrap him warmly, and recheck vitals every 5 minutes"
+      },
+      {
+        "id": "c",
+        "text": "Sit him upright so he can breathe more easily and walk him toward the road to meet EMS"
+      },
+      {
+        "id": "d",
+        "text": "Place him in a head-down (Trendelenburg) position to push blood to the brain"
+      }
+    ],
+    "correct": "b",
+    "explanation": "These are signs of shock from blood loss. The 2024 AHA-Red Cross first aid guidelines recommend lying flat on the back; raising the legs is only considered for shock without trauma (such as fainting or dehydration), and head-down positions are not recommended. Keeping him warm matters because cold blood clots poorly. Do not give drinks to a confused, seriously injured person who may need surgery, and do not let someone in shock walk.",
+    "relatedGuide": "medical-006",
+    "tags": [
+      "medical",
+      "advanced",
+      "shock",
+      "hemorrhage"
+    ]
+  },
+  {
+    "id": "quiz-medical-007",
+    "category": "medical",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "A casualty has a deep stab wound in the groin crease - too high for a tourniquet - with bright red blood flowing. You have hemostatic gauze and a pressure bandage. Put these steps in order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Expose the wound fully - cut away clothing for clear access"
+      },
+      {
+        "id": "2",
+        "text": "Pack hemostatic gauze into the deepest part of the wound, right onto the bleeding spot"
+      },
+      {
+        "id": "3",
+        "text": "Keep packing more gauze until the wound is filled tight"
+      },
+      {
+        "id": "4",
+        "text": "Hold firm direct pressure with locked elbows for at least 3 minutes"
+      },
+      {
+        "id": "5",
+        "text": "Apply a pressure bandage over the packed wound to keep pressure on"
+      },
+      {
+        "id": "6",
+        "text": "Record the time and the type and amount of gauze used"
+      }
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "explanation": "You cannot pack what you cannot see, so expose first. Pack to the bottom of the wound - building up from the surface leaves the bleeding vessel uncovered. Fill the cavity completely. The CoTCCC guidelines call for at least 3 minutes of firm pressure with hemostatic gauze; do not peek. A pressure bandage keeps pressure on so you can move or treat others. Record the gauze so the hospital knows it is inside.",
+    "relatedGuide": "medical-004",
+    "tags": [
+      "medical",
+      "intermediate",
+      "wound-packing",
+      "hemorrhage",
+      "hemostatic"
+    ]
+  },
+  {
+    "id": "quiz-medical-008",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You have a dehydrated partner who is conscious and can swallow. You have clean (boiled) water, table salt, and sugar. What is the WHO-recommended oral rehydration solution formula?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 teaspoon salt + 8 teaspoons sugar per 1 liter water"
+      },
+      {
+        "id": "b",
+        "text": "6 level teaspoons sugar + half a teaspoon salt per 1 liter water"
+      },
+      {
+        "id": "c",
+        "text": "1 tablespoon salt + 1 tablespoon sugar per 1 liter water"
+      },
+      {
+        "id": "d",
+        "text": "2 teaspoons baking soda + 4 teaspoons sugar per 1 liter water"
+      }
+    ],
+    "correct": "b",
+    "explanation": "WHO ORS formula: 6 level teaspoons (30ml) glucose/sugar + 0.5 teaspoon (2.5ml) salt in 1 liter clean water. The sugar:salt ratio is critical. Too much salt causes hypernatremia (sodium poisoning) — 1 tablespoon salt is 3x the safe dose and can cause seizures in a dehydrated person. The glucose is not just for calories — it enables sodium-glucose cotransport (SGLT mechanism) in the intestinal lining, dramatically increasing water absorption. Plain water without glucose/salt does not absorb as efficiently. Give 200-400mL every 30 minutes. If vomiting occurs, give smaller sips (30-50mL) every 5 minutes. Escalate to IV fluids if: unconscious, persistent vomiting, signs of shock.",
+    "relatedGuide": "medical-008",
+    "tags": [
+      "medical",
+      "beginner",
+      "dehydration",
+      "ORS",
+      "rehydration"
+    ]
+  },
+  {
+    "id": "quiz-medical-101",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your 6-month-old nephew is limp, not responding, and not breathing. You have called 911 on speaker. How should you give chest compressions under the 2025 AHA guidelines?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Two fingers on the center of the chest, pressing about half an inch"
+      },
+      {
+        "id": "b",
+        "text": "Heel of one hand, or two thumbs with hands encircling the chest, just below the nipple line, about 1.5 inches deep at 100-120 per minute"
+      },
+      {
+        "id": "c",
+        "text": "Both hands stacked like an adult, pressing 2.4 inches deep"
+      },
+      {
+        "id": "d",
+        "text": "Gentle pats on the back until the baby starts crying"
+      }
+    ],
+    "correct": "b",
+    "explanation": "The 2025 AHA guidelines dropped the two-finger technique because rescuers rarely reach adequate depth with it. Use the heel of one hand or the two-thumb encircling technique, about 1.5 inches (one-third of chest depth), at 100-120 per minute, with 2 breaths after every 30 compressions. Adult two-hand compressions are too forceful for an infant, and back pats are not CPR.",
+    "relatedGuide": "medical-015",
+    "tags": [
+      "medical",
+      "beginner",
+      "CPR",
+      "infant",
+      "AHA 2025"
+    ]
+  },
+  {
+    "id": "quiz-medical-102",
+    "category": "medical",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "At dinner, an adult friend suddenly grabs his throat. He cannot speak or cough. Put the 2025 AHA choking response in order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Ask 'Are you choking?' and have someone call 911"
+      },
+      {
+        "id": "2",
+        "text": "Give up to 5 back blows between the shoulder blades while he leans forward"
+      },
+      {
+        "id": "3",
+        "text": "Give up to 5 abdominal thrusts just above the belly button"
+      },
+      {
+        "id": "4",
+        "text": "Keep alternating 5 back blows and 5 abdominal thrusts"
+      },
+      {
+        "id": "5",
+        "text": "If he becomes unresponsive, lower him to the floor and start CPR"
+      }
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Confirm severe choking (cannot speak or cough) and get 911 coming. The 2025 AHA guidelines now pair back blows with abdominal thrusts for adults and children: 5 back blows, then 5 abdominal thrusts, repeated until the object comes out. If he becomes unresponsive, start CPR and look in the mouth before each set of breaths, removing an object only if you can see it.",
+    "relatedGuide": "medical-016",
+    "tags": [
+      "medical",
+      "beginner",
+      "choking",
+      "AHA 2025"
+    ]
+  },
+  {
+    "id": "quiz-medical-103",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Boiling water from a camp stove spills across your teenager's forearm. The skin is red and starting to blister over an area larger than her palm. What should you do first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Put ice directly on the burn to stop the pain"
+      },
+      {
+        "id": "b",
+        "text": "Cover it with butter or cooking oil to seal the skin"
+      },
+      {
+        "id": "c",
+        "text": "Run cool water over it for 20 minutes, remove her watch and bracelets, then cover loosely with plastic wrap or a nonstick dressing"
+      },
+      {
+        "id": "d",
+        "text": "Pop the blisters and apply a tight bandage"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Cool running water for about 20 minutes is the first step for heat burns and still helps if started up to 3 hours later. Remove jewelry before swelling traps it. Then cover loosely with a clean nonstick dressing or plastic wrap. Ice deepens damage, oils hold in heat and raise infection risk, and blisters should be left intact. A blistering burn larger than the palm should be checked by a medical professional.",
+    "relatedGuide": "medical-017",
+    "tags": [
+      "medical",
+      "beginner",
+      "burns"
+    ]
+  },
+  {
+    "id": "quiz-medical-104",
+    "category": "medical",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "During a hot afternoon clearing storm debris, a neighbor starts slurring his words, stumbles, and collapses. He is breathing. There is a creek nearby and you have a tarp and a cooler of ice. Put your actions in order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Call 911 and move him into shade"
+      },
+      {
+        "id": "2",
+        "text": "Remove extra clothing and gear"
+      },
+      {
+        "id": "3",
+        "text": "Immerse him up to the neck in cold water (creek or tarp with ice water), keeping his head and airway clear"
+      },
+      {
+        "id": "4",
+        "text": "Stop cooling when he becomes clear-minded, then keep monitoring"
+      },
+      {
+        "id": "5",
+        "text": "Hand over to EMS and continue cooling if he gets hot again"
+      }
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Confusion and collapse in the heat mean heat stroke until proven otherwise. Cool first, transport second: start cooling immediately rather than waiting for EMS. Cold-water immersion is the fastest, preferred method (WMS), and a tarp with ice water works when no tub is available. Stop when mental status returns to normal (or rectal temperature reaches about 101-102 F) to avoid overcooling. Fever medicines do not help heat stroke.",
+    "relatedGuide": "medical-027",
+    "tags": [
+      "medical",
+      "intermediate",
+      "heat stroke",
+      "cooling"
+    ]
+  },
+  {
+    "id": "quiz-medical-105",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "You find a hiker lying in wet snow after a night out. He is unresponsive, not shivering, and very cold. His breathing is extremely slow and shallow. After 45 seconds of careful checking you feel a faint, very slow pulse at the neck. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Start chest compressions immediately, since the pulse is too slow to be effective"
+      },
+      {
+        "id": "b",
+        "text": "Do not start compressions; handle him gently and keep him flat, insulate him from the ground, replace or wrap wet clothing, build a hypothermia wrap with heat on the chest and armpits, and evacuate"
+      },
+      {
+        "id": "c",
+        "text": "Rub his arms and legs hard to restore circulation, then walk him to the trailhead"
+      },
+      {
+        "id": "d",
+        "text": "Put him in a hot bath as soon as you reach a cabin"
+      }
+    ],
+    "correct": "b",
+    "explanation": "This is severe hypothermia. The WMS guidelines say to check for a pulse for up to a minute and NOT to start compressions if any pulse is present, because compressions can trigger cardiac arrest in a very cold heart. Rough handling, rubbing limbs, walking, and warm baths or showers can cause collapse. Gentle handling, a horizontal position, insulation, a vapor barrier, wrapped heat on the trunk, and rapid evacuation to a hospital are correct.",
+    "relatedGuide": "medical-025",
+    "tags": [
+      "medical",
+      "advanced",
+      "hypothermia",
+      "CPR"
+    ]
+  },
+  {
+    "id": "quiz-medical-106",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "On day two of a winter evacuation on foot, your partner's toes are white, hard, and numb. You have a stove and could warm water now, but you still have a 6-hour walk in below-freezing weather to reach shelter. What is the best choice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Thaw the toes now in warm water, then keep walking"
+      },
+      {
+        "id": "b",
+        "text": "Rub the toes briskly with snow to restore blood flow"
+      },
+      {
+        "id": "c",
+        "text": "Keep the toes frozen and protected, walk out, and rewarm in 99-104 F (37-40 C) water once at shelter where they will not refreeze"
+      },
+      {
+        "id": "d",
+        "text": "Warm the feet directly next to the stove flame"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Thawing and then refreezing causes far worse damage than staying frozen, and walking on thawed frostbitten feet injures them further. WMS and AHA-Red Cross guidance say to rewarm only when refreezing can be prevented, in warm (not hot) water. Never rub frostbite or use snow, and never use a flame or heater - numb skin burns easily.",
+    "relatedGuide": "medical-026",
+    "tags": [
+      "medical",
+      "intermediate",
+      "frostbite",
+      "cold injury"
+    ]
+  },
+  {
+    "id": "quiz-medical-107",
+    "category": "medical",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "A child has been swept into a flooded drainage channel and is struggling 15 feet from the bank. You are not a trained water rescuer. Put your actions in order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Shout for help, have someone call 911, and tell the child to float on her back"
+      },
+      {
+        "id": "2",
+        "text": "Lie flat on the bank and reach with a long pole or branch"
+      },
+      {
+        "id": "3",
+        "text": "If she is out of reach, throw a rope or anything that floats past her so it drifts to her"
+      },
+      {
+        "id": "4",
+        "text": "Once she is on land, check responsiveness and breathing"
+      },
+      {
+        "id": "5",
+        "text": "If she is not breathing normally, start CPR with rescue breaths and get an AED"
+      }
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Reach, throw, don't go: untrained rescuers who enter moving or flood water often drown. Floating buys time. Reach first, then throw something buoyant if reach fails. Once she is out, check breathing; drowning is an oxygen problem, so the 2024 AHA-AAP update stresses CPR with rescue breaths, not compressions alone, when you are able to give breaths. Anyone who needed breaths or CPR should go to a hospital.",
+    "relatedGuide": "medical-028",
+    "tags": [
+      "medical",
+      "intermediate",
+      "drowning",
+      "water rescue"
+    ]
+  },
+  {
+    "id": "quiz-medical-108",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Lightning strikes near a group of four hikers. Two are sitting up, dazed and groaning. One is moaning with a burned shoulder. One is lying still, not breathing. The storm is moving off. Whom do you treat first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The hiker with the burned shoulder, because visible injuries come first"
+      },
+      {
+        "id": "b",
+        "text": "The two dazed hikers, because they are most likely to survive"
+      },
+      {
+        "id": "c",
+        "text": "The hiker who is not breathing - start CPR right away; he is safe to touch"
+      },
+      {
+        "id": "d",
+        "text": "Nobody until 30 minutes after the last thunder, because the victims may still carry a charge"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Lightning uses reverse triage: those who appear dead are treated first, because lightning kills by stopping the heart and breathing, and prompt CPR can save them. People who are moving and groaning are breathing and can usually wait. Lightning victims carry no electrical charge, so do not delay care - but do move to safety if the storm is still overhead. Everyone struck should later be checked by a medical professional.",
+    "relatedGuide": "medical-029",
+    "tags": [
+      "medical",
+      "advanced",
+      "lightning",
+      "triage",
+      "CPR"
+    ]
+  },
+  {
+    "id": "quiz-medical-201",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your 58-year-old neighbor is sitting on his porch, sweaty and gray, saying his chest feels like 'an elephant is sitting on it' for the past 10 minutes. He is alert, not allergic to aspirin, and has never been told to avoid it. You have called 911. What should you do next?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Have him walk to your car so you can drive him to the hospital faster"
+      },
+      {
+        "id": "b",
+        "text": "Have him rest and chew 162-325 mg of aspirin while you wait for EMS"
+      },
+      {
+        "id": "c",
+        "text": "Give him a glass of water and two ibuprofen for the pain"
+      },
+      {
+        "id": "d",
+        "text": "Wait 15 minutes to see whether the pain goes away before doing anything else"
+      }
+    ],
+    "correct": "b",
+    "explanation": "The 2024 AHA/Red Cross first aid guidelines say an alert adult with non-traumatic chest pain may be encouraged to chew and swallow 162-325 mg of aspirin while waiting for EMS, unless allergic or told not to. Rest reduces the heart's workload. Walking him to a car adds exertion and loses the care paramedics start en route. Ibuprofen is not a substitute for aspirin here. Waiting to see if it passes wastes heart muscle.",
+    "relatedGuide": "medical-040",
+    "tags": [
+      "medical",
+      "beginner",
+      "heart attack",
+      "aspirin",
+      "chest pain"
+    ]
+  },
+  {
+    "id": "quiz-medical-202",
+    "category": "medical",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "At breakfast your mother suddenly can't lift her right arm and her words come out slurred. She went to bed fine at 10 p.m. and woke at 6 a.m.; you noticed the symptoms at 7:15 a.m. Put your actions in the correct order.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Check BE FAST: balance, eyes, face droop, arm drift, speech"
+      },
+      {
+        "id": "b",
+        "text": "Call 911 and say 'possible stroke'"
+      },
+      {
+        "id": "c",
+        "text": "Write down the last known well time (10 p.m., or when she was last seen normal this morning)"
+      },
+      {
+        "id": "d",
+        "text": "Keep her still, give nothing by mouth, and place her on her side if she becomes drowsy"
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "A quick BE FAST check confirms the warning signs in seconds, then call 911 right away - do not drive her yourself. Record the last time she was known to be normal, not the time you noticed symptoms; hospitals use it to decide on clot-busting treatment, which works only within a few hours. While waiting, give no food, drink, or aspirin, since stroke can affect swallowing and some strokes are bleeding strokes.",
+    "relatedGuide": "medical-041",
+    "tags": [
+      "medical",
+      "intermediate",
+      "stroke",
+      "BE FAST",
+      "time"
+    ]
+  },
+  {
+    "id": "quiz-medical-203",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "A 10-year-old with a peanut allergy ate a cookie at a camp. Within minutes she has hives, a hoarse voice, and is wheezing. Her epinephrine auto-injector is in her backpack. EMS is about 25 minutes away. What is the best action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Give an antihistamine first and use the auto-injector only if she gets worse"
+      },
+      {
+        "id": "b",
+        "text": "Give the auto-injector in her outer thigh per the device instructions and call 911; consider a second dose if she does not improve"
+      },
+      {
+        "id": "c",
+        "text": "Have her stand and walk around to keep her alert"
+      },
+      {
+        "id": "d",
+        "text": "Let her use a friend's asthma inhaler and wait for EMS"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Hives plus breathing symptoms after a known trigger is anaphylaxis. Epinephrine is the first and most important treatment - give it without delay and call 911. The 2024 AHA/Red Cross guidelines say a repeat dose may be considered if there is no response and EMS is more than 5-10 minutes away. Antihistamines are too slow and do not replace epinephrine. Standing or walking can cause a collapse in blood pressure. An inhaler does not treat the whole-body reaction.",
+    "relatedGuide": "medical-042",
+    "tags": [
+      "medical",
+      "intermediate",
+      "anaphylaxis",
+      "epinephrine",
+      "children"
+    ]
+  },
+  {
+    "id": "quiz-medical-204",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "A coworker collapses and begins jerking all over. A bystander grabs a spoon to put in his mouth 'so he won't swallow his tongue.' You started timing; it has been 2 minutes. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Help the bystander put the spoon between his teeth"
+      },
+      {
+        "id": "b",
+        "text": "Hold his arms and legs down so he doesn't hurt himself"
+      },
+      {
+        "id": "c",
+        "text": "Stop the bystander, clear hard objects, cushion his head, keep timing, and roll him onto his side when you can"
+      },
+      {
+        "id": "d",
+        "text": "Start rescue breaths immediately"
+      }
+    ],
+    "correct": "c",
+    "explanation": "CDC seizure first aid: never put anything in the mouth - a person cannot swallow their tongue, and objects break teeth or block the airway. Do not restrain movements. Protect the head, clear the area, time the seizure, and turn the person on their side to keep the airway clear. Rescue breaths are not given during the seizure; breathing usually resumes when it ends. Call 911 if it passes 5 minutes, repeats, or it is a first seizure.",
+    "relatedGuide": "medical-044",
+    "tags": [
+      "medical",
+      "beginner",
+      "seizure",
+      "first aid"
+    ]
+  },
+  {
+    "id": "quiz-medical-205",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "Two hours from the trailhead, your partner is bitten on the ankle by a rattlesnake. The area is swelling quickly. You have a first aid kit with an elastic bandage, a commercial suction extractor, a marker, and ice packs. You have one bar of cell signal. Which plan matches current guidance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use the suction extractor, then wrap the leg tightly with the elastic bandage from toes to hip"
+      },
+      {
+        "id": "b",
+        "text": "Apply ice packs to the bite and a tourniquet above the knee to keep venom out of the body"
+      },
+      {
+        "id": "c",
+        "text": "Call 911, remove boot and anklet, keep the leg still at about heart level, mark the swelling edge with the time, and arrange evacuation with minimal walking"
+      },
+      {
+        "id": "d",
+        "text": "Cut small slits over the fang marks and squeeze out the blood"
+      }
+    ],
+    "correct": "c",
+    "explanation": "The 2024 AHA/Red Cross first aid guidelines list suction, tourniquets, electric shock, and pressure-immobilization bandaging as potentially harmful, and ice as not beneficial, for North American snakebites. CDC/NIOSH also warns against cutting. The right steps: call EMS, remove constricting items before swelling worsens, rest and immobilize the limb, mark spreading swelling with times, and get to a hospital for antivenom while limiting exertion.",
+    "relatedGuide": "medical-048",
+    "tags": [
+      "medical",
+      "advanced",
+      "snakebite",
+      "envenomation",
+      "wilderness"
+    ]
+  },
+  {
+    "id": "quiz-medical-206",
+    "category": "medical",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "Day three of a winter power outage. A family running a generator in the attached garage reports that everyone, including the dog, has a headache and nausea, and grandma is confused. Order the response.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Get everyone and the dog outside into fresh air immediately"
+      },
+      {
+        "id": "b",
+        "text": "Call 911 from outside and report suspected carbon monoxide"
+      },
+      {
+        "id": "c",
+        "text": "Keep victims outside, warm, and resting; recovery position or CPR as needed"
+      },
+      {
+        "id": "d",
+        "text": "Do not go back in until responders clear the house; move the generator 20+ feet from doors, windows, and vents"
+      }
+    ],
+    "correct_order": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "Several people and pets sick at once indoors near a fuel-burning engine strongly suggests carbon monoxide. Leave first - do not search for the source or open windows room by room. Call 911 from outside; confused or symptomatic people need hospital evaluation and oxygen. Stay out until responders say it is safe. CDC says never run a generator in a garage, even with the door open; place it outdoors at least 20 feet from doors, windows, and vents.",
+    "relatedGuide": "medical-047",
+    "tags": [
+      "medical",
+      "beginner",
+      "carbon monoxide",
+      "generator",
+      "power outage"
+    ]
+  },
+  {
+    "id": "quiz-medical-207",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You wake in a cabin to find a bat flying around the room where your 4-year-old has been sleeping. She has no visible bite marks and says nothing hurts. What is the right response?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No bite marks means no exposure - just shoo the bat out"
+      },
+      {
+        "id": "b",
+        "text": "Wait to see if she develops a fever or tingling, then go to a doctor"
+      },
+      {
+        "id": "c",
+        "text": "Treat it as a possible rabies exposure: avoid bare-hand contact with the bat and get her medically evaluated promptly"
+      },
+      {
+        "id": "d",
+        "text": "Wash her skin with soap for 15 minutes and skip medical care since she was not bitten"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Bat bites can be too small to see or feel. Public health guidance says a bat found where someone was sleeping, or near a young child who cannot reliably report a bite, should be treated as a possible exposure. Rabies is almost always fatal once symptoms start, but post-exposure shots are nearly 100% effective when started in time - so waiting for symptoms is dangerous. If the bat can be safely contained without bare hands for testing, that can help decisions.",
+    "relatedGuide": "medical-052",
+    "tags": [
+      "medical",
+      "intermediate",
+      "rabies",
+      "bats",
+      "children"
+    ]
+  },
+  {
+    "id": "quiz-medical-208",
+    "category": "medical",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "On the second night camping at 11,500 ft, after driving up from sea level the day before, a group member is short of breath while resting in the tent, coughing, and much slower than everyone on today's short hike. His lips look slightly blue. It is dark but the trail down is well marked. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Give ibuprofen for his headache and plan to reassess in the morning"
+      },
+      {
+        "id": "b",
+        "text": "Rest a full day at the same camp to let him acclimatize"
+      },
+      {
+        "id": "c",
+        "text": "Treat as HAPE: descend now at least 3,300 ft with minimal exertion for him, keep him warm, and seek medical care"
+      },
+      {
+        "id": "d",
+        "text": "Continue to the planned higher camp where a ranger station has a radio"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Breathlessness at rest, cough, poor exercise tolerance compared to others, and blue lips on night two after a rapid ascent point to high-altitude pulmonary edema (HAPE), the leading cause of altitude-related death. Wilderness Medical Society guidance: descend at least 3,300 ft (1,000 m) and minimize exertion - carry gear or the person if possible. Pain relievers and waiting do not treat HAPE. Never go higher with altitude illness symptoms.",
+    "relatedGuide": "medical-057",
+    "tags": [
+      "medical",
+      "advanced",
+      "altitude",
+      "HAPE",
+      "wilderness"
+    ]
   },
   {
     "id": "quiz-medical-dt-001",
@@ -63,27 +843,39 @@
         "id": "start",
         "scenario": "You arrive at a vehicle accident. 4 casualties. You have: 2 tourniquets, 4 hemostatic gauze packs, 1 chest seal, limited bandages. Casualty A: not breathing, positioned on their back, mouth visibly clear. Casualty B: breathing 24/min, radial pulse strong, GCS 14, controlled bleeding from arm. Casualty C: breathing 32/min, no radial pulse (only carotid), severe thigh wound actively bleeding. Casualty D: walking, complaining of wrist pain. Who do you address FIRST?",
         "options": [
-          { "text": "Reposition Casualty A's airway (head-tilt chin-lift) and check for breathing", "next": "reposition_A" },
-          { "text": "Go directly to Casualty C — highest visible threat (uncontrolled hemorrhage)", "next": "go_to_C" }
+          {
+            "text": "Reposition Casualty A's airway (head-tilt chin-lift) and check for breathing",
+            "next": "reposition_A"
+          },
+          {
+            "text": "Go directly to Casualty C — highest visible threat (uncontrolled hemorrhage)",
+            "next": "go_to_C"
+          }
         ]
       },
       "reposition_A": {
         "id": "reposition_A",
         "scenario": "You tilt A's head. No breathing resumes. In START triage, this means EXPECTANT (black tag). You move on. You now see C actively hemorrhaging. Do you:",
         "options": [
-          { "text": "Apply tourniquet to C's thigh immediately", "next": "tourniquet_C" },
-          { "text": "Check B first since B has a higher GCS", "next": "check_B_first" }
+          {
+            "text": "Apply tourniquet to C's thigh immediately",
+            "next": "tourniquet_C"
+          },
+          {
+            "text": "Check B first since B has a higher GCS",
+            "next": "check_B_first"
+          }
         ]
       },
       "tourniquet_C": {
         "id": "tourniquet_C",
         "outcome": "success",
-        "explanation": "START triage sequence: (1) Walking? → Minor (green), move aside. (2) Breathing after repositioning airway? No → Expectant (black). Yes (>30/min) → Immediate. (3) Radial pulse present? No → Immediate (red). Yes → check GCS. GCS <14 → Immediate. GCS 14+ and RR 10-30 → Delayed (yellow). Casualty A: no breathing after reposition = black. Casualty C: RR 32 + no radial pulse = Immediate (red) — tourniquet now. Casualty B: RR 24, radial pulse, GCS 14 = Delayed (yellow). Casualty D: walking = Minor (green). You triaged and treated correctly."
+        "explanation": "START triage sequence: (1) Walking? → Minor (green), move aside. (2) Breathing after repositioning airway? No → Expectant (black). Yes (>30/min) → Immediate. (3) Radial pulse present (or capillary refill under 2 seconds)? No → Immediate (red). Yes → check mental status. (4) Cannot follow simple commands → Immediate. Follows commands → Delayed (yellow). START uses 'obeys simple commands', not a GCS number. Casualty A: no breathing after reposition = black. Casualty C: RR 32 + no radial pulse = Immediate (red) — tourniquet now (stopping massive bleeding is an allowed life-saving action during START). Casualty B: RR 24, radial pulse, alert enough to follow commands (GCS 14) = Delayed (yellow). Casualty D: walking = Minor (green). You triaged and treated correctly."
       },
       "check_B_first": {
         "id": "check_B_first",
         "outcome": "poor",
-        "explanation": "In START triage, uncontrolled external hemorrhage = Immediate (Red) and takes priority over Delayed (Yellow) casualties. Casualty C's no-radial-pulse + RR 32 confirms Immediate status. GCS score does not override hemorrhage control priority. When a casualty is dying NOW from a treatable cause (tourniquet-able hemorrhage), treat it NOW. B was already assessed as stable by radial pulse and RR — those findings told you B is Yellow. C lost an additional 300ml while you assessed B."
+        "explanation": "In START triage, uncontrolled external hemorrhage = Immediate (Red) and takes priority over Delayed (Yellow) casualties. Casualty C's no-radial-pulse + RR 32 confirms Immediate status. B's higher alertness does not override hemorrhage control priority. When a casualty is dying NOW from a treatable cause (tourniquet-able hemorrhage), treat it NOW. B was already assessed as stable by radial pulse and RR — those findings told you B is Yellow. C lost an additional 300ml while you assessed B."
       },
       "go_to_C": {
         "id": "go_to_C",
@@ -91,25 +883,14 @@
         "explanation": "Going to C first is defensible in operational triage (visible life-threatening hemorrhage), but the purist START protocol requires you to check airway on non-breathing casualties before classifying Expectant — the 3-second airway check could convert a 'black' to an 'immediate red.' C was correctly prioritized for hemorrhage control. Ensure Casualty A still receives a brief airway check, even if you expect them to remain Expectant. In mass casualty events, follow the protocol consistently so nothing is missed."
       }
     },
-    "relatedGuide": "medical-004",
-    "tags": ["medical", "advanced", "triage", "START", "mass-casualty"]
-  },
-  {
-    "id": "quiz-medical-005",
-    "category": "medical",
-    "type": "multiple_choice",
-    "difficulty": "advanced",
-    "scenario": "Your casualty has: HR 128, blood pressure 86/60, respiratory rate 28/min, skin pale and clammy, Glasgow Coma Scale 13 (confused). Based on ATLS hemorrhagic shock classification, what class of shock is this, and approximately how much blood has been lost?",
-    "options": [
-      { "id": "a", "text": "Class I — mild, <750ml blood loss, compensated fully" },
-      { "id": "b", "text": "Class II — 750-1500ml, compensated, anxiety but oriented" },
-      { "id": "c", "text": "Class III — 1500-2000ml (~30-40% volume), decompensated — BP dropping, confusion" },
-      { "id": "d", "text": "Class IV — >2000ml (>40% volume), immediately life-threatening" }
-    ],
-    "correct": "c",
-    "explanation": "ATLS Hemorrhagic Shock Classes: Class I (<750ml): HR <100, BP normal, RR normal, normal mentation. Class II (750-1500ml): HR 100-120, BP normal-low, RR 20-30, anxious. Class III (1500-2000ml): HR 120-140, BP drops significantly, RR 30-40, confused. Class IV (>2000ml): HR >140, BP severely depressed, lethargy/unconsciousness. This casualty at HR 128 (borderline III), BP 86/60 (significant drop = decompensated), RR 28, GCS 13 (confusion) = Class III, representing ~1500-2000ml blood loss (30-40% of total ~5L adult volume). Field treatment: control the source (tourniquet, wound packing), position supine or modified Trendelenburg if spine clear, prevent hypothermia, expedite evacuation. Permissive hypotension is preferred over aggressive fluid resuscitation in penetrating trauma.",
-    "relatedGuide": "medical-005",
-    "tags": ["medical", "advanced", "shock", "hemorrhage", "ATLS"]
+    "relatedGuide": "medical-014",
+    "tags": [
+      "medical",
+      "advanced",
+      "triage",
+      "START",
+      "mass-casualty"
+    ]
   },
   {
     "id": "quiz-medical-dt-002",
@@ -122,16 +903,28 @@
         "id": "start",
         "scenario": "You find an unconscious adult male, unknown cause. He was eating 5 minutes ago. He does not respond to your voice or a sternal rub. He is face-up. What is your first airway action?",
         "options": [
-          { "text": "Perform head-tilt chin-lift to open the airway, then look-listen-feel for breathing", "next": "head_tilt" },
-          { "text": "Immediately roll him into recovery position", "next": "recovery_position" }
+          {
+            "text": "Perform head-tilt chin-lift to open the airway, then look-listen-feel for breathing",
+            "next": "head_tilt"
+          },
+          {
+            "text": "Immediately roll him into recovery position",
+            "next": "recovery_position"
+          }
         ]
       },
       "head_tilt": {
         "id": "head_tilt",
         "scenario": "You perform head-tilt chin-lift. You hear gurgling sounds and see partial movement of the chest. Do you:",
         "options": [
-          { "text": "Perform a finger sweep of the mouth for any visible obstruction", "next": "finger_sweep" },
-          { "text": "Apply jaw thrust instead and call for help", "next": "jaw_thrust_only" }
+          {
+            "text": "Perform a finger sweep of the mouth for any visible obstruction",
+            "next": "finger_sweep"
+          },
+          {
+            "text": "Apply jaw thrust instead and call for help",
+            "next": "jaw_thrust_only"
+          }
         ]
       },
       "finger_sweep": {
@@ -150,43 +943,13 @@
         "explanation": "The correct sequence is: check airway, open airway, look-listen-feel for breathing, address obstruction if present, THEN recovery position. Rolling without first checking the airway skips the most critical step. The gurgling (from the partial food obstruction) would have been detected immediately with a proper airway check — and cleared with a finger sweep before positioning."
       }
     },
-    "relatedGuide": "medical-001",
-    "tags": ["medical", "intermediate", "airway", "unconscious", "decision-tree"]
-  },
-  {
-    "id": "quiz-medical-007",
-    "category": "medical",
-    "type": "priority_order",
-    "difficulty": "intermediate",
-    "scenario": "A casualty has a deep stab wound to the lateral hip/groin junction — not amenable to tourniquet placement. Bright red arterial blood. You have hemostatic gauze (QuikClot or similar) and a pressure bandage. Order these steps correctly.",
-    "items": [
-      { "id": "1", "text": "Expose the wound fully — cut away clothing for clear access" },
-      { "id": "2", "text": "Pack hemostatic gauze tightly into the deepest portion of the wound cavity, pressing to the bottom" },
-      { "id": "3", "text": "Continue packing additional gauze on top, filling the cavity completely" },
-      { "id": "4", "text": "Apply firm direct pressure with your hand for a minimum of 3 minutes (5 min recommended for hemostatic gauze)" },
-      { "id": "5", "text": "Apply a pressure bandage over the packed wound to maintain compression" },
-      { "id": "6", "text": "Mark the casualty card or patient's forehead with time of treatment and hemostatic gauze used" }
-    ],
-    "correct_order": ["1", "2", "3", "4", "5", "6"],
-    "explanation": "Exposure first — you cannot treat what you cannot see. Clothing conceals wound depth and prevents proper packing. Pack to the BOTTOM of the cavity — the most common packing error is building up from the surface and leaving a dead space at the base where bleeding continues. Fill the cavity completely — hemostatic gauze works by concentrating clotting factors and applying mechanical pressure. Three to five minutes of FIRM direct pressure is mandatory — releasing early is the second most common error. Pressure bandage maintains the pack while you move to other casualties. Mark the patient — receiving providers need to know hemostatic gauze is inside (removal requires irrigation in a surgical setting).",
-    "relatedGuide": "medical-002",
-    "tags": ["medical", "intermediate", "wound-packing", "hemorrhage", "hemostatic"]
-  },
-  {
-    "id": "quiz-medical-008",
-    "category": "medical",
-    "type": "multiple_choice",
-    "difficulty": "beginner",
-    "scenario": "You have a dehydrated partner who is conscious and can swallow. You have clean (boiled) water, table salt, and sugar. What is the WHO-recommended oral rehydration solution formula?",
-    "options": [
-      { "id": "a", "text": "1 teaspoon salt + 8 teaspoons sugar per 1 liter water" },
-      { "id": "b", "text": "6 level teaspoons sugar + half a teaspoon salt per 1 liter water" },
-      { "id": "c", "text": "1 tablespoon salt + 1 tablespoon sugar per 1 liter water" },
-      { "id": "d", "text": "2 teaspoons baking soda + 4 teaspoons sugar per 1 liter water" }
-    ],
-    "correct": "b",
-    "explanation": "WHO ORS formula: 6 level teaspoons (30ml) glucose/sugar + 0.5 teaspoon (2.5ml) salt in 1 liter clean water. The sugar:salt ratio is critical. Too much salt causes hypernatremia (sodium poisoning) — 1 tablespoon salt is 3x the safe dose and can cause seizures in a dehydrated person. The glucose is not just for calories — it enables sodium-glucose cotransport (SGLT mechanism) in the intestinal lining, dramatically increasing water absorption. Plain water without glucose/salt does not absorb as efficiently. Give 200-400mL every 30 minutes. If vomiting occurs, give smaller sips (30-50mL) every 5 minutes. Escalate to IV fluids if: unconscious, persistent vomiting, signs of shock.",
-    "relatedGuide": "medical-001",
-    "tags": ["medical", "beginner", "dehydration", "ORS", "rehydration"]
+    "relatedGuide": "medical-007",
+    "tags": [
+      "medical",
+      "intermediate",
+      "airway",
+      "unconscious",
+      "decision-tree"
+    ]
   }
 ]

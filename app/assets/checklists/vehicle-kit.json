@@ -1,0 +1,140 @@
+{
+  "id": "checklist-vehicle-kit",
+  "title": "Vehicle Emergency Kit",
+  "disasterType": "vehicle-kit",
+  "description": "Use this list to stock every car for breakdowns, crashes, and being stranded in any season.",
+  "category": "vehicle",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Car Safety",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://ready.gov/car",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Anatomy of a First Aid Kit",
+      "publisher": "American Red Cross",
+      "url": "https://redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "veh-001",
+      "text": "First aid kit in a hard, sealed case with gloves, bleeding control, trauma shears, and an emergency blanket per seat",
+      "critical": true
+    },
+    {
+      "id": "veh-002",
+      "text": "Jumper cables or a charged jump starter",
+      "critical": true
+    },
+    {
+      "id": "veh-003",
+      "text": "Reflective warning triangles or road flares, and a reflective vest",
+      "critical": true
+    },
+    {
+      "id": "veh-004",
+      "text": "Spare tire checked for air, jack, and lug wrench - or a tire inflator and sealant kit if you have no spare",
+      "critical": true
+    },
+    {
+      "id": "veh-005",
+      "text": "Water: at least 1 gallon (3.8 L), rotated every 6 months",
+      "critical": true
+    },
+    {
+      "id": "veh-006",
+      "text": "Car phone charger and a charged power bank",
+      "critical": true
+    },
+    {
+      "id": "veh-007",
+      "text": "Flashlight or headlamp with spare lithium batteries",
+      "critical": true
+    },
+    {
+      "id": "veh-008",
+      "text": "Keep the fuel tank at least half full so you can evacuate or run the heater if stranded",
+      "critical": true
+    },
+    {
+      "id": "veh-009",
+      "text": "Non-perishable snacks such as energy bars and nuts",
+      "critical": false
+    },
+    {
+      "id": "veh-010",
+      "text": "Blanket for each regular passenger",
+      "critical": false
+    },
+    {
+      "id": "veh-011",
+      "text": "Paper road map of your region",
+      "critical": false
+    },
+    {
+      "id": "veh-012",
+      "text": "Basic tool kit: multi-tool, screwdrivers, pliers, duct tape, zip ties",
+      "critical": false
+    },
+    {
+      "id": "veh-013",
+      "text": "Seatbelt cutter and window breaker tool mounted within the driver's reach",
+      "critical": false
+    },
+    {
+      "id": "veh-014",
+      "text": "Small fire extinguisher rated for vehicles, strapped down",
+      "critical": false
+    },
+    {
+      "id": "veh-015",
+      "text": "Work gloves and a rain poncho",
+      "critical": false
+    },
+    {
+      "id": "veh-016",
+      "text": "Comfortable walking shoes and a warm layer",
+      "critical": false
+    },
+    {
+      "id": "veh-017",
+      "text": "Cat litter or sand for traction, and an ice scraper in cold months",
+      "critical": false
+    },
+    {
+      "id": "veh-018",
+      "text": "Written emergency contacts, insurance card, and roadside assistance number",
+      "critical": false
+    },
+    {
+      "id": "veh-019",
+      "text": "Tow strap and a quart of motor oil and coolant",
+      "critical": false
+    },
+    {
+      "id": "veh-020",
+      "text": "Whistle and a bright cloth to signal for help",
+      "critical": false
+    },
+    {
+      "id": "veh-021",
+      "text": "Strap down heavy items so they do not fly forward in a crash; keep the first aid kit reachable if the trunk is jammed",
+      "critical": false
+    },
+    {
+      "id": "veh-022",
+      "text": "Check the kit every spring and fall - heat ruins medicines, food, and batteries in parked cars",
+      "critical": false
+    }
+  ]
+}

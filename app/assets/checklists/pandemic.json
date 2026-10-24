@@ -1,0 +1,124 @@
+{
+  "id": "checklist-pandemic",
+  "title": "Pandemic and Outbreak",
+  "disasterType": "pandemic",
+  "description": "Use this list to prepare your household for a disease outbreak, school and work closures, and caring for a sick person at home.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Pandemics",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/pandemic",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "CDC updates and simplifies respiratory virus recommendations",
+      "publisher": "CDC",
+      "url": "https://www.cdc.gov/media/releases/2024/p0301-respiratory-virus.html",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "pan-001",
+      "text": "At least 2 weeks of shelf-stable food and water, bought a little at a time",
+      "critical": true
+    },
+    {
+      "id": "pan-002",
+      "text": "Up to a 30-day supply of prescriptions if your insurer allows early refills, and a written medicine list for each person",
+      "critical": true
+    },
+    {
+      "id": "pan-003",
+      "text": "Thermometer and fever reducers (follow the label; no aspirin for children or teens)",
+      "critical": true
+    },
+    {
+      "id": "pan-004",
+      "text": "Soap and alcohol-based hand sanitizer with at least 60% alcohol",
+      "critical": true
+    },
+    {
+      "id": "pan-005",
+      "text": "Well-fitting masks for each person",
+      "critical": true
+    },
+    {
+      "id": "pan-006",
+      "text": "Oral rehydration salts for vomiting or diarrhea",
+      "critical": true
+    },
+    {
+      "id": "pan-007",
+      "text": "Know when to call 911: trouble breathing, chest pain, new confusion, cannot stay awake, bluish lips, or no urine for many hours",
+      "critical": true
+    },
+    {
+      "id": "pan-008",
+      "text": "Stay up to date on flu, COVID-19, and RSV vaccines if eligible, and any vaccine offered for a new outbreak",
+      "critical": true
+    },
+    {
+      "id": "pan-009",
+      "text": "Household cleaner, disposable gloves, tissues, and trash bags",
+      "critical": false
+    },
+    {
+      "id": "pan-010",
+      "text": "Pick a sick room (ideally with its own bathroom) and one healthy caregiver",
+      "critical": false
+    },
+    {
+      "id": "pan-011",
+      "text": "Separate cups, towels, and utensils for a sick person; wash dishes and laundry hot",
+      "critical": false
+    },
+    {
+      "id": "pan-012",
+      "text": "Portable air purifier or a window fan blowing out to improve ventilation",
+      "critical": false
+    },
+    {
+      "id": "pan-013",
+      "text": "Arrange backup child care and decide who cares for kids if both parents are sick",
+      "critical": false
+    },
+    {
+      "id": "pan-014",
+      "text": "Ask your employer about telework and sick leave; check telehealth coverage on your insurance",
+      "critical": false
+    },
+    {
+      "id": "pan-015",
+      "text": "Line up a neighbor or friend who can drop off groceries or medicine at your door",
+      "critical": false
+    },
+    {
+      "id": "pan-016",
+      "text": "Know the current stay-home rule: home while sick, back once fever-free 24 hours without medicine and improving, then 5 days of extra care - follow local health department rules in a new outbreak",
+      "critical": false
+    },
+    {
+      "id": "pan-017",
+      "text": "Never take antibiotics or other prescription drugs not prescribed to you",
+      "critical": true
+    },
+    {
+      "id": "pan-018",
+      "text": "Follow only official health sources and watch for scams selling fake tests or cures",
+      "critical": false
+    },
+    {
+      "id": "pan-019",
+      "text": "Save the Disaster Distress Helpline (call or text 1-800-985-5990) for stress and isolation",
+      "critical": false
+    },
+    {
+      "id": "pan-020",
+      "text": "Books, games, and ways to stay connected by phone or video during long closures",
+      "critical": false
+    }
+  ]
+}

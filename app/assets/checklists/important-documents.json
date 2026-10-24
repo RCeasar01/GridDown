@@ -1,0 +1,129 @@
+{
+  "id": "checklist-important-documents",
+  "title": "Important Documents",
+  "disasterType": "important-documents",
+  "description": "Use this list, based on FEMA's Emergency Financial First Aid Kit, to gather, protect, and back up the papers you need to prove identity, file claims, and get aid.",
+  "category": "home",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Emergency Financial First Aid Kit (EFFAK)",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/emergency-financial-first-aid-kit",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Financial Preparedness",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/financial-preparedness",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "doc-001",
+      "text": "Photo IDs: driver's licenses, passports, and state IDs for everyone",
+      "critical": true
+    },
+    {
+      "id": "doc-002",
+      "text": "Insurance policies and cards: home or renters, flood, auto, health, and life, with agent phone numbers",
+      "critical": true
+    },
+    {
+      "id": "doc-003",
+      "text": "Medication lists, medical records, and vaccination records",
+      "critical": true
+    },
+    {
+      "id": "doc-004",
+      "text": "Birth and marriage certificates and Social Security cards",
+      "critical": true
+    },
+    {
+      "id": "doc-005",
+      "text": "Proof of address and ownership: deed, lease, mortgage papers, and car titles",
+      "critical": true
+    },
+    {
+      "id": "doc-006",
+      "text": "Bank and credit card account numbers with customer service phone numbers",
+      "critical": true
+    },
+    {
+      "id": "doc-007",
+      "text": "Written emergency contact list, including an out-of-area contact",
+      "critical": true
+    },
+    {
+      "id": "doc-008",
+      "text": "Military records such as a DD-214",
+      "critical": false
+    },
+    {
+      "id": "doc-009",
+      "text": "Recent tax returns",
+      "critical": false
+    },
+    {
+      "id": "doc-010",
+      "text": "Wills, powers of attorney, and health care directives",
+      "critical": false
+    },
+    {
+      "id": "doc-011",
+      "text": "Pet records and microchip numbers",
+      "critical": false
+    },
+    {
+      "id": "doc-012",
+      "text": "Photo or video inventory of your home and belongings, with serial numbers and receipts for big items",
+      "critical": true
+    },
+    {
+      "id": "doc-013",
+      "text": "Grab-and-go folder of copies in a sealed waterproof bag in your emergency kit",
+      "critical": true
+    },
+    {
+      "id": "doc-014",
+      "text": "Originals that are hard to replace kept off-site, such as a safe deposit box, with copies at home",
+      "critical": false
+    },
+    {
+      "id": "doc-015",
+      "text": "Home copies in a waterproof, fire-resistant bag or safe, off the floor - check the safe's rating for paper vs. electronics",
+      "critical": false
+    },
+    {
+      "id": "doc-016",
+      "text": "Encrypted digital backups in two places: a cloud account with two-factor login and an encrypted USB drive",
+      "critical": true
+    },
+    {
+      "id": "doc-017",
+      "text": "Cloud backup codes written down and stored in your safe, in case your phone is lost",
+      "critical": false
+    },
+    {
+      "id": "doc-018",
+      "text": "Cash in small bills and some coins stored safely at home",
+      "critical": true
+    },
+    {
+      "id": "doc-019",
+      "text": "Never email unencrypted copies of Social Security cards or account numbers",
+      "critical": false
+    },
+    {
+      "id": "doc-020",
+      "text": "Review once a year: update the inventory and ID copies, test that backups open, and refresh cash",
+      "critical": false
+    },
+    {
+      "id": "doc-021",
+      "text": "Make sure a trusted adult knows where everything is kept",
+      "critical": false
+    }
+  ]
+}

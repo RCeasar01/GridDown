@@ -2,129 +2,234 @@
   {
     "id": "homestead-001",
     "category": "homesteading",
-    "title": "Raising Chickens for Grid-Down Food Security",
+    "title": "Raising Chickens for Eggs and Meat",
     "priority": "beginner",
-    "tags": ["homesteading", "chickens", "food", "livestock", "eggs"],
-    "summary": "Setting up a minimum-viable chicken operation for year-round eggs and meat during grid-down scenarios.",
+    "tags": [
+      "homesteading",
+      "chickens",
+      "poultry",
+      "eggs",
+      "livestock",
+      "predators"
+    ],
+    "summary": "Set up a small backyard flock that keeps laying when stores are empty: breeds, coop space, predator-proofing, feed and water, and safe egg handling based on university extension guidance.",
     "steps": [
       {
         "step": 1,
-        "title": "Breed Selection — Dual-Purpose Birds for Eggs and Meat",
-        "body": "Choose dual-purpose heritage breeds that provide both reliable egg production and adequate meat when cockerels (young males) are culled. Top choices for grid-down resilience: Rhode Island Red — 250–300 brown eggs/year, excellent foragers, cold-hardy, calm temperament. Barred Plymouth Rock — 250–280 eggs/year, heavy body for meat, very cold-hardy, docile. Sussex (Speckled or Light) — 250 eggs/year, outstanding foragers that reduce feed dependency, good meat bird. Black Australorp — holds the world record for egg production (364 eggs in 365 days), very calm, heat-tolerant. Avoid hybrid commercial layers (Leghorns, ISA Browns) — they burn out in 18 months, are poor foragers, rarely go broody, and cannot be bred true. Heritage breeds can hatch and raise their own replacements — critical in a long-term grid-down scenario. Start with 6–10 hens and 1 rooster minimum for a self-sustaining flock."
+        "title": "Check local rules and plan flock size",
+        "body": "Before you buy birds, check your city or county code and any HOA rules. Many towns cap backyard flocks at a handful of hens, ban roosters, and require the coop to sit behind the house and a set distance from property lines and neighbors. Some states also require poultry registration. Plan on roughly one egg per hen about every 25 hours during good laying months, and much less in winter and during molt. A household of four that wants an egg a day each needs about six to eight hens. Start small. Three to six birds teach you the routine without overwhelming your feed budget or your yard."
       },
       {
         "step": 2,
-        "title": "Minimum Coop Requirements — Space, Ventilation, Nesting",
-        "body": "Overcrowding is the primary cause of disease, pecking, and egg-eating in small flocks. Provide a minimum of 4 square feet per bird inside the coop (roosting area) and 10 square feet per bird in the outdoor run. A flock of 10 birds needs a 40 sq ft interior (roughly 5x8 feet) and a 100 sq ft run. Roosting bars should be 2–4 inches wide (flat or rounded, not round dowels) — chickens sleep with flat feet, not gripping. Place roosting bars 18–24 inches above the floor and space them 12–18 inches apart. Provide one nesting box per 4–5 hens; boxes should be 12\"x12\"x12\" filled with straw or pine shavings and positioned lower than roosting bars to discourage sleeping in boxes (fouling eggs). Ventilation is non-negotiable: chicken manure produces ammonia that causes respiratory disease. Install vents at the ridge or upper walls — 1 square foot of ventilation per 10 square feet of floor space minimum."
+        "title": "Pick hardy dual-purpose breeds",
+        "body": "For self-reliance, choose heritage dual-purpose breeds that lay well and dress out to a usable carcass. Common choices are Rhode Island Red, Barred Plymouth Rock, Sussex, Orpington, and Australorp. They are calm, cold-hardy, and decent foragers. Leghorns lay more eggs but are small and flighty, so they give little meat. Cornish Cross broilers grow to butcher weight in about two months but are not layers and do poorly free-ranging. Buy from a hatchery or breeder that takes part in the National Poultry Improvement Plan, which tests for key diseases. Keep new adult birds apart from your flock for about 30 days before mixing."
       },
       {
         "step": 3,
-        "title": "Predator-Proofing — Hardware Cloth Is Non-Negotiable",
-        "body": "Chicken wire (hexagonal wire mesh) is inadequate for predator exclusion — raccoons, foxes, and dogs pull through it, and weasels and minks squeeze through the openings. Use 1/2\" or 1/4\" galvanized hardware cloth for all openings, windows, and run covering. Bury or lay a 12-inch apron skirt of hardware cloth horizontally outward from the base of the run fence — predators dig straight down at the fence line; the apron redirects them outward where they cannot dig effectively. Anchor the apron with landscape staples or rocks. Cover the top of the run — aerial predators (hawks, owls) are highly effective in open runs. Use a predator-proof latch on coop doors — simple hook-and-eye latches are opened by raccoons. Use a double-latch or spring-loaded carabiner. Close the coop door every night before dark — a single night of a coop door left open will result in total flock loss to a predator."
+        "title": "Give each bird enough coop and run space",
+        "body": "Crowding causes pecking, disease, and stress. University of Tennessee Extension guidance calls for about 3 square feet (0.3 sq m) of coop floor per light-breed bird and 4 square feet (0.4 sq m) per heavy breed, plus 8 to 10 square feet (0.7 to 0.9 sq m) each of outdoor run. Provide 8 to 9 inches (20 to 23 cm) of roost bar per bird, with bars 12 to 14 inches (30 to 36 cm) apart. Add one 12 by 12 inch (30 by 30 cm) nest box for every four to five hens, placed in a dim, quiet spot. Vent the coop high under the roof so ammonia and moisture escape without a draft blowing across the roost."
       },
       {
         "step": 4,
-        "title": "Feeding Without Commercial Feed — Whole Grains, Foraging, and Calcium",
-        "body": "Commercial chicken feed is convenient but creates a dependency on supply chains. Build a resilient feeding system: whole grains — wheat, corn, barley, oats, and black oil sunflower seeds can replace commercial pellets when mixed appropriately. A basic ration is 50% cracked corn, 30% wheat berries, 10% barley, 10% BOSS (black oil sunflower seeds). This is lower in protein than commercial feed (16–18%) so supplement heavily with protein sources. Kitchen scraps — meat scraps, cooked eggs, vegetable trimmings, bread — are important free protein. Fermented grains (soak grain in water 48–72 hours until bubbling) increase nutrient bioavailability and stretch feed 20–30%. Foraging — a free-range or large run flock derives 20–30% of nutrition from grass, insects, and worms. Calcium for eggshell formation is critical — without it, hens lay soft-shell eggs and pull calcium from their own bones. Provide crushed oyster shell in a separate free-choice feeder, or dry, crush, and re-feed eggshells back to the flock."
+        "title": "Predator-proof with hardware cloth and nightly lockup",
+        "body": "Predators are the biggest flock killer. University of Maryland Extension advises covering every opening with 1/4 or 1/2 inch (6 or 13 mm) galvanized hardware cloth, not chicken wire, which raccoons tear through and which rusts. Bury hardware cloth 12 to 18 inches (30 to 45 cm) deep around the coop, or bend fence mesh outward along the ground so diggers hit wire. Raise the coop at least 1 foot (30 cm) off the ground. Lock birds in every night, because most losses happen after dark. Cover the run top if hawks hunt your area. Hawks and owls are federally protected, so you may not trap or shoot them: use netting and cover instead."
       },
       {
         "step": 5,
-        "title": "Water Management and Winter Watering",
-        "body": "Chickens require 0.5–1.0 cup of water per bird per day under normal conditions, and up to double that in heat. Without sufficient water, egg production drops within 24 hours and ceases entirely within 48–72 hours. Use a waterer that prevents contamination — nipple-style waterers stay clean the longest but require pressure; gravity-fed bell waterers work without electricity. In freezing temperatures, water freezes solid and birds can go without water for dangerous lengths of time. Solutions without electricity: use a deep, wide-diameter water container (a 5-gallon bucket) — larger water mass freezes more slowly. Check and break ice at least twice daily — morning and again in early afternoon. Place the waterer in a sunny south-facing location. A black rubber livestock pan absorbs solar heat and freezes slower than metal or white containers. Consider heating with a fire-safe black rubber pan set on a heated base (solar or low-wattage), or float a ball in the water — the thermal movement slows freezing."
+        "title": "Feed and water every day",
+        "body": "A laying hen eats about 1/4 to 1/3 pound (110 to 140 g) of feed per day. A complete commercial layer ration is the simplest way to keep production up. Offer crushed oyster shell on the side so hens can take extra calcium for strong shells. Kitchen scraps and garden waste can stretch feed, but keep them a small share of the diet, and never feed moldy or spoiled food. Stockpile at least a month of feed in sealed metal cans to beat rodents and moisture. Water needs climb with heat: about 8 to 10 ounces (240 to 300 ml) per bird per day in cool weather and up to 16 ounces (470 ml) above 90°F (32°C). In winter, change frozen water at least twice a day or use a heated base."
       },
       {
         "step": 6,
-        "title": "Egg Storage Without Refrigeration and Cockerel Butchering",
-        "body": "Fresh, unwashed eggs have an intact natural coating called the bloom (cuticle) that seals the shell against bacteria. Unwashed eggs at room temperature remain safe to eat for 2–3 weeks. The refrigerator habit is an American artifact of commercial egg washing (which removes the bloom), which requires refrigeration afterward. Do not wash eggs you plan to store at room temperature — wipe dry if needed. For longer storage, use the water glass method: dissolve pickling lime (calcium hydroxide, sold as Mrs. Wages Pickling Lime) in clean water at a ratio of 1 oz lime per 1 quart water. Submerge clean, unwashed, fresh eggs fully and store in a cool location. Eggs stored this way remain edible for 12–18 months. Test-float eggs before eating: a fresh egg sinks flat; an older but still good egg stands on end; a bad egg floats — discard it. Cockerels (young males) not needed for breeding should be butchered at 16–20 weeks — they are lean but edible; beyond 20 weeks they fight other birds and consume feed without productive return."
+        "title": "Collect and handle eggs safely",
+        "body": "Collect eggs at least once a day, and twice is better, because each hen visit can soil the nest. Keep nests clean with fresh bedding. Set dirty and floor eggs apart from clean ones. Alabama Extension advises dry-cleaning lightly soiled eggs with a clean cloth or fine sandpaper. If you must wash, use running water at least 20°F (11°C) warmer than the egg, never soak eggs, and dry them fully. Washing removes the natural bloom, so refrigerate washed eggs. Discard very dirty or cracked eggs rather than eating them. Store eggs at 33 to 40°F (1 to 4°C) when you can, and cook them until yolk and white are firm."
+      },
+      {
+        "step": 7,
+        "title": "Protect your household from Salmonella",
+        "body": "Healthy-looking chickens can carry Salmonella on feathers, feet, and in droppings. Wash hands with soap and water right after touching birds, eggs, feeders, or anything in the coop. Keep coop boots and clothes outside the house. Do not let birds into the kitchen, and do not kiss or snuggle them. Children under 5, adults over 65, and anyone with a weak immune system should be supervised closely or skip handling. Clean feeders and waterers regularly so birds do not pass germs to each other. If birds suddenly die, stop laying, or show swollen heads or breathing trouble, isolate them and contact your state veterinarian or extension office, since avian influenza must be reported."
       }
     ],
     "warnings": [
-      "Chicken wire (hexagonal mesh) does not stop raccoons, foxes, minks, or determined dogs — use only 1/2\" galvanized hardware cloth for all predator-exposed surfaces",
-      "Medicated chick starter contains amprolium (a coccidiostat) and should not be fed to laying hens or ducks — it affects waterfowl seriously and accumulates in eggs",
-      "Botulism can develop in wet, rotting feed or carcasses in the run — remove any dead birds immediately and do not leave wet feed to ferment in the feeder",
-      "Lime (calcium hydroxide) used in water glassing is caustic — wear gloves when handling and keep out of eyes; it is safe once dissolved in the storage solution but handle dry powder carefully"
+      "Chicken wire keeps chickens in but does not keep predators out. Use hardware cloth on every opening.",
+      "Salmonella spreads from birds and coop surfaces to people. Wash hands every time, and keep young children from handling birds unsupervised.",
+      "Sudden deaths or many sick birds can mean avian influenza. Do not eat or sell those birds or eggs, and report it to your state veterinarian.",
+      "Never feed moldy grain or spoiled scraps. Mold toxins can sicken or kill a flock."
     ],
     "proTips": [
-      "A broody hen is worth 10 incubators in a grid-down scenario — breeds like Silkies, Cochins, Sussex, and Australorps go broody reliably; let them hatch and raise your replacement flock instead of using an electric incubator",
-      "Plant comfrey (Symphytum officinale) near the chicken run — it is a prolific, perennial, high-protein green that chickens eat readily and it grows back aggressively after cutting; it supplements feed costs significantly",
-      "The deep litter method (add fresh bedding on top of soiled litter monthly; clean only once or twice a year) produces lower ammonia levels than frequent cleaning due to beneficial bacterial decomposition, and the composted result is excellent garden fertilizer",
-      "Ducks are a worthwhile addition to a chicken setup — they are hardy, lay larger eggs consistently through winter when chickens slow down, and are more resistant to many common poultry diseases"
+      "Put the coop where you can see it from a window. You will notice predator trouble and sick birds sooner.",
+      "Keep a deep layer of dry litter (pine shavings or straw) and turn it often. Spent litter makes excellent compost.",
+      "Mark the hatch month on each bird's leg band so you know which hens are aging out of good production.",
+      "Hens slow down or stop laying when daylight drops below about 14 hours. Expect fewer winter eggs and store extras from spring."
     ],
-    "relatedGuides": ["homestead-002", "homestead-003", "homestead-005"],
-    "source": "Wilderness survival best practices / Traditional homesteading knowledge",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "homestead-005",
+      "homestead-008",
+      "homestead-002",
+      "food-012",
+      "health-007"
+    ],
+    "source": "University of Maryland, Tennessee, and Alabama Extension",
+    "sources": [
+      {
+        "title": "Predator Control for Poultry",
+        "publisher": "University of Maryland Extension",
+        "url": "https://extension.umd.edu/sites/extension.umd.edu/files/2022-06/Predator_Control_Poultry.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Backyard Chickens Information",
+        "publisher": "University of Tennessee Extension (McMinn County)",
+        "url": "https://mcminn.tennessee.edu/wp-content/uploads/sites/189/2020/09/Poultry-Backyard-Chickens-Information-Publication.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Enhancing Egg Quality and Safety in Small Flocks",
+        "publisher": "Alabama Cooperative Extension System",
+        "url": "https://www.aces.edu/blog/topics/poultry/enhancing-egg-quality-safety-in-small-flocks/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "low",
     "prerequisites": [],
+    "whenNotTo": [
+      "Your local ordinance or lease bans poultry - fines and forced removal waste your investment.",
+      "You cannot lock the birds in every night or check them daily.",
+      "Someone in the household is at high risk from Salmonella and cannot avoid contact with the birds."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to establish a sustainable protein source that does not depend on supply chains — a self-sustaining chicken flock provides year-round eggs and meat",
-      "immediate": ["Select heritage dual-purpose breeds: Rhode Island Red, Barred Rock, or Black Australorp — they forage, go broody, and breed true", "Provide 4 sq ft per bird inside, 10 sq ft per bird in run; one nesting box per 4-5 hens", "Use 1/2-inch hardware cloth for ALL predator-exposed surfaces — chicken wire fails against raccoons and weasels"],
-      "then": ["Establish a feed system independent of commercial pellets: whole grains (corn/wheat/barley/BOSS) plus kitchen scraps plus foraging", "Close the coop door every night before dark — a single night open will result in total flock loss to a predator"]
+      "situation": "You want a reliable, renewable supply of eggs and some meat from a small backyard flock.",
+      "immediate": [
+        "Check local poultry rules before buying birds.",
+        "Build or buy a coop with hardware cloth on every opening.",
+        "Start with 3 to 6 hardy dual-purpose hens."
+      ],
+      "then": [
+        "Lock birds in every night and collect eggs daily.",
+        "Wash hands after every contact with birds, eggs, or the coop."
+      ]
     }
   },
   {
     "id": "homestead-002",
     "category": "homesteading",
-    "title": "Emergency Gardening — High-Yield Crops for Survival",
+    "title": "Emergency Gardening - High-Yield Crops for Food Security",
     "priority": "beginner",
-    "tags": ["homesteading", "gardening", "food", "crops", "seeds"],
-    "summary": "Calorie-dense and fast-producing crops, no-till planting methods, and seed saving for a sustainable grid-down food supply.",
+    "tags": [
+      "homesteading",
+      "gardening",
+      "vegetables",
+      "crops",
+      "frost-dates",
+      "succession-planting"
+    ],
+    "summary": "Plan and plant a vegetable garden that produces as much food as possible, as early as possible, using frost dates, crop timing, and succession planting from extension guidance.",
     "steps": [
       {
         "step": 1,
-        "title": "Caloric Density Rankings — Grow What Feeds You",
-        "body": "In a food security scenario, calories per square foot are more important than variety. Rank your planting choices by caloric yield: Potatoes are the undisputed king of caloric gardening — a 10x10 plot yields 50–100 lbs (roughly 35,000–70,000 calories) in 70–120 days. They grow in almost any soil, require minimal inputs, and store for months. Field corn (dent corn, not sweet corn) stores dry and provides 1,500+ calories per pound. Winter squash (Hubbard, Butternut, Acorn) yields 20–40 lbs per plant, stores 3–6 months without refrigeration at 50–55°F, and provides meaningful calories and vitamin A. Dry beans (Pinto, Black, Navy, Kidney) fix their own nitrogen and provide protein and complex carbohydrates — 500 calories per cup dry. The Three Sisters method (corn, beans, squash planted together) uses space and nutrients maximally: the corn provides a trellis for beans; the beans fix nitrogen that feeds the corn; the squash shades the ground preventing weeds and moisture loss."
+        "title": "Pick the sunniest, best-drained spot",
+        "body": "Vegetables need sun. Put the garden away from trees and buildings that cast shade, and close to the house, water, and tools so you actually tend it. Most fruiting crops such as tomatoes, peppers, beans, and squash need at least 6 hours of direct sun. Leafy greens tolerate partial shade. Choose ground that drains after rain. Avoid low spots that puddle, areas near old buildings with flaking lead paint, and spots near treated lumber or fuel spills. If you can, send a soil sample to your state's extension soil-testing lab. The test tells you the pH and which nutrients to add, so you do not waste scarce fertilizer."
       },
       {
         "step": 2,
-        "title": "Fastest Crops to Harvest — Food While Waiting for Calories",
-        "body": "While your caloric crops mature over months, fast-maturing crops provide fresh nutrition within weeks. Radishes: 22–30 days from seed to harvest; plant densely between slower crops. Leaf lettuce: 30–35 days to first harvest, cut-and-come-again for weeks. Spinach: 25–40 days, highly nutritious (iron, vitamin C, folate), bolts in heat so plant in spring and fall. Arugula: 21–30 days, extremely fast, self-seeds prolifically. Turnips: 45–60 days — both greens (edible at 25 days) and the root are edible; very cold-hardy. Bush beans: 50–60 days, high yield for space. Kale and collards: 55–70 days but leaves can be harvested continuously for months; extremely nutritious and frost-tolerant. Plant fast crops intensively in any available space — even containers — for immediate food production while your main crops develop. Succession plant radishes and lettuce every 2 weeks for continuous harvest."
+        "title": "Find your frost dates and work backward",
+        "body": "Your average last spring frost and first fall frost set the whole calendar. Get them from your county extension office or a nearby weather station. University of Delaware Extension sets tender crops like tomatoes and peppers out about 2 weeks after the date when frost risk falls to about 10 percent. For any crop, count back from the first fall frost using the days to maturity on the seed packet, and add about 2 weeks of buffer. If a crop needs 70 days and you only have 50 frost-free days left, plant something faster. Write the dates on a simple calendar so you do not miss planting windows."
       },
       {
         "step": 3,
-        "title": "No-Till Sheet Mulch Method — Garden Without Digging",
-        "body": "Tilling is labor-intensive and degrades soil structure over time by destroying fungal networks and worm habitat. The sheet mulch method (also called lasagna gardening) creates productive growing beds with no digging. Procedure: (1) Mow or knock down existing vegetation as short as possible. (2) Lay overlapping cardboard directly over the grass or weeds, at least 4 sheets thick, overlapping edges by 6 inches — this smothers existing plants and breaks down into carbon over 6–8 weeks. (3) Soak the cardboard thoroughly with water. (4) Apply 4 inches of compost, aged manure, or a mix of both directly on top of the wet cardboard. (5) Apply 2–3 inches of straw or wood chip mulch over the compost layer. (6) Plant immediately by pushing transplants through the mulch into the compost layer. Seeds can be sown directly into the compost layer. The cardboard decomposes, worms colonize the bed from below, and by the following season the soil structure under the bed is noticeably improved."
+        "title": "Plant fast crops first for early food",
+        "body": "While long-season crops grow, fast crops feed you. Radishes can be ready in about 25 to 30 days. Leaf lettuce, arugula, and spinach give cuttings in about 30 to 50 days. Bush beans produce in about 50 to 60 days. Turnips and their greens are ready in about 45 to 60 days, and the greens can be cut sooner. These cool-season crops (spinach, lettuce, radish, peas, kale, cabbage) go in early spring and again in late summer for fall. Warm-season crops (beans, squash, tomatoes, peppers, cucumbers) wait until the soil warms and frost has passed. Mixing both groups gives you something to eat most of the season."
       },
       {
         "step": 4,
-        "title": "Seed Saving — Open-Pollinated vs. Hybrid and Storage Method",
-        "body": "Commercial hybrid seeds (marked F1 on the packet) do not breed true — second-generation plants revert to unpredictable parent traits and are often sterile or reduced-yield. For a self-sustaining food supply you must grow open-pollinated (OP) or heirloom varieties exclusively. Reliable OP seed sources: Baker Creek Heirloom Seeds, Seed Savers Exchange, Southern Exposure Seed Exchange. To save seeds: allow the best specimens to fully mature and begin to dry on the plant before harvesting. Tomatoes — ferment seeds in water for 2–3 days to remove germination-inhibiting gel, rinse, and dry thoroughly. Beans and corn — allow pods/ears to dry completely on the plant, then shell. Squash — scoop seeds, rinse, and dry for 2–4 weeks on screens. All seeds must be fully dry before storage — any residual moisture causes mold and germination failure. Store in sealed glass jars with a silica gel desiccant packet added, labeled with species and year. Store in a cool, dark location. Most vegetable seeds remain viable 3–5 years; onions and parsnips decline rapidly (1–2 years)."
+        "title": "Grow calorie crops, not just salad",
+        "body": "Greens are nutritious but have very few calories. To actually feed a family, give real space to energy-dense crops. Potatoes and sweet potatoes produce a lot of calories per square foot and store well. Winter squash and pumpkins store for months. Dry beans supply protein and keep for years once dried. Corn, if you have room for a block of at least four rows for pollination, gives grain for meal. Onions and garlic store well and add flavor. A good emergency plan pairs a few calorie crops with fast greens for vitamins. Choose open-pollinated varieties of these crops if you plan to save seed."
       },
       {
         "step": 5,
-        "title": "Spacing and Intensive Planting for Maximum Yield",
-        "body": "Traditional row gardening wastes significant space to paths that serve machinery. For hand-tended gardens, use the biointensive method: create raised or mounded beds 3–4 feet wide (reachable from either side without stepping on the growing area, which compacts soil), and space plants in a hexagonal offset pattern at the closest recommended distance. Hexagonal spacing fits 15–20% more plants per square foot than grid spacing. Recommended intensive spacings: lettuce 6 inches, spinach 4 inches, radish 2 inches, kale 12 inches, beans 4 inches, carrots 2 inches, potatoes 10–12 inches, tomatoes 18 inches (with support). Eliminate all paths within beds — walk only on permanent pathways between beds. A well-managed 20x20 foot biointensive bed can produce as much food as a conventional 40x40 plot using the same seed investment."
+        "title": "Build beds without heavy digging",
+        "body": "If you are starting on lawn, sheet mulching saves labor. Mow the grass short, cover it with overlapping plain cardboard, wet it well, and pile 4 to 6 inches (10 to 15 cm) of compost, leaves, or straw on top. Plant transplants into pockets of compost. The grass dies and rots under the cardboard over a season. Raised beds about 4 feet (1.2 m) wide let you reach the middle without stepping on the soil. Keep walking paths separate so planting areas stay loose. Use untreated wood or stone for edging around food crops if you can."
       },
       {
         "step": 6,
-        "title": "Companion Planting for Natural Pest Management",
-        "body": "Companion planting reduces pest pressure through aromatic confusion, predator attraction, and physical barriers — replacing chemical pesticides with plant relationships. Proven combinations: Tomatoes + Basil — basil repels aphids, thrips, and whitefly; the volatile oils confuse pest navigation. Tomatoes + Marigold (French, Tagetes patula) — marigold roots produce alpha-terthienyl, a compound toxic to root-knot nematodes; plant densely as border. Brassicas (cabbage, broccoli, kale) + Dill or Fennel — attracts parasitic wasps that prey on cabbage worms and aphids. Squash + Nasturtium — nasturtium acts as a trap crop for aphids, drawing them away from squash. Carrots + Onions — alternating rows confuse carrot fly and onion fly, both of which navigate by scent. Plant pest-repelling alliums (garlic, onions, chives) as borders around any high-value bed. Diversity itself is protective — monoculture amplifies pest populations; mixed planting disrupts them."
+        "title": "Use succession and intensive planting",
+        "body": "Succession planting means sowing the same crop on several dates, so harvests come in waves instead of all at once. University of Delaware Extension gives the example of three sweet corn plantings from early May to early July. Replant each bed as soon as you clear it: follow spring peas with beans, and follow early potatoes with fall greens. Tuck quick crops such as radishes between slow ones like tomatoes. Spreading harvests over 7 to 8 months means you eat more fresh and have less to preserve at one time. Keep a notebook of what you planted, when, and how it did. It is the best tool for next year."
+      },
+      {
+        "step": 7,
+        "title": "Water, mulch, and scout for pests",
+        "body": "Most gardens need about 1 inch (2.5 cm) of water per week from rain or irrigation. Water deeply at the base of plants in the morning rather than sprinkling leaves at night, which spreads disease. Mulch with straw, leaves, or grass clippings to hold moisture and smother weeds. Walk the garden every day or two and look under leaves for eggs, beetles, and caterpillars. Hand-pick pests into soapy water. Pull diseased plants and do not compost them in a cool pile. Rotate crop families to new beds each year so soil pests and diseases do not build up."
       }
     ],
     "warnings": [
-      "Hybrid (F1) seeds will not produce reliable offspring — always source and store open-pollinated or heirloom varieties for any long-term food security plan",
-      "Seed viability drops rapidly with heat and moisture — never store seeds in a shed, attic, or any space with temperature swings; a cool basement or refrigerator with desiccant is ideal",
-      "Potatoes exposed to sunlight turn green and produce solanine, a toxic alkaloid — always hill soil up over developing tubers and store in complete darkness",
-      "Raw dry beans (especially red kidney beans) contain phytohaemagglutinin (PHA), which causes severe nausea and vomiting if undercooked — always boil dried beans for at least 10 minutes before any slow-cooking method"
+      "Do not grow food in soil near old painted buildings, roads, or fuel spills without a soil test - lead and other contaminants can be taken up or splashed onto crops.",
+      "Read every pesticide label, even organic ones, and follow the waiting period before harvest.",
+      "A garden takes weeks to months to produce. It supplements stored food; it does not replace it in the first weeks of an emergency."
     ],
     "proTips": [
-      "One 5-gallon bucket of Yukon Gold potato seed pieces (eyes) planted in early spring will produce 40–60 lbs of potatoes in 90 days — no other vegetable matches this return on investment for caloric production",
-      "Inoculate bean and pea seeds with rhizobium nitrogen-fixing bacteria (available as dry powder at garden stores) before planting — this dramatically increases nitrogen fixation and is especially important in new or depleted soil",
-      "Save cardboard from any source throughout the year — it is one of the most useful homesteading materials for weed suppression, sheet mulch, and composting; flatten and stack in a dry location",
-      "A cold frame (bottomless wooden box with an old window or clear plastic as a lid) extends the growing season 4–6 weeks on both ends — allowing spring and fall crops in climates where frosts end the season early"
+      "Start tomato, pepper, and cabbage seedlings indoors 6 to 8 weeks before your last frost to gain weeks of harvest.",
+      "Keep a two-year supply of seed in a cool, dry, sealed container so one bad season does not end your garden.",
+      "Your county extension office and Master Gardener volunteers can tell you which varieties do best in your area - usually for free."
     ],
-    "relatedGuides": ["homestead-001", "homestead-003", "homestead-004"],
-    "source": "Wilderness survival best practices / Traditional homesteading knowledge",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "homestead-014",
+      "homestead-007",
+      "homestead-008",
+      "homestead-012",
+      "food-013"
+    ],
+    "source": "University of Delaware / Penn State / UMass Extension",
+    "sources": [
+      {
+        "title": "Planning a Vegetable Garden",
+        "publisher": "University of Delaware Cooperative Extension",
+        "url": "https://www.udel.edu/udel/en/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Container Vegetable Gardening: Four Keys to Success",
+        "publisher": "Penn State Extension",
+        "url": "https://extension.psu.edu/container-vegetable-gardening-four-keys-to-success",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Seed Saving",
+        "publisher": "UMass Amherst Extension",
+        "url": "https://www.umass.edu/agriculture-food-environment/home-lawn-garden/fact-sheets/seed-saving",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "low",
     "prerequisites": [],
+    "whenNotTo": [
+      "You need food in the next few days - eat from stored food first and plant for the weeks ahead.",
+      "The only available ground is contaminated (flood silt, chemical spills, old lead-paint areas) - use containers with fresh potting mix instead."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to establish a food-producing garden prioritized for calories per square foot, not variety",
-      "immediate": ["Plant potatoes first: a 10x10 plot yields 50-100 lbs (35,000-70,000 calories) in 70-120 days", "Plant fast crops for immediate nutrition while caloric crops mature: radishes 22 days, leaf lettuce 30 days, spinach 25 days", "Use only open-pollinated (OP) or heirloom seeds — hybrid F1 seeds do not breed true for second generation"],
-      "then": ["Use sheet mulch method to create beds without digging: cardboard + compost + straw mulch", "Save seeds from best specimens allowed to fully dry on the plant — store in sealed glass jars with silica gel"]
+      "situation": "You need to start growing as much food as possible from a backyard or small plot.",
+      "immediate": [
+        "Find your last and first frost dates.",
+        "Plant fast greens and radishes now if the season allows.",
+        "Set aside the sunniest space for potatoes, squash, and beans."
+      ],
+      "then": [
+        "Replant each bed as soon as you harvest it.",
+        "Mulch, water deeply, and check for pests every day or two."
+      ]
     }
   },
   {
@@ -132,63 +237,129 @@
     "category": "homesteading",
     "title": "Preserving Food Without Electricity",
     "priority": "advanced",
-    "tags": ["homesteading", "food-preservation", "canning", "fermentation", "salt-curing"],
-    "summary": "Proven off-grid food preservation methods including salt curing, smoking, lacto-fermentation, root cellaring, and drying — with safety-critical details on botulism prevention.",
+    "tags": [
+      "homesteading",
+      "food-preservation",
+      "canning",
+      "fermentation",
+      "drying",
+      "botulism"
+    ],
+    "summary": "An overview of safe ways to keep a harvest without a freezer - canning, fermenting, drying, curing, and cold storage - with the tested rules that prevent botulism and food poisoning.",
     "steps": [
       {
         "step": 1,
-        "title": "Salt Curing Meat — Ratios, Pink Salt, and Timing",
-        "body": "Salt curing preserves meat by reducing water activity (aw) to levels that prevent microbial growth. A cure ratio of a minimum 2.5% salt by weight of fresh meat is required for preservation — below this level, pathogen suppression is unreliable. To calculate: 1,000g of meat requires at least 25g of salt. Dry curing method: weigh meat, calculate salt needed, add pink curing salt (sodium nitrite, sold as Prague Powder #1 or Instacure #1) at the manufacturer-specified rate — typically 1 tsp per 5 lbs of meat. Pink salt prevents Clostridium botulinum growth in anaerobic (low-oxygen) environments like the interior of thick cuts. Mix curing salt with kosher salt, rub thoroughly over entire meat surface, place in a non-reactive container (glass, ceramic, food-grade plastic), and refrigerate or store in a cool space (35–40°F). Allow 7 days per inch of thickness at the thickest point. Turn the meat every 2 days and drain brine that forms. Pink salt is not optional for thick cuts cured without heat — it is the primary botulism barrier."
+        "title": "Match the method to the food",
+        "body": "Each preservation method works by stopping germs in a different way: heat (canning), acid (fermenting and pickling), removing water (drying), salt and nitrite (curing), or cold (root cellars). Not every method is safe for every food. Low-acid foods such as vegetables, meat, poultry, and fish must be pressure canned, never boiled in a water bath. Fruits, acidified tomatoes, pickles, and sauerkraut can be water-bath canned using a tested recipe. Root crops and winter squash keep for months in cool storage with no processing at all. Choose the simplest safe method for each crop before you harvest, and gather the gear and supplies ahead of time."
       },
       {
         "step": 2,
-        "title": "Smoking — Cold Smoke for Preservation vs. Hot Smoke for Cooking",
-        "body": "Smoking alone does not fully preserve meat — it must be combined with curing or drying to achieve shelf-stable preservation. Cold smoking (smoke temperature below 90°F, ideally 60–80°F) adds antimicrobial phenolic compounds from wood smoke to the surface of cured meat without cooking it — it is a preservation enhancement, not a cooking method. Cold smoked products (bacon, salmon, salami) must be pre-cured before cold smoking. Hot smoking (smoke temperature 165–225°F) cooks meat to a food-safe internal temperature and adds smoke flavor — but without salt curing or drying, hot-smoked meat has the same shelf life as cooked meat (3–4 days unrefrigerated). For true shelf-stable smoked products: cure with salt and pink salt first, cold smoke 8–24 hours, then dry at 130°F until the meat reaches 35–40% weight loss. Hardwoods only for smoking: hickory, oak, apple, cherry, maple, alder. Never use pine, cedar, or any resinous softwood — the resin produces toxic compounds."
+        "title": "Use only tested recipes",
+        "body": "The USDA, the National Center for Home Food Preservation (NCHFP), and university extension services publish recipes that were lab-tested for heat penetration and acidity. Follow them exactly. Do not add extra onions, peppers, or thickeners, change jar sizes, or shorten times, because those changes can leave the center of a jar under-processed. Recipes from old cookbooks, social media, or family tradition are often unsafe. Writers frequently promote methods the USDA does not support, such as oven canning, open-kettle canning, and canning in electric multicookers. Print the tested recipes you will need and keep them with your canning gear in case the internet is down."
       },
       {
         "step": 3,
-        "title": "Lacto-Fermentation — Salt Brine, Temperature, and Timing",
-        "body": "Lacto-fermentation uses salt to selectively suppress pathogens while allowing beneficial Lactobacillus bacteria (naturally present on vegetables) to produce lactic acid, which preserves the food and creates the characteristic sour flavor of sauerkraut, kimchi, and pickles. This is one of the safest preservation methods — the lactic acid environment is hostile to nearly all food pathogens including Clostridium botulinum (which requires neutral pH). Salt brine: 2% salt by weight of the total brine solution — dissolve 20g of non-iodized salt per 1,000g (1 liter) of clean water. Iodized salt inhibits fermentation bacteria; use kosher, sea, or pickling salt. Pack vegetables tightly into clean glass jars, pour brine over to fully submerge. Vegetables must remain submerged — exposure to air causes mold, not safe fermentation. Use a zip-lock bag filled with brine as a weight, or a small jar filled with water. Ferment at room temperature 60–75°F for 3–7 days. Taste daily — the product is ready when pleasantly sour. Move to cold storage (40°F) to slow further fermentation; lacto-fermented vegetables keep for 6–12 months when kept cold."
+        "title": "Understand the botulism risk",
+        "body": "Clostridium botulinum spores are in soil everywhere and survive boiling water at 212°F (100°C). In a sealed jar of low-acid food with no oxygen, they can grow and make a toxin that paralyzes nerves and can stop breathing. The CDC says contaminated food may look, smell, and taste normal. That is why the rules matter: pressure canning reaches about 240°F (116°C), which kills the spores, and acid at a pH of 4.6 or lower stops them from growing. Throw out any jar that is leaking, bulging, cracked, spurting, foaming, moldy, or smells off. Never taste food to check it. Anyone with blurred vision, drooping eyelids, slurred speech, or trouble swallowing after eating home-preserved food needs emergency care immediately."
       },
       {
         "step": 4,
-        "title": "Root Cellaring — Temperature, Humidity, and Crop Compatibility",
-        "body": "A root cellar exploits the natural thermal mass of the earth to maintain 40–55°F and 85–95% humidity — ideal conditions for long-term vegetable storage without energy. If you lack a purpose-built root cellar, a buried trash can, a corner of an uninsulated basement, or even a well-insulated outdoor pit can approximate these conditions. Suitable crops for root cellar storage: carrots (sand-packed in boxes, 32–40°F, 90–95% humidity — last 4–6 months), potatoes (40–50°F, 85–90% humidity, complete darkness — last 4–6 months), beets (sand-packed, 32–40°F — 3–5 months), cabbages and kohlrabi (32–40°F, 90–95% humidity — 3–6 months), winter squash (50–55°F, 50–70% humidity, cured 10 days at 80°F before storage — 3–6 months). Critical incompatibility: never store apples with any other produce. Apples emit ethylene gas that accelerates ripening and spoilage in every adjacent vegetable — they require an isolated section or separate storage."
+        "title": "Ferment vegetables with measured salt",
+        "body": "Fermentation lets lactic acid bacteria sour the food. The NCHFP sauerkraut recipe uses about 3 tablespoons of canning or pickling salt per 5 pounds (2.3 kg) of shredded cabbage. Pack it firmly so the juice covers the cabbage. If it does not, add brine made from 1 1/2 tablespoons of salt per quart (1 liter) of water. Keep the cabbage under the brine with a plate and weight or a brine-filled food-grade bag. At 70 to 75°F (21 to 24°C), it ferments in about 3 to 4 weeks. At 60 to 65°F (16 to 18°C) it takes 5 to 6 weeks. Below 60°F it may not ferment, and above 75°F it can turn soft. Throw out kraut that is slimy, pink, or moldy beyond surface scum."
       },
       {
         "step": 5,
-        "title": "Drying and Dehydration — Meat Jerky and Vegetables",
-        "body": "Drying removes moisture to below 20% water activity, at which point mold, yeast, and bacteria cannot grow. For meat jerky: use lean cuts only — fat does not dry and turns rancid quickly, shortening shelf life. Slice meat 1/4\" thick against the grain for tenderness, with the grain for chewier texture. Pre-treat with salt cure or soy sauce brine (high sodium) for both flavor and microbial safety. Dry at 130–160°F for 6–8 hours in a dehydrator or low oven with the door cracked for airflow. The USDA recommends heating jerky to 160°F internal temperature — either heat the dried jerky in an oven at 275°F for 10 minutes after drying, or pre-heat wet meat strips in marinade on the stovetop to 165°F before drying. Sun drying works in hot, dry climates: lay slices on mesh screens elevated above a dark surface (absorbs heat), cover with cheesecloth to exclude insects, and bring inside at night. Full sun drying takes 2–4 days. Finished jerky should bend and crack, not snap brittlely or feel moist."
+        "title": "Dry foods until brittle or leathery",
+        "body": "Drying removes the water germs need. Fruits and vegetables can be sun-dried in hot, dry climates or dried in a low oven or dehydrator. Dry fruit until leathery with no pockets of moisture and vegetables until brittle. Condition dried fruit by packing it loosely in a jar for a week and shaking daily. If droplets form, dry it longer. Meat is different: USDA FSIS advises heating meat to 160°F (71°C), or poultry to 165°F (74°C), before or during drying, because drying temperatures alone may not kill bacteria. Store dried foods in airtight containers in a cool, dark place. Home-dried jerky keeps about 1 to 2 months."
       },
       {
         "step": 6,
-        "title": "Botulism — Understanding and Preventing the Deadliest Preservation Risk",
-        "body": "Clostridium botulinum is an anaerobic bacterium that produces the most toxic substance known — botulinum toxin. It thrives in low-oxygen, low-acid, moist environments at temperatures from 40–120°F: exactly the conditions inside improperly canned, cured, or sealed foods. Signs of botulism contamination in preserved foods: bulging lids, off odors, unusual appearance, or visible gas when opened — discard any such food without tasting it. Botulism toxin is destroyed by boiling (212°F) for 10 minutes — heating suspect canned foods before eating is a safety measure, but do not rely on it. Prevention by method: for canning, use a pressure canner (240°F) for all low-acid foods (meats, vegetables, beans) — water bath canning at 212°F is insufficient for low-acid foods. For curing, use pink salt (sodium nitrite) — it directly inhibits C. botulinum. For fermentation, maintain sufficient salt concentration (2%+) and ensure vegetables stay submerged — the lactic acid pH drop kills botulinum spores. Never taste-test any low-acid preserved food before heating it if you are uncertain of the method used."
+        "title": "Cure meat only with a tested cure",
+        "body": "Salt curing is old, but it is not foolproof. Mississippi State Extension recommends a commercial cure that contains measured sodium nitrite, used at the recipe's rate per pound and kept at 32 to 40°F (0 to 4°C) during curing. Nitrite helps stop botulism in cured meats, but too much is toxic, so never guess the amount. Dry curing takes about 7 days per inch (2.5 cm) of thickness. Hams cured for a shorter time are not shelf stable and must be frozen or refrigerated. Aging hams at room temperature is risky in warm, humid climates. Beginners should cure in cold weather, follow one tested recipe closely, and cook cured products fully unless the recipe is a tested dry-cured one."
+      },
+      {
+        "step": 7,
+        "title": "Store and rotate what you preserve",
+        "body": "Label every jar and bag with the food, the method, and the date. Store canned goods in a cool, dry, dark place. Home-canned food keeps its best quality for about one year, so eat the oldest first. Check stored jars before use for broken seals. Keep fermented foods cold once they finish, ideally below 40°F (4°C). Check root-cellar produce weekly and remove anything rotting before it spreads. Keep a simple inventory sheet so you know what you have and can plan meals instead of letting food age past its best quality."
       }
     ],
     "warnings": [
-      "Pink curing salt (Prague Powder, Instacure) contains sodium nitrite, which is toxic in large amounts — do not substitute regular salt and do not exceed recommended ratios; measure by weight, not volume",
-      "Water bath canning is NOT safe for low-acid foods (meats, vegetables, beans, soups) — these require pressure canning at 240°F to destroy botulinum spores; improperly canned low-acid foods have caused multiple fatal botulism outbreaks",
-      "Cold-smoked foods that are not pre-cured are NOT shelf stable — cold smoke alone does not prevent spoilage in the interior of thick cuts",
-      "Lacto-fermentation produces CO2 gas — do not seal jars airtight during active fermentation or jars will build pressure and may crack; use an airlock lid or loosen the jar ring to allow gas to escape"
+      "Never water-bath can vegetables, meat, poultry, fish, or beans. Only a pressure canner kills botulism spores in low-acid foods.",
+      "Botulism toxin often gives no sign. Food can look and smell normal. If a jar's processing is in doubt, throw it out without tasting.",
+      "Curing salts with nitrite are toxic in excess. Measure exactly, keep them labeled, and store them away from table salt and children.",
+      "Botulism symptoms (double or blurred vision, drooping eyelids, slurred speech, trouble swallowing or breathing) are a medical emergency. Call 911 or get to a hospital."
     ],
     "proTips": [
-      "A vacuum sealer combined with oxygen absorbers dramatically extends the storage life of dried foods — dried beans sealed with oxygen absorbers in Mylar bags inside 5-gallon buckets remain viable for 25+ years",
-      "The Weston Price Foundation and the Ball Blue Book of Canning are the two most reliable references for home preservation safety — consult USDA-tested recipes for canning; do not use old family recipes that predate modern safety testing",
-      "Fermented hot sauce is one of the easiest and most rewarding lacto-ferments — blend peppers with 2% salt, ferment in a jar with an airlock for 5–7 days, blend smooth; the result is a probiotic condiment that lasts months under refrigeration",
-      "Render animal fat (lard from pork, tallow from beef) and confit meat in the rendered fat — meat submerged and sealed under a layer of solid fat is a traditional preservation method that keeps unrefrigerated for weeks to months in a cool space; this is how cassoulet and duck confit were preserved for centuries"
+      "Buy bottled lemon juice for canning tomatoes. Its acidity is consistent, unlike fresh lemons.",
+      "Ferment in a cool basement in late summer to hit the ideal 60 to 75°F range without power.",
+      "Root cellaring and drying need no special fuel. Save canning, which needs a steady heat source, for foods that cannot be stored any other way."
     ],
-    "relatedGuides": ["homestead-001", "homestead-004", "homestead-005"],
-    "source": "Wilderness survival best practices / Traditional homesteading knowledge",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "homestead-006",
+      "homestead-012",
+      "homestead-013",
+      "food-004",
+      "food-012",
+      "medical-011"
+    ],
+    "source": "USDA / NCHFP / CDC / USDA FSIS / MSU Extension",
+    "sources": [
+      {
+        "title": "Preventing Botulism: Home-Canned Foods",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/botulism/prevention/home-canned-foods.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Sauerkraut",
+        "publisher": "National Center for Home Food Preservation",
+        "url": "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Jerky and Food Safety",
+        "publisher": "USDA FSIS",
+        "url": "https://www.fsis.usda.gov/es/node/3309",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Curing Pork Products at Home (P2648)",
+        "publisher": "Mississippi State University Extension",
+        "url": "https://extension.msstate.edu/publications/curing-pork-products-home",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Canning FAQ",
+        "publisher": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/food-preservation/canning-faq",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
     "skillLevel": "advanced",
-    "gearRequired": "basic_edc",
-    "riskLevel": "medium",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
     "prerequisites": [],
+    "whenNotTo": [
+      "You do not have a tested recipe for that food and method - store it another way or eat it fresh.",
+      "You cannot hold the needed temperature (steady canner pressure, a cool curing space, or a 60 to 75°F fermenting spot).",
+      "The food is already spoiling - preservation does not make bad food safe."
+    ],
+    "requiresMedicalDisclaimer": true,
     "quickGlance": {
-      "situation": "You have more food than you can consume and need to preserve it — off-grid preservation prevents waste of irreplaceable calories",
-      "immediate": ["Salt curing: minimum 2.5% salt by weight of meat — pack completely with no exposed surface; add pink curing salt (Prague Powder) for thick cuts to prevent botulism", "Lacto-fermentation: 2% salt brine (20g per liter water), pack vegetables tightly, keep fully submerged — never let them contact air", "Smoking: only hot smoke fully cured meat; cold smoke requires pre-curing first or product is not shelf-stable"],
-      "then": ["Root cellaring: potatoes, carrots, beets, and winter squash at 40-55°F with 85-95% humidity last 3-6 months", "Never taste-test low-acid preserved food before heating if uncertain of method — botulism has no odor or taste"]
+      "situation": "You have more food than you can eat fresh and no refrigeration or freezer.",
+      "immediate": [
+        "Put root crops, squash, and onions in cool storage first - no processing needed.",
+        "Pressure can low-acid foods; water-bath only high-acid or acidified foods.",
+        "Use only USDA, NCHFP, or extension tested recipes."
+      ],
+      "then": [
+        "Label and date everything and eat the oldest first.",
+        "Throw out any bulging, leaking, or off-smelling jar without tasting it."
+      ]
     }
   },
   {
@@ -196,127 +367,1221 @@
     "category": "homesteading",
     "title": "Water Collection and Storage for a Homestead",
     "priority": "critical",
-    "tags": ["homesteading", "water", "rainwater", "storage", "filtration"],
-    "summary": "Rainwater harvesting setup, cistern sizing, gravity-fed distribution, treatment and storage, and calculating household water needs.",
+    "tags": [
+      "homesteading",
+      "water",
+      "rainwater",
+      "rain-barrel",
+      "storage",
+      "disinfection"
+    ],
+    "summary": "Collect, store, and treat rainwater for a homestead: barrels and tanks, first-flush diverters, what roof water is safe for, and how to disinfect it before drinking using EPA guidance.",
     "steps": [
       {
         "step": 1,
-        "title": "Rain Barrel Setup — Diverters, First-Flush, and Screening",
-        "body": "A basic rain barrel connects to a downspout to capture roof runoff. The collection rate is significant: 1 inch of rain on 1,000 square feet of roof yields approximately 600 gallons of runoff. Install a downspout diverter at the appropriate height — a Y-fitting that sends water into your barrel while allowing overflow to bypass to the original downspout when the barrel is full. More important than the diverter is a first-flush diverter: the first 1/10 inch of rain per 100 square feet of roof washes accumulated bird droppings, dust, decomposed organic material, and roofing chemicals off the surface — this water is significantly more contaminated than subsequent flow. A first-flush diverter is a standpipe (typically 4\" diameter PVC) that fills with the first dirty flush, then diverts subsequent cleaner water to storage. Screen all inlets with fine mesh (window screen minimum, 20-mesh ideally) to exclude insects — open water containers breed mosquitoes in 4–5 days. Cover all storage containers completely."
+        "title": "Work out how much water you need",
+        "body": "Plan at least 1 gallon (3.8 liters) per person per day for drinking and basic food prep, and more in hot weather or for nursing mothers, children, and sick people. Washing, cooking, and sanitation push real household use far higher. Animals add more: a laying hen drinks up to about a pint (0.5 liters) a day in heat, and goats and garden beds need much more. Add up people, animals, and garden, then multiply by the longest dry spell you expect. That number tells you whether a few barrels will do or you need large tanks. Check state law first. A few Western states limit rainwater capture."
       },
       {
         "step": 2,
-        "title": "Cistern Sizing — 55-Gallon Barrels to 1,000-Gallon IBC Totes",
-        "body": "Calculate your storage needs based on your household daily usage and average dry-spell duration in your region. At the survival minimum of 1 gallon per person per day, a family of 4 needs 120 gallons for a 30-day dry spell. For basic living (drinking, cooking, minimal hygiene) at 3 gallons/person/day: 360 gallons for 30 days. For comfortable homestead operation with garden irrigation, livestock watering, and hygiene: 5–15 gallons/person/day is realistic, requiring 600–1,800+ gallons of storage. Storage options by scale: 55-gallon food-grade drums (widely available, stackable, manageable) — multiple drums daisy-chained with overflow fittings scale well. 275–330 gallon IBC totes (Intermediate Bulk Containers) — food-grade versions are excellent cisterns; avoid totes that held chemicals. 500–1,000 gallon poly tanks — purpose-built water storage, UV-stabilized, with fittings. Underground cisterns (1,000–10,000 gallons) — the gold standard, maintains cool temperature that inhibits algae and bacterial growth."
+        "title": "Size your catchment",
+        "body": "Roofs collect a surprising amount. A useful rule: each inch (2.5 cm) of rain on 1,000 square feet (93 sq m) of roof yields about 600 gallons (2,270 liters), minus losses for splash and first flush. Measure the footprint of the roof that drains to each downspout, not the sloped surface. Then compare that to your storage. A single 55-gallon (208-liter) barrel fills from less than a tenth of an inch of rain on an average roof, so many homesteads link several barrels or step up to 275 or 330 gallon (1,000 to 1,250 liter) food-grade IBC totes or a cistern."
       },
       {
         "step": 3,
-        "title": "Gravity-Fed Distribution — Head Pressure Calculations",
-        "body": "Municipal water pressure is 40–80 PSI, provided by pumps or elevated water towers. A gravity-fed system generates pressure purely from elevation: every 1 foot of vertical height between the water surface in the storage tank and the outlet generates 0.433 PSI (commonly rounded to 0.43 PSI). To calculate: (tank height in feet) x 0.43 = PSI available at the outlet. A standard shower requires 8–12 PSI minimum for acceptable flow. To generate 10 PSI, your tank water surface must be at least 23 feet above the showerhead (10 / 0.43 = 23.2 feet). For garden irrigation via drip lines, 5–10 PSI is usually sufficient — achievable with a tank 12–25 feet high. For toilet flushing, 5 PSI is adequate (10–12 feet of head). Build your cistern on the highest available point — hilltop, elevated platform, or upper floor of a structure. Every additional foot of elevation is significant. A 500-gallon IBC tote on a 15-foot elevated platform provides 6.5 PSI — sufficient for drip irrigation and toilet flushing, marginal for showers."
+        "title": "Set up barrels with screens and a first-flush diverter",
+        "body": "Use only food-grade containers that never held chemicals. Put a fine screen on every inlet and overflow to keep out leaves, mosquitoes, and rodents. Install a first-flush diverter at the downspout. It catches the first gallons of each rain, which carry the most bird droppings, dust, and roof grit, and sends cleaner water to the barrel. Set barrels on a level, solid base: a full 55-gallon barrel weighs more than 450 pounds (200 kg). Raise them on blocks so you get gravity pressure at the spigot. Route overflow away from your foundation and your neighbor's yard."
       },
       {
         "step": 4,
-        "title": "Water Treatment Before Storage — Chemical Disinfection",
-        "body": "Collected rainwater is not potable without treatment, even from a clean roof — it can contain bird feces (Salmonella, Campylobacter, Cryptosporidium), atmospheric contaminants, and roof material leachate. Treat with unscented sodium hypochlorite bleach (plain household bleach, 6–8.25% concentration): add 8 drops (0.4 mL) per gallon of clear water, or 16 drops per gallon of turbid water. Double these amounts if bleach is 3–6% concentration (check the label). Stir and let stand 30 minutes before use. After 30 minutes, treated water should have a faint chlorine smell — if it does not, repeat the dose and wait another 15 minutes. If it still has no chlorine smell after two doses, discard the water and start fresh. Bleach loses potency over time — use bleach manufactured within the last 6 months for reliable disinfection. For stored water, add bleach at the time of filling; rechlorinate every 6 months. Alternative: calcium hypochlorite (pool shock, 68–78% concentration) is more stable than liquid bleach and stores for years; use 1/8 tsp per 5 gallons."
+        "title": "Know what roof water is safe for",
+        "body": "Untreated roof water is fine for most garden and livestock uses, but it is not safe to drink as-is. It can carry bacteria from bird and animal droppings, and metals or chemicals from roofing, flashing, and gutters. Asphalt shingles, treated wood shakes, and old lead flashing or paint add contaminants. Metal roofs with food-safe coatings give the cleanest water. Water vegetable soil, not leaves, and wash produce well. Use the cleanest water you have for drinking, and treat it every time."
       },
       {
         "step": 5,
-        "title": "Contamination Prevention and Annual Container Maintenance",
-        "body": "Long-term stored water develops contamination from algae (if light reaches the water), biofilm on container walls, and recontamination from improperly sealed lids. Prevention: use only food-grade containers — HDPE #2 plastic, polypropylene, or food-grade fiberglass. Never use galvanized metal containers (zinc leaches into water), non-food-grade plastics, or any container that held petroleum products. All containers must be opaque or kept in complete darkness — algae requires light for photosynthesis. A green IBC tote placed in sunlight develops algae within weeks; wrap in dark tarp or paint with outdoor spray paint. Annual maintenance: drain the container completely, scrub interior walls with a soft brush and dilute bleach solution (1 tablespoon bleach per gallon of water), rinse thoroughly twice with clean water, refill with fresh treated water. Inspect all gaskets, fittings, and screens for cracks or gaps. Record the cleaning date on the container."
+        "title": "Treat water before you drink it",
+        "body": "If water is cloudy, let it settle, then pour it through a clean cloth, paper towel, or coffee filter. Then disinfect. EPA says boiling is the best method: bring water to a rolling boil for at least 1 minute, or 3 minutes above 5,000 feet (1,000 m). To use unscented household bleach, check the label strength. For 6 percent bleach, add 8 drops per gallon. For 8.25 percent bleach, add 6 drops per gallon. Double the dose if the water is cloudy, colored, or very cold. Stir and wait 30 minutes. It should smell slightly of chlorine. If not, repeat the dose and wait 15 more minutes. Disinfection does not remove chemicals, fuel, or metals."
       },
       {
         "step": 6,
-        "title": "Legal Considerations and Household Water Needs Calculation",
-        "body": "Many U.S. states historically restricted or prohibited rainwater collection, though most have since reformed these laws. As of 2025: rainwater collection is fully legal and sometimes incentivized in most states. States with remaining restrictions or permit requirements include Colorado (limited to two 110-gallon barrels per property for outdoor use only under most conditions), and several western states where water rights doctrine applies to precipitation. Always verify your local and state regulations before installing significant collection capacity. Household water needs: drinking water minimum is 0.5 gallons/person/day; FEMA recommends 1 gallon/person/day for emergencies including minimal sanitation. Realistic homestead needs: drinking and cooking 1–2 gallons, hygiene (sponge bath) 1–2 gallons, dish washing 1–2 gallons, toilet flushing (if available) 1.5 gallons/flush. Total realistic minimum: 5–8 gallons/person/day. For livestock: chickens need 0.5 cup/bird/day minimum, goats 2–4 gallons/day, dairy cows 30–50 gallons/day. Factor all uses when sizing your collection and storage system."
+        "title": "Store treated water correctly",
+        "body": "Keep drinking water in clean, food-grade containers with tight lids, out of sunlight, and away from fuel, pesticides, and chemicals. Sunlight grows algae in clear or light-colored containers. Label each container with the date it was filled and treated. Rotate stored tap or treated water about every 6 months. Use a clean scoop or spigot, never your hands or a dirty cup, to draw water. Keep separate, clearly marked containers for non-drinking water so no one mixes them up."
+      },
+      {
+        "step": 7,
+        "title": "Maintain the system every season",
+        "body": "Clean gutters at least twice a year and after storms. Empty and clean the first-flush diverter after each big rain or as its design requires. Once a year, drain each barrel, scrub it with a mild bleach solution, and rinse well. Check screens monthly for holes, because a gap can let mosquitoes breed in your barrel within days. In freezing climates, drain and disconnect barrels before hard frost or they can split. Watch for leaks, algae, and smells, and fix problems before you depend on the water."
       }
     ],
     "warnings": [
-      "Rainwater collected from roofs with asbestos shingles, lead flashing, or treated wood contains toxic leachate — never collect from these surfaces for any use without thorough testing",
-      "A full 55-gallon drum weighs 459 lbs — ensure any elevated platform is engineered to bear the load; a 1,000-gallon IBC tote weighs over 4 tons when full",
-      "Sodium hypochlorite bleach (household bleach) loses 50% of its potency within 6 months of manufacture and is largely ineffective after 1 year — do not use old bleach for water treatment and check manufacture dates",
-      "Collected rainwater is NOT a substitute for tested well or municipal water for drinking without multiple treatment steps — at minimum, filter then disinfect; ideally filter, disinfect, and UV-treat"
+      "Do not drink untreated rainwater. Boil or disinfect it every time.",
+      "Bleach and boiling kill germs but do not remove fuel, chemicals, or heavy metals. Do not drink water that may be chemically contaminated.",
+      "Never use containers that held chemicals, fuel, or pesticides, even after washing.",
+      "Cover and screen every barrel. Open water grows mosquitoes and can drown small children and animals."
     ],
     "proTips": [
-      "A Sawyer Squeeze or Berkey gravity filter provides a final safety layer before drinking collected rainwater — chemical disinfection kills pathogens but does not remove heavy metals or chemical contaminants that filtration addresses",
-      "Calcium hypochlorite (pool shock, 68% concentration, unscented) is the most cost-effective long-term water treatment supply — a 1-lb bag treats approximately 10,000 gallons and stores reliably for 3–5 years if kept cool and dry",
-      "Install a sight glass (clear section of tubing or a float gauge) on your cistern so you can monitor water level without opening the container, which introduces contamination risk",
-      "Place a sand-and-gravel pre-filter box (filled with washed gravel, then sand, then a layer of activated charcoal) between your roof collection and your cistern — this settles particulates, improves taste, and reduces the disinfection load before chemical treatment"
+      "Mark the downspout and barrel used for drinking-grade collection and keep it to the cleanest section of roof.",
+      "Paint or wrap translucent tanks dark, or keep them in shade, to stop algae.",
+      "Link barrels at the bottom with short hoses so they fill and drain together from one spigot."
     ],
-    "relatedGuides": ["homestead-001", "homestead-002", "homestead-003"],
-    "source": "Wilderness survival best practices / Traditional homesteading knowledge",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "water-005",
+      "water-006",
+      "water-002",
+      "water-010",
+      "water-015",
+      "homestead-002"
+    ],
+    "source": "U.S. EPA / Lake Champlain Sea Grant",
+    "sources": [
+      {
+        "title": "Emergency Disinfection of Drinking Water",
+        "publisher": "U.S. EPA",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Rain Barrel Water Reuse: Summary of Research and Recommendations",
+        "publisher": "Lake Champlain Sea Grant / University of Vermont",
+        "url": "https://www.uvm.edu/seagrant/node/2374",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
     "skillLevel": "intermediate",
-    "gearRequired": "basic_edc",
+    "gearRequired": "advanced_kit",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "Your state restricts rainwater capture - check the law before building a large system.",
+      "The roof or gutters are contaminated by smoke, ash, chemicals, or lead paint - do not use that water for drinking even after treatment."
+    ],
+    "requiresMedicalDisclaimer": true,
     "quickGlance": {
-      "situation": "You need to establish a rainwater collection and storage system for your homestead — 1 inch of rain on 1,000 sq ft of roof yields 600 gallons",
-      "immediate": ["Install first-flush diverter — first 1/10 inch of rain per 100 sq ft washes off concentrated contaminants", "Screen all inlets with fine mesh to exclude insects — open water breeds mosquitoes in 4-5 days", "Calculate storage need: 5-8 gallons per person per day for basic homestead operation"],
-      "then": ["Treat with unscented bleach at 8 drops per gallon clear water; stir and let stand 30 minutes before use", "Use only food-grade opaque containers — keep in complete darkness to prevent algae growth"]
+      "situation": "You need a steady water supply for your household, animals, and garden without city water.",
+      "immediate": [
+        "Calculate household, animal, and garden water needs.",
+        "Install food-grade barrels with screens and a first-flush diverter.",
+        "Boil or bleach-treat any rainwater before drinking."
+      ],
+      "then": [
+        "Store treated water sealed, labeled, and out of sunlight.",
+        "Clean gutters, diverters, and barrels on a regular schedule."
+      ]
     }
   },
   {
     "id": "homestead-005",
     "category": "homesteading",
-    "title": "Livestock Slaughter and Butchering Basics",
+    "title": "Home Slaughter and Processing Basics",
     "priority": "advanced",
-    "tags": ["homesteading", "butchering", "livestock", "meat", "food"],
-    "summary": "Humane dispatch methods by species, proper bleed-out and evisceration procedure, cooling requirements, aging, and food safety.",
+    "tags": [
+      "homesteading",
+      "butchering",
+      "slaughter",
+      "poultry-processing",
+      "livestock",
+      "food-safety"
+    ],
+    "summary": "Process your own poultry and small livestock humanely and cleanly: legal limits, preparation, scalding and evisceration, rapid chilling to 40°F, and which carcasses to throw away, based on university extension guidance.",
     "steps": [
       {
         "step": 1,
-        "title": "Humane Dispatch Methods by Animal",
-        "body": "Humane dispatch means causing rapid unconsciousness and death with minimal distress. Method by species: Chickens and turkeys — cervical dislocation is appropriate for small birds and experienced hands: hold the bird by the legs with one hand, place your other thumb and forefinger at the base of the skull, and pull sharply while simultaneously pushing the head back — this dislocates C1/C2 vertebrae and severs the spinal cord. Alternatively, a sharp hatchet or purpose-built killing cone with a sharp knife across both carotid arteries and the jugular is effective and reliable. Rabbits — sharp blunt trauma to the back of the skull just behind the ears using a heavy dowel or the back of a hatchet. A .22 blank pistol at point-blank is an alternative. Pigs and goats — a firearm is the most reliable dispatch method: a .22 LR hollow point or a .38 caliber shot to the forehead aimed toward the opposite ear, at a downward angle. Draw an X between the eyes and ears to identify the target point. Cattle — must be stunned before bleeding due to size and danger. A penetrating captive bolt stunner (or .22 magnum to the same X-point) renders the animal unconscious; then bleed immediately. Failure to stun cattle before sticking is illegal in commercial operations and dangerous for the handler."
+        "title": "Know the legal limits first",
+        "body": "In the U.S., you may slaughter your own animals on your own property for your own household without inspection. Selling or trading that meat is a different matter. University of Illinois Extension notes that meat for sale must come from a licensed, inspected facility. Minnesota Extension explains a federal exemption that lets small producers sell up to 1,000 home-processed chickens, turkeys, or geese a year within their state, but uninspected poultry can never cross state lines, and states add their own rules. Call your state department of agriculture before selling anything. For cattle, hogs, and other large animals, a licensed custom processor is often the safest choice."
       },
       {
         "step": 2,
-        "title": "Bleed-Out — Immediately After Dispatch",
-        "body": "Bleeding out (exsanguination) must occur immediately — within 60 seconds — after dispatch to ensure the heart is still beating, which assists blood evacuation. Retained blood causes meat discoloration (dark spotting), shortened shelf life, and off-flavor. For poultry: after cervical dislocation or stunning, cut both carotid arteries at the neck with a sharp knife — one cut from side to side just below the jaw works. Allow the bird to hang inverted in a killing cone or by the feet for 2–3 minutes until bleeding slows. For pigs, goats, cattle: after stunning, the animal will collapse. Roll it so access to the chest is available. For the chest stick method: insert a sharp, long-bladed knife (6–8 inches) at the base of the throat aimed into the chest cavity at a 45-degree angle toward the heart — sever the aorta and jugular. Blood will flow rapidly. Elevate the hindquarters to assist drainage. For smaller ruminants, a simple throat cut through both carotid arteries and the jugular vein while the animal hangs by its hind legs works well and drains fully in 3–5 minutes."
+        "title": "Plan the day, the place, and the cold",
+        "body": "Illinois Extension advises slaughtering only when the air is below 40°F (4°C), or having enough ice and cold water to chill carcasses fast, because bacteria multiply quickly above 40°F. Work in the coolest part of the day with good light. Choose a clean, fly-free area with plenty of drinkable water. Use nonporous tables covered with disposable plastic. Have sharp knives, a sanitizing pot of boiling water, soap, a thermometer, coolers of ice water, and freezer space ready before you start. Plan on large amounts of meat: a 280-pound (127 kg) hog yields roughly 135 to 155 pounds (61 to 70 kg) of bone-in cuts."
       },
       {
         "step": 3,
-        "title": "Scalding and Hair or Feather Removal",
-        "body": "Scalding opens the follicles, allowing feathers or hair to pull free cleanly. Incorrect temperature is the most common scalding error. Poultry scalding: heat water to exactly 145–152°F (63–67°C). Higher temperatures begin to cook the skin and tear it during plucking; lower temperatures do not open follicles sufficiently. Submerge the bird by its legs and agitate for 30–60 seconds — test pluck a tail feather; if it pulls free easily, scalding is complete. Over-scalding is immediately apparent when skin tears with light pull. Mechanical drum pickers dramatically speed feather removal; hand plucking takes 5–10 minutes per bird. Pigs: heat water to 140–145°F (60–63°C). Submerge or pour water over sections and scrape with a bell scraper or the back of a knife — hair releases in sheets. Repeat on all areas. Target the scrotal area, ears, and head — these are most difficult. Goats and sheep: most homesteaders skin rather than scald — pull the hide free starting from the hind legs; no scalding needed."
+        "title": "Prepare the animals and dispatch humanely",
+        "body": "Minnesota Extension advises withholding feed from poultry for 6 to 8 hours before slaughter while keeping water available. An empty gut is less likely to spill and contaminate meat. Keep birds in a clean holding cage with a wire floor. Animals should be made insensible to pain before slaughter by a quick, effective method. Follow the AVMA Guidelines for the Humane Slaughter of Animals for the right method for each species. For poultry, a restraining cone and a quick, deep cut with a very sharp knife is common. Get hands-on training from an experienced person first. A poorly done kill is cruel to the animal and dangerous to you."
       },
       {
         "step": 4,
-        "title": "Evisceration — Sequence and Do-Not-Nick Rules",
-        "body": "Evisceration removes the visceral organs (intestines, stomach, bladder) without contaminating the meat with gut contents. Contamination with intestinal bacteria is the primary cause of field-dressed meat spoilage and foodborne illness. For all species: (1) Cut around the vent (anal opening) to free it from the body wall — this is called the bung cut. Circle the vent completely without cutting into the intestine; pull it out slightly and tie it off with a zip tie or string to prevent fecal contamination. (2) Make a midline belly incision from pubic bone to sternum, cutting only through skin and abdominal wall — use two fingers as a guide under the blade to lift the body wall away from organs. Go slowly. (3) Reach in and work organs free from the body cavity. The bladder (in pigs and cattle) should come out intact — a punctured bladder releases urine onto the meat. (4) Remove all viscera completely. (5) Inspect organs for disease signs — pale or spotted liver, fluid-filled lungs, pus-filled lymph nodes. (6) Rinse the body cavity with cold clean water, then pat dry — do not leave water pooled in the cavity."
+        "title": "Bleed out, scald, and pluck poultry",
+        "body": "Let the bird bleed out fully in the cone, usually a minute or two. Then scald to loosen feathers. Minnesota Extension gives these scald targets: young chickens at 125 to 130°F (52 to 54°C) for 30 to 75 seconds, older chickens near 140°F (60°C) for 30 to 75 seconds, and ducks and geese at 160 to 170°F (71 to 77°C) for 1 to 2 minutes. Use a thermometer and keep hot water nearby to adjust. When wing and tail feathers pull out easily, pluck by hand or with a drum plucker. Finish killing and scalding all birds before you start eviscerating, so dirty work stays separate from clean work."
       },
       {
         "step": 5,
-        "title": "Cooling the Carcass — The 40-Degree Requirement",
-        "body": "Rapid and complete cooling is not optional — it is the single most important food safety step in butchering. The USDA requires carcasses to reach 40°F (4°C) at the deepest point within 24 hours. Above 40°F, bacterial populations double every 20 minutes. A carcass that stays in the 40–140°F danger zone for more than 2 hours begins developing unsafe bacterial loads. Methods for field cooling: hang the carcass in a cool, shaded, fly-free location — temperatures below 40°F ambient allow natural cooling, which works in late fall and winter butchering. In warm weather (above 50°F), the carcass must be refrigerated or packed with ice bags. Split large carcasses (pigs, cattle) along the spine into two halves immediately after evisceration — halves cool faster than intact carcasses. For poultry: immerse in an ice-water bath (32–34°F) for 30–45 minutes immediately after evisceration. The carcass absorbs water and cools rapidly. Dry the bird before refrigerating or freezing. Do not stack warm carcasses — stacking prevents airflow and creates heat pockets."
+        "title": "Eviscerate without nicking the gut",
+        "body": "Cut carefully around the vent without puncturing the intestine. Pull the vent and organs out together so their contents never touch the body cavity. If feces, gut contents, or milk touch meat on any animal, trim that meat and fat away and discard it. Illinois Extension advises washing knives often, especially when moving from skin to inner tissue, and sanitizing them in boiling water. Wash hands and forearms between steps. Rinse carcasses with drinkable water from the top down. Illinois Extension also suggests a spray of 2.5 percent acetic acid (5 percent vinegar diluted half and half with water) after rinsing."
       },
       {
         "step": 6,
-        "title": "Aging, Hanging Time, and Carcass Condemnation",
-        "body": "Aging improves tenderness and flavor in beef and lamb through enzymatic breakdown of muscle fibers (proteolysis). Poultry and pork benefit minimally from aging and should be used or frozen within days. Beef: hang at 34–38°F, 70–80% humidity for 7–14 days minimum (21–28 days for premium dry-aged flavor). The outer surface develops a dry crust (pellicle) that is trimmed away before cutting. Pork: hang at 34–38°F for 3–5 days maximum — longer aging in pork produces rancidity in fat. Lamb and goat: 3–7 days at 34–38°F. Poultry: none — use or freeze within 24–48 hours. Carcass condemnation — when to discard the whole animal: widespread abscesses (yellow pus pockets scattered through muscle); pneumonia with lung consolidation and pleuritis (fibrous tissue attaching lungs to ribs); septicemia signs — darkly discolored carcass, blood-tinged fluid in cavities, enlarged discolored lymph nodes throughout the carcass; icterus (jaundice) — yellow tinting of fat and connective tissue; severe emaciation or cachexia; any tumor involvement of multiple lymph nodes. When in doubt, do not eat it. A single localized abscess can be excised with a 2-inch margin and the rest of the carcass used, but systemic signs condemn the whole animal."
+        "title": "Inspect organs and condemn sick carcasses",
+        "body": "Look at the organs and carcass for signs of disease. Minnesota Extension says to discard a bird with lumps or spots on the liver, any measurable fluid in the body cavity, organs twice normal size, orange fat on a thin bird, or abnormal streaks or swelling in the meat. Small defects like bruises, breast blisters, and skin tears can be trimmed and the rest used. For larger animals, any sign of disease on the head, organs, or carcass means the animal should not be eaten. Having a local veterinarian on site is strongly recommended for large livestock. When in doubt, throw it out."
+      },
+      {
+        "step": 7,
+        "title": "Chill fast, then package and freeze",
+        "body": "Get meat cold quickly. Pre-chill poultry in overflowing cold water, then hold it in ice water until the meat reaches 40°F (4°C). Small birds take a couple of hours and turkeys several hours. Drain about 10 minutes before bagging, and do not freeze birds until they are chilled to 40°F or below. Large carcasses take a long time to chill, so Illinois Extension favors cutting, packaging, and freezing promptly over long refrigerated holding. Keep everything cold, covered, and clean. Wrap meat airtight, label it with the date, and clean all tools and surfaces with soap and hot water when you finish."
       }
     ],
     "warnings": [
-      "Dispatch a large animal (pig, goat, cattle) only with a firearm — attempting to dispatch pigs or goats by knife without prior stunning is inhumane, dangerous to the handler, and results in poor meat quality from adrenaline release",
-      "Intestinal contamination of meat surfaces causes rapid spoilage and serious foodborne illness (E. coli O157:H7, Salmonella) — if you nick the intestine during evisceration, flush the contaminated area thoroughly with water and trim away any contacted meat",
-      "Do not age poultry or pork at room temperature — aging applies only to beef and lamb in refrigerated conditions; poultry aged above 40°F will cause foodborne illness",
-      "Wear cut-resistant gloves on the non-knife hand during all butchering operations — knife slips during evisceration and skinning account for the majority of butchering injuries"
+      "Selling or trading uninspected meat is illegal in most cases. Check your state rules before offering any meat to others.",
+      "Do not eat any animal that was sick, died on its own, or shows abnormal organs.",
+      "Sharp knives and struggling animals cause serious cuts. Restrain animals properly, cut away from your body, and keep a first aid kit within reach.",
+      "Meat left above 40°F (4°C) grows bacteria fast. Do not slaughter on a warm day without enough ice to chill carcasses quickly."
     ],
     "proTips": [
-      "Keep butchering knives razor-sharp — a sharp knife requires less force and is significantly less likely to slip than a dull knife; sharpen before each butchering session with a whetstone and steel",
-      "A gambrel (a spreader bar that hooks into the Achilles tendons of the hind legs) hung from a sturdy beam or tree branch with a block-and-tackle makes all butchering steps easier, cleaner, and safer than working on the ground",
-      "Learn to identify the kidneys and adrenal glands during evisceration — beef kidney fat (suet) is valuable for rendering into tallow (excellent cooking fat and waterproofing agent); do not discard it",
-      "Organ meats (liver, heart, kidneys, tongue) are the most nutritionally dense parts of the animal — liver from a healthy animal provides more vitamin A, B12, iron, and folate per ounce than any other food; learn to cook and preserve them as a priority"
+      "Process a few birds at a time on your first day. Speed comes with practice; cleanliness should not be sacrificed for it.",
+      "Wait 1 to 2 weeks to process birds full of pin feathers. They are much harder to pluck.",
+      "Your extension office may offer hands-on poultry processing workshops. One supervised session teaches more than any guide."
     ],
-    "relatedGuides": ["homestead-001", "homestead-003"],
-    "source": "Wilderness survival best practices / Traditional homesteading knowledge",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "homestead-001",
+      "homestead-009",
+      "homestead-010",
+      "homestead-013",
+      "food-009",
+      "medical-011"
+    ],
+    "source": "University of Minnesota / University of Illinois Extension",
+    "sources": [
+      {
+        "title": "Home Processing of Poultry",
+        "publisher": "University of Minnesota Extension",
+        "url": "https://extension.umn.edu/small-scale-poultry/home-processing-poultry",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FAQ: Home Slaughter and Processing",
+        "publisher": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/sites/default/files/faq_home_slaughter_and_processing.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
     "skillLevel": "advanced",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "You cannot chill carcasses to 40°F quickly - wait for cold weather or arrange a processor.",
+      "The animal is sick or showed signs of disease before slaughter.",
+      "You have never done it and have no experienced person to train you on large livestock - use a licensed custom processor."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You need to turn your own poultry or livestock into safe, clean meat at home.",
+      "immediate": [
+        "Confirm local and state rules, especially if anyone else will eat or buy the meat.",
+        "Prepare ice water, sharp sanitized knives, and a clean work area before starting.",
+        "Withhold feed from poultry 6 to 8 hours beforehand."
+      ],
+      "then": [
+        "Inspect organs and discard any carcass with signs of disease.",
+        "Chill meat to 40°F, then package and freeze promptly."
+      ]
+    }
+  },
+  {
+    "id": "homestead-006",
+    "category": "homesteading",
+    "title": "Home Canning Safely - Water-Bath vs. Pressure Canning",
+    "priority": "critical",
+    "tags": [
+      "homesteading",
+      "canning",
+      "pressure-canning",
+      "water-bath",
+      "botulism",
+      "food-preservation"
+    ],
+    "summary": "Choose the right canning method, follow tested USDA and NCHFP recipes, adjust for altitude, and check seals so home-canned food never causes botulism.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Sort foods by acidity",
+        "body": "The method depends on acid. Foods with a pH of 4.6 or lower are high-acid and can be canned in a boiling-water bath. These include most fruits, jams and jellies, pickles, sauerkraut, and tomatoes that have acid added. Foods with a pH above 4.6 are low-acid and must be pressure canned. These include all fresh vegetables, beans, meat, poultry, fish, seafood, soups, and mixes such as meat sauce. Boiling water reaches only 212°F (100°C), which does not kill botulism spores. A pressure canner reaches about 240°F (116°C), which does. There is no safe shortcut for low-acid foods."
+      },
+      {
+        "step": 2,
+        "title": "Use a tested recipe and the right equipment",
+        "body": "The CDC recommends following only the USDA Complete Guide to Home Canning or recipes tested by the National Center for Home Food Preservation and extension services. Do not change ingredient amounts, thicken with flour or cornstarch, or add extra onions, peppers, or mushrooms, since that can change acidity and heat penetration. Use mason jars, new flat lids, and bands. For pressure canning, use a true pressure canner big enough to hold at least four quart jars upright. The CDC says not to use electric multicookers or pressure cookers for canning, even if they have a canning button. Oven canning, open-kettle canning, and dishwasher canning are not safe."
+      },
+      {
+        "step": 3,
+        "title": "Acidify tomatoes in every jar",
+        "body": "Tomatoes sit near the pH line, so the NCHFP requires added acid even if you pressure can them. Add the acid to each jar before filling. Per quart, add 2 tablespoons of bottled lemon juice or 1/2 teaspoon of citric acid. Per pint, add 1 tablespoon of bottled lemon juice or 1/4 teaspoon of citric acid. Four tablespoons of 5 percent vinegar per quart also works but changes the flavor. You may add sugar to balance sourness, but never reduce the acid. Use bottled lemon juice, not fresh, because its acidity is standardized. Do not can tomatoes from dead or frost-killed vines."
+      },
+      {
+        "step": 4,
+        "title": "Water-bath can high-acid foods",
+        "body": "Prepare jars and fill them, leaving the headspace the recipe lists, usually 1/4 to 1/2 inch (6 to 13 mm) for jams and fruit. Remove air bubbles with a plastic tool, wipe the rims clean, and apply lids and bands fingertip tight. Set jars on a rack in the canner and cover them with at least 1 inch (2.5 cm) of water. Start timing only when the water reaches a full rolling boil, and keep it boiling the whole time. If processing time is under 10 minutes, sterilize the empty jars first. Add time at higher altitudes as the recipe directs, because water boils at a lower temperature up high."
+      },
+      {
+        "step": 5,
+        "title": "Pressure can low-acid foods",
+        "body": "Put the rack and the amount of water the manual specifies in the canner, load the jars, and lock the lid. Virginia Cooperative Extension stresses venting: let steam pour from the open vent for a full 10 minutes before adding the weight or closing the petcock. Skipping this leaves air inside, so the canner will not reach a safe temperature. Bring it to pressure, then start timing. Keep pressure at or above the target the whole time. If it drops below, bring it back up and restart the timing from zero. Turn off the heat at the end, and let the canner cool and depressurize on its own."
+      },
+      {
+        "step": 6,
+        "title": "Adjust pressure for your altitude",
+        "body": "Higher altitude means lower pressure from the air, so you add gauge pressure. Virginia Extension gives these targets for most tested recipes. Dial gauge: 11 pounds at 0 to 2,000 feet, 12 pounds at 2,001 to 4,000 feet, 13 pounds at 4,001 to 6,000 feet, 14 pounds at 6,001 to 8,000 feet, and 15 pounds at 8,001 to 10,000 feet. Weighted gauge: 10 pounds at 0 to 1,000 feet and 15 pounds above 1,000 feet. Have dial gauges tested every year at your extension office or by the maker. Replace a gauge that reads more than 2 pounds off. Always follow the exact times in the tested recipe."
+      },
+      {
+        "step": 7,
+        "title": "Cool, check seals, and store",
+        "body": "Never force-cool a pressure canner with cold water or open the vent early. Wait until it reads zero, then wait 10 more minutes before opening the lid. Set jars on a towel away from drafts and leave them alone for 12 to 24 hours. A sealed lid curves down and does not flex when pressed. If a lid did not seal, reprocess within 24 hours using a new lid and the full time, or refrigerate the jar and eat it within a few days. Remove bands, wipe jars, label with contents and date, and store in a cool, dark, dry place. Use within about a year for best quality."
+      },
+      {
+        "step": 8,
+        "title": "Inspect before eating and discard bad jars",
+        "body": "Before opening, look for bulging or leaking lids, cracks, and broken seals. When you open the jar, watch for spurting liquid, foam, mold, off colors, or bad smells. The CDC says to throw out the food if any of these appear, and never taste food to test it. If you do not know whether a jar was canned with tested, safe methods, do not eat it - CDC says to throw it out (see the disposal steps above). For low-acid foods that WERE pressure canned correctly, some agencies add boiling the food for 10 minutes before eating (plus 1 minute per 1,000 feet above 1,000 feet) as an extra safety margin; this is never a fix for a doubtful or under-processed jar."
+      }
+    ],
+    "warnings": [
+      "Water-bath canning green beans, corn, meat, or any low-acid food can cause botulism, which can kill. Pressure can them or do not can them.",
+      "Do not use electric multicookers, Instant Pot-style appliances, ovens, or open kettles for canning.",
+      "Botulism toxin can be present with no sign of spoilage. Never taste questionable home-canned food.",
+      "Seek emergency care right away for double vision, drooping eyelids, slurred speech, trouble swallowing, or weakness after eating home-canned food."
+    ],
+    "proTips": [
+      "Write your elevation and the matching canner pressure on a card taped inside your canning recipe binder.",
+      "Print the NCHFP and USDA guides now. Canning is most valuable when the internet is gone.",
+      "Buy lids in bulk. Flat lids are single-use for canning; bands and jars can be reused if not nicked or rusted."
+    ],
+    "relatedGuides": [
+      "homestead-003",
+      "homestead-012",
+      "homestead-013",
+      "food-012",
+      "medical-011"
+    ],
+    "source": "CDC / USDA / NCHFP / Virginia Cooperative Extension",
+    "sources": [
+      {
+        "title": "Preventing Botulism: Home-Canned Foods",
+        "publisher": "CDC",
+        "url": "https://cdc.gov/botulism/prevention/home-canned-foods.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Pressure Canning (348-585)",
+        "publisher": "Virginia Cooperative Extension",
+        "url": "https://pubs.ext.vt.edu/348/348-585.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Since You Can't Have Too Many Tomatoes",
+        "publisher": "National Center for Home Food Preservation",
+        "url": "https://nchfp.uga.edu/blog/since-you-cant-have-too-many-tomatoes",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "USDA Complete Guide to Home Canning - Guide 1: Principles of Home Canning",
+        "publisher": "USDA / National Center for Home Food Preservation",
+        "url": "https://nchfp.uga.edu/papers/guide/INTRO_HomeCanrev0715.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Canning FAQ",
+        "publisher": "University of Illinois Extension",
+        "url": "https://extension.illinois.edu/food-preservation/canning-faq",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.1",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [
+      "homestead-003"
+    ],
+    "whenNotTo": [
+      "No tested recipe exists for the food - freeze, dry, or eat it instead.",
+      "You cannot keep a steady heat source for the full processing time - pressure drops make low-acid food unsafe.",
+      "Your dial gauge has not been tested or reads more than 2 pounds off."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You want to can garden produce or meat for long-term storage without refrigeration.",
+      "immediate": [
+        "Pressure can vegetables, meat, beans, and fish; water-bath only high-acid or acidified foods.",
+        "Use a USDA or NCHFP tested recipe exactly as written.",
+        "Set canner pressure for your altitude and vent 10 minutes first."
+      ],
+      "then": [
+        "Check seals after 12 to 24 hours and label jars with the date.",
+        "Discard any jar that bulges, leaks, spurts, or smells off - do not taste it."
+      ]
+    }
+  },
+  {
+    "id": "homestead-007",
+    "category": "homesteading",
+    "title": "Seed Saving - Open-Pollinated vs. Hybrid and Storage",
+    "priority": "beginner",
+    "tags": [
+      "homesteading",
+      "seed-saving",
+      "open-pollinated",
+      "heirloom",
+      "hybrid",
+      "gardening"
+    ],
+    "summary": "Save your own garden seed year after year: choose varieties that come true from seed, prevent cross-pollination, clean and dry seed correctly, and store it so it stays alive.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Grow open-pollinated varieties",
+        "body": "UMass Extension says successful seed saving requires open-pollinated varieties rather than hybrids. Open-pollinated (OP) plants, including heirlooms, produce seed that grows into plants much like the parent. Hybrid seed, labeled F1, is made by crossing two different parent lines. Seed saved from a hybrid will not reliably match it. The next generation can vary in size, flavor, and vigor. Check seed packets and catalogs for the words open-pollinated or heirloom. If you are building a long-term garden for self-reliance, buy OP seed for your main crops now, while it is easy to get."
+      },
+      {
+        "step": 2,
+        "title": "Start with easy self-pollinating crops",
+        "body": "Some crops usually pollinate themselves inside a single flower, so they rarely cross with neighbors. UMass Extension names tomatoes, lettuce, beans, and peas as good first seed-saving crops for this reason. Saving their seed is simple and the results are reliable. Other crops cross easily by insects or wind. Squash and pumpkins cross freely within the same species. Brassicas such as kale, cabbage, broccoli, collards, and cauliflower cross with each other. Corn is wind-pollinated and crosses across long distances. Save those for later, once you have learned isolation methods."
+      },
+      {
+        "step": 3,
+        "title": "Prevent unwanted crosses",
+        "body": "To keep cross-pollinating crops true, grow only one variety of that species at a time, separate varieties by distance or timing, or cover the flowers and hand-pollinate. To hand-pollinate squash, tape shut a male and a female flower the evening before they open. The next morning, rub the male flower's pollen onto the female flower, then tape the female flower shut again and mark the stem. Seed from that fruit will be true. Remember that your neighbor's garden counts too. Bees travel, so a zucchini over the fence can cross with yours."
+      },
+      {
+        "step": 4,
+        "title": "Pick the best plants and let seed mature",
+        "body": "Save seed from several healthy plants with the traits you want, such as early fruit, good flavor, disease resistance, or drought tolerance. Saving from many plants keeps genetic variety. Never save from sick or weak plants. Let the seed mature fully. Beans and peas should dry in the pod on the plant until they rattle. Corn should dry on the stalk. Lettuce goes to seed after flowering and is ready when the fluffy seed heads appear. Squash and pumpkin fruit should be fully ripe, and UMass Extension notes that storing the fruit for a month or two afterward improves seed vigor."
+      },
+      {
+        "step": 5,
+        "title": "Clean wet and dry seeds the right way",
+        "body": "Dry seeds such as beans, peas, corn, and lettuce can be shelled or shaken out. Lettuce heads can be dried upside down in a paper bag, which catches the seed. Tomatoes are wet-processed. Scoop seeds and pulp into a jar with a little water and let it sit a few days, stirring daily. Pulp and dead seeds float and can be poured off. Good seeds sink. Rinse the good seed and spread it thin to dry. For squash and pumpkins, rinse the pulp away and discard flat, thin seeds, which will not grow."
+      },
+      {
+        "step": 6,
+        "title": "Dry seed thoroughly",
+        "body": "Moisture kills stored seed. Spread cleaned seed in a single layer on a plate, screen, or paper towel in a warm, airy spot out of direct sun. UMass Extension says tomato seed needs about two weeks and squash seed a few weeks. Stir it every day or two so it dries evenly. Seed is dry enough when large seeds snap or shatter rather than bend, and small seeds pour freely without clumping. Do not dry seed in an oven or in hot sun, which can kill the embryo."
+      },
+      {
+        "step": 7,
+        "title": "Store seed cool, dry, and dark",
+        "body": "Put dry seed in a sealed, opaque container such as a labeled envelope inside a glass jar or a metal tin. Store it somewhere cool and stable, like a dark closet or the refrigerator. Cold, dry conditions slow the seed's metabolism and help it live longer. Add a packet of silica gel or a spoon of dry rice wrapped in tissue to absorb moisture. Label each packet with the crop, variety, and year. Before the next season, do a germination test: roll 10 seeds in a damp paper towel, keep it warm, and count how many sprout. If fewer than about 7 sprout, plant more thickly or refresh your stock."
+      }
+    ],
+    "warnings": [
+      "Seed saved from hybrid (F1) plants will not grow true. Do not rely on it for your next crop.",
+      "Seeds treated with fungicide (often dyed pink, blue, or green) are poisonous. Never eat them or feed them to animals.",
+      "Do not save seed from diseased plants. Some diseases pass through the seed."
+    ],
+    "proTips": [
+      "Swap seed with neighbors and local seed libraries to keep a wide genetic base and varieties adapted to your area.",
+      "Keep a backup supply of purchased seed for each staple crop in case a saved batch fails.",
+      "Grow the seed crop in a separate corner and mark the plants so no one harvests them by mistake."
+    ],
+    "relatedGuides": [
+      "homestead-002",
+      "homestead-014",
+      "homestead-008"
+    ],
+    "source": "UMass Amherst Extension",
+    "sources": [
+      {
+        "title": "Seed Saving",
+        "publisher": "UMass Amherst Extension",
+        "url": "https://www.umass.edu/agriculture-food-environment/home-lawn-garden/fact-sheets/seed-saving",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "The variety is a hybrid (F1) or a patented/licensed variety whose seed may not be saved or shared.",
+      "Your plants were diseased this season - buy clean seed instead."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want to grow next year's garden from seed you produce yourself.",
+      "immediate": [
+        "Choose open-pollinated or heirloom varieties.",
+        "Start with beans, peas, tomatoes, and lettuce.",
+        "Save seed from several of your best, healthiest plants."
+      ],
+      "then": [
+        "Dry seed fully, then store it sealed, cool, and dark.",
+        "Germination-test each batch before planting season."
+      ]
+    }
+  },
+  {
+    "id": "homestead-008",
+    "category": "homesteading",
+    "title": "Composting - Turning Waste Into Garden Soil",
+    "priority": "beginner",
+    "tags": [
+      "homesteading",
+      "compost",
+      "soil",
+      "gardening",
+      "waste",
+      "fertilizer"
+    ],
+    "summary": "Build a compost pile that heats up and breaks down fast, using the right mix of browns and greens, water, and air, and keep out materials that cause smells, pests, or disease.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pick a site and a bin",
+        "body": "Choose a level, well-drained spot that you can reach easily with a wheelbarrow and a hose, but away from your well and not draining into a stream. Partial shade keeps the pile from drying out. A bin is optional but keeps things neat. Simple options include a ring of welded wire fencing, a three-sided box of pallets, or a purchased tumbler. Two or three side-by-side bins let you fill one while another finishes. Check local rules, since some towns require covered bins."
+      },
+      {
+        "step": 2,
+        "title": "Balance browns and greens",
+        "body": "Compost needs carbon and nitrogen. Browns are dry, woody, carbon-rich materials such as fallen leaves, straw, shredded paper, and plain cardboard. Greens are moist, nitrogen-rich materials such as grass clippings, vegetable and fruit scraps, coffee grounds, and chicken manure with bedding. UConn Extension says decomposition is fastest at about 25 parts carbon to 1 part nitrogen, which works out to roughly one-third greens and two-thirds browns by volume. Too many greens make a slimy, smelly pile. Too many browns make a pile that just sits. Chop or shred big pieces so microbes have more surface to work on."
+      },
+      {
+        "step": 3,
+        "title": "Build a pile big enough to heat",
+        "body": "Size matters. UConn Extension recommends a pile about 3 to 4 feet (1 to 1.2 m) high and wide for hot composting. Smaller piles lose heat and break down slowly. Build it in layers of browns and greens, or mix them as you go. Add a shovel of garden soil or finished compost to bring in microbes. Water each layer so the whole pile is evenly damp, about like a wrung-out sponge. A good hot pile should reach about 140°F (60°C) within a few days. A long compost thermometer lets you check the core."
+      },
+      {
+        "step": 4,
+        "title": "Turn and water the pile",
+        "body": "Microbes need air. Turn the pile at least once a month, moving the outside material into the center. In a hot pile, turn it whenever the core temperature drops to about 100°F (38°C), which restarts the heating. Check moisture each time. If it is dry and dusty inside, add water. If it is soggy and smells sour or like ammonia, mix in dry browns. In rainy climates, cover the pile with a tarp so it does not get waterlogged."
+      },
+      {
+        "step": 5,
+        "title": "Keep the wrong things out",
+        "body": "UConn Extension advises leaving out meat, bones, fats, oils, and dog or cat droppings. These attract rats, raccoons, and flies, and pet waste can carry parasites that infect people. Also skip dairy, diseased plants, weeds that have gone to seed, and plants treated with herbicides, because a cool home pile may not kill the problem. Avoid limestone and wood ash in large amounts, and never add coal ash, treated or painted wood, or glossy printed paper. Chicken, rabbit, goat, and cow manure with their bedding are excellent additions."
+      },
+      {
+        "step": 6,
+        "title": "Know when it is finished",
+        "body": "Depending on materials and how often you turn it, compost can be ready in about a month or take up to a year. It is finished when you can no longer recognize the original materials and it is dark, crumbly, and smells like earth. Let it cure for a few weeks after it stops heating so it is stable before you use it around seedlings. Screen out chunks through a 1/2 inch (13 mm) mesh and toss them back into a new pile."
+      },
+      {
+        "step": 7,
+        "title": "Use compost safely in the garden",
+        "body": "Spread 1 to 3 inches (2.5 to 7.5 cm) of finished compost over beds and work it into the top few inches of soil, or use it as a mulch around plants. Penn State Extension notes you can blend up to half finished compost into soilless mix for containers. If your compost includes animal manure, use fully finished compost, and avoid adding fresh or partly composted manure to beds of crops eaten raw close to harvest. Wash your hands after handling compost and manure, and wash garden produce before eating."
+      }
+    ],
+    "warnings": [
+      "Never compost dog, cat, or human waste for food gardens. It can spread parasites and disease.",
+      "Raw or partly composted manure can carry E. coli and Salmonella. Do not put it on crops eaten raw near harvest time.",
+      "A very large, wet pile of fresh grass or hay can heat high enough to smolder. Keep piles a moderate size and turn them."
+    ],
+    "proTips": [
+      "Keep a sealed bucket in the kitchen for scraps and a stockpile of dry leaves next to the bin to cover each addition.",
+      "Spent chicken litter is an ideal compost starter - it already mixes browns and greens.",
+      "Use compost tea or finished compost to stretch scarce fertilizer when you cannot buy any."
+    ],
+    "relatedGuides": [
+      "homestead-002",
+      "homestead-014",
+      "homestead-001",
+      "homestead-009"
+    ],
+    "source": "UConn Extension / Penn State Extension",
+    "sources": [
+      {
+        "title": "The Basics of Composting",
+        "publisher": "UConn Extension",
+        "url": "https://extension.uconn.edu/?p=1533",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Container Vegetable Gardening: Four Keys to Success",
+        "publisher": "Penn State Extension",
+        "url": "https://extension.psu.edu/container-vegetable-gardening-four-keys-to-success",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
     "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "You have only meat, fat, or pet waste to dispose of - bury or bag it instead.",
+      "The only site drains toward your well or a creek."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want free fertilizer and better soil from kitchen and yard waste.",
+      "immediate": [
+        "Mix about two parts browns to one part greens.",
+        "Build a pile about 3 to 4 feet high and wide.",
+        "Keep it damp like a wrung-out sponge."
+      ],
+      "then": [
+        "Turn it when the core cools or at least monthly.",
+        "Use it when it is dark, crumbly, and smells earthy."
+      ]
+    }
+  },
+  {
+    "id": "homestead-009",
+    "category": "homesteading",
+    "title": "Raising Rabbits for Meat",
+    "priority": "beginner",
+    "tags": [
+      "homesteading",
+      "rabbits",
+      "livestock",
+      "meat",
+      "protein",
+      "small-space"
+    ],
+    "summary": "Raise meat rabbits in a small space: housing, feed, breeding and kindling, heat protection, and sanitation, based on Oregon State and Alabama extension guidance.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Check rules and start with a small trio",
+        "body": "Rabbits are quiet and fit in small yards, but check zoning, HOA, and lease rules before you buy. A common starter herd is one buck and two does of a medium or large meat breed, such as New Zealand White or Californian. Buy from a breeder who keeps records and healthy stock. Look for clear eyes, clean noses and ears, firm droppings, and no sores on the feet. Plan for processing as well as raising. You will need a humane, legal way to slaughter and a cold place to chill meat."
+      },
+      {
+        "step": 2,
+        "title": "House each adult separately",
+        "body": "Keep each adult rabbit in its own cage or hutch, because adults fight and unplanned breeding happens fast. Give each animal enough room to stretch out and stand up, with more space for large breeds and for does with litters. Hutches should be shaded, well ventilated, and sheltered from rain, wind, and predators. Alabama Extension notes that fresh air cuts disease and offsets the ammonia from urine. Clean droppings out from under cages often. Wire floors should have a solid resting board so rabbits can get off the wire, which helps prevent sore hocks."
+      },
+      {
+        "step": 3,
+        "title": "Feed a balanced ration and clean water",
+        "body": "Oregon State Extension advises 3 to 9 ounces (85 to 255 g) of feed per rabbit per day depending on size and stage. Pregnant, nursing, and growing rabbits need the most. For meat breeds, pellets with 16 to 18 percent protein give the fastest growth. Offer grass hay such as timothy, and use alfalfa hay to boost protein if pellets are lower in it. Keep treats like carrots small and rare. Rabbits need clean, fresh water at all times, and they drink much more in heat. Store feed sealed, cool, and dry, since moldy feed can kill rabbits."
+      },
+      {
+        "step": 4,
+        "title": "Breed at the right age and track dates",
+        "body": "Oregon State Extension gives sexual maturity at about 4 to 6 months for small breeds, 7 to 9 months for medium breeds, and 9 to 11 months for large breeds. Always take the doe to the buck's cage, not the other way around, to reduce fighting. Write down the breeding date. Gestation runs 28 to 35 days, averaging 31. You can learn to feel for kits by palpation after about 10 days. Give the doe a nest box with clean, dry bedding a few days before her due date. She will pull fur to line it."
+      },
+      {
+        "step": 5,
+        "title": "Care for kits through weaning",
+        "body": "Check the litter once soon after birth and remove any dead kits, then leave the nest alone for a few days so the doe does not abandon it. Kits born on bare wire can die, so make sure the doe kindles in the box. Oregon State Extension suggests removing the nest box at about 2 to 3 weeks and weaning at about 2 months. Separate young bucks and does before they start breeding. Most growers raise fryers to a few pounds and process them at a young age while the meat is tender."
+      },
+      {
+        "step": 6,
+        "title": "Protect rabbits from heat",
+        "body": "Heat is a major killer. Alabama Extension says rabbits do best at about 50 to 60°F (10 to 16°C) and cope poorly above 90°F (32°C), especially with high humidity. Heat can make bucks temporarily sterile and cause does to abort or abandon litters. Keep hutches shaded, hang fans to move air over (not straight at) the cages, and put frozen water bottles in cages for rabbits to lean against. Keep the rabbits dry if you use misters. Many raisers stop breeding in midsummer and breed in fall, winter, and spring."
+      },
+      {
+        "step": 7,
+        "title": "Keep it clean and handle meat safely",
+        "body": "Sanitation is essential. Dirty cages lead to disease and poor growth. Remove manure regularly and compost it, since rabbit manure is an excellent garden fertilizer. Disinfect cages between litters. Trim nails up to, but not past, the pink quick. Watch for runny noses, crusty ears, diarrhea, and sore feet, and isolate sick animals. When processing, wear gloves, keep meat cold, and cook rabbit to at least 160°F (71°C). Wild rabbits can carry tularemia, so never handle a wild rabbit that acts sick or was found dead."
+      }
+    ],
+    "warnings": [
+      "Rabbits die quickly from heat stress. Provide shade, airflow, and water every hot day.",
+      "Keep adults in separate cages. Rabbits can injure or kill each other and breed constantly if housed together.",
+      "Moldy or spoiled feed can kill rabbits. Store feed sealed and dry.",
+      "Wear gloves when dressing rabbits and do not handle wild rabbits that seem sick."
+    ],
+    "proTips": [
+      "Rabbit manure can go straight onto garden beds without burning plants, and it makes great compost.",
+      "Keep a simple record card on each cage with breeding dates, litter sizes, and weaning weights so you keep the best breeders.",
+      "Freeze empty plastic bottles every night in summer. It is the cheapest rabbit cooling system there is."
+    ],
+    "relatedGuides": [
+      "homestead-005",
+      "homestead-008",
+      "homestead-010",
+      "food-009"
+    ],
+    "source": "Oregon State University / Alabama Extension",
+    "sources": [
+      {
+        "title": "Rabbit Care Basics (EC 1655)",
+        "publisher": "Oregon State University Extension",
+        "url": "https://extension.oregonstate.edu/sites/default/files/documents/ec1655.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Summer Heat and Rabbit Production (UNP-0082)",
+        "publisher": "Alabama Cooperative Extension System",
+        "url": "https://www.aces.edu/wp-content/uploads/2019/09/UNP-0082_SummerHeatandRabbitProduction-.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "You cannot provide shade and cooling in a hot climate.",
+      "Local rules forbid livestock or slaughter on your property."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want a steady, quiet source of meat that fits in a small backyard.",
+      "immediate": [
+        "Start with one buck and two does of a meat breed.",
+        "House each adult in its own shaded, ventilated cage.",
+        "Feed 16 to 18 percent protein pellets, hay, and constant clean water."
+      ],
+      "then": [
+        "Record breeding dates and add a nest box before kindling.",
+        "Cool rabbits in summer and keep cages clean."
+      ]
+    }
+  },
+  {
+    "id": "homestead-010",
+    "category": "homesteading",
+    "title": "Dairy and Meat Goats - The Basics",
+    "priority": "beginner",
+    "tags": [
+      "homesteading",
+      "goats",
+      "dairy",
+      "milk",
+      "livestock",
+      "meat"
+    ],
+    "summary": "Start a small goat herd for milk or meat: choosing breeds and healthy stock, fencing and shelter, feeding, vaccination and parasites, and clean milking, based on extension guidance.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Decide on milk, meat, or both",
+        "body": "Dairy breeds include Nubian, Alpine, Saanen, Toggenburg, LaMancha, and the small Nigerian Dwarf, which gives less milk but very high butterfat. Oregon State Extension notes a normal lactation lasts about 305 days. Meat breeds include Boer, Kiko, and Spanish goats, covered in Oklahoma State's meat goat manual. Goats are herd animals and are stressed when kept alone, so plan on at least two. Check zoning before you buy. Many towns limit goats or allow only small breeds. Bucks smell strong and need separate, sturdier housing, so many small keepers own only does and borrow a buck or use a breeding service."
+      },
+      {
+        "step": 2,
+        "title": "Buy healthy, tested animals",
+        "body": "Disease you bring home is very hard to get rid of. Oregon State and UF/IFAS Extension advise buying only from herds tested free of CAE (caprine arthritis encephalitis), which has no treatment, and checking for CL (caseous lymphadenitis), which causes abscesses. Ask for test records and look at the animals in person. Healthy goats are alert, with bright eyes, clean noses, firm pellet droppings, and no lumps along the jaw or neck. Quarantine any new goat for at least 30 days before it joins your herd. Ask a local livestock veterinarian to look at them and help set up a health plan."
+      },
+      {
+        "step": 3,
+        "title": "Fence well and provide dry shelter",
+        "body": "Goats climb, jump, and test fences constantly. UF/IFAS Extension recommends a dog- and coyote-proof woven wire fence. Many keepers add a strand of electric wire to stop climbing and leaning. Goats hate getting wet, so give them a dry, well-ventilated shelter that keeps out rain and wind, plus shade in summer and constant access to fresh water. Keep the shelter floor dry with clean bedding. Remove toxic plants from pens, including ornamental shrubs such as azalea, rhododendron, yew, and cherry laurel."
+      },
+      {
+        "step": 4,
+        "title": "Feed mostly forage, plus minerals",
+        "body": "Goats are ruminants and do best on roughage: browse, pasture, and good grass or alfalfa-mix hay. UF/IFAS Extension says concentrates (grain) should supplement energy and protein. Aim for 16 to 18 percent crude protein grain with grass hay, or 14 to 16 percent with legume hay like alfalfa. A rule of thumb for milkers is about 1 pound of grain for every 3 pounds of milk in mid-lactation. Provide a loose mineral made for goats. Sheep minerals are often low in copper for goats. Make feed changes slowly, since sudden grain overloads can cause deadly bloat."
+      },
+      {
+        "step": 5,
+        "title": "Vaccinate and manage parasites",
+        "body": "The common core vaccine is CDT, which protects against two types of Clostridium perfringens (enterotoxemia) and tetanus. UF/IFAS Extension says does usually get a booster 4 to 6 weeks before kidding, and kids get a series in their first months. Your vet sets the schedule. Internal worms, especially the barber pole worm, are the top goat health problem in warm, wet areas. Have fecal samples tested, deworm only animals that need it and only per label or vet direction, feed from feeders rather than the ground, and rotate pastures. Overusing dewormers breeds resistant worms."
+      },
+      {
+        "step": 6,
+        "title": "Milk cleanly and handle milk safely",
+        "body": "Milk on a clean stand, twice a day, at the same times. Clean and dry the teats before milking and dip them in a teat disinfectant after. Oregon State Extension recommends regular mastitis checks, such as the California Mastitis Test, and dumping milk from any goat given antibiotics or other drugs for the withdrawal time on the label. Strain milk and chill it quickly, ideally below 40°F (4°C). Pasteurizing kills disease-causing germs. Raw milk can carry bacteria that are especially dangerous to children, pregnant women, older adults, and people with weak immune systems, so pasteurize before drinking whenever you can."
+      },
+      {
+        "step": 7,
+        "title": "Plan for kidding and routine care",
+        "body": "Does usually have 1 to 3 kids a year. Learn the signs of labor, normal birth positions, and when to call a vet before the first kidding. Make sure newborn kids nurse colostrum within the first hours. UF/IFAS Extension suggests kids begin nibbling hay and grain at 1 to 2 weeks and can be weaned once they eat at least 1/4 pound (115 g) of grain daily. Trim hooves at least once a year, and more often on soft ground. Check each goat daily for appetite, droppings, and behavior. A goat that stops eating needs attention the same day."
+      }
+    ],
+    "warnings": [
+      "Raw milk can spread serious infections. Pasteurize it, especially for children, pregnant women, and older adults.",
+      "Never bring untested goats into your herd. CAE and CL spread and are hard or impossible to clear.",
+      "Sudden access to large amounts of grain can cause fatal bloat or enterotoxemia. Lock up feed bins.",
+      "Bucks can be aggressive, especially during breeding season. Never turn your back on one."
+    ],
+    "proTips": [
+      "Two Nigerian Dwarf does fit a small yard and can supply a family with milk for drinking and cheese.",
+      "Learn FAMACHA eye-color scoring at a local extension workshop to spot anemia from barber pole worms early.",
+      "Keep a herd notebook: vaccination dates, deworming, breeding, kidding, and milk weights."
+    ],
+    "relatedGuides": [
+      "homestead-005",
+      "homestead-009",
+      "homestead-008",
+      "homestead-004"
+    ],
+    "source": "UF/IFAS / Oregon State / Oklahoma State Extension",
+    "sources": [
+      {
+        "title": "What's Involved in Caring for Dairy Goats (4H427)",
+        "publisher": "UF/IFAS Extension",
+        "url": "https://journals.flvc.org/edis/article/download/129290/133462/231516",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Dairy Goat 4-H Resource Packet",
+        "publisher": "Oregon State University Extension",
+        "url": "https://extension.oregonstate.edu/sites/default/files/documents/11866/dairy-goat-doc.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Oklahoma Basic Meat Goat Manual",
+        "publisher": "Oklahoma State University Extension",
+        "url": "https://extension.okstate.edu/programs/meat-goat-production/oklahoma-basic-meat-goat-manual.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "You can keep only one goat - a lone goat is stressed and noisy.",
+      "You cannot milk twice a day, every day, while a doe is in milk.",
+      "You have no access to a livestock veterinarian for emergencies and kidding problems."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to dispatch and process an animal for food — humane dispatch and rapid cooling are the two critical safety factors",
-      "immediate": ["Dispatch humanely by species: poultry via cervical dislocation or sharp knife across both carotids; pigs/goats via firearm to the X-point between eyes and ears", "Bleed out within 60 seconds of dispatch while heart still beats — hang inverted or elevate hindquarters", "Eviscerate without puncturing intestines or bladder — circle the vent, make belly incision using fingers as guide"],
-      "then": ["Cool carcass to 40°F within 24 hours — bacteria double every 20 minutes above 40°F", "Beef and lamb benefit from aging 7-14 days at 34-38°F; poultry should be used or frozen within 24-48 hours"]
+      "situation": "You want a renewable supply of milk or meat from a small herd of goats.",
+      "immediate": [
+        "Buy at least two goats from a CAE- and CL-tested herd.",
+        "Build woven-wire fencing and a dry, ventilated shelter.",
+        "Feed mostly hay and browse with goat minerals."
+      ],
+      "then": [
+        "Set up CDT vaccination and fecal testing with a vet.",
+        "Milk cleanly, chill fast, and pasteurize."
+      ]
+    }
+  },
+  {
+    "id": "homestead-011",
+    "category": "homesteading",
+    "title": "Beekeeping Basics",
+    "priority": "beginner",
+    "tags": [
+      "homesteading",
+      "beekeeping",
+      "honey",
+      "pollination",
+      "varroa",
+      "bees"
+    ],
+    "summary": "Start keeping honey bees for honey, wax, and better garden pollination: siting hives, safety gear, regular inspections, and the varroa mite monitoring that keeps colonies alive.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Check laws, neighbors, and allergies",
+        "body": "Many states require you to register hives with the state apiary inspector, and some towns limit hive numbers or placement. Check before you buy. Talk to neighbors and ask to be told about outdoor events. Find out whether anyone in your household is allergic to stings. The Honey Bee Health Coalition notes that about 5 percent of people are allergic to bee venom. Anyone with a known severe allergy should see a doctor before working bees, and you should keep an epinephrine auto-injector on hand if one has been prescribed. Join a local beekeeping club. A mentor is the fastest way to learn."
+      },
+      {
+        "step": 2,
+        "title": "Get basic equipment",
+        "body": "Most beginners use a Langstroth hive: a bottom board, deep boxes for the brood nest, shallow or medium boxes called supers for honey, frames with foundation, an inner cover, and an outer cover. Screened bottom boards and a hive stand keep the hive off damp ground. You also need a hive tool to pry frames, a smoker, and protective gear. Always wear a veil, clothing that covers all skin, boots, and snug gloves. Buy bees as a package or a nucleus colony (nuc) from a reputable local supplier in spring. Starting with two hives lets you compare them and share frames if one struggles."
+      },
+      {
+        "step": 3,
+        "title": "Site the hives carefully",
+        "body": "Put hives where they get morning sun and some afternoon shade, with protection from strong wind. Give them clean water nearby, such as a shallow tray with stones to land on, so bees do not crowd your neighbor's pool or birdbath. Leave about 4 feet (1.2 m) of clear, level space around each hive for working. Face entrances away from paths and doors, or put a fence or hedge in front so bees fly up and over people. Bees forage up to about 2.5 miles (4 km), so an area with flowering plants through the season supports them best. In bear country, an electric fence is a must."
+      },
+      {
+        "step": 4,
+        "title": "Inspect calmly and regularly",
+        "body": "Inspect every 1 to 2 weeks in spring and summer on warm, calm days, usually midday when many foragers are out. Light the smoker with dry fuel and puff a little smoke at the entrance and under the cover. Work slowly and keep your body out of the flight path. Look for eggs and young larvae, which show the queen is laying, plus capped brood in a solid pattern, stored pollen and honey, and room to grow. Watch for queen cells, which mean the colony may swarm. Check for signs of disease such as sunken, greasy, or perforated brood caps, and get suspected American foulbrood confirmed by your state inspector."
+      },
+      {
+        "step": 5,
+        "title": "Monitor varroa mites",
+        "body": "Varroa mites are the leading cause of colony loss. The Honey Bee Health Coalition says looking at bees is not enough. Sample about 300 adult bees (roughly 1/2 cup) from a brood frame using an alcohol wash or a powdered sugar roll, and count the mites. Do this at least four times a year, starting in spring, but not when it is below 50°F (10°C). Divide the mites by 3 to get mites per 100 bees. In most seasons, 2 to 3 mites per 100 bees is the danger level to act on. Mite numbers can double in about a month, so check again after any treatment."
+      },
+      {
+        "step": 6,
+        "title": "Treat mites only with registered products",
+        "body": "When counts pass the threshold, treat all colonies in the same apiary at the same time. Use only EPA-registered mite treatments, follow every label instruction, and never use off-label or homemade chemicals. Rotate between treatment types so mites do not become resistant. The Coalition notes that older products such as Apistan and CheckMite+ often fail in North America because of resistance. Many treatments cannot be used while honey supers are on the hive, so plan timing around your honey harvest. Keep records of counts and treatments."
+      },
+      {
+        "step": 7,
+        "title": "Harvest honey and prepare for winter",
+        "body": "Take honey only from supers above the brood nest, and only frames that are mostly capped, which means the honey is ripe and will not ferment. Leave the colony enough honey to survive winter. In cold climates, that is often a full deep box or more. Feed sugar syrup in fall if stores are light. Reduce the entrance to help guard against robbing and mice. Replace old, dark brood comb gradually, about a few frames each year, so no brood frame is older than about five years. Do not give honey to babies under 1 year old, since it can cause infant botulism."
+      }
+    ],
+    "warnings": [
+      "A sting can cause a life-threatening allergic reaction. If someone has trouble breathing, swelling of the face or throat, or dizziness after a sting, use their epinephrine auto-injector and call 911.",
+      "Never give honey to infants under 12 months. It can cause infant botulism.",
+      "Use only EPA-registered mite treatments as labeled. Off-label chemicals can poison bees, honey, and you.",
+      "Never leave a lit smoker on dry grass or near the hive's wood. Smokers start fires."
+    ],
+    "proTips": [
+      "Remove stingers quickly by scraping them out with a fingernail or hive tool.",
+      "Paint hives different colors and face them different ways to reduce bees drifting between colonies.",
+      "Keep a notebook and phone photos of each inspection. Records help you spot problems early."
+    ],
+    "relatedGuides": [
+      "medical-050",
+      "medical-042",
+      "homestead-002",
+      "homestead-014"
+    ],
+    "source": "Honey Bee Health Coalition (via CT Agricultural Experiment Station)",
+    "sources": [
+      {
+        "title": "Best Management Practices for Hive Health",
+        "publisher": "Honey Bee Health Coalition (hosted by Connecticut Agricultural Experiment Station)",
+        "url": "https://PORTAL.CT.GOV/-/media/caes/documents/bee/hbhchivebmpsv10reduced.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Someone in the household has a severe bee venom allergy and no doctor's plan.",
+      "Local rules ban hives, or the only site is right next to a neighbor's door or a busy path."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want honey, wax, and better pollination from your own hives.",
+      "immediate": [
+        "Check state registration rules and household sting allergies.",
+        "Buy gear, a veil, and a nuc or package from a local supplier.",
+        "Site hives with morning sun, water, and a flight barrier."
+      ],
+      "then": [
+        "Inspect every 1 to 2 weeks in season.",
+        "Count varroa mites at least four times a year and act at 2 to 3 per 100 bees."
+      ]
+    }
+  },
+  {
+    "id": "homestead-012",
+    "category": "homesteading",
+    "title": "Root Cellars and Cold Storage Without Refrigeration",
+    "priority": "beginner",
+    "tags": [
+      "homesteading",
+      "root-cellar",
+      "cold-storage",
+      "food-storage",
+      "vegetables",
+      "no-power"
+    ],
+    "summary": "Keep potatoes, roots, cabbage, squash, onions, and apples for months with no power by matching each crop to the right temperature and humidity in a cellar, basement, pit, or buried container.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Sort crops by the conditions they need",
+        "body": "Stored produce is still alive and breathing, so each crop wants different conditions. UConn Extension groups them roughly like this. Potatoes, carrots, beets, turnips, parsnips, and other roots want cold and very humid air, about 90 to 95 percent humidity, just above freezing. Apples also like cold and moist. Pumpkins and winter squash want warmer, drier air at about 60 to 75 percent humidity. Onions and garlic want cool and dry. Plan your storage spaces around these groups instead of putting everything in one room, where some crops will rot and others will shrivel."
+      },
+      {
+        "step": 2,
+        "title": "Harvest and cure before storing",
+        "body": "Only perfect produce stores well. Handle crops gently, and set aside anything bruised, cut, or diseased to eat first. Many crops need curing before storage. Potatoes are commonly cured for about two weeks in a dark, humid spot around 50 to 60°F (10 to 16°C) to heal skin nicks. Winter squash and pumpkins (except acorn types) are commonly cured for about 10 days in warm conditions to harden the rind. Onions and garlic are dried in an airy, shaded spot until the necks are tight and the skins papery. Do not wash root crops before storing; brush off loose soil and cut tops to about 1 inch (2.5 cm)."
+      },
+      {
+        "step": 3,
+        "title": "Use the spaces you already have",
+        "body": "You may not need to dig a cellar. UConn Extension lists several options. An unheated basement corner, especially a north-side corner walled off with insulation and a vent, can hold roots and apples. A heated basement around 50 to 60°F (10 to 16°C) works short-term for squash, sweet potatoes, potatoes, and onions. An unheated room, attic, or pantry can hold potatoes and onions if it does not freeze. A garage, shed, or breezeway can work if it does not hold fuel, chemicals, or vehicles, which can taint flavor."
+      },
+      {
+        "step": 4,
+        "title": "Build simple pits, mounds, and buried cans",
+        "body": "Roots and cabbage can be stored outdoors. Pick a well-drained site, lay down straw, stack the crop, cover it with more straw, hay, or dry leaves, and then add soil to insulate. A buried 20-gallon (76-liter) metal or plastic trash can with a few small drainage holes, sunk so the rim sits a few inches above ground and covered with a lid and a thick layer of straw, keeps rodents out. Carrots, beets, turnips, rutabagas, winter radishes, kohlrabi, celery root, and cabbage do well this way. UConn Extension notes that once you open a pit, use the contents within 1 to 2 weeks."
+      },
+      {
+        "step": 5,
+        "title": "Control temperature, humidity, and air",
+        "body": "Aim for steady temperatures between just above freezing and about 40°F (4°C) for most roots and apples, with little swing from day to night. Use vents or a window you can open on cold nights and close on warm days. Put a cheap thermometer and humidity gauge in each space. To raise humidity for roots, pack them in damp sand, sawdust, or peat in boxes, or put pans of water or wet burlap on the floor. A dirt floor helps. For onions and squash, keep the air dry and moving."
+      },
+      {
+        "step": 6,
+        "title": "Keep apples and pears away from vegetables",
+        "body": "Fruits give off ethylene gas as they ripen. UConn Extension warns that ethylene speeds ripening and spoilage of nearby vegetables. It can make potatoes sprout and carrots turn bitter. Store apples and pears in a separate room, or at least well away from vegetables and wrapped individually in paper. Strong-smelling crops such as onions, cabbage, and rutabagas can also pass their odor to other produce, so give them their own space or cover."
+      },
+      {
+        "step": 7,
+        "title": "Check weekly and protect from pests",
+        "body": "One rotting potato can spoil a bin. UConn Extension advises checking stored produce at least weekly for rot, mold, moisture, and rodents. Remove anything soft, moldy, or sprouting, and use it or compost it. Throw out moldy soft produce. Seal gaps against mice with metal, plastic, or mesh with openings under 1/4 inch (6 mm). Use clean, food-grade bins, and do not use insulation that could contaminate food. At the end of the season, empty and clean every container and the room. Potatoes that turn green have a natural toxin. Cut away green parts and discard any very green potatoes."
+      }
+    ],
+    "warnings": [
+      "Do not store produce near gasoline, solvents, pesticides, or vehicle exhaust. Fumes taint food and can be toxic.",
+      "Green potatoes contain solanine. Cut away green areas and discard heavily green or bitter potatoes.",
+      "A walk-in cellar can collect carbon dioxide or radon in some areas. Ventilate it, and test basements for radon.",
+      "Freezing ruins most stored crops. Watch the thermometer during hard cold snaps."
+    ],
+    "proTips": [
+      "Leave carrots and parsnips in the ground under a thick straw mulch in well-drained soil and dig them as needed.",
+      "Store the best keepers on purpose: late cabbage, storage onions, russet potatoes, and butternut squash outlast early varieties.",
+      "Label each bin with the crop and date, and eat the shortest-keeping crops first."
+    ],
+    "relatedGuides": [
+      "homestead-003",
+      "homestead-002",
+      "homestead-006",
+      "food-012"
+    ],
+    "source": "UConn Extension",
+    "sources": [
+      {
+        "title": "Cold Storage: A Sustainable Way to Preserve the Harvest",
+        "publisher": "UConn Extension",
+        "url": "https://extension.uconn.edu/?p=4722",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Your climate is too warm in fall and winter to hold produce below about 50°F - dry or can instead.",
+      "The crop is damaged or already rotting - eat or preserve it now.",
+      "The storage site floods or drains poorly."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have a fall harvest to keep for months without a refrigerator.",
+      "immediate": [
+        "Sort crops into cold-moist, cool-dry, and warm-dry groups.",
+        "Cure potatoes, squash, and onions before storing.",
+        "Keep apples away from vegetables."
+      ],
+      "then": [
+        "Watch temperature and humidity in each space.",
+        "Check weekly and remove anything rotting."
+      ]
+    }
+  },
+  {
+    "id": "homestead-013",
+    "category": "homesteading",
+    "title": "Drying, Smoking, and Curing Meat Safely",
+    "priority": "advanced",
+    "tags": [
+      "homesteading",
+      "jerky",
+      "smoking",
+      "curing",
+      "meat",
+      "food-safety"
+    ],
+    "summary": "Make jerky, smoked meat, and home-cured pork that will not make you sick, using USDA FSIS jerky temperatures and extension-tested curing and smoking guidance.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Start with cold, clean meat",
+        "body": "Every safe preserved meat starts with fresh meat kept at 40°F (4°C) or colder. USDA FSIS advises washing hands and equipment before and after handling raw meat, thawing frozen meat in the refrigerator rather than on the counter, and using or freezing ground meat and poultry within 2 days and whole cuts of red meat within 3 to 5 days. Game needs extra care. FSIS warns that venison can be heavily contaminated with fecal bacteria depending on how the animal was shot and dressed, and deer carcasses often sit warm for hours. Trim away bloodshot or soiled meat. Partly freezing meat makes it easier to slice thin and evenly."
+      },
+      {
+        "step": 2,
+        "title": "Heat jerky to 160°F before or during drying",
+        "body": "This is the key update many old recipes miss. USDA FSIS says to heat meat to 160°F (71°C), and poultry to 165°F (74°C), before drying, because a dehydrator alone may not kill bacteria such as Salmonella and E. coli. Marinate in the refrigerator and do not reuse the marinade. Then steam or roast the strips until a food thermometer reads 160°F in the thickest strips. Slice meat about 1/4 inch (6 mm) thick or less so it heats and dries evenly. Ground meat jerky carries more risk because bacteria are mixed throughout, so heating is even more important."
+      },
+      {
+        "step": 3,
+        "title": "Dry at a steady 130 to 140°F and store briefly",
+        "body": "After heating, dry the strips in a dehydrator or oven that holds a steady 130 to 140°F (54 to 60°C) the whole time. A dehydrator with an adjustable thermostat makes this much easier. Dry until a cooled piece cracks when bent but does not snap. Pat off beads of fat, which go rancid. Cool, then pack in clean, airtight containers. FSIS says home-dried jerky keeps about 1 to 2 months at room temperature. Commercial jerky lasts longer because it is made under controlled conditions. Freeze extra for longer storage."
+      },
+      {
+        "step": 4,
+        "title": "Cure only with a measured commercial cure",
+        "body": "Mississippi State Extension recommends a prepackaged commercial cure that contains sodium nitrite, used exactly at the rate printed on that product's label or in a tested recipe written for that exact product. Cure products differ greatly in strength: pink curing salt (often called Prague Powder #1, about 6.25% sodium nitrite) is used in very small amounts - typically about 1 level teaspoon per 5 pounds of meat - while some ready-mixed cures are mostly salt and are used by the ounce. Never swap one cure for another or reuse a rate from a different product or recipe; using a strong cure at a weak cure's rate can cause nitrite poisoning. Weigh or measure precisely. Nitrite helps protect cured meat against botulism, but too much is toxic. Never use more than the label or recipe says, and keep curing salts clearly labeled, away from table salt and children. Use only meat in good condition and keep it at 32 to 40°F (0 to 4°C) the entire time it cures. Warm curing lets spoilage and dangerous bacteria grow before the salt penetrates."
+      },
+      {
+        "step": 5,
+        "title": "Give the cure enough time",
+        "body": "Salt moves slowly. For dry-cured hams and shoulders, Mississippi State Extension gives about 7 days per inch (2.5 cm) of thickness at the thickest point, so a 5-inch ham needs about 35 days. Rub the cure on in two to four applications, 3 to 5 days apart, depending on the cut. Short cures of 2 to 3 weeks make milder meat that is not fully cured and must be frozen or refrigerated. Bacon is cured for a shorter time and is meant to be cooked. Write the start date and planned finish date on a tag on each piece."
+      },
+      {
+        "step": 6,
+        "title": "Smoke at safe temperatures and cook fully",
+        "body": "Hot smoking cooks as it smokes. Mississippi State Extension describes drying at about 125°F (52°C) with no smoke, smoking at about 135°F (57°C), then finishing at about 180°F (82°C) until the ham's center reaches 142°F (61°C). Hams taken only to 142°F still need full cooking at home before eating. Cold smoking, under 100°F (38°C) and ideally 70 to 80°F (21 to 27°C), adds flavor but does not cook or make meat safe. Use it only on fully cured meat, and cook the meat afterward unless you are following a tested dry-cure recipe. Spoilage bacteria grow fastest between about 80 and 110°F (27 and 43°C)."
+      },
+      {
+        "step": 7,
+        "title": "Store cured meat correctly",
+        "body": "Anything that is not fully dry-cured and aged must be wrapped airtight and frozen quickly after smoking and cooling. Long room-temperature aging of country hams takes months at controlled temperature and humidity. Mississippi State Extension does not promote home aging in warm, humid climates because the product may not be safe. Beginners should freeze or refrigerate all cured meat, cook it before eating, and treat dry-aged, uncooked products like salami and prosciutto as projects for later, after hands-on training. Wild game such as bear and wild boar can carry Trichinella parasites, so cook those meats thoroughly rather than relying on curing or drying."
+      }
+    ],
+    "warnings": [
+      "Old jerky recipes that skip the 160°F heating step can cause Salmonella and E. coli illness. Heat meat to 160°F (poultry 165°F) first.",
+      "Curing salts with nitrite are poisonous in excess. Measure exactly and store them labeled and out of reach.",
+      "Cold-smoked meat is not cooked. Cook it fully unless it is a tested, fully dry-cured product.",
+      "Curing does not reliably kill parasites in bear, wild boar, or other wild game. Cook those meats thoroughly.",
+      "Get emergency care for vomiting with severe diarrhea, high fever, or any vision, speech, or swallowing problems after eating preserved meat."
+    ],
+    "proTips": [
+      "Do curing in late fall and winter, when an unheated garage or cellar holds 32 to 40°F without a refrigerator.",
+      "A cheap probe thermometer is the single most important food safety tool for jerky and smoking.",
+      "Cut a test strip from the thickest part of the batch to check heating and dryness."
+    ],
+    "relatedGuides": [
+      "homestead-003",
+      "homestead-005",
+      "homestead-006",
+      "food-009",
+      "medical-011"
+    ],
+    "source": "USDA FSIS / Mississippi State Extension / NCHFP",
+    "sources": [
+      {
+        "title": "Jerky and Food Safety",
+        "publisher": "USDA FSIS",
+        "url": "https://www.fsis.usda.gov/es/node/3309",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Curing Pork Products at Home (P2648)",
+        "publisher": "Mississippi State University Extension",
+        "url": "https://extension.msstate.edu/publications/curing-pork-products-home",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Cure and Smoke Review: Meats",
+        "publisher": "National Center for Home Food Preservation",
+        "url": "https://nchfp.uga.edu/publications/nchfp-publications/literature-reviews/cure-smoke-review-meats/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.1",
+    "reviewStatus": "draft",
+    "skillLevel": "advanced",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [
+      "homestead-003"
+    ],
+    "whenNotTo": [
+      "You cannot keep curing meat at 32 to 40°F - freeze the meat instead and cure it later.",
+      "You have no thermometer to confirm 160°F for jerky.",
+      "The meat was left warm, smells off, or came from a sick animal."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You have meat to preserve without a freezer and want to dry, smoke, or cure it safely.",
+      "immediate": [
+        "Keep raw meat at 40°F or colder until you start.",
+        "For jerky, heat strips to 160°F (poultry 165°F), then dry at 130 to 140°F.",
+        "Cure only with a measured commercial nitrite cure at 32 to 40°F."
+      ],
+      "then": [
+        "Store home jerky 1 to 2 months; freeze cured meat that is not fully dry-cured.",
+        "Cook cured and cold-smoked meat fully before eating."
+      ]
+    }
+  },
+  {
+    "id": "homestead-014",
+    "category": "homesteading",
+    "title": "Small-Space and Container Gardening for Apartments and Suburbs",
+    "priority": "beginner",
+    "tags": [
+      "homesteading",
+      "container-gardening",
+      "apartment",
+      "balcony",
+      "urban",
+      "vegetables"
+    ],
+    "summary": "Grow real food on a balcony, patio, rooftop, or small yard using containers: pot sizes, potting mix, sun, watering, feeding, and the best compact crops, based on Penn State Extension guidance.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Map your sun and check the rules",
+        "body": "Watch your space for a full day and note how many hours of direct sun each spot gets. Penn State Extension says tomatoes and peppers need at least 6 hours of sun a day. Lettuce, kale, and other greens can handle some shade, and most herbs fall in between. South- and west-facing balconies are usually best. Before you start, check your lease, HOA, or building rules on balcony loads, hanging planters, and water runoff. Wet soil is heavy, so keep large containers near walls and railings where structures are strongest, and never block fire exits."
+      },
+      {
+        "step": 2,
+        "title": "Choose containers big enough",
+        "body": "Bigger pots hold more water and roots, so plants stress less. Penn State Extension recommends a container at least 20 inches (50 cm) wide for a tomato, about 14 inches (35 cm) wide for a pepper or eggplant, and smaller pots for herbs and greens. Pots should be at least as deep as they are wide. Every container needs drainage holes. Plastic pots are light and dry out slowly. Terracotta dries faster. Heavy cement or stone pots keep tall plants from tipping in wind. Fabric grow bags, 5-gallon (19-liter) buckets with holes drilled in the bottom, and food-grade totes all work. Avoid containers that held chemicals."
+      },
+      {
+        "step": 3,
+        "title": "Fill with potting mix, not garden soil",
+        "body": "Penn State Extension advises a soilless potting mix rather than garden soil, which packs down in pots and drains poorly. You can blend in up to about half finished compost to add nutrients and hold moisture. Fill containers to about 1 inch (2.5 cm) below the rim so water does not spill over. Refresh or replace mix each season, or at least mix in new compost, since old mix compacts and can carry disease. Raise pots slightly on feet or blocks so water can drain freely and does not stain balconies."
+      },
+      {
+        "step": 4,
+        "title": "Pick compact, productive crops",
+        "body": "Choose dwarf, bush, patio, or determinate varieties bred for containers. Good choices include cherry and determinate tomatoes, peppers, bush beans, lettuce and other salad greens, kale, Swiss chard, green onions, radishes, and herbs like basil, parsley, and chives. Pole beans, cucumbers, and vining tomatoes still work if you give them a trellis. Penn State suggests leaving sweet corn, watermelon, winter squash, and zucchini for in-ground gardens because they need so much space. Potatoes can grow in deep bags or bins, adding mix as they grow."
+      },
+      {
+        "step": 5,
+        "title": "Water often and deeply",
+        "body": "Containers dry out much faster than garden beds. Penn State Extension says to water at least once a day in hot summer weather, and twice for small pots or very hot, windy balconies. Water until it runs out the bottom so the whole root zone is wet. Check by pushing a finger an inch into the mix. If it is dry, water. If it is still moist, wait. Keep mix moist but never soggy. Saucers can help in heat but should not stay full of standing water, which rots roots and breeds mosquitoes. Self-watering containers and drip lines on a timer save time."
+      },
+      {
+        "step": 6,
+        "title": "Feed regularly",
+        "body": "Frequent watering washes nutrients out of pots, so container plants need steady feeding. Penn State Extension recommends mixing slow-release fertilizer into the potting mix at planting, then giving a soluble fertilizer every 2 to 4 weeks. Follow the label rate. More is not better and can burn roots. Compost, worm castings, and rabbit or aged chicken manure compost are good low-cost boosters. Yellowing lower leaves often mean the plant needs nitrogen. Pale, slow growth in cool weather may just be the temperature."
+      },
+      {
+        "step": 7,
+        "title": "Stretch space and seasons",
+        "body": "Grow up instead of out with trellises, railing planters, and hanging baskets for herbs and strawberries. Replant each pot as soon as a crop finishes: start with spring lettuce, follow with summer peppers, and end with fall greens. Move pots to chase sun or to shelter them from early frosts and summer heat. Indoors, a sunny south window or an inexpensive LED grow light can produce greens and herbs all winter. Keep a list of what grows best in your space and replant those first."
+      }
+    ],
+    "warnings": [
+      "Wet soil is heavy. Large containers on balconies and rooftops can exceed load limits - check with your landlord or building manager.",
+      "Do not use containers that held chemicals, or old treated or painted wood, for food plants.",
+      "Secure tall plants and hanging pots so wind cannot throw them off balconies onto people below."
+    ],
+    "proTips": [
+      "Group pots together. They shade each other's sides and hold moisture better.",
+      "A cut-and-come-again salad pot can give greens every week for months from one sowing.",
+      "Save 5-gallon food-grade buckets from bakeries and restaurants - drill drainage holes and they make free planters."
+    ],
+    "relatedGuides": [
+      "homestead-002",
+      "homestead-007",
+      "homestead-008",
+      "urban-001"
+    ],
+    "source": "Penn State Extension",
+    "sources": [
+      {
+        "title": "Container Vegetable Gardening: Four Keys to Success",
+        "publisher": "Penn State Extension",
+        "url": "https://extension.psu.edu/container-vegetable-gardening-four-keys-to-success",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Your space gets under about 3 hours of direct sun - stick to herbs and greens or use grow lights.",
+      "Your balcony or roof cannot safely carry the weight of wet containers."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have no yard, or only a small one, and want to grow some of your own food.",
+      "immediate": [
+        "Find the spots with at least 6 hours of sun.",
+        "Get containers with drainage holes: 20 inches for tomatoes, 14 for peppers.",
+        "Fill with soilless potting mix, not garden soil."
+      ],
+      "then": [
+        "Water daily in summer until it drains out the bottom.",
+        "Feed with soluble fertilizer every 2 to 4 weeks."
+      ]
     }
   }
 ]

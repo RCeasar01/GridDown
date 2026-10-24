@@ -1,0 +1,114 @@
+{
+  "id": "checklist-chemical-release",
+  "title": "Chemical Release",
+  "disasterType": "chemical-release",
+  "description": "Use this list to prepare for a hazmat or chemical release near home, and to act fast on an evacuate or shelter-in-place order.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "What to Do to Shelter in Place for a Chemical Emergency",
+      "publisher": "CDC",
+      "url": "https://cdc.gov/chemical-emergencies/response/shelter-in-place.html",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "chem-001",
+      "text": "Sign up for local emergency alerts and keep a battery radio - officials will say whether to evacuate or shelter in place",
+      "critical": true
+    },
+    {
+      "id": "chem-002",
+      "text": "Follow the official order exactly; if told to evacuate, leave right away by the route given",
+      "critical": true
+    },
+    {
+      "id": "chem-003",
+      "text": "If caught outside, move away from the cloud or smell, crosswind or upwind, and get inside the nearest building",
+      "critical": true
+    },
+    {
+      "id": "chem-004",
+      "text": "Never drive into or through a visible cloud or strong chemical smell",
+      "critical": true
+    },
+    {
+      "id": "chem-005",
+      "text": "If told to shelter: bring everyone and pets in, close and lock doors and windows",
+      "critical": true
+    },
+    {
+      "id": "chem-006",
+      "text": "Shut off furnace, air conditioning, and all fans including bath, kitchen, and dryer; close fireplace dampers",
+      "critical": true
+    },
+    {
+      "id": "chem-007",
+      "text": "Go to an interior room as high in the building as possible - many toxic gases sink, so avoid basements",
+      "critical": true
+    },
+    {
+      "id": "chem-008",
+      "text": "Seal the room: plastic sheeting over windows and vents, tape all edges, wet towel under the door",
+      "critical": true
+    },
+    {
+      "id": "chem-009",
+      "text": "Keep pre-cut 4 mil plastic sheeting, duct tape, and scissors in your chosen room",
+      "critical": false
+    },
+    {
+      "id": "chem-010",
+      "text": "Keep water, phone and charger, medicines, and your go-kit in or near the room",
+      "critical": false
+    },
+    {
+      "id": "chem-011",
+      "text": "In a car: close windows and vents and turn off the fan and air conditioning",
+      "critical": false
+    },
+    {
+      "id": "chem-012",
+      "text": "If a chemical got on you: remove clothing (cut it off rather than pulling over your head), bag it, and wash skin with plenty of soap and water",
+      "critical": true
+    },
+    {
+      "id": "chem-013",
+      "text": "Flush eyes with clean water for 10-15 minutes, removing contact lenses first",
+      "critical": true
+    },
+    {
+      "id": "chem-014",
+      "text": "Save Poison Control (1-800-222-1222) and call 911 for breathing trouble, burns, or eye pain",
+      "critical": true
+    },
+    {
+      "id": "chem-015",
+      "text": "Stay sheltered until officials give the all-clear - expect a few hours, not days",
+      "critical": false
+    },
+    {
+      "id": "chem-016",
+      "text": "Afterward, open windows and doors, restart HVAC, and follow cleanup instructions for surfaces, produce, and pets",
+      "critical": false
+    },
+    {
+      "id": "chem-017",
+      "text": "Do not go out to pick up children - schools have their own shelter plans",
+      "critical": false
+    },
+    {
+      "id": "chem-018",
+      "text": "Learn what nearby rail lines, highways, and plants could release, and your community's alert method",
+      "critical": false
+    }
+  ]
+}

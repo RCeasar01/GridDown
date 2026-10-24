@@ -1,0 +1,155 @@
+{
+  "id": "checklist-go-bag",
+  "title": "Go-Bag (Evacuation Bag)",
+  "disasterType": "go-bag",
+  "description": "Use this list to pack one carry-able bag per person that lasts about 72 hours if you must evacuate on short notice.",
+  "category": "tools",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "All-Hazard Evacuation Steps (Ready, Set, Go)",
+      "publisher": "Wyoming Office of Homeland Security",
+      "url": "https://evac.wyo.gov/ready-set-go-info",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Anatomy of a First Aid Kit",
+      "publisher": "American Red Cross",
+      "url": "https://redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "gb-001",
+      "text": "At least a 7-day supply of each prescription medicine in labeled containers, plus a written list of medicines, doses, and allergies",
+      "critical": true
+    },
+    {
+      "id": "gb-002",
+      "text": "Water: 1-2 liters (1-2 quarts) carried per person, plus a filter or purification tablets to treat more",
+      "critical": true
+    },
+    {
+      "id": "gb-003",
+      "text": "3 days of no-cook food (about 2,000 calories per adult per day): bars, nut butter packets, jerky, crackers, dried fruit",
+      "critical": true
+    },
+    {
+      "id": "gb-004",
+      "text": "First aid kit: gloves, bandages, gauze, tape, antiseptic wipes, blister care, emergency blanket, and a tourniquet you know how to use",
+      "critical": true
+    },
+    {
+      "id": "gb-005",
+      "text": "Copies of IDs, insurance cards, and medical records in a waterproof zip bag",
+      "critical": true
+    },
+    {
+      "id": "gb-006",
+      "text": "Cash in small bills - card readers and ATMs fail without power",
+      "critical": true
+    },
+    {
+      "id": "gb-007",
+      "text": "Headlamp or flashlight with spare batteries",
+      "critical": true
+    },
+    {
+      "id": "gb-008",
+      "text": "Phone charging cable and a charged power bank",
+      "critical": true
+    },
+    {
+      "id": "gb-009",
+      "text": "Battery or hand-crank radio that gets NOAA Weather Radio",
+      "critical": true
+    },
+    {
+      "id": "gb-010",
+      "text": "Written phone numbers, an out-of-area contact, and a meeting place on a card",
+      "critical": true
+    },
+    {
+      "id": "gb-011",
+      "text": "Spare glasses or contact lens supplies, hearing aid batteries, and chargers for any medical device",
+      "critical": true
+    },
+    {
+      "id": "gb-012",
+      "text": "N95 masks for smoke, dust, or illness",
+      "critical": false
+    },
+    {
+      "id": "gb-013",
+      "text": "Whistle to signal for help",
+      "critical": false
+    },
+    {
+      "id": "gb-014",
+      "text": "Rain jacket or poncho, warm hat, and a full change of clothes with extra socks",
+      "critical": false
+    },
+    {
+      "id": "gb-015",
+      "text": "Sturdy walking shoes if you do not wear them every day",
+      "critical": false
+    },
+    {
+      "id": "gb-016",
+      "text": "Emergency bivy or space blanket and a light tarp",
+      "critical": false
+    },
+    {
+      "id": "gb-017",
+      "text": "Hygiene kit: hand sanitizer, wet wipes, toilet paper, toothbrush, soap, menstrual supplies, trash bags",
+      "critical": false
+    },
+    {
+      "id": "gb-018",
+      "text": "Multi-tool, duct tape, 50 feet (15 m) of cord, and work gloves",
+      "critical": false
+    },
+    {
+      "id": "gb-019",
+      "text": "Two ways to make fire (lighter and waterproof matches) for warmth or boiling water",
+      "critical": false
+    },
+    {
+      "id": "gb-020",
+      "text": "Printed local map with two evacuation routes marked",
+      "critical": false
+    },
+    {
+      "id": "gb-021",
+      "text": "Metal cup or small pot, spoon, and a manual can opener if you packed cans",
+      "critical": false
+    },
+    {
+      "id": "gb-022",
+      "text": "Comfort items and small activities for children; food, leash or carrier, and records for pets",
+      "critical": false
+    },
+    {
+      "id": "gb-023",
+      "text": "Notebook and pencil",
+      "critical": false
+    },
+    {
+      "id": "gb-024",
+      "text": "Use a sturdy backpack lined with a trash-compactor bag; keep the full bag light enough to walk with (about 20% of body weight or less)",
+      "critical": false
+    },
+    {
+      "id": "gb-025",
+      "text": "Store the bag by an exit, not in the attic, and check it every 6 months: food, water, batteries, medicines, and clothing sizes",
+      "critical": false
+    }
+  ]
+}

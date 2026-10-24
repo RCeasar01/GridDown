@@ -4,302 +4,1345 @@
     "category": "power",
     "title": "Solar Power Basics for Grid-Down",
     "priority": "advanced",
-    "tags": ["power", "solar", "energy", "grid-down"],
-    "summary": "Size, wire, and operate a basic solar power system to survive extended grid outages.",
+    "tags": [
+      "power",
+      "solar",
+      "energy",
+      "grid-down",
+      "charge-controller",
+      "off-grid"
+    ],
+    "summary": "Understand, size, and safely set up a small stand-alone solar system that keeps lights, radios, phones, and a few key loads running through a long outage.",
     "steps": [
       {
         "step": 1,
-        "title": "Understanding Solar Basics",
-        "body": "Solar panels generate DC (direct current) electricity from sunlight. That raw DC power must pass through a charge controller before reaching your battery bank, and then through an inverter to produce usable AC power for standard appliances. Rule of thumb: a 100W solar panel generates approximately 30–40 amp-hours (Ah) per day in full sun. This figure drops sharply on cloudy days or when panels are shaded or poorly angled. Understanding the flow — panel → charge controller → battery → inverter → load — is the foundation of every solar system."
+        "title": "Learn the power path",
+        "body": "Every stand-alone solar system follows the same chain: panels make direct current (DC) from sunlight, a charge controller regulates that power, a battery stores it, and an inverter turns battery DC into 120-volt alternating current (AC) for normal plugs. Small DC loads like 12-volt lights, USB chargers, and radios can run straight from the battery side and skip the inverter, which wastes less energy. Learn this path before you buy anything, because every part must match the system voltage you choose (12, 24, or 48 volts). Draw a simple sketch of your system with each part labeled and keep it with your gear. When something stops working, you will check each link in order instead of guessing."
       },
       {
         "step": 2,
-        "title": "Sizing Your System",
-        "body": "Calculate your daily watt-hour (Wh) consumption by listing each device, its wattage, and hours of daily use. Examples: LED lights (5W × 6 hrs = 30Wh), phone charger (15W × 2 hrs = 30Wh), laptop (45W × 4 hrs = 180Wh). Add all Wh values, then multiply the total by 1.25 as a safety factor for inefficiency and weather variation. This gives your minimum daily solar production target. Divide by average peak sun hours in your region (typically 4–6 hours in the continental US) to determine the total panel wattage required."
+        "title": "Size the system from your loads",
+        "body": "Start with what you must power, not with a panel you saw on sale. List each device, its watts, and how many hours a day you will run it. Multiply watts by hours to get watt-hours (Wh), then add the list up. Example: LED lights 10 W x 5 hours = 50 Wh, phone and radio charging 20 W x 3 hours = 60 Wh, laptop 50 W x 2 hours = 100 Wh, for 210 Wh per day. Multiply your total by about 1.25 to cover wiring, controller, and inverter losses. That number is the energy your panels must replace every day. The full method, including surge watts, is in guide power-009. Cut anything that is not truly needed - every watt you remove saves panel and battery cost."
       },
       {
         "step": 3,
-        "title": "Charge Controllers — PWM vs MPPT",
-        "body": "The charge controller sits between your solar panels and battery bank, preventing overcharge and managing current flow. Two main types: PWM (Pulse Width Modulation) — simple, cheap, but only 70–75% efficient; best for small 12V systems where panel voltage closely matches battery voltage. MPPT (Maximum Power Point Tracking) — more complex, 93–97% efficient, extracts 25–30% more energy from the same panels, required for larger systems and whenever panel voltage significantly exceeds battery voltage. For any system above 200W or using 24V architecture, MPPT is the correct choice. Size your controller by total panel amperage: a 400W 12V panel array produces ~33A, requiring a 40A controller minimum."
+        "title": "Estimate what your panels will really make",
+        "body": "A panel's label wattage is measured in perfect lab sunlight. In the field, estimate daily output as panel watts x peak sun hours x about 0.75. Peak sun hours vary by location and season and are often 3 to 6 in the continental U.S., and much lower in winter. A 100 W panel with 4 sun hours gives roughly 300 Wh on a clear day. Clouds can cut that by half or more, and shade on even part of a panel can drop output sharply. Size for your worst likely month, not summer. Aim panels toward the south (in the Northern Hemisphere), tilt them toward the midday sun, keep them clear of snow and dust, and move portable panels during the day to follow the sun."
       },
       {
         "step": 4,
-        "title": "Battery Banks — Types and Sizing",
-        "body": "Battery capacity is measured in amp-hours (Ah). Total stored energy in watt-hours = Ah × voltage. Common chemistries: Flooded lead-acid (cheapest, requires venting and monthly maintenance, ~300–500 cycles to 50% depth of discharge). AGM (sealed, maintenance-free, handles vibration well, moderate cost, similar cycle life to flooded). Lithium LiFePO4 (most expensive upfront, lightest, 2000–3000+ cycles, can discharge to 80% without damage, no maintenance). To size your bank: take your daily Wh consumption, divide by battery voltage, and multiply by 2 (for lead-acid, to stay above 50% depth of discharge) or by 1.25 (for lithium). A 200Wh daily need on a 12V system requires at minimum a 100Ah lead-acid bank or 50Ah lithium bank."
+        "title": "Pick the right charge controller",
+        "body": "Never connect panels straight to a battery. The charge controller prevents overcharging, and many also shut off loads when the battery gets too low, which protects battery life. PWM controllers are cheap and simple and work for small systems where panel voltage is close to battery voltage. MPPT controllers cost more but harvest noticeably more energy, especially in cold weather or when panels run at higher voltage than the battery. For anything beyond a single small panel, MPPT is usually worth it. Size the controller for the panel current with margin, and check that it is set for your battery type (lead-acid and lithium need different charge voltages). Mount it close to the battery, in a dry, ventilated place."
       },
       {
         "step": 5,
-        "title": "Inverters and Load Distribution",
-        "body": "An inverter converts DC battery power to 120V AC. Two types: Modified sine wave — cheaper, produces a stepped waveform approximation of AC. Damages or degrades variable-speed motors, medical equipment (CPAP), sensitive audio gear, and some LED dimmers. Pure sine wave — output is identical to utility power; safe for all devices. Always choose pure sine for medical equipment and electronics. Size your inverter to the largest single load or combined load you'll run, plus 20% margin. Distribute loads deliberately: prioritize refrigerator, lighting, and communication. Use a power strip with surge protector between inverter and sensitive electronics."
+        "title": "Choose and place the battery",
+        "body": "Use deep-cycle batteries made for repeated charging and discharging. Do not use car starting batteries - deep discharges ruin them fast. Lead-acid batteries are cheaper but heavy, and they give off hydrogen gas while charging, so put them in a well-ventilated space away from living areas, sparks, and flames. Lithium iron phosphate (LiFePO4) batteries cost more up front but last many more cycles, weigh less, and do not vent hydrogen in normal use. They must have a built-in battery management system (BMS). Protect any battery from extreme heat and cold. Size the battery to carry you through several cloudy days. See guide power-002 for battery banks in detail."
       },
       {
         "step": 6,
-        "title": "Wiring and Safety",
-        "body": "Proper wiring is the difference between a functional system and a fire. Key rules: install an appropriately-rated fuse within 12 inches of the battery on every positive cable run. Use the correct AWG wire gauge — undersized wire causes voltage drop and heat. Quick reference: 12V system, 20A load = 10 AWG minimum for runs under 10 feet; 30A load = 8 AWG; 50A load = 6 AWG. Use ring terminal crimps (not tape-wrapped bare wire) on all battery connections. Keep your battery bank in a ventilated area — lead-acid batteries off-gas hydrogen during charging. Label all conductors with polarity and circuit. All connections should be snug, corrosion-free, and periodically inspected."
+        "title": "Fuse, wire, and ground it safely",
+        "body": "Most solar fires start in the wiring. Put a fuse or breaker rated for the wire on the positive cable as close to the battery as you can. Use the wire size the controller and inverter makers specify - wire that is too thin heats up. Use crimped ring terminals, not twisted or taped wire. Add a disconnect switch so you can shut the system down for service, and ground panel frames and metal boxes as the manuals direct. A surge protector helps against nearby lightning. The National Electrical Code (NFPA 70) covers permanent solar installs. Panels make voltage any time light hits them, so cover them before you work on the wiring."
+      },
+      {
+        "step": 7,
+        "title": "Keep solar separate from house wiring",
+        "body": "Never connect any power source to your house by plugging it into a wall outlet. This backfeeds the home wiring and can send dangerous voltage out onto utility lines, where it can kill line workers and neighbors, and it can start fires in your home. Run loads from the inverter's own outlets or a dedicated circuit, or have a licensed electrician install a transfer switch or approved interlock. Know that most rooftop grid-tied solar shuts off during an outage by design, unless it was installed with batteries and equipment that safely isolate the house from the grid. Ask your installer how yours behaves before an outage happens."
       }
     ],
     "warnings": [
-      "Never connect solar panels directly to a battery without a charge controller — unregulated charging destroys batteries and can cause fire.",
-      "Lead-acid batteries emit hydrogen gas during charging — never operate near open flame, sparks, or in sealed spaces.",
-      "MC4 connectors on solar panels carry live voltage any time panels are exposed to light — never make or break bare wire connections in daylight."
+      "Never backfeed your home by plugging an inverter or generator into a wall outlet - it can electrocute utility workers and start fires.",
+      "Never connect panels straight to a battery without a charge controller - overcharging can destroy the battery and cause a fire.",
+      "Lead-acid batteries vent explosive hydrogen while charging - keep them ventilated and away from sparks, flames, and living space.",
+      "Panel cables are live whenever light hits the panels - cover panels before working on connections."
     ],
     "proTips": [
-      "A single 100W panel + 100Ah AGM battery + 400W pure sine inverter is a viable baseline survival power system buildable for $300–$400.",
-      "A 45W foldable panel can charge a battery bank through a vehicle cigarette lighter/USB charging port while you drive or shelter.",
-      "South-facing panels tilted at an angle equal to your geographic latitude capture maximum annual solar energy year-round."
+      "Run small loads (lights, radios, USB chargers) on 12-volt DC to skip inverter losses.",
+      "Size for your worst month - a system that works in December works all year.",
+      "A simple battery monitor that counts amp-hours in and out tells you far more than a voltage reading.",
+      "Practice running your house on the system for a full weekend before you need it."
     ],
-    "relatedGuides": ["power-002", "power-005", "power-006"]
-  },  {
+    "relatedGuides": [
+      "power-002",
+      "power-005",
+      "power-009",
+      "power-007",
+      "tools-011"
+    ],
+    "source": "U.S. DOE Energy Saver / OSHA / CDC",
+    "sources": [
+      {
+        "title": "Balance-of-System Equipment Required for Renewable Energy Systems",
+        "publisher": "U.S. Department of Energy, Energy Saver",
+        "url": "https://www.energy.gov/energysaver/articles/balance-system-equipment-required-renewable-energy-systems",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Estimating Appliance and Home Electronic Energy Use",
+        "publisher": "U.S. Department of Energy, Energy Saver",
+        "url": "https://www.energy.gov/node/365749",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Using Portable Generators Safely (Fact Sheet)",
+        "publisher": "OSHA",
+        "url": "https://www.osha.gov/Publications/OSHA3286.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Electrical Safety and Generators",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/disasters/elecgenerators.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "power-009"
+    ],
+    "whenNotTo": [
+      "Do not tie a homemade solar system into your house panel yourself - use a licensed electrician and a transfer switch or interlock.",
+      "Do not count on solar alone for heavy loads like electric heat, central air, or well pumps without professional design."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want solar to keep essential lights, radios, phones, and small loads running through a long outage.",
+      "immediate": [
+        "List your must-run devices and total their daily watt-hours.",
+        "Use a charge controller between panels and battery - never connect directly.",
+        "Fuse the battery positive cable close to the battery."
+      ],
+      "then": [
+        "Size panels for your worst month and several cloudy days of battery.",
+        "Never backfeed through an outlet - use a transfer switch installed by a licensed electrician."
+      ]
+    }
+  },
+  {
     "id": "power-002",
     "category": "power",
-    "title": "Deep-Cycle Battery Banks — Setup and Maintenance",
+    "title": "Deep-Cycle Battery Banks - Setup and Maintenance",
     "priority": "advanced",
-    "tags": ["power", "batteries", "energy-storage"],
-    "summary": "Select, configure, and maintain deep-cycle battery banks for multi-day off-grid power.",
+    "tags": [
+      "power",
+      "batteries",
+      "energy-storage",
+      "lifepo4",
+      "lead-acid",
+      "off-grid"
+    ],
+    "summary": "Choose, wire, place, and maintain a deep-cycle battery bank so it stores your solar or generator power safely and lasts for years.",
     "steps": [
       {
         "step": 1,
-        "title": "Battery Chemistry Comparison",
-        "body": "Three main chemistries dominate off-grid storage. Flooded lead-acid: lowest upfront cost ($80–$150 per 100Ah), requires monthly electrolyte checks, venting to prevent hydrogen buildup, 300–500 cycles at 50% depth of discharge (DoD). AGM (absorbed glass mat): sealed, no maintenance, handles vibration well, moderate cost ($150–$250 per 100Ah), similar cycle life to flooded but no venting required. Lithium LiFePO4: most expensive ($400–$800 per 100Ah), lightest weight (1/3 the weight of lead-acid equivalent), 2000–3000+ cycles, can safely discharge to 80% DoD versus 50% for lead-acid, no maintenance, built-in BMS. For serious grid-down use, lithium pays for itself over time; for budget-constrained situations, flooded lead-acid and AGM remain practical."
+        "title": "Pick a battery chemistry",
+        "body": "Use true deep-cycle batteries, not car starting batteries, which are damaged by deep discharge. Flooded lead-acid is the cheapest per amp-hour but needs water top-offs and must be ventilated because it releases hydrogen and oxygen while charging. Sealed AGM and gel lead-acid need no watering and are spill-resistant, but cost more. Lithium iron phosphate (LiFePO4) costs the most up front but weighs far less, delivers many more cycles, tolerates deeper discharge, and needs no watering. Every lithium battery must have a battery management system (BMS) that shuts it off if it is overcharged, over-discharged, or too cold to charge. For a long-term grid-down bank, LiFePO4 usually costs less per year of use; lead-acid still works well on a tight budget."
       },
       {
         "step": 2,
-        "title": "12V vs 24V System Architecture",
-        "body": "12V systems are simpler to integrate with vehicles, standard RV equipment, and consumer devices. They work well for systems up to about 1,000W. 24V systems are more efficient for larger loads because power (watts) equals voltage × current — at 24V, you carry the same power at half the current, which means smaller wire gauge requirements, less resistive loss, and smaller breakers. For systems above 1,000W or with long wire runs, 24V is the preferred architecture. A 24V system requires batteries connected in series (two 12V batteries in series = 24V). Most MPPT charge controllers and inverters are available in both 12V and 24V configurations — choose your system voltage before purchasing any component."
+        "title": "Choose a system voltage",
+        "body": "Watts equal volts times amps, so a higher system voltage carries the same power with less current. Less current means thinner, cheaper wire, smaller fuses, and less heat. A 12-volt system is simplest and matches vehicles, RV gear, and most small inverters, and it works well for small setups up to roughly 1,000 to 1,500 watts. For bigger inverters or long cable runs, 24 or 48 volts is the better choice. Decide the voltage first, because your charge controller, inverter, and any DC loads must all match it. Changing later means replacing parts."
       },
       {
         "step": 3,
-        "title": "Series vs Parallel Wiring",
-        "body": "Series wiring connects positive terminal of one battery to negative terminal of the next, which adds voltage while keeping capacity the same. Two 12V 100Ah batteries in series = 24V 100Ah (2,400Wh total). Parallel wiring connects all positive terminals together and all negative terminals together, which doubles capacity while keeping voltage the same. Two 12V 100Ah batteries in parallel = 12V 200Ah (2,400Wh total — same energy, different configuration). Series-parallel combines both: four 12V 100Ah batteries wired as two parallel pairs connected in series = 24V 200Ah (4,800Wh). Critical rule: all batteries in a bank must be identical chemistry, identical brand and model, and ideally from the same production batch. Mixing old and new batteries forces new batteries to compensate for old ones, degrading the whole bank."
+        "title": "Wire series and parallel correctly",
+        "body": "Series wiring (positive of one battery to negative of the next) adds voltage: two 12 V 100 Ah batteries make 24 V 100 Ah. Parallel wiring (positive to positive, negative to negative) adds capacity: the same two batteries make 12 V 200 Ah. Both store the same 2,400 watt-hours. Use batteries of the same chemistry, size, brand, model, and age in one bank - a weak battery drags the others down. For parallel banks, take the main positive from one end of the bank and the main negative from the other end so each battery shares the load evenly. Use cables of equal length between batteries. Tighten terminals to the maker's torque spec. Keep one wrench end insulated or taped so it cannot bridge two terminals."
       },
       {
         "step": 4,
-        "title": "State of Charge Monitoring",
-        "body": "Knowing your battery's state of charge (SoC) is essential for preventing over-discharge damage. For lead-acid, voltage is a reasonable proxy after a 30-minute rest period (no charging or discharging): 12.7V = ~100% SoC; 12.5V = ~90%; 12.4V = ~75%; 12.2V = ~50% (stop here for flooded/AGM); 12.0V = ~25% (critically low, potential damage); 11.8V or below = severely discharged. A basic digital multimeter can measure this. For lithium, a battery management system (BMS) with a voltage/SoC display or a Bluetooth-enabled battery monitor (Victron BMV-712 or SmartShunt) gives accurate real-time tracking including amp-hours consumed and remaining capacity — far superior to voltage-only estimation."
+        "title": "Fuse and place the bank safely",
+        "body": "Put a fuse or breaker sized for the cable on the main positive lead as close to the battery as possible. A battery short can melt a wrench and start a fire in seconds. Place the bank on a sturdy, non-flammable surface where it cannot tip, away from living and sleeping areas and away from electronics, as the DOE advises. Lead-acid banks need good ventilation to clear hydrogen; never charge them in a sealed box or closet. Protect all batteries from extreme heat and from freezing. Keep children and pets away, and cover terminals with insulating boots. Store a Class ABC or Class C extinguisher nearby and keep baking soda handy for lead-acid acid spills."
       },
       {
         "step": 5,
-        "title": "Lead-Acid Maintenance",
-        "body": "Flooded lead-acid batteries require routine maintenance that AGM and lithium do not. Monthly: inspect electrolyte level in each cell (cells are visible under removable caps). Level should be just above the plates — top off with distilled water only (never tap water — mineral content damages cells). Every 3 months: perform an equalization charge — a controlled overcharge at slightly elevated voltage (15.5V for 12V bank) that stirs the electrolyte and dissolves sulfation. Terminals: clean any white/blue corrosion with a paste of baking soda and water (neutralizes acid), rinse, dry, and apply terminal grease. Inspect cables for cracking or corrosion. Record each maintenance event with date."
+        "title": "Track state of charge",
+        "body": "Over-discharging is the fastest way to kill a battery. For lead-acid, a resting voltage (no charging or loads for about 30 minutes) is a rough guide: about 12.7 V is full and about 12.2 V is roughly half on a 12 V battery. Many owners stop at about 50 percent to get the longest life, even though deep-cycle batteries can survive deeper cycles. Lithium voltage stays flat until it is almost empty, so voltage is a poor gauge. A battery monitor with a shunt that counts amp-hours in and out works for every chemistry and is the best upgrade you can buy. Set your charge controller and inverter low-voltage cutoffs to match the battery maker's numbers."
       },
       {
         "step": 6,
-        "title": "Maximizing Battery Lifespan",
-        "body": "Depth of discharge (DoD) is the primary determinant of battery cycle life. A 100Ah flooded lead-acid battery cycled to 80% DoD (down to 20% SoC) may yield only 200 cycles. The same battery cycled to 50% DoD yields 500+ cycles. At 30% DoD, it may yield 1,200+ cycles. Every 10% reduction in average DoD roughly doubles cycle life. In practice: monitor SoC constantly, recharge before reaching your DoD limit, and size your bank large enough that typical daily use doesn't require deep cycling. Temperature also matters: batteries lose capacity in cold and degrade faster in heat. Ideal operating temperature for all chemistries is 50–77°F."
+        "title": "Maintain the bank",
+        "body": "Once a month for flooded lead-acid, wear eye protection and gloves, open the caps, and top off any low cells with distilled water only, just to the level the maker shows. Do this after charging, not before. Equalize only if the maker recommends it and only with a controller that supports it. For all types, check terminals for corrosion; clean lead-acid terminals with a baking soda and water paste, rinse, dry, and apply terminal protectant. Look for swelling, cracks, leaks, heat, or odd smells - remove from service any battery that shows them. Write down dates, voltages, and water added. Recycle worn-out batteries at an auto parts store or recycling site; never put them in the trash."
+      },
+      {
+        "step": 7,
+        "title": "Store and protect batteries long-term",
+        "body": "Batteries that sit unused still lose charge. Keep lead-acid batteries fully charged during storage and top them up every month or two, because a discharged lead-acid battery sulfates and can freeze and crack in winter. Store lithium batteries at partial charge (often 40 to 60 percent) as the maker suggests, and do not charge them below freezing unless the battery has built-in heating - the BMS on a good battery will block cold charging. Keep the storage space between roughly 50 and 77 F (10 and 25 C) when you can. Before a storm season, fully charge everything and test the bank under a real load."
       }
     ],
     "warnings": [
-      "Never mix old and new batteries in the same bank — weak cells force strong cells to overwork, degrading the entire bank rapidly.",
-      "Never mix different battery chemistries (e.g., AGM and flooded lead-acid) in the same bank.",
-      "Lithium LiFePO4 batteries without a BMS can experience thermal runaway if overcharged or over-discharged — a BMS is non-optional.",
-      "Sulfated batteries (white crystalline crust on terminals or inside cells) may partially recover with slow equalization charging but are often permanently damaged."
+      "A shorted battery can deliver hundreds of amps - remove rings and watches and use insulated tools.",
+      "Charging lead-acid batteries release explosive hydrogen - ventilate and keep sparks and flames away.",
+      "Never mix old and new batteries or different chemistries in one bank.",
+      "Never use a lithium battery without a working BMS, and stop using any battery that swells, leaks, smells, or gets hot."
     ],
     "proTips": [
-      "Four 6V golf cart batteries (L16 or T-105 type) wired in series-parallel provide 12V at 220Ah for roughly $300–$400 — one of the best cost-per-Wh values in lead-acid storage.",
-      "Batteries stored in cold (below 32°F) self-discharge more slowly — ideal storage temperature is 50–60°F.",
-      "A dedicated battery monitor (Victron BMV-712 or similar) that tracks amp-hours consumed is worth every dollar — it prevents over-discharge damage that destroys batteries in weeks."
+      "Label every cable with polarity and destination before you need to troubleshoot in the dark.",
+      "Size the bank so normal daily use stays shallow - shallow cycles mean a longer-lasting bank.",
+      "Keep a printed copy of the battery maker's charge settings with the bank.",
+      "Golf-cart style 6-volt flooded batteries in series are a durable low-cost lead-acid option."
     ],
-    "relatedGuides": ["power-001", "power-005"]
-  },  {
+    "relatedGuides": [
+      "power-001",
+      "power-005",
+      "power-007",
+      "tools-011"
+    ],
+    "source": "U.S. DOE Energy Saver / SC State Fire Marshal / NFPA",
+    "sources": [
+      {
+        "title": "Balance-of-System Equipment Required for Renewable Energy Systems",
+        "publisher": "U.S. Department of Energy, Energy Saver",
+        "url": "https://www.energy.gov/energysaver/articles/balance-system-equipment-required-renewable-energy-systems",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lithium-Ion Battery Safety",
+        "publisher": "South Carolina Office of the State Fire Marshal",
+        "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NFPA's Fire Prevention Week Addresses Lithium-Ion Batteries in Your Home",
+        "publisher": "ANSI (NFPA member update)",
+        "url": "https://www.ansi.org/standards-news/member-updates/10-3-25-nfpas-fire-prevention-week-addresses-lithium-ion-batteries-in-your-home",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "power-001"
+    ],
+    "whenNotTo": [
+      "Do not build a large bank inside living or sleeping areas.",
+      "Do not reuse a battery that has been in floodwater, frozen solid, or swollen - recycle it."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are setting up or caring for a deep-cycle battery bank for solar or generator charging.",
+      "immediate": [
+        "Fuse the main positive cable right at the battery.",
+        "Place the bank on a stable, non-flammable surface away from sleeping areas, with ventilation for lead-acid.",
+        "Use matched batteries of the same type and age."
+      ],
+      "then": [
+        "Install a shunt battery monitor and set low-voltage cutoffs.",
+        "Check terminals, water levels (flooded), and battery condition monthly."
+      ]
+    }
+  },
+  {
     "id": "power-003",
     "category": "power",
     "title": "Generator Selection and Safe Operation",
     "priority": "critical",
-    "tags": ["power", "generator", "safety", "fuel"],
-    "summary": "Select the right generator size, operate it safely, and avoid the most common deadly mistake.",
+    "tags": [
+      "power",
+      "generator",
+      "safety",
+      "carbon-monoxide",
+      "transfer-switch",
+      "fuel"
+    ],
+    "summary": "Choose the right generator, place it at least 20 feet from the house, connect it without backfeeding, and avoid the carbon monoxide and electrocution mistakes that kill people every outage.",
     "steps": [
       {
         "step": 1,
-        "title": "Sizing Your Generator",
-        "body": "Calculate the running watts required for all devices you need simultaneously, then add surge capacity for motor-driven appliances — motors require 2–3× their running wattage to start. Common loads: standard refrigerator (700W running, 2,100W surge), well pump (1,000W running, 3,000W surge), window AC unit (1,200W running, 3,600W surge), sump pump (800W running, 1,500W surge), 60W equivalent LED (10W running, minimal surge). For a household running essentials — fridge, lights, phone charging, and a window AC — a 3,500–5,000W generator covers typical needs. Match the generator's surge/peak wattage to your highest single-device surge, not just running total."
+        "title": "Size the generator to your real loads",
+        "body": "Add up the running watts of everything you need at the same time, then find the single motor load with the biggest starting surge (refrigerators, well pumps, sump pumps, and air conditioners can briefly pull two to three times their running watts). The generator's running rating must cover the total, and its starting or peak rating must cover that one big surge on top of what is already running. Plan to run the generator at about half to three-quarters of its rating for better fuel use and less wear. Guide power-009 walks through the math. Check the nameplate or manual for each appliance instead of guessing."
       },
       {
         "step": 2,
-        "title": "Generator Types",
-        "body": "Conventional portable generators: least expensive ($400–$800 for 3,500–5,500W), loud (70–85 dB), fuel-hungry even at partial load, produce less-clean power. Inverter generators: more expensive ($800–$2,000 for 2,000–4,500W), significantly quieter (50–65 dB), use 20–40% less fuel through automatic throttling, produce cleaner power (lower THD) that is safe for sensitive electronics and medical equipment. Dual-fuel generators run on gasoline or propane — valuable for fuel flexibility. Standby generators (whole-home): permanently installed, run on natural gas or propane, start automatically via transfer switch, most expensive ($3,000–$15,000 installed), but zero setup time when the grid fails. For grid-down preparedness, an inverter generator is the best all-around choice for most households."
+        "title": "Choose the type and safety features",
+        "body": "Conventional portable generators are the cheapest per watt but are loud and burn more fuel at light loads. Inverter generators cost more but are quieter, throttle down to save fuel, and make cleaner power for electronics and medical devices. Dual-fuel units add propane, which stores well. Permanent standby generators run on natural gas or propane and need a licensed installer. Whatever you buy, CPSC recommends a model with a carbon monoxide (CO) shut-off feature, which turns the engine off when CO builds up around it. Look for that on the box. Buy heavy-duty outdoor-rated extension cords with three prongs at the same time."
       },
       {
         "step": 3,
-        "title": "Carbon Monoxide Safety — The Deadly Mistake",
-        "body": "Carbon monoxide (CO) is the most lethal generator hazard. CO is colorless, odorless, and tasteless — you will not detect it before it incapacitates you. At 400 ppm, CO causes headaches and dizziness within 2–3 hours. At 1,600 ppm, incapacitation within 2 hours and death within 3 hours. Generators produce CO at levels exceeding 10,000 ppm in engine exhaust. Absolute rules: generators must be run OUTDOORS ONLY, at least 20 feet from any door, window, or vent opening, with exhaust directed away from the structure. NEVER run in a garage — even with the door fully open, CO accumulates to lethal concentrations within minutes. Install CO detectors on every level of your home before you need a generator."
+        "title": "Place it outdoors, at least 20 feet away",
+        "body": "CPSC, CDC, and FEMA all say to run a portable generator outside only, at least 20 feet (6 m) from the house, with the exhaust pointed away from doors, windows, and vents. Never run it in the home, garage, basement, crawl space, shed, carport, or on a porch - even with doors and windows open, CO can build up to deadly levels. OSHA also advises keeping 3 to 4 feet (about 1 m) of clear space on all sides and above it. Keep it dry: never run it in standing water or with wet hands. In rain or snow, set it on a dry, level surface under an open canopy-style cover or a tent made for generators that leaves it open on all sides - never in a garage, porch, or doorway. Check that the exhaust is not drifting toward your or a neighbor's windows."
       },
       {
         "step": 4,
-        "title": "Fuel Management",
-        "body": "Fuel consumption depends on generator size and load level. A 3,500W generator at 50% load consumes approximately 0.5–0.7 gallons per hour. At 75% load, 0.7–1.0 gallons per hour. A 5-gallon tank at 75% load = 4–6 hours of runtime. Calculate your fuel reserve by multiplying daily runtime hours by fuel consumption rate, then multiplying by your target outage duration. For a 7-day outage running 8 hours/day at 0.75 GPH = 42 gallons minimum reserve. Gasoline must be stored with fuel stabilizer (STA-BIL or equivalent). Only refuel when the engine is completely COOL — gasoline contacting a hot engine or exhaust can ignite instantly. Always turn off the generator and wait 10–15 minutes before refueling."
+        "title": "Install CO alarms and know the symptoms",
+        "body": "Before you ever start a generator, put battery-operated or battery-backup CO alarms on each level of the home and outside sleeping areas. Interconnected alarms are best. Test them monthly. CO has no color, smell, or taste. Early poisoning feels like the flu: headache, dizziness, nausea, weakness, and confusion. If several people or pets feel sick at once, suspect CO. If an alarm sounds or anyone has symptoms, get everyone outside to fresh air right away and call 911. Do not go back in until responders say it is safe. Guide medical-047 covers CO poisoning care. CPSC reports that about 100 people die in the U.S. each year from portable generator CO."
       },
       {
         "step": 5,
-        "title": "Load Shedding and Power Distribution",
-        "body": "Running a generator continuously at full rated capacity causes accelerated wear and elevated fuel consumption. Best practice: shed non-critical loads and run the generator at 50–75% capacity. Rotate high-draw appliances: run the AC for 2 hours to cool the house, then switch to refrigerator, well pump, etc. Use a surge-protected power strip between the generator's outlets and sensitive electronics. Avoid extension cord daisy-chaining — each cord adds resistance and voltage drop. Prefer 12 AWG extension cords (rated 20A) over the ubiquitous 16 AWG household cords (rated 13A) for any load above 1,000W."
+        "title": "Connect loads without backfeeding",
+        "body": "Never plug a generator into a wall outlet or connect it to house wiring with a homemade double-male cord. This backfeeds power into the utility lines, where it can electrocute line workers and neighbors, and it can start fires in your home. The only safe ways are: plug appliances directly into the generator with heavy-duty, grounded outdoor cords rated for the load, or have a licensed electrician install a transfer switch or approved interlock that disconnects your house from the grid. Inspect cords for cuts and never run them under rugs or through closed doors where they get pinched. Use GFCI protection in damp areas. Follow the manual for grounding."
       },
       {
         "step": 6,
-        "title": "Maintenance Schedule",
-        "body": "A generator that won't start is useless in an emergency. Monthly: run the engine under load for 30 minutes (connects fresh fuel through the carburetor, charges starter battery, identifies problems before you need it). First 8 hours of use: change engine oil (break-in period). Every 50 hours of operation: change oil, check air filter, inspect spark plug. Annually: replace spark plug, clean/replace air filter, inspect fuel lines for cracking, test battery if electric start. Before any extended storage (over 30 days): run engine until fuel-starved (drains carburetor to prevent gum/varnish buildup) OR add fuel stabilizer to full tank and run for 10 minutes to distribute through system. Log all maintenance with dates and hours."
+        "title": "Refuel and store fuel safely",
+        "body": "Turn the generator off and let it cool before refueling - spilled gasoline on a hot muffler can ignite instantly. Refuel outdoors, away from any flame. Do not overfill. Store fuel in approved, labeled containers outside the living area and away from fuel-burning appliances like water heaters. Add fuel stabilizer if gas will sit more than a month. Plan your supply: a mid-size portable unit at half load often burns roughly a half gallon to a gallon per hour, so read your manual's runtime chart and multiply by the hours you plan to run each day. See guide power-004 for fuel storage."
+      },
+      {
+        "step": 7,
+        "title": "Run it smart and keep it ready",
+        "body": "Run the generator in blocks - for example, a few hours to cool the fridge and freezer, charge batteries, and run the well pump - then shut it down. Shed loads you do not need. Lock or chain the generator in place outdoors to deter theft rather than moving it closer to the house or boxing it in; never enclose it to quiet it. Every month, start it and run it under load for about 20 to 30 minutes. Change the oil on the maker's schedule (often after the first few hours of break-in). Before storage, add stabilizer and run it, or run the carburetor dry, as the manual directs. Keep a spare spark plug, oil, and air filter with it."
       }
     ],
     "warnings": [
-      "CO KILLS. Running a generator indoors — including in garages with open doors — causes hundreds of deaths annually in the US. This rule has no exceptions.",
-      "Backfeeding a generator to the utility grid through an improper hookup is illegal, potentially fatal to utility linemen, and can destroy your generator. Use a proper transfer switch.",
-      "Never refuel a running or recently-run hot generator — gasoline contacts hot exhaust components and can ignite immediately.",
-      "Generators at night or at idle attract attention during civil disturbances — consider acoustic shielding or operation timing to reduce your profile."
+      "Generator exhaust can kill in minutes - never run one indoors, in a garage, basement, shed, carport, or on a porch, even with doors open.",
+      "Never plug a generator into a wall outlet or house wiring - backfeeding can electrocute utility workers and neighbors.",
+      "Never refuel a running or hot generator.",
+      "Do not build an enclosure or box around a generator to quiet it - it traps exhaust and heat.",
+      "Do not run a generator in standing water or uncovered in rain - it can electrocute you."
     ],
     "proTips": [
-      "A transfer switch ($200–$500 installed by an electrician) is the only safe way to connect a generator to your home electrical panel — it physically disconnects from the grid before connecting to generator power.",
-      "Propane-fueled generators store fuel indefinitely versus gasoline (1–2 year shelf life with stabilizer) — a significant advantage for long-term preparedness.",
-      "The Honda EU2200i and Yamaha EF2000iS are the benchmark inverter generators for quiet, fuel-efficient, reliable emergency power — used extensively by emergency management professionals."
+      "Buy a generator with a CO shut-off feature - CPSC recommends it.",
+      "Use a long heavy-duty cord so you can keep 20 feet of distance without strain.",
+      "Mark a permanent 20-foot spot in the yard before storm season so no one has to guess in the dark.",
+      "Pair the generator with batteries or a power station so you run the engine only a few hours a day."
     ],
-    "relatedGuides": ["power-004", "power-005"]
-  },  {
+    "relatedGuides": [
+      "home-006",
+      "medical-047",
+      "power-004",
+      "power-009",
+      "power-007"
+    ],
+    "source": "CPSC / CDC / OSHA / NFPA / FEMA",
+    "sources": [
+      {
+        "title": "As Winter Storms Threaten Millions in the US, CPSC Issues Safety Tips to Help Families Prevent Carbon Monoxide Poisoning and Fires",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://cpsc.gov/Newsroom/News-Releases/2026/As-Winter-Storms-Threaten-Millions-in-the-US-CPSC-Issues-Safety-Tips-to-Help-Families-Prevent-Carbon-Monoxide-Poisoning-and-Fires",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Use a Generator Safely",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/use-a-generator-safely.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Using Portable Generators Safely (Fact Sheet)",
+        "publisher": "OSHA",
+        "url": "https://www.osha.gov/Publications/OSHA3286.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Generator Safety Tips",
+        "publisher": "NFPA (hosted by Village of Penn Yan, NY)",
+        "url": "https://www.villageofpennyan.gov/uploads/1/2/3/8/123892065/nfpa-generator-safety.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Power Outages (P-2143)",
+        "publisher": "FEMA / Ready.gov (hosted by Dallas County)",
+        "url": "https://dallascounty.org/Assets/uploads/docs/hsem/be-prepared/printable-resources/en/ready-gov_power-outage-en.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.1",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not run a generator if you cannot place it outdoors at least 20 feet from every home's doors, windows, and vents - use batteries or go to a shelter instead.",
+      "Do not use a generator during rain or flooding unless it is fully protected and dry.",
+      "Do not connect to house wiring unless a licensed electrician has installed a transfer switch or interlock."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The power is out and you are about to run a portable generator.",
+      "immediate": [
+        "Set it outside, at least 20 feet from the house, exhaust pointed away from doors, windows, and vents.",
+        "Make sure CO alarms are working on every level.",
+        "Plug appliances directly into the generator with heavy-duty outdoor cords - never into a wall outlet."
+      ],
+      "then": [
+        "Shut it off and let it cool before refueling.",
+        "If a CO alarm sounds or anyone feels sick, get outside and call 911."
+      ]
+    }
+  },
+  {
     "id": "power-004",
     "category": "power",
-    "title": "Fuel Storage — Safety and Shelf Life",
+    "title": "Fuel Storage - Safety and Shelf Life",
     "priority": "advanced",
-    "tags": ["power", "fuel", "storage", "safety"],
-    "summary": "Store fuel types safely and legally for extended grid-down scenarios.",
+    "tags": [
+      "power",
+      "fuel",
+      "storage",
+      "safety",
+      "gasoline",
+      "diesel",
+      "fire-code"
+    ],
+    "summary": "Store gasoline and diesel for generators and vehicles safely, legally, and fresh - in the right containers, in the right place, in amounts your local fire code allows.",
     "steps": [
       {
         "step": 1,
-        "title": "Gasoline Shelf Life",
-        "body": "Untreated automotive gasoline begins degrading within 3–6 months. The primary culprits are oxidation and ethanol content. Modern pump gasoline in the US is typically E10 (10% ethanol blend), which is hygroscopic — it absorbs atmospheric moisture, accelerating phase separation and corrosion of fuel system components. Ethanol-free gasoline (available at many marinas, small airports, and some dedicated fueling stations) stores significantly longer — 12–18 months untreated. Fuel stabilizer (STA-BIL 360, PRI-G) added at the correct ratio extends E10 gasoline to 12–24 months. Store fuel in opaque containers away from temperature swings, which accelerate degradation. Label every container with the fill date."
+        "title": "Check your local fire code first",
+        "body": "How much fuel you may keep at home, and where, is set by your local fire code, and the limits vary from town to town. Call your fire department or fire marshal and ask. As one example, a Utah fire department that follows the International Fire Code allows up to 25 gallons of gasoline at a home, only 10 gallons of that in an attached garage, and none in a basement, with somewhat higher limits for diesel and kerosene. Some places are stricter. Empty cans usually count as full. Fuel in a vehicle's tank usually does not count. Knowing your limit before a storm keeps you legal and keeps your insurance valid."
       },
       {
         "step": 2,
-        "title": "Safe Gasoline Storage",
-        "body": "Use only approved containers: red plastic gasoline cans (polyethylene, CARB/EPA compliant) or metal jerry cans (NATO-style steel fuel cans). Never use water jugs, milk jugs, or any container not designed for fuel — they off-gas through the container walls, are structurally weak, and lack proper venting. Maximum capacity per container: 5 gallons plastic, 20L (5.3 gallons) for NATO metal cans. Store in a detached shed, garage, or dedicated outdoor fuel locker — not in your home or basement. Keep away from water heaters, furnaces, electrical panels, and any ignition source. Typical residential legal storage limit is 25 gallons — check local fire codes. Store on a cool, ventilated surface. Never stack fuel cans."
+        "title": "Use only approved, labeled containers",
+        "body": "Store fuel only in containers made and labeled for that fuel. By common practice gasoline cans are red, diesel yellow, and kerosene blue - CPSC specifically warns against putting kerosene in a can that has ever held gasoline. Never use milk jugs, water bottles, or food containers: they leak, break down, and invite deadly mix-ups. Keep caps tight and spouts closed. Label every can with the fuel type and the date you filled it. Do not fill any can past about 95 percent - fuel expands when it warms. Replace cans that are cracked, swollen, or have worn seals."
       },
       {
         "step": 3,
-        "title": "Diesel Fuel Storage",
-        "body": "Diesel is substantially more stable than gasoline. Untreated diesel stores 6–12 months without significant degradation. With a quality diesel stabilizer (PRI-D, Sta-Bil Diesel), shelf life extends to 24+ months. Diesel has a flash point of 125–180°F versus gasoline's −45°F, making it significantly safer to store and handle. No explosion risk from vapor at room temperature. Primary long-term storage threat for diesel is microbial growth — bacteria and fungi thrive at the water/diesel interface in storage tanks. A diesel biocide (Biobor JF) added at fill prevents this. Diesel is the preferred fuel for serious long-term storage and for anyone running diesel generators, tractors, or vehicles."
+        "title": "Store fuel in the right place",
+        "body": "OSHA and NFPA both say to keep generator fuel outside living areas. The best spot is a detached shed or garage that is cool, shaded, and ventilated. Never store fuel in a basement or inside the house. Keep it well away from water heaters, furnaces, dryers, and anything with a pilot light or spark - gasoline vapor is heavier than air, flows along the floor, and can ignite far from the can. Keep cans upright on a flat surface out of direct sun and out of reach of children. Store gasoline away from kerosene and propane so no one grabs the wrong fuel. Keep at least one ABC fire extinguisher nearby; many codes require one once you store more than a few gallons."
       },
       {
         "step": 4,
-        "title": "Propane Storage",
-        "body": "Propane is the safest fuel to store for longevity — it has an indefinite shelf life with no degradation. It is stored as a pressurized liquid in steel cylinders. Store all propane cylinders upright, outdoors or in a detached ventilated structure. Critical point: propane vapor is 1.5× heavier than air and settles at floor level — a leaking propane cylinder in a garage or basement creates an explosive layer at ground level that can be ignited by a furnace pilot light, water heater, or even a light switch. Always store propane outdoors. 20 lb cylinders (standard BBQ size) hold approximately 4.6 gallons of propane. Inspect cylinders annually for rust, valve damage, and OPD (overfill protection device) functionality."
+        "title": "Fill cans safely at the pump",
+        "body": "Static sparks can ignite gasoline vapor. Always take the can out of the vehicle or truck bed and set it on the ground before filling. Keep the pump nozzle touching the can opening while fuel flows. Fill slowly and stop short of the top. Never fill a can that is sitting on a plastic bed liner or carpet. Do not smoke or use a lighter anywhere near fueling. Wipe spills right away and let rags air-dry outdoors before throwing them out. Carry filled cans upright, secured, and with the windows cracked, and take them out of the vehicle as soon as you get home."
       },
       {
         "step": 5,
-        "title": "Rotation Schedule",
-        "body": "All fuel storage requires a FIFO (first in, first out) rotation schedule to prevent degradation buildup. Establish a rotation calendar: for gasoline, rotate every 6–12 months (transfer stored fuel to your vehicle, refill containers with fresh stabilized gas). For diesel, rotate every 12–24 months. Keep a written fuel log attached to or stored with your containers listing: fuel type, fill date, stabilizer added (type and amount), and rotation/disposal date. The simplest system: date labels on every container in large permanent marker. Rotate one container at a time rather than all at once to ensure continuity of supply. Dispose of degraded fuel at a local hazardous waste collection site — never pour it down drains or on the ground."
+        "title": "Know the shelf life and use stabilizer",
+        "body": "Gasoline goes stale. Many equipment makers recommend using it within about 6 months, and today's 10 percent ethanol blends can absorb water and separate over time. Add a fuel stabilizer when you fill the can, following the label, and run the engine a few minutes so treated fuel reaches the carburetor. Stabilized gas commonly lasts a year or more. Ethanol-free gasoline, where available, keeps longer. Diesel is more stable than gasoline but can grow microbes where water collects, so keep containers full, sealed, and dry, and use a diesel biocide for long storage. Propane does not go bad, which is why many people pick dual-fuel generators."
       },
       {
         "step": 6,
-        "title": "Fire Safety and Code Compliance",
-        "body": "Keep a minimum 5 lb ABC dry chemical or CO2 fire extinguisher mounted within reach of your fuel storage area. Never store fuel near the home's main electrical panel, water heater, furnace, dryer, or any appliance with a pilot light. Ground fuel containers when transferring fuel to prevent static discharge ignition — metal-to-metal contact between container and receiving vessel before opening either container. Check with your local fire marshal or fire code for legal storage limits — most jurisdictions allow 25 gallons of flammable liquid (gasoline) and 60 gallons of combustible liquid (diesel) in residential settings with some allowing more in approved storage cabinets."
+        "title": "Rotate on a schedule",
+        "body": "Stored fuel is only useful if it is fresh. Use first in, first out: every few months, pour the oldest stabilized gasoline into your car's tank and refill the can with fresh fuel and stabilizer. Rotate one can at a time so you always have a supply. Keep a simple log on the shed wall with each can's fill date and stabilizer use. Never pour old fuel on the ground, down a drain, or in the trash - take it to a household hazardous waste collection site. If gasoline looks dark, cloudy, layered, or smells sour, do not run it in your generator."
+      },
+      {
+        "step": 7,
+        "title": "Plan how much you really need",
+        "body": "Figure your use from your generator manual's runtime chart. If your generator burns about 0.6 gallons per hour at half load and you run it 6 hours a day, that is about 3.6 gallons a day, or 25 gallons for a week. That can already hit some local limits, so plan to cut runtime with batteries, solar, or a power station, and keep your vehicle tank above half full during storm season. If you want more stored fuel than your code allows at home, ask the fire department about approved storage cabinets or a permitted tank installed by a licensed contractor."
       }
     ],
     "warnings": [
-      "Gasoline vapors are heavier than air and pool at floor level — explosive concentrations form invisibly in enclosed spaces with even small leaks.",
-      "Never store fuel in non-approved containers such as water jugs or milk jugs — they are not designed for fuel, off-gas through walls, and are a fire hazard.",
-      "If you smell propane, evacuate immediately and call emergency services — do not use any switches, lighters, or electronics inside the structure."
+      "Never store gasoline in the house, a basement, or near any appliance with a pilot light - vapor travels along the floor and can explode.",
+      "Never use food or drink containers for fuel.",
+      "Never fill a gas can inside a vehicle or truck bed - static can ignite it.",
+      "Never use gasoline in a kerosene heater or lamp - even a little can cause a fire or explosion."
     ],
     "proTips": [
-      "NATO-spec German-design jerry cans (Wavian brand) seal significantly better and resist vapor permeation better than standard US plastic fuel cans — the premium cost is justified for serious storage.",
-      "100LL aviation gasoline (avgas), available at small airports, is ethanol-free and stores longer than automotive gasoline, though it costs more and is not labeled for automotive use.",
-      "A 50-gallon diesel drum with a hand-pump bung is the most cost-effective high-volume fuel storage solution for serious preparedness — stores more, requires fewer containers to manage."
+      "Write the fill date and stabilizer on masking tape on every can.",
+      "Store fuel in a detached shed and keep a fire extinguisher just outside its door.",
+      "A full vehicle tank is legal, safe, extra storage - keep it topped off before storms.",
+      "Ask your fire marshal about limits - it is a free call and the answer is specific to you."
     ],
-    "relatedGuides": ["power-003", "power-001"]
-  },  {
+    "relatedGuides": [
+      "power-003",
+      "power-011",
+      "home-006",
+      "power-009"
+    ],
+    "source": "OSHA / NFPA / CPSC / local fire code",
+    "sources": [
+      {
+        "title": "Home Fuel Storage Limits",
+        "publisher": "Bluffdale City Fire Department (Utah)",
+        "url": "https://www.bluffdale.gov/880/Home-Fuel-Storage-Limits",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Using Portable Generators Safely (Fact Sheet)",
+        "publisher": "OSHA",
+        "url": "https://www.osha.gov/Publications/OSHA3286.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Generator Safety Tips",
+        "publisher": "NFPA (hosted by Village of Penn Yan, NY)",
+        "url": "https://www.villageofpennyan.gov/uploads/1/2/3/8/123892065/nfpa-generator-safety.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What You Should Know About Kerosene Heaters (Publication 5052)",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/s3fs-public/5052.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not store fuel at all if your only option is inside the living space - keep fuel in your vehicle tank instead.",
+      "Do not stockpile beyond your local fire code limit."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are storing gasoline or diesel at home for a generator or vehicle.",
+      "immediate": [
+        "Use only approved, labeled fuel cans - never food or drink containers.",
+        "Store fuel in a detached, ventilated shed, never in the house or basement.",
+        "Keep it away from water heaters, furnaces, and any flame or spark."
+      ],
+      "then": [
+        "Check your local fire code limit with the fire department.",
+        "Add stabilizer, date every can, and rotate the oldest fuel into your car."
+      ]
+    }
+  },
+  {
     "id": "power-005",
     "category": "power",
     "title": "Inverters and Off-Grid Power Distribution",
     "priority": "advanced",
-    "tags": ["power", "inverter", "distribution"],
-    "summary": "Select the right inverter type, size it properly, and distribute off-grid power safely.",
+    "tags": [
+      "power",
+      "inverter",
+      "distribution",
+      "pure-sine",
+      "extension-cords",
+      "load-shedding"
+    ],
+    "summary": "Pick and size an inverter, wire it to batteries safely, and get its power to your devices without overloads, fires, or backfeeding the house.",
     "steps": [
       {
         "step": 1,
-        "title": "Pure Sine vs Modified Sine Wave",
-        "body": "Pure sine wave inverters produce output that is electrically identical to utility grid power — a smooth sinusoidal waveform. Modified sine wave (MSW) inverters produce a stepped square wave approximation that carries the right average voltage but has significantly more harmonic distortion. Devices that are damaged or degraded by modified sine wave output: variable-speed motor drives (HVAC, some appliances), medical equipment including CPAP and oxygen concentrators, uninterruptible power supplies (UPS devices), sensitive audio equipment, and some modern LED driver circuits. Devices generally safe on modified sine: incandescent and basic LED bulbs, simple resistive heating elements, basic phone chargers, and laptop power bricks (though some run hotter). When in doubt and budget allows, use pure sine — it is compatible with all loads and eliminates the risk of silent equipment damage."
+        "title": "Choose pure sine wave",
+        "body": "An inverter turns battery DC into 120-volt AC. The DOE notes that sensitive electronics need clean power with a smooth sine waveform, while simple devices can tolerate rougher power. Pure sine wave inverters make power like the grid and are safe for everything, including CPAP machines, oxygen concentrators, laptops, variable-speed motors, and battery chargers for tools. Modified sine wave inverters are cheaper, but some devices run hot, buzz, fail to charge, or wear out early on them. For grid-down use where you cannot replace damaged gear, buy pure sine. If you have medical equipment, check its manual for power requirements and see guide home-013."
       },
       {
         "step": 2,
-        "title": "Sizing Your Inverter",
-        "body": "Inverter continuous wattage rating must exceed your peak combined AC load with margin. Add all appliances you may run simultaneously, then add 20% safety margin. Account for inverter efficiency: inverters are 85–95% efficient, meaning a 1,000W output load actually draws 1,050–1,175W from the battery bank. Inverters also have a surge/peak rating (typically 2× continuous rating) for motor startup loads — ensure this exceeds your highest single-device surge requirement. Common sizing: for a home office setup (laptop, lights, router, phone charging) a 600–1,000W inverter suffices. For a refrigerator + lights + fan, a 1,500–2,000W inverter. For whole-room AC or power tools, 3,000W+. Undersized inverters overload, overheat, and trip their thermal protection — select one size up from your calculated need."
+        "title": "Size the inverter",
+        "body": "Add the running watts of everything you will power at the same time and add about 20 percent margin. Then check the inverter's surge rating against the largest motor you will start - a refrigerator compressor or pump can briefly pull two to three times its running watts. Remember the inverter draws more from the battery than it delivers, because it is roughly 85 to 95 percent efficient, and many draw several watts just sitting on with nothing plugged in. On a 12-volt system, every 100 watts of AC load pulls roughly 9 to 10 amps from the battery. Bigger is not always better: an oversized inverter wastes more idle power. Guide power-009 has the full math."
       },
       {
         "step": 3,
-        "title": "Battery-to-Inverter Wiring",
-        "body": "High-current DC wiring between the battery bank and inverter is where most installation errors occur. The wire must be appropriately gauged for the current load. On a 12V system: 1,000W load draws ~83A; 1,500W load draws ~125A; 2,000W load draws ~167A. At 125A, a minimum of 2/0 AWG wire is required for runs under 4 feet — 3/0 AWG for runs up to 8 feet. Keep battery-to-inverter cables as short as possible (under 6 feet ideally) to minimize resistive losses. Install an ANL or MIDI fuse within 18 inches of the battery positive terminal — this is the critical safety fuse that prevents cable fires in a short circuit event. All connections must be crimped ring terminals, properly torqued, and coated with anti-oxidant compound."
+        "title": "Wire battery to inverter correctly",
+        "body": "The cable between battery and inverter carries the highest current in your system - a 1,500 W load on 12 V draws about 125 amps or more. Use the cable size and fuse rating the inverter manual specifies, keep the cable short (a few feet), and install the fuse or breaker on the positive cable close to the battery. Use crimped ring terminals tightened to spec. Connect the inverter's chassis ground as the manual directs. Mount the inverter on a dry, non-flammable surface with open air around it - it makes heat under load and needs airflow. Never mount it in a sealed box or over the battery of a lead-acid bank, where hydrogen can collect."
       },
       {
         "step": 4,
-        "title": "Load Prioritization",
-        "body": "In a grid-down scenario, treat your inverter output as a limited resource. Categorize all loads before connecting anything: Critical loads (medical equipment, communication devices, emergency lighting) — always powered. Important loads (refrigerator/freezer for food preservation, phone charging, fans in heat emergencies) — powered during available capacity. Non-essential loads (television, entertainment, non-emergency appliances) — powered only when battery bank is full and solar/generator is actively charging. Create a physical load list taped near your inverter showing what's connected to each outlet, wattage, and priority. During low-battery periods, disconnect non-essential loads first, important loads second, and never sacrifice critical loads."
+        "title": "Prioritize your loads",
+        "body": "Treat stored power like rations. Make a written list in three tiers. Tier 1 runs always: medical devices, communications, and some lighting. Tier 2 runs when you have capacity: refrigerator or freezer in blocks, fans in heat, phone and battery charging. Tier 3 runs only when batteries are full and charging: entertainment and convenience items. Tape the list beside the inverter with each device's watts. When the battery is low, unplug tier 3, then tier 2, and protect tier 1. Avoid resistive heat loads - space heaters, hair dryers, coffee makers, and electric kettles - which drain a battery bank in minutes."
       },
       {
         "step": 5,
-        "title": "Extension Cord Safety",
-        "body": "Extension cords are a frequent source of voltage drop and fire risk in improvised power setups. Two fundamental rules: never daisy-chain extension cords (cord-to-cord connections increase resistance and reduce the fire rating), and match cord gauge to load. A 16 AWG extension cord (common household type) is rated for 13A / approximately 1,500W at 120V. Running a 1,200W load through 50 feet of 16 AWG wire causes significant voltage drop and heat. For loads above 1,000W or cord runs over 25 feet, use 12 AWG (20A rated) cords. Label your cords: yellow = 12 AWG heavy duty, white/brown = 16 AWG light duty. Inspect all cords before use — cracked insulation on an inverter-powered cord in a survival scenario is a fire waiting to happen."
+        "title": "Use cords safely",
+        "body": "OSHA advises using grounded three-prong cords that are rated for the load and replacing any cord that is frayed, cut, or damaged. Match cord size to the job: a light-duty 16-gauge cord is fine for lamps and chargers, but for heavier loads or runs over about 25 feet, use a 12-gauge cord. Never run cords under rugs, through doorways where they get pinched, or through standing water. Avoid plugging cords into cords. Use GFCI protection in damp spots. If a cord or plug feels hot, unplug the load and use a heavier cord or a smaller load. Check the cord's rating label, not its color."
       },
       {
         "step": 6,
-        "title": "Distribution Panel",
-        "body": "A small sub-panel with circuit breakers allows organized, safe distribution of inverter power to multiple loads. For a permanent or semi-permanent setup, a 6-space AC sub-panel ($30–$60) with individual breakers for each circuit provides overload protection at the load level, not just at the inverter. Pre-wiring critical circuits to a transfer switch allows instant switchover without running extension cords during an emergency. For a portable setup, a power distribution unit (PDU) with individual breakers per outlet serves the same function. The goal is that each circuit can be individually tripped and reset, rather than having a single inverter overload trip that kills all power simultaneously."
+        "title": "Distribute power without backfeeding",
+        "body": "Never connect an inverter to your house by plugging it into a wall outlet with a double-male cord. That backfeeds the home wiring, can electrocute utility workers, and can start fires. For a portable setup, plug devices directly into the inverter or into a quality power strip with its own breaker. For a permanent setup that feeds house circuits, have a licensed electrician install a transfer switch, interlock, or small dedicated sub-panel, built to the National Electrical Code. Breakers on each circuit mean one overload trips only that circuit instead of shutting everything down."
+      },
+      {
+        "step": 7,
+        "title": "Check the system every day",
+        "body": "During an outage, take one minute each morning and evening to look at the battery state of charge, feel the inverter and cable ends for unusual heat, and sniff for burning smells. Listen for fans running harder than normal. Turn the inverter off when you do not need AC power to save idle draw, and turn it off before connecting or disconnecting the battery. Keep a fire extinguisher rated for electrical fires (Class C or ABC) near the setup. If anything smokes, smells, or sparks, shut off the inverter and the battery disconnect, and do not restart until you find the cause."
       }
     ],
     "warnings": [
-      "On a 12V system, a 1,500W inverter draws 125+ amps — any undersized wire, loose connection, or missing fuse in that circuit is a serious fire hazard.",
-      "Modified sine wave inverters can silently damage sensitive equipment over weeks or months rather than causing immediate failure — the damage accumulates undetected.",
-      "Never mount an inverter in a sealed or enclosed space — inverters produce significant heat under load and require airflow for cooling."
+      "Never plug an inverter into a wall outlet to power the house - backfeeding can kill utility workers and start fires.",
+      "The battery-to-inverter cable carries very high current - an undersized cable or missing fuse is a fire hazard.",
+      "Do not put an inverter in a sealed space or above a lead-acid battery bank.",
+      "Avoid space heaters and other heating appliances on battery power - they drain the bank fast and overheat cords."
     ],
     "proTips": [
-      "A quality UPS (uninterruptible power supply) that accepts external battery pack connections provides instant automatic switchover with zero setup time during a power outage.",
-      "24V or 48V battery systems are dramatically more efficient for large inverters — at 48V, a 2,400W load draws only 50A versus 200A at 12V, allowing much smaller and cheaper wiring.",
-      "A Victron SmartShunt or similar Bluetooth battery monitor lets you track real-time energy flow and remaining capacity from your phone — essential for managing a solar + battery system intelligently."
+      "Run DC devices on DC when you can - every trip through the inverter wastes power.",
+      "A plug-in watt meter shows what each appliance really draws.",
+      "Choose an inverter with a low idle draw and a remote on/off switch.",
+      "Keep a spare inverter fuse taped to the inverter."
     ],
-    "relatedGuides": ["power-001", "power-002", "power-003"]
-  },  {
+    "relatedGuides": [
+      "power-001",
+      "power-002",
+      "power-009",
+      "home-013",
+      "power-003"
+    ],
+    "source": "U.S. DOE Energy Saver / OSHA / CDC",
+    "sources": [
+      {
+        "title": "Balance-of-System Equipment Required for Renewable Energy Systems",
+        "publisher": "U.S. Department of Energy, Energy Saver",
+        "url": "https://www.energy.gov/energysaver/articles/balance-system-equipment-required-renewable-energy-systems",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Using Portable Generators Safely (Fact Sheet)",
+        "publisher": "OSHA",
+        "url": "https://www.osha.gov/Publications/OSHA3286.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Electrical Safety and Generators",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/disasters/elecgenerators.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "power-009"
+    ],
+    "whenNotTo": [
+      "Do not wire an inverter into house circuits yourself - use a licensed electrician.",
+      "Do not use a modified sine wave inverter for medical equipment unless the device maker says it is safe."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are running household devices from a battery bank through an inverter.",
+      "immediate": [
+        "Plug devices directly into the inverter or a breaker-protected strip - never backfeed a wall outlet.",
+        "Confirm the battery cable is fused near the battery and sized per the manual.",
+        "Power medical devices and communications first."
+      ],
+      "then": [
+        "Shed low-priority loads when the battery drops.",
+        "Check for heat and burning smells twice a day."
+      ]
+    }
+  },
+  {
     "id": "power-006",
     "category": "power",
     "title": "Hand-Crank and Portable Emergency Power",
     "priority": "beginner",
-    "tags": ["power", "emergency", "portable", "low-tech"],
-    "summary": "Practical guide to hand-crank radios, solar chargers, and power banks for emergency use.",
+    "tags": [
+      "power",
+      "emergency",
+      "portable",
+      "hand-crank",
+      "noaa-radio",
+      "power-bank",
+      "solar-charger"
+    ],
+    "summary": "Pick and maintain the small, cheap power gear every household should have - a NOAA weather radio with backup power, power banks, and a small solar charger - and know what they can and cannot do.",
     "steps": [
       {
         "step": 1,
-        "title": "Hand-Crank NOAA Weather Radios",
-        "body": "The hand-crank NOAA weather radio is the minimum viable emergency power and communication device — every household should own one. Key features to look for: NOAA weather alert reception (automatically triggers alarm for severe weather alerts in your area), AM/FM radio bands, USB phone charging output port, built-in LED flashlight, and a solar panel for supplemental charging. Reputable options include the Midland ER310, Kaito KA500, and RunningSnail Emergency Radio. Realistic expectations: the typical hand-crank generator produces 0.5–1W of power. One minute of vigorous cranking yields approximately 20–40 minutes of radio playback. This is not a primary power source — it is a backup to the backup, sufficient to receive emergency broadcasts and make a few phone calls when all other power is exhausted."
+        "title": "Get a NOAA weather radio with backup power",
+        "body": "NOAA Weather Radio All Hazards broadcasts warnings 24 hours a day on seven VHF frequencies from 162.400 to 162.550 MHz, reaching an estimated 97 percent of the U.S. population. Because outages often come with storms, the National Weather Service says to pick a receiver with battery backup. Look for the Public Alert or NOAA Weather Radio All Hazards logo, and for SAME, which lets you program your county (and nearby upstream counties) so the alarm sounds only for alerts that affect you. Models that add a hand crank, a small solar panel, AM/FM bands, a flashlight, and a USB output give you several ways to keep it running. Reception drops inside buildings and behind hills, so set it near a window."
       },
       {
         "step": 2,
-        "title": "Power Banks — Selection and Capacity",
-        "body": "Power banks are rated in milliamp-hours (mAh). To translate to phone charges: a modern smartphone has a 3,000–5,000 mAh battery. A 10,000 mAh power bank provides approximately 2–3 full phone charges accounting for conversion losses (~80% efficiency). A 20,000 mAh bank provides 4–6 charges. For 72-hour emergency use for two people, a 20,000 mAh bank minimum. Features to prioritize: USB-C Power Delivery (PD) port for fast charging compatibility with modern devices; USB-A Quick Charge 3.0 for older devices; pass-through charging capability (charge the bank while simultaneously charging a device); solar input port for field recharging. Reputable brands: Anker, UGREEN, Nitecore, Goal Zero. Avoid unbranded units — actual capacity is often 20–30% of the labeled value."
+        "title": "Set realistic hand-crank expectations",
+        "body": "A hand crank makes very little power. A minute or two of steady cranking usually buys several minutes to roughly half an hour of radio listening, depending on the model and volume. That is fine for catching a forecast or warning, but it is a slow, tiring way to charge a phone - many minutes of cranking may add only a few percent. Treat the crank as the backup to your backup. Keep spare AA or AAA batteries for the radio if it takes them, and use the crank only when those and your power banks are gone. Test the crank at home so you know how your radio behaves."
       },
       {
         "step": 3,
-        "title": "Portable Solar Chargers",
-        "body": "Foldable portable solar panels in the 15–25W range connect to power banks or directly to devices via USB. They are a supplemental charging source, not a primary one. Performance in ideal conditions: a 15W panel in direct, unobstructed summer sun charges a 10,000 mAh power bank in 8–12 hours. Cloud cover reduces output by 50–80% — a fully overcast day may produce so little power that self-discharge of the power bank exceeds input. Practical approach: maximize panel exposure by angling toward the sun throughout the day, keep panels clean (dust and water spots reduce output significantly), and use them to top off banks during daylight rather than expecting rapid charging. Quality matters: look for panels specifying actual cell efficiency (20%+ is good) not just wattage claims."
+        "title": "Choose power banks that are safe and honest",
+        "body": "A power bank stores energy for phones, radios, headlamps, and small devices. A 10,000 mAh bank usually gives about two phone charges after conversion losses, and a 20,000 mAh bank about four, depending on the phone. Fire officials and NFPA advise buying products that carry a safety certification mark from a recognized testing lab, using the cable that came with the device or a maker-approved replacement, and charging on a hard surface - not on a bed or couch. Unbranded bargain banks often hold far less than the label claims. USB-C Power Delivery (PD) ports charge modern phones and some laptops fastest. Get at least one bank per person."
       },
       {
         "step": 4,
-        "title": "Setting Correct Expectations",
-        "body": "Hand-crank, small solar, and power banks are communication and lighting tools — not survival power systems. They will maintain: phone communication (calls, texts, basic apps), radio reception for emergency broadcasts, LED lighting for orientation and safety, and the ability to charge a secondary device (radio, headlamp). They will not power: refrigerators, microwaves, power tools, fans, CPAP machines, or any significant AC appliance. Understanding this hierarchy prevents the most common emergency power mistake: draining your power bank running a device that kills your ability to communicate. Protect communication devices first, lighting second, everything else is secondary."
+        "title": "Add a small folding solar panel",
+        "body": "A 15 to 30 watt folding panel with a USB output can refill power banks during the day. In full, direct sun a 20 watt panel may refill a 10,000 mAh bank in most of a day; on cloudy days output can drop to a small fraction. Point it straight at the sun and turn it every hour or two. Keep it out of shade - even a branch shadow cuts output. Charge a power bank from the panel, then charge your phone from the bank at night; this works better than plugging a phone straight into a panel, because clouds make phones stop and start charging. Do not leave the phone or bank baking in direct sun."
       },
       {
         "step": 5,
-        "title": "Cold Weather Performance",
-        "body": "Lithium-ion batteries — used in virtually all power banks — lose significant capacity in cold temperatures. Performance degradation: below 32°F (0°C), expect 20–30% capacity loss. Below 14°F (−10°C), expect 40–50% loss. Below −4°F (−20°C), batteries may fail to discharge entirely. Additionally, charging lithium batteries below 32°F causes permanent internal damage (lithium plating). In cold weather operations: keep power banks in an inner jacket pocket against your body heat, do not charge power banks in freezing temperatures, and warm them to above 40°F before use. Cold-temperature-rated lithium batteries (LiFePO4 chemistry) handle cold significantly better than standard lithium-ion."
+        "title": "Protect batteries from heat and cold",
+        "body": "Lithium batteries lose capacity in the cold and wear out faster in heat. The South Carolina State Fire Marshal advises charging lithium batteries only between 32 F (0 C) and 105 F (40 C). In winter, carry power banks and phones in an inside pocket, and let a cold bank warm up before charging it. In summer, keep them out of hot cars and direct sun. Stop using any battery that swells, leaks, smells, changes color, gets very hot, or makes odd noises. If one overheats, move it away from anything that can burn if it is safe to do so, and call 911 if it catches fire."
       },
       {
         "step": 6,
-        "title": "Maintenance and Testing",
-        "body": "Portable emergency power devices have a short shelf life if neglected. Power banks: discharge and fully recharge every 3–6 months to prevent cell imbalance and capacity degradation. Most batteries lose capacity faster when stored at 100% charge — for long-term storage, keep at 50–60% charge. Solar panels: clean the panel surface with a damp cloth periodically and inspect connecting cables for UV cracking. NOAA radios: test the crank mechanism and all charging modes quarterly. Verify NOAA alert reception by initiating a test (most radios have a test alert button). Replace internal batteries in any device that uses rechargeable NiMH cells every 2–3 years regardless of use. Document your test dates and results. Equipment that hasn't been tested in 12 months should be considered unreliable."
+        "title": "Build a small power kit and test it",
+        "body": "Pack one bag with the weather radio, spare batteries, power banks, the solar panel, and every cable and wall or car adapter your family's devices need. Label cables. Every three months, check that banks are charged, crank and solar-charge the radio, and run the radio's alert test if it has one. Many lithium banks hold charge best in storage at partial charge, but in storm season keep them full. Replace alkaline batteries by their date and NiMH rechargeables when they stop holding a charge. Recycle dead lithium batteries at a battery drop-off - never in household trash or curbside recycling bins."
       }
     ],
     "warnings": [
-      "Cheap solar panels sold at discount stores and online marketplaces rarely deliver their rated wattage — test before you trust them in an emergency.",
-      "Counterfeit power banks from unknown brands commonly contain cells with 20–30% of the advertised capacity — buy from recognized brands with verified reviews.",
-      "Never charge lithium power banks in freezing temperatures — it causes irreversible internal damage that permanently reduces capacity."
+      "Never charge lithium batteries on beds, couches, or under pillows - use a hard surface away from things that burn.",
+      "Stop using any power bank that swells, leaks, smells, or gets hot.",
+      "Do not count on a hand crank to keep a phone running - it is for short emergency use."
     ],
     "proTips": [
-      "A Goal Zero Yeti 200X or Jackery Explorer 240 bridges the gap between a power bank and a generator — 187–240Wh capacity, AC output for small appliances, solar input, and a display. The sweet spot for portable emergency power.",
-      "Keep a dedicated communications kit (hand-crank radio, 20,000 mAh power bank, foldable 15W solar panel, and all required charging cables) pre-packed in your 72-hour bag and tested quarterly.",
-      "USB-C Power Delivery (PD) is the universal standard to target — charges modern laptops, tablets, and phones significantly faster than USB-A and uses a single cable type for all your devices."
+      "Program your county and the next county upwind into your SAME weather radio.",
+      "Charge power banks from the solar panel by day and phones from the banks by night.",
+      "Pick devices that share one cable type (USB-C) to cut down on cables.",
+      "Put a dated label on every power bank so you know which to top up first."
     ],
-    "relatedGuides": ["power-001", "power-003"]
+    "relatedGuides": [
+      "power-010",
+      "power-007",
+      "tools-011",
+      "comms-001"
+    ],
+    "source": "NWS / NFPA / SC State Fire Marshal",
+    "sources": [
+      {
+        "title": "NOAA Weather Radio - General Information (FAQ)",
+        "publisher": "National Weather Service, Wilmington OH",
+        "url": "https://www.weather.gov/iln/nwr_faq",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lithium-Ion Battery Safety",
+        "publisher": "South Carolina Office of the State Fire Marshal",
+        "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NFPA's Fire Prevention Week Addresses Lithium-Ion Batteries in Your Home",
+        "publisher": "ANSI (NFPA member update)",
+        "url": "https://www.ansi.org/standards-news/member-updates/10-3-25-nfpas-fire-prevention-week-addresses-lithium-ion-batteries-in-your-home",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not rely on small portable gear for refrigerators, medical devices, or heating - use a power station, generator, or shelter."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need basic, low-cost power for warnings, light, and phones during an outage.",
+      "immediate": [
+        "Turn on your NOAA weather radio and set it near a window.",
+        "Charge phones from power banks; save the hand crank for last.",
+        "Set the solar panel in full sun to refill power banks."
+      ],
+      "then": [
+        "Keep batteries out of extreme heat and cold.",
+        "Test and recharge the whole kit every three months."
+      ]
+    }
+  },
+  {
+    "id": "power-007",
+    "category": "power",
+    "title": "Portable Power Stations (LiFePO4 Solar Generators)",
+    "priority": "beginner",
+    "tags": [
+      "power",
+      "power-station",
+      "solar-generator",
+      "lifepo4",
+      "battery",
+      "indoor-power"
+    ],
+    "summary": "Choose, size, and safely use a portable power station - the all-in-one battery box often sold as a solar generator - to run phones, lights, medical devices, and a refrigerator in blocks without fumes.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know what a power station is",
+        "body": "A portable power station is a battery, charge controller, inverter, and outlets in one box. It charges from a wall outlet, a car outlet, solar panels, or a generator, and gives you AC outlets, USB ports, and often a 12-volt car-style port. Despite the name solar generator, it makes no power by itself - it only stores what you put in. Its big advantage is that it has no engine, so it gives off no carbon monoxide and can be used indoors. Look for the safety certification marks of a recognized testing lab; UL 2743 is the U.S. safety standard written for portable power packs. Many newer units use lithium iron phosphate (LiFePO4) cells, which last thousands of cycles and are less prone to overheating than older lithium types."
+      },
+      {
+        "step": 2,
+        "title": "Read the two key numbers",
+        "body": "Capacity, in watt-hours (Wh), is how much energy the box holds - like the size of a fuel tank. Output, in watts (W), is how much it can deliver at once - like the size of the engine. A unit rated 1,000 Wh and 1,200 W can run a 100 W load for roughly 8 to 9 hours (inverter losses take 10 to 15 percent) and can start anything up to its surge rating. Check the surge or peak watts if you will start a refrigerator or pump. Check that the AC output is pure sine wave, which is safe for electronics and medical equipment. Ignore marketing names - compare Wh, continuous W, surge W, and charging input W."
+      },
+      {
+        "step": 3,
+        "title": "Size it for your must-run devices",
+        "body": "List what you will run and for how long each day, and total the watt-hours (guide power-009 shows how). Rough examples: phones and radio about 50 Wh a day; LED lights about 50 Wh; a CPAP without its humidifier often 30 to 60 Wh a night, more with heat and humidity - check your machine's manual; a modern full-size refrigerator often 1,000 to 2,000 Wh a day. A 300 to 500 Wh station covers phones, lights, and a radio for a few days. Plan on 1,000 to 2,000 Wh or more to keep a refrigerator cold by running it in blocks. Add about 20 percent for losses and battery aging."
+      },
+      {
+        "step": 4,
+        "title": "Plan how you will recharge it",
+        "body": "A power station with no way to recharge is just a few days of power. Wall charging is fastest but needs the grid. Solar input lets you refill it every sunny day: a 200 W panel in good sun might add roughly 600 to 800 Wh on a clear day, much less in winter or clouds. Check the station's maximum solar input watts and voltage, and use panels and cables within those limits. Car charging through a 12-volt port is slow (often around 100 W), so only do it while the car is running outdoors with plenty of airflow - never in a garage. A generator can recharge it quickly, letting you run the engine an hour or two instead of all day."
+      },
+      {
+        "step": 5,
+        "title": "Use it safely indoors",
+        "body": "Set the station on a hard, flat, dry surface with space around the vents - not on a bed, carpet, or couch - and away from curtains and anything that can burn. Do not cover it or run it in a closed cabinet. Charge it only within the temperature range in the manual; fire officials advise charging lithium batteries between about 32 F (0 C) and 105 F (40 C). Use the charger and cables that came with it or maker-approved replacements. Do not plug the station into a wall outlet to feed the house. If it swells, smells, hisses, smokes, or gets very hot, unplug it if safe, move away, and call 911 if it burns."
+      },
+      {
+        "step": 6,
+        "title": "Stretch the charge",
+        "body": "Use the DC and USB ports when you can - they skip the inverter and waste less energy. Turn off the AC inverter when nothing needs it; many stations burn 10 to 30 watts just leaving AC on. Run a refrigerator in blocks, such as an hour or two at a time, a few times a day, and keep the doors shut between runs. Charge phones and banks during the day when solar is coming in. Avoid heating appliances - hair dryers, kettles, toasters, and space heaters - which can empty a station in under an hour. Watch the display's percentage and time remaining."
+      },
+      {
+        "step": 7,
+        "title": "Store and maintain it",
+        "body": "Read the manual's storage advice - many makers suggest storing at partial charge and topping up every few months. Before storm season, charge it fully and run a real test: power your actual devices for a few hours and note how fast the percentage drops. Keep the solar cables, car cable, and wall charger in the same bag as the station. Store it indoors at room temperature, out of hot cars and freezing sheds. Check for maker recalls and firmware updates. When it no longer holds a useful charge, take it to a battery recycling site; never put it in the trash."
+      }
+    ],
+    "warnings": [
+      "Never plug a power station into a wall outlet to power your house - it backfeeds the wiring and can start fires or hurt utility workers.",
+      "Do not charge or run it on beds, couches, or carpets, or cover its vents.",
+      "Stop using it if it swells, smells, hisses, or overheats.",
+      "Never charge it from a car that is running in a garage or enclosed space."
+    ],
+    "proTips": [
+      "Buy for watt-hours first, then make sure output watts cover your biggest load.",
+      "Test your CPAP or fridge on the station at home to learn real runtime before an outage.",
+      "Pair a power station with a small generator - recharge fast, then shut the engine off.",
+      "Keep it at least 80 percent charged during hurricane and winter storm seasons."
+    ],
+    "relatedGuides": [
+      "power-009",
+      "power-006",
+      "power-010",
+      "home-013",
+      "power-001"
+    ],
+    "source": "UL Solutions / NFPA / SC State Fire Marshal / U.S. DOE",
+    "sources": [
+      {
+        "title": "Portable Power Pack Testing (UL 2743)",
+        "publisher": "UL Solutions",
+        "url": "https://www.ul.com/services/portable-power-pack-testing",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lithium-Ion Battery Safety",
+        "publisher": "South Carolina Office of the State Fire Marshal",
+        "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NFPA's Fire Prevention Week Addresses Lithium-Ion Batteries in Your Home",
+        "publisher": "ANSI (NFPA member update)",
+        "url": "https://www.ansi.org/standards-news/member-updates/10-3-25-nfpas-fire-prevention-week-addresses-lithium-ion-batteries-in-your-home",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Estimating Appliance and Home Electronic Energy Use",
+        "publisher": "U.S. Department of Energy, Energy Saver",
+        "url": "https://www.energy.gov/node/365749",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not expect a power station to run central air, electric heat, an electric range, or a well pump for long.",
+      "Do not rely on one as the only power for life-sustaining medical equipment - also plan a backup and tell your utility and doctor."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The power is out and you have, or are buying, a portable power station.",
+      "immediate": [
+        "Set it on a hard, dry surface with clear vents, away from things that burn.",
+        "Power medical devices, phones, and lights first; use USB and DC ports when possible.",
+        "Turn off the AC inverter when nothing needs it."
+      ],
+      "then": [
+        "Recharge from solar during the day or from a generator for an hour or two.",
+        "Run a refrigerator in short blocks to stretch the charge."
+      ]
+    }
+  },
+  {
+    "id": "power-008",
+    "category": "power",
+    "title": "Using Your Car or EV as a Power Source",
+    "priority": "critical",
+    "tags": [
+      "power",
+      "vehicle",
+      "ev",
+      "inverter",
+      "v2l",
+      "v2h",
+      "carbon-monoxide"
+    ],
+    "summary": "Use a gas car, hybrid, or electric vehicle to charge devices and run small loads during an outage - with the right inverter, a safe setup, and no carbon monoxide risk.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Put CO safety first",
+        "body": "A running gas or diesel engine makes carbon monoxide (CO), the same deadly gas as a generator. Never run a vehicle in a garage, even with the garage door open - fumes build up fast. Park outdoors in open air, away from the house's doors, windows, and vents, with the tailpipe pointed away from the home. If you are sitting in the car with the engine running, first clear snow, mud, or debris away from the tailpipe and from under the car, because a blocked tailpipe can push CO into the cabin, and crack a window. Do not sleep in a running car. Make sure your home CO alarms work. If anyone gets a headache, dizziness, or nausea, get to fresh air and call 911."
+      },
+      {
+        "step": 2,
+        "title": "Use the 12-volt and USB ports for small loads",
+        "body": "The easiest power is already in the car. USB ports and the 12-volt outlet (the old cigarette lighter) can charge phones, radios, power banks, and laptops. Most 12-volt outlets are fused around 10 to 15 amps, which is about 120 to 180 watts - check your owner's manual. On many cars these outlets work only with the key on. To protect a gas car's starter battery, charge with the engine running, and stop when you are done. Charge several power banks at once so the family can use power later without the car running."
+      },
+      {
+        "step": 3,
+        "title": "Add an inverter for AC devices",
+        "body": "A plug-in inverter turns 12-volt DC into 120-volt AC. Small inverters (about 150 W or less) can plug into the 12-volt outlet and run a laptop, a CPAP, or a small fan. Larger inverters must clip straight onto the battery with heavy cables and a fuse, and they need the engine running. Choose a pure sine wave model for medical devices and electronics. A typical car alternator can safely supply only part of its rated output to an inverter, so keep loads modest - think a few hundred watts, not a refrigerator plus a space heater. Run cords from the car to the house rather than bringing the car close to the house."
+      },
+      {
+        "step": 4,
+        "title": "Watch the battery and fuel",
+        "body": "With the engine off, a car battery can be drained in an hour or two by an inverter load and leave you unable to start the car. Run the engine while drawing more than a small load, or use a power station that you recharge from the car. Idling burns fuel - many cars use roughly a few tenths of a gallon to around half a gallon per hour, depending on the engine - so keep the tank above half full in storm season and plan your idling time. Hybrids can be a good option because the engine starts and stops on its own to recharge the high-voltage battery; read your owner's manual for how to set this up, and follow the same CO rules."
+      },
+      {
+        "step": 5,
+        "title": "Use EV vehicle-to-load (V2L) outlets",
+        "body": "Many newer electric vehicles and some hybrids and pickups have vehicle-to-load (V2L) outlets in the cabin or bed, or an adapter that plugs into the charge port and provides household outlets. These can often run a refrigerator, a few lights, chargers, and small tools at once, up to the limit in the owner's manual. An EV makes no exhaust, so there is no CO risk from the car itself, but it should still be parked outdoors or in a ventilated area per the manual. Set the vehicle's minimum battery level so you keep enough range to drive to a shelter or charger. Use heavy-duty outdoor cords to run power indoors."
+      },
+      {
+        "step": 6,
+        "title": "Know what V2H requires",
+        "body": "Vehicle-to-home (V2H) powers house circuits directly from the EV. It is not a plug-in trick: it requires a vehicle that supports two-way charging, special bidirectional charging equipment, and a controller that detects the outage and isolates your home from the grid so no power flows back onto utility lines. Your panel may need an upgrade, and a licensed electrician must install it to code. Never use an adapter or double-male cord to feed a house outlet from a car's outlets - that backfeeds the wiring and can electrocute line workers and start fires. If you are thinking about V2H, ask the vehicle maker and your utility what equipment they approve."
+      },
+      {
+        "step": 7,
+        "title": "Plan your vehicle power ahead",
+        "body": "Before an outage, read the owner's manual sections on outlets, inverters, idling, and (for EVs and hybrids) power export. Test your setup at home for an hour with the devices you actually need. Buy the correct inverter, heavy-duty outdoor cords, and cables now. Keep the gas tank or EV battery well charged when storms are forecast. Remember the vehicle may be needed for evacuation, so never drain it below what you need to reach safety. Store the inverter and cords in the car so they are ready when you are."
+      }
+    ],
+    "warnings": [
+      "Never run a vehicle in a garage, even with the door open - carbon monoxide builds up fast.",
+      "Clear snow and debris from the tailpipe before running the engine, and never sleep in a running car.",
+      "Never feed a house outlet from a car or EV with an adapter or double-male cord - it backfeeds and can kill utility workers.",
+      "Do not drain the vehicle so far that you cannot evacuate."
+    ],
+    "proTips": [
+      "Charging power banks from the car while running errands gives you power that is safe to use indoors later.",
+      "A small pure sine inverter in the glovebox can run a CPAP or laptop in a pinch.",
+      "Set your EV's power-export minimum to keep enough range to reach a shelter.",
+      "Run cords to the house - keep the vehicle well away from windows and doors."
+    ],
+    "relatedGuides": [
+      "power-003",
+      "power-007",
+      "medical-047",
+      "home-006",
+      "power-010"
+    ],
+    "source": "CDC / Mass.gov / WA DOH / U.S. DOE",
+    "sources": [
+      {
+        "title": "Carbon Monoxide Winter Safety",
+        "publisher": "Commonwealth of Massachusetts",
+        "url": "https://www.mass.gov/doc/carbon-monoxide-winter-safety/download",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Carbon Monoxide Safety",
+        "publisher": "Washington State Department of Health",
+        "url": "https://doh.wa.gov/uk/node/6444",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Prevent Carbon Monoxide Poisoning",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/prevent-carbon-monoxide-poisoning.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Bidirectional Charging 101: Vehicle-to-Home",
+        "publisher": "Tesla (manufacturer)",
+        "url": "https://tesla.com/learn/bidirectional-charging-vehicle-to-home",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "EVs can be used to power home devices during emergencies",
+        "publisher": "Atlanta News First",
+        "url": "https://www.atlantanewsfirst.com/2024/09/25/evs-can-be-used-power-home-devices-during-emergencies/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not idle a gas vehicle if it cannot sit in open air away from the house, or if the tailpipe area cannot be kept clear.",
+      "Do not use the vehicle as a power source if you may need it to evacuate and fuel or charge is low."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The power is out and your car, hybrid, or EV is your best power source.",
+      "immediate": [
+        "Park outdoors, away from the house - never in a garage.",
+        "Clear the tailpipe of snow or debris before idling a gas car.",
+        "Charge phones and power banks from USB or 12-volt ports with the engine running."
+      ],
+      "then": [
+        "Use a pure sine inverter or EV V2L outlets for small AC loads.",
+        "Keep enough fuel or charge to evacuate; never backfeed a house outlet."
+      ]
+    }
+  },
+  {
+    "id": "power-009",
+    "category": "power",
+    "title": "Calculating Your Household's Emergency Power Needs",
+    "priority": "beginner",
+    "tags": [
+      "power",
+      "planning",
+      "watts",
+      "watt-hours",
+      "surge",
+      "load-calculation"
+    ],
+    "summary": "Work out how many watts, watt-hours, and surge watts your must-run devices need, so you can buy the right generator, power station, or battery bank instead of guessing.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Learn three numbers",
+        "body": "Watts (W) measure how much power a device uses right now. Watt-hours (Wh) measure how much energy it uses over time: watts x hours. A 50 W fan running 4 hours uses 200 Wh. 1,000 Wh is one kilowatt-hour (kWh), the unit on your electric bill. Surge watts are the short burst some devices pull when they start - motors in refrigerators, freezers, pumps, and air conditioners can briefly need two to three times their running watts. A generator or inverter must cover your running watts plus the biggest surge. A battery or power station must hold enough watt-hours to last until you can recharge."
+      },
+      {
+        "step": 2,
+        "title": "Find each device's watts",
+        "body": "The DOE suggests three ways. First, read the nameplate on the back or bottom of the device - it shows the maximum power it can draw, which is often more than it uses on average. Second, if the label shows only amps, multiply amps by volts (120 volts for most U.S. household plugs, 240 for large appliances like dryers and electric ranges). A device labeled 1.5 A at 120 V draws up to 180 W. Third, and best, use a plug-in electricity usage monitor (about $25 to $50) to measure real use, especially for refrigerators and freezers that cycle on and off. These monitors work only on 120-volt plug-in devices."
+      },
+      {
+        "step": 3,
+        "title": "List only must-run loads",
+        "body": "Walk through the house and write down what you truly need in an outage, in priority order: medical devices (CPAP, oxygen concentrator, medication fridge), communications (phones, radio, router), some lighting, food cold storage, water (well pump), and heat or cooling needs like a furnace blower or fans. Note each device's running watts, its starting surge if it has a motor, and how many hours a day you will run it. Leave off things you can live without for a week - TVs, game systems, electric ovens, hair dryers, and electric space heaters use huge amounts of power and will dictate a much bigger system."
+      },
+      {
+        "step": 4,
+        "title": "Total your daily watt-hours",
+        "body": "For each device, multiply watts by hours used per day. Example: LED lights 20 W x 5 hours = 100 Wh; phones and radio 15 W x 4 hours = 60 Wh; Wi-Fi router 10 W x 12 hours = 120 Wh; CPAP 40 W x 8 hours = 320 Wh; refrigerator measured with a monitor at 1,400 Wh per day. Total: about 2,000 Wh (2 kWh) per day. For devices that cycle, like refrigerators, use a measured daily number or the yearly kWh on its EnergyGuide label divided by 365. Then multiply by 1.2 to 1.25 to cover inverter and wiring losses. In this example you need about 2,500 Wh per day."
+      },
+      {
+        "step": 5,
+        "title": "Find your peak running and surge watts",
+        "body": "Now figure out the most power you will draw at one moment. Add the running watts of everything that could be on at the same time. Then add the extra starting surge of the single largest motor, because two motors rarely start at the exact same instant. Example: refrigerator 150 W running plus lights, router, and CPAP 90 W equals 240 W; the fridge might surge to roughly 600 to 1,200 W for a second when it starts. Your inverter or generator must handle that surge. If you add a well pump, check its nameplate - many need a few thousand surge watts and run on 240 volts, which most small units cannot supply."
+      },
+      {
+        "step": 6,
+        "title": "Turn the numbers into equipment",
+        "body": "Use your totals to shop. Generator: running rating above your peak running watts, starting rating above peak plus surge, and plan to run it at about half to three-quarters load (guide power-003). Power station or battery bank: usable watt-hours at least equal to one day of use, or several days if you cannot recharge every day (guides power-007 and power-002). Solar: enough panel output to replace your daily watt-hours in your worst month (guide power-001). Inverter: continuous rating above peak running watts with 20 percent margin, surge rating above your biggest motor start (guide power-005)."
+      },
+      {
+        "step": 7,
+        "title": "Cut the load, then re-check",
+        "body": "The cheapest power is the power you do not use. Swap remaining bulbs to LED. Run the refrigerator in blocks and keep doors shut. Unplug devices that draw power while off. Use a CPAP without the heated humidifier if your doctor agrees. Cool with fans instead of AC where safe. Each change can shrink the system you need. Write your final list - device, watts, surge, hours, watt-hours - on one page and keep it with your power gear and in this app's notes. Re-measure once a year or when you replace an appliance."
+      }
+    ],
+    "warnings": [
+      "Do not size a generator or inverter on running watts alone - motor surges can trip or damage an undersized unit.",
+      "Electric space heaters, ovens, and dryers use thousands of watts - most portable systems cannot run them safely.",
+      "Nameplate ratings are maximums; measure cycling appliances for real daily use."
+    ],
+    "proTips": [
+      "A plug-in watt meter pays for itself the first time it keeps you from buying the wrong generator.",
+      "Use the yearly kWh on an EnergyGuide label divided by 365 for a quick daily fridge estimate.",
+      "Keep your load list in your phone and printed with your power gear.",
+      "Plan for 3 days first, then expand to 7 or 14."
+    ],
+    "relatedGuides": [
+      "power-003",
+      "power-007",
+      "power-001",
+      "power-005",
+      "home-013"
+    ],
+    "source": "U.S. DOE Energy Saver",
+    "sources": [
+      {
+        "title": "Estimating Appliance and Home Electronic Energy Use",
+        "publisher": "U.S. Department of Energy, Energy Saver",
+        "url": "https://www.energy.gov/node/365749",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Balance-of-System Equipment Required for Renewable Energy Systems",
+        "publisher": "U.S. Department of Energy, Energy Saver",
+        "url": "https://www.energy.gov/energysaver/articles/balance-system-equipment-required-renewable-energy-systems",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Power Outages (P-2143)",
+        "publisher": "FEMA / Ready.gov (hosted by Dallas County)",
+        "url": "https://dallascounty.org/Assets/uploads/docs/hsem/be-prepared/printable-resources/en/ready-gov_power-outage-en.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use rough estimates alone for life-sustaining medical equipment - get the exact power figures from the device maker or supplier."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are deciding what generator, power station, or battery you need for an outage.",
+      "immediate": [
+        "List must-run devices with watts, surge watts, and daily hours.",
+        "Multiply watts by hours and total the watt-hours per day.",
+        "Find peak running watts plus the largest single motor surge."
+      ],
+      "then": [
+        "Add 20 to 25 percent for losses and buy equipment that exceeds your totals.",
+        "Cut loads where you can and re-check the numbers yearly."
+      ]
+    }
+  },
+  {
+    "id": "power-010",
+    "category": "power",
+    "title": "Keeping Phones, Radios, and Small Devices Charged Off-Grid",
+    "priority": "critical",
+    "tags": [
+      "power",
+      "phone",
+      "charging",
+      "radio",
+      "power-bank",
+      "conservation",
+      "communications"
+    ],
+    "summary": "Keep your phones, weather radio, flashlights, and other small devices running for days without grid power by charging early, saving battery, and rotating every charging source you have.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Charge everything before it hits",
+        "body": "FEMA's first outage tip is simple: keep mobile phones and other electronics charged. When a storm or shutoff is forecast, charge every phone, power bank, power station, laptop, headlamp, and rechargeable battery to full. Fill the car's gas tank or EV battery, since the car is a charger too. Put fresh batteries in the weather radio and flashlights. Download offline maps, important documents, and this app's content while you still have internet. Write key phone numbers on paper in case a phone dies. This hour of prep can give you days of power."
+      },
+      {
+        "step": 2,
+        "title": "Put phones in power-saving mode",
+        "body": "Once the power goes out, cut phone drain right away. Turn on low-power or battery-saver mode. Turn screen brightness down and shorten the screen timeout. Close apps you are not using, and turn off Bluetooth, Wi-Fi (if there is no working network), and location services you do not need. When the cell signal is weak, a phone burns power hunting for towers, so use airplane mode between check-ins and turn it on only at set times, like every two hours. Text messages use less power and often get through when calls fail. Limit video and social media - they drain batteries fast."
+      },
+      {
+        "step": 3,
+        "title": "Set a household charging order",
+        "body": "Decide what gets power first and stick to it. A good order is: medical devices, then at least one phone per household for 911 and alerts, then the weather radio, then lights, then everything else. Choose one phone as the family's emergency phone and keep it charged above half, mostly in airplane mode. Use other phones for normal use until they die. Hand out power banks so no one runs a phone to zero. Keep a simple log on paper of what was charged and when, so you are not guessing which bank is full."
+      },
+      {
+        "step": 4,
+        "title": "Rotate every charging source",
+        "body": "Use the cheapest, safest source first. During the day, refill power banks from a solar panel in full sun. Charge from a power station's USB or DC ports instead of its AC outlets to save energy. If you run a generator, charge everything during its run time. When you drive or the car is running outdoors, charge banks from its USB or 12-volt ports - never idle a car in a garage. Keep a hand-crank radio as the last resort. Look for community charging stations at shelters, libraries, or fire stations that local officials announce."
+      },
+      {
+        "step": 5,
+        "title": "Keep your weather radio running",
+        "body": "A NOAA weather radio is your most reliable source of warnings when cell and internet go down. Choose one with battery backup, as the National Weather Service advises, and keep spare batteries for it. Turn it on for scheduled updates rather than all day, or leave it in alert mode, which uses little power and sounds an alarm only for warnings in your programmed area. Set it near a window for better reception. AM radio stations also carry emergency news and can travel far at night."
+      },
+      {
+        "step": 6,
+        "title": "Charge lithium devices safely",
+        "body": "Charging many devices at once in a dark house raises the fire risk. Charge on a hard surface like a table or counter, not on beds, couches, or under pillows. Use the cables and chargers that came with your devices or maker-approved ones. Unplug when full. Do not charge lithium batteries in freezing cold or extreme heat; fire officials advise staying between about 32 F (0 C) and 105 F (40 C). Keep a working smoke alarm. Stop using any battery that swells, leaks, smells, or gets hot, move it away from things that burn if safe, and call 911 if it catches fire."
+      },
+      {
+        "step": 7,
+        "title": "Use AA and AAA batteries smartly",
+        "body": "Simple devices that run on AA or AAA batteries - flashlights, headlamps, radios, and some lanterns - are easy to keep running. Store a supply of alkaline batteries (they keep for years) and check their dates. Rechargeable NiMH cells are great if you have a USB or solar charger for them. Keep batteries in their packaging or a case so the ends cannot touch metal and short out. Remove batteries from devices you will store for a long time to prevent leaks. Stick to the battery types each device's maker lists."
+      }
+    ],
+    "warnings": [
+      "Never charge devices from a car idling in a garage - carbon monoxide can kill.",
+      "Do not charge lithium devices on beds or couches or leave swollen batteries in use.",
+      "Do not let every phone in the house die at once - keep one reserved for emergency calls."
+    ],
+    "proTips": [
+      "Airplane mode between scheduled check-ins can stretch a phone charge to several days.",
+      "Charge power banks by day from solar, and phones by night from the banks.",
+      "Keep a paper list of key phone numbers in your wallet and kit.",
+      "A cheap USB charger for AA NiMH cells lets your solar panel run flashlights too."
+    ],
+    "relatedGuides": [
+      "power-006",
+      "power-007",
+      "power-008",
+      "comms-001",
+      "tools-011"
+    ],
+    "source": "FEMA Ready.gov / NWS / NFPA / SC State Fire Marshal",
+    "sources": [
+      {
+        "title": "Power Outages (P-2143)",
+        "publisher": "FEMA / Ready.gov (hosted by Dallas County)",
+        "url": "https://dallascounty.org/Assets/uploads/docs/hsem/be-prepared/printable-resources/en/ready-gov_power-outage-en.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NOAA Weather Radio - General Information (FAQ)",
+        "publisher": "National Weather Service, Wilmington OH",
+        "url": "https://www.weather.gov/iln/nwr_faq",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lithium-Ion Battery Safety",
+        "publisher": "South Carolina Office of the State Fire Marshal",
+        "url": "https://www.firesafe.sc.gov/weekly/LithiumIonBatterySafety.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NFPA's Fire Prevention Week Addresses Lithium-Ion Batteries in Your Home",
+        "publisher": "ANSI (NFPA member update)",
+        "url": "https://www.ansi.org/standards-news/member-updates/10-3-25-nfpas-fire-prevention-week-addresses-lithium-ion-batteries-in-your-home",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not stay home just to keep devices charged if officials order an evacuation - take your chargers and go."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The power is out and you need phones, a radio, and lights to last for days.",
+      "immediate": [
+        "Turn on low-power mode and lower screen brightness on every phone.",
+        "Reserve one phone for emergency calls and keep it in airplane mode between check-ins.",
+        "Turn on the NOAA weather radio in alert mode."
+      ],
+      "then": [
+        "Recharge power banks from solar, a power station, a generator, or the car - outdoors only.",
+        "Charge on hard surfaces and stop using any swollen or hot battery."
+      ]
+    }
+  },
+  {
+    "id": "power-011",
+    "category": "power",
+    "title": "Storing Propane, Kerosene, and Other Heating Fuels Safely",
+    "priority": "critical",
+    "tags": [
+      "power",
+      "fuel",
+      "propane",
+      "kerosene",
+      "heating",
+      "storage",
+      "carbon-monoxide",
+      "fire-safety"
+    ],
+    "summary": "Store and handle propane, kerosene, white gas, and charcoal for outage heating and cooking without fires, explosions, mix-ups, or carbon monoxide poisoning.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Check your local rules",
+        "body": "How much heating fuel you may store, and which heaters are legal indoors, is set by your state and local fire code, and the rules differ. For example, one Utah fire department following the International Fire Code limits portable propane at a home to 25 gallons total (about five 20-pound cylinders) kept in a detached garage or shed, and allows only two 1-pound camping cylinders inside the home or attached garage under NFPA 58. Massachusetts does not allow unvented kerosene heaters at all. Call your fire department and ask what applies to you before you stock up. Empty cylinders and cans usually count as full."
+      },
+      {
+        "step": 2,
+        "title": "Store propane cylinders outdoors and upright",
+        "body": "Keep propane cylinders outside, never inside the house, basement, or garage. Propane is heavier than air, so a leak flows down and collects in low spots where a pilot light or switch can ignite it. Store cylinders upright on a firm, level, non-flammable surface such as concrete, in a shaded, ventilated spot away from doorways, foot traffic, and vehicles. Upright storage keeps the relief valve in vapor, not liquid. Close the valve tightly and keep the safety cap or plug on when the cylinder is not connected. Keep propane at least 10 feet from gasoline and other flammable liquids. Never leave a cylinder in a hot car."
+      },
+      {
+        "step": 3,
+        "title": "Store kerosene in the right can, away from gasoline",
+        "body": "CPSC says to use only water-clear 1-K grade kerosene in kerosene heaters, and to store it in a container made for kerosene - usually blue - that has never held gasoline. Never use gasoline or camp fuel in a kerosene heater; even a small amount mixed in can cause a fire or explosion. Store kerosene away from gasoline cans so no one grabs the wrong one in the dark, and label every container clearly. Keep it in a cool, ventilated, detached shed or garage, not in the house or basement. Kerosene keeps for a while but can pick up water and grow stale, so buy what you will use in a season."
+      },
+      {
+        "step": 4,
+        "title": "Refuel heaters and stoves outside",
+        "body": "Turn kerosene heaters off and let them cool completely before refueling, then carry them outdoors, away from anything that can burn, to fill them. Do not fill past the full mark - fuel needs room to expand as it warms. Change small propane cylinders on camp stoves and lanterns outdoors too, away from flames. Wipe spills before relighting. Keep a fire extinguisher (ABC) where you store and use fuel. Never refill disposable 1-pound propane cylinders - they are not designed for it - and dispose of empties through your local hazardous waste program."
+      },
+      {
+        "step": 5,
+        "title": "Use fuel-burning heat only where it is allowed",
+        "body": "Every flame makes carbon monoxide (CO). Only use heaters indoors that are labeled for indoor use and allowed by your local code, and follow the manual. CPSC advises running a kerosene heater with the room door open to the rest of the house, or with a window open about an inch if the room must be closed. Never sleep in a room with an unvented gas or kerosene heater. Keep all heaters at least 3 feet from beds, curtains, clothing, and furniture, and never leave them running unattended. Never use outdoor propane heaters, camp stoves, grills, or charcoal indoors, and never heat your home with a gas oven or stove."
+      },
+      {
+        "step": 6,
+        "title": "Install CO alarms and know a gas leak",
+        "body": "Put battery-operated or battery-backup CO alarms on every level and outside sleeping areas, and test them monthly. If a CO alarm sounds, or people feel headachy, dizzy, nauseous, or confused, get everyone outside to fresh air and call 911. Propane has a rotten-egg odor added so you can smell leaks. If you smell or hear gas, leave right away. Do not turn lights or appliances on or off, use phones, or light anything inside. Call the gas supplier or 911 from outside or a neighbor's home, and do not go back in until they say it is safe."
+      },
+      {
+        "step": 7,
+        "title": "Inspect, rotate, and dispose",
+        "body": "Before each heating season, check propane cylinders for dents, deep rust, bulges, or damaged valves, and do not use or refill a damaged one. Check the date stamp on the collar - a dealer will not refill a cylinder that is past its requalification date. Swap or refill cylinders at a licensed dealer. Use up kerosene from the prior season or take old fuel to hazardous waste collection. Store charcoal in a dry, covered metal can outdoors. Keep a written list of what fuel you have, where it is, and when you bought it, so you can rotate it and stay within your local limits."
+      }
+    ],
+    "warnings": [
+      "Never store propane cylinders inside a home, basement, or garage - leaking gas collects low and can explode.",
+      "Never put gasoline in a kerosene heater or store kerosene in a gas can.",
+      "Never use grills, camp stoves, outdoor heaters, or charcoal indoors or in a garage.",
+      "If you smell gas, leave immediately - do not touch switches or phones inside."
+    ],
+    "proTips": [
+      "Store each fuel type in its own color-coded container and its own spot.",
+      "Keep propane cylinders in a shaded outdoor cage or on a concrete pad, upright, valve closed.",
+      "Buy only 1-K kerosene and ask the dealer to confirm the grade.",
+      "Put a CO alarm in any room where a fuel-burning heater is used."
+    ],
+    "relatedGuides": [
+      "power-004",
+      "home-006",
+      "medical-047",
+      "power-003"
+    ],
+    "source": "CPSC / NFPA 58 / local fire code",
+    "sources": [
+      {
+        "title": "What You Should Know About Kerosene Heaters (Publication 5052)",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/s3fs-public/5052.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "As Winter Storms Threaten Millions in the US, CPSC Issues Safety Tips to Help Families Prevent Carbon Monoxide Poisoning and Fires",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://cpsc.gov/Newsroom/News-Releases/2026/As-Winter-Storms-Threaten-Millions-in-the-US-CPSC-Issues-Safety-Tips-to-Help-Families-Prevent-Carbon-Monoxide-Poisoning-and-Fires",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Home Fuel Storage Limits",
+        "publisher": "Bluffdale City Fire Department (Utah)",
+        "url": "https://www.bluffdale.gov/880/Home-Fuel-Storage-Limits",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Storing Propane Cylinders",
+        "publisher": "Propane101",
+        "url": "https://propane101.com/propanecylinderstorage.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Carbon Monoxide Winter Safety",
+        "publisher": "Commonwealth of Massachusetts",
+        "url": "https://www.mass.gov/doc/carbon-monoxide-winter-safety/download",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use an unvented fuel heater indoors where local code bans it, or in any room where people sleep.",
+      "Do not store more fuel than your local fire code allows, and never in living space."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are storing or using propane, kerosene, or other fuels to heat or cook during an outage.",
+      "immediate": [
+        "Keep propane cylinders outdoors, upright, valves closed - never in the house or garage.",
+        "Use only 1-K kerosene from a blue kerosene can; never gasoline.",
+        "Refuel heaters outdoors after they cool."
+      ],
+      "then": [
+        "Make sure CO alarms work on every level before using any fuel-burning heater.",
+        "If you smell gas, leave and call from outside."
+      ]
+    }
   }
 ]

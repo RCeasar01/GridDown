@@ -1,0 +1,136 @@
+{
+  "id": "checklist-wildfire",
+  "title": "Wildfire",
+  "disasterType": "wildfire",
+  "description": "Use this list before fire season to harden your home, plan your exit, and protect your lungs from smoke - then leave early when fire threatens.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Ready, Set, Go! Program",
+      "publisher": "International Association of Fire Chiefs",
+      "url": "https://www.iafc.org/topics-and-tools/resources/resource/ready-set-go-program",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Wildfire information sheet (Ready.gov)",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.dallascounty.org/Assets/uploads/docs/hsem/be-prepared/printable-resources/en/ready-gov_wildfire-en.pdf",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "When Smoke Is in the Air",
+      "publisher": "U.S. EPA AirNow",
+      "url": "https://www.airnow.gov/wildfires/when-smoke-is-in-the-air/",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Firewise USA Immediate Noncombustible Zone Fact Sheet",
+      "publisher": "Texas A&M Forest Service / NFPA Firewise",
+      "url": "https://tfsweb.tamu.edu/wp-content/uploads/2025/01/FirewiseFactSheetsImmediateNoncombustible-Zone_wLogo.pdf",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "wf-001",
+      "text": "Learn your evacuation zone and sign up for county emergency alerts",
+      "critical": true
+    },
+    {
+      "id": "wf-002",
+      "text": "Plan at least two ways out of your neighborhood and a meeting place outside the area",
+      "critical": true
+    },
+    {
+      "id": "wf-003",
+      "text": "Leave as soon as you are told - or sooner if you feel unsafe; do not wait to see flames",
+      "critical": true
+    },
+    {
+      "id": "wf-004",
+      "text": "Pack a go-bag for each person and pet and keep it by the door or in the car",
+      "critical": true
+    },
+    {
+      "id": "wf-005",
+      "text": "Keep NIOSH-approved N95 respirators for every person - cloth masks and bandanas do not block smoke",
+      "critical": true
+    },
+    {
+      "id": "wf-006",
+      "text": "Clear the first 5 feet (1.5 m) around the house of anything embers can ignite: mulch, leaves, firewood, doormats, woody shrubs",
+      "critical": true
+    },
+    {
+      "id": "wf-007",
+      "text": "Clean roofs and gutters and cover vents with 1/8-inch metal mesh",
+      "critical": true
+    },
+    {
+      "id": "wf-008",
+      "text": "Work outward to 100 feet (30 m): mow grass, space and trim trees and shrubs, remove dead plants",
+      "critical": false
+    },
+    {
+      "id": "wf-009",
+      "text": "Arrange early help for anyone who cannot drive, and move livestock early - they need much more time",
+      "critical": true
+    },
+    {
+      "id": "wf-010",
+      "text": "Practice leaving in 10 minutes with everyone and the pets",
+      "critical": false
+    },
+    {
+      "id": "wf-011",
+      "text": "On red flag days, park facing out with a full tank and the go-bag inside",
+      "critical": true
+    },
+    {
+      "id": "wf-012",
+      "text": "When fire is near: close windows, vents, and doors, leave doors unlocked, move patio furniture and cushions away, and turn on outside lights",
+      "critical": false
+    },
+    {
+      "id": "wf-013",
+      "text": "Connect garden hoses but do not leave sprinklers running - it drains water pressure firefighters need",
+      "critical": false
+    },
+    {
+      "id": "wf-014",
+      "text": "Wear long sleeves, long pants, and boots of cotton or wool when leaving",
+      "critical": false
+    },
+    {
+      "id": "wf-015",
+      "text": "Know the trapped plan: call 911; in a car park away from plants, keep windows closed, and get low under a wool blanket",
+      "critical": true
+    },
+    {
+      "id": "wf-016",
+      "text": "Set up a clean room with a portable air cleaner sized for the room - never an ozone generator",
+      "critical": false
+    },
+    {
+      "id": "wf-017",
+      "text": "Keep MERV 13 filters for central air (or to build a box-fan air cleaner) for smoke days",
+      "critical": false
+    },
+    {
+      "id": "wf-018",
+      "text": "Check the Air Quality Index on AirNow and limit time outdoors when it is high",
+      "critical": false
+    },
+    {
+      "id": "wf-019",
+      "text": "Ask your fire department or state forestry agency about a free home wildfire assessment",
+      "critical": false
+    },
+    {
+      "id": "wf-020",
+      "text": "After the fire, return only when officials say it is safe; children and people with heart or lung disease should not do ash cleanup",
+      "critical": false
+    }
+  ]
+}

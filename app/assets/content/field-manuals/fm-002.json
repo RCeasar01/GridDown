@@ -2,77 +2,139 @@
   {
     "id": "fm-002",
     "category": "navigation",
-    "title": "Navigation by Map and Compass — Military Method",
+    "title": "Navigation by Map and Compass - Military Method",
     "priority": "critical",
-    "source": "US Army Field Manual (Public Domain)",
+    "source": "U.S. Army TC 3-25.26 / U.S. Marine Corps / NOAA NCEI",
     "tags": [
       "field-manual",
       "navigation",
       "compass",
       "map",
-      "military"
+      "military",
+      "resection",
+      "intersection",
+      "g-m angle",
+      "pace count"
     ],
-    "summary": "Military land navigation techniques adapted for civilian grid-down use — map orientation, contour reading, compass bearings, pace count, resection, and dead reckoning.",
+    "summary": "The Army and Marine Corps method for land navigation adapted for civilians: reading the map margin, converting between grid and magnetic azimuths, pace counting, resection, intersection, and planning legs with attack points and catching features.",
     "steps": [
       {
         "step": 1,
-        "title": "Map Orientation",
-        "body": "Orienting your map to the terrain is the foundation of land navigation. Method: place compass on map with direction-of-travel arrow pointing toward the top (true north) of the map; rotate the map and compass together until the compass needle aligns with the map's north. Critical step: apply declination correction for your region. US magnetic declination varies from approximately -20° (Pacific Northwest) to +20° (Northeast) — check your specific location at ngdc.noaa.gov/geomag. Failure to apply declination creates compounding positional error over distance. Practical habits: fold map accordion-style so only your current area of operations is exposed (reduces size, protects the rest); laminate or use map case in wet conditions; identify at least two visible ground control points (terrain features visible on both map and ground) before moving."
+        "title": "Read the margin and orient the map",
+        "body": "Start with the map margin: scale, contour interval, grid zone, and the declination diagram showing true north, grid north, and magnetic north. The angle between grid north and magnetic north is the G-M angle. To orient with a compass, lay its straight edge along a north-south grid line with the top toward the top of the map, then turn the map and compass together until the needle sits at the G-M angle shown in the diagram. To orient by terrain, line up two linear features - a road and a stream, for example - with the real ones in front of you. Two features keep you from orienting the map backwards."
       },
       {
         "step": 2,
-        "title": "Reading Contour Lines",
-        "body": "Contour lines connect points of equal elevation and are the key to reading terrain in 3D. Rules: (1) Each line represents a fixed elevation interval — check the map legend for the contour interval (commonly 20 or 40 feet on USGS topos); (2) V-shapes pointing uphill (toward higher numbers) = valleys or stream drainages; water flows in the direction the V points; (3) V-shapes pointing downhill = ridges or spurs projecting from high ground; (4) Depression contours have small tick marks pointing inward toward the low point; (5) Closely spaced contour lines = steep terrain (cliff if touching); widely spaced = gentle slope or flat; (6) A closed circle of contours = a hilltop or knob. Practice by identifying a known summit on your topo and tracing contours outward — this builds the mental translation between flat map and 3D terrain."
+        "title": "Get current declination - and get the direction right",
+        "body": "Magnetic declination changes over time, so the number printed on an old map can be several degrees off. Look up your location on NOAA's declination calculator (World Magnetic Model 2025, valid through 2029). East declination means the needle points east of true north; west means it points west. In late 2026 the model gives roughly 15 degrees east near Seattle, about 9 degrees east in eastern Montana, near zero across the central Plains, about 8 degrees west in central North Carolina, and about 14 degrees west near Boston. The western U.S. has east declination; the eastern U.S. has west declination. Many old manuals and charts get this backwards - check before you trust them."
       },
       {
         "step": 3,
-        "title": "Taking a Compass Bearing",
-        "body": "Procedure for shooting a bearing to a destination: (1) Point the direction-of-travel arrow on your compass baseplate toward your destination; (2) Rotate the bezel (rotating housing) until the orienting arrow aligns with the magnetic needle — needle must be inside the orienting arrow, not 180° off; (3) Read the bearing at the index line on the bezel — this is your magnetic bearing. Declination adjustment: apply your region's declination to convert to a true bearing if your map uses true north. Use the memory rule 'East is Least, West is Best': in eastern US (easterly declination), subtract declination from your magnetic bearing to get true; in western US (westerly declination), add declination. Back-bearing (used to confirm you came from the right direction) = bearing ± 180°. Travel technique: shoot bearing, pick a distant landmark on that bearing, navigate to it, re-shoot. Never stare at compass while walking."
+        "title": "Convert between map and compass",
+        "body": "A bearing measured on the map is a grid (or true) azimuth; your compass reads magnetic. Map to compass: if magnetic north is east (right) of grid north, subtract the G-M angle; if west (left), add it. Compass to map: do the opposite. The Army memory aid is LARS for map-to-compass: Left Add, Right Subtract. Example in central North Carolina, G-M angle about 8 degrees west: a map bearing of 090 becomes a compass bearing of 098. In Seattle, about 15 degrees east: a map bearing of 090 becomes 075. Always re-check the sign with the diagram; if your compass has adjustable declination, set it once and skip the math."
       },
       {
         "step": 4,
-        "title": "Pace Count",
-        "body": "Pace count measures distance traveled on foot with no electronic aids. Calibration: walk a measured 100-meter course and count every time your LEFT foot strikes the ground; this is your pace count for 100 meters. Average adult is 62–66 paces per 100m on flat terrain. Record your personal count on compass housing with a paint pen or tape. Adjustments for terrain: add 15–20% for steep uphill; add 10% for dense brush or snow; add 5–10% for carrying heavy load; downhill pace count is generally slightly lower. Tracking method: ranger beads (9 beads on upper strand = hundreds of meters, 4 beads on lower strand = thousands of meters); slide one bead per 100m traveled. Limitations: pace count is cumulative-error-prone over long distances — verify against terrain features every 500m when possible and reset from a confirmed position."
+        "title": "Measure and shoot azimuths",
+        "body": "On the map, draw a line from your position to the target, lay a protractor or the compass baseplate along it with north aligned to a grid line, and read the grid azimuth. Convert to magnetic. On the ground, use the compass-to-cheek method on a lensatic compass for accuracy, or center-hold for speed and darkness. Stay clear of metal: Marine Corps training lists about 55 m from high-tension lines, 18 m from vehicles, 10 m from barbed wire, 2 m from a machine gun, and half a meter from a rifle. Back azimuth: add 180 if under 180, subtract 180 if 180 or more."
       },
       {
         "step": 5,
-        "title": "Resection — Finding Your Position",
-        "body": "Resection is the technique for determining your unknown position using known landmarks. Procedure: (1) Identify at least 3 landmarks visible both on your map and on the ground (hilltops, road intersections, tower structures); (2) Shoot a compass bearing TO each landmark; (3) Add or subtract 180° to each bearing to get the back-bearing FROM each landmark; (4) Draw a line on your map from each landmark along its back-bearing (use a straight edge through the landmark in the back-bearing direction); (5) The intersection of the 3 lines is your location. A 'triangle of error' (small triangle rather than perfect intersection) is normal — you are somewhere inside it; a small triangle indicates high accuracy. Refine by identifying which triangle corner best matches your view of surrounding terrain. Note: resection requires you to positively identify each landmark on both map and ground — misidentification produces wildly incorrect results."
+        "title": "Count paces and track them",
+        "body": "A pace is one full stride, counted each time the same foot strikes - about 30 inches for an average soldier. Marine training gives an average of 60 to 75 paces per 100 m; walk a measured 100 m course several times to find yours. Your pace shortens going uphill, into wind, on sand, mud, or snow, in rain or snow, in heavy clothing, and in fog or darkness; it lengthens downhill and with a tailwind. Track distance with pace beads: a strand of 9 beads, one moved per 100 m, and a separate strand of 4 beads, one moved per kilometer. After the ninth 100 m bead, the next 100 m completes a kilometer: reset the 9 and move one kilometer bead."
       },
       {
         "step": 6,
-        "title": "Dead Reckoning",
-        "body": "Dead reckoning projects your position forward from a known starting point using bearing and distance. Method: (1) Start from a confirmed known position on the map; (2) Travel on a precise compass bearing for a measured distance (pace count); (3) Plot each leg on the map — distance in pace count converted to map scale, direction per bearing; (4) Your estimated position is the end of the plotted leg. Multi-leg dead reckoning: record each leg as a vector (bearing + distance) in a navigation log; cumulative error grows with each successive leg, so confirm against terrain features whenever possible and reset the dead reckoning from the confirmed point. Error management: aim-off deliberately toward a known line feature (road, river, fence line) rather than a point target — when you hit the line feature you know which direction to turn. This eliminates the 'did I overshoot or undershoot?' problem at the destination."
+        "title": "Find your location by resection",
+        "body": "Resection finds where you are from known landmarks. Orient the map. Identify two or three features you can see on both the ground and map, preferably 60 to 120 degrees apart. Shoot a magnetic azimuth to each, convert to grid, then find the back azimuth. From each landmark on the map, draw a line along its back azimuth. Where the lines cross is your position. Three lines usually form a small 'triangle of error' - you are inside it. Modified resection: if you are on a known linear feature, like a road or river, one back-azimuth line crossing that feature gives your position."
+      },
+      {
+        "step": 7,
+        "title": "Locate a distant point by intersection",
+        "body": "Intersection finds an unknown point you can see, such as smoke, a signal, or a vehicle, from two known positions. From your first known spot, shoot an azimuth to the object, convert to grid, and draw that line on the map from your position. Move to a second known spot well to one side - ideally so the two lines cross at a wide angle - and repeat. Where the lines cross is the object. This is how you can give rescuers or your group a location for something you cannot reach."
+      },
+      {
+        "step": 8,
+        "title": "Plan legs with attack points and catching features",
+        "body": "The combination method uses both terrain and compass. Pick an attack point - an easy-to-find feature, ideally within about 400 m of your goal. Note collecting features along the way to check progress. Choose a catching feature past your goal, like a road or stream, so you know you overshot; if none exists, stop when you reach 150 percent of the planned pace count. For a goal on a linear feature, aim a few degrees to one side on purpose (deliberate offset) so you know which way to turn when you hit it."
       }
     ],
     "warnings": [
-      "Declination must be applied or positional error will grow to hundreds of meters over a few kilometers — always verify your local declination before the mission.",
-      "A compass held near metal objects, electric wires, or vehicles will give false readings — move at least 10 meters away from vehicles and 1 meter from personal metal gear before taking a bearing."
+      "Using the wrong sign for declination doubles your error instead of removing it. In the western U.S., magnetic north is east of true north; in the eastern U.S., it is west. Confirm with NOAA's calculator.",
+      "Declination printed on old maps can be badly outdated. Use the current World Magnetic Model value.",
+      "Misidentifying a landmark during resection produces a confident but wrong position. Use three landmarks and check that the result matches the terrain around you."
     ],
     "proTips": [
-      "Write your personal pace count and local declination directly on your compass housing with a fine-tip paint pen — it is always with you when you need it.",
-      "Practice resection in familiar terrain before you need it in an emergency. The skill requires repetition to execute quickly under stress."
+      "Write your pace count and current declination on tape on the compass.",
+      "Practice resection from your own neighborhood using water towers, radio towers, and church steeples.",
+      "When you report a location, state the grid zone or datum and how you got it, for example 'six-digit grid from resection, about 100 m accuracy.'"
     ],
     "relatedGuides": [
-      "fm-001",
-      "urban-004",
-      "tools-001"
+      "nav-001",
+      "nav-004",
+      "nav-007",
+      "nav-009",
+      "nav-012",
+      "urban-004"
     ],
-    "lastReviewed": "2025-01",
+    "sources": [
+      {
+        "title": "Lensatic Compass (B170249) Student Handout",
+        "publisher": "U.S. Marine Corps, The Basic School",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/B170249Lensatic%20Compass.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Map Reading and Land Navigation (FMSO 212)",
+        "publisher": "U.S. Marine Corps Training Command",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/FMTBE/Student%20Materials/FMSO%20Manual/212.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 3-25.26 Map Reading and Land Navigation (superseded by TC 3-25.26)",
+        "publisher": "U.S. Army",
+        "url": "https://ia601500.us.archive.org/28/items/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "World Magnetic Model",
+        "publisher": "NOAA National Centers for Environmental Information",
+        "url": "https://www.ncei.noaa.gov/products/world-magnetic-model",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Magnetic Field Calculators",
+        "publisher": "NOAA National Centers for Environmental Information",
+        "url": "https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
-    "prerequisites": [],
+    "prerequisites": [
+      "nav-001",
+      "nav-004"
+    ],
+    "whenNotTo": [
+      "Do not attempt long cross-country legs in bad weather or darkness if you can wait for better conditions.",
+      "Do not leave a safe position to navigate if you are injured, exhausted, or unsure of your start point - stay put and signal (see nav-008)."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to navigate using a topographic map and compass — GPS is unavailable and you must move to a specific destination",
+      "situation": "You must navigate with a topographic map and compass to a specific point, with no GPS.",
       "immediate": [
-        "Orient map: place compass on map, rotate both together until magnetic needle aligns with map north — apply local declination correction",
-        "Shoot bearing to destination: point travel arrow at target, rotate bezel until orienting arrow aligns with needle, read bearing at index line",
-        "Establish pace count on a known 100-meter stretch: count left-foot strikes — most adults average 62-66 paces per 100m"
+        "Orient the map with a compass or two linear features",
+        "Get current declination; west U.S. is east declination, east U.S. is west declination",
+        "Map to compass: Left (west) Add, Right (east) Subtract"
       ],
       "then": [
-        "Resection to find your position: shoot bearings to 3 known landmarks, take back-bearings, draw lines on map — intersection is your location",
-        "Use aim-off technique: target a line feature (road, river) to the left or right of your destination so you know which way to turn when you hit it"
+        "Track distance with pace count and pace beads",
+        "Use resection to fix your position and an attack point plus catching feature to find the goal"
       ]
     }
   }

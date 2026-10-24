@@ -8,113 +8,243 @@
       "comms",
       "signal",
       "mirror",
-      "rescue"
+      "rescue",
+      "aircraft",
+      "daylight"
     ],
-    "summary": "Use a signal mirror to attract aircraft and search parties from up to 10+ miles away.",
+    "summary": "Aim reflected sunlight at aircraft, boats, or distant searchers with a purpose-built or improvised mirror. A glass signal mirror is one of the longest-range daytime signals a survivor can carry, and it needs no batteries or fuel.",
     "steps": [
       {
         "step": 1,
-        "title": "Why signal mirrors work",
-        "body": "A mirror flash is one of the most visible rescue signals available to a survivor. Under good conditions, a mirror flash can be seen by an observer 10–15 miles away and by aircraft at much greater distances. The reflected sunlight produces a flash of approximately 1 million candlepower — far brighter than a flare at equivalent distances and with no consumable fuel."
+        "title": "Know when a mirror is your best signal",
+        "body": "A mirror works whenever the sun is out and you can see the target, or the part of the sky or horizon where a target might appear. It needs no batteries, makes no noise, and weighs about an ounce (28 g). Colorado Parks and Wildlife calls a glass military-style mirror the best daytime ground-to-air signal and says it can be seen 20 to 25 miles (32 to 40 km) away in good conditions; plan on 10 miles (16 km) or more as a safer working number. Haze, low sun, and thin overcast cut the range. A mirror is useless at night and in heavy overcast, so pair it with a light, whistle, and ground signal. Keep it on a lanyard around your neck so you can use it the moment you hear an engine."
       },
       {
         "step": 2,
-        "title": "Aim the mirror — with a purpose-built signal mirror",
-        "body": "A military signal mirror has a reflective grid/hole in the center. Hold the mirror close to your eye with the reflective side facing the sun. Look through the aiming hole at your target (aircraft, ship, person). A bright spot of reflected light will appear on surfaces near your target. Tilt and adjust the mirror until the bright spot from the hole is aimed at your target. When aligned, you are signaling the target."
+        "title": "Get to open, high ground with a clear view",
+        "body": "Move to the most open spot you can safely reach: a clearing, ridge, shoreline, gravel bar, or rooftop. Trees and terrain block both the sun and your line of sight. Before you need the mirror, face the direction aircraft are most likely to come from, such as along a valley, road, river, or the route you filed in your trip plan. Note where the sun is. The mirror works best when the sun is in front of you or off to one side. When the sun is behind you, the angle is steep and aiming is harder, but it can still work. Stay put once you pick a good site - searchers find people who stay in one visible place much faster than people who keep moving."
       },
       {
         "step": 3,
-        "title": "Aim the mirror — improvised",
-        "body": "Any reflective surface can work: phone screen, CD, metal pot lid, polished tin. Hold the reflective surface angled toward the sun. Extend your other hand at arm's length in front of you with two fingers forming a V (or create a small target area with your fingers). Position your hand so the target (aircraft, observer) appears between your fingers. Tilt the mirror until sunlight reflected from the mirror passes through your finger-V toward the target."
+        "title": "Aim a mirror that has a sighting hole",
+        "body": "Most commercial and military signal mirrors have a small hole or mesh grid in the center. Hold the mirror close to one eye, with the shiny side toward the target, and look at the target through the hole. You will see a small bright spot of light (often called the fireball) floating in the sighting grid or on your hand or face. Slowly tilt the mirror until that bright spot sits right on the target. The flash is now hitting the target. Keep the spot on the target and rock the mirror very slightly so the flash sweeps a little on either side. Read the instructions printed on the back of your mirror, because designs differ a little. Practice in your yard so you can do this in seconds."
       },
       {
         "step": 4,
-        "title": "Signal pattern",
-        "body": "Three flashes: the international distress signal (three of anything — three shots, three whistle blasts, three flashes). Alternate between signaling in the target direction and resting. If you can see an aircraft but cannot get the signal on it, continue attempting — aircraft often alter course to investigate unexplained flashes. Signal toward aircraft regardless of whether they appear to be searching for you."
+        "title": "Aim an improvised mirror with the finger-V method",
+        "body": "Any flat, shiny surface works: a phone screen, CD, compass mirror, polished metal lid, or foil stretched over cardboard. Glass mirrors reflect much better than metal. Stretch your free arm out and make a V with two fingers. Line up the target inside the V. Hold the mirror near your face and tilt it until the reflected sunlight lands on your fingers. Then raise the light spot so it just passes through the gap of the V toward the target. Flicking the spot on and off your fingers makes a flash the observer can see. Another method is to hold your other palm in front of the mirror, find the light spot on your palm, then slide your palm out of the way while holding the angle toward the target."
+      },
+      {
+        "step": 5,
+        "title": "Sweep the horizon even when you see nothing",
+        "body": "The Army and Air Force survival manual advises sweeping the horizon with a mirror in non-combat survival situations. Pilots and boat crews may notice a flash before you can see or hear them. Every few minutes, slowly sweep the flash along the horizon and across likely flight paths and roads. When you do see an aircraft, aim straight at it and give a series of flashes. Groups of three flashes, then a pause, is a common distress pattern, but steady, repeated flashing on the target matters more than a perfect count. Keep signaling until the aircraft clearly responds. A pilot may rock the wings, circle, or flash lights to show they have seen you."
+      },
+      {
+        "step": 6,
+        "title": "Back off once you are spotted",
+        "body": "Once an aircraft has clearly seen you, stop holding the flash on the cockpit. A strong flash can dazzle the pilot, especially during a low pass or landing. Instead, flash only now and then, or follow any directions given by the crew over a loudspeaker or radio. Switch to body signals or ground symbols to pass simple messages, such as whether you need medical help. If the aircraft leaves without acknowledging you, keep sweeping every few minutes - search patterns often bring aircraft back over the same area."
+      },
+      {
+        "step": 7,
+        "title": "Carry and care for the mirror",
+        "body": "Keep a glass signal mirror with a sighting hole in every kit: day pack, vehicle kit, and go-bag. Store it in a sleeve so the face does not scratch. A cracked or scratched mirror still works but at shorter range. Clean it with a soft cloth. Practice twice a year on a sunny day by flashing a friend's house, a sign, or a distant tree. If you are hiding from people who could hurt you, remember that a mirror flash gives away your location. Cover the mirror when you are not using it."
       }
     ],
     "warnings": [
-      "Do not use a signal mirror toward vehicles on the road at night — a mirror flash can temporarily blind a driver. On roads, signal upward toward the sky.",
-      "Signal mirrors are most effective with direct sunlight. Overcast skies significantly reduce range, though high overcast still allows limited signaling."
+      "Never flash a mirror into the eyes of drivers, pilots on final approach, or people nearby. A strong reflection can cause temporary blindness and a crash.",
+      "A mirror flash reveals your position to everyone who can see it. Cover it when not in use if hostile people may be nearby.",
+      "Do not rely on a mirror alone. It does nothing at night, in heavy overcast, or when the target is out of sight. Carry a whistle and a light too."
     ],
     "proTips": [
-      "A glass signal mirror is more reflective and effective than polished metal. The military issue glass signal mirror (MIL-S-18281) costs under $10 and should be in every survival kit.",
-      "Signal from the highest available terrain — elevation dramatically increases how far your signal can be seen and removes terrain obstructions."
+      "Glass military-style mirrors with a sighting grid outperform plastic and polished metal. They are inexpensive and weigh about an ounce.",
+      "Use a lanyard so you cannot drop the mirror while scrambling to aim at a passing aircraft.",
+      "Practice the finger-V method with your phone screen - it is the mirror you will most likely have if your kit is not with you.",
+      "A pilot may rock the wings in daylight to show they have seen you. Watch for it before you stop signaling."
     ],
     "relatedGuides": [
-      "comms-002",
+      "comms-015",
+      "comms-004",
       "comms-003",
-      "comms-004"
+      "comms-011"
     ],
-    "source": "FCC Emergency Communications Guidelines / ARRL Emergency Manual",
-    "lastReviewed": "2025-01",
+    "source": "FM 21-76-1 Survival, Evasion and Recovery / Colorado Parks and Wildlife",
+    "sources": [
+      {
+        "title": "FM 21-76-1 / AFTTP(I) 3-2.26 Survival, Evasion, and Recovery (Multiservice)",
+        "publisher": "U.S. Army / USMC / USN / USAF",
+        "url": "https://rmp.nc.gov/LCF/Publications/AL_Resources/Survival/Multi Service Survival Manual.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Survival Signals",
+        "publisher": "Colorado Parks and Wildlife",
+        "url": "https://cpw.state.co.us/learn/Pages/SurvivalSignal.aspx",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "International Ground-to-Air Signaling Code (cites FM 3-05.70)",
+        "publisher": "OFFGRID",
+        "url": "https://www.offgridweb.com/survival/international-ground-to-air-signaling-code",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "low",
     "prerequisites": [],
+    "whenNotTo": [
+      "At night or under heavy overcast - use a light, fire, or whistle instead.",
+      "When hostile people could see the flash and you are trying to stay hidden.",
+      "Toward road traffic or aircraft that are landing near you."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to signal rescuers at long range — a mirror flash is visible 10-15 miles on a clear day and far brighter than a flare",
-      "immediate": ["Get to the highest available terrain — elevation dramatically increases signal range", "Aim mirror toward aircraft: hold reflective surface toward sun, use finger-V at arm's length to frame target, tilt mirror until flash passes through your fingers toward target", "Flash three times (international distress signal), pause, repeat every few minutes"],
-      "then": ["Signal toward any aircraft regardless of whether it appears to be searching for you", "Any reflective surface works if no purpose-built mirror: phone screen, CD, polished tin, pot lid"]
+      "situation": "It is daytime, the sun is out, and you need aircraft, boats, or distant searchers to notice you.",
+      "immediate": [
+        "Move to the most open, high spot you can safely reach",
+        "Sight the target through the mirror's hole (or between a finger-V) and put the bright spot on it",
+        "Flash repeatedly at any aircraft, and sweep the horizon every few minutes when you see nothing"
+      ],
+      "then": [
+        "Once spotted, stop holding the flash on the cockpit and switch to body or ground signals",
+        "Keep the mirror on a lanyard and practice twice a year"
+      ]
     }
   },
   {
     "id": "comms-002",
     "category": "comms",
-    "title": "Emergency Radio — NOAA and HAM Basics",
+    "title": "Emergency Radio - NOAA and HAM Basics",
     "priority": "critical",
     "tags": [
       "comms",
       "radio",
       "NOAA",
-      "HAM",
+      "ham",
+      "FRS",
+      "GMRS",
+      "CB",
       "emergency"
     ],
-    "summary": "Use emergency radios to receive weather alerts and broadcast distress in a grid-down scenario.",
+    "summary": "An overview of the radios that keep working when phones fail: what to listen to, which two-way radio services need a license, and what the FCC rules really say about calling for help. Start here, then read the detailed guide for each radio type.",
     "steps": [
       {
         "step": 1,
-        "title": "NOAA Weather Radio",
-        "body": "NOAA Weather Radio All Hazards (NWR) broadcasts 24/7 on seven frequencies between 162.400 MHz and 162.550 MHz. These broadcasts include weather forecasts, warnings, watches, and emergency alerts for all hazard types. A dedicated NOAA weather radio receiver is the most reliable way to receive official emergency information. Many solar/crank emergency radios include NOAA band. During a grid-down scenario, NOAA broadcasts continue as long as transmitter infrastructure is intact."
+        "title": "Listen first: NOAA Weather Radio and broadcast stations",
+        "body": "Receiving is always legal and usually the most useful thing a radio does in a disaster. NOAA Weather Radio broadcasts warnings, watches, forecasts, and non-weather emergency messages 24 hours a day on seven VHF frequencies from 162.400 to 162.550 MHz. The network has more than 900 transmitters, and most listeners are within about 50 miles (80 km) of one. A receiver with the Public Alert logo, SAME county coding, and battery backup will wake you for warnings. Also keep an AM/FM radio, because local stations carry official instructions, shelter locations, and road closures. A hand-crank or solar radio with NOAA, AM, and FM covers all three. See comms-013 for alert setup."
       },
       {
         "step": 2,
-        "title": "FRS/GMRS radios",
-        "body": "Family Radio Service (FRS) handhelds are the standard consumer walkie-talkie. Channels 1–7 (shared FRS/GMRS), maximum 2 watts, line-of-sight range typically 0.5–2 miles in real-world terrain. Channel 1 (462.5625 MHz) is the most commonly monitored emergency channel in the US among general public. For group communication within a retreat or neighborhood, FRS provides simple, license-free communication. Channel 22A is reserved for emergency use."
+        "title": "Pick the right two-way radio for the job",
+        "body": "Four common services cover most family needs. FRS (Family Radio Service) handhelds need no license and suit short range within a neighborhood or campsite. GMRS uses the same frequency area with more power and repeaters, and needs an FCC license that covers your family; it costs $35 for 10 years with no test. CB (Citizens Band) needs no license and is common with truckers and off-roaders; channel 9 is set aside for emergencies and traveler help. Amateur (ham) radio needs a license with a written exam, but it reaches across town, across the state, or around the world. Each has its own guide: comms-007 (FRS/GMRS), comms-008 (CB), and comms-009 (ham)."
       },
       {
         "step": 3,
-        "title": "HAM radio — the long-range option",
-        "body": "Amateur (HAM) radio operators can communicate globally when all other infrastructure fails. In an emergency scenario, HAM operators often form nets (organized groups monitoring specific frequencies). Key frequencies: 146.520 MHz (national simplex calling frequency for 2m band — nationwide). 52.525 MHz (6m simplex calling). 7.200–7.300 MHz (40m voice, day/regional) and 14.225 MHz (20m voice, day/national). Receiving HAM broadcasts requires only a radio receiver — no license. Transmitting legally requires a license, though in a genuine life-threatening emergency, the FCC permits unlicensed transmission on any frequency."
+        "title": "Get FRS channel and power facts right",
+        "body": "FRS has 22 channels, all shared with GMRS. Channels 1-7 and 15-22 allow up to 2 watts. Channels 8-14 are limited to 0.5 watt, and the FCC says their usual range is under half a mile. No FRS channel is reserved for emergencies or for any one user - the FCC page says users must share and listen before talking. Older advice that one FRS channel is an official emergency channel is wrong. Your family or neighborhood should agree ahead of time on which channel to use, and many groups pick channel 1 or 3 simply by habit. Write your chosen channel and privacy code (if any) in your family plan."
       },
       {
         "step": 4,
-        "title": "Emergency broadcast protocol",
-        "body": "To broadcast distress on any radio: press and hold the push-to-talk button. State: MAYDAY MAYDAY MAYDAY (or PAN PAN for urgent non-life-threatening). Your name. Your position (GPS coordinates if available, described position if not). Nature of emergency. Number of people. Any special needs (medical, mobility). Release the button and listen. Repeat every few minutes. Channel 16 on marine VHF is the international distress channel, monitored by the Coast Guard."
+        "title": "Know the ham calling frequency and local repeaters",
+        "body": "Ham operators use calling frequencies where people listen for contacts. On the 2-meter band, 146.520 MHz FM is the widely used national simplex calling frequency (radio to radio, no repeater). Repeaters on hilltops or towers relay handheld signals across a county or more, and in disasters local groups such as ARES (Amateur Radio Emergency Service) often run organized nets on them. Look up your local repeaters and nets before an emergency, write them down, and program them into your radio. Anyone may listen to ham frequencies with a scanner or receiver; transmitting needs a license. See the repeater list in the app's reference section."
+      },
+      {
+        "step": 5,
+        "title": "Understand what the emergency rule really allows",
+        "body": "FCC rule 47 CFR 97.403 says nothing in the amateur rules stops an amateur station from using any means of radio communication at its disposal to send essential messages when life or property is under immediate threat and normal systems are not available. That rule is written for amateur stations. It is not a general permission for anyone to transmit on any frequency at any time. In a real life-or-death emergency with no other way to call for help, call for help on whatever radio you have, keep it short, and stop once help is on the way. Better yet, get licensed now so you can practice legally and know what you are doing when it counts."
+      },
+      {
+        "step": 6,
+        "title": "Use a simple distress call format",
+        "body": "On any radio: listen first so you do not talk over someone. Press and hold the talk button, wait one second, then speak slowly. Say 'Mayday, Mayday, Mayday' only for immediate danger to life; use 'Pan-pan' (three times) for urgent problems that are not yet life-threatening. Give who you are, where you are (address, landmarks, or GPS coordinates), what is wrong, how many people, and what help you need. Release the button and listen for at least 10 seconds. Repeat every few minutes. Marine VHF channel 16 is the distress channel for boats and is watched by the Coast Guard on coastal and many inland waters. comms-016 covers radio procedure in detail."
+      },
+      {
+        "step": 7,
+        "title": "Manage batteries and test monthly",
+        "body": "Radios draw far more current when transmitting than when listening, so listen most of the time and transmit briefly. Carry spare batteries of the right type, or a USB power bank and cable if your radio charges that way. Set a listening schedule with your group, for example the top of every hour for 10 minutes, so everyone can turn radios off in between. Test every radio once a month: check the battery, do a short radio check with a family member, and confirm NOAA reception. Keep a printed card in each radio bag with channels, frequencies, call signs, and your schedule."
       }
     ],
     "warnings": [
-      "Battery management is critical for emergency radios. At transmission, most radios draw 10–30× more power than in receive mode. Receive mode first, transmit mode only when necessary.",
-      "HAM radio requires a license to transmit under normal circumstances. Obtain a Technician class license (easiest — 35-question multiple choice) before you need the capability."
+      "No FRS channel is an official emergency channel. Do not count on strangers monitoring any particular channel.",
+      "Do not modify FRS radios or add power amplifiers to CB radios - both are illegal and can cause interference.",
+      "The FCC emergency rule in Part 97 applies to amateur stations. It does not give unlicensed people blanket permission to transmit anywhere.",
+      "Low-cost multi-band handhelds can transmit on frequencies you are not licensed for. Know what your radio is set to before pressing the button."
     ],
     "proTips": [
-      "The Baofeng UV-5R is a sub-$30 dual-band HAM radio popular in preparedness communities. It can also receive NOAA, FRS/GMRS frequencies. Get one before you need one — and get your HAM license.",
-      "Keep a list of pre-programmed frequencies: local repeaters, NOAA, FEMA/RACES frequencies for your county. Most radios require manual programming or a cable/software connection to pre-program."
+      "A weather radio with SAME coding lets you program only your county so it does not sound alarms for distant storms.",
+      "Agree on a family channel and a check-in schedule now - radios are useless if everyone is listening on different channels at different times.",
+      "Search for your county ARES or RACES group; they often welcome new licensees and can tell you which repeaters are used in disasters.",
+      "Keep a printed frequency card in each radio pouch. Phones and apps may be dead when you need it."
     ],
     "relatedGuides": [
-      "comms-001",
-      "comms-003"
+      "comms-007",
+      "comms-008",
+      "comms-009",
+      "comms-013",
+      "comms-016",
+      "comms-006"
     ],
-    "source": "FCC Emergency Communications Guidelines / ARRL Emergency Manual",
-    "lastReviewed": "2025-01",
+    "source": "FCC Part 95 and Part 97 / NOAA NWS / ARRL",
+    "sources": [
+      {
+        "title": "Family Radio Service (FRS)",
+        "publisher": "FCC",
+        "url": "https://www.fcc.gov/general/family-radio-service-frs",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "General Mobile Radio Service (GMRS)",
+        "publisher": "FCC",
+        "url": "https://www.fcc.gov/general-mobile-radio-service-gmrs",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "47 CFR 97.403 Safety of life and protection of property",
+        "publisher": "U.S. GPO / FCC",
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2002-title47-vol5/pdf/CFR-2002-title47-vol5-sec97-403.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NOAA Weather Radio",
+        "publisher": "NOAA National Weather Service",
+        "url": "https://www.weather.gov/abr/nwr",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Citizens Band Radio Service",
+        "publisher": "FCC",
+        "url": "https://www.fcc.gov/node/25325",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "If 911 calls or texts still go through, use them first - radio is the backup, not the first choice.",
+      "Do not transmit on frequencies you are not licensed for just to chat or test during a disaster; it can block real emergency traffic."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "The power grid is down and you need to receive emergency information and maintain communication capability",
-      "immediate": ["Tune to NOAA Weather Radio: 162.400-162.550 MHz for 24/7 official emergency broadcasts", "Monitor FRS Channel 1 (462.5625 MHz) and Channel 22A for local emergency communications", "Set HAM radio to 146.520 MHz — the national simplex calling frequency monitored by HAM operators nationwide"],
-      "then": ["Conserve battery: receive mode draws far less power than transmit — listen first, transmit only when necessary", "If transmitting distress: MAYDAY x3, your name, position, nature of emergency, number of people, any special needs"]
+      "situation": "Phones are down or overloaded and you need official information or a way to reach family or help by radio.",
+      "immediate": [
+        "Turn on NOAA Weather Radio (162.400-162.550 MHz) and a local AM/FM station for official instructions",
+        "Switch family radios to your pre-agreed channel and check in at the agreed time",
+        "For life-threatening emergencies with no phone, call 'Mayday' three times with who, where, what, and how many"
+      ],
+      "then": [
+        "Listen more than you transmit to save batteries",
+        "Get a GMRS license ($35, no test) or a ham license so you can practice legally before the next emergency"
+      ]
     }
   },
   {
@@ -126,53 +256,115 @@
       "comms",
       "signal",
       "fire",
-      "rescue"
+      "smoke",
+      "rescue",
+      "aircraft"
     ],
-    "summary": "Build signal fires that produce maximum visible smoke for aerial rescue in daylight.",
+    "summary": "Build and safely run signal fires that aircraft can see: flame at night and thick smoke by day. Three fires in a triangle is a recognized distress signal, but one well-placed, well-tended fire is far better than three that start a wildfire.",
     "steps": [
       {
         "step": 1,
-        "title": "Site selection",
-        "body": "Choose the highest available ground — ridgelines, hill summits, cliff edges visible from the air. Clear the area of flammable material around your signal fire site. Clear land is visible from aircraft; smoke rising from forested areas often cannot be distinguished from ground level. If in forest, choose the largest clearing, lake shore, or open meadow available."
+        "title": "Decide whether a signal fire is safe and needed",
+        "body": "A signal fire is for real emergencies when you need searchers or aircraft to find you. Before building one, look at the conditions. In dry grass, brush, or forest during high wind or drought, a signal fire can turn into a wildfire that kills you and the people coming to help. If the ground is very dry, keep the fire small, build it on rock, sand, gravel, or bare soil, and keep water or dirt ready to smother it. If you cannot control it, use a mirror, bright panels, ground symbols, a whistle, and a light instead. Respect fire bans except in a true life-or-death emergency."
       },
       {
         "step": 2,
-        "title": "Build a three-fire triangle",
-        "body": "Three fires in a triangle pattern (equilateral, each fire 25–50 meters apart) is the international distress signal visible from aircraft. Prepare all three fires simultaneously so you can light all three quickly when an aircraft is heard. Each fire should be large enough to generate significant smoke independently."
+        "title": "Pick an open, visible site",
+        "body": "Smoke and flame under thick trees are hard to see from the air. Move to the largest clearing you can safely reach: a meadow, ridge top, lakeshore, gravel bar, or open snowfield. Colorado Parks and Wildlife advises moving to a clearing where signals are easy to see, then staying there until searchers arrive. Clear a circle of bare ground about 10 feet (3 m) across around each fire pit, scraping away leaves, needles, and dry grass. Keep the fire well away from overhanging branches, tents, and your shelter. Stack your fuel upwind and at least several feet away from the pit so sparks do not light it early."
       },
       {
         "step": 3,
-        "title": "Smoke color",
-        "body": "Daytime visibility: colored smoke — white, black, or colored — is more visible than clear fire. White smoke: add green leaves, grass, or moss to a well-established fire. Works well in dark terrain (forests, dark rock). Black smoke: rubber, petroleum products (tire, oil), plastics. Works well in snow, desert, or light terrain. Prioritize the color that contrasts with the background terrain."
+        "title": "Lay out three fire bases in a triangle",
+        "body": "Three fires in a triangle is a widely recognized call for help. Colorado Parks and Wildlife suggests building three fire bases about 30 to 50 feet (9 to 15 m) apart. Older manuals give larger spacing, but the key is that each fire is separate and the triangle shape is clear from the air. Keep one fire, at the top of the triangle, as your working camp fire that stays lit. Build the other two ready to light: dry tinder on the bottom, then dry kindling, then larger dry sticks. If you only have the fuel or energy for one fire, build one big, smoky fire in the most open spot - a single fire is still a strong signal."
       },
       {
         "step": 4,
-        "title": "Maintenance",
-        "body": "A signal fire is only effective when burning. Prepare fuel in advance so the fire can be maintained indefinitely. Assign a person to the signal fire if possible — an unmanaged fire dies within 30–60 minutes. Pre-position smoke-producing materials (green leaves, rubber) so they can be added quickly when an aircraft approaches."
+        "title": "Stage smoke material and light on demand",
+        "body": "A fire burning for hours with no aircraft in sight wastes fuel and your energy. Keep the main fire going, and place a large pile of green leaves, fresh grass, green conifer boughs, or damp moss next to each base. When you hear or see an aircraft, light the two other bases from your main fire and pile green material on all three. Green material on a hot bed of coals makes thick white or gray smoke. Do not dump green material on a new, weak fire - it will smother it. Let each fire burn hot for several minutes before adding green fuel."
+      },
+      {
+        "step": 5,
+        "title": "Match the signal to the time and background",
+        "body": "At night, flame is the signal. Keep it bright and high with dry fuel, and skip the green material. During the day, smoke is the signal. White or gray smoke from green plants shows best against dark forest or rock. On snow, sand, or a bright, hazy sky, white smoke is harder to see; build bigger, use more fuel, and rely on movement and height of the column. The multiservice survival manual notes that dark smoke comes from tires and petroleum products. Burning rubber, oil, or plastic gives off toxic smoke and is hard to control, so treat it as a last resort only, downwind of people, on bare ground, and never in dry vegetation."
+      },
+      {
+        "step": 6,
+        "title": "Tend the fire and keep a lookout",
+        "body": "An unattended fire either dies or spreads. If you are in a group, assign one person at a time to watch the fire and listen for engines, and rotate every hour or two. Keep enough dry fuel stacked to keep the main fire going through the night. In mountain terrain, search flights often stop at dark, so daytime smoke and morning readiness matter most. In deserts and plains, searches may run around the clock, so keep flame ready at night. Use the fire alongside other signals - mirror, whistle, panels, and ground symbols - because no single signal is seen every time."
+      },
+      {
+        "step": 7,
+        "title": "Put it out completely when rescued or leaving",
+        "body": "When rescuers arrive or you move on, drown each fire with water, stir the ashes, and drown again until everything is cool to the touch. If you have no water, smother with dirt or sand and stir until no heat remains. Check for smoldering roots and embers outside the ring. Tell rescuers about any fire that is still burning so it can be dealt with. A signal fire that escapes later can still cause a wildfire after you are safe."
       }
     ],
     "warnings": [
-      "A signal fire that spreads and becomes a wildfire will prevent rescue and endanger your group. Maintain a cleared firebreak of 10+ feet around the signal area.",
-      "Signal fires communicate distress — lighting one without genuine need consumes emergency resources and may be illegal. Reserve for actual emergencies."
+      "A signal fire that spreads can become a wildfire that blocks rescue and kills. Keep fires small enough to control, on bare ground, with water or dirt ready.",
+      "Burning tires, oil, or plastic releases toxic smoke and can flare out of control. Treat it as a true last resort, stand upwind, and never do it in dry vegetation.",
+      "Lighting a signal fire when you are not in trouble can trigger a costly search and may be illegal. Use it only in real emergencies.",
+      "Do not build fires inside or right next to your shelter. Smoke and carbon monoxide in an enclosed space can kill."
     ],
     "proTips": [
-      "Automotive tires produce massive volumes of dense black smoke visible for dozens of miles. If you have access to a disabled vehicle in an emergency, a burning tire is one of the most effective aerial signals available.",
-      "Pre-build your signal fire and pre-stage smoke materials but do not light until an aircraft is present. A fire that burns for hours unobserved depletes fuel and alerts no one."
+      "Keep your tinder for the two standby fires in a dry bag or under bark so it lights on the first try when you hear an engine.",
+      "Pre-cut and stack green boughs next to each base before you need them. You may have less than a minute of warning.",
+      "Practice making smoke on a legal campfire: add green material only after you have a hot coal bed.",
+      "Combine fire with a mirror and a bright panel. A pilot who sees smoke will look for something that confirms a person is there."
     ],
     "relatedGuides": [
+      "comms-015",
       "comms-001",
-      "comms-004"
+      "comms-004",
+      "fire-004",
+      "fire-003"
     ],
-    "source": "FCC Emergency Communications Guidelines / ARRL Emergency Manual",
-    "lastReviewed": "2025-01",
+    "source": "FM 21-76-1 Survival, Evasion and Recovery / Colorado Parks and Wildlife / USCG Navigation Rules Annex IV",
+    "sources": [
+      {
+        "title": "Survival Signals",
+        "publisher": "Colorado Parks and Wildlife",
+        "url": "https://cpw.state.co.us/learn/Pages/SurvivalSignal.aspx",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 21-76-1 / AFTTP(I) 3-2.26 Survival, Evasion, and Recovery (Multiservice)",
+        "publisher": "U.S. Army / USMC / USN / USAF",
+        "url": "https://rmp.nc.gov/LCF/Publications/AL_Resources/Survival/Multi Service Survival Manual.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Distress Signals (Rule 37 / Annex IV) study guide",
+        "publisher": "Open Exam Prep",
+        "url": "https://open-exam-prep.com/study-guides/uscg-master-100/rules-sound/distress-signals",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
-    "riskLevel": "medium",
-    "prerequisites": [],
+    "riskLevel": "high",
+    "prerequisites": [
+      "fire-004"
+    ],
+    "whenNotTo": [
+      "In very dry, windy conditions where you cannot control the fire - use a mirror, panels, and ground symbols instead.",
+      "When you are not actually in distress; a signal fire can launch a search.",
+      "Inside or right beside a shelter, vehicle, or building."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need aerial rescue and have resources to build signal fires — a three-fire triangle is the international distress signal visible from aircraft",
-      "immediate": ["Select highest available ground — ridgeline, summit, or large clearing visible from the air", "Build three fires in an equilateral triangle pattern, 25-50 meters apart — prepare all three simultaneously", "For maximum smoke visibility: add green leaves/grass for white smoke on dark terrain; rubber/petroleum for black smoke on light terrain"],
-      "then": ["Pre-build fires and stage smoke materials but do not light until an aircraft is seen or heard", "Assign a person to maintain signal fire — unmanaged fire dies within 30-60 minutes"]
+      "situation": "You are lost or stranded and need aircraft or distant searchers to see you.",
+      "immediate": [
+        "Move to a large clearing and scrape a 10-foot (3 m) bare circle for each fire",
+        "Keep one fire lit and build two more bases 30-50 ft (9-15 m) away to form a triangle",
+        "Stage green leaves or boughs next to each fire to make smoke when you hear an aircraft"
+      ],
+      "then": [
+        "Use bright flame at night and thick smoke by day",
+        "Tend the fire in shifts and drown it completely when you leave"
+      ]
     }
   },
   {
@@ -183,54 +375,1584 @@
     "tags": [
       "comms",
       "whistle",
+      "sound",
       "signals",
+      "ground-to-air",
       "rescue"
     ],
-    "summary": "Use auditory signals and ground markers to communicate with rescuers.",
+    "summary": "Use a whistle and simple sound codes to be found by nearby searchers, and lay out the core ground-to-air symbols that aircraft crews recognize. For panels, body signals, and full layout details, see comms-015.",
     "steps": [
       {
         "step": 1,
-        "title": "Whistle distress signal",
-        "body": "Three whistle blasts: the international distress signal. Blow three times, pause, listen. Repeat every 5 minutes. A quality emergency whistle (Fox 40, Acme Thunderer, military pealess) carries to 1 mile or more. It requires no fuel, works when wet, and can be heard when a person is too weak to shout. Every survival kit should include a pealess whistle — pea whistles fail when the pea freezes or gets wet."
+        "title": "Carry the right whistle",
+        "body": "A loud whistle carries much farther than a shout and takes far less effort, which matters when you are cold, hurt, or out of breath. Choose a pealess whistle made of plastic: there is no ball inside to freeze, jam, or stick when wet. Test it in cold and wet conditions before you trust it. Clip one to every jacket, pack strap, life jacket, and child's backpack. Teach kids that the whistle is for emergencies only, and that blowing it when lost is the right thing to do. Boats under 12 meters (39 feet) are required by Coast Guard rules to carry a whistle or horn, so your boat kit should already have one."
       },
       {
         "step": 2,
-        "title": "Ground-to-air signal symbols",
-        "body": "Lay large symbols on the ground visible from aircraft. Use rocks, logs, clothing, or any high-contrast material. Minimum size: 3 meters long, letters/symbols spaced 3+ meters apart. Standard symbols: X = need medical assistance; V = need help; → = traveling in this direction; F = need food and water; LL = all is well; N = no; Y = yes. Make symbols as large as possible and use maximum contrast with the background."
+        "title": "Use three blasts for help",
+        "body": "On land, three blasts of anything is the widely used call for help: three whistle blasts, three flashes, or three fires. Blow three strong blasts of about one to two seconds each, then stop and listen for a full minute. Repeat. If you are waiting a long time, blow a set every few minutes to save energy. Searchers often answer with two blasts, meaning 'I hear you, coming.' When you hear an answer, keep signaling at intervals so they can follow the sound to you. Many groups also use one blast to mean 'Where are you?' or 'Attention.' Agree on these meanings with your family and hiking partners ahead of time."
       },
       {
         "step": 3,
-        "title": "Attract attention — any means",
-        "body": "Aircraft respond to anything unusual on the ground. Tramped-out patterns in snow or sand, bright colors spread on the ground, movement (waving clothing), or repeated flashes. If you see an aircraft, use all available signals simultaneously — whistle, mirror, wave. An aircraft that does not alter course has likely not seen you. Continue signaling."
+        "title": "Know the boating sound signals so you do not confuse them",
+        "body": "On the water, short and long blasts have set meanings under the Navigation Rules. One prolonged blast of four to six seconds means a vessel is leaving a dock or nearing a blind bend. Five or more short, rapid blasts is the danger signal: 'I do not understand your intentions' or 'danger.' A recognized distress signal for vessels is continuous sounding of any fog signal device, such as a horn held down without stopping. If you are on a boat in trouble, use continuous sounding, Mayday on VHF channel 16, and visual signals. If you are on shore near water, three blasts repeated still tells people you need help."
       },
       {
         "step": 4,
-        "title": "Mirror signaling and pyrotechnics",
-        "body": "A signal mirror can be seen for 10+ miles on a clear day — far beyond any whistle. Aim reflected sunlight at an aircraft by looking through the sighting hole (military mirror) or holding the mirror at eye level and tilting toward the sun until you see the flash. Practice this skill before you need it.\n\nPyrotechnics: if you have flares, use them only when you see or hear a rescue asset — a flare burns for 15–60 seconds and should not be wasted. Day/night flares differ: smoke is more visible by day, flame by night. Orange smoke is the universal aircraft-to-ground distress color.\n\nCell phone screens flashed in a pattern can also attract night searches. Three short, three long, three short (SOS in light) is visible hundreds of yards away in darkness."
+        "title": "Signal from inside buildings and rubble",
+        "body": "If you are trapped after a collapse, do not shout constantly - you will lose your voice and breathe in dust. Blow a whistle in sets of three, or tap three times on a pipe, beam, or wall with a hard object, then pause and listen. Rescue teams often call for quiet periods to listen for survivors, so signal when it goes quiet. Cover your mouth and nose with cloth to filter dust. Keep a whistle on your keychain or in your bedside kit for this reason."
+      },
+      {
+        "step": 5,
+        "title": "Lay out the core ground-to-air symbols",
+        "body": "Aircraft crews look for straight lines and sharp corners that do not occur in nature. These symbols are widely recognized: V means 'I need help' or 'require assistance.' X means 'I need medical help' or 'unable to proceed.' An arrow means 'I am going this way.' Y means 'yes,' and N means 'no,' for answering a pilot who asks a question over a loudspeaker. Colorado Parks and Wildlife suggests making symbols to attract attention about 30 to 50 feet (9 to 15 m) long and 3 to 4 feet (1 m) wide. Other symbol sets exist, but stick to these few; a crew may not recognize a rare symbol."
+      },
+      {
+        "step": 6,
+        "title": "Build symbols with strong contrast",
+        "body": "Use whatever contrasts with the ground: rocks on grass, dark branches on sand or snow, bright tarps, clothing, or a space blanket. In snow, stamp the lines deep or drag a log so shadows form, and line the trench with dark boughs. In grass, pull or flatten vegetation down to dark soil. Keep lines straight and corners sharp. Place symbols in the most open spot, away from tree shadows. Weigh down tarps and light items with rocks so a helicopter's rotor wash cannot throw them into people or the aircraft. When you leave a site, add an arrow pointing the way you went, and change or remove symbols once you are rescued so they do not start a new search."
+      },
+      {
+        "step": 7,
+        "title": "Combine signals and watch for a reply",
+        "body": "No one signal is seen or heard every time. When you hear an aircraft or searchers, use everything at once: whistle, mirror, waving bright clothing, and your ground symbol. A pilot who has seen you may rock the wings in daylight, or flash lights at night. Searchers on foot may answer your whistle with two blasts or shout back. Once contact is made, stay where you are unless told to move. Moving makes you harder to find."
       }
     ],
     "warnings": [
-      "Do not fire weapons as a signal if there is any possibility that rescuers might misinterpret shots. In some scenarios, gunfire may cause rescuers to avoid an area.",
-      "A pea whistle is inadequate for emergency use. Test any whistle you rely on — blow it when wet and in cold temperatures. Pealess whistles function reliably in all conditions."
+      "Do not use gunfire as a signal unless it is your only option and you are certain of a safe backstop. Shots can be mistaken for hunters and can injure searchers.",
+      "Pea whistles can freeze or jam when wet. Test any whistle you plan to rely on in cold and wet conditions.",
+      "Weigh down tarps and light materials. Helicopter rotor wash can throw them into people or the aircraft.",
+      "Remove or change ground symbols once you are rescued so they do not trigger a second search."
     ],
     "proTips": [
-      "The Fox 40 Classic pealess whistle produces 115 decibels and is used by lifeguards and military worldwide. At $5, there is no reason not to carry one.",
-      "In snow: stamping out a large X takes 5–10 minutes and can be seen by aircraft from thousands of feet. Fill the X with dark material (pine boughs, clothing) for maximum contrast with snow."
+      "Put a whistle on every child's jacket and teach them: stay put, blow three times, listen.",
+      "A whistle needs far less effort than shouting and works when your voice is gone - save your voice for talking to rescuers once they are close.",
+      "Stamp out a big V or X early, then use the rest of your energy on fire, shelter, and water.",
+      "Agree on simple whistle meanings with your group before every trip: one blast 'where are you,' two blasts 'coming,' three blasts 'help.'"
     ],
     "relatedGuides": [
+      "comms-015",
       "comms-001",
-      "comms-003"
+      "comms-003",
+      "children-002",
+      "security-004"
     ],
-    "source": "FCC Emergency Communications Guidelines / ARRL Emergency Manual",
-    "lastReviewed": "2025-01",
+    "source": "Colorado Parks and Wildlife / USCG Navigation Rules / FM 21-76-1",
+    "sources": [
+      {
+        "title": "Survival Signals",
+        "publisher": "Colorado Parks and Wildlife",
+        "url": "https://cpw.state.co.us/learn/Pages/SurvivalSignal.aspx",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lights, Sound and Distress Signals (training slides)",
+        "publisher": "U.S. Coast Guard Auxiliary",
+        "url": "https://wow.uscgaux.info/Uploads_wowII/092-02/2b_Lights.Sound.Distress_signals.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Distress Signals (Rule 37 / Annex IV) study guide",
+        "publisher": "Open Exam Prep",
+        "url": "https://open-exam-prep.com/study-guides/uscg-master-100/rules-sound/distress-signals",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Signal and survive (ground-to-air symbol sizing)",
+        "publisher": "The Scout Association (UK)",
+        "url": "https://www.scouts.org.uk/activities/signal-and-survive/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "low",
     "prerequisites": [],
+    "whenNotTo": [
+      "When you are hiding from people who could hurt you - sound and ground symbols reveal your location.",
+      "Do not use boat danger signals (five short blasts) to mean 'help' - on the water they mean danger or confusion about another boat's intent."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to signal rescuers using sound or ground markers — you may be too weak to do more, or rescuers may be at short range",
-      "immediate": ["Three whistle blasts = international distress. Pause. Repeat every 5 minutes", "Lay ground-to-air symbols at least 3 meters long in high-contrast material: X = medical needed, V = need help, arrow = direction of travel", "Use all available signals simultaneously when you see or hear aircraft: whistle + mirror + wave clothing"],
-      "then": ["A pealess whistle carries 1 mile+ and works when wet — Fox 40 or equivalent", "In snow: stomp out a large X and fill with dark material (pine boughs) for maximum aerial contrast"]
+      "situation": "Searchers may be within earshot, or aircraft may fly over, and you need them to find you.",
+      "immediate": [
+        "Blow three strong whistle blasts, then listen for a full minute; repeat every few minutes",
+        "Stamp or build a large V (need help) or X (need medical help) in the most open spot",
+        "When you hear an aircraft, use every signal at once: whistle, mirror, waving bright cloth"
+      ],
+      "then": [
+        "If someone answers with two blasts, keep signaling at intervals so they can home in",
+        "Stay put once contact is made unless rescuers tell you to move"
+      ]
+    }
+  },
+  {
+    "id": "comms-005",
+    "category": "comms",
+    "title": "Family Communication Plan and Out-of-Area Contact",
+    "priority": "critical",
+    "tags": [
+      "comms",
+      "family",
+      "plan",
+      "out-of-town contact",
+      "meeting place",
+      "FEMA",
+      "ICE"
+    ],
+    "summary": "Build a simple, written family plan so everyone knows how to reach each other and where to meet when phones are jammed or the family is split up. Based on the FEMA Family Emergency Communication Plan.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Collect the numbers on paper",
+        "body": "Phones die, get lost, or lock you out, and most people no longer remember phone numbers. Write down, on paper, the cell, work, and home numbers for every household member. Add the important people and places: schools and daycare, workplaces, doctors and pharmacy, a neighbor with a key, the vet, and utility and insurance companies. Note each child's school pickup and release rules, since many schools only release children to listed adults. Write any medical needs, allergies, and medications for each person. FEMA's family plan form is designed for exactly this list. Keep it to one or two pages so people will actually carry it."
+      },
+      {
+        "step": 2,
+        "title": "Choose an out-of-area contact",
+        "body": "Pick one person who lives outside your area, ideally in another state, to act as the family's message hub. During a local disaster, local lines are jammed, but a call or text to a distant number may still get through. Everyone in the family checks in with that person, who then passes messages along: who is safe, where they are, and where they are headed. Choose someone reliable who usually answers their phone, and pick a backup in case they cannot be reached. Ask both people first and give them a copy of your plan."
+      },
+      {
+        "step": 3,
+        "title": "Make texting the default",
+        "body": "FEMA's guidance is blunt: text is best. A text message needs much less network capacity than a voice call, and it often goes through when calls fail. Many phones will keep trying to send a text in the background until there is a gap in traffic. Agree on short, standard messages, for example: 'SAFE. At school gym. Staying until 6.' Make sure every family member knows how to send a text and a group text, including older relatives. Set up a group thread now with the whole household and the out-of-area contact. Keep voice calls for true emergencies and for times when texting will not work."
+      },
+      {
+        "step": 4,
+        "title": "Set meeting places at four distances",
+        "body": "Decide on places everyone knows: an indoor safe room at home for storms (an interior, windowless room on the lowest floor or a storm shelter); a neighborhood spot just outside the house for fires, such as a specific mailbox or a neighbor's porch; a place outside the neighborhood, like a library, community center, or house of worship, for when you cannot get home; and a place outside your town, such as a relative's or friend's home, with the address written down and routes discussed. Check that each place is accessible to everyone in your family and allows pets or service animals if needed."
+      },
+      {
+        "step": 5,
+        "title": "Save ICE contacts and set up phones",
+        "body": "In every phone, save at least one emergency contact labeled 'ICE' (In Case of Emergency), and tell that person about any medical issues. Set up the phone's emergency medical ID so it can be read from the lock screen, and add emergency contacts in the phone's safety settings - on newer phones these contacts can also be notified if you use satellite SOS. Turn on emergency alerts in notification settings. Enter all household and plan contacts into every phone, and create a contact group for the people you would need to reach in a disaster."
+      },
+      {
+        "step": 6,
+        "title": "Share it, carry it, post it",
+        "body": "Give each person a printed copy to keep in a wallet, purse, or backpack. Print a wallet card for kids and tape one inside their school bag. Post a copy in a central spot at home, such as inside a kitchen cabinet door. Put a copy in your go-bag and car. Check now and then that everyone still has their copy. Add your radio plan if your family uses radios: which channel, what time you check in, and call signs. A plan that only lives in one person's phone or head is not a plan."
+      },
+      {
+        "step": 7,
+        "title": "Practice and update every year",
+        "body": "Hold a short family meeting to walk through the plan. Have each person practice texting the out-of-area contact and sending a group text. Walk to the neighborhood meeting spot and talk through how each person would get to the out-of-town location. Have kids say key phone numbers from memory, and teach them that 911 is for life-threatening emergencies. Review the plan at least once a year, and whenever someone changes jobs, schools, or phone numbers. After a drill or a real event, talk about what worked and fix what did not."
+      }
+    ],
+    "warnings": [
+      "Do not depend on phone contacts alone. A dead or lost phone takes every number with it - keep paper copies.",
+      "Do not tie up voice networks with non-emergency calls during a disaster. Text instead and keep calls short.",
+      "Confirm school and daycare release rules ahead of time. Children may not be released to adults not listed on file."
+    ],
+    "proTips": [
+      "Laminate wallet cards or put them in a small zip bag so they survive rain and washing machines.",
+      "Write a standard check-in text on the card so stressed family members can copy it word for word.",
+      "Add a radio channel and a check-in time to the plan. It becomes your fallback when texting fails too (see comms-006).",
+      "Pick an out-of-area contact in a different time zone with care - choose someone who will answer at 3 a.m."
+    ],
+    "relatedGuides": [
+      "comms-006",
+      "comms-012",
+      "children-004",
+      "security-004",
+      "comms-013"
+    ],
+    "source": "FEMA Family Emergency Communication Plan / Ready.gov",
+    "sources": [
+      {
+        "title": "Family Emergency Communication Plan (FEMA, 2019)",
+        "publisher": "FEMA (hosted by Pierce County, WA)",
+        "url": "https://www.piercecountywa.gov/DocumentCenter/View/79573/FamilyCommunicationPlan_FEMA_2019_5_3",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Tips for Communicating in an Emergency (FCC/FEMA)",
+        "publisher": "FCC / FEMA (hosted by WV DHHR)",
+        "url": "https://dhhr.wv.gov/healthprep/plan/howtoprepare/familyprep/Documents/FCC%20Tips_for_Communicating_2011.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not wait to check in with family before calling 911 for a life-threatening emergency - call 911 first."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A disaster has hit, phones are jammed, and your family may be in different places.",
+      "immediate": [
+        "Text your out-of-area contact and family group: SAFE, where you are, where you are going",
+        "Go to the agreed meeting place for the situation (home safe room, neighborhood spot, or out-of-town)",
+        "Keep any calls short; if a call fails, wait about 10 seconds before trying again"
+      ],
+      "then": [
+        "Check in at agreed times by text or radio until everyone is accounted for",
+        "Update the plan afterward with what worked and what did not"
+      ]
+    }
+  },
+  {
+    "id": "comms-006",
+    "category": "comms",
+    "title": "PACE Planning - Primary, Alternate, Contingency, Emergency Comms",
+    "priority": "advanced",
+    "tags": [
+      "comms",
+      "PACE",
+      "planning",
+      "redundancy",
+      "family",
+      "group"
+    ],
+    "summary": "Use the PACE method from military and public-safety planning to give your family or group four independent ways to stay in touch, in a set order, with clear rules for when to switch. This keeps one failure from cutting everyone off.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand the four layers",
+        "body": "PACE stands for Primary, Alternate, Contingency, and Emergency. The Primary is the best, normal method - usually the fastest and easiest. The Alternate is a common backup that is a little less convenient. The Contingency may be slower or less reliable, but it still gets the message through. The Emergency method is the last resort: often slow, inconvenient, or costly, but it works when everything else has failed. The U.S. Army popularized PACE, and CISA now promotes it for public-safety agencies. The same idea works for a household: you are deciding, before trouble, the order in which you will try each way of talking."
+      },
+      {
+        "step": 2,
+        "title": "Make each layer independent",
+        "body": "The goal is that one failure does not knock out more than one layer. Cell calls and cell texts both ride the same towers, so they are weak as Primary and Alternate together. A strong household plan mixes systems. Example: Primary - cell phone text. Alternate - internet messaging or Wi-Fi calling from a location that still has internet. Contingency - two-way radio (GMRS, FRS, or ham) on a set channel at set times. Emergency - satellite SOS or messaging, or a written note at a pre-agreed message spot plus going to a meeting place. Ask of each pair: if the power grid, cell towers, or internet fail, which of my layers still work?"
+      },
+      {
+        "step": 3,
+        "title": "Plan for each pair of people and each situation",
+        "body": "A PACE plan is built for a specific task, not one plan for everything. Make one for the daily separation that worries you most - for example, parents at work and kids at school - and another for a long power outage at home, or a bug-out trip. For each, list who must talk to whom: parent to parent, parent to child, household to out-of-area contact. Some people may not have every tool. A young child may have no phone or radio, so their PACE may be: school staff, a teacher's phone, the school's reunification site, then the family meeting place."
+      },
+      {
+        "step": 4,
+        "title": "Set clear triggers to switch",
+        "body": "Everyone must know when to move to the next layer, or each person will sit on a different method waiting. Write simple triggers: 'If a text has not been answered in 30 minutes, switch to radio.' 'If the radio check-in at the top of the hour gets no answer twice, go to the meeting place.' 'If there is a city-wide outage, skip straight to the radio schedule.' Because the person receiving does not know which layer the sender is using, everyone should monitor more than one method when things go wrong - for example, keep the radio on while you wait for a text."
+      },
+      {
+        "step": 5,
+        "title": "Fill in the details each layer needs",
+        "body": "A layer is only real if the details are written down. For phones: numbers, the group text, and the out-of-area contact. For radio: radio type, channel or frequency, privacy code, call signs, and check-in times such as 10 minutes at the top of every hour. For satellite: which device or phone, who it sends to, and whether the service is active and paid. For the emergency layer: the address of each meeting place and a message spot, such as a note taped inside the back door or a marked rock at the end of the driveway. Put all of this on one printed card per person."
+      },
+      {
+        "step": 6,
+        "title": "Test every layer, not just the first",
+        "body": "A backup you have never used will fail when you need it. Once a month, run a quick drill: send the group text, do a radio check on your channel at the scheduled time, and confirm satellite devices are charged and subscriptions are active. Twice a year, run a full drill where you pretend the cell network is down, and work through Alternate, Contingency, and Emergency in order. Note what broke - a dead radio battery, a forgotten privacy code, an expired satellite plan - and fix it. CISA stresses that practicing PACE plans is what builds real resilience."
+      },
+      {
+        "step": 7,
+        "title": "Keep it simple and nest it in your bigger plan",
+        "body": "Four layers is the limit; more choices cause confusion under stress. Use the same channel numbers and check-in times across all your plans when you can. Tie your PACE plan into your family communication plan (comms-005), your rally points, and your evacuation plan so they agree with each other. Review it once a year or when people, phones, radios, or schools change. Share it with the out-of-area contact so they know how you may try to reach them."
+      }
+    ],
+    "warnings": [
+      "Cell calls and cell texts share the same network. Do not count them as two independent layers.",
+      "Satellite services can lapse when a free period ends or a plan is suspended. Confirm status before relying on one as your emergency layer.",
+      "Do not build a plan around a radio you are not licensed to use or have never practiced with."
+    ],
+    "proTips": [
+      "Write triggers as times, not feelings: '30 minutes with no reply' works better than 'if it seems bad.'",
+      "Use a single printed PACE card per person, with channels and times in large type.",
+      "Make the meeting place part of every plan's Emergency layer - walking there needs no electricity.",
+      "A note left at home with date, time, who, and where you went is a cheap, reliable last layer."
+    ],
+    "relatedGuides": [
+      "comms-005",
+      "comms-007",
+      "comms-011",
+      "security-004",
+      "comms-012"
+    ],
+    "source": "CISA / NCSWIC PACE planning guidance",
+    "sources": [
+      {
+        "title": "PACE Plan Flyer (updated February 2025)",
+        "publisher": "CISA",
+        "url": "https://www.cisa.gov/sites/default/files/2025-02/Updated_PACE_Flyer_022025.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "PACE (communication methodology)",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/PACE_(communication_methodology)",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Family Emergency Communication Plan (FEMA, 2019)",
+        "publisher": "FEMA (hosted by Pierce County, WA)",
+        "url": "https://www.piercecountywa.gov/DocumentCenter/View/79573/FamilyCommunicationPlan_FEMA_2019_5_3",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [
+      "comms-005"
+    ],
+    "whenNotTo": [
+      "In a life-threatening emergency, call or text 911 first - do not work through family PACE layers before getting help."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your normal way of reaching family has failed and you need to know what to try next and when.",
+      "immediate": [
+        "Try your Primary (usually a text) and wait the agreed time",
+        "If no answer by the trigger time, switch to your Alternate, then Contingency (radio at check-in time)",
+        "Keep monitoring more than one method while you wait"
+      ],
+      "then": [
+        "If all else fails, use the Emergency layer: satellite device or go to the meeting place and leave a note",
+        "After the event, fix whatever layer failed"
+      ]
+    }
+  },
+  {
+    "id": "comms-007",
+    "category": "comms",
+    "title": "FRS and GMRS Radios - Rules, Licensing, and Real Range",
+    "priority": "beginner",
+    "tags": [
+      "comms",
+      "FRS",
+      "GMRS",
+      "walkie-talkie",
+      "license",
+      "FCC",
+      "repeater"
+    ],
+    "summary": "Choose and use family walkie-talkies legally. FRS needs no license; GMRS needs a $35, 10-year FCC license with no test that covers your family. Learn the channel and power limits, what range to really expect, and how repeaters help.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the difference between FRS and GMRS",
+        "body": "FRS (Family Radio Service) and GMRS (General Mobile Radio Service) share the same UHF channels around 462 and 467 MHz, so FRS and GMRS radios can talk to each other on shared channels. FRS is licensed by rule: anyone of any age can use it with no paperwork, as long as the radio is FCC-certified and not modified. GMRS allows more power, detachable antennas, mobile and base radios, and repeaters, but the operator needs an individual FCC license. Most blister-pack walkie-talkies sold today are FRS. Radios labeled GMRS, or with removable antennas or more than 2 watts, generally need the license."
+      },
+      {
+        "step": 2,
+        "title": "Learn the FRS channel and power limits",
+        "body": "FRS has 22 channels. Channels 1-7 (462.5625-462.7125 MHz) and channels 15-22 (462.550-462.725 MHz) are limited to 2 watts. Channels 8-14 (467.5625-467.7125 MHz) are limited to 0.5 watt, and the FCC says their usual range is less than half a mile. All 22 channels are shared with licensed GMRS users. No channel is reserved for emergencies or for any one group, so listen before you talk and be ready to move. 'Privacy codes' (tones) only filter what your radio lets you hear - they do not stop anyone else from hearing you. FRS radios cannot be connected to the phone system."
+      },
+      {
+        "step": 3,
+        "title": "Get a GMRS license if you want more range",
+        "body": "A GMRS license costs $35 and lasts 10 years. There is no exam. You must be at least 18 and not a representative of a foreign government. One license covers your family members of any age, who can use radios in your licensed system. To apply, create an FCC Registration Number (FRN) in the FCC's CORES system, then apply for GMRS in the FCC's online License Manager and pay the fee. Your license gives you a call sign. You can renew during the 90 days before it expires; after it expires, you have to apply again. Identify with your call sign as the rules require - at the end of a series of transmissions and about every 15 minutes during long conversations."
+      },
+      {
+        "step": 4,
+        "title": "Use GMRS power and channels correctly",
+        "body": "GMRS main channels (462.550-462.725 MHz, the same frequencies as FRS 15-22) allow up to 50 watts for base and mobile radios and serve as repeater outputs. The 462 MHz interstitial channels (same as FRS 1-7) allow 5 watts. The 467 MHz interstitial channels (same as FRS 8-14) stay at 0.5 watt for handhelds with built-in antennas. The 467.550-467.725 MHz channels are repeater inputs only. A 5-watt GMRS handheld with a good antenna, or a 15-50 watt mobile radio in a vehicle, will clearly outperform a 2-watt FRS radio."
+      },
+      {
+        "step": 5,
+        "title": "Expect realistic range",
+        "body": "Ignore '35-mile' claims on the package; those assume mountaintop to mountaintop. UHF radio is mostly line of sight. Handheld to handheld in a neighborhood with houses and trees, expect roughly a half mile to two miles. Across open water or from a hilltop, expect more. Inside steel and concrete buildings, expect much less. The FCC says GMRS range is typically 1 to 25 miles depending on station type, terrain, and whether you use a repeater. To get more range: go higher, step outside or to a window, hold the radio upright, use a better antenna, and use a vehicle radio with a roof antenna."
+      },
+      {
+        "step": 6,
+        "title": "Use repeaters the right way",
+        "body": "A GMRS repeater on a tower or hill receives your signal on a 467 MHz input and re-sends it on a 462 MHz output, which can stretch handheld range to many miles. Many repeaters are run by clubs or individuals; ask the owner before using one and set the correct tone. The FCC prohibits linking GMRS repeaters through the internet or other networks to extend range. Repeaters often have backup power, but some go silent in long outages. Keep a simplex (radio-to-radio) channel in your plan as well."
+      },
+      {
+        "step": 7,
+        "title": "Set up a family radio plan",
+        "body": "Pick one main channel and one backup channel and write them, with any tone codes, on a card in each radio bag. Agree on check-in times, such as the top of every hour for 10 minutes, so radios can be off to save battery the rest of the time. Label every radio with its channel settings. Use rechargeable radios that can also take AA batteries, and keep spares. Test monthly by doing a radio check from the farthest place you are likely to be, such as a child's school or a neighbor's house."
+      }
+    ],
+    "warnings": [
+      "Using a GMRS-only radio, more than 2 watts, or a detachable antenna without a GMRS license breaks FCC rules.",
+      "Privacy codes do not make conversations private. Assume anyone nearby can hear you.",
+      "Do not modify FRS radios. The FCC requires FRS radios to be certified and unmodified.",
+      "Package range claims are best-case. Test your real range before you rely on it."
+    ],
+    "proTips": [
+      "One $35 GMRS license covers your whole family for 10 years - it is one of the cheapest upgrades in preparedness.",
+      "A mobile GMRS radio in the car with a roof antenna makes a strong base station during power outages.",
+      "Many families pick FRS/GMRS channel 1 or 3 as a habit, but write your own choice down - no channel is official.",
+      "Put the license call sign on a label on each radio so family members can identify correctly."
+    ],
+    "relatedGuides": [
+      "comms-002",
+      "comms-006",
+      "comms-016",
+      "comms-008",
+      "comms-009"
+    ],
+    "source": "FCC Part 95 (FRS and GMRS)",
+    "sources": [
+      {
+        "title": "Family Radio Service (FRS)",
+        "publisher": "FCC",
+        "url": "https://www.fcc.gov/general/family-radio-service-frs",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "General Mobile Radio Service (GMRS)",
+        "publisher": "FCC",
+        "url": "https://www.fcc.gov/general-mobile-radio-service-gmrs",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FRS, GMRS and MURS frequencies and channel numbers",
+        "publisher": "National Communications Magazine",
+        "url": "https://natcommag.substack.com/p/frs-gmrs-murs-frequencies-and-channels",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "The FCC GMRS license fee has finally dropped",
+        "publisher": "The Gadgeteer",
+        "url": "https://the-gadgeteer.com/2022/04/20/the-fcc-gmrs-license-fee-has-finally-dropped",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When you need to reach people far beyond line of sight with no repeater - consider ham radio or satellite instead.",
+      "For private or sensitive information - FRS and GMRS are open channels."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need simple, short-range radio contact with family or neighbors when phones are down.",
+      "immediate": [
+        "Turn radios to your pre-agreed channel and tone, and listen before talking",
+        "Get high or outside to improve range; hold the radio upright",
+        "Check in at your scheduled time and keep messages short"
+      ],
+      "then": [
+        "Get a GMRS license ($35, 10 years, no test) to use higher power and repeaters",
+        "Test real range from school, work, and neighbors' homes"
+      ]
+    }
+  },
+  {
+    "id": "comms-008",
+    "category": "comms",
+    "title": "CB Radio Basics and Emergency Channel 9",
+    "priority": "beginner",
+    "tags": [
+      "comms",
+      "CB",
+      "citizens band",
+      "channel 9",
+      "channel 19",
+      "vehicle",
+      "license-free"
+    ],
+    "summary": "Set up and use a Citizens Band (CB) radio, which needs no license, for road information and emergency help. Channel 9 is set aside by the FCC for emergencies and traveler assistance; channel 19 is where highway drivers talk.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know what CB is good for",
+        "body": "CB radio uses 40 channels between 26.965 and 27.405 MHz. The FCC requires no license, and anyone of any age may operate except a few groups such as foreign government representatives. CB is common with truck drivers, off-roaders, and rural neighbors, so it is a good way to ask for road conditions, report a crash on a highway, or reach nearby vehicles when cell service is out. CB is meant for short-distance talk. It is not private, and no channel belongs to any one person. Range is limited, so treat CB as a local tool, not a long-distance link."
+      },
+      {
+        "step": 2,
+        "title": "Learn the key channels",
+        "body": "Channel 9 is reserved by FCC rule for emergency communications and traveler assistance. Use it to report emergencies or ask for help, not for chat. Channel 19 is the traditional highway channel, where truckers share traffic, weather, and road hazard information; it is often the busiest channel and the most likely place to find someone listening on an interstate. By long habit, channels 16 and 36-40 are used for single sideband (SSB) on radios that support it. Emergency messages have priority on every channel - if someone breaks in with an emergency, stop talking and let them through."
+      },
+      {
+        "step": 3,
+        "title": "Respect the power and equipment rules",
+        "body": "CB radios are low power: 4 watts on AM or FM and 12 watts peak on SSB. The FCC forbids raising a CB transmitter's power or attaching a linear amplifier or any other power amplifier. Buy an FCC-certified radio and do not modify it. For base antennas on a building or tree, the top of the antenna may be no more than 20 feet (6 m) above the structure and no more than 60 feet (18 m) above the ground, with lower limits near airports. Vehicle and handheld antennas have no height limit. A properly tuned antenna does more for range than anything else you can legally do."
+      },
+      {
+        "step": 4,
+        "title": "Install and tune a vehicle CB",
+        "body": "A mobile CB in a vehicle is far better than a handheld because the vehicle gives it power and a larger antenna. Mount the antenna as high and as central as you can, usually on the roof or a sturdy bracket, and keep it clear of the cab. Run the coax cable without crushing or kinking it. Tune the antenna with an SWR meter, following the antenna maker's instructions, so the radio is not wasting power or getting damaged. Wire the radio to a fused power source. Keep a handheld CB with an extra battery in your kit as a backup if you must leave the vehicle."
+      },
+      {
+        "step": 5,
+        "title": "Expect realistic range",
+        "body": "With a good mobile antenna on flat ground, a few miles to roughly 5-15 miles between vehicles is typical. Handhelds with short antennas may reach only a mile or two. Hills, buildings, and noise from engines and power lines cut range. Sometimes conditions in the upper atmosphere carry CB signals hundreds of miles ('skip'), which can fill channels with distant stations - useful to know, but not something you can count on. If you cannot raise anyone, move to higher ground, try channel 19 as well as 9, and keep listening."
+      },
+      {
+        "step": 6,
+        "title": "Make an emergency call on channel 9",
+        "body": "Listen first. If the channel is clear, press and hold the mic button, wait a second, and speak slowly: 'Break channel 9, emergency.' Then give your location using highway number, direction of travel, mile marker or exit, and nearby landmarks. Describe what happened, how many people are hurt, and what help is needed. Ask whoever answers to call 911 for you. Release the button and listen. Repeat every minute or two if no one answers, and also try channel 19. Keep each transmission short. FCC rules limit continuous conversations to 5 minutes, followed by at least a 1-minute break, except for emergencies."
+      },
+      {
+        "step": 7,
+        "title": "Use good CB manners every day",
+        "body": "Practice on ordinary days so you know your radio when it matters. Keep the squelch set just above background hiss so you hear weak signals without constant noise. Use plain language - you do not need trucker slang. Do not swear, play music, or talk over others. Keep channel 9 clear except for real emergencies or travelers needing help. Some volunteer groups such as REACT have historically monitored channel 9, but coverage varies; never assume someone is always listening."
+      }
+    ],
+    "warnings": [
+      "Linear amplifiers and modified CB radios are illegal and can cause serious interference to other services.",
+      "No one is guaranteed to be monitoring channel 9. If you can reach 911 by phone, do that first.",
+      "Do not mount a base antenna near power lines. Contact with power lines can kill.",
+      "Do not handle the mic while driving in heavy traffic; pull over safely first."
+    ],
+    "proTips": [
+      "On interstates, channel 19 often gets a faster answer than channel 9 because more drivers are listening.",
+      "An SWR meter is cheap and saves your radio. Tune the antenna once and recheck after moving it.",
+      "Write your vehicle's normal routes and mile markers on your comms card so you can give a location quickly.",
+      "A CB with built-in NOAA weather channels gives you alerts on the road too."
+    ],
+    "relatedGuides": [
+      "comms-002",
+      "comms-016",
+      "comms-007",
+      "comms-012"
+    ],
+    "source": "FCC Part 95 Subpart D (Citizens Band Radio Service)",
+    "sources": [
+      {
+        "title": "Citizens Band Radio Service (CBRS)",
+        "publisher": "FCC",
+        "url": "https://www.fcc.gov/node/25325",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Citizens Band",
+        "publisher": "RadioReference Wiki",
+        "url": "https://wiki.radioreference.com/index.php/Citizens_Band",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When you need guaranteed contact or long range - CB is short-range and nobody is required to listen.",
+      "For private information - anyone can listen to CB."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are on the road or in a rural area with no cell service and need help or road information.",
+      "immediate": [
+        "Turn to channel 9 (emergency) and listen; if clear, say 'Break channel 9, emergency'",
+        "Give highway, direction, mile marker or exit, what happened, and how many are hurt",
+        "If no answer, try channel 19 where truckers listen, and ask someone to call 911"
+      ],
+      "then": [
+        "Repeat every minute or two and move to higher ground if possible",
+        "Keep channel 9 clear for emergencies once you have help"
+      ]
+    }
+  },
+  {
+    "id": "comms-009",
+    "category": "comms",
+    "title": "Getting a Ham Radio License and Building a Go-Kit",
+    "priority": "advanced",
+    "tags": [
+      "comms",
+      "ham",
+      "amateur radio",
+      "license",
+      "Technician",
+      "ARRL",
+      "go-kit",
+      "FCC"
+    ],
+    "summary": "Earn an FCC amateur (ham) radio license and build a portable radio kit that works when phones and internet fail. Costs in 2026: about $15 for the exam at most ARRL VEC sessions (some teams charge less or nothing) plus a $35 FCC application fee, good for 10 years.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pick your starting license",
+        "body": "There are three U.S. license classes: Technician, General, and Amateur Extra. Start with Technician. It gives you full use of the VHF and UHF bands that handhelds and local repeaters use, which covers most local emergency work, plus limited privileges on some long-distance HF bands. General opens much more HF for statewide and nationwide contacts. No Morse code test is required for any class. There is no minimum age. The Technician exam is 35 multiple-choice questions drawn from a public question pool, and you need 26 correct to pass."
+      },
+      {
+        "step": 2,
+        "title": "Study the current question pool",
+        "body": "A new Technician question pool took effect for all exams starting July 1, 2026, and runs through June 30, 2030. It has 409 questions; 27 were added, 30 removed, and about 155 changed compared with the old pool. Make sure your book, app, or course says it covers the 2026-2030 pool. Older study materials based on the 2022 pool are out of date. Free practice exams are widely available online. Most people pass after two to four weeks of short daily study. Focus on understanding safety, rules, and basic electronics, not just memorizing answers."
+      },
+      {
+        "step": 3,
+        "title": "Get an FRN and register for an exam",
+        "body": "Before the exam, register in the FCC's CORES system to get a free FCC Registration Number (FRN). Exams are given by Volunteer Examiner (VE) teams working under a Volunteer Examiner Coordinator (VEC) such as the ARRL VEC. You can test in person at a local club or online through remote video sessions. Look up sessions on the ARRL website or other VEC sites and register ahead of time. Check what to bring - usually your FRN, a photo ID, and the session fee. At ARRL VEC sessions the fee is about $15; candidates under 18 pay a reduced $5. Some other VEC teams charge less or nothing."
+      },
+      {
+        "step": 4,
+        "title": "Pay the FCC fee and get your call sign",
+        "body": "The VE team does not collect the FCC fee. After you pass, the FCC emails you a link to pay the $35 application fee through CORES. You must pay within 10 calendar days or the application is dismissed, and the fee is not refunded if the application is dismissed. Once paid, your license and call sign usually appear in the FCC database within a few days; ARRL says 24 to 48 hours in many cases. The license lasts 10 years. Renewals and upgrades are also $35 per application. For new applicants under 18, the ARRL reimburses the $35 FCC fee after the license is issued."
+      },
+      {
+        "step": 5,
+        "title": "Start with a dual-band handheld and better antenna",
+        "body": "A dual-band (2-meter and 70-centimeter) handheld is the usual first radio. Low-cost models work, but choose one legal for amateur use and never transmit outside ham bands. Replace the short factory antenna with a longer, better one; this is the cheapest big improvement. Program your local repeaters, the 2-meter national simplex calling frequency (146.520 MHz), NOAA weather channels for listening, and your group's simplex frequency. Use free programming software and a cable, or the radio's keypad. Save a printed list of every channel. Then add a 25-50 watt mobile radio in your vehicle; it reaches much farther than a handheld."
+      },
+      {
+        "step": 6,
+        "title": "Build a go-kit in one bag",
+        "body": "Pack: handheld radio with two charged batteries, an AA battery case, and charger; a roll-up or telescoping antenna and a short length of coax with adapters; a mobile radio if you have one, with power cable and fuses; a 12-volt battery (lithium iron phosphate is light and long-lasting) and a small solar panel or car charger; earbuds or headset; printed frequency and repeater list, local net schedule, and your license copy; notebook, pencils, and message forms; headlamp; and a multi-tool. Keep it ready to grab. Check batteries monthly and charge after every use."
+      },
+      {
+        "step": 7,
+        "title": "Practice in nets and join a local group",
+        "body": "A license and radio are only half the skill. Check in to your local weekly repeater net to practice giving clear, short messages. Join your county ARES (Amateur Radio Emergency Service) or RACES group, or a local club, to learn how they work with emergency managers during disasters. Take part in practice events such as Field Day, where operators set up on emergency power. Under FCC rule 97.403, a licensed amateur may use any means at hand to send essential messages when life or property is in immediate danger and normal systems are down - practice now so you can do that well."
+      }
+    ],
+    "warnings": [
+      "Do not transmit until your call sign appears in the FCC database. Until then you are not licensed.",
+      "Many low-cost handhelds can transmit outside ham bands. Using them on public-safety, business, or GMRS frequencies under a ham license is illegal.",
+      "Never let an antenna touch or come near power lines. Raise and lower masts with a spotter.",
+      "Pay the FCC fee within 10 days of the email or your application is dismissed with no refund."
+    ],
+    "proTips": [
+      "Get your FRN before exam day - it saves time and avoids mistakes on the paperwork.",
+      "Study materials must cover the 2026-2030 Technician pool for exams from July 1, 2026 on.",
+      "A better antenna on a $30 handheld often beats an expensive radio with a stock antenna.",
+      "Practice running your go-kit on battery power for an evening. You will learn what you forgot to pack."
+    ],
+    "relatedGuides": [
+      "comms-002",
+      "comms-016",
+      "comms-014",
+      "comms-006",
+      "power-006"
+    ],
+    "source": "ARRL VEC / FCC Part 97",
+    "sources": [
+      {
+        "title": "Licensing, Education and Training",
+        "publisher": "ARRL",
+        "url": "https://www.arrl.org/licensing-education-training",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "New Technician Class Question Pool Released - Effective July 1, 2026",
+        "publisher": "ARRL",
+        "url": "https://www.arrl.org/news/new-technician-class-question-pool-released-effective-july-1-2026",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "New Amateur Radio License Applications Fee to Become Effective April 19, 2022",
+        "publisher": "ARRL",
+        "url": "https://www.arrl.org/news/new-amateur-radio-license-applications-fee-to-become-effective-april-19-2022",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "47 CFR 97.403 Safety of life and protection of property",
+        "publisher": "U.S. GPO / FCC",
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2002-title47-vol5/pdf/CFR-2002-title47-vol5-sec97-403.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "low",
+    "prerequisites": [
+      "comms-002"
+    ],
+    "whenNotTo": [
+      "If you only need to talk to family within a mile or two, FRS or GMRS is simpler and cheaper.",
+      "For private or encrypted traffic - ham radio rules generally prohibit messages meant to hide their meaning."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want long-range, infrastructure-free radio contact and need to get licensed and equipped.",
+      "immediate": [
+        "Get a free FRN from the FCC and study the 2026-2030 Technician pool",
+        "Register for an exam session (about $15 at ARRL VEC; some free)",
+        "Pay the $35 FCC fee within 10 days of the FCC email"
+      ],
+      "then": [
+        "Program local repeaters and 146.520 MHz into a dual-band handheld with a better antenna",
+        "Build a go-kit and check in to a weekly net to practice"
+      ]
+    }
+  },
+  {
+    "id": "comms-010",
+    "category": "comms",
+    "title": "Off-Grid Text Messaging With Meshtastic LoRa Mesh Radios",
+    "priority": "advanced",
+    "tags": [
+      "comms",
+      "Meshtastic",
+      "LoRa",
+      "mesh",
+      "off-grid",
+      "text messaging",
+      "GPS"
+    ],
+    "summary": "Set up small, low-power LoRa radios running free Meshtastic firmware so your group can text and share locations with no cell service, internet, or license. Each radio relays messages for the others, so the network grows with every node.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand what Meshtastic does and does not do",
+        "body": "Meshtastic is free, open-source firmware for small LoRa radio boards. Each board pairs with your phone by Bluetooth (or connects by Wi-Fi or USB) and sends short text messages and position reports over the air, with no cell tower or internet. Every node that hears a new message re-broadcasts it after a short delay, so messages can hop across several radios to reach people out of direct range. Messages are short: the app limits them to about 200 characters. It is text only - no voice calls, photos, or video. Speeds are slow, so think of it as a reliable text pager, not a phone."
+      },
+      {
+        "step": 2,
+        "title": "Get compatible hardware",
+        "body": "Buy at least two (ideally one per person, plus one for a high spot) of a supported board listed on the Meshtastic website, in the frequency version for your country. In the U.S., buy the 915 MHz version; Meshtastic's U.S. region uses 902-928 MHz, a band shared by license-free devices. Boards are inexpensive compared with satellite devices, and there is no monthly fee. Choose models with a battery, a case, and ideally built-in GPS if you want location sharing. Always connect the antenna before powering on, because transmitting without an antenna can damage the radio."
+      },
+      {
+        "step": 3,
+        "title": "Flash firmware and set your region first",
+        "body": "Install current firmware using the Meshtastic web flasher, following the official instructions for your board. Then install the Meshtastic app (Android or iOS) or use the web client, and pair with the radio over Bluetooth. The first required step is setting the LoRa region - the radio will not transmit until you do. In the U.S., choose 'US.' Do not pick the ITU amateur regions unless you hold a ham license; in licensed mode encryption is not allowed and you must send your call sign. Give each node a clear name, such as 'DAD' or 'BASE,' so family can tell who is who."
+      },
+      {
+        "step": 4,
+        "title": "Keep everyone on the same preset and create a private channel",
+        "body": "Nodes must share the same modem preset to hear each other. The default preset, LongFast, balances range and speed and is what most local meshes use; leave it unless your local group uses another. Every radio ships with a default public channel encrypted with a well-known key, so anyone nearby on Meshtastic can read it. For family traffic, create a new channel in Settings, name it to generate a fresh 256-bit key, save it, and send it to the radio. Then share the channel's QR code with family members so their radios join the same private channel. Direct messages to one person are encrypted to that person's own key."
+      },
+      {
+        "step": 5,
+        "title": "Place nodes high for real range",
+        "body": "LoRa is line of sight. The app's estimate for LongFast is about 6 miles (10 km) in flat terrain with modest antennas, but handhelds in pockets, houses, and woods often reach far less - a mile or two is common. Height is the biggest factor. Meshtastic's documentation notes that a well-placed node on a rooftop or hilltop can outperform ground-level nodes even on slower, longer-range settings. Put one node in a high window, attic, or mast with a battery and small solar panel to act as your relay. The default hop limit is 3, meaning a message is re-sent up to three times; leave it unless you have a reason to change it."
+      },
+      {
+        "step": 6,
+        "title": "Send, confirm, and share location",
+        "body": "Type short, clear messages: who, what, where, and what you need. Watch the delivery status. For a direct message, 'Delivered to recipient' means the other radio acknowledged it - the strongest confirmation. 'Delivered to mesh' on a channel broadcast means it went out, but there is no per-person receipt. If you see 'Relayed, not confirmed,' wait and try again or move higher. Turn on position sharing only with people you trust, and set a sensible broadcast interval so batteries last. If you do not want your location shown, turn it off or use a fixed position."
+      },
+      {
+        "step": 7,
+        "title": "Power, test, and fit it into your PACE plan",
+        "body": "Charge every node and test monthly: send a message from each person's usual locations, like work, school, and a neighbor's home, and note what reaches and what does not. Carry a USB power bank and cable for each node; turn on power-saving mode on nodes that do not need to stay awake. Write your channel name, preset, and region on your comms card in case a radio has to be reset. Meshtastic makes a strong Contingency layer in a PACE plan: it does not depend on towers or the grid, but it does depend on charged radios and on nodes being within reach of each other."
+      }
+    ],
+    "warnings": [
+      "Never power on a LoRa radio without its antenna attached. It can damage the transmitter.",
+      "The default channel uses a widely known key - anyone nearby with Meshtastic can read it. Use a private channel for family traffic.",
+      "Do not use amateur (ITU) regions without a ham license. In licensed mode encryption is prohibited.",
+      "Do not count on reaching 911 through Meshtastic. It only reaches other Meshtastic users."
+    ],
+    "proTips": [
+      "A solar-powered relay node in an attic or on a pole can tie a whole neighborhood together.",
+      "Print the channel QR code and keep it in your go-bag so a new or reset radio can join in seconds.",
+      "Ask local Meshtastic groups which preset and channels they use - joining an existing mesh can greatly extend your range.",
+      "Keep messages short and standard: 'SAFE at home. Power out. Check in 1800.'"
+    ],
+    "relatedGuides": [
+      "comms-006",
+      "comms-005",
+      "comms-007",
+      "power-006"
+    ],
+    "source": "Meshtastic official documentation",
+    "sources": [
+      {
+        "title": "Initial Configuration",
+        "publisher": "Meshtastic",
+        "url": "https://meshtastic.org/docs/getting-started/initial-config/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Overview (mesh algorithm and encryption)",
+        "publisher": "Meshtastic",
+        "url": "https://meshtastic.org/docs/overview/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Android Radio and User Settings",
+        "publisher": "Meshtastic",
+        "url": "https://meshtastic.org/docs/software/android/user/settings-radio-user/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Messages and Channels",
+        "publisher": "Meshtastic",
+        "url": "https://meshtastic.org/docs/software/android/user/messages-and-channels/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "To call for emergency services - use 911, a satellite SOS, or a PLB instead.",
+      "When you need voice contact or long range without relay nodes - use GMRS or ham radio."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Cell and internet are down and your group needs to text and share locations nearby.",
+      "immediate": [
+        "Power on the node (antenna attached) and connect the app by Bluetooth",
+        "Make sure region is US and you are on your family's private channel",
+        "Send a short check-in and watch for 'Delivered to recipient'"
+      ],
+      "then": [
+        "Move higher or place a relay node in a high spot if messages do not get through",
+        "Charge nodes from a power bank and keep check-ins short to save battery"
+      ]
+    }
+  },
+  {
+    "id": "comms-011",
+    "category": "comms",
+    "title": "Satellite SOS and Messaging - Phones, PLBs, and Satellite Messengers",
+    "priority": "critical",
+    "tags": [
+      "comms",
+      "satellite",
+      "SOS",
+      "iPhone",
+      "Pixel",
+      "T-Satellite",
+      "PLB",
+      "inReach",
+      "406 MHz"
+    ],
+    "summary": "Know which satellite emergency options you already have and which are worth buying: iPhone and Pixel satellite SOS, carrier satellite texting, 406 MHz personal locator beacons, and two-way satellite messengers. Includes what each costs as of October 2026 and the limits that trip people up.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Check what your phone can already do",
+        "body": "Many phones made since 2022 can reach emergency services by satellite when there is no cell or Wi-Fi signal. iPhone 14 and later (all models) have Emergency SOS via satellite in the U.S., Canada, Mexico, much of Western Europe, Japan, Australia, New Zealand, and a few other countries. Google Pixel 9 and later (except the Pixel 9a) have Satellite SOS in the U.S., Canada, Puerto Rico, Australia, and much of Europe. Some carriers, such as T-Mobile, add satellite texting to many recent phones. Open your phone's settings, search 'satellite,' and confirm the feature is listed and active before you head out."
+      },
+      {
+        "step": 2,
+        "title": "Know the costs as of October 2026",
+        "body": "Apple says Emergency SOS via satellite and Messages via satellite are free for two years after you activate an iPhone 14 or later; Apple has extended free periods for older iPhones before, so check the status in Settings. SMS sent through Messages via satellite may carry carrier fees. Google's Satellite SOS help page does not list a price. T-Mobile's T-Satellite costs $10 a month as an add-on or comes included with its top plan; AT&T and Verizon customers can add it for $10 a month with an unlocked phone and a free eSIM slot, and text-to-911 by satellite is described as free. A 406 MHz PLB has no subscription. Two-way satellite messengers need a paid plan."
+      },
+      {
+        "step": 3,
+        "title": "Practice with the demo before you need it",
+        "body": "Satellite SOS is harder than a normal text. Both Apple and Google offer a demo that walks you through pointing the phone at a satellite without contacting anyone. On iPhone, find the Satellite Connection demo in the Emergency SOS settings. On Pixel, go to Settings, then Safety and emergency, then Satellite SOS. Run the demo outside once, so you know how long it takes and what the screen asks you to do. Set up emergency contacts and your medical ID now; the phone can notify those contacts and share your answers and location when you use satellite SOS."
+      },
+      {
+        "step": 4,
+        "title": "Use phone satellite SOS correctly",
+        "body": "First, try calling 911 - the call may still connect on another carrier's tower. If it fails, the phone will offer a satellite option: Emergency Text via Satellite on iPhone, or Satellite SOS on Pixel. Tap it, then answer the short emergency questions with taps; they tell responders what is wrong. Choose whether to notify your emergency contacts. Go outside with a clear view of the sky and horizon, and follow the arrows to point the phone at the satellite. Hold still. Apple says a message can take about 30 seconds in ideal conditions and over a minute under light foliage. Stay connected and answer follow-up questions from responders."
+      },
+      {
+        "step": 5,
+        "title": "Understand the limits",
+        "body": "Satellite features only work when you have no cell or Wi-Fi coverage at all, and only with a clear view of the sky. Thick trees, canyons, buildings, and being indoors can block the signal. Phone satellite SOS is text only - no voice call. It is country-dependent, and iPhones bought in some countries do not support it. A phone also needs battery: cold, heat, and constant searching for a signal drain it fast. Carrier satellite texting can be slower than normal texting and may not support every app. None of these replace a dedicated beacon for people who travel often in remote country, fly, or boat offshore."
+      },
+      {
+        "step": 6,
+        "title": "Consider a personal locator beacon (PLB)",
+        "body": "A PLB sends a 406 MHz distress signal through the international Cospas-Sarsat satellite system to rescue coordination centers, with your GPS position. It works almost anywhere on Earth, needs no subscription, and has a battery that lasts years in standby. It is one-way: you cannot send details or know who is coming. Federal rules require you to register a 406 MHz beacon with NOAA. Registration is free at beaconregistration.noaa.gov, and NOAA asks you to confirm your details every two years. Update the registration if you sell the beacon or your contact information changes. Use it only for grave and imminent danger."
+      },
+      {
+        "step": 7,
+        "title": "Consider a two-way satellite messenger",
+        "body": "Satellite messengers such as Garmin inReach let you send an SOS to a monitoring center and then text back and forth with responders, family, and friends. They also offer tracking and weather. They require a paid subscription; published monthly plan prices for inReach range from about $8 to $50 depending on the plan. In 2026 Garmin changed its policy so that some newer inReach models (Mini 2, Mini 3, and certain watches) keep SOS access for up to 12 months while a plan is suspended. Check the current terms on the maker's website before you buy, since plans and policies change. Keep the device charged and test it before each trip."
+      }
+    ],
+    "warnings": [
+      "Do not use satellite SOS or a PLB for anything less than a real emergency. False alerts send rescuers out and can bring penalties.",
+      "An unregistered 406 MHz beacon is illegal and slows rescue. Register it free with NOAA.",
+      "Free satellite periods and subscriptions can lapse. Confirm your service is active before every trip.",
+      "Satellite features need a clear view of the sky. Go outside and away from trees and walls before trying."
+    ],
+    "proTips": [
+      "Run the phone's satellite demo in your backyard once - it removes the guesswork when you are scared and hurt.",
+      "Keep a PLB on your body, not in your pack, so it stays with you if you are separated from your gear.",
+      "Set emergency contacts in your phone so they get your location and status when you send a satellite SOS.",
+      "Carry a small power bank. A dead phone has no satellite feature at all."
+    ],
+    "relatedGuides": [
+      "comms-012",
+      "comms-006",
+      "comms-001",
+      "comms-015"
+    ],
+    "source": "Apple / Google / T-Mobile / NOAA SARSAT / Garmin",
+    "sources": [
+      {
+        "title": "Use Emergency SOS via satellite on your iPhone",
+        "publisher": "Apple Support",
+        "url": "https://support.apple.com/en-hk/HT213426",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "About Messages via satellite on your iPhone",
+        "publisher": "Apple Support",
+        "url": "https://support.apple.com/120930",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Get emergency help through satellite with your Pixel phone",
+        "publisher": "Google Pixel Help",
+        "url": "https://support.google.com/pixelphone/answer/15254448?hl=en-GB",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Starlink Direct to Cell and T-Satellite Guide [2026]",
+        "publisher": "SatelliteInternet.com",
+        "url": "https://www.satelliteinternet.com/resources/starlink-direct-to-cell",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Beacon Registration Brochure",
+        "publisher": "NOAA SARSAT",
+        "url": "https://www.sarsat.noaa.gov/wp-content/uploads/Registration-Brochure.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When you have any cell or Wi-Fi signal - call or text 911 normally.",
+      "For non-urgent problems such as a minor delay - use satellite messaging to family, not SOS.",
+      "Do not activate a PLB to ask for routine help; it is for grave and imminent danger."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are in a life-threatening emergency with no cell or Wi-Fi signal.",
+      "immediate": [
+        "Try calling 911 first - another carrier's tower may connect",
+        "If it fails, choose the phone's satellite option, answer the questions, and point the phone as shown",
+        "With a PLB, extend the antenna, give it a clear view of the sky, and activate it"
+      ],
+      "then": [
+        "Stay where you are, keep the device pointed at the sky, and answer follow-up messages",
+        "Save battery between messages and use visual signals when you hear aircraft"
+      ]
+    }
+  },
+  {
+    "id": "comms-012",
+    "category": "comms",
+    "title": "Using Your Phone When Networks Are Overloaded or Down",
+    "priority": "critical",
+    "tags": [
+      "comms",
+      "phone",
+      "texting",
+      "Wi-Fi calling",
+      "battery",
+      "911",
+      "network outage"
+    ],
+    "summary": "Get messages through when cell networks are jammed or partly down, and keep your phone alive for days. Text first, keep calls short, use Wi-Fi when cell fails, and manage battery like it is your last one.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Call 911 only for life-threatening emergencies",
+        "body": "During a disaster, 911 lines get flooded. Call 911 when someone's life is in danger, a crime is in progress, or there is a fire. For everything else, use local non-emergency numbers, 211 for community services, or official websites and social media. A 911 call from a cell phone will try any available carrier's network, so try it even if your own carrier shows no bars. Many areas now accept texts to 911, but not all; if text to 911 is not available, you will usually get an automatic reply telling you to call instead. If you can call, calling is still best because dispatchers can ask questions quickly."
+      },
+      {
+        "step": 2,
+        "title": "Text instead of calling",
+        "body": "A text needs far less network capacity than a voice call, so it often gets through when calls fail. FEMA's family plan guidance puts it simply: text is best. Your phone may keep trying to send a text in the background and deliver it when there is a gap in traffic. Keep texts short and complete: who you are, that you are safe or what you need, where you are, and your plan. Example: 'Ana - SAFE. At Lincoln School gym. Phone 30%. Will text 6pm.' Send one message to a group rather than many separate messages. Avoid sending photos and videos until networks recover; they use much more capacity."
+      },
+      {
+        "step": 3,
+        "title": "Keep calls short and wait before redialing",
+        "body": "If you must call, keep it brief and pass only essential information. The FCC and FEMA advise waiting about 10 seconds before redialing a call that did not connect, which helps reduce network jams for everyone. Do not keep hammering redial. Call your out-of-area contact rather than local family, since long-distance calls sometimes go through when local lines are overloaded. Update your voicemail greeting with your status and plan so callers get information even when you cannot answer."
+      },
+      {
+        "step": 4,
+        "title": "Use Wi-Fi calling and internet apps",
+        "body": "If cell towers are down but you can reach working Wi-Fi - at a shelter, library, business with a generator, or a neighbor with satellite or fiber internet - turn on Wi-Fi calling in your phone settings. Your phone can then send normal calls and texts over the internet. Internet messaging and social apps also work over Wi-Fi. Turn Wi-Fi calling on now and add your street address as the emergency address so 911 calls over Wi-Fi go to the right place. Many cities and carriers open free Wi-Fi hotspots after disasters; check official announcements on the radio."
+      },
+      {
+        "step": 5,
+        "title": "Stretch your battery",
+        "body": "Assume you will not be able to charge for days. Turn down screen brightness, close apps you are not using, and turn off Bluetooth and location for apps that do not need them. Turn on low power or battery saver mode. In areas with no signal, a phone burns battery searching for towers, so switch to airplane mode and turn it off only to check messages at set times - for example, five minutes at the top of every second hour. Keep the phone warm in cold weather, inside a jacket, because cold drains batteries quickly. Carry a charged power bank and cable."
+      },
+      {
+        "step": 6,
+        "title": "Charge safely when the power is out",
+        "body": "Charge from a power bank, a solar charger, or a hand-crank radio with USB output. You can charge in a car, but only with the vehicle parked outside in open air, never in a garage, even with the door open, because exhaust can kill you with carbon monoxide. Do not run a car or generator indoors to charge anything. If a charging station is open at a shelter or library, use it, and bring your own cable and a wall plug. Keep a basic non-cordless landline phone if you still have copper phone service; it may work during a power outage. Phones over internet or fiber service need power to work."
+      },
+      {
+        "step": 7,
+        "title": "Get official information and use satellite as a backup",
+        "body": "Keep emergency alerts turned on so your phone receives Wireless Emergency Alerts, which are free and do not count against texting limits. Use a battery or crank radio for broadcast news so you save phone battery. If you have no cell or Wi-Fi at all and an iPhone 14 or later, Messages via satellite (in the U.S., Canada, Mexico, and Japan) can send short texts to family; for emergencies, use Emergency SOS via satellite instead. Pixel 9 and later phones offer Satellite SOS. Some carriers add satellite texting. See comms-011 for how these work."
+      }
+    ],
+    "warnings": [
+      "Never charge a phone in a car running in a garage or run a generator indoors. Carbon monoxide kills.",
+      "Do not tie up 911 with non-emergency questions during disasters. Use 211, local non-emergency lines, or official websites.",
+      "Do not text or call while driving in disaster traffic. Pull over safely first."
+    ],
+    "proTips": [
+      "Turn on Wi-Fi calling and set your emergency address now - it takes two minutes and can save hours later.",
+      "Write a standard check-in text on your family card so everyone sends the same clear information.",
+      "Airplane mode plus scheduled check-ins can make a phone battery last several days.",
+      "Download offline maps and save key documents to your phone before storm season."
+    ],
+    "relatedGuides": [
+      "comms-005",
+      "comms-011",
+      "comms-013",
+      "power-006",
+      "comms-006"
+    ],
+    "source": "FCC / FEMA tips for communicating in an emergency",
+    "sources": [
+      {
+        "title": "Tips for Communicating in an Emergency (FCC/FEMA)",
+        "publisher": "FCC / FEMA (hosted by WV DHHR)",
+        "url": "https://dhhr.wv.gov/healthprep/plan/howtoprepare/familyprep/Documents/FCC%20Tips_for_Communicating_2011.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Family Emergency Communication Plan (FEMA, 2019)",
+        "publisher": "FEMA (hosted by Pierce County, WA)",
+        "url": "https://www.piercecountywa.gov/DocumentCenter/View/79573/FamilyCommunicationPlan_FEMA_2019_5_3",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Types of Alerts (IPAWS / WEA)",
+        "publisher": "FEMA",
+        "url": "https://fema.gov/node/496861",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "About Messages via satellite on your iPhone",
+        "publisher": "Apple Support",
+        "url": "https://support.apple.com/120930",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "In a life-threatening emergency, do not wait to text family first - call 911 right away."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A disaster has hit and calls will not connect, or your phone shows few or no bars.",
+      "immediate": [
+        "Text instead of calling: who, safe or need, where, and next check-in time",
+        "If a call fails, wait about 10 seconds before redialing; keep calls short",
+        "Turn on battery saver and use airplane mode between scheduled check-ins"
+      ],
+      "then": [
+        "Find working Wi-Fi and use Wi-Fi calling or internet messaging",
+        "Charge only from power banks, solar, or a car parked outdoors"
+      ]
+    }
+  },
+  {
+    "id": "comms-013",
+    "category": "comms",
+    "title": "Emergency Alerts - WEA, EAS, NOAA Weather Radio and SAME Codes",
+    "priority": "critical",
+    "tags": [
+      "comms",
+      "alerts",
+      "WEA",
+      "EAS",
+      "IPAWS",
+      "NOAA Weather Radio",
+      "SAME",
+      "warnings"
+    ],
+    "summary": "Make sure official warnings reach you through at least two paths: Wireless Emergency Alerts on your phone, the Emergency Alert System on radio and TV, and a NOAA Weather Radio programmed with SAME codes for your county. All are free once you own the device.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the three main alert paths",
+        "body": "Officials send warnings through FEMA's Integrated Public Alert and Warning System (IPAWS). Wireless Emergency Alerts (WEA) go to cell phones in the affected area. The Emergency Alert System (EAS) breaks into radio, TV, and cable programs. NOAA Weather Radio All Hazards broadcasts National Weather Service warnings and other civil emergency messages 24 hours a day, and its digital SAME codes are also used by broadcasters for EAS. Each path can fail - a phone can be off or out of range, TV needs power, and a weather radio can be out of range of its transmitter - so set up at least two, especially for nighttime warnings."
+      },
+      {
+        "step": 2,
+        "title": "Turn on Wireless Emergency Alerts",
+        "body": "WEA messages look like texts but use a special tone and vibration that repeats twice. They are free, need no sign-up, and do not count against texting limits. Officials do not need your phone number or personal information; alerts go to every compatible phone near the cell towers in the warning area. Types include National alerts, Imminent Threat alerts (extreme weather, active shooters, and other current dangers), AMBER alerts for child abductions, Public Safety alerts, and opt-in Test alerts. Newer phones show up to 360 characters. Spanish alerts are supported and display based on your phone's language setting. Check your phone's notification settings to confirm alerts are on."
+      },
+      {
+        "step": 3,
+        "title": "Use radio and TV for details",
+        "body": "WEA messages are short. They tell you what is happening and what to do right now, but often say to check local media. EAS alerts on radio and TV give more detail, and local stations usually stay on the air with updates during major events. Keep a battery or hand-crank AM/FM radio, since TV and internet may be out. In a car, the radio is often the fastest source. Note the call letters of your local emergency stations on your family plan."
+      },
+      {
+        "step": 4,
+        "title": "Buy the right weather radio",
+        "body": "Look for a receiver with the Public Alert logo. The National Weather Service recommends these features: a tone alarm that wakes you, SAME technology so you get only alerts for your area, selectable alert types so you can turn off messages you do not need, battery backup for power outages, and an external antenna jack for fringe areas. Prices run about $20 to $200. Place the radio where you will hear it at night, such as a bedroom or hallway. Hand-crank radios with a NOAA band are good backups but often lack SAME and alarm features."
+      },
+      {
+        "step": 5,
+        "title": "Program SAME codes for your county",
+        "body": "SAME (Specific Area Message Encoding) codes are six digits. The first digit is 0 for a whole county, or another number for part of a county. The next two digits are the state, and the last three are the county. Find your codes on the NWS SAME location codes page on weather.gov, or by calling 1-888-NWR-SAME (1-888-697-7263). Enter the code for your county, plus nearby counties where storms often come from or where family members live or work. Follow your radio's manual. Set the radio to the frequency for the transmitter that serves your county."
+      },
+      {
+        "step": 6,
+        "title": "Pick the right frequency and test it",
+        "body": "NOAA Weather Radio uses seven frequencies: 162.400, 162.425, 162.450, 162.475, 162.500, 162.525, and 162.550 MHz. There are more than 900 transmitters, and most listeners are within about 50 miles (80 km) of one, though terrain can change that. Use the frequency listed for your county's transmitter, even if another station sounds louder or clearer - the NWS warns not to program a station that is not assigned to your SAME area. Transmitters send routine tests on a set schedule that your local NWS office posts; check that your radio alarms during a test. Replace backup batteries once a year."
+      },
+      {
+        "step": 7,
+        "title": "Act on the alert",
+        "body": "When an alert sounds, read or listen to the whole message. Note the type (warning means act now; watch means be ready), the area, the expiration time, and the instructions. A long 1050 Hz tone on a weather radio comes before the message; a short burst of digital noise marks the end. Follow the instructions right away: shelter in place, move to your safe room, or evacuate as directed. Then use radio or local news for updates, and text your family a short status message. Do not wait to see the danger before acting - tornado and flash flood warnings may give only minutes."
+      }
+    ],
+    "warnings": [
+      "Do not rely on a single alert path. Phones can be off, silenced, or out of range, especially at night.",
+      "Do not program your weather radio for a louder station that is not assigned to your county; you may miss local warnings.",
+      "Do not turn off Imminent Threat alerts to avoid noise. They carry the most urgent life-safety warnings."
+    ],
+    "proTips": [
+      "Program SAME codes for counties upwind of you so you get a few extra minutes of warning on approaching storms.",
+      "Put a weather radio in each bedroom hallway in tornado country - it is the best wake-up warning at night.",
+      "Leave your phone's emergency alerts on and its ringer settings so alerts can sound even in Do Not Disturb mode, if your phone allows it.",
+      "Sign up for your county's local alert system too; it often sends warnings that do not go out over WEA."
+    ],
+    "relatedGuides": [
+      "comms-002",
+      "comms-012",
+      "comms-005",
+      "dis-002",
+      "dis-004"
+    ],
+    "source": "FEMA IPAWS / NOAA National Weather Service",
+    "sources": [
+      {
+        "title": "Types of Alerts (IPAWS / WEA)",
+        "publisher": "FEMA",
+        "url": "https://fema.gov/node/496861",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Using SAME",
+        "publisher": "NOAA National Weather Service",
+        "url": "https://weather.gov/dsb/usingsame",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "NOAA Weather Radio",
+        "publisher": "NOAA National Weather Service (Aberdeen, SD)",
+        "url": "https://www.weather.gov/abr/nwr",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not wait for an alert if you can already see or hear danger, such as rising water or a roaring wind. Act now."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You want to be sure official warnings reach you, day or night, even if the power or phone network fails.",
+      "immediate": [
+        "Confirm Wireless Emergency Alerts are on in your phone settings",
+        "Program a Public Alert weather radio with your county's 6-digit SAME code and assigned frequency",
+        "Keep a battery or crank AM/FM radio for details and updates"
+      ],
+      "then": [
+        "Check that the radio alarms during a scheduled test and replace backup batteries yearly",
+        "When an alert sounds, read the whole message and follow its instructions right away"
+      ]
+    }
+  },
+  {
+    "id": "comms-014",
+    "category": "comms",
+    "title": "Morse Code Basics for Emergencies",
+    "priority": "advanced",
+    "tags": [
+      "comms",
+      "Morse code",
+      "SOS",
+      "light signal",
+      "tapping",
+      "CW"
+    ],
+    "summary": "Send and recognize SOS and a few key letters in Morse code with a flashlight, whistle, horn, or by tapping. SOS in Morse is a recognized international distress signal, and it works when voice and phones do not.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Learn SOS first",
+        "body": "SOS is three short, three long, three short: dot-dot-dot, dash-dash-dash, dot-dot-dot. It is listed among the recognized distress signals in the international rules for vessels, and it is understood by aircrews and rescuers worldwide. Send it as one continuous group with no long pauses between the S, O, and S, then pause for a few seconds and repeat. Do not worry about perfect speed. A slow, clear, steady SOS is far better than a fast, sloppy one. Practice tapping it on a table until you can do it without thinking."
+      },
+      {
+        "step": 2,
+        "title": "Get the timing right",
+        "body": "Morse code is built on a simple rhythm. A dot is one unit long. A dash is three units. The gap between parts of the same letter is one unit. The gap between letters is three units. The gap between words is seven units. For a flashlight, a good beginner unit is about half a second, so a dot is a quick blink and a dash is a held beam of about one and a half seconds. The GridDown app's Morse player uses these same ratios at a faster practice speed, so you can watch and copy the pattern."
+      },
+      {
+        "step": 3,
+        "title": "Signal with a light",
+        "body": "At night, a flashlight, headlamp, phone light, or vehicle headlights can carry Morse code for miles. Point the light directly at the searcher, aircraft, or boat, and keep your hand steady. Use the switch or cover the lens with your hand to make clean on and off flashes - switch-blinking can be faster and sharper with a hand or hat over the light. Avoid shining bright light into anyone's eyes at close range, and never into a pilot's eyes during landing. In daylight, a signal mirror can send Morse by tilting the flash on and off the target."
+      },
+      {
+        "step": 4,
+        "title": "Signal with sound and tapping",
+        "body": "A whistle, car horn, or air horn can send Morse in the open. Short blasts are dots and longer blasts are dashes, with the same gaps as light. If you are trapped in rubble or a building, tap SOS on a pipe, beam, or wall with a hard object - rescuers listen for tapping during quiet periods. Tap three quick, three slow (spaced), three quick, then stop and listen for at least a minute. On land, plain groups of three blasts also mean help, and most people recognize that pattern even if they do not know Morse."
+      },
+      {
+        "step": 5,
+        "title": "Learn a few useful letters",
+        "body": "Beyond SOS, a few letters make simple messages possible. E is one dot. T is one dash. A is dot-dash. N is dash-dot. I is dot-dot. M is dash-dash. K is dash-dot-dash and means 'go ahead' or 'over' in radio Morse. R is dot-dash-dot and means 'received.' Numbers have five parts: 1 is dot followed by four dashes, and 5 is five dots. The full alphabet is in the GridDown Signaling screen. Spell out short words such as 'HURT,' 'WATER,' or a number of people, and send them slowly."
+      },
+      {
+        "step": 6,
+        "title": "Learn by sound, then practice weekly",
+        "body": "People who learn Morse by sound, not by looking at charts of dots and dashes, get faster and make fewer mistakes. Use a free practice app or website that plays letters at full speed with long gaps between them (the Farnsworth method), and add letters a few at a time. Ten minutes a day for a few weeks will get you sending and receiving simple words. Practice sending with a flashlight to a family member across a yard or field. Morse code is no longer required for any U.S. ham license, but many licensed hams still use it on the air because it gets through weak conditions where voice fails."
+      },
+      {
+        "step": 7,
+        "title": "Know when Morse is the right tool",
+        "body": "Use Morse when you can be seen or heard but cannot talk: at night across a valley, from a boat to shore, to an aircraft overhead, or trapped and tapping. Use plain voice, a phone, or a radio when they work, because they are faster and clearer. Remember that most people outside radio and rescue circles cannot read Morse beyond SOS, so keep messages to SOS or very short words. Combine Morse with other signals, such as a fire, a ground symbol, or a strobe, for the best chance of being noticed."
+      }
+    ],
+    "warnings": [
+      "Do not flash bright lights into the eyes of drivers or pilots who are close or landing. You can blind them.",
+      "Use SOS only for real distress. A false SOS can launch a search and may be illegal on radio or at sea.",
+      "If you are trapped, do not shout constantly. Tap and whistle in sets, and save your energy and air."
+    ],
+    "proTips": [
+      "Practice tapping SOS on a steering wheel or table until it is automatic.",
+      "A headlamp with a momentary button makes the cleanest light Morse.",
+      "Keep messages short. Most rescuers know SOS; few can read long Morse messages.",
+      "Use the GridDown Morse player to watch the rhythm, then copy it with your own light."
+    ],
+    "relatedGuides": [
+      "comms-015",
+      "comms-004",
+      "comms-001",
+      "comms-009"
+    ],
+    "source": "International distress signals (COLREGS Annex IV) / ARRL",
+    "sources": [
+      {
+        "title": "Distress Signals (Rule 37 / Annex IV) study guide",
+        "publisher": "Open Exam Prep",
+        "url": "https://open-exam-prep.com/study-guides/uscg-master-100/rules-sound/distress-signals",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Signal and survive (light and Morse signalling activity)",
+        "publisher": "The Scout Association (UK)",
+        "url": "https://www.scouts.org.uk/activities/signal-and-survive/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Licensing, Education and Training",
+        "publisher": "ARRL",
+        "url": "https://www.arrl.org/licensing-education-training",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When voice, phone, or radio works - those are faster and clearer.",
+      "When you are hiding from people who could hurt you; lights and sounds reveal your position."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You can be seen or heard but cannot talk to rescuers, and you need to call for help.",
+      "immediate": [
+        "Send SOS: three short, three long, three short, as one group",
+        "Use a flashlight at night, a mirror by day, or tap on pipes if trapped",
+        "Pause a few seconds, listen or watch for a reply, and repeat"
+      ],
+      "then": [
+        "Keep messages to SOS or one short word",
+        "Combine with other signals such as fire, ground symbols, or a whistle"
+      ]
+    }
+  },
+  {
+    "id": "comms-015",
+    "category": "comms",
+    "title": "Signal Panels, Body Signals, and Ground-to-Air Signals",
+    "priority": "critical",
+    "tags": [
+      "comms",
+      "signaling",
+      "VS-17",
+      "panel",
+      "ground-to-air",
+      "body signals",
+      "rooftop",
+      "strobe",
+      "smoke"
+    ],
+    "summary": "A complete visual signaling plan for being found from the air: bright panels like the VS-17, ground symbols, body signals, rooftop messages, lights, and smoke. It pulls together the methods on the GridDown Signaling screen and shows how to combine them.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Think like the pilot",
+        "body": "From the air, people are tiny and nature is full of random shapes. Crews notice three things: contrast (bright color on dark ground, dark on light), straight lines and sharp corners that nature does not make, and movement or flashes. Your job is to give them all three in the most open spot you can find. Pick a clearing, ridge, beach, gravel bar, road, parking lot, or rooftop and stay there. The military survival manual stresses making pattern signals as large as possible, with straight lines, sharp corners, and strong color or shadow contrast. Prepare signals early, while you have daylight and energy, so they are ready the moment you hear an engine."
+      },
+      {
+        "step": 2,
+        "title": "Lay out a signal panel such as the VS-17",
+        "body": "The VS-17 is a military signal panel: lightweight nylon, fluorescent orange on one side and cerise (pink-red) on the other. Any large, bright tarp, emergency blanket, raincoat, or boat cover can work the same way. Spread the panel flat and tight in the open, fully unfolded, with rocks or stakes on the corners so wind and rotor wash cannot lift it. Use the side that contrasts most with the ground. If you have two panels or a long tarp, lay them as a large X or V. Movement catches the eye, so when you hear an aircraft, grab one corner and wave or flip the panel. For boats, an orange flag at least 3 by 3 feet with a black square and black ball is a recognized daytime distress signal."
+      },
+      {
+        "step": 3,
+        "title": "Build ground symbols that mean something",
+        "body": "Use the core symbols most crews recognize: V means 'I need help.' X means 'I need medical help' or 'unable to proceed.' An arrow means 'I went this way.' Y means 'yes' and N means 'no' when a crew asks you questions by loudspeaker. Colorado Parks and Wildlife suggests symbols 30 to 50 feet (9 to 15 m) long and 3 to 4 feet (1 m) wide to attract attention; the UK Scouts teach about 10 by 3 meters with 3 meters between symbols. Bigger is better. Build with rocks, logs, branches, clothing, or trenches dug or stamped into snow, sand, or grass. Avoid rare or made-up symbols; a crew may not know them."
+      },
+      {
+        "step": 4,
+        "title": "Use body signals",
+        "body": "When an aircraft is close enough to see you, your body becomes a signal. Stand in the open where your outline shows against the ground. Slowly and repeatedly raising and lowering your outstretched arms to your sides is a recognized distress signal under the international rules for vessels and is widely understood by aircrews. Wave bright clothing or a panel to add color and movement. Do not wave casually, which can look like a friendly hello. Watch for the reply: in daylight a pilot who has seen you may rock the wings side to side; in low light the aircraft may flash green lights or turn its landing lights on and off twice."
+      },
+      {
+        "step": 5,
+        "title": "Signal from a rooftop or city",
+        "body": "In floods, earthquakes, and hurricanes, many people are rescued from roofs and upper floors by helicopter. Paint, spray, tape, or lay out large letters on the roof or a flat surface: HELP or SOS, with letters at least 8 to 10 feet (2.5 to 3 m) tall in a color that contrasts with the roof. Add an arrow pointing to where you are if you are not on the roof. Hang bright sheets or towels from windows and balconies. In daylight, use a mirror or a phone screen to flash at helicopters. At night, flash a light toward the sound of engines. Tell rescuers about injured people by adding an X or writing a number, such as '3 HURT.'"
+      },
+      {
+        "step": 6,
+        "title": "Use lights at night",
+        "body": "At night, a light is the best visual signal. A strobe flashing toward aircraft or boats stands out far better than a steady beam. Flash a flashlight or headlamp in groups of three, or send SOS in Morse code (three short, three long, three short). Aim at the aircraft, not at the clouds. For boats, an electric distress light that automatically flashes SOS is a Coast Guard-approved night distress signal. Turn lights on early and conserve batteries by signaling when you hear or see an aircraft. The military manual notes that some strobes give one extra flash when turned off, so expect that."
+      },
+      {
+        "step": 7,
+        "title": "Add smoke, fire, flares, and dye",
+        "body": "By day, smoke columns are visible for miles. Thick white smoke from green vegetation on a hot fire works against dark forest; see comms-003 for building signal fires safely. Orange smoke signals, sold for boats, are a recognized daytime distress signal and show well against water and snow. Use flares and smoke only when an aircraft or boat is in sight or close, because they burn out in seconds to minutes. Hold handheld flares downwind and away from your body and boat. At sea, sea dye marker colors the water around you, but it disperses quickly in rough water, so use it when rescuers are near."
+      },
+      {
+        "step": 8,
+        "title": "Combine signals and maintain them",
+        "body": "No single signal is seen every time, so layer them: a panel or ground symbol always laid out, a mirror or light ready in your hand, and a fire or smoke ready to light. Repair symbols after wind, rain, or snow. Remove or change your symbols once you are rescued or leave, and add an arrow if you move, so searchers are not misled. In a group, assign one person at a time as lookout and signaler. If you are worried about people who could harm you finding you, weigh the risk - visual signals reveal your position to everyone, not just rescuers."
+      }
+    ],
+    "warnings": [
+      "Weigh down every panel, tarp, and symbol material. Helicopter rotor wash can throw loose items into people or the aircraft.",
+      "Flares and smoke signals are hot and can start fires or burn you. Hold them downwind and away from fuel, people, and dry grass.",
+      "Never shine bright lights or flash mirrors into the cockpit of an aircraft that is landing or hovering near you.",
+      "Remove or change ground signals after rescue so they do not start a new search."
+    ],
+    "proTips": [
+      "Keep a fluorescent orange tarp or panel in every vehicle and go-bag - it doubles as shelter and a signal.",
+      "Lay out your V or X first thing in the morning; then work on water, shelter, and fire.",
+      "In snow, stamp symbols deep so shadows show, then line the trenches with dark branches.",
+      "Practice your rooftop plan: know where you would get paint or tape and how you would get onto the roof safely."
+    ],
+    "relatedGuides": [
+      "comms-001",
+      "comms-003",
+      "comms-004",
+      "comms-014",
+      "comms-011",
+      "dis-004"
+    ],
+    "source": "FM 21-76-1 Survival, Evasion and Recovery / Colorado Parks and Wildlife / USCG visual distress signals / COLREGS Annex IV",
+    "sources": [
+      {
+        "title": "FM 21-76-1 / AFTTP(I) 3-2.26 Survival, Evasion, and Recovery (Multiservice)",
+        "publisher": "U.S. Army / USMC / USN / USAF",
+        "url": "https://rmp.nc.gov/LCF/Publications/AL_Resources/Survival/Multi Service Survival Manual.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Survival Signals",
+        "publisher": "Colorado Parks and Wildlife",
+        "url": "https://cpw.state.co.us/learn/Pages/SurvivalSignal.aspx",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Visual Distress Signals (USCG requirements)",
+        "publisher": "Minnesota DNR",
+        "url": "https://dnr.state.mn.us/water_access/harbors/boatingsafety/visual_distress_signals.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Distress Signals (Rule 37 / Annex IV) study guide",
+        "publisher": "Open Exam Prep",
+        "url": "https://open-exam-prep.com/study-guides/uscg-master-100/rules-sound/distress-signals",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "International Ground-to-Air Signaling Code (cites FM 3-05.70)",
+        "publisher": "OFFGRID",
+        "url": "https://www.offgridweb.com/survival/international-ground-to-air-signaling-code",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When hostile people nearby could use your signals to find you.",
+      "Do not light flares or smoke in dry vegetation or near fuel.",
+      "Do not use made-up symbols in place of the core V, X, arrow, Y, and N - crews may not recognize them."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need aircraft to see you and understand that you need help.",
+      "immediate": [
+        "Lay a bright panel or tarp flat in the open, weighted at the corners",
+        "Build a large V (need help) or X (need medical help) with strong contrast",
+        "When you hear an aircraft, wave bright cloth, flash a mirror or light, and slowly raise and lower both arms"
+      ],
+      "then": [
+        "Watch for wing-rocking or flashing lights as a sign you were seen",
+        "Keep signals repaired and change them when you leave or are rescued"
+      ]
+    }
+  },
+  {
+    "id": "comms-016",
+    "category": "comms",
+    "title": "Radio Procedure - Prowords, Phonetic Alphabet, and Clear Emergency Messages",
+    "priority": "beginner",
+    "tags": [
+      "comms",
+      "radio procedure",
+      "prowords",
+      "phonetic alphabet",
+      "mayday",
+      "pan-pan",
+      "message format"
+    ],
+    "summary": "Talk on any radio so people understand you the first time: listen before you transmit, use standard prowords and the phonetic alphabet, and give emergency messages in a fixed order. Works on FRS, GMRS, CB, ham, and marine VHF.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Think, listen, then talk",
+        "body": "Only one person can talk on a channel at a time, and anyone who presses the button blocks everyone else. Before you transmit, decide exactly what you will say - write it down if you can. Listen for a few seconds to make sure the channel is clear. Press and hold the talk button, wait about one second so the first word is not cut off, then speak slowly and clearly in a normal voice with the microphone a couple of inches from your mouth. Keep each transmission short, then release the button and listen. Never hold the button down while you think."
+      },
+      {
+        "step": 2,
+        "title": "Use the basic prowords",
+        "body": "Prowords are standard words that save time and prevent confusion. 'This is' comes before your own name or call sign. 'Over' means 'I am done talking and expect a reply.' 'Out' means 'I am done and expect no reply' - only the person who started the call should say it, and never say 'over and out.' 'Roger' means 'I received your message.' 'Wilco' means 'I will comply.' 'Say again' asks someone to repeat. 'Break' marks a pause between parts of a message or asks to interrupt. 'Affirmative' and 'negative' mean yes and no and are easier to hear than 'yeah' and 'nah.' 'Standby' means wait."
+      },
+      {
+        "step": 3,
+        "title": "Spell with the phonetic alphabet",
+        "body": "Letters like B, D, E, and P sound alike over a radio. Spell names, street names, and call signs using the international phonetic alphabet: Alfa, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett, Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango, Uniform, Victor, Whiskey, X-ray, Yankee, Zulu. Say numbers digit by digit: 'one two five,' not 'one twenty-five.' Many radio users say 'niner' for 9 so it is not confused with 'five.' Example: 'Elm Street, I spell: Echo Lima Mike.' Print the alphabet on your radio card and practice spelling your own name."
+      },
+      {
+        "step": 4,
+        "title": "Make a normal call",
+        "body": "Say the name or call sign of the station you want, then 'this is' and your own name or call sign, then 'over.' Example: 'Base, Base, this is Mom, over.' Wait for the answer. When they reply, give your message in short pieces. On busy channels, move to an agreed working channel once you have made contact so the calling channel stays clear. On marine VHF, for example, boaters call on channel 16 and then switch to a working channel such as 68, 69, 71, 72, or 78. Never request a radio check on marine channel 16. Use plain English rather than codes - '10-codes' mean different things to different groups."
+      },
+      {
+        "step": 5,
+        "title": "Use distress and urgency calls correctly",
+        "body": "There are three priority calls, used worldwide on marine radio and understood on most radios. 'Mayday' (said three times) means grave and immediate danger to life or a vessel. 'Pan-pan' (pronounced 'pahn-pahn,' said three times) means urgent but not immediately life-threatening, such as a disabled boat drifting or a broken leg with no immediate danger. 'Securite' (pronounced 'say-cure-ee-tay,' said three times) means a safety message such as a hazard to others. If a pan-pan situation gets worse, upgrade it to mayday. Any station that hears a mayday should stop transmitting except to help."
+      },
+      {
+        "step": 6,
+        "title": "Give an emergency message in a fixed order",
+        "body": "Use this order so the listener can write it down: 1) 'Mayday, Mayday, Mayday.' 2) 'This is' and your name, call sign, or vessel name, three times. 3) Your location: address, crossroads, mile marker, landmarks, or latitude and longitude. 4) What is wrong: fire, crash, flood, injury. 5) How many people, and how many are hurt. 6) What help you need. 7) A description that helps rescuers find you, such as vehicle color or 'orange tarp on roof.' 8) 'Over.' Then release the button and listen for 10 to 15 seconds. If no one answers, repeat. Location is the most important piece - say it twice."
+      },
+      {
+        "step": 7,
+        "title": "Confirm and pass messages for others",
+        "body": "When you receive important information, read back the key parts - especially numbers, names, and locations - so the sender can catch mistakes. Example: 'Roger, three people, one injured, at 125 Elm, Echo Lima Mike, over.' If you relay a message for someone, write it down first and pass it word for word, with who it is from and the time. Keep a simple log with time, who you talked to, and what was said; it helps rescuers and keeps your group from losing track."
+      },
+      {
+        "step": 8,
+        "title": "Practice until it is automatic",
+        "body": "Under stress, people forget words, talk too fast, and leave out their location. Practice with your family or group during monthly radio checks: each person makes a call, gives a pretend emergency message in the fixed order, and the other person reads it back. Tape a printed message card with the order and the phonetic alphabet inside each radio bag and near your base radio. Check in to a local ham or GMRS net if you are licensed - it is the best practice you can get."
+      }
+    ],
+    "warnings": [
+      "Never send a false Mayday. It is a federal crime on marine radio and can divert rescuers from real emergencies.",
+      "Do not keep the talk button pressed while thinking or after speaking. You block everyone else, including people calling for help.",
+      "Do not give your location vaguely. 'By the lake' can mean miles; give crossroads, landmarks, or coordinates."
+    ],
+    "proTips": [
+      "Write your location in the fixed message order before you press the button. Read it, do not improvise.",
+      "Say your location twice - it is the part most often missed.",
+      "Keep a laminated card with the message order and phonetic alphabet in every radio bag.",
+      "Count 'one-thousand-one' after pressing the button before speaking so your first word is not cut off."
+    ],
+    "relatedGuides": [
+      "comms-002",
+      "comms-007",
+      "comms-008",
+      "comms-009",
+      "comms-014"
+    ],
+    "source": "USCG / NC Division of Marine Fisheries marine emergency call procedures",
+    "sources": [
+      {
+        "title": "Marine Emergency Calls",
+        "publisher": "NC Department of Environmental Quality, Division of Marine Fisheries",
+        "url": "https://www.deq.nc.gov/marine-fisheries/inside-fisheries/other/marine-emergency-calls/open",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Now That I Have a VHF Radio, How Do I Use It?",
+        "publisher": "San Diego Kayak Club",
+        "url": "https://www.sdkc.org/?p=1210",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Marine Distress Calls Explained",
+        "publisher": "BoatTEST",
+        "url": "https://boattest.com/article/marine-distress-calls-explained",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "VHF 101 - How to Use Your Radio",
+        "publisher": "Power and Motoryacht",
+        "url": "https://www.powerandmotoryacht.com/electronics/vhf-101-page-2",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use 'Mayday' for problems that are not life-threatening - use 'Pan-pan' or a normal call.",
+      "If a phone call or text to 911 works, use that first."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need to make a clear call for help or pass important information by radio.",
+      "immediate": [
+        "Listen first, then press, wait one second, and speak slowly",
+        "Say 'Mayday' three times, who you are, where you are (twice), what is wrong, how many, what you need, 'over'",
+        "Release and listen 10-15 seconds; repeat if no answer"
+      ],
+      "then": [
+        "Read back key details you receive and spell names with the phonetic alphabet",
+        "Log times and messages and keep the channel clear for others"
+      ]
     }
   }
 ]

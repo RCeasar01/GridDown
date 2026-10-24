@@ -2,137 +2,1570 @@
   {
     "id": "nav-001",
     "category": "navigation",
-    "title": "Terrain Reading and Topo Map Basics",
+    "title": "Reading a Topographic Map - Contours, Terrain Features, and Orientation",
     "priority": "critical",
-    "tags": ["navigation", "map", "terrain", "topo"],
-    "summary": "Read a topographic map to understand terrain before you move through it.",
+    "tags": [
+      "navigation",
+      "map",
+      "topo",
+      "contour lines",
+      "terrain features",
+      "orienting a map",
+      "usgs"
+    ],
+    "summary": "Learn to read a USGS-style topographic map so you can picture the ground before you walk it, find terrain features, and turn the map so it matches the land around you.",
     "steps": [
-      { "step": 1, "title": "Understanding contour lines", "body": "Contour lines connect points of equal elevation. Every contour line represents a specific elevation change (the contour interval — printed in the map legend). When lines are close together, terrain is steep. When lines are far apart, terrain is gentle. Concentric circles indicate a hill or peak. When contour lines form a V shape, the V points uphill for ridges and downhill (toward lower numbers) for valleys and drainages. Learning to see the 3D terrain from the 2D contour pattern is the foundational map skill." },
-      { "step": 2, "title": "Identify terrain features", "body": "Ridge: an elongated high ground — contour lines form an elongated oval. Valley/Draw: low terrain between ridges — contour lines point uphill when tracing the valley. Saddle: a low point between two hills — look for an hourglass contour pattern. Cliff: contour lines touching or crossing (impassable terrain). Depression: a low area surrounded by higher ground — marked with hachure tick marks inside the contour. Spur: a short ridge extending from a main ridge." },
-      { "step": 3, "title": "Map orientation", "body": "Orient the map by placing a compass on it and rotating the map (not the compass) until the magnetic north arrow on the compass aligns with north on the map. Account for declination (the difference between magnetic north and true north) — your map legend shows the local declination. Once oriented, the map is a 1:1 representation of the terrain around you: what is to your left on the ground is to the left on the map." },
-      { "step": 4, "title": "Locate yourself on the map", "body": "Triangulation: sight two or three recognizable terrain features (hilltop, bend in river, road junction). For each feature, take a compass bearing. Draw a line back on your map from each feature on the bearing you measured. Your position is at the intersection of the lines. Resection with two features gives a line of position; three features give a point." }
+      {
+        "step": 1,
+        "title": "Get the right map before you need it",
+        "body": "The standard U.S. topo is the USGS US Topo series at 1:24,000 scale, where 1 inch on the map equals 2,000 feet (about 610 m) on the ground. USGS updates US Topo maps on a three-year cycle, about one-third of the country each year, and you can download them from The National Map or topoView. Print your area on plain or waterproof paper and also save a copy to your phone. Check the date in the margin. Roads, trails, logging cuts, and buildings newer than that date will not be on the map. Older scanned maps (1884-2006) still show terrain well, but their roads and trails are often out of date."
+      },
+      {
+        "step": 2,
+        "title": "Read the margin first",
+        "body": "Before you look at the terrain, read the map margins. Find: the scale and bar scale (use the bar to measure distance, and pick the correct unit - miles, feet, or meters); the contour interval (the height between neighboring contour lines, often 20 or 40 feet); the declination diagram showing true north, grid north, and magnetic north; the map date; the datum (most modern maps and GPS units use WGS 84 or NAD 83); and, on maps with a UTM grid, the zone number. Write the contour interval and declination on the map edge where you will see them in the field."
+      },
+      {
+        "step": 3,
+        "title": "Read contour lines",
+        "body": "Each brown contour line joins points of the same elevation. Every fifth line is a heavier index contour with its elevation printed on it - count up or down from it. Lines close together mean steep ground. Lines far apart mean gentle ground or flat land. Lines that merge or touch show a cliff, and a cliff line may have tick marks pointing toward the lower ground. Where lines cross a stream, they bend into a V or U that points uphill, toward the stream's source. Water always flows out of the open end of the V. Small tick marks on the inside of a closed loop mean a depression, not a hill."
+      },
+      {
+        "step": 4,
+        "title": "Find the five major terrain features",
+        "body": "Army land navigation doctrine (TC 3-25.26) names five major features. Hill: closed loops of contours with the highest loop in the center. Ridge: a long line of high ground that drops on three sides. Valley: a long low area with level ground and usually a stream, bordered by higher ground; contours form a U that points upstream. Saddle: a dip between two hilltops, shaped like an hourglass on the map. Depression: a low spot surrounded by higher ground, shown with ticked contours. Practice by picking a summit on your map and tracing its contours outward until you can 'see' the shape in 3D."
+      },
+      {
+        "step": 5,
+        "title": "Find the minor and supplementary features",
+        "body": "The three minor features are the draw, spur, and cliff. A draw is a small, steep stream course with almost no level ground; contours form a sharp V pointing uphill. A spur is a short finger of ground sloping down off a ridge; contours form a U or V pointing downhill. Draws and spurs alternate along the side of a ridge, so if you cross one, expect the other next. A cliff is a vertical or near-vertical slope. The two supplementary features are man-made: a cut (ground dug out for a road or railroad) and a fill (ground built up). These features make good checkpoints because they are easy to recognize on the ground."
+      },
+      {
+        "step": 6,
+        "title": "Orient the map to the ground",
+        "body": "An oriented map lines up with the land, so a hill to your left on the ground is to your left on the map. Fastest way, by terrain association: find a road, stream, ridge, or power line you can see on both map and ground and turn the map until they line up. Use two features so you do not end up 180 degrees off. With a compass: lay its straight edge along a north-south grid line or the map's side edge, then turn the map and compass together until the needle sits at the angle the declination diagram shows. Keep the map oriented any time you are reading it."
+      },
+      {
+        "step": 7,
+        "title": "Go map to ground, ground to map",
+        "body": "Before you move, read the map and predict what you will see: 'In 400 yards I should cross a stream, then climb a spur to a saddle.' As you walk, check off each feature. If the ground does not match - the stream is missing, or you are going downhill when you expected uphill - stop and figure out why before you go on. Measure distances with the bar scale or a piece of string laid along your route, because trails are rarely straight. This habit catches mistakes within minutes instead of hours."
+      }
     ],
     "warnings": [
-      "Magnetic declination varies significantly by location (up to 20°+ in some areas). Not accounting for declination when navigating long distances causes significant positional error.",
-      "Topo maps have a publication date — major changes (new roads, structures, significant erosion, logged areas) may not appear on older maps."
+      "A map is only as current as its date. Do not trust old maps for roads, bridges, trails, or water sources - trust the contours more than the man-made features.",
+      "Contour intervals hide small cliffs and drops. A 20-foot interval can hide a 15-foot ledge, so slow down on steep slopes and in the dark.",
+      "Turning the map but reading it upside down is a common mistake. Use two features or a compass to confirm the orientation.",
+      "A phone map with no saved offline area may go blank when signal drops. Always carry a printed map of the area you are in."
     ],
     "proTips": [
-      "The 'map to ground, ground to map' habit: look at your map, visualize what you expect to see, look up and verify. Constantly correlate what you see with what the map shows.",
-      "US topo maps are available free from the USGS National Map (apps.nationalmap.gov). Download and print or cache them in a mapping app before you need them."
+      "Fold the map so only your working area shows, and keep it in a zip-top bag or map case so it survives rain.",
+      "Trace your planned route with a highlighter at home and mark water, bail-out points, and features you will check off along the way.",
+      "On a ridge, the land drops on both sides; in a valley, it rises on both sides. When confused, look at which way the ground slopes and which way water would run."
     ],
-    "relatedGuides": ["nav-002", "nav-003", "nav-004"],
-    "source": "US Army FM 3-25.26 (Map Reading) / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
-    "skillLevel": "intermediate",
+    "relatedGuides": [
+      "nav-004",
+      "nav-007",
+      "nav-009",
+      "fm-002",
+      "nav-012"
+    ],
+    "source": "U.S. Army TC 3-25.26 / USGS",
+    "sources": [
+      {
+        "title": "TC 3-25.26 Map Reading and Land Navigation (Part 1)",
+        "publisher": "U.S. Army",
+        "url": "https://www.armywriter.com/board/references/TC3-25x26-Part1.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What is a topographic map?",
+        "publisher": "U.S. Geological Survey",
+        "url": "https://www.usgs.gov/faqs/what-a-topographic-map",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Map Reading and Land Navigation (FMSO 212)",
+        "publisher": "U.S. Marine Corps Training Command",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/FMTBE/Student%20Materials/FMSO%20Manual/212.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "Do not plan travel off a small-scale road map or park brochure in rough terrain - get a 1:24,000 topo or similar.",
+      "Do not try to learn map reading for the first time while lost at night. Stay put and signal (see nav-008)."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You have a topographic map and need to understand terrain before moving through it — map literacy is the foundation of all land navigation",
-      "immediate": ["Orient map to terrain using compass: rotate map until magnetic north arrow aligns with compass needle", "Identify your current location by triangulating visible terrain features to map features", "Read contour lines: V-shapes pointing uphill = valleys; V-shapes pointing downhill = ridges"],
-      "then": ["Verify your position with the 'map to ground' habit: look at map, predict what you will see, look up and confirm", "Account for magnetic declination — failure to do so causes compounding error over distance"]
+      "situation": "You have a topographic map and need to understand the ground ahead or match the map to what you see.",
+      "immediate": [
+        "Read the margin: scale, contour interval, map date, and declination",
+        "Orient the map by lining up two features you can see on map and ground",
+        "Read contours: close lines are steep, V-shapes in streams point uphill"
+      ],
+      "then": [
+        "Predict the next three features along your route and check them off as you go",
+        "Stop and re-check whenever the ground does not match the map"
+      ]
     }
   },
   {
     "id": "nav-002",
     "category": "navigation",
-    "title": "Celestial Navigation — Stars and Sun",
+    "title": "Celestial Navigation - Finding Direction by the Stars",
     "priority": "advanced",
-    "tags": ["navigation", "stars", "sun", "celestial"],
-    "summary": "Use the sun during the day and Polaris at night to determine cardinal directions without a compass.",
+    "tags": [
+      "navigation",
+      "stars",
+      "celestial",
+      "polaris",
+      "north star",
+      "southern cross",
+      "orion",
+      "night"
+    ],
+    "summary": "Use Polaris, the Southern Cross, Orion, and the movement of any star to find direction at night with no compass. Accurate enough to set a rough course or check a compass you do not trust.",
     "steps": [
-      { "step": 1, "title": "Polaris (North Star) — Northern Hemisphere", "body": "Polaris sits within 1° of true north and does not appear to move as Earth rotates. Find it: locate the Big Dipper (Ursa Major). Follow a line through the two stars forming the front edge of the dipper's cup (Dubhe and Merak) — extend this line approximately 5 times the distance between those two stars. You will reach Polaris. Alternatively: find Cassiopeia (the W/M shaped constellation). Polaris is on the opposite side of Cassiopeia from the Big Dipper, roughly centered between the two when they are on opposite sides of the North Star." },
-      { "step": 2, "title": "Shadow stick method — daytime", "body": "Find level ground. Plant a straight stick 3 feet tall vertically. Mark the tip of the shadow with a stone. Wait 15–20 minutes. Mark the new shadow tip with another stone. Draw a line between the two marks. This line runs approximately east-west (first mark is west, second is east in the Northern Hemisphere). Draw a perpendicular line from the east-west line — this is north-south." },
-      { "step": 3, "title": "Watch method — analog watch", "body": "In the Northern Hemisphere with an analog watch: hold the watch horizontal. Point the hour hand at the sun. Bisect the angle between the hour hand and 12 o'clock — this bisection points approximately south. In the Southern Hemisphere: point 12 o'clock at the sun. Bisect the angle between the hour hand and 12 — this bisection points approximately north." },
-      { "step": 4, "title": "Southern Cross — Southern Hemisphere", "body": "The Southern Cross (Crux) is a compact cross-shaped constellation near the Milky Way. Extend the long axis of the cross (from Gacrux to Acrux) 4–5 times beyond the foot of the cross. This imaginary point is approximately due south. Drop a line perpendicular to the horizon from this imaginary point — that is south." }
+      {
+        "step": 1,
+        "title": "Get set up to see the sky",
+        "body": "Find a spot with an open view north and south, away from fire and headlamps. Give your eyes 20 to 30 minutes to adjust to the dark, and use only a dim red light to read a map. A single glance at a white light resets most of that adjustment. Look for the brightest patterns first and work from them to fainter stars. Write down the time - stars move across the sky through the night, so knowing the time helps you check your work. Clouds, haze, and city lights can hide key stars, so have a daytime or compass backup."
+      },
+      {
+        "step": 2,
+        "title": "Find Polaris with the Big Dipper",
+        "body": "In the Northern Hemisphere, Polaris (the North Star) sits very close to the point the Earth's axis points to, so it barely moves all night and marks true north. Find the Big Dipper. The two stars on the outer edge of its cup are the 'pointer stars.' Draw a line from the bottom of the cup through the top pointer star and go about five times the gap between those two stars. The first fairly bright star you hit is Polaris, at the end of the Little Dipper's handle. Polaris is not the brightest star in the sky - it is a medium-bright star standing alone. Face it and you face north."
+      },
+      {
+        "step": 3,
+        "title": "Use Cassiopeia when the Dipper is hidden",
+        "body": "The Big Dipper sits low on the northern horizon during fall and winter evenings in much of the U.S. and can be blocked by trees or hills. Cassiopeia, a bright W or M shape, sits on the opposite side of Polaris from the Dipper, so when one is low the other is high. Polaris is roughly midway between them. Draw a line out from the center of the W and look for a lone medium-bright star. Confirm it by checking that the Dipper and Cassiopeia rotate around it through the night while it stays put."
+      },
+      {
+        "step": 4,
+        "title": "Mark north on the ground and check your latitude",
+        "body": "Once you find Polaris, push a stick into the ground, back up a few steps, and line up a second stick between you and the star. The line from the back stick through the front stick points true north. Leave it for daylight. A bonus: Polaris's height above the horizon roughly equals your latitude. A fist held at arm's length covers about 10 degrees of sky. In North Carolina (about 35 degrees north), Polaris is about three and a half fists up. If you are sure of your latitude and the star you picked is far from that height, you have the wrong star."
+      },
+      {
+        "step": 5,
+        "title": "Use the Southern Cross in the Southern Hemisphere",
+        "body": "There is no bright pole star in the south, so use the Southern Cross (Crux), a small kite of four bright stars near two very bright 'pointer' stars (Alpha and Beta Centauri). Run a line through the long axis of the cross, from the top star through the foot, and extend it about four and a half times the cross's length. Then draw a line at right angles from the midpoint between the two pointer stars. Where the two lines meet is roughly the south celestial pole. Drop straight down from that point to the horizon and mark south."
+      },
+      {
+        "step": 6,
+        "title": "Use Orion's Belt for east and west",
+        "body": "Orion is visible from both hemispheres in winter evenings (Northern Hemisphere). The top star of the three-star belt, Mintaka, sits almost on the celestial equator. That means it rises very close to due east and sets very close to due west from anywhere on Earth. When Orion is rising, the belt points roughly to east; when setting, to west. This works well when the north or south sky is blocked."
+      },
+      {
+        "step": 7,
+        "title": "Use any star's motion",
+        "body": "If you cannot name a single star, you can still read direction from movement. Push in two sticks so you can sight along them at any star near the horizon, then watch it for 15 to 20 minutes. In the Northern Hemisphere: if the star rises, you are facing roughly east; if it sinks, roughly west; if it moves to your right, roughly south; if it moves to your left, roughly north. In the Southern Hemisphere, north and south are swapped. Repeat with a second star to confirm."
+      }
     ],
     "warnings": [
-      "The watch method has error of up to 15–20 degrees — it gives general direction, not precision navigation.",
-      "Light pollution, cloud cover, and horizon obstructions (trees, terrain) can make celestial navigation difficult or impossible. Have backup methods."
+      "Do not confuse a bright planet or a slow airplane with Polaris. Planets lie along the path the sun and moon take, not in the north; airplanes blink and move quickly.",
+      "Star methods give true north, not magnetic north. If you use stars to check a compass, expect a difference equal to your local declination (see nav-007).",
+      "Do not move through rough terrain at night just because you found north. Knowing direction does not make the ground safe (see nav-010)."
     ],
     "proTips": [
-      "Orion's Belt rises due east and sets due west almost exactly everywhere on Earth — a reliable east-west reference that works in both hemispheres.",
-      "At night, your eyes need 20–30 minutes to fully dark-adapt. Avoid white light sources during navigation — use red light, which does not interfere with night vision."
+      "Practice finding Polaris from your backyard in every season - the Dipper's position changes through the year and through each night.",
+      "Use a star as a steering mark only for 10 to 15 minutes, then pick a new one, because stars drift as the night goes on. Polaris is the exception.",
+      "Mark north with sticks before you sleep. In the morning, you will have a reliable line without waiting for the sun."
     ],
-    "relatedGuides": ["nav-001", "nav-003"],
-    "source": "US Army FM 3-25.26 (Map Reading) / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "nav-005",
+      "nav-010",
+      "nav-007",
+      "nav-008"
+    ],
+    "source": "NASA / U.S. Army TC 3-25.26",
+    "sources": [
+      {
+        "title": "What Is the North Star and How Do You Find It?",
+        "publisher": "NASA Science",
+        "url": "https://science.nasa.gov/solar-system/what-is-the-north-star-and-how-do-you-find-it/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "TC 3-25.26 Map Reading and Land Navigation (Part 1)",
+        "publisher": "U.S. Army",
+        "url": "https://www.armywriter.com/board/references/TC3-25x26-Part1.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "none",
     "riskLevel": "medium",
-    "prerequisites": ["nav-001"],
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not rely on stars under heavy cloud, haze, or dense forest canopy - use a compass or wait.",
+      "Do not use star navigation to justify night travel when staying put is the safer choice."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You have no compass and need to determine cardinal directions using the sun or stars",
-      "immediate": ["At night: find the Big Dipper, follow the front cup edge stars 5x their distance — that is Polaris (true north)", "During the day: plant a vertical stick, mark shadow tip, wait 15-20 minutes, mark again — line runs east-west", "Analog watch method: point hour hand at sun, bisect angle to 12 o'clock — that line points south"],
-      "then": ["Orion's Belt rises due east and sets due west — reliable east-west reference in both hemispheres", "Allow 20-30 minutes for eyes to fully dark-adapt before celestial navigation at night"]
+      "situation": "It is night, the sky is clear, and you need to know which way is north or south without a compass.",
+      "immediate": [
+        "Northern Hemisphere: follow the Big Dipper's two pointer stars about 5 gaps to Polaris - that is north",
+        "Southern Hemisphere: extend the Southern Cross's long axis about 4.5 lengths, drop to the horizon - that is south",
+        "Line up two sticks on the star to mark the direction on the ground"
+      ],
+      "then": [
+        "Use Orion's Belt rising (east) or setting (west) as a cross-check",
+        "Wait for daylight before traveling rough terrain"
+      ]
     }
   },
   {
     "id": "nav-003",
     "category": "navigation",
-    "title": "Dead Reckoning",
+    "title": "Dead Reckoning - Navigating by Bearing and Distance",
     "priority": "advanced",
-    "tags": ["navigation", "dead reckoning", "pace count"],
-    "summary": "Track your position by calculating distance traveled and direction moved when landmarks are unavailable.",
+    "tags": [
+      "navigation",
+      "dead reckoning",
+      "pace count",
+      "bearing",
+      "azimuth",
+      "compass",
+      "navigation log"
+    ],
+    "summary": "Travel from a known point to a destination by holding a compass bearing and counting distance. Use it when landmarks are hidden by forest, fog, flat ground, or darkness.",
     "steps": [
-      { "step": 1, "title": "The concept", "body": "Dead reckoning: starting from a known position, track your direction of travel and distance covered to calculate your current position. Formula: new position = last known position + (direction × distance). The technique's accuracy degrades over time as small errors accumulate — it works best over short distances and in combination with occasional landmark verification." },
-      { "step": 2, "title": "Establish your pace count", "body": "A pace count is your personal calibration for distance: count paces (every time your left foot hits the ground) over a known 100-meter distance. Most people require 65–75 paces per 100 meters on flat terrain. Uphill, steep terrain, and heavy loads increase pace count. Water and thick vegetation also affect pace count. Calibrate your own personal count on known terrain before relying on it." },
-      { "step": 3, "title": "Track direction", "body": "Use a compass to take and hold a bearing. Identify a distant landmark in your direction of travel. Move to that landmark. Take another bearing. Identify another landmark. This technique (terrain association) is more accurate than staring at the compass while walking. Rotate between taking bearings and moving — do not walk and compass simultaneously." },
-      { "step": 4, "title": "Log your movement", "body": "For serious navigation: maintain a navigation log. Starting position (grid coordinates or described position). Direction (compass bearing). Distance (pace count). Repeat for each leg. After multiple legs, plot your dead reckoning position on the map. Compare to any visible landmarks to correct accumulated error." }
+      {
+        "step": 1,
+        "title": "Start from a point you are sure of",
+        "body": "Dead reckoning means following a set bearing for a set distance from a known start. Everything depends on that start point. Use a spot you can confirm on the map: a trail junction, bridge, building, stream fork, or summit. If you are not sure where you are, fix that first by resection (see fm-002) or by moving to an obvious feature. Mark the start on the map with a dot and note the time. Military doctrine describes dead reckoning as following azimuths and distances without depending on terrain, which is exactly why a bad start point ruins the whole leg."
+      },
+      {
+        "step": 2,
+        "title": "Measure each leg on the map",
+        "body": "Draw straight lines from your start to your destination. If that line crosses a cliff, lake, or swamp, break the route into shorter legs that go around it, with each leg ending at a feature you can recognize. For each leg, measure the bearing with your compass's protractor or baseplate, and measure the distance with the bar scale. Convert the map bearing to a magnetic bearing using your declination (see nav-007). Write each leg down: leg number, magnetic bearing, distance, and what you expect to see at the end."
+      },
+      {
+        "step": 3,
+        "title": "Turn distance into paces",
+        "body": "Multiply the distance by your pace count. A pace is two steps - count each time the same foot (most people use the left) hits the ground. U.S. Marine Corps training puts the average at 60 to 75 paces per 100 meters on flat ground and says to use 60 until you learn your own. Calibrate on a measured 100 m course (see nav-009). Then adjust: your pace gets shorter uphill, in mud, sand, or snow, in heavy brush, under a heavy load, when tired, and at night or in fog, so your count goes up. Example: a 700 m leg at 66 paces per 100 m is about 462 paces on flat ground."
+      },
+      {
+        "step": 4,
+        "title": "Walk the bearing by aiming points",
+        "body": "Set the bearing on your compass. Hold it level, turn your body until the needle lines up, and look along the direction-of-travel arrow. Pick a distinct object on that line - a dead tree, a boulder, a notch on the skyline - and walk to it with the compass down. At the object, check the bearing again and pick the next aiming point. Do not walk while staring at the compass; you will drift. In thick forest, the aiming points may be only 30 to 50 feet apart. That is fine."
+      },
+      {
+        "step": 5,
+        "title": "Count, log, and correct for drift",
+        "body": "Count every pace and track each 100 m with pace beads or knots in a cord. At the end of each leg, write down your count and the time. Expect drift: an uneven pack, wind or rain in your face, and going around obstacles all push you off line. Marine training notes that right-handed people tend to drift right around obstacles and left-handed people drift left, so alternate which side you pass trees and rocks on. When an obstacle is large, box around it with 90-degree turns and matching pace counts (see nav-004)."
+      },
+      {
+        "step": 6,
+        "title": "Know how big your error can get",
+        "body": "Small angle errors grow with distance. Every 1 degree off course puts you about 17 m off line per kilometer (roughly 90 feet per mile). A 5-degree error puts you about 87 m off after 1 km and about 440 m off after 5 km - far enough to walk past a cabin in the woods. Distance errors stack too: pace counts can be off 10 percent or more in rough ground. That is why you plan for error with a catching feature and deliberate offset (see nav-009) instead of hoping to hit a point."
+      },
+      {
+        "step": 7,
+        "title": "Reset at every known feature",
+        "body": "Each time you reach something you can positively identify on the map - a stream crossing, road, saddle, or trail - mark your actual position, compare it to your dead-reckoned position, and start fresh from there. Note how far off you were and in which direction; that tells you about your own drift and pace error. If you reach the end of a leg and see nothing that matches, stop. Do not keep walking. Check your log, re-read the terrain, and if needed, follow your back bearing to the last known point."
+      }
     ],
     "warnings": [
-      "Dead reckoning errors compound — a 5° bearing error over 1 kilometer produces an 87-meter positional error. Over 5 kilometers, that becomes a 436-meter error. Verify against terrain features frequently.",
-      "In featureless terrain (dense forest, desert, open plains), dead reckoning with no landmarks is the only option — accept that positional confidence degrades with distance."
+      "A wrong start point or a missed declination correction sends you off from the first step. Double-check both before you leave.",
+      "Metal and electrical sources throw off a compass. U.S. Marine Corps training lists about 55 m from high-tension power lines, 18 m from vehicles, and 10 m from barbed or telephone wire.",
+      "Do not cross dangerous terrain (cliffs, swift water, avalanche slopes) just to hold a straight line. Break the leg and go around."
     ],
     "proTips": [
-      "A ranger bead (pace count bead) tool makes tracking paces simple — move one bead per 100 meters, one large bead per kilometer. Make one from paracord and 13 beads.",
-      "When moving in a team, designate one person as the navigator (focused on direction and pace count). Do not split attention between navigation and environment scanning."
+      "Write your pace count for flat, uphill, and brush on tape on the back of your compass.",
+      "In a group, have one person hold the compass and another count paces, then compare at each leg end.",
+      "Look back along your path now and then. The view behind you is what you will see if you have to return."
     ],
-    "relatedGuides": ["nav-001", "nav-004"],
-    "source": "US Army FM 3-25.26 (Map Reading) / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "nav-004",
+      "nav-007",
+      "nav-009",
+      "nav-011",
+      "fm-002"
+    ],
+    "source": "U.S. Army TC 3-25.26 / U.S. Marine Corps TBS",
+    "sources": [
+      {
+        "title": "Lensatic Compass (B170249) Student Handout",
+        "publisher": "U.S. Marine Corps, The Basic School",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/B170249Lensatic%20Compass.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 3-25.26 Map Reading and Land Navigation (superseded by TC 3-25.26)",
+        "publisher": "U.S. Army",
+        "url": "https://ia601500.us.archive.org/28/items/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
-    "prerequisites": ["nav-001"],
+    "prerequisites": [
+      "nav-004",
+      "nav-007"
+    ],
+    "whenNotTo": [
+      "Do not use dead reckoning when you can see and follow clear terrain features - terrain association is faster and more forgiving.",
+      "Do not start a dead-reckoning leg if you are unsure of your start point; fix your position first."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to navigate to a destination in terrain with limited visible landmarks — dead reckoning tracks your position by direction and distance from a known start",
-      "immediate": ["Establish your personal pace count: count left-foot strikes over 100 measured meters (typically 65-75 paces)", "Take a compass bearing to your destination; identify a distant landmark on that bearing to walk toward", "Log each leg: starting position + bearing + pace count distance before moving"],
-      "then": ["Verify against visible terrain features every 500 meters — dead reckoning errors compound over distance", "Aim for a line feature (road, river) rather than a point — eliminates overshoot/undershoot ambiguity"]
+      "situation": "You must reach a point across ground with no visible landmarks, such as thick forest, fog, or flat country.",
+      "immediate": [
+        "Confirm your start point on the map",
+        "Measure bearing and distance for each leg; convert to magnetic bearing and paces",
+        "Walk aiming point to aiming point, counting paces"
+      ],
+      "then": [
+        "Log each leg and reset your position at every feature you can identify",
+        "Stop and re-check if the end of a leg does not match the map"
+      ]
     }
   },
   {
     "id": "nav-004",
     "category": "navigation",
-    "title": "Land Navigation With Compass Only",
+    "title": "Using a Compass - Bearings, Back Bearings, and Obstacles",
     "priority": "critical",
-    "tags": ["navigation", "compass", "bearing", "land navigation"],
-    "summary": "Navigate confidently to a destination using only a compass when GPS and maps are unavailable.",
+    "tags": [
+      "navigation",
+      "compass",
+      "bearing",
+      "azimuth",
+      "back bearing",
+      "lensatic",
+      "baseplate",
+      "land navigation"
+    ],
+    "summary": "Use a baseplate or lensatic compass to take a bearing, follow it, find your way back, and get around obstacles without losing your line.",
     "steps": [
-      { "step": 1, "title": "Parts of a compass", "body": "Needle: always points to magnetic north (red end). Bezel/Rotating dial: graduated 0–360 degrees. Direction of travel arrow: points in the direction you are moving. Orienting lines (the box): align with the needle. Baseplate: straight edges for map work. To set a bearing: rotate the bezel to your desired degree. To follow a bearing: rotate your body until the north needle sits inside the orienting box ('put red in the shed'). Walk in the direction the travel arrow points." },
-      { "step": 2, "title": "Taking a bearing to a landmark", "body": "Point the direction of travel arrow at your target. Without moving the compass, rotate the bezel until the orienting lines align with magnetic north (needle inside the orienting box). Read the bearing at the index line. This bearing describes the direction to your target. Write it down — if you lose sight of the target, you can navigate to it by following this bearing." },
-      { "step": 3, "title": "Back bearing", "body": "A back bearing is the opposite direction from your bearing. Calculate: if your bearing is 180° or more, subtract 180. If your bearing is less than 180°, add 180. Use: you have traveled a known bearing and need to return to your start. Set the back bearing and follow it. Also used for triangulation: take a bearing to two landmarks, calculate the back bearing, draw back-bearing lines on your map — your position is at the intersection." },
-      { "step": 4, "title": "Box around an obstacle", "body": "When an obstacle blocks your path: turn 90° from your bearing (either direction). Count your paces. Turn back to your original bearing. Move past the obstacle. Turn 90° in the opposite direction of your first turn. Count the same number of paces. Resume your original bearing. You have now navigated around the obstacle without losing your line of travel." }
+      {
+        "step": 1,
+        "title": "Know your compass",
+        "body": "Baseplate (orienteering) compass: a clear plate with a direction-of-travel arrow, a rotating dial (bezel) marked 0 to 360 degrees, an orienting arrow and lines inside the dial, and a magnetic needle with a red north end. Lensatic (military) compass: a cover with a sighting wire, a rear sight with a lens, a floating dial, and a bezel that clicks - 120 clicks, each worth 3 degrees. Both work. A baseplate compass is easier for map work; a lensatic compass is tougher and more precise for sighting distant objects. Learn the one you carry."
+      },
+      {
+        "step": 2,
+        "title": "Check it and keep it away from metal",
+        "body": "Test your compass before a trip by sighting a known bearing, such as a long straight street on a map. Marine Corps training treats plus or minus 3 degrees as acceptable; if it is off more, note the error and correct for it or replace the compass. Metal and electricity pull the needle. Training guidance lists about 55 m (180 ft) from high-tension power lines, 18 m (60 ft) from a car or truck, 10 m (33 ft) from barbed wire or phone lines, and half a meter from a rifle. Also keep phones, radios, knives, and magnets away from the compass when reading it."
+      },
+      {
+        "step": 3,
+        "title": "Take a bearing to something you can see",
+        "body": "Baseplate compass: hold it flat at waist height, point the direction-of-travel arrow at the target, then turn the dial until the orienting arrow lines up under the red end of the needle. Read the bearing at the index line. Lensatic compass, most precise method (compass-to-cheek): open the cover to 90 degrees, raise the eyepiece, hold the compass to your cheek, line the sighting wire up with the target through the rear slot, and read the dial through the lens. The center-hold method (compass at your belly, elbows tight, body facing the target) is faster and works in any light. Write the bearing down."
+      },
+      {
+        "step": 4,
+        "title": "Follow a bearing",
+        "body": "Set the bearing on the dial. Hold the compass flat in front of you and turn your whole body until the red needle sits inside the orienting arrow ('red in the shed'). The direction-of-travel arrow now points where you need to go. Look up and pick an aiming point on that line - a tree, rock, or notch on a ridge - then put the compass down and walk to it. Re-check at each aiming point. Make sure the needle is in the shed red-end-in: if the white end is in it, you will walk the exact opposite way."
+      },
+      {
+        "step": 5,
+        "title": "Use a back bearing to return or check your line",
+        "body": "A back bearing is the direction straight back the way you came. If your bearing is less than 180 degrees, add 180; if it is 180 or more, subtract 180. Example: out on 060, back on 240. Out on 300, back on 120. On a baseplate compass, you can skip the math: keep the dial setting and put the white end of the needle in the shed, then walk. Use back bearings to return to camp, and to check your line by looking back at your last aiming point - it should sit on the back bearing."
+      },
+      {
+        "step": 6,
+        "title": "Box around obstacles",
+        "body": "When a pond, thicket, or cliff blocks your bearing, use the 90-degree offset. Turn 90 degrees right (add 90 to your bearing) and count paces until you clear the obstacle. Turn back to your original bearing and walk until you are past it; these paces count toward your leg distance. Turn 90 degrees left (subtract 90 from your original bearing) and walk the same number of paces you took on the first offset. Turn back to your original bearing and continue. If the obstacle is small and you can see past it, simply pick an aiming point on the far side and walk around to it."
+      },
+      {
+        "step": 7,
+        "title": "Combine compass with the map",
+        "body": "A compass alone tells you direction, not location. Pair it with a map whenever you can: orient the map (see nav-001), measure bearings from the map, and convert map bearings to magnetic (see nav-007). With a map, you can also find your position by shooting bearings to two or three known landmarks (resection, see fm-002). Practice all of these on familiar ground until they are automatic, because under stress people skip steps."
+      }
     ],
     "warnings": [
-      "Metal objects (firearms, vehicles, cell phones) affect compass accuracy. Hold the compass 12+ inches away from metal when taking a reading.",
-      "Power lines and underground utilities can create localized magnetic anomalies. Be aware of erratic compass behavior in these areas."
+      "Putting the white end of the needle in the shed sends you 180 degrees the wrong way. Always check the red end.",
+      "A compass held near a vehicle, power line, fence, or phone can be off by many degrees. Step well away before you trust a reading.",
+      "Bubbles or a sticky needle mean a damaged compass. Test it against a known direction before relying on it."
     ],
     "proTips": [
-      "The best navigators are rarely looking at their compass — they take bearings, pick distant aiming points in their direction of travel, and walk to those points. This is faster, more accurate, and leaves your eyes free to read terrain.",
-      "A military lensatic compass is far more durable and accurate than a typical baseplate compass. It also allows taking bearings while moving. Worth the investment for a serious kit."
+      "Write your local declination and pace count on tape on the compass so they are always with you.",
+      "At night, set a lensatic bearing by counting bezel clicks: each click is 3 degrees, so 30 clicks is 90 degrees.",
+      "Hold the compass level. A tilted baseplate compass lets the needle drag, giving a false reading."
     ],
-    "relatedGuides": ["nav-001", "nav-003"],
-    "source": "US Army FM 3-25.26 (Map Reading) / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "nav-007",
+      "nav-003",
+      "nav-001",
+      "nav-010",
+      "fm-002",
+      "nav-013"
+    ],
+    "source": "U.S. Army TC 3-25.26 / U.S. Marine Corps TBS",
+    "sources": [
+      {
+        "title": "Lensatic Compass (B170249) Student Handout",
+        "publisher": "U.S. Marine Corps, The Basic School",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/B170249Lensatic%20Compass.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Map Reading and Land Navigation (FMSO 212)",
+        "publisher": "U.S. Marine Corps Training Command",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/FMTBE/Student%20Materials/FMSO%20Manual/212.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 3-25.26 Map Reading and Land Navigation (superseded by TC 3-25.26)",
+        "publisher": "U.S. Army",
+        "url": "https://ia601500.us.archive.org/28/items/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not trust a compass reading taken next to a vehicle, fence, power line, or on top of an iron-rich rock outcrop.",
+      "Do not follow a straight bearing through hazards like cliffs or fast water - box around or pick a safer route."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need to hold a direction or return the way you came using a compass.",
+      "immediate": [
+        "Step away from metal: about 18 m from vehicles, 55 m from power lines",
+        "Set the bearing, turn until red needle is in the shed, pick an aiming point",
+        "Walk to the aiming point, then re-check"
+      ],
+      "then": [
+        "Back bearing = add 180 if under 180, subtract 180 if 180 or more",
+        "Box around obstacles with 90-degree turns and matching pace counts"
+      ]
+    }
+  },
+  {
+    "id": "nav-005",
+    "category": "navigation",
+    "title": "Natural Navigation - Sun, Shadow Stick, Watch, Stars, and Moon",
+    "priority": "critical",
+    "tags": [
+      "navigation",
+      "no compass",
+      "sun",
+      "shadow stick",
+      "watch method",
+      "polaris",
+      "southern cross",
+      "moon",
+      "natural navigation"
+    ],
+    "summary": "Find north, south, east, and west with no compass or phone using the sun, a stick, a watch, the stars, or the moon - and know how far off each method can be.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Start with the sun's general path",
+        "body": "The sun rises in the eastern sky and sets in the western sky everywhere on Earth. In the U.S. and the rest of the Northern Hemisphere outside the tropics, the midday sun is in the southern sky. In the Southern Hemisphere it is in the northern sky. Only near the spring and fall equinoxes (around March 20 and September 22) does the sun rise and set close to due east and west. In summer, it rises and sets well north of east and west; in winter, well south. So 'the sun rises in the east' is a rough guide, not a bearing. Use the methods below to get closer."
+      },
+      {
+        "step": 2,
+        "title": "Use the shadow-tip method",
+        "body": "This is the most reliable no-gear method. Push a straight stick at least 3 feet (1 m) long upright into level, open ground. Mark the tip of its shadow with a pebble. Wait 10 to 15 minutes and mark the new shadow tip. Draw a line through the two marks: that line runs roughly east-west. The first mark is always west and the second is always east, anywhere in the world. Stand with the first mark on your left and the second on your right, and you are facing roughly north. A National Park Service training paper notes it is usually within about 15 degrees in temperate and tropical zones, very close near the equinoxes, and weakest near the solstices."
+      },
+      {
+        "step": 3,
+        "title": "Make the shadow method more accurate",
+        "body": "For a better line, take several readings through the day; the errors tend to cancel out. For an even better result, use the equal-shadow method: in the morning, mark the shadow tip and draw an arc around the stick at that length using a string. Watch the shadow shorten and then grow again in the afternoon. Mark where the tip touches the arc again. The line between your morning and afternoon marks is a very accurate east-west line. The shortest shadow of the day points to true north in most of the U.S."
+      },
+      {
+        "step": 4,
+        "title": "Use the watch method - with caution",
+        "body": "With an analog watch, or a digital time drawn on paper as a clock face, set to standard time (subtract one hour if daylight saving time is in effect). Northern Hemisphere: hold the watch flat and point the hour hand at the sun. South lies halfway between the hour hand and 12 o'clock. Southern Hemisphere: point 12 o'clock at the sun; halfway between 12 and the hour hand is north. Treat the result as rough. An NPS training paper warns the method can be off by around 70 degrees in southern Texas and much more in the tropics. It works best at higher latitudes and away from midday."
+      },
+      {
+        "step": 5,
+        "title": "Use the stars at night",
+        "body": "Northern Hemisphere: find the Big Dipper and follow the two pointer stars on the outer edge of its cup about five times their gap to Polaris, a medium-bright star that marks true north within about 1 degree. If the Dipper is hidden, Polaris is on the far side from the W-shaped Cassiopeia. Southern Hemisphere: extend the long axis of the Southern Cross about four and a half lengths, and drop straight down to the horizon for south. Orion's Belt rises close to due east and sets close to due west worldwide. See nav-002 for details."
+      },
+      {
+        "step": 6,
+        "title": "Use the moon",
+        "body": "The moon shines with reflected sunlight, so its lit side faces the sun. If the moon rises before the sun has set, the lit side is on the west. If it rises after midnight, the lit side is on the east. With a crescent moon in the Northern Hemisphere, draw an imaginary line through the two tips of the crescent and extend it down to the horizon - it points roughly south. In the Southern Hemisphere, it points roughly north. Like the watch method, this is a rough check, not a bearing to walk by for miles."
+      },
+      {
+        "step": 7,
+        "title": "Avoid folk signs, and cross-check everything",
+        "body": "Moss on trees, ant hills, and tree growth are unreliable. Moss grows wherever it is shady and damp, which may be any side. Better clues exist in some places: in much of the U.S., snow lasts longer on north-facing slopes, and south-facing slopes are often drier with different plants. Still, always cross-check: a shadow line plus a star fix plus a check against the map's terrain beats any single method. Once you know north, mark it on the ground with sticks or rocks so you do not lose it when the sun moves."
+      }
+    ],
+    "warnings": [
+      "The watch method can be off by 70 degrees or more in the southern U.S. and should not be used in the tropics. Use the shadow-tip method instead.",
+      "Never look directly at the sun to judge its position. Use shadows.",
+      "Knowing north does not tell you where you are. If you do not know which direction safety lies, stay put (see nav-008)."
+    ],
+    "proTips": [
+      "Practice the shadow-tip method in your yard and compare it with a phone compass set to true north. You will learn how big the error is where you live.",
+      "A cell phone with a dead battery still has a clock you can draw as a watch face if you have written down the time.",
+      "Once you have a true north line, compare it with your compass. The difference is your local declination."
+    ],
+    "relatedGuides": [
+      "nav-002",
+      "nav-013",
+      "nav-007",
+      "nav-008",
+      "nav-010"
+    ],
+    "source": "NPS / NASA / U.S. Army TC 3-25.26",
+    "sources": [
+      {
+        "title": "Watch Method and Shadow-Tip Method (Horace M. Albright Training Center)",
+        "publisher": "U.S. National Park Service",
+        "url": "https://www.npshistory.com/publications/hoal/watch-method.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What Is the North Star and How Do You Find It?",
+        "publisher": "NASA Science",
+        "url": "https://science.nasa.gov/solar-system/what-is-the-north-star-and-how-do-you-find-it/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use the watch method in the tropics or near midday at low latitudes - errors are huge.",
+      "Do not rely on natural methods when you have a working compass; use them to check it instead."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have no compass or phone and need to know which way is north.",
+      "immediate": [
+        "Plant a 3-foot stick, mark the shadow tip, wait 10-15 minutes, mark again",
+        "First mark is west, second is east; first on your left means you face north",
+        "At night: Big Dipper pointer stars lead to Polaris (north)"
+      ],
+      "then": [
+        "Cross-check with a second method and the map",
+        "Mark north on the ground with sticks or rocks"
+      ]
+    }
+  },
+  {
+    "id": "nav-006",
+    "category": "navigation",
+    "title": "Using Your Phone's GPS With No Cell Service",
+    "priority": "critical",
+    "tags": [
+      "navigation",
+      "gps",
+      "phone",
+      "offline maps",
+      "airplane mode",
+      "battery",
+      "satellite sos",
+      "no signal"
+    ],
+    "summary": "Your phone's GPS works without cell service, but your maps may not. Download offline maps ahead of time, save key points, and stretch your battery so the phone lasts when you need it.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know what works with no signal",
+        "body": "The GPS chip in your phone listens to satellites; it does not need cell towers or data. With no bars, your phone can usually still show your position as a blue dot. GPS.gov says GPS smartphones are typically accurate to within about 16 feet (4.9 m) under open sky, with worse results near tall buildings, in deep canyons, and under heavy tree cover. What fails without data is the map itself: if the area was not downloaded, you may see a blue dot on a blank grid. Search, traffic, and online-only map layers also stop working. Plan for this before you leave."
+      },
+      {
+        "step": 2,
+        "title": "Download offline maps before you go",
+        "body": "Apple Maps (iOS 17 or later): tap your profile picture or initials, then Offline Maps, then Add (or search a place and tap Download), and size the area to cover your whole trip plus a margin. Apple says offline maps support turn-by-turn driving, walking, cycling, and transit directions and arrival times. Google Maps: search for an area, tap More, then Download offline map, or choose Offline maps and Select your own map. Google says offline navigation is driving only - no walking, cycling, or transit directions - and only if the whole route is inside the downloaded area. Google offline maps expire unless updated, so turn on auto-update. For backcountry, add a topo map app with downloadable USGS layers, and carry a paper map."
+      },
+      {
+        "step": 3,
+        "title": "Save the points that matter",
+        "body": "While you still have service, drop and save pins for your car or trailhead, home, rally points, water, shelters, hospitals, and road exits. Take screenshots of your route map and of key pins as a backup that needs no app. Write down coordinates for your start and destination on paper (see nav-012). On iPhone, the Compass app shows your latitude and longitude; on most map apps, you can long-press the blue dot to see coordinates you can read to rescuers."
+      },
+      {
+        "step": 4,
+        "title": "Turn on airplane mode - and leave location on",
+        "body": "In a dead zone, a phone wastes battery constantly searching for a tower. Turn on airplane mode to stop that. On most phones, GPS location keeps working in airplane mode, but test your own phone at home: turn on airplane mode, open your offline map, step outside, and make sure the blue dot appears. Make sure Location Services are on for your map app. If you need to send a message, turn airplane mode off briefly from a high point with a clear view, then turn it back on."
+      },
+      {
+        "step": 5,
+        "title": "Stretch the battery",
+        "body": "Turn on Low Power Mode or Battery Saver. Turn the screen brightness down and set a short auto-lock. Close apps you do not need and turn off Bluetooth unless you are using it. Do not keep the map open all day: check your position at decision points (trail junctions, stream crossings, every 30 to 60 minutes), then lock the screen. Cold drains lithium batteries fast - keep the phone in an inside pocket close to your body and the power bank too. Carry a power bank and the right cable. Recording a GPS track all day uses a lot of power; use it only when you need it."
+      },
+      {
+        "step": 6,
+        "title": "Use satellite SOS if you are in trouble",
+        "body": "Try calling 911 first - in the U.S., a 911 call may go through on another carrier's tower even when your phone shows no service. If it will not connect, iPhone 14 and later can text emergency services by satellite in the U.S. and many other countries; Apple says it is free for two years after activation. Go outside with a clear view of the sky and follow the on-screen prompts. Some newer Android phones and carriers also offer satellite texting or SOS - check your model's settings before your trip. Try the demo mode at home so you know the steps."
+      },
+      {
+        "step": 7,
+        "title": "Have a backup that needs no battery",
+        "body": "Phones break, get wet, run dead, and freeze. Electronics can also go down in a wide-area emergency. Carry a printed map of your area and a baseplate compass, and know how to use them (see nav-001 and nav-004). Before you set out, tell someone your route and return time. Each time you check your phone, glance at your paper map and note your position on it, so if the phone dies you already know where you are on paper."
+      }
+    ],
+    "warnings": [
+      "A blue dot on a blank screen is not navigation. Confirm your offline map covers the whole area before you lose service.",
+      "Do not rely on Google Maps for offline walking directions - Google says offline navigation is driving only.",
+      "Cold can shut a phone off at a high battery reading. Keep it warm and expect it to die early in winter.",
+      "Satellite SOS needs a clear view of the sky; it may not work in a deep canyon or under thick forest."
+    ],
+    "proTips": [
+      "Set Apple Maps to 'Only Use Offline Maps' while traveling to stop it from trying to load online data.",
+      "Put a small sticker with your map app name and offline map region on the back of the phone case so others in your group know what is saved.",
+      "A cheap old phone with offline maps and no SIM can serve as a backup GPS."
+    ],
+    "relatedGuides": [
+      "nav-012",
+      "nav-008",
+      "nav-001",
+      "comms-004",
+      "power-006"
+    ],
+    "source": "GPS.gov / Apple Support / Google Maps Help",
+    "sources": [
+      {
+        "title": "GPS Accuracy",
+        "publisher": "GPS.gov (U.S. government)",
+        "url": "https://archive.gps.gov/systems/gps/performance/accuracy/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to download maps to use offline on your iPhone",
+        "publisher": "Apple Support",
+        "url": "https://support.apple.com/en-us/HT213829",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Download areas & navigate offline in Google Maps",
+        "publisher": "Google Maps Help",
+        "url": "https://support.google.com/maps/answer/6291838?hl=en",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Use Emergency SOS via satellite on your iPhone",
+        "publisher": "Apple Support",
+        "url": "https://support.apple.com/en-us/101573",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not make the phone your only navigation tool on a trip far from roads - carry a paper map and compass.",
+      "Do not drain the battery tracking your route if you are lost and waiting for rescue; save it for calls and SOS."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have no cell signal and need your phone to show where you are.",
+      "immediate": [
+        "Turn on airplane mode but keep Location Services on",
+        "Open your downloaded offline map and check your position",
+        "Turn on Low Power Mode and dim the screen"
+      ],
+      "then": [
+        "Check position only at decision points, then lock the screen",
+        "If in danger, try 911 first, then satellite SOS from open sky"
+      ]
+    }
+  },
+  {
+    "id": "nav-007",
+    "category": "navigation",
+    "title": "Magnetic Declination - Taking and Following an Accurate Bearing",
+    "priority": "critical",
+    "tags": [
+      "navigation",
+      "declination",
+      "compass",
+      "bearing",
+      "magnetic north",
+      "true north",
+      "world magnetic model"
+    ],
+    "summary": "Your compass points to magnetic north, not true north. Find your current declination, convert between map and compass bearings the right way, then take and follow a bearing accurately.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Understand the three norths",
+        "body": "True north points to the North Pole; map edges and latitude-longitude lines use it. Grid north is the direction of the vertical grid lines on a UTM or military map; it is close to true north but can differ by a degree or two. Magnetic north is where your compass needle points, and it moves over time as the Earth's magnetic field changes. The angle between true north and magnetic north at your location is the declination. On military maps, the angle between grid north and magnetic north is called the G-M angle. Your map's declination diagram shows all three."
+      },
+      {
+        "step": 2,
+        "title": "Get your current declination",
+        "body": "Do not trust the number printed on an old map - declination drifts, and some U.S. areas have changed several degrees since older maps were made. Use NOAA's declination calculator, which uses the World Magnetic Model 2025, released December 2024 and valid through 2029. Approximate late-2026 values: Seattle about 15 degrees east; eastern Montana about 9 east; Kansas about 1 east; central North Carolina about 8 west; Boston about 14 west. The line of zero declination runs roughly through the middle of the country. West of it, declination is east; east of it, declination is west. Write your value and the date on your map and compass."
+      },
+      {
+        "step": 3,
+        "title": "Convert map bearings to compass bearings",
+        "body": "When you measure a bearing on the map (true or grid) and want to walk it with a compass (magnetic): with east declination, subtract; with west declination, add. Example in Seattle (15 east): map bearing 090 becomes compass bearing 075. Example in central North Carolina (8 west): map bearing 090 becomes compass bearing 098. Going the other way, compass to map, reverse it: with east declination add; with west declination subtract. If you forget, sketch the declination diagram and picture which way the needle is pulled. The old saying 'east is least, west is best' applies only to map-to-compass conversion."
+      },
+      {
+        "step": 4,
+        "title": "Or set declination on your compass",
+        "body": "Many baseplate compasses have an adjustable declination setting, usually changed with a small screw or key. Set it once for your area, and the compass will read true bearings directly, so you can use map bearings without math. Check the setting before every trip, especially if you travel more than a couple hundred miles east or west. If you set declination on the compass, do not also add or subtract it in your head - that doubles the error. Lensatic compasses do not have this feature, so you must convert by hand."
+      },
+      {
+        "step": 5,
+        "title": "Take a bearing accurately",
+        "body": "Stand clear of metal: about 18 m from vehicles, 55 m from power lines, and 10 m from fences, per Marine Corps training. Hold the compass level and steady. Point the direction-of-travel arrow (or lensatic sighting wire) exactly at the target - pick a small, sharp target like a single tree rather than a whole hill. Turn the dial until the orienting arrow lines up under the red needle, wait for the needle to settle, and read the bearing. Take it twice. If the two readings differ by more than 2 or 3 degrees, take a third."
+      },
+      {
+        "step": 6,
+        "title": "Follow the bearing without drifting",
+        "body": "Turn your body until the needle is in the orienting arrow, then sight along the direction-of-travel arrow and pick the farthest clear aiming point on the line. Walk to it, then repeat. In open country, use far objects; in forest, use near ones. In a group, send a partner ahead to the edge of visibility, have them move left or right until they are on your line, then walk to them. Each degree of error puts you about 17 m off per kilometer, so careful sighting matters on long legs."
+      },
+      {
+        "step": 7,
+        "title": "Check your work",
+        "body": "Confirm your bearing against the terrain: if the map says you should be going down a spur toward a stream, and you are climbing, something is wrong. Look back at your last aiming point - it should be on your back bearing. If you have a true north line from Polaris or the shadow-tip method, compare it with your compass reading of north; the difference should roughly equal your declination. If it does not, you may have the sign wrong or a nearby magnetic disturbance."
+      }
+    ],
+    "warnings": [
+      "Getting the declination sign wrong doubles your error. In the western U.S., declination is east; in the eastern U.S., it is west.",
+      "If your compass has declination set, do not correct for it a second time in your head.",
+      "Iron-rich rocks, buried pipes, fences, and vehicles can bend the needle. Move and re-take any reading that seems off."
+    ],
+    "proTips": [
+      "Re-check NOAA's calculator each year; in some places declination still shifts a few tenths of a degree per year.",
+      "Phone compass apps can show true or magnetic north - know which setting yours uses before comparing with a hand compass.",
+      "In Alaska and the far north, declination is large and changes quickly over short distances; check it for each area you travel."
+    ],
+    "relatedGuides": [
+      "nav-004",
+      "fm-002",
+      "nav-001",
+      "nav-003",
+      "nav-005"
+    ],
+    "source": "NOAA NCEI World Magnetic Model / U.S. Army TC 3-25.26",
+    "sources": [
+      {
+        "title": "World Magnetic Model",
+        "publisher": "NOAA National Centers for Environmental Information",
+        "url": "https://www.ncei.noaa.gov/products/world-magnetic-model",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "World Magnetic Model 2025 Released",
+        "publisher": "NOAA National Centers for Environmental Information",
+        "url": "https://www.ncei.noaa.gov/news/world-magnetic-model-2025-released",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Magnetic Field Calculators (declination calculator)",
+        "publisher": "NOAA National Centers for Environmental Information",
+        "url": "https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lensatic Compass (B170249) Student Handout",
+        "publisher": "U.S. Marine Corps, The Basic School",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/B170249Lensatic%20Compass.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Map Reading and Land Navigation (FMSO 212)",
+        "publisher": "U.S. Marine Corps Training Command",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/FMTBE/Student%20Materials/FMSO%20Manual/212.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
-    "prerequisites": ["nav-001"],
+    "prerequisites": [
+      "nav-004"
+    ],
+    "whenNotTo": [
+      "For short trips where you only follow a bearing taken on the ground to a visible landmark, there is no need to convert - you are already working in magnetic.",
+      "Do not use declination from a map more than a few years old without checking NOAA's current value."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to navigate to a specific destination using only a compass — GPS is unavailable",
-      "immediate": ["Set bearing on compass: rotate bezel to desired degree", "Rotate your body until the north needle sits inside the orienting box ('red in the shed')", "Pick a distant landmark in the direction-of-travel arrow direction — walk to it, then re-shoot"],
-      "then": ["To box around an obstacle: turn 90 degrees, count paces, turn back to original bearing, pass obstacle, turn 90 degrees opposite, count same paces", "Hold compass 12+ inches from metal objects when taking a reading"]
+      "situation": "You need to turn a bearing measured on a map into a compass bearing, or the other way around.",
+      "immediate": [
+        "Look up current declination (NOAA calculator, WMM2025) and write it on the map",
+        "Map to compass: east declination subtract, west declination add",
+        "Compass to map: east add, west subtract"
+      ],
+      "then": [
+        "Take each bearing twice, away from metal",
+        "Walk aiming point to aiming point and check against terrain"
+      ]
+    }
+  },
+  {
+    "id": "nav-008",
+    "category": "navigation",
+    "title": "Lost - STOP, Stay Found, and When to Stay Put",
+    "priority": "critical",
+    "tags": [
+      "navigation",
+      "lost",
+      "stop",
+      "stay put",
+      "search and rescue",
+      "signaling",
+      "self-rescue"
+    ],
+    "summary": "What to do the moment you realize you do not know where you are: STOP, try to reorient safely, and decide whether to stay put for rescuers or move - plus the habits that keep you from getting lost in the first place.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stay found before you leave",
+        "body": "Most people who get lost are found faster when someone knows where to look. Before any trip, tell a reliable person your route, where you will park, your group size, and when to call for help if you are not back. Carry a map, a compass you know how to use, water, food, extra layers, a light, a whistle, and a way to make fire. The Forest Service warns that GPS units and phones can fail. Look back often on the trail so you recognize the way home, and note junctions as you pass them."
+      },
+      {
+        "step": 2,
+        "title": "S - Stop",
+        "body": "The moment you suspect you are lost, stop walking. The Forest Service calls panic your greatest enemy. Sit down, drink some water, eat something, and breathe slowly for a few minutes. Most lost people make things worse by hurrying on, hoping the next bend will look familiar. Every extra step in the wrong direction makes you harder to find and the way back longer. Mark the spot where you stopped with a pile of rocks, a bright item, or a scratch mark so you can always return to it."
+      },
+      {
+        "step": 3,
+        "title": "T - Think",
+        "body": "Work out how you got here. When did you last know for sure where you were - a junction, stream crossing, or viewpoint? How long ago, and which way were you heading? What landmarks should you be seeing? Check your phone: even with no bars, its GPS may show your position on a downloaded map (see nav-006), and 911 may still connect. The Forest Service advice is not to move without a specific reason."
+      },
+      {
+        "step": 4,
+        "title": "O - Observe",
+        "body": "Use your compass and the sun to know your directions (see nav-005). Look around for anything that matches the map: a ridge, peak, stream, power line, or road. Listen for traffic, water, or voices. If you are on a trail, stay on it and look for blazes, cairns, or signs. Check the time and the weather: how many hours of daylight are left? Check yourself and your group for injuries, cold, and exhaustion. Take stock of water, food, and gear."
+      },
+      {
+        "step": 5,
+        "title": "P - Plan, and decide whether to stay or move",
+        "body": "Act on a plan only if you are confident in it. Good reasons to move: you can clearly retrace your steps to a known point a short distance away; you can see a trail, road, or landmark and know the safe way to it; or you must reach water or shelter to survive. Stay put if night is coming, if you are injured or near exhaustion, if the weather is bad, if you are unsure of the route, or if someone knows your plan and will call for help. If you have no phone or signal, the National Park Service says to wait for rescue. If you retrace, mark your path so you can return to your stop point."
+      },
+      {
+        "step": 6,
+        "title": "Make yourself easy to find",
+        "body": "Searchers start at your last known point and the route you told someone. Stay in or near open ground where you can be seen, but sheltered from wind. Spread bright clothing or a tarp. Three blasts on a whistle, repeated, carry farther than shouting and save your voice; three of anything is a widely understood distress signal. Use a signal mirror on sunny days and a light at night. Build a small, safe fire for warmth and smoke if conditions allow. Answer searchers' calls and whistles. Do not hide from helicopters or people calling your name - lost people sometimes do."
+      },
+      {
+        "step": 7,
+        "title": "Get through the night",
+        "body": "Before dark, put on dry layers, get off cold ground with branches or a pack, and block the wind. Stay out of drainages where cold air settles and flash floods run. Sip water. If you are with others, stay together and share warmth. Keep your phone off or in airplane mode to save battery for a call or satellite SOS when you have a clear sky. In the morning, try a call from the highest open spot nearby, then return to your marked spot or stay visible."
+      },
+      {
+        "step": 8,
+        "title": "If you must self-rescue",
+        "body": "If no one knows where you are and you have to get yourself out, travel only in daylight, rest before you are exhausted, and drink enough water. Head for a big catching feature you know is there - a road, a long ridge trail, a large river - by holding one compass direction. The Forest Service lists following a drainage downhill as a last resort that may lead to a trail or road but can be very dangerous: streams can drop over cliffs and into thick brush. Leave notes and arrows at your stop point showing your direction and time."
+      }
+    ],
+    "warnings": [
+      "Do not wander. Aimless walking is how a short delay becomes a multi-day search.",
+      "Do not split up a lost group unless someone must go for help and can do so safely; send at least two people if you must.",
+      "Following a stream downhill can lead to cliffs, waterfalls, and impassable brush. It is a last resort, not a first move.",
+      "Darkness, injury, exhaustion, and storms are all reasons to stop and shelter, not to push on."
+    ],
+    "proTips": [
+      "Teach children to 'hug a tree' and stay in one place if lost (see children-002).",
+      "Carry a whistle on your pack strap, not inside the pack.",
+      "When you take a break on the trail, face the way you came for a moment so you know what the return looks like."
+    ],
+    "relatedGuides": [
+      "env-005",
+      "comms-004",
+      "nav-006",
+      "nav-005",
+      "children-002",
+      "security-004"
+    ],
+    "source": "USDA Forest Service / National Park Service",
+    "sources": [
+      {
+        "title": "If You Get Lost",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Outdoor Emergency Plan",
+        "publisher": "U.S. National Park Service",
+        "url": "https://home.nps.gov/articles/gtgemergencyplan.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Use Emergency SOS via satellite on your iPhone",
+        "publisher": "Apple Support",
+        "url": "https://support.apple.com/en-us/101573",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not stay put in immediate danger - rising water, fire, rockfall, or avalanche terrain. Move to the nearest safe spot first, then stop.",
+      "Do not wait passively if no one knows your plan and you are running out of water; plan a careful daylight self-rescue."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You realize you do not know where you are or how to get back.",
+      "immediate": [
+        "STOP walking, sit, drink, and calm down",
+        "Mark your spot and try calling 911, even with no bars",
+        "Stay put if night, injury, bad weather, or doubt about the route"
+      ],
+      "then": [
+        "Make yourself visible: bright items, whistle in threes, mirror, fire",
+        "Move only with a clear reason and a confident route, in daylight"
+      ]
+    }
+  },
+  {
+    "id": "nav-009",
+    "category": "navigation",
+    "title": "Route Planning, Pace Counting, and Estimating Time and Distance",
+    "priority": "advanced",
+    "tags": [
+      "navigation",
+      "route planning",
+      "pace count",
+      "distance",
+      "time estimate",
+      "attack point",
+      "catching feature",
+      "offset"
+    ],
+    "summary": "Plan a route on the map that you can actually follow, calibrate your pace count, and estimate how long each leg will take so you arrive before dark with energy and water to spare.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pick the route, not just the line",
+        "body": "A straight line on the map is rarely the best route. Look for ways that use the land: trails, roads, ridgelines, and valley floors are faster than side-hilling through brush. Avoid cliffs (contours bunched together), swamps, big stream crossings, and burned or logged areas full of deadfall. Military doctrine calls navigating mostly by the shape of the land terrain association and treats it as the preferred method when conditions allow. Mark water sources, shelter options, and bail-out routes to roads along the way."
+      },
+      {
+        "step": 2,
+        "title": "Break it into legs with checkpoints",
+        "body": "Divide the route into legs, each ending at a feature you cannot miss: a trail junction, stream fork, saddle, road, or building. These are your collecting features. For each leg, write down the bearing, distance, elevation gain or loss, and what you expect to see. Near the goal, choose an attack point - an obvious feature, ideally within about 400 m of the target, per Marine Corps training. From the attack point, use a careful compass bearing and pace count for the last short leg."
+      },
+      {
+        "step": 3,
+        "title": "Add a catching feature and offset",
+        "body": "Plan for missing your target. A catching feature is something past the goal you cannot walk through without noticing, like a road, river, or steep slope. If you hit it, you overshot. If there is none, Marine Corps training says to stop once you reach 150 percent of your planned pace count and reassess. When the goal sits on a linear feature, such as a bridge on a road, aim deliberately a few degrees to one side. When you reach the road, you will know which way to turn."
+      },
+      {
+        "step": 4,
+        "title": "Calibrate your pace count",
+        "body": "Measure a 100 m (328 ft) course on flat ground with a tape, a track, or a GPS on open ground. Walk it at a normal pace with your usual pack and count each time your left foot strikes. Walk it three times and average. Marine Corps training gives 60 to 75 paces per 100 m as the normal range. Then walk 100 m uphill, downhill, and through brush to learn those counts too. Your pace shortens going uphill, into the wind, on sand, mud, or snow, in rain, under a heavy load, when tired, and in darkness or fog."
+      },
+      {
+        "step": 5,
+        "title": "Track distance in the field",
+        "body": "Count paces in hundreds. Each time you reach your 100 m count, move one pace bead or tie a knot in a cord and start over. Use a strand of 9 beads for each 100 m and a separate strand of 4 for each kilometer: after nine 100 m beads, the next 100 m makes a kilometer, so reset the nine and move one kilometer bead. Adjust as you go: if you counted 400 paces on a steep climb where you normally take 300, you have covered less ground than the count suggests."
+      },
+      {
+        "step": 6,
+        "title": "Estimate travel time",
+        "body": "Use a hiker's rule of thumb as a starting point: on trail, about 2 to 3 miles per hour on flat ground, plus about 1 hour for every 2,000 feet (600 m) of climbing. Off-trail, through brush, in snow, or at night, travel can drop to 1 mile per hour or less. Add time for breaks, map checks, and the slowest person in the group. Time a few known legs on your first day and adjust the estimate to your actual speed. Write a planned arrival time for each checkpoint."
+      },
+      {
+        "step": 7,
+        "title": "Set a turnaround time and check progress",
+        "body": "Before you start, decide on a time when you will turn back or stop for the night no matter where you are. Count daylight backward: leave at least an hour of light to set up camp or reach the road. At each checkpoint, compare actual time to planned time. If you are falling behind by a lot, change the plan early - take the bail-out route or camp - rather than pushing into darkness. Leave a written copy of your route and times with someone at home."
+      }
+    ],
+    "warnings": [
+      "Straight-line distance on the map underestimates real walking distance, sometimes by half or more in rough terrain.",
+      "Pace counts can be off by 10 to 20 percent on steep or rough ground. Always plan with a catching feature.",
+      "Running out of daylight is a leading cause of trouble. Respect your turnaround time."
+    ],
+    "proTips": [
+      "Keep a small card with your pace counts for flat, uphill, downhill, and brush.",
+      "Plan water stops every few miles in warm weather and carry enough to reach the next sure source.",
+      "In a group, have two people pace count and compare at each checkpoint."
+    ],
+    "relatedGuides": [
+      "nav-003",
+      "nav-001",
+      "fm-002",
+      "nav-004",
+      "nav-008"
+    ],
+    "source": "U.S. Army TC 3-25.26 / U.S. Marine Corps TBS",
+    "sources": [
+      {
+        "title": "Lensatic Compass (B170249) Student Handout",
+        "publisher": "U.S. Marine Corps, The Basic School",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/B170249Lensatic%20Compass.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 3-25.26 Map Reading and Land Navigation (superseded by TC 3-25.26)",
+        "publisher": "U.S. Army",
+        "url": "https://ia601500.us.archive.org/28/items/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "If You Get Lost",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "nav-001",
+      "nav-004"
+    ],
+    "whenNotTo": [
+      "Do not plan a cross-country route through terrain you cannot assess on the map, such as cliffs hidden by a large contour interval, without a safe alternative.",
+      "Do not start a long route late in the day just because the plan says you can make it."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are planning a trip on foot and need to know how far it is and how long it will take.",
+      "immediate": [
+        "Break the route into legs ending at features you cannot miss",
+        "Pick an attack point near the goal and a catching feature past it",
+        "Convert distance to paces with your own pace count"
+      ],
+      "then": [
+        "Estimate time: about 2-3 mph on flat trail plus 1 hour per 2,000 ft of climb",
+        "Set a turnaround time and change plans early if you fall behind"
+      ]
+    }
+  },
+  {
+    "id": "nav-010",
+    "category": "navigation",
+    "title": "Navigating at Night",
+    "priority": "advanced",
+    "tags": [
+      "navigation",
+      "night",
+      "darkness",
+      "compass",
+      "lensatic",
+      "red light",
+      "night vision",
+      "stars"
+    ],
+    "summary": "How to move safely and stay on course in the dark when you truly have to: protect your night vision, preset bearings, use steering marks, and adjust pace counts - and when to stop and wait for daylight instead.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Decide if you really need to move",
+        "body": "Night travel is slower and more dangerous: you cannot see holes, ledges, or water, and small mistakes become injuries. Move at night only when staying is worse - extreme desert heat, a real threat, or a planned evacuation over known ground. If you are lost or tired, stop, shelter, and wait for light (see nav-008). If you must move, plan the route in daylight if you can, and choose roads, trails, and open ground over thick woods or steep slopes."
+      },
+      {
+        "step": 2,
+        "title": "Prepare your gear before dark",
+        "body": "Check that your compass's glowing marks work; on a lensatic compass, the luminous dots and lines should glow without first holding the compass under a light, which can give a false result. Fresh batteries in a headlamp with a red mode. Put your map in a clear bag, fold it to show only your route, and mark checkpoints with a bold pen you can read by dim light. Write each leg's bearing and pace count on a card. Tie your compass to your jacket with a cord - if you drop it at night, you may never find it."
+      },
+      {
+        "step": 3,
+        "title": "Protect your night vision",
+        "body": "Your eyes need about 20 to 30 minutes in darkness to adjust fully, and one glance at a bright light undoes much of it. Use dim red light for map reading, and cover the light with your hand so only a small area is lit. Close one eye when you must use white light, so that eye keeps its adjustment. In low light, objects are easier to see when you look slightly to one side of them rather than straight at them. Scan slowly instead of staring."
+      },
+      {
+        "step": 4,
+        "title": "Preset your bearings",
+        "body": "Set each bearing before you start, in good light if possible. On a lensatic compass, each bezel click is 3 degrees and there are 120 clicks in a full turn. To set a bearing in the dark, start with the luminous line over the needle at north, then count clicks: for 090, 30 clicks to the left. On a baseplate compass, set the dial by headlamp before you go. Then use the center-hold method: compass at your belly, elbows tight, and turn your whole body until the glowing needle lines up with the luminous line."
+      },
+      {
+        "step": 5,
+        "title": "Use steering marks",
+        "body": "Pick the farthest object you can make out on your bearing - a treetop against the sky, a light, a gap in a ridge. Walk to it, then take a new one. In darkness, steering marks may be only a few yards away. A star low on the horizon in your direction of travel also works, but stars move, so check it against your compass every 10 to 15 minutes and pick a new star when it drifts. Polaris stays nearly fixed and makes an excellent steering mark if you are heading north."
+      },
+      {
+        "step": 6,
+        "title": "Adjust your pace count and speed",
+        "body": "Army doctrine notes that darkness shortens your pace, so your count per 100 m goes up. Expect 10 to 20 percent more paces than in daylight on the same ground, and travel at half your daytime speed or less. Shuffle your feet on uneven ground and test each step. Use a walking stick to probe ahead. Keep the group close - within arm's reach or a few feet in thick cover - and have each person keep the one behind in sight. Stop and count heads at every checkpoint."
+      },
+      {
+        "step": 7,
+        "title": "Use the land you can still see",
+        "body": "At night, the skyline is your best feature. Ridges, saddles, and peaks show against the sky even when the ground is black. Sounds help too: running water, a road, or wind across a ridge. Choose handrails - trails, roads, fence lines, and streams you can follow by touch or sound - and plan legs to end at features you cannot miss. Downhill in the dark is where many injuries happen; slow down on any descent."
+      }
+    ],
+    "warnings": [
+      "Do not move at night near cliffs, steep drop-offs, fast water, or ice. Wait for daylight.",
+      "A bright white light ruins your night vision for many minutes and can blind others in your group.",
+      "Hypothermia comes on faster at night; keep layers on and keep moving slowly rather than stopping cold for long periods (see medical-025)."
+    ],
+    "proTips": [
+      "Practice night navigation on a familiar trail before you ever need it.",
+      "Use reflective tape on gear and team members' packs so the group can see each other with minimal light.",
+      "In desert heat, plan travel for cool night hours, but scout the route in daylight first (see env-001)."
+    ],
+    "relatedGuides": [
+      "nav-002",
+      "nav-004",
+      "nav-008",
+      "env-001",
+      "medical-025"
+    ],
+    "source": "U.S. Army TC 3-25.26 / U.S. Marine Corps TBS",
+    "sources": [
+      {
+        "title": "Lensatic Compass (B170249) Student Handout",
+        "publisher": "U.S. Marine Corps, The Basic School",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/B170249Lensatic%20Compass.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Map Reading and Land Navigation (FMSO 212)",
+        "publisher": "U.S. Marine Corps Training Command",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/FMTBE/Student%20Materials/FMSO%20Manual/212.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 3-25.26 Map Reading and Land Navigation (superseded by TC 3-25.26)",
+        "publisher": "U.S. Army",
+        "url": "https://ia601500.us.archive.org/28/items/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What Is the North Star and How Do You Find It?",
+        "publisher": "NASA Science",
+        "url": "https://science.nasa.gov/solar-system/what-is-the-north-star-and-how-do-you-find-it/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "advanced",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [
+      "nav-004"
+    ],
+    "whenNotTo": [
+      "Do not travel at night when you are lost, injured, or exhausted - shelter and wait for light.",
+      "Do not travel at night through unfamiliar, steep, or wet terrain unless staying is more dangerous."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have to move in the dark and stay on course.",
+      "immediate": [
+        "Ask if waiting for daylight is safer - usually it is",
+        "Use only dim red light; protect your night vision",
+        "Preset bearings: lensatic bezel clicks are 3 degrees each"
+      ],
+      "then": [
+        "Walk short steering marks, recheck stars every 10-15 minutes",
+        "Expect more paces per 100 m and half your day speed"
+      ]
+    }
+  },
+  {
+    "id": "nav-011",
+    "category": "navigation",
+    "title": "Navigating in Fog, Whiteout, and Dense Forest",
+    "priority": "advanced",
+    "tags": [
+      "navigation",
+      "fog",
+      "whiteout",
+      "dense forest",
+      "limited visibility",
+      "compass",
+      "leapfrog",
+      "snow"
+    ],
+    "summary": "When you cannot see more than a few yards, landmarks disappear and people walk in curves. Use short compass legs, a partner as an aiming point, handrails, and careful pace counts - or stop and wait it out.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Decide early whether to continue",
+        "body": "Low visibility hides hazards: cliffs, cornices, crevasses, open water, and drop-offs. In a whiteout, snow and sky blend so you cannot judge slope, and you can walk off an edge without seeing it. If you are in known safe terrain with a clear route, you may continue carefully. If you are near hazards, lost, or unsure, stop, take shelter, and wait for it to clear. Note your position on the map the moment visibility drops, while you still know where you are."
+      },
+      {
+        "step": 2,
+        "title": "Set up for compass travel",
+        "body": "Measure your next bearing on the map, convert it to magnetic (see nav-007), and set it on the compass before you go. Write the bearing and pace count for each leg on a card. In cold, carry the compass outside your outer layer or in an outside pocket so it does not fog up when you pull it out, as Marine Corps training notes. Keep the map in a waterproof bag. If you have GPS or a phone with offline maps, save a waypoint for your destination and key hazards (see nav-006), but keep the compass ready as backup."
+      },
+      {
+        "step": 3,
+        "title": "Use a partner as your aiming point",
+        "body": "With nothing to aim at, use people. The navigator stays put while a partner walks ahead on the bearing to the edge of visibility. The navigator calls or signals the partner left or right until they stand exactly on the bearing. The navigator then walks to the partner, counting paces, and repeats. With a rope team or group, put the navigator second so the leader can be steered. Alone, toss a bright item ahead on your line, or use any small object within sight, and walk to it."
+      },
+      {
+        "step": 4,
+        "title": "Fight drift",
+        "body": "People walking without landmarks tend to curve. Marine Corps training notes drift from an unbalanced load, facing into wind or rain, and detours around obstacles, with right-handed people tending to drift right. On Mount Rainier's Muir Snowfield, the National Park Service warns that westerly winds push climbers off course toward crevassed glaciers, and that you may need to correct your heading into the wind. Check your bearing often - every few aiming points - and alternate which side you pass obstacles on."
+      },
+      {
+        "step": 5,
+        "title": "Count paces carefully",
+        "body": "Army doctrine notes that fog, rain, snow, and soft ground all shorten your pace, so your count per 100 m rises. Use your rough-ground or snow pace count, not your flat-ground number. In deep snow or thick brush, it can be 30 percent or more higher. Mark each 100 m with pace beads. Keep legs short so errors cannot build up: end each leg at a feature you can find even in poor visibility, like a stream, trail, or the base of a steep slope."
+      },
+      {
+        "step": 6,
+        "title": "Use handrails and catching features",
+        "body": "A handrail is a long feature you can follow without seeing far: a trail, stream, fence, power line, ridge crest, or the edge of a field. In dense forest and fog, plan your route along handrails whenever possible, even if it is longer. Plan a catching feature beyond each goal so you know if you overshoot (see nav-009). In open snow, a slope direction can act as a handrail - if the ground starts tilting the wrong way, you are off course."
+      },
+      {
+        "step": 7,
+        "title": "Dense forest specifics",
+        "body": "In thick timber, you may see only 30 to 50 feet. Pick close aiming points and accept slower travel. Look up: treetops and gaps against the sky can serve as aiming points. Phone GPS accuracy drops under heavy tree cover, so expect your blue dot to wander. Thick brush and deadfall tempt you to detour - each detour is a chance to lose your line, so box around big obstacles with 90-degree turns and pace counts (see nav-004). Climb a small rise or clearing now and then to look for landmarks."
+      }
+    ],
+    "warnings": [
+      "In a whiteout near cliffs, cornices, or crevassed glaciers, stop and shelter. Many fatal falls happen when people keep walking in zero visibility.",
+      "Avalanche terrain is hard to judge in poor light. Avoid steep open slopes in or after heavy snow (see env-011).",
+      "Wet, cold, and windy conditions bring on hypothermia quickly; stop and shelter before you are exhausted (see medical-025).",
+      "Check that your GPS or phone uses the same datum (usually WGS 84) as the coordinates you are following, or positions can be off."
+    ],
+    "proTips": [
+      "Before a trip into fog-prone or snowy areas, pre-plot bearings and distances for each leg at home.",
+      "Wands or flagging placed on the way in can mark the way out in snow or fog - remove them on your return.",
+      "In fog, sound travels well: listen for water, roads, and your partner's voice."
+    ],
+    "relatedGuides": [
+      "nav-004",
+      "nav-003",
+      "nav-009",
+      "env-011",
+      "env-003",
+      "medical-025"
+    ],
+    "source": "U.S. Marine Corps TBS / National Park Service / U.S. Army",
+    "sources": [
+      {
+        "title": "Lensatic Compass (B170249) Student Handout",
+        "publisher": "U.S. Marine Corps, The Basic School",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/TBS/B170249Lensatic%20Compass.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Camp Muir Route - Get Your Bearings",
+        "publisher": "U.S. National Park Service, Mount Rainier National Park",
+        "url": "https://www.nps.gov/mora/planyourvisit/upload/Camp-Muir-Route-with-Get-Your-Bearings-map-Jan18.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 3-25.26 Map Reading and Land Navigation (superseded by TC 3-25.26)",
+        "publisher": "U.S. Army",
+        "url": "https://ia601500.us.archive.org/28/items/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "GPS Accuracy",
+        "publisher": "GPS.gov (U.S. government)",
+        "url": "https://archive.gps.gov/systems/gps/performance/accuracy/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Map Reading and Land Navigation (FMSO 212)",
+        "publisher": "U.S. Marine Corps Training Command",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/FMTBE/Student%20Materials/FMSO%20Manual/212.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "advanced",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [
+      "nav-004",
+      "nav-007"
+    ],
+    "whenNotTo": [
+      "Do not push on in a whiteout or thick fog near drop-offs, glaciers, or open water - stop and shelter.",
+      "Do not rely on line-of-sight landmarks or natural navigation methods in fog; they will not be visible."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Fog, whiteout, or thick forest has cut your visibility to a few yards.",
+      "immediate": [
+        "Mark your position on the map now; stop if near hazards",
+        "Set the bearing and use a partner as the aiming point",
+        "Use your rough-ground pace count and keep legs short"
+      ],
+      "then": [
+        "Follow handrails like trails, streams, and fences",
+        "Correct for wind drift and check the bearing every few aiming points"
+      ]
+    }
+  },
+  {
+    "id": "nav-012",
+    "category": "navigation",
+    "title": "Grid Coordinates - UTM, MGRS, and Latitude/Longitude for Reporting Your Location",
+    "priority": "critical",
+    "tags": [
+      "navigation",
+      "coordinates",
+      "utm",
+      "mgrs",
+      "usng",
+      "latitude",
+      "longitude",
+      "rescue",
+      "911",
+      "grid reference"
+    ],
+    "summary": "Read latitude/longitude and UTM/MGRS grid coordinates from a map or phone, and report your location to rescuers clearly enough that they can find you.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the two main systems",
+        "body": "Latitude and longitude measure degrees north or south of the equator and east or west of Greenwich, England. In the U.S., latitude is north (positive) and longitude is west (negative in most apps). UTM (Universal Transverse Mercator) is a grid in meters. MGRS is the military version of UTM, and the U.S. National Grid used by many rescue agencies uses the same format. USGS says neither system is more accurate than the other - they are just different ways to name the same point. Use whatever your rescuers ask for, and say which one you are giving."
+      },
+      {
+        "step": 2,
+        "title": "Read latitude and longitude",
+        "body": "Coordinates come in three common formats, and mixing them up can put rescuers miles off. Decimal degrees: 35.5853, -80.8101. Degrees and decimal minutes: 35 35.118 N, 80 48.606 W. Degrees, minutes, seconds: 35 35 07 N, 80 48 36 W. Read the format exactly as your device shows it, including the words north and west. On a topo map, latitude ticks run along the left and right edges and longitude along the top and bottom; USGS 7.5-minute maps show ticks every 2.5 minutes."
+      },
+      {
+        "step": 3,
+        "title": "Understand UTM",
+        "body": "USGS explains that UTM divides the world into 60 zones, each 6 degrees of longitude wide, numbered eastward starting at 180 degrees. The U.S. runs from zone 1 in western Alaska to zone 19 in Maine. Within a zone, the easting is meters east or west of the zone's center line, which is set at 500,000 m so values never go negative. The northing is meters north of the equator. A full UTM coordinate looks like: Zone 17S, 512345 m E, 3938765 m N. US Topo maps published since 2009 print a full 1,000 m UTM grid, and the zone appears in the lower left margin."
+      },
+      {
+        "step": 4,
+        "title": "Read a grid reference: right, then up",
+        "body": "The one rule for any grid: read right, then up. First find the vertical grid line just to the left of your point and read its number (easting). Then find the horizontal line just below your point and read its number (northing). Two digits each - a 4-digit reference like 1234 - names a 1,000 m square. Estimate tenths across and up within the square for a 6-digit reference (100 m), and hundredths for an 8-digit reference (10 m). Always give an even number of digits, with the easting half first. A plastic grid reader or a ruler helps."
+      },
+      {
+        "step": 5,
+        "title": "Understand MGRS / U.S. National Grid",
+        "body": "MGRS shortens UTM by dropping the big leading digits and naming each 100 km square with two letters. A full reference has three parts: the grid zone (like 17S), the 100 km square letters (like MV), and the easting and northing digits, always in equal halves. Example format: 17S MV 1234 5678 is a 10 m location. Within your own area, people often give only the digits, but when reporting to someone far away, always include the zone and letters. Most phone apps and GPS units can display MGRS/USNG in settings."
+      },
+      {
+        "step": 6,
+        "title": "Get coordinates from your phone",
+        "body": "Your phone's GPS works without cell service (see nav-006). On iPhone, the Compass app shows latitude and longitude. In most map apps, long-press your location or the blue dot to show coordinates. Before a trip, find this on your phone and practice reading it aloud. Set your GPS to WGS 84, the datum most rescuers and apps use. The National Park Service warns that serious errors occur when GPS units are set to the wrong datum or format."
+      },
+      {
+        "step": 7,
+        "title": "Report your location to rescuers",
+        "body": "When you reach 911 or a rescuer: state the system and format first ('decimal degrees' or 'U.S. National Grid'), then read each digit one at a time, including north/south and east/west. Have them read it back. Add plain-language details: trail name, nearest landmark, which side of a stream or ridge, what you see, and how many people and injuries. Say how you got the position (phone GPS, map) and its likely accuracy. If you move, give a new position. Write your coordinates down in case your battery dies."
+      }
+    ],
+    "warnings": [
+      "Mixing up decimal degrees and degrees-minutes can put rescuers miles from you. Say the format out loud.",
+      "Forgetting the minus sign or 'west' on longitude in the U.S. can place you on the other side of the world.",
+      "A wrong datum (for example, an old NAD 27 map with a WGS 84 GPS) can shift positions by hundreds of feet in some areas."
+    ],
+    "proTips": [
+      "Write your home's and your rally points' coordinates on your family emergency card.",
+      "On the map, a romer (corner scale) printed on many baseplate compasses makes 6- and 8-digit references fast.",
+      "Practice reading and reporting your house's location in two formats until you can do it without thinking."
+    ],
+    "relatedGuides": [
+      "nav-001",
+      "nav-006",
+      "nav-008",
+      "fm-002",
+      "comms-002"
+    ],
+    "source": "USGS / U.S. Army TC 3-25.26 / NPS",
+    "sources": [
+      {
+        "title": "How are UTM coordinates measured on USGS topographic maps?",
+        "publisher": "U.S. Geological Survey",
+        "url": "https://www.usgs.gov/faqs/how-are-utm-coordinates-measured-usgs-topographic-maps",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What does the term UTM mean? Is UTM better or more accurate than latitude/longitude?",
+        "publisher": "U.S. Geological Survey",
+        "url": "https://www.usgs.gov/faqs/what-does-term-utm-mean",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FM 3-25.26 Map Reading and Land Navigation (superseded by TC 3-25.26)",
+        "publisher": "U.S. Army",
+        "url": "https://ia601500.us.archive.org/28/items/MManuals/Fm3-25.26MapReadingAndLandNavigation.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Map Reading and Land Navigation (FMSO 212)",
+        "publisher": "U.S. Marine Corps Training Command",
+        "url": "https://www.trngcmd.marines.mil/Portals/207/Docs/FMTBE/Student%20Materials/FMSO%20Manual/212.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Camp Muir Route - Get Your Bearings",
+        "publisher": "U.S. National Park Service, Mount Rainier National Park",
+        "url": "https://www.nps.gov/mora/planyourvisit/upload/Camp-Muir-Route-with-Get-Your-Bearings-map-Jan18.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "nav-001"
+    ],
+    "whenNotTo": [
+      "Do not give coordinates alone if you are unsure of the format - add landmarks and trail names so rescuers can cross-check.",
+      "Do not copy coordinates from an old map without checking its datum against your GPS."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need to tell rescuers or your group exactly where you are.",
+      "immediate": [
+        "Get coordinates from your phone or map",
+        "Say the format first, then read each digit, including N/S and E/W",
+        "Have the listener read it back"
+      ],
+      "then": [
+        "Add landmarks, trail names, and number of people and injuries",
+        "Write the coordinates down in case your battery dies"
+      ]
+    }
+  },
+  {
+    "id": "nav-013",
+    "category": "navigation",
+    "title": "Making an Improvised Compass",
+    "priority": "beginner",
+    "tags": [
+      "navigation",
+      "improvised compass",
+      "needle",
+      "magnet",
+      "floating compass",
+      "no compass",
+      "diy"
+    ],
+    "summary": "Turn a sewing needle, pin, or thin steel wire into a working compass with a magnet and a cup of water, then use the sun to tell which end points north.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Gather materials",
+        "body": "You need a thin piece of steel or iron: a sewing needle, a straight pin, a straightened paper clip, or a thin steel wire about 1 to 2 inches long. Aluminum, brass, and most stainless steel will not work well - test the needle by touching it to a magnet; if it sticks, it can be magnetized. You need a magnet: a fridge magnet, the magnet from a speaker or headphones, or a magnetic tool. Last, you need a way to let the needle turn freely: a small leaf, a slice of cork or foam, or a piece of paper floating in a cup or puddle of still water."
+      },
+      {
+        "step": 2,
+        "title": "Magnetize the needle",
+        "body": "Hold the needle by one end. Stroke the magnet along the needle from the middle to the tip, lift the magnet away, bring it back to the middle, and stroke toward the tip again. Always stroke in the same direction - never back and forth. A U.S. Navy museum activity calls for 30 to 40 strokes. More strokes and a stronger magnet make a stronger, more reliable needle. If you have no magnet, stroking the needle in one direction on silk or wool, or through your hair, may give a weak charge, but it is much less reliable."
+      },
+      {
+        "step": 3,
+        "title": "Float it",
+        "body": "Fill a cup, bowl, or calm puddle with water out of the wind. Lay a small leaf or a bit of cork on the surface and set the needle gently in the middle. You can also float the needle alone by laying it carefully on the surface, or push it through a slice of cork or a piece of drinking straw. The needle must turn with almost no friction. Keep it away from metal: knives, phones, pots, belt buckles, and vehicles will pull the needle and give a false reading."
+      },
+      {
+        "step": 4,
+        "title": "Test it",
+        "body": "Watch the needle swing and settle along a line. Gently turn the cup or nudge the leaf a quarter turn. A magnetized needle will swing back to the same line each time. If it stays wherever you put it, or settles in a different direction each time, it is not magnetized enough - stroke it again and retest. The line it settles on is magnetic north-south."
+      },
+      {
+        "step": 5,
+        "title": "Figure out which end is north",
+        "body": "The needle shows the north-south line but not which end is which - that depends on how you magnetized it. Use the sun. In the Northern Hemisphere morning, the sun is in the east; turn so the sun is on your right, and the end of the needle pointing away from you is north. In the afternoon, put the sun on your left. You can also check with Polaris at night or the shadow-tip method (see nav-005). Mark the north end of the needle with a scratch, nail polish, or ink so you do not have to check again."
+      },
+      {
+        "step": 6,
+        "title": "Hang it as another option",
+        "body": "If you have no water, hang the needle or a thin magnetized razor blade from a single thread or hair tied at its balance point. Let it hang inside a jar or out of the wind until it stops spinning. It will settle in a north-south line. This is easier to carry than water but more affected by wind. A bar magnet hung the same way also works as a compass."
+      },
+      {
+        "step": 7,
+        "title": "Use it like a real compass - with limits",
+        "body": "Like any magnetic compass, your improvised one points to magnetic north, not true north. Correct for declination when using a map (see nav-007). It has no bearing dial, so use it to set a general direction and then pick a landmark on that line to walk to. Re-magnetize the needle every day or two, since it slowly weakens. Store it stuck to the magnet. Keep it away from other metal when reading."
+      }
+    ],
+    "warnings": [
+      "An improvised compass is rough. Use it to set a general direction and cross-check with the sun or stars.",
+      "Strong magnets can damage cards, phones, and pacemakers. Keep strong speaker magnets away from medical devices and electronics.",
+      "Taking apart electronics for a magnet can expose sharp edges and batteries; never puncture or crush a lithium battery."
+    ],
+    "proTips": [
+      "Pre-magnetize a sewing needle and keep it stuck to a small magnet in your kit.",
+      "A small, cheap button compass in your kit is far better than any improvised one - carry one.",
+      "Mark the north end as soon as you identify it."
+    ],
+    "relatedGuides": [
+      "nav-005",
+      "nav-004",
+      "nav-007",
+      "tools-001",
+      "tools-003"
+    ],
+    "source": "U.S. Navy Undersea Museum / National MagLab",
+    "sources": [
+      {
+        "title": "Build a Compass",
+        "publisher": "U.S. Naval Undersea Museum",
+        "url": "https://www.navalunderseamuseum.org/wp-content/uploads/2020/05/Build-a-Compass.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Make a Compass Activity",
+        "publisher": "National High Magnetic Field Laboratory",
+        "url": "https://nationalmaglab.org/magnet-academy/try-this-at-home/make-a-compass-activity/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use an improvised compass for precise bearings on long legs - errors of 10 degrees or more are common.",
+      "Do not rely on it near vehicles, steel buildings, or power lines."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have no compass but have a needle or pin and a magnet.",
+      "immediate": [
+        "Stroke the needle 30-40 times in one direction with a magnet",
+        "Float it on a leaf in still water, away from metal",
+        "Use the sun to tell which end is north"
+      ],
+      "then": [
+        "Mark the north end and re-magnetize daily",
+        "Correct for declination if using a map"
+      ]
     }
   }
 ]

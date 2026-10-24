@@ -4,247 +4,1317 @@
     "category": "urban",
     "title": "Apartment and High-Rise Emergency Preparedness",
     "priority": "critical",
-    "tags": ["urban", "apartment", "high-rise", "shelter"],
-    "summary": "Specific preparedness strategies for urban vertical living when elevators, utilities, and exits fail.",
+    "tags": [
+      "urban",
+      "apartment",
+      "high-rise",
+      "shelter-in-place",
+      "power-outage",
+      "stairwell"
+    ],
+    "summary": "How to prepare an apartment or high-rise home for outages, fires, and floods when elevators, water pumps, and building staff may not work. Do this before anything goes wrong.",
     "steps": [
       {
         "step": 1,
-        "title": "Know Your Building",
-        "body": "Spend 30 minutes on a deliberate building survey before any emergency. Locate and count every stairwell in your building and the number of flights to ground level from your floor. Walk to every exit door — know which ones are alarmed versus freely accessible. Note fire hose cabinet locations, fire extinguisher locations, and the designated exterior fire assembly point. Locate the building's emergency contact board (typically in the lobby or management office) with the superintendent and emergency contact numbers. Ask management about backup generator coverage — what does it power? (Typically emergency lighting, elevators, possibly fire suppression systems.) Write a one-page building reference sheet with floor plan sketch, exit locations, and emergency contacts. Keep it in your go-bag."
+        "title": "Survey your building now",
+        "body": "Spend 30 minutes walking your building on a normal day. Find every exit stairwell on your floor, not just the closest one - the nearest stair may be blocked by smoke. Count the flights from your floor to the street and note which doors lead outside versus into a garage or courtyard. Find the fire alarm pull stations, extinguishers, and the outside meeting place. Ask management four questions: Is the building sprinklered? Is it fire-resistive ('fireproof') or not? What does the backup generator run (lights, one elevator, water pumps, fire pumps)? How will they send emergency notices (intercom, text, email)? In New York, building type is often posted in the lobby. Write the answers on one page and keep it with your go-bag."
       },
       {
         "step": 2,
-        "title": "Stairwell Navigation",
-        "body": "Elevators will be unavailable during power outages, fires, and many other emergency scenarios. If you live above the ground floor, stairwells are your primary egress route — know them in darkness. Practice: walk your stairwell descent carrying your go-bag with a phone flashlight as your only illumination — once. Count the number of doors from your floor to the ground. In smoke conditions, visibility may be near-zero; physical door counting is reliable, visual identification is not. Practical aids: place a strip of reflective tape or a ChemLight/glow stick at stairwell entry door at your floor level (accessible from inside the stairwell) as a floor marker. In the stairwell door, memorize a distinctive tactile marker — a specific bolt position, a texture difference — that identifies your floor by feel."
+        "title": "Learn the stairwells in the dark",
+        "body": "Walk down your main stairwell once with only a headlamp and your go-bag so you know how long it takes and how tired you get. Count doors as you go - in smoke you may not be able to read floor signs. Keep stairwell doors closed; they are fire doors and must self-close. Report blocked exits, missing exit lights, or piled trash to management, as fire officials advise. If anyone in your home uses a wheelchair, cannot hear alarms, or cannot manage many flights, tell building management now and build a personal evacuation plan with a support network. Building staff must evacuate too and may not be able to reach every resident."
       },
       {
         "step": 3,
-        "title": "Shelter-in-Place vs Evacuate",
-        "body": "The default response to most urban emergencies is shelter-in-place — staying in your apartment is usually safer than moving into the street. Reasons: your apartment is a known, secured space; you have your supplies; street-level during civil disturbance, active air quality events, or chaos is more dangerous than a secured apartment. Evaluate against these criteria: Is the threat inside your building? (Fire, gas leak → evacuate immediately.) Is the threat immediate to your floor? (Structural damage, flood encroachment → move.) Is the threat street-level? (Civil disturbance, traffic emergency → shelter in place above it.) Is there a mandatory evacuation order from authorities? (Follow it.) Default to shelter-in-place unless one of these conditions is met. Revisit the decision every 30–60 minutes as information develops."
+        "title": "Plan for no elevators and no water pressure",
+        "body": "In a power outage, elevators stop unless they are on generator power, and many owners keep only one running. Buildings taller than about six stories usually need electric pumps to push water to upper floors. When the pumps stop, taps on high floors can run dry within hours. When an outage is forecast or starts, fill clean containers, pots, and a bathtub (for flushing and washing) right away. Store at least 1 gallon (about 3.8 L) of drinking water per person per day for several days. Know the hidden water already in your unit - see the urban water guide. Plan how you will carry water and groceries up the stairs, and check on neighbors who cannot."
       },
       {
         "step": 4,
-        "title": "Vertical Evacuation Scenarios",
-        "body": "Different emergencies require moving in different directions. Flood: always move up — water fills from the bottom. Move to the highest accessible floor or roof. Roof access doors should be tested in advance — some require a key held by building management. Fire: move down via stairwell. If your floor or a lower floor is on fire, move upward, close fire doors behind you, and proceed to roof for helicopter rescue visibility. Do not use elevators in any fire scenario. Medical emergency (personal): your phone works in most stairwells — call 911 and move toward building entrance to meet responders. Roof as rescue platform: in a genuine emergency where the building is compromised, the roof is a viable helicopter rescue platform. Signal with a mirror, brightly colored clothing, waving both arms, or a ChemLight."
+        "title": "Decide: stay in place or leave",
+        "body": "Staying home is usually safer than moving into crowded streets, but some threats override that. Leave at once if there is fire in your own unit, you smell gas, the building is visibly damaged, or officials order an evacuation. For a fire elsewhere in the building, follow announcements and fire department instructions - in fire-resistive buildings the FDNY often advises staying in your sealed unit rather than entering smoke-filled halls (see the high-rise fire guide). For flooding, move up, never down into basements or garages. For street-level unrest or chemical releases, stay inside above it. Recheck your decision every 30-60 minutes as news comes in."
       },
       {
         "step": 5,
-        "title": "Water Pressure and High-Floor Residences",
-        "body": "Municipal water systems maintain street-level pressure through a combination of water towers, pumps, and gravity. High-rise buildings above approximately 6–8 stories typically rely on electric booster pumps to maintain water pressure on upper floors. When building power fails (either utility or building generator not covering pumps), water pressure fails at your floor within 30–60 minutes as the building's reserve pressure equalizes. Solution: fill all available water containers immediately when a power outage occurs or is forecast — before pressure drops. Fill bathtubs, pots, Tupperware, large Ziplock bags. A WaterBOB bathtub liner ($30) adds 100 gallons of clean storage in one bathtub in under 20 minutes. Know that your hot water heater (if gas-powered) holds 30–80 gallons of potable reserve water accessible via its drain valve at the bottom."
+        "title": "Stock the unit for 2 weeks",
+        "body": "Apartments are small, so store smart. Keep at least a 3-day kit ready and work toward 2 weeks of water, food that needs no cooking, medicines, and lighting. Use battery or rechargeable LED lights, not candles - a candle fire in a tower puts everyone at risk. Never run a generator, grill, or camp stove indoors or on a balcony; carbon monoxide can drift into your unit or a neighbor's. Charge power banks when an outage is forecast. Keep a bucket-toilet kit (heavy bags, lid, kitty litter) in case drains back up or water stops. Store cash in small bills, since card readers fail without power."
       },
       {
         "step": 6,
-        "title": "Light Discipline and Security",
-        "body": "In a widespread grid-down scenario, a lit apartment on an otherwise dark building communicates that you have power and resources — drawing unwanted attention. Light discipline means managing what's visible from outside. Primary rule: no light visible through windows after dark. Hang blankets, heavy curtains, or pre-cut blackout fabric (cardboard + black construction paper) over windows before using any light inside. This applies to candles, lanterns, and phone screens in direct line of sight of windows. Sound discipline applies equally: voices carry through thin apartment walls and empty corridors; cooking sounds, movement, and activity are audible from outside your door. Keep voices low, minimize appliance use that creates distinctive sounds. Know your immediate floor neighbors — a pre-established mutual aid relationship with even one neighbor dramatically changes your options in a prolonged emergency."
+        "title": "Manage e-bike and scooter batteries",
+        "body": "Lithium-ion batteries in e-bikes and scooters have caused many deadly apartment fires in big cities. In 2025 the U.S. Consumer Product Safety Commission advanced a proposed safety standard for these batteries after many fatal fires. Until it is final, charge only with the original or a certified compatible charger, never charge a battery that is hot or damaged, and do not charge while you sleep or are away. Keep the bike and charger away from your apartment door so a fire cannot block your only exit. Never open a pack or swap cells. If a battery hisses, smokes, or swells, get out, close the door, and call 911."
+      },
+      {
+        "step": 7,
+        "title": "Build a floor network",
+        "body": "Meet the neighbors on your floor before an emergency. Trade phone numbers, find out who is older, has a disability, uses home oxygen or other powered medical equipment, or has small kids, and agree to knock on each other's doors in an outage or alarm. One trusted neighbor can watch your unit, share water, or help carry someone down stairs. Keep your household plan simple: two meeting places (one just outside the building, one outside the neighborhood) and an out-of-area contact everyone texts. Keep lights shaded and voices low in a long grid-down event, but do not hide from the neighbors who can help you."
       }
     ],
     "warnings": [
-      "Never use an elevator during a fire or when any fire alarm is active — elevator shafts become chimneys that concentrate heat and smoke.",
-      "Never prop stairwell fire doors open — they are self-closing for a reason, and open fire doors allow fire and smoke to spread through the stairwell shaft.",
-      "The roof is a last resort, not a primary exit — use it only when all stairwell paths are blocked."
+      "Never use an elevator during a fire or when the fire alarm is sounding unless the fire department tells you to.",
+      "Never prop open stairwell or apartment fire doors - an open door lets smoke and heat race through halls and stairs.",
+      "Never use a grill, camp stove, or generator inside or on a balcony - carbon monoxide can kill you and your neighbors.",
+      "Do not move down into a basement or garage during flooding - water and electrical hazards collect there first."
     ],
     "proTips": [
-      "A rated emergency rope escape ladder (X-It or Kidde brand, rated for your floor height) is inexpensive insurance for high-rise residents if stairwells become inaccessible and rescue is delayed.",
-      "A door security bar (Master Lock 265DCCSEN or similar) costs $30–$50 and adds significant forced-entry resistance to your apartment door during civil disturbance scenarios.",
-      "Get to know your immediate floor neighbors now — one pre-arranged mutual aid agreement with a trusted neighbor multiplies your options and safety margin in any emergency."
+      "Keep a headlamp and shoes by your bed - most fires and outages that kill people start at night.",
+      "Fill water containers the moment an outage is forecast; upper-floor taps may stop before the lights do.",
+      "Ask management to text outage and alarm notices; a building text list beats knocking on 200 doors.",
+      "Photograph the evacuation map posted in your hallway so you have it on your phone."
     ],
-    "relatedGuides": ["urban-002", "urban-003"]
-  },  {
+    "relatedGuides": [
+      "urban-002",
+      "urban-006",
+      "urban-007",
+      "dis-024",
+      "home-012",
+      "home-014"
+    ],
+    "source": "NFPA / USFA / FDNY / NYC HPD / CPSC",
+    "sources": [
+      {
+        "title": "State Fire Marshal Offers Safety Tips for High-Rise Dwellers (NFPA guidance)",
+        "publisher": "Tennessee State Fire Marshal's Office",
+        "url": "https://www.tn.gov/commerce/news/2016/3/3/state-fire-marshal-offers-safety-tips-for-high-rise-dwellers.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "High-Rise Fire Safety (infographic)",
+        "publisher": "U.S. Fire Administration",
+        "url": "https://www.usfa.fema.gov/downloads/pdf/publications/high-rise-fire-safety-infographic.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Planning and Evacuations Guide",
+        "publisher": "NYC Department of Housing Preservation and Development",
+        "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/emergency-planning-and-evacuations-guide.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "CPSC advances proposed lithium-ion battery safety standard (April 30, 2025)",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/s3fs-public/4-30-2025_Press_Release_on_Passage_of_Lithium-Ion_%20Battery_NPR_CORT_FINAL.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not wait in place to 'shelter' when the fire is in your own unit, you smell gas, or officials order evacuation - leave."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You live above the ground floor and an outage, fire alarm, or storm is coming or has started.",
+      "immediate": [
+        "Fill water containers now before upper-floor pumps stop",
+        "Put shoes, headlamp, keys, and phone by the door",
+        "Know two stairwells from your floor and never use the elevator in a fire"
+      ],
+      "then": [
+        "Check on floor neighbors who are older, disabled, or on powered medical devices",
+        "Follow building announcements and recheck your stay-or-go decision every 30-60 minutes"
+      ]
+    }
+  },
+  {
     "id": "urban-002",
     "category": "urban",
-    "title": "City Water Outage — Finding and Storing Urban Water",
+    "title": "City Water Outage - Finding and Storing Urban Water",
     "priority": "critical",
-    "tags": ["urban", "water", "city", "outage"],
-    "summary": "Urban-specific water sourcing and storage when municipal supply fails.",
+    "tags": [
+      "urban",
+      "water",
+      "city",
+      "outage",
+      "water-heater",
+      "storage"
+    ],
+    "summary": "Where to find safe water in an apartment or city home when the taps stop, how to get it out safely, and which city water sources you should never drink.",
     "steps": [
       {
         "step": 1,
-        "title": "Water Heater Reserve",
-        "body": "If your apartment or home has a tank-style water heater (typically 30–80 gallon capacity), it contains potable water that is already treated and safe to drink — it is part of the municipal supply that was treated before entering your building. To access: locate the drain valve at the bottom of the tank (looks like a hose bib). Attach a garden hose or use a bucket. Open the valve. Let the first quart of water run to clear sediment before collecting for drinking. This water supply is gravity-fed and does not require pump pressure to access. A 50-gallon water heater provides one person 25 days of minimum drinking water (2L/day) or a family of four approximately 6 days. This is your highest-priority hidden water supply — identify it in your home before any emergency."
+        "title": "Fill containers the moment trouble starts",
+        "body": "City water often keeps flowing for a while after a main break, pump failure, or power outage, then pressure drops - fastest on upper floors of tall buildings that rely on electric booster pumps. As soon as an outage starts or is forecast, fill clean food-grade jugs, pots, and pitchers with drinking water. Fill the bathtub too, but use tub water for flushing and washing unless you used a clean food-grade tub liner. Aim for at least 1 gallon (about 3.8 L) per person per day for drinking and basic hygiene, and more for hot weather, nursing mothers, and sick people. Label containers with the date. Do not use containers that ever held chemicals, fuel, or cleaners."
       },
       {
         "step": 2,
-        "title": "Toilet Tank Reserve",
-        "body": "The toilet tank — the ceramic reservoir behind the seat, not the bowl — contains clean, potable water that is part of the municipal supply. Each toilet tank holds approximately 1.5–3 gallons. Do not flush toilets once a water outage begins — each flush drains this reserve and it will not refill as pressure drops. Two toilets provides 3–6 gallons of clean water for drinking or cooking. The bowl water is NOT potable — it is contaminated with cleaning chemicals and biofilm. Access the tank water by removing the lid and scooping or pouring directly. You can also drain it through the fill valve by manually triggering the float. Treat the tank as a sealed clean water supply; replace the lid after accessing to prevent contamination."
+        "title": "Drain the water heater safely",
+        "body": "A tank water heater holds 30-80 gallons (115-300 L) of water that was safe when it entered your home. Use only the heater that feeds your faucets and shower, not a boiler for radiator heat. First turn off the power at the breaker (electric) or set the gas valve to 'pilot' or 'off' (gas). Running an empty heater can damage it or start a fire. Close the cold-water inlet valve on top, open a hot tap somewhere in the home to let air in, then open the drain valve at the bottom into a clean container. Let the water cool - it may be scalding. The first water out may have sediment; let it settle or filter it. Refill the tank fully before turning the heater back on."
       },
       {
         "step": 3,
-        "title": "Building Pipes and Reserve Pressure",
-        "body": "When water supply fails, significant water remains in your building's pipe network under residual pressure. Open faucets at the lowest point in your unit (typically a floor-level utility faucet or the bathtub) to drain water pooled in pipes above you. Higher floors drain into lower floors through gravity as pressure equalizes — ground-floor and basement units collect the most pipe reserve. In large commercial or residential buildings, rooftop storage tanks (common in NYC-style buildings over 6 stories) may hold thousands of gallons of reserve water that continues to supply by gravity long after municipal pressure fails. Your building superintendent can tell you if such tanks exist. In hospitals, hotels, and large commercial buildings, dedicated on-site cisterns may provide days or weeks of reserve supply."
+        "title": "Use the water in your pipes, ice, and toilet tank",
+        "body": "Water sitting in your pipes is usable. Open a faucet at the highest point of your home to let in air, then collect water from the lowest faucet. Melted ice cubes are fine if they were made with safe water. The toilet tank (the box behind the seat, never the bowl) holds 1-3 gallons, but use it for drinking only if the water is clear and no blue or color-changing cleaner was ever added; otherwise use it for flushing. Liquid from canned fruits and vegetables also counts as fluid. If officials say the city water may be contaminated, shut your main water valve so bad water does not flow into your pipes and water heater."
       },
       {
         "step": 4,
-        "title": "Urban Water Sources",
-        "body": "When building reserves are exhausted, urban environments offer additional sources — all requiring treatment. Fire hydrant water is municipal supply and technically potable, but accessing it requires specialized wrenches and authorization; in a declared emergency, local authorities may designate distribution points. Ponds, decorative fountains, retention basins, and park lakes are NOT safe to drink without aggressive treatment — they contain high bacterial loads, algaecides from fountain treatment, heavy metals from urban runoff, and potential pharmaceutical contamination. They are viable for drinking ONLY after filtration (0.1 micron minimum) followed by chemical or UV treatment. Rainwater collected from clean surfaces (not asphalt or lead-painted roofing) is a relatively clean source after allowing first-flush runoff to clear debris."
+        "title": "Know which city sources are not safe",
+        "body": "Pool and hot-tub water is for washing and flushing only, never drinking. Fountains, ponds, retention basins, and rivers in a city can carry sewage, fuel, road runoff, and chemicals. Floodwater is especially dangerous. The CDC is clear that water contaminated with fuel or toxic chemicals cannot be made safe by boiling or household disinfection, so do not drink it or bathe in it. If water smells like fuel or chemicals, looks oily, or is dark with solids, skip it. Do not open fire hydrants - it is illegal in most cities, drops pressure firefighters need, and the force can injure you."
       },
       {
         "step": 5,
-        "title": "Large-Scale Storage Before Outage",
-        "body": "When a water outage is announced or forecast (storm approach, known infrastructure issue), execute immediately: Fill every bathtub with a WaterBOB liner first ($30, holds 100 gallons per bathtub, protects water from contamination). Fill all large pots, Tupperware containers, pitchers, and Ziplock bags. Run your washing machine to the fill point and stop it — the drum holds 15–20 gallons. Fill every available vessel before pressure drops. Calculate: 1 gallon per person per day for drinking and minimal sanitation; 3 gallons per person per day for comfortable living. For 72-hour planning with 2 people, store minimum 6 gallons, target 18 gallons. A 72-hour forecast gives enough time to fill a 55-gallon drum from a garden hose on a balcony or patio."
+        "title": "Treat any water you are unsure of",
+        "body": "When a boil-water notice is issued, or you are using rainwater or another outside source that is not chemically contaminated, treat it before drinking, brushing teeth, or making baby formula. Let cloudy water settle, then pour off or filter the clear water through a clean cloth. Bring it to a rolling boil for 1 minute (3 minutes above 6,500 feet or about 2,000 m). If you cannot boil, use plain unscented household bleach following the label or the water disinfection guides in this app, or a filter rated for bacteria and protozoa. Follow your water utility's notices - they tell you when tap water is safe again and whether to flush your pipes."
       },
       {
         "step": 6,
-        "title": "Purification in Urban Context",
-        "body": "Municipal water infrastructure failure scenarios range in contamination risk. Pressure loss only (pump failure, broken main): stored water in your pipes and water heater is likely safe — no new contaminants have entered the system. Boil advisory (potential biological contamination): boil water for 1 minute (3 minutes above 6,500 ft elevation). Filter then treat if drawing from open sources. Chemical contamination (industrial spill, deliberate contamination): standard field filtration and chemical treatment DO NOT remove dissolved chemicals, pharmaceuticals, or heavy metals. Only distillation or reverse osmosis removes chemical contaminants. If confirmed chemical contamination of the municipal supply is announced, do not use any municipal water from taps, pipes, or water heaters — it is contaminated throughout the system. Evacuate to access bottled or known-clean water."
+        "title": "Find official water distribution",
+        "body": "In long outages, cities and relief groups set up water distribution points, often at fire stations, schools, or parks. Listen to local radio, check official city and utility social media, or call or text 211 for locations. Bring your own clean containers and a cart or wagon - water weighs about 8.3 pounds per gallon (1 kg per liter), and you may be carrying it up many flights. Red Cross shelters and service sites also provide water. Hotels, hospitals, and big commercial buildings sometimes have their own storage, but do not count on them sharing it."
+      },
+      {
+        "step": 7,
+        "title": "Store water before the next outage",
+        "body": "Apartment storage works best in many small containers that fit under beds and in closets. Commercial bottled water keeps until the date on the label. If you fill your own food-grade containers with tap water, replace it about every 6 months. Keep stored water away from sunlight, heat, and chemicals. A 2-week supply for one person is about 14 gallons (53 L). Check your floor's load limits before putting large drums on a balcony - a full 55-gallon drum weighs over 450 pounds (205 kg). Rain barrels can supply flushing and garden water, but treat rainwater before drinking."
       }
     ],
     "warnings": [
-      "City fountains and decorative reflecting pools contain algaecides, potentially high bacteria, and chemical additives — treat aggressively before drinking even after filtration.",
-      "Never store water in containers previously used for chemicals, cleaning products, or fuel — residual contamination cannot be reliably removed.",
-      "Chemical contamination of municipal water cannot be made safe with standard survival filtration — if this is confirmed, evacuate rather than attempting to treat it in the field."
+      "Turn off the power or gas to a water heater before draining it, and refill it completely before turning it back on.",
+      "Water contaminated with fuel or toxic chemicals cannot be made safe at home - do not drink, cook with, or bathe in it.",
+      "Never drink toilet-tank water that has a blue or colored cleaner in it, and never use bowl water.",
+      "Do not open fire hydrants - it can injure you and steals pressure firefighters need."
     ],
     "proTips": [
-      "A 55-gallon HDPE water storage barrel ($50–$80) on a balcony or patio filled from rain collection provides a substantial building reserve that is completely independent of municipal supply.",
-      "A WaterBOB bathtub liner ($30) stored flat in a closet takes 30 seconds to deploy and 20 minutes to fill — it should be in every urban dweller's emergency kit.",
-      "In multi-day urban outages, YMCA facilities, community centers, Red Cross shelters, and major hotels often maintain independent water systems — know the locations of 3 near your home in advance."
+      "Fill the bathtub for flushing; one bucket poured fast into the bowl flushes most toilets.",
+      "Put a small sticky note on the water heater showing where the drain valve and cold-water shutoff are.",
+      "A folding hand truck or wagon makes carrying water up stairs possible for one person.",
+      "Freeze a few jugs of water; they keep a fridge cold in an outage and become drinking water as they melt."
     ],
-    "relatedGuides": ["urban-001", "urban-003"]
-  },  {
+    "relatedGuides": [
+      "urban-001",
+      "water-011",
+      "water-006",
+      "water-010",
+      "dis-026",
+      "home-003"
+    ],
+    "source": "CDC / King County Public Health",
+    "sources": [
+      {
+        "title": "How to Find Clean Water in an Emergency",
+        "publisher": "U.S. Centers for Disease Control and Prevention",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-find-clean-water-in-an-emergency.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Hidden water supplies",
+        "publisher": "Public Health - Seattle & King County",
+        "url": "https://cd.kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/hidden-water-supplies",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Emergency Planning and Evacuations Guide",
+        "publisher": "NYC Department of Housing Preservation and Development",
+        "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/emergency-planning-and-evacuations-guide.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use any tap, pipe, or water heater water if officials say the city supply has chemical contamination - use bottled or delivered water.",
+      "Do not drain a water heater while it is still powered or the gas is on."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "City water has stopped or is about to stop, or a boil-water notice has been issued.",
+      "immediate": [
+        "Fill clean jugs and pots now, and the tub for flushing",
+        "Turn off power or gas before draining the water heater",
+        "Use only clear toilet-tank water with no blue cleaner"
+      ],
+      "then": [
+        "Boil or disinfect any water you are unsure of",
+        "Call or text 211 or check official channels for water distribution points"
+      ]
+    }
+  },
+  {
     "id": "urban-003",
     "category": "urban",
-    "title": "Civil Disturbance — Shelter in Place Protocol",
+    "title": "Civil Disturbance - Shelter in Place Protocol",
     "priority": "critical",
-    "tags": ["urban", "security", "shelter", "civil-unrest"],
-    "summary": "Protocols for sheltering safely during civil disturbances without drawing attention or providing access.",
+    "tags": [
+      "urban",
+      "security",
+      "shelter-in-place",
+      "civil-unrest",
+      "riot",
+      "situational-awareness"
+    ],
+    "summary": "How to stay safe at home or work when protests turn violent or rioting breaks out nearby: stay away, stay inside, stay informed, and know the conditions that mean you must leave.",
     "steps": [
       {
         "step": 1,
-        "title": "Decision Point — Shelter vs Leave",
-        "body": "The first and most important decision in any civil disturbance is whether to stay or move. Civil disturbances are almost always geographically localized — a specific street, area, or district. Before deciding anything, determine where the disturbance is relative to your location. Sources: local news (TV/radio/streaming), official city Twitter or emergency management feeds, NextDoor or neighborhood apps for real-time neighborhood-specific reports. If the disturbance is not in your immediate block or neighborhood, staying home keeps you out of the zone entirely. Leaving during an active disturbance means moving through or toward the problem. Default: shelter in place and monitor. Reassess every 30–60 minutes as information updates."
+        "title": "Find out where the trouble is",
+        "body": "Civil disturbances are usually limited to certain streets or districts and can move quickly. Before you decide anything, figure out where the activity is relative to you and which way it is heading. Use more than one source: local TV or radio, your city or county alert system, official police and emergency management social media, and a battery or crank NOAA weather radio. Neighborhood apps can be fast but are often wrong - confirm with an official source. If the trouble is not on your block, the safest move is usually to stay where you are and keep away from the area entirely."
       },
       {
         "step": 2,
-        "title": "Light Discipline",
-        "body": "A lit interior visible through windows signals occupation, resources, and potential target value. At night, your lit apartment in a darkened neighborhood is highly visible from the street. Light discipline during civil disturbance at night: close all blinds, curtains, and shades immediately. If you need interior lighting, use the minimum intensity needed and position the light source away from windows rather than directly beside them. An LED headlamp on dim red-light setting preserves your night vision for situational awareness through windows and produces minimal light bleed. Avoid moving past windows holding a light source — silhouettes are clearly visible from the street. Black paper, construction-grade garbage bags, or blankets hung over windows provide fast, effective blackout coverage."
+        "title": "Get inside, lock up, stay away from windows",
+        "body": "Emergency managers give the same core advice: stay away from the area, lock your doors, and stay clear of windows. Bring everyone inside, including pets. Close blinds and curtains so people outside cannot see in and so broken glass is less likely to hit you. Move to an inner room or hallway if you hear breaking glass, gunfire, or explosions nearby. Park cars in a garage if you can do it without driving toward the disturbance. Do not go outside to watch, film, or 'check it out' - curiosity puts people in the wrong place when police move a crowd or when violence starts."
       },
       {
         "step": 3,
-        "title": "Sound Discipline",
-        "body": "Sound travels through apartment walls and windows with surprising clarity — especially in urban environments that have become quiet during a disturbance. Normal household sounds become conspicuous: television, conversation at normal volume, running appliances, cabinet doors, and movement are audible from hallways and adjacent units. Sound discipline: keep all conversation to a low murmur, turn off the television in favor of a phone with earbuds for news monitoring, silence all phone ringers and notification sounds, and avoid cooking appliances that generate significant noise (blenders, food processors). Move deliberately rather than quickly — running or heavy movement is audible. Sound discipline is particularly important for building hallways — sounds through your front door communicate your presence and activity level."
+        "title": "Keep a low profile",
+        "body": "A brightly lit home with people at the windows draws attention when the street is dark and tense. Keep lights dim and away from windows, and do not stand silhouetted in front of them. Keep voices and TV volume low; use earbuds for news. Do not post your address, your supplies, or live video from your window on social media. Do not shout at, threaten, or argue with people outside. Confrontation turns a crowd passing by into a crowd focused on you. The goal is for your building to look like every other quiet building on the block."
       },
       {
         "step": 4,
-        "title": "Entry Hardening",
-        "body": "Standard apartment door locks are weak — most can be bypassed with forced entry in seconds. Supplemental hardening requires no modification to the door itself. Primary door: a door security bar (Master Lock 265DCCSEN, Buddybar) costs $30–$50 and provides significant resistance by bracing against the floor — it resists kick-in force rather than relying on the lock mechanism. Rubber door stop wedges (3–4 of them stacked) provide basic resistance at minimal cost. Sliding glass doors (patio/balcony): cut a wooden dowel or 1×2 board to fit the track — this prevents the door from being lifted or slid open. Pin secondary security in the upper track with a cut-down steel bar. Windows: standard latches are weak; a secondary window lock bar or pin prevents opening beyond a ventilation gap. Security films on glass windows prevent glass shattering from projectile impact."
+        "title": "Harden doors and windows without trapping yourself",
+        "body": "Lock every door and window. A door security bar or wedge braces a door against kicks better than the lock alone. Put a dowel or bar in the track of sliding doors so they cannot be forced open. Close and lock ground-floor windows and move valuables out of sight. Do not nail shut or block doors and windows you may need to escape through - fire is a real risk during riots, and you must be able to get out fast. Keep the path to at least two exits clear. Have your go-bag, shoes, keys, phone, and medicines by the door."
       },
       {
         "step": 5,
-        "title": "When to Leave",
-        "body": "Certain conditions override the shelter-in-place default and require immediate evacuation. Leave immediately if: fire threatens your position (smoke entering unit, fire on your floor or above — don't wait for confirmation). You receive a mandatory evacuation order from law enforcement or emergency management — these are not suggestions. A utility failure creates immediate life-safety risk: gas leak (smell gas → leave immediately, do not use any switches), structural compromise of your building (obvious damage, building authority declaration). The disturbance physically enters your building — lobby breach, active confrontation in your corridor. If leaving: your pre-packed go-bag should be ready. Use stairwells — not elevators. Know your alternate exit from your floor. Pre-identify your destination: a friend's home outside the area, a hotel, or a designated shelter."
+        "title": "Know when to leave",
+        "body": "Staying put is the default, but leave right away if: smoke or fire threatens your building, police or emergency managers order you out, you smell gas, the building is damaged, or violence enters your building. Leave by the exit farthest from the crowd, move away from the noise, and do not go toward police lines from behind the crowd. Walk, do not run, unless you are in immediate danger. Have a destination picked ahead of time - a friend's home in another part of town, a hotel, or an official shelter. If you drive and a crowd surrounds your car, keep doors locked, stay calm, and drive slowly away when a path opens."
       },
       {
         "step": 6,
-        "title": "Communication During a Disturbance",
-        "body": "Stay informed through multiple channels simultaneously — single-source information is vulnerable to delay and gaps. Priority stack: battery/crank NOAA radio for official emergency broadcasts (works when cellular networks are overloaded). Local AM radio stations carry continuous coverage of civil emergencies. Your phone for official emergency management social media feeds and neighborhood apps. Text messaging works when voice calls fail on overloaded networks — SMS traffic uses different bandwidth. Pre-establish a communication protocol with an out-of-area contact: a person outside the affected region who family members check in with, who then relays status between parties. This prevents overloading local networks with unnecessary calls. Conserve phone battery — avoid streaming video for news monitoring; prefer radio or text-based updates."
+        "title": "Follow police instructions and report danger",
+        "body": "When police or the National Guard arrive, listen to and follow their directions, including curfews. Curfew orders apply to you even if you are only walking to a store. If you must be out, carry ID and be ready to explain where you are going. If the situation escalates and you see violence, fire, or people in danger, call 911 and report what you see and the exact location. Use text messages to reach family - texts get through more often than calls when networks are busy. Pick one out-of-area contact everyone checks in with."
+      },
+      {
+        "step": 7,
+        "title": "After it calms down",
+        "body": "Make sure the area is truly safe before you go outside - check official sources, not just the quiet street. Watch for broken glass, burned structures that may collapse, downed power lines, and leftover debris. Photograph any damage to your property and report it to police and your insurer. Check on neighbors, especially older people living alone. Talk to someone if you feel shaken; fear, poor sleep, and jumpiness are normal after a frightening night and usually fade. Seek mental health support if they do not."
       }
     ],
     "warnings": [
-      "Property defense has serious legal implications — know your state's specific laws regarding defense of property and use of force before any confrontation.",
-      "Do not confront or engage individuals outside your unit — situations that would have passed by often escalate irreversibly through direct confrontation."
+      "Never confront, threaten, or argue with people outside - that is how a passing crowd becomes a crowd at your door.",
+      "Do not block or nail shut every exit - fire is common during riots and you must be able to get out.",
+      "Defending property with force carries serious legal risk; know your state's laws, and remember property can be replaced and people cannot.",
+      "Do not go out to watch or film - bystanders get hurt by crowd surges, chemical agents, and violence."
     ],
     "proTips": [
-      "Make keeping curtains and blinds closed a daily habit — during an incident, you'll have nothing to change and no time wasted.",
-      "A simple 3-step civil disturbance decision rule: Hear it → stay home and tune to radio. See it → move away from windows. Feel it (inside your building) → execute your exit plan immediately.",
-      "Keep $40–$80 in small bills ($5s and $10s) in your go-bag — card readers and ATMs will likely be offline during extended disturbances."
+      "A simple rule: hear it - stay in and tune in; see it - move away from windows; it is in your building - leave by the far exit.",
+      "Keep a small amount of cash in small bills; card readers and ATMs may be closed.",
+      "Sign up for your county's alert system now so warnings reach your phone without searching.",
+      "Keep curtains closed as a habit in tense times so nothing changes when trouble starts."
     ],
-    "relatedGuides": ["urban-001", "urban-004"]
-  },  {
+    "relatedGuides": [
+      "disaster-007",
+      "sec-005",
+      "sec-007",
+      "sec-013",
+      "comms-012",
+      "urban-001"
+    ],
+    "source": "Fairfax County Emergency Management / Ready.gov",
+    "sources": [
+      {
+        "title": "Civil Disorder",
+        "publisher": "Fairfax County Department of Emergency Management and Security",
+        "url": "https://www.fairfaxcounty.gov/emergency/readyfairfax/civildisorder",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Evacuation",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/node/152",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not stay in place if fire, smoke, gas, structural damage, or an evacuation order threatens your building - leave by the safest exit.",
+      "Do not try to shelter in a car stuck in or near a crowd if you can safely drive or walk away from it."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A protest has turned violent or rioting is happening near your home or workplace.",
+      "immediate": [
+        "Stay away from the area and get everyone inside",
+        "Lock doors and stay clear of windows",
+        "Tune to official news and alerts"
+      ],
+      "then": [
+        "Leave by the far exit if fire, gas, damage, an order, or violence reaches your building",
+        "Follow police directions and curfews; call 911 to report danger"
+      ]
+    }
+  },
+  {
     "id": "urban-004",
     "category": "urban",
     "title": "Urban Navigation Without Power",
     "priority": "advanced",
-    "tags": ["urban", "navigation", "power-out", "movement"],
-    "summary": "Navigate a dark, traffic-light-free city using street grids, landmarks, and low-tech techniques.",
+    "tags": [
+      "urban",
+      "navigation",
+      "power-outage",
+      "paper-map",
+      "dead-reckoning",
+      "night"
+    ],
+    "summary": "How to find your way across a dark city when phones die, signals are out, and street signs are hard to see - using the street grid, paper maps, landmarks, and careful movement at dead intersections.",
     "steps": [
       {
         "step": 1,
-        "title": "The Grid Principle",
-        "body": "Most US cities were built on grid systems — streets laid out in parallel and perpendicular patterns with systematic numbering. Understanding your city's grid logic allows dead-reckoning navigation without street signs or maps. Common patterns: in Manhattan, street numbers increase going north (downtown to uptown) and addresses on cross streets increase going west to east. In Chicago, address numbers increase outward from the city center on a consistent grid. In Phoenix, the grid uses numbered avenues (west) and streets (east) from Central Avenue as the zero point. Before an emergency: walk your neighborhood and map these patterns mentally. A city grid allows you to say 'I need to go 8 blocks north and 3 blocks east' and execute it in total darkness without a map."
+        "title": "Learn your city's street grid",
+        "body": "Most U.S. cities follow a pattern you can learn in an afternoon. Find out where the zero lines are - the two streets where address numbering starts - and which way numbers rise. In many cities numbered streets run one direction and named or numbered avenues cross them. Once you know the pattern, any address tells you roughly how far and which way to go. Learn how many blocks equal a mile in your area; in many grids it is 8 to 12 short blocks or 4 to 6 long ones. Walk your neighborhood and note how the pattern bends near rivers, rail lines, and highways, where grids often break."
       },
       {
         "step": 2,
-        "title": "Physical Map Preparedness",
-        "body": "Digital maps require power. Physical maps require nothing. Every urban preparedness kit needs a paper street map of your city at a scale detailed enough to show individual streets (1:20,000 or larger). AAA road maps work for regional navigation; local transit authority maps (available free at transit stations) show street grids at usable detail. Laminate your most important map to protect it from rain and folding damage. Download offline maps to your phone using apps that do not require data connection (Google Maps offline areas, Maps.me, OsmAnd) — these work with GPS only, no cell signal needed. GPS functionality is separate from cell service — your phone's GPS chip works independently as long as you have battery power."
+        "title": "Carry a paper map and offline maps",
+        "body": "Digital maps need battery, and cell data may be down. Keep a paper street map of your city in your get-home bag, and mark your home, work, schools, bridges, hospitals, and two meeting places on it. Free transit system maps often show streets well enough for walking. Download offline map areas on your phone before an emergency. Your phone's GPS chip works without cell service as long as it has battery, so an offline map plus GPS still shows your position. Turn on low-power mode, dim the screen, and check the map only at decision points to save battery."
       },
       {
         "step": 3,
-        "title": "Dead Reckoning in the City",
-        "body": "Dead reckoning is the practice of tracking your position by starting from a known point, tracking direction and distance traveled, and calculating your current position without external reference. Urban dead reckoning: establish your starting point (your building address). Note your initial compass direction. Count blocks as you travel — one city block in most US cities is approximately 250–400 feet (50–80 meters). Track turns with their direction and block count. At each turn, update your mental position. City buildings are the most reliable landmarks — each intersection has a specific building or corner store that is consistent reference. If your mental track diverges from landmarks you recognize, stop and reconcile before continuing."
+        "title": "Use landmarks and dead reckoning",
+        "body": "Pick 2-3 big landmarks in each direction from home - a tall tower, a stadium, a river, a hill - that you can see from far away. When you lose track, find one and reorient. For dead reckoning, start at a known point, note your direction, and count blocks as you go. At every turn, say out loud where you think you are ('6 blocks north, now heading east on Main'). A compass or the sun helps: in the U.S. the sun is in the southern part of the sky at midday. If what you see does not match what you expect, stop and figure it out before you walk farther in the wrong direction."
       },
       {
         "step": 4,
-        "title": "Subway and Underground Networks",
-        "body": "Most major US transit systems maintain emergency lighting in subway stations and tunnels — dim battery-backed lighting at platforms, exit signs, and evacuation routes. Station exits are marked with illuminated or reflective signs in most systems and physically marked with painted text on tile. Know multiple stations near your home and workplace, and know which surface exits they use (many stations have 4+ street exits). NYC: study the subway system's local vs express track differences — wrong platform can add 30+ blocks. Chicago: know which CTA lines run above vs below grade for different terrain navigation. Critical warning: never use underground tunnels or culverts in any scenario involving flooding or heavy rain — underground spaces fill rapidly and without warning."
+        "title": "Cross dark intersections safely",
+        "body": "When traffic signals are dark, drivers are supposed to treat the intersection as an all-way stop: stop fully, then yield to the car on the right, and take turns. Many drivers do not. Crashes rise sharply at dark signals during outages. As a pedestrian, make eye contact with drivers before stepping out, cross with a group if you can, and never assume a car will stop. As a driver, slow well before the intersection, stop fully, and watch for walkers you cannot see. Police may direct traffic at major crossings - their signals override everything else."
       },
       {
         "step": 5,
-        "title": "Crowd and Bottleneck Avoidance",
-        "body": "During a mass evacuation or emergency movement event, crowds naturally flow toward the widest, most recognizable routes: main boulevards, bridges, and transit terminals. These routes bottleneck rapidly and become impassable. Parallel routing: for every major route, identify the parallel side street one block over — it carries a fraction of the traffic and moves faster. Know your city's secondary bridge and river crossings — most major bridges have pedestrian paths, and many cities have ferry terminals that are used rarely in normal operations. For cross-borough or cross-river movement: identify at least 3 crossing points, not just the most prominent one. Move earlier than the crowd whenever possible — the first hour of an evacuation is significantly faster than hour 3."
+        "title": "Avoid bottlenecks",
+        "body": "In a big emergency, crowds pour onto the main boulevards, bridges, and transit hubs, and those routes jam fast. Use parallel streets one or two blocks over. Know at least three ways across any river or highway between work and home, including pedestrian bridges. Leaving earlier than the crowd usually beats any shortcut. Stay off highways on foot - it is often illegal and very dangerous. Never go into tunnels, underpasses, subway entrances, or culverts during heavy rain or flooding; low spots fill fast and water can hide open manholes."
       },
       {
         "step": 6,
-        "title": "Night Movement",
-        "body": "Moving in a city without power at night presents specific challenges: vehicle traffic continues without traffic signals, creating chaotic intersections; other pedestrians are largely invisible; street features that are obvious by day disappear in darkness. Human night vision: the eye dark-adapts fully in 30–40 minutes, providing meaningful low-light vision in moonlit or starlit conditions. White flashlight use destroys dark adaptation in seconds and marks your position visibly for blocks. Technique: allow your eyes to fully adapt before moving if possible. Navigate with white light only at moments of immediate necessity. Move along building walls rather than open sidewalks — walls provide tactile guidance and reduce your exposure profile. Red light (red LED) preserves night adaptation better than white and is less visible at distance."
+        "title": "Move at night only when you must",
+        "body": "A city with no streetlights is far more dangerous at night: holes, debris, downed wires, and drivers who cannot see you. If you can, wait for daylight. If you must move, let your eyes adjust to the dark for 20-30 minutes, then use a headlamp on low or red mode and switch to white light at steps, curbs, and debris. Wear something bright or reflective so drivers see you. Stay on main sidewalks with other people rather than empty alleys or shortcuts. Treat every downed wire as live and stay at least 35 feet (about 10 m) away."
+      },
+      {
+        "step": 7,
+        "title": "Practice the route before you need it",
+        "body": "Walk at least part of your route from work to home on a nice day. Time it, find rest spots (libraries, fire stations, hospitals, big grocery stores), and note where the route crosses bridges or rail lines. Try one leg with your phone in your pocket and only the paper map. Practice is what makes navigation work when you are tired, stressed, and in the dark."
       }
     ],
     "warnings": [
-      "In a city power outage, all traffic signals fail — every intersection becomes an uncontrolled 4-way, and vehicle traffic continues. Cross intersections with extreme caution.",
-      "Pedestrians on dark streets at night wearing dark clothing are essentially invisible to drivers — white or reflective material on your clothing or bag is a safety essential."
+      "Dark traffic signals cause many crashes - never assume a driver will stop for you.",
+      "Stay out of tunnels, underpasses, and subway entrances during heavy rain or flooding.",
+      "Treat every downed power line as live and stay well away from it.",
+      "Do not walk on highways or rail tracks - it is dangerous and usually illegal."
     ],
     "proTips": [
-      "Know 3 identifiable landmarks in each cardinal direction from your home address — buildings, bridges, or distinctive towers that are visible at distance and serve as navigation anchors without any map.",
-      "Pre-identify all bridges, tunnels, and river crossings on a physical map and mark them before you need them — these are the critical chokepoints in any urban evacuation.",
-      "A laminated wallet card with your home address coordinates in decimal degrees (from Google Maps → right click → 'What's here') and 2–3 pre-selected rally points takes 5 minutes to make and works when your phone is dead."
+      "Write your home address, meeting places, and an out-of-area contact on a card in your wallet.",
+      "Mark every bridge and river crossing on your paper map with a highlighter - they are the choke points.",
+      "A small button compass on your bag zipper costs little and settles direction arguments fast.",
+      "Screenshots of your route maps load instantly with no data and little battery."
     ],
-    "relatedGuides": ["urban-005", "urban-003"]
-  },  {
+    "relatedGuides": [
+      "urban-005",
+      "urban-011",
+      "nav-006",
+      "nav-009",
+      "nav-010",
+      "dis-024"
+    ],
+    "source": "Boulder Office of Disaster Management / NYC Emergency Management",
+    "sources": [
+      {
+        "title": "Driving Safely During a Power Outage",
+        "publisher": "Boulder Office of Disaster Management",
+        "url": "https://boulderodm.gov/driving-safely-during-a-power-outage/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Plan Now NYC - make an emergency plan",
+        "publisher": "NYC Emergency Management",
+        "url": "https://plannownyc.cityofnewyork.us/?p=8",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not set out across the city if officials are telling people to shelter in place, or during a curfew.",
+      "Do not move at night if you can safely wait for daylight."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The power is out across the city and you need to get somewhere without reliable phone maps.",
+      "immediate": [
+        "Use your paper map or offline map and confirm your starting point",
+        "Treat dark signals as all-way stops and make eye contact before crossing",
+        "Pick big landmarks and count blocks as you go"
+      ],
+      "then": [
+        "Use parallel streets to avoid crowded bridges and boulevards",
+        "Wait for daylight if you can; if not, light up and stay on main streets"
+      ]
+    }
+  },
+  {
     "id": "urban-005",
     "category": "urban",
-    "title": "Public Transportation Failure — Getting Home on Foot",
+    "title": "Public Transportation Failure - Getting Home on Foot",
     "priority": "advanced",
-    "tags": ["urban", "navigation", "walking", "bugout"],
-    "summary": "When all transportation fails, execute a planned on-foot return home from anywhere in your city.",
+    "tags": [
+      "urban",
+      "walking",
+      "get-home",
+      "transit",
+      "commute",
+      "planning"
+    ],
+    "summary": "A plan for getting home on foot when trains, buses, and roads stop working - from knowing your distance to the first 30 minutes, group travel, and protecting your feet.",
     "steps": [
       {
         "step": 1,
-        "title": "Distance Assessment",
-        "body": "Know the walking distance from your key daily locations to your home before any emergency. Using Google Maps, measure the walking distance and time from: your workplace, your children's schools, your most frequent secondary locations (gym, regular errands, family member's home). Most urban workers are within 5–15 miles of home. Walking performance on flat urban terrain: a fit adult walks 3–4 mph; a mixed-fitness adult maintains 2.5–3 mph; encumbered with a bag, add 30 minutes per 5 miles. Planning estimate: budget 4–6 hours for 12–15 miles including rest stops. If you have children, budget 1–2 mph slower and plan for more rest stops. This time estimate needs to exist in your head before the event — calculating it under stress is harder than it sounds."
+        "title": "Know how far home really is",
+        "body": "Measure the walking distance from work, school, and other regular places to home before you ever need it. Most adults walk 2.5-3 mph (4-5 km/h) on city sidewalks; with a bag, crowds, and rests, plan on about 2 mph (3 km/h). A 10-mile (16 km) walk can take 5 hours or more. With children or older adults, plan slower and with more stops. If home is too far to walk in one day, pick a safe place to stay near work - a friend, coworker, or relative - as NYC Emergency Management advises for commuters who live outside the city. Write these times and fallback places down."
       },
       {
         "step": 2,
-        "title": "Get-Home Bag",
-        "body": "A get-home bag (GHB) is distinct from a bug-out bag — it is lighter, workplace-appropriate, and optimized for one task: returning to your home from your daily environment. Contents for a GHB kept at your workplace: a pair of broken-in, flat-soled walking shoes (not dress shoes or heels), 1 liter of water plus a filter straw (Sawyer Squeeze or LifeStraw), 2–3 protein bars or dense calorie items, a phone charging battery pack (10,000 mAh minimum), $40–$80 cash in small bills, a laminated physical map showing your home-to-work route, a compact rain layer (packable jacket), basic first aid (moleskin, ibuprofen, bandages), and a small LED flashlight. Total weight: under 10 lbs. Keep this in a desk drawer, locker, or inconspicuous bag that travels with you regularly."
+        "title": "Keep a get-home kit at work",
+        "body": "City emergency managers recommend keeping comfortable walking shoes at your desk and some emergency cash, since ATMs may not work. Add a small bag with water (1 liter or more), a few snack bars, a phone power bank and cable, a paper map with your route marked, a rain layer, a flashlight or headlamp, a dust mask, basic blister supplies, and any daily medicines. Keep it light - under 10 pounds (4.5 kg) - so you will actually carry it. On days with bad weather or big events forecast, wear walking shoes and carry the kit."
       },
       {
         "step": 3,
-        "title": "Route Planning",
-        "body": "Pre-plan two complete routes home from your workplace: a primary route and an alternate that diverges significantly. For each route, identify and mark on your physical map: every bridge, tunnel, and elevated crossing (bridges are chokepoints — know alternatives if primary is blocked or crowded). Rest locations at approximately 3-mile intervals: hospital lobbies (water, warmth, often operational on backup power), fire stations (ask for water during emergencies — they will typically assist), public libraries, large grocery stores with generators, churches. Mark police precinct locations. Mark areas you assess as potentially problematic (areas you prefer to route around in a high-tension scenario). Study both routes in normal conditions by walking at least part of each one so the territory is familiar."
+        "title": "Plan two routes and rest stops",
+        "body": "Map a main route home and a backup that uses different bridges and streets. Mark every bridge, tunnel, and rail crossing - they are where crowds jam or police close roads. Note rest stops every 2-3 miles where you can find water, restrooms, and shelter, such as libraries, community centers, large stores, and hospital lobbies. Mark areas that flood. Walk part of each route on a normal day so it feels familiar. Agree with your household which route you will use so they know where to look for you."
       },
       {
         "step": 4,
-        "title": "The First 30 Minutes",
-        "body": "Resist the impulse to immediately join the flow of people moving. The first 30 minutes after a transit failure are chaotic — people are making immediate, poorly-informed decisions. Spend this time: gather information from multiple sources (news, official social media, conversations with people from different locations). Assess the nature of the event: is this local (stay) or citywide (go home)? Is it temporary (20-minute delay) or extended (days)? Communicate your status and intentions to your household contact and out-of-area contact. Identify your group: are you moving with coworkers? Establish roles and pace agreements before departing. A 30-minute information-gathering delay frequently saves hours of wrong-direction movement — people who leave immediately often make poor initial decisions and have to backtrack."
+        "title": "Use the first 30 minutes to think",
+        "body": "When transit stops, many people rush out at once with little information. Unless you are in danger where you are, take 15-30 minutes to learn what happened. Check official alerts, transit agency updates, and local news. Is this a short delay or a long shutdown? Is it local or citywide? Is it safer to stay at work? Text your household and your out-of-area contact with your plan and route. Use the restroom, fill your water bottle, and change into walking shoes before you leave. A short pause often saves hours of walking the wrong way."
       },
       {
         "step": 5,
-        "title": "Group Movement",
-        "body": "Moving with a group of 3–5 people is statistically safer than solo travel in a city emergency, provides load distribution, and creates mutual accountability. Establishing group protocols before departing: set the pace to the slowest sustainable pace (not the fastest person's pace — exhausting the slowest member strands everyone). Assign roles: navigator (holds the map, makes route decisions), rear (maintains situational awareness behind the group), medic (carries and is trained in first aid). Distribute loads — the person in best physical condition can carry more to equalize the group's speed. Agree on decision-making: who has final say when the group disagrees on route? This disagreement will happen, and settling it now prevents a street argument at a critical moment. Establish regular status checks: every 30 minutes, group stops, checks headcount, status, and route position."
+        "title": "Travel in a small group",
+        "body": "Walking with 2-4 coworkers who live in the same direction is safer and easier than going alone. Before leaving, agree on the route, the pace (set by the slowest person), and a rule for splitting off near each person's home. Pick one person to navigate. Share loads so no one is overloaded. Stop briefly every 45-60 minutes to drink water, check feet, and check in. Stay on main, busy streets. If anyone feels faint, has chest pain, or cannot keep going, stop and get help."
       },
       {
         "step": 6,
-        "title": "Foot Care",
-        "body": "Blisters and foot injuries are mission-ending at mile 8–10 — they slow pace, distract attention, and can become infected. The most common cause: wrong footwear. This is why broken-in walking shoes in your GHB are non-negotiable. Dress shoes, heels, and new shoes that aren't broken in create pressure points that form blisters within 3–5 miles on pavement. Prevention: wear moisture-wicking socks (not cotton, which holds sweat and causes friction). At the first sign of a hot spot — a warm, tender area that precedes blister formation — stop immediately and address it. Apply moleskin, athletic tape, or in a pinch, duct tape over the affected area. Carry an extra pair of dry socks; wet socks from rain or puddles accelerate blistering dramatically. Take a 10-minute foot-airing rest every 2 hours of walking — remove shoes and socks, inspect, retape if needed."
+        "title": "Protect your feet",
+        "body": "Blisters can stop you long before you reach home. Wear broken-in walking shoes, never new shoes or heels, and socks that wick moisture rather than cotton. At the first warm or tender spot, stop and cover it with moleskin, tape, or a blister bandage before it becomes a blister. Carry dry socks and change them if your feet get wet. Air your feet for a few minutes at long rests. Anyone with diabetes or poor circulation should check their feet at every stop."
+      },
+      {
+        "step": 7,
+        "title": "Stay safe on the way",
+        "body": "Watch for dark traffic signals and treat them as all-way stops - drivers may not. Never wade through flooded streets; manholes and storm drains may be open under the water. Stay away from downed wires. Avoid shortcuts through alleys, rail yards, and empty underpasses. Drink water before you are thirsty, and in heat, rest in shade during the hottest hours. When you reach home, text your contact so everyone knows you made it."
       }
     ],
     "warnings": [
-      "Do not take shortcuts through unknown alleys, underpasses, or terrain you have not assessed — in a widespread emergency, isolated routes carry elevated risk from opportunistic threats.",
-      "Never wade through flood water at street level in a city — storm drains and manhole covers are invisible under water and the current in flooded streets can knock adults off their feet."
+      "Never walk through floodwater in city streets - open manholes and storm drains can be hidden under it.",
+      "Do not take shortcuts through isolated alleys, underpasses, or rail yards.",
+      "Do not walk on subway or rail tracks - they may be electrified and trains may still move.",
+      "Stop and get help if anyone has chest pain, confusion, or signs of heat illness."
     ],
     "proTips": [
-      "A folding bicycle kept at your workplace transforms a 5-hour walking evacuation into a 1-hour ride on bike lanes and paths that are typically less crowded than pedestrian routes.",
-      "On days with elevated risk (major public events, severe weather forecast, high-tension situations), wear your walking shoes to work and have your GHB with you — preparation cost is zero if nothing happens.",
-      "If you know a potential transit failure is coming (storm, major event), drive halfway to work and park at a known garage or street location, shortcutting your potential walking distance in half."
+      "A folding bike or scooter at work can turn a 5-hour walk into a 1-hour ride - if the roads are clear.",
+      "Keep a printed list of key phone numbers in your kit; you may need to borrow a phone.",
+      "Set your phone to low-power mode before you start walking.",
+      "Wear walking shoes on high-risk days; it costs nothing if nothing happens."
     ],
-    "relatedGuides": ["urban-004", "urban-001"]
+    "relatedGuides": [
+      "tools-010",
+      "urban-004",
+      "health-009",
+      "comms-005",
+      "security-004",
+      "urban-007"
+    ],
+    "source": "NYC Emergency Management / Ready.gov",
+    "sources": [
+      {
+        "title": "Plan Now NYC - make an emergency plan",
+        "publisher": "NYC Emergency Management",
+        "url": "https://plannownyc.cityofnewyork.us/?p=8",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Evacuation",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/node/152",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Driving Safely During a Power Outage",
+        "publisher": "Boulder Office of Disaster Management",
+        "url": "https://boulderodm.gov/driving-safely-during-a-power-outage/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not start walking if officials order people to shelter in place, during severe weather, or if staying at work is safer.",
+      "Do not attempt a walk that will put you outside after dark in dangerous conditions if you can stay put until morning."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Trains and buses have stopped and you need to get home from work or school on foot.",
+      "immediate": [
+        "Take 15-30 minutes to check official news and decide if staying put is safer",
+        "Text your household your route and plan",
+        "Change into walking shoes and fill your water"
+      ],
+      "then": [
+        "Walk your planned route with a small group at the slowest person's pace",
+        "Treat hot spots on your feet early and avoid floodwater and downed wires"
+      ]
+    }
+  },
+  {
+    "id": "urban-006",
+    "category": "urban",
+    "title": "High-Rise Fire - Stairwells, When to Stay, and Elevators",
+    "priority": "critical",
+    "tags": [
+      "urban",
+      "fire",
+      "high-rise",
+      "apartment",
+      "evacuation",
+      "stairwell",
+      "elevator"
+    ],
+    "summary": "What to do when the fire alarm sounds or you find fire in an apartment or office tower: when to get out by the stairs, when staying sealed in your unit is safer, and why the elevator is off-limits.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know your building before a fire",
+        "body": "Fire codes define a high-rise as a building over 75 feet (about 23 m) tall, roughly seven stories or more. These buildings take longer to evacuate, but they are more likely to have sprinklers, alarms, and voice announcements. Learn where every exit stair on your floor is in case the closest one fills with smoke. Ask management whether the building is sprinklered and whether it is fire-resistive ('fireproof') or not, and how emergency announcements work. Read the fire safety guide your building gives out. Keep exit stairs and stair doors clear, closed, and unlocked, and report problems."
+      },
+      {
+        "step": 2,
+        "title": "If the fire is in your unit, get out and close the door",
+        "body": "If the fire is in your own apartment or office, everyone leaves now - in any type of building. Stay low under smoke. Do not stop to fight a fire that is bigger than a wastebasket or to grab belongings. Close the door behind you as you leave. A closed door holds smoke and heat inside the unit; an open door lets them pour into halls and stairwells and can kill people floors away. Pull the fire alarm on your way out, knock on neighbors' doors on your floor, and call 911 from a safe spot with the exact address, floor, and unit."
+      },
+      {
+        "step": 3,
+        "title": "If the alarm sounds and the fire is elsewhere",
+        "body": "Listen to building announcements and follow fire department instructions - they know where the fire is. If you are told to stay, stay in your unit until firefighters reach you or say it is safe. If you are not told to stay, NFPA and the U.S. Fire Administration advise leaving by the stairs. Before opening your door, feel it and the knob with the back of your hand. If it is hot, or smoke is pouring in around it, keep it shut and use the stay-in-place steps below. If it is cool, open it slowly, look for smoke, and go to the nearest clear stair."
+      },
+      {
+        "step": 4,
+        "title": "Use the stairs, never the elevator",
+        "body": "Do not use elevators during a fire unless the fire department directs you to. Elevators can stop at the fire floor, open into smoke, or lose power with you inside, and the shaft can fill with smoke. Walk down the stairs, holding the handrail, and keep to one side so firefighters can come up. If you meet heavy smoke in a stairwell, do not push through it - go back and try a different stair, or return to your unit and seal yourself in. Close stair doors behind you. Once outside, go to your meeting place, stay there, and tell firefighters if anyone may be trapped."
+      },
+      {
+        "step": 5,
+        "title": "Know when staying is safer",
+        "body": "The FDNY teaches that building type matters. In a non-fireproof building - most private homes, brownstones, and small older walk-ups - fire can spread unit to unit, so it is usually safer to leave right away. In a fire-resistive (fireproof) building, walls and floors are designed to hold fire where it starts, so if the fire is not in your unit and halls or stairs are smoky, staying in your sealed unit is often safer than walking into smoke. This is especially true when the fire is below you, because heat and smoke rise into stairwells. When in doubt, call 911 and ask."
+      },
+      {
+        "step": 6,
+        "title": "If you stay, seal the room and signal",
+        "body": "Keep your door closed. Stuff wet towels or sheets along the bottom and sides of the door and over vents, or tape the gaps. Turn off air conditioners and fans that pull in outside air. Call 911, give your apartment number and conditions, and stay on the line. Hang a bright cloth or wave a flashlight at a window so firefighters can find you. Unless smoke or flames are coming from below, you may open a window a few inches for fresh air, then close it if smoke enters. Never break windows - falling glass hurts people below and you cannot close a broken window against smoke."
+      },
+      {
+        "step": 7,
+        "title": "Plan for people who cannot use stairs",
+        "body": "People who use wheelchairs, have heart or lung disease, or cannot hear alarms need a plan before a fire. Tell building management and keep the fire department's access in mind. A good plan names helpers on your floor, picks the safest place to wait (often your own sealed unit in a fireproof building, or a designated area by a protected stair), and includes a phone to call 911 with your exact location. Practice it. Building staff evacuate too and may not reach everyone, so do not depend on them alone."
+      }
+    ],
+    "warnings": [
+      "Never use the elevator in a fire unless firefighters direct you to.",
+      "Always close your apartment door behind you - an open door spreads deadly smoke through the building.",
+      "Do not walk into a smoke-filled stairwell; turn back and use another stair or shelter in a sealed room.",
+      "Never break windows - falling glass injures people below and you lose the ability to close out smoke."
+    ],
+    "proTips": [
+      "Keep shoes, a headlamp, keys, and a phone by your bed - fires at night kill the most people.",
+      "Check whether your apartment door self-closes; if it does not, ask management to fix it.",
+      "Keep a roll of duct tape and a couple of old towels in a bathroom cabinet for sealing a door fast.",
+      "When you hear an alarm, start moving or sealing right away - do not wait to see smoke."
+    ],
+    "relatedGuides": [
+      "urban-001",
+      "dis-022",
+      "home-016",
+      "home-012",
+      "medical-017"
+    ],
+    "source": "NFPA / U.S. Fire Administration / FDNY",
+    "sources": [
+      {
+        "title": "High-Rise Fire Safety (infographic)",
+        "publisher": "U.S. Fire Administration",
+        "url": "https://www.usfa.fema.gov/downloads/pdf/publications/high-rise-fire-safety-infographic.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "State Fire Marshal Offers Safety Tips for High-Rise Dwellers (NFPA guidance)",
+        "publisher": "Tennessee State Fire Marshal's Office",
+        "url": "https://www.tn.gov/commerce/news/2016/3/3/state-fire-marshal-offers-safety-tips-for-high-rise-dwellers.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Building Type - Fireproof and Non-Fireproof",
+        "publisher": "FDNY Smart",
+        "url": "https://fdnysmart.org/building-type/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "FDNY offers safety guidance for fireproof and non-fireproof buildings",
+        "publisher": "CBS New York",
+        "url": "https://www.cbsnews.com/newyork/news/apartment-building-fire-safety-fdny-fire-zone-deadly-bronx-fire/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not stay in place if the fire is in your own unit - get out and close the door.",
+      "Do not stay in place in a non-fireproof building when you can safely reach a clear exit.",
+      "Do not leave your unit into heavy smoke or past a hot door just because the alarm is sounding."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The fire alarm is sounding or you see fire or smoke in an apartment or office tower.",
+      "immediate": [
+        "If the fire is in your unit, get everyone out and close the door behind you",
+        "Feel your door before opening; if cool and clear, take the stairs - never the elevator",
+        "If the door is hot or halls are smoky, stay in, seal the door, and call 911"
+      ],
+      "then": [
+        "Follow building announcements and firefighter instructions",
+        "Go to your meeting place outside and report anyone trapped"
+      ]
+    }
+  },
+  {
+    "id": "urban-007",
+    "category": "urban",
+    "title": "Stuck in an Elevator, Subway, or Tunnel During an Outage",
+    "priority": "critical",
+    "tags": [
+      "urban",
+      "elevator",
+      "subway",
+      "train",
+      "tunnel",
+      "power-outage",
+      "entrapment"
+    ],
+    "summary": "What to do when the power fails and you are trapped in an elevator, a stopped subway or commuter train, or a road tunnel - and why climbing out on your own is usually the most dangerous choice.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Elevator: stay calm and call for help",
+        "body": "When the power fails, an elevator stops by itself and its brakes hold it in place - cars do not free-fall. If the car is level with a floor, press 'Door Open' and step out carefully, watching for a gap or step. If not, press the alarm or help button and use the car's intercom or emergency phone. Tell the operator the building address and which elevator you are in. Responders often arrive within minutes, but in a citywide outage it can take much longer. Cars have vents, so you will not run out of air, even if it gets warm. Call or text someone outside if your phone works."
+      },
+      {
+        "step": 2,
+        "title": "Elevator: do not force doors or climb out",
+        "body": "Do not pry the doors open, crawl through a partly open door, or climb out the ceiling hatch. The car can move without warning when power returns, and people are seriously hurt or killed falling into the shaft. Only a trained elevator technician or firefighters should do a rescue. If you are outside a stuck elevator, do not try to rescue people yourself - call the elevator company or building management and tell them people are trapped, since entrapments get priority. Call 911 if anyone inside has a medical emergency, if there is smoke or fire, or if no one answers the alarm."
+      },
+      {
+        "step": 3,
+        "title": "Elevator: wait well",
+        "body": "Sit down, loosen tight clothing, and sip water if you have it. Bang on the door or call out every few minutes so people know you are still there. Use your phone light sparingly to save battery. Keep children close and talk calmly - panic makes waiting harder and spreads to others. If someone has a medical condition, tell the operator. Afterwards, think about whether you should use stairs during heat waves and storms when outages are more likely, especially if you rely on medicines or oxygen."
+      },
+      {
+        "step": 4,
+        "title": "Subway or train: stay on board",
+        "body": "Transit agencies like the MTA say the safest place during a train emergency is usually on the train. The tracks may still be electrified, and other trains may be moving nearby. Stay calm, stay seated, and listen for announcements. Tell the crew right away about any fire, smoke, or medical problem using the intercom near the doors if your car has one. If there is smoke or a problem in your car, walk calmly to the next car that is not affected - in most cases that is all you need to do. Do not pull the emergency brake unless the train's movement itself is putting lives in danger, and avoid pulling it in a tunnel."
+      },
+      {
+        "step": 5,
+        "title": "Subway or train: only leave with the crew",
+        "body": "Self-evacuating onto the tracks is one of the biggest risks in a stalled train. The third rail carries hundreds of volts and can kill instantly, and you may not see an oncoming train in a dark tunnel. Wait for the crew to guide you. Most evacuations are done by pulling a rescue train alongside or walking through to a station. If crews do lead you out, follow their directions exactly, watch your step, tell them if you need help, and stay away from the third rail and any wires. Only if your life is in immediate danger and no crew is coming should you use the emergency exit release shown on the door or window labels."
+      },
+      {
+        "step": 6,
+        "title": "Road tunnel: if there is fire or smoke",
+        "body": "Do not enter a tunnel if you see smoke at the entrance or your car is smoking. If a fire starts in the tunnel, pull over, turn off the engine, leave the key in the car, and get out right away - leave belongings behind. Call 911 or use a tunnel emergency phone. Use a tunnel fire extinguisher only on a very small fire if it is safe. Otherwise walk to the nearest marked emergency exit and leave the tunnel, helping others who need it. Smoke can fill a tunnel in minutes, so move away from it and do not wait in your car."
+      },
+      {
+        "step": 7,
+        "title": "Road tunnel: if traffic stops",
+        "body": "In stopped traffic, keep a safe gap from the car ahead, even when moving slowly. Turn on hazard lights and tune to the radio for tunnel or traffic updates. Note where emergency phones, extinguishers, and exits are. Follow instructions from tunnel staff and electronic signs. If the power goes out and lights fail, stay in your car with the engine off unless there is smoke or fire or staff tell you to leave, and use your headlights to see. Keep a flashlight in your car for exactly this situation."
+      }
+    ],
+    "warnings": [
+      "Never pry open elevator doors or climb out of the car - the elevator can move without warning.",
+      "Do not leave a stalled train onto the tracks without the crew - the third rail and other trains can kill you.",
+      "In a road tunnel fire, leave your car and walk to an emergency exit - smoke moves fast.",
+      "Do not try to rescue people from an elevator yourself; call the elevator company or 911."
+    ],
+    "proTips": [
+      "Carry a small flashlight and a water bottle in your daily bag - they make a long wait much easier.",
+      "When you board a train, glance at the emergency instruction stickers so you know where they are.",
+      "In a building with frequent outages, use the stairs during storms and heat waves.",
+      "Teach children that the elevator alarm button is how to call for help."
+    ],
+    "relatedGuides": [
+      "urban-001",
+      "urban-005",
+      "urban-006",
+      "dis-024",
+      "psych-001"
+    ],
+    "source": "Otis / Southern California Edison / MTA / FHWA",
+    "sources": [
+      {
+        "title": "5 steps to take if your elevator stops",
+        "publisher": "Otis Elevator Company",
+        "url": "https://www.otis.com/en/us/w/5-steps-to-take-if-your-elevator-stops",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Elevator Safety During Outages",
+        "publisher": "Southern California Edison",
+        "url": "https://www.sce.com/ja/outages-safety/outage-preparedness/outage-tips/elevator-safety",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Evacuation Instructions",
+        "publisher": "Metropolitan Transportation Authority (MTA)",
+        "url": "https://www.mta.info/safety-and-security/railroads/evacuation-instructions",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Tunnel Safety",
+        "publisher": "Federal Highway Administration",
+        "url": "https://www.fhwa.dot.gov/bridge/tunnel/tunnelsafety.cfm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not stay in a road tunnel car when there is fire or smoke - get out and walk to an exit.",
+      "Do not stay in a train car that is filling with smoke - move to an unaffected car and alert the crew."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The power fails while you are in an elevator, a subway or commuter train, or a road tunnel.",
+      "immediate": [
+        "Elevator: press the alarm, use the intercom, and do not force the doors",
+        "Train: stay on board and tell the crew about smoke or injuries",
+        "Tunnel fire: engine off, key in, get out and walk to an emergency exit"
+      ],
+      "then": [
+        "Wait for trained responders or crew to lead you out",
+        "Call 911 for any fire, smoke, or medical emergency"
+      ]
+    }
+  },
+  {
+    "id": "urban-008",
+    "category": "urban",
+    "title": "Finding Help in a City After a Disaster - Shelters, FEMA Recovery Centers, Red Cross, and 211",
+    "priority": "critical",
+    "tags": [
+      "urban",
+      "shelter",
+      "fema",
+      "red-cross",
+      "211",
+      "disaster-recovery",
+      "assistance"
+    ],
+    "summary": "Where to go and who to call for a place to sleep, food, water, medical help, and money to recover after a disaster - and how to apply for FEMA help without getting scammed.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Call 911 only for life-threatening emergencies",
+        "body": "Keep 911 free for fires, serious injuries, people trapped, and crimes in progress. For everything else - shelter locations, food, water, medical supplies, housing, and help paying bills - dial 211. 211 is a free, confidential service run by United Way partners in nearly every part of the U.S. It is answered 24/7 in many areas, offers interpreters in many languages, and can also be reached by text and online search in most states. During disasters, 211 centers share shelter locations, road closures, and public health notices so callers get current information and 911 lines stay open."
+      },
+      {
+        "step": 2,
+        "title": "Find an open shelter",
+        "body": "Listen to local officials first - if you are told to evacuate, they will direct you to an evacuation point where you get shelter information. You can also use the Red Cross 'Find an Open Shelter' map online or in Red Cross apps, check your city or county emergency management site, or call 211. Red Cross shelters are free and open to anyone with a disaster-related need. You do not need ID - just your name and where you lived before the disaster. Shelters are accessible to people with disabilities. Tell staff about medical equipment, diet, or religious needs. If no shelter shows up near you, check again later; sites open as needed."
+      },
+      {
+        "step": 3,
+        "title": "Know what shelters provide and what to bring",
+        "body": "Shelters offer a safe place to sleep, meals, snacks, water, and health help for disaster needs such as first aid, replacing lost prescriptions, and replacing lost glasses. They also offer emotional support and help reconnecting with family. Some also have caseworkers, childcare, and laundry. If you have time, bring bedding, clothing, medicines, your emergency kit, phone chargers, and a comfort item for each child. Do not bring alcohol, drugs, or weapons. Service animals are always welcome; pets may be housed at a separate site run by animal groups. Never delay leaving to pack - your safety comes first."
+      },
+      {
+        "step": 4,
+        "title": "Use day-time service sites and distribution points",
+        "body": "Not everyone needs a bed. After big disasters, the Red Cross and partners run service sites that offer meals, device charging, cleanup kits, health services, and caseworkers without overnight stays. Cities also open cooling or warming centers, water and food distribution points, and charging stations, often at libraries, schools, and community centers. Food banks and faith groups add more. 211 and local radio usually have the most current list. Bring your own containers for water and a bag for supplies."
+      },
+      {
+        "step": 5,
+        "title": "Apply for FEMA assistance",
+        "body": "FEMA individual help is only available after a major disaster is declared for your area. Apply online at DisasterAssistance.gov, in the free FEMA App, by phone at 1-800-621-3362 (open 24/7, with multilingual operators), or in person at a Disaster Recovery Center. Have ready: Social Security numbers, the damaged home's address, a description of the damage, insurance details, household income, a phone number and mailing address, and bank information for direct deposit. Photograph damage and list lost items first. You can apply before your insurance claim is settled. Save your 9-digit application number."
+      },
+      {
+        "step": 6,
+        "title": "Visit a Disaster Recovery Center",
+        "body": "After a declared disaster, FEMA and the state open Disaster Recovery Centers (DRCs) in or near hard-hit areas, sometimes in mobile units. Anyone can walk in - you do not need to have applied first. Staff help you apply for FEMA aid, upload documents, understand letters, and connect with other programs such as low-interest Small Business Administration disaster loans, which are also open to homeowners and renters. Find centers, hours, and services with the FEMA DRC Locator or the FEMA App, or by texting 'DRC' and your ZIP code to 43362."
+      },
+      {
+        "step": 7,
+        "title": "Protect yourself from scams",
+        "body": "Disasters bring scammers. FEMA and SBA never charge a fee to apply for help. Real FEMA inspectors carry official photo ID and will already have your application number - they will not ask you for bank PINs or passwords. Do not pay anyone who promises to speed up your claim. Hire only licensed, insured contractors and never pay in full up front. Donate only to charities you know. If you are denied, read the letter; it explains how to appeal, and many denials are fixed by sending a missing document."
+      }
+    ],
+    "warnings": [
+      "Do not delay evacuation to pack for a shelter - leave when told to.",
+      "FEMA and SBA never charge to apply - anyone asking for a fee is a scammer.",
+      "Do not bring weapons, alcohol, or drugs to a shelter.",
+      "Keep 911 for life-threatening emergencies so it stays open for people who need it."
+    ],
+    "proTips": [
+      "Write 211 and 1-800-621-3362 on your family emergency card in case your phone dies.",
+      "Keep phone photos of your ID, insurance cards, and lease or deed so you can apply even if papers are lost.",
+      "Go to a DRC early in the day and bring a charger, water, and snacks - lines can be long.",
+      "Keep a notebook of every call: date, name, and what you were told."
+    ],
+    "relatedGuides": [
+      "sec-014",
+      "sec-008",
+      "home-010",
+      "home-011",
+      "dis-028",
+      "comms-005"
+    ],
+    "source": "FEMA / American Red Cross / 211 (United Way)",
+    "sources": [
+      {
+        "title": "How do I apply for FEMA assistance?",
+        "publisher": "FEMA",
+        "url": "https://fema.gov/node/how-do-i-apply-fema-assistance",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Disaster Recovery Centers",
+        "publisher": "DisasterAssistance.gov",
+        "url": "https://www.disasterassistance.gov/get-assistance/forms-of-assistance/4627?id=805",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Find an Open Shelter",
+        "publisher": "American Red Cross",
+        "url": "https://www.redcross.org/get-help/disaster-relief-and-recovery/find-an-open-shelter",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "What is 211",
+        "publisher": "Washington 211",
+        "url": "https://wa211.org/?p=8954",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Applying for FEMA Disaster Assistance",
+        "publisher": "NC State Extension",
+        "url": "https://content.ces.ncsu.edu/applying-for-fema-disaster-assistance",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not call 211 for an emergency in progress - call 911.",
+      "Do not travel to a shelter through floodwater or active danger; wait for officials or call 911 for rescue."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A disaster has damaged your home or cut off services and you need shelter, supplies, or recovery money.",
+      "immediate": [
+        "Call 911 only for life-threatening emergencies; dial 211 for shelters, food, and water",
+        "Check the Red Cross shelter map or local officials for open shelters - no ID needed",
+        "Photograph damage before cleaning up"
+      ],
+      "then": [
+        "Apply for FEMA help at DisasterAssistance.gov, the FEMA App, or 1-800-621-3362",
+        "Visit a Disaster Recovery Center and never pay anyone to apply"
+      ]
+    }
+  },
+  {
+    "id": "urban-009",
+    "category": "urban",
+    "title": "Scavenging and Salvage - What Is Legal, Ethical, and Safe",
+    "priority": "advanced",
+    "tags": [
+      "urban",
+      "salvage",
+      "scavenging",
+      "debris",
+      "looting",
+      "law",
+      "safety"
+    ],
+    "summary": "How to tell legal salvage from looting after a disaster, how to salvage your own property and accepted items safely, and the hidden hazards - sharp debris, asbestos, lead, mold, and unstable buildings - that injure people doing it.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the line between salvage and looting",
+        "body": "Taking property from inside someone else's home, store, shed, garage, or porch without permission is theft or burglary, and many states punish looting during a declared emergency more harshly than normal theft. 'Abandoned' does not mean 'free' - owners who evacuated still own everything they left behind, including damaged items. Police patrol disaster zones closely and may arrest people found inside damaged buildings or carrying goods away. Curfews may also make it illegal to be out at all. Unless you are in a true life-or-death emergency and have no other option, take only what is yours or what the owner has clearly given you."
+      },
+      {
+        "step": 2,
+        "title": "Check the local rules on curbside debris",
+        "body": "Rules for debris piles at the curb differ from city to city. After a recent hurricane, St. Petersburg, Florida police said taking items from curbside piles was not looting, while Rowlett, Texas passed an ordinance after its tornado making it a misdemeanor to sort through or take items from someone's curb without permission. Many other towns have similar 'no scavenging' rules, partly because thieves claim stolen goods came from the curb. Before you take anything, check your city's notices or ask a police officer. Even where it is legal, ask the owner if they are there - watching strangers pick through your belongings is painful after a disaster."
+      },
+      {
+        "step": 3,
+        "title": "Salvage the right things - your own first",
+        "body": "Focus on your own home and on items owners offer to you. Before moving anything, photograph damage for insurance and FEMA. High-value salvage after a disaster is usually not food: it is tarps, lumber for patching, tools, clean containers, bedding that stayed dry, and documents. Throw away any food, water, medicine, baby bottles, or cosmetics that touched floodwater, unless they were in sealed metal cans you can clean and disinfect. Throw out food from fridges and freezers that warmed above safe temperatures. Never salvage gas cans, propane tanks, or chemical containers from debris - leave them for hazardous-waste crews."
+      },
+      {
+        "step": 4,
+        "title": "Wear the right protection",
+        "body": "Debris injures more people than the disaster in some cleanups. Wear sturdy boots with thick soles (waterproof if there was flooding), heavy work gloves, long sleeves and pants, safety glasses or goggles, and a hard hat around damaged structures. Wear a well-fitted N95 respirator for dust and mold; note that a dust mask does not protect against fuel or chemical vapors. Wash your hands and any skin that touched debris or floodwater with soap and clean water. Get a tetanus shot if you have not had one in 10 years, and see a health provider for deep or dirty wounds and puncture wounds."
+      },
+      {
+        "step": 5,
+        "title": "Stay out of unsafe buildings",
+        "body": "Do not enter a building with visible damage - sagging roofs, cracked walls, shifted foundations, or floors that feel soft - until an inspector or official says it is safe. Leave right away if you smell gas or hear creaking or shifting. Stay clear of downed power lines and do not touch anything in standing water that may be energized. Watch for nails, broken glass, and sharp metal hidden under water and mud. Snakes, rats, and stinging insects move into debris piles, so lift items with a tool, not your hands. Work with a partner who can call for help."
+      },
+      {
+        "step": 6,
+        "title": "Respect asbestos, lead, and mold",
+        "body": "Older buildings may contain asbestos in insulation, floor tiles, and siding, and lead in paint built before 1978. Breaking, sanding, or tearing these materials releases dust you should not breathe. Do not cut, sand, or tear out materials you suspect contain asbestos - removal must be done by trained, licensed contractors. Mist dusty debris lightly with water to keep dust down. Mold grows within a day or two in wet buildings; do not mix bleach with ammonia or other cleaners, and wear gear before using any mold or germ killers. Call a professional for large or complex jobs."
+      },
+      {
+        "step": 7,
+        "title": "Help instead of take",
+        "body": "In a city recovery, the most useful scavenging is often sharing. Offer extra tools, tarps, and labor to neighbors. Work through organized volunteer cleanups run by local governments, faith groups, and established relief groups, which provide safety gear and know the rules. Report suspected looting to police rather than confronting people. Keeping your community's trust matters for months after the disaster - people remember who helped and who took."
+      }
+    ],
+    "warnings": [
+      "Taking property from damaged homes or businesses is theft and can bring heavier penalties during a declared emergency.",
+      "Do not enter damaged buildings until officials say they are safe - collapse and gas leaks kill people during cleanup.",
+      "Do not disturb suspected asbestos or old lead paint - leave it to licensed professionals.",
+      "Throw out food, water, and medicine that touched floodwater unless sealed in cans you can clean."
+    ],
+    "proTips": [
+      "Ask before you take - a quick 'Do you mind if I take this?' avoids misunderstandings and legal trouble.",
+      "Carry a pry bar or rake to lift debris; never reach under piles with your hands.",
+      "Keep a small kit of gloves, N95 masks, and safety glasses in your car for post-storm work.",
+      "Photograph your own items before moving them so insurance and FEMA claims hold up."
+    ],
+    "relatedGuides": [
+      "dis-028",
+      "urban-008",
+      "sec-013",
+      "home-004",
+      "medical-024"
+    ],
+    "source": "NJ Department of Health / local police and city notices",
+    "sources": [
+      {
+        "title": "Health officials urge caution during storm cleanup",
+        "publisher": "New Jersey Department of Health",
+        "url": "https://www.nj.gov/health/news/2012/20121126b.shtml",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "SPPD clarifies what constitutes looting",
+        "publisher": "St. Pete Catalyst",
+        "url": "https://stpetecatalyst.com/zaps/sppd-clarifies-what-constitutes-looting/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "New ordinance protects curbside debris in tornado-stricken Rowlett",
+        "publisher": "CBS Texas",
+        "url": "https://cbsnews.com/texas/news/new-ordinance-protects-curbside-debris-in-tornado-stricken-rowlett",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Find Clean Water in an Emergency",
+        "publisher": "U.S. Centers for Disease Control and Prevention",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-find-clean-water-in-an-emergency.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not salvage during a curfew or in areas police have closed.",
+      "Do not salvage inside a damaged building that has not been cleared as safe.",
+      "Do not take anything from homes, stores, or enclosed areas without the owner's permission."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "After a disaster you want to recover useful items from debris - your own or someone else's.",
+      "immediate": [
+        "Take only your own items or things the owner clearly gives you",
+        "Check local rules - curbside picking is legal in some cities and a crime in others",
+        "Wear boots, heavy gloves, eye protection, and an N95"
+      ],
+      "then": [
+        "Stay out of damaged buildings and leave asbestos and chemicals to professionals",
+        "Wash up after handling debris and get medical care for deep or dirty wounds"
+      ]
+    }
+  },
+  {
+    "id": "urban-010",
+    "category": "urban",
+    "title": "Balcony, Rooftop, and Windowsill Food Growing",
+    "priority": "beginner",
+    "tags": [
+      "urban",
+      "gardening",
+      "container-garden",
+      "balcony",
+      "food",
+      "self-reliance"
+    ],
+    "summary": "How to grow real food in containers on a balcony, rooftop, or sunny windowsill - choosing crops, pots, and potting mix, watering and feeding, and staying within your building's weight and safety limits.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Check the rules and the weight limit first",
+        "body": "Ask your landlord, property manager, or HOA about balcony and roof garden rules before buying anything. Balconies have a maximum load, and wet soil is heavy - a large pot of wet garden soil can weigh well over 100 pounds (45 kg). Use lightweight potting mix, place heavy pots near the wall or over support beams rather than at the outer edge, and never put large containers on a roof without the building's approval. Keep pots away from railings where wind can knock them off, and never block a fire escape, exit, or firefighter access."
+      },
+      {
+        "step": 2,
+        "title": "Map your sun",
+        "body": "Sun decides what you can grow. For one day, note how many hours of direct sun each spot gets. Fruiting crops like tomatoes, peppers, and eggplant need at least 6 hours of direct sun. Lettuce, kale, spinach, chard, and many herbs tolerate partial shade (3-5 hours). South- and west-facing balconies are usually the sunniest in the U.S.; north-facing ones suit greens and herbs. Windowsills work well for herbs, microgreens, and green onions. High balconies are windier, which dries plants out faster, so use a wind screen or choose short, sturdy plants."
+      },
+      {
+        "step": 3,
+        "title": "Pick containers that are big enough",
+        "body": "Small pots dry out fast and stunt plants. Penn State Extension suggests pots at least 20 inches (50 cm) wide for tomatoes and about 14 inches (35 cm) for peppers and eggplant; herbs and greens can grow in smaller pots, window boxes, or long troughs. Pots should be at least as deep as they are wide. Every container needs drainage holes. Fabric grow bags, food-grade buckets with holes drilled in the bottom, and plastic tubs all work. Use saucers so water does not drip onto the balcony below - drips cause neighbor complaints and stains."
+      },
+      {
+        "step": 4,
+        "title": "Use potting mix, not garden soil",
+        "body": "Fill containers with a soilless potting mix made from materials like peat moss, coconut coir, bark, perlite, or vermiculite. Garden soil packs down in pots, drains poorly, and is much heavier. You can mix in up to about half compost for nutrients. Mix in a slow-release fertilizer at planting, then feed every 2-4 weeks with a water-soluble fertilizer following the label, since plants in pots can only use the nutrients in their small amount of soil. Refresh or replace the mix each season."
+      },
+      {
+        "step": 5,
+        "title": "Choose compact, productive crops",
+        "body": "Look for varieties labeled 'bush', 'compact', 'patio', or 'determinate'. Good container crops include cherry and patio tomatoes, peppers, bush beans, leaf lettuce, kale, chard, spinach, radishes, green onions, and herbs like basil, parsley, and mint (give mint its own pot - it spreads). Pole beans, cucumbers, and vining tomatoes can grow up a trellis to save space. Skip sweet corn, watermelon, winter squash, and zucchini - they need more room than a balcony gives. Sow fast crops like radishes and lettuce every 2-3 weeks for a steady supply."
+      },
+      {
+        "step": 6,
+        "title": "Water deeply and often",
+        "body": "Containers dry out much faster than garden beds. In hot summer weather, most container vegetables need watering at least once a day, and small pots on windy balconies may need it twice. Push a finger 1 inch (2.5 cm) into the mix; if it is dry, water slowly until water runs out the bottom. Keep the mix moist but not soggy. Mulch the top with straw or bark to slow drying. Collect rainwater if your building allows it, and in a water outage reuse clean rinse water from washing vegetables - never use greywater with soap or bleach on edible plants."
+      },
+      {
+        "step": 7,
+        "title": "Set realistic expectations",
+        "body": "A balcony garden will not feed a family on its own, but it can add fresh greens, herbs, and vitamins to a stored-food diet and lift morale in a long emergency. A few pots of greens can give a salad several times a week. Start small - 4 to 6 pots - and learn what works in your spot before expanding. Save seeds from open-pollinated varieties to replant. Keep a small stock of seeds, potting mix, and fertilizer in storage so you can start growing even if stores are closed."
+      }
+    ],
+    "warnings": [
+      "Check your balcony's load limit and building rules - wet soil is very heavy.",
+      "Keep pots away from railings and never block fire escapes or exits.",
+      "Do not water edible plants with greywater that contains soap, bleach, or chemicals.",
+      "Do not use garden soil in containers - it is heavy and drains poorly."
+    ],
+    "proTips": [
+      "A 5-gallon food-grade bucket with drainage holes grows one tomato or pepper plant well.",
+      "Self-watering containers with a water reservoir cut daily watering on hot balconies.",
+      "Herbs on a sunny kitchen windowsill are the easiest first garden.",
+      "Grow microgreens indoors on a tray - they are ready to eat in 1-3 weeks."
+    ],
+    "relatedGuides": [
+      "homestead-002",
+      "homestead-007",
+      "water-005",
+      "food-013"
+    ],
+    "source": "Penn State Extension / Alameda County Library",
+    "sources": [
+      {
+        "title": "Container Vegetable Gardening: Four Keys to Success",
+        "publisher": "Penn State Extension",
+        "url": "https://extension.psu.edu/container-vegetable-gardening-four-keys-to-success",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Balcony Gardening: Before You Get Started",
+        "publisher": "Alameda County Library",
+        "url": "https://aclibrary.org/blogs/post/balcony-gardening-before-you-get-started/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not place heavy planters on a balcony or roof that shows cracks, rust, or sagging - get it inspected first.",
+      "Do not count on a container garden as your main food source in an emergency."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You live in an apartment or city home and want to grow some of your own food in limited space.",
+      "immediate": [
+        "Check building rules and keep heavy pots near the wall, away from railings",
+        "Find spots with at least 6 hours of sun for fruiting crops",
+        "Use large pots with drainage holes and light potting mix"
+      ],
+      "then": [
+        "Plant compact greens, herbs, and patio tomatoes; water daily in summer",
+        "Feed every 2-4 weeks and replant fast crops every few weeks"
+      ]
+    }
+  },
+  {
+    "id": "urban-011",
+    "category": "urban",
+    "title": "Getting Out of a City - When to Leave, Timing, and Routes on Foot and by Car",
+    "priority": "critical",
+    "tags": [
+      "urban",
+      "evacuation",
+      "bug-out",
+      "routes",
+      "traffic",
+      "timing"
+    ],
+    "summary": "How to decide when leaving the city beats staying, why leaving early matters more than any route trick, and how to get out by car or on foot without getting trapped in traffic or danger.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Decide: stay or go",
+        "body": "For most city emergencies - outages, storms, unrest a few blocks away - staying home is safer than joining a mass exodus. Leave when officials order an evacuation, when a known threat such as a hurricane, wildfire, flood, or chemical release is heading for your area, or when your home becomes unsafe or unlivable (no water, heat, or cooling for vulnerable family members). Many places use two levels: an evacuation warning means get ready and leave now if you need extra time, and an evacuation order means leave now. If you would need help to leave, go at the warning."
+      },
+      {
+        "step": 2,
+        "title": "Leave early",
+        "body": "Ready.gov advises leaving early enough that you are not trapped by severe weather. Timing beats every route trick: the first hours of a large evacuation move far faster than later ones, when roads clog, gas stations run dry, and bridges close. Do not wait to see how bad it gets. Keep at least half a tank of gas at all times and fill up when evacuation seems likely - stations may close or lose power. Take one car per family to cut congestion. If you have no car, arrange a ride now with family, friends, or your city's evacuation assistance program."
+      },
+      {
+        "step": 3,
+        "title": "Plan destinations in more than one direction",
+        "body": "Pick at least three places you could go - a relative, friend, hotel, or shelter - in different directions from the city. The threat decides which way you can go: away from the coast for a hurricane, upwind for a chemical release or wildfire, uphill for flooding. Tell your out-of-area contact where you are heading. Save offline maps and carry a paper road map. Know where shelters and evacuation points are, and check that your destination will take your pets - public shelters may admit only service animals."
+      },
+      {
+        "step": 4,
+        "title": "Drive the official routes",
+        "body": "Follow the evacuation routes officials give. Shortcuts and back roads can be blocked, flooded, or closed, and you may not be able to turn around. Listen to a battery radio for updates. Watch for washed-out roads and bridges and downed power lines. Never drive into floodwater - just 12 inches (30 cm) of moving water can float many cars. Treat dark traffic signals as all-way stops. Drive with headlights on, keep calm in heavy traffic, and keep the tank above a quarter if you can. Carry water, snacks, medicines, chargers, and a full go-bag in the car."
+      },
+      {
+        "step": 5,
+        "title": "Leave on foot if you must",
+        "body": "If roads are gridlocked or you have no car, walking or biking may be faster. Wear sturdy shoes, long pants and sleeves, and a hat. Carry water, food, medicines, a light, a phone and power bank, a paper map, and copies of key documents. Use sidewalks and pedestrian bridges, not highway lanes or rail tracks. Travel with others when you can, and stop for water and foot care every hour. In heat or smoke, move during cooler hours and wear an N95 for smoke. Head for the evacuation point or shelter officials name - buses often run from there."
+      },
+      {
+        "step": 6,
+        "title": "Before you lock the door",
+        "body": "If you have time: text your out-of-area contact your route and destination, check if neighbors need a ride, and leave a note saying when you left and where you went. Lock doors and windows. Unplug small electronics, but leave the fridge and freezer on unless flooding is expected. Shut off water, gas, or electricity only if officials tell you to or your home is damaged - turning gas back on requires a professional. Bring pets with their food, leash, and carrier. Do not delay leaving to pack more."
+      },
+      {
+        "step": 7,
+        "title": "Do not return too soon",
+        "body": "Stay away until officials say it is safe to return. Roads may be damaged, power lines down, and buildings unsafe. When you go back, enter in daylight, watch for gas smells and structural damage, and photograph everything before cleanup. Expect checkpoints; carry ID and proof of address so you can get back into your neighborhood."
+      }
+    ],
+    "warnings": [
+      "Never drive into floodwater - a foot of moving water can float many cars.",
+      "Do not take shortcuts around official evacuation routes; they may be blocked or flooded.",
+      "Do not wait until roads are jammed - leaving early is the single most important choice.",
+      "Do not walk on highways or rail lines when leaving on foot."
+    ],
+    "proTips": [
+      "Keep the gas tank above half all the time in hurricane and wildfire seasons.",
+      "Pack the car the night a warning is issued so you can leave in minutes.",
+      "Write your three destinations and routes on a card in the glovebox.",
+      "Put a printed contact list and copies of IDs in a sealed bag in your go-bag."
+    ],
+    "relatedGuides": [
+      "sec-003",
+      "tools-009",
+      "urban-004",
+      "urban-005",
+      "home-011",
+      "dis-028"
+    ],
+    "source": "FEMA Ready.gov / NYC Emergency Management / Boulder ODM",
+    "sources": [
+      {
+        "title": "Evacuation",
+        "publisher": "FEMA Ready.gov",
+        "url": "https://ready.gov/node/152",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Driving Safely During a Power Outage",
+        "publisher": "Boulder Office of Disaster Management",
+        "url": "https://boulderodm.gov/driving-safely-during-a-power-outage/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Find an Open Shelter",
+        "publisher": "American Red Cross",
+        "url": "https://www.redcross.org/get-help/disaster-relief-and-recovery/find-an-open-shelter",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [
+      "urban-004"
+    ],
+    "whenNotTo": [
+      "Do not evacuate into the path of a storm, fire, or flood when officials say sheltering in place is safer.",
+      "Do not leave during a shelter-in-place order for a chemical or radiological release unless officials tell you to."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "A threat is heading for your city or officials are warning people to evacuate.",
+      "immediate": [
+        "Leave at the warning stage, not when roads are already jammed",
+        "Fill the gas tank and load your go-bag, medicines, and pets",
+        "Follow official routes - no shortcuts, no floodwater"
+      ],
+      "then": [
+        "Text your out-of-area contact your route and destination",
+        "Stay away until officials say it is safe to return"
+      ]
+    }
   }
 ]

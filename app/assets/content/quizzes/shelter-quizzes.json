@@ -1,159 +1,517 @@
 [
   {
-    "id": "quiz-shelter-dt-001",
-    "category": "shelter",
-    "type": "decision_tree",
-    "difficulty": "advanced",
-    "title": "Night Shelter — No Gear",
-    "nodes": {
-      "start": {
-        "id": "start",
-        "scenario": "It's 45°F, light rain, no shelter, no fire-starting gear. You have 90 minutes of daylight. What do you do first?",
-        "options": [
-          { "text": "Build a debris hut immediately", "next": "debris_hut" },
-          { "text": "Search for natural shelter (cave, rock overhang)", "next": "natural_search" },
-          { "text": "Gather dry tinder and look for ways to make fire", "next": "fire_first" }
-        ]
-      },
-      "debris_hut": {
-        "id": "debris_hut",
-        "scenario": "Good. You start building. You find enough dry leaves and branches. But the ground is wet. Do you:",
-        "options": [
-          { "text": "Build a raised debris platform to sleep on", "next": "good_outcome" },
-          { "text": "Sleep directly on the leaf pile", "next": "bad_outcome_cold" }
-        ]
-      },
-      "natural_search": {
-        "id": "natural_search",
-        "scenario": "You spend 30 minutes searching and find a shallow rock overhang. Not deep enough to fully block wind. Do you:",
-        "options": [
-          { "text": "Use it as a windbreak and pile debris around yourself", "next": "good_outcome" },
-          { "text": "Keep searching for something better", "next": "bad_outcome_dark" }
-        ]
-      },
-      "fire_first": {
-        "id": "fire_first",
-        "scenario": "Without fire-starting gear this is risky. 45 minutes pass with no fire. Daylight is almost gone. You now have no shelter and no fire. This was the wrong priority.",
-        "outcome": "poor",
-        "explanation": "In wet, cold conditions without fire gear, shelter is always the first priority. Hypothermia kills faster than hunger or thirst. Fire is secondary when you have no reliable way to start one."
-      },
-      "good_outcome": {
-        "id": "good_outcome",
-        "outcome": "success",
-        "explanation": "Correct. Ground insulation is critical — cold ground pulls heat from your body faster than cold air. A raised platform or thick debris layer between you and the ground is essential. You survive the night."
-      },
-      "bad_outcome_cold": {
-        "id": "bad_outcome_cold",
-        "outcome": "poor",
-        "explanation": "Ground conduction would pull heat from your body all night. Even with debris above you, sleeping directly on wet ground leads to hypothermia. Always insulate from below first."
-      },
-      "bad_outcome_dark": {
-        "id": "bad_outcome_dark",
-        "outcome": "poor",
-        "explanation": "The overhang was adequate. Continuing to search costs time and energy — you run out of daylight with no shelter at all. The first viable option is almost always the right option."
-      }
-    },
-    "relatedGuide": "shelter-001",
-    "tags": ["shelter", "hypothermia", "advanced"]
-  },
-  {
     "id": "quiz-shelter-002",
     "category": "shelter",
     "type": "multiple_choice",
     "difficulty": "beginner",
-    "scenario": "You're building a debris hut for a 40°F night. Which single layer of your debris hut is most critical for preventing hypothermia?",
+    "scenario": "You're building a debris hut for a 40 F night with no sleeping bag. You are running low on daylight and can only do one part really well. Which layer matters most for preventing hypothermia?",
     "options": [
-      { "id": "a", "text": "A thick roof layer to block rain (minimum 2 feet of debris)" },
-      { "id": "b", "text": "The debris packed on the floor beneath you — minimum 6 inches of dry material" },
-      { "id": "c", "text": "A leaf-stuffed door plug to block wind at the entrance" },
-      { "id": "d", "text": "Leaves piled on the outside walls to a thickness of 18 inches" }
+      {
+        "id": "a",
+        "text": "A thick roof layer to block rain"
+      },
+      {
+        "id": "b",
+        "text": "Thick, dry debris packed under you - at least 6 inches after it is squashed flat"
+      },
+      {
+        "id": "c",
+        "text": "A leaf-stuffed door plug to block wind at the entrance"
+      },
+      {
+        "id": "d",
+        "text": "Extra leaves on the outside walls"
+      }
     ],
     "correct": "b",
-    "explanation": "Ground conduction is the #1 heat thief in shelter scenarios — the earth will pull body heat away 25x faster than cold air of the same temperature. Six inches minimum of dry debris BELOW you is non-negotiable. Roof thickness matters for insulation and rain but is secondary to floor insulation. The door plug prevents wind intrusion but convective loss is less severe than conductive. A good rule: build your floor first, thick enough that you cannot feel the ground through it, then build the roof. If you can only do one, do the floor.",
+    "explanation": "You lie pressed against the cold ground all night, and that contact pulls heat out of you steadily - your clothing and any debris on top of you do little where your weight squashes them flat. A thick, dry bed under you is the first priority; make it deep enough that you cannot feel the ground once you lie on it. The roof, walls, and door plug all matter, and a full debris hut needs all of them (about 3 feet of debris overhead), but if time runs out, build the bed first. Lying on bare cold ground is a common way people get hypothermic even under a decent roof.",
     "relatedGuide": "shelter-001",
-    "tags": ["shelter", "beginner", "debris-hut"]
+    "tags": [
+      "shelter",
+      "beginner",
+      "debris-hut",
+      "insulation"
+    ]
   },
   {
     "id": "quiz-shelter-003",
     "category": "shelter",
     "type": "priority_order",
     "difficulty": "intermediate",
-    "scenario": "You need to select a campsite for the night. Rank these site selection criteria from HIGHEST to LOWEST priority.",
+    "scenario": "You need to choose a spot to build a shelter for a cold, rainy night in the woods. Rank these site checks from HIGHEST to LOWEST priority.",
     "items": [
-      { "id": "1", "text": "No widow-makers (dead branches or standing dead trees) overhead within falling range" },
-      { "id": "2", "text": "A natural windbreak on the prevailing wind side (rock outcrop, dense conifers)" },
-      { "id": "3", "text": "Flat ground for sleeping — sloped sites cause you to slide and disrupt sleep" },
-      { "id": "4", "text": "Water source within 100 meters for morning needs" },
-      { "id": "5", "text": "Natural concealment from sightlines (depression, dense brush)" }
+      {
+        "id": "1",
+        "text": "No dead trees or dead branches overhead within falling range"
+      },
+      {
+        "id": "2",
+        "text": "Not in a dry wash, ravine, or low spot that could flood"
+      },
+      {
+        "id": "3",
+        "text": "A natural windbreak on the upwind side (boulder, dense young trees)"
+      },
+      {
+        "id": "4",
+        "text": "Flat ground big enough to lie on"
+      },
+      {
+        "id": "5",
+        "text": "Water source within a short walk (but not right on the bank)"
+      }
     ],
-    "correct_order": ["1", "2", "3", "4", "5"],
-    "explanation": "A dead branch overhead can kill you in your sleep — this is always #1. No other criterion matters if a widow-maker falls on you. Windbreak is #2 because convective heat loss during sleep is a serious hypothermia risk, and wind-driven rain can destroy any shelter. Flat ground is a comfort and sleep quality concern — not immediately life-threatening but severely impacts performance. Water proximity is a morning logistics concern — you can haul water once. Concealment is tactical and relevant in grid-down scenarios but not a primary survival priority vs physical threats.",
-    "relatedGuide": "shelter-001",
-    "tags": ["shelter", "intermediate", "site-selection"]
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Falling dead wood and flash floods can kill you in your sleep with little or no warning, so those two checks always come first - and the NPS lists both as top campsite hazards. Wind is next because it strips body heat and can wreck a shelter, making hypothermia far more likely on a cold, wet night. Flat ground affects comfort and sleep, which matters but rarely kills. Water is important, but you can walk to it in the morning; about 200 feet away is ideal because it keeps you out of flood paths, damp air, and insect swarms.",
+    "relatedGuide": "shelter-005",
+    "tags": [
+      "shelter",
+      "intermediate",
+      "site-selection"
+    ]
   },
   {
     "id": "quiz-shelter-004",
     "category": "shelter",
     "type": "multiple_choice",
     "difficulty": "intermediate",
-    "scenario": "You've built a quinzhee (mounded snow shelter) in winter emergency conditions and have been inside for 3 hours with 2 other people. What is the single greatest risk that could kill you overnight?",
+    "scenario": "You've built a quinzhee (hollowed snow mound) in a winter emergency and are settling in for the night with two other people. Snow is falling and you have a small backpacking stove. What is the most important thing to prevent overnight?",
     "options": [
-      { "id": "a", "text": "Frostbite from contact with the snow walls as body heat melts the surface" },
-      { "id": "b", "text": "The roof collapsing from snow weight accumulation above" },
-      { "id": "c", "text": "Ventilation hole becoming blocked — CO2 buildup leading to suffocation" },
-      { "id": "d", "text": "Moisture from breath condensing and re-freezing, dropping interior temperature" }
+      {
+        "id": "a",
+        "text": "Frostbite from touching the snow walls"
+      },
+      {
+        "id": "b",
+        "text": "The vent and doorway getting sealed - especially if anyone lights the stove inside"
+      },
+      {
+        "id": "c",
+        "text": "Drips from the ceiling"
+      },
+      {
+        "id": "d",
+        "text": "Running out of snow to patch the walls"
+      }
+    ],
+    "correct": "b",
+    "explanation": "A snow shelter needs a constant supply of fresh air. Falling snow and frost can close the vent hole, and a fully blocked doorway traps stale, moist air. Burning fuel inside makes this deadly - a stove or candle produces carbon monoxide, which you cannot see or smell and which can kill sleeping people. Keep stoves outside, poke the vent open regularly with a stick or pole, and never fully seal the entrance. Wall contact can chill you but is not the main killer, and drips are a comfort problem you fix by smoothing the ceiling.",
+    "relatedGuide": "shelter-003",
+    "tags": [
+      "shelter",
+      "intermediate",
+      "snow-shelter",
+      "winter",
+      "carbon-monoxide"
+    ]
+  },
+  {
+    "id": "quiz-shelter-005",
+    "category": "shelter",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You have one 8x10 ft tarp, cord, and stakes. A strong, steady wind is driving rain across an open clearing from one direction, and only one small tree is nearby. Which pitch is the best choice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A high, flat tarp roof tied at head height for maximum room"
+      },
+      {
+        "id": "b",
+        "text": "A plow point: one corner staked into the wind, the opposite corner raised on the tree, sides staked low"
+      },
+      {
+        "id": "c",
+        "text": "An open lean-to with the open side facing into the wind so smoke clears"
+      },
+      {
+        "id": "d",
+        "text": "Wrap the tarp around yourself and sit in the open"
+      }
+    ],
+    "correct": "b",
+    "explanation": "A plow point makes a low, pointed shape with its tip into the wind, so gusts and rain slide off it, and it needs only one anchor point. A high, flat tarp catches wind like a sail, flaps, and pools water. A lean-to with its open side into the wind funnels rain and wind straight in - the closed, sloped side must face the wind. Wrapping up in the open gives no protection from wind-driven rain and leaves you on the cold ground.",
+    "relatedGuide": "shelter-006",
+    "tags": [
+      "shelter",
+      "beginner",
+      "tarp",
+      "wind"
+    ]
+  },
+  {
+    "id": "quiz-shelter-006",
+    "category": "shelter",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You are camping on frozen ground. You have an inflatable pad rated R 3 and a closed-cell foam pad rated R 2. Your sleeping bag is warm enough, but you were cold from below last night. What is the best move?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use only the inflatable pad - the higher R-value one - and put the foam pad away"
+      },
+      {
+        "id": "b",
+        "text": "Stack both pads with no gap between them for about R 5 total"
+      },
+      {
+        "id": "c",
+        "text": "Put the foam pad on top of your sleeping bag instead of under you"
+      },
+      {
+        "id": "d",
+        "text": "Add another blanket on top of you; ground cold does not matter if the bag is warm"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Pad R-values add together when stacked with no air gap, so R 3 plus R 2 gives roughly R 5 - much better for frozen ground. Many people put the foam on top because it warms up fast, and it also protects you if the air pad leaks. Insulation on top of you cannot fix cold from below: your bag is crushed flat under your body, so the pad does almost all the work against the ground. That is why a warm bag alone often leaves people cold on frozen ground.",
+    "relatedGuide": "shelter-007",
+    "tags": [
+      "shelter",
+      "intermediate",
+      "insulation",
+      "R-value"
+    ]
+  },
+  {
+    "id": "quiz-shelter-007",
+    "category": "shelter",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your hiking partner is shivering after a cold, wet afternoon. You have a mylar space blanket, a dry fleece jacket, and your pack. How do you use them best?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wrap the space blanket directly on their wet clothes and have them lie on the ground"
+      },
+      {
+        "id": "b",
+        "text": "Get them sitting on the pack, swap wet layers for the dry fleece, then wrap the space blanket outside it with no gaps and their head covered"
+      },
+      {
+        "id": "c",
+        "text": "Save the space blanket for signaling and just keep walking to stay warm"
+      },
+      {
+        "id": "d",
+        "text": "Use the space blanket as a ground sheet and put the fleece over their legs"
+      }
+    ],
+    "correct": "b",
+    "explanation": "A space blanket blocks wind and wet and reflects some heat, but it is not insulation. It works best as an outer layer over dry clothing, sealed at the neck and wrapped with no gaps, with the person off the cold ground. In a 2016 test, wrapped torso models still cooled noticeably, just much less than uncovered ones - so add every bit of dry insulation you can. Lying on the ground undoes much of the benefit. Walking on while shivering and wet can worsen hypothermia; get help if they become confused or stop shivering while still cold.",
+    "relatedGuide": "shelter-011",
+    "tags": [
+      "shelter",
+      "beginner",
+      "space-blanket",
+      "hypothermia"
+    ]
+  },
+  {
+    "id": "quiz-shelter-008",
+    "category": "shelter",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "Your car breaks down on a remote desert road at 11 a.m. It is 108 F. You have no cell signal, 2 gallons of water, a tarp, and the car. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Walk to the last town you passed, 15 miles back, before it gets hotter"
+      },
+      {
+        "id": "b",
+        "text": "Sit inside the car with the windows rolled up to keep the sun off"
+      },
+      {
+        "id": "c",
+        "text": "Stay with the car, rig the tarp as shade on its shady side with an air gap, raise the hood, and rest until evening"
+      },
+      {
+        "id": "d",
+        "text": "Dig a deep trench right away to get out of the heat"
+      }
     ],
     "correct": "c",
-    "explanation": "CO2 (not CO — no combustion source) buildup from breathing is the primary killer in snow shelters. Three people in a sealed quinzhee can reach dangerous CO2 levels (above 5%) in under 2 hours if the vent hole is blocked. The vent hole must be maintained — poke it clear from inside every time you check it. Mark the vent location outside with a ski pole or stick so rescuers can find it. Frostbite from walls is minor — the interior surface warms above freezing from body heat. Collapse is rare with a properly hardened quinzhee (let it sinter 90 minutes before hollowing). Moisture is an insulation/comfort issue, not a life threat.",
-    "relatedGuide": "shelter-002",
-    "tags": ["shelter", "intermediate", "snow-shelter", "winter"]
+    "explanation": "Desert park rangers advise staying with a broken-down vehicle: it is shade, it holds your supplies, and it is far easier for searchers to spot than a person walking. A closed car in the sun gets dangerously hot within minutes. Hiking or digging in midday heat burns water and can cause heat stroke - do hard work only in the cooler morning, evening, or night. A tarp shade with an air gap and open sides lets air flow, and a raised hood signals that you need help.",
+    "relatedGuide": "shelter-009",
+    "tags": [
+      "shelter",
+      "intermediate",
+      "desert",
+      "heat",
+      "vehicle"
+    ]
+  },
+  {
+    "id": "quiz-shelter-009",
+    "category": "shelter",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "It is a clear, calm, cold fall evening in hilly country. You are choosing where to build a shelter. Which spot is likely to be warmest overnight?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The flat meadow at the very bottom of the valley, next to the creek"
+      },
+      {
+        "id": "b",
+        "text": "The bare, exposed ridgetop above you"
+      },
+      {
+        "id": "c",
+        "text": "A small level bench partway up the slope, sheltered by trees, clear of dead limbs"
+      },
+      {
+        "id": "d",
+        "text": "A shallow hollow in the valley floor, out of sight of the trail"
+      }
+    ],
+    "correct": "c",
+    "explanation": "On clear, calm nights, cold, dense air drains downhill and pools in valley bottoms and hollows - the same process that makes valley fog form by dawn. Those low spots can be much colder and damper than ground a little higher. Ridgetops escape the cold pool but take the full force of the wind. A sheltered bench partway up the slope avoids both. The creekside meadow and the hollow also carry flood risk and extra condensation.",
+    "relatedGuide": "shelter-005",
+    "tags": [
+      "shelter",
+      "intermediate",
+      "site-selection",
+      "cold-air-drainage"
+    ]
+  },
+  {
+    "id": "quiz-shelter-010",
+    "category": "shelter",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "You are lost on a day hike, it is getting dark, and the temperature will drop near freezing. You have no shelter kit, but you have a phone with some battery, a warm hat, and a jacket. Put these actions in the best order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Stop moving and call, text 911, or use satellite SOS if available"
+      },
+      {
+        "id": "2",
+        "text": "Get behind a windbreak that is clear of dead limbs and flood paths"
+      },
+      {
+        "id": "3",
+        "text": "Build a thick, dry bed of leaves or boughs to get off the ground"
+      },
+      {
+        "id": "4",
+        "text": "Put on all layers and pile more debris over yourself"
+      },
+      {
+        "id": "5",
+        "text": "At first light, move to an open spot and signal"
+      }
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Stopping first keeps you from getting more lost or hurt in the dark, and a call or satellite SOS while your battery lasts starts the search. Then get out of the wind using the first safe spot you find. The bed comes before piling debris on top because cold ground pulls heat out of you all night. Put on every layer and bury yourself in dry debris for insulation. At dawn, make yourself visible from the air and ground.",
+    "relatedGuide": "shelter-008",
+    "tags": [
+      "shelter",
+      "beginner",
+      "lost",
+      "cold",
+      "priorities"
+    ]
+  },
+  {
+    "id": "quiz-shelter-011",
+    "category": "shelter",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "You are sleeping in a hammock under a tarp on a rainy 48 F night in wet woods. You are inside a good sleeping bag, but your back is freezing. What is the most likely cause and fix?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The tarp is too high - lower it until it touches the hammock"
+      },
+      {
+        "id": "b",
+        "text": "Your body weight crushes the bag flat underneath you; add a pad inside the hammock or an underquilt below it"
+      },
+      {
+        "id": "c",
+        "text": "The hammock is hung too low; raise it 6 feet higher to get above the cold air"
+      },
+      {
+        "id": "d",
+        "text": "You need a thicker bag on top of you"
+      }
+    ],
+    "correct": "b",
+    "explanation": "In a hammock, the fabric and your weight squash the bag's insulation flat beneath you, and moving air under the hammock pulls heat away - so your back gets cold even when the top of you is warm. A sleeping pad inside the hammock or an underquilt hung under it fixes this. A tarp touching the hammock lets water wick through. Hanging higher increases fall risk and puts you in more wind. A thicker top layer does nothing for the compressed side under you.",
+    "relatedGuide": "shelter-010",
+    "tags": [
+      "shelter",
+      "advanced",
+      "hammock",
+      "insulation"
+    ]
+  },
+  {
+    "id": "quiz-shelter-dt-001",
+    "category": "shelter",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Night Shelter - No Gear",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "It's 45 F with light rain. You have no shelter and no fire-starting gear. You have 90 minutes of daylight. What do you do first?",
+        "options": [
+          {
+            "text": "Start building a debris hut right away",
+            "next": "debris_hut"
+          },
+          {
+            "text": "Spend some time searching for natural shelter (cave, rock overhang)",
+            "next": "natural_search"
+          },
+          {
+            "text": "Gather dry tinder and try to make a fire by friction",
+            "next": "fire_first"
+          }
+        ]
+      },
+      "debris_hut": {
+        "id": "debris_hut",
+        "scenario": "Good. You find enough dry leaves and branches, but the ground is soaked. Do you:",
+        "options": [
+          {
+            "text": "Build a thick bed of dry debris or boughs under you before finishing the roof",
+            "next": "good_outcome"
+          },
+          {
+            "text": "Lie on a thin layer of leaves and put all your effort into the roof",
+            "next": "bad_outcome_cold"
+          }
+        ]
+      },
+      "natural_search": {
+        "id": "natural_search",
+        "scenario": "After 15 minutes you find a shallow rock overhang. It is not deep enough to fully block the wind. Do you:",
+        "options": [
+          {
+            "text": "Use it as a windbreak, then pile a thick bed and debris around yourself",
+            "next": "good_outcome"
+          },
+          {
+            "text": "Keep searching for something better",
+            "next": "bad_outcome_dark"
+          }
+        ]
+      },
+      "fire_first": {
+        "id": "fire_first",
+        "scenario": "45 minutes pass with no fire. You are wetter, tired, and daylight is almost gone. You have no shelter and no fire.",
+        "outcome": "poor",
+        "explanation": "In cold rain without reliable fire gear, shelter comes first. Hypothermia can set in well above freezing when you are wet. Friction fire in the rain is hard even for experts. Build shelter and a dry bed first; try fire only if time and dry material allow."
+      },
+      "good_outcome": {
+        "id": "good_outcome",
+        "outcome": "success",
+        "explanation": "Correct. Cold, wet ground pulls heat out of you all night, so a thick, dry layer under you is essential - at least 6-8 inches after it compresses. Combined with a windbreak and debris over you, you make it to morning."
+      },
+      "bad_outcome_cold": {
+        "id": "bad_outcome_cold",
+        "outcome": "poor",
+        "explanation": "Even with a good roof, lying on a thin layer over wet ground drains your heat all night. Insulate from below first, then build up the roof and walls."
+      },
+      "bad_outcome_dark": {
+        "id": "bad_outcome_dark",
+        "outcome": "poor",
+        "explanation": "The overhang was good enough. Searching longer burns daylight and energy, and you end up in the dark with nothing. Take the first workable spot that is clear of dead limbs and flood paths, then improve it."
+      }
+    },
+    "relatedGuide": "shelter-008",
+    "tags": [
+      "shelter",
+      "hypothermia",
+      "advanced",
+      "no-gear"
+    ]
   },
   {
     "id": "quiz-shelter-dt-002",
     "category": "shelter",
     "type": "decision_tree",
     "difficulty": "advanced",
-    "title": "Urban Winter — Grid Down Day 3",
+    "title": "Urban Winter - Grid Down Day 3",
     "nodes": {
       "start": {
         "id": "start",
-        "scenario": "3 days after a full grid-down event. Mid-January, outdoor temps at night: 18°F. You are in a 6-story apartment building. Power, heat, and water are out. You have: 2 sleeping bags (rated to 20°F), a propane camp stove with 1 canister, a hand-crank radio, and food for 5 days. Where do you shelter?",
+        "scenario": "Three days into a widespread outage in mid-January. Nights drop to 18 F. You are in a 6-story apartment building with no power, heat, or water. You have 2 sleeping bags rated to 20 F, a propane camp stove with 1 canister, a hand-crank radio, and food for 5 days. Where do you shelter?",
         "options": [
-          { "text": "Stay in your 4th-floor apartment and work to retain heat", "next": "stay_4th_floor" },
-          { "text": "Move to a ground-floor unit (empty, can break in) for easier exit/entry", "next": "go_ground" },
-          { "text": "Move to the building's stairwell — it's interior and protected", "next": "stairwell" }
+          {
+            "text": "Stay in your 4th-floor apartment and work to hold in heat",
+            "next": "stay_4th_floor"
+          },
+          {
+            "text": "Light the propane stove in the apartment for heat at night",
+            "next": "stove_heat"
+          },
+          {
+            "text": "Move into the building's stairwell - it's interior and protected",
+            "next": "stairwell"
+          }
         ]
       },
       "stay_4th_floor": {
         "id": "stay_4th_floor",
-        "scenario": "Smart. Upper floors retain heat longer than ground-floor units due to reduced floor conduction and wind exposure. Which heat retention action do you take first?",
+        "scenario": "Good. Neighboring units above, below, and beside you help buffer the cold. Which heat-saving step do you take first?",
         "options": [
-          { "text": "Seal the apartment door and windows with duct tape and plastic sheeting to reduce air infiltration", "next": "seal_room" },
-          { "text": "Move all sleeping gear into one interior bathroom and create a 'room within a room'", "next": "interior_room" }
+          {
+            "text": "Try to keep the whole apartment warm by sealing every window",
+            "next": "seal_room"
+          },
+          {
+            "text": "Move everyone and all bedding into the smallest room with few or no outside walls and close it off",
+            "next": "interior_room"
+          }
         ]
       },
       "seal_room": {
         "id": "seal_room",
         "outcome": "success",
-        "explanation": "Sealing reduces infiltration significantly. However, the most effective urban cold-weather technique is the 'room within a room' — concentrate body heat in the smallest interior space possible. The large exterior window is a major thermal bridge. That night, your 580 sq ft apartment drops to 38°F — survivable in sleeping bags, but cold. Better execution: move to interior room + use sleeping bags together."
+        "explanation": "Sealing drafts helps, but trying to hold heat in the whole apartment spreads your body heat across too much space. Better: pick the smallest room, close it off, hang blankets over doors and windows, and sleep off the floor in your bags together. If it keeps getting colder, go to a warming center."
       },
       "interior_room": {
         "id": "interior_room",
         "outcome": "success",
-        "explanation": "Excellent. The 'room within a room' principle is the most effective passive heat retention in grid-down urban scenarios. Interior rooms with no exterior walls (typically bathrooms and closets) lose heat only through interior walls, which are insulated against other units. Body heat in ~40 cubic feet combined with sleeping bags rated to 20°F creates a survivable microclimate even in severe cold. The bathroom stays 20°F warmer than the exterior apartment."
+        "explanation": "Excellent. Concentrating people and body heat in one small, closed room is the most effective no-fuel strategy. Hang blankets over the door, sleep off the floor in your bags, wear hats and dry layers, and use the radio to find warming centers. Cook with the propane stove only outdoors, never inside."
       },
-      "go_ground": {
-        "id": "go_ground",
+      "stove_heat": {
+        "id": "stove_heat",
         "outcome": "poor",
-        "explanation": "Ground-floor units have floor conduction from the cold earth, greater wind infiltration at door seals, and are the first-floor breach point in insecure conditions. The slab foundation conducts cold directly — ground temperatures in January may be 32-36°F, turning the floor into a massive heat sink. Upper floors with interior rooms are dramatically warmer. Stay above the second floor whenever possible."
+        "explanation": "Never use a camp stove, grill, generator, or gas oven to heat a home. CDC warns these produce carbon monoxide, an invisible, odorless gas that kills hundreds of Americans each year - often people asleep during outages. Use body heat, sleeping bags, and a small closed-off room instead, and go to a warming center if needed."
       },
       "stairwell": {
         "id": "stairwell",
         "outcome": "poor",
-        "explanation": "Stairwells are the worst possible shelter in a cold apartment building. The chimney effect — warm air rising and escaping through roof access, drawing cold air in at the base — creates a continuous cold draft. Without walls on all sides, no heat can accumulate. The stairwell may be useful for brief movement but never for sleeping in cold conditions. Stay in enclosed units with closable doors."
+        "explanation": "Stairwells are poor places to sleep in the cold. Air moves up through them, pulling in cold air from below, and there is no small closed space to hold heat. They are also exit routes that must stay clear for fire safety. Stay in an enclosed unit with a closable door."
       }
     },
-    "relatedGuide": "shelter-003",
-    "tags": ["shelter", "advanced", "urban", "grid-down", "winter"]
+    "relatedGuide": "shelter-004",
+    "tags": [
+      "shelter",
+      "advanced",
+      "urban",
+      "grid-down",
+      "winter",
+      "carbon-monoxide"
+    ]
   }
 ]

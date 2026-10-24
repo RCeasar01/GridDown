@@ -1,24 +1,135 @@
 {
   "id": "checklist-emp",
-  "title": "EMP / CME",
+  "title": "EMP / Solar Storm",
   "disasterType": "emp",
-  "description": "Prepare for extended grid-down caused by solar or high-altitude EMP event.",
+  "description": "Use this list to get ready for a long, wide-area grid outage from a solar storm or a high-altitude EMP.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Electromagnetic Pulse and Geomagnetic Disturbance",
+      "publisher": "CISA",
+      "url": "https://www.cisa.gov/emp-gmd",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Space weather: Storms from the Sun",
+      "publisher": "NOAA",
+      "url": "https://www.noaa.gov/explainers/space-weather-storms-from-sun",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    }
+  ],
   "items": [
-    { "id": "emp-001", "text": "Minimum 90-day water supply or reliable long-term purification system in place", "critical": true },
-    { "id": "emp-002", "text": "Minimum 90-day food supply of non-perishables requiring no refrigeration", "critical": true },
-    { "id": "emp-003", "text": "Faraday cage built for critical electronics (metal trash can, foam-lined, tight lid)", "critical": false },
-    { "id": "emp-004", "text": "Backup NOAA/HAM radio stored in Faraday cage — test before sealing", "critical": true },
-    { "id": "emp-005", "text": "Solar charger and power bank stored in Faraday cage", "critical": true },
-    { "id": "emp-006", "text": "Flashlights with spare batteries in Faraday cage", "critical": false },
-    { "id": "emp-007", "text": "Medications — as long a supply as possible (no restocking in extended grid-down)", "critical": true },
-    { "id": "emp-008", "text": "Cash on hand — banking infrastructure may be unavailable for weeks to months", "critical": true },
-    { "id": "emp-009", "text": "Older vehicle with minimal electronics identified or owned as backup transportation", "critical": false },
-    { "id": "emp-010", "text": "Manual tools for food production and home maintenance (non-electric hand tools)", "critical": false },
-    { "id": "emp-011", "text": "Heirloom seed supply for food production — stored properly in cool, dark location", "critical": false },
-    { "id": "emp-012", "text": "Community network established — neighbors and local contacts who can share resources", "critical": true },
-    { "id": "emp-013", "text": "Security plan for extended period — community watch, safe room, group protocols", "critical": true },
-    { "id": "emp-014", "text": "Medical supplies for self-care — hospitals and pharmacies will be overwhelmed indefinitely", "critical": true },
-    { "id": "emp-015", "text": "All important account numbers, contacts, and records documented on paper", "critical": false },
-    { "id": "emp-016", "text": "Non-electric heat source (wood stove, propane) for cold climate survival", "critical": true }
+    {
+      "id": "emp-001",
+      "text": "Store water for at least 2 weeks (1 gallon / 3.8 L per person per day) and have a way to treat more - filter, bleach, or boiling",
+      "critical": true
+    },
+    {
+      "id": "emp-002",
+      "text": "Store at least 2 weeks of shelf-stable food that needs no refrigeration; build toward a longer supply over time",
+      "critical": true
+    },
+    {
+      "id": "emp-007",
+      "text": "Keep as large a reserve of daily prescriptions as your doctor and plan allow, and a written medicine list",
+      "critical": true
+    },
+    {
+      "id": "emp-016",
+      "text": "Have a safe non-electric heat plan for cold weather (wood stove or vented heater) and battery CO alarms on every level",
+      "critical": true
+    },
+    {
+      "id": "emp-017",
+      "text": "Never run a generator, grill, or camp stove indoors or in a garage - carbon monoxide kills more people in long outages than the event itself",
+      "critical": true
+    },
+    {
+      "id": "emp-004",
+      "text": "Keep a spare battery or hand-crank radio (NOAA Weather Radio, or ham if licensed) stored in a closed metal container - test it before storing",
+      "critical": true
+    },
+    {
+      "id": "emp-003",
+      "text": "Make a Faraday container: wrap spare electronics in 2-3 layers of heavy foil or anti-static bags, line a metal can or box with cardboard, and make sure the lid seals metal-to-metal all around",
+      "critical": false
+    },
+    {
+      "id": "emp-005",
+      "text": "Store a spare power bank and small solar charger in the Faraday container",
+      "critical": false
+    },
+    {
+      "id": "emp-006",
+      "text": "Store spare flashlights or headlamps and batteries in the Faraday container",
+      "critical": false
+    },
+    {
+      "id": "emp-008",
+      "text": "Keep cash in small bills - ATMs, card readers, and banks may be down for a long time",
+      "critical": true
+    },
+    {
+      "id": "emp-014",
+      "text": "Keep a well-stocked home first aid kit and take a first aid class - care may be hard to reach for weeks",
+      "critical": true
+    },
+    {
+      "id": "emp-012",
+      "text": "Get to know your neighbors now - shared skills and supplies go further than one household's stockpile",
+      "critical": true
+    },
+    {
+      "id": "emp-018",
+      "text": "Set up a sanitation plan for when toilets do not flush: bag-lined bucket with lid, extra bags, and disinfectant",
+      "critical": true
+    },
+    {
+      "id": "emp-019",
+      "text": "Know how to fill containers with tap water right away when power fails, before pumps lose backup power",
+      "critical": false
+    },
+    {
+      "id": "emp-015",
+      "text": "Keep paper copies of maps, phone numbers, account numbers, and important records",
+      "critical": false
+    },
+    {
+      "id": "emp-010",
+      "text": "Keep basic hand tools for repairs and chores that do not need power (saw, hammer, pry bar, shovel)",
+      "critical": false
+    },
+    {
+      "id": "emp-009",
+      "text": "Keep the car tank at least half full - most cars are expected to keep running, but fuel pumps need power",
+      "critical": false
+    },
+    {
+      "id": "emp-013",
+      "text": "Make a household safety plan for a long outage: lock-up routine, who checks on whom, and a neighborhood watch",
+      "critical": false
+    },
+    {
+      "id": "emp-011",
+      "text": "Store open-pollinated garden seeds in a cool, dark, dry place if you plan to grow food",
+      "critical": false
+    },
+    {
+      "id": "emp-020",
+      "text": "Learn manual workarounds at home: garage door release, well or sump pump backup, and safe ways to cook",
+      "critical": false
+    },
+    {
+      "id": "emp-021",
+      "text": "Skip marketing gimmicks like plug-in 'EMP shields' or stickers - unplugged gear in a sealed metal container is the proven basic",
+      "critical": false
+    }
   ]
 }

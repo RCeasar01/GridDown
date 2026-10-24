@@ -1,0 +1,114 @@
+{
+  "id": "checklist-heat-wave",
+  "title": "Heat Wave",
+  "disasterType": "heat-wave",
+  "description": "Use this list before summer and when the NWS issues heat alerts, to keep your household and at-risk neighbors safe from heat illness.",
+  "category": "disaster",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Heat Safety Week 2026",
+      "publisher": "NWS Indianapolis",
+      "url": "https://www.weather.gov/ind/HeatSafetyWeek2026",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Winter Storms Aren't Over: CPSC Warns of Deadly Carbon Monoxide Risks (generator placement)",
+      "publisher": "U.S. Consumer Product Safety Commission",
+      "url": "https://cpsc.gov/Newsroom/News-Releases/2026/Winter-Storms-Arent-Over-CPSC-Warns-of-Deadly-Carbon-Monoxide-Risks-and-Fires-During-Power-Outages",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "hw-001",
+      "text": "Never leave a child, older adult, or pet in a parked car, even for a minute or with a window cracked",
+      "critical": true
+    },
+    {
+      "id": "hw-002",
+      "text": "Learn heat stroke signs (confusion, slurred speech, fainting, seizures, very high temperature): call 911 and cool the person fast",
+      "critical": true
+    },
+    {
+      "id": "hw-003",
+      "text": "Learn heat exhaustion signs (heavy sweating, cool clammy skin, dizziness, nausea, cramps): move to a cool place and cool down",
+      "critical": true
+    },
+    {
+      "id": "hw-004",
+      "text": "Find your nearest cooling centers and air-conditioned public spaces and how to get there",
+      "critical": true
+    },
+    {
+      "id": "hw-005",
+      "text": "Make a buddy plan to check on older relatives, neighbors living alone, and people with chronic illness at least twice a day",
+      "critical": true
+    },
+    {
+      "id": "hw-006",
+      "text": "Service the air conditioner and clean or replace its filters before summer",
+      "critical": true
+    },
+    {
+      "id": "hw-007",
+      "text": "Ask your doctor or pharmacist if any of your medicines raise heat risk or need cool storage",
+      "critical": true
+    },
+    {
+      "id": "hw-008",
+      "text": "Stock water and drink often, even before you are thirsty; skip alcohol (ask your doctor if your fluids are limited)",
+      "critical": true
+    },
+    {
+      "id": "hw-009",
+      "text": "Use fans with cool showers and damp cloths - fans alone cannot keep you safe in very high heat",
+      "critical": false
+    },
+    {
+      "id": "hw-010",
+      "text": "Put up light-colored shades or reflective film on sun-facing windows; close blinds by day",
+      "critical": false
+    },
+    {
+      "id": "hw-011",
+      "text": "Light, loose, light-colored clothing and a wide-brim hat",
+      "critical": false
+    },
+    {
+      "id": "hw-012",
+      "text": "Schedule outdoor work and exercise for early morning or evening",
+      "critical": false
+    },
+    {
+      "id": "hw-013",
+      "text": "Check the NWS HeatRisk forecast and heat alerts for your area daily during hot spells",
+      "critical": false
+    },
+    {
+      "id": "hw-014",
+      "text": "Leave a phone, bag, or shoe in the back seat so you always check before locking the car; keep cars locked",
+      "critical": false
+    },
+    {
+      "id": "hw-015",
+      "text": "Ice packs and cool wet towels ready for emergency cooling",
+      "critical": false
+    },
+    {
+      "id": "hw-016",
+      "text": "Plan for a heat-driven power outage: move at-risk people somewhere cool early, and run generators only outdoors 20 feet (6 m) from openings",
+      "critical": true
+    },
+    {
+      "id": "hw-017",
+      "text": "Keep pets inside with water and shade, and check that pavement is not too hot for their paws",
+      "critical": false
+    },
+    {
+      "id": "hw-018",
+      "text": "Eat lighter meals and avoid using the oven during the hottest hours",
+      "critical": false
+    }
+  ]
+}

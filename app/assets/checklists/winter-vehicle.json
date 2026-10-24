@@ -1,0 +1,130 @@
+{
+  "id": "checklist-winter-vehicle",
+  "title": "Winter Vehicle Kit",
+  "disasterType": "winter-vehicle",
+  "description": "Use this list before cold weather to add winter gear to your car kit and know what to do if snow or ice strands you.",
+  "category": "vehicle",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Winter Hazards Awareness - Day 3 (winter driving)",
+      "publisher": "NWS Gaylord",
+      "url": "https://www.weather.gov/apx/day_3_winter_awareness",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Winter Weather Safety",
+      "publisher": "NWS Atlanta/Peachtree City",
+      "url": "https://www.weather.gov/ffc/winterweathersafety",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Car Safety",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://ready.gov/car",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "wv-001",
+      "text": "Blankets or sleeping bags for everyone who rides in the car",
+      "critical": true
+    },
+    {
+      "id": "wv-002",
+      "text": "Extra warm clothing: hats, gloves, wool socks, boots, and a heavy coat",
+      "critical": true
+    },
+    {
+      "id": "wv-003",
+      "text": "Compact snow shovel to dig out the car and keep the tailpipe clear",
+      "critical": true
+    },
+    {
+      "id": "wv-004",
+      "text": "Keep the gas tank near full - it gives you heat while stranded and helps prevent fuel-line freeze",
+      "critical": true
+    },
+    {
+      "id": "wv-005",
+      "text": "Flashlight with spare batteries",
+      "critical": true
+    },
+    {
+      "id": "wv-006",
+      "text": "Phone charger and a charged power bank kept warm inside your coat",
+      "critical": true
+    },
+    {
+      "id": "wv-007",
+      "text": "Water in bottles that will not burst if frozen, and high-calorie non-perishable food",
+      "critical": true
+    },
+    {
+      "id": "wv-008",
+      "text": "First aid kit",
+      "critical": true
+    },
+    {
+      "id": "wv-009",
+      "text": "Jumper cables - cold weakens batteries",
+      "critical": true
+    },
+    {
+      "id": "wv-010",
+      "text": "Sand or cat litter for traction",
+      "critical": false
+    },
+    {
+      "id": "wv-011",
+      "text": "Ice scraper and snow brush",
+      "critical": false
+    },
+    {
+      "id": "wv-012",
+      "text": "Tow rope or strap",
+      "critical": false
+    },
+    {
+      "id": "wv-013",
+      "text": "Bright cloth or flag to tie to the antenna or door as a distress signal",
+      "critical": false
+    },
+    {
+      "id": "wv-014",
+      "text": "Chemical hand and foot warmers",
+      "critical": false
+    },
+    {
+      "id": "wv-015",
+      "text": "Winter-rated washer fluid and good wiper blades",
+      "critical": false
+    },
+    {
+      "id": "wv-016",
+      "text": "Know the stranded rule: stay with the car unless a building is close and clearly visible - people get lost in blowing snow",
+      "critical": true
+    },
+    {
+      "id": "wv-017",
+      "text": "Know the CO rule: clear snow from the tailpipe before running the engine, run it about 10 minutes each hour, and crack a downwind window",
+      "critical": true
+    },
+    {
+      "id": "wv-018",
+      "text": "Turn on the dome light while the engine runs at night so rescuers can see you, and keep moving arms and legs",
+      "critical": false
+    },
+    {
+      "id": "wv-019",
+      "text": "Check weather and road conditions before you leave, and tell someone your route and arrival time",
+      "critical": false
+    },
+    {
+      "id": "wv-020",
+      "text": "Have tires, battery, antifreeze, and heater checked before winter",
+      "critical": false
+    }
+  ]
+}

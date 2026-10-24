@@ -1,0 +1,216 @@
+[
+  {
+    "id": "quiz-env-001",
+    "category": "environment",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your truck breaks down on a remote desert dirt road at 1 p.m. It is 108 F (42 C). You have 3 gallons of water for two people, no cell signal, and you told a friend your route this morning. The nearest town is about 18 miles away. What is the best plan?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Start walking to town right away while you still feel strong, and ration water to a few sips an hour."
+      },
+      {
+        "id": "b",
+        "text": "Stay with the truck in shade beside it, raise the hood, drink when thirsty, and signal; only consider moving at night if no help comes."
+      },
+      {
+        "id": "c",
+        "text": "Sit inside the closed truck to stay out of the sun and save water by not drinking until evening."
+      },
+      {
+        "id": "d",
+        "text": "Split up so one person walks for help while the other stays with the truck."
+      }
+    ],
+    "correct": "b",
+    "explanation": "Desert parks advise staying with your vehicle: it is much easier to spot, holds your supplies, and someone knows your route. Shade beside the vehicle with airflow beats the oven-like closed cab (c). Rationing water while sweating (a, c) speeds heat illness - drink and cut sweat instead. Walking 18 miles in midday heat (a) or sending one person alone (d) is how many desert deaths happen.",
+    "relatedGuide": "env-001",
+    "tags": [
+      "environment",
+      "desert",
+      "heat",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-env-002",
+    "category": "environment",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You are hiking above treeline. It is 12:30 p.m., the summit is 20 minutes away, and towering dark clouds are building to the west. You just heard a faint rumble of thunder. Your group of four asks what to do. What is the best call?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Push for the summit quickly, since the storm still looks far away, then descend."
+      },
+      {
+        "id": "b",
+        "text": "Shelter under the large rock overhang nearby until the storm passes."
+      },
+      {
+        "id": "c",
+        "text": "Turn around now, descend below treeline, avoid open ground and water, and spread out about 15 feet apart if lightning gets close."
+      },
+      {
+        "id": "d",
+        "text": "Lie flat on the ground in the open so you are not the tallest object."
+      }
+    ],
+    "correct": "c",
+    "explanation": "If you can hear thunder, lightning can reach you. There is no safe place outside, so the goal is to get off exposed high ground fast and toward real shelter. Pushing on (a) is summit fever. Rock overhangs and shallow caves (b) do not protect you - current can jump across the gap. Lying flat (d) increases contact with ground current; agencies say never lie down. Spreading a group out keeps one strike from injuring everyone.",
+    "relatedGuide": "env-012",
+    "tags": [
+      "environment",
+      "lightning",
+      "mountains",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-env-003",
+    "category": "environment",
+    "type": "priority_order",
+    "difficulty": "intermediate",
+    "scenario": "You break through the ice while walking across a frozen lake and drop into the water up to your chest. Put the self-rescue actions in the correct order.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Lie flat and roll away from the hole, then crawl back along your path"
+      },
+      {
+        "id": "b",
+        "text": "Control your breathing and get through the cold-shock gasping"
+      },
+      {
+        "id": "c",
+        "text": "Turn to face the direction you came from"
+      },
+      {
+        "id": "d",
+        "text": "Dig in your ice picks and kick your legs to slide out onto the ice"
+      },
+      {
+        "id": "e",
+        "text": "Get to shelter, out of wet clothes, and warm up"
+      }
+    ],
+    "correct_order": [
+      "b",
+      "c",
+      "d",
+      "a",
+      "e"
+    ],
+    "explanation": "First survive the cold shock by slowing your breathing so you do not inhale water. Turn toward where you came from - that ice just held you. Use picks and a strong kick to slide out horizontally. Do not stand up; lie flat and roll to spread your weight on weak ice. Then warm up immediately, since hypothermia follows quickly.",
+    "relatedGuide": "env-010",
+    "tags": [
+      "environment",
+      "ice",
+      "cold water",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-env-004",
+    "category": "environment",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "While hiking in grizzly country, you round a bend and surprise a grizzly at about 40 yards. It huffs, then charges. You spray it with bear spray, but it keeps coming, knocks you down, and starts biting your pack. What should you do now?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Take off your pack and throw it at the bear, then run to the nearest tree."
+      },
+      {
+        "id": "b",
+        "text": "Leave your pack on, lie flat on your stomach with hands clasped behind your neck and legs spread, and stay still until it leaves."
+      },
+      {
+        "id": "c",
+        "text": "Fight back immediately with everything you have, aiming for its eyes."
+      },
+      {
+        "id": "d",
+        "text": "Curl up on your side and yell loudly so the bear knows you are human."
+      }
+    ],
+    "correct": "b",
+    "explanation": "A surprise encounter is usually a defensive attack. For grizzly/brown bears, NPS advises leaving your pack on to protect your back and playing dead face-down with hands behind your neck and legs spread so you are hard to flip. Fight back only if the attack continues or the bear starts to treat you as food. Running (a) can trigger pursuit and both species climb. Fighting right away (c) is the right response to a black bear or a predatory/tent attack, not a defensive grizzly. Yelling (d) keeps the bear engaged.",
+    "relatedGuide": "env-014",
+    "tags": [
+      "environment",
+      "bears",
+      "wildlife",
+      "advanced"
+    ]
+  },
+  {
+    "id": "quiz-env-005",
+    "category": "environment",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You are swimming at an unguarded surf beach and realize you are being pulled steadily away from shore, even though you are swimming hard toward the sand. You are starting to tire. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Swim harder straight toward the beach before you get too tired."
+      },
+      {
+        "id": "b",
+        "text": "Dive under the water, since the current is pulling you down and is weaker at the bottom."
+      },
+      {
+        "id": "c",
+        "text": "Stop fighting it, float or tread water to rest, then swim parallel to the shore until free and angle back in; wave and yell if you cannot."
+      },
+      {
+        "id": "d",
+        "text": "Let the current take you all the way out to deep water and wait for a boat."
+      }
+    ],
+    "correct": "c",
+    "explanation": "This is a rip current. It pulls you out, not under (so b is wrong). Fighting it head-on (a) exhausts even strong swimmers. NWS advice is to relax and float, then swim parallel to shore to escape the narrow channel and angle back to the beach. If you cannot escape, keep floating, face shore, and wave and yell for help. Simply drifting with no attempt to escape or signal (d) wastes your best chances.",
+    "relatedGuide": "env-008",
+    "tags": [
+      "environment",
+      "rip current",
+      "beach",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-env-006",
+    "category": "environment",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You are hiking in a dry, narrow sandstone canyon on a sunny afternoon. You notice the trickle at your feet turning muddy, small sticks floating by, and a low rumble from up-canyon. What should you do first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quickly pack up your gear and hurry back down-canyon toward the trailhead."
+      },
+      {
+        "id": "b",
+        "text": "Wait a minute to see if the water actually rises before doing anything."
+      },
+      {
+        "id": "c",
+        "text": "Climb immediately to the highest safe ground you can reach on the canyon side, leave gear if needed, and stay there for hours if necessary."
+      },
+      {
+        "id": "d",
+        "text": "Cross to the other side of the canyon where the trail looks higher."
+      }
+    ],
+    "correct": "c",
+    "explanation": "Muddy water, floating debris, and a roar are classic flash flood signs. NPS guidance: do not stop to pack up - get to higher ground right away, and stay high until the water drops, which can take hours. You cannot outrun a flood down-canyon (a). Waiting to confirm (b) can cost the few seconds you have. Crossing the channel (d) puts you in the flood path.",
+    "relatedGuide": "env-013",
+    "tags": [
+      "environment",
+      "flash flood",
+      "canyon",
+      "intermediate"
+    ]
+  }
+]

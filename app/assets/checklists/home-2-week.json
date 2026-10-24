@@ -1,0 +1,145 @@
+{
+  "id": "checklist-home-2-week",
+  "title": "Home 2-Week Supply",
+  "disasterType": "home-2-week",
+  "description": "Use this list to grow your 72-hour kit into a supply that lets you stay home safely for two weeks without stores, power, or running water.",
+  "category": "home",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Build A Kit",
+      "publisher": "FEMA Ready.gov",
+      "url": "https://www.ready.gov/kit",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Survival Basics: Sanitation and Waste Management (EM 9334)",
+      "publisher": "Oregon State University Extension Service",
+      "url": "https://extension.oregonstate.edu/catalog/pub/em-9334-survival-basics-sanitation-waste-management",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Avoid Foodborne Illness During Temporary Power Outages",
+      "publisher": "FoodSafety.gov (HHS/USDA)",
+      "url": "https://www.foodsafety.gov/blog/avoid-foodborne-illness-during-temporary-power-outages",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "htw-001",
+      "text": "Water: 14 gallons (53 L) per person (1 gallon per person per day), stored in sealed food-grade containers, plus more for pets",
+      "critical": true
+    },
+    {
+      "id": "htw-002",
+      "text": "A way to treat more water: unscented bleach (check the label for disinfection directions), a filter, or a safe way to boil",
+      "critical": true
+    },
+    {
+      "id": "htw-003",
+      "text": "2 weeks of shelf-stable food your family eats: canned meat, beans, soup, fruit, vegetables, peanut butter, cereal, rice, pasta",
+      "critical": true
+    },
+    {
+      "id": "htw-004",
+      "text": "As large a reserve of daily prescriptions as your doctor and insurance allow, rotated so it stays fresh",
+      "critical": true
+    },
+    {
+      "id": "htw-005",
+      "text": "A safe way to cook without power (camp stove or grill used outdoors only) and extra fuel stored outside the living space",
+      "critical": true
+    },
+    {
+      "id": "htw-006",
+      "text": "Battery carbon monoxide alarms on every level and near bedrooms",
+      "critical": true
+    },
+    {
+      "id": "htw-007",
+      "text": "2-week sanitation kit: bag-lined bucket toilet with lid, heavy trash bags, toilet paper, disinfectant, and gloves",
+      "critical": true
+    },
+    {
+      "id": "htw-008",
+      "text": "Enough flashlights, lanterns, and batteries for 14 nights",
+      "critical": true
+    },
+    {
+      "id": "htw-009",
+      "text": "Battery or hand-crank radio with spare batteries",
+      "critical": true
+    },
+    {
+      "id": "htw-010",
+      "text": "Safe heat plan for winter (warm bedding, layers, one heated room) and cooling plan for summer (cooling center location)",
+      "critical": true
+    },
+    {
+      "id": "htw-011",
+      "text": "Well-stocked home first aid kit with extra gauze, tape, and oral rehydration salts",
+      "critical": true
+    },
+    {
+      "id": "htw-012",
+      "text": "Appliance thermometers in the fridge and freezer, coolers, and a plan to get ice",
+      "critical": false
+    },
+    {
+      "id": "htw-013",
+      "text": "Manual can opener and basic cooking pot, utensils, and dish soap",
+      "critical": false
+    },
+    {
+      "id": "htw-014",
+      "text": "Hygiene supplies for 2 weeks: soap, hand sanitizer, wipes, toothpaste, menstrual supplies, diapers",
+      "critical": false
+    },
+    {
+      "id": "htw-015",
+      "text": "Ways to charge phones: power banks, a car charger, or a small solar panel or power station",
+      "critical": false
+    },
+    {
+      "id": "htw-016",
+      "text": "Cash in small bills for several days of food, fuel, and supplies",
+      "critical": false
+    },
+    {
+      "id": "htw-017",
+      "text": "Food and medicine for pets for 2 weeks",
+      "critical": false
+    },
+    {
+      "id": "htw-018",
+      "text": "Fire extinguisher and smoke alarms with fresh batteries",
+      "critical": false
+    },
+    {
+      "id": "htw-019",
+      "text": "Basic tools: wrench for utilities, hammer, pry bar, tarps, duct tape, and work gloves",
+      "critical": false
+    },
+    {
+      "id": "htw-020",
+      "text": "Extra trash bags and a plan to store garbage sealed and away from the house",
+      "critical": false
+    },
+    {
+      "id": "htw-021",
+      "text": "Books, games, and offline entertainment",
+      "critical": false
+    },
+    {
+      "id": "htw-022",
+      "text": "Build it slowly - add a few cans or a case of water each shopping trip instead of panic-buying",
+      "critical": false
+    },
+    {
+      "id": "htw-023",
+      "text": "Rotate food and water: eat oldest first, check dates once a year, and replace what you use",
+      "critical": false
+    }
+  ]
+}

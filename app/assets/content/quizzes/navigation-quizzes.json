@@ -4,36 +4,80 @@
     "category": "navigation",
     "type": "multiple_choice",
     "difficulty": "intermediate",
-    "scenario": "You're in eastern Montana (magnetic declination approximately 10° East). Your map shows a true north bearing of 045° (northeast) to your destination. What compass bearing do you walk?",
+    "scenario": "You're in eastern Montana, where NOAA's World Magnetic Model gives a declination of about 9 degrees East in late 2026. Your map shows a true bearing of 045 (northeast) to your destination. Your compass has no declination adjustment. What compass bearing do you walk?",
     "options": [
-      { "id": "a", "text": "045° — declination doesn't affect bearing when traveling northeast" },
-      { "id": "b", "text": "055° — add easterly declination to true bearing to get magnetic bearing" },
-      { "id": "c", "text": "035° — subtract easterly declination from true bearing to get magnetic bearing" },
-      { "id": "d", "text": "045° adjusted by GPS correction only — compasses don't require declination adjustment" }
+      {
+        "id": "a",
+        "text": "045 - declination doesn't matter when traveling northeast"
+      },
+      {
+        "id": "b",
+        "text": "054 - add easterly declination to the true bearing"
+      },
+      {
+        "id": "c",
+        "text": "036 - subtract easterly declination from the true bearing"
+      },
+      {
+        "id": "d",
+        "text": "045 - only GPS needs a declination correction, not a compass"
+      }
     ],
     "correct": "c",
-    "explanation": "When converting TRUE bearing (map) to MAGNETIC bearing (compass): East declination → SUBTRACT. West declination → ADD. Mnemonic: 'East is least (subtract), West is best (add).' With 10°E declination: Magnetic = True − Declination = 045° − 10° = 035°. Your compass needle points to magnetic north, which is 10° EAST of true north in eastern Montana — so to walk true northeast (045°), your compass must show 035°. Failure to adjust declination causes systematic directional error — at 1 mile, 10° error = 924 feet off target.",
-    "relatedGuide": "navigation-001",
-    "tags": ["navigation", "compass", "declination", "intermediate"]
+    "explanation": "Going from a map (true) bearing to a compass (magnetic) bearing: east declination, subtract; west declination, add. With about 9 degrees East: 045 - 9 = 036. The needle points 9 degrees east of true north, so the compass reading for any direction is 9 degrees less. Adding (b) doubles the error to 18 degrees. Declination applies to every direction (a), and it is the compass that needs correcting, not the GPS (d). Each degree of error puts you about 17 m off per kilometer, so 9 degrees uncorrected puts you roughly 150 m off after 1 km.",
+    "relatedGuide": "nav-007",
+    "tags": [
+      "navigation",
+      "compass",
+      "declination",
+      "intermediate"
+    ]
   },
   {
     "id": "quiz-nav-002",
     "category": "navigation",
     "type": "priority_order",
     "difficulty": "intermediate",
-    "scenario": "You must navigate 4 miles through dense woodland to a rally point without GPS, using dead reckoning from your known start position. Place these steps in the correct procedural order.",
+    "scenario": "You must navigate 4 miles through dense woodland to a rally point without GPS, using dead reckoning from your start position. Place these steps in the correct order.",
     "items": [
-      { "id": "1", "text": "Convert map bearing to magnetic bearing (adjust for declination)" },
-      { "id": "2", "text": "Identify your start position on the map and mark it" },
-      { "id": "3", "text": "Measure the straight-line distance to your destination on the map using the scale" },
-      { "id": "4", "text": "Calculate your pace count for the terrain (establish paces per 100m on similar terrain)" },
-      { "id": "5", "text": "Begin walking on the established compass bearing, counting paces to track distance" }
+      {
+        "id": "1",
+        "text": "Convert the map bearing to a magnetic bearing (adjust for declination)"
+      },
+      {
+        "id": "2",
+        "text": "Identify your start position on the map and mark it"
+      },
+      {
+        "id": "3",
+        "text": "Measure the bearing and distance of each leg on the map"
+      },
+      {
+        "id": "4",
+        "text": "Convert each leg's distance to paces using your pace count for that kind of terrain"
+      },
+      {
+        "id": "5",
+        "text": "Walk the bearing aiming point to aiming point, counting paces and resetting at known features"
+      }
     ],
-    "correct_order": ["2", "3", "1", "4", "5"],
-    "explanation": "Dead reckoning requires: WHERE ARE YOU (start point) → WHERE ARE YOU GOING (measure distance) → WHAT DIRECTION (convert bearing for declination) → HOW DO YOU MEASURE DISTANCE (pace count calibration) → EXECUTE. You must know your start position before anything else — without it, all subsequent steps are useless. Distance measurement from the map gives you the goal. Declination conversion comes before moving. Pace count calibration should be done on similar terrain before committing — woodland pace count differs from road pace count by 10-20%. Once moving, update position estimates at terrain features (ridgelines, streams) to check cumulative error.",
-    "relatedGuide": "navigation-001",
-    "tags": ["navigation", "dead-reckoning", "compass", "intermediate"]
-  },  {
+    "correct_order": [
+      "2",
+      "3",
+      "1",
+      "4",
+      "5"
+    ],
+    "explanation": "Dead reckoning starts with a start point you are sure of - every later step depends on it. Next, measure each leg's bearing and distance on the map. Convert map bearings to magnetic before you move, then turn distances into paces using a woodland pace count, which runs higher than on a road because brush and slopes shorten your pace. Only then walk the legs, resetting your position at every feature you can positively identify so errors do not build up.",
+    "relatedGuide": "nav-003",
+    "tags": [
+      "navigation",
+      "dead-reckoning",
+      "compass",
+      "intermediate"
+    ]
+  },
+  {
     "id": "quiz-nav-003",
     "category": "navigation",
     "type": "decision_tree",
@@ -42,54 +86,343 @@
     "nodes": {
       "start": {
         "id": "start",
-        "scenario": "You've been hiking 6 hours in dense woodland. Your compass works but your map is unclear — you're not certain of your current position. Visibility is 30 feet. Last known position was a stream crossing 2 hours ago. What do you do first?",
+        "scenario": "You've been hiking 6 hours in dense woodland. Your compass works but you're no longer sure where you are on the map. Visibility is about 30 feet. Your last known position was a stream crossing 2 hours ago. A friend knows your planned route and return time. It's 3 p.m. with about 3 hours of daylight left. What do you do first?",
         "options": [
-          { "text": "Stop, sit down, and think before moving further — STOP protocol", "next": "stop_think" },
-          { "text": "Walk downhill — water is downhill, follow water to civilization", "next": "downhill_move" }
+          {
+            "text": "Stop, sit down, drink some water, and think before moving further - STOP",
+            "next": "stop_think"
+          },
+          {
+            "text": "Keep walking downhill - water is downhill, and water leads to civilization",
+            "next": "downhill_move"
+          }
         ]
       },
       "stop_think": {
         "id": "stop_think",
-        "scenario": "Good. You STOP (Stop, Think, Observe, Plan). You observe: you can hear running water faintly to the west. Your compass shows you've been traveling generally north-northeast. The terrain is sloping upward to your right. Based on your last known position, what do you do?",
+        "scenario": "Good. You stop and mark your spot with a bright bandana. Thinking it through, you realize you've been heading generally north-northeast. You hear running water faintly to the west, and a small rise is about 100 yards to your right. Your phone shows no service. What now?",
         "options": [
-          { "text": "Move toward the sound of water — stream is a linear feature that leads out", "next": "toward_water" },
-          { "text": "Climb to higher ground for better observation and potential map resection", "next": "high_ground" }
+          {
+            "text": "Stay at your marked spot: try a 911 call, make yourself visible, use your whistle in threes, and prepare for the night",
+            "next": "stay_put"
+          },
+          {
+            "text": "Walk to the rise on a compass bearing, counting paces, to look for landmarks - and come straight back on the back bearing if nothing matches",
+            "next": "high_ground"
+          },
+          {
+            "text": "Head for the water and follow the stream downhill until it reaches a road",
+            "next": "follow_stream"
+          }
         ]
       },
-      "toward_water": {
-        "id": "toward_water",
+      "stay_put": {
+        "id": "stay_put",
         "outcome": "success",
-        "explanation": "Water is the best terrain feature for navigation recovery. Streams are linear features that lead to larger water (rivers) which lead to civilization. Once you reach water, follow it DOWNSTREAM unless your map shows it leads into wilderness. The STOP principle prevents panic-driven movement that compounds disorientation. You correctly oriented before moving and used an audible landmark to reestablish position."
+        "explanation": "This is the safest choice. You are unsure of the route, daylight is limited, and someone knows your plan, so searchers will start along your route. The Forest Service says to stay put when you are not confident of the route or night is near, and the Park Service says to wait for rescue when you cannot call 911. Try 911 anyway - it may connect on any carrier. Then make yourself easy to find with bright items, a whistle (three blasts), and shelter before dark."
       },
       "high_ground": {
         "id": "high_ground",
         "outcome": "success",
-        "explanation": "High ground for observation is a classic navigation recovery technique. From elevation, you can see drainage patterns, ridge lines, and distinctive terrain features for map resection. Resection: identify 2+ known terrain features, take compass bearings to each, back-plot those bearings on the map — your position is where they intersect. Both this and the water-following approach are correct — the key was STOPPING first before either."
+        "explanation": "A short, reversible move with a clear purpose is reasonable. Marking your spot, walking a set bearing, counting paces, and returning on the back bearing means you can't get more lost. From the rise you may see a ridge, peak, or road to fix your position by resection. If nothing matches, go back to your marked spot and stay put - don't turn one short scouting trip into wandering."
+      },
+      "follow_stream": {
+        "id": "follow_stream",
+        "outcome": "poor",
+        "explanation": "Following a drainage downhill is a last resort, not a plan. The Forest Service warns it may lead to a trail or road but can be very dangerous: streams drop over ledges and waterfalls and run through thick brush where travel is slow and falls are common. With 3 hours of light and a friend who knows your route, moving away from that route makes you harder to find. Stay put, or make only a short, reversible move to look around."
       },
       "downhill_move": {
         "id": "downhill_move",
         "outcome": "poor",
-        "explanation": "'Go downhill to find water' is a general principle, not a navigation plan. Moving without first stopping to observe and plan violates the STOP protocol and compounds disorientation. Downhill in complex terrain often leads into drainages where navigation features are obscured and travel is difficult. Always STOP first — movement without orientation wastes energy and takes you further from where rescue teams will search (your last known position)."
+        "explanation": "Moving without stopping to think is how a short delay becomes a long search. 'Go downhill to water' is a last resort, not a first move: drainages can lead to cliffs and thick brush, and every step away from your route takes you farther from where searchers will look. Always STOP first - Stop, Think, Observe, Plan - and move only with a clear reason and a route you are confident in."
       }
     },
-    "relatedGuide": "navigation-001",
-    "tags": ["navigation", "lost", "STOP-protocol", "advanced"]
+    "relatedGuide": "nav-008",
+    "tags": [
+      "navigation",
+      "lost",
+      "STOP-protocol",
+      "stay-put",
+      "advanced"
+    ]
   },
   {
     "id": "quiz-nav-004",
     "category": "navigation",
     "type": "multiple_choice",
     "difficulty": "beginner",
-    "scenario": "No compass, clear night, northern hemisphere. You need to find true north. Which star and method is correct?",
+    "scenario": "No compass, clear night, Northern Hemisphere. You need to find true north. Which star and method is correct?",
     "options": [
-      { "id": "a", "text": "Orion's Belt always points true north when it's highest in the sky" },
-      { "id": "b", "text": "Find Polaris (North Star) by locating the two 'pointer stars' on the outer edge of the Big Dipper's bowl and extending a line 5x the distance between them" },
-      { "id": "c", "text": "Cassiopeia (the W shape) is always due north and can be used directly" },
-      { "id": "d", "text": "The brightest star in the sky (Sirius) aligns with magnetic north" }
+      {
+        "id": "a",
+        "text": "Orion's Belt points to true north when it is highest in the sky"
+      },
+      {
+        "id": "b",
+        "text": "Find Polaris by following the two 'pointer stars' on the outer edge of the Big Dipper's cup about 5 times the distance between them"
+      },
+      {
+        "id": "c",
+        "text": "Cassiopeia (the W shape) is always due north, so face it directly"
+      },
+      {
+        "id": "d",
+        "text": "The brightest star in the sky lines up with north"
+      }
     ],
     "correct": "b",
-    "explanation": "Polaris sits within 1° of true celestial north and does not appear to move as Earth rotates. Locate it: find the Big Dipper, identify the two outermost stars of the bowl (Dubhe and Merak — the 'pointer stars'), extend a line through them approximately 5x the distance between them, and that line terminates at Polaris. Polaris is a moderately bright star — not the brightest in the sky (that's Sirius, in the south). Cassiopeia (W shape) is useful for finding Polaris when the Big Dipper is below the horizon — it's on the opposite side of Polaris from the Big Dipper. Neither Orion's Belt nor Sirius points north.",
-    "relatedGuide": "navigation-001",
-    "tags": ["navigation", "stars", "night-navigation", "beginner"]
+    "explanation": "Polaris sits very close to the north celestial pole, so it barely moves through the night and marks true north. Follow the Big Dipper's two pointer stars about five times their gap to reach it, at the end of the Little Dipper's handle. Polaris is only medium-bright - the brightest star (Sirius) is in the southern sky in winter. Cassiopeia circles Polaris, sitting opposite the Big Dipper, so it helps you find Polaris but is not itself due north. Orion's Belt is useful for east and west (it rises near due east and sets near due west), not north.",
+    "relatedGuide": "nav-002",
+    "tags": [
+      "navigation",
+      "stars",
+      "night-navigation",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-nav-005",
+    "category": "navigation",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your compass is lost. You push a 3-foot stick into level ground, mark the shadow tip with a pebble, wait 15 minutes, and mark the new tip with a second pebble. What does the line between the pebbles tell you?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It runs north-south; the first pebble is north"
+      },
+      {
+        "id": "b",
+        "text": "It runs east-west; the first pebble is west and the second is east"
+      },
+      {
+        "id": "c",
+        "text": "It runs east-west; the first pebble is east and the second is west"
+      },
+      {
+        "id": "d",
+        "text": "The shadow points straight at true north at any time of day"
+      }
+    ],
+    "correct": "b",
+    "explanation": "The sun moves east to west, so the shadow tip moves west to east. The first mark is always west and the second is always east, anywhere on Earth. Stand with the first mark on your left and the second on your right, and you face roughly north. A National Park Service training paper notes it is usually within about 15 degrees and is best near the equinoxes. Only the shortest shadow of the day (near solar noon) points north in most of the U.S. - not the shadow at any time (d).",
+    "relatedGuide": "nav-005",
+    "tags": [
+      "navigation",
+      "shadow-stick",
+      "no-compass",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-nav-006",
+    "category": "navigation",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You're planning a day hike in a national forest with no cell coverage. You plan to rely on your phone. Which preparation will actually work once you lose signal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nothing special - the map will load from GPS satellites when cell service drops"
+      },
+      {
+        "id": "b",
+        "text": "Download a Google Maps offline area and count on it for turn-by-turn walking directions on the trail"
+      },
+      {
+        "id": "c",
+        "text": "Download offline maps (and a topo layer) for the whole area, save key pins, test the blue dot in airplane mode at home, and carry a paper map and compass as backup"
+      },
+      {
+        "id": "d",
+        "text": "Turn off Location Services to save battery and turn them on only if you get lost"
+      }
+    ],
+    "correct": "c",
+    "explanation": "GPS works without cell service, but map images do not download from satellites - without a saved offline area, you may see a blue dot on a blank screen (a). Google says offline navigation is driving only, with no walking directions (b). Testing in airplane mode confirms your setup works, and a paper map and compass cover a dead battery. Turning off location (d) saves little and costs time when you need it; use airplane mode and Low Power Mode instead.",
+    "relatedGuide": "nav-006",
+    "tags": [
+      "navigation",
+      "gps",
+      "phone",
+      "offline-maps",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-nav-007",
+    "category": "navigation",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "On a US Topo map with a 1,000-meter UTM grid, your position is in the square whose lower-left corner is where vertical line 47 meets horizontal line 82. You are about 3/10 of the way across the square and 6/10 of the way up. What is your 6-digit grid reference?",
+    "options": [
+      {
+        "id": "a",
+        "text": "826473"
+      },
+      {
+        "id": "b",
+        "text": "473826"
+      },
+      {
+        "id": "c",
+        "text": "4782 36"
+      },
+      {
+        "id": "d",
+        "text": "476823"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Read right, then up. Easting first: line 47 plus 3 tenths = 473. Then northing: line 82 plus 6 tenths = 826. Together: 473826, which pins you to a 100 m square. (a) reads up first, (d) swaps the tenths, and (c) is not an even split of easting and northing. When reporting to rescuers far away, add the grid zone and 100 km square letters, and say that you are giving U.S. National Grid or MGRS.",
+    "relatedGuide": "nav-012",
+    "tags": [
+      "navigation",
+      "grid-coordinates",
+      "mgrs",
+      "utm",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-nav-008",
+    "category": "navigation",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "You walked from camp to a spring on a compass bearing of 300 degrees. Before taking your reading for the trip back, where should you stand?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Next to your truck so you can lean the compass on the hood, then follow 120 degrees"
+      },
+      {
+        "id": "b",
+        "text": "At least about 18 m (60 ft) from the truck and away from fences, then follow 120 degrees"
+      },
+      {
+        "id": "c",
+        "text": "Anywhere - then follow 300 degrees again, since the bearing does not change"
+      },
+      {
+        "id": "d",
+        "text": "At least 18 m from the truck, then follow 480 degrees"
+      }
+    ],
+    "correct": "b",
+    "explanation": "The back bearing of 300 is 300 - 180 = 120 (subtract 180 when the bearing is 180 or more). Marine Corps training lists about 18 m from vehicles, 10 m from barbed wire, and 55 m from high-tension power lines, because metal bends the needle - so the truck's hood (a) is the worst place to read a compass. Walking 300 again (c) takes you farther from camp. Bearings only run 0 to 360, so 480 (d) is not a bearing; you subtract, not add.",
+    "relatedGuide": "nav-004",
+    "tags": [
+      "navigation",
+      "compass",
+      "back-bearing",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-nav-009",
+    "category": "navigation",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You're heading for a small cabin 600 m past a trail junction, through forest with no road or stream beyond it. Your planned pace count for the leg is 420 paces. You've walked 420 paces and see no cabin. What's the best move?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep walking the same bearing until you find it - it must be just ahead"
+      },
+      {
+        "id": "b",
+        "text": "Search carefully nearby, and if you still don't find it, stop at about 630 paces (150 percent) and return to the junction on your back bearing to try again"
+      },
+      {
+        "id": "c",
+        "text": "Turn around immediately and walk back to the junction"
+      },
+      {
+        "id": "d",
+        "text": "Start walking in a widening spiral until you run into the cabin"
+      }
+    ],
+    "correct": "b",
+    "explanation": "With no catching feature beyond the goal, Marine Corps training says to set a limit at 150 percent of your pace count. Pace counts can be off 10 to 20 percent in forest, so the cabin may be a bit farther or off to one side - search close by first. Past the limit, go back to your attack point (the junction) and retry rather than walking on forever (a). Turning back the moment you hit the count (c) ignores normal error. Wandering in spirals (d) loses your known position.",
+    "relatedGuide": "nav-009",
+    "tags": [
+      "navigation",
+      "pace-count",
+      "route-planning",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-nav-010",
+    "category": "navigation",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "scenario": "You're descending a broad snowfield when a whiteout hits. You can see about 20 feet and can't tell where the slope drops away. Crevassed glaciers and cliffs lie on both sides of the route, and a steady west wind is blowing. You have a map, compass, GPS, and a partner. What's the best approach?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Descend quickly in the fall line - getting lower fast will get you out of the cloud"
+      },
+      {
+        "id": "b",
+        "text": "Follow your partner's footprints and trust your sense of direction"
+      },
+      {
+        "id": "c",
+        "text": "If unsure of your position, stop and shelter; otherwise move only on a pre-plotted bearing, using your partner as the aiming point, checking GPS, and correcting for wind drift"
+      },
+      {
+        "id": "d",
+        "text": "Walk a slow spiral to find the edge of the snowfield"
+      }
+    ],
+    "correct": "c",
+    "explanation": "In a whiteout, the danger is walking off route into hazards you can't see. If you don't know where you are, stop and shelter. If you do and must move, follow a bearing set from the map, send your partner ahead to the edge of visibility and steer them onto the line, then walk to them. The National Park Service warns that west winds push climbers on Mount Rainier's Muir Snowfield toward crevassed glaciers, so correct your heading into the wind. Rushing down the fall line (a), trusting your sense of direction (b), or spiraling (d) all lead people off course in zero visibility.",
+    "relatedGuide": "nav-011",
+    "tags": [
+      "navigation",
+      "whiteout",
+      "limited-visibility",
+      "advanced"
+    ]
+  },
+  {
+    "id": "quiz-nav-011",
+    "category": "navigation",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "You have a sewing needle, a fridge magnet, a leaf, and a cup of water, but no compass. Put the steps for making and using an improvised compass in order.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Float the needle on the leaf in still water, away from metal"
+      },
+      {
+        "id": "2",
+        "text": "Stroke the needle with the magnet 30-40 times in one direction"
+      },
+      {
+        "id": "3",
+        "text": "Use the sun to tell which end points north, and mark that end"
+      },
+      {
+        "id": "4",
+        "text": "Nudge the leaf and check that the needle swings back to the same line"
+      }
+    ],
+    "correct_order": [
+      "2",
+      "1",
+      "4",
+      "3"
+    ],
+    "explanation": "Magnetize first: stroke in one direction only, never back and forth. Float the needle so it turns freely, away from knives, phones, and other metal. Test it by nudging - a magnetized needle returns to the same north-south line; if not, magnetize it again. Only then work out which end is north using the sun (morning sun on your right means you face north) and mark it. It points to magnetic north, so correct for declination with a map.",
+    "relatedGuide": "nav-013",
+    "tags": [
+      "navigation",
+      "improvised-compass",
+      "no-compass",
+      "beginner"
+    ]
   }
 ]

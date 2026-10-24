@@ -4,36 +4,118 @@
     "category": "fire",
     "title": "Bow Drill Fire Starting",
     "priority": "advanced",
-    "tags": ["fire", "primitive", "friction", "bow drill"],
-    "summary": "Start fire using a friction-based bow drill — requires proper wood selection and technique.",
+    "tags": [
+      "fire",
+      "primitive",
+      "friction",
+      "bow drill",
+      "no matches"
+    ],
+    "summary": "Make a glowing coal by friction with a bow, spindle, and fireboard, then blow it into flame. It is a backup skill that takes many practice sessions before it works under stress.",
     "steps": [
-      { "step": 1, "title": "Select wood species", "body": "Both the spindle (drill) and fireboard must be dry, the same hardness, and low resin content. Good combinations: willow/willow, cedar/cedar, cottonwood/cottonwood, mullein spindle on basswood board. The moisture test: the wood should snap cleanly, not bend. If it bends, it's too wet." },
-      { "step": 2, "title": "Build the bow", "body": "Select a stiff, slightly curved branch 24–30 inches long for the bow. Tie cordage (paracord, shoelace, or twisted plant fiber) tightly from tip to tip with about 20% sag — enough to wrap once around the spindle. Too tight and it won't spin; too loose and it slips." },
-      { "step": 3, "title": "Prepare the fireboard", "body": "Cut a shallow depression into the fireboard about half an inch from the edge. Carve a V-shaped notch from the depression to the edge, with the point of the V reaching just past the center of the depression. Place a piece of bark or dry leaf under the notch to catch the coal." },
-      { "step": 4, "title": "Assemble and drill", "body": "Trap the spindle in the bow string with one wrap. Place the spindle tip in the fireboard depression. Hold the spindle vertical with the handhold (a smooth rock or notched wood piece with a small lubricated depression). Apply firm downward pressure while drawing the bow horizontally — long, even strokes the full length of the bow." },
-      { "step": 5, "title": "Build speed and pressure", "body": "Start at moderate pace to build heat. Increase speed and downward pressure as smoke begins. When thick smoke pours from the notch, give 10–15 fast powerful strokes then remove the bow. The coal is in the catch piece under the notch." },
-      { "step": 6, "title": "Transfer coal to tinder", "body": "Carefully tap the notch to ensure the coal falls onto the catch. It will be black and glowing orange — fragile. Transfer the entire catch piece to your tinder bundle without disturbing the coal. Fold the tinder bundle loosely around the coal and blow gently with steady, deep breaths until the bundle bursts into flame. Drop it into your prepared fire lay immediately." }
+      {
+        "step": 1,
+        "title": "Gather dry, matched wood",
+        "body": "Pick dead, dry, non-resinous wood for both the spindle and the fireboard. Woods that work well for many people include cedar, willow, cottonwood, elm, aspen, basswood, and dried yucca or mullein stalks for the spindle. Using the same wood for both pieces is the easiest start. Test dryness by snapping a twig of it: it should break with a crisp snap, not bend. Wood from standing dead trees or dead limbs held off the ground is drier than wood lying on wet soil. Avoid pine and other sappy woods - the resin glazes the hole and stops a coal from forming. Never cut live trees; it is illegal on most public land and live wood is too wet anyway."
+      },
+      {
+        "step": 2,
+        "title": "Carve the spindle, board, and handhold",
+        "body": "Make the spindle about 8-10 inches (20-25 cm) long and about as thick as your thumb (3/4 inch, 2 cm). Keep it straight. Carve the bottom blunt and round and taper the top to a narrower rounded tip, so the top spins with less friction in the handhold. Split or carve the fireboard flat, about 1/2-3/4 inch (1.5-2 cm) thick and wide enough to put your foot on. Find or carve a handhold that fits your palm: a piece of hardwood like oak or maple, a knot, or a stone with a small dent. Put a little grease, soap, lip balm, or skin oil in the handhold dent - never on the fireboard."
+      },
+      {
+        "step": 3,
+        "title": "Make the bow",
+        "body": "Use a stiff, slightly curved stick about as long as your arm from armpit to fingertips (24-30 inches, 60-75 cm). Tie a strong cord tip to tip - paracord, a bootlace, or rawhide. Leave a little slack so you can twist the spindle into the cord once. When the spindle is wrapped in, it should be tight enough that it does not slip when you saw, but not so tight that it pops out. Keep the spindle on the outside of the cord so it does not rub the bow stick."
+      },
+      {
+        "step": 4,
+        "title": "Burn in the hole and cut the notch",
+        "body": "Start a small dent about one spindle-width in from the edge of the fireboard. Kneel with your left foot on the board (if right-handed), brace your left wrist against your left shin, and saw the bow with long, even strokes until the dent is a black, round hole as wide as the spindle. Then cut a wedge-shaped notch from the board edge into the hole, reaching about to the center of the hole and roughly 1/8 of the circle wide. Make the notch walls smooth. Rough walls trap air and keep the dust too cool to form a coal."
+      },
+      {
+        "step": 5,
+        "title": "Drill for the coal",
+        "body": "Slide a dry leaf, bark scrap, or thin wood chip under the notch to catch the dust. Start with slow, full-length strokes and light pressure to warm the wood. As smoke appears, speed up and press down harder, keeping the spindle straight up and down. Keep going until thick smoke rolls from the notch and the notch is packed with fine, dark brown to black powder. Then give 10-20 fast, hard strokes and stop. Many people quit just before the coal forms. Light-colored, coarse dust means you need more pressure; a shiny, glazed hole means too little pressure or resinous wood."
+      },
+      {
+        "step": 6,
+        "title": "Check and grow the coal",
+        "body": "Lift the spindle away and pause. Do not bump the board. Hold the dust pile in place with a twig or knife tip and slowly roll the fireboard away from it. If the pile keeps smoking on its own for several seconds, you have a coal. Fan it lightly with your hand for 20-30 seconds so it grows and firms up. A coal is fragile. Do not poke it. If it stops smoking, it went out - drill again in the same hole, which is already warm."
+      },
+      {
+        "step": 7,
+        "title": "Blow the coal into flame",
+        "body": "Have a bird's-nest-sized tinder bundle ready before you start drilling: shredded cedar or cottonwood inner bark, dry grass, or cattail fluff, with the finest fibers in the center (see fire-007). Tip the coal into the center and fold the bundle loosely around it so the coal touches the tinder. With your back to the wind, hold it up and away from your face. Blow long, gentle, steady breaths. The smoke will thicken, then the bundle bursts into flame. Put it straight into your prepared fire lay (see fire-008) with kindling already in place."
+      }
     ],
     "warnings": [
-      "Wood selection is the most common failure point. Wet or mismatched wood species will not produce a coal regardless of technique.",
-      "Blisters on the handhold hand are inevitable until technique improves. Lubricate the handhold depression with forehead skin oil, ear wax, or lip balm — NOT the fireboard socket."
+      "Damp wood is the most common reason bow drills fail. If it has rained for days, split wood open and use the dry core, or switch to another ignition method.",
+      "A burning tinder bundle can flare suddenly. Keep it away from your face, hair, and clothing, and drop it into the fire lay rather than holding it longer than needed.",
+      "Expect blisters and back strain while learning. Rest before your form breaks down - a wobbling spindle wastes energy.",
+      "Only practice where open fires are legal and safe. Check fire restrictions first (see fire-014)."
     ],
     "proTips": [
-      "The spindle should fit the bow string snugly — hold the bow horizontal, the spindle should not fall out. Wrap the string around the spindle once, not twice.",
-      "If you're getting smoke but no coal, carve the notch slightly larger — the V point may not reach the center of the friction depression.",
-      "Practice this skill extensively before you need it. A first-time bow drill user in a stress scenario will fail. Proficiency requires dozens of practice sessions."
+      "Practice in good weather until you can get a coal in under 2 minutes. Only then is it a real backup skill.",
+      "Keep your spindle, board, and tinder inside your jacket in wet weather. Body heat drives off surface moisture.",
+      "If the spindle keeps jumping out, your cord is too tight or your wrist is not braced against your shin.",
+      "Carry a finished bow drill kit in your pack while you learn. Making every piece in the field with cold hands is much harder."
     ],
-    "relatedGuides": ["fire-002", "fire-003"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "fire-007",
+      "fire-008",
+      "fire-002",
+      "fire-005"
+    ],
+    "source": "Wilderness Awareness School / NIU fire-by-friction notes / USDA Forest Service (Smokey Bear)",
+    "sources": [
+      {
+        "title": "Notch Construction: Secrets of the Bow Drill",
+        "publisher": "Wilderness Awareness School",
+        "url": "https://wildernessawareness.org/articles/secrets-of-the-fire-bow-drill-notch-construction/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fire by Friction Firebuilding",
+        "publisher": "Northern Illinois University (W. Rannie)",
+        "url": "https://faculty.cs.niu.edu/~rannie/FxF.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Build Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-build-your-campfire",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "advanced",
     "gearRequired": "none",
     "riskLevel": "medium",
-    "prerequisites": [],
+    "prerequisites": [
+      "fire-007",
+      "fire-008"
+    ],
+    "whenNotTo": [
+      "When you have a lighter, matches, or ferro rod - use them and save your energy.",
+      "When you are already hypothermic or exhausted - the effort can make you worse. Get out of the wind and insulate first.",
+      "During fire restrictions or in dry, windy conditions where any open fire is unsafe or illegal."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need fire and have no modern ignition source — friction-based fire starting with a bow drill is a viable primitive method that requires significant practice",
-      "immediate": ["Select matched wood species — both spindle and fireboard must be dry, same hardness, low resin (willow, cedar, cottonwood)", "Build bow 24-30 inches with cordage at 20% sag; prepare V-notch in fireboard with catch piece below", "Drill with firm downward pressure and full-length even strokes until thick smoke pours from the notch"],
-      "then": ["Give 10-15 fast powerful strokes then stop — carefully check for glowing coal in catch piece", "Transfer coal to tinder bundle and blow steadily until bundle ignites, then add to fire lay"]
+      "situation": "You need fire, have no lighter, matches, or ferro rod, and you have practiced the bow drill before.",
+      "immediate": [
+        "Find dead, dry, non-resinous wood that snaps cleanly - cedar, willow, cottonwood, or basswood",
+        "Prepare a tinder bundle and fire lay before you start drilling",
+        "Burn in a hole, cut a smooth notch to about its center, and drill until thick smoke rolls out"
+      ],
+      "then": [
+        "Hold the dust pile still, roll the board away, and fan it until it holds as a coal",
+        "Tip the coal into the tinder bundle and blow gently until it flames, then place it in the fire lay"
+      ]
     }
   },
   {
@@ -41,33 +123,106 @@
     "category": "fire",
     "title": "Flint and Steel Fire",
     "priority": "advanced",
-    "tags": ["fire", "flint", "steel", "striker"],
-    "summary": "Create fire by striking a high-carbon steel striker against flint or chert to produce sparks.",
+    "tags": [
+      "fire",
+      "flint",
+      "steel",
+      "char cloth",
+      "traditional"
+    ],
+    "summary": "Strike a high-carbon steel against a hard, sharp-edged stone to throw sparks onto char cloth, then blow the ember into flame in a tinder bundle. Reliable once practiced, but it needs charred material to catch the spark.",
     "steps": [
-      { "step": 1, "title": "Identify suitable stone", "body": "True flint, chert, quartzite, obsidian, and agate all work. The stone should have a glassy, conchoidal fracture and produce a sharp edge when struck. River cobbles of the right composition work well. Test by striking with the steel striker — if sparks fly, you have the right material." },
-      { "step": 2, "title": "Prepare char cloth", "body": "Char cloth is the best catching material. Pack 100% cotton cloth into a metal tin with a small hole. Place in fire until smoke stops coming out of the hole, then plug the hole immediately. The result is blackened, carbonized cloth that catches a spark at any temperature. Store dry." },
-      { "step": 3, "title": "Striking technique", "body": "Hold the stone with the sharp edge facing up and outward. Place char cloth on the top flat surface of the stone, pressed against the striking edge. Strike downward at a 45-degree angle with the steel striker, hitting the sharp stone edge a glancing blow. The goal is to peel hot metal particles onto the char cloth." },
-      { "step": 4, "title": "Catch and develop the spark", "body": "A caught spark on char cloth appears as a small orange glow. Gently blow on it — the glow will spread. Once the char cloth is fully glowing, transfer to a tinder bundle. Fold the bundle loosely around the glowing char and blow with steady breath until it ignites." }
+      {
+        "step": 1,
+        "title": "Get the right steel and stone",
+        "body": "You need a high-carbon steel striker - a traditional C-shaped or oval fire steel, or an old carbon-steel file. Stainless steel and most modern knife backs will not throw good sparks. The stone must be very hard with a sharp, thin edge: flint, chert, quartzite, or similar glassy stone. A piece about 1/4-1/2 inch (6-12 mm) thick that you can pinch between thumb and finger is ideal. Test it by striking: you should see small orange sparks. When the edge goes dull and stops sparking, knock off a flake to make a fresh edge."
+      },
+      {
+        "step": 2,
+        "title": "Make char cloth ahead of time",
+        "body": "Cut 100% natural cotton cloth (old jeans, T-shirt, or towel) into 2-inch (5 cm) squares. Pack them loosely in a small metal tin with a tight lid. Poke one small vent hole in the lid so gas can escape and the lid does not pop off. Set the tin in a fire or hot coals. Smoke and flame will jet from the hole. When the smoke stops, pull the tin out and let it cool fully before opening - opening it hot lets air in and the cloth burns up. Good char cloth is black all the way through and slightly brittle, not brown. Synthetic fabric melts and does not work."
+      },
+      {
+        "step": 3,
+        "title": "Prepare tinder and fire lay first",
+        "body": "Build your fire lay with kindling in place before you strike (see fire-008). Make a loose bird's-nest bundle of fine, dry material: shredded cedar, juniper, cottonwood, or tulip-poplar bark, dry grass, or fluffy plant down. Open a small pocket in the center for the ember. Set it within easy reach on a dry surface. An ember on char cloth lasts a few minutes, but it is easy to lose while you scramble for tinder."
+      },
+      {
+        "step": 4,
+        "title": "Hold the stone and char cloth",
+        "body": "Pinch the stone between your thumb and index finger with the sharp edge facing out and up. Fold a piece of char cloth over the top of the stone so it sits just behind the striking edge, held by your thumb. This puts the cloth right where sparks are made. Many people find this more reliable than trying to aim sparks down onto cloth lying on the ground. Hold the steel in your other hand with your fingers through the loop or gripped firmly."
+      },
+      {
+        "step": 5,
+        "title": "Strike with a glancing blow",
+        "body": "Swing the steel down past the stone's sharp edge in a quick, scraping, glancing stroke, like striking a match on a wall. The stone shaves tiny bits of steel that heat and glow. Use your wrist, not your whole arm, and keep the strike close to the stone. Do not smash the stone; aim to skim its edge. Keep your knuckles clear of the edge. After each strike, look at the char cloth for a tiny glowing orange dot."
+      },
+      {
+        "step": 6,
+        "title": "Grow the ember and light the tinder",
+        "body": "When you see a glowing spot, blow on it gently to spread it. Place the glowing char cloth in the pocket of the tinder bundle and fold the bundle loosely around it so the ember touches the fibers. With your back to the wind, hold the bundle at face height and away from you. Blow gently at first, then harder as the smoke thickens. When it bursts into flame, place it under your kindling right away."
+      }
     ],
     "warnings": [
-      "Modern high-carbon steel strikers (ferro rods) produce abundant sparks and are far more reliable than traditional steel in wet conditions — carry one in your kit.",
-      "Always have tinder prepared BEFORE striking — the spark window is brief."
+      "The sharp stone edge can cut your fingers and knuckles. Strike with controlled, short strokes and consider wearing a leather glove on the stone hand.",
+      "A hot char tin and its vent flame can burn you. Handle it with sticks or gloves and let it cool fully before opening.",
+      "Flint and steel sparks are cooler and smaller than ferro rod sparks. They will not light plain tinder - you need char cloth or another charred material.",
+      "Always check fire restrictions before practicing (see fire-014)."
     ],
     "proTips": [
-      "Dried fungus (amadou from horse hoof fungus), cattail down, dried grass, and dried tree bark dust all catch sparks well as alternatives to char cloth.",
-      "A ferro rod (ferrocerium striker) requires no special stone — any rough surface works and it functions wet. This is your primary fire-starting tool; bow drill and flint/steel are backups."
+      "A ferrocerium rod (see fire-005) is a different tool: it is a man-made alloy, not steel, and its sparks are much hotter. Carry one as your main spark source and treat flint and steel as a traditional backup.",
+      "Store char cloth in its tin or a zip bag. It soaks up moisture and gets harder to light if left open.",
+      "Charred punk wood, dried true tinder fungus, and charred plant stalks also catch flint-and-steel sparks.",
+      "Make a fresh batch of char cloth every time you have a fire going - it costs nothing."
     ],
-    "relatedGuides": ["fire-001", "fire-003", "fire-004"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "fire-005",
+      "fire-007",
+      "fire-008",
+      "fire-001"
+    ],
+    "source": "Wilderness Awareness School / USDA Forest Service (Smokey Bear)",
+    "sources": [
+      {
+        "title": "Flint and Steel Firemaking",
+        "publisher": "Wilderness Awareness School",
+        "url": "https://wildernessawareness.org/articles/flint-and-steel-firemaking",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Build Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-build-your-campfire",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
-    "prerequisites": [],
+    "prerequisites": [
+      "fire-007"
+    ],
+    "whenNotTo": [
+      "When you have no char cloth or charred material - the sparks are too weak for raw tinder. Use a ferro rod, lighter, or matches instead.",
+      "In very wet weather with no dry storage for your char cloth.",
+      "During fire restrictions or in dry, windy conditions."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need fire and have a ferrocerium rod or high-carbon steel striker available — this is your primary ignition method",
-      "immediate": ["Prepare tinder bundle BEFORE striking — caught spark burns within seconds", "Hold sharp stone with char cloth on top surface; strike steel downward at 45-degree angle against the edge", "Once spark catches on char cloth, gently blow until entire cloth glows orange"],
-      "then": ["Transfer glowing char cloth to tinder bundle — fold loosely around coal", "Blow steadily with deep breaths until tinder bursts into flame, then add to prepared fire lay"]
+      "situation": "You have a high-carbon steel striker, a hard sharp stone, and char cloth, and you need fire.",
+      "immediate": [
+        "Build the fire lay and a loose tinder bundle before striking",
+        "Fold char cloth over the top of the stone just behind its sharp edge",
+        "Strike the steel down past the edge in quick glancing strokes until the cloth shows a glowing dot"
+      ],
+      "then": [
+        "Place the glowing char cloth in the tinder bundle and blow until it flames",
+        "Put the burning bundle under your kindling right away"
+      ]
     }
   },
   {
@@ -75,35 +230,114 @@
     "category": "fire",
     "title": "Starting Fire in Rain",
     "priority": "advanced",
-    "tags": ["fire", "rain", "wet conditions"],
-    "summary": "Techniques to start and sustain fire when everything is wet.",
+    "tags": [
+      "fire",
+      "rain",
+      "wet conditions",
+      "fatwood",
+      "feather stick"
+    ],
+    "summary": "How to find dry fuel, protect your tinder, and grow a fire when everything around you is wet. Most wood is only wet on the outside - the work is getting to the dry inside and keeping it dry.",
     "steps": [
-      { "step": 1, "title": "Source dry material first", "body": "Wet is only on the surface. The inside of standing dead wood is usually dry. Split logs open with a knife, rock, or by batoning — the dry inner wood is your starting material. Look under overhangs, inside hollow trees, and beneath dense evergreen canopy where ground material stays relatively dry." },
-      { "step": 2, "title": "Build a base platform", "body": "Wet ground will soak heat away from your fire and extinguish a struggling fire before it establishes. Build a platform of dry wood — use split logs or thick bark, stacked parallel. Your fire starts on this elevated surface, not on wet ground." },
-      { "step": 3, "title": "Shield from wind and rain", "body": "Cup hands, use your body, an improvised windbreak of packed bark, rocks, or your pack. Even a small windscreen dramatically increases success rates. Wind both cools the early fire and blows rain directly into tinder." },
-      { "step": 4, "title": "Build small and dense", "body": "In wet conditions, a large fire lay is the enemy. Build a very small, concentrated tinder bundle — finger-sized kindling tightly packed over your tinder. Small fires concentrate heat in wet conditions better than large spreads. Establish the small fire before scaling up." },
-      { "step": 5, "title": "Feed aggressively once lit", "body": "The moment you have flame, feed it continuously with the best available fuel — do not let it breathe to the point of dying. Any pause at this stage risks losing it. Have abundant progressively-sized fuel ready before striking your first spark." }
+      {
+        "step": 1,
+        "title": "Get out of the rain first",
+        "body": "Pick a spot with overhead cover that is still safe for fire: under a tarp pitched high, a rock overhang with no roots or dry debris above, or under the edge of a big evergreen with clearance above at least three times the expected flame height. Never build a fire under a low tarp or inside a tent. Gather and prepare everything under cover before you strike anything. Keep your ignition source and prepared tinder in a dry bag or inside your jacket until the moment you use them."
+      },
+      {
+        "step": 2,
+        "title": "Find dry fuel inside wet wood",
+        "body": "Look for dead branches still attached to trees, especially the small, brittle, lower twigs on evergreens - they shed rain and snap when dry enough. Standing dead wood is drier than anything on the ground. Wood lying on wet soil is often soaked through; skip it. Split wrist-thick dead sticks with a knife or by batoning to expose the dry core. Check old pine stumps and the bases of dead branches for fatwood: heavy, amber to orange, resin-soaked wood that smells strongly of pine. Resin repels water, so fatwood lights even in wet weather."
+      },
+      {
+        "step": 3,
+        "title": "Make fine tinder from the dry core",
+        "body": "Fine tinder is what catches. A dry chunk of wood will not light from a match or spark - surface area matters. Carve feather sticks from the dry split wood: long, thin curls that stay attached at the bottom. Make several. Scrape fatwood into a small pile of dust and thin shavings; the dust catches a ferro rod spark. Birch bark, peeled from dead or fallen birch, burns well even when damp because of its natural oils. Prepared tinder from your kit, like cotton balls with petroleum jelly, is ideal here (see fire-007)."
+      },
+      {
+        "step": 4,
+        "title": "Build a dry platform",
+        "body": "Wet ground pulls heat away and puts out a young fire. Lay a platform of dry split sticks or thick bark side by side, wrist-thick, under the fire site. Light your fire on top of this platform, not on mud or puddles. If the ground has standing water, raise the platform on two crosswise logs. The platform also burns down into a bed of coals that helps keep the fire going."
+      },
+      {
+        "step": 5,
+        "title": "Build small and tight, with a wind shield",
+        "body": "Lay out three sorts of fuel before lighting: a double handful of tinder, two big handfuls of pencil-lead to pencil-thick dry kindling, and an armload of thumb- to wrist-thick split wood. Build a small teepee or lean-to over the tinder (see fire-008) with the opening downwind of your body. Block wind and rain with your body, pack, or a low wall of logs or rocks. A small, tight structure keeps heat focused where it is needed."
+      },
+      {
+        "step": 6,
+        "title": "Light and feed steadily",
+        "body": "Light the tinder at the bottom on the upwind side. As the kindling catches, add more small pieces one or two at a time - do not smother it with big wood. Keep feeding without long pauses until you have a bed of glowing coals the size of your hand. Then add split wood. Lean damp pieces near the fire to dry before they go on. Once a hot coal bed forms, the fire can dry and burn fuel that would never have lit at the start."
+      }
     ],
     "warnings": [
-      "River rocks and wet rocks from creek beds can explode when rapidly heated — use dry rocks or metal for fire rings in wet conditions.",
-      "Never use accelerants on a struggling fire — control of the flare-up is impossible."
+      "Never use gasoline or other flammable liquids to start or boost a fire. Vapors can flash back and cause severe burns.",
+      "Rocks from creek beds or soaked ground can crack or burst when heated. Use dry rocks, or none, for a fire ring.",
+      "Fire under a low tarp can melt or ignite it. Keep the tarp high and well away from flame.",
+      "Wet, cold hands lose dexterity fast. If you start shivering hard or fumbling, stop and warm up - hypothermia is the bigger danger."
     ],
     "proTips": [
-      "Birch bark contains natural oils and will light even when soaking wet. It is one of the best wet-weather fire starters in any temperate climate.",
-      "Fatwood (resin-saturated dead pine heartwood) burns even when soaking wet. Learn to identify it by smell and the orange-amber color of the heartwood. It's found in old pine stumps and roots.",
-      "Commercial fire starters (WetFire, Tinder-Quik, Fatwood shavings) are critical kit items. They bridge the gap between a spark and a sustained fire in any condition."
+      "Always carry prepared tinder and a backup ignition source in a waterproof container. In real rain, kit tinder is what makes the difference.",
+      "Collect a little extra dry tinder and kindling once the fire is going and store it under cover for tomorrow.",
+      "Fatwood dust from a few scrapes catches a ferro rod spark, while shavings take a match - prepare both.",
+      "Split wood that sizzles or steams is too wet to add yet. Stack it near the fire to dry."
     ],
-    "relatedGuides": ["fire-001", "fire-004"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "fire-007",
+      "fire-008",
+      "fire-010",
+      "fire-005",
+      "fire-004"
+    ],
+    "source": "USDA Forest Service (Smokey Bear) / Paul Kirtley / Backpacker",
+    "sources": [
+      {
+        "title": "How to Build Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-build-your-campfire",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Maintain and Extinguish Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-maintain-and-extinguish-your-campfire",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fatwood",
+        "publisher": "Paul Kirtley",
+        "url": "https://paulkirtley.co.uk/2025/fatwood/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "advanced",
     "gearRequired": "basic_edc",
     "riskLevel": "medium",
-    "prerequisites": [],
+    "prerequisites": [
+      "fire-007",
+      "fire-008"
+    ],
+    "whenNotTo": [
+      "When a stove is available - cooking or boiling water on a stove is faster and safer in rain.",
+      "Inside a tent, vehicle, or closed shelter - carbon monoxide and fire risk are deadly.",
+      "When you are already hypothermic and alone - get into dry insulation first, then try fire."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need fire in wet or rainy conditions — surface moisture is the challenge, but dry fuel exists inside standing dead wood",
-      "immediate": ["Split standing dead wood open by batoning — dry inner wood is your starting material regardless of surface wetness", "Build a base platform of dry split logs to elevate your fire off wet ground", "Shield your tinder from wind and rain with your body or an improvised windscreen"],
-      "then": ["Build small and concentrated — a compact fire lay establishes faster than a large one in wet conditions", "Feed aggressively once flame appears — any pause at this stage risks losing the fire"]
+      "situation": "You need fire and it has been raining, so the ground and most wood are wet.",
+      "immediate": [
+        "Work under safe overhead cover and keep tinder and ignition dry until use",
+        "Gather dead twigs still on trees and split dead sticks to reach the dry core",
+        "Make feather sticks, fatwood scrapings, or use kit tinder"
+      ],
+      "then": [
+        "Build on a platform of dry split sticks with a wind and rain shield",
+        "Feed small fuel steadily until you have a hand-sized coal bed, then add split wood"
+      ]
     }
   },
   {
@@ -111,34 +345,1482 @@
     "category": "fire",
     "title": "Fire Positioning and Safety",
     "priority": "beginner",
-    "tags": ["fire", "safety", "positioning", "beginner"],
-    "summary": "How to site, build, and maintain a fire safely in any environment.",
+    "tags": [
+      "fire",
+      "safety",
+      "campfire",
+      "site selection",
+      "wildfire prevention"
+    ],
+    "summary": "Where and how to place a fire so it stays small, useful, and under control. Follows current USDA Forest Service (Smokey Bear) and Leave No Trace campfire guidance.",
     "steps": [
-      { "step": 1, "title": "Site selection", "body": "Clear a 10-foot radius of flammable material. Ground fires should be built in a depression or on mineral soil (sand, gravel, bare rock), never on forest duff, peat, or humus — these can smolder underground for days and start a wildfire after you leave. Avoid building under low-hanging branches or near standing dead trees." },
-      { "step": 2, "title": "Build the fire ring", "body": "A ring of rocks contains the fire and reflects heat. Use dry, non-porous rocks — not river rocks, which can contain moisture that turns to steam and explodes. Arrange rocks in a circle 1–2 feet wider than your intended fire. Rocks must not be fully enclosed — leave gaps for airflow." },
-      { "step": 3, "title": "Construct the fire lay", "body": "Start with a tinder bundle (dry grass, bark shreds, leaves). Add pencil-sized kindling in a loose teepee or log cabin pattern. Then add finger-sized fuel, then wrist-sized fuel ready to add once established. Never pack fuel tightly — fire needs oxygen to burn." },
-      { "step": 4, "title": "Control the fire size", "body": "A fire the size of a dinner plate produces adequate cooking heat and significant warmth. Larger fires are fuel-inefficient, create more smoke, are visible at greater distance, and are harder to extinguish. Match fire size to your actual needs." },
-      { "step": 5, "title": "Extinguish completely", "body": "Drown with water until all hissing stops. Stir the ash and add more water. The ground should be cold to the touch before you leave or sleep. Buried embers can reignite hours later. 'If it's too hot to touch, it's too hot to leave.'" }
+      {
+        "step": 1,
+        "title": "Check if fire is allowed and safe",
+        "body": "Before you build anything, check for fire restrictions where you are - national forests, parks, counties, and states post them, and they change fast in dry weather (see fire-014). Do not build a fire in hot, dry, or windy conditions even if no rule bans it. Ask yourself if you truly need a fire. A small stove cooks faster and leaves no scar. If you do build one, have water (a full bucket or several bottles) and a shovel or sturdy stick ready before you light it."
+      },
+      {
+        "step": 2,
+        "title": "Use an existing fire ring if there is one",
+        "body": "At campsites, always use an existing metal fire ring or fire pit. It concentrates the impact in one place and is usually sited safely already. Where there is no ring and fires are allowed, Leave No Trace suggests a mound fire: lay a ground cloth or tarp, cover it with 3-5 inches (8-13 cm) of mineral soil, sand, or gravel taken from an already disturbed spot, and build the fire on top. Make the mound wider than the fire. Otherwise, dig a shallow pit about 1 foot (30 cm) deep in bare mineral soil."
+      },
+      {
+        "step": 3,
+        "title": "Pick a safe spot",
+        "body": "Choose flat, open ground with no overhanging branches. Keep the fire at least 15 feet (4.5 m) from tents, shelters, brush, trees, and low limbs. Overhead clearance should be at least three times the height of the flames. Avoid windy ridges and open, dry grass fields where a single ember can start a grass fire. Do not build on forest duff, peat, or thick roots - fire can creep and smolder underground for days and come up later as a wildfire. Avoid building against rock outcrops; the black scars last for years."
+      },
+      {
+        "step": 4,
+        "title": "Clear the area",
+        "body": "Clear a circle at least 10 feet (3 m) across around the fire down to bare soil: remove dry leaves, pine needles, grass, and twigs. In very dry or breezy weather, clear more. Ring the fire with a metal ring or a circle of dry rocks. Do not use rocks from creek beds or soaked ground - trapped water can turn to steam and crack or burst them. Stack your firewood upwind and well outside the cleared circle so stray sparks do not reach it."
+      },
+      {
+        "step": 5,
+        "title": "Keep it small and use the right fuel",
+        "body": "Build only as big a fire as you need. A small fire of wrist-thick or smaller wood gives plenty of heat for cooking and warmth, burns more completely, and is easier to put out. Gather only dead and down wood you can break by hand - never cut live trees or branches, and do not strip standing dead trees, which are wildlife habitat. Light with a match or lighter, never with gasoline or other flammable liquids. Do not burn trash, aerosol cans, pressurized containers, batteries, glass, or aluminum cans."
+      },
+      {
+        "step": 6,
+        "title": "Watch it every minute",
+        "body": "Never leave a fire alone, even for a short walk to get water. Keep children and pets back from the ring. Watch for wind changes and for sparks landing outside the ring. If the wind picks up, stop adding fuel and put the fire out. If fire escapes into vegetation or embers start spot fires that you cannot put out at once, get people to safety and call 911 right away."
+      },
+      {
+        "step": 7,
+        "title": "Put it out dead out",
+        "body": "Let the wood burn down to ash if you can. Then follow Drown, Stir, Drown, Feel: pour on water until the hissing stops, stir the ashes and wet soil with a shovel, scrape any partly burned sticks, drown it again, and then hold the back of your hand just above the ashes. If it is too hot to touch, it is too hot to leave. Dirt alone does not reliably put embers out. Full steps are in fire-014."
+      }
     ],
     "warnings": [
-      "Fire is visible from aircraft and distances of several miles at night — in a security scenario, use Dakota Hole fires (two connected holes, fire in one, airflow through the other) to reduce visible flame and smoke.",
-      "Carbon monoxide kills silently. Never build fire in an enclosed space — always ensure significant ventilation."
+      "Never build any fire in a tent, vehicle, or closed shelter. Carbon monoxide can kill without warning, and fabric ignites fast.",
+      "Fire can smolder in roots and duff for days and resurface as a wildfire after you leave.",
+      "Escaped campfires can lead to fines and liability for firefighting costs. Follow posted restrictions.",
+      "Wet or creek-bed rocks can burst when heated and throw sharp fragments."
     ],
     "proTips": [
-      "A Dakota Hole fire is the most fuel-efficient, low-visibility, weather-resistant fire design. Dig two 12-inch diameter holes about 12 inches deep, connected at the bottom by a diagonal tunnel. Light the fire in one hole — the tunnel creates a natural draft that feeds oxygen and keeps flame below surface level.",
-      "Reflected fire heat: build your fire between yourself and a natural or improvised reflector (large rock, log, bark panel). This directs 40–50% more heat toward you and reduces fuel consumption."
+      "A large rock or a wall of stacked logs behind the fire reflects heat toward you and blocks wind - keep it at least a few feet from the flames.",
+      "Sit with your back to the wind so smoke and sparks blow away from you, and site tents upwind of the fire.",
+      "Lay out all your water and tools before lighting so they are ready if something goes wrong.",
+      "For a low-profile, wind-resistant cooking fire, see the Dakota fire hole in fire-008."
     ],
-    "relatedGuides": ["fire-001", "fire-002", "fire-003"],
-    "source": "US Army FM 21-76 / Wilderness survival best practices",
-    "lastReviewed": "2025-01",
+    "relatedGuides": [
+      "fire-014",
+      "fire-008",
+      "fire-012",
+      "fire-015"
+    ],
+    "source": "USDA Forest Service (Smokey Bear) / Leave No Trace",
+    "sources": [
+      {
+        "title": "How to Maintain and Extinguish Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-maintain-and-extinguish-your-campfire",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Build Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-build-your-campfire",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Principle 5: Minimize Campfire Impacts",
+        "publisher": "Leave No Trace Center for Outdoor Ethics",
+        "url": "https://lnt.org/?p=27773",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "none",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "When fire restrictions are in effect - use an allowed stove instead or go without.",
+      "In high wind, very dry conditions, or red flag warnings.",
+      "Where you cannot reach bare mineral soil or a fire ring, such as deep duff, peat, or dry grassland."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need to establish a fire safely — improper site selection and extinguishing are the primary hazards",
-      "immediate": ["Clear a 10-foot radius of flammable material around the site", "Build on mineral soil, sand, or rock — never on forest duff or peat which can smolder underground", "Build a fire ring of dry non-porous rocks (not river rocks) — leave gaps for airflow"],
-      "then": ["Size the fire to actual need — a dinner-plate-sized fire produces adequate cooking heat", "Extinguish completely: drown with water, stir ash, add more water until ground is cold to touch"]
+      "situation": "You are about to build a fire outdoors and need to place it so it cannot escape.",
+      "immediate": [
+        "Check fire restrictions and skip the fire in dry or windy weather",
+        "Use an existing fire ring, or build on bare mineral soil 15 feet from tents, brush, and low branches",
+        "Clear a 10-foot-wide circle to bare soil and keep water and a shovel at hand"
+      ],
+      "then": [
+        "Keep the fire small and never leave it unattended",
+        "Put it out with Drown, Stir, Drown, Feel before you leave or sleep"
+      ]
+    }
+  },
+  {
+    "id": "fire-005",
+    "category": "fire",
+    "title": "Ferro Rod Technique and Tinder That Catches Sparks",
+    "priority": "critical",
+    "tags": [
+      "fire",
+      "ferro rod",
+      "ferrocerium",
+      "sparks",
+      "tinder",
+      "ignition"
+    ],
+    "summary": "How to throw hot, accurate sparks from a ferrocerium rod and which tinders actually catch them. A ferro rod works wet, in cold, and at altitude, so it is the best all-weather backup to a lighter.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know what a ferro rod is",
+        "body": "A ferro rod is a rod of ferrocerium, a man-made alloy that throws very hot sparks when scraped with a hard, sharp edge. It is not flint and not steel. It works after being dunked in water - just wipe it off - and is not affected by cold or wind the way a lighter is. A rod about 3/8 inch (10 mm) thick and 4 inches (10 cm) long will last for thousands of strikes and is much easier to use than thin keychain rods. Most come with a black protective coating; scrape it off on the first few strikes until you see bright metal."
+      },
+      {
+        "step": 2,
+        "title": "Choose your striker",
+        "body": "Use the included striker, the square 90-degree spine of a knife, or a hacksaw blade. The edge must be sharp and square. A rounded knife spine or a knife's cutting edge works poorly and dulls or chips the blade. Many survival knives have a spine ground square for this. If your striker skips without sparks, check that the edge is clean and square and that the rod's coating is off."
+      },
+      {
+        "step": 3,
+        "title": "Prepare the tinder bed first",
+        "body": "Sparks only last a second, so the tinder must be ready and fluffed. Good spark-catching tinders: cotton balls with petroleum jelly pulled open so dry fibers show, fatwood scraped into fine dust, birch bark scraped into a fuzzy pile, cattail or milkweed down, very fine dry grass rubbed between your palms, char cloth, or commercial tinder tabs. Raw twigs, chunky bark, and ordinary leaves will not catch a spark. Make a pile about the size of a golf ball to a tennis ball, on a dry base, with your kindling and fire lay ready beside it (see fire-007 and fire-008)."
+      },
+      {
+        "step": 4,
+        "title": "Use the pull-back method",
+        "body": "Kneel close to the tinder. Put the tip of the rod right in or touching the tinder pile. Hold the striker still at about a 45-degree angle against the rod, braced on the tinder or ground. Now pull the rod backward, up and away, while the striker stays put. This sends sparks straight down into the tinder instead of scattering them, and it keeps your striking hand from smashing your carefully built tinder. Pushing the striker forward toward the tinder works too, but beginners often knock the pile apart."
+      },
+      {
+        "step": 5,
+        "title": "Strike with firm pressure",
+        "body": "Press hard and make a long, smooth stroke along most of the rod's length. Slow, firm strokes shed more hot metal than fast, light flicks. You should see a shower of bright, white-orange sparks and molten bits landing in the tinder. Strike several times in a row if needed. When the tinder flames, lift it gently or slide kindling over it immediately. Fluffed petroleum-jelly cotton burns for a minute or more; grass and plant down flare for only seconds, so have the next size of fuel in hand."
+      },
+      {
+        "step": 6,
+        "title": "Troubleshoot and practice",
+        "body": "No sparks: the coating is still on, the striker is dull or rounded, or you are pressing too lightly. Sparks but no flame: the tinder is too coarse, damp, or packed tight - shred it finer and fluff it. Sparks bounce off: rub the tinder to make fuzzier fibers, or scrape a little ferro dust onto it first with slow light strokes, then strike hard. Practice at home with the rod you actually carry until you can light tinder in one or two strokes, and practice with cold, gloved hands too."
+      }
+    ],
+    "warnings": [
+      "Ferro rod sparks are hot molten metal and can burn skin and melt synthetic clothing. Strike away from your body and gear.",
+      "Never strike a ferro rod near spilled fuel, gasoline vapor, or a leaking gas canister or stove.",
+      "Strikes throw sparks outside the ring if you are careless. Clear the area and follow fire restrictions (see fire-014).",
+      "Do not use your knife's cutting edge to strike - it ruins the edge and your hand can slip onto the blade."
+    ],
+    "proTips": [
+      "Pre-make a small tin of cotton balls with petroleum jelly. Two or three cotton balls light even with cold hands and burn long enough to dry damp kindling.",
+      "Tie the rod and striker together with a short cord so you never lose one.",
+      "A ferro rod can also light a camp stove: open the valve a little and strike near the burner, never with your face over it.",
+      "Carry the ferro rod where you carry your lighter, so a dead lighter is never the end of the story (see fire-006)."
+    ],
+    "relatedGuides": [
+      "fire-007",
+      "fire-006",
+      "fire-008",
+      "fire-002",
+      "fire-003"
+    ],
+    "source": "OffGrid / Paul Kirtley / Backpacker / USDA Forest Service (Smokey Bear)",
+    "sources": [
+      {
+        "title": "Survival Tip: A Better Way to Strike a Ferro Rod",
+        "publisher": "OffGrid",
+        "url": "https://www.offgridweb.com/preparation/survival-tip-a-better-way-to-strike-a-ferro-rod/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fatwood",
+        "publisher": "Paul Kirtley",
+        "url": "https://paulkirtley.co.uk/2025/fatwood/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Build a Fire on Snow",
+        "publisher": "Backpacker",
+        "url": "https://www.backpacker.com/survival/build-a-fire-on-snow/?scope=anon",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Build Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-build-your-campfire",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Near fuel vapors, leaking gas, or inside a vehicle or tent.",
+      "When fire restrictions ban open flames - a spark still counts as ignition.",
+      "When you have no spark-catching tinder - prepare tinder first or use a lighter or match."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need to light a fire with a ferro rod, possibly in wet, cold, or windy weather.",
+      "immediate": [
+        "Make a fluffy, golf-ball-size pile of spark-catching tinder with kindling ready",
+        "Put the rod tip in the tinder, hold the striker still at 45 degrees, and pull the rod back hard",
+        "Feed the flame with the finest kindling right away"
+      ],
+      "then": [
+        "If sparks do not catch, shred the tinder finer or scrape ferro dust onto it first",
+        "Practice with your own rod until one or two strokes light tinder"
+      ]
+    }
+  },
+  {
+    "id": "fire-006",
+    "category": "fire",
+    "title": "Lighters and Matches: Choosing, Waterproofing, Storing",
+    "priority": "critical",
+    "tags": [
+      "fire",
+      "lighter",
+      "matches",
+      "waterproof",
+      "kit",
+      "ignition"
+    ],
+    "summary": "Which lighters and matches to carry, how they fail in cold, wind, and wet, and how to store them so they work when you need them. Carry at least two ways to make fire.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Carry more than one ignition source",
+        "body": "Lighters and matches are the fastest, easiest way to start a fire, so they should be your first choice. But each one can fail. Plan on at least two, better three: for example a butane lighter in a pocket, stormproof matches in a waterproof case in your kit, and a ferro rod as a backup that never runs out of fuel (see fire-005). FEMA's Ready kit list includes matches in a waterproof container for home emergency kits. Spread them out - one on your body, one in your pack, one in the vehicle - so losing a bag does not leave you with nothing."
+      },
+      {
+        "step": 2,
+        "title": "Pick the right lighter",
+        "body": "A standard disposable butane lighter with a flint wheel is cheap and reliable; choose a bright color and a see-through body so you can find it and check fuel. Jet or torch lighters resist wind better and can be held sideways, but they are more delicate and often harder to refill. Refillable naphtha (petrol) lighters handle wind well and have replaceable flints and wicks, but the fuel evaporates - expect to top them off every few days in summer or every couple of weeks in winter. Rechargeable plasma or arc lighters need battery charge and can fail when wet; treat them as extras, not your only source."
+      },
+      {
+        "step": 3,
+        "title": "Know how lighters fail in the cold",
+        "body": "Butane stays liquid near freezing, around 31 degrees F (-0.5 degrees C), and below that a butane lighter gives little or no flame. Even at around 40 degrees F (4-5 degrees C) the flame can be weak. Keep the lighter in an inside pocket close to your body and warm it in your hand before use. Wet flint wheels also struggle: blow on the wheel, dry it on your clothing, and strike several times. If a lighter is out of fuel, the spark wheel can still sometimes light very fine tinder like char cloth or petroleum-jelly cotton."
+      },
+      {
+        "step": 4,
+        "title": "Pick the right matches",
+        "body": "Ordinary safety matches only strike on their box, and the striker strip wears out and fails when damp. Strike-anywhere matches are handier but can be harder to find. Stormproof or windproof matches have a long coated head that burns hard for about 10-15 seconds, even in wind and after a dunk, and they relight if you lift them out of water. They need their own special striker strips, which wear quickly. Pack spare striker strips. Waterproof matches with coated heads are a cheaper middle choice."
+      },
+      {
+        "step": 5,
+        "title": "Waterproof and store them",
+        "body": "Store matches in a hard waterproof case with a gasket, or in a sealed pill bottle or zip bag inside another bag. Put a striker strip inside the case. Do not dip matches in nail polish or wax unless you test them afterward - home coatings often make them harder to strike. Keep lighters in a zip bag in your kit and out of hot cars or direct sun, which can make them leak. Store spares at home in a cool, dry place away from children, and check stock once a year."
+      },
+      {
+        "step": 6,
+        "title": "Light effectively in wind",
+        "body": "Kneel with your back to the wind and your body between the wind and your tinder. Cup the flame with your hands or hold the lighter inside the shelter of your fire lay. Light the bottom of the tinder on the upwind side so the flame is blown into the fuel. Hold a match head down at an angle so the flame climbs the stick, then put it under the tinder. Light a stick, birch bark curl, or feather stick first if wind keeps blowing out a small flame, then use that larger flame on the fire lay."
+      }
+    ],
+    "warnings": [
+      "Keep lighters and matches away from children. Store them up high or locked, and teach kids that they are tools, not toys.",
+      "Do not keep lighters on a vehicle dashboard or in direct sun - heat can make them leak or burst.",
+      "Lighter fluid and spare fuel are highly flammable. Store and carry them sealed, away from flame, and never use them to start or boost a campfire.",
+      "Check airline rules before flying with lighters or matches - many types are banned in checked or carry-on bags."
+    ],
+    "proTips": [
+      "Wrap a few feet of duct tape around your lighter body - it is useful for repairs and makes a quick fire extender when lit.",
+      "Test stormproof matches from each new box at home so you know they light.",
+      "Rotate disposable lighters out of your kit every couple of years - seals can slowly leak.",
+      "Child-resistant lighters can be hard to work with gloves or numb fingers. Practice lighting yours with gloves on, and keep stormproof matches or a ferro rod as the gloved-hand backup."
+    ],
+    "relatedGuides": [
+      "fire-005",
+      "fire-007",
+      "fire-010",
+      "fire-003"
+    ],
+    "source": "FEMA Ready America / Jack Raven Bushcraft / REI product data",
+    "sources": [
+      {
+        "title": "Ready America (Emergency Supply Kit)",
+        "publisher": "FEMA (copy hosted by Borough of Watchung, NJ)",
+        "url": "https://www.WatchungNJ.Gov/images/2021/09/Ready_America.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lighters",
+        "publisher": "Jack Raven Bushcraft",
+        "url": "https://www.jackravenbushcraft.co.uk/lighters/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "UCO Stormproof Match Kit",
+        "publisher": "REI",
+        "url": "https://www.rei.com/product/255936/uco-stormproof-match-kit",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Near gasoline, propane leaks, or other fuel vapor.",
+      "Inside a tent or closed vehicle to start any fire or burning fuel for heat."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are building a kit or about to light a fire and want your lighter or matches to work every time.",
+      "immediate": [
+        "Carry at least two ignition sources, stored in different places",
+        "Keep a butane lighter in an inside pocket in cold weather",
+        "Store matches with a striker strip in a waterproof case"
+      ],
+      "then": [
+        "Add stormproof matches and a ferro rod as backups",
+        "Shield the flame with your body and light the tinder's upwind side"
+      ]
+    }
+  },
+  {
+    "id": "fire-007",
+    "category": "fire",
+    "title": "Tinder and Kindling: Natural and Prepared",
+    "priority": "critical",
+    "tags": [
+      "fire",
+      "tinder",
+      "kindling",
+      "birch bark",
+      "fatwood",
+      "cotton balls",
+      "feather stick"
+    ],
+    "summary": "How to find, make, and size the fine fuel that turns a spark or match into a real fire. Most failed fires fail here - not enough tinder, or kindling that is too big too soon.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know the three sizes of fuel",
+        "body": "Every fire is built from three sizes. Tinder is the finest material that catches a flame or spark: dry grass, bark shreds, plant fluff, wood shavings. Kindling is small dry sticks under about 1 inch (2.5 cm) thick, from pencil-lead thin up to thumb thick. Fuel wood is larger pieces, roughly wrist thick for most campfires. Gather all three before you light anything. A good rule is a double handful of tinder, two big handfuls of kindling sorted by size, and an armload of fuel. Running out of kindling is the most common reason a new fire dies."
+      },
+      {
+        "step": 2,
+        "title": "Find natural tinder",
+        "body": "Look for things that are dry, fine, and fluffy. Good choices: dead dry grass and weed tops, shredded inner bark of dead cedar, juniper, cottonwood, or tulip-poplar, cattail and milkweed fluff, dry pine needles, and old bird or mouse nests (wear gloves). Dead lower twigs on evergreens, as thin as matchsticks, catch fast. Rub grass and bark between your palms until they form a fuzzy nest. Gather tinder from standing plants or protected spots, not from wet ground. Tinder that crackles and snaps is dry; tinder that bends limp is too damp."
+      },
+      {
+        "step": 3,
+        "title": "Use birch bark and fatwood",
+        "body": "Birch bark contains natural oils and burns hot even when damp. Peel the thin, papery outer layers from dead or fallen birch, or loose curls already shedding. Do not strip bark from living trees - it damages and can kill them. Tear it into thin strips or scrape it into fuzz for a ferro rod. Fatwood is resin-soaked pine heartwood found in old stumps, roots, and where dead branches join the trunk. It is heavy, amber to orange, and smells strongly of pine. Scrape it into dust to catch sparks, or shave thin curls to light with a match. A finger-sized stick burns for a minute or more."
+      },
+      {
+        "step": 4,
+        "title": "Carve feather sticks",
+        "body": "When everything is damp, carve your own tinder. Split a dead, dry stick about 1 inch (2.5 cm) thick to reach dry inner wood. Hold the stick against a solid surface at an angle and shave long, thin curls down toward the end, stopping before each curl falls off. Rotate and keep going until the end looks like a bunch of feathers. The thinner the curls, the easier they light. Make three or four sticks. Light the curls with a match or lighter and stand the burning stick under your kindling."
+      },
+      {
+        "step": 5,
+        "title": "Make prepared tinder at home",
+        "body": "Kit tinder is the surest way to start a fire in bad weather. Rub petroleum jelly into 100% cotton balls until they are saturated but still have some dry fibers, then pack 10-20 in a small pill bottle or zip bag. To use, pull one apart so dry fibers stick out, then light with a match, lighter, or ferro rod - each burns for about a minute or more. Other options: dryer lint (from cotton loads only), char cloth (see fire-002), commercial fire tabs or cubes, and a few inches of paraffin-soaked cardboard strips. Keep all of it in a waterproof container."
+      },
+      {
+        "step": 6,
+        "title": "Gather and sort kindling",
+        "body": "Collect only dead and down wood that you can break by hand. It should snap with a clean crack; if it bends, it is too wet or green. Never cut live trees or branches. Sort it into piles by thickness: matchstick, pencil, and thumb. Dead twigs still attached to trees are drier than sticks on the ground. In wet weather, split larger dead sticks to get dry inner wood for kindling. Keep sorted piles on bark or a dry tarp, within arm's reach of the fire lay."
+      },
+      {
+        "step": 7,
+        "title": "Feed the fire in order",
+        "body": "Place the tinder in the center of your fire lay, light it at the bottom on the upwind side, and add the thinnest kindling as soon as it flames. Move up one size at a time only when the current size is burning well. Leave space between pieces so air can get in. Blow gently at the base if it struggles. Once thumb-thick kindling burns steadily and makes coals, add fuel wood. If the fire dies, you almost always skipped a size or ran short."
+      }
+    ],
+    "warnings": [
+      "Never use gasoline, kerosene, or other liquid fuels to start or speed up a fire. Vapors can explode and cause severe burns.",
+      "Petroleum-jelly cotton and fatwood burn very hot and can drip burning material. Handle lit tinder carefully and light it on the ground, not in your hand.",
+      "Wear gloves when handling old animal nests, which can carry disease from rodent droppings.",
+      "Do not burn plastics, painted or treated wood, or trash as tinder - the smoke is toxic."
+    ],
+    "proTips": [
+      "Collect tinder as you walk - a pocket of dry grass or birch curls saves time when you stop for the night.",
+      "Store a handful of today's dry tinder and kindling under cover for tomorrow's fire.",
+      "Your kit should hold at least 10 pieces of prepared tinder. Use natural tinder when it is dry and save the kit tinder for bad weather.",
+      "A stick broken from a dead branch should snap cleanly. That snap test works for both kindling and fuel wood."
+    ],
+    "relatedGuides": [
+      "fire-008",
+      "fire-005",
+      "fire-003",
+      "fire-006",
+      "fire-015"
+    ],
+    "source": "USDA Forest Service (Smokey Bear) / Leave No Trace / Wilderness Awareness School / Paul Kirtley",
+    "sources": [
+      {
+        "title": "How to Build Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-build-your-campfire",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Principle 5: Minimize Campfire Impacts",
+        "publisher": "Leave No Trace Center for Outdoor Ethics",
+        "url": "https://lnt.org/?p=27773",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Flint and Steel Firemaking",
+        "publisher": "Wilderness Awareness School",
+        "url": "https://wildernessawareness.org/articles/flint-and-steel-firemaking",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fatwood",
+        "publisher": "Paul Kirtley",
+        "url": "https://paulkirtley.co.uk/2025/fatwood/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Build a Fire on Snow",
+        "publisher": "Backpacker",
+        "url": "https://www.backpacker.com/survival/build-a-fire-on-snow/?scope=anon",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Where gathering wood or plants is banned, such as some parks - bring prepared tinder and stove fuel instead.",
+      "When fire restrictions are in effect."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are about to build a fire and need fuel that will actually catch and keep burning.",
+      "immediate": [
+        "Gather a double handful of fine dry tinder and two big handfuls of kindling sorted by size",
+        "Use birch bark, fatwood, feather sticks, or petroleum-jelly cotton if things are damp",
+        "Only collect dead and down wood that snaps cleanly"
+      ],
+      "then": [
+        "Light the tinder at the bottom and add kindling one size at a time",
+        "Add fuel wood only after thumb-thick kindling is burning well"
+      ]
+    }
+  },
+  {
+    "id": "fire-008",
+    "category": "fire",
+    "title": "Fire Lays: Teepee, Log Cabin, Lean-To, Star, and Dakota Hole",
+    "priority": "beginner",
+    "tags": [
+      "fire",
+      "fire lay",
+      "teepee",
+      "log cabin",
+      "lean-to",
+      "star fire",
+      "dakota fire hole"
+    ],
+    "summary": "Five ways to arrange tinder, kindling, and fuel, and when each one works best. Pick the lay for the job: quick heat, long burn, wind, or low fuel.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Prepare before you build",
+        "body": "Every lay starts the same way. Pick a safe spot or existing fire ring (see fire-004), check restrictions, and have water ready. Gather a double handful of tinder, two big handfuls of kindling sorted by thickness, and fuel wood (see fire-007). Put a small platform of dry sticks or bark under the tinder if the ground is damp. Leave gaps between pieces in every lay - fire needs air as much as fuel. Face the opening of the lay toward the wind so the breeze pushes flame into the fuel."
+      },
+      {
+        "step": 2,
+        "title": "Teepee: fast start and quick heat",
+        "body": "Put the tinder bundle in the center. Lean the thinnest kindling around it in a cone, tips touching above the tinder, leaving a small door on the upwind side. Add a second ring of thicker kindling around the first. Light the tinder through the door. Flames rise up the cone, so the teepee catches quickly and throws a tall, hot flame good for boiling water or warming up fast. It burns fuel quickly and falls in as it burns. Once it collapses into coals, switch to another lay or keep adding sticks in a cone."
+      },
+      {
+        "step": 3,
+        "title": "Log cabin: long, steady burn and coals",
+        "body": "Build a small teepee of tinder and fine kindling. Around it, lay two sticks parallel, then two more across them at right angles, like a log cabin, stacking four to six layers. Make each layer a little smaller toward the top, and lay the finest kindling across the top. The structure lets in lots of air, burns evenly, and collapses into a flat, even bed of coals - ideal for cooking with a pan and for a fire that lasts. The Forest Service lists log cabin and crisscross lays as best for long-lasting fires."
+      },
+      {
+        "step": 4,
+        "title": "Lean-to: for wind",
+        "body": "Push a green or thick dead stick into the ground at about a 30-degree angle over the tinder, with the high end pointing into the wind, or lay a log on the upwind side of the tinder. Lean kindling against the stick or log on the downwind side, over the tinder. Light the tinder underneath. The big stick or log blocks the wind and the flames lick up the kindling. This is a good lay for windy spots and for a quick cooking fire."
+      },
+      {
+        "step": 5,
+        "title": "Star fire: saves fuel and needs little cutting",
+        "body": "Start a small teepee fire. Once it is going, lay four to six long logs or thick branches with their ends pointing into the fire like the spokes of a wheel. As the ends burn, push the logs inward. This keeps a small, controllable fire going for hours with little chopping and no need to cut long wood into short pieces. It is good for an all-night fire or when you lack an axe or saw. Pull the logs out to make the fire smaller; push them in to make it bigger."
+      },
+      {
+        "step": 6,
+        "title": "Dakota fire hole: low profile, wind resistant",
+        "body": "Dig a vertical hole about 1 foot (30 cm) deep and 8-12 inches (20-30 cm) wide in firm, bare soil free of roots. About 1 foot upwind, dig a second, smaller hole slanting down to connect with the bottom of the first. Build a small fire in the bottom of the main hole. Air is drawn down the side tunnel, so the fire burns hot and clean with little fuel and is hard to see. Set rocks or green sticks across the top to hold a pot. It is great for cooking in wind but not for warming a group."
+      },
+      {
+        "step": 7,
+        "title": "Match the lay to the job and clean up",
+        "body": "For fast heat or a signal fire: teepee. For cooking on coals or a long fire: log cabin. In wind: lean-to or Dakota hole. With little cutting gear or for overnight: star. You can combine them - for example, start a teepee inside a log cabin. Whichever you build, put it out Drown, Stir, Drown, Feel (see fire-014). After a Dakota hole is dead out, refill both holes with the soil you removed and replace any sod you lifted."
+      }
+    ],
+    "warnings": [
+      "Do not dig a Dakota hole in peat, deep duff, or soil full of roots - fire can travel underground and smolder for days.",
+      "A collapsing teepee or log cabin can roll burning sticks outside the ring. Keep the cleared area wide and the lay small.",
+      "Star fire log ends that stick out past the ring can carry fire into dry grass. Keep the spokes inside the cleared area.",
+      "Never use liquid fuel to get a lay going."
+    ],
+    "proTips": [
+      "Leave No Trace discourages digging new pits where a fire ring exists. Use the Dakota hole only where digging is allowed or in a true emergency, and restore the site.",
+      "Build a teepee inside a log cabin for the best of both: quick start and long burn.",
+      "A log or rock wall behind any lay reflects heat toward you and blocks wind.",
+      "For signaling, keep a teepee of dry kindling ready with green boughs nearby to make smoke."
+    ],
+    "relatedGuides": [
+      "fire-007",
+      "fire-004",
+      "fire-012",
+      "fire-009",
+      "fire-014"
+    ],
+    "source": "USDA Forest Service (Smokey Bear) / Leave No Trace / Art of Manliness",
+    "sources": [
+      {
+        "title": "How to Build Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-build-your-campfire",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Principle 5: Minimize Campfire Impacts",
+        "publisher": "Leave No Trace Center for Outdoor Ethics",
+        "url": "https://lnt.org/?p=27773",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Make a Dakota Fire Hole",
+        "publisher": "The Art of Manliness",
+        "url": "https://www.artofmanliness.com/skills/outdoor-survival/how-to-make-a-dakota-fire-hole",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "fire-007"
+    ],
+    "whenNotTo": [
+      "When fire restrictions are in effect or conditions are dry and windy.",
+      "Dakota hole: in peat, duff, rooty or rocky soil, or where digging is not allowed."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have tinder, kindling, and fuel ready and need to choose how to arrange them.",
+      "immediate": [
+        "Teepee for a fast, hot start; log cabin for a long burn and cooking coals",
+        "Lean-to or Dakota hole in wind; star fire to save fuel and cutting",
+        "Leave air gaps and face the lay's opening into the wind"
+      ],
+      "then": [
+        "Add fuel one size at a time as each catches",
+        "Put it out dead out and restore the site, refilling any holes"
+      ]
+    }
+  },
+  {
+    "id": "fire-009",
+    "category": "fire",
+    "title": "Keeping a Fire Going and Banking Coals Overnight",
+    "priority": "beginner",
+    "tags": [
+      "fire",
+      "maintenance",
+      "coals",
+      "banking",
+      "overnight",
+      "wood stove"
+    ],
+    "summary": "How to keep a fire burning steadily with the least wood, and how to save hot coals overnight in a wood stove so you can restart quickly in the morning. Outdoor fires should never be left burning while you sleep.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Build a coal bed first",
+        "body": "A lasting fire runs on coals, not flames. After lighting, keep feeding kindling and thumb-thick sticks until you have a bed of glowing coals at least as wide as your hand. Hardwood such as oak, hickory, maple, or ash makes longer-lasting coals than pine, spruce, or fir (see fire-015). Once the coal bed is established, the fire can handle larger, slightly damp wood that would have smothered it earlier. Dry the next pieces by stacking them near, but not in, the fire."
+      },
+      {
+        "step": 2,
+        "title": "Feed small and often",
+        "body": "Add two or three pieces at a time, crossing them or leaving gaps so air reaches every surface. Do not pile on a big load at once - that cuts off air, makes smoke, and wastes heat. Add new wood when the flames start to drop but before the last pieces burn out. Split wood catches and burns more evenly than round logs. Keep a stack of sorted wood within reach, upwind, and outside the cleared circle."
+      },
+      {
+        "step": 3,
+        "title": "Control air and size",
+        "body": "More air means a hotter, faster fire; less air means a slower, cooler one. Push burning ends together to make it hotter, spread them apart to cool it. A star fire (see fire-008), with long logs pushed in as they burn, keeps a small fire going for hours with little effort. A log or rock reflector on the far side throws heat back toward you so you need a smaller fire. A small hot fire uses less wood and makes less smoke than a big smoky one."
+      },
+      {
+        "step": 4,
+        "title": "Outdoors: do not leave it burning overnight",
+        "body": "The Forest Service is clear: never leave a campfire unattended, and put it out before you sleep or leave. An unattended fire can spread from a single ember in a wind shift. If you must keep warmth through the night in a true emergency, keep someone awake on fire watch in shifts, with water and a shovel ready, and keep the fire small. Otherwise put it out completely with Drown, Stir, Drown, Feel (see fire-014), save dry tinder and kindling under cover, and relight in the morning - it takes only minutes with prepared tinder."
+      },
+      {
+        "step": 5,
+        "title": "In a wood stove: bank the coals",
+        "body": "Banking only belongs in a closed wood stove or insert with its door shut, never an open fireplace. Let the evening's wood burn down to a thick bed of glowing coals. Rake the coals toward the center or back of the firebox, add one or two pieces of dense hardwood on top, and let them catch for 15-30 minutes with the air open so they char and do not smolder. Then turn the air control down to the stove maker's recommended low setting. Some people cover the coals and logs with a thin layer of ash to slow the burn."
+      },
+      {
+        "step": 6,
+        "title": "Keep the flue safe while banked",
+        "body": "Never close a stove pipe damper all the way while a fire or coals remain - smoke and carbon monoxide can back up into the room. Follow the stove manual's instructions for overnight burning. A long, smoldering, low-air burn with damp wood builds creosote fast, which leads to chimney fires, so burn only seasoned wood and have the chimney inspected and cleaned at least once a year. Make sure working smoke and carbon monoxide alarms are installed on every level and outside sleeping areas (see fire-013)."
+      },
+      {
+        "step": 7,
+        "title": "Revive the fire in the morning",
+        "body": "Open the air control fully. Rake the ash aside to expose the red coals and pull them together. Lay a handful of fine kindling or small split pieces on top of the coals, leaving space for air. Within a minute or two it should flame up. Add bigger wood once the kindling burns well. If the coals are dead, start fresh with tinder and kindling. Shovel extra ash into a metal can with a lid only once it is cool, and store the can outside at least 10 feet (3 m) from buildings."
+      }
+    ],
+    "warnings": [
+      "Never leave an outdoor fire unattended or burning while you sleep.",
+      "Never bank a fire in an open fireplace - embers can roll out and start a house fire.",
+      "Do not fully close a stove damper with coals inside. Carbon monoxide can build up and kill sleeping people.",
+      "Hot ashes can stay hot for days. Never put them in a paper bag, cardboard box, or plastic trash can."
+    ],
+    "proTips": [
+      "A large, dense hardwood log laid on a good coal bed in a stove can hold coals for many hours.",
+      "Put tomorrow morning's tinder and kindling in a dry spot before bed so a restart takes minutes.",
+      "Outdoors, a warm sleep system is safer than an all-night fire. Put insulation under you first.",
+      "A stovepipe thermometer helps you keep the stove in its safe burning range and avoid creosote buildup."
+    ],
+    "relatedGuides": [
+      "fire-013",
+      "fire-015",
+      "fire-008",
+      "fire-014",
+      "fire-004"
+    ],
+    "source": "USDA Forest Service (Smokey Bear) / U.S. Fire Administration / City of Lawrence, KS Fire Medical / Hunker",
+    "sources": [
+      {
+        "title": "How to Maintain and Extinguish Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-maintain-and-extinguish-your-campfire",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fireplace and Wood Stove Safety Card",
+        "publisher": "U.S. Fire Administration (FEMA)",
+        "url": "https://www.usfa.fema.gov/downloads/pdf/publications/fireplace_woodstove_safety_card.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fireplace & Wood Stove Safety",
+        "publisher": "Lawrence-Douglas County Fire Medical (City of Lawrence, KS)",
+        "url": "https://lawrenceks.gov/fire_medical/fireplace-wood-stove-safety",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Bank Ashes in Fireplaces",
+        "publisher": "Hunker",
+        "url": "https://www.hunker.com/12001523/how-to-bank-ashes-in-fireplaces/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "fire-008"
+    ],
+    "whenNotTo": [
+      "Outdoors while everyone sleeps - put the fire out instead.",
+      "In an open fireplace - banking is only for closed stoves and inserts.",
+      "If your stove manual says not to run it at low air overnight."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Your fire is going and you need it to last, or you want hot coals in the stove in the morning.",
+      "immediate": [
+        "Build a hand-wide bed of coals, then feed two or three pieces at a time",
+        "Outdoors, never leave a fire burning while you sleep - put it out or keep a fire watch",
+        "In a closed wood stove, rake coals together, add dense hardwood, let it char, then lower the air"
+      ],
+      "then": [
+        "Never fully close the damper; keep CO alarms working",
+        "In the morning, open the air, expose the coals, and add fine kindling"
+      ]
+    }
+  },
+  {
+    "id": "fire-010",
+    "category": "fire",
+    "title": "Fire in Snow, Wind, and Wet Ground",
+    "priority": "critical",
+    "tags": [
+      "fire",
+      "snow",
+      "winter",
+      "wind",
+      "wet ground",
+      "cold weather"
+    ],
+    "summary": "How to get a fire going and keep it going on snow, in strong wind, or on soggy ground. The keys are a solid platform, a wind break, and far more fuel than you think you need.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Decide if fire is the right move",
+        "body": "In cold weather a fire can save your life, but it costs energy and time. If you are wet and shivering, first get out of the wind, put on dry layers, and insulate yourself from the ground. Then build the fire. Pick a spot sheltered from wind - behind a boulder, a stand of trees, or a snowbank - but not under snow-loaded branches. Heat from the fire will melt that snow and dump it on your fire, or on you. In very strong wind or dry conditions with grass or brush nearby, an open fire can spread quickly; use a stove if you have one."
+      },
+      {
+        "step": 2,
+        "title": "On snow: dig down or build a platform",
+        "body": "A fire built directly on snow melts a hole and drowns itself. If the snow is shallow (under about 1 foot, 30 cm), dig or kick down to bare ground and build there. If it is deep, build a platform: lay a solid layer of green or thick dead logs, wrist to forearm thick, side by side on the snow. A second layer laid crosswise is even better. A large flat rock on top of the logs works well for the tinder. The platform keeps the fire off the snow while it melts in slowly from below."
+      },
+      {
+        "step": 3,
+        "title": "On wet ground: raise the fire",
+        "body": "Mud and puddles pull heat out of a young fire. Lay a platform of dry sticks or thick bark under the fire, or two parallel logs with a floor of sticks across them. Avoid peat bogs and deep forest duff - fire can burn down into them and smolder unseen. Keep everything you have prepared off the wet ground on bark, a pack lid, or a tarp. See fire-003 for finding dry fuel inside wet wood."
+      },
+      {
+        "step": 4,
+        "title": "Block the wind",
+        "body": "Wind blows out matches, scatters tinder, and drives sparks into dry grass. Build a wall of logs, rocks, or packed snow on the upwind side, about knee high. Kneel with your back to the wind while you light, using your body as a shield. Use a lean-to lay with the big stick or log upwind, or a Dakota fire hole if the ground allows (see fire-008). Keep the lay small and tight at first. In strong wind, a fire burns fuel much faster - stack extra wood."
+      },
+      {
+        "step": 5,
+        "title": "Use reliable ignition and kit tinder",
+        "body": "Cold makes butane lighters fail: below about 31 degrees F (-0.5 degrees C), butane does not turn to gas well. Keep your lighter in an inside pocket and warm it in your hand. A ferro rod works in any cold and after being wet (see fire-005), and stormproof matches burn in wind. Use prepared tinder, such as petroleum-jelly cotton balls, which light with numb hands. Have everything laid out before you take off your gloves - cold fingers lose dexterity in minutes."
+      },
+      {
+        "step": 6,
+        "title": "Gather much more fuel",
+        "body": "Cold air and snowmelt steal heat, so winter fires burn through wood fast. Before lighting, gather at least twice what you think you need: lots of dead, dry, standing wood, which is drier than buried branches. Dead lower branches on evergreens are a top source. Snap test: dry wood breaks with a crack. Keep the fuel pile on the platform edge or on a tarp so it does not sink into snow. Once a strong coal bed forms, add larger wood."
+      },
+      {
+        "step": 7,
+        "title": "Use the heat well and stay safe",
+        "body": "Build a reflector - a wall of stacked logs or a large rock - on the far side of the fire so heat bounces back toward you. Sit between the fire and a second reflector, such as your shelter or a snow wall. Melt snow in a pot for water instead of eating snow, which costs body heat. Never bring a fire, coals, or a camp stove into a closed tent or snow shelter for heat. Carbon monoxide builds up fast and can kill without warning."
+      }
+    ],
+    "warnings": [
+      "Never burn a fire or stove inside a tent, snow cave, vehicle, or closed shelter. Carbon monoxide poisoning is a leading winter killer.",
+      "Snow sliding off heated branches can bury your fire or injure you. Do not build under snow-loaded limbs.",
+      "In high wind, sparks can carry far into dry grass even in winter. Clear a wide area and keep water or snow and a shovel ready.",
+      "Fumbling and confusion are warning signs of hypothermia. If you cannot get a fire going, get into insulation and shelter."
+    ],
+    "proTips": [
+      "Carry a small square of closed-cell foam or a metal pot lid as an instant dry fire base on snow.",
+      "Pre-warm matches and lighters close to your body before you need them.",
+      "Feather sticks and fatwood work well in cold, but prepared tinder lights fastest with numb hands.",
+      "Bury snow-melt pots partly in the coals and keep them topped up so you always have warm water."
+    ],
+    "relatedGuides": [
+      "fire-003",
+      "fire-005",
+      "fire-006",
+      "fire-008",
+      "fire-007"
+    ],
+    "source": "USDA Forest Service (Smokey Bear) / CDC / Backpacker / Jack Raven Bushcraft",
+    "sources": [
+      {
+        "title": "Build a Fire on Snow",
+        "publisher": "Backpacker",
+        "url": "https://www.backpacker.com/survival/build-a-fire-on-snow/?scope=anon",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Build Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-build-your-campfire",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lighters",
+        "publisher": "Jack Raven Bushcraft",
+        "url": "https://www.jackravenbushcraft.co.uk/lighters/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "CDC Offers Winter Safety Tips",
+        "publisher": "CDC (archived)",
+        "url": "https://archive.cdc.gov/www_cdc_gov/media/releases/2021/p0217-winter-safety-tips.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [
+      "fire-007",
+      "fire-008"
+    ],
+    "whenNotTo": [
+      "Inside any enclosed shelter, tent, snow cave, or vehicle.",
+      "In strong wind next to dry grass or brush.",
+      "When a stove is available and you only need to melt snow or cook."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need fire on snow, in strong wind, or on soggy ground.",
+      "immediate": [
+        "Get out of the wind and into dry layers first",
+        "Dig to bare ground or build a log platform on the snow",
+        "Build a knee-high wind wall and use a ferro rod or warm lighter with kit tinder"
+      ],
+      "then": [
+        "Gather twice the fuel you think you need",
+        "Use a reflector and never bring fire or a stove into a closed shelter"
+      ]
+    }
+  },
+  {
+    "id": "fire-011",
+    "category": "fire",
+    "title": "Alternative Ignition: Sun Lens, Battery and Steel Wool, and Other Safe Methods",
+    "priority": "advanced",
+    "tags": [
+      "fire",
+      "ignition",
+      "magnifying glass",
+      "fresnel lens",
+      "steel wool",
+      "battery",
+      "solar"
+    ],
+    "summary": "Backup ways to make fire when you have no lighter, matches, or ferro rod: focusing sunlight with a lens, shorting steel wool across a battery, and using a dead lighter's spark. All need fine, ready tinder.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Prepare fine tinder and a fire lay first",
+        "body": "Every alternative method makes a small ember or brief flame, not a big fire. Have your fire lay built and a loose tinder bundle of fine, dry material ready before you try (see fire-007 and fire-008). Best ember-catchers: char cloth, charred punk wood, dry true tinder fungus, or dark, very fine dry plant fibers. Dark materials absorb sunlight better than light ones. Set up on a dry, cleared spot where fire is legal and safe."
+      },
+      {
+        "step": 2,
+        "title": "Use a magnifying lens",
+        "body": "Only convex lenses that magnify work: a magnifying glass, a flat plastic Fresnel lens the size of a credit card, a camera or binocular lens, or the magnifier on some compasses. Stacking two lenses from reading glasses can work. Bigger lenses with more magnification work best. You need direct, strong sun, ideally around midday - low morning and evening sun is weak. Hold the lens between the sun and the tinder and move it slowly up and down until the bright spot shrinks to the smallest pinpoint you can make."
+      },
+      {
+        "step": 3,
+        "title": "Hold the focus and grow the ember",
+        "body": "Hold the pinpoint perfectly still on one spot of char cloth or dark tinder. Brace your hands on your knees or the ground. Char cloth may glow within about 5-10 seconds; plain tinder can take much longer, and wind makes it harder. When you see steady smoke and a glowing spot, set the lens down, lift the ember into your tinder bundle, and blow gently until it flames. Never look at the focused spot for long - wear sunglasses if you have them, and never look at the sun through the lens."
+      },
+      {
+        "step": 4,
+        "title": "Use steel wool and a battery",
+        "body": "Fine steel wool (grade 0000 is best) burns when an electric current passes through its thin strands. Fluff a pad open and stretch it out a bit. Touch both terminals of a 9-volt battery to the wool, or bridge a strip of wool between the two ends of one or two flashlight batteries held end to end. The strands glow red and spread quickly. Drop the glowing wool into your tinder bundle and blow gently. Steel wool also burns when damp, but works best dry."
+      },
+      {
+        "step": 5,
+        "title": "Use a dead lighter or other spark",
+        "body": "A butane lighter with no fuel still throws sparks from its flint wheel. Hold the lighter upside down just above the tinder and spin the wheel hard so the sparks fall into char cloth, fluffed cotton, or very fine tinder held close. A ferro rod or the flint in a lighter both need fine tinder. A high-carbon steel striker against hard stone (see fire-002) also works with char cloth. Each of these produces sparks, so the tinder is what decides if you succeed."
+      },
+      {
+        "step": 6,
+        "title": "Store backup ignition safely",
+        "body": "Keep a Fresnel lens flat in your wallet or kit - it weighs almost nothing. If you carry steel wool and a battery, store them in separate sealed bags or containers. Keep 9-volt batteries in their package or tape over both terminals, because a 9-volt touching steel wool, keys, coins, or foil can short and start a fire in a drawer or pack. Practice each method at home in good weather so you know how long it takes and what tinder works."
+      },
+      {
+        "step": 7,
+        "title": "Know which methods to avoid",
+        "body": "Do not mix chemicals, use pool chemicals, or try any homemade powders or mixtures to make fire. They can ignite unpredictably, burn violently, or give off toxic fumes, and they are not needed. Do not try to make fire from a vehicle battery with jumper cables near fuel - car batteries can release explosive hydrogen gas and deliver very high current. Stick to the simple, tested methods in this guide and in fire-001, fire-002, and fire-005."
+      }
+    ],
+    "warnings": [
+      "Focused sunlight can burn skin and damage eyes in seconds. Never look at the sun or the focused spot through a lens.",
+      "Shaving mirrors, magnifying glasses, and water-filled glass left in sun indoors have started house fires. Store lenses covered or out of direct sun.",
+      "A 9-volt battery and steel wool together in a pocket or drawer can start a fire. Store them apart with the terminals taped.",
+      "Batteries get hot when shorted. Hold them only briefly and let go if they heat up.",
+      "Never experiment with chemical mixtures or fuel to make fire."
+    ],
+    "proTips": [
+      "A credit-card Fresnel lens in your wallet is the lightest backup fire starter you can carry.",
+      "Blacken light tinder with charcoal from an old fire to help a lens light it faster.",
+      "Steel wool also makes a great spark-catcher for a ferro rod or flint and steel.",
+      "Make char cloth whenever you have a fire going, so your backup methods have the tinder they need."
+    ],
+    "relatedGuides": [
+      "fire-005",
+      "fire-002",
+      "fire-007",
+      "fire-006",
+      "fire-001"
+    ],
+    "source": "Jack Raven Bushcraft / Colorado Springs Fire Department / Wilderness Awareness School",
+    "sources": [
+      {
+        "title": "Solar Ignition Methods for Fire Lighting",
+        "publisher": "Jack Raven Bushcraft",
+        "url": "https://www.jackravenbushcraft.co.uk/solar-ignition-methods-fire-lighting/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "9-Volt Battery Fire Safety",
+        "publisher": "Colorado Springs Fire Department",
+        "url": "https://csfd.coloradosprings.gov/page/9-volt-battery-fire-safety",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Lighters",
+        "publisher": "Jack Raven Bushcraft",
+        "url": "https://www.jackravenbushcraft.co.uk/lighters/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Flint and Steel Firemaking",
+        "publisher": "Wilderness Awareness School",
+        "url": "https://wildernessawareness.org/articles/flint-and-steel-firemaking",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "fire-007"
+    ],
+    "whenNotTo": [
+      "When fire restrictions are in effect.",
+      "Lens methods: on cloudy days, early morning, or late evening when the sun is weak.",
+      "Battery methods: near fuel, gas, or inside a pack or vehicle."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have no lighter, matches, or ferro rod and need another way to make an ember.",
+      "immediate": [
+        "Build the fire lay and prepare fine, dark tinder or char cloth first",
+        "In strong sun, focus a magnifying or Fresnel lens to a tiny pinpoint and hold it still",
+        "Or touch fine steel wool across both terminals of a 9-volt battery"
+      ],
+      "then": [
+        "Move the ember into a tinder bundle and blow gently until it flames",
+        "Store steel wool and batteries apart with terminals taped"
+      ]
+    }
+  },
+  {
+    "id": "fire-012",
+    "category": "fire",
+    "title": "Cooking Fires: Heat Control, Pot Supports, and Rocket Stoves",
+    "priority": "beginner",
+    "tags": [
+      "fire",
+      "cooking",
+      "coals",
+      "pot support",
+      "rocket stove",
+      "fuel efficiency"
+    ],
+    "summary": "How to build a fire you can actually cook on: cook over coals not flames, support pots safely, control heat, and build a simple rocket stove that boils water with a handful of sticks.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Cook on coals, not tall flames",
+        "body": "Tall flames scorch the outside of food, blacken pots, and are hard to control. Coals give even, steady heat. Start a log cabin or crisscross fire (see fire-008) with split hardwood if you have it, and let it burn down for 20-45 minutes until you have a bed of glowing coals with little flame. Keep a small feeder fire burning to one side of the ring and rake fresh coals over to the cooking area as you need them. For boiling water fast, a small, hot teepee fire under the pot works well."
+      },
+      {
+        "step": 2,
+        "title": "Control the heat",
+        "body": "Make zones: a thick pile of coals for high heat, a thin layer for medium, and bare ground for keeping food warm. Move the pot between zones rather than trying to change the whole fire. A simple test: hold your hand palm-down at cooking height. If you must pull away in about 2 seconds, the heat is high; 4-5 seconds is medium; 6-8 is low. Add fuel to the feeder fire, not under the pot, so the cooking heat stays steady."
+      },
+      {
+        "step": 3,
+        "title": "Set up a stable pot support",
+        "body": "A pot of boiling water tipping over causes serious burns. Use a metal grate over the ring if one is there. Otherwise, set three flat, dry rocks of equal height around the coals to hold the pot - never creek-bed rocks, which can crack or burst. Two green logs laid side by side a few inches apart make a long, stable stove with coals between them. A tripod of green poles lashed at the top can hang a pot from a chain or wire. Test that the pot sits level and solid before you fill it."
+      },
+      {
+        "step": 4,
+        "title": "Build a simple rocket stove",
+        "body": "A rocket stove burns small sticks very efficiently. The design has a short horizontal or angled feed tube that leads into a taller vertical chimney, with the fire burning where they meet. Build one from bricks or stacked flat rocks in an L shape, or from two metal cans: a large can as the body, a smaller can as the chimney, and a side hole for the feed. Surround the chimney with insulation such as wood ash, sand, or dirt. Home-scale stoves work with an opening around 4 inches (10 cm) across."
+      },
+      {
+        "step": 5,
+        "title": "Run the rocket stove right",
+        "body": "Raise the sticks on a small shelf or grate inside the feed opening so air flows under them. Feed sticks in by their tips and only burn the ends; push them in as they burn. Do not overload it - a few thumb-thick sticks at a time is plenty. The hot, insulated chimney creates strong draft, so the fire burns hot with little smoke. Make the chimney about two to three times as tall as it is wide before the pot. Leave a small gap, about 1/2 inch (1 cm), between the chimney top and the pot so hot gas can flow out and around it."
+      },
+      {
+        "step": 6,
+        "title": "Cook food safely",
+        "body": "Bring water to a full rolling boil to disinfect it. Cook meat until it is hot all the way through with no pink juices; a food thermometer is the only sure test. Keep raw meat away from other food and wash hands and tools. Use long tongs or a stick, and leather or wool gloves, to handle pots. Pot handles and lids get very hot. Pour hot water away from your body. Keep children and pets well back from the cooking area."
+      },
+      {
+        "step": 7,
+        "title": "Shut it down",
+        "body": "Stop adding wood 30 minutes or more before you finish so the fuel burns down to ash. Lift pots off before you put the fire out. Then follow Drown, Stir, Drown, Feel (see fire-014). For a rocket stove, let it burn out, then drown the ashes in the chamber and check that the outside is cool before you move or pack it."
+      }
+    ],
+    "warnings": [
+      "Never cook with charcoal, a grill, or a camp stove inside a home, garage, tent, or shelter. Carbon monoxide can kill.",
+      "Unstable pots of boiling water cause severe scald burns. Test every pot support before filling.",
+      "Wet or creek-bed rocks can burst when heated and throw sharp fragments.",
+      "A rocket stove's metal parts and chimney get extremely hot. Do not touch them, and set it up on bare ground away from anything that can burn."
+    ],
+    "proTips": [
+      "Lids save fuel: a covered pot boils noticeably faster than an open one.",
+      "Hardwood coals from oak, hickory, or maple last much longer for cooking than softwood coals.",
+      "Rub a little soap on the outside of a pot before cooking - the soot will wash off much more easily.",
+      "Wrap food in foil and bury it in coals for slow cooking without watching the flame."
+    ],
+    "relatedGuides": [
+      "fire-008",
+      "fire-015",
+      "fire-004",
+      "fire-014",
+      "fire-009"
+    ],
+    "source": "Aprovecho (Winiarski rocket stove principles) / USDA Forest Service (Smokey Bear) / CDC",
+    "sources": [
+      {
+        "title": "Larry Winiarski's Rocket Stove Principles",
+        "publisher": "Aprovecho Research Center via BioEnergy Lists",
+        "url": "https://bioenergylists.org/stovesdoc/Still/Rocket%20Stove/Principles.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Build Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-build-your-campfire",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Avoiding Carbon Monoxide Poisoning",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/avoiding-carbon-monoxide-poisoning.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "fire-008"
+    ],
+    "whenNotTo": [
+      "Indoors, in a garage, or in any enclosed space.",
+      "During fire restrictions - in many areas only pressurized gas stoves with an on/off valve are allowed (see fire-014)."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need to cook food or boil water over a wood fire.",
+      "immediate": [
+        "Let a log cabin fire burn down to coals and cook over the coals",
+        "Support the pot on a grate, three equal dry rocks, or two green logs and test it is stable",
+        "For low fuel, build a rocket stove and feed sticks by their tips"
+      ],
+      "then": [
+        "Move the pot between hot and cool coal zones to control heat",
+        "Let the fire burn to ash and put it out dead out"
+      ]
+    }
+  },
+  {
+    "id": "fire-013",
+    "category": "fire",
+    "title": "Indoor Fire and Heating Safety: Fireplaces, Wood Stoves, and Carbon Monoxide",
+    "priority": "critical",
+    "tags": [
+      "fire",
+      "home heating",
+      "wood stove",
+      "fireplace",
+      "carbon monoxide",
+      "co alarm",
+      "power outage"
+    ],
+    "summary": "How to heat with a fireplace or wood stove without starting a house fire or poisoning your family with carbon monoxide, especially during a power outage. Based on U.S. Fire Administration, CPSC, and CDC guidance.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Install and test alarms",
+        "body": "Carbon monoxide (CO) is a colorless, odorless gas made by anything that burns fuel. CPSC reports more than 150 people in the U.S. die each year from accidental non-fire CO poisoning tied to consumer products. Install CO alarms on every level of your home and outside each sleeping area. Install smoke alarms on every level, inside and outside sleeping areas. Test all alarms monthly and replace batteries at least once a year. In a power outage, plug-in alarms without battery backup will not work - use battery or battery-backup units."
+      },
+      {
+        "step": 2,
+        "title": "Never use outdoor equipment indoors",
+        "body": "Never run a generator, charcoal grill, camp stove, or other gasoline-, propane-, or charcoal-burning device inside a home, basement, garage, or carport - even with doors or windows open. CDC says to keep generators outdoors and at least 20 feet (6 m) from doors, windows, and vents. Do not heat your home with a gas oven or range. Do not burn anything in a stove or fireplace that is not vented to the outside. Never run a vehicle in an attached garage."
+      },
+      {
+        "step": 3,
+        "title": "Check the chimney and stove",
+        "body": "Have a certified professional inspect and clean your chimney, fireplace, or wood stove once a year, before heating season. Creosote, a tar that builds up in chimneys from smoky fires, is a leading cause of home heating fires. Look for a chimney cap with spark arrester screen, and trim branches hanging over the chimney. Make sure the damper opens fully. If you are using a fireplace or stove that has sat unused, have it inspected before you light it - nests and blockages can send smoke and CO back into the house."
+      },
+      {
+        "step": 4,
+        "title": "Keep clearance and use screens",
+        "body": "Keep anything that can burn - furniture, curtains, bedding, paper, firewood, clothing - at least 3 feet (1 m) from a fireplace, wood stove, or space heater. Use a sturdy metal mesh screen or glass doors on fireplaces to stop sparks and rolling logs. Set up a 3-foot kid-free zone around the stove or fireplace. Keep a fire extinguisher nearby and know how to use it. Do not dry clothes on or close to a stove."
+      },
+      {
+        "step": 5,
+        "title": "Burn it right",
+        "body": "Burn only dry, seasoned wood (see fire-015). Wet or green wood makes more smoke and creosote. Never use gasoline, lighter fluid, or other flammable liquids to start or boost an indoor fire. Do not burn trash, cardboard boxes, wrapping paper, treated or painted wood, or plastics - they can flare up, throw burning bits up the chimney, or release toxic smoke. Build small fires that burn hot and clean. Keep the wood stove air inlets open enough for a good burn and never fully close the damper while a fire or coals remain."
+      },
+      {
+        "step": 6,
+        "title": "Never leave a fire unattended",
+        "body": "Put the fire out or let it burn down safely in a closed stove before you go to bed or leave the house. In an open fireplace, never leave a fire burning overnight. If you bank coals in a closed wood stove, follow the stove manual and keep CO alarms working (see fire-009). Hot ashes can stay hot for days: let them cool, shovel them into a metal container with a tight lid, wet them down, and set the container outside at least 10 feet (3 m) from your home and other buildings. Never put ashes in a paper bag, cardboard box, or plastic trash can."
+      },
+      {
+        "step": 7,
+        "title": "Know the signs of CO poisoning and act",
+        "body": "Early CO poisoning often feels like the flu: headache, dizziness, light-headedness, nausea, weakness, or confusion. If several people or pets in the home feel sick at once, or feel better when they leave, suspect CO. If a CO alarm sounds or you suspect CO, get everyone outside to fresh air right away and call 911 from outside. Do not go back in until responders say it is safe. Anyone with symptoms needs medical attention promptly, even if they start to feel better outside."
+      }
+    ],
+    "warnings": [
+      "Never use a generator, grill, camp stove, or gas oven to heat your home. Carbon monoxide can kill in minutes without any smell.",
+      "A CO alarm sounding is an emergency. Get outside first, then call 911.",
+      "Do not burn charcoal indoors in any amount, including in a fireplace.",
+      "Never bring an outdoor fire's coals indoors in a pan or bucket for heat.",
+      "This guide is general safety information, not medical advice. Anyone who may have CO poisoning needs emergency medical care."
+    ],
+    "proTips": [
+      "Buy combination smoke and CO alarms with sealed 10-year batteries so a power outage or dead battery does not leave you unprotected.",
+      "In a long outage, heat one small room with the stove or fireplace and close it off to hold heat, keeping alarms working in that room.",
+      "Stack firewood outdoors, ideally about 30 feet (9 m) from the house, and bring in only what you will burn that day.",
+      "A stovepipe thermometer shows when a stove is burning too cool and building creosote."
+    ],
+    "relatedGuides": [
+      "fire-009",
+      "fire-015",
+      "fire-014",
+      "fire-004"
+    ],
+    "source": "U.S. Fire Administration / CPSC / CDC",
+    "sources": [
+      {
+        "title": "Fireplace and Wood Stove Safety Card",
+        "publisher": "U.S. Fire Administration (FEMA)",
+        "url": "https://www.usfa.fema.gov/downloads/pdf/publications/fireplace_woodstove_safety_card.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "CO Alarms",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/CO-Alarms",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Carbon Monoxide Safety Toolkit",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/Safety-Education/Neighborhood-Safety-Network/Toolkits/Carbon-Monoxide/Carbon-Monoxide-Safety-Toolkit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Avoiding Carbon Monoxide Poisoning",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/avoiding-carbon-monoxide-poisoning.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fireplace & Wood Stove Safety",
+        "publisher": "Lawrence-Douglas County Fire Medical (City of Lawrence, KS)",
+        "url": "https://lawrenceks.gov/fire_medical/fireplace-wood-stove-safety",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not use a fireplace or stove whose chimney is damaged, blocked, or uninspected after a storm, earthquake, or long disuse.",
+      "Do not use any fuel-burning heater indoors that is not designed and vented for indoor use."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You are heating your home with a fireplace or wood stove, or the power is out and you are tempted to use other fuel-burning devices indoors.",
+      "immediate": [
+        "Make sure battery-powered CO and smoke alarms work on every level and outside bedrooms",
+        "Never use generators, grills, camp stoves, or gas ovens for indoor heat - generators 20+ feet outside",
+        "Keep everything that can burn 3 feet from the stove or fireplace and use a screen"
+      ],
+      "then": [
+        "Store cooled ashes in a lidded metal can at least 10 feet from the house",
+        "If a CO alarm sounds or people feel dizzy or sick, get outside and call 911"
+      ]
+    }
+  },
+  {
+    "id": "fire-014",
+    "category": "fire",
+    "title": "Putting Fires Out and Preventing Wildfires",
+    "priority": "critical",
+    "tags": [
+      "fire",
+      "extinguish",
+      "dead out",
+      "wildfire",
+      "fire restrictions",
+      "prevention"
+    ],
+    "summary": "How to put a campfire dead out with Drown, Stir, Drown, Feel, how to read Stage 1 and Stage 2 fire restrictions, and how to avoid starting a wildfire with sparks, vehicles, and equipment.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Check restrictions before you light",
+        "body": "Most wildfires are started by people. National forests, parks, states, and counties post fire restrictions that change with conditions, sometimes within days. Check the land manager's website or ranger station before every trip. In Stage 1 restrictions on many national forests, campfires are allowed only in provided fire rings in developed recreation sites, and smoking only in a vehicle, building, or cleared spot. In Stage 2, all wood and charcoal fires are banned, even in developed sites, and some engine use is limited during the day. Pressurized gas stoves with an on/off valve are usually still allowed."
+      },
+      {
+        "step": 2,
+        "title": "Have tools ready before lighting",
+        "body": "Before you light any fire, set out at least a full bucket or several gallons (liters) of water and a shovel or sturdy digging tool. Keep a phone handy. If the fire escapes into vegetation or embers start fires outside the ring that you cannot put out right away, get everyone to safety and call 911 at once. Do not try to fight a growing wildfire yourself. Escaped campfires can bring fines and a bill for firefighting costs."
+      },
+      {
+        "step": 3,
+        "title": "Let it burn down",
+        "body": "About 30-60 minutes before you want the fire out, stop adding wood. Let logs burn down to ash, pushing ends into the center. Leave No Trace recommends burning all wood to white ash. Large logs that will not burn down in time need extra work: pull them apart and soak them separately. Plan ahead so you are not rushing to put the fire out in the dark."
+      },
+      {
+        "step": 4,
+        "title": "Drown",
+        "body": "Pour plenty of water over all of the fire, embers, and coals - not just the red ones, the dark ones too. Keep pouring until the hissing stops. Splash water on the rocks around the ring as well. Dirt and sand alone do not reliably put out embers; they can insulate coals so they stay hot for hours and reignite later. If you are very short on water, mix dirt or sand in with what water you have, but keep working until everything is cool."
+      },
+      {
+        "step": 5,
+        "title": "Stir, then drown again",
+        "body": "With a shovel or stick, stir the wet ashes, embers, and soil together. Scrape burned sticks and logs to remove any glowing or smoldering bits. Dig around the edges of the ring and under rocks where embers hide. Turn over anything that could still be burning underneath. Then drown it all again with more water and stir once more. Repeat until there is no smoke and no steam."
+      },
+      {
+        "step": 6,
+        "title": "Feel",
+        "body": "Hold the back of your hand just above the ashes. If you feel heat, keep adding water and stirring. When you cannot feel heat, carefully touch the ashes, the soil underneath, and the larger pieces. Everything should be cool. The Forest Service rule: if it is too hot to touch, it is too hot to leave. This is what firefighters mean by dead out - no heat, no smoke, no glow."
+      },
+      {
+        "step": 7,
+        "title": "Prevent sparks from vehicles and equipment",
+        "body": "Many wildfires start from sparks, not campfires. Never park or idle a vehicle on dry grass; hot exhaust parts can ignite it. Secure trailer safety chains so they do not drag and throw sparks, and check tire pressure and bearings. Use chainsaws, mowers, and other small engines only with a working spark arrester, and avoid using them in dry grass on hot, windy afternoons. Never burn debris on windy or dry days, and follow local burn permit rules. Fireworks and exploding targets are banned on national forest land at all times."
+      }
+    ],
+    "warnings": [
+      "Never bury a fire with dirt and walk away. Buried coals can stay hot for many hours and reignite.",
+      "Never leave a fire unattended, even for a few minutes.",
+      "If a fire escapes, call 911 and get out of its path. Do not try to fight a growing wildfire.",
+      "Ignoring fire restrictions can mean fines, criminal charges, and paying the cost of fighting a fire you start."
+    ],
+    "proTips": [
+      "Bring more water than you think you need - a full fire can take several buckets to put dead out.",
+      "Put the fire out in daylight before you settle in, so you can see every ember.",
+      "Check the fire site again before you leave in the morning, even if you put it out the night before.",
+      "A collapsible bucket weighs almost nothing and makes Drown, Stir, Drown, Feel much easier."
+    ],
+    "relatedGuides": [
+      "fire-004",
+      "fire-008",
+      "fire-012",
+      "fire-009"
+    ],
+    "source": "USDA Forest Service (Smokey Bear, Tonto and Colville National Forests) / Leave No Trace",
+    "sources": [
+      {
+        "title": "How to Maintain and Extinguish Your Campfire",
+        "publisher": "USDA Forest Service / Smokey Bear",
+        "url": "https://smokeybear.com/en/prevention-how-tos/campfire-safety/how-to-maintain-and-extinguish-your-campfire",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fire Restrictions - Tonto National Forest",
+        "publisher": "USDA Forest Service",
+        "url": "https://fs.usda.gov/r03/tonto/fire/fire-restrictions",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fire Restrictions - Colville National Forest",
+        "publisher": "USDA Forest Service",
+        "url": "https://www.fs.usda.gov/r06/colville/fire/fire-restrictions",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Principle 5: Minimize Campfire Impacts",
+        "publisher": "Leave No Trace Center for Outdoor Ethics",
+        "url": "https://lnt.org/?p=27773",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "One Less Spark, One Less Wildfire Campaign",
+        "publisher": "Forests and Rangelands (USFS / CAL FIRE partners)",
+        "url": "https://www.forestsandrangelands.gov/success/stories/2013/documents/OneLessSparkOneLessWildfireCampaign.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not try to put out a fire that has spread into surrounding vegetation - get to safety and call 911."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are done with a campfire, or you are deciding whether a fire is allowed at all.",
+      "immediate": [
+        "Check current fire restrictions - Stage 2 bans all wood and charcoal fires",
+        "Drown the fire with water until the hissing stops",
+        "Stir ashes, embers, and soil, scrape logs, and drown again"
+      ],
+      "then": [
+        "Feel with the back of your hand - if it is too hot to touch, it is too hot to leave",
+        "If fire escapes, get to safety and call 911"
+      ]
+    }
+  },
+  {
+    "id": "fire-015",
+    "category": "fire",
+    "title": "Choosing Firewood: Species, Moisture, and Processing",
+    "priority": "beginner",
+    "tags": [
+      "fire",
+      "firewood",
+      "seasoning",
+      "moisture",
+      "hardwood",
+      "softwood",
+      "splitting",
+      "heating"
+    ],
+    "summary": "Which woods give the most heat, how to tell if wood is dry enough to burn, and how to cut, split, and stack it so it seasons properly. Dry wood means more heat, less smoke, and less chimney creosote.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know why dry wood matters",
+        "body": "Freshly cut green wood can be 50% water or more by weight. That water must boil off before the wood can burn, which wastes heat and makes lots of smoke. In a stove or fireplace, smoky fires build creosote in the chimney, a leading cause of home heating fires. EPA Burn Wise guidance says wood burns best at 20% moisture or less. EPA stopped updating its Burn Wise pages in October 2025, but the 20% target is still the standard state air agencies and stove makers use."
+      },
+      {
+        "step": 2,
+        "title": "Pick high-heat species",
+        "body": "Dense hardwoods hold the most heat per cord and make long-lasting coals. Utah State University Extension lists Osage-orange, Gambel and white oak (white oak about 29 million BTU per cord), black locust, and beech near the top. Hickory, ash, maple, and birch are also very good. Lighter woods - cottonwood, aspen, basswood, white fir, and cedar - give about half the heat per cord and burn fast, but they light easily and are fine for kindling and quick fires. Pine, spruce, and juniper spark and pop more, which can throw embers from an open fireplace; use a screen."
+      },
+      {
+        "step": 3,
+        "title": "Gather legally and safely",
+        "body": "At campsites, collect only dead and down wood you can break by hand, about wrist thick or smaller - never cut live trees or strip standing dead ones. Many parks ban gathering, and moving firewood long distances can spread tree-killing insects and diseases; buy or gather wood locally where you will burn it. For home heating, cut only on your land or with a permit. Felling trees is dangerous; if you are not trained in chainsaw safety, leave it to someone who is, and always wear eye, ear, leg, and head protection."
+      },
+      {
+        "step": 4,
+        "title": "Cut and split",
+        "body": "Cut rounds to fit your stove or fire ring, usually 16 inches (40 cm) for most stoves - a few inches shorter than the firebox. Split every round at least once, even small ones. Split wood dries much faster than round wood because bark slows drying. Rounds wider than about 6 inches (15 cm) should be split into pieces 3-6 inches across. Split on a solid chopping block, with your feet shoulder-width apart and the block close enough that a missed swing hits the block or ground in front of you, not your legs, and keep other people well back. Some woods, like elm, beech, and sycamore, are hard to split; ash, cherry, and most pines split easily."
+      },
+      {
+        "step": 5,
+        "title": "Stack and season",
+        "body": "Stack split wood off the ground on pallets or rails, in single rows with gaps for air to pass through. Put it in a sunny, breezy spot. Cover only the top with a roof or tarp so rain runs off, and leave the sides open. EPA Burn Wise recommends seasoning softwood at least 6 months and hardwood at least 12 months. Dense oak can take longer. Store your main woodpile at least 30 feet (9 m) from the house to reduce fire risk and keep insects out."
+      },
+      {
+        "step": 6,
+        "title": "Test if it is ready",
+        "body": "A cheap moisture meter gives the best answer: split a piece and push the pins into the fresh inner face, not the end or bark. Under 20% is ready. Without a meter, check several signs: seasoned wood is lighter, gray or faded at the ends, and has deep cracks running from the center out. Knock two pieces together - dry wood sounds hollow, wet wood sounds dull. A freshly split surface that feels damp or cool means it is not ready. When burned, dry wood lights easily; wet wood hisses, steams, and smokes."
+      },
+      {
+        "step": 7,
+        "title": "Know what never to burn",
+        "body": "Do not burn painted, stained, or pressure-treated lumber, plywood, or particleboard - they release toxic smoke and chemicals. Do not burn plastics, trash, cardboard boxes, or wrapping paper in a stove or fireplace. Avoid driftwood from salt water, which can corrode stoves. Do not burn poison ivy, oak, or sumac vines; the smoke can cause severe lung and skin reactions. Never use wet, green, or rotten wood as your main heating fuel."
+      }
+    ],
+    "warnings": [
+      "Chainsaws and axes cause serious injuries. Use protective gear and never cut alone or when exhausted.",
+      "Burning wet wood in a stove builds creosote quickly, which can cause a chimney fire. Burn only seasoned wood and have the chimney cleaned yearly.",
+      "Smoke from poison ivy, oak, or sumac can cause severe breathing problems. Never burn them.",
+      "Do not move firewood long distances - it can spread invasive pests. Follow local firewood rules."
+    ],
+    "proTips": [
+      "Cut and split next winter's wood this spring so it has a full summer to dry.",
+      "A cord is a stack 4 feet high, 4 feet deep, and 8 feet long (128 cubic feet). A face cord is much smaller - ask which you are buying.",
+      "Mix fuels: softwood to start a fire quickly, hardwood to keep it going.",
+      "In an emergency, dead branches still attached to standing trees are usually the driest wood available."
+    ],
+    "relatedGuides": [
+      "fire-013",
+      "fire-009",
+      "fire-007",
+      "fire-012"
+    ],
+    "source": "U.S. EPA Burn Wise / Utah State University Extension / Alaska DEC / Leave No Trace",
+    "sources": [
+      {
+        "title": "Sample Article: Burn Wise Health and Safety Awareness Kit",
+        "publisher": "U.S. EPA (Burn Wise, archived Oct 2025)",
+        "url": "https://epa.gov/burnwise/sample-article-burn-wise-health-and-safety-awareness-kit",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Wood Heating",
+        "publisher": "Utah State University Extension Forestry",
+        "url": "https://extension.usu.edu/forestry/resources/forest-products/wood-heating.php",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Know Your Wood Moisture",
+        "publisher": "Alaska Department of Environmental Conservation",
+        "url": "https://dec.alaska.gov/air/burnwise/vignette-know-your-wood-moisture/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Fireplace & Wood Stove Safety",
+        "publisher": "Lawrence-Douglas County Fire Medical (City of Lawrence, KS)",
+        "url": "https://lawrenceks.gov/fire_medical/fireplace-wood-stove-safety",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Principle 5: Minimize Campfire Impacts",
+        "publisher": "Leave No Trace Center for Outdoor Ethics",
+        "url": "https://lnt.org/?p=27773",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "Do not cut live trees on public land or anywhere without permission.",
+      "Do not gather wood where the land manager bans it - buy local firewood instead."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need firewood for heating or cooking and want it to burn hot and clean.",
+      "immediate": [
+        "Choose dense hardwoods like oak, hickory, ash, maple, or locust for heat",
+        "Split every round and stack it off the ground with the top covered",
+        "Burn only wood under 20% moisture - check a fresh split face"
+      ],
+      "then": [
+        "Season softwood 6+ months and hardwood 12+ months",
+        "Never burn treated wood, trash, or poison ivy"
+      ]
     }
   }
 ]

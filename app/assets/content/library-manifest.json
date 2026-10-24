@@ -1,0 +1,37 @@
+{
+  "library": "GridDown-Library",
+  "version": "2.0.0",
+  "builtAt": "2026-10-24T21:22:06.574Z",
+  "excludeDrafts": false,
+  "contentHash": "37f281258b62e9b2",
+  "counts": {
+    "guides": 315,
+    "guidesV2": 315,
+    "guidesDraftPendingReview": 138,
+    "guidesExcludedAsDraft": 0,
+    "quizzes": 196,
+    "checklists": 25,
+    "flows": 6
+  },
+  "byCategory": {
+    "water": 16,
+    "fire": 15,
+    "shelter": 12,
+    "food": 14,
+    "medical": 53,
+    "health": 17,
+    "navigation": 14,
+    "comms": 16,
+    "security": 17,
+    "tools": 12,
+    "disaster": 26,
+    "home": 16,
+    "environment": 16,
+    "vehicle": 14,
+    "homesteading": 14,
+    "power": 11,
+    "urban": 11,
+    "leadership": 9,
+    "children": 12
+  }
+}

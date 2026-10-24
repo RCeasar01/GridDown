@@ -1,132 +1,494 @@
 [
   {
-    "id": "quiz-security-dt-001",
-    "category": "security",
-    "type": "decision_tree",
-    "difficulty": "advanced",
-    "title": "Leave or Stay — Grid-Down Hour 72",
-    "nodes": {
-      "start": {
-        "id": "start",
-        "scenario": "It's been 72 hours since a major infrastructure failure (suspected EMP/cyber attack). No power, no communications, no water pressure in your suburban neighborhood. You have: 30 days food, 50 gallons water stored, a vehicle with 3/4 tank of fuel, and a rural property 180 miles away. Neighbors are beginning to behave erratically. A group of 6 unknown individuals has set up at the neighborhood entrance. What do you do?",
-        "options": [
-          { "text": "Bug out immediately — load up and drive to the rural property tonight", "next": "bug_out_night" },
-          { "text": "Shelter in place — you have 30 days supplies and bugging out before the threat is confirmed is premature", "next": "shelter_in_place" }
-        ]
-      },
-      "bug_out_night": {
-        "id": "bug_out_night",
-        "scenario": "You load your vehicle in daylight and depart. The road 40 miles out is blocked by stalled vehicles — the EMP disabled older cars. You have to abandon your vehicle and continue on foot with what you can carry. Do you:",
-        "options": [
-          { "text": "Cache what you can't carry and proceed on foot to the rural property (still 140 miles)", "next": "foot_march" },
-          { "text": "Return to your neighborhood — foot march 140 miles is not survivable with current supplies", "next": "return_home" }
-        ]
-      },
-      "foot_march": {
-        "id": "foot_march",
-        "outcome": "success",
-        "explanation": "You made a defensible decision to leave before the threat escalated, but failed to account for vehicle failure contingency. The rule: if you cannot walk your bug-out route, you don't have a real plan. Before committing to a vehicle-dependent bug-out, consider: How far can you walk? What's your contingency if the road is blocked? Bug-out decisions should also weigh the threat level — at 72 hours with uncertain intel, staying put with 30 days of supplies may have been defensible."
-      },
-      "return_home": {
-        "id": "return_home",
-        "outcome": "success",
-        "explanation": "Tactical flexibility is key. Recognizing that the original plan is compromised and adjusting shows good decision-making. Returning preserves your supply cache. This also highlights the importance of having a vetted bug-out route that accounts for road blockage — a primary route plus 1-2 alternates including foot routes."
-      },
-      "shelter_in_place": {
-        "id": "shelter_in_place",
-        "scenario": "You remain. Day 4: the group at the entrance has grown to 15 and has begun stopping vehicles. Your neighborhood has formed an informal watch. Day 7: 2 houses on your street are broken into. You are approached by neighbors to join a mutual aid group. Do you:",
-        "options": [
-          { "text": "Join the mutual aid group — collective security and shared intelligence is better than solo", "next": "mutual_aid" },
-          { "text": "Maintain strict operational security — sharing your supply status invites targeting", "next": "opsec_solo" }
-        ]
-      },
-      "mutual_aid": {
-        "id": "mutual_aid",
-        "outcome": "success",
-        "explanation": "In extended grid-down scenarios, small isolated households are the most vulnerable. Collective security — distributed watch, mutual defense, shared intelligence about neighborhood threats — dramatically increases survivability. Joining a group that does NOT know your full supply status initially (contribute proportionally, don't broadcast) is the correct balance. Community formation is consistently the most important survival variable in historical grid-down events."
-      },
-      "opsec_solo": {
-        "id": "opsec_solo",
-        "outcome": "poor",
-        "explanation": "Strict solo OPSEC (operational security) is unsustainable in a neighborhood grid-down scenario. You cannot maintain 24/7 watch indefinitely alone. Selective disclosure — forming mutual aid with vetted neighbors without revealing full inventory — is the correct balance. Pure isolation in a suburban setting leaves you blind and undefended. Isolation works in truly remote locations; it fails in proximity to population centers."
-      }
-    },
-    "relatedGuide": "security-001",
-    "tags": ["security", "bug-out", "shelter-in-place", "advanced"]
-  },  {
     "id": "quiz-security-002",
     "category": "security",
     "type": "multiple_choice",
     "difficulty": "intermediate",
-    "scenario": "You're at a gas station during a grid-down event. A vehicle pulls up with 4 occupants who make eye contact with you, then with your loaded truck, then whisper to each other. You're 30 feet from your truck. What OODA loop stage are you currently in, and what is your next action?",
+    "scenario": "You're filling up at a gas station during a long power outage. A car pulls in with four people who look at you, then at the supplies in your truck bed, then talk quietly to each other. Your tank is half full and you're 30 feet from your truck. What is the best next move?",
     "options": [
-      { "id": "a", "text": "Observe — continue watching passively and gather more information before moving" },
-      { "id": "b", "text": "Orient — you've observed the potential threat indicators, now you must contextualize: are these behaviors consistent with pre-attack indicators?" },
-      { "id": "c", "text": "Decide — you've already identified the threat, immediately retrieve your firearm from the truck" },
-      { "id": "d", "text": "Act — move immediately to put your truck between you and the threat as cover" }
+      {
+        "id": "a",
+        "text": "Keep pumping and watch them closely until you're sure what they want"
+      },
+      {
+        "id": "b",
+        "text": "Stop pumping, get in your truck, lock the doors, and drive to a busier, staffed place - half a tank is enough for now"
+      },
+      {
+        "id": "c",
+        "text": "Walk over and ask them directly what they're looking at"
+      },
+      {
+        "id": "d",
+        "text": "Stand in front of your truck bed to show them you're guarding it"
+      }
     ],
     "correct": "b",
-    "explanation": "OODA (Observe-Orient-Decide-Act) is a decision loop, not a single-pass sequence. You've completed Observe (eye contact, glance at truck, whispered conversation). Orient is next — contextualize what you observed: Are these pre-attack indicators? Baseline behavior for a gas station is people pumping gas, not scanning assets and conferring. Moving to your truck without Orienting may alert them prematurely if they're not actually a threat. Orienting allows you to Decide: is this escalating? Do I pre-empt or maintain observation? Conscious awareness of the OODA loop prevents both under-reaction (ignoring clear indicators) and over-reaction (escalating unnecessarily).",
-    "relatedGuide": "security-001",
-    "tags": ["security", "OODA", "situational-awareness", "intermediate"]
+    "explanation": "Several warning signs together - attention on you and your supplies, then quiet coordination - are your cue to act early while leaving is still easy. Getting into your locked vehicle and going somewhere busy costs you a few minutes of fuel time. Waiting to be sure (a) gives up your head start. Confronting them (c) or posturing (d) can escalate a situation that may have been nothing. Next time, cover supplies so they aren't on display.",
+    "relatedGuide": "sec-001",
+    "tags": [
+      "security",
+      "situational-awareness",
+      "avoidance",
+      "intermediate"
+    ]
   },
   {
     "id": "quiz-security-003",
     "category": "security",
     "type": "priority_order",
     "difficulty": "intermediate",
-    "scenario": "You've established a safe house in a rural property. You have 4 adults available and standard hardware/supplies. Rank these perimeter security actions from highest to lowest priority.",
+    "scenario": "A week-long power outage is forecast for your area and you have one weekend to improve your home's security. Rank these tasks from highest to lowest priority.",
     "items": [
-      { "id": "1", "text": "Establish overlapping fields of view — no blind spots at approach routes to the structure" },
-      { "id": "2", "text": "Clear vegetation and debris within 50 feet of the structure to eliminate concealed approach routes" },
-      { "id": "3", "text": "Establish a communication method between watch positions (radio, signal, or rope pull)" },
-      { "id": "4", "text": "Set up noise-making early warning on likely approach paths (cans with rocks, fishing line trip alerts)" },
-      { "id": "5", "text": "Establish a written watch rotation schedule to prevent fatigue-induced security gaps" }
+      {
+        "id": "1",
+        "text": "Replace short strike-plate screws with 3-4 inch screws and make sure every exterior door has a working deadbolt"
+      },
+      {
+        "id": "2",
+        "text": "Trim shrubs near doors and windows to about 2 feet so neighbors can see your entrances"
+      },
+      {
+        "id": "3",
+        "text": "Install solar or battery motion lights at the side and back entrances"
+      },
+      {
+        "id": "4",
+        "text": "Trade phone numbers with neighbors and agree on a group text or radio channel"
+      },
+      {
+        "id": "5",
+        "text": "Add battery door and window alarms"
+      }
     ],
-    "correct_order": ["2", "1", "4", "3", "5"],
-    "explanation": "Clear the vegetation first — concealment for an approach is more dangerous than any other gap, and clearing it is a one-time labor investment with permanent payoff. Overlapping fields of view (interlocking sectors) ensures no approach goes unobserved — if one position goes down, others still have coverage. Early warning devices (noise-makers on trip lines) give sleeping personnel time to respond — critical when watch staffing is thin. Communication between positions is essential for coordinated response — watch positions that can't signal each other can't respond to threats cooperatively. Written rotation addresses long-term sustainability — fatigue is the #1 security failure in extended scenarios.",
-    "relatedGuide": "security-001",
-    "tags": ["security", "perimeter", "safe-house", "intermediate"]
-  },  {
+    "correct_order": [
+      "1",
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "explanation": "Solid, locked doors come first - most break-ins go through doors, and a stronger strike plate is cheap and fast. Neighbors are next: people who watch out for each other give the best early warning and help in a long outage. Motion lights that work without grid power remove dark approaches. Trimming shrubs improves sightlines but matters a bit less in a short outage. Alarms are useful extras once the basics are done. Never add traps or anything meant to injure - they're illegal and hurt the wrong people.",
+    "relatedGuide": "sec-005",
+    "tags": [
+      "security",
+      "home",
+      "CPTED",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-security-004",
+    "category": "security",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Two days after a flood, a man in a FEMA shirt knocks on your door. He says he can 'fast-track' your disaster grant today if you pay a $200 processing fee and give him your bank account number. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pay the fee but ask for a receipt"
+      },
+      {
+        "id": "b",
+        "text": "Give him the bank number but not the fee, since FEMA deposits grants directly"
+      },
+      {
+        "id": "c",
+        "text": "Decline, ask to see a laminated photo ID badge, and call the FEMA Helpline (800-621-3362) to verify - then report him to the fraud hotline and police"
+      },
+      {
+        "id": "d",
+        "text": "Let him in to inspect the damage since the shirt shows he's official"
+      }
+    ],
+    "correct": "c",
+    "explanation": "FEMA never charges for inspections or help, and real disaster workers never accept money. A FEMA shirt is not proof - real staff carry a laminated photo ID badge. Verify any contact through the FEMA Helpline, and report fraud to 866-720-5721 or ReportFraud.ftc.gov and local police. Giving bank details (b) or a receipt for a fake fee (a) still hands a scammer what they want.",
+    "relatedGuide": "sec-008",
+    "tags": [
+      "security",
+      "scams",
+      "FEMA",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-security-005",
+    "category": "security",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "After a hurricane, a roofer stops by and offers a great price - but only if you sign today and pay half up front in cash so he can 'buy materials before prices go up.' You do need a new roof. What's the best response?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Accept - prices really do rise after storms and he seems honest"
+      },
+      {
+        "id": "b",
+        "text": "Pay by payment app instead of cash so there's a record"
+      },
+      {
+        "id": "c",
+        "text": "Decline the same-day deal; check his license with your state or county, ask for proof of insurance, get written estimates and a contract, and pay by credit card with the balance due only when the work is done"
+      },
+      {
+        "id": "d",
+        "text": "Sign the contract but tell him you'll pay the deposit tomorrow"
+      }
+    ],
+    "correct": "c",
+    "explanation": "The FTC advises using only licensed and insured contractors, getting a written contract, avoiding cash, and paying in full only after the work is finished. Pressure to sign today and pay cash up front are classic red flags. Payment apps (b) are hard to reverse, much like cash. Signing first (d) can lock you into a bad deal.",
+    "relatedGuide": "sec-008",
+    "tags": [
+      "security",
+      "scams",
+      "contractors",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-security-006",
+    "category": "security",
+    "type": "priority_order",
+    "difficulty": "beginner",
+    "scenario": "You're in a large store when you hear gunshots from the front entrance. The back stockroom door is about 50 feet away and the path to it is clear. Put these actions in the order you should do them.",
+    "items": [
+      {
+        "id": "1",
+        "text": "Leave your cart and go out the back door, urging people near you to come"
+      },
+      {
+        "id": "2",
+        "text": "Keep moving away from the building and warn others not to go in"
+      },
+      {
+        "id": "3",
+        "text": "Call 911 and tell them where the shooting is and what you saw"
+      },
+      {
+        "id": "4",
+        "text": "When police arrive, keep your hands empty and visible and follow their commands"
+      }
+    ],
+    "correct_order": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "explanation": "With a clear path out, RUN is the best option: leave belongings and go immediately. Keep putting distance between you and the danger and stop others from walking in. Call 911 as soon as you are safely away - do not assume someone else called. When officers arrive, show empty hands and follow commands, because they do not yet know who the attacker is. Hiding or fighting are only for when you cannot get out.",
+    "relatedGuide": "sec-010",
+    "tags": [
+      "security",
+      "active-threat",
+      "run-hide-fight",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-security-007",
+    "category": "security",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your nephew, age 8, is staying with you during a power outage. You own a handgun and usually keep it in your nightstand drawer. What is the safest way to store it while he's there?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leave it in the nightstand but tell him the room is off-limits"
+      },
+      {
+        "id": "b",
+        "text": "Hide it on a high closet shelf where he can't reach"
+      },
+      {
+        "id": "c",
+        "text": "Unload it and lock it in a safe or lockbox, lock the ammunition separately, keep the key or code away from him, and teach him to stop, not touch, leave, and tell an adult if he ever sees a gun"
+      },
+      {
+        "id": "d",
+        "text": "Keep it loaded but put a trigger lock on it"
+      }
+    ],
+    "correct": "c",
+    "explanation": "Children find hidden guns, and rules alone don't stop curious kids. Safe storage means unloaded, locked in a safe or lockbox, with ammunition locked separately and keys or codes out of reach. A lock on a loaded gun (d) is weaker than locked, unloaded storage. Teaching the stop-don't touch-leave-tell rule adds another layer. Many states also have child access laws, so follow yours.",
+    "relatedGuide": "sec-011",
+    "tags": [
+      "security",
+      "firearm-safety",
+      "children",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-security-008",
+    "category": "security",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You're volunteering at a water distribution table. A man who has waited three hours learns the truck is out of gallon jugs. He starts shouting, his face is red, and he steps toward the table. He has no weapon and hasn't threatened anyone. What's the best first response?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tell him firmly to calm down or leave"
+      },
+      {
+        "id": "b",
+        "text": "Keep the table between you, keep your hands open and visible, speak slowly and quietly, acknowledge his long wait, and offer what you can - smaller bottles now or a time when more jugs arrive"
+      },
+      {
+        "id": "c",
+        "text": "Explain the logistics problem in detail so he understands it isn't your fault"
+      },
+      {
+        "id": "d",
+        "text": "Walk around the table and put a hand on his shoulder to reassure him"
+      }
+    ],
+    "correct": "b",
+    "explanation": "CISA's de-escalation guidance stresses distance, open and visible hands, a calm slow voice, and active listening. Acknowledging his frustration and offering realistic options helps him regain control. Saying 'calm down' (a) usually inflames people, a detailed argument (c) feels dismissive, and touching an agitated person (d) can trigger violence. If he threatens anyone or reaches for a weapon, step away and call 911.",
+    "relatedGuide": "sec-009",
+    "tags": [
+      "security",
+      "de-escalation",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-security-009",
+    "category": "security",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your house has tall hedges in front of the windows for privacy, a dark side yard, and house numbers hidden by a vine. Based on crime prevention through environmental design (CPTED), which change helps the most?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Let the hedges grow even taller so no one can see in"
+      },
+      {
+        "id": "b",
+        "text": "Trim shrubs to about 2 feet and tree limbs up to about 6 feet, add motion lights to the side yard, and make house numbers visible"
+      },
+      {
+        "id": "c",
+        "text": "Put up a sign saying the house is guarded"
+      },
+      {
+        "id": "d",
+        "text": "Paint the windows over so valuables can't be seen"
+      }
+    ],
+    "correct": "b",
+    "explanation": "CPTED relies on natural surveillance: tall hedges block neighbors' view and give someone a hiding place right at your windows. Trimming shrubs to about 2 feet and limbs up to about 6 feet, lighting dark areas, and showing your house numbers make your home visible and easier for responders to find. Painting windows (d) blocks fire escape and your own view; keep valuables out of sight instead.",
+    "relatedGuide": "sec-005",
+    "tags": [
+      "security",
+      "home",
+      "CPTED",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-security-010",
+    "category": "security",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "scenario": "You're returning home after a wildfire evacuation. At night, you reach a re-entry checkpoint staffed by deputies and National Guard. Your driver's license shows your old address. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Drive around the cones on the shoulder since you live there"
+      },
+      {
+        "id": "b",
+        "text": "Slow down, turn on your interior light, keep your hands on the wheel, tell the officer before reaching for anything, and show your license plus a utility bill or lease with your current address"
+      },
+      {
+        "id": "c",
+        "text": "Insist loudly that it's your right to go home and refuse to show anything"
+      },
+      {
+        "id": "d",
+        "text": "Give a neighbor's address that matches your license"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Checkpoints control access to areas that may still be dangerous, and the supervisor decides who enters. Calm, visible hands and saying what you're reaching for keep the stop safe. Carry a photo ID plus proof of residence such as a utility bill, lease, or deed if your ID shows another address. Going around (a) is dangerous and illegal, arguing (c) won't change the decision, and false information (d) can lead to arrest. If you're turned away, leave by the route directed.",
+    "relatedGuide": "sec-013",
+    "tags": [
+      "security",
+      "checkpoints",
+      "re-entry",
+      "intermediate"
+    ]
+  },
+  {
+    "id": "quiz-security-011",
+    "category": "security",
+    "type": "multiple_choice",
+    "difficulty": "beginner",
+    "scenario": "Your wallet, with your Social Security card and debit card, was lost during an evacuation. You want to stop anyone from opening new credit in your name, and you also want to keep things simple while you're living out of a shelter. Which statement is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A credit freeze costs about $10 per bureau and expires after 90 days"
+      },
+      {
+        "id": "b",
+        "text": "A fraud alert is free, lasts one year, and you only need to contact one bureau; a credit freeze is also free but must be placed with each of the three bureaus"
+      },
+      {
+        "id": "c",
+        "text": "You must file a police report before any credit bureau will place a fraud alert"
+      },
+      {
+        "id": "d",
+        "text": "Only a paid identity-protection service can freeze your credit"
+      }
+    ],
+    "correct": "b",
+    "explanation": "Under federal law since 2018, both fraud alerts and credit freezes are free. A fraud alert lasts one year and one bureau must notify the other two. A freeze is stronger, lasts until you lift it, and must be placed with Equifax, Experian, and TransUnion separately. Also call your bank to cancel the debit card, check reports at annualcreditreport.com, and use IdentityTheft.gov if fraud appears.",
+    "relatedGuide": "sec-015",
+    "tags": [
+      "security",
+      "identity-theft",
+      "credit-freeze",
+      "beginner"
+    ]
+  },
+  {
+    "id": "quiz-security-dt-001",
+    "category": "security",
+    "type": "decision_tree",
+    "difficulty": "advanced",
+    "title": "Leave or Stay - Outage Hour 72",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "scenario": "It's been 72 hours since a widespread grid failure. No power, spotty phones, low water pressure in your suburban neighborhood. Your home is undamaged. You have about 30 days of food, 50 gallons of water, a car with 3/4 tank of fuel, and relatives 180 miles away. Officials have not ordered an evacuation. A group of strangers has been hanging around the neighborhood entrance. What do you do?",
+        "options": [
+          {
+            "text": "Leave tonight for your relatives' place before things get worse",
+            "next": "leave_night"
+          },
+          {
+            "text": "Stay home for now, keep monitoring official updates, and set clear triggers for when you would leave",
+            "next": "shelter_in_place"
+          }
+        ]
+      },
+      "leave_night": {
+        "id": "leave_night",
+        "scenario": "You leave after dark. Forty miles out, the highway is jammed with stalled and abandoned cars and a bridge is closed. Your fuel gauge drops as you idle. What now?",
+        "options": [
+          {
+            "text": "Abandon the car and walk the remaining 140 miles",
+            "next": "foot_march"
+          },
+          {
+            "text": "Turn back home on a known road while you still have fuel, and contact your relatives when you can",
+            "next": "return_home"
+          }
+        ]
+      },
+      "foot_march": {
+        "id": "foot_march",
+        "outcome": "poor",
+        "explanation": "Walking 140 miles with what you can carry, away from your supplies and shelter, is extremely risky. Leaving at night with no evacuation order and an undamaged home traded safety for uncertainty. Evacuate early when officials order it or when a real hazard threatens your home, travel in daylight, and plan backup routes and fuel. If your plan can only work by walking a long distance, it isn't a safe plan."
+      },
+      "return_home": {
+        "id": "return_home",
+        "outcome": "success",
+        "explanation": "Good recovery. You recognized the plan had failed and returned to your supplies and shelter while you still had fuel. The lesson: with an undamaged home, supplies, and no evacuation order, staying put was the stronger choice. Leave when officials order it or a hazard threatens you, go in daylight, and have more than one route."
+      },
+      "shelter_in_place": {
+        "id": "shelter_in_place",
+        "scenario": "Day 4: the group at the entrance has grown and police have been seen talking with them. Day 7: two homes on your street are broken into. Neighbors invite you to join a mutual-aid group that checks on each other and runs a watch from members' porches. What do you do?",
+        "options": [
+          {
+            "text": "Join - share contact info and help with the watch, but don't list your full supplies",
+            "next": "mutual_aid"
+          },
+          {
+            "text": "Stay to yourself - telling anyone anything could make you a target",
+            "next": "opsec_solo"
+          }
+        ]
+      },
+      "mutual_aid": {
+        "id": "mutual_aid",
+        "outcome": "success",
+        "explanation": "Neighbors who look out for each other spot fires, medical emergencies, and break-ins early and call for help faster. You can join without revealing your inventory - offer time and skills, and keep a small 'sharing' supply. Keep the watch to observing and reporting from members' own property, never confronting anyone, and report break-ins to police."
+      },
+      "opsec_solo": {
+        "id": "opsec_solo",
+        "outcome": "poor",
+        "explanation": "Privacy about supplies is smart, but total isolation leaves you without early warning or help. No single household can stay alert around the clock for weeks. Joining a neighborhood group while keeping your inventory private is the better balance."
+      }
+    },
+    "relatedGuide": "sec-003",
+    "tags": [
+      "security",
+      "evacuation",
+      "shelter-in-place",
+      "neighbors",
+      "advanced"
+    ]
+  },
+  {
     "id": "quiz-security-dt-002",
     "category": "security",
     "type": "decision_tree",
     "difficulty": "advanced",
-    "title": "Approaching Strangers — Day 10",
+    "title": "Strangers at the Gate - Day 10",
     "nodes": {
       "start": {
         "id": "start",
-        "scenario": "Day 10 post-grid-down. You are at your rural property. A group of 3 adults (2 men, 1 woman) approaches your driveway on foot. They look exhausted and carry light packs. They stop at your gate. One raises his hand in a non-threatening gesture. You are armed. Your family is inside. What do you do?",
+        "scenario": "Day 10 of a regional disaster. You're at your rural home with your family. Three tired-looking adults with light packs walk up your driveway and stop at the gate. One waves in a friendly way. What do you do?",
         "options": [
-          { "text": "Challenge them from a position of cover — make verbal contact without exposing yourself or your family", "next": "challenge_covered" },
-          { "text": "Send your family inside and approach the gate alone to speak with them", "next": "approach_gate" }
+          {
+            "text": "Stay inside with the door locked and talk to them through a window or door from a safe spot",
+            "next": "talk_safely"
+          },
+          {
+            "text": "Walk out alone to the gate to see what they want",
+            "next": "approach_gate"
+          }
         ]
       },
-      "challenge_covered": {
-        "id": "challenge_covered",
-        "scenario": "You call from behind cover at 30 feet. They state they walked from a city 60 miles away and are looking for water and food — they have a 10-year-old child out of sight on the road. Do you:",
+      "talk_safely": {
+        "id": "talk_safely",
+        "scenario": "Speaking calmly through the window, you learn they walked from a city 60 miles away looking for water and food. They say a 10-year-old is waiting on the road. What do you do?",
         "options": [
-          { "text": "Bring them inside — a family with a child is almost certainly not a threat, and you can spare basic aid", "next": "inside_too_fast" },
-          { "text": "Provide water at the gate without inviting them inside — assess further before granting access", "next": "gate_aid" }
+          {
+            "text": "Invite them all inside to rest - a family with a child is surely harmless",
+            "next": "inside_too_fast"
+          },
+          {
+            "text": "Set out water and some food at the gate, tell them where the nearest official shelter or aid point is, and keep the door locked",
+            "next": "gate_aid"
+          }
         ]
       },
       "gate_aid": {
         "id": "gate_aid",
         "outcome": "success",
-        "explanation": "The gate aid protocol: provide basic humanitarian assistance without granting property access. You remain in a defensible position (covered), gather intelligence (their account of conditions, useful situational awareness), and assess behavioral indicators of deception (evasive answers, interest in your structure, inconsistent story). A consistent, detailed story combined with non-threatening body posture is a positive indicator. You maintained security while acting humanely — both are achievable simultaneously."
+        "explanation": "You helped people in need while keeping your family safe. Staying inside, speaking calmly, and leaving water at the gate meets an urgent need without opening your home to strangers. Pointing them to a shelter or aid site gets them longer-term help. If anything about the situation changes or feels threatening, lock up and call 911."
       },
       "inside_too_fast": {
         "id": "inside_too_fast",
         "outcome": "poor",
-        "explanation": "Granting property access to unknown individuals in a grid-down environment is a serious security risk regardless of initial appearance. The gate aid protocol (provide aid at the perimeter) achieves humanitarian goals without compromising your defensive position. Appearance and apparent distress can be staged. This is not cynicism — it is proportionate caution when the stakes are your family's safety. Never invite strangers inside a safe house during grid-down without an extended vetting process."
+        "explanation": "Kindness is good, but inviting strangers into your home during a crisis puts your family at risk, whatever their appearance. You can be generous from behind a locked door: leave water and food at the gate and direct them to official shelters, where staff can help them safely."
       },
       "approach_gate": {
         "id": "approach_gate",
         "outcome": "poor",
-        "explanation": "Never sacrifice your defensive position by approaching unknown contacts. The conversation can happen from cover — your voice carries 30 feet. By approaching the gate, you: (1) separate from your family, (2) reveal yourself as the armed defender rather than maintaining uncertainty about your security posture, (3) lose the option to retreat to cover. Always challenge from a position of cover and use distance as a buffer until threat level is established."
+        "explanation": "Walking out alone puts you in the open, away from your family and your phone, with no easy retreat. You can have the same conversation through a door or window. Stay inside, keep it locked, speak calmly, and call 911 if anyone becomes threatening."
       }
     },
-    "relatedGuide": "security-001",
-    "tags": ["security", "strangers", "grid-down", "advanced"]
+    "relatedGuide": "sec-009",
+    "tags": [
+      "security",
+      "strangers",
+      "de-escalation",
+      "advanced"
+    ]
   }
 ]

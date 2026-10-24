@@ -8,65 +8,113 @@
       "shelter",
       "debris hut",
       "wilderness",
-      "insulation"
+      "insulation",
+      "cold weather",
+      "no gear"
     ],
-    "summary": "Build an insulating debris hut that retains body heat even in near-freezing temperatures without fire.",
+    "summary": "Build a body-sized, leaf-insulated debris hut that holds your own body heat on a cold night when you have no tent, sleeping bag, or fire.",
     "steps": [
       {
         "step": 1,
-        "title": "Select a site",
-        "body": "Choose a site on high, dry ground away from drainage paths. Avoid flood plains, ridge tops exposed to wind, and areas under dead standing trees (widowmakers). An ideal site has natural windbreak (a hillside, dense brush), is close to abundant dead leaf debris, and is not a natural wildlife trail."
+        "title": "Start early and pick the spot",
+        "body": "Start at least 2-3 hours before dark. Gathering enough debris takes far longer than people expect. Pick level, dry ground that is not in a low spot, ravine, or dry wash that could flood. Look up and move away from dead trees and hanging dead limbs. Stay off ridgetops and exposed ledges where wind is strongest. The best site has a natural windbreak such as a rock face or thick brush, and lots of dry leaves, pine needles, or grass close by so you are not hauling material a long way."
       },
       {
         "step": 2,
-        "title": "Build the ridgepole",
-        "body": "Find a straight branch or sapling 9–10 feet long (1.5x your height). Support one end in a Y-shaped branch or rock at about hip height. The other end rests on the ground. This is the spine of your shelter. The opening faces downhill to drain any ground moisture away from you."
+        "title": "Set the ridgepole",
+        "body": "Find a sturdy, straight pole a little longer than you are tall plus an arm's length - roughly 9-10 feet (about 3 m) for most adults. Rest one end in the fork of a tree, on a stump, or on a rock about hip to waist high. Let the other end rest on the ground. This slanted pole is the spine of the hut. Lie down under it to check that your body fits with your feet toward the low end and a few inches of space above your chest. Shake it hard - it must not slip."
       },
       {
         "step": 3,
-        "title": "Add ribbing",
-        "body": "Lean branches along both sides of the ridgepole at 45-degree angles, creating a framework like a fish skeleton. Space ribs every 8–10 inches. Pack smaller sticks and brush across the ribs to create a lattice that holds your insulating debris. The interior width should be just wider than your shoulders — tighter is warmer."
+        "title": "Add the ribs",
+        "body": "Lean sticks against both sides of the ridgepole, close together, from the ground up to the pole. The result looks like a wedge or the rib cage of a fish. Make the ribs steep enough to shed water. Keep the inside only slightly wider than your shoulders. A hut that is just big enough to lie in warms up from your body heat; a roomy one stays cold. Leave an entrance near the high end on the side away from the wind."
       },
       {
         "step": 4,
-        "title": "Pile debris",
-        "body": "Add dead leaves, pine needles, dry grass, bark — any dry organic matter — to the outside of the framework. The debris layer must be 2–3 feet thick on all sides (arm-length). Thicker is warmer. Use a rough calculation: if you can't see the framework through the debris from outside, you have enough."
+        "title": "Build a lattice",
+        "body": "Lay smaller sticks, brush, and branches crosswise over the ribs. This lattice keeps the leaves from falling through the gaps and onto you. Work from the ground up on both sides. Push your hand against the frame at several points - if it sags or a stick falls in, add more ribs or brush there before you start piling debris. A weak frame collapses when it gets wet and heavy in the night."
       },
       {
         "step": 5,
-        "title": "Fill the interior",
-        "body": "Pack the interior floor with 2–3 feet of dry debris. This is your insulation from ground cold, which steals heat faster than air. Crawl in feet-first, dragging more debris to plug the entrance behind you. Your body heat will warm the small interior rapidly."
+        "title": "Pile the debris thick",
+        "body": "Heap dry leaves, pine needles, dry grass, and fern over the whole frame. Aim for at least 3 feet (about 1 m) thick on every side - roughly the length of your arm. This is what keeps you warm, so do not stop early. Thicker is warmer. When you think you are done, add more. Lay a final layer of branches on top to keep wind from blowing the debris away. Dry material insulates far better than wet, so take it from under the top layer if the surface is damp."
+      },
+      {
+        "step": 6,
+        "title": "Insulate the floor",
+        "body": "Stuff the inside with dry leaves or pine boughs and pack it down. You lose a lot of heat to cold ground through contact, so the bed under you matters as much as the roof over you. Make the floor layer thick enough that, once you lie on it and it compresses, you cannot feel the ground. Fresh evergreen boughs make a springy mattress if leaves are scarce. Keep a large pile of extra debris right next to the entrance."
+      },
+      {
+        "step": 7,
+        "title": "Seal yourself in",
+        "body": "Crawl in feet first. Pull a pile of debris, your pack, or a bundle of brush tied together into the doorway behind you to plug it. Fill the space around your body with loose leaves so there are no big air pockets. If you wake up cold, add leaves inside and around you rather than getting up. In the morning, check the roof for thin spots and fix them if you will stay another night."
       }
     ],
     "warnings": [
-      "A debris hut is wet-weather and cold-weather shelter, not fire shelter. Never build or maintain fire inside — it will ignite.",
-      "A debris hut that is too large will not retain body heat. Size it precisely to your body — extra space means extra volume your body must heat."
+      "Never build a fire inside or right next to a debris hut. The leaves and dry grass catch fire easily and the hut can burn in seconds.",
+      "Do not build under dead trees or hanging dead limbs, in dry washes, or in low ground that can flood.",
+      "A hut that is too big will not warm up. Size it to your body, not for comfort.",
+      "Wet debris insulates poorly. If you get soaked, or if you start shivering hard, slurring words, or stumbling, get help or signal for rescue - that is hypothermia."
     ],
     "proTips": [
-      "A dry debris hut in near-freezing conditions can maintain 70°F inside with no fire — based on body heat alone. The insulation principle is identical to a down sleeping bag.",
-      "Build it right before dark. Gathering debris takes 2–4 hours. In a survival scenario, shelter is your priority 1 in cold weather — hypothermia kills in hours.",
-      "Mark the entrance with a stick arrangement so you can locate it in the dark if you need to exit at night."
+      "Use a tarp, poncho, or trash bag over the debris if you have one - it keeps the leaves dry and the hut much warmer.",
+      "Mark the doorway with a pale stick or rock so you can find it again after dark.",
+      "Pack your clothes with dry leaves or grass between layers for extra warmth inside the hut.",
+      "Practice building one in daylight in the fall. Time yourself - most people need 2-4 hours the first time."
     ],
     "relatedGuides": [
-      "shelter-002",
-      "shelter-003"
+      "shelter-005",
+      "shelter-007",
+      "shelter-008",
+      "shelter-002"
     ],
-    "source": "US Army FM 21-76 / USAF SERE curriculum",
-    "lastReviewed": "2025-01",
+    "source": "U.S. Army survival manual (FM 21-76 lineage) / NPS",
+    "sources": [
+      {
+        "title": "Short Term Shelters (adapted from U.S. Army survival manual)",
+        "publisher": "Survival Manual (survival.powweb.com)",
+        "url": "https://survival.powweb.com/shelter/short-term-shelters.php",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Training Aid 20-H-6: Survival Shelters",
+        "publisher": "California Cadet Corps",
+        "url": "https://strands.cacadets.org/strands/Strand_020/Strand_020_Handouts/TA_20-H-6_Survival_Shelters.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Finding and Setting Up a Campsite",
+        "publisher": "U.S. National Park Service",
+        "url": "https://www.nps.gov/subjects/camping/finding-and-setting-up-a-campsite.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "intermediate",
     "gearRequired": "none",
-    "riskLevel": "low",
-    "prerequisites": [],
+    "riskLevel": "medium",
+    "prerequisites": [
+      "shelter-005"
+    ],
+    "whenNotTo": [
+      "When you have a vehicle or building you can safely stay in - use it instead.",
+      "When there is too little dry debris nearby to reach about 3 feet thick - a thin hut will not keep you warm; look for another option such as a natural windbreak plus a thick bed.",
+      "In deep snow, where a snow shelter is usually faster and warmer."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You are facing cold weather survival with no tent or sleeping bag — hypothermia is the primary threat and you must build insulating shelter before dark",
+      "situation": "You face a cold night outdoors with no tent, sleeping bag, or fire and need shelter that holds your body heat.",
       "immediate": [
-        "Select dry high ground away from drainages, ridgetops, and dead standing trees",
-        "Cut or find a 9-10 foot ridgepole and prop one end on a Y-branch at hip height",
-        "Lean branches along both sides at 45 degrees and weave lattice across them"
+        "Start 2-3 hours before dark on dry, level ground clear of dead trees and flood paths",
+        "Prop a ridgepole about 9-10 ft long on a stump or fork at hip height",
+        "Lean ribs close together on both sides, then lay brush crosswise as a lattice"
       ],
       "then": [
-        "Pile dead leaves and debris 2-3 feet thick over the entire structure",
-        "Pack interior floor with 2-3 feet of dry debris — ground cold steals heat faster than air"
+        "Pile dry leaves at least 3 ft thick over the whole frame",
+        "Stuff the inside with dry debris, crawl in feet first, and plug the door"
       ]
     }
   },
@@ -79,65 +127,114 @@
       "shelter",
       "lean-to",
       "rain",
+      "wind",
+      "natural materials",
       "beginner"
     ],
-    "summary": "Build a quick lean-to for rain and wind protection using natural materials or a tarp.",
+    "summary": "Build a simple one-sided lean-to from poles and brush (or a poncho) to block wind and rain, and pair it with a safe fire and a thick bed when nights are cold.",
     "steps": [
       {
         "step": 1,
-        "title": "Select two anchor trees or poles",
-        "body": "Find two trees, posts, or large rocks 7–9 feet apart. Tie your ridgeline (paracord, rope, or lashed sapling) between them at chest height. This is the horizontal support your shelter leans against."
+        "title": "Check the wind and the site",
+        "body": "Figure out where the wind is coming from - watch smoke, grass, or treetops, or wet a finger. The closed, sloping back of the lean-to must face into the wind, with the open side away from it. Choose level ground that is not in a low spot, dry wash, or ravine that can flood. Look up for dead limbs and dead trees and move if you see any. Stay off ridgetops and exposed ledges. Pick a spot near plenty of poles and brush so you are not wasting energy hauling material."
       },
       {
         "step": 2,
-        "title": "Lay the roofing material",
-        "body": "Lean long straight branches or saplings from the ridgeline to the ground at a 45-degree angle — steeper angles shed rain better. Space them every 12 inches. Weave smaller branches horizontally across these ribs. The roof must be dense enough to shed water, not just block it."
+        "title": "Set the crossbar",
+        "body": "Find two trees about 7-9 feet (2-3 m) apart. Lash a sturdy pole between them at about waist to chest height, or tie a tight rope or cord there. If there are no good trees, drive two forked sticks firmly into the ground and lay the crossbar in the forks. Lower is warmer and stronger; higher gives more room but catches more wind. Push down hard on the crossbar - it has to hold the weight of a wet roof."
       },
       {
         "step": 3,
-        "title": "Thatch the roof",
-        "body": "Starting from the bottom (ground end) and working upward, lay courses of bark, large leaves, pine boughs, or dense grass like roof shingles — each course overlapping the one below. Water must run from the top and shed off the bottom edge, not soak through."
+        "title": "Lay the roof poles",
+        "body": "Lean long poles from the crossbar down to the ground on the windward side, about 12 inches (30 cm) apart. A steep angle near 45-60 degrees sheds rain better than a flat one. Make sure the poles extend past your body length so your feet stay covered. Lash or wedge the top ends so they do not roll. Then weave thinner sticks and brush crosswise through the poles to make a lattice that will hold the roofing."
       },
       {
         "step": 4,
-        "title": "Add side walls if needed",
-        "body": "For cold conditions, close the sides with additional brush and debris piled against staked branch frames. Leave one open side facing your fire (if you have one) — the lean-to and fire create a sandwich that reflects heat toward you efficiently."
+        "title": "Shingle the roof from the bottom up",
+        "body": "Cover the lattice with bark slabs, large leaves, evergreen boughs, or thick grass. Start at the ground and work toward the crossbar. Lay each row so it overlaps the row below, the way shingles do on a house. Point evergreen boughs downward so water runs off the tips. Pile it thick - when you look up from inside you should see little or no daylight. Add a few heavy sticks on top to keep wind from lifting it."
       },
       {
         "step": 5,
-        "title": "Insulate the floor",
-        "body": "Pile 4–6 inches of dry leaves or pine boughs under your sleeping position. Cold ground will pull heat out of your body continuously — floor insulation is critical in any cold weather scenario."
+        "title": "Close the ends",
+        "body": "On cold or windy nights, wall in both triangular ends with stacked brush, poles, and debris. This turns a windbreak into a much warmer pocket. If the wind shifts during the night, plug whatever side is now catching it with your pack or extra brush. A poncho or tarp works well as a quick end wall or as a waterproof layer under the brush roof."
+      },
+      {
+        "step": 6,
+        "title": "Build a thick bed",
+        "body": "Never lie on bare ground. Pile dry leaves, pine needles, grass, or evergreen boughs at least 6-8 inches (15-20 cm) deep where you will sleep - deeper if the ground is wet or frozen, since it squashes flat under your weight. A log along the open edge keeps the bedding in place. The ground pulls heat out of you all night, so this layer matters as much as the roof."
+      },
+      {
+        "step": 7,
+        "title": "Add a fire and reflector only if safe",
+        "body": "If fire is legal and safe, build a small fire a few feet in front of the open side, never inside. Stack green logs or rocks into a low wall on the far side of the fire to bounce heat back toward you. Keep the fire small and attended, clear burnable material around it, and keep the leaf bed and roof well back from sparks. Put the fire dead out - cold to the touch - before you leave."
       }
     ],
     "warnings": [
-      "A lean-to is not an insulating shelter — it blocks wind and rain but does not retain body heat the way a debris hut does. In near-freezing conditions without fire, a debris hut is required.",
-      "Do not build a lean-to on a ridgeline or exposed hillside — wind amplification can destroy it and drop your effective temperature."
+      "A lean-to is open on one side. Without closed ends, a thick bed, and warm clothing it will not keep you warm on a freezing night - use a debris hut or other closed shelter instead.",
+      "Dry brush, leaves, and grass burn fast. Keep any fire well away from the roof and bed and never leave it unattended.",
+      "Do not build under dead trees or hanging dead branches, or in low ground and dry washes that can flood.",
+      "Check local fire rules. Many public lands ban open fires during dry seasons."
     ],
     "proTips": [
-      "A tarp lean-to can be built in under 5 minutes with practiced technique. Learn to pitch your tarp in multiple configurations before you need it.",
-      "A 45-degree pitch sheds rain but increases wind catch. In heavy wind, pitch steeper (60+ degrees) and anchor the bottom edge."
+      "A poncho or tarp lean-to goes up in minutes - see the tarp shelter guide - and you can pile brush on top for extra warmth.",
+      "Two lean-tos facing each other across one fire make a warm camp for a group.",
+      "Before dark, gather twice the firewood and bedding you think you need.",
+      "Cut a shallow trench along the uphill side so rainwater runs around your bed, not through it."
     ],
     "relatedGuides": [
-      "shelter-001",
-      "shelter-003",
-      "fire-004"
+      "shelter-005",
+      "shelter-006",
+      "shelter-007",
+      "fire-004",
+      "shelter-001"
     ],
-    "source": "US Army FM 21-76 / USAF SERE curriculum",
-    "lastReviewed": "2025-01",
+    "source": "U.S. Army survival manual (FM 21-76 lineage) / NPS",
+    "sources": [
+      {
+        "title": "Short Term Shelters (adapted from U.S. Army survival manual)",
+        "publisher": "Survival Manual (survival.powweb.com)",
+        "url": "https://survival.powweb.com/shelter/short-term-shelters.php",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Finding and Setting Up a Campsite",
+        "publisher": "U.S. National Park Service",
+        "url": "https://www.nps.gov/subjects/camping/finding-and-setting-up-a-campsite.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Training Aid 20-H-6: Survival Shelters",
+        "publisher": "California Cadet Corps",
+        "url": "https://strands.cacadets.org/strands/Strand_020/Strand_020_Handouts/TA_20-H-6_Survival_Shelters.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "beginner",
     "gearRequired": "none",
     "riskLevel": "low",
-    "prerequisites": [],
+    "prerequisites": [
+      "shelter-005"
+    ],
+    "whenNotTo": [
+      "When winds keep shifting direction - an open lean-to cannot face every way; build an A-frame or debris hut instead.",
+      "On a freezing night with no fire and no warm clothing - a closed debris hut holds heat far better.",
+      "Where fires are banned or the woods are tinder dry, do not rely on the fire-and-reflector setup."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You need quick rain and wind protection and have paracord or natural cordage available — a lean-to can be built in under 30 minutes",
+      "situation": "You need fast protection from wind and rain and have trees, poles, and brush nearby.",
       "immediate": [
-        "Tie ridgeline between two trees at chest height",
-        "Lean long branches at 45 degrees from ridgeline to ground, spaced every 12 inches",
-        "Thatch from bottom up with bark, leaves, or pine boughs — each layer overlapping the one below"
+        "Find the wind direction and face the sloped back into it",
+        "Lash a crossbar between two trees 7-9 ft apart at waist to chest height",
+        "Lean roof poles about 12 in apart and shingle with boughs or bark from the bottom up"
       ],
       "then": [
-        "Insulate the floor with 4-6 inches of dry leaves or pine boughs",
-        "Position fire in front of the open side to reflect heat into the shelter"
+        "Close the ends with brush on cold or windy nights",
+        "Build a dry bed 6-8 in deep or more before you lie down"
       ]
     }
   },
@@ -150,64 +247,127 @@
       "shelter",
       "snow",
       "winter",
-      "quinzhee"
+      "quinzhee",
+      "snow trench",
+      "cold weather"
     ],
-    "summary": "Build a snow shelter (quinzhee) — interior stays near 32°F regardless of outside temperature.",
+    "summary": "Use snow as insulation: dig a fast snow trench in an emergency, or build a quinzhee (hollowed snow mound) when you have time, a shovel, and a partner.",
     "steps": [
       {
         "step": 1,
-        "title": "Understand the principle",
-        "body": "Snow is an excellent insulator. Interior of a snow shelter will stabilize at approximately 32°F even when outside temperatures drop to -40°F. Wind chill has no effect inside. A small candle or body heat alone is sufficient to raise interior temperature to 40–50°F."
+        "title": "Choose trench or quinzhee",
+        "body": "A snow trench is the fastest emergency option - often under an hour with a shovel. A quinzhee is roomier and warmer but takes about 3 hours, makes you sweat, and needs at least two people. If a storm is on you, daylight is short, or you are alone, dig a trench. Either way, get out of the wind first. Build away from avalanche slopes, cornices, and the bottom of steep snowy hillsides, and not under trees heavy with snow or dead limbs."
       },
       {
         "step": 2,
-        "title": "Pile and wait (Quinzhee method)",
-        "body": "Pile snow into a mound 8 feet wide and 5–6 feet tall. Pack it loosely — you want sintering (crystals bonding together) but not compression. Insert 12-inch long sticks throughout the mound as depth guides. Wait 2–4 hours for the snow to sinter and harden before hollowing."
+        "title": "Dig a snow trench",
+        "body": "Dig a slot about 3 feet (1 m) deep, shoulder-width, and long enough to lie in with room for gear. In deep, firm snow, undercut the sides near the bottom so it is wider below than at the top. Roof it with a tarp, poncho, or skis and branches, held down with snow blocks or packs, then pile loose snow on top. Lay a pad, pack, or evergreen boughs on the floor. Leave a gap at one end for air."
       },
       {
         "step": 3,
-        "title": "Hollow the interior",
-        "body": "Dig a tunnel entrance from one side, angled upward into the center. Cold air pools at the lowest point — the raised interior sleeping platform stays warmer than the entrance. Hollow out the interior to just above your reference sticks. A 1-inch ceiling is plenty; thicker is not significantly stronger and reduces interior space."
+        "title": "Pile the quinzhee mound",
+        "body": "Mark a circle about 8-10 feet (2.5-3 m) across. Shovel snow onto it into a dome about 6-7 feet (about 2 m) high. Mix the snow as you pile it - stirring cold and warmer layers together helps it bond. Push 12-inch (30 cm) sticks into the mound all over, straight toward the center. They act as depth gauges so you do not make the walls too thin."
       },
       {
         "step": 4,
-        "title": "Create a ventilation hole",
-        "body": "Poke a ventilation hole through the ceiling with a ski pole, stick, or your arm. This is not optional — it prevents CO2 buildup and condensation drip. Keep your pole or a stick inside to re-open the vent if snow blocks it."
+        "title": "Let it set up",
+        "body": "Wait for the snow to sinter, which means the crystals bond and harden. Advice ranges from 30 minutes to several hours - wait at least 1-2 hours if you can, and longer in very cold, dry, powdery snow. Use the time to change out of sweaty clothes, eat, drink, and gather bedding. Digging too soon is a common cause of collapse."
       },
       {
         "step": 5,
-        "title": "Insulate the floor",
-        "body": "Place branches, a tarp, or a sleeping pad on the interior floor. Sitting or sleeping directly on snow wicks heat rapidly. Even 2 inches of insulation makes a significant difference. Block the entrance with a pack or snow block to retain heat."
+        "title": "Hollow it out carefully",
+        "body": "Dig a small entrance on the downhill or downwind side, angled slightly upward into the mound. Hollow the inside into a dome shape and stop when you reach the ends of the gauge sticks, so walls and roof are about 12 inches (30 cm) thick. A roof that is too thick is heavy and can fall; one that is too thin can sag. One person digs while a partner stays outside, clears snow, and watches. Keep the shovel inside with you overnight."
+      },
+      {
+        "step": 6,
+        "title": "Raise the bed and open a vent",
+        "body": "Make your sleeping bench higher than the top of the entrance. Cold air sinks and drains out the low doorway, so the bench stays warmer. Poke a vent hole about the size of a fist through the roof at an angle with a pole or stick, and check it often - snow and frost can close it. Never fully seal the entrance; partly block it with a pack or snow block. Put a pad or boughs on the bench."
+      },
+      {
+        "step": 7,
+        "title": "Live in it safely",
+        "body": "Keep stoves and open flames outside. Burning fuel in a snow shelter can build up carbon monoxide, which you cannot see or smell. Brush off snow before you go in to stay dry. Mark the entrance and top with skis, poles, or bright gear so you and rescuers can find it after new snow. Fence the roof so no one walks on it. If anyone gets a headache, dizziness, or confusion, get everyone outside into fresh air."
       }
     ],
     "warnings": [
-      "Mark the entrance with skis, poles, or a bright flag — a buried quinzhee is impossible to locate after new snowfall.",
-      "Do not sleep in a quinzhee with a fire inside — CO and CO2 buildup will kill you before you wake. A single candle is the maximum safe heat source."
+      "Never run a stove, heater, grill, or fire inside a snow shelter. Carbon monoxide can kill sleeping people without warning.",
+      "Never build a quinzhee alone, and do not let children dig one unsupervised - a collapse can bury and suffocate a person.",
+      "Keep the vent open and never seal the door completely. Breath and moisture need a way out and fresh air needs a way in.",
+      "Avoid avalanche terrain, cornices, and the bottoms of steep snowy slopes when building any snow shelter.",
+      "Sweat-soaked clothing is dangerous in the cold. Dig slowly, vent layers, and change into dry clothes when done."
     ],
     "proTips": [
-      "A properly built quinzhee is structurally sound enough to support an adult standing on top — this is the test. If it collapses under body weight, add more time for sintering or increase wall thickness.",
-      "In an emergency with no tools, dig into a natural snow bank or create a snow trench — any configuration that gets you out of wind and off bare ground is survival-grade shelter."
+      "Inside a well-built snow shelter it often stays around or a bit below freezing - far warmer than a windy night outside, but still cold. You still need insulation under and over you.",
+      "Use a headlamp, not a candle. Even a candle melts the ceiling and burns oxygen.",
+      "Smooth the ceiling into a dome with your glove so drips run down the walls instead of onto you.",
+      "A metal shovel is worth the weight. Plastic blades often crack in hard, icy snow."
     ],
     "relatedGuides": [
-      "shelter-001",
-      "shelter-002"
+      "shelter-007",
+      "shelter-008",
+      "shelter-012",
+      "shelter-005"
     ],
-    "source": "US Army FM 21-76 / USAF SERE curriculum",
-    "lastReviewed": "2025-01",
+    "source": "U.S. Antarctic Program Field Manual / Scouting America",
+    "sources": [
+      {
+        "title": "USAP Field Manual - Field Gear",
+        "publisher": "U.S. Antarctic Program (NSF)",
+        "url": "https://www.usap.gov/USAPgov/travelAndDeployment/documents/FieldManual-FieldGear.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to build an emergency shelter in a blizzard",
+        "publisher": "Scouting Magazine",
+        "url": "https://scoutingmagazine.org/2015/11/build-emergency-shelter-blizzard/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Build a Quinzee Snow Shelter",
+        "publisher": "Scout Life",
+        "url": "https://scoutlife.org/outdoors/outdoorarticles/2992/how-to-build-a-quinzee-snow-shelter/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Build a Quinzhee Snow Shelter",
+        "publisher": "SectionHiker",
+        "url": "https://sectionhiker.com/how-to-build-a-quinzhee-snow-shelter/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Avoiding Carbon Monoxide Poisoning",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/avoiding-carbon-monoxide-poisoning.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
     "skillLevel": "advanced",
-    "gearRequired": "none",
-    "riskLevel": "medium",
-    "prerequisites": [],
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [
+      "shelter-007"
+    ],
+    "whenNotTo": [
+      "When you are alone - dig a trench, not a quinzhee.",
+      "When you have no shovel and only shallow or wet, slushy snow - a debris or tarp shelter will be faster.",
+      "On or below avalanche slopes or cornices.",
+      "When a vehicle or building is available nearby - stay in it."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "You are in a winter survival scenario with heavy snowfall — a snow shelter maintains near 32°F interior regardless of outside temperature",
+      "situation": "You are stuck overnight in deep snow and need protection from wind and cold.",
       "immediate": [
-        "Pile snow into a mound 8 feet wide and 5-6 feet tall — insert 12-inch reference sticks throughout",
-        "Wait 2-4 hours for snow to sinter and harden before excavating",
-        "Hollow from one side angling upward — cold air pools at entrance, sleeping platform stays warmer"
+        "Get out of the wind and away from avalanche slopes",
+        "Short on time or alone: dig a trench 3 ft deep, roof it with a tarp or branches",
+        "Insulate the floor with a pad, pack, or boughs"
       ],
       "then": [
-        "Poke a ventilation hole through the ceiling with a ski pole or stick — this is not optional",
-        "Block the entrance with your pack to retain heat and insulate the floor from snow contact"
+        "With time and a partner: pile a quinzhee, wait 1-2 hours, hollow to 12-in walls",
+        "Keep a vent open, bed above the door, and never burn fuel inside"
       ]
     }
   },
@@ -220,65 +380,1117 @@
       "shelter",
       "urban",
       "grid-down",
-      "critical"
+      "power outage",
+      "carbon monoxide",
+      "winter"
     ],
-    "summary": "Assess, secure, and establish shelter in an urban environment during grid failure.",
+    "summary": "Decide whether a building is safe to stay in after a disaster or long power outage, then set up one warm, ventilated, low-risk living space without poisoning yourself with carbon monoxide.",
     "steps": [
       {
         "step": 1,
-        "title": "Structural assessment",
-        "body": "Before entering any building: look for foundation cracks, leaning walls, visible structural damage, collapsed sections. Check the ground floor for flooding signs or compromised floors. Smell for gas — if you detect gas, do not enter and do not use any flame or electrical switch nearby. Tag assessed buildings with chalk markers so others know the status."
+        "title": "Decide if the building is safe",
+        "body": "Before you go in or stay, walk around the outside. Do not enter if you see big cracks in walls or foundation, a leaning or sagging structure, collapsed sections, or downed power lines touching it. After an earthquake, expect aftershocks that can be as strong as the main shock - a building damaged once can fail the next time. Never re-enter a building that is visibly unsafe. Move to open space or an official shelter instead."
       },
       {
         "step": 2,
-        "title": "Select for defensibility and concealment",
-        "body": "In a grid-down urban scenario, shelter selection must balance safety with security. Prefer buildings set back from main roads, with multiple exit routes, above ground floor (avoids flooding and easier breach), and without large visible windows on the ground level. Upper floors of multi-story buildings offer observation and concealment advantages."
+        "title": "Check for gas and electrical hazards",
+        "body": "If you smell gas, hear hissing, or see a broken gas line, get everyone out right away. Do not flip switches, use phones inside, or light anything. Shut off the gas at the meter only if you suspect a leak, and only if you can do it safely - once off, a professional must turn it back on. If wiring is sparking or the building is flooded, stay out and shut off power at the main breaker only if you can reach it without standing in water."
       },
       {
         "step": 3,
-        "title": "Establish access control",
-        "body": "Secure entry points — not to stop a determined attacker, but to create noise and delay. Broken glass on sills, stacked cans that fall, fishing line at ankle height, bells on string. If you must leave, note what position you left items in to detect entry during absence."
+        "title": "Pick one living room",
+        "body": "In cold weather, choose the smallest room you can live in, ideally on an inside wall with few windows. A room with a south-facing window can gain some sun heat during the day. Close doors to the rest of the building. Hang blankets over doorways and windows, and stuff towels along gaps at the bottom of doors. Put everyone in that one room - shared body heat makes a real difference in a small space. Stay above the ground floor if flooding is possible."
       },
       {
         "step": 4,
-        "title": "Thermal management",
-        "body": "In winter grid-down, select the smallest room for habitation — easier to heat. South-facing rooms with windows capture passive solar heat. Seal drafts with cloth, tape, foam, or paper. Interior rooms with no exterior walls are the warmest in cold and coolest in heat. Mylar emergency blankets on windows reduce heat loss significantly."
+        "title": "Stay warm without fuel indoors",
+        "body": "Dress in loose layers, with hats and dry socks, even indoors. Sleep off the floor on pads, cushions, or a mattress, inside sleeping bags or under piled blankets. Build a small tent or blanket canopy over the bed to trap warm air. Eat regular meals and drink warm drinks if you can heat them safely. If the room keeps getting colder or anyone shows signs of hypothermia, move to a warming center, shelter, or friend's home."
       },
       {
         "step": 5,
-        "title": "Water and sanitation setup",
-        "body": "Identify all water storage in the structure (water heaters hold 40–80 gallons; toilet tanks hold 1–2 gallons of potable water if not chemically treated). Establish a toilet and waste disposal protocol immediately — improper waste in enclosed spaces creates rapid disease threat."
+        "title": "Prevent carbon monoxide poisoning",
+        "body": "Carbon monoxide (CO) is an invisible, odorless gas that kills hundreds of Americans each year, many during outages. Never use a generator, grill, camp stove, charcoal, or propane heater inside your home, garage, carport, or stairwell. Never heat with a gas oven or stovetop. Run generators outside at least 20 feet (6 m) from doors, windows, and vents. Use battery CO alarms. Headache, dizziness, nausea, or confusion in more than one person means get outside to fresh air and call 911."
+      },
+      {
+        "step": 6,
+        "title": "Use heaters and lights safely",
+        "body": "If you have a heater approved for indoor use, keep it at least 3 feet (1 m) from curtains, bedding, and furniture, and never leave it running while everyone sleeps. Use battery or rechargeable lights instead of candles. If you must use a candle, keep it in a sturdy holder away from anything that burns and put it out before sleeping. Keep a fire extinguisher or a bucket of water near your living area."
+      },
+      {
+        "step": 7,
+        "title": "Set up water, sanitation, and a safe perimeter",
+        "body": "Store drinking water in your room and use the water guides to find and treat more. Set up a sealed toilet system right away - a lined bucket with a tight lid - and keep waste away from your living area. Lock doors and windows and keep a simple noise alarm such as cans hung on the doorknob so you wake if a door opens. Keep exits clear - you must be able to leave fast if fire, gas, or a stranger forces you out."
       }
     ],
     "warnings": [
-      "Post-earthquake structures that appear intact may have compromised load-bearing elements that fail hours later. Do not shelter in a building that has experienced ground shaking without assessment.",
-      "Open flames in enclosed urban structures for heat carry significant CO poisoning risk. Ensure constant airflow."
+      "Never burn fuel indoors for heat - no grills, camp stoves, generators, charcoal, or gas ovens. Carbon monoxide can kill everyone asleep in the room.",
+      "Do not stay in a building with major structural damage, a gas smell, or flooding with live wires.",
+      "Never block your only exit with barricades. Fire and gas leaks are bigger threats than intruders in most outages.",
+      "Babies, older adults, and people with health problems get hypothermia faster. Move them to a warming center early."
     ],
     "proTips": [
-      "A hotel or apartment building has advantages over a house in a grid-down scenario: multiple water sources (each unit has a tank), more defensive depth, and often better structural integrity than older housing stock.",
-      "The water heater is your first water source in an urban grid-down — turn off the inlet valve to prevent further contamination from outside the structure and use the drain valve to access the stored water."
+      "Know where your nearest warming center, library, or mall is before winter. Write it on paper in case phones are down.",
+      "Put battery-powered CO alarms near sleeping areas and test them monthly.",
+      "Reflective emergency blankets taped over a window, shiny side in, can cut heat loss through the glass.",
+      "Check on neighbors who live alone - sharing one warm room can save fuel and lives."
     ],
     "relatedGuides": [
-      "water-001",
-      "sec-001",
-      "dis-005"
+      "shelter-007",
+      "urban-001",
+      "urban-002",
+      "power-003",
+      "dis-003",
+      "sec-002"
     ],
-    "source": "US Army FM 21-76 / USAF SERE curriculum",
-    "lastReviewed": "2025-01",
-    "skillLevel": "intermediate",
+    "source": "CDC / FEMA / ReadySF",
+    "sources": [
+      {
+        "title": "Avoiding Carbon Monoxide Poisoning",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/avoiding-carbon-monoxide-poisoning.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Winter Ready flyer (FEMA Region 5)",
+        "publisher": "FEMA",
+        "url": "https://selbyville.delaware.gov/files/2026/01/fema_r5_winter-ready-flyer_122024.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Earthquake Safety Guide",
+        "publisher": "ReadySF (City and County of San Francisco)",
+        "url": "https://media.api.sf.gov/documents/ReadySF_-_Earthquake_safety_guide_-_English.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Stay Alert for Hypothermia",
+        "publisher": "U.S. CDC",
+        "url": "https://cdc.gov/natural-disasters/psa-toolkit/stay-alert-for-hypothermia.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When officials order an evacuation - leave.",
+      "When the building is structurally damaged, smells of gas, or is flooding - go to open space or a public shelter.",
+      "When indoor temperatures keep dropping and you cannot stay warm - go to a warming center instead of improvising with fuel."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "Power and heat are out for days and you need to stay safely in a city building.",
+      "immediate": [
+        "Leave if you see major damage, smell gas, or see live wires in water",
+        "Move everyone into one small inside room and seal drafts with blankets and towels",
+        "Never use grills, generators, camp stoves, or gas ovens indoors"
+      ],
+      "then": [
+        "Sleep off the floor in layers and bags; use battery CO alarms",
+        "Go to a warming center if the room keeps getting colder or anyone shows hypothermia signs"
+      ]
+    }
+  },
+  {
+    "id": "shelter-005",
+    "category": "shelter",
+    "title": "Choosing a Shelter Site",
+    "priority": "critical",
+    "tags": [
+      "shelter",
+      "site selection",
+      "widowmakers",
+      "flash flood",
+      "wind",
+      "cold air drainage",
+      "campsite"
+    ],
+    "summary": "Pick a spot that will not drop a tree on you, flood under you, or freeze you - check overhead, underfoot, upstream, and upwind before you build or pitch anything.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stop early and look up first",
+        "body": "Start looking for a site at least an hour or two before dark so you can see hazards. The first check is overhead. Look for dead trees, broken tops, and dead branches hung up in other trees - often called widowmakers. They can fall with no warning, especially in wind, rain, or heavy snow. Scan every tree that could reach you if it fell, not just the one you are under. Avoid trees that lean, have big cracks, or show rot or mushrooms at the base."
+      },
+      {
+        "step": 2,
+        "title": "Stay out of flood paths",
+        "body": "Never camp in a dry wash, a narrow canyon floor, a ravine, or right beside a stream. A storm miles upstream can send a flash flood through with little warning, even under clear skies. Look for flood signs - debris lines caught in brush, mud marks on trees, smooth sand and gravel bars - and set up well above them. Also avoid low, sunken spots on otherwise flat ground; they fill with rainwater and turn into puddles under your shelter."
+      },
+      {
+        "step": 3,
+        "title": "Avoid falling rock, snow, and lightning",
+        "body": "Do not build at the base of cliffs, loose rock slopes, or steep snowy hillsides that could slide. Stay away from cliff edges, where a misstep in the dark is deadly. In storms, high peaks, bare ridges, and lone tall trees draw lightning and take the strongest wind. In thunderstorm season, choose lower, sheltered ground among many trees of similar height, but still above any flood zone."
+      },
+      {
+        "step": 4,
+        "title": "Use the wind",
+        "body": "Strong wind steals body heat fast and can wreck a shelter. In cold weather, choose a spot with a windbreak on the upwind side - a thick stand of trees, a boulder, a low rise. Face the closed side of your shelter into the wind and the door away from it. In hot weather, the reverse helps: an open spot that catches a breeze keeps you cooler and keeps bugs down."
+      },
+      {
+        "step": 5,
+        "title": "Avoid cold-air pockets",
+        "body": "On clear, calm nights, cold air slides downhill and pools in valley bottoms and hollows. These spots can be many degrees colder than ground just a little higher, and they collect fog, frost, and condensation. In cold weather, set up partway up a slope or on a small bench above the valley floor - high enough to be out of the cold pool, low enough to be out of the ridgetop wind. A gentle south-facing slope (in the Northern Hemisphere) also gets morning sun."
+      },
+      {
+        "step": 6,
+        "title": "Check the ground",
+        "body": "You need a spot big enough and flat enough to lie down. Clear away rocks, pinecones, and sticks. Lie on it before you build to feel for lumps and slope. Put your head uphill if there is any tilt. Look for ant nests, wasp holes, animal trails, and burrows and move if you find them. Dry, well-drained ground such as sand, gravel, or a thick layer of needles is better than bare clay or moss, which hold water."
+      },
+      {
+        "step": 7,
+        "title": "Balance water, materials, and being found",
+        "body": "Stay about 200 feet (60 m) from lakes and streams when you can. It keeps you out of flood paths, damp air, and insect swarms, and protects the water. Pick a spot near the building materials, firewood, and bedding you need. If you want to be rescued, choose a place near a clearing or open area where you can lay out signals and be seen from the air."
+      }
+    ],
+    "warnings": [
+      "Dead trees and dead limbs can fall without wind. Never sleep or build where one could reach you.",
+      "Flash floods can arrive under blue skies from storms far upstream. Never camp in dry washes, slot canyons, or on gravel bars.",
+      "Avoid bases of cliffs, rockfall slopes, and avalanche terrain.",
+      "Ridgetops and high, open ground are the most dangerous places in a lightning storm."
+    ],
+    "proTips": [
+      "Use the acronym LOOK: Limbs overhead, Out of flood paths, Out of the wind, Keep off cold low spots.",
+      "Lie down on the spot for a minute before you build. Your back will find the roots and slope your eyes missed.",
+      "Fog in a valley at dawn shows you exactly where the cold air pools - remember it for the next night.",
+      "In bear country, cook and store food at least 200 feet from where you sleep."
+    ],
+    "relatedGuides": [
+      "shelter-001",
+      "shelter-002",
+      "shelter-006",
+      "shelter-012",
+      "dis-004",
+      "comms-004"
+    ],
+    "source": "NPS / NWS / U.S. Army survival manual",
+    "sources": [
+      {
+        "title": "Finding and Setting Up a Campsite",
+        "publisher": "U.S. National Park Service",
+        "url": "https://www.nps.gov/subjects/camping/finding-and-setting-up-a-campsite.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Mountain and Valley Fog",
+        "publisher": "National Weather Service",
+        "url": "https://www.weather.gov/safety/fog-mountain-valley",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Short Term Shelters (adapted from U.S. Army survival manual)",
+        "publisher": "Survival Manual (survival.powweb.com)",
+        "url": "https://survival.powweb.com/shelter/short-term-shelters.php",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Set Up a Tent",
+        "publisher": "REI",
+        "url": "https://www.rei.com/learn/expert-advice/tent-set-up.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
     "gearRequired": "none",
     "riskLevel": "medium",
     "prerequisites": [],
+    "whenNotTo": [
+      "When someone is injured or hypothermic and cannot move - shelter where you are and improve the spot rather than searching.",
+      "When darkness or a storm is minutes away - take the first spot that clears the overhead and flood checks."
+    ],
+    "requiresMedicalDisclaimer": false,
     "quickGlance": {
-      "situation": "The power grid has failed and you need to assess, secure, and establish a defensible urban shelter position",
+      "situation": "You need to stop for the night and must choose where to build or pitch a shelter.",
       "immediate": [
-        "Check for gas smell before entering any building — do not enter if detected",
-        "Assess structural integrity: look for foundation cracks, leaning walls, collapsed sections",
-        "Select upper floor with multiple exit routes and minimal ground-floor window exposure"
+        "Look up: move away from dead trees and hanging dead limbs",
+        "Get out of dry washes, ravines, and low spots that can flood",
+        "Find a windbreak and stay off ridgetops and exposed ledges"
       ],
       "then": [
-        "Identify water sources in the structure: water heater (40-80 gal), toilet tanks (1-2 gal)",
-        "Establish access control with noise-making trip lines and sealed entry points"
+        "In cold, camp partway up a slope, not in the valley bottom",
+        "Lie on the spot to check for slope, roots, and nests before building"
+      ]
+    }
+  },
+  {
+    "id": "shelter-006",
+    "category": "shelter",
+    "title": "Tarp and Poncho Shelters",
+    "priority": "beginner",
+    "tags": [
+      "shelter",
+      "tarp",
+      "poncho",
+      "A-frame",
+      "lean-to",
+      "diamond",
+      "plow point",
+      "knots"
+    ],
+    "summary": "Pitch a tarp or poncho four proven ways - A-frame, lean-to, diamond, and plow point - and pick the right one for rain, wind, or sun.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Carry the right kit",
+        "body": "A 6x8 ft (about 2x2.5 m) tarp covers one person; 8x10 ft (about 2.5x3 m) covers two. A military-style poncho works for one in a pinch. Carry about 50 feet (15 m) of light cord cut into a long ridgeline and several short guylines, plus 4-6 stakes. Coated nylon or polyethylene tarps hold up well; thin mylar space blankets tear and are a poor roof. Practice every pitch at home so you can do it in the dark, in rain, with cold hands."
+      },
+      {
+        "step": 2,
+        "title": "Learn three knots and the pebble trick",
+        "body": "Use a taut-line hitch so you can tighten guylines and the ridgeline later. Use a bowline or figure-eight on a bight to make fixed loops. Use a slipped knot or trucker's hitch for quick release. If a tarp has no grommet where you need one, push a small smooth pebble up from underneath, wrap the cord around the bulge it makes, and tie off - never cut holes in waterproof gear. Rocks or logs can replace stakes on hard ground."
+      },
+      {
+        "step": 3,
+        "title": "A-frame for rain",
+        "body": "Tie a ridgeline tightly between two trees about 10-15 feet (3-4.5 m) apart, roughly waist to chest height. Drape the tarp over it, centered. Stake all four corners out at an angle so both sides are steep and tight. This sheds rain on both sides and blocks wind from two directions, so it handles changing weather. Lower the ridgeline for a storm; raise it and guy the edges out for more room and airflow in mild weather."
+      },
+      {
+        "step": 4,
+        "title": "Lean-to for one-sided wind and a fire",
+        "body": "Tie the ridgeline at about waist height. Tie one long edge of the tarp along it and stake the opposite edge to the ground on the upwind side, so the slope faces into the wind. For a poncho lean-to, close the hood tight first and tie it off so it does not leak. Tie short drip strings or sticks on the cords at each top corner so rainwater runs off them instead of along the cord into your shelter. Fill the open ends with brush or packs on cold nights."
+      },
+      {
+        "step": 5,
+        "title": "Diamond for fast setup",
+        "body": "This needs just one tree or pole. Tie one corner of the tarp to the tree at about chest to head height. Pull the opposite corner tight and stake it into the ground. Then stake the two side corners down and out. The high corner faces the tree; sit or sleep with your back to the wind and your head toward the tree. It goes up in minutes and also works hung diagonally over a hammock."
+      },
+      {
+        "step": 6,
+        "title": "Plow point for strong wind and blowing rain",
+        "body": "Stake one corner of the tarp to the ground pointing straight into the wind. Raise the opposite corner on a tree, a pole, or a stick about 4-5 feet (1.2-1.5 m) high. Stake the two side corners low and wide. The result is a low, pointed cone with its tip into the wind, which deflects gusts and rain very well. It has less room and is open at the back, so pile gear or brush there in cold weather."
+      },
+      {
+        "step": 7,
+        "title": "Tighten, check drainage, and add a floor",
+        "body": "Walk around and tighten every line until the tarp has no loose wrinkles - a slack tarp flaps, leaks, and collects water. Nylon stretches when wet, so retighten in rain. Keep the low edges just off the ground in warm weather for airflow, or flush to the ground in cold wind. Put a ground sheet, pad, or thick bedding under you, folded so it does not stick out past the roof and channel rain onto your bed."
+      }
+    ],
+    "warnings": [
+      "Never tie a tarp to a dead tree or under dead limbs, and stay out of low spots that flood.",
+      "Do not run a stove or fire under a low tarp. Heat and sparks melt or ignite most tarps.",
+      "A tarp alone does not keep you warm. In cold weather you still need thick insulation under you and warm layers.",
+      "In very strong wind, a tarp can tear or pull stakes. Go low, use a plow point or A-frame, and add extra guylines."
+    ],
+    "proTips": [
+      "Pre-tie a loop at one end of your ridgeline so you can throw it around a tree and hitch it in seconds.",
+      "Mark your guylines with bright cord or tape so you do not trip on them at night.",
+      "If you only have one long edge pointed at the sky, rain will find it. Turn the pitch so a sloped face is always upwind.",
+      "Trekking poles can stand in for trees at each end of an A-frame."
+    ],
+    "relatedGuides": [
+      "shelter-005",
+      "shelter-002",
+      "shelter-007",
+      "shelter-010",
+      "tools-001"
+    ],
+    "source": "Appalachian Mountain Club / U.S. Army survival manual",
+    "sources": [
+      {
+        "title": "How to Build an Emergency Tarp Shelter",
+        "publisher": "Appalachian Mountain Club",
+        "url": "https://www.outdoors.org/resources/amc-outdoors/outdoor-resources/how-to-build-an-emergency-tarp-shelter/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Tarp Shelter Configurations",
+        "publisher": "Wilderness Times",
+        "url": "https://wildernesstimes.com/tarp-shelter-configurations/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Short Term Shelters (adapted from U.S. Army survival manual)",
+        "publisher": "Survival Manual (survival.powweb.com)",
+        "url": "https://survival.powweb.com/shelter/short-term-shelters.php",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Training Aid 20-H-6: Survival Shelters",
+        "publisher": "California Cadet Corps",
+        "url": "https://strands.cacadets.org/strands/Strand_020/Strand_020_Handouts/TA_20-H-6_Survival_Shelters.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "low",
+    "prerequisites": [
+      "shelter-005"
+    ],
+    "whenNotTo": [
+      "In deep snow and hard cold, a snow trench roofed with the tarp is usually warmer than a tarp alone.",
+      "Where biting insects are thick, a tarp gives no bug protection - add a net or use a tent or hammock with netting."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You have a tarp or poncho and cord and need shelter from rain, wind, or sun in minutes.",
+      "immediate": [
+        "Rain from any side: A-frame on a tight ridgeline, all corners staked",
+        "Steady wind from one side: lean-to or plow point with the low side into the wind",
+        "One tree and no time: diamond pitch"
+      ],
+      "then": [
+        "Tighten every line and retighten when the tarp gets wet",
+        "Put insulation under you before you lie down"
+      ]
+    }
+  },
+  {
+    "id": "shelter-007",
+    "category": "shelter",
+    "title": "Insulation, Bedding, and Sleep Systems",
+    "priority": "critical",
+    "tags": [
+      "shelter",
+      "insulation",
+      "sleeping pad",
+      "R-value",
+      "sleeping bag",
+      "bedding",
+      "cold weather"
+    ],
+    "summary": "Stay warm all night by stopping heat loss to the ground first, then building up loft above you - with real gear (pads, bags) or improvised bedding.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know where the heat goes",
+        "body": "At night you lose heat four ways: by touching cold ground (conduction), to moving air and wind (convection), by radiating it to the cold sky, and through damp clothes and breath (evaporation). Your sleeping bag gets crushed flat under your body weight, so it does almost nothing below you. That is why a cold ground can chill you even inside a good bag. Fix the ground first, then wind, then add loft on top."
+      },
+      {
+        "step": 2,
+        "title": "Understand pad R-values",
+        "body": "A pad's R-value measures how well it resists heat flow - higher is warmer. Since about 2020, most major brands test with the same lab standard (ASTM F3340), so numbers from different brands can now be compared. Most pads fall between R 2 and R 6. As a rough guide, R 2-3 suits summer, R 4 or more suits nights near freezing, and R 5 or more suits winter on snow or frozen ground. Older air pads made before the standard may be much less warm than they look."
+      },
+      {
+        "step": 3,
+        "title": "Stack pads for more warmth",
+        "body": "Pad R-values add together when stacked with no air gap between them. A closed-cell foam pad (about R 2) under an inflatable pad (R 4) gives roughly R 6. Many people put the foam pad on top, next to the body, because foam warms up quickly. Foam also cannot pop - if the air pad leaks in the night, the foam keeps you off the ground. Closed-cell foam gives roughly R 3 per inch of thickness."
+      },
+      {
+        "step": 4,
+        "title": "Improvise ground insulation",
+        "body": "With no pad, pile dry leaves, pine needles, dry grass, or evergreen boughs into a mattress. Make it much thicker than seems needed - at least 6-8 inches (15-20 cm) after you lie on it and it compresses, and more on snow or frozen ground. Your pack, a coiled rope, a car seat cushion, cardboard, or a foam floor mat also work. Put your hips and shoulders on the best material, since they press down the hardest."
+      },
+      {
+        "step": 5,
+        "title": "Read sleeping bag ratings",
+        "body": "Many bags list a comfort rating and a lower-limit rating. The comfort rating is the temperature at which a typical cold sleeper stays comfortable. The lower limit is the temperature at which a typical warm sleeper stays warm curled up - not comfortable, just safe. If you sleep cold, use the comfort number. Quilts and some cheap bags have no standard test, so treat their ratings as the maker's guess. A bag only works with a pad matched to the ground temperature."
+      },
+      {
+        "step": 6,
+        "title": "Set up to stay warm all night",
+        "body": "Before bed, eat a snack with fat and protein and drink some water. Go to the bathroom - a full bladder makes you colder. Change into dry base layers and socks; sweaty clothes chill you. Wear a warm hat. Fluff your bag so the insulation lofts. Close the hood around your face but keep your mouth and nose outside so your breath does not soak the bag. Add an extra layer, like a puffy jacket, over the bag if needed, or put your feet inside your empty pack."
+      },
+      {
+        "step": 7,
+        "title": "Fix cold in the night",
+        "body": "If you wake up cold, do not just lie there. Do some sit-ups or clench and relax your muscles for a minute to make heat. Eat a snack. Add a layer, or move more bedding under you - cold from below is the most common cause. Fill dead air spaces around your body with clothes. Shared body heat helps: two people back-to-back stay warmer. A hard plastic bottle of hot water wrapped in a sock and placed near your core or thighs works well - make sure the lid is tight."
+      }
+    ],
+    "warnings": [
+      "Wet insulation loses most of its warmth, especially down. Keep bedding dry under a roof and off damp ground.",
+      "Uncontrolled shivering, slurred speech, confusion, or stumbling mean hypothermia. Warm the person and get medical help.",
+      "Never sleep with a stove, heater, or grill in a closed tent or shelter. Carbon monoxide can kill without warning.",
+      "Hot water bottles can burn skin. Wrap them and never use boiling water in a bottle not made for it."
+    ],
+    "proTips": [
+      "Air out and dry your bag in the sun each day on multi-day trips; body moisture builds up in it.",
+      "A cheap closed-cell foam pad is the most reliable piece of cold-weather gear you can own - it cannot fail.",
+      "Sleeping in all your clothes is not always warmer. Bulky, damp layers can squash a bag's loft. Wear dry, light layers.",
+      "Keep tomorrow's water and boots inside your bag or tent so they do not freeze."
+    ],
+    "relatedGuides": [
+      "shelter-001",
+      "shelter-008",
+      "shelter-011",
+      "shelter-012",
+      "shelter-003"
+    ],
+    "source": "REI / Cascade Designs / NPS",
+    "sources": [
+      {
+        "title": "Material Science: Everything You Need to Know About Sleep Systems",
+        "publisher": "REI",
+        "url": "https://www.rei.com/blog/camp/material-science-sleep-systems",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How warm is my sleeping pad and what is R-Value?",
+        "publisher": "Cascade Designs (Therm-a-Rest)",
+        "url": "https://support.cascadedesigns.com/hc/en-us/articles/35376948338195-How-warm-is-my-sleeping-pad-and-what-is-R-Value",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "New Sleeping Pad R-Value Standard: ASTM F3340",
+        "publisher": "SectionHiker",
+        "url": "https://sectionhiker.com/new-sleeping-pad-r-value-standard-astm-ff3340/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "10 Essentials",
+        "publisher": "U.S. National Park Service",
+        "url": "https://www.nps.gov/articles/10essentials.htm",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "In hot weather, heavy insulation causes sweating and dehydration - use a thin pad for comfort and stay cool."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You expect a cold night and need to sleep warm with whatever gear or materials you have.",
+      "immediate": [
+        "Insulate under you first: stack pads or pile 6-8 in or more of dry leaves or boughs",
+        "Change into dry base layers, hat, and socks",
+        "Eat, drink, and pee before getting in the bag"
+      ],
+      "then": [
+        "If cold at night, add bedding under you, eat a snack, and do short muscle exercises",
+        "Use stacked pads: R-values add when there is no air gap"
+      ]
+    }
+  },
+  {
+    "id": "shelter-008",
+    "category": "shelter",
+    "title": "Surviving a Cold Night Outdoors Without a Shelter Kit",
+    "priority": "critical",
+    "tags": [
+      "shelter",
+      "cold",
+      "hypothermia",
+      "unplanned night",
+      "no gear",
+      "survival priorities",
+      "lost"
+    ],
+    "summary": "Caught out after dark with no tent, bag, or tarp? Stop, get out of wind and off the ground, stay dry, and use what you carry and what grows around you to make it to morning.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stop and decide to stay",
+        "body": "As soon as you realize you will not make it out before dark, stop. Walking in the dark causes falls, gets you more lost, and soaks you in sweat. Tell someone if you have any signal - call or text 911, or use your phone's satellite SOS feature if it has one. Then turn your phone to low-power mode to save battery. Staying in one place also makes you much easier for searchers to find."
+      },
+      {
+        "step": 2,
+        "title": "Get out of the wind and off the ground",
+        "body": "Wind and cold ground are your two biggest heat thieves. Find the best natural cover close by - the downwind side of a large boulder, a thick stand of young evergreens, a fallen log, or a dense thicket. Check overhead for dead limbs and avoid dry washes. Do not waste your last daylight hunting for a perfect cave. A good-enough spot found in 10 minutes beats a great one found after dark."
+      },
+      {
+        "step": 3,
+        "title": "Build a bed before anything else",
+        "body": "Gather an armload, then another, then another of dry leaves, pine needles, grass, or evergreen boughs. Make a bed at least 6-8 inches (15-20 cm) thick after it is squashed down - more if the ground is wet or snowy. Sit on your pack, a rope, or a log if nothing else is available. Never sit or lie directly on bare rock, snow, or wet ground for long; it drains heat fast."
+      },
+      {
+        "step": 4,
+        "title": "Stay dry and add layers",
+        "body": "Wet clothing loses most of its warmth. Get out of rain and snow, brush snow off before it melts, and slow down so you do not sweat. Put on every layer you have, hat first. Stuff dry leaves or grass between clothing layers for extra insulation. A large trash bag with a face hole cut in it becomes a rain shell and windbreak. Keep feet as dry as possible - change into spare socks if you have them."
+      },
+      {
+        "step": 5,
+        "title": "Pile debris over yourself",
+        "body": "Once your bed is built, pile more dry leaves, boughs, and brush over your legs and body, like a big compost heap with you inside. The more dead air trapped around you, the warmer you stay. If you have time and energy left, lean sticks against a log or rock over your bed and pile debris on them for a quick, small debris shelter. Keep the space tight around your body."
+      },
+      {
+        "step": 6,
+        "title": "Make heat safely",
+        "body": "If you can make fire safely and legally, build a small one in front of your spot with a rock or log wall behind it to reflect heat toward you. Keep it well clear of your leaf bed. Eat any food you have before you get cold - your body needs fuel to make heat. Drink water. Shiver - it is your body's heater. When very cold, do slow muscle tensing or sit-ups in place rather than pacing around in the dark."
+      },
+      {
+        "step": 7,
+        "title": "Watch for hypothermia and signal at first light",
+        "body": "Hypothermia can happen above freezing, especially when wet and windy. Warning signs include shivering, exhaustion, memory loss, confusion, slurred speech, and drowsiness. Huddle together if you are with others. Keep checking on each other through the night. At dawn, make yourself visible: move into an open area, lay out bright gear, and use three whistle blasts or a signal mirror. Get medical care for anyone who was confused or stopped shivering while still cold."
+      }
+    ],
+    "warnings": [
+      "Hypothermia can kill even in temperatures well above freezing when you are wet or in wind.",
+      "A person who stops shivering while still cold, or becomes confused or very sleepy, needs urgent warming and medical help. Call 911 if you can.",
+      "Do not wander in the dark. Falls and getting more lost are common causes of serious injury.",
+      "Never let a fire get close to dry leaf bedding or debris piles - they burn fast."
+    ],
+    "proTips": [
+      "Carry a large heavy-duty trash bag and a space blanket in every day pack. Together they weigh almost nothing and can save your night.",
+      "Always tell someone your route and when you will be back, so searchers start looking the same night.",
+      "Hot hands packs placed in armpits or groin add heat but are not a replacement for insulation.",
+      "If you start to feel warm and want to undress while still out in the cold, treat it as severe hypothermia and get help."
+    ],
+    "relatedGuides": [
+      "shelter-005",
+      "shelter-007",
+      "shelter-001",
+      "shelter-011",
+      "comms-004",
+      "fire-003"
+    ],
+    "source": "CDC / FEMA / NPS",
+    "sources": [
+      {
+        "title": "Stay Alert for Hypothermia",
+        "publisher": "U.S. CDC",
+        "url": "https://cdc.gov/natural-disasters/psa-toolkit/stay-alert-for-hypothermia.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Winter Ready flyer (FEMA Region 5)",
+        "publisher": "FEMA",
+        "url": "https://selbyville.delaware.gov/files/2026/01/fema_r5_winter-ready-flyer_122024.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "10 Essentials",
+        "publisher": "U.S. National Park Service",
+        "url": "https://www.nps.gov/articles/10essentials.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Training Aid 20-H-6: Survival Shelters",
+        "publisher": "California Cadet Corps",
+        "url": "https://strands.cacadets.org/strands/Strand_020/Strand_020_Handouts/TA_20-H-6_Survival_Shelters.pdf",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "none",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When you have a vehicle nearby - stay with it, run the engine only in short bursts with the exhaust pipe clear of snow, and crack a window.",
+      "When you can safely reach a road, trail, or building before dark on a route you know."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You are stuck outdoors overnight in the cold with no tent, sleeping bag, or tarp.",
+      "immediate": [
+        "Stop moving, call or text 911 or use satellite SOS if you can",
+        "Get behind a windbreak and build a thick dry bed off the ground",
+        "Put on every layer and stay dry"
+      ],
+      "then": [
+        "Pile debris over yourself and eat any food you have",
+        "Watch each other for confusion or slurred speech; signal at first light"
+      ]
+    }
+  },
+  {
+    "id": "shelter-009",
+    "category": "shelter",
+    "title": "Shade Shelters for Hot Climates and Deserts",
+    "priority": "critical",
+    "tags": [
+      "shelter",
+      "desert",
+      "heat",
+      "shade",
+      "heat illness",
+      "vehicle",
+      "hot climate"
+    ],
+    "summary": "In the heat, shade is shelter. Stop moving at midday, get out of direct sun and off hot ground, and build a double-layer shade that cuts the heat - without burning water and sweat doing it.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stay with your vehicle if you have one",
+        "body": "If your car breaks down in the desert, stay with it. It gives you shade and is far easier for searchers to spot than a person on foot. Do not sit inside a closed car in the sun - it becomes an oven. Instead, open doors for airflow and rig shade beside the car on its shady side using a tarp, blanket, floor mats, or seat covers tied to the doors or roof rack. Raise the hood as a distress signal."
+      },
+      {
+        "step": 2,
+        "title": "Stop working during the hottest hours",
+        "body": "Move, dig, and build only in the cooler early morning, evening, or night. Between late morning and late afternoon, rest in whatever shade exists. Park rangers in very hot deserts warn against hiking at low elevations after 10 a.m. in summer. Hard work at midday burns through water fast and can cause heat stroke. Ration sweat, not water - drink the water you have when you are thirsty."
+      },
+      {
+        "step": 3,
+        "title": "Use natural shade first",
+        "body": "Look for the shady side of rock outcrops, cliffs, large boulders, or dense trees and brush. Watch how the shade will shift as the sun moves and pick a spot that stays shaded through the afternoon. Avoid dry washes and canyon bottoms - flash floods can roar through after storms far away. Check for snakes, scorpions, and insects in crevices before you sit or reach in."
+      },
+      {
+        "step": 4,
+        "title": "Rig a sheet shade",
+        "body": "Drape a tarp, poncho, space blanket, or light-colored cloth over a rock, a bush, or sticks so it casts shade on a space big enough to lie in. Anchor the edges with rocks or sand. Leave the sides open or raised so breeze can flow through. A light or reflective outer surface bounces sunlight away. Keep the roof high enough that it does not touch you; hot fabric pressed against skin passes heat straight through."
+      },
+      {
+        "step": 5,
+        "title": "Make it double-layer",
+        "body": "One layer of fabric still gets very hot and radiates heat down onto you. A second layer with an air gap makes a big difference. Fold the tarp in half or use two sheets, and hold them about 12-24 inches (30-60 cm) apart with sticks, rocks, or a frame, so air can move between them. Army survival guidance says a well-built layered shade over a shallow trench can cut midday temperatures by as much as about 30 F (16 C)."
+      },
+      {
+        "step": 6,
+        "title": "Get off the hot surface",
+        "body": "Desert ground at midday can be far hotter than the air. If you have the energy, dig a trench 18-24 inches (45-60 cm) deep in the early morning or evening, long enough to lie in, and put your shade over it. Sand just below the surface is cooler. If you cannot dig, at least lie on a pad, pack, or branches a few inches off the ground. Pile the dug sand on three sides and leave one end open as the entry."
+      },
+      {
+        "step": 7,
+        "title": "Watch for heat illness",
+        "body": "Heat exhaustion signs: heavy sweating, cool pale clammy skin, fast weak pulse, nausea, cramps, weakness, dizziness, headache, or fainting. Move to the coolest shade, loosen clothes, wet the skin, and sip water. Heat stroke is an emergency: body temperature 103 F or higher, hot red dry or damp skin, fast strong pulse, confusion, or passing out. Call 911, cool the person immediately with water and air, and do not give drinks to someone who is confused or unconscious."
+      }
+    ],
+    "warnings": [
+      "Heat stroke kills quickly. Confusion, collapse, or hot skin with a very high temperature means call 911 and cool the person right away.",
+      "Do not dig or hike in midday heat. The work can cost more water than the shelter saves.",
+      "Never sit in a closed car in the sun. Interior temperatures climb to deadly levels within minutes.",
+      "Avoid dry washes and canyon floors - flash floods can arrive from storms you cannot see."
+    ],
+    "proTips": [
+      "Wear loose, light-colored, long-sleeved clothing and a wide-brimmed hat. Covered skin loses less water than bare skin.",
+      "An umbrella is real shade you can carry. Desert parks recommend carrying one.",
+      "Eat salty snacks along with water to replace what sweat removes.",
+      "Desert nights can get cold. Keep a layer for after dark."
+    ],
+    "relatedGuides": [
+      "shelter-005",
+      "shelter-006",
+      "shelter-011",
+      "water-001",
+      "vehicle-003",
+      "comms-001"
+    ],
+    "source": "NPS Death Valley / CDC / U.S. Army survival manual",
+    "sources": [
+      {
+        "title": "Rescue of Hiker With Heat Illness (heat safety tips)",
+        "publisher": "Death Valley National Park, NPS",
+        "url": "https://www.nps.gov/deva/learn/news/medical-2024-07-19.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Warning Signs and Symptoms of Heat-Related Illness",
+        "publisher": "U.S. CDC",
+        "url": "https://kwso.org/wp-content/uploads/2023/08/Warning-Signs-and-Symptoms-of-Heat-Related-Illness-_-Natural-Disasters-and-Severe-Weather-_-CDC.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Short Term Shelters (adapted from U.S. Army survival manual)",
+        "publisher": "Survival Manual (survival.powweb.com)",
+        "url": "https://survival.powweb.com/shelter/short-term-shelters.php",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "draft",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "high",
+    "prerequisites": [],
+    "whenNotTo": [
+      "When air conditioning or a cool building is within reach - go there.",
+      "When someone shows heat stroke signs - call 911 and start cooling first; build shade only to help with cooling."
+    ],
+    "requiresMedicalDisclaimer": true,
+    "quickGlance": {
+      "situation": "You are stranded in desert or extreme heat and need protection from sun and hot ground.",
+      "immediate": [
+        "Stay with your vehicle and rig shade on its shady side",
+        "Stop all hard work between late morning and late afternoon",
+        "Get into shade and off the hot ground"
+      ],
+      "then": [
+        "Build a two-layer shade with a 12-24 in air gap in the cool hours",
+        "Watch for heat exhaustion and heat stroke; call 911 for confusion or collapse"
+      ]
+    }
+  },
+  {
+    "id": "shelter-010",
+    "category": "shelter",
+    "title": "Raised Shelters and Hammocks for Wet Ground, Jungle, and Swamp",
+    "priority": "advanced",
+    "tags": [
+      "shelter",
+      "hammock",
+      "raised platform",
+      "swamp bed",
+      "jungle",
+      "tropical",
+      "wet ground",
+      "insects"
+    ],
+    "summary": "When the ground is soaked, flooded, or crawling with insects, sleep off it - on a hung hammock or a lashed platform - with a roof overhead and a net around you.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know why you go up",
+        "body": "In jungle, swamp, and long rainy spells, the ground never dries. Bedding on it soaks through, and wet clothes may take many hours to dry or never dry under the canopy. The forest floor is also where ants, ticks, leeches, snakes, and scorpions live. A raised bed keeps you drier and puts distance between you and most of them. Remember that snakes and some insects climb, so height alone is not a guarantee - still check your bed before getting in."
+      },
+      {
+        "step": 2,
+        "title": "Pick strong, live anchors",
+        "body": "Choose two live, healthy trees at least 6 inches (15 cm) thick, about 12-15 feet (3.5-4.5 m) apart for a hammock. Wood rots fast in wet climates, so test every tree and pole by pushing and pulling hard. Never use dead trees. Look up through the leaves for dead branches caught in vines overhead. Avoid stagnant pools, which breed mosquitoes, and do not set up in a stream bed or below the high-water mark."
+      },
+      {
+        "step": 3,
+        "title": "Hang a hammock correctly",
+        "body": "Use wide straps - at least 1 inch (2.5 cm) - wrapped once around each trunk to protect the bark and hold well. Hang the hammock with a gentle sag, with the straps at about a 30-degree angle down from horizontal. A tight, flat hammock puts huge force on the anchors and is uncomfortable. Keep the seat low - about chair height - so a fall or a broken strap does not cause injury. Lie slightly diagonally for a flatter sleeping position."
+      },
+      {
+        "step": 4,
+        "title": "Roof it and net it",
+        "body": "Hang a tarp on a ridgeline about 1-2 feet above the hammock. A diamond pitch is light and quick; a rectangular A-frame gives more cover in driving rain. The tarp should extend past both ends of the hammock. Tie drip lines - short strings - on the hammock straps where they meet the tree so rain running down the trunk drips off before reaching you. Use a mosquito net that fully encloses the hammock wherever biting insects are present."
+      },
+      {
+        "step": 5,
+        "title": "Insulate under you",
+        "body": "In a hammock, the fabric squeezes any sleeping bag flat beneath you, so cool air flowing under the hammock pulls heat away. Even tropical nights can feel cold when you are wet. Put a sleeping pad inside the hammock, use an underquilt hung beneath it, or stuff dry leaves or clothing into a second layer of fabric under you. At 50 F (10 C) or below, a hammock without bottom insulation is usually a cold night."
+      },
+      {
+        "step": 6,
+        "title": "Build a swamp bed if you have no hammock",
+        "body": "Find four trees in a rectangle, or drive four strong poles deep into the mud. Lash two sturdy poles across the width and two along the length at a height safely above the high-water line and any expected rise. Lay smaller poles or split bamboo tightly across the frame to make a floor. Cover it with large leaves, grass, or palm fronds for a softer, drier bed. Put a tarp or thatched roof over it. If you have no rope, stack crossed branches into a platform above the water."
+      },
+      {
+        "step": 7,
+        "title": "Keep camp dry and healthy",
+        "body": "Keep packs and supplies off the ground - hang them from the ridgeline or a branch. Change into dry clothes to sleep and keep one set dry no matter what. Check your skin daily for leeches, ticks, bites, and fungal rashes, and air your feet out to prevent foot rot. Shake out boots and clothing before putting them on. Take the hammock down when you leave camp so animals do not tear it."
+      }
+    ],
+    "warnings": [
+      "Never hang from a dead tree, a dead or rotten limb, or a tree that leans. Wet climates rot wood fast - test everything.",
+      "Hang low. A fall from a high hammock or a strap failure can cause serious injury.",
+      "Do not build in stream beds or below the high-water mark - jungle rivers can rise many feet overnight.",
+      "Stagnant water breeds mosquitoes that spread disease. Camp away from it and sleep under a net."
+    ],
+    "proTips": [
+      "Practice your full hammock, tarp, and net setup at home before a trip - it is much harder in the rain at dusk.",
+      "A hammock can also be strung as a seat or gear rack during the day.",
+      "Many parks and land managers restrict hammocks or require tree-saver straps - follow local rules.",
+      "Keep a small light and your boots clipped to the ridgeline so you can find them in the dark."
+    ],
+    "relatedGuides": [
+      "shelter-005",
+      "shelter-006",
+      "shelter-007",
+      "medical-010",
+      "dis-004"
+    ],
+    "source": "Australian Army / Leave No Trace / U.S. Army survival manual",
+    "sources": [
+      {
+        "title": "Smart Soldier Survival Skills Series 2: Jungle Survival",
+        "publisher": "Australian Army (The Cove)",
+        "url": "https://cove.army.gov.au/article/smart-soldier-survival-skills-series-2-jungle-survival",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "2025 Leave No Trace Hammock Camping Guidelines",
+        "publisher": "Leave No Trace Center for Outdoor Ethics",
+        "url": "https://lnt.org/wp-content/uploads/2026/01/2025-LNT-Hammock-Camping-Guidelines.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Short Term Shelters (adapted from U.S. Army survival manual)",
+        "publisher": "Survival Manual (survival.powweb.com)",
+        "url": "https://survival.powweb.com/shelter/short-term-shelters.php",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Tarp Shelter Configurations",
+        "publisher": "Wilderness Times",
+        "url": "https://wildernesstimes.com/tarp-shelter-configurations/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "intermediate",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "shelter-005",
+      "shelter-006"
+    ],
+    "whenNotTo": [
+      "Above treeline, in open desert, or anywhere without strong live anchors.",
+      "In hard cold without bottom insulation - a ground shelter with a thick bed will be warmer.",
+      "In lightning storms, avoid hanging from the tallest trees in an area."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "The ground is wet, flooded, or full of insects and you need a dry place to sleep.",
+      "immediate": [
+        "Pick two live trees at least 6 in thick, clear of dead limbs and above the high-water line",
+        "Hang the hammock low with a gentle sag and 1-in or wider straps",
+        "Pitch a tarp 1-2 ft above and add drip lines and a mosquito net"
+      ],
+      "then": [
+        "Insulate under you with a pad or underquilt if nights are cool",
+        "No hammock: lash a swamp bed platform above the waterline"
+      ]
+    }
+  },
+  {
+    "id": "shelter-011",
+    "category": "shelter",
+    "title": "Emergency Bivy Sacks and Space Blankets - What They Really Do",
+    "priority": "beginner",
+    "tags": [
+      "shelter",
+      "space blanket",
+      "emergency bivy",
+      "mylar",
+      "ten essentials",
+      "hypothermia",
+      "vapor barrier"
+    ],
+    "summary": "Space blankets and emergency bivies are wind and water barriers that slow heat loss - they are not insulation and they will not rewarm a cold person by themselves. Learn how to get the most out of them.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Know what they do and do not do",
+        "body": "A mylar space blanket or bivy is a thin plastic sheet coated with metal. It blocks wind, keeps rain and snow off, traps a layer of air, and reflects some of the heat you radiate. It does not trap much air the way a sleeping bag or puffy jacket does, so on its own it is not insulation. Emergency doctors note it is much better at keeping a warm person warm than at rewarming someone who is already cold."
+      },
+      {
+        "step": 2,
+        "title": "Understand the evidence",
+        "body": "In a 2016 test published in the Emergency Medicine Journal, warm torso models were left outdoors for an hour in wind. Uncovered models cooled about 11.6 C. Models wrapped in a space blanket cooled about 4.5 C - a big improvement - but bubble-wrap bags and thicker rescue blankets did better still. Takeaway: a space blanket is far better than nothing, but more trapped air and more layers work better. Carry one, but do not make it your only plan."
+      },
+      {
+        "step": 3,
+        "title": "Choose a bivy over a flat blanket",
+        "body": "A flat blanket slips off, flaps in wind, and leaves gaps that let warm air escape. An emergency bivy - a sack shape - seals better and stays on when you move or sleep. Bivies made of breathable fabric reduce the dampness that builds inside fully plastic ones. Thicker reusable blankets with grommets can double as a tarp. Thin mylar tears easily, so pack it where it will not get punctured and carry a spare."
+      },
+      {
+        "step": 4,
+        "title": "Insulate under it first",
+        "body": "A space blanket lying on the ground does almost nothing against cold ground. Get off the ground first with a pad, your pack, or a thick pile of dry leaves or boughs. Then get into the bivy or wrap the blanket. If you only have one item, sit on your pack or a log and wrap the blanket around you, sealing it at the neck. Cover your head too - a hat or the hood of the bivy."
+      },
+      {
+        "step": 5,
+        "title": "Layer it correctly",
+        "body": "Best order from inside out: dry clothing and any insulation you have, then the bivy or blanket, then a windproof shell if available. Wrap the blanket tightly with no gaps, especially at the neck, shoulders, and feet. Tuck it under you so wind cannot get underneath. With an injured or cold person, put dry insulation like a sleeping bag or blankets against them and the space blanket outside it to block wind and wet."
+      },
+      {
+        "step": 6,
+        "title": "Manage moisture",
+        "body": "A fully plastic blanket or bivy traps sweat and breath, so the inside can get damp by morning. In short emergencies that tradeoff is worth it - it keeps rain and wind out. Over longer periods, vent it a little when you feel clammy, and keep your face outside to avoid breathing into it. Damp clothing under a vapor barrier can still stay warm-ish, but dry it as soon as you can."
+      },
+      {
+        "step": 7,
+        "title": "Use it for more than warmth",
+        "body": "A space blanket can be strung as a small roof or windbreak, a sun shade in the desert, a ground sheet, or a reflector behind you near a fire (kept far enough away not to melt). The shiny side can flash at aircraft, though a signal mirror is much better for that. A large heavy-duty trash bag is a cheap backup: cut a face hole, pull it over your head, and it becomes a rain and wind shell."
+      }
+    ],
+    "warnings": [
+      "A space blanket alone will not prevent or treat hypothermia. A cold, wet, or confused person needs dry insulation, shelter, and medical help.",
+      "Mylar melts and burns. Keep it well away from flames and hot stoves.",
+      "Thin mylar tears in wind and on brush. Do not rely on one as your only roof.",
+      "Never cover a child's or unconscious person's face with plastic."
+    ],
+    "proTips": [
+      "Practice unfolding and getting into your bivy once at home - new ones can be stiff and tricky in wind.",
+      "Pair a space blanket with a closed-cell foam sit pad in your day pack for a big jump in warmth.",
+      "Duct tape a few wraps around your water bottle so you can patch a torn blanket in the field.",
+      "Bright orange bivies are easier for searchers to see than silver ones in snow."
+    ],
+    "relatedGuides": [
+      "shelter-007",
+      "shelter-008",
+      "shelter-009",
+      "tools-001",
+      "comms-001"
+    ],
+    "source": "Emergency Medicine Journal (2016) / NPS / LITFL",
+    "sources": [
+      {
+        "title": "A torso model comparison of temperature preservation devices for use in the prehospital environment",
+        "publisher": "Emergency Medicine Journal (BMJ)",
+        "url": "https://emj.bmj.com/content/33/6/418",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Space blankets are worthless?",
+        "publisher": "Life in the Fast Lane (LITFL)",
+        "url": "https://litfl.com/space-blankets-are-worthless/",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "10 Essentials",
+        "publisher": "U.S. National Park Service",
+        "url": "https://www.nps.gov/articles/10essentials.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "How to Build an Emergency Tarp Shelter",
+        "publisher": "Appalachian Mountain Club",
+        "url": "https://www.outdoors.org/resources/amc-outdoors/outdoor-resources/how-to-build-an-emergency-tarp-shelter/",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "basic_edc",
+    "riskLevel": "medium",
+    "prerequisites": [],
+    "whenNotTo": [
+      "As a planned substitute for a sleeping bag and pad on a trip - it is an emergency backup only.",
+      "Wrapped tightly around a person in hot weather - it traps heat and can make heat illness worse."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You are cold and stuck with only an emergency space blanket or bivy.",
+      "immediate": [
+        "Get off the ground first with a pack, pad, or thick dry bedding",
+        "Get into the bivy or wrap the blanket tightly with no gaps, head covered",
+        "Put dry clothing or insulation inside, the blanket outside"
+      ],
+      "then": [
+        "Vent slightly if you get damp inside",
+        "Get to real shelter and insulation as soon as possible"
+      ]
+    }
+  },
+  {
+    "id": "shelter-012",
+    "category": "shelter",
+    "title": "Tents - Choosing and Pitching in Wind, Rain, and Snow",
+    "priority": "beginner",
+    "tags": [
+      "shelter",
+      "tent",
+      "guylines",
+      "stakes",
+      "deadman anchor",
+      "rain",
+      "snow",
+      "wind"
+    ],
+    "summary": "Pick a tent that fits your season and practice with it, then pitch it so it stays up and dry: right site, right orientation, tight fly, solid stakes, and guylines out before the storm hits.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Choose the right tent",
+        "body": "A three-season tent handles spring, summer, and fall rain and moderate wind; it has lots of mesh for airflow. A four-season (mountaineering) tent has stronger poles, less mesh, and a fly that reaches the ground to handle heavy snow and high wind. Freestanding tents stand without stakes, which helps on rock and sand, but still need staking in wind. Choose one with a full-coverage rainfly and plenty of guyout points. For an emergency kit, a tent you know how to pitch beats a better one you have never used."
+      },
+      {
+        "step": 2,
+        "title": "Practice and check gear at home",
+        "body": "Pitch the tent in your yard before every season. Check that all poles, stakes, and guylines are there and that the fly, zippers, and seams are in good shape. Pack a copy of the instructions. Carry spare stakes, extra cord, and a pole repair sleeve or splint. Practice once with gloves on and once in the dark so a stormy night is not your first real try."
+      },
+      {
+        "step": 3,
+        "title": "Pick and prepare the site",
+        "body": "Look up for dead limbs, stay out of low spots and dry washes, and use a windbreak such as trees or a rise in the land. Higher, well-drained ground under some tree cover reduces condensation; valley bottoms collect cold, damp air. Clear sticks and rocks. Use a ground sheet or footprint slightly smaller than the floor, or fold the edges under, so it does not catch rain and channel it under you. Keep the tent away from campfires and cooking areas."
+      },
+      {
+        "step": 4,
+        "title": "Face it to the wind",
+        "body": "Point the narrowest, strongest end of the tent - where the poles are strongest - into the wind. Keep the door on the downwind side so rain and snow do not blow in. In snow, polar field teams set the door downwind and about 45 degrees off the main wind so drifts do not bury it. In hot weather, you can do the opposite: turn a door toward a gentle breeze for cooling."
+      },
+      {
+        "step": 5,
+        "title": "Stake it solid",
+        "body": "Stake the upwind corners first so the tent cannot blow away while you work. Drive stakes in fully, leaving enough sticking out to hook the cord. Tension corners evenly. In snow or sand, normal stakes pull out - use wide snow or sand stakes, or a deadman: tie the line to the middle of a stick, stuff sack, or stake, bury it sideways to the pull, and stamp snow on top. In very soft snow, bury it about 2 feet (60 cm) deep and not too close to the tent."
+      },
+      {
+        "step": 6,
+        "title": "Rig the fly and guylines",
+        "body": "Clip and fasten the fly to the poles, line up its seams with the tent body, and tighten it so it does not touch the inner tent - contact lets water soak through. Run guylines out from the guy points that sit right over poles, starting on the windward side, then the others, spread evenly. Use adjustable knots like a taut-line hitch. Wet nylon stretches, so retighten after rain starts and check every line daily in storms."
+      },
+      {
+        "step": 7,
+        "title": "Ventilate and manage snow",
+        "body": "Breath and wet gear fill a tent with moisture that condenses on the walls. Open fly vents and crack a door, even in rain and cold. Never cook or run a heater inside a closed tent - carbon monoxide can build up without warning; cook in the open vestibule only in an emergency, with doors open, and never sleep with a stove burning. In snowfall, knock snow off the walls every few hours so the weight does not snap poles, and keep the vents clear."
+      }
+    ],
+    "warnings": [
+      "Never use stoves, grills, generators, or heaters inside a closed tent. Carbon monoxide poisoning is often fatal.",
+      "Do not pitch under dead trees or limbs, or in dry washes and low spots that can flood.",
+      "In high winds, a poorly staked tent can blow away with gear inside. Stake the upwind side first and keep weight inside.",
+      "Lightning: a tent gives no protection. In a storm, avoid open ridges, peaks, and lone tall trees."
+    ],
+    "proTips": [
+      "Run a guyline over a trekking pole tip or a stick to raise it and add strength in wind.",
+      "In snow, pack out the tent platform with your boots or skis and let it harden for a while before pitching.",
+      "Keep a sponge or small towel in the tent to wipe condensation off the walls in the morning.",
+      "Build a low snow-block or brush wall on the windward side in a big storm."
+    ],
+    "relatedGuides": [
+      "shelter-005",
+      "shelter-006",
+      "shelter-007",
+      "shelter-003"
+    ],
+    "source": "REI / U.S. Antarctic Program / NPS / CDC",
+    "sources": [
+      {
+        "title": "How to Set Up a Tent",
+        "publisher": "REI",
+        "url": "https://www.rei.com/learn/expert-advice/tent-set-up.html",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "USAP Field Manual - Field Gear",
+        "publisher": "U.S. Antarctic Program (NSF)",
+        "url": "https://www.usap.gov/USAPgov/travelAndDeployment/documents/FieldManual-FieldGear.pdf",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Finding and Setting Up a Campsite",
+        "publisher": "U.S. National Park Service",
+        "url": "https://www.nps.gov/subjects/camping/finding-and-setting-up-a-campsite.htm",
+        "accessed": "2026-10"
+      },
+      {
+        "title": "Avoiding Carbon Monoxide Poisoning",
+        "publisher": "U.S. CDC",
+        "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/avoiding-carbon-monoxide-poisoning.html",
+        "accessed": "2026-10"
+      }
+    ],
+    "lastReviewed": "2026-10",
+    "updatedOn": "2026-10-24",
+    "version": "2.0.0",
+    "reviewStatus": "not-required",
+    "skillLevel": "beginner",
+    "gearRequired": "advanced_kit",
+    "riskLevel": "medium",
+    "prerequisites": [
+      "shelter-005"
+    ],
+    "whenNotTo": [
+      "In extreme wind on an exposed ridge - move to lower, sheltered ground before pitching, or dig a snow shelter in deep snow.",
+      "A three-season tent is not built for heavy snow loads or winter storms - plan to clear it often or use a snow shelter."
+    ],
+    "requiresMedicalDisclaimer": false,
+    "quickGlance": {
+      "situation": "You need to pitch a tent that stays up and dry in bad weather.",
+      "immediate": [
+        "Pick high, drained ground away from dead limbs, with a windbreak",
+        "Point the strong, narrow end into the wind and the door downwind",
+        "Stake the upwind corners first; use deadman anchors in snow or sand"
+      ],
+      "then": [
+        "Tighten the fly off the inner tent and run guylines on the windward side first",
+        "Keep vents open and never cook or heat inside a closed tent"
       ]
     }
   }

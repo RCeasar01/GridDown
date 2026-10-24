@@ -1,0 +1,159 @@
+{
+  "id": "checklist-first-aid-kit",
+  "title": "Home First Aid Kit",
+  "disasterType": "first-aid-kit",
+  "description": "Use this list to build or check a household first aid kit based on the American Red Cross list, with extras for bleeding control and long outages.",
+  "category": "health",
+  "updatedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Anatomy of a First Aid Kit",
+      "publisher": "American Red Cross",
+      "url": "https://redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html",
+      "accessed": "2026-10"
+    },
+    {
+      "title": "Don't Be Tempted to Use Expired Medicines",
+      "publisher": "U.S. FDA",
+      "url": "https://www.fda.gov/drugs/safe-disposal-medicines/dont-be-tempted-use-expired-medicines",
+      "accessed": "2026-10"
+    }
+  ],
+  "items": [
+    {
+      "id": "fak-001",
+      "text": "2 pairs or more of non-latex gloves (large)",
+      "critical": true
+    },
+    {
+      "id": "fak-002",
+      "text": "Commercial tourniquet from a reputable medical supplier (not a cheap copy) - practice using it",
+      "critical": true
+    },
+    {
+      "id": "fak-003",
+      "text": "Pressure bandage and compressed or hemostatic gauze for packing deep wounds",
+      "critical": true
+    },
+    {
+      "id": "fak-004",
+      "text": "2 large absorbent compress dressings (5 x 9 in)",
+      "critical": true
+    },
+    {
+      "id": "fak-005",
+      "text": "Sterile gauze pads: 5 of 3 x 3 in and 5 of 4 x 4 in",
+      "critical": true
+    },
+    {
+      "id": "fak-006",
+      "text": "Roller bandages, 3-inch and 4-inch",
+      "critical": false
+    },
+    {
+      "id": "fak-007",
+      "text": "25 adhesive bandages in assorted sizes",
+      "critical": false
+    },
+    {
+      "id": "fak-008",
+      "text": "Roll of 1-inch cloth tape",
+      "critical": false
+    },
+    {
+      "id": "fak-009",
+      "text": "Breathing barrier with one-way valve for CPR",
+      "critical": true
+    },
+    {
+      "id": "fak-010",
+      "text": "Emergency (space) blanket",
+      "critical": false
+    },
+    {
+      "id": "fak-011",
+      "text": "Antiseptic wipes (5) and antibiotic ointment packets (5)",
+      "critical": false
+    },
+    {
+      "id": "fak-012",
+      "text": "Hydrocortisone ointment packets (2)",
+      "critical": false
+    },
+    {
+      "id": "fak-013",
+      "text": "Instant cold pack",
+      "critical": false
+    },
+    {
+      "id": "fak-014",
+      "text": "2 triangular bandages for slings and splints",
+      "critical": false
+    },
+    {
+      "id": "fak-015",
+      "text": "Non-glass, non-mercury thermometer",
+      "critical": false
+    },
+    {
+      "id": "fak-016",
+      "text": "Tweezers and trauma shears that can cut clothing",
+      "critical": false
+    },
+    {
+      "id": "fak-017",
+      "text": "2 packets of 81 mg aspirin - for an adult with heart attack signs only, if not allergic and the label or a dispatcher allows; never for children or teens",
+      "critical": false
+    },
+    {
+      "id": "fak-018",
+      "text": "Printed first aid manual - phones and internet may be down",
+      "critical": true
+    },
+    {
+      "id": "fak-019",
+      "text": "Household emergency medicines: each person's epinephrine auto-injectors, spare inhaler, and glucose tablets as needed",
+      "critical": true
+    },
+    {
+      "id": "fak-020",
+      "text": "OTC basics (follow every label): pain and fever reducer, antihistamine, anti-diarrhea medicine, antacid",
+      "critical": false
+    },
+    {
+      "id": "fak-021",
+      "text": "Oral rehydration salt packets",
+      "critical": false
+    },
+    {
+      "id": "fak-022",
+      "text": "Saline or clean water bottle for eye wash",
+      "critical": false
+    },
+    {
+      "id": "fak-023",
+      "text": "Elastic wrap and a moldable splint",
+      "critical": false
+    },
+    {
+      "id": "fak-024",
+      "text": "Blister supplies, safety pins, penlight, and notepad and pencil for recording times",
+      "critical": false
+    },
+    {
+      "id": "fak-025",
+      "text": "Child-size bandages and a child-safe fever reducer with its measuring device if you have kids",
+      "critical": false
+    },
+    {
+      "id": "fak-026",
+      "text": "Store in a cool, dry closet out of children's reach - not the bathroom - and check dates twice a year",
+      "critical": false
+    },
+    {
+      "id": "fak-027",
+      "text": "Take a hands-on first aid, CPR, and Stop the Bleed class",
+      "critical": true
+    }
+  ]
+}
