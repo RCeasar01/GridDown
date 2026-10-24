@@ -1,0 +1,50 @@
+name: Deploy web preview
+
+# Rebuilds the browser preview of the app and publishes it to the gh-pages branch, which
+# GitHub Pages serves at https://rceasar01.github.io/GridDown/ (test the app in a browser).
+# Runs on every push to main that touches app code or content, or by hand from the Actions tab.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'app/**'
+      - 'App.tsx'
+      - 'app.config.ts'
+      - 'metro.config.js'
+      - 'babel.config.js'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'docs/privacy.html'
+      - 'docs/terms.html'
+      - 'scripts/build-web.js'
+      - '.github/workflows/deploy-web.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-web
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    name: Build + publish to gh-pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build:web
+      - name: Publish dist-web to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist-web
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: 'deploy: web preview from ${{ github.sha }}'

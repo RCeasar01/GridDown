@@ -185,6 +185,17 @@ npx expo start
 > only run in a dev-client or store build — not in Expo Go. In Expo Go the Advisor shows a
 > labelled DEV demo mode and the Translator falls back to the pre-translated phrase cards.
 
+### Try the app (no build needed)
+| Where | How | What works |
+|---|---|---|
+| **Any browser** | <https://rceasar01.github.io/GridDown/> — rebuilt by CI on every push to `main` | Guides, quizzes, checklists, flows, tools, onboarding, Emergency Mode. Advisor, purchases and the translator are stubbed on web. |
+| **Your PC** (real APK) | `.\scripts\test-on-pc.ps1` — boots the `GridDown_Test` emulator, installs the newest signed release APK from `E:\Projects\GridDown\_exports\`, launches the app | Everything, including the on-device Advisor models. `-Stop` shuts the emulator down. |
+| **Your PC** (browser, live reload) | `npm run web` → <http://localhost:8081> | Same as the hosted preview, with hot reload while you edit. |
+| **Your phone** | Copy the `.apk` from `E:\Projects\GridDown\_exports\` to the phone and open it (allow "install unknown apps") | Everything. |
+
+`npm run build:web` exports the browser build to `dist-web/`; `npm run deploy:web` publishes it to
+GitHub Pages by hand if you ever need to bypass CI.
+
 ### Build — Android (Windows, local)
 ```powershell
 .\scripts\build-android.ps1 -Target debug              # dev APK
@@ -225,8 +236,9 @@ GitHub Actions runs on every push to `main` and every PR:
 
 - **Lint** — ESLint with zero warnings
 - **TypeScript** — `tsc --noEmit`
-- **Tests** — Jest (passes with no tests)
-- **EAS Config Validation** — validates `app.json` and `eas.json`
+- **Tests** — Jest (content integrity, retrieval, coordinate/Morse math, backup parsing)
+- **Expo Doctor** — config, lockfile, native-module support (patch-version drift is advisory)
+- **Deploy web preview** — `npm run build:web` → `gh-pages` → <https://rceasar01.github.io/GridDown/> (on pushes that touch app code or content)
 
 ---
 

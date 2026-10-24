@@ -46,3 +46,4 @@ google-services-account.json
 # Local build logs / exports
 /android/*.log
 /_exports/
+dist-web/

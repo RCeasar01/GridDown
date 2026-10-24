@@ -56,7 +56,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     versionCode: 1,
     permissions: ['ACCESS_FINE_LOCATION', 'ACCESS_COARSE_LOCATION', 'RECEIVE_BOOT_COMPLETED'],
   },
-  web: { favicon: './app/assets/images/favicon.png' },
+  web: { favicon: './app/assets/images/favicon.png', bundler: 'metro' },
+  // Web preview build (GitHub Pages serves it under /GridDown/). Native builds ignore this.
+  // `npm run build:web` sets EXPO_WEB_BASE_URL; plain `expo start --web` leaves it at root.
+  experiments: process.env.EXPO_WEB_BASE_URL ? { baseUrl: process.env.EXPO_WEB_BASE_URL } : undefined,
   plugins: [
     [
       'expo-splash-screen',
