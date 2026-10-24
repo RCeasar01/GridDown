@@ -17,7 +17,9 @@
   branch history is replaced each time (it is a build artifact, not source).
 #>
 param([switch]$SkipBuild)
-$ErrorActionPreference = 'Stop'
+# 'Continue', not 'Stop': Windows PowerShell 5.1 turns git's ordinary stderr progress lines into
+# terminating errors under 'Stop'. Exit codes are checked explicitly instead.
+$ErrorActionPreference = 'Continue'
 $root = Split-Path -Parent $PSScriptRoot
 Set-Location $root
 
@@ -31,16 +33,16 @@ if (-not (Test-Path "$root\dist-web\index.html")) { throw 'dist-web\index.html n
 $wt = Join-Path $env:TEMP ('griddown-gh-pages-' + [guid]::NewGuid().ToString('N').Substring(0, 8))
 $sha = (git rev-parse --short HEAD).Trim()
 Write-Host ">> Publishing dist-web to gh-pages (worktree $wt)"
-git fetch origin gh-pages 2>$null
 git worktree add --detach $wt 2>&1 | Out-Null
 try {
   Push-Location $wt
-  git checkout -q --orphan gh-pages-new
-  git rm -rfq . 2>$null
+  git checkout -q --orphan gh-pages-new 2>&1 | Out-Null
+  git rm -rfq . 2>&1 | Out-Null
   Copy-Item "$root\dist-web\*" . -Recurse -Force
   git add -A
-  git -c user.name='griddown-deploy' -c user.email='deploy@bannedproduct.com' commit -q -m "deploy: web preview from $sha (local)"
-  git push -f origin HEAD:gh-pages
+  git -c user.name='griddown-deploy' -c user.email='deploy@bannedproduct.com' commit -q -m "deploy: web preview from $sha (local)" 2>&1 | Out-Null
+  git push -f origin HEAD:gh-pages 2>&1 | ForEach-Object { "$_" }
+  if ($LASTEXITCODE -ne 0) { throw 'git push to gh-pages failed' }
   Pop-Location
 } finally {
   Set-Location $root

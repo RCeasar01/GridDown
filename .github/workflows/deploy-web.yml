@@ -32,6 +32,8 @@ jobs:
   deploy:
     name: Build + publish to gh-pages
     runs-on: ubuntu-latest
+    # npm ci + export take ~3 min; a hung runner must not hold the concurrency group for 6 h.
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
