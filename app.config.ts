@@ -61,7 +61,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     [
       'expo-splash-screen',
       {
+        // Transparent mark centred on the dark field (assets come from scripts/generate-brand-assets.js).
         image: './app/assets/images/splash.png',
+        imageWidth: 200,
         resizeMode: 'contain',
         backgroundColor: '#0D0D0D',
       },
@@ -80,7 +82,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     [
       'expo-notifications',
       {
-        icon: './app/assets/images/icon.png',
+        // Android status-bar icons must be white-on-transparent silhouettes.
+        icon: './app/assets/images/notification-icon.png',
         color: '#8B9E67',
         sounds: [],
       },

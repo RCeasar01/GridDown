@@ -276,6 +276,10 @@ Check every item before submitting for review.
       `main` in a scratch clone: **auto-merge is clean** (`AdvisorScreen.tsx` both sides), tsc 0 errors,
       173 tests green, lint 0 errors. Safe to `git merge main` on that branch when it's ready
 
+- [x] **Brand assets**: placeholder bolt replaced by an original mark; adaptive foreground kept inside Android's
+      66 % safe zone; splash is a transparent mark at `imageWidth: 200`; notifications get a white silhouette
+      (the full-colour icon would have rendered as a blob in the status bar)
+
 ### Working layout (two sessions, one repo)
 - `E:\Projects\GridDown` — checkout on `feature/triage-phase1` (the other session). Not touched by the release work.
 - `E:\Projects\GridDown-main` — `git worktree` on `main`; release builds run from here. `node_modules` is its own
@@ -284,7 +288,10 @@ Check every item before submitting for review.
 - Release artifacts land in `E:\Projects\GridDown\_exports\` either way.
 
 ### Open — needs Robert
-- [ ] **App icon is still the orange placeholder bolt.** The GDS brand kit (June) was delivered as a zip and isn't on E:\ anywhere I can find — point me at it and I'll wire icon/adaptive-icon/splash/favicon
+- [ ] **App icon: original mark shipped** (broken grid, one lit cell, compass point — `scripts/generate-brand-assets.js`
+      renders icon / adaptive-icon / splash / favicon / notification silhouette from one SVG). If the June GDS brand
+      kit turns up and you prefer it, drop its SVG into the script and re-run; Play's 512×512 listing icon is a
+      resize of `icon.png`
 - [ ] **Back up `credentials/`** to `E:\Backups\GridDown-credentials\` and the F: drive (see `credentials/README.md`)
 - [ ] Mac mini: enable Remote Login, then run `scripts/build-ios-macmini.sh sim` to verify iOS compiles with llama.rn
 - [ ] Install the release APK on a real Android phone (Advisor already verified on emulator; a phone confirms speed — expect 5–15 tok/s on a mid-range device)

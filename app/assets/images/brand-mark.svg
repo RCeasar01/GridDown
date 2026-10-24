@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs><radialGradient id="glow" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#1B2214"/><stop offset="1" stop-color="#0D0D0D"/></radialGradient></defs>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <g stroke="#3D4C2E" stroke-width="51.6096" stroke-linecap="round" fill="none" opacity="1">
+    <line x1="389.12" y1="143.36" x2="389.12" y2="332.34944" />
+    <line x1="389.12" y1="691.65056" x2="389.12" y2="880.64" />
+    <line x1="143.36" y1="389.12" x2="332.34944" y2="389.12" />
+    <line x1="691.65056" y1="389.12" x2="880.64" y2="389.12" />
+    <line x1="634.88" y1="143.36" x2="634.88" y2="332.34944" />
+    <line x1="634.88" y1="691.65056" x2="634.88" y2="880.64" />
+    <line x1="143.36" y1="634.88" x2="332.34944" y2="634.88" />
+    <line x1="691.65056" y1="634.88" x2="880.64" y2="634.88" />
+  </g>
+  <rect x="396.4928" y="396.4928" width="231.0144" height="231.0144" rx="49.152" fill="#8B9E67"/>
+  <!-- compass point: north blade solid, south blade hollow -->
+  <polygon points="512,419.59424 550.117376,512 512,604.40576 473.882624,512" fill="#0D0D0D" opacity="0.92"/>
+  <polygon points="512,419.59424 550.117376,512 512,512" fill="#8B9E67" opacity="0.55"/>
+  <circle cx="512" cy="512" r="13.341081599999999" fill="#8B9E67"/>
+</svg>
