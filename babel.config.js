@@ -1,9 +1,9 @@
 module.exports = function (api) {
-  // Jest sets JEST_WORKER_ID in every test process (jest-expo's transformer calls Babel
-  // as "metro", so the caller name can't be used). Keying on this rather than NODE_ENV
-  // keeps the test transform identical on CI, Linux, and a Windows shell that exports
-  // NODE_ENV=production for release builds.
-  const isJest = !!process.env.JEST_WORKER_ID;
+  // jest-expo calls Babel with caller { name: 'metro', bundler: 'jest' }; the real Metro
+  // bundler passes bundler: 'metro'. (NODE_ENV can't be used — the PC build shell exports
+  // NODE_ENV=production — and JEST_WORKER_ID can't either: Metro's transform workers are
+  // spawned by jest-worker, which sets it in every child.)
+  const isJest = api.caller((caller) => !!caller && caller.bundler === 'jest');
   api.cache.using(() => isJest);
   return {
     presets: ['babel-preset-expo'],
