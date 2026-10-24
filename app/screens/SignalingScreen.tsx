@@ -75,17 +75,17 @@ Colors: Orange side is used in most scenarios. Opposite (pink/magenta) may be us
     title: 'Signal Mirror Technique',
     content: `A signal mirror can be seen up to 10 miles away on a clear day.
 
-Aim technique (with sighting hole):
-1. Extend one arm at arm's length.
-2. Form a V with two fingers — place the target aircraft/sun in that V.
-3. Tilt the mirror so the reflected light spot falls on your finger V.
-4. The beam is aimed at the target. Flash slowly (don't spin rapidly).
+With a sighting hole (purpose-made signal mirror):
+1. Hold the mirror close to your eye and look through the hole at the target.
+2. Catch the sun so a bright spot (the "fireball") appears in the sighting window.
+3. Tilt until the fireball sits on the target — the beam is now on them.
+4. Flash slowly by rocking the mirror a few degrees. Don't spin it.
 
-Without sighting hole:
-1. Hold mirror face-out at eye level.
-2. Reflect sun onto your other palm to find the reflection.
-3. While watching your palm, adjust until the sun spot disappears — now the mirror is aimed at the sun.
-4. Tilt slowly toward target.
+Without a sighting hole (any mirror, phone, foil, CD):
+1. Extend your free arm and make a V with two fingers; put the target in the V.
+2. Bounce the sun off the mirror onto your palm first to find the beam.
+3. Walk the bright spot up your arm onto the finger V.
+4. With the spot on your fingers and the target in the V, the beam is on the target. Sweep slowly across it.
 
 Flash at regular intervals — three flashes (SOS pattern) is universal distress.
 Always signal even if you don't see an aircraft — rescuers may not be visible.`,

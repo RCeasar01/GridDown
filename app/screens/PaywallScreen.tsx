@@ -78,7 +78,7 @@ const PLANS: Plan[] = [
     priceLifetime: '$89.99',
     autoRenews: true,
     features: [
-      'Full 12-category library',
+      'Full 19-category library (300+ guides)',
       'All tools (HAM, Morse, Map, Translator)',
       'All quizzes and checklists',
       'My Kit + Gear Inventory',

@@ -25,25 +25,59 @@ const STOP_WORDS = new Set([
   'should', 'would', 'will', 'have', 'has', 'had', 'not', 'no', 'yes', 'there', 'here', 'about', 'into',
   'out', 'up', 'down', 'over', 'under', 'again', 'just', 'than', 'too', 'very', 'need', 'want', 'get',
   'got', 'some', 'any', 'all', 'one', 'also', 'much', 'many', 'know', 'tell', 'help', 'please',
+  // question noise that matches random body text
+  'right', 'now', 'live', 'am', 'im', 'ive', 'going', 'make', 'way', 'best', 'ok', 'okay', 'really',
 ]);
 
-/** Lower-case, strip punctuation, drop stop words, crude stemming (plural / -ing / -ed). */
+/**
+ * Domain words whose everyday form and formal form don't share a stem:
+ * a user types "filter", the guide says "filtration". Applied before stemming.
+ */
+const SYNONYMS: Record<string, string> = {
+  filtration: 'filter', filtering: 'filter', filtered: 'filter',
+  purification: 'purify', purifying: 'purify', purified: 'purify', purifier: 'purify',
+  disinfection: 'disinfect', disinfecting: 'disinfect', disinfectant: 'disinfect',
+  sanitation: 'sanitize', sanitizing: 'sanitize', sanitary: 'sanitize',
+  navigation: 'navigate', navigating: 'navigate', navigator: 'navigate',
+  evacuation: 'evacuate', evacuating: 'evacuate', evacuee: 'evacuate',
+  hemorrhage: 'bleeding', haemorrhage: 'bleeding', bleed: 'bleeding', bleeds: 'bleeding',
+  tourniquets: 'tourniquet', laceration: 'cut', lacerations: 'cut',
+  potable: 'drinkable', hypothermic: 'hypothermia', dehydrated: 'dehydration', dehydrate: 'dehydration',
+  medication: 'medicine', medications: 'medicine', meds: 'medicine',
+  kids: 'child', kid: 'child', children: 'child', infant: 'baby', infants: 'baby',
+  vehicle: 'car', vehicles: 'car', automobile: 'car', truck: 'car',
+  storm: 'storm', storms: 'storm', blackout: 'outage', blackouts: 'outage',
+};
+
+/** Lower-case, strip punctuation, drop stop words, normalize synonyms, stem. */
 export function tokenize(text: string): string[] {
   return text
     .toLowerCase()
     .replace(/[^a-z0-9\s-]/g, ' ')
     .split(/[\s-]+/)
     .filter((w) => w.length > 1 && !STOP_WORDS.has(w))
-    .map(stem);
+    .map((w) => stem(SYNONYMS[w] ?? w));
 }
 
-function stem(w: string): string {
-  if (w.length <= 4) return w;
-  if (w.endsWith('ies')) return w.slice(0, -3) + 'y';
-  if (w.endsWith('ing') && w.length > 5) return w.slice(0, -3);
-  if (w.endsWith('ed') && w.length > 4) return w.slice(0, -2);
-  if (w.endsWith('es') && w.length > 4) return w.slice(0, -2);
-  if (w.endsWith('s') && !w.endsWith('ss')) return w.slice(0, -1);
+/**
+ * Light suffix stripper (a few Porter-style rules). Good enough to make
+ * "shelters / sheltering / sheltered" and "treat / treatment / treated" meet.
+ */
+export function stem(input: string): string {
+  let w = input;
+  if (w.length <= 3) return w;
+  w = w.replace(/ification$/, 'ify');           // purification → purify (also via SYNONYMS)
+  w = w.replace(/(ization|isation)$/, 'ize');
+  w = w.replace(/ational$/, 'ate');
+  if (w.length > 6) w = w.replace(/(ness|ment|ments|ful|fully)$/, '');
+  w = w.replace(/ies$/, 'y');
+  if (w.length > 5) w = w.replace(/(ing|ings)$/, '');
+  // Plural first, then the longer-word suffixes: "waters" → "water" (not "wat"),
+  // "fires" → "fire", "shelters" → "shelt" (same as "shelter").
+  if (w.length > 3 && w.endsWith('s') && !w.endsWith('ss') && !w.endsWith('us')) w = w.slice(0, -1);
+  if (w.length > 5) w = w.replace(/(ed|er|ly)$/, '');
+  // "purifi" (from purified/purifier) → "purify"
+  if (w.length > 4 && w.endsWith('i')) w = w.slice(0, -1) + 'y';
   return w;
 }
 

@@ -258,7 +258,7 @@ Entitlement IDs (configure in RevenueCat dashboard):
 | Choice | `expo-device` reports total RAM; phones under ~5.5 GB are steered to Lite, and Lite itself needs 4 GB (a 3 GB device stalled mid-answer in testing). User can override; choice persists |
 | Source | HuggingFace (`bartowski/Phi-3.5-mini-instruct-GGUF`, `Qwen/Qwen2.5-1.5B-Instruct-GGUF`), downloaded once over Wi-Fi |
 | Runtime | **llama.rn** 0.12.x (llama.cpp). Metal on iOS, CPU on Android |
-| Grounding | `app/utils/guideRetrieval.ts` — BM25 over the 89 shipped guides; top-3 excerpts ride in the user turn with a paraphrase instruction (small models copy system-prompt text verbatim); answers show "From your guides" chips |
+| Grounding | `app/utils/guideRetrieval.ts` — BM25 over the 315 shipped guides (GridDown-Library v2); top-3 excerpts ride in the user turn with a paraphrase instruction (small models copy system-prompt text verbatim); answers show "From your guides" chips |
 | Context | 2048 tokens; `buildPrompt()` trims history so prompt + 512-token reply always fit |
 | Watchdog | `generate()` rejects with `GenerationTimeoutError` after 90 s of silence (timer resets per token), unloads the model, and the screen reloads it in place — the UI can never spin forever |
 | Code | `app/utils/advisorEngine.ts` (model catalog, runtime, prompt budget) → `app/screens/AdvisorScreen.tsx` |

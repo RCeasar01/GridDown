@@ -96,7 +96,7 @@ const TIER_RANK: Record<UserTier, number> = {
 };
 
 const DEFAULT_PACKS: ContentPack[] = [
-  { id: 'core', name: 'GridDown Core', description: 'Essential survival guides across all 10 categories.', sizeBytes: 2_400_000, installed: true, requiredTier: 'free', version: '1.0.0' },
+  { id: 'core', name: 'GridDown Core', description: 'Essential survival guides across all 19 categories.', sizeBytes: 2_400_000, installed: true, requiredTier: 'free', version: '1.0.0' },
   { id: 'medical', name: 'Medical Pack', description: 'Full TCCC, trauma, and preventive medicine guide set.', sizeBytes: 4_200_000, installed: false, requiredTier: 'monthly', version: '1.0.0' },
   { id: 'urban', name: 'Urban Survival Pack', description: 'Grid-down scenarios in urban and suburban environments.', sizeBytes: 3_100_000, installed: false, requiredTier: 'monthly', version: '1.0.0' },
   { id: 'field1', name: 'Field Pack 1', description: 'Extended wilderness, land navigation, and fieldcraft.', sizeBytes: 3_800_000, installed: false, requiredTier: 'monthly', version: '1.0.0' },

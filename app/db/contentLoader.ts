@@ -21,6 +21,13 @@ export interface Guide {
   prerequisites?: string[];
   whenNotTo?: string[];
   requiresMedicalDisclaimer?: boolean;
+  // Library v2 provenance (GridDown-Library; all optional)
+  sources?: Array<{ title: string; publisher: string; url: string; accessed: string }>;
+  version?: string;          // "2.0.0" for library-v2 guides
+  updatedOn?: string;        // YYYY-MM-DD
+  reviewStatus?: 'draft' | 'reviewed' | 'not-required';
+  reviewedBy?: string;
+  reviewedOn?: string;
 }
 export interface Category { id: string; label: string; icon: string; description: string; }
 export interface ChecklistItem { id: string; text: string; critical: boolean; }

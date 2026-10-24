@@ -18,7 +18,7 @@ GridDown - Offline Survival
 
 ### Short Description (80 chars max)
 ```
-80+ survival guides. 100% offline. No account, no servers. Veteran-built.
+300+ survival guides. 100% offline. No account, no servers. Veteran-built.
 ```
 
 ### Full Description (4000 chars max)
@@ -35,7 +35,7 @@ GridDown caches everything on your device at install. No cloud. No subscription 
 ───
 WHAT’S INSIDE
 ───
-➕ 80+ SURVIVAL GUIDES ACROSS 16 CATEGORIES
+➕ 300+ SURVIVAL GUIDES ACROSS 19 CATEGORIES
 Medical, water purification, fire starting, shelter building, navigation, communications, power generation, vehicle repair, food sourcing, and security. New content added regularly.
 
 🩹 TCCC MEDICAL PROCEDURES

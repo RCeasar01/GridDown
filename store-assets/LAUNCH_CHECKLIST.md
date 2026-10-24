@@ -313,8 +313,29 @@ Check every item before submitting for review.
 - Retrieval sometimes surfaces an off-topic third chip (e.g. *Apartment & High-Rise* for helicopter signalling);
   harmless, but a per-guide `tags` pass would tighten it
 
+- [x] **GridDown-Library 2.0.0 integrated (2026-10-24)** — 315 guides in 19 categories (all v2 with cited
+      `sources[]`), 196 quizzes, 25 checklists, 6 flows, synced with the library's own allowlisted
+      `sync-to-app.ps1` (backup at `E:\Backups\GridDown-Library-sync\2026-10-24_172228`). App-side: `Guide` type
+      carries the v2 provenance fields; categories, labels, icons and descriptions come from the generated
+      `app/content/categories.ts` (new: Health & Hygiene, Grid-Down Home, Terrain & Climate); quiz menus derive their
+      tiles from the quiz registry (also fixes the `field-manuals` vs `field-manual` mismatch that opened an empty
+      quiz); guide screen shows tappable **Sources** and a **Pending clinical review** badge on drafts; Advisor
+      keyword map now reaches CPR, choking, burns, fractures, stroke, heart attack, anaphylaxis, seizures, diabetic,
+      poisoning, snakebite, infection; retrieval stemmer/synonyms upgraded (purify↔purification, filter↔filtration,
+      hemorrhage↔bleeding) — a 315-guide index exposed that "purify water" ranked a river-crossing guide first.
+      Store copy, site and feature graphic say 300+ guides / 19 categories. Shock card no longer says to raise the
+      legs; signal-mirror steps corrected (finger-V is for mirrors *without* a sighting hole)
+- [ ] **Clinical-review decision (yours):** 138 of 315 guides are `reviewStatus: draft` (all medical, health and
+      terrain guides plus risk-bearing ones elsewhere). This build ships them with the badge + medical disclaimer —
+      the same posture as the 14 medical guides that already shipped. `npm run build:release` in the library would
+      drop them entirely (177 guides, no medical/health/environment at all). As guides are reviewed, set
+      `reviewStatus: "reviewed"` + `reviewedBy` in the library and re-sync
+
 ### Working layout (two sessions, one repo)
 - `E:\Projects\GridDown` — checkout on `feature/triage-phase1` (the other session). Not touched by the release work.
+- `E:\Projects\GridDown-Library` — the content source of truth (one file per guide, validator, writing spec).
+  Edit content there, `npm run build`, `.\scripts\sync-to-app.ps1 -AppPath E:\Projects\GridDown-main -Apply`.
+  Never edit `app/assets/content/*.json` or the generated registries in the app — the next sync overwrites them.
 - `E:\Projects\GridDown-main` — `git worktree` on `main`; release builds run from here. `node_modules` is its own
   install (was a junction to the main checkout; replaced so dependency bumps can't disturb the other branch).
   Remove with `git worktree remove E:\Projects\GridDown-main` once the branch is merged; `credentials/` is a copy.

@@ -27,23 +27,26 @@ describe('isMedicalQuery', () => {
 describe('getRelatedGuide', () => {
   test('maps the most specific keyword to a guide', () => {
     expect(getRelatedGuide('Massive bleeding, need a tourniquet')).toBe('medical-002');
-    expect(getRelatedGuide('He is not breathing')).toBe('medical-007');
+    expect(getRelatedGuide('He is not breathing')).toBe('medical-015');
     expect(getRelatedGuide('Signs of shock after a fall')).toBe('medical-006');
+    expect(getRelatedGuide('How do I treat a burn?')).toBe('medical-017');
+    expect(getRelatedGuide('How do I splint a fracture?')).toBe('medical-018');
+    expect(getRelatedGuide('What do I do for a snake bite?')).toBe('medical-048');
     expect(getRelatedGuide('Finding water')).toBeNull();
-    // no dedicated guide yet → null so the UI falls back to the retrieval hit
-    expect(getRelatedGuide('How do I treat a burn?')).toBeNull();
-    expect(getRelatedGuide('How do I splint a fracture?')).toBeNull();
   });
   test('every mapping points at a guide whose title is about that keyword', () => {
     const expectTitle: Record<string, RegExp> = {
-      'medical-002': /tourniquet/i, 'medical-003': /wound/i, 'medical-006': /shock/i,
-      'medical-007': /airway/i, 'medical-008': /rehydration/i, 'medical-014': /triage/i,
+      'medical-002': /tourniquet/i, 'medical-003': /wound/i, 'medical-006': /shock/i, 'medical-007': /airway/i,
+      'medical-008': /rehydration/i, 'medical-014': /triage/i, 'medical-015': /cpr/i, 'medical-016': /choking/i,
+      'medical-017': /burns?/i, 'medical-018': /fracture/i, 'medical-040': /heart attack/i, 'medical-041': /stroke/i,
+      'medical-042': /anaphylaxis/i, 'medical-044': /seizure/i, 'medical-045': /diabetic/i, 'medical-046': /poisoning|overdose/i,
+      'medical-048': /snakebite/i, 'medical-058': /infection|sepsis/i, 'health-006': /fever/i,
     };
-    for (const [kw, id] of Object.entries(MEDICAL_KEYWORD_TO_GUIDE)) {
+    for (const id of new Set(Object.values(MEDICAL_KEYWORD_TO_GUIDE))) {
       const g = getGuideById(id);
       expect(g).toBeTruthy();
+      expect(expectTitle[id]).toBeTruthy();
       expect(g!.title).toMatch(expectTitle[id]);
-      void kw;
     }
   });
 });

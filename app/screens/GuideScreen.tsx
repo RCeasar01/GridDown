@@ -1,5 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { View, Text, ScrollView, TouchableOpacity, StyleSheet, ActivityIndicator, Modal } from 'react-native';
+import { View, Text, ScrollView, TouchableOpacity, StyleSheet, ActivityIndicator, Modal, Linking } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { useRoute, RouteProp } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
 import { useAppStore } from '../store/useAppStore';
@@ -30,6 +31,13 @@ export interface GuideData {
   prerequisites?: string[];
   whenNotTo?: string[];
   requiresMedicalDisclaimer?: boolean;
+  // Library v2 provenance
+  sources?: Array<{ title: string; publisher: string; url: string; accessed: string }>;
+  version?: string;
+  updatedOn?: string;
+  reviewStatus?: 'draft' | 'reviewed' | 'not-required';
+  reviewedBy?: string;
+  reviewedOn?: string;
 }
 
 interface TranslatedGuideContent {
@@ -257,12 +265,26 @@ export function GuideScreen() {
       )}
 
       {/* 3. Source / lastReviewed line */}
-      {(guide.source || guide.lastReviewed) && (
+      {(guide.source || guide.lastReviewed || guide.updatedOn) && (
         <Text style={styles.sourceText}>
           {guide.source ? `${guide.source}` : ''}
-          {guide.source && guide.lastReviewed ? ' · ' : ''}
-          {guide.lastReviewed ? `Updated: ${guide.lastReviewed}` : ''}
+          {guide.source && (guide.updatedOn || guide.lastReviewed) ? ' · ' : ''}
+          {guide.updatedOn ? `Updated: ${guide.updatedOn}` : guide.lastReviewed ? `Updated: ${guide.lastReviewed}` : ''}
         </Text>
+      )}
+
+      {/* Clinical review status (library v2). Drafts ship with the medical disclaimer below. */}
+      {guide.reviewStatus === 'draft' && (
+        <View style={styles.reviewBadge} accessibilityRole="text">
+          <Ionicons name="time-outline" size={13} color="#C9A227" />
+          <Text style={styles.reviewBadgeText}>Pending clinical review — written from the cited sources, not yet signed off by a clinician</Text>
+        </View>
+      )}
+      {guide.reviewStatus === 'reviewed' && guide.reviewedBy && (
+        <View style={[styles.reviewBadge, styles.reviewBadgeOk]} accessibilityRole="text">
+          <Ionicons name="checkmark-circle-outline" size={13} color="#6FA36B" />
+          <Text style={[styles.reviewBadgeText, { color: '#6FA36B' }]}>Reviewed by {guide.reviewedBy}{guide.reviewedOn ? ` · ${guide.reviewedOn}` : ''}</Text>
+        </View>
       )}
 
       {/* Summary */}
@@ -383,6 +405,28 @@ export function GuideScreen() {
         </>
       )}
 
+      {/* Sources (library v2): tappable public references */}
+      {guide.sources && guide.sources.length > 0 && (
+        <View style={styles.sourcesBox}>
+          <Text style={styles.sourcesTitle}>SOURCES</Text>
+          {guide.sources.map((s, i) => (
+            <TouchableOpacity
+              key={`${s.url}-${i}`}
+              style={styles.sourceRow}
+              onPress={() => Linking.openURL(s.url).catch(() => {})}
+              accessibilityRole="link"
+              accessibilityLabel={`Open source: ${s.title}, ${s.publisher}`}
+            >
+              <Ionicons name="open-outline" size={14} color="#8B9E67" style={{ marginTop: 2 }} />
+              <View style={{ flex: 1 }}>
+                <Text style={styles.sourceTitle}>{s.title}</Text>
+                <Text style={styles.sourceMeta}>{s.publisher}{s.accessed ? ` · accessed ${s.accessed}` : ''}</Text>
+              </View>
+            </TouchableOpacity>
+          ))}
+        </View>
+      )}
+
       {/* 12. Credential Banner */}
       <View style={styles.credBanner}>
         <Text style={styles.credText}>{t('guide.credentialBanner')}</Text>
@@ -438,6 +482,14 @@ const styles = StyleSheet.create({
 
   // Source line
   sourceText: { fontSize: 11, color: '#555', fontStyle: 'italic', marginBottom: 12 },
+  reviewBadge: { flexDirection: 'row', alignItems: 'flex-start', gap: 6, backgroundColor: '#C9A22718', borderColor: '#C9A22755', borderWidth: 1, borderRadius: 8, paddingHorizontal: 10, paddingVertical: 7, marginBottom: 12 },
+  reviewBadgeOk: { backgroundColor: '#6FA36B18', borderColor: '#6FA36B55' },
+  reviewBadgeText: { flex: 1, color: '#C9A227', fontSize: 12, lineHeight: 17, fontWeight: '600' },
+  sourcesBox: { marginTop: 18, borderTopWidth: StyleSheet.hairlineWidth, borderColor: '#333', paddingTop: 12 },
+  sourcesTitle: { color: '#777', fontSize: 11, fontWeight: '800', letterSpacing: 1.2, marginBottom: 8 },
+  sourceRow: { flexDirection: 'row', gap: 8, paddingVertical: 6 },
+  sourceTitle: { color: '#8B9E67', fontSize: 13, fontWeight: '600' },
+  sourceMeta: { color: '#666', fontSize: 11, marginTop: 1 },
 
   // Summary
   summary: { fontSize: 14, color: '#AAA', lineHeight: 20, marginBottom: 16 },

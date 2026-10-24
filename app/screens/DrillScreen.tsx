@@ -13,23 +13,12 @@ import {
   getCategoryReadiness, getOverallReadiness, getTodayDrillState,
 } from '../db/contentLoader';
 import { getDrillInfo } from '../utils/dailyDrill';
+import { getQuizCategoryTiles } from '../utils/quizCategories';
 
 const FREE_CATEGORIES = ['water', 'fire', 'shelter'];
 
-const CATEGORY_INFO = [
-  { id: 'water', label: 'Water', icon: 'water-outline', count: 5 },
-  { id: 'fire', label: 'Fire', icon: 'flame-outline', count: 4 },
-  { id: 'shelter', label: 'Shelter', icon: 'home-outline', count: 5 },
-  { id: 'food', label: 'Food & Foraging', icon: 'leaf-outline', count: 4 },
-  { id: 'medical', label: 'Medical', icon: 'medkit-outline', count: 8 },
-  { id: 'navigation', label: 'Navigation', icon: 'compass-outline', count: 4 },
-  { id: 'comms', label: 'Comms & Signal', icon: 'radio-outline', count: 3 },
-  { id: 'security', label: 'Security', icon: 'shield-outline', count: 4 },
-  { id: 'vehicle', label: 'Vehicle', icon: 'car-outline', count: 4 },
-  { id: 'homesteading', label: 'Homesteading', icon: 'construct-outline', count: 3 },
-  { id: 'field-manuals', label: 'Field Manuals', icon: 'book-outline', count: 4 },
-  { id: 'disaster', label: 'Disaster', icon: 'warning-outline', count: 5 },
-];
+// Tiles come from the quizzes that ship — see utils/quizCategories.ts.
+const CATEGORY_INFO = getQuizCategoryTiles();
 
 type Nav = NativeStackNavigationProp<DrillStackParamList, 'DrillMain'>;
 

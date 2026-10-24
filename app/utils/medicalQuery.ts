@@ -17,23 +17,51 @@ export const MEDICAL_KEYWORDS = [
 ] as const;
 
 /**
- * Keyword → the guide that actually covers it (verified against titles in tests).
- * Keywords with no dedicated guide yet (burn, fracture, CPR, hypothermia, snakebite…)
- * are deliberately absent: the answer then links the top retrieval hit instead of a
- * wrong guide. Those gaps are listed in the launch checklist as 1.1 content work.
+ * Keyword → the guide that covers it (titles asserted in tests). Most-specific
+ * keywords first. Guide ids come from GridDown-Library v2.
  */
 export const MEDICAL_KEYWORD_TO_GUIDE: Record<string, string> = {
-  tourniquet: 'medical-002',   // Tourniquet Application
+  tourniquet: 'medical-002',          // Tourniquet Application
   bleeding: 'medical-002',
   bleed: 'medical-002',
   hemorrhage: 'medical-002',
   haemorrhage: 'medical-002',
-  wound: 'medical-003',        // Wound Packing
-  airway: 'medical-007',       // Airway Management Without Equipment
+  wound: 'medical-003',               // Wound Packing
+  cpr: 'medical-015',                 // CPR and AED
+  cardiac: 'medical-015',
+  'not breathing': 'medical-015',
+  choking: 'medical-016',             // Choking
+  burn: 'medical-017',                // Burns
+  burns: 'medical-017',
+  scald: 'medical-017',
+  fracture: 'medical-018',            // Fractures and Improvised Splinting
+  fractured: 'medical-018',
+  'broken bone': 'medical-018',
+  splint: 'medical-018',
+  airway: 'medical-007',              // Airway Management Without Equipment
   breathing: 'medical-007',
-  choking: 'medical-007',
-  shock: 'medical-006',        // Shock — Recognition and Management
-  triage: 'medical-014',       // Mass Casualty Triage — START Protocol
+  shock: 'medical-006',               // Shock
+  'heart attack': 'medical-040',      // Heart Attack
+  heart: 'medical-040',
+  stroke: 'medical-041',              // Stroke - BE FAST
+  anaphylaxis: 'medical-042',         // Anaphylaxis and Epinephrine
+  allergic: 'medical-042',
+  epipen: 'medical-042',
+  seizure: 'medical-044',             // Seizures
+  diabetic: 'medical-045',            // Diabetic Emergencies
+  insulin: 'medical-045',
+  'blood sugar': 'medical-045',
+  overdose: 'medical-046',            // Poisoning and Overdose
+  poisoning: 'medical-046',
+  poisoned: 'medical-046',
+  naloxone: 'medical-046',
+  snakebite: 'medical-048',           // Snakebite - North America
+  'snake bite': 'medical-048',
+  infection: 'medical-058',           // Infection and Sepsis Recognition
+  infected: 'medical-058',
+  sepsis: 'medical-058',
+  fever: 'health-006',                // Respiratory Infections and Fever
+  triage: 'medical-014',              // Mass Casualty Triage - START
   'oral rehydration': 'medical-008',
   dehydration: 'medical-008',
   dehydrated: 'medical-008',

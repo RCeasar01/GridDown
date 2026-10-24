@@ -58,11 +58,11 @@ const SECTIONS: Section[] = [
         title: 'SHOCK',
         doThisFirst: [
           '1. CALL 911 FIRST IF POSSIBLE',
-          '2. Lay flat, elevate legs 12 inches (unless head/spine injury)',
-          '3. Keep warm, do NOT give food/water',
+          '2. Stop any bleeding first — pressure, packing, tourniquet',
+          '3. Lay flat (do not raise the legs), keep warm, nothing to eat or drink',
         ],
         ifThen: 'IF skin is pale/cold/clammy AND pulse rapid → THEN treat as hemorrhagic shock — control bleeding immediately',
-        guideId: 'medical-004',
+        guideId: 'medical-006',
       },
       {
         title: 'TRIAGE — MULTIPLE VICTIMS',

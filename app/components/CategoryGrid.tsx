@@ -9,52 +9,19 @@ import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
 import { categoryDescription } from '../utils/helpers';
 
-export const CATEGORIES = [
-  'water', 'fire', 'shelter', 'food',
-  'medical', 'navigation', 'comms', 'security',
-  'tools', 'disaster', 'vehicle', 'homesteading',
-  'power', 'urban', 'leadership', 'children',
-];
+// Category list, labels and icons come from the library build (app/content/categories.ts),
+// so a new category in GridDown-Library appears here without a code change.
+import {
+  CATEGORIES as LIBRARY_CATEGORIES,
+  CATEGORY_LABELS as LIBRARY_LABELS,
+  CATEGORY_ICONS as LIBRARY_ICONS,
+} from '../content/categories';
 
-export const CATEGORY_LABELS: Record<string, string> = {
-  water: 'Water',
-  fire: 'Fire',
-  shelter: 'Shelter',
-  food: 'Food',
-  medical: 'Medical',
-  navigation: 'Navigation',
-  comms: 'Comms',
-  security: 'Security',
-  tools: 'Tools',
-  disaster: 'Disaster',
-  vehicle: 'Vehicle',
-  homesteading: 'Homestead',
-  power: 'Power & Energy',
-  urban: 'Urban Survival',
-  leadership: 'Leadership',
-  children: 'For Children',
-};
+export const CATEGORIES: string[] = LIBRARY_CATEGORIES;
+export const CATEGORY_LABELS: Record<string, string> = LIBRARY_LABELS;
 
 type IoniconsName = React.ComponentProps<typeof Ionicons>['name'];
-
-const CATEGORY_ICONS: Record<string, IoniconsName> = {
-  water: 'water',
-  fire: 'flame',
-  shelter: 'home',
-  food: 'leaf',
-  medical: 'medkit',
-  navigation: 'compass',
-  comms: 'radio',
-  security: 'shield',
-  tools: 'construct',
-  disaster: 'warning',
-  vehicle: 'car',
-  homesteading: 'nutrition',
-  power: 'battery-charging-outline',
-  urban: 'business-outline',
-  leadership: 'people-outline',
-  children: 'happy-outline',
-};
+const CATEGORY_ICONS = LIBRARY_ICONS as Record<string, IoniconsName>;
 
 interface CategoryGridProps {
   onSelectCategory: (categoryId: string) => void;

@@ -1,4 +1,5 @@
 import { Guide } from '../db/contentLoader';
+import { CATEGORY_DESCRIPTIONS } from '../content/categories';
 
 export function priorityColor(priority: string): string {
   switch (priority) {
@@ -36,11 +37,17 @@ export function categoryIcon(category: string): string {
     urban: '🏙️',
     leadership: '🎖️',
     children: '👧',
+    health: '🩺',
+    home: '🏠',
+    environment: '🏔️',
   };
   return icons[category] ?? '📋';
 }
 
 export function categoryDescription(category: string): string {
+  // The library's description wins when it has one; the map below is the fallback.
+  const fromLibrary = CATEGORY_DESCRIPTIONS[category];
+  if (fromLibrary) return fromLibrary;
   const desc: Record<string, string> = {
     water: 'Finding, purifying, and storing water when infrastructure fails.',
     fire: 'Starting and maintaining fire in adverse conditions.',

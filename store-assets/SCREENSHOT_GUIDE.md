@@ -44,7 +44,7 @@ The 6.7″ screenshot set scales for all other iPhone sizes automatically.
 
 ### Screenshot 1: Home Screen
 **Filename:** `01_home.png`  
-**Overlay text:** “80+ Survival Guides. 100% Offline.”  
+**Overlay text:** “300+ Survival Guides. 100% Offline.”  
 **Content to show:** Home screen with category cards (Medical, Water, Fire, Navigation visible), recent guides section  
 **Notes:** Light data populated — show 2–3 recently viewed guides
 
