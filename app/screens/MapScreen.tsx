@@ -322,10 +322,13 @@ export function MapScreen() {
           </View>
         </View>
 
-        {/* Map Placeholder */}
+        {/* What this screen is (no tile map in 1.0 — say so plainly) */}
         <View style={styles.mapPlaceholder}>
-          <Text style={styles.mapPlaceholderText}>🗺 Map requires build</Text>
-          <Text style={styles.mapPlaceholderSub}>Expo Go: coordinates only</Text>
+          <Text style={styles.mapPlaceholderText}>🧭 Position & waypoints</Text>
+          <Text style={styles.mapPlaceholderSub}>
+            Live GPS fix in lat/lon or MGRS, share it, and mark waypoints — each shows distance and bearing from
+            where you stand. Offline map tiles are planned for a later update.
+          </Text>
         </View>
 
         {/* Saved Points */}
@@ -532,8 +535,11 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   mapPlaceholderSub: {
-    fontSize: 12,
-    color: Colors.textMuted,
+    fontSize: 13,
+    lineHeight: 19,
+    color: Colors.textSecondary,
+    textAlign: 'center',
+    paddingHorizontal: 16,
   },
 
   // Section header

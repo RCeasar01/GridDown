@@ -39,7 +39,7 @@ const CROSS_TAB_ITEMS: CrossTabItem[] = [
   { label: 'Offline Translator',   icon: 'language-outline',   tab: 'Tools',  screen: 'Translator',  description: 'Offline 10-language translator' },
   { label: 'HAM Radio Repeaters',  icon: 'radio-outline',      tab: 'Tools',  screen: 'HamRadio',    description: 'US repeater database — all 50 states' },
   { label: 'Morse Code',           icon: 'code-slash-outline', tab: 'Tools',  screen: 'MorseCode',   description: 'Encode, decode, and play Morse' },
-  { label: 'Offline Map',          icon: 'map-outline',        tab: 'Tools',  screen: 'Map',         description: 'Topo maps — coming soon' },
+  { label: 'Position & Waypoints', icon: 'navigate-outline',   tab: 'Tools',  screen: 'Map',         description: 'GPS fix, MGRS, saved waypoints' },
   { label: 'Content Packs',        icon: 'download-outline',   tab: 'Learn',  screen: 'ContentPacks',description: 'Download additional guides' },
 ];
 

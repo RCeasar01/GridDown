@@ -27,7 +27,7 @@ const TOOLS: ToolCard[] = [
   ...PROTOCOL_TOOL,
   { emoji: '📡', title: 'HAM Radio Repeaters', screen: 'HamRadio' },
   { emoji: '🔤', title: 'Morse Code', screen: 'MorseCode' },
-  { emoji: '🗺️', title: 'Offline Map', screen: 'Map' },
+  { emoji: '🧭', title: 'Position & Waypoints', screen: 'Map' },
   { emoji: '🌐', title: 'Offline Translator', screen: 'Translator' },
   { emoji: '🎒', title: 'My Kit', screen: 'MyKit' },
   { emoji: '🌊', title: 'Real-World Flows', screen: 'Flows' },

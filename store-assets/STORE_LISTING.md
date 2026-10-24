@@ -199,7 +199,7 @@ Written to military and wilderness medicine standards — not watered-down inter
 🏠 Shelter — debris huts, tarps, snow shelters, urban improvised shelter
 🌱 Food — foraging, hunting, food safety, long-term nutrition
 🩺 Medical — TCCC, tourniquet, wound packing, airway, shock management
-🧭 Navigation — map, compass, celestial, terrain association
+🧭 Navigation — GPS position & waypoints (MGRS), compass, celestial, terrain association
 📻 Communications — HAM radio, Morse code, ground-to-air signals
 🛡️ Security — situational awareness, perimeter, bug-out planning
 🔧 Vehicle & Mechanical — field repairs, tire changes without a jack
@@ -211,7 +211,7 @@ Written to military and wilderness medicine standards — not watered-down inter
 FEATURES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-✓ 100% offline — every guide, checklist, map tool and quiz works with no connection (AI and translation packs download once over Wi-Fi)
+✓ 100% offline — every guide, checklist, navigation tool and quiz works with no connection (AI and translation packs download once over Wi-Fi)
 ✓ Field Intelligence AI (Pro + AI) — runs entirely on-device, answers from the in-app guides, no conversation data transmitted
 ✓ 10-language offline translation — Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Russian, Hindi
 ✓ Daily Drill — 54 survival scenarios, new drill every day, readiness score tracking

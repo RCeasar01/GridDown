@@ -229,7 +229,7 @@ function ToolsStackNavigator() {
         component={MorseCodeScreen}
         options={{ title: 'Morse Code' }}
       />
-      <ToolsStack.Screen name="Map" component={MapScreen} options={{ title: 'Offline Map' }} />
+      <ToolsStack.Screen name="Map" component={MapScreen} options={{ title: 'Position & Waypoints' }} />
       <ToolsStack.Screen name="Guide" component={GuideScreen} options={{ title: '' }} />
       <ToolsStack.Screen name="MyKit" component={MyKitScreen} options={{ title: 'My Kit' }} />
       <ToolsStack.Screen

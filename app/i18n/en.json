@@ -35,7 +35,7 @@
     "cancel": "Cancel", "noChecklists": "No checklists available."
   },
   "map": {
-    "title": "Offline Map", "coordinates": "Coordinates",
+    "title": "Position & Waypoints", "coordinates": "Coordinates",
     "latitude": "Latitude", "longitude": "Longitude",
     "accuracy": "Accuracy", "locating": "Locating...",
     "locationError": "Unable to get location. Check permissions.",
