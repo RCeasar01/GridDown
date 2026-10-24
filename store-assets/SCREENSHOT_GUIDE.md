@@ -164,3 +164,27 @@ node scripts/capture-screenshots.js --platform both
 ```
 
 The script walks you screen-by-screen, waiting for you to navigate the app before capturing.
+
+## What actually shipped for 1.0 (Android, 2026-10-24)
+
+Six PNGs at **1080×1920 (9:16)** in `store-assets/screenshots/android/`, taken on the local emulators
+(no device farm, no cost): `01_home`, `02_learn`, `03_tools`, `04_drill`, `05_emergency_mode`, `06_advisor`.
+Play accepts 16:9 → 9:16 up to 2:1, so a 1080×2400 (20:9) phone capture is **rejected** — fix the display
+size instead of cropping:
+
+```powershell
+$adb = 'E:\Android\Sdk\platform-tools\adb.exe'
+& $adb shell wm size 1080x1920           # re-lays out the live app at 9:16; `wm size reset` to undo
+& $adb shell settings put global sysui_demo_allowed 1
+foreach ($c in 'enter','clock -e hhmm 0900','battery -e level 100 -e plugged false',
+               'network -e wifi show -e level 4 -e fully true','network -e mobile hide',
+               'notifications -e visible false') {
+  & $adb shell "am broadcast -a com.android.systemui.demo -e command $c" | Out-Null
+}
+& $adb shell screencap -p /sdcard/s.png; & $adb pull /sdcard/s.png .\06_advisor.png
+```
+
+Gotchas seen while capturing: Google's **"Location Accuracy"** dialog pops over Emergency Mode on the
+emulator — tap *No thanks* first; the Advisor needs the **4 GB** AVD (`GridDown_Test`), the 3 GB one stalls.
+The Field Intelligence shot should show a finished answer *and* the "From your guides" chips — scroll the
+chat to the end before capturing. iOS shots still need the Mac mini (see LAUNCH_CHECKLIST).
