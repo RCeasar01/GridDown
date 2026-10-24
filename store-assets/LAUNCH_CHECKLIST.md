@@ -242,10 +242,23 @@ Check every item before submitting for review.
       broken flag glyph removed, orange gradient → OD green; same count fix across store copy and docs/index.html
 - [x] `scripts/deploy-legal-pages.ps1` — Cloudflare Pages path to host privacy/terms so the repo can go private
 
+- [x] **Fixed a monetization bug found during testing**: the purchased tier was never restored on cold start
+      (store started at `free`, RevenueCat wrote only to SQLite) — paying users would have seen Pro locked after
+      a restart. `loadUserTier()` at bootstrap + `applyTier()` keeps DB and store in sync
+- [x] SafeAreaView edges per screen (headered screens were double-padding the status bar after the 10-19 migration)
+- [x] **Advisor verified end-to-end on the emulator**: Lite model downloaded in-app (1,117,320,736 bytes, matches HF),
+      llama.rn loaded it in 2.7 s at ~1.37 GB PSS, 753-token grounded prompt, coherent streamed answer with
+      "From your guides" chips → *Finding Water in the Wild · Rainwater Collection · Improvised Water Filtration*
+- [x] R8-minified release verified: boot, Home/Tools/More/Settings/Founder, Translator, Export (6.4 KB JSON via share
+      sheet), quick-action shortcut registered with Android, Advisor — no crashes, no JS errors
+- [x] Play screenshots captured at 1080×1920 (9:16) with demo status bar → `store-assets/screenshots/android/`
+- [x] `mapping.txt` produced by R8 → upload with each AAB so Play de-obfuscates crash reports
+
 ### Open — needs Robert
+- [ ] **App icon is still the orange placeholder bolt.** The GDS brand kit (June) was delivered as a zip and isn't on E:\ anywhere I can find — point me at it and I'll wire icon/adaptive-icon/splash/favicon
 - [ ] **Back up `credentials/`** to `E:\Backups\GridDown-credentials\` and the F: drive (see `credentials/README.md`)
 - [ ] Mac mini: enable Remote Login, then run `scripts/build-ios-macmini.sh sim` to verify iOS compiles with llama.rn
-- [ ] Install the release APK on a real Android phone; test Advisor (Lite model, 1.1 GB) download + a real grounded answer
+- [ ] Install the release APK on a real Android phone (Advisor already verified on emulator; a phone confirms speed — expect 5–15 tok/s on a mid-range device)
 - [ ] Test Translator on a real phone (verified on emulator)
 - [ ] Google Play Console account ($25 one-time) → create app, enroll Play App Signing, upload AAB to Internal testing
 - [ ] Apple Developer Program ($99/yr) → App Store Connect record, TestFlight
