@@ -16,6 +16,8 @@ export type GearItem = {
   weight_grams?: number | null;
   notes?: string | null;
   kit_assignment?: string | null;
+  /** 1 = on hand, 0 = recommended but not yet acquired (seeded starter list). */
+  owned?: number;
   created_at: number;
 };
 
@@ -36,6 +38,12 @@ export async function initGearInventoryTables(): Promise<void> {
       created_at INTEGER
     );
   `);
+  // Migration: `owned` arrived after the first release candidates. Existing rows
+  // were all user-entered or seeded-as-owned, so the default keeps them "on hand".
+  const cols = await database.getAllAsync<{ name: string }>('PRAGMA table_info(gear_items)');
+  if (!cols.some((c) => c.name === 'owned')) {
+    await database.execAsync('ALTER TABLE gear_items ADD COLUMN owned INTEGER NOT NULL DEFAULT 1');
+  }
 }
 
 export async function seedGearItems(): Promise<void> {
@@ -69,13 +77,15 @@ export async function seedGearItems(): Promise<void> {
     { name: 'Lighter', category: 'Tools', quantity: 3 },
   ];
 
+  // The starter list is a *recommendation*: nothing is marked on hand until the
+  // user taps it. (Seeding it as owned made every new install score 100 %.)
   for (const item of items) {
     const id = Math.random().toString(36).slice(2) + Date.now().toString(36);
     await database.runAsync(
       `INSERT INTO gear_items
         (id, name, category, quantity, expiration_date, replacement_interval_days,
-         last_replaced, weight_grams, notes, kit_assignment, created_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+         last_replaced, weight_grams, notes, kit_assignment, owned, created_at)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?)`,
       [
         id, item.name, item.category, item.quantity,
         item.expiration_date ?? null, item.replacement_interval_days ?? null,
@@ -100,13 +110,13 @@ export async function addGearItem(
   await database.runAsync(
     `INSERT INTO gear_items
       (id, name, category, quantity, expiration_date, replacement_interval_days,
-       last_replaced, weight_grams, notes, kit_assignment, created_at)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+       last_replaced, weight_grams, notes, kit_assignment, owned, created_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
     [
       id, item.name, item.category, item.quantity,
       item.expiration_date ?? null, item.replacement_interval_days ?? null,
       item.last_replaced ?? null, item.weight_grams ?? null,
-      item.notes ?? null, item.kit_assignment ?? null, now,
+      item.notes ?? null, item.kit_assignment ?? null, item.owned ?? 1, now,
     ]
   );
 }
@@ -114,7 +124,7 @@ export async function addGearItem(
 // Whitelist of updatable columns — prevents SQL injection via object keys.
 const GEAR_ITEM_COLUMNS = new Set([
   'name', 'category', 'quantity', 'expiration_date', 'replacement_interval_days',
-  'last_replaced', 'weight_grams', 'notes', 'kit_assignment',
+  'last_replaced', 'weight_grams', 'notes', 'kit_assignment', 'owned',
 ]);
 
 export async function updateGearItem(
@@ -130,6 +140,12 @@ export async function updateGearItem(
     `UPDATE gear_items SET ${setClause} WHERE id = ?`,
     [...values, id] as import('expo-sqlite').SQLiteBindValue[]
   );
+}
+
+/** Toggle "on hand" for a recommended item. */
+export async function setGearItemOwned(id: string, owned: boolean): Promise<void> {
+  const database = await getDb();
+  await database.runAsync('UPDATE gear_items SET owned = ? WHERE id = ?', [owned ? 1 : 0, id]);
 }
 
 export async function deleteGearItem(id: string): Promise<void> {

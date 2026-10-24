@@ -23,6 +23,7 @@ import {
   getGearItems,
   initGearInventoryTables,
   seedGearItems,
+  setGearItemOwned,
   updateGearItem,
 } from '../db/gearInventory';
 
@@ -243,7 +244,8 @@ const ms = StyleSheet.create({
 
 // ─── Gear Item Row ────────────────────────────────────────────────────────────
 
-function GearItemRow({ item, onPress }: { item: GearItem; onPress: () => void }) {
+function GearItemRow({ item, onPress, onToggleOwned }: { item: GearItem; onPress: () => void; onToggleOwned: () => void }) {
+  const owned = item.owned !== 0;
   const expStatus = expirationStatus(item);
   const replStatus = replacementStatus(item);
   const alertStatus = expStatus === 'expired' || expStatus === 'critical' || replStatus === 'overdue'
@@ -252,10 +254,20 @@ function GearItemRow({ item, onPress }: { item: GearItem; onPress: () => void })
   const badgeColor = alertStatus === 'critical' ? Colors.danger : alertStatus === 'warning' ? Colors.warning : Colors.secondary;
 
   return (
-    <TouchableOpacity style={rs.row} onPress={onPress} activeOpacity={0.7}>
+    <TouchableOpacity style={[rs.row, !owned && rs.rowUnowned]} onPress={onPress} activeOpacity={0.7}>
+      <TouchableOpacity
+        onPress={onToggleOwned}
+        hitSlop={{ top: 10, bottom: 10, left: 10, right: 6 }}
+        accessibilityRole="checkbox"
+        accessibilityState={{ checked: owned }}
+        accessibilityLabel={`${item.name}, ${owned ? 'on hand' : 'not yet acquired'}`}
+        style={rs.check}
+      >
+        <Ionicons name={owned ? 'checkmark-circle' : 'ellipse-outline'} size={22} color={owned ? Colors.secondary : Colors.textMuted} />
+      </TouchableOpacity>
       <View style={rs.left}>
         <View style={rs.nameRow}>
-          <Text style={rs.name} numberOfLines={1}>{item.name}</Text>
+          <Text style={[rs.name, !owned && rs.nameUnowned]} numberOfLines={1}>{item.name}</Text>
           {alertStatus && (
             <View style={[rs.alertDot, { backgroundColor: badgeColor }]}>
               <Ionicons name={alertStatus === 'critical' ? 'warning' : 'time-outline'} size={10} color="#fff" />
@@ -280,7 +292,10 @@ function GearItemRow({ item, onPress }: { item: GearItem; onPress: () => void })
 }
 
 const rs = StyleSheet.create({
-  row: { flexDirection: 'row', alignItems: 'center', backgroundColor: Colors.surface, borderRadius: 8, padding: 12, marginBottom: 6, borderWidth: 1, borderColor: Colors.cardBorder },
+  row: { flexDirection: 'row', alignItems: 'center', backgroundColor: Colors.surface, borderRadius: 8, padding: 12, marginBottom: 6, borderWidth: 1, borderColor: Colors.cardBorder, gap: 10 },
+  rowUnowned: { opacity: 0.75 },
+  check: { paddingVertical: 2 },
+  nameUnowned: { color: Colors.textSecondary },
   left: { flex: 1 },
   nameRow: { flexDirection: 'row', alignItems: 'center', gap: 6 },
   name: { fontSize: 14, fontWeight: '600', color: Colors.textPrimary, flex: 1 },
@@ -335,10 +350,18 @@ export function GearInventoryScreen() {
   const totalWeightGrams = useMemo(() =>
     items.reduce((sum, i) => sum + (i.weight_grams ? i.weight_grams * i.quantity : 0), 0), [items]);
 
-  const score = useMemo(() => ({
-    count: Math.min(items.length, TOTAL_RECOMMENDED),
-    pct: Math.round((Math.min(items.length, TOTAL_RECOMMENDED) / TOTAL_RECOMMENDED) * 100),
-  }), [items]);
+  // Only items marked on hand count. The seeded starter list starts at 0 / 18.
+  const score = useMemo(() => {
+    const owned = items.filter((i) => i.owned !== 0).length;
+    const count = Math.min(owned, TOTAL_RECOMMENDED);
+    return { count, pct: Math.round((count / TOTAL_RECOMMENDED) * 100) };
+  }, [items]);
+
+  const toggleOwned = useCallback(async (item: GearItem) => {
+    const next = item.owned === 0;
+    setItems((prev) => prev.map((i) => (i.id === item.id ? { ...i, owned: next ? 1 : 0 } : i)));
+    try { await setGearItemOwned(item.id, next); } catch { /* reload will correct */ }
+  }, []);
 
   async function handleSave(data: Omit<GearItem, 'id' | 'created_at'>) {
     if (editingItem) {
@@ -379,7 +402,7 @@ export function GearInventoryScreen() {
         </View>
         <View style={ss.scoreRow}>
           <Text style={[ss.scorePct, { color: scoreColor }]}>{score.pct}%</Text>
-          <Text style={ss.scoreDetail}>{score.count} / {TOTAL_RECOMMENDED} recommended items</Text>
+          <Text style={ss.scoreDetail}>{score.count} / {TOTAL_RECOMMENDED} recommended items on hand · tap the circle to check off</Text>
         </View>
         <View style={ss.progressBg}>
           <View style={[ss.progressFill, { width: `${score.pct}%` as any, backgroundColor: scoreColor }]} />
@@ -450,7 +473,7 @@ export function GearInventoryScreen() {
         <FlatList
           data={filteredItems}
           keyExtractor={item => item.id}
-          renderItem={({ item }) => <GearItemRow item={item} onPress={() => openEdit(item)} />}
+          renderItem={({ item }) => <GearItemRow item={item} onPress={() => openEdit(item)} onToggleOwned={() => toggleOwned(item)} />}
           ListHeaderComponent={ListHeader}
           contentContainerStyle={ss.list}
           ListEmptyComponent={
