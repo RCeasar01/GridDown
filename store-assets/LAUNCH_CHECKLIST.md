@@ -293,8 +293,9 @@ Check every item before submitting for review.
 - [ ] Apple Developer Program ($99/yr) → App Store Connect record, TestFlight
 - [ ] RevenueCat project + keys (free under $2.5k MTR) — `EXPO_PUBLIC_REVENUECAT_*` env before release builds
 - [ ] Community Alerts backend (Supabase free tier) — optional for v1.0; feature is hidden-safe without it
-- [ ] Decide whether `feature/triage-phase1` ships in 1.0 — if yes: `git merge main` on that branch (clean, see
-      above), push, then rebuild the release from the merged tree and re-shoot the Tools screenshot (new Triage row)
+- [ ] **Sign off the triage trees** (merged, hidden in release until reviewed): walk each of the five in a dev build,
+      edit as needed, set `reviewStatus: "reviewed"`, `reviewedBy`, `reviewedOn`, bump `version`, `npm test`. Each
+      reviewed tree appears in the next release build automatically (Emergency Protocols tile + Advisor cards)
 - [ ] GitHub repo RCeasar01/GridDown is PUBLIC (needed for GitHub Pages legal hosting). To make it private, move docs/ to Cloudflare Pages on gdsurvival.com (free) and update the privacy/terms URLs
 
 ## v2.0.0-beta Feature Checklist

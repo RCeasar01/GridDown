@@ -1,7 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import {
   View, Text, StyleSheet, TouchableOpacity, TextInput, FlatList, KeyboardAvoidingView, Platform, ActivityIndicator,
+  Modal, Linking, Pressable,
 } from 'react-native';
+import Constants from 'expo-constants';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
@@ -11,6 +13,7 @@ import * as engine from '../utils/advisorEngine';
 import { ADVISOR_MODELS, DOWNLOAD_HEADROOM_BYTES, type AdvisorModel, type AdvisorModelId, type DeviceFit } from '../utils/advisorEngine';
 import { retrieveGuides } from '../utils/guideRetrieval';
 import { routeEmergency } from '../triage/router';
+import { saveReport, buildReportMailto, REPORT_REASONS, type ReportReason } from '../utils/advisorReports';
 import { getAvailableTrees } from '../triage/registry';
 
 interface Message {
@@ -253,6 +256,32 @@ function AdvisorInterface() {
   const [selectedModelId, setSelectedModelId] = useState<AdvisorModelId>('lite');
   const [installedModelIds, setInstalledModelIds] = useState<AdvisorModelId[]>([]);
   const selectedModel: AdvisorModel = ADVISOR_MODELS[selectedModelId];
+  // "Report this answer" (Play generative-AI policy: in-app flagging, no servers).
+  const [reportTarget, setReportTarget] = useState<Message | null>(null);
+  const [reportMailto, setReportMailto] = useState<string | null>(null);
+
+  const submitReport = async (reason: ReportReason) => {
+    const target = reportTarget;
+    if (!target) return;
+    const idx = messages.findIndex((m) => m.id === target.id);
+    const question = [...messages.slice(0, Math.max(idx, 0))].reverse().find((m) => m.role === 'user')?.text ?? '';
+    const appVersion = `${Constants.expoConfig?.version ?? '?'}`;
+    const saved = await saveReport({
+      reason,
+      question,
+      answer: target.text.replace(MEDICAL_FOOTER, '').trim(),
+      mode,
+      modelId: engine.getLoadedModel()?.id ?? null,
+      sources: (target.sources ?? []).map((s) => s.title),
+      appVersion,
+    });
+    setReportMailto(buildReportMailto(saved));
+  };
+
+  const closeReport = () => {
+    setReportTarget(null);
+    setReportMailto(null);
+  };
 
   const modelPathFor = (m: AdvisorModel, documentDirectory: string | null) =>
     `${documentDirectory ?? ''}${m.file}`;
@@ -809,6 +838,21 @@ function AdvisorInterface() {
                 ))}
               </View>
             )}
+            {item.role === 'advisor' && item.id !== '0' && item.text.length > 0 && !item.text.startsWith('[') && (
+              <View style={styles.reportRow}>
+                <TouchableOpacity
+                  style={styles.reportBtn}
+                  onPress={() => setReportTarget(item)}
+                  hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                  accessibilityRole="button"
+                  accessibilityLabel="Report this answer"
+                  accessibilityHint="Flag an inaccurate, unsafe, or offensive answer"
+                >
+                  <Ionicons name="flag-outline" size={12} color={Colors.textMuted} />
+                  <Text style={styles.reportText}>Report</Text>
+                </TouchableOpacity>
+              </View>
+            )}
             {item.isMedical && (
               <View style={styles.medicalFooterRow}>
                 <Text style={styles.medicalFlagText}>⚠ Medical reference</Text>
@@ -885,6 +929,63 @@ function AdvisorInterface() {
           </TouchableOpacity>
         </View>
       </KeyboardAvoidingView>
+
+      {/* Report this answer — reasons, then confirmation with an optional email. */}
+      <Modal visible={reportTarget !== null} transparent animationType="fade" onRequestClose={closeReport}>
+        <Pressable style={styles.sheetBackdrop} onPress={closeReport} accessibilityLabel="Dismiss">
+          <Pressable style={styles.sheet} onPress={() => {}}>
+            {reportMailto === null ? (
+              <>
+                <Text style={styles.sheetTitle}>Report this answer</Text>
+                <Text style={styles.sheetBody}>
+                  What's wrong with it? The report is saved on this phone; nothing is sent unless you choose to email it.
+                </Text>
+                {REPORT_REASONS.map((r) => (
+                  <TouchableOpacity
+                    key={r.id}
+                    style={styles.sheetOption}
+                    onPress={() => submitReport(r.id)}
+                    accessibilityRole="button"
+                    accessibilityLabel={`${r.label}. ${r.hint}`}
+                  >
+                    <View style={{ flex: 1 }}>
+                      <Text style={styles.sheetOptionLabel}>{r.label}</Text>
+                      <Text style={styles.sheetOptionHint}>{r.hint}</Text>
+                    </View>
+                    <Ionicons name="chevron-forward" size={18} color={Colors.textMuted} />
+                  </TouchableOpacity>
+                ))}
+                <TouchableOpacity style={styles.sheetCancel} onPress={closeReport} accessibilityRole="button">
+                  <Text style={styles.sheetCancelText}>Cancel</Text>
+                </TouchableOpacity>
+              </>
+            ) : (
+              <>
+                <Text style={styles.sheetTitle}>Thanks — report saved</Text>
+                <Text style={styles.sheetBody}>
+                  It's stored on this phone only. If you want us to see it, send it by email — you'll be able to read
+                  and edit it before it goes.
+                </Text>
+                <TouchableOpacity
+                  style={styles.sheetPrimary}
+                  onPress={() => {
+                    Linking.openURL(reportMailto).catch(() => {});
+                    closeReport();
+                  }}
+                  accessibilityRole="button"
+                  accessibilityLabel="Send the report by email"
+                >
+                  <Ionicons name="mail-outline" size={18} color={Colors.textOnPrimary} />
+                  <Text style={styles.sheetPrimaryText}>Email to support</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.sheetCancel} onPress={closeReport} accessibilityRole="button">
+                  <Text style={styles.sheetCancelText}>Done</Text>
+                </TouchableOpacity>
+              </>
+            )}
+          </Pressable>
+        </Pressable>
+      </Modal>
     </SafeAreaView>
   );
 }
@@ -973,6 +1074,44 @@ const styles = StyleSheet.create({
   modelBadgeInstalled: { color: Colors.textSecondary, borderColor: Colors.textSecondary },
   modelWarn: { color: Colors.warning, fontSize: 12, marginTop: 4 },
   sourcesRow: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: 6, marginTop: 10 },
+  reportRow: { flexDirection: 'row', justifyContent: 'flex-end', marginTop: 8 },
+  reportBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingVertical: 2, paddingHorizontal: 4 },
+  reportText: { color: Colors.textMuted, fontSize: 11, fontWeight: '600', letterSpacing: 0.3 },
+  sheetBackdrop: { flex: 1, backgroundColor: 'rgba(0,0,0,0.6)', justifyContent: 'flex-end' },
+  sheet: {
+    backgroundColor: Colors.surface,
+    borderTopLeftRadius: 18,
+    borderTopRightRadius: 18,
+    padding: 20,
+    paddingBottom: 32,
+    borderTopWidth: 1,
+    borderColor: Colors.surfaceBorder,
+  },
+  sheetTitle: { color: Colors.textPrimary, fontSize: 18, fontWeight: '800', marginBottom: 6 },
+  sheetBody: { color: Colors.textSecondary, fontSize: 14, lineHeight: 20, marginBottom: 14 },
+  sheetOption: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    paddingVertical: 12,
+    borderTopWidth: StyleSheet.hairlineWidth,
+    borderColor: Colors.surfaceBorder,
+  },
+  sheetOptionLabel: { color: Colors.textPrimary, fontSize: 15, fontWeight: '700' },
+  sheetOptionHint: { color: Colors.textMuted, fontSize: 12, marginTop: 2 },
+  sheetPrimary: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    backgroundColor: Colors.primary,
+    borderRadius: 10,
+    paddingVertical: 14,
+    marginTop: 4,
+  },
+  sheetPrimaryText: { color: Colors.textOnPrimary, fontSize: 15, fontWeight: '800' },
+  sheetCancel: { alignItems: 'center', paddingVertical: 14, marginTop: 6 },
+  sheetCancelText: { color: Colors.textSecondary, fontSize: 15, fontWeight: '600' },
   sourcesLabel: { color: Colors.textMuted, fontSize: 11, fontWeight: '600' },
   protocolBox: { gap: 8, marginBottom: 10 },
   protocolCard: {

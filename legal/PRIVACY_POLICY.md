@@ -85,6 +85,11 @@ The Field Intelligence Advisor (Pro + AI plan feature) runs a language model ent
 - Conversations are held only in device memory during the session and are cleared when you close
   the chat or restart the app.
 - You can delete a downloaded model at any time from the Advisor's model screen.
+- **Reporting an answer.** You can flag any Advisor answer from inside the app (Report → reason). The
+  report — your question, the answer, the reason, and the app version — is saved only on your phone
+  (newest 50 kept). If you choose "Email to support", your own mail app opens with the report
+  pre-filled for you to review, edit, and send to support@bannedproduct.com; nothing is sent
+  automatically.
 
 ---
 
