@@ -4,11 +4,14 @@
  * Thin wrapper around llama.rn (llama.cpp for React Native). Owns the single
  * loaded LlamaContext so screens never hold native handles directly.
  *
- * - Runs 100% on-device. No network after the one-time model download.
- * - llama.rn is a native module: it is present in dev-client / store builds,
- *   absent in Expo Go. Every entry point degrades gracefully when absent.
+ * - Runs 100% on-device. After the one-time model download no prompt, answer,
+ *   or guide text ever leaves the phone.
+ * - llama.rn is a native module: present in dev-client / store builds, absent in
+ *   Expo Go. Every entry point degrades gracefully when absent.
+ * - Two model sizes. The device's RAM picks the default; the user can override.
  */
 import { Platform } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { LlamaContext } from 'llama.rn';
 
 export type ChatRole = 'system' | 'user' | 'assistant';
@@ -17,26 +20,78 @@ export interface ChatMessage {
   content: string;
 }
 
-/** Model the app downloads on first use. MIT-licensed, safe for commercial distribution. */
-export const ADVISOR_MODEL = {
-  name: 'Phi-3.5 Mini Instruct (Q4_K_M)',
-  file: 'phi-3.5-mini-instruct-q4_k_m.gguf',
-  url: 'https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct-Q4_K_M.gguf',
-  sizeBytes: 2_393_232_672,
-  sizeLabel: '2.4 GB',
-  /** Minimum free space we require before starting the download (model + headroom). */
-  minFreeBytes: 3_000_000_000,
-  license: 'MIT (Microsoft Phi-3.5, quantized by bartowski)',
-} as const;
+export type AdvisorModelId = 'standard' | 'lite';
 
-const CONTEXT_TOKENS = 2048;
-/** How many prior turns we replay into the prompt (keeps us inside CONTEXT_TOKENS). */
-export const HISTORY_TURNS = 8;
+export interface AdvisorModel {
+  id: AdvisorModelId;
+  name: string;
+  tagline: string;
+  file: string;
+  url: string;
+  sizeBytes: number;
+  sizeLabel: string;
+  /** Approximate peak RAM while loaded (weights + KV cache + runtime). */
+  ramNeededBytes: number;
+  ramLabel: string;
+  /** Devices with at least this much total RAM get this model recommended. */
+  minDeviceRamBytes: number;
+  license: string;
+  contextTokens: number;
+  stop: string[];
+}
 
-const STOP_SEQUENCES = ['<|end|>', '<|user|>', '<|assistant|>', '<|endoftext|>', '</s>'];
+const GB = 1_000_000_000;
+
+/**
+ * Both files verified on HuggingFace 2026-10-23 (exact byte sizes below).
+ * Standard = best answers, needs a 6 GB+ phone. Lite = runs on ~all phones.
+ */
+export const ADVISOR_MODELS: Record<AdvisorModelId, AdvisorModel> = {
+  standard: {
+    id: 'standard',
+    name: 'Phi-3.5 Mini Instruct',
+    tagline: 'Best answers. Needs a phone with 6 GB RAM or more.',
+    file: 'phi-3.5-mini-instruct-q4_k_m.gguf',
+    url: 'https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct-Q4_K_M.gguf',
+    sizeBytes: 2_393_232_672,
+    sizeLabel: '2.4 GB',
+    ramNeededBytes: 3.4 * GB,
+    ramLabel: '~3.4 GB',
+    minDeviceRamBytes: 5.5 * GB,
+    license: 'MIT (Microsoft; GGUF by bartowski)',
+    contextTokens: 2048,
+    stop: ['<|end|>', '<|user|>', '<|assistant|>', '<|endoftext|>', '</s>'],
+  },
+  lite: {
+    id: 'lite',
+    name: 'Qwen2.5 1.5B Instruct',
+    tagline: 'Fast and light. Works on nearly every phone.',
+    file: 'qwen2.5-1.5b-instruct-q4_k_m.gguf',
+    url: 'https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf',
+    sizeBytes: 1_117_320_736,
+    sizeLabel: '1.1 GB',
+    ramNeededBytes: 1.6 * GB,
+    ramLabel: '~1.6 GB',
+    minDeviceRamBytes: 3 * GB,
+    license: 'Apache-2.0 (Alibaba Qwen)',
+    contextTokens: 2048,
+    stop: ['<|im_end|>', '<|im_start|>', '<|endoftext|>'],
+  },
+};
+
+/** Free-space headroom required on top of the model file before downloading. */
+export const DOWNLOAD_HEADROOM_BYTES = 600_000_000;
+
+const SELECTED_MODEL_KEY = 'griddown_advisor_model';
+
+/** Rough chars-per-token for English prose with these tokenizers. */
+const CHARS_PER_TOKEN = 3.6;
+/** Tokens reserved for the model's reply. */
+export const REPLY_TOKENS = 384;
 
 let ctx: LlamaContext | null = null;
 let loadedPath: string | null = null;
+let loadedModel: AdvisorModel | null = null;
 let runtimeChecked = false;
 let runtimeAvailable = false;
 
@@ -45,7 +100,6 @@ type LlamaModule = typeof import('llama.rn');
 async function loadRuntime(): Promise<LlamaModule | null> {
   try {
     const mod = (await import('llama.rn')) as LlamaModule;
-    // Touching an export forces the native module to resolve; throws in Expo Go.
     if (typeof mod.initLlama !== 'function') return null;
     runtimeAvailable = true;
     return mod;
@@ -67,11 +121,75 @@ export function isModelLoaded(): boolean {
   return ctx !== null;
 }
 
+export function getLoadedModel(): AdvisorModel | null {
+  return loadedModel;
+}
+
+// ─── Device fit ──────────────────────────────────────────────────────────────
+
+export interface DeviceFit {
+  totalRamBytes: number | null;
+  recommended: AdvisorModelId;
+  /** Models that should load on this device. */
+  supported: AdvisorModelId[];
+}
+
+/** Read total device RAM via expo-device (null in environments without it). */
+export async function getDeviceRamBytes(): Promise<number | null> {
+  try {
+    const Device = await import('expo-device');
+    const total = Device.totalMemory;
+    return typeof total === 'number' && total > 0 ? total : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Pick the model this phone can run well. Unknown RAM → recommend Lite but
+ * allow both (the user can still choose Standard).
+ */
+export async function getDeviceFit(): Promise<DeviceFit> {
+  const totalRamBytes = await getDeviceRamBytes();
+  if (totalRamBytes === null) {
+    return { totalRamBytes, recommended: 'lite', supported: ['standard', 'lite'] };
+  }
+  const supported = (Object.values(ADVISOR_MODELS) as AdvisorModel[])
+    .filter((m) => totalRamBytes >= m.minDeviceRamBytes)
+    .map((m) => m.id);
+  if (!supported.includes('lite')) supported.push('lite'); // always offer something
+  return {
+    totalRamBytes,
+    recommended: supported.includes('standard') ? 'standard' : 'lite',
+    supported,
+  };
+}
+
+export async function getSelectedModelId(): Promise<AdvisorModelId | null> {
+  try {
+    const v = await AsyncStorage.getItem(SELECTED_MODEL_KEY);
+    return v === 'standard' || v === 'lite' ? v : null;
+  } catch {
+    return null;
+  }
+}
+
+export async function setSelectedModelId(id: AdvisorModelId): Promise<void> {
+  try {
+    await AsyncStorage.setItem(SELECTED_MODEL_KEY, id);
+  } catch {
+    /* non-fatal */
+  }
+}
+
+// ─── Model lifecycle ─────────────────────────────────────────────────────────
+
 /**
  * Load a GGUF model from an absolute file path. Idempotent for the same path.
  * @param onProgress 0–100 while llama.cpp maps the weights.
  */
 export async function loadModel(
+  model: AdvisorModel,
   modelPath: string,
   onProgress?: (percent: number) => void,
 ): Promise<void> {
@@ -82,7 +200,7 @@ export async function loadModel(
   ctx = await mod.initLlama(
     {
       model: modelPath,
-      n_ctx: CONTEXT_TOKENS,
+      n_ctx: model.contextTokens,
       n_batch: 256,
       // Metal is reliable on every supported iPhone; keep Android on CPU for broad compatibility.
       n_gpu_layers: Platform.OS === 'ios' ? 99 : 0,
@@ -91,6 +209,7 @@ export async function loadModel(
     onProgress,
   );
   loadedPath = modelPath;
+  loadedModel = model;
 }
 
 export interface GenerateOptions {
@@ -102,15 +221,15 @@ export interface GenerateOptions {
 
 /** Run a chat completion against the loaded model. Resolves with the full reply. */
 export async function generate(messages: ChatMessage[], opts: GenerateOptions = {}): Promise<string> {
-  if (!ctx) throw new Error('Model not loaded.');
+  if (!ctx || !loadedModel) throw new Error('Model not loaded.');
   const result = await ctx.completion(
     {
       messages,
-      n_predict: opts.maxTokens ?? 512,
-      temperature: opts.temperature ?? 0.7,
+      n_predict: opts.maxTokens ?? REPLY_TOKENS,
+      temperature: opts.temperature ?? 0.6,
       top_p: 0.9,
       penalty_repeat: 1.1,
-      stop: STOP_SEQUENCES,
+      stop: loadedModel.stop,
     },
     opts.onToken ? (data) => opts.onToken?.(data.token) : undefined,
   );
@@ -132,9 +251,56 @@ export async function releaseModel(): Promise<void> {
   const current = ctx;
   ctx = null;
   loadedPath = null;
+  loadedModel = null;
   try {
     await current.release();
   } catch {
     /* context already gone */
   }
+}
+
+// ─── Prompt assembly ─────────────────────────────────────────────────────────
+
+export function estimateTokens(text: string): number {
+  return Math.ceil(text.length / CHARS_PER_TOKEN);
+}
+
+/**
+ * Assemble [system, ...history, user] so the whole prompt fits in the model's
+ * context with REPLY_TOKENS left for the answer. Reference material (retrieved
+ * guide excerpts) goes into the system message; history is trimmed oldest-first.
+ */
+export function buildPrompt(params: {
+  systemPrompt: string;
+  reference?: string;
+  history: ChatMessage[];
+  userText: string;
+  contextTokens?: number;
+}): ChatMessage[] {
+  const contextTokens = params.contextTokens ?? loadedModel?.contextTokens ?? 2048;
+  const budget = contextTokens - REPLY_TOKENS - 48; // template overhead
+  const system = params.reference
+    ? `${params.systemPrompt}\n\n${params.reference}`
+    : params.systemPrompt;
+  let used = estimateTokens(system) + estimateTokens(params.userText);
+  const kept: ChatMessage[] = [];
+  for (let i = params.history.length - 1; i >= 0; i--) {
+    const m = params.history[i];
+    const cost = estimateTokens(m.content) + 4;
+    if (used + cost > budget) break;
+    kept.unshift(m);
+    used += cost;
+  }
+  // Never start history with an assistant turn (confuses chat templates).
+  while (kept.length && kept[0].role === 'assistant') kept.shift();
+  return [{ role: 'system', content: system }, ...kept, { role: 'user', content: params.userText }];
+}
+
+/** Format retrieved guide excerpts as a reference block for the system prompt. */
+export function formatReference(excerpts: string[]): string {
+  if (excerpts.length === 0) return '';
+  return (
+    'REFERENCE — GridDown guides on this device. Answer primarily from these; if they do not cover the question, say so, then give your best general guidance.\n\n' +
+    excerpts.map((e, i) => `[${i + 1}] ${e}`).join('\n\n')
+  );
 }

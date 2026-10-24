@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 import { Ionicons } from '@expo/vector-icons';
 import { useAppStore } from '../store/useAppStore';
 import { SUPPORTED_LANGUAGES, downloadLanguageModel, type SupportedLanguage, type DownloadProgress } from '../utils/translation';
+import { exportBackupToShareSheet, pickBackupFile, restoreBackup, summarize } from '../utils/backup';
 
 const PRIVACY_URL = process.env.EXPO_PUBLIC_PRIVACY_URL ?? 'https://rceasar01.github.io/GridDown/privacy';
 const TERMS_URL = process.env.EXPO_PUBLIC_TERMS_URL ?? 'https://rceasar01.github.io/GridDown/terms';
@@ -111,6 +112,74 @@ export function SettingsScreen() {
 
   function handleOpenURL(url: string) {
     void Linking.openURL(url);
+  }
+
+  const [backupBusy, setBackupBusy] = useState(false);
+
+  async function handleExportBackup() {
+    if (backupBusy) return;
+    setBackupBusy(true);
+    try {
+      const { summary } = await exportBackupToShareSheet();
+      Alert.alert(
+        'Backup ready',
+        `Saved ${summary.kits} kits, ${summary.gearItems} gear items, ${summary.familyMembers} family members, ` +
+          `${summary.mapPoints} map points and ${summary.quizResults} quiz results. ` +
+          'Keep the file somewhere safe — a USB drive or your cloud folder. GridDown never uploads it.',
+      );
+    } catch (err) {
+      Alert.alert('Export failed', err instanceof Error ? err.message : 'Could not create the backup.');
+    } finally {
+      setBackupBusy(false);
+    }
+  }
+
+  async function handleImportBackup() {
+    if (backupBusy) return;
+    setBackupBusy(true);
+    try {
+      const backup = await pickBackupFile();
+      if (!backup) return;
+      const s = summarize(backup);
+      const when = new Date(backup.createdAt).toLocaleDateString();
+      Alert.alert(
+        'Restore backup?',
+        `Backup from ${when}: ${s.kits} kits, ${s.gearItems} gear items, ${s.familyMembers} family members, ${s.mapPoints} map points.\n\n` +
+          'Merge keeps what is on this phone and adds the backup. Replace wipes this phone\'s data first.',
+        [
+          { text: t('common.cancel'), style: 'cancel' },
+          {
+            text: 'Merge',
+            onPress: async () => {
+              try {
+                await restoreBackup(backup, { merge: true });
+                await useAppStore.getState().loadBookmarks();
+                Alert.alert('Restored', 'Backup merged. Restart GridDown to see every change.');
+              } catch (err) {
+                Alert.alert('Restore failed', err instanceof Error ? err.message : 'Could not restore.');
+              }
+            },
+          },
+          {
+            text: 'Replace',
+            style: 'destructive',
+            onPress: async () => {
+              try {
+                await restoreBackup(backup, { merge: false });
+                await useAppStore.getState().loadBookmarks();
+                Alert.alert('Restored', 'Backup restored. Restart GridDown to see every change.');
+              } catch (err) {
+                Alert.alert('Restore failed', err instanceof Error ? err.message : 'Could not restore.');
+              }
+            },
+          },
+        ],
+      );
+    } catch (err) {
+      Alert.alert('Import failed', err instanceof Error ? err.message : 'Could not read that file.');
+    } finally {
+      setBackupBusy(false);
+    }
   }
 
   async function handleClearRecent() {
@@ -282,6 +351,34 @@ export function SettingsScreen() {
       {/* Data */}
       <Text style={styles.sectionHeader}>{t('settings.data')}</Text>
       <View style={styles.card}>
+        <TouchableOpacity
+          style={styles.row}
+          onPress={() => void handleExportBackup()}
+          disabled={backupBusy}
+          accessibilityRole="button"
+          accessibilityLabel="Export my data as a backup file"
+        >
+          <View style={{ flex: 1 }}>
+            <Text style={styles.label}>Export my data</Text>
+            <Text style={styles.rowHint}>Kits, checklists, gear, family plan, map points, quiz history → one file you keep</Text>
+          </View>
+          {backupBusy ? <ActivityIndicator color="#8B9E67" /> : <Text style={styles.chevron}>›</Text>}
+        </TouchableOpacity>
+        <View style={styles.divider} />
+        <TouchableOpacity
+          style={styles.row}
+          onPress={() => void handleImportBackup()}
+          disabled={backupBusy}
+          accessibilityRole="button"
+          accessibilityLabel="Import a backup file"
+        >
+          <View style={{ flex: 1 }}>
+            <Text style={styles.label}>Import a backup</Text>
+            <Text style={styles.rowHint}>Restore from a GridDown backup file</Text>
+          </View>
+          <Text style={styles.chevron}>›</Text>
+        </TouchableOpacity>
+        <View style={styles.divider} />
         <TouchableOpacity style={styles.row} onPress={() => void handleClearRecent()}>
           <Text style={styles.label}>{t('settings.clearRecent')}</Text>
           <Text style={styles.chevron}>›</Text>
@@ -347,6 +444,7 @@ const styles = StyleSheet.create({
   progressRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   progressText: { color: '#8B9E67', fontSize: 12 },
   label: { fontSize: 15, color: '#F0F0F0' },
+  rowHint: { fontSize: 12, color: '#888', marginTop: 2, lineHeight: 16 },
   value: { fontSize: 15, color: '#888' },
   hint: { fontSize: 12, color: '#666', paddingHorizontal: 14, paddingBottom: 12 },
   chevron: { fontSize: 20, color: '#888' },

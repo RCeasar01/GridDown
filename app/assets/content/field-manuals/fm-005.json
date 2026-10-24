@@ -5,7 +5,13 @@
     "title": "Combat Lifesaver Extended Care",
     "priority": "advanced",
     "source": "US Army Field Manual (Public Domain)",
-    "tags": ["field-manual", "medical", "trauma", "extended-care", "CLS"],
+    "tags": [
+      "field-manual",
+      "medical",
+      "trauma",
+      "extended-care",
+      "CLS"
+    ],
     "summary": "Extended field care protocols for when evacuation is delayed 6 or more hours — reassessment cycles, pain management, wound care, hydration and nutrition, vital sign monitoring without equipment, and casualty packaging for eventual evacuation.",
     "steps": [
       {
@@ -47,7 +53,12 @@
       "Write the tourniquet application time on the patient's forehead with a marker — 'TK 14:35' — so it is visible to anyone who encounters the casualty, even if your written notes are lost.",
       "The MIST report takes 60 seconds to recite and dramatically improves continuity of care at handoff. Practice saying it aloud during training so it becomes automatic under stress."
     ],
-    "relatedGuides": ["fm-003", "stop-the-bleed", "trauma-assessment", "hypothermia-treatment"],
+    "relatedGuides": [
+      "fm-003",
+      "medical-002",
+      "medical-001",
+      "medical-006"
+    ],
     "lastReviewed": "2025-01",
     "skillLevel": "advanced",
     "gearRequired": "advanced_kit",
@@ -60,8 +71,16 @@
     ],
     "quickGlance": {
       "situation": "A casualty has received initial trauma care but evacuation is delayed 6 or more hours — extended care protocols apply",
-      "immediate": ["Reassess every 15 minutes in order: Airway → Breathing (count RR) → Circulation (tourniquet check, pulse quality) → Consciousness (AVPU) → Temperature", "Pain management: Meloxicam 15mg or Acetaminophen 1000mg orally — do NOT give aspirin or NSAIDs to penetrating torso trauma", "Document tourniquet application time prominently on forehead with marker: 'TK 14:35'"],
-      "then": ["Oral hydration for conscious casualty: minimum 2 liters per day — monitor urine color (pale yellow = adequate)", "Prepare MIST report for handoff: Mechanism, Injuries, Signs/symptoms, Treatment given with times"]
-    }
+      "immediate": [
+        "Reassess every 15 minutes in order: Airway → Breathing (count RR) → Circulation (tourniquet check, pulse quality) → Consciousness (AVPU) → Temperature",
+        "Pain management: Meloxicam 15mg or Acetaminophen 1000mg orally — do NOT give aspirin or NSAIDs to penetrating torso trauma",
+        "Document tourniquet application time prominently on forehead with marker: 'TK 14:35'"
+      ],
+      "then": [
+        "Oral hydration for conscious casualty: minimum 2 liters per day — monitor urine color (pale yellow = adequate)",
+        "Prepare MIST report for handoff: Mechanism, Injuries, Signs/symptoms, Treatment given with times"
+      ]
+    },
+    "requiresMedicalDisclaimer": true
   }
 ]

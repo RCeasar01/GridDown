@@ -4,7 +4,11 @@
     "category": "children",
     "title": "Teaching Kids to Call 911",
     "priority": "critical",
-    "tags": ["children", "emergency", "911"],
+    "tags": [
+      "children",
+      "emergency",
+      "911"
+    ],
     "audience": "children",
     "parentGuide": true,
     "summary": "How to teach children to call 911 confidently and communicate effectively in an emergency.",
@@ -53,7 +57,12 @@
     "category": "children",
     "title": "What to Do If You're Lost — Child Version",
     "priority": "critical",
-    "tags": ["children", "lost", "wilderness", "STOP"],
+    "tags": [
+      "children",
+      "lost",
+      "wilderness",
+      "STOP"
+    ],
     "audience": "children",
     "parentGuide": true,
     "summary": "Teach children the STOP method and survival basics for when they become separated from adults.",
@@ -101,8 +110,13 @@
     "id": "children-003",
     "category": "children",
     "title": "Stranger Safety in Emergencies",
-    "priority": "high",
-    "tags": ["children", "strangers", "safety", "emergency"],
+    "priority": "critical",
+    "tags": [
+      "children",
+      "strangers",
+      "safety",
+      "emergency"
+    ],
     "audience": "children",
     "parentGuide": true,
     "summary": "Teach children updated, realistic stranger safety rules that adapt to emergency situations.",
@@ -150,8 +164,13 @@
     "id": "children-004",
     "category": "children",
     "title": "Kids Emergency Contact Card",
-    "priority": "high",
-    "tags": ["children", "emergency", "contact", "card"],
+    "priority": "critical",
+    "tags": [
+      "children",
+      "emergency",
+      "contact",
+      "card"
+    ],
     "audience": "children",
     "parentGuide": true,
     "summary": "Create and practice using a personal emergency contact card that every child should memorize and carry.",
@@ -199,8 +218,13 @@
     "id": "children-005",
     "category": "children",
     "title": "Age-Appropriate Wilderness Basics for Kids",
-    "priority": "medium",
-    "tags": ["children", "wilderness", "survival", "outdoor"],
+    "priority": "beginner",
+    "tags": [
+      "children",
+      "wilderness",
+      "survival",
+      "outdoor"
+    ],
     "audience": "children",
     "parentGuide": true,
     "summary": "Teach children fundamental outdoor survival awareness appropriate for their age and stage of development.",

@@ -156,7 +156,7 @@ export function TranslatorScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Text style={styles.headerTitle}>🌐 Offline Translator</Text>
-          <Text style={styles.headerSubtitle}>All translation is on-device. No internet needed.</Text>
+          <Text style={styles.headerSubtitle}>Translation runs on your phone. Internet is only needed once, to download a language pack (~30 MB) from Google.</Text>
         </View>
 
         {/* Input Section */}

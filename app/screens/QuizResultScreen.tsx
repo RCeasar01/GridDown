@@ -11,6 +11,7 @@ import { Colors } from '../theme/colors';
 import { getCategoryReadiness, getKits, addGuideToKit, KitRow } from '../db/contentLoader';
 import { getQuizById } from '../utils/quizRegistry';
 import { getGuideById } from '../utils/guideRegistry';
+import { maybeRequestReview } from '../utils/reviewPrompt';
 import { MultipleChoiceQuiz, PriorityOrderQuiz } from '../types/quiz';
 
 type RouteType = RouteProp<DrillStackParamList, 'QuizResult'>;
@@ -56,6 +57,15 @@ export default function QuizResultScreen() {
     getCategoryReadiness(category).then(setCategoryReadiness).catch(() => {});
     getKits().then(setKits).catch(() => {});
   }, [category]);
+
+  // Ask for a store rating only after a good result, and only rarely (see reviewPrompt.ts).
+  useEffect(() => {
+    if (total > 0 && correct / total >= 0.8) {
+      const timer = setTimeout(() => { void maybeRequestReview(); }, 1800);
+      return () => clearTimeout(timer);
+    }
+    return undefined;
+  }, [total, correct]);
 
   // ── Derived values ───────────────────────────────────────────────────────────
   const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;

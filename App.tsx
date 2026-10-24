@@ -7,6 +7,7 @@ import { AppNavigator } from './app/navigation/AppNavigator';
 import { OnboardingScreen } from './app/screens/OnboardingScreen';
 import { initDatabase } from './app/db/contentLoader';
 import { initializePurchases } from './app/utils/purchases';
+import { setupQuickActions } from './app/utils/quickActions';
 import { useAppStore } from './app/store/useAppStore';
 
 // ─── Error Boundary ───────────────────────────────────────────────────────────
@@ -93,6 +94,7 @@ export default function App() {
         ]);
         setOffline(true);
         initializePurchases().catch(console.warn);
+        setupQuickActions().catch(() => {});
       } catch (err) {
         console.error('[App] Bootstrap error:', err);
       } finally {

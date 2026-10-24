@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, createNavigationContainerRef } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Ionicons } from '@expo/vector-icons';
@@ -376,12 +376,21 @@ const TAB_ICONS: Record<string, { focused: string; outline: string }> = {
   More:  { focused: 'grid',      outline: 'grid-outline' },
 };
 
+/** App-wide navigation handle, used by quick actions / notifications outside the tree. */
+export const navigationRef = createNavigationContainerRef();
+
+/** Jump straight to Emergency Mode from anywhere (home-screen quick action). */
+export function openEmergencyMode(): void {
+  if (!navigationRef.isReady()) return;
+  (navigationRef as any).navigate('Home', { screen: 'EmergencyMode' });
+}
+
 export function AppNavigator() {
   // Edge-to-edge (Android 15+ / iOS home indicator): grow the bar by the bottom inset
   // so labels never sit under the gesture area. A fixed height would ignore it.
   const insets = useSafeAreaInsets();
   return (
-    <NavigationContainer>
+    <NavigationContainer ref={navigationRef}>
       <Tab.Navigator
         screenOptions={({ route }) => ({
           headerShown: false,

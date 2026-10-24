@@ -5,7 +5,13 @@
     "title": "FM 21-76 Urban Survival — Key Principles",
     "priority": "critical",
     "source": "US Army Field Manual (Public Domain)",
-    "tags": ["field-manual", "survival", "urban", "military", "FM21-76"],
+    "tags": [
+      "field-manual",
+      "survival",
+      "urban",
+      "military",
+      "FM21-76"
+    ],
     "summary": "Core principles from the Army Survival Manual adapted for urban grid-down scenarios: signaling, water, shelter, and maintaining will to survive.",
     "steps": [
       {
@@ -42,7 +48,12 @@
       "Carry a VS-17 signal panel — it folds to fit in a cargo pocket and is visible from search aircraft at high altitude. Costs under $20 and weighs almost nothing.",
       "Survival is 90% mental — the will to survive has kept people alive in conditions where it should have been statistically impossible. Maintain purpose, routine, and group cohesion."
     ],
-    "relatedGuides": ["fm-002", "fm-004", "water-purification-101", "urban-shelter"],
+    "relatedGuides": [
+      "fm-002",
+      "fm-004",
+      "water-002",
+      "shelter-004"
+    ],
     "lastReviewed": "2025-01",
     "skillLevel": "intermediate",
     "gearRequired": "basic_edc",
@@ -50,8 +61,15 @@
     "prerequisites": [],
     "quickGlance": {
       "situation": "You are in an urban environment during a grid-down scenario and need to apply military survival principles to civilian conditions",
-      "immediate": ["Apply SURVIVAL acronym: Size up, Undue haste avoidance, Remember location, Vanquish fear, Improvise, Value life, Act like natives, Live by wits", "Identify water in urban structures: water heater tanks (40-80 gal), toilet tanks (1-3 gal, not bowls), fire suppression standpipes", "Select shelter prioritizing security over comfort: upper floors, multiple exits, blocked ground-level entry points"],
-      "then": ["Signal for rescue from rooftop: mirror flash, ground-to-air symbols minimum 10 feet across, three-fire triangle", "Navigate without GPS using block counts, building numbering systems, sun/shadow direction finding"]
+      "immediate": [
+        "Apply SURVIVAL acronym: Size up, Undue haste avoidance, Remember location, Vanquish fear, Improvise, Value life, Act like natives, Live by wits",
+        "Identify water in urban structures: water heater tanks (40-80 gal), toilet tanks (1-3 gal, not bowls), fire suppression standpipes",
+        "Select shelter prioritizing security over comfort: upper floors, multiple exits, blocked ground-level entry points"
+      ],
+      "then": [
+        "Signal for rescue from rooftop: mirror flash, ground-to-air symbols minimum 10 feet across, three-fire triangle",
+        "Navigate without GPS using block counts, building numbering systems, sun/shadow direction finding"
+      ]
     }
   }
 ]

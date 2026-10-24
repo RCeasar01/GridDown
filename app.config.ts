@@ -11,7 +11,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   // Splash config moved to the expo-splash-screen plugin (see plugins below) in SDK 57.
   assetBundlePatterns: ['**/*'],
   ios: {
-    supportsTablet: true,
+    // iPad deferred to 1.1: Apple requires iPad screenshots + a tested tablet layout
+    // whenever this is true, and neither exists yet.
+    supportsTablet: false,
     bundleIdentifier: 'com.bannedproduct.griddown',
     buildNumber: '1',
     // SDK 57 requires iOS 16.4 minimum deployment target.
@@ -94,9 +96,26 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         },
         android: {
           minSdkVersion: 26,
+          // Smaller store download. R8 is safe here because every reflective
+          // surface (llama.rn JNI callbacks, ML Kit, RevenueCat) is kept below.
+          enableMinifyInReleaseBuilds: true,
+          enableShrinkResourcesInReleaseBuilds: true,
+          extraProguardRules: [
+            '# llama.rn: C++ calls back into these classes by name via JNI',
+            '-keep class com.rnllama.** { *; }',
+            '# fast-mlkit-translate-text TurboModule + Google ML Kit',
+            '-keep class com.fastmlkittranslatetext.** { *; }',
+            '-keep class com.google.mlkit.** { *; }',
+            '-keep class com.google.android.gms.internal.mlkit_** { *; }',
+            '# expo-quick-actions',
+            '-keep class expo.modules.quickactions.** { *; }',
+            '-dontwarn com.google.mlkit.**',
+          ].join('\n'),
         },
       },
     ],
+    // Home-screen long-press → Emergency Mode (iOS Quick Actions / Android App Shortcuts).
+    'expo-quick-actions',
     // On-device LLM runtime (Field Intelligence). Adds iOS increased-memory
     // entitlements for production builds and C++20 flags for the native pods.
     ['llama.rn', { entitlementsProfile: 'production' }],
