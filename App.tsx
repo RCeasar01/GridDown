@@ -76,7 +76,7 @@ const ebStyles = StyleSheet.create({
 export default function App() {
   const {
     setOffline, loadBookmarks, loadRecentlyViewed,
-    loadLanguagePrefs, loadNightOps, loadOnboardingState,
+    loadLanguagePrefs, loadNightOps, loadOnboardingState, loadUserTier,
     onboardingCompleted,
   } = useAppStore();
   const [bootstrapped, setBootstrapped] = useState(false);
@@ -91,6 +91,7 @@ export default function App() {
           loadLanguagePrefs(),
           loadNightOps(),
           loadOnboardingState(),
+          loadUserTier(),
         ]);
         setOffline(true);
         initializePurchases().catch(console.warn);

@@ -217,6 +217,13 @@ export async function getUserTier(): Promise<string> {
   const row = await getDb().getFirstAsync<{ tier_name: string }>('SELECT tier_name FROM user_tier WHERE id = 1');
   return row?.tier_name ?? 'free';
 }
+export interface UserTierRecord { tierName: string; expiresAt: number | null; isLifetime: boolean; }
+export async function getUserTierRecord(): Promise<UserTierRecord> {
+  const row = await getDb().getFirstAsync<{ tier_name: string; expires_at: number | null; is_lifetime: number }>(
+    'SELECT tier_name, expires_at, is_lifetime FROM user_tier WHERE id = 1',
+  );
+  return { tierName: row?.tier_name ?? 'free', expiresAt: row?.expires_at ?? null, isLifetime: (row?.is_lifetime ?? 0) === 1 };
+}
 export async function setUserTier(tierName: string, expiresAt: number | null, isLifetime: boolean): Promise<void> {
   await getDb().runAsync('UPDATE user_tier SET tier_name = ?, expires_at = ?, is_lifetime = ? WHERE id = 1', [tierName, expiresAt, isLifetime ? 1 : 0]);
 }

@@ -6,8 +6,15 @@
  */
 
 import { Platform } from 'react-native';
-import { UserTier } from '../store/useAppStore';
+import { UserTier, useAppStore } from '../store/useAppStore';
 import { setUserTier as dbSetUserTier } from '../db/contentLoader';
+
+/** Persist the tier and push it to the live store so gated screens update immediately. */
+async function applyTier(tier: UserTier, expiresAt: number | null): Promise<void> {
+  const isLifetime = tier === 'lifetime_standard' || tier === 'extreme_lifetime';
+  await dbSetUserTier(tier, expiresAt, isLifetime);
+  useAppStore.getState().setUserTier(tier);
+}
 
 // Entitlement ID → GridDown tier mapping
 const ENTITLEMENT_TIER_MAP: Record<string, UserTier> = {
@@ -63,18 +70,12 @@ export async function initializePurchases(userId?: string): Promise<void> {
 
     // Listen for customer info updates
     Purchases.default.addCustomerInfoUpdateListener(async (customerInfo) => {
-      const tier = mapEntitlementToTier(customerInfo);
-      const expiresAt = getExpiresAt(customerInfo);
-      const isLifetime = tier === 'lifetime_standard' || tier === 'extreme_lifetime';
-      await dbSetUserTier(tier, expiresAt, isLifetime);
+      await applyTier(mapEntitlementToTier(customerInfo), getExpiresAt(customerInfo));
     });
 
     // Sync on init
     const info = await Purchases.default.getCustomerInfo();
-    const tier = mapEntitlementToTier(info);
-    const expiresAt = getExpiresAt(info);
-    const isLifetime = tier === 'lifetime_standard' || tier === 'extreme_lifetime';
-    await dbSetUserTier(tier, expiresAt, isLifetime);
+    await applyTier(mapEntitlementToTier(info), getExpiresAt(info));
   } catch (err) {
     // Gracefully handle missing package or network errors
     console.warn('[Purchases] Failed to initialize RevenueCat:', err);

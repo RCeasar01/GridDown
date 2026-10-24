@@ -3,6 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   addBookmark, removeBookmark, getBookmarks,
   recordViewed, getRecentlyViewed, clearRecentlyViewed,
+  getUserTierRecord,
 } from '../db/contentLoader';
 import { setAppLanguage } from '../i18n';
 import type { SupportedLanguage } from '../utils/translation';
@@ -63,6 +64,8 @@ interface AppState {
   setOffline: (v: boolean) => void;
   userTier: UserTier;
   setUserTier: (tier: UserTier) => void;
+  /** Restore the purchased tier from SQLite at startup (RevenueCat refreshes it later when online). */
+  loadUserTier: () => Promise<void>;
   hasAccess: (requiredTier: UserTier) => boolean;
   contentPacks: ContentPack[];
   setContentPacks: (packs: ContentPack[]) => void;
@@ -126,6 +129,16 @@ export const useAppStore = create<AppState>((set, get) => ({
   setOffline: (v) => set({ isOffline: v }),
   userTier: 'free',
   setUserTier: (tier) => set({ userTier: tier }),
+  loadUserTier: async () => {
+    try {
+      const rec = await getUserTierRecord();
+      const expired = !rec.isLifetime && rec.expiresAt !== null && rec.expiresAt < Date.now();
+      const tier = (expired ? 'free' : rec.tierName) as UserTier;
+      set({ userTier: TIER_RANK[tier] !== undefined ? tier : 'free' });
+    } catch {
+      /* keep 'free' */
+    }
+  },
   hasAccess: (requiredTier) => {
     const currentRank = TIER_RANK[get().userTier] ?? 0;
     const requiredRank = TIER_RANK[requiredTier] ?? 0;
