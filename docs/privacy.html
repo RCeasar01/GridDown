@@ -31,7 +31,7 @@
 <p>GridDown is built on a single privacy principle: <strong style="color:var(--text)">we do not collect your data.</strong> The app functions entirely offline. No account is required. No data leaves your device for GridDown’s servers &mdash; because GridDown has no servers that receive personal data.</p>
 
 <h2>2. Data We Do NOT Collect</h2>
-<p>GridDown does not collect, transmit, sell, or share: your name, email, location, browsing history, device identifiers, advertising IDs, biometric data, or crash reports.</p>
+<p>GridDown does not collect, transmit, sell, or share: your name, email, location, browsing history, advertising IDs, biometric data, or crash reports. GridDown has no servers and no analytics. The only network traffic the app makes is the short list of one-time downloads and purchase checks in Section 9 &mdash; none of them carry anything you type, read, or save.</p>
 
 <h2>3. Data Stored On Your Device</h2>
 <table>
@@ -53,10 +53,10 @@
 <p>All purchases are handled by RevenueCat and the platform payment processor (Apple or Google). GridDown never sees your payment information. RevenueCat may process an anonymous app user ID for purchase verification. See <a href="https://www.revenuecat.com/privacy">RevenueCat’s privacy policy</a>.</p>
 
 <h2>6. On-Device AI</h2>
-<p>The Field Intelligence Advisor (Extreme plan) runs entirely on your device. Your conversations are never transmitted anywhere. They exist in device memory during the session and are cleared when you close the chat.</p>
+<p>The Field Intelligence Advisor (Pro + AI plan) runs a language model entirely on your device. When you first enable it you choose a model and the app downloads it once (1.1 GB or 2.4 GB) directly from <a href="https://huggingface.co/privacy">Hugging Face</a>, a public model-hosting service &mdash; an ordinary file download with no account and nothing you have typed. After that, your questions, the answers, and the guide text the Advisor reads are processed on your phone and never sent anywhere. Conversations live in device memory during the session and are cleared when you close the chat. You can delete a downloaded model at any time.</p>
 
 <h2>7. Translation</h2>
-<p>Language model files (∼30 MB each) are downloaded from Google’s MLKit servers. Once downloaded, all translation occurs on-device with no network calls. Translated text is cached in your local SQLite database.</p>
+<p>The Offline Translator uses Google ML Kit, an on-device library. Language packs (∼30 MB each) are downloaded from Google’s servers under <a href="https://policies.google.com/privacy">Google’s privacy policy</a>. To manage those downloads, ML Kit creates an anonymous installation identifier for this copy of the app and sends it to Google; it is not linked to you or to any content, and GridDown does not use or store it. Once a pack is downloaded, the text you translate is processed on your phone and never sent to Google or anyone else.</p>
 
 <h2>8. Analytics</h2>
 <p>GridDown integrates no analytics SDK whatsoever. No Firebase, no Mixpanel, no Amplitude, no similar service. Apple and Google may collect standard platform diagnostics per their own policies.</p>
@@ -64,10 +64,11 @@
 <h2>9. Third Parties</h2>
 <table>
   <tr><th>Service</th><th>Purpose</th><th>Data Shared</th></tr>
-  <tr><td>RevenueCat</td><td>Subscription management</td><td>Anonymous purchase ID</td></tr>
+  <tr><td>RevenueCat</td><td>Subscription management (paid plans only)</td><td>Anonymous app user ID, purchase receipts</td></tr>
   <tr><td>Apple App Store</td><td>iOS payments</td><td>Per Apple’s terms</td></tr>
   <tr><td>Google Play Store</td><td>Android payments</td><td>Per Google’s terms</td></tr>
-  <tr><td>Google MLKit</td><td>Translation model download</td><td>Model request only</td></tr>
+  <tr><td>Google ML Kit</td><td>Translation language-pack download</td><td>Anonymous installation ID, pack request</td></tr>
+  <tr><td>Hugging Face</td><td>One-time AI model download (Pro + AI)</td><td>Ordinary file request only</td></tr>
 </table>
 
 <h2>10. Children’s Privacy</h2>

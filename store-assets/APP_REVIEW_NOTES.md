@@ -42,13 +42,19 @@ The banner is:
 
 ### What It Is
 
-"Field Intelligence" is an on-device AI advisor powered by **Phi-3.5 Mini Instruct (Q4_K_M quantization, ~2.4 GB)** via the `llama.rn` library.
+"Field Intelligence" is an on-device AI advisor built on the `llama.rn` (llama.cpp) runtime. The user picks one of two
+models on first use: **Phi-3.5 Mini Instruct Q4_K_M (~2.4 GB, MIT)** or **Qwen2.5-1.5B Instruct Q4_K_M (~1.1 GB,
+Apache-2.0)**; the app recommends one based on the device's RAM. Answers are grounded in the app's own survival
+guides (on-device keyword retrieval) and each answer links the guides it drew from.
 
 ### Privacy & Data
 
-- **No data is transmitted to external servers.** All inference runs locally on the device.
-- The model file is downloaded once from Hugging Face (user-initiated download, user's choice of timing).
+- **No conversation data is transmitted to external servers.** All inference runs locally on the device.
+- The model file is downloaded once from Hugging Face (huggingface.co) — a user-initiated, in-app-disclosed download.
+  This is the only network request the feature ever makes.
 - After download, the feature operates with **zero internet connection required**.
+- The Offline Translator (separate feature) uses Google ML Kit; its language packs download from Google and the SDK
+  registers an anonymous installation ID with Google. This is disclosed in the privacy policy and the Data Safety form.
 - No conversation history is stored in the cloud, logged, or transmitted.
 - No user identification is associated with queries.
 
@@ -61,7 +67,7 @@ Per Apple's 2024 AI disclosure requirement:
 
 ### Feature Gate
 
-Field Intelligence is available exclusively to **Extreme tier** subscribers (Extreme Monthly, Extreme Yearly, Extreme Lifetime).
+Field Intelligence is available exclusively to **Pro + AI tier** subscribers (shown in-app as "Pro + AI"; store product IDs `extreme_monthly`, `extreme_yearly`, `extreme_lifetime`).
 
 ---
 
@@ -134,7 +140,7 @@ GridDown provides substantial standalone utility:
 - 60+ emergency preparedness guides across 10 categories
 - 6 disaster scenario checklists (earthquake, hurricane, power outage, wildfire, flood, pandemic)
 - Offline topographic maps with GPS coordinate display
-- On-device AI survival advisor (Phi-3.5 Mini, fully offline after download)
+- On-device AI survival advisor (Phi-3.5 Mini or Qwen2.5-1.5B, fully offline after a one-time download)
 - Multi-language guide translation (on-device ML Kit)
 - USB export package for offline backup to external storage
 - Tiered Discord community access

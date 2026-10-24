@@ -20,9 +20,13 @@ GridDown does not collect, transmit, sell, or share:
 - Your name, email address, or contact information
 - Your precise or approximate location
 - Your browsing history, reading habits, or guide activity within the app
-- Device identifiers, advertising IDs, or fingerprints
+- Advertising IDs or device fingerprints
 - Crash reports or diagnostic data (beyond what Apple/Google collect by default)
 - Any biometric or health information
+
+GridDown itself has no servers and no analytics. The only network traffic the app ever makes is the
+small set of one-time downloads and purchase checks listed in Section 9 — none of them carry anything
+you type, read, or save in the app.
 
 ---
 
@@ -69,22 +73,33 @@ All in-app purchases and subscription management are handled entirely by **Reven
 
 ## 6. On-Device AI (Field Intelligence Advisor)
 
-The Field Intelligence Advisor (Extreme plan feature) runs a large language model entirely on your device. Your conversations:
+The Field Intelligence Advisor (Pro + AI plan feature) runs a language model entirely on your device.
 
-- Are never sent to any server
-- Are stored only in device memory during the session
-- Are cleared when you close the chat or restart the app
+- **One-time download.** When you first enable the Advisor you choose a model and the app downloads
+  it (1.1 GB or 2.4 GB) directly from **Hugging Face** (huggingface.co), a public model-hosting
+  service. That request is an ordinary file download; it contains no account, no identifier set by
+  GridDown, and nothing you have typed. It is subject to Hugging Face's privacy policy:
+  https://huggingface.co/privacy
+- **Everything after that is local.** Your questions, the Advisor's answers, and the guide text it
+  reads to answer you are processed on your phone and are never sent to any server.
+- Conversations are held only in device memory during the session and are cleared when you close
+  the chat or restart the app.
+- You can delete a downloaded model at any time from the Advisor's model screen.
 
 ---
 
 ## 7. Translation Models
 
-When you download a translation language model:
+The Offline Translator uses **Google ML Kit**, an on-device translation library.
 
-- The model file (∼30 MB per language) is downloaded from Google's MLKit servers
-- The download is subject to Google's privacy policy
-- Once downloaded, all translation occurs entirely on-device with no network calls
-- The translated text is cached in your local SQLite database for performance
+- When you download a language pack (∼30 MB per language) the file comes from Google's servers and
+  the download is subject to Google's privacy policy: https://policies.google.com/privacy
+- To manage those downloads, the ML Kit library creates an anonymous **installation identifier** for
+  this copy of the app and sends it to Google. It is not linked to your name, email, or any content.
+  GridDown does not use or store this identifier.
+- Once a pack is downloaded, the text you translate is processed on your phone and is never sent to
+  Google or anyone else.
+- Translated guide text may be cached in your local database for speed.
 
 ---
 
@@ -102,10 +117,11 @@ GridDown integrates only:
 
 | Service | Purpose | Data Shared |
 |---------|---------|-------------|
-| RevenueCat | Subscription management | Anonymous purchase ID |
+| RevenueCat | Subscription management (paid plans only) | Anonymous app user ID, purchase receipts |
 | Apple App Store | iOS payments | Per Apple's terms |
 | Google Play Store | Android payments | Per Google's terms |
-| Google MLKit | Translation model download | Model request only |
+| Google ML Kit | Translation language-pack download | Anonymous installation ID, pack request |
+| Hugging Face | One-time AI model download (Pro + AI) | Ordinary file request only |
 
 No advertising networks, social media SDKs, or data brokers are integrated.
 

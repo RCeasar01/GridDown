@@ -56,11 +56,11 @@ WHAT'S INSIDE
 ► 60+ Survival Field Guides
 Written to military and wilderness medicine standards across 12 categories: Water · Shelter · Fire · Food & Foraging · Medical · Navigation · Communications · Security · Vehicle & Mechanical · Homesteading · Field Manuals · Disaster Response. Step-by-step protocols built for when professional help isn't coming.
 
-► Field Intelligence AI — On-Device (Extreme Tier)
-Powered by Phi-3.5 Mini running entirely on your device. Ask tactical survival questions and get context-aware answers — no internet connection, no cloud processing, no conversation data ever transmitted. Your device. Your data.
+► Field Intelligence AI — On-Device (Pro + AI tier)
+A language model that runs entirely on your device and answers from the guides in the app, citing the guide it used. One download over Wi-Fi (1.1 GB Lite or 2.4 GB Standard, picked for your phone), then no internet, no cloud processing, and no conversation data ever transmitted. Your device. Your data.
 
 ► 10-Language Offline Translation
-Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Russian, and Hindi — all on-device. Emergency phrases pre-loaded for instant large-font display. No internet required.
+Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Russian, and Hindi — translation runs on your device after a one-time ~30 MB language-pack download. Emergency phrases pre-loaded for instant large-font display.
 
 ► Daily Drill — 54 Survival Scenarios
 One new scenario every day. Multiple choice, priority ordering, and decision-tree formats. Track readiness scores per category. Calibrated to real survival and TCCC standards.
@@ -211,8 +211,8 @@ Written to military and wilderness medicine standards — not watered-down inter
 FEATURES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-✓ 100% offline — no internet connection ever required for content
-✓ Field Intelligence AI (Extreme) — Phi-3.5 Mini, runs entirely on-device, no data transmitted
+✓ 100% offline — every guide, checklist, map tool and quiz works with no connection (AI and translation packs download once over Wi-Fi)
+✓ Field Intelligence AI (Pro + AI) — runs entirely on-device, answers from the in-app guides, no conversation data transmitted
 ✓ 10-language offline translation — Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Russian, Hindi
 ✓ Daily Drill — 54 survival scenarios, new drill every day, readiness score tracking
 ✓ 72-Hour Readiness Scan — find your critical gaps before a crisis does

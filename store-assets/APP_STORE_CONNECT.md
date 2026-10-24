@@ -61,7 +61,7 @@ GridDown caches everything on your device. No cloud. No subscription required to
 NEW IN v1.1 — 12 CATEGORIES, 500+ GUIDES
 ---
 - Offline Translator: 10 languages (Spanish, French, Portuguese, German, Arabic,
-  Chinese, Japanese, Korean, Russian, Hindi) — fully on-device, no internet needed.
+  Chinese, Japanese, Korean, Russian, Hindi) — on-device after a one-time ~30 MB pack download.
   Emergency phrases pre-loaded for instant large-font display.
 - HAM Radio Repeater Database: 200+ US repeater entries across all 50 states.
   Search by state, city, or frequency. Filter by OPEN/ARES/RACES/SKYWARN.
@@ -84,8 +84,8 @@ TCCC (Tactical Combat Casualty Care) procedures, trauma care, wound treatment, t
 🗺️ OFFLINE GPS MAP
 Display your exact GPS coordinates without any network connection. Works in dead zones, deep wilderness, power outages, and grid-down scenarios. Coordinates displayed in decimal degrees and MGRS format.
 
-🤖 AI FIELD INTELLIGENCE ADVISOR (Extreme Plan)
-A large language model that runs entirely on your device — no internet required, no servers involved, no conversation data transmitted anywhere. Ask it anything about survival, medical care, navigation, or field craft.
+🤖 AI FIELD INTELLIGENCE ADVISOR (Pro + AI Plan)
+A language model that runs entirely on your device and answers from the guides in the app, showing you which guide it used. After a one-time model download over Wi-Fi there are no servers involved and no conversation data is transmitted anywhere. Ask it about survival, medical care, navigation, or field craft.
 
 ☑️ SMART CHECKLISTS
 72-hour emergency kits, bug-out bag lists, shelter-in-place protocols, vehicle emergency kits, and more. Check off items as you go. Progress is saved locally.
@@ -94,7 +94,7 @@ A large language model that runs entirely on your device — no internet require
 Find any guide or checklist by keyword. Results are instant and fully offline.
 
 🌍 10 LANGUAGES
-Full UI localization in English, Spanish, French, Portuguese, German, Arabic, Chinese (Simplified), Japanese, Korean, and Hindi. Guide content translation via on-device AI (no internet required after model download).
+Full UI localization in English, Spanish, French, Portuguese, German, Arabic, Chinese (Simplified), Japanese, Korean, and Hindi. Guide content translation runs on-device after a one-time language-pack download.
 
 📦 CONTENT PACKS
 Expand your library with topic-specific content packs — Medical, Urban Survival, Field Craft, and Regional packs.
@@ -169,7 +169,7 @@ To test subscription features:
 - Use a Sandbox Apple ID to test in-app purchases
 - Alternatively, test the Free tier which requires no purchase
 
-The AI Field Intelligence Advisor (Extreme plan) requires a large model download and runs
+The AI Field Intelligence Advisor (Pro + AI plan) requires a one-time model download (1.1 GB Lite or 2.4 GB Standard, from Hugging Face) and runs
 entirely on-device. For review purposes, the locked state (upgrade prompt) can be reviewed
 without an Extreme subscription.
 

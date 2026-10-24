@@ -44,14 +44,14 @@ Tactical Combat Casualty Care, trauma treatment, tourniquet application, wound p
 🗺️ OFFLINE GPS MAP
 Display your exact GPS coordinates with no network connection. Works in dead zones, wilderness, and grid-down scenarios.
 
-🤖 ON-DEVICE AI ADVISOR (Extreme Plan)
-Ask a large language model anything — runs 100% on your device. No internet. No server. No data transmitted.
+🤖 ON-DEVICE AI ADVISOR (Pro + AI Plan)
+A language model that runs 100% on your device and answers from the guides in the app. One model download over Wi-Fi, then no internet, no server, no conversation data transmitted.
 
 ☑️ SMART CHECKLISTS
 72-hour kit, bug-out bag, shelter-in-place, vehicle kit, and more. Check off items. Progress saved locally.
 
 🌍 10 LANGUAGES
-English, Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Hindi. Guide translation via on-device AI (no internet after initial model download).
+English, Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Hindi. Guide translation runs on-device after a one-time language-pack download.
 
 
 
