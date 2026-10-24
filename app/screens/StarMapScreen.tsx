@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
+import { getPosition } from '../utils/geo';
 
 // ─── Graceful sensor import ───────────────────────────────────────────────────
 let Magnetometer: any = null;
@@ -264,7 +265,7 @@ export const StarMapScreen: React.FC = () => {
       try {
         const { status } = await Location.requestForegroundPermissionsAsync();
         if (status !== 'granted') return;
-        const pos = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy?.Lowest ?? 1 });
+        const pos = await getPosition({ accuracy: Location.Accuracy?.Lowest ?? 1 });
         setUserLat(pos.coords.latitude);
         setUserLon(pos.coords.longitude);
         setLocationLabel(

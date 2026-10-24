@@ -6,6 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Clipboard from 'expo-clipboard';
 import { Ionicons } from '@expo/vector-icons';
 import * as Location from 'expo-location';
+import { getPosition } from '../utils/geo';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { ToolsStackParamList } from '../navigation/AppNavigator';
@@ -85,7 +86,7 @@ export function HamRadioScreen() {
     (async () => {
       const { status } = await Location.requestForegroundPermissionsAsync();
       if (status === 'granted') {
-        const loc = await Location.getCurrentPositionAsync({});
+        const loc = await getPosition({});
         setUserLocation({ lat: loc.coords.latitude, lon: loc.coords.longitude });
       }
       const saved = await getSavedRepeaters();

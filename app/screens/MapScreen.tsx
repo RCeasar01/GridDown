@@ -4,6 +4,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Location from 'expo-location';
+import { getPosition } from '../utils/geo';
 import type * as SQLite from 'expo-sqlite';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '../theme/colors';
@@ -123,9 +124,7 @@ export function MapScreen() {
 
   const fetchLocation = useCallback(async () => {
     try {
-      const loc = await Location.getCurrentPositionAsync({
-        accuracy: Location.Accuracy.Balanced,
-      });
+      const loc = await getPosition({ accuracy: Location.Accuracy.Balanced });
       const coords = { lat: loc.coords.latitude, lon: loc.coords.longitude };
       setLocation(coords);
       locationRef.current = coords;

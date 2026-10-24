@@ -7,6 +7,7 @@ import * as Clipboard from 'expo-clipboard';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import * as Location from 'expo-location';
+import { getPosition } from '../utils/geo';
 import { HomeStackParamList } from '../navigation/AppNavigator';
 
 type Nav = NativeStackNavigationProp<HomeStackParamList>;
@@ -263,7 +264,7 @@ function LocationSection({ expanded, onToggle }: LocationSectionProps) {
       try {
         const { status } = await Location.requestForegroundPermissionsAsync();
         if (status !== 'granted') { setLocationError(true); return; }
-        const pos = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.High });
+        const pos = await getPosition({ accuracy: Location.Accuracy.High });
         if (active) {
           setCoords({ lat: pos.coords.latitude, lon: pos.coords.longitude });
         }

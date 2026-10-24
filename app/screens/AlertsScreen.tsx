@@ -4,6 +4,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Location from 'expo-location';
+import { getPosition } from '../utils/geo';
 import * as Notifications from 'expo-notifications';
 import { Colors } from '../theme/colors';
 import { getSupabase, isSupabaseConfigured, GdAlert, AlertType, AlertSeverity } from '../db/supabase';
@@ -214,7 +215,7 @@ export function AlertsScreen() {
     (async () => {
       const { status } = await Location.requestForegroundPermissionsAsync();
       if (status === 'granted') {
-        const pos = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Balanced });
+        const pos = await getPosition({ accuracy: Location.Accuracy.Balanced });
         setLocation({ lat: pos.coords.latitude, lon: pos.coords.longitude });
       }
     })();
