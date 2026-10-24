@@ -291,6 +291,20 @@ Check every item before submitting for review.
       and ML Kit translate is 15.6 MB. Nothing worth cutting for 1.0; dropping armeabi-v7a would save 25 MB of
       AAB but lock out 32-bit phones
 
+- [x] **Store-build honesty pass (More menu):** *Referral Program* (invented "$8.00 paid / $30.00 pending",
+      link to a griddown.app endpoint that doesn't exist) and *Community* (dead `discord.gg/bannedproduct` invite —
+      HTTP 404 — plus the pre-simplification 7-tier ladder and "roles via RevenueCat webhooks") are hidden behind
+      `REFERRAL_PROGRAM_ENABLED` / `COMMUNITY_ENABLED` flags in `MoreScreen.tsx` until the backends exist.
+      *Family Plan* hidden on the paywall (`FAMILY_PLAN_ENABLED`) — no store product, and sharing needs Play Family
+      Library / Apple Family Sharing. Paywall now shows **live store prices** from RevenueCat offerings (hardcoded
+      labels are the offline fallback only)
+- [ ] **Pricing decision needed before creating products:** the paywall labels say Pro $4.99 / $34.99 / $89.99 and
+      Pro + AI $10.99 / $74.99 / $159.99, but the RevenueCat product IDs still encode the old prices
+      (`griddown_monthly_399`, `griddown_yearly_2999`, `griddown_lifetime_standard_7999`,
+      `griddown_extreme_monthly_999`, `_yearly_6999`, `_lifetime_14999`). Pick one set, create the Play / App Store
+      products at those prices, and either rename the IDs in `RC_PRODUCT_MAP` or the labels — the live-price display
+      will then make the labels moot
+
 ### Content gaps found during QA (1.1 candidates)
 - No guide for **burns**, **fractures/splinting**, **CPR**, **hypothermia**, **heat illness**, **snakebite** or
   **choking** in the guide library — the triage trees cover five of these once reviewed; burns and fractures have

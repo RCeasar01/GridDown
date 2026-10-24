@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View, Text, StyleSheet, ScrollView, TouchableOpacity, Linking, Alert,
 } from 'react-native';
@@ -84,7 +84,7 @@ const PLANS: Plan[] = [
       'My Kit + Gear Inventory',
       'Real-World Flows',
       'Family Planner',
-      'Offline maps',
+      'Position & waypoints (GPS, MGRS)',
     ],
     cta: 'Go Pro',
     highlight: true,
@@ -132,6 +132,11 @@ const PLANS: Plan[] = [
   },
 ];
 
+/** Family Plan has no store product yet (and multi-device sharing needs Play Family
+ *  Library / Apple Family Sharing set up on the products). Hidden until it is real. */
+const FAMILY_PLAN_ENABLED = false;
+const VISIBLE_PLANS = PLANS.filter((p) => p.id !== 'family' || FAMILY_PLAN_ENABLED);
+
 // RC product IDs for each plan+billing combination
 const RC_PRODUCT_MAP: Record<string, Record<ProPriceKey, string>> = {
   pro: {
@@ -153,15 +158,35 @@ export function PaywallScreen() {
   const [purchasing, setPurchasing] = useState<string | null>(null);
   const [proPriceKey, setProPriceKey] = useState<ProPriceKey>('yearly');
   const [proAIPriceKey, setProAIPriceKey] = useState<ProPriceKey>('yearly');
+  // Live store prices keyed by product id. Stores require the price the user sees to be
+  // the store's own (localized) price; the hardcoded labels are only an offline fallback.
+  const [storePrices, setStorePrices] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    let active = true;
+    (async () => {
+      const offerings = await getOfferings();
+      if (!offerings || !active) return;
+      const map: Record<string, string> = {};
+      for (const offering of [offerings.current, ...Object.values(offerings.all)]) {
+        for (const pkg of offering?.availablePackages ?? []) {
+          map[pkg.product.identifier] = pkg.product.priceString;
+        }
+      }
+      setStorePrices(map);
+    })();
+    return () => { active = false; };
+  }, []);
 
   function getPriceDisplay(plan: Plan, monthlyKey: ProPriceKey): { price: string; period: string } {
+    const live = storePrices[RC_PRODUCT_MAP[plan.id]?.[monthlyKey] ?? ''];
     if (plan.id === 'pro' || plan.id === 'pro_ai') {
       const p = plan as ProPlan | ProAIPlan;
-      if (monthlyKey === 'yearly') return { price: p.priceYearly.split('/')[0], period: '/yr' };
-      if (monthlyKey === 'lifetime') return { price: p.priceLifetime, period: 'one-time' };
-      return { price: p.price, period: p.period };
+      if (monthlyKey === 'yearly') return { price: live ?? p.priceYearly.split('/')[0], period: '/yr' };
+      if (monthlyKey === 'lifetime') return { price: live ?? p.priceLifetime, period: 'one-time' };
+      return { price: live ?? p.price, period: p.period };
     }
-    return { price: (plan as StandardPlan).price, period: (plan as StandardPlan).period };
+    return { price: live ?? (plan as StandardPlan).price, period: (plan as StandardPlan).period };
   }
 
   const isLegacyCurrent = (plan: Plan): boolean => {
@@ -280,7 +305,7 @@ export function PaywallScreen() {
           </Text>
         </TouchableOpacity>
 
-        {PLANS.map((plan) => {
+        {VISIBLE_PLANS.map((plan) => {
           const isCurrent = isLegacyCurrent(plan);
           const isMostPopular = plan.badge === 'MOST POPULAR';
           const priceKey = plan.id === 'pro' ? proPriceKey : plan.id === 'pro_ai' ? proAIPriceKey : null;

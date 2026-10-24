@@ -11,6 +11,11 @@ import { Colors } from '../theme/colors';
 type Nav = NativeStackNavigationProp<MoreStackParamList, 'MoreMain'>;
 
 // Items that live inside the More stack
+/** Flip when payouts, tracking and the griddown.app/ref endpoint actually exist. */
+const REFERRAL_PROGRAM_ENABLED = false;
+/** Flip when a real Discord invite + tier-role sync + Community Alerts backend exist. */
+const COMMUNITY_ENABLED = false;
+
 const MORE_ITEMS: Array<{
   label: string;
   icon: string;
@@ -19,10 +24,18 @@ const MORE_ITEMS: Array<{
   screen: keyof MoreStackParamList;
 }> = [
   { label: 'Checklists',       icon: 'checkbox-outline',  screen: 'Checklists', action: 'more', description: 'Disaster prep checklists' },
-  { label: 'Referral Program', icon: 'people-outline',    screen: 'Referral',   action: 'more', description: 'Earn 20% commission' },
+  // Referral Program is hidden until a real affiliate backend exists — ReferralScreen
+  // still renders SAMPLE_REFERRALS, and invented earnings must never reach a store build.
+  ...(REFERRAL_PROGRAM_ENABLED
+    ? [{ label: 'Referral Program', icon: 'people-outline', screen: 'Referral' as const, action: 'more' as const, description: 'Earn 20% commission' }]
+    : []),
   { label: 'Settings',         icon: 'settings-outline',  screen: 'Settings',   action: 'more', description: 'App settings and preferences' },
   { label: 'About the Founder',icon: 'shield-outline',    screen: 'Founder',    action: 'more', description: '100% Veteran-Owned' },
-  { label: 'Community',        icon: 'chatbubbles-outline',screen: 'Community',  action: 'more', description: 'Join the GridDown community' },
+  // Community is hidden until the Discord server, role sync and the alerts backend exist.
+  // CommunityScreen still lists the pre-simplification tier ladder and a dead invite.
+  ...(COMMUNITY_ENABLED
+    ? [{ label: 'Community', icon: 'chatbubbles-outline', screen: 'Community' as const, action: 'more' as const, description: 'Join the GridDown community' }]
+    : []),
 ];
 
 // Items that live in sibling tabs — navigate cross-tab
