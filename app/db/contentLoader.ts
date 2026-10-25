@@ -266,6 +266,12 @@ export async function getCategoryReadiness(category: string): Promise<number> {
   return Math.round((correctCount / rows.length) * 100);
 }
 
+/** Categories with at least one answered quiz question. */
+export async function getAttemptedQuizCategories(): Promise<string[]> {
+  const rows = await getDb().getAllAsync<{ category: string }>('SELECT DISTINCT category FROM quiz_results');
+  return rows.map((r) => r.category);
+}
+
 export async function getOverallReadiness(): Promise<number> {
   const rows = await getDb().getAllAsync<{ correct: number }>(
     'SELECT correct FROM quiz_results'

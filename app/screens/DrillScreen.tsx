@@ -8,11 +8,11 @@ import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Colors } from '../theme/colors';
 import { quizFeature } from '../config/access';
+import { formatQuizFormat, titleCase } from '../utils/labels';
 import { useAppStore } from '../store/useAppStore';
 import { DrillStackParamList } from '../navigation/AppNavigator';
 import {
-  getCategoryReadiness, getOverallReadiness, getTodayDrillState,
-} from '../db/contentLoader';
+  getCategoryReadiness, getOverallReadiness, getTodayDrillState, getAttemptedQuizCategories } from '../db/contentLoader';
 import { getDrillInfo } from '../utils/dailyDrill';
 import { getQuizCategoryTiles } from '../utils/quizCategories';
 
@@ -28,6 +28,7 @@ export function DrillScreen() {
   const drillInfo = getDrillInfo();
 
   const [readiness, setReadiness] = useState<Record<string, number>>({});
+  const [attemptedCats, setAttemptedCats] = useState<Set<string>>(new Set());
   const [overallReadiness, setOverallReadiness] = useState(0);
   const [drillState, setDrillState] = useState<{ completed: boolean; score: number | null }>({
     completed: false, score: null,
@@ -43,6 +44,7 @@ export function DrillScreen() {
           scores[cat.id] = await getCategoryReadiness(cat.id);
         }
         setReadiness(scores);
+        setAttemptedCats(new Set(await getAttemptedQuizCategories()));
         const drill = await getTodayDrillState();
         if (drill) {
           setDrillState({ completed: drill.completed === 1, score: drill.score });
@@ -72,6 +74,7 @@ export function DrillScreen() {
   const renderCategoryCard = ({ item }: { item: typeof CATEGORY_INFO[0] }) => {
     const locked = !hasFeature(quizFeature(item.id));
     const score = readiness[item.id] ?? 0;
+    const attempted = attemptedCats.has(item.id);
     const iconColor = locked ? Colors.textMuted : Colors.primary;
 
     return (
@@ -85,10 +88,17 @@ export function DrillScreen() {
           {item.label}
         </Text>
         <Text style={styles.categoryCount}>{item.count} quizzes</Text>
-        <View style={styles.readinessBarBg}>
-          <View style={[styles.readinessBarFill, { width: `${score}%` as any }]} />
-        </View>
-        <Text style={styles.readinessPct}>{score}%</Text>
+        {/* A score only once the user has answered something — a wall of 0% reads as failure */}
+        {attempted ? (
+          <>
+            <View style={styles.readinessBarBg}>
+              <View style={[styles.readinessBarFill, { width: `${score}%` as any }]} />
+            </View>
+            <Text style={styles.readinessPct}>{score}%</Text>
+          </>
+        ) : (
+          <Text style={styles.readinessPct}>Not started</Text>
+        )}
         {locked && (
           <View style={styles.lockOverlay}>
             <Ionicons name="lock-closed" size={20} color={Colors.textMuted} />
@@ -107,11 +117,13 @@ export function DrillScreen() {
       <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
         <View style={styles.headerRow}>
           <Text style={styles.headerTitle}>READINESS DRILL</Text>
-          <View style={[styles.readinessBadge, { borderColor: readinessColor }]}>
-            <Text style={[styles.readinessBadgeText, { color: readinessColor }]}>
-              {overallReadiness}%
-            </Text>
-          </View>
+          {attemptedCats.size > 0 && (
+            <View style={[styles.readinessBadge, { borderColor: readinessColor }]}>
+              <Text style={[styles.readinessBadgeText, { color: readinessColor }]}>
+                {overallReadiness}%
+              </Text>
+            </View>
+          )}
         </View>
 
         {/* Daily Drill Card */}
@@ -125,9 +137,9 @@ export function DrillScreen() {
           <Text style={styles.drillLabel}>🎯 TODAY'S DRILL</Text>
           <Text style={styles.drillTitle}>{drillInfo.title}</Text>
           <View style={styles.drillBadgeRow}>
-            <View style={styles.badge}><Text style={styles.badgeText}>{drillInfo.category}</Text></View>
-            <View style={styles.badge}><Text style={styles.badgeText}>{drillInfo.difficulty}</Text></View>
-            <View style={styles.badge}><Text style={styles.badgeText}>{drillInfo.format}</Text></View>
+            <View style={styles.badge}><Text style={styles.badgeText}>{titleCase(drillInfo.category)}</Text></View>
+            <View style={styles.badge}><Text style={styles.badgeText}>{titleCase(drillInfo.difficulty)}</Text></View>
+            <View style={styles.badge}><Text style={styles.badgeText}>{formatQuizFormat(drillInfo.format)}</Text></View>
           </View>
           {drillState.completed ? (
             <View style={styles.drillCompletedRow}>
