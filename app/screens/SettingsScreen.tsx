@@ -4,8 +4,12 @@ import {
   Switch, Alert, ActivityIndicator, Linking,
 } from 'react-native';
 import { useTranslation } from 'react-i18next';
+import { useNavigation } from '@react-navigation/native';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import type { MoreStackParamList } from '../navigation/AppNavigator';
 import { Ionicons } from '@expo/vector-icons';
 import { useAppStore } from '../store/useAppStore';
+import { UnlockAllBanner } from '../components/FeatureGate';
 import { SUPPORTED_LANGUAGES, downloadLanguageModel, type SupportedLanguage, type DownloadProgress } from '../utils/translation';
 import { exportBackupToShareSheet, pickBackupFile, restoreBackup, summarize } from '../utils/backup';
 
@@ -18,7 +22,7 @@ const PROFILE_DISPLAY: Record<string, string> = {
   urban: 'Urban / Civil Unrest',
   rural: 'Rural Homestead',
   vehicle: 'Vehicle / Travel',
-  medic: 'Medic-Minded / TCCC',
+  medic: 'Medic-Minded / First Aid',
   comms: 'HAM & Comms',
   disaster: 'Natural Disaster',
 };
@@ -36,6 +40,7 @@ const REGION_DISPLAY: Record<string, string> = {
 
 export function SettingsScreen() {
   const { t } = useTranslation();
+  const navigation = useNavigation<NativeStackNavigationProp<MoreStackParamList>>();
   const {
     userTier, selectedLanguage, translateContentEnabled,
     setSelectedLanguage, setTranslateContentEnabled,
@@ -266,13 +271,18 @@ export function SettingsScreen() {
 
       {/* Subscription */}
       <Text style={styles.sectionHeader}>{t('settings.subscription')}</Text>
+      <UnlockAllBanner />
       <View style={styles.card}>
         <View style={styles.row}>
           <Text style={styles.label}>{t('settings.currentPlan')}</Text>
           <Text style={styles.value}>{tierDisplay[userTier] ?? userTier}</Text>
         </View>
         {userTier === 'free' && (
-          <TouchableOpacity style={styles.upgradeBtn}>
+          <TouchableOpacity
+            style={styles.upgradeBtn}
+            onPress={() => navigation.navigate('Paywall', {})}
+            accessibilityRole="button"
+          >
             <Text style={styles.upgradeBtnText}>{t('settings.upgradePlan')}</Text>
           </TouchableOpacity>
         )}

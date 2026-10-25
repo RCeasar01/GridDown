@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
-  View, Text, StyleSheet, ScrollView, TouchableOpacity, Linking, Alert,
+  View, Text, StyleSheet, ScrollView, TouchableOpacity, Linking, Alert, Platform,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
@@ -58,10 +58,14 @@ const PLANS: Plan[] = [
     price: '$0',
     period: 'forever',
     autoRenews: false,
+    // Keep these lists true to what the app actually gates (see hasAccess / LOCKED_TIERS):
+    // guides and tools are open to everyone; Pro gates quizzes beyond Water/Fire/Shelter and the
+    // HAM repeater database; Pro + AI gates the Advisor.
     features: [
-      'Water, Fire, Shelter guides',
-      'Basic quizzes',
+      'All 300+ guides in 19 categories',
       'Emergency Mode',
+      'Offline tools, checklists, My Kit, Flows, Family Planner',
+      'Water, Fire & Shelter quizzes',
     ],
     cta: 'Current Plan',
     highlight: false,
@@ -78,13 +82,10 @@ const PLANS: Plan[] = [
     priceLifetime: '$89.99',
     autoRenews: true,
     features: [
-      'Full 19-category library (300+ guides)',
-      'All tools (HAM, Morse, Map, Translator)',
-      'All quizzes and checklists',
-      'My Kit + Gear Inventory',
-      'Real-World Flows',
-      'Family Planner',
-      'Position & waypoints (GPS, MGRS)',
+      'Everything in Free',
+      'All 196 quizzes in every category',
+      'HAM repeater database (200+ US repeaters)',
+      'Supports a veteran-owned, ad-free, no-tracking app',
     ],
     cta: 'Go Pro',
     highlight: true,
@@ -105,7 +106,6 @@ const PLANS: Plan[] = [
       'Field Intelligence AI Advisor',
       'Helps you reason through scenarios using your downloaded guides',
       'On-device, fully offline AI',
-      'USB export',
     ],
     cta: 'Get Pro + AI',
     highlight: false,
@@ -266,7 +266,7 @@ export function PaywallScreen() {
           <View style={styles.featureBanner}>
             <Ionicons name="lock-closed" size={16} color={Colors.primary} />
             <Text style={styles.featureBannerText}>
-              {featureName} requires an upgraded plan.
+              {featureName} is part of a paid plan.
             </Text>
           </View>
         )}
@@ -280,7 +280,7 @@ export function PaywallScreen() {
         <View style={styles.emergencyNote}>
           <Ionicons name="flash-outline" size={14} color={Colors.secondary} />
           <Text style={styles.emergencyNoteText}>
-            All plans include Emergency Mode (free)
+            Every guide and Emergency Mode stay free on every plan
           </Text>
         </View>
 
@@ -288,7 +288,9 @@ export function PaywallScreen() {
         <View style={styles.paymentNotice}>
           <Ionicons name="lock-closed-outline" size={12} color={Colors.textMuted} />
           <Text style={styles.paymentNoticeText}>
-            Payment will be charged to your Apple ID account at confirmation of purchase.
+            {Platform.OS === 'ios'
+              ? 'Payment will be charged to your Apple ID account at confirmation of purchase.'
+              : 'Payment will be charged to your Google Play account at confirmation of purchase.'}
           </Text>
         </View>
 

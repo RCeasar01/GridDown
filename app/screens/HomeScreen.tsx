@@ -10,6 +10,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { HomeStackParamList } from '../navigation/AppNavigator';
 import { Colors } from '../theme/colors';
 import { EmergencyBanner } from '../components/EmergencyBanner';
+import { UnlockAllBanner } from '../components/FeatureGate';
 import { SearchBar } from '../components/SearchBar';
 import { CategoryGrid } from '../components/CategoryGrid';
 import { GuideCard } from '../components/GuideCard';
@@ -78,6 +79,7 @@ export function HomeScreen() {
 
   return (
     <SafeAreaView edges={['top']} style={styles.safe}>
+      <UnlockAllBanner />
       <EmergencyBanner />
 
       {/* ── EMERGENCY MODE BUTTON ── */}

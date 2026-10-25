@@ -24,7 +24,7 @@ const PROFILES: ProfileOption[] = [
   { id: 'urban',   icon: '🏙',  label: 'Urban / Civil Unrest',   sub: 'City-grid preparedness' },
   { id: 'rural',   icon: '🌲',  label: 'Rural Homestead',         sub: 'Off-grid self-reliance' },
   { id: 'vehicle', icon: '🚗',  label: 'Vehicle / Travel',        sub: 'Mobile survival' },
-  { id: 'medic',   icon: '🩺',  label: 'Medic-Minded / TCCC',     sub: 'Trauma & field medicine' },
+  { id: 'medic',   icon: '🩺',  label: 'Medic-Minded / First Aid',     sub: 'Trauma & field medicine' },
   { id: 'comms',   icon: '📡',  label: 'HAM & Comms',             sub: 'Radio & communication' },
   { id: 'disaster',icon: '🌀',  label: 'Natural Disaster',        sub: 'Storm & event response' },
 ];
@@ -44,7 +44,7 @@ const PROFILE_LABELS: Record<string, string> = {
   urban: 'Urban / Civil Unrest',
   rural: 'Rural Homestead',
   vehicle: 'Vehicle / Travel',
-  medic: 'Medic-Minded / TCCC',
+  medic: 'Medic-Minded / First Aid',
   comms: 'HAM & Comms',
   disaster: 'Natural Disaster',
 };

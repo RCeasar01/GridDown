@@ -10,6 +10,8 @@ import {
   getKits, addGuideToKit, removeGuideFromKit, getAllKitGuidesMapped, KitRow,
 } from '../db/contentLoader';
 import { getGuideById } from '../utils/guideRegistry';
+import { canOpenGuide } from '../config/access';
+import { LockedFeature } from '../components/FeatureGate';
 
 export interface GuideStep { step: number; title: string; body: string; }
 export interface GuideData {
@@ -87,7 +89,7 @@ export function GuideScreen() {
   const route = useRoute<GuideRoute>();
   const guide = getGuideById(route.params.guideId);
   const { t } = useTranslation();
-  const { selectedLanguage, translateContentEnabled } = useAppStore();
+  const { selectedLanguage, translateContentEnabled, userTier } = useAppStore();
 
   const [showingOriginal, setShowingOriginal] = useState(true);
   const [translating, setTranslating] = useState(false);
@@ -187,6 +189,15 @@ export function GuideScreen() {
     critical: '#8B9E67', advanced: '#F5A623', beginner: '#4CAF50',
   };
 
+  // Paywall switchboard (config/access.ts). Open today; Emergency Mode / medical links never lock.
+  if (!canOpenGuide(guide, userTier)) {
+    return (
+      <LockedFeature
+        feature="guides.premium"
+        message={`"${guide.title}" is in the full library. Water, Fire, Shelter, Medical and every Emergency Mode guide stay free.`}
+      />
+    );
+  }
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>

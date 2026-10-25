@@ -71,7 +71,7 @@ function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number): nu
 
 export function HamRadioScreen() {
   const navigation = useNavigation<NativeStackNavigationProp<ToolsStackParamList, 'HamRadio'>>();
-  const { hasAccess } = useAppStore();
+  const { hasFeature } = useAppStore();
   const [searchText, setSearchText] = useState('');
   const [activeFilter, setActiveFilter] = useState<UseFilter>('ALL');
   const [activeTab, setActiveTab] = useState<'search' | 'saved'>('search');
@@ -243,15 +243,16 @@ export function HamRadioScreen() {
   );
 
   // Tier gate: HAM Radio Repeaters requires Pro (Monthly+)
-  if (!hasAccess('monthly')) {
+  // Gate decided by config/access.ts ('tools.hamRepeaters'); the navigator also wraps this screen.
+  if (!hasFeature('tools.hamRepeaters')) {
     return (
       <SafeAreaView edges={['left', 'right']} style={styles.container}>
         <View style={styles.lockedContainer}>
           <Ionicons name="lock-closed" size={48} color={Colors.textMuted} />
           <Text style={styles.lockedTitle}>Pro Feature</Text>
           <Text style={styles.lockedText}>
-            HAM Radio Repeaters requires a Pro plan. Upgrade to search 2,000+
-            repeaters, save favorites, and access offline frequency data.
+            The HAM repeater database is part of Pro. Upgrade to search 200+ US
+            repeaters by state, city or frequency, filter ARES / RACES / SKYWARN, and save favorites.
           </Text>
           <TouchableOpacity
             style={styles.lockedBtn}

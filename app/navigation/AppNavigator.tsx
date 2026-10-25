@@ -11,6 +11,7 @@ import { HomeScreen } from '../screens/HomeScreen';
 import { CategoryScreen } from '../screens/CategoryScreen';
 import { GuideScreen } from '../screens/GuideScreen';
 import { PaywallScreen } from '../screens/PaywallScreen';
+import { gated } from '../components/FeatureGate';
 import { FounderScreen } from '../screens/FounderScreen';
 import { EmergencyModeScreen } from '../screens/EmergencyModeScreen';
 import { MyKitScreen } from '../screens/MyKitScreen';
@@ -81,6 +82,7 @@ export type LearnStackParamList = {
   Guide: { guideId: string };
   ContentPacks: undefined;
   Search: undefined;
+  Paywall: { featureName?: string };
 };
 
 export type ToolsStackParamList = {
@@ -115,6 +117,7 @@ export type DrillStackParamList = {
   DrillMain: undefined;
   QuizMenu: undefined;
   QuizPlay: { category?: string; quizId?: string; isDailyDrill?: boolean };
+  Paywall: { featureName?: string };
   QuizResult: {
     category: string;
     total: number;
@@ -136,6 +139,30 @@ export type MoreStackParamList = {
   SignIn: undefined;
   SignUp: undefined;
   ForgotPassword: undefined;
+};
+
+// Screens behind the paywall switchboard (config/access.ts). Wrapped once so React keeps
+// stable component identities between renders.
+const G = {
+  MyKitScreen: gated('plan.kits', MyKitScreen),
+  GearInventoryScreen: gated('plan.kits', GearInventoryScreen),
+  VehicleKitScreen: gated('plan.kits', VehicleKitScreen),
+  FlowsScreen: gated('plan.flows', FlowsScreen),
+  ChecklistScreen: gated('plan.checklists', ChecklistScreen),
+  FamilyPlannerScreen: gated('plan.familyPlanner', FamilyPlannerScreen),
+  HamRadioScreen: gated('tools.hamRepeaters', HamRadioScreen),
+  MorseCodeScreen: gated('tools.other', MorseCodeScreen),
+  MapScreen: gated('tools.other', MapScreen),
+  StarMapScreen: gated('tools.other', StarMapScreen),
+  TranslatorScreen: gated('tools.other', TranslatorScreen),
+  SurvivalCalculatorScreen: gated('tools.other', SurvivalCalculatorScreen),
+  WaterScreen: gated('tools.other', WaterScreen),
+  KnotGuideScreen: gated('tools.other', KnotGuideScreen),
+  SignalingScreen: gated('tools.other', SignalingScreen),
+  CoordinateConverterScreen: gated('tools.other', CoordinateConverterScreen),
+  RadioScreen: gated('tools.other', RadioScreen),
+  NavigationScreen: gated('tools.other', NavigationScreen),
+  FoodScreen: gated('tools.other', FoodScreen),
 };
 
 // ─── Stack Navigators ─────────────────────────────────────────────────────────
@@ -175,8 +202,8 @@ function HomeStackNavigator() {
         component={EmergencyModeScreen}
         options={{ headerShown: false, presentation: 'fullScreenModal' }}
       />
-      <HomeStack.Screen name="MyKit" component={MyKitScreen} options={{ title: 'My Kit' }} />
-      <HomeStack.Screen name="Flows" component={FlowsScreen} options={{ title: 'Real-World Flows' }} />
+      <HomeStack.Screen name="MyKit" component={G.MyKitScreen} options={{ title: 'My Kit' }} />
+      <HomeStack.Screen name="Flows" component={G.FlowsScreen} options={{ title: 'Real-World Flows' }} />
       <HomeStack.Screen name="Triage" component={TriageScreen} options={{ title: 'Emergency Protocols' }} />
     </HomeStack.Navigator>
   );
@@ -192,6 +219,11 @@ function LearnStackNavigator() {
       />
       <LearnStack.Screen name="Category" component={CategoryScreen} options={{ title: '' }} />
       <LearnStack.Screen name="Guide" component={GuideScreen} options={{ title: '' }} />
+      <LearnStack.Screen
+        name="Paywall"
+        component={PaywallScreen}
+        options={{ title: 'Upgrade', presentation: 'modal' }}
+      />
       <LearnStack.Screen
         name="ContentPacks"
         component={ContentPacksScreen}
@@ -216,25 +248,25 @@ function ToolsStackNavigator() {
       />
       <ToolsStack.Screen
         name="Translator"
-        component={TranslatorScreen}
+        component={G.TranslatorScreen}
         options={{ title: 'Offline Translator' }}
       />
       <ToolsStack.Screen
         name="HamRadio"
-        component={HamRadioScreen}
+        component={G.HamRadioScreen}
         options={{ title: 'HAM Radio Repeaters' }}
       />
       <ToolsStack.Screen
         name="MorseCode"
-        component={MorseCodeScreen}
+        component={G.MorseCodeScreen}
         options={{ title: 'Morse Code' }}
       />
-      <ToolsStack.Screen name="Map" component={MapScreen} options={{ title: 'Position & Waypoints' }} />
+      <ToolsStack.Screen name="Map" component={G.MapScreen} options={{ title: 'Position & Waypoints' }} />
       <ToolsStack.Screen name="Guide" component={GuideScreen} options={{ title: '' }} />
-      <ToolsStack.Screen name="MyKit" component={MyKitScreen} options={{ title: 'My Kit' }} />
+      <ToolsStack.Screen name="MyKit" component={G.MyKitScreen} options={{ title: 'My Kit' }} />
       <ToolsStack.Screen
         name="Flows"
-        component={FlowsScreen}
+        component={G.FlowsScreen}
         options={{ title: 'Real-World Flows' }}
       />
       <ToolsStack.Screen
@@ -249,12 +281,12 @@ function ToolsStackNavigator() {
       />
       <ToolsStack.Screen
         name="SurvivalCalculator"
-        component={SurvivalCalculatorScreen}
+        component={G.SurvivalCalculatorScreen}
         options={{ title: 'Survival Calculator' }}
       />
       <ToolsStack.Screen
         name="StarMap"
-        component={StarMapScreen}
+        component={G.StarMapScreen}
         options={{ title: 'Star Map' }}
       />
       <ToolsStack.Screen
@@ -264,52 +296,52 @@ function ToolsStackNavigator() {
       />
       <ToolsStack.Screen
         name="GearInventory"
-        component={GearInventoryScreen}
+        component={G.GearInventoryScreen}
         options={{ title: 'Gear Inventory' }}
       />
       <ToolsStack.Screen
         name="FamilyPlanner"
-        component={FamilyPlannerScreen}
+        component={G.FamilyPlannerScreen}
         options={{ title: 'Family Emergency Planner' }}
       />
       <ToolsStack.Screen
         name="CoordinateConverter"
-        component={CoordinateConverterScreen}
+        component={G.CoordinateConverterScreen}
         options={{ title: 'Coordinate Converter' }}
       />
       <ToolsStack.Screen
         name="KnotGuide"
-        component={KnotGuideScreen}
+        component={G.KnotGuideScreen}
         options={{ title: 'Knot Guide' }}
       />
       <ToolsStack.Screen
         name="Radio"
-        component={RadioScreen}
+        component={G.RadioScreen}
         options={{ title: 'Radio Frequencies' }}
       />
       <ToolsStack.Screen
         name="Water"
-        component={WaterScreen}
+        component={G.WaterScreen}
         options={{ title: 'Water Purification' }}
       />
       <ToolsStack.Screen
         name="VehicleKit"
-        component={VehicleKitScreen}
+        component={G.VehicleKitScreen}
         options={{ title: 'Vehicle Emergency Kit' }}
       />
       <ToolsStack.Screen
         name="Signaling"
-        component={SignalingScreen}
+        component={G.SignalingScreen}
         options={{ title: 'Signaling & Communication' }}
       />
       <ToolsStack.Screen
         name="NaturalNavigation"
-        component={NavigationScreen}
+        component={G.NavigationScreen}
         options={{ title: 'Natural Navigation' }}
       />
       <ToolsStack.Screen
         name="FoodStorage"
-        component={FoodScreen}
+        component={G.FoodScreen}
         options={{ title: 'Food Storage Calculator' }}
       />
       <ToolsStack.Screen
@@ -349,6 +381,11 @@ function DrillStackNavigator() {
         component={QuizResultScreen}
         options={{ title: 'Drill Results' }}
       />
+      <DrillStack.Screen
+        name="Paywall"
+        component={PaywallScreen}
+        options={{ title: 'Upgrade', presentation: 'modal' }}
+      />
     </DrillStack.Navigator>
   );
 }
@@ -357,7 +394,7 @@ function MoreStackNavigator() {
   return (
     <MoreStack.Navigator screenOptions={stackScreenOptions}>
       <MoreStack.Screen name="MoreMain" component={MoreScreen} options={{ title: 'More' }} />
-      <MoreStack.Screen name="Checklists" component={ChecklistScreen} options={{ title: 'Checklists' }} />
+      <MoreStack.Screen name="Checklists" component={G.ChecklistScreen} options={{ title: 'Checklists' }} />
       <MoreStack.Screen name="Settings" component={SettingsScreen} options={{ title: 'Settings' }} />
       <MoreStack.Screen name="Community" component={CommunityScreen} options={{ title: 'Community' }} />
       <MoreStack.Screen name="Alerts" component={AlertsScreen} options={{ title: 'Community Alerts' }} />

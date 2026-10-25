@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import { TIER_RANK, UNLOCK_ALL, canUse, type Feature } from '../config/access';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   addBookmark, removeBookmark, getBookmarks,
@@ -67,6 +68,8 @@ interface AppState {
   /** Restore the purchased tier from SQLite at startup (RevenueCat refreshes it later when online). */
   loadUserTier: () => Promise<void>;
   hasAccess: (requiredTier: UserTier) => boolean;
+  /** Plan check by feature name — see config/access.ts FEATURE_TIER. */
+  hasFeature: (feature: Feature) => boolean;
   contentPacks: ContentPack[];
   setContentPacks: (packs: ContentPack[]) => void;
   selectedLanguage: string;
@@ -90,10 +93,7 @@ interface AppState {
   resetOnboarding: () => Promise<void>;
 }
 
-const TIER_RANK: Record<UserTier, number> = {
-  free: 0, discord: 1, monthly: 2, yearly: 3,
-  lifetime_standard: 4, extreme_monthly: 5, extreme_yearly: 6, extreme_lifetime: 7,
-};
+// Tier ranks + the paywall switchboard live in config/access.ts (single source of truth).
 
 const DEFAULT_PACKS: ContentPack[] = [
   { id: 'core', name: 'GridDown Core', description: 'Essential survival guides across all 19 categories.', sizeBytes: 2_400_000, installed: true, requiredTier: 'free', version: '1.0.0' },
@@ -140,10 +140,12 @@ export const useAppStore = create<AppState>((set, get) => ({
     }
   },
   hasAccess: (requiredTier) => {
+    if (UNLOCK_ALL) return true;
     const currentRank = TIER_RANK[get().userTier] ?? 0;
     const requiredRank = TIER_RANK[requiredTier] ?? 0;
     return currentRank >= requiredRank;
   },
+  hasFeature: (feature) => canUse(feature, get().userTier),
   contentPacks: DEFAULT_PACKS,
   setContentPacks: (packs) => set({ contentPacks: packs }),
   selectedLanguage: 'en',

@@ -8,6 +8,10 @@
   .\scripts\build-android.ps1 -Target release -Apk   # signed release APK for sideload testing
   .\scripts\build-android.ps1 -Target debug -Prebuild  # regenerate android/ from app.config.ts first
   .\scripts\build-android.ps1 -Install               # after a build: adb install the APK on the connected device
+  .\scripts\build-android.ps1 -Target release -Apk -UnlockAll
+                                                     # TEST APK with every paywall open (EXPO_PUBLIC_UNLOCK_ALL=1);
+                                                     # copied to E:\Projects\GridDown\_exports\GridDown-<ver>-TEST-unlocked.apk
+                                                     # A Play bundle (AAB) can never be built with it on.
 
 .REQUIREMENTS (all free, already installed on this machine)
   JDK 21            E:\Tools\jdk-21
@@ -19,7 +23,8 @@ param(
   [switch]$Apk,
   [switch]$Prebuild,
   [switch]$Install,
-  [switch]$Clean
+  [switch]$Clean,
+  [switch]$UnlockAll
 )
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
@@ -53,6 +58,25 @@ if ($Prebuild -or -not (Test-Path "$root\android\gradlew.bat")) {
   [IO.File]::WriteAllText($gp, $g)
 }
 
+# ── Paywall test switch (app/config/access.ts) ───────────────────────────────────
+# Expo inlines EXPO_PUBLIC_* at bundle time, from the process env or .env / .env.local.
+$isBundle = ($Target -eq 'release' -and -not $Apk)
+$envFiles = @('.env', '.env.local', '.env.production') | ForEach-Object { Join-Path $root $_ } | Where-Object { Test-Path $_ }
+$fileUnlock = $envFiles | Where-Object { (Get-Content $_ -Raw) -match '(?m)^\s*EXPO_PUBLIC_UNLOCK_ALL\s*=\s*(1|true|yes)\s*$' }
+if ($isBundle -and ($UnlockAll -or $fileUnlock)) {
+  throw "Refusing to build a Play bundle with EXPO_PUBLIC_UNLOCK_ALL on (it unlocks every paid feature). Remove it from $($fileUnlock -join ', ') / drop -UnlockAll."
+}
+if ($UnlockAll) {
+  $env:EXPO_PUBLIC_UNLOCK_ALL = '1'
+  Write-Host '>> TEST BUILD: EXPO_PUBLIC_UNLOCK_ALL=1 — every paywall open, banner shown on Home + Settings' -ForegroundColor Yellow
+} elseif (-not $fileUnlock) {
+  Remove-Item Env:\EXPO_PUBLIC_UNLOCK_ALL -ErrorAction SilentlyContinue
+}
+# Inlined env values can survive in Metro's transform cache between builds; clear it so a test
+# flag never leaks into the next release build (or vice versa).
+Get-ChildItem $env:TEMP -Directory -Filter 'metro-*' -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+Get-ChildItem $env:TEMP -Directory -Filter 'haste-map-*' -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+
 if ($Target -eq 'release' -and -not (Test-Path "$root\credentials\keystore.properties")) {
   Write-Warning 'credentials/keystore.properties not found — release build will be DEBUG-signed and NOT uploadable to Play.'
 }
@@ -74,4 +98,15 @@ if ($task -eq 'bundleRelease') {
   Get-ChildItem "$root\android\app\build\outputs\bundle\release\*.aab" | Select-Object FullName, @{n='MB';e={[math]::Round($_.Length/1MB,1)}}
 } else {
   Get-ChildItem "$root\android\app\build\outputs\apk" -Recurse -Filter '*.apk' | Select-Object FullName, @{n='MB';e={[math]::Round($_.Length/1MB,1)}}
+}
+
+if ($UnlockAll -and $task -ne 'bundleRelease') {
+  $ver = (Select-String -Path "$root\app.config.ts" -Pattern "version:\s*'([^']+)'" | Select-Object -First 1).Matches[0].Groups[1].Value
+  $built = Get-ChildItem "$root\android\app\build\outputs\apk" -Recurse -Filter '*.apk' | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+  $exp = 'E:\Projects\GridDown\_exports'
+  if ($built -and (Test-Path $exp)) {
+    $dest = Join-Path $exp "GridDown-$ver-TEST-unlocked.apk"
+    Copy-Item $built.FullName $dest -Force
+    Write-Host ">> Test APK: $dest  (install: .\scripts\test-on-pc.ps1 -Apk `"$dest`")" -ForegroundColor Yellow
+  }
 }

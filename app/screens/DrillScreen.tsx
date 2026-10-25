@@ -7,6 +7,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Colors } from '../theme/colors';
+import { quizFeature } from '../config/access';
 import { useAppStore } from '../store/useAppStore';
 import { DrillStackParamList } from '../navigation/AppNavigator';
 import {
@@ -15,7 +16,6 @@ import {
 import { getDrillInfo } from '../utils/dailyDrill';
 import { getQuizCategoryTiles } from '../utils/quizCategories';
 
-const FREE_CATEGORIES = ['water', 'fire', 'shelter'];
 
 // Tiles come from the quizzes that ship — see utils/quizCategories.ts.
 const CATEGORY_INFO = getQuizCategoryTiles();
@@ -24,7 +24,7 @@ type Nav = NativeStackNavigationProp<DrillStackParamList, 'DrillMain'>;
 
 export function DrillScreen() {
   const navigation = useNavigation<Nav>();
-  const { hasAccess } = useAppStore();
+  const { hasFeature } = useAppStore();
   const drillInfo = getDrillInfo();
 
   const [readiness, setReadiness] = useState<Record<string, number>>({});
@@ -55,21 +55,22 @@ export function DrillScreen() {
   }, []);
 
   const handleCategoryPress = useCallback((catId: string) => {
-    const isFree = FREE_CATEGORIES.includes(catId);
-    if (isFree || hasAccess('monthly')) {
+    if (hasFeature(quizFeature(catId))) {
       navigation.navigate('QuizPlay', { category: catId });
     } else {
       Alert.alert(
-        'Upgrade Required',
-        'Full quiz access requires a subscription.',
-        [{ text: 'Cancel', style: 'cancel' }],
+        'Pro quiz category',
+        'Water, Fire and Shelter quizzes are free. Pro unlocks all 196 quizzes in every category.',
+        [
+          { text: 'Not now', style: 'cancel' },
+          { text: 'See plans', onPress: () => navigation.navigate('Paywall', { featureName: 'All quizzes' }) },
+        ],
       );
     }
-  }, [hasAccess, navigation]);
+  }, [hasFeature, navigation]);
 
   const renderCategoryCard = ({ item }: { item: typeof CATEGORY_INFO[0] }) => {
-    const isFree = FREE_CATEGORIES.includes(item.id);
-    const locked = !isFree && !hasAccess('monthly');
+    const locked = !hasFeature(quizFeature(item.id));
     const score = readiness[item.id] ?? 0;
     const iconColor = locked ? Colors.textMuted : Colors.primary;
 

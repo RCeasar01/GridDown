@@ -8,6 +8,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { Colors } from '../theme/colors';
+import { canUse } from '../config/access';
 import { useAppStore } from '../store/useAppStore';
 import * as engine from '../utils/advisorEngine';
 import { ADVISOR_MODELS, DOWNLOAD_HEADROOM_BYTES, type AdvisorModel, type AdvisorModelId, type DeviceFit } from '../utils/advisorEngine';
@@ -30,7 +31,6 @@ interface Message {
   protocols?: Array<{ id: string; title: string }>;
 }
 
-const LOCKED_TIERS = ['free', 'monthly', 'yearly', 'lifetime_standard', 'discord'];
 
 type ModelStatus =
   | 'checking'
@@ -96,7 +96,7 @@ const NETWORK_DISCLOSURE =
 
 export function AdvisorScreen() {
   const { userTier } = useAppStore();
-  const isLocked = LOCKED_TIERS.includes(userTier);
+  const isLocked = !canUse('advisor', userTier);
 
   if (isLocked) {
     return <LockedAdvisor />;

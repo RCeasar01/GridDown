@@ -22,7 +22,8 @@ const out = path.join(root, 'dist-web');
 const baseIdx = process.argv.indexOf('--base');
 const base = baseIdx !== -1 ? process.argv[baseIdx + 1] : '/GridDown';
 
-const env = { ...process.env, CI: '1' };
+// The browser preview is a test surface (no store purchases on web), so every paywall is open.
+const env = { ...process.env, CI: '1', EXPO_PUBLIC_UNLOCK_ALL: process.env.EXPO_PUBLIC_UNLOCK_ALL ?? '1' };
 if (base && base !== '/') env.EXPO_WEB_BASE_URL = base.replace(/\/$/, '');
 
 const npx = process.platform === 'win32' ? 'npx.cmd' : 'npx';

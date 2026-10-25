@@ -44,9 +44,9 @@
   },
   "advisor": {
     "title": "Field Intelligence", "lockedTitle": "AI Advisor",
-    "lockedSubtitle": "Extreme plan required",
+    "lockedSubtitle": "Pro + AI plan required",
     "lockedDescription": "The Field Intelligence Advisor runs a large language model fully on your device — no internet, no cloud, no data leaving your phone.",
-    "lockedCta": "Upgrade to Extreme", "placeholder": "Ask the advisor...",
+    "lockedCta": "Upgrade to Pro + AI", "placeholder": "Ask the advisor...",
     "thinking": "Thinking...", "clearChat": "Clear Chat",
     "clearChatConfirm": "Clear all messages?",
     "modelLoading": "Loading AI model...", "modelNotReady": "AI model is not ready yet.",
@@ -63,7 +63,7 @@
     "usbExport": "USB EXPORT", "exportStatus": "Export Status",
     "exportReady": "Ready", "exportLocked": "Locked",
     "prepareExport": "Prepare USB Export Package",
-    "extremeLifetimeOnly": "Extreme Lifetime only",
+    "extremeLifetimeOnly": "Pro + AI Lifetime only",
     "data": "DATA", "clearRecent": "Clear Recently Viewed",
     "clearRecentConfirm": "Remove all recently viewed guides?",
     "about": "ABOUT", "appVersion": "App Version",
@@ -74,7 +74,7 @@
   "paywall": {
     "title": "GridDown Pro", "subtitle": "Unlock everything. Survive anything.",
     "monthly": "Monthly", "yearly": "Yearly", "lifetime": "Lifetime",
-    "extreme": "Extreme", "perMonth": "/month", "perYear": "/year",
+    "extreme": "Pro + AI", "perMonth": "/month", "perYear": "/year",
     "oneTime": "one-time", "subscribe": "Subscribe", "purchase": "Purchase",
     "restore": "Restore Purchases", "restoring": "Restoring...",
     "terms": "Terms", "privacy": "Privacy",
@@ -119,10 +119,10 @@
     "noInternetRequired": "No internet required"
   },
   "tiers": {
-    "free": "Free", "discord": "Discord Only", "monthly": "Monthly",
-    "yearly": "Yearly", "lifetime_standard": "Lifetime Standard",
-    "extreme_monthly": "Extreme Monthly", "extreme_yearly": "Extreme Yearly",
-    "extreme_lifetime": "Extreme Lifetime"
+    "free": "Free", "discord": "Community (legacy)", "monthly": "Pro Monthly",
+    "yearly": "Pro Yearly", "lifetime_standard": "Pro Lifetime",
+    "extreme_monthly": "Pro + AI Monthly", "extreme_yearly": "Pro + AI Yearly",
+    "extreme_lifetime": "Pro + AI Lifetime"
   },
   "priority": { "critical": "CRITICAL", "high": "HIGH", "medium": "MEDIUM", "low": "LOW" },
   "categories": {
