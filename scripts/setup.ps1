@@ -12,7 +12,7 @@ Write-Host "  ____      _     _ ____
 
 Write-Host ""
 Write-Host "  GridDown Dev Setup (Windows)" -ForegroundColor Yellow
-Write-Host "  BannedProduct Media Inc. — Veteran-Owned" -ForegroundColor Gray
+Write-Host "  BannedProduct Media Inc. - Veteran-Owned" -ForegroundColor Gray
 Write-Host ""
 
 # ---------------------------------------------------------------------------
@@ -21,9 +21,9 @@ Write-Host ""
 Write-Host "[1/6] Checking Node.js..." -ForegroundColor Cyan
 try {
   $nodeVersion = node --version
-  Write-Host "  ✓ Node.js $nodeVersion" -ForegroundColor Green
+  Write-Host "  OK Node.js $nodeVersion" -ForegroundColor Green
 } catch {
-  Write-Host "  ✗ Node.js not found. Install from https://nodejs.org (LTS)" -ForegroundColor Red
+  Write-Host "  [x] Node.js not found. Install from https://nodejs.org (LTS)" -ForegroundColor Red
   Write-Host "     Then re-run this script." -ForegroundColor Gray
   exit 1
 }
@@ -34,9 +34,9 @@ try {
 Write-Host "[2/6] Checking Git..." -ForegroundColor Cyan
 try {
   $gitVersion = git --version
-  Write-Host "  ✓ $gitVersion" -ForegroundColor Green
+  Write-Host "  OK $gitVersion" -ForegroundColor Green
 } catch {
-  Write-Host "  ✗ Git not found. Install from https://git-scm.com" -ForegroundColor Red
+  Write-Host "  [x] Git not found. Install from https://git-scm.com" -ForegroundColor Red
   exit 1
 }
 
@@ -47,9 +47,9 @@ Write-Host "[3/6] Installing npm dependencies..." -ForegroundColor Cyan
 if (-not (Test-Path '.\node_modules')) {
   Write-Host "  Installing... (this may take a minute)" -ForegroundColor Gray
   cmd /c "npm install --legacy-peer-deps 2>&1"
-  Write-Host "  ✓ Dependencies installed" -ForegroundColor Green
+  Write-Host "  OK Dependencies installed" -ForegroundColor Green
 } else {
-  Write-Host "  ✓ node_modules already exists. Skipping. (Run 'npm install --legacy-peer-deps' to update)" -ForegroundColor Green
+  Write-Host "  OK node_modules already exists. Skipping. (Run 'npm install --legacy-peer-deps' to update)" -ForegroundColor Green
 }
 
 # ---------------------------------------------------------------------------
@@ -58,10 +58,10 @@ if (-not (Test-Path '.\node_modules')) {
 Write-Host "[4/6] Setting up .env.local..." -ForegroundColor Cyan
 if (-not (Test-Path '.env.local')) {
   Copy-Item '.env.example' '.env.local'
-  Write-Host "  ✓ Created .env.local from .env.example" -ForegroundColor Green
-  Write-Host "  ❗ Open .env.local and fill in your RevenueCat API keys before building." -ForegroundColor Yellow
+  Write-Host "  OK Created .env.local from .env.example" -ForegroundColor Green
+  Write-Host "  [!] Open .env.local and fill in your RevenueCat API keys before building." -ForegroundColor Yellow
 } else {
-  Write-Host "  ✓ .env.local already exists" -ForegroundColor Green
+  Write-Host "  OK .env.local already exists" -ForegroundColor Green
 }
 
 # ---------------------------------------------------------------------------
@@ -70,11 +70,11 @@ if (-not (Test-Path '.env.local')) {
 Write-Host "[5/6] Checking EAS CLI..." -ForegroundColor Cyan
 try {
   $easVersion = eas --version 2>&1
-  Write-Host "  ✓ EAS CLI $easVersion" -ForegroundColor Green
+  Write-Host "  OK EAS CLI $easVersion" -ForegroundColor Green
 } catch {
   Write-Host "  Installing @expo/eas-cli globally..." -ForegroundColor Gray
   cmd /c "npm install -g @expo/eas-cli 2>&1"
-  Write-Host "  ✓ EAS CLI installed" -ForegroundColor Green
+  Write-Host "  OK EAS CLI installed" -ForegroundColor Green
 }
 
 # ---------------------------------------------------------------------------
@@ -84,14 +84,14 @@ Write-Host "[6/6] Running TypeScript check..." -ForegroundColor Cyan
 try {
   $tsOutput = cmd /c "npx tsc --noEmit 2>&1"
   if ($LASTEXITCODE -ne 0) {
-    Write-Host "  ⚠️ TypeScript errors found:" -ForegroundColor Yellow
+    Write-Host "  [!] TypeScript errors found:" -ForegroundColor Yellow
     Write-Host $tsOutput -ForegroundColor Red
     Write-Host "  Fix these before building. Run 'npx tsc --noEmit' to recheck." -ForegroundColor Gray
   } else {
-    Write-Host "  ✓ No TypeScript errors" -ForegroundColor Green
+    Write-Host "  OK No TypeScript errors" -ForegroundColor Green
   }
 } catch {
-  Write-Host "  ⚠️ Could not run tsc. Is TypeScript installed?" -ForegroundColor Yellow
+  Write-Host "  [!] Could not run tsc. Is TypeScript installed?" -ForegroundColor Yellow
 }
 
 # ---------------------------------------------------------------------------

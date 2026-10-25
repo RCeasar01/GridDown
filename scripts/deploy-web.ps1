@@ -28,7 +28,7 @@ if (-not $SkipBuild) {
   npm run build:web
   if ($LASTEXITCODE -ne 0) { throw 'web export failed' }
 }
-if (-not (Test-Path "$root\dist-web\index.html")) { throw 'dist-web\index.html not found — run npm run build:web first' }
+if (-not (Test-Path "$root\dist-web\index.html")) { throw 'dist-web\index.html not found - run npm run build:web first' }
 
 $wt = Join-Path $env:TEMP ('griddown-gh-pages-' + [guid]::NewGuid().ToString('N').Substring(0, 8))
 $sha = (git rev-parse --short HEAD).Trim()

@@ -1,17 +1,18 @@
 <#
 .SYNOPSIS
-  Run the real Android release build on your PC (Android emulator) — one command.
+  Run the real Android release build on your PC (Android emulator) - one command.
 
 .USAGE
   .\scripts\test-on-pc.ps1                      # boot the GridDown_Test emulator, install the latest release APK, launch the app
   .\scripts\test-on-pc.ps1 -Apk E:\path\to.apk  # install a specific APK
   .\scripts\test-on-pc.ps1 -Avd Pixel_7         # use a different emulator image (list: emulator -list-avds)
+  .\scripts\test-on-pc.ps1 -Test                # install the UNLOCKED test APK (GridDown-<ver>-TEST-unlocked.apk)
   .\scripts\test-on-pc.ps1 -Stop                # shut the emulator down
 
 .WHAT YOU GET
-  The exact signed APK that will go to Google Play, running on a 4 GB Pixel-class virtual phone —
+  The exact signed APK that will go to Google Play, running on a 4 GB Pixel-class virtual phone -
   Advisor models download and run, SQLite, location (use the emulator's ... > Location panel), all of it.
-  For a quick look in a browser instead:  npm run web   (opens http://localhost:8081 — native-only features
+  For a quick look in a browser instead:  npm run web   (opens http://localhost:8081 - native-only features
   such as the Advisor, in-app purchases and the translator are stubbed out there).
 
 .NOTES
@@ -22,13 +23,14 @@ param(
   [string]$Avd = 'GridDown_Test',
   [string]$Apk,
   [string]$Sdk = $(if ($env:ANDROID_HOME) { $env:ANDROID_HOME } else { 'E:\Android\Sdk' }),
-  [switch]$Stop
+  [switch]$Stop,
+  [switch]$Test
 )
 $ErrorActionPreference = 'Stop'
 $adb = Join-Path $Sdk 'platform-tools\adb.exe'
 $emu = Join-Path $Sdk 'emulator\emulator.exe'
 $pkg = 'com.bannedproduct.griddown'
-if (-not (Test-Path $adb)) { throw "adb not found at $adb — pass -Sdk <path to Android SDK>" }
+if (-not (Test-Path $adb)) { throw "adb not found at $adb - pass -Sdk <path to Android SDK>" }
 
 if ($Stop) {
   & $adb emu kill 2>$null
@@ -38,7 +40,9 @@ if ($Stop) {
 
 # 1. APK to install
 if (-not $Apk) {
-  $cand = Get-ChildItem 'E:\Projects\GridDown\_exports\GridDown-*-release-*.apk' -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+  $pattern = if ($Test) { 'GridDown-*-TEST-unlocked.apk' } else { 'GridDown-*-release-*.apk' }
+  $cand = Get-ChildItem (Join-Path 'E:\Projects\GridDown\_exports' $pattern) -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+  if ($Test -and -not $cand) { throw 'No test APK yet. Build one: .\scripts\build-android.ps1 -Target release -Apk -UnlockAll' }
   if (-not $cand) { $cand = Get-Item (Join-Path (Split-Path -Parent $PSScriptRoot) 'android\app\build\outputs\apk\release\app-release.apk') -ErrorAction SilentlyContinue }
   if (-not $cand) { throw 'No release APK found. Build one first: .\scripts\build-android.ps1' }
   $Apk = $cand.FullName

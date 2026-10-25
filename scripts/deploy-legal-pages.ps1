@@ -10,14 +10,14 @@
 .STEPS (one-time, ~10 min, free)
   1. .\scripts\deploy-legal-pages.ps1 -Login              # opens Cloudflare in the browser, once
   2. .\scripts\deploy-legal-pages.ps1                     # deploys docs/ to the "griddown-legal" Pages project
-  3. In the Cloudflare dashboard: Pages → griddown-legal → Custom domains → add  legal.gdsurvival.com
+  3. In the Cloudflare dashboard: Pages -> griddown-legal -> Custom domains -> add  legal.gdsurvival.com
      (Cloudflare adds the DNS record for you because the domain is already on Cloudflare.)
   4. Set in .env.local / CI:
         EXPO_PUBLIC_PRIVACY_URL=https://legal.gdsurvival.com/privacy
         EXPO_PUBLIC_TERMS_URL=https://legal.gdsurvival.com/terms
      and update the same two URLs in store-assets/DATA_SAFETY.md, APP_STORE_CONNECT.md, PLAY_CONSOLE.md.
-  5. GitHub → RCeasar01/GridDown → Settings → General → Danger Zone → Change visibility → Private.
-     (Disable GitHub Pages in Settings → Pages first.)
+  5. GitHub -> RCeasar01/GridDown -> Settings -> General -> Danger Zone -> Change visibility -> Private.
+     (Disable GitHub Pages in Settings -> Pages first.)
 
 .NOTES
   Uses npx wrangler (no global install). Credentials live in %USERPROFILE%\.wrangler, never in the repo.

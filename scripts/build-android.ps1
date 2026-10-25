@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-  Local Android build for GridDown — no EAS, no cloud, no cost.
+  Local Android build for GridDown - no EAS, no cloud, no cost.
 
 .USAGE
   .\scripts\build-android.ps1 -Target debug          # dev APK (android/app/build/outputs/apk/debug/)
@@ -58,7 +58,7 @@ if ($Prebuild -or -not (Test-Path "$root\android\gradlew.bat")) {
   [IO.File]::WriteAllText($gp, $g)
 }
 
-# ── Paywall test switch (app/config/access.ts) ───────────────────────────────────
+# -- Paywall test switch (app/config/access.ts) -----------------------------------
 # Expo inlines EXPO_PUBLIC_* at bundle time, from the process env or .env / .env.local.
 $isBundle = ($Target -eq 'release' -and -not $Apk)
 $envFiles = @('.env', '.env.local', '.env.production') | ForEach-Object { Join-Path $root $_ } | Where-Object { Test-Path $_ }
@@ -68,7 +68,7 @@ if ($isBundle -and ($UnlockAll -or $fileUnlock)) {
 }
 if ($UnlockAll) {
   $env:EXPO_PUBLIC_UNLOCK_ALL = '1'
-  Write-Host '>> TEST BUILD: EXPO_PUBLIC_UNLOCK_ALL=1 — every paywall open, banner shown on Home + Settings' -ForegroundColor Yellow
+  Write-Host '>> TEST BUILD: EXPO_PUBLIC_UNLOCK_ALL=1 - every paywall open, banner shown on Home + Settings' -ForegroundColor Yellow
 } elseif (-not $fileUnlock) {
   Remove-Item Env:\EXPO_PUBLIC_UNLOCK_ALL -ErrorAction SilentlyContinue
 }
@@ -78,7 +78,7 @@ Get-ChildItem $env:TEMP -Directory -Filter 'metro-*' -ErrorAction SilentlyContin
 Get-ChildItem $env:TEMP -Directory -Filter 'haste-map-*' -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
 
 if ($Target -eq 'release' -and -not (Test-Path "$root\credentials\keystore.properties")) {
-  Write-Warning 'credentials/keystore.properties not found — release build will be DEBUG-signed and NOT uploadable to Play.'
+  Write-Warning 'credentials/keystore.properties not found - release build will be DEBUG-signed and NOT uploadable to Play.'
 }
 
 $task = if ($Target -eq 'debug') { 'assembleDebug' } elseif ($Apk) { 'assembleRelease' } else { 'bundleRelease' }
@@ -89,7 +89,7 @@ try {
   $args = @($task, '--console=plain')
   if ($Clean) { $args = @('clean') + $args }
   & .\gradlew.bat @args 2>&1 | Tee-Object -FilePath $log
-  if ($LASTEXITCODE -ne 0) { throw "gradle $task failed — see $log" }
+  if ($LASTEXITCODE -ne 0) { throw "gradle $task failed - see $log" }
 } finally { Pop-Location }
 
 Write-Host ''
