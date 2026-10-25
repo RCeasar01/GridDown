@@ -27,6 +27,8 @@ param(
   [switch]$Test
 )
 $ErrorActionPreference = 'Stop'
+# The emulator images live on E:\ (E:\Android\avd), not in %USERPROFILE%\.android\avd.
+if (-not $env:ANDROID_AVD_HOME -and (Test-Path 'E:\Android\avd')) { $env:ANDROID_AVD_HOME = 'E:\Android\avd' }
 $adb = Join-Path $Sdk 'platform-tools\adb.exe'
 $emu = Join-Path $Sdk 'emulator\emulator.exe'
 $pkg = 'com.bannedproduct.griddown'
