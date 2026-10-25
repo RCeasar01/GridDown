@@ -87,6 +87,10 @@ Write-Host ">> gradlew $task  (log: $log)"
 Push-Location "$root\android"
 try {
   $args = @($task, '--console=plain')
+  # Gradle's up-to-date check ignores environment variables, so a JS bundle built with
+  # EXPO_PUBLIC_UNLOCK_ALL=1 would be reused by the next store build (and vice versa).
+  # Always re-run the bundle task on release builds.
+  if ($Target -eq 'release') { $args = @($task, ':app:createBundleReleaseJsAndAssets', '--rerun', '--console=plain') }
   if ($Clean) { $args = @('clean') + $args }
   & .\gradlew.bat @args 2>&1 | Tee-Object -FilePath $log
   if ($LASTEXITCODE -ne 0) { throw "gradle $task failed - see $log" }
