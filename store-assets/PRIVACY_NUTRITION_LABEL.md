@@ -57,7 +57,7 @@ GridDown does not use any advertising networks, cross-app tracking identifiers, 
 |---|---|---|
 | RevenueCat | In-app purchase receipt validation and entitlement management | Apple purchase receipts (handled natively by iOS); RevenueCat receives transaction IDs only, not personal data. No personal identifiers are passed from GridDown. |
 | Expo Notifications | Push notification delivery (optional Daily Drill reminder) | Device push token, registered with Apple APNs only. GridDown's notification server does not store user identifiers. |
-| All other libraries | On-device only (SQLite, Expo Router, React Native, Phi-3.5 Mini) | None — all processing is local |
+| All other libraries | On-device only (SQLite, React Navigation, React Native, llama.rn + Phi-3.5 Mini / Qwen2.5) | None — all processing is local |
 
 ---
 
@@ -84,14 +84,14 @@ GridDown does not use any advertising networks, cross-app tracking identifiers, 
 
 ---
 
-## On-Device AI (Extreme Tier)
+## On-Device AI (Pro + AI)
 
-The Field Intelligence AI advisor is powered by Phi-3.5 Mini, a large language model that runs **entirely on the user's device**.
+The Field Intelligence AI advisor is powered by Phi-3.5 Mini or Qwen2.5-1.5B (the user's device decides which), large language models that runs **entirely on the user's device**.
 
 - No queries are transmitted to any server.
 - No responses are logged remotely.
 - No conversation history is stored outside the device's local SQLite database.
-- The model file itself is downloaded once during Extreme tier onboarding and stored locally.
+- The model file itself is downloaded once the first time a Pro + AI user opens Field Intelligence and stored locally.
 
 ---
 

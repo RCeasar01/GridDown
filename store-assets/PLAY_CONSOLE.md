@@ -18,67 +18,56 @@ GridDown - Offline Survival
 
 ### Short Description (80 chars max)
 ```
-300+ survival guides. 100% offline. No account, no servers. Veteran-built.
+315 offline survival guides, tools & on-device AI. Works with zero signal.
 ```
 
 ### Full Description (4000 chars max)
 ```
-GridDown is the definitive offline emergency preparedness app — written by combat veterans, built for real emergencies.
+GRIDDOWN — OFFLINE SURVIVAL GUIDE
 
-When the grid goes down, your phone signal disappears, or professional help isn’t coming — GridDown is what you open.
+When the power is out, the cell towers are down and help can't reach you, GridDown still works. Every guide, tool and checklist lives on your phone. No signal. No account. No tracking.
 
-───
-EVERY FEATURE WORKS WITHOUT INTERNET
-───
-GridDown caches everything on your device at install. No cloud. No subscription required to access the app. No data sent anywhere. Ever.
+100% OFFLINE
+Install once and the whole library works anywhere — dead zones, basements, the backcountry, a week-long blackout. The optional AI advisor and translator languages download once over Wi-Fi, then run offline too.
 
-───
-WHAT’S INSIDE
-───
-➕ 300+ SURVIVAL GUIDES ACROSS 19 CATEGORIES
-Medical, water purification, fire starting, shelter building, navigation, communications, power generation, vehicle repair, food sourcing, and security. New content added regularly.
+WHAT'S INSIDE
 
-🩹 TCCC MEDICAL PROCEDURES
-Tactical Combat Casualty Care, trauma treatment, tourniquet application, wound packing, shock management, and preventive medicine. Written by a Combat Infantryman, Eagle First Responder — 101st Airborne Division (Air Assault), 187th Infantry Regiment (Rakkasans) | Preventive Medicine Specialist | 65th Medical Brigade.
+► 315 Survival Guides in 19 Categories — free
+Water · Fire · Shelter · Food · Medical · Health & Hygiene · Navigation · Comms · Security · Tools & Kits · Disaster · Grid-Down Home · Terrain & Climate · Vehicle · Homesteading · Power & Energy · Urban Survival · Leadership · For Children.
+Each guide opens with a Quick Glance — what to do right now — then step-by-step instructions, warnings and pro tips. Every guide lists the public sources it was written from: FEMA, CDC, American Red Cross, NOAA, US Army field manuals and more.
 
-🗺️ OFFLINE GPS MAP
-Display your exact GPS coordinates with no network connection. Works in dead zones, wilderness, and grid-down scenarios.
+► Emergency Mode — free
+One tap (or long-press the app icon) for a large-print crisis screen: severe bleeding, CPR, choking, shock, burns, survival priorities, SOS signaling, and your live GPS / MGRS coordinates to read to a dispatcher.
 
-🤖 ON-DEVICE AI ADVISOR (Pro + AI Plan)
-A language model that runs 100% on your device and answers from the guides in the app. One model download over Wi-Fi, then no internet, no server, no conversation data transmitted.
+► Field Intelligence — On-Device AI (Pro + AI)
+Ask in plain English and get an answer drawn from GridDown's own guides, with the guide it used listed. The model runs entirely on your phone: one download over Wi-Fi (1.1 GB Lite or 2.4 GB Standard, matched to your device), then no internet — your questions never leave the device.
 
-☑️ SMART CHECKLISTS
-72-hour kit, bug-out bag, shelter-in-place, vehicle kit, and more. Check off items. Progress saved locally.
+► 196 Quizzes + Daily Drill
+Multiple-choice, priority-ordering and decision-tree scenarios with a readiness score for each category. Water, Fire and Shelter are free; Pro unlocks every category.
 
-🌍 10 LANGUAGES
-English, Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Hindi. Guide translation runs on-device after a one-time language-pack download.
+► 72-Hour Readiness Scan
+50 questions, about 3–4 minutes, and a personal prep plan at the end.
 
+► Offline Tools
+HAM repeater database (200+ US repeaters, Pro) · Radio frequencies · Morse code with audio and flashlight · Position & waypoints in lat/long, UTM and MGRS · Coordinate converter · Star map · 10-language offline translator · Survival and water-purification calculators · Knot guide · Signaling.
 
+► Plan Ahead
+My Kit (Bug-Out, Vehicle, Home, Medic) · 25 disaster checklists · 6 Real-World Flows (Bug-Out in 15 Minutes, Shelter-in-Place 72 Hours, Post-Storm Assessment and more) · Gear inventory with expiration alerts · Family Emergency Planner with printable cards · Setup personalized to your profile and region · Night Ops low-light mode.
 
---- NEW IN v1.1 ---
-12 content categories now live. New: Offline Translator (10 on-device languages),
-HAM Radio Repeater Database (200+ entries, all 50 states), Morse Code Tool,
-US Army Field Manuals (public domain, 5 guides), Vehicle & Mechanical category
-(5 guides), Homesteading & Food Production category (5 guides).
----
-───
-ZERO DATA COLLECTION
-───
-GridDown collects no personal information. No account. No analytics. No advertising. Your data is yours, on your device.
+VETERAN-BUILT
+Designed by a combat veteran — 101st Airborne Division (Air Assault), Combat Infantryman, Eagle First Responder, Preventive Medicine Specialist. BannedProduct Media Inc. is 100% veteran-owned.
 
-───
-SUBSCRIPTION INFORMATION
-───
-Free: core guides, GPS tools, basic checklists
-Pro Monthly: $3.99/month | Pro Yearly: $29.99/year | Pro Lifetime: $79.99
-Extreme Monthly: $9.99/month | Extreme Yearly: $69.99/year | Extreme Lifetime: $149.99
+PRIVACY
+No account. No analytics. No ads. No tracking. Location is shown on screen — never stored or sent. The AI runs on your device. Backups are a file you export and keep.
 
-Subscriptions auto-renew. Cancel anytime in Google Play → Subscriptions.
+PLANS
+Free — every guide, Emergency Mode, the offline tools, checklists, kits, flows, Family Planner, and Water / Fire / Shelter quizzes.
+Pro — all 196 quizzes, Daily Drill in every category, and the HAM repeater database.
+Pro + AI — everything in Pro plus the on-device Field Intelligence advisor.
+Monthly, yearly and lifetime options. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period; manage or cancel them in Google Play → Payments & subscriptions.
 
-MEDICAL DISCLAIMER: Medical content is written for emergencies where professional care is unavailable. When professional care IS accessible, seek it immediately.
-
-Privacy Policy: https://rceasar01.github.io/GridDown/privacy
-Terms of Service: https://rceasar01.github.io/GridDown/terms
+MEDICAL DISCLAIMER
+GridDown is educational reference material for when professional care is delayed or unavailable. It does not replace medical training, professional care, or calling emergency services when you can.
 ```
 
 ---
@@ -148,79 +137,62 @@ No
 
 ## In-App Products (Subscriptions)
 
-Create under **Monetize → Products → Subscriptions**:
+> **Prices not final.** Two price sets exist (the table below vs. the paywall's fallback labels $4.99 / $34.99 / $89.99 and $10.99 / $74.99 / $159.99). Pick one before creating products — see `LAUNCH_CHECKLIST.md` → *Pricing decision*. The paywall shows live store prices, so the store is the source of truth once products exist.
+> Display names below are what customers see: **Pro** and **Pro + AI**. Product IDs keep the legacy `extreme` wording (renaming an ID after launch breaks existing purchases).
+> **Do not create the Discord product** — the community feature is switched off (`COMMUNITY_ENABLED = false`).
 
-### Subscription 1: GridDown Pro Monthly
-- **Product ID:** `griddown_pro_monthly`  
-- **Subscription base plan ID:** `monthly`
-- **Price:** USD $3.99/month
-- **Billing period:** 1 month
-- **Grace period:** 3 days
-- **Name:** GridDown Pro Monthly
-- **Description:** Full guide library, all checklists, content packs, offline translation
+Create in **Monetize → Products → Subscriptions**. Each subscription gets one base plan (monthly or yearly, auto-renewing).
 
-### Subscription 2: GridDown Pro Yearly
-- **Product ID:** `griddown_pro_yearly`
-- **Price:** USD $29.99/year
-- **Billing period:** 1 year
-- **Grace period:** 7 days
-- **Name:** GridDown Pro Yearly
-- **Description:** GridDown Pro billed annually — save 37% vs monthly
+### Subscription 1: GridDown Pro — Monthly
+- **Product ID:** `griddown_pro_monthly` · **Base plan:** monthly · **Price (pending):** $3.99
+- **Name:** GridDown Pro — Monthly
+- **Description:** All 196 quizzes in every category and the HAM repeater database. Every guide stays free.
 
-### Subscription 3: GridDown Extreme Monthly
-- **Product ID:** `griddown_extreme_monthly`
-- **Price:** USD $9.99/month
-- **Billing period:** 1 month
-- **Grace period:** 3 days
-- **Name:** GridDown Extreme Monthly
-- **Description:** Full library + AI Field Advisor + USB export
+### Subscription 2: GridDown Pro — Yearly
+- **Product ID:** `griddown_pro_yearly` · **Base plan:** yearly · **Price (pending):** $29.99
+- **Name:** GridDown Pro — Yearly
+- **Description:** GridDown Pro billed once a year.
 
-### Subscription 4: GridDown Extreme Yearly
-- **Product ID:** `griddown_extreme_yearly`
-- **Price:** USD $69.99/year
-- **Billing period:** 1 year
-- **Grace period:** 7 days
-- **Name:** GridDown Extreme Yearly
-- **Description:** GridDown Extreme billed annually — save 42% vs monthly
+### Subscription 3: GridDown Pro + AI — Monthly
+- **Product ID:** `griddown_extreme_monthly` · **Base plan:** monthly · **Price (pending):** $9.99
+- **Name:** GridDown Pro + AI — Monthly
+- **Description:** Everything in Pro plus Field Intelligence, the AI advisor that runs entirely on your phone.
 
-### Subscription 5: GridDown Discord
-- **Product ID:** `griddown_discord`
-- **Price:** USD $1.99/month
-- **Billing period:** 1 month
-- **Grace period:** 3 days
-- **Name:** GridDown Discord
-- **Description:** Discord community access
+### Subscription 4: GridDown Pro + AI — Yearly
+- **Product ID:** `griddown_extreme_yearly` · **Base plan:** yearly · **Price (pending):** $69.99
+- **Name:** GridDown Pro + AI — Yearly
+- **Description:** GridDown Pro + AI billed once a year.
 
 ---
 
 ## In-App Products (One-Time Purchases)
 
-Create under **Monetize → Products → In-app products**:
+Create in **Monetize → Products → In-app products**.
 
-### One-Time Purchase 1: GridDown Pro Lifetime
-- **Product ID:** `griddown_pro_lifetime`
-- **Price:** USD $79.99
-- **Title:** GridDown Pro Lifetime
-- **Description:** One-time purchase for lifetime Pro access
+### One-Time Purchase 1: GridDown Pro — Lifetime
+- **Product ID:** `griddown_pro_lifetime` · **Price (pending):** $79.99
+- **Title:** GridDown Pro — Lifetime
+- **Description:** GridDown Pro, paid once. Every quiz category and the HAM repeater database, for good.
 
-### One-Time Purchase 2: GridDown Extreme Lifetime
-- **Product ID:** `griddown_extreme_lifetime`
-- **Price:** USD $149.99
-- **Title:** GridDown Extreme Lifetime
-- **Description:** One-time purchase for lifetime Extreme access including AI Field Advisor
+### One-Time Purchase 2: GridDown Pro + AI — Lifetime
+- **Product ID:** `griddown_extreme_lifetime` · **Price (pending):** $149.99
+- **Title:** GridDown Pro + AI — Lifetime
+- **Description:** Everything in Pro plus the on-device Field Intelligence advisor, paid once.
+
+> Product IDs must match `RC_PRODUCT_MAP` in `app/screens/PaywallScreen.tsx` and the RevenueCat offering — check them against `REVENUECAT_SETUP.md` before creating anything (IDs can't be renamed or reused once created).
 
 ---
 
 ## Screenshots Order
 
-1. `01_home.png` — Home screen with category cards
-2. `02_guide_detail.png` — Guide detail with step cards
-3. `07_ai_advisor.png` — AI Field Advisor
-4. `03_offline_map.png` — Offline GPS map
-5. `04_checklist.png` — 72-Hour Kit checklist
-6. `08_settings.png` — Language / translation settings
-7. `09_categories.png` — Medical category list
-8. `10_guide_translation.png` — Spanish translation active
+Files in `store-assets/screenshots/android/` (1080×1920) + `feature-graphic-1024x500.png`.
+
+1. `01_home.png` — Home: Today's Drill, readiness scan, Emergency Mode button
+2. `05_emergency_mode.png` — Emergency Mode medical cards
+3. `02_learn.png` — Learn: 19-category library
+4. `06_advisor.png` — Field Intelligence on-device AI
+5. `03_tools.png` — Offline tools grid
+6. `04_drill.png` — Readiness Drill
 
 ## Feature Graphic
 `store-assets/FEATURE_GRAPHIC.svg` — export as 1024×500 PNG

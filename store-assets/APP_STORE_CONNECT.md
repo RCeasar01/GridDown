@@ -13,7 +13,7 @@ GridDown
 
 ### Subtitle (30 chars max)
 ```
-Survival. Offline. Ready.
+Offline Survival & Emergency
 ```
 
 ### Bundle ID
@@ -48,98 +48,61 @@ Reference
 
 #### Description (4000 chars max)
 ```
-GridDown is the definitive offline emergency preparedness app — written by combat veterans, built for real emergencies.
+GRIDDOWN — OFFLINE SURVIVAL GUIDE
 
-When the grid goes down, your phone signal disappears, or professional help isn’t coming — GridDown is what you open.
+When the power is out, the cell towers are down and help can't reach you, GridDown still works. Every guide, tool and checklist lives on your phone. No signal. No account. No tracking.
 
-———
-EVERY FEATURE WORKS WITHOUT INTERNET
-———
-GridDown caches everything on your device. No cloud. No subscription required to access the app. No data sent home. Ever.
+100% OFFLINE
+Install once and the whole library works anywhere — dead zones, basements, the backcountry, a week-long blackout. The optional AI advisor and translator languages download once over Wi-Fi, then run offline too.
 
-———
-19 CATEGORIES, 300+ SOURCED GUIDES
----
-- Offline Translator: 10 languages (Spanish, French, Portuguese, German, Arabic,
-  Chinese, Japanese, Korean, Russian, Hindi) — on-device after a one-time ~30 MB pack download.
-  Emergency phrases pre-loaded for instant large-font display.
-- HAM Radio Repeater Database: 200+ US repeater entries across all 50 states.
-  Search by state, city, or frequency. Filter by OPEN/ARES/RACES/SKYWARN.
-- Morse Code Tool: encode/decode in real time, visual flash playback, SOS shortcut,
-  full international Morse table.
-- US Army Field Manuals: condensed from public-domain FM 21-76 (Urban Survival),
-  Map & Compass Navigation, Field Sanitation, Immediate Action Drills, and
-  Combat Lifesaver Extended Care.
-- Vehicle & Mechanical: tire change without jack, battery/jump-start, engine
-  overheating, fuel siphoning, generator maintenance.
-- Homesteading & Food Production: raising chickens, high-yield emergency gardening,
-  food preservation without electricity, rainwater collection, livestock butchering.
----
+WHAT'S INSIDE
 
-WHAT’S INSIDE
-———
-🩹 MEDICAL GUIDES
-TCCC (Tactical Combat Casualty Care) procedures, trauma care, wound treatment, tourniquet application, improvised splints, shock management, and preventive medicine. Written by a Combat Infantryman, Eagle First Responder — 101st Airborne Division (Air Assault), 187th Infantry Regiment (Rakkasans) | Preventive Medicine Specialist | 65th Medical Brigade.
+► 315 Survival Guides in 19 Categories — free
+Water · Fire · Shelter · Food · Medical · Health & Hygiene · Navigation · Comms · Security · Tools & Kits · Disaster · Grid-Down Home · Terrain & Climate · Vehicle · Homesteading · Power & Energy · Urban Survival · Leadership · For Children.
+Each guide opens with a Quick Glance — what to do right now — then step-by-step instructions, warnings and pro tips. Every guide lists the public sources it was written from: FEMA, CDC, American Red Cross, NOAA, US Army field manuals and more.
 
-🗺️ OFFLINE GPS MAP
-Display your exact GPS coordinates without any network connection. Works in dead zones, deep wilderness, power outages, and grid-down scenarios. Coordinates displayed in decimal degrees and MGRS format.
+► Emergency Mode — free
+One tap (or long-press the app icon) for a large-print crisis screen: severe bleeding, CPR, choking, shock, burns, survival priorities, SOS signaling, and your live GPS / MGRS coordinates to read to a dispatcher.
 
-🤖 AI FIELD INTELLIGENCE ADVISOR (Pro + AI Plan)
-A language model that runs entirely on your device and answers from the guides in the app, showing you which guide it used. After a one-time model download over Wi-Fi there are no servers involved and no conversation data is transmitted anywhere. Ask it about survival, medical care, navigation, or field craft.
+► Field Intelligence — On-Device AI (Pro + AI)
+Ask in plain English and get an answer drawn from GridDown's own guides, with the guide it used listed. The model runs entirely on your phone: one download over Wi-Fi (1.1 GB Lite or 2.4 GB Standard, matched to your device), then no internet — your questions never leave the device.
 
-☑️ SMART CHECKLISTS
-72-hour emergency kits, bug-out bag lists, shelter-in-place protocols, vehicle emergency kits, and more. Check off items as you go. Progress is saved locally.
+► 196 Quizzes + Daily Drill
+Multiple-choice, priority-ordering and decision-tree scenarios with a readiness score for each category. Water, Fire and Shelter are free; Pro unlocks every category.
 
-🔍 SEARCH
-Find any guide or checklist by keyword. Results are instant and fully offline.
+► 72-Hour Readiness Scan
+50 questions, about 3–4 minutes, and a personal prep plan at the end.
 
-🌍 10 LANGUAGES
-Full UI localization in English, Spanish, French, Portuguese, German, Arabic, Chinese (Simplified), Japanese, Korean, and Hindi. Guide content translation runs on-device after a one-time language-pack download.
+► Offline Tools
+HAM repeater database (200+ US repeaters, Pro) · Radio frequencies · Morse code with audio and flashlight · Position & waypoints in lat/long, UTM and MGRS · Coordinate converter · Star map · 10-language offline translator · Survival and water-purification calculators · Knot guide · Signaling.
 
-📦 CONTENT PACKS
-Expand your library with topic-specific content packs — Medical, Urban Survival, Field Craft, and Regional packs.
+► Plan Ahead
+My Kit (Bug-Out, Vehicle, Home, Medic) · 25 disaster checklists · 6 Real-World Flows (Bug-Out in 15 Minutes, Shelter-in-Place 72 Hours, Post-Storm Assessment and more) · Gear inventory with expiration alerts · Family Emergency Planner with printable cards · Setup personalized to your profile and region · Night Ops low-light mode.
 
-———
-ZERO DATA COLLECTION
-———
-GridDown does not collect your name, email, location, device ID, or any personal information. No account required. No analytics SDK. No advertising network. Your data stays on your device.
+VETERAN-BUILT
+Designed by a combat veteran — 101st Airborne Division (Air Assault), Combat Infantryman, Eagle First Responder, Preventive Medicine Specialist. BannedProduct Media Inc. is 100% veteran-owned.
 
-———
-VETERAN-OWNED
-———
-Built by a combat veteran — 101st Airborne Division (Air Assault) / Screaming Eagles, 3rd BCT / 187th Infantry Regiment (Rakkasans), 8th US Army / 65th Medical Brigade. Combat Infantryman, Eagle First Responder, and Preventive Medicine Specialist. Stationed at COP Chergotah, Khost Province, Afghanistan. Every guide is written for real emergencies, not theoretical scenarios.
+PRIVACY
+No account. No analytics. No ads. No tracking. Location is shown on screen — never stored or sent. The AI runs on your device. Backups are a file you export and keep.
 
-———
-SUBSCRIPTION INFORMATION
-———
-Free tier: 100+ core guides, offline maps, basic checklists
-Pro Monthly: $3.99/month — full guide library, all checklists, content packs
-Pro Yearly: $29.99/year — same as monthly, billed annually
-Lifetime Standard: $79.99 one-time — lifetime Pro access
-Extreme Monthly: $9.99/month — everything + AI Field Advisor + USB export
-Extreme Yearly: $69.99/year — same as Extreme Monthly, billed annually
-Extreme Lifetime: $149.99 one-time — lifetime Extreme access
+PLANS
+Free — every guide, Emergency Mode, the offline tools, checklists, kits, flows, Family Planner, and Water / Fire / Shelter quizzes.
+Pro — all 196 quizzes, Daily Drill in every category, and the HAM repeater database.
+Pro + AI — everything in Pro plus the on-device Field Intelligence advisor.
+Monthly, yearly and lifetime options. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period; manage or cancel them in Settings → Apple ID → Subscriptions.
 
-Subscriptions auto-renew. Cancel anytime in Settings → Apple ID → Subscriptions.
-Payment charged to your Apple ID account upon purchase confirmation.
-
-———
 MEDICAL DISCLAIMER
-———
-Medical content in this app is written for emergency scenarios where professional medical care is unavailable. It is not a substitute for professional medical treatment. In any situation where professional care is accessible, seek it immediately.
-
-Privacy Policy: https://rceasar01.github.io/GridDown/privacy
-Terms of Service: https://rceasar01.github.io/GridDown/terms
+GridDown is educational reference material for when professional care is delayed or unavailable. It does not replace medical training, professional care, or calling emergency services when you can.
 ```
 
 #### Promotional Text (170 chars max — can be updated without a new build)
 ```
-v1.1: Offline translator (10 languages), HAM radio repeater database, Morse code tool, field manuals, vehicle & homestead guides.
+The grid goes down. GridDown doesn't. 315 survival guides, Emergency Mode and offline tools on your phone — no signal, no account, no tracking.
 ```
 
 #### Keywords (100 chars max, comma-separated)
 ```
-survival,emergency,offline,prepper,first aid,TCCC,disaster,bug out,preparedness,grid down
+survival,prepper,offline,emergency,grid down,first aid,HAM radio,disaster,preparedness,blackout
 ```
 
 #### Support URL
@@ -163,20 +126,15 @@ https://rceasar01.github.io/GridDown/privacy
 
 ### Review Notes
 ```
-GridDown is an offline emergency preparedness app. All features function without an internet connection.
+GridDown is an offline emergency-preparedness reference. Every guide and tool works without an internet connection. No login is required at any point — the app opens to onboarding, then the home screen.
 
-To test subscription features:
-- Use a Sandbox Apple ID to test in-app purchases
-- Alternatively, test the Free tier which requires no purchase
+Free vs paid: all 315 guides, Emergency Mode, the offline tools, checklists, kits and flows are free. Pro unlocks every quiz category and the HAM repeater database. Pro + AI adds the Field Intelligence advisor.
 
-The AI Field Intelligence Advisor (Pro + AI plan) requires a one-time model download (1.1 GB Lite or 2.4 GB Standard, from Hugging Face) and runs
-entirely on-device. For review purposes, the locked state (upgrade prompt) can be reviewed
-without an Extreme subscription.
+To review paid features, use a Sandbox Apple ID with any GridDown product. The locked states (lock card with "See plans") can be reviewed without a purchase.
 
-The translation feature requires a dev client build (see README). Expo Go is not supported
-due to the MLKit native module. The build submitted is a production EAS build.
+Field Intelligence (Pro + AI) downloads a model once over Wi-Fi (1.1 GB Lite or 2.4 GB Standard, from Hugging Face) and then runs entirely on-device. No questions or answers leave the device. Each answer has a "Report" control for flagging inaccurate or unsafe output.
 
-No login required at any point. The app launches directly to the home screen.
+Medical content: guides cite their public sources (FEMA, CDC, American Red Cross, NOAA, US Army field manuals). Guides still awaiting clinician sign-off carry a visible "Pending clinical review" badge, and every medical guide shows a disclaimer.
 
 Contact: support@bannedproduct.com
 ```
@@ -213,84 +171,47 @@ No account required. App launches directly to home screen.
 
 Create the following under **In-App Purchases** in App Store Connect:
 
-| Product ID | Type | Price | Display Name |
+> **Prices not final.** Two price sets exist (the table below vs. the paywall's fallback labels $4.99 / $34.99 / $89.99 and $10.99 / $74.99 / $159.99). Pick one before creating products — see `LAUNCH_CHECKLIST.md` → *Pricing decision*. The paywall shows live store prices, so the store is the source of truth once products exist.
+> Display names below are what customers see: **Pro** and **Pro + AI**. Product IDs keep the legacy `extreme` wording (renaming an ID after launch breaks existing purchases).
+> **Do not create the Discord product** — the community feature is switched off (`COMMUNITY_ENABLED = false`).
+
+| Product ID | Type | Price (pending) | Display Name |
 |-----------|------|-------|--------------|
-| `com.bannedproduct.griddown.monthly` | Auto-Renewable Subscription | $3.99/mo | GridDown Pro Monthly |
-| `com.bannedproduct.griddown.yearly` | Auto-Renewable Subscription | $29.99/yr | GridDown Pro Yearly |
-| `com.bannedproduct.griddown.lifetime` | Non-Consumable | $79.99 | GridDown Pro Lifetime |
-| `com.bannedproduct.griddown.discord` | Auto-Renewable Subscription | $1.99/mo | GridDown Discord |
-| `com.bannedproduct.griddown.extreme_monthly` | Auto-Renewable Subscription | $9.99/mo | GridDown Extreme Monthly |
-| `com.bannedproduct.griddown.extreme_yearly` | Auto-Renewable Subscription | $69.99/yr | GridDown Extreme Yearly |
-| `com.bannedproduct.griddown.extreme_lifetime` | Non-Consumable | $149.99 | GridDown Extreme Lifetime |
+| `com.bannedproduct.griddown.monthly` | Auto-Renewable Subscription | $3.99/mo | GridDown Pro — Monthly |
+| `com.bannedproduct.griddown.yearly` | Auto-Renewable Subscription | $29.99/yr | GridDown Pro — Yearly |
+| `com.bannedproduct.griddown.lifetime` | Non-Consumable | $79.99 | GridDown Pro — Lifetime |
+| `com.bannedproduct.griddown.extreme_monthly` | Auto-Renewable Subscription | $9.99/mo | GridDown Pro + AI — Monthly |
+| `com.bannedproduct.griddown.extreme_yearly` | Auto-Renewable Subscription | $69.99/yr | GridDown Pro + AI — Yearly |
+| `com.bannedproduct.griddown.extreme_lifetime` | Non-Consumable | $149.99 | GridDown Pro + AI — Lifetime |
 
 ### Subscription Groups
 
-**Group 1: GridDown Pro**
-- griddown.monthly (Rank 1)
-- griddown.yearly (Rank 2)
-- griddown.lifetime — Non-Consumable, not in group
-
-**Group 2: GridDown Extreme**
-- griddown.extreme_monthly (Rank 1)
-- griddown.extreme_yearly (Rank 2)
-- griddown.extreme_lifetime — Non-Consumable, not in group
-
-**Group 3: Discord**
-- griddown.discord (Rank 1)
+**One group: "GridDown"** (so a Pro subscriber can upgrade to Pro + AI and Apple prorates it)
+- griddown.extreme_yearly (Level 1 — highest)
+- griddown.extreme_monthly (Level 1)
+- griddown.yearly (Level 2)
+- griddown.monthly (Level 2)
+- The two lifetime products are Non-Consumable and sit outside the group.
 
 ---
 
 ## App Store Screenshots Order
 
-1. `01_home.png` — “300+ Survival Guides. 100% Offline.”
-2. `02_guide_detail.png` — “Step-by-Step. When Seconds Count.”
-3. `03_offline_map.png` — “GPS Coordinates. No Signal Needed.”
-4. `04_checklist.png` — “72-Hour Kit. Are You Ready?”
-5. `05_search.png` — “Find It Fast. Under Pressure.”
-6. `07_ai_advisor.png` — “On-Device AI. No Internet. No Cloud.”
+Captured at 1080×1920 in `store-assets/screenshots/android/`; iOS needs 1320×2868 captures of the same screens (see SCREENSHOT_GUIDE.md).
 
+1. `01_home.png` — "300+ Survival Guides. Zero Signal Needed."
+2. `05_emergency_mode.png` — "Built for the Worst Five Minutes."
+3. `02_learn.png` — "19 Categories. Every Guide Free."
+4. `06_advisor.png` — "An AI Advisor That Runs on Your Phone."
+5. `03_tools.png` — "15+ Offline Tools. No Bars Required."
+6. `04_drill.png` — "Train Daily. Know What to Do."
 
 ---
 
-## v1.2.0-beta — Quiz System & Daily Drill
+## Quiz System & Daily Drill (shipped in 1.0)
 
-### New Features
-
-**Scenario-Based Quiz System**
-- 53 survival quizzes across 12 categories: Water, Fire, Shelter, Food & Foraging, Medical, Navigation, Comms & Signaling, Security, Vehicle & Mechanical, Homesteading, Field Manuals, Disaster Specific
-- Three interactive formats:
-  - Multiple Choice — immediate feedback with detailed tactical explanations
-  - Priority Ordering — tap items in correct survival sequence
-  - Decision Tree — branching scenarios with 3–5 decision nodes and outcome analysis
-- All content written to real survival, TCCC, and field-manual standards
-- Medical quizzes include TCCC depth: tourniquet application, tension pneumothorax, START triage, hemorrhagic shock classification
-
-**Daily Drill**
-- One quiz delivered daily, deterministically selected by date (all users get the same quiz)
-- "TODAY'S DRILL" card on Home screen with category, difficulty, and format badges
-- Completion tracking with score saved to SQLite
-- Optional push notification reminder at user-selected time (default 8:00 AM)
-
-**Readiness Score**
-- Per-category readiness percentage tracked in SQLite (correct answers / total attempts)
-- Overall readiness score aggregated across all categories
-- Visual readiness bars on each category card in the Quiz menu
-
-**Tier Gating**
-- Free: Water, Fire, Shelter quizzes (15 quizzes)
-- Monthly/Yearly/Lifetime: All 12 categories (53 quizzes)
-- Extreme: Daily Drill AI variant (scaffold — placeholder for Field Intelligence integration)
-
-### App Store Description Update
-
-Add to "What's New" section:
-> Test your survival readiness with 53 scenario-based quizzes across 12 categories. Three formats: multiple choice, priority ordering, and branching decision trees. Track your readiness score per category. Complete a new Daily Drill every day — same quiz for all users, so you can compare notes.
-
-### Keywords to Add
-quiz, survival quiz, readiness test, TCCC, tactical medicine, scenario training, emergency preparedness quiz
-
-### Screenshots Needed
-- QuizMenuScreen showing category grid and Daily Drill card
-- QuizScreen in Multiple Choice format with explanation visible
-- QuizScreen in Decision Tree format showing branching scenario
-- QuizResultScreen showing score and category readiness
+- 196 scenario quizzes across the guide categories in three formats: multiple choice (144), priority ordering (37) and decision tree (15)
+- Daily Drill: one quiz per day, the same for every user, shown on Home with category, difficulty and format
+- Readiness score per category (correct answers / attempts), stored on the device
+- Optional daily reminder notification at a user-chosen time
+- Free: Water, Fire and Shelter quizzes. Pro: every category. (Gate: `quizzes.premium` in `app/config/access.ts`.)

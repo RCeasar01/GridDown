@@ -53,7 +53,7 @@ The 6.7″ screenshot set scales for all other iPhone sizes automatically.
 ### Screenshot 2: Guide Detail
 **Filename:** `02_guide_detail.png`  
 **Overlay text:** “Step-by-Step. When Seconds Count.”  
-**Content to show:** A TCCC guide (e.g., “Applying a Tourniquet”) with steps 1–3 visible, the orange step number badges prominent  
+**Content to show:** A medical guide (e.g., “Tourniquet Application”) with steps 1–3 visible, the orange step number badges prominent  
 **Notes:** Priority badge should show CRITICAL in orange
 
 ---
@@ -85,7 +85,7 @@ The 6.7″ screenshot set scales for all other iPhone sizes automatically.
 ### Screenshot 6: Paywall / Upgrade
 **Filename:** `06_paywall.png`  
 **Overlay text:** “Unlock Everything. Survive Anything.”  
-**Content to show:** Paywall screen showing Free / Pro / Extreme tier comparison  
+**Content to show:** Paywall screen showing Free / Pro / Pro + AI comparison  
 **Notes:** Show the “Most Popular” badge on the Pro tier, pricing visible
 
 ---
@@ -94,7 +94,7 @@ The 6.7″ screenshot set scales for all other iPhone sizes automatically.
 **Filename:** `07_ai_advisor.png`  
 **Overlay text:** “On-Device AI. No Internet. No Cloud.”  
 **Content to show:** Field Intelligence Advisor chat with a question like “How do I treat a sucking chest wound?” and a detailed response  
-**Notes:** Show the “Running on device” badge. Use Extreme plan account for capture.
+**Notes:** Show the “Running on device” badge. Use a Pro + AI sandbox account, or a `-UnlockAll` test build, for capture.
 
 ---
 

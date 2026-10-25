@@ -1,293 +1,150 @@
-# RevenueCat Setup — GridDown
+# RevenueCat Setup — GridDown (go-live runbook)
 
-Step-by-step guide to configure RevenueCat for all 8 GridDown product IDs.
+How to turn real purchases on. The app side is already built and tested; this is the store +
+RevenueCat configuration that has to match it.
 
----
+**Source of truth in code**
+- What each plan unlocks → `app/config/access.ts` (`FEATURE_TIER`)
+- Product IDs, packages, entitlements → `app/config/products.ts` (pinned by `__tests__/products.test.ts`)
 
-## 1. Create RevenueCat Account
-
-1. Go to https://app.revenuecat.com/
-2. Create account or log in
-3. Create a new **Project**: Name it `GridDown`
-
----
-
-## 2. Add Apps
-
-In your GridDown project:
-
-### Add iOS App
-1. Click **Add App** → **App Store**
-2. App Name: `GridDown`
-3. Bundle ID: `com.bannedproduct.griddown`
-4. App Store Connect API Key: Upload your `.p8` key from App Store Connect
-   - Go to: App Store Connect → Users and Access → Keys → App Store Connect API
-   - Create key with **Developer** role
-   - Download `.p8`, note the Key ID and Issuer ID
-5. Copy the **iOS API Key** (starts with `appl_`)
-
-### Add Android App
-1. Click **Add App** → **Google Play**
-2. App Name: `GridDown`
-3. Package Name: `com.bannedproduct.griddown`
-4. Service Account JSON: Upload Google Play service account JSON
-   - Go to: Google Play Console → Setup → API access → Create service account
-   - Grant **Release manager** permissions
-   - Download JSON key file
-5. Copy the **Android API Key** (starts with `goog_`)
+**Cost:** RevenueCat is free while monthly tracked revenue stays under $2,500; above that it charges
+1% of tracked revenue. Nothing is billed before the app earns that much. Apple and Google take
+their own 15–30% store commission separately.
 
 ---
 
-## 3. Update Environment Variables
+## 0. Decide prices first
 
-Add to `.env.local`:
+Two candidate price sets exist (see `LAUNCH_CHECKLIST.md` → *Pricing decision*):
+
+| Plan | Set A (store docs) | Set B (paywall fallback labels) |
+|---|---|---|
+| Pro monthly / yearly / lifetime | $3.99 / $29.99 / $79.99 | $4.99 / $34.99 / $89.99 |
+| Pro + AI monthly / yearly / lifetime | $9.99 / $69.99 / $149.99 | $10.99 / $74.99 / $159.99 |
+
+Product IDs below contain no prices, so either set works with the same IDs. After products exist,
+the paywall shows the store's live localized price; the fallback labels in `PaywallScreen.tsx`
+only appear offline — set them to the chosen prices too.
+
+---
+
+## 1. Create the store products
+
+### App Store Connect → In-App Purchases / Subscriptions
+
+| Product ID | Type | Display name |
+|---|---|---|
+| `com.bannedproduct.griddown.monthly` | Auto-renewable subscription | GridDown Pro — Monthly |
+| `com.bannedproduct.griddown.yearly` | Auto-renewable subscription | GridDown Pro — Yearly |
+| `com.bannedproduct.griddown.lifetime` | Non-consumable | GridDown Pro — Lifetime |
+| `com.bannedproduct.griddown.extreme_monthly` | Auto-renewable subscription | GridDown Pro + AI — Monthly |
+| `com.bannedproduct.griddown.extreme_yearly` | Auto-renewable subscription | GridDown Pro + AI — Yearly |
+| `com.bannedproduct.griddown.extreme_lifetime` | Non-consumable | GridDown Pro + AI — Lifetime |
+
+Put all four subscriptions in **one subscription group** ("GridDown"), Pro + AI ranked above Pro,
+so upgrades are prorated.
+
+### Google Play Console → Monetize → Products
+
+| Product ID | Type | Base plan | Display name |
+|---|---|---|---|
+| `griddown_pro_monthly` | Subscription | `monthly` (1 month, auto-renew) | GridDown Pro — Monthly |
+| `griddown_pro_yearly` | Subscription | `yearly` (1 year, auto-renew) | GridDown Pro — Yearly |
+| `griddown_pro_lifetime` | In-app product | — | GridDown Pro — Lifetime |
+| `griddown_extreme_monthly` | Subscription | `monthly` | GridDown Pro + AI — Monthly |
+| `griddown_extreme_yearly` | Subscription | `yearly` | GridDown Pro + AI — Yearly |
+| `griddown_extreme_lifetime` | In-app product | — | GridDown Pro + AI — Lifetime |
+
+Product IDs can never be renamed or reused once created. The `extreme` wording is internal only;
+customers see the display names. **Don't create a Discord product** — the community feature is
+off (`COMMUNITY_ENABLED = false`).
+
+Play needs the app uploaded to a testing track (internal is fine) before products can be created.
+
+---
+
+## 2. RevenueCat project
+
+1. https://app.revenuecat.com → new project **GridDown**.
+2. **Add App → App Store**: bundle ID `com.bannedproduct.griddown`; upload an App Store Connect
+   API key (.p8, *App Manager* role is enough) and the In-App Purchase key.
+3. **Add App → Google Play**: package `com.bannedproduct.griddown`; upload a Google Cloud service
+   account JSON with *View financial data* + *Manage orders and subscriptions* in Play Console
+   → Users and permissions.
+4. Copy the public SDK keys (`appl_…`, `goog_…`).
+
+---
+
+## 3. Products, entitlements, offering in RevenueCat
+
+**Products** — import all twelve store products (RevenueCat → Product catalog → Import).
+
+**Entitlements** — exactly two:
+
+| Entitlement ID | Attach |
+|---|---|
+| `pro` | the three Pro products on each store |
+| `extreme` | the three Pro + AI products on each store |
+
+The app reads the cycle (monthly / yearly / lifetime) from the product that granted the
+entitlement, so lifetime buyers are recognised as lifetime. Pro + AI includes everything in Pro
+in the app even though the products aren't attached to `pro`.
+
+**Offering** — one offering, identifier `default`, marked *Current*, with six packages:
+
+| Package | iOS product | Android product |
+|---|---|---|
+| `$rc_monthly` | `com.bannedproduct.griddown.monthly` | `griddown_pro_monthly` |
+| `$rc_annual` | `com.bannedproduct.griddown.yearly` | `griddown_pro_yearly` |
+| `$rc_lifetime` | `com.bannedproduct.griddown.lifetime` | `griddown_pro_lifetime` |
+| `extreme_monthly` | `com.bannedproduct.griddown.extreme_monthly` | `griddown_extreme_monthly` |
+| `extreme_annual` | `com.bannedproduct.griddown.extreme_yearly` | `griddown_extreme_yearly` |
+| `extreme_lifetime` | `com.bannedproduct.griddown.extreme_lifetime` | `griddown_extreme_lifetime` |
+
+The paywall finds packages by product ID first and falls back to these package IDs.
+
+---
+
+## 4. Keys into the build
+
+`.env.local` (gitignored — never commit keys):
+
 ```env
-EXPO_PUBLIC_REVENUECAT_IOS_KEY=appl_your_key_here
-EXPO_PUBLIC_REVENUECAT_ANDROID_KEY=goog_your_key_here
+EXPO_PUBLIC_REVENUECAT_IOS_KEY=appl_…
+EXPO_PUBLIC_REVENUECAT_ANDROID_KEY=goog_…
+EXPO_PUBLIC_UNLOCK_ALL=0
 ```
 
-Add to EAS project secrets (for cloud builds):
-```bash
-eas secret:create --scope project --name EXPO_PUBLIC_REVENUECAT_IOS_KEY --value "appl_your_key_here"
-eas secret:create --scope project --name EXPO_PUBLIC_REVENUECAT_ANDROID_KEY --value "goog_your_key_here"
-```
+Then build: `.\scripts\build-android.ps1 -Target release` (Play bundle). Without keys the app
+runs on the free tier and the paywall reports purchases unavailable. `build-android.ps1` refuses
+to make a Play bundle while `EXPO_PUBLIC_UNLOCK_ALL` is on.
 
 ---
 
-## 4. Create Products in RevenueCat
+## 5. Test before release
 
-Go to: **RevenueCat Project** → **Products**
-
-Create the following products (they map to your App Store and Play Store product IDs):
-
-### iOS Products
-
-| Identifier | Type | Price |
-|-----------|------|-------|
-| `com.bannedproduct.griddown.monthly` | Auto-Renewable Subscription | $3.99/mo |
-| `com.bannedproduct.griddown.yearly` | Auto-Renewable Subscription | $29.99/yr |
-| `com.bannedproduct.griddown.lifetime` | Non-Consumable | $79.99 |
-| `com.bannedproduct.griddown.discord` | Auto-Renewable Subscription | $1.99/mo |
-| `com.bannedproduct.griddown.extreme_monthly` | Auto-Renewable Subscription | $9.99/mo |
-| `com.bannedproduct.griddown.extreme_yearly` | Auto-Renewable Subscription | $69.99/yr |
-| `com.bannedproduct.griddown.extreme_lifetime` | Non-Consumable | $149.99 |
-
-### Android Products
-
-| Identifier | Type | Price |
-|-----------|------|-------|
-| `griddown_pro_monthly` | Auto-Renewable Subscription | $3.99/mo |
-| `griddown_pro_yearly` | Auto-Renewable Subscription | $29.99/yr |
-| `griddown_pro_lifetime` | One-Time Purchase | $79.99 |
-| `griddown_discord` | Auto-Renewable Subscription | $1.99/mo |
-| `griddown_extreme_monthly` | Auto-Renewable Subscription | $9.99/mo |
-| `griddown_extreme_yearly` | Auto-Renewable Subscription | $69.99/yr |
-| `griddown_extreme_lifetime` | One-Time Purchase | $149.99 |
+- **Android:** add your Google account under Play Console → *License testing*, install from the
+  internal testing track, buy each plan (test cards are never charged), then **Restore Purchases**
+  on a fresh install.
+- **iOS:** create a Sandbox tester (Users and Access → Sandbox), sign in under Settings → App
+  Store → Sandbox Account, buy and restore.
+- **Check in RevenueCat → Customers** that the right entitlement (`pro` / `extreme`) is active.
+- In the app, **Settings → Current plan** should read Pro Monthly / Pro + AI Lifetime etc., the
+  Drill tab's locked categories should open, and Tools → HAM Radio Repeaters should load.
+- If a purchase succeeds but the plan doesn't unlock, the app says so and asks the user to
+  restore — that means an entitlement isn't attached to a product in step 3.
 
 ---
 
-## 5. Create Entitlements
+## 6. Turning more paywalls on later
 
-Go to: **RevenueCat Project** → **Entitlements**
-
-Create these entitlements:
-
-### Entitlement 1: `pro`
-- Identifier: `pro`
-- Description: Access to full guide library and Pro features
-- Attached products:
-  - `com.bannedproduct.griddown.monthly`
-  - `com.bannedproduct.griddown.yearly`
-  - `com.bannedproduct.griddown.lifetime`
-  - `griddown_pro_monthly`
-  - `griddown_pro_yearly`
-  - `griddown_pro_lifetime`
-
-### Entitlement 2: `extreme`
-- Identifier: `extreme`
-- Description: AI Field Advisor, USB export, all Extreme features
-- Attached products:
-  - `com.bannedproduct.griddown.extreme_monthly`
-  - `com.bannedproduct.griddown.extreme_yearly`
-  - `com.bannedproduct.griddown.extreme_lifetime`
-  - `griddown_extreme_monthly`
-  - `griddown_extreme_yearly`
-  - `griddown_extreme_lifetime`
-
-### Entitlement 3: `discord`
-- Identifier: `discord`
-- Description: Discord community access
-- Attached products:
-  - `com.bannedproduct.griddown.discord`
-  - `griddown_discord`
+Change a value in `FEATURE_TIER` (`app/config/access.ts`) to `PLAN.PRO` or `PLAN.PRO_AI`, update
+the plan feature lists in `PaywallScreen.tsx` and the store descriptions to match, rebuild. Every
+gate already has its lock screen and paywall route. Medical, Water/Fire/Shelter and every guide
+Emergency Mode links to can never be locked (`ALWAYS_FREE_GUIDE_IDS`).
 
 ---
 
-## 6. Create Offerings
+## 7. Webhooks (not needed)
 
-Go to: **RevenueCat Project** → **Offerings**
-
-### Default Offering
-- Identifier: `default`
-- Description: Main paywall offering
-
-Create **Packages** inside the default offering:
-
-| Package Identifier | Product (iOS) | Product (Android) |
-|-------------------|---------------|-------------------|
-| `$rc_monthly` | griddown.monthly | griddown_pro_monthly |
-| `$rc_annual` | griddown.yearly | griddown_pro_yearly |
-| `$rc_lifetime` | griddown.lifetime | griddown_pro_lifetime |
-| `extreme_monthly` | griddown.extreme_monthly | griddown_extreme_monthly |
-| `extreme_annual` | griddown.extreme_yearly | griddown_extreme_yearly |
-| `extreme_lifetime` | griddown.extreme_lifetime | griddown_extreme_lifetime |
-| `discord_monthly` | griddown.discord | griddown_discord |
-
----
-
-## 7. SDK Initialization Code
-
-The SDK is initialized in `app/utils/purchases.ts`. Ensure it matches:
-
-```typescript
-import Purchases, { LOG_LEVEL } from 'react-native-purchases';
-import { Platform } from 'react-native';
-
-export async function initializePurchases(): Promise<void> {
-  const key = Platform.OS === 'ios'
-    ? (process.env.EXPO_PUBLIC_REVENUECAT_IOS_KEY ?? '')
-    : (process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_KEY ?? '');
-
-  if (!key) {
-    console.warn('[Purchases] RevenueCat API key not set. Set EXPO_PUBLIC_REVENUECAT_IOS_KEY / ANDROID_KEY in .env.local.');
-    return;
-  }
-
-  if (__DEV__) Purchases.setLogLevel(LOG_LEVEL.DEBUG);
-  Purchases.configure({ apiKey: key });
-}
-
-export async function getCustomerInfo() {
-  return Purchases.getCustomerInfo();
-}
-
-export async function getOfferings() {
-  return Purchases.getOfferings();
-}
-
-export async function purchasePackage(pkg: import('react-native-purchases').PurchasesPackage) {
-  return Purchases.purchasePackage(pkg);
-}
-
-export async function restorePurchases() {
-  return Purchases.restorePurchases();
-}
-```
-
----
-
-## 8. Entitlement Mapping to App Tiers
-
-In your `useAppStore.ts`, map RevenueCat entitlements to app tiers:
-
-```typescript
-const { entitlements } = customerInfo;
-
-if (entitlements.active['extreme']) {
-  // Check if lifetime
-  const extremeLifetime = customerInfo.nonSubscriptionTransactions
-    .some(t => t.productIdentifier.includes('extreme_lifetime'));
-  setUserTier(extremeLifetime ? 'extreme_lifetime' : 'extreme_monthly');
-} else if (entitlements.active['pro']) {
-  const proLifetime = customerInfo.nonSubscriptionTransactions
-    .some(t => t.productIdentifier.includes('lifetime'));
-  setUserTier(proLifetime ? 'lifetime_standard' : 'monthly');
-} else if (entitlements.active['discord']) {
-  setUserTier('discord');
-} else {
-  setUserTier('free');
-}
-```
-
----
-
-## 9. Testing
-
-### iOS Sandbox Testing
-1. Create Sandbox Tester in App Store Connect: Users & Access → Sandbox Testers
-2. Sign in to Sandbox account on device: Settings → App Store → Sandbox Account
-3. Run the dev client build on physical device
-4. Trigger a purchase — no real charge occurs in Sandbox
-
-### Android Testing
-1. Add test email to Google Play → License Testing
-2. Run internal test track build on physical device
-3. Trigger a purchase — Google Play test purchases are free
-
-### RevenueCat Dashboard
-- Monitor purchases in real-time at https://app.revenuecat.com
-- Check entitlements are being granted correctly per purchase
-
----
-
-## 10. Webhook (Optional)
-
-For future server-side functionality, set up a RevenueCat webhook:
-1. RevenueCat → Project → Integrations → Webhooks
-2. URL: `https://your-server.com/revenuecat-webhook`
-3. Events: subscribe to `INITIAL_PURCHASE`, `RENEWAL`, `CANCELLATION`, `EXPIRATION`
-
-Not required for the current offline-only architecture.
-
----
-
-## v2.0 Tier Mapping
-
-As of v2.0 the PaywallScreen presents 3 primary tiers + 1 family option instead of 8 separate plans.
-The RevenueCat products and entitlements on the backend are **unchanged** — only the UI grouping changed.
-
-### UI Tier → Legacy RC Tiers
-
-| New UI Plan | Displayed Prices | Maps to RC Products | Legacy Internal Tiers Covered |
-|------------|-----------------|---------------------|-------------------------------|
-| **Free** | $0 forever | (none) | `free` |
-| **Pro (monthly)** | $4.99/mo | `griddown_monthly_399` | `monthly` |
-| **Pro (yearly)** | $34.99/yr | `griddown_yearly_2999` | `yearly` |
-| **Pro (lifetime)** | $89.99 one-time | `griddown_lifetime_standard_7999` | `lifetime_standard` |
-| **Pro + AI (monthly)** | $10.99/mo | `griddown_extreme_monthly_999` | `extreme_monthly` |
-| **Pro + AI (yearly)** | $74.99/yr | `griddown_extreme_yearly_6999` | `extreme_yearly` |
-| **Pro + AI (lifetime)** | $159.99 one-time | `griddown_extreme_lifetime_14999` | `extreme_lifetime` |
-| **Family Plan** | $54.99/yr | `griddown_yearly_2999` (shared) | (new — maps to yearly) |
-
-### What was removed from UI
-
-- **Discord Only** ($1.99/mo) — removed from the paywall UI entirely. The RC product and entitlement
-  (`griddown_discord` / `discord`) still exist so existing subscribers retain access. The `discord`
-  tier still resolves in `purchases.ts` but is no longer presented as a purchase option.
-
-### Entitlement checks in-app
-
-Existing entitlement check logic in `purchases.ts` is **unchanged**. The `userTier` value stored in
-the app's Zustand store and SQLite `user_tier` table still uses the legacy tier names
-(`monthly`, `yearly`, `extreme_monthly`, etc.). The new UI plan cards use `legacyTiers` arrays to
-determine "isCurrent" state so a `yearly` subscriber correctly sees "CURRENT" on the Pro card.
-
-### Billing chip → RC product mapping
-
-When a user selects a billing chip on the Pro or Pro + AI card, `RC_PRODUCT_MAP` in
-`PaywallScreen.tsx` provides the correct product identifier to pass to `purchasePackage()`:
-
-```typescript
-const RC_PRODUCT_MAP = {
-  pro: {
-    monthly:  'griddown_monthly_399',
-    yearly:   'griddown_yearly_2999',
-    lifetime: 'griddown_lifetime_standard_7999',
-  },
-  pro_ai: {
-    monthly:  'griddown_extreme_monthly_999',
-    yearly:   'griddown_extreme_yearly_6999',
-    lifetime: 'griddown_extreme_lifetime_14999',
-  },
-};
-```
+GridDown has no server; entitlements are checked on the device through the RevenueCat SDK.

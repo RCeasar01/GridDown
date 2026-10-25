@@ -2,26 +2,31 @@
 
 **Tactical survival intelligence for when the grid goes down.**
 
-GridDown is a production-grade React Native app (Expo SDK 51) delivering 60+ offline survival field guides across 10 categories, with full-text search, tactical checklists, an on-device AI advisor, and a subscription tier system — zero network required for content.
+GridDown is a React Native app (Expo SDK 57, Android + iOS) delivering 315 offline survival guides in 19 categories, Emergency Mode, 196 quizzes, 15+ offline tools and an on-device AI advisor — zero network required for content. Content comes from `E:\Projects\GridDown-Library` (see *Working layout* in `store-assets/LAUNCH_CHECKLIST.md`).
 
 ---
 
 ## Screenshots
 
-> *Screenshots and feature graphic go here after first build.*
+| Home | Learn | Tools | Drill | Emergency | Advisor |
+|---|---|---|---|---|---|
+| ![](store-assets/screenshots/android/01_home.png) | ![](store-assets/screenshots/android/02_learn.png) | ![](store-assets/screenshots/android/03_tools.png) | ![](store-assets/screenshots/android/04_drill.png) | ![](store-assets/screenshots/android/05_emergency_mode.png) | ![](store-assets/screenshots/android/06_advisor.png) |
+
+Marketing overview PDF: `E:\Projects\GridDown\_exports\marketing\GridDown-Product-Overview.pdf`.
 
 ---
 
 ## Features
 
 - **100% offline-first** — all content stored on-device via SQLite, no network required
-- **60+ field guides** — water, fire, shelter, food, medical, navigation, comms, security, tools, disaster
+- **315 guides, 19 categories** — water, fire, shelter, food, medical, health & hygiene, navigation, comms, security, tools & kits, disaster, grid-down home, terrain & climate, vehicle, homesteading, power, urban, leadership, children; each with cited `sources[]`
+- **Emergency Mode** — large-print crisis cards, SOS, live GPS/MGRS (always free)
 - **Priority ranking** — guides sorted Critical → Advanced → Beginner
 - **Full-text search** — in-memory scored index with 150ms debounce
 - **Tactical checklists** — pre-built and persistable via SQLite
 - **Bookmark system** — SQLite-backed, instant access
-- **On-device AI advisor** — llama.rn / Phi-3.5 Mini Q4 running locally (Extreme tier)
-- **RevenueCat subscriptions** — 8 tiers from free to Extreme Lifetime
+- **On-device AI advisor** — llama.rn running Phi-3.5 Mini or Qwen2.5-1.5B locally (Pro + AI)
+- **RevenueCat purchases** — Free / Pro / Pro + AI, every gate in `app/config/access.ts`
 - **Dark tactical UI** — `#0D0D0D` background, `#8B9E67` accent
 
 ---
@@ -30,17 +35,17 @@ GridDown is a production-grade React Native app (Expo SDK 51) delivering 60+ off
 
 | Layer | Technology |
 |---|---|
-| Framework | Expo SDK 51 + React Native 0.74.1 |
+| Framework | Expo SDK 57 + React Native 0.86 (New Architecture, Hermes), React 19.2 |
 | Language | TypeScript (strict) |
 | Navigation | React Navigation 6 (bottom tabs + stack) |
 | State | Zustand |
 | Database | expo-sqlite (WAL mode) |
-| Subscriptions | RevenueCat (react-native-purchases ^7.27.0) |
+| Subscriptions | RevenueCat (react-native-purchases ^10) |
 | On-device AI | llama.rn + Phi-3.5 Mini (2.4 GB) or Qwen2.5-1.5B (1.1 GB), guide-grounded (BM25) |
 | File system | expo-file-system |
 | Location | expo-location |
 | Icons | @expo/vector-icons (Ionicons) |
-| Build | EAS Build |
+| Build | Local Gradle (`scripts/build-android.ps1`) / Xcode on the Mac mini — no EAS |
 | CI | GitHub Actions |
 
 ---
@@ -100,29 +105,28 @@ GridDown/
 | GuideScreen | Full guide render — steps, warnings, pro tips, bookmarking |
 | SearchScreen | Full-text search with debounce, grouped by category |
 | ChecklistScreen | Interactive survival checklists with persistent state |
-| MapScreen | Offline coordinate display via expo-location |
-| AdvisorScreen | llama.rn on-device AI (Extreme tier) with download flow |
+| MapScreen | Position & waypoints — live GPS in lat/long, UTM, MGRS (no map tiles) |
+| AdvisorScreen | llama.rn on-device AI (Pro + AI) with download flow |
 | PaywallScreen | Subscription purchase UI via RevenueCat |
-| CommunityScreen | Discord community link |
+| CommunityScreen | Discord community (hidden: `COMMUNITY_ENABLED = false`) |
 | ContentPacksScreen | Downloadable content pack browser |
 | FounderScreen | Founder tier perks |
-| ReferralScreen | Referral program |
+| ReferralScreen | Referral program (hidden: `REFERRAL_PROGRAM_ENABLED = false`) |
 | SettingsScreen | App preferences |
 
 ---
 
-## Subscription Tiers
+## Plans & paywalls
 
-| Tier | Entitlement | Content Access |
+| Plan | Internal tiers | Unlocks |
 |---|---|---|
-| Free | — | Critical guides only |
-| Discord | `discord_only` | Community + all free |
-| Monthly | `monthly_access` | Full library |
-| Yearly | `yearly_access` | Full library |
-| Lifetime Standard | `lifetime_standard` | Full library, one-time |
-| Extreme Monthly | `extreme_monthly` | Full library + AI |
-| Extreme Yearly | `extreme_yearly` | Full library + AI |
-| Extreme Lifetime | `extreme_lifetime` | Full library + AI, one-time |
+| Free | `free` | All 315 guides, Emergency Mode, offline tools, checklists, kits, flows, Family Planner, Water/Fire/Shelter quizzes |
+| Pro | `monthly`, `yearly`, `lifetime_standard` | + every quiz category, HAM repeater database |
+| Pro + AI | `extreme_monthly`, `extreme_yearly`, `extreme_lifetime` | + Field Intelligence on-device AI |
+
+- **Switchboard:** `app/config/access.ts` → `FEATURE_TIER`. Changing one value puts a feature behind Pro or Pro + AI; `FeatureGate` / `gated()` already render the lock card + "See plans" for every feature. Medical, Water/Fire/Shelter and every Emergency Mode guide can never lock.
+- **Test builds:** `.\scripts\build-android.ps1 -Target release -Apk -UnlockAll` → `E:\Projects\GridDown\_exports\GridDown-<ver>-TEST-unlocked.apk` with every gate open and a yellow "TEST BUILD" banner. `.\scripts\test-on-pc.ps1 -Test` installs it on the emulator. A Play bundle can't be built with the flag on. The browser preview is always unlocked.
+- **Products/entitlements:** `app/config/products.ts`; go-live steps in `store-assets/REVENUECAT_SETUP.md`.
 
 ---
 
@@ -131,16 +135,28 @@ GridDown/
 ### Categories and Counts
 | Category | Guides |
 |---|---|
-| Water | 5 |
-| Fire | (see content files) |
-| Shelter | 4 |
-| Food | (see content files) |
-| Medical | 14 |
-| Navigation | (see content files) |
-| Communications | 4 |
-| Security | 4 |
-| Tools | (see content files) |
-| Disaster | 7 |
+| Water | 16 |
+| Fire | 15 |
+| Shelter | 12 |
+| Food | 14 |
+| Medical | 53 |
+| Health & Hygiene | 17 |
+| Navigation | 14 |
+| Comms | 16 |
+| Security | 17 |
+| Tools & Kits | 12 |
+| Disaster | 26 |
+| Grid-Down Home | 16 |
+| Terrain & Climate | 16 |
+| Vehicle | 14 |
+| Homesteading | 14 |
+| Power & Energy | 11 |
+| Urban Survival | 11 |
+| Leadership | 9 |
+| For Children | 12 |
+| **Total** | **315** |
+
+Generated from GridDown-Library 2.0.0 (`app/assets/content/library-manifest.json`). Don't hand-edit `app/assets/content/*.json`; edit the library and re-sync.
 
 ### Content Schema
 ```json
@@ -244,21 +260,9 @@ GitHub Actions runs on every push to `main` and every PR:
 
 ## RevenueCat Configuration
 
-Set environment variables before building:
+Keys go in `.env.local` (gitignored): `EXPO_PUBLIC_REVENUECAT_IOS_KEY`, `EXPO_PUBLIC_REVENUECAT_ANDROID_KEY`. Without them the app runs on Free and the paywall reports purchases unavailable.
 
-```
-REVENUECAT_IOS_KEY=appl_xxxxx
-REVENUECAT_ANDROID_KEY=goog_xxxxx
-```
-
-Entitlement IDs (configure in RevenueCat dashboard):
-- `monthly_access`
-- `yearly_access`
-- `lifetime_standard`
-- `discord_only`
-- `extreme_monthly`
-- `extreme_yearly`
-- `extreme_lifetime`
+Entitlements: **`pro`** and **`extreme`** (customer-facing name "Pro + AI"). Product IDs, offering and test steps: `store-assets/REVENUECAT_SETUP.md`. Legacy per-plan entitlements (`monthly_access`, …) are still accepted.
 
 ---
 

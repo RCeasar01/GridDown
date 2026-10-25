@@ -27,88 +27,78 @@ GridDown: Offline Survival Guide
 
 ### Subtitle (30 chars max)
 ```
-Tactical Prep for Any Crisis
+Offline Survival & Emergency
 ```
-*28 chars ✓*
+*28 / 30 chars ✓*
 
 ---
 
 ### Promotional Text (170 chars max — can update without a new build)
 ```
-The grid goes down. Your phone doesn't need it. Every guide, tool, and database works 100% offline — no signal, no cell service, no power grid.
+The grid goes down. GridDown doesn't. 315 survival guides, Emergency Mode and offline tools on your phone — no signal, no account, no tracking.
 ```
-*143 chars ✓*
+*143 / 170 chars ✓*
 
 ---
 
 ### Description (4000 chars max)
 
 ```
-GRIDDOWN: OFFLINE SURVIVAL GUIDE
+GRIDDOWN — OFFLINE SURVIVAL GUIDE
 
-When the power grid fails, cell towers go dark, and internet access disappears — GridDown is the one app that keeps working. Built by veterans for real emergencies, not day hikes.
+When the power is out, the cell towers are down and help can't reach you, GridDown still works. Every guide, tool and checklist lives on your phone. No signal. No account. No tracking.
 
-100% OFFLINE. ZERO EXCEPTIONS.
-Every guide, tool, and database is stored entirely on your device. No signal required. No cloud dependency. Open GridDown anywhere — dead zones, remote wilderness, natural disasters, prolonged power outages — and everything works instantly.
+100% OFFLINE
+Install once and the whole library works anywhere — dead zones, basements, the backcountry, a week-long blackout. The optional AI advisor and translator languages download once over Wi-Fi, then run offline too.
 
 WHAT'S INSIDE
 
-► 60+ Survival Field Guides
-Written to military and wilderness medicine standards across 12 categories: Water · Shelter · Fire · Food & Foraging · Medical · Navigation · Communications · Security · Vehicle & Mechanical · Homesteading · Field Manuals · Disaster Response. Step-by-step protocols built for when professional help isn't coming.
+► 315 Survival Guides in 19 Categories — free
+Water · Fire · Shelter · Food · Medical · Health & Hygiene · Navigation · Comms · Security · Tools & Kits · Disaster · Grid-Down Home · Terrain & Climate · Vehicle · Homesteading · Power & Energy · Urban Survival · Leadership · For Children.
+Each guide opens with a Quick Glance — what to do right now — then step-by-step instructions, warnings and pro tips. Every guide lists the public sources it was written from: FEMA, CDC, American Red Cross, NOAA, US Army field manuals and more.
 
-► Field Intelligence AI — On-Device (Pro + AI tier)
-A language model that runs entirely on your device and answers from the guides in the app, citing the guide it used. One download over Wi-Fi (1.1 GB Lite or 2.4 GB Standard, picked for your phone), then no internet, no cloud processing, and no conversation data ever transmitted. Your device. Your data.
+► Emergency Mode — free
+One tap (or long-press the app icon) for a large-print crisis screen: severe bleeding, CPR, choking, shock, burns, survival priorities, SOS signaling, and your live GPS / MGRS coordinates to read to a dispatcher.
 
-► 10-Language Offline Translation
-Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Russian, and Hindi — translation runs on your device after a one-time ~30 MB language-pack download. Emergency phrases pre-loaded for instant large-font display.
+► Field Intelligence — On-Device AI (Pro + AI)
+Ask in plain English and get an answer drawn from GridDown's own guides, with the guide it used listed. The model runs entirely on your phone: one download over Wi-Fi (1.1 GB Lite or 2.4 GB Standard, matched to your device), then no internet — your questions never leave the device.
 
-► Daily Drill — 54 Survival Scenarios
-One new scenario every day. Multiple choice, priority ordering, and decision-tree formats. Track readiness scores per category. Calibrated to real survival and TCCC standards.
+► 196 Quizzes + Daily Drill
+Multiple-choice, priority-ordering and decision-tree scenarios with a readiness score for each category. Water, Fire and Shelter are free; Pro unlocks every category.
 
 ► 72-Hour Readiness Scan
-Identify your critical gaps before a crisis does. A systematic assessment of shelter, water, food, medical, communications, and mobility readiness — with actionable recommendations.
+50 questions, about 3–4 minutes, and a personal prep plan at the end.
 
-► Gear Inventory with Expiration Tracking
-Catalog every piece of survival gear with automated shelf-life alerts. Never reach for an expired supply when it matters most.
+► Offline Tools
+HAM repeater database (200+ US repeaters, Pro) · Radio frequencies · Morse code with audio and flashlight · Position & waypoints in lat/long, UTM and MGRS · Coordinate converter · Star map · 10-language offline translator · Survival and water-purification calculators · Knot guide · Signaling.
 
-► Family Emergency Planner
-Assign roles, set rally points, and build emergency contact cards. Export as PDF — print and store offline.
+► Plan Ahead
+My Kit (Bug-Out, Vehicle, Home, Medic) · 25 disaster checklists · 6 Real-World Flows (Bug-Out in 15 Minutes, Shelter-in-Place 72 Hours, Post-Storm Assessment and more) · Gear inventory with expiration alerts · Family Emergency Planner with printable cards · Setup personalized to your profile and region · Night Ops low-light mode.
 
-► HAM Radio Repeater Database
-220+ US repeater entries. Search by state, city, or frequency. Filter by OPEN, ARES, RACES, or SKYWARN. Fully on-device.
-
-► Morse Code Encoder/Decoder
-Real-time encode and decode with audio playback and flashlight signaling. Full international Morse table. SOS shortcut.
-
-► Star Map for Navigation
-Navigate by the stars without GPS. Identify constellations, locate Polaris, and determine cardinal directions — offline.
-
-► MGRS / UTM / GPS Coordinate Converter
-Convert between military grid, UTM, and decimal degrees. Display live coordinates in any format — no network required.
-
-► Emergency Mode
-Crisis-optimized UI for high-stress situations. High-contrast display, simplified navigation, and instant access to critical guides.
-
-VETERAN-DESIGNED
-Built by a combat veteran: 101st Airborne Division (Air Assault) / Screaming Eagles · 187th Infantry Regiment (Rakkasans) · Combat Infantryman · Eagle First Responder · Preventive Medicine Specialist. Every protocol written for real emergencies — not theoretical scenarios.
+VETERAN-BUILT
+Designed by a combat veteran — 101st Airborne Division (Air Assault), Combat Infantryman, Eagle First Responder, Preventive Medicine Specialist. BannedProduct Media Inc. is 100% veteran-owned.
 
 PRIVACY
-Zero data collection. No analytics. No advertising. No account required for free content. Location is never stored or transmitted. The AI runs entirely on-device. See our privacy policy for full details.
+No account. No analytics. No ads. No tracking. Location is shown on screen — never stored or sent. The AI runs on your device. Backups are a file you export and keep.
+
+PLANS
+Free — every guide, Emergency Mode, the offline tools, checklists, kits, flows, Family Planner, and Water / Fire / Shelter quizzes.
+Pro — all 196 quizzes, Daily Drill in every category, and the HAM repeater database.
+Pro + AI — everything in Pro plus the on-device Field Intelligence advisor.
+Monthly, yearly and lifetime options. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period; manage or cancel them in Settings → Apple ID → Subscriptions.
 
 MEDICAL DISCLAIMER
-Medical guides are designed for austere environments where professional care is unavailable. They do not replace professional medical training.
-
-BannedProduct Media Inc. — 100% Veteran-Owned
+GridDown is educational reference material for when professional care is delayed or unavailable. It does not replace medical training, professional care, or calling emergency services when you can.
 ```
-*~3,952 chars ✓*
+*3,619 / 4,000 chars ✓*
 
 ---
 
 ### Keywords (100 chars max, comma-separated)
 ```
-survival,prepper,offline,emergency,grid down,SHTF,HAM radio,first aid,bushcraft,preparedness
+survival,prepper,offline,emergency,grid down,first aid,HAM radio,disaster,preparedness,blackout
 ```
-*93 chars ✓*
+*95 / 100 chars ✓*
 
 ---
 
@@ -149,15 +139,18 @@ Free (with In-App Purchases)
 
 ### In-App Purchases (App Store)
 
-| Product ID | Type | Display Name | Price |
+> **Prices not final.** Two price sets exist (the table below vs. the paywall's fallback labels $4.99 / $34.99 / $89.99 and $10.99 / $74.99 / $159.99). Pick one before creating products — see `LAUNCH_CHECKLIST.md` → *Pricing decision*. The paywall shows live store prices, so the store is the source of truth once products exist.
+> Display names below are what customers see: **Pro** and **Pro + AI**. Product IDs keep the legacy `extreme` wording (renaming an ID after launch breaks existing purchases).
+> **Do not create the Discord product** — the community feature is switched off (`COMMUNITY_ENABLED = false`).
+
+| Product ID | Type | Display Name | Price (pending) |
 |---|---|---|---|
-| `com.bannedproduct.griddown.monthly` | Auto-Renewable Subscription | GridDown Pro Monthly | $3.99/mo |
-| `com.bannedproduct.griddown.yearly` | Auto-Renewable Subscription | GridDown Pro Yearly | $29.99/yr |
-| `com.bannedproduct.griddown.lifetime` | Non-Consumable | GridDown Pro Lifetime | $79.99 |
-| `com.bannedproduct.griddown.discord` | Auto-Renewable Subscription | GridDown Discord | $1.99/mo |
-| `com.bannedproduct.griddown.extreme_monthly` | Auto-Renewable Subscription | GridDown Extreme Monthly | $9.99/mo |
-| `com.bannedproduct.griddown.extreme_yearly` | Auto-Renewable Subscription | GridDown Extreme Yearly | $69.99/yr |
-| `com.bannedproduct.griddown.extreme_lifetime` | Non-Consumable | GridDown Extreme Lifetime | $149.99 |
+| `com.bannedproduct.griddown.monthly` | Auto-Renewable Subscription | GridDown Pro — Monthly | $3.99/mo |
+| `com.bannedproduct.griddown.yearly` | Auto-Renewable Subscription | GridDown Pro — Yearly | $29.99/yr |
+| `com.bannedproduct.griddown.lifetime` | Non-Consumable | GridDown Pro — Lifetime | $79.99 |
+| `com.bannedproduct.griddown.extreme_monthly` | Auto-Renewable Subscription | GridDown Pro + AI — Monthly | $9.99/mo |
+| `com.bannedproduct.griddown.extreme_yearly` | Auto-Renewable Subscription | GridDown Pro + AI — Yearly | $69.99/yr |
+| `com.bannedproduct.griddown.extreme_lifetime` | Non-Consumable | GridDown Pro + AI — Lifetime | $149.99 |
 
 ---
 
@@ -173,88 +166,62 @@ GridDown: Offline Survival Guide
 
 ### Short Description (80 chars max)
 ```
-Offline survival guide for SHTF, natural disasters & grid-down events.
+315 offline survival guides, tools & on-device AI. Works with zero signal.
 ```
-*70 chars ✓*
+*74 / 80 chars ✓*
 
 ---
 
 ### Full Description (4000 chars max)
 
 ```
-GRIDDOWN — THE SURVIVAL GUIDE THAT WORKS WHEN THE GRID DOESN'T.
+GRIDDOWN — OFFLINE SURVIVAL GUIDE
 
-Every guide. Every tool. Fully offline. No account required for free content.
+When the power is out, the cell towers are down and help can't reach you, GridDown still works. Every guide, tool and checklist lives on your phone. No signal. No account. No tracking.
 
-GridDown is a tactical survival reference built for real infrastructure failure — not a day hike. Whether you're preparing for a natural disaster, a prolonged power outage, or a full grid-down event, GridDown gives you the knowledge you need when networks are gone.
+100% OFFLINE
+Install once and the whole library works anywhere — dead zones, basements, the backcountry, a week-long blackout. The optional AI advisor and translator languages download once over Wi-Fi, then run offline too.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-60+ FIELD GUIDES — 12 CATEGORIES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT'S INSIDE
 
-Written to military and wilderness medicine standards — not watered-down internet content.
+► 315 Survival Guides in 19 Categories — free
+Water · Fire · Shelter · Food · Medical · Health & Hygiene · Navigation · Comms · Security · Tools & Kits · Disaster · Grid-Down Home · Terrain & Climate · Vehicle · Homesteading · Power & Energy · Urban Survival · Leadership · For Children.
+Each guide opens with a Quick Glance — what to do right now — then step-by-step instructions, warnings and pro tips. Every guide lists the public sources it was written from: FEMA, CDC, American Red Cross, NOAA, US Army field manuals and more.
 
-💧 Water — sourcing, purifying, and storing water from any environment
-🔥 Fire — starting and maintaining fire in any condition
-🏠 Shelter — debris huts, tarps, snow shelters, urban improvised shelter
-🌱 Food — foraging, hunting, food safety, long-term nutrition
-🩺 Medical — TCCC, tourniquet, wound packing, airway, shock management
-🧭 Navigation — GPS position & waypoints (MGRS), compass, celestial, terrain association
-📻 Communications — HAM radio, Morse code, ground-to-air signals
-🛡️ Security — situational awareness, perimeter, bug-out planning
-🔧 Vehicle & Mechanical — field repairs, tire changes without a jack
-🏡 Homesteading — emergency gardening, food preservation, water collection
-📖 Field Manuals — condensed US Army FM content (public domain)
-⚠️ Disaster — hurricane, tornado, EMP, nuclear, civil unrest protocols
+► Emergency Mode — free
+One tap (or long-press the app icon) for a large-print crisis screen: severe bleeding, CPR, choking, shock, burns, survival priorities, SOS signaling, and your live GPS / MGRS coordinates to read to a dispatcher.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-FEATURES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+► Field Intelligence — On-Device AI (Pro + AI)
+Ask in plain English and get an answer drawn from GridDown's own guides, with the guide it used listed. The model runs entirely on your phone: one download over Wi-Fi (1.1 GB Lite or 2.4 GB Standard, matched to your device), then no internet — your questions never leave the device.
 
-✓ 100% offline — every guide, checklist, navigation tool and quiz works with no connection (AI and translation packs download once over Wi-Fi)
-✓ Field Intelligence AI (Pro + AI) — runs entirely on-device, answers from the in-app guides, no conversation data transmitted
-✓ 10-language offline translation — Spanish, French, Portuguese, German, Arabic, Chinese, Japanese, Korean, Russian, Hindi
-✓ Daily Drill — 54 survival scenarios, new drill every day, readiness score tracking
-✓ 72-Hour Readiness Scan — find your critical gaps before a crisis does
-✓ Gear Inventory with expiration alerts — never reach for expired gear
-✓ Family Emergency Planner with PDF export — assign roles, set rally points
-✓ HAM Radio Repeater Database — 220+ US entries, searchable by state/city/frequency
-✓ Morse Code encoder/decoder — audio playback + flashlight signaling + SOS shortcut
-✓ Star Map for offline navigation — locate Polaris, identify constellations
-✓ MGRS/UTM/GPS coordinate converter — live coordinates in any format, no network
-✓ Emergency Mode — crisis-optimized UI for high-stress situations
-✓ Full-text search ranked by criticality
-✓ Dark tactical UI — readable in low light and direct sunlight
+► 196 Quizzes + Daily Drill
+Multiple-choice, priority-ordering and decision-tree scenarios with a readiness score for each category. Water, Fire and Shelter are free; Pro unlocks every category.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-VETERAN-DESIGNED
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+► 72-Hour Readiness Scan
+50 questions, about 3–4 minutes, and a personal prep plan at the end.
 
-Built by a combat veteran — 101st Airborne Division (Air Assault) / Screaming Eagles · 187th Infantry Regiment (Rakkasans) · Combat Infantryman · Eagle First Responder · Preventive Medicine Specialist. Every guide written for real emergencies.
+► Offline Tools
+HAM repeater database (200+ US repeaters, Pro) · Radio frequencies · Morse code with audio and flashlight · Position & waypoints in lat/long, UTM and MGRS · Coordinate converter · Star map · 10-language offline translator · Survival and water-purification calculators · Knot guide · Signaling.
 
-BannedProduct Media Inc. — 100% Veteran-Owned
+► Plan Ahead
+My Kit (Bug-Out, Vehicle, Home, Medic) · 25 disaster checklists · 6 Real-World Flows (Bug-Out in 15 Minutes, Shelter-in-Place 72 Hours, Post-Storm Assessment and more) · Gear inventory with expiration alerts · Family Emergency Planner with printable cards · Setup personalized to your profile and region · Night Ops low-light mode.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-SUBSCRIPTIONS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VETERAN-BUILT
+Designed by a combat veteran — 101st Airborne Division (Air Assault), Combat Infantryman, Eagle First Responder, Preventive Medicine Specialist. BannedProduct Media Inc. is 100% veteran-owned.
 
-Free — Critical guides across all categories. No account needed.
-Pro Monthly ($3.99/mo) — Full guide library.
-Pro Yearly ($29.99/yr) — Full library, best value.
-Extreme ($9.99/mo or $69.99/yr) — Everything + on-device AI Field Intelligence.
-Lifetime options available for Pro and Extreme tiers.
+PRIVACY
+No account. No analytics. No ads. No tracking. Location is shown on screen — never stored or sent. The AI runs on your device. Backups are a file you export and keep.
 
-Subscriptions auto-renew unless cancelled 24 hours before period end. Manage in Google Play account settings.
+PLANS
+Free — every guide, Emergency Mode, the offline tools, checklists, kits, flows, Family Planner, and Water / Fire / Shelter quizzes.
+Pro — all 196 quizzes, Daily Drill in every category, and the HAM repeater database.
+Pro + AI — everything in Pro plus the on-device Field Intelligence advisor.
+Monthly, yearly and lifetime options. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period; manage or cancel them in Google Play → Payments & subscriptions.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PRIVACY & PERMISSIONS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-No personal data collected. No analytics. No advertising. Location permission (optional) is used only for coordinate display — never stored or transmitted. On-device AI runs entirely locally — no queries or responses transmitted.
-
-MEDICAL DISCLAIMER: Medical guides are for austere environments without access to trained care. They do not replace professional medical training or advice.
+MEDICAL DISCLAIMER
+GridDown is educational reference material for when professional care is delayed or unavailable. It does not replace medical training, professional care, or calling emergency services when you can.
 ```
-*~3,978 chars ✓*
+*3,622 / 4,000 chars ✓*
 
 ---
 
@@ -288,11 +255,9 @@ Free (with In-App Purchases)
 | Feature graphic (required) | 1024 × 500 px |
 
 ### Recommended Screenshot Captions (in order)
-1. "60+ Guides. Zero Signal Required." — Home screen
-2. "Tactical Medical Protocols — Field-Grade Content" — Guide detail (medical)
-3. "Full-Text Search. Ranked by Criticality." — Search screen
-4. "Daily Drill — 54 Survival Scenarios" — Quiz / Daily Drill screen
-5. "72-Hour Readiness Scan" — Readiness scan screen
-6. "Field Intelligence AI — Runs Entirely On-Device" — AI Advisor screen
-7. "HAM Radio · Morse Code · Star Map · Coordinate Converter" — Tools grid
-8. "Family Emergency Planner with PDF Export" — Planner screen
+1. "300+ Survival Guides. Zero Signal Needed." — Home (`01_home.png`)
+2. "Built for the Worst Five Minutes." — Emergency Mode (`05_emergency_mode.png`)
+3. "19 Categories. Every Guide Free." — Learn (`02_learn.png`)
+4. "An AI Advisor That Runs on Your Phone." — Field Intelligence (`06_advisor.png`)
+5. "15+ Offline Tools. No Bars Required." — Tools (`03_tools.png`)
+6. "Train Daily. Know What to Do." — Drill (`04_drill.png`)

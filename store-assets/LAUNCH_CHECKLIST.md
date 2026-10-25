@@ -298,12 +298,23 @@ Check every item before submitting for review.
       *Family Plan* hidden on the paywall (`FAMILY_PLAN_ENABLED`) — no store product, and sharing needs Play Family
       Library / Apple Family Sharing. Paywall now shows **live store prices** from RevenueCat offerings (hardcoded
       labels are the offline fallback only)
-- [ ] **Pricing decision needed before creating products:** the paywall labels say Pro $4.99 / $34.99 / $89.99 and
-      Pro + AI $10.99 / $74.99 / $159.99, but the RevenueCat product IDs still encode the old prices
-      (`griddown_monthly_399`, `griddown_yearly_2999`, `griddown_lifetime_standard_7999`,
-      `griddown_extreme_monthly_999`, `_yearly_6999`, `_lifetime_14999`). Pick one set, create the Play / App Store
-      products at those prices, and either rename the IDs in `RC_PRODUCT_MAP` or the labels — the live-price display
-      will then make the labels moot
+- [ ] **Pricing decision (yours) — the only thing blocking paywalls:** Set A $3.99 / $29.99 / $79.99 (Pro) and
+      $9.99 / $69.99 / $149.99 (Pro + AI), or Set B $4.99 / $34.99 / $89.99 and $10.99 / $74.99 / $159.99 (the
+      paywall's offline fallback labels). Product IDs no longer encode prices, so either works with the same IDs.
+      Then follow `store-assets/REVENUECAT_SETUP.md` start to finish (products → RevenueCat → keys → test)
+- [x] **Paywalls ready to switch on (2026-10-24)** — every gate is one line in `app/config/access.ts`
+      (`FEATURE_TIER`); lock screens + paywall routes exist for guides, quizzes, HAM, tools, kits, flows, checklists,
+      Family Planner and the Advisor. Launch setting: guides/tools free, Pro = all quizzes + HAM, Pro + AI = Advisor.
+      `app/config/products.ts` accepts the documented RevenueCat setup (`pro` / `extreme`, price-free IDs, Play
+      `product:basePlan`) and the old price-encoded IDs — before this, a buyer under the documented setup would have
+      stayed on Free. Test builds: `build-android.ps1 -Target release -Apk -UnlockAll` (banner, refuses AAB)
+- [x] **Store copy rewritten to what ships (2026-10-24)** — App Store / Play descriptions, promo text, keywords,
+      What's New, review notes, product tables, screenshot captions, privacy label, landing page and README now say
+      315 guides / 19 categories / 196 quizzes / 218 repeaters, Free / Pro / Pro + AI; no Discord, Family Plan, USB
+      export, "TCCC", "offline maps" or Extreme. Customer-facing copy carries no prices (stores show them)
+- [x] **Emergency Mode dead links fixed** — six cards opened guide ids the library had renamed; test guards it
+- [x] **`build-android.ps1` actually runs on Windows PowerShell 5.1 now** — em dashes made it unparseable; all
+      `.ps1` scripts are ASCII and CI enforces it
 
 ### Content gaps found during QA (1.1 candidates)
 - No guide for **burns**, **fractures/splinting**, **CPR**, **hypothermia**, **heat illness**, **snakebite** or

@@ -83,7 +83,7 @@ GridDown requests `NSLocationWhenInUseUsageDescription` only. Location usage:
 
 ## 4. In-App Purchases (RevenueCat)
 
-Subscriptions are managed via RevenueCat (`react-native-purchases` v7).
+Subscriptions are managed via RevenueCat (`react-native-purchases` v10).
 
 **Compliance measures:**
 - `Purchases.setAutomaticAppleSearchAdsAttributionCollection(false)` is set at init — **no attribution tracking**.
@@ -93,24 +93,17 @@ Subscriptions are managed via RevenueCat (`react-native-purchases` v7).
 - **Restore Purchases** button is visible at the top of the paywall without any scrolling required.
 - Privacy Policy and Terms of Service links are at the bottom of the paywall.
 
-**Subscription products:**
-- Discord Only: $1.99/month
-- Monthly: $3.99/month
-- Yearly: $29.99/year
-- Extreme Monthly: $9.99/month
-- Extreme Yearly: $69.99/year
+**What is paid:** every guide, Emergency Mode, the offline tools, checklists, kits, flows and the Family Planner are free. **Pro** unlocks every quiz category and the HAM repeater database. **Pro + AI** adds the on-device Field Intelligence advisor. All gates are defined in one file (`app/config/access.ts`).
 
-**One-time purchases:**
-- Lifetime Standard: $79.99
-- Extreme Lifetime: $149.99
+**Products:** Pro (monthly, yearly, lifetime) and Pro + AI (monthly, yearly, lifetime). Prices are those configured in App Store Connect; the paywall reads them live from the store.
 
 ---
 
 ## 5. Offline Architecture
 
 GridDown is designed to work **100% offline** after initial content sync:
-- 60+ guides bundled as static JSON assets in the app bundle.
-- Offline maps via local tile caching.
+- 315 guides in 19 categories bundled as static JSON assets in the app bundle.
+- Position & waypoints use the device GPS only (no map tiles, no network).
 - AI model stored locally after user-initiated download.
 - RevenueCat entitlement state cached locally (works offline).
 - No account system. No login required. App works on first launch without any network access.
@@ -137,13 +130,14 @@ Included via Expo config plugin (`plugins/withPrivacyManifest.js`). Declares:
 ## 7. App Complexity (Guideline 4.2 — Minimum Functionality)
 
 GridDown provides substantial standalone utility:
-- 60+ emergency preparedness guides across 10 categories
-- 6 disaster scenario checklists (earthquake, hurricane, power outage, wildfire, flood, pandemic)
-- Offline topographic maps with GPS coordinate display
+- 315 emergency-preparedness guides across 19 categories, each with cited public sources
+- Emergency Mode: large-print crisis cards (bleeding, CPR, choking, shock, burns), SOS signaling, live GPS / MGRS
+- 196 scenario quizzes, a Daily Drill and a 50-question 72-hour readiness scan
+- 25 disaster checklists, 6 step-by-step Real-World Flows, kit builder, gear inventory with expiry alerts, Family Emergency Planner with printable cards
+- Offline tools: HAM repeater database (218 US repeaters), radio frequencies, Morse code (audio + flashlight), position & waypoints (lat/long, UTM, MGRS), coordinate converter, star map, survival and water-purification calculators, knot guide, signaling
 - On-device AI survival advisor (Phi-3.5 Mini or Qwen2.5-1.5B, fully offline after a one-time download)
-- Multi-language guide translation (on-device ML Kit)
-- USB export package for offline backup to external storage
-- Tiered Discord community access
+- On-device translation (ML Kit, 10 languages)
+- Full data export/import to a file the user keeps
 
 ---
 
