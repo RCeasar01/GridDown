@@ -350,6 +350,11 @@ Check every item before submitting for review.
       5 to merge, 2 flagged for awareness (`sec-011` firearm storage, `urban-009` scavenging title). Act on it in the
       library, never by deleting ids; then rebuild + re-sync + rebuild the app
 
+- [ ] **Code review / history cleanup (yours, before going public-facing):** strip the `Co-Authored-By` /
+      `Claude-Session` trailers from the Oct 24 commits on `main` if you want them gone (rewrite + force-push, then
+      rebase `feature/triage-phase1`), or simply flip the repo private once legal pages move to Cloudflare —
+      the stores never see commit messages
+
 ### Working layout (two sessions, one repo)
 - `E:\Projects\GridDown` — checkout on `feature/triage-phase1` (the other session). Not touched by the release work.
 - `E:\Projects\GridDown-Library` — the content source of truth (one file per guide, validator, writing spec).
