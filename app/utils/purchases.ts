@@ -8,6 +8,7 @@
 import { Platform } from 'react-native';
 import { UserTier, useAppStore } from '../store/useAppStore';
 import { setUserTier as dbSetUserTier } from '../db/contentLoader';
+import { tierForEntitlement } from '../config/products';
 
 /** Persist the tier and push it to the live store so gated screens update immediately. */
 async function applyTier(tier: UserTier, expiresAt: number | null): Promise<void> {
@@ -16,16 +17,7 @@ async function applyTier(tier: UserTier, expiresAt: number | null): Promise<void
   useAppStore.getState().setUserTier(tier);
 }
 
-// Entitlement ID → GridDown tier mapping
-const ENTITLEMENT_TIER_MAP: Record<string, UserTier> = {
-  monthly_access: 'monthly',
-  yearly_access: 'yearly',
-  lifetime_standard: 'lifetime_standard',
-  discord_only: 'discord',
-  extreme_monthly: 'extreme_monthly',
-  extreme_yearly: 'extreme_yearly',
-  extreme_lifetime: 'extreme_lifetime',
-};
+// Entitlement / product mapping lives in config/products.ts (shared with the paywall + tests).
 
 // Tier rank for determining highest active tier
 const TIER_RANK: Record<UserTier, number> = {
@@ -131,9 +123,9 @@ export async function getCustomerInfo() {
 
 export function mapEntitlementToTier(customerInfo: any): UserTier {
   if (!customerInfo?.entitlements?.active) return 'free';
-  const activeIds = Object.keys(customerInfo.entitlements.active);
-  const activeTiers = activeIds
-    .map((id) => ENTITLEMENT_TIER_MAP[id])
+  const active = customerInfo.entitlements.active as Record<string, { productIdentifier?: string }>;
+  const activeTiers = Object.entries(active)
+    .map(([id, ent]) => tierForEntitlement(id, ent?.productIdentifier))
     .filter((t): t is UserTier => !!t);
   return getHighestTier(activeTiers);
 }

@@ -8,6 +8,7 @@ import { Colors } from '../theme/colors';
 import { useAppStore } from '../store/useAppStore';
 import { useRoute, RouteProp } from '@react-navigation/native';
 import { getOfferings, purchasePackage, restorePurchases } from '../utils/purchases';
+import { findPackage, priceTable } from '../config/products';
 import type { HomeStackParamList } from '../navigation/AppNavigator';
 
 const PRIVACY_URL = 'https://rceasar01.github.io/GridDown/privacy';
@@ -138,18 +139,8 @@ const FAMILY_PLAN_ENABLED = false;
 const VISIBLE_PLANS = PLANS.filter((p) => p.id !== 'family' || FAMILY_PLAN_ENABLED);
 
 // RC product IDs for each plan+billing combination
-const RC_PRODUCT_MAP: Record<string, Record<ProPriceKey, string>> = {
-  pro: {
-    monthly: 'griddown_monthly_399',
-    yearly: 'griddown_yearly_2999',
-    lifetime: 'griddown_lifetime_standard_7999',
-  },
-  pro_ai: {
-    monthly: 'griddown_extreme_monthly_999',
-    yearly: 'griddown_extreme_yearly_6999',
-    lifetime: 'griddown_extreme_lifetime_14999',
-  },
-};
+// Product IDs, packages and entitlements: config/products.ts (accepts the canonical
+// REVENUECAT_SETUP.md IDs and the older price-encoded ones).
 
 export function PaywallScreen() {
   const { userTier, setUserTier } = useAppStore();
@@ -160,26 +151,21 @@ export function PaywallScreen() {
   const [proAIPriceKey, setProAIPriceKey] = useState<ProPriceKey>('yearly');
   // Live store prices keyed by product id. Stores require the price the user sees to be
   // the store's own (localized) price; the hardcoded labels are only an offline fallback.
-  const [storePrices, setStorePrices] = useState<Record<string, string>>({});
+  const [storePrices, setStorePrices] = useState<Partial<Record<string, string>>>({});
 
   useEffect(() => {
     let active = true;
     (async () => {
       const offerings = await getOfferings();
       if (!offerings || !active) return;
-      const map: Record<string, string> = {};
-      for (const offering of [offerings.current, ...Object.values(offerings.all)]) {
-        for (const pkg of offering?.availablePackages ?? []) {
-          map[pkg.product.identifier] = pkg.product.priceString;
-        }
-      }
-      setStorePrices(map);
+      const pkgs = [offerings.current, ...Object.values(offerings.all)].flatMap((o) => o?.availablePackages ?? []);
+      setStorePrices(priceTable(pkgs));
     })();
     return () => { active = false; };
   }, []);
 
   function getPriceDisplay(plan: Plan, monthlyKey: ProPriceKey): { price: string; period: string } {
-    const live = storePrices[RC_PRODUCT_MAP[plan.id]?.[monthlyKey] ?? ''];
+    const live = storePrices[`${plan.id}.${monthlyKey}`];
     if (plan.id === 'pro' || plan.id === 'pro_ai') {
       const p = plan as ProPlan | ProAIPlan;
       if (monthlyKey === 'yearly') return { price: live ?? p.priceYearly.split('/')[0], period: '/yr' };
@@ -197,29 +183,19 @@ export function PaywallScreen() {
     if (plan.id === 'free') return;
     if (isLegacyCurrent(plan)) return;
 
-    // Map plan + billing cycle → RevenueCat product ID
-    const priceKey: ProPriceKey =
-      plan.id === 'pro' ? proPriceKey : plan.id === 'pro_ai' ? proAIPriceKey : 'yearly';
-    const productId = RC_PRODUCT_MAP[plan.id]?.[priceKey];
-    if (!productId) {
+    if (plan.id !== 'pro' && plan.id !== 'pro_ai') {
       Alert.alert('Not Available', 'This plan is not yet available for purchase.');
       return;
     }
+    const cycle: ProPriceKey = plan.id === 'pro' ? proPriceKey : proAIPriceKey;
 
     setPurchasing(plan.id);
     try {
       const offerings = await getOfferings();
-      let pkg = offerings?.current?.availablePackages.find(
-        (p) => p.product.identifier === productId
-      );
-      if (!pkg && offerings) {
-        for (const offering of Object.values(offerings.all)) {
-          pkg = offering.availablePackages.find(
-            (p) => p.product.identifier === productId
-          );
-          if (pkg) break;
-        }
-      }
+      const pkgs = offerings
+        ? [offerings.current, ...Object.values(offerings.all)].flatMap((o) => o?.availablePackages ?? [])
+        : [];
+      const pkg = findPackage(pkgs, plan.id, cycle);
       if (!pkg) {
         Alert.alert(
           'Store Unavailable',
@@ -228,9 +204,15 @@ export function PaywallScreen() {
         return;
       }
       const { success, tier } = await purchasePackage(pkg);
-      if (success && tier) {
+      if (success && tier && tier !== 'free') {
         setUserTier(tier);
         Alert.alert('Purchase Complete', 'Thank you! Your plan is now active.');
+      } else if (success) {
+        // Store charged but no entitlement mapped — a RevenueCat config problem, not the user's.
+        Alert.alert(
+          'Almost there',
+          'Your purchase went through but the plan has not unlocked yet. Tap Restore Purchases in a minute; if it still does not unlock, email support@bannedproduct.com and we will fix it.',
+        );
       }
     } catch {
       Alert.alert('Purchase Failed', 'Something went wrong. You have not been charged.');
