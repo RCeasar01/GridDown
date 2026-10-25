@@ -136,7 +136,32 @@ to make a Play bundle while `EXPO_PUBLIC_UNLOCK_ALL` is on.
 
 ---
 
-## 6. Turning more paywalls on later
+## 6. Founder pricing (first 3 months) — early subscribers keep their price
+
+Decision (2026-10-24): anyone who subscribes within the first 3 months keeps that price for as long
+as they stay subscribed. Both stores do this natively; the app enforces nothing.
+
+1. **Launch at the founder price as the list price** (not as an introductory offer — intro offers
+   end after one period, which is the opposite of what we want).
+2. Set `FOUNDER_PRICING_ENDS` in `app/config/products.ts` to launch + 3 months and rebuild; the
+   paywall then shows "Founder pricing: subscribe before <date> and keep this price for as long as
+   you stay subscribed." Put the same sentence in App Store Connect → *Promotional Text* (no build
+   needed) and Play → *Short description* for the window.
+3. **Protect "unless they lapse" from card failures:** App Store Connect → subscription → enable
+   **Billing Grace Period**; Play Console → subscription → base plan → enable **grace period**
+   (7+ days) and **account hold**. A failed payment is then retried for weeks and the subscription
+   (and its price) survives if it recovers. Only a real cancellation followed by a new signup lapses.
+4. **On the end date, raise the list price:**
+   - App Store Connect → subscription → Subscription Prices → *Plan a price change* → choose
+     **"Preserve current price for existing subscribers"**. No consent prompt is shown.
+   - Play Console → subscription → base plan → *Edit price* → existing subscribers stay on the
+     **legacy price** (don't start a price-change migration).
+   - Lifetime products: just change the price; one-time purchases aren't affected.
+   - Set `FOUNDER_PRICING_ENDS` to `null`, remove the line from the store copy, rebuild.
+5. Someone who cancels, lets it expire, and resubscribes later pays the new price automatically —
+   that's the store behaviour, nothing to do.
+
+## 7. Turning more paywalls on later
 
 Change a value in `FEATURE_TIER` (`app/config/access.ts`) to `PLAN.PRO` or `PLAN.PRO_AI`, update
 the plan feature lists in `PaywallScreen.tsx` and the store descriptions to match, rebuild. Every
@@ -145,6 +170,6 @@ Emergency Mode links to can never be locked (`ALWAYS_FREE_GUIDE_IDS`).
 
 ---
 
-## 7. Webhooks (not needed)
+## 8. Webhooks (not needed)
 
 GridDown has no server; entitlements are checked on the device through the RevenueCat SDK.

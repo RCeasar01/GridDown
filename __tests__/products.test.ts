@@ -2,7 +2,7 @@
  * Store product + entitlement mapping (config/products.ts). If this is wrong, a paying
  * customer stays on Free — so every ID scheme we've documented is pinned here.
  */
-import { classifyProduct, findPackage, priceTable, tierForEntitlement } from '../app/config/products';
+import { classifyProduct, findPackage, priceTable, tierForEntitlement, founderPricingActive, FOUNDER_PRICING_ENDS } from '../app/config/products';
 import { mapEntitlementToTier } from '../app/utils/purchases';
 
 jest.mock('../app/db/contentLoader', () => ({ setUserTier: jest.fn() }));
@@ -66,5 +66,12 @@ describe('entitlements → tier', () => {
     expect(mapEntitlementToTier(info)).toBe('extreme_monthly');
     expect(mapEntitlementToTier({ entitlements: { active: {} } })).toBe('free');
     expect(mapEntitlementToTier({ entitlements: { active: { mystery: {} } } })).toBe('free');
+  });
+});
+
+describe('founder pricing window', () => {
+  test('off by default (no date set)', () => {
+    expect(FOUNDER_PRICING_ENDS).toBeNull();
+    expect(founderPricingActive()).toBe(false);
   });
 });

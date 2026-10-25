@@ -8,7 +8,7 @@ import { Colors } from '../theme/colors';
 import { useAppStore } from '../store/useAppStore';
 import { useRoute, RouteProp } from '@react-navigation/native';
 import { getOfferings, purchasePackage, restorePurchases } from '../utils/purchases';
-import { findPackage, priceTable } from '../config/products';
+import { findPackage, priceTable, founderPricingNote } from '../config/products';
 import type { HomeStackParamList } from '../navigation/AppNavigator';
 
 const PRIVACY_URL = 'https://rceasar01.github.io/GridDown/privacy';
@@ -146,6 +146,7 @@ export function PaywallScreen() {
   const { userTier, setUserTier } = useAppStore();
   const route = useRoute<RouteProp<HomeStackParamList, 'Paywall'>>();
   const featureName = route.params?.featureName;
+  const founderNote = founderPricingNote();
   const [purchasing, setPurchasing] = useState<string | null>(null);
   const [proPriceKey, setProPriceKey] = useState<ProPriceKey>('yearly');
   const [proAIPriceKey, setProAIPriceKey] = useState<ProPriceKey>('yearly');
@@ -257,6 +258,13 @@ export function PaywallScreen() {
         <Text style={styles.subtitle}>
           All content is stored on your device. No internet required after setup.
         </Text>
+
+        {founderNote && (
+          <View style={[styles.emergencyNote, { borderColor: Colors.primary }]}>
+            <Ionicons name="ribbon-outline" size={14} color={Colors.primary} />
+            <Text style={styles.emergencyNoteText}>{founderNote}</Text>
+          </View>
+        )}
 
         {/* All plans note */}
         <View style={styles.emergencyNote}>

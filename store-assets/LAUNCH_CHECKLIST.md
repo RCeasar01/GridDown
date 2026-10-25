@@ -302,6 +302,10 @@ Check every item before submitting for review.
       $9.99 / $69.99 / $149.99 (Pro + AI), or Set B $4.99 / $34.99 / $89.99 and $10.99 / $74.99 / $159.99 (the
       paywall's offline fallback labels). Product IDs no longer encode prices, so either works with the same IDs.
       Then follow `store-assets/REVENUECAT_SETUP.md` start to finish (products → RevenueCat → keys → test)
+- [ ] **Founder pricing (decided 2026-10-24):** launch at the founder price as the list price; subscribers in the
+      first 3 months keep it for as long as they stay subscribed (stores preserve existing prices on increase).
+      Set `FOUNDER_PRICING_ENDS` at launch; enable billing grace periods on both stores; raise list prices on the
+      end date with "preserve existing subscribers". Steps: `REVENUECAT_SETUP.md` → section 6
 - [x] **Paywalls ready to switch on (2026-10-24)** — every gate is one line in `app/config/access.ts`
       (`FEATURE_TIER`); lock screens + paywall routes exist for guides, quizzes, HAM, tools, kits, flows, checklists,
       Family Planner and the Advisor. Launch setting: guides/tools free, Pro = all quizzes + HAM, Pro + AI = Advisor.

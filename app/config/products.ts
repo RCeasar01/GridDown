@@ -102,3 +102,24 @@ export function tierForEntitlement(entitlementId: string, productIdentifier?: st
   const cycle: Cycle = cls?.cycle ?? (productIdentifier && /life/i.test(productIdentifier) ? 'lifetime' : productIdentifier && /year|annual/i.test(productIdentifier) ? 'yearly' : 'monthly');
   return TIER_FOR[plan][cycle];
 }
+
+/**
+ * Founder pricing window. Subscribers who start before this date keep their price for as long as
+ * they stay subscribed (both stores preserve existing subscribers' prices when the list price is
+ * raised — see REVENUECAT_SETUP.md → "Founder pricing"). Set to launch + 3 months, ISO date;
+ * null hides the paywall note. The app does not enforce anything — the stores do.
+ */
+export const FOUNDER_PRICING_ENDS: string | null = null;
+
+export function founderPricingActive(now: Date = new Date()): boolean {
+  if (!FOUNDER_PRICING_ENDS) return false;
+  const end = new Date(`${FOUNDER_PRICING_ENDS}T23:59:59`);
+  return !Number.isNaN(end.getTime()) && now <= end;
+}
+
+export function founderPricingNote(): string | null {
+  if (!founderPricingActive()) return null;
+  const end = new Date(`${FOUNDER_PRICING_ENDS}T12:00:00`);
+  const pretty = end.toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' });
+  return `Founder pricing: subscribe before ${pretty} and keep this price for as long as you stay subscribed.`;
+}
